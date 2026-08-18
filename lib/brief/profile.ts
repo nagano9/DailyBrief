@@ -13,6 +13,10 @@ import { fileURLToPath } from "node:url";
  * Kept in a separate file, not baked into the prompt, so the reader's focus
  * can change without a code change — and so it is obvious what is being sent
  * to the model on the reader's behalf.
+ *
+ * `profile.json` is gitignored and personal. `profile.example.json` is the
+ * committed template: a public repo must not ship one person's positioning as
+ * the default every fork inherits.
  */
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -26,7 +30,15 @@ export interface Profile {
 }
 
 export function loadProfile(): Profile | null {
-  if (!fs.existsSync(PROFILE_PATH)) return null;
+  if (!fs.existsSync(PROFILE_PATH)) {
+    // Silence here would be the wrong default: the brief would quietly become
+    // a generic "Top 5 news" and still look like it was working.
+    console.warn(
+      `[profile] no ${PROFILE_PATH} — running without the personal-relevance layer. ` +
+        `Copy profile.example.json to profile.json to enable it.`,
+    );
+    return null;
+  }
   try {
     const parsed = JSON.parse(fs.readFileSync(PROFILE_PATH, "utf8")) as Partial<Profile>;
     if (!parsed.role || !Array.isArray(parsed.focusAreas) || parsed.focusAreas.length === 0) {

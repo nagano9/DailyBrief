@@ -123,8 +123,11 @@ BRIEF_REUSE_CACHE=true npm run brief
 
 ## Lapisan relevansi personal
 
-[profile.json](profile.json) berisi peran dan area perhatian pembaca, lalu
-disuntikkan ke prompt. Ini yang membuat berita Nvidia bisa dibaca sebagai
+[profile.example.json](profile.example.json) adalah templatnya. Salin menjadi
+`profile.json` — file itu di-gitignore dan bersifat pribadi, karena repo
+publik tidak boleh mengirimkan positioning satu orang sebagai default yang
+diwarisi setiap fork. Isinya, peran dan area perhatian pembaca, disuntikkan ke
+prompt. Ini yang membuat berita Nvidia bisa dibaca sebagai
 sinyal project finance, dan hasil multi-agen Anthropic sebagai sinyal tata
 kelola organisasi.
 
@@ -176,7 +179,7 @@ lib/site/           renderer situs: templat, string per bahasa
 scripts/brief.ts    jalankan radar untuk satu hari
 scripts/site.ts     bangun situs dari editions/
 sources.radar.json  registry sumber bertingkat (satu-satunya sumber kebenaran)
-profile.json        lapisan relevansi personal
+profile.example.json templat lapisan relevansi personal (profile.json di-gitignore)
 editions/           arsip terbit — di-commit
 signals/            memori sinyal — di-commit; kehilangan ini menghapus Tier 6
 docs/EDITORIAL.md   standar redaksi dan titik penegakannya

@@ -25,3 +25,7 @@
 # brief engine: raw source excerpts (never published) + generated site
 /.cache/
 /site/
+
+# Reader profile. Personal, and a fork must not inherit someone else's
+# positioning as its default — copy profile.example.json and edit.
+/profile.json
