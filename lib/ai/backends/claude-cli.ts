@@ -1,15 +1,40 @@
 import { spawn } from "node:child_process";
+import fs from "node:fs";
 import path from "node:path";
 import { classifyError, logLlmCall } from "../log";
 import type { LlmRunOptions, LlmRunResult } from "../llm";
 
 export const CLAUDE_MODEL = process.env.CLAUDE_MODEL?.trim() || "sonnet";
 
+/**
+ * Locate the `claude` executable.
+ *
+ * The previous implementation returned `%APPDATA%\npm\claude.cmd`
+ * unconditionally on Windows, which is only correct for an npm global
+ * install. The native installer puts `claude.exe` under
+ * `%USERPROFILE%\.local\bin`, so that guess produced a path that does not
+ * exist and the CLI failed with "The system cannot find the path
+ * specified" — before any API call, with no hint about the cause.
+ *
+ * Candidates are now probed for existence and PATH is the final fallback,
+ * which is what works when the install location is neither of the two.
+ */
 function resolveCliPath(): string {
   const override = process.env.CLAUDE_CLI_PATH?.trim();
   if (override) return override;
-  const appdata = process.env.APPDATA;
-  if (appdata) return path.join(appdata, "npm", "claude.cmd");
+
+  const home = process.env.USERPROFILE || process.env.HOME;
+  const candidates = [
+    process.env.APPDATA && path.join(process.env.APPDATA, "npm", "claude.cmd"),
+    home && path.join(home, ".local", "bin", "claude.exe"),
+    home && path.join(home, ".local", "bin", "claude"),
+  ].filter((p): p is string => !!p);
+
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) return candidate;
+  }
+  // spawn runs with shell:true, so a bare name resolves through PATH
+  // (including PATHEXT on Windows).
   return "claude";
 }
 

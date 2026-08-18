@@ -1,0 +1,131 @@
+name: Publish Brief
+
+# Run the strategic intelligence radar, commit the editions and the signal
+# memory to the archive, and rebuild the public site.
+#
+# The archive is the product. `editions/*.json` is committed back to the
+# default branch so every edition survives a host change, a rebuild, or a
+# rewrite of the renderer — the HTML in gh-pages is disposable, the JSON
+# is not.
+#
+# One-time setup:
+#   1. Settings → Actions → General → Workflow permissions → Read and write
+#   2. Settings → Pages → Source: "Deploy from a branch" → gh-pages / root
+#   3. Settings → Secrets and variables → Actions
+#      Secrets:
+#        ANTHROPIC_API_KEY   (or OPENAI_API_KEY / DEEPSEEK_API_KEY / …)
+#      Variables:
+#        LLM_BACKEND         anthropic | openai | deepseek | minimax | zhipu
+#        SITE_URL            https://<user>.github.io   (origin only, no path)
+#        BASE_PATH           /<repo-name>               (omit for a custom domain)
+#        SITE_NAME           masthead shown on every page
+#        SUBSCRIBE_ENDPOINT  POST target for the subscribe form (optional)
+#        PRIVACY_URL         required if SUBSCRIBE_ENDPOINT is set
+#        BRIEF_LANGS         id  (default; set 'id,en' for both)
+#        REPORT_TZ           Asia/Jakarta
+#        BRIEF_HOUR          local hour to publish (default 6)
+
+on:
+  schedule:
+    # GitHub drops a meaningful share of scheduled runs, so probe twice an
+    # hour and let the gate decide. See the upstream daily.yml for the
+    # measurements behind this.
+    - cron: '11 * * * *'
+    - cron: '41 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-brief
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    name: Time gate
+    runs-on: ubuntu-latest
+    outputs:
+      should-run: ${{ steps.check.outputs.should-run }}
+    steps:
+      - id: check
+        env:
+          REPORT_TZ: ${{ vars.REPORT_TZ }}
+          BRIEF_HOUR: ${{ vars.BRIEF_HOUR }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "should-run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          TZ_VAL="${REPORT_TZ:-Asia/Jakarta}"
+          WANT="${BRIEF_HOUR:-6}"
+          NOW=$(TZ="$TZ_VAL" date +%-H)
+          if [ "$NOW" = "$WANT" ]; then
+            echo "should-run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Hour $NOW in $TZ_VAL != $WANT — skipping"
+            echo "should-run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  publish:
+    name: Compose and publish
+    needs: gate
+    if: needs.gate.outputs.should-run == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Compose today's editions
+        env:
+          LLM_BACKEND: ${{ vars.LLM_BACKEND || 'anthropic' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          BRIEF_LANGS: ${{ vars.BRIEF_LANGS || 'id,en' }}
+          REPORT_TZ: ${{ vars.REPORT_TZ || 'Asia/Jakarta' }}
+        run: npm run brief
+
+      - name: Commit editions and signal memory
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # signals/ is committed alongside editions/: it is what lets
+          # tomorrow's run say "fourth time in three weeks". Lose it and
+          # tier 6 restarts from zero.
+          git add editions/ signals/
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "radar: publish $(date -u +%Y-%m-%d) editions"
+            git push
+          fi
+
+      - name: Build site
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          BASE_PATH: ${{ vars.BASE_PATH }}
+          SITE_NAME: ${{ vars.SITE_NAME }}
+          SUBSCRIBE_ENDPOINT: ${{ vars.SUBSCRIBE_ENDPOINT }}
+          PRIVACY_URL: ${{ vars.PRIVACY_URL }}
+        run: npm run site
+
+      - name: Deploy to Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages

@@ -4,9 +4,66 @@ Operational knowledge for any AI coding agent working on this repo (Claude Code,
 
 ## What this project is
 
+This repository now carries **two pipelines**. Know which one you are in.
+
+### 1. The strategic intelligence radar (the product) — `lib/brief/`, `lib/site/`
+
+A daily briefing across three domains (AI / energy / corporate-BUMN),
+published as a bilingual (id/en) website. **Not an RSS summariser.** Six
+tiers: must-monitor sources, open discovery, emerging signal (arXiv, GitHub
+releases, HN), verification, strategic reasoning, longitudinal signal memory.
+
+Read [docs/EDITORIAL.md](docs/EDITORIAL.md) before changing anything in
+`lib/brief/`. Most rules there are enforced by code, and weakening one
+silently is the worst thing you can do to this repo.
+
+Non-negotiables:
+
+- **Never publish an uncited signal.** `compose.ts` `resolveSignals()` drops
+  signals whose indices do not resolve; `assembleEdition` throws below
+  `BRIEF_MIN_SIGNALS`. Do not "repair" a bad index by dropping it and keeping
+  the claim.
+- **Corroboration and trend status are computed, never model-asserted.** If
+  you find yourself adding a `corroboration` or `trend` field to the prompt
+  schema, stop — a model that grades its own evidence grades it generously.
+- **`signals/history.jsonl` is append-only.** Duplicates from re-runs are
+  collapsed on read (`loadHistory`). Never rewrite or prune it: a trend that
+  can be silently revised is not evidence.
+- **`primary` is decided at fetch time, not from source tier.** A tier-1 RSS
+  feed is the institution itself; a tier-1 *discovery* query returns whoever
+  the index surfaced. Conflating them graded 14% of tier-1 items as primary
+  when they were not.
+- **Trend matching uses `themeKey`, never headline similarity.** Lexical
+  fingerprinting measured 0/10 recall on realistic same-theme headlines. If a
+  test for tier 6 passes using identical headlines across dates, the test is
+  wrong, not the feature.
+- **Never emit untrusted strings into a `<script>` block.** Use
+  `jsonLdScript()`. `JSON.stringify` does not escape `<`, and a feed title is
+  third-party input — this was a confirmed, browser-executing XSS.
+- **Never write source excerpts into `editions/`.** Excerpts live in `.cache/`
+  (gitignored) — inputs, not output.
+- **`sources.radar.json` is the only place radar sources live.** The registry
+  validator refuses to load if any domain has no enabled tier-1 source.
+- **`editions/` and `signals/` are committed.** `site/` is disposable.
+
+Commands: `npm run brief` (run the radar), `npm run site` (build),
+`npm run brief:dry-run` (fetch + pool composition report, no LLM),
+`npm run brief:selftest` (full validation surface against fixtures, no LLM).
+
+Adding a source: append to `sources.radar.json` with `type` one of
+`rss | gnews | arxiv | github-releases | hn | search`, then run
+`npm run brief:dry-run` and check the pool mix actually improved. Volume is
+not improvement.
+
+### 2. The upstream digest — `lib/sources/`, `lib/output/`, `scripts/daily.ts`
+
 `daily-brief` is a local-first pipeline that fetches 23 RSS / API news sources daily (22 in en mode after locale filtering), runs LLM enrichment, and renders a single self-contained HTML report. It runs on the user's machine via the OS scheduler, OR in GitHub Actions publishing to GitHub Pages. No web framework, no DB, no servers.
 
-The repo's `CLAUDE.md` includes this file via `@AGENTS.md`. Don't add stack-specific lore (Next.js, etc.) — there's none in this codebase.
+The repo's `CLAUDE.md` includes this file via `@AGENTS.md`. Don't add stack-specific lore (Next.js, etc.) — there's none in this codebase, and the brief engine's site layer is deliberately plain TypeScript templating for the same reason.
+
+The two pipelines share only `lib/ai/` (the LLM backend switch) and
+`curlFetch`. Keep it that way: the separation is what lets upstream merges
+stay clean.
 
 ## Project layout (essentials)
 

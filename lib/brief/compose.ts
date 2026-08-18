@@ -1,0 +1,362 @@
+import fs from "node:fs";
+import path from "node:path";
+
+import { jsonrepair } from "jsonrepair";
+import { runLlm, getModelTag } from "../ai/llm";
+import { extractJson } from "../ai/json-util";
+import { systemPrompt, userPrompt, type CandidateLine } from "./prompt";
+import { loadProfile } from "./profile";
+import {
+  classifySignal,
+  loadHistory,
+  normaliseThemeKey,
+  summariseTrends,
+  trendContext,
+  type SignalRecord,
+} from "./memory";
+import {
+  DOMAINS,
+  ENGINE_VERSION,
+  type Corroboration,
+  type Domain,
+  type Edition,
+  type EditionMeta,
+  type FeedItem,
+  type Lang,
+  type Signal,
+  type SignalStrength,
+  type SourceRef,
+  type SourceTier,
+  type WatchItem,
+} from "./types";
+
+/**
+ * Tier 4 (verification) + Tier 5 (reasoning) + Tier 6 (memory), assembled.
+ *
+ * The contract that makes this citable: **the model cites candidate indices,
+ * and this module resolves them.** A signal whose indices do not resolve is
+ * dropped, not repaired. Nothing reaches a reader that is not anchored to a
+ * URL actually fetched today.
+ *
+ * Corroboration and trend status are computed here, never asserted by the
+ * model — a model that grades its own evidence grades it generously.
+ */
+
+const CANDIDATE_LIMIT = Number(process.env.BRIEF_CANDIDATE_LIMIT ?? 110);
+const REQUIRED_SIGNALS = 5;
+/** Publish with fewer than this many valid signals and the briefing is thin. */
+const MIN_SIGNALS = Number(process.env.BRIEF_MIN_SIGNALS ?? 3);
+
+export interface ComposeResult {
+  edition: Edition;
+  rejected: { statement: string; reason: string }[];
+}
+
+function fmtDate(d?: Date): string {
+  if (!d || Number.isNaN(d.getTime())) return "n/a";
+  return d.toISOString().slice(0, 10);
+}
+
+export function buildCandidates(items: FeedItem[]): {
+  lines: CandidateLine[];
+  pool: FeedItem[];
+} {
+  const pool = items.slice(0, CANDIDATE_LIMIT);
+  const lines = pool.map((it, i) => ({
+    index: i + 1,
+    publisher: it.publisher,
+    title: it.title,
+    date: fmtDate(it.publishedAt),
+    tier: it.tier,
+    domain: it.domain,
+    excerpt: it.excerpt?.slice(0, 180),
+  }));
+  return { lines, pool };
+}
+
+function parseLlmJson(raw: string): Record<string, unknown> {
+  const text = extractJson(raw);
+  // extractJson returns its input unchanged when it finds no braces, and
+  // jsonrepair will happily "repair" a bare sentence into an object keyed by
+  // character index — turning a plain-English backend error into a baffling
+  // one about missing fields.
+  if (!text.startsWith("{")) {
+    throw new Error(
+      `model did not return JSON. First 200 chars of the response: ${raw.trim().slice(0, 200)}`,
+    );
+  }
+  try {
+    return JSON.parse(text) as Record<string, unknown>;
+  } catch {
+    return JSON.parse(jsonrepair(text)) as Record<string, unknown>;
+  }
+}
+
+function str(v: unknown): string {
+  return typeof v === "string" ? v.trim() : "";
+}
+
+const STRENGTHS = new Set<SignalStrength>(["material", "emerging", "actionable"]);
+const VALID_DOMAINS = new Set<string>(DOMAINS);
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+
+function parseWatch(v: unknown): WatchItem[] {
+  if (!Array.isArray(v)) return [];
+  const out: WatchItem[] = [];
+  for (const raw of v) {
+    if (typeof raw === "string") {
+      if (raw.trim()) out.push({ item: raw.trim() });
+      continue;
+    }
+    if (!raw || typeof raw !== "object") continue;
+    const w = raw as Record<string, unknown>;
+    const item = str(w.item);
+    if (!item) continue;
+    const dueDate =
+      typeof w.dueDate === "string" && ISO_DATE.test(w.dueDate) ? w.dueDate : undefined;
+    out.push({ item, dueDate });
+  }
+  return out.slice(0, 6);
+}
+
+/**
+ * Tier 4 — corroboration, computed from the citations themselves.
+ *
+ * Counts DISTINCT publishers, not citations: three wire pickups of one press
+ * release is one publisher's worth of evidence dressed as three. `hasPrimary`
+ * says whether any citation came from a must-monitor source, which is the
+ * difference between "the lab announced it" and "someone says the lab
+ * announced it".
+ */
+function corroborate(items: FeedItem[]): Corroboration {
+  const publishers = new Set(items.map((i) => i.publisher.toLowerCase()));
+  const bestTier = Math.min(...items.map((i) => i.tier)) as SourceTier;
+  // `primary` is decided at fetch time, where we know whether the item came
+  // from an institution's own feed or from an index query that happened to
+  // sit at tier 1. Reading source tier here graded 14% of tier-1 items as
+  // primary when they were not.
+  const hasPrimary = items.some((i) => i.primary);
+  return { publishers: publishers.size, hasPrimary, bestTier };
+}
+
+interface ResolvedSignals {
+  signals: Omit<Signal, "trend">[];
+  cited: Set<number>;
+  rejected: { statement: string; reason: string }[];
+}
+
+/**
+ * Resolve `cites: [3, 7]` against the candidate pool and build each signal.
+ *
+ * Rejects rather than repairs. A signal citing item 140 when we showed 110 is
+ * a model that lost track of the list; dropping the bad index and publishing
+ * the claim anyway would defeat the entire design.
+ */
+function resolveSignals(v: unknown, pool: FeedItem[]): ResolvedSignals {
+  const signals: Omit<Signal, "trend">[] = [];
+  const cited = new Set<number>();
+  const rejected: { statement: string; reason: string }[] = [];
+  if (!Array.isArray(v)) return { signals, cited, rejected };
+
+  for (const raw of v) {
+    if (!raw || typeof raw !== "object") continue;
+    const s = raw as Record<string, unknown>;
+    const headline = str(s.headline);
+    if (!headline) continue;
+
+    const themeKey = normaliseThemeKey(str(s.themeKey));
+    if (!themeKey) {
+      rejected.push({ statement: headline, reason: "missing themeKey" });
+      continue;
+    }
+
+    const whatChanged = str(s.whatChanged);
+    const whyItMatters = str(s.whyItMatters);
+    if (!whatChanged || !whyItMatters) {
+      rejected.push({ statement: headline, reason: "incomplete reasoning ladder" });
+      continue;
+    }
+
+    const indices = (Array.isArray(s.cites) ? s.cites : [])
+      .map((n) => (typeof n === "number" ? n : Number.parseInt(String(n), 10)))
+      .filter((n) => Number.isInteger(n));
+
+    if (indices.length === 0) {
+      rejected.push({ statement: headline, reason: "no citation" });
+      continue;
+    }
+    const outOfRange = indices.filter((n) => n < 1 || n > pool.length);
+    if (outOfRange.length > 0) {
+      rejected.push({
+        statement: headline,
+        reason: `citation out of range: ${outOfRange.join(", ")} (pool is 1..${pool.length})`,
+      });
+      continue;
+    }
+
+    const unique = [...new Set(indices)];
+    for (const n of unique) cited.add(n);
+    const backing = unique.map((n) => pool[n - 1]);
+
+    const domainRaw = str(s.domain);
+    const domain = VALID_DOMAINS.has(domainRaw) ? (domainRaw as Domain) : backing[0].domain;
+    const strength = STRENGTHS.has(s.strength as SignalStrength)
+      ? (s.strength as SignalStrength)
+      : "material";
+
+    signals.push({
+      rank: typeof s.rank === "number" ? s.rank : signals.length + 1,
+      domain,
+      themeKey,
+      headline,
+      whatChanged,
+      whyItMatters,
+      secondOrder: str(s.secondOrder),
+      action: str(s.action),
+      strength,
+      sourceUrls: backing.map((b) => b.url),
+      corroboration: corroborate(backing),
+    });
+  }
+
+  signals.sort((a, b) => a.rank - b.rank);
+  signals.forEach((s, i) => {
+    s.rank = i + 1;
+  });
+  return { signals, cited, rejected: rejected.slice(0, 20) };
+}
+
+function toSourceRefs(pool: FeedItem[], cited: Set<number>): SourceRef[] {
+  return [...cited]
+    .sort((a, b) => a - b)
+    .map((n) => pool[n - 1])
+    .map((it) => ({
+      title: it.title,
+      publisher: it.publisher,
+      url: it.url,
+      tier: it.tier,
+      via: it.via,
+      primary: it.primary,
+      publishedAt:
+        it.publishedAt && !Number.isNaN(it.publishedAt.getTime())
+          ? it.publishedAt.toISOString()
+          : undefined,
+    }));
+}
+
+export interface AssembleInput {
+  /** Raw model response text. */
+  text: string;
+  /** The exact candidate pool the model was shown — citation indices map into this. */
+  pool: FeedItem[];
+  lang: Lang;
+  date: string;
+  meta: Omit<EditionMeta, "generatedAt" | "engineVersion" | "model">;
+  /** Signal archive for trend classification. Pass [] to disable tier 6. */
+  history: SignalRecord[];
+}
+
+/**
+ * Validate a model response and assemble a publishable Edition.
+ *
+ * Separated from the LLM call so the whole validation surface — citation
+ * resolution, corroboration, trend classification, premium gating — can be
+ * exercised against fixtures without spending a call or needing credentials.
+ */
+export function assembleEdition({
+  text,
+  pool,
+  lang,
+  date,
+  meta,
+  history,
+}: AssembleInput): ComposeResult {
+  if (process.env.BRIEF_DEBUG_RAW === "true") {
+    fs.mkdirSync(".cache", { recursive: true });
+    const file = path.join(".cache", `${date}-${lang}-raw.txt`);
+    fs.writeFileSync(file, text, "utf8");
+    console.log(`[compose] raw model output → ${file} (${text.length} chars)`);
+  }
+
+  const raw = parseLlmJson(text);
+  if (!Array.isArray(raw.signals)) {
+    throw new Error(
+      `model returned no "signals" array (top-level keys: ${Object.keys(raw).join(", ") || "none"}). ` +
+        `Re-run with BRIEF_DEBUG_RAW=true to capture the raw output.`,
+    );
+  }
+
+  const { signals: bare, cited, rejected } = resolveSignals(raw.signals, pool);
+
+  if (bare.length < MIN_SIGNALS) {
+    throw new Error(
+      `only ${bare.length} signal(s) survived validation, minimum is ${MIN_SIGNALS} ` +
+        `(${rejected.length} rejected) — refusing to publish a thin briefing`,
+    );
+  }
+  if (bare.length !== REQUIRED_SIGNALS) {
+    console.warn(`[compose] ${lang}: ${bare.length} valid signals, expected ${REQUIRED_SIGNALS}`);
+  }
+
+  // Tier 6 — classify each signal against the archive, then surface the
+  // archive's recurring themes independently of today's five.
+  const signals: Signal[] = bare.map((s) => ({
+    ...s,
+    trend: classifySignal(s.themeKey, history, date),
+  }));
+  const trends = summariseTrends(history, date, 5);
+
+  const title = str(raw.title);
+  const edition: Edition = {
+    slug: date,
+    date,
+    lang,
+    title:
+      title || (lang === "en" ? `Strategic briefing — ${date}` : `Briefing strategis — ${date}`),
+    dek: str(raw.dek),
+    domains: [...new Set(signals.map((s) => s.domain))],
+    summary: str(raw.summary),
+    signals,
+    watchNext: parseWatch(raw.watchNext),
+    sources: toSourceRefs(pool, cited),
+    trends,
+    meta: {
+      ...meta,
+      generatedAt: new Date().toISOString(),
+      engineVersion: ENGINE_VERSION,
+      model: getModelTag(),
+    },
+  };
+
+  return { edition, rejected };
+}
+
+export async function composeEdition(
+  items: FeedItem[],
+  lang: Lang,
+  date: string,
+  tierCounts: Record<SourceTier, number>,
+): Promise<ComposeResult> {
+  const { lines, pool } = buildCandidates(items);
+  if (pool.length === 0) {
+    throw new Error("no candidate items — refusing to compose an empty briefing");
+  }
+
+  const history = loadHistory();
+  const profile = loadProfile();
+
+  const { text } = await runLlm({
+    systemPrompt: systemPrompt(lang),
+    userPrompt: userPrompt(lang, date, lines, trendContext(history, date, lang), profile),
+    timeoutMs: 300_000,
+  });
+
+  return assembleEdition({
+    text,
+    pool,
+    lang,
+    date,
+    history,
+    meta: { tierCounts, candidateCount: items.length, poolSize: pool.length },
+  });
+}

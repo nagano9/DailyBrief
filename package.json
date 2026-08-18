@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "brief": "tsx scripts/brief.ts",
+    "brief:dry-run": "tsx scripts/brief-dry-run.ts",
+    "brief:selftest": "tsx scripts/brief-selftest.ts",
+    "site": "tsx scripts/site.ts",
     "dry-run": "tsx scripts/dry-run.ts",
     "daily": "tsx scripts/daily.ts",
     "render": "tsx scripts/render.ts",
