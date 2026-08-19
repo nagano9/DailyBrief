@@ -44,6 +44,20 @@ import {
  */
 
 const CANDIDATE_LIMIT = Number(process.env.BRIEF_CANDIDATE_LIMIT ?? 110);
+/**
+ * How many single-source, no-primary signals an edition may carry.
+ *
+ * Measured across five published editions, the evidence gradient collapses at
+ * the bottom of the ranking: rank 5 fell to a single publisher in four of
+ * them, and rank 3 did so in two. Nothing prevented it, because ranking was
+ * the model's alone and a model grading its own evidence grades it
+ * generously.
+ *
+ * One such signal is defensible — a genuine scoop reaches one outlet first.
+ * Several is a briefing whose claims cannot be checked, on a product whose
+ * whole proposition is that they can.
+ */
+const MAX_UNVERIFIED = Number(process.env.BRIEF_MAX_UNVERIFIED ?? 1);
 const REQUIRED_SIGNALS = 5;
 /** Publish with fewer than this many valid signals and the briefing is thin. */
 const MIN_SIGNALS = Number(process.env.BRIEF_MIN_SIGNALS ?? 3);
@@ -194,6 +208,16 @@ export function resolveEntities(raw: unknown, prose: string): string[] {
   return out.slice(0, 6);
 }
 
+/**
+ * A claim carried by one publisher, with no primary source behind it.
+ *
+ * Not false, and not necessarily weak — but nothing in the edition lets a
+ * reader cross-check it, so it cannot lead one.
+ */
+export function isUnverified(c: Corroboration): boolean {
+  return c.publishers < 2 && !c.hasPrimary;
+}
+
 function corroborate(items: FeedItem[]): Corroboration {
   const publishers = new Set(items.map((i) => i.publisher.toLowerCase()));
   // `primary` is decided at fetch time, where we know whether the item came
@@ -305,10 +329,33 @@ function resolveSignals(v: unknown, pool: FeedItem[]): ResolvedSignals {
   }
 
   signals.sort((a, b) => a.rank - b.rank);
-  signals.forEach((s, i) => {
+
+  // An unverified claim may appear, but it may not lead. Sorting is stable,
+  // so the model's ordering survives inside each group — this decides only
+  // that checkable claims come first, not which of them wins.
+  const verified = signals.filter((s) => !isUnverified(s.corroboration));
+  const unverified = signals.filter((s) => isUnverified(s.corroboration));
+
+  for (const dropped of unverified.slice(MAX_UNVERIFIED)) {
+    rejected.push({
+      statement: dropped.headline,
+      reason: `unverified beyond the cap of ${MAX_UNVERIFIED} (single publisher, no primary source)`,
+    });
+  }
+
+  const kept = [...verified, ...unverified.slice(0, MAX_UNVERIFIED)];
+  kept.forEach((s, i) => {
     s.rank = i + 1;
   });
-  return { signals, cited, rejected: rejected.slice(0, 20) };
+
+  // Rebuild the citation set from what survived. Accumulating it during the
+  // loop would leave the source list carrying entries no signal references —
+  // a bibliography padded with sources the edition does not actually use,
+  // which is the opposite of what the list is for.
+  const keptUrls = new Set(kept.flatMap((sig) => [...sig.sourceUrls, ...sig.secondOrderUrls]));
+  const stillCited = new Set([...cited].filter((n) => keptUrls.has(pool[n - 1].url)));
+
+  return { signals: kept, cited: stillCited, rejected: rejected.slice(0, 20) };
 }
 
 function toSourceRefs(pool: FeedItem[], cited: Set<number>): SourceRef[] {

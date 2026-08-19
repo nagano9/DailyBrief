@@ -70,15 +70,16 @@ function fixture(lang: Lang, poolSize: number): string {
     signals: [
       // Two distinct sources → corroboration must count 2 publishers.
       sig(1, "ai", "ai-agents-enterprise", "Agen AI bergerak ke produksi perusahaan", [1, 2]),
-      // Second-order reasoning that rests on published evidence, not inference.
-      sig(2, "energy", "pln-grid-investment", "Investasi jaringan listrik dipercepat", [3], {
-        secondOrderCites: [6],
+      // Two publishers, so verified. Its second-order rests on published
+      // evidence, which must NOT inflate the corroboration count.
+      sig(2, "energy", "pln-grid-investment", "Investasi jaringan listrik dipercepat", [3, 6], {
+        secondOrderCites: [1],
       }),
       // Same theme as the seeded archive, but a HEADLINE THAT SHARES ALMOST NO
       // WORDS with any seeded one. Only the themeKey ties them together.
       sig(3, "ai", THEME, "Vendor chip menanggung eksposur pembiayaan infrastruktur", [4]),
       // Theme key with sloppy formatting — must normalise to the same slug.
-      sig(4, "ai", "  AI Datacenter Project Finance.  ", "Bank mulai menstruktur ulang fasilitas pusat data", [5]),
+      sig(4, "ai", "  AI Datacenter Project Finance.  ", "Bank mulai menstruktur ulang fasilitas pusat data", [2]),
       // DEFECT 1: citation beyond the pool → rejected.
       sig(5, "ai", "x-out-of-range", id ? "Kutipan di luar rentang — DITOLAK." : "Out-of-range citation — REJECTED.", [poolSize + 500]),
       // DEFECT 2: no citation → rejected.
@@ -100,6 +101,10 @@ function fixture(lang: Lang, poolSize: number): string {
       sig(9, "not-a-domain", "x-bad-enums", id ? "Enum tidak valid — dinormalisasi." : "Invalid enums — normalised.", [2], {
         strength: "catastrophic",
       }),
+      // Two single-publisher, no-primary claims. One may publish; the other
+      // must be dropped by the evidence floor, and neither may lead.
+      sig(10, "ai", "x-unverified-one", id ? "Bersumber tunggal, pertama." : "Single source, first.", [5]),
+      sig(11, "ai", "x-unverified-two", id ? "Bersumber tunggal, kedua." : "Single source, second.", [7]),
     ],
     watchNext: [
       { item: id ? "Tanggal valid dipertahankan." : "Valid date is kept.", dueDate: "2026-09-30" },
@@ -221,13 +226,34 @@ async function main() {
       meta: { tierCounts: countByTier(enabledSources()), candidateCount: 300, poolSize: pool.length },
     });
 
-    check("5 valid signals survived", edition.signals.length === 5);
-    check("4 defective signals rejected", rejected.length === 4);
+    check("6 signals survive: 5 verified plus the one permitted unverified", edition.signals.length === 6);
+    check(
+      "the verified signals come first",
+      edition.signals
+        .slice(0, 5)
+        .every((sg) => sg.corroboration.publishers >= 2 || sg.corroboration.hasPrimary),
+    );
+    check("4 defective signals rejected", rejected.filter((r) => !r.reason.startsWith("unverified")).length === 4);
     check("out-of-range citation rejected", rejected.some((r) => r.reason.startsWith("citation out of range")));
     check("missing citation rejected", rejected.some((r) => r.reason === "no citation"));
     check("missing themeKey rejected", rejected.some((r) => r.reason === "missing themeKey"));
     check("incomplete ladder rejected", rejected.some((r) => r.reason === "incomplete reasoning ladder"));
-    check("ranks renumbered 1..5", edition.signals.every((s, i) => s.rank === i + 1));
+    check("ranks renumbered from 1", edition.signals.every((s, i) => s.rank === i + 1));
+
+    // The evidence floor.
+    const unver = edition.signals.filter((sg) => sg.corroboration.publishers < 2 && !sg.corroboration.hasPrimary);
+    check("at most one unverified signal published", unver.length <= 1);
+    check(
+      "the surplus unverified signal was dropped, with a reason",
+      rejected.some((r) => r.reason.startsWith("unverified beyond the cap")),
+    );
+    check("an unverified signal never leads the edition", edition.signals[0].corroboration.publishers >= 2 || edition.signals[0].corroboration.hasPrimary);
+    check(
+      "every cited source is referenced by a surviving signal",
+      edition.sources.every((src) =>
+        edition.signals.some((sg) => sg.sourceUrls.includes(src.url) || sg.secondOrderUrls.includes(src.url)),
+      ),
+    );
     check("invalid strength normalised", edition.signals[4]?.strength === "material");
     check(
       "invalid domain fell back to the cited item's domain",
@@ -249,7 +275,7 @@ async function main() {
       "corroboration ignores second-order citations",
       // Signal 2 cites one fact source; adding a second-order citation must
       // not inflate the publisher count that grades the claim.
-      edition.signals[1].corroboration.publishers === 1,
+      edition.signals[1].corroboration.publishers === 2,
     );
     check(
       "no source body is ever written into a published edition",

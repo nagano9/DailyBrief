@@ -402,7 +402,7 @@ color:var(--muted);border:1px solid var(--rule);padding:.12rem .4rem}
 .rail-trend{position:absolute;left:100%;top:0;width:var(--rail-r);
 margin-left:var(--rail-gap);font-family:var(--sans);font-size:.76rem;
 line-height:1.5;color:var(--muted)}
-.rail-trend h4{font-family:var(--mono);font-size:.62rem;font-weight:500;
+.rail-trend .rail-h{font-family:var(--mono);font-size:.62rem;font-weight:500;
 text-transform:uppercase;letter-spacing:.13em;color:var(--faint);
 margin:0 0 .5rem;padding-bottom:.35rem;border-bottom:1px solid var(--rule)}
 .rail-trend ul{margin:0;padding:0;list-style:none}
@@ -728,8 +728,8 @@ export function renderEdition(cfg: SiteConfig, e: Edition, hasAlt: boolean): str
   // reading today, not an appendix to it.
   const trendRail =
     e.trends.length > 0 &&
-    html`<aside class="rail-trend">
-<h4>${s.trends}</h4>
+    html`<aside class="rail-trend" aria-labelledby="tren">
+<h2 id="tren" class="rail-h">${s.trends}</h2>
 <ul>
 ${e.trends.map(
   (t) => html`<li class="${t.status}">${t.theme}<span class="n">${s.trendSince(
@@ -771,8 +771,8 @@ ${e.domains.map(
 ${e.summary && html`<h2>${s.summary}</h2>
 <p>${e.summary}</p>`}
 
-<h2>${s.signals}</h2>
 ${trendRail}
+<h2>${s.signals}</h2>
 ${e.signals.map((sig) => renderSignal(e, sig))}
 
 

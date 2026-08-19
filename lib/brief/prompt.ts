@@ -96,6 +96,13 @@ HIERARKI SUMBER — dahulukan sumber primer:
   5. Sumber lain
 Bila sebuah klaim hanya didukung satu penerbit di luar tiga tingkat teratas,
 katakan bahwa buktinya masih tipis.
+
+LANTAI BUKTI — ditegakkan kode, bukan sekadar imbauan:
+Sinyal yang hanya punya SATU penerbit DAN tanpa sumber primer tidak boleh
+memimpin edisi, dan hanya satu yang boleh terbit. Sisanya dibuang setelah
+Anda mengirim jawaban. Jadi utamakan perkembangan yang bisa Anda korroborasi;
+pilih klaim bersumber tunggal hanya bila ia benar-benar layak menempati satu
+dari lima tempat.
 `.trim();
 
 const SELECTION_EN = `
@@ -122,6 +129,12 @@ SOURCE HIERARCHY — prefer primary sources:
   5. Other
 When a claim rests on a single publisher outside the top three levels, say the
 evidence is thin.
+
+EVIDENCE FLOOR — enforced in code, not merely advised:
+A signal with ONE publisher AND no primary source may not lead the edition,
+and only one may be published at all. The rest are dropped after you answer.
+So prefer developments you can corroborate, and pick a single-source claim
+only when it genuinely deserves one of the five places.
 `.trim();
 
 const SCHEMA_ID = `
