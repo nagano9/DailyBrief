@@ -2,65 +2,28 @@
   "slug": "2026-08-20",
   "date": "2026-08-20",
   "lang": "id",
-  "title": "Danantara, Panas Bumi, dan OpenAI Privasi: Tiga Arsitektur yang Bergeser Hari Ini",
-  "dek": "Restrukturisasi BUMN Karya yang mandek, tekanan konsesi panas bumi dari Bahlil, dan perubahan kebijakan privasi data OpenAI membentuk ulang tiga rantai nilai sekaligus dalam satu hari.",
+  "title": "Geothermal Stagnan, BUMN Karya Tersendat, OpenAI Perkuat Privasi Data",
+  "dek": "Tiga tekanan struktural berpuncak hari ini: konsesi panas bumi yang tidak digarap, restrukturisasi BUMN Karya yang macet, dan pergeseran rezim data API OpenAI yang berdampak langsung pada adopsi enterprise.",
   "domains": [
-    "corporate",
     "energy",
+    "corporate",
     "ai"
   ],
-  "summary": "Danantara secara terbuka mengakui kesulitan struktural dalam merestrukturisasi BUMN Karya—masalah yang menyentuh tata kelola, neraca, dan kepercayaan pasar terhadap seluruh ekosistem BUMN. Di sisi energi, Menteri Bahlil memimpin ajang panas bumi internasional sambil secara eksplisit menekan pengembang yang menahan konsesi—sinyal kebijakan yang konsisten dengan target PNBP panas bumi Rp 2,6 triliun tahun ini. Di perbatasan AI dan energi, TerraPower muncul sebagai penyedia daya nuklir untuk pusat data AI, memperkuat tren konvergensi compute-energy. OpenAI bergerak pada dua front sekaligus: meluncurkan Zero Data Retention untuk pelanggan API enterprise dan mengekspansi ChatGPT Ads ke 31 pasar Eropa—dua sinyal yang tampak bertentangan namun sesungguhnya mendefinisikan ulang model bisnis AI di segmen korporasi versus konsumen. Kelima sinyal ini bersama-sama menunjukkan bahwa arsitektur kelembagaan—bukan teknologi semata—kini menjadi penentu kecepatan transisi.",
+  "summary": "Kementerian ESDM menegur pengembang panas bumi yang menahan konsesi di tengah target PNBP Rp 2,6 triliun—menandai eskalasi tekanan regulasi pada sektor yang selama ini lamban. Secara paralel, Danantara mengakui hambatan struktural dalam restrukturisasi BUMN Karya, sementara opini tata kelola mempertanyakan validitas laba BUMN yang dilaporkan. Di sisi AI, OpenAI memformalkan Zero Data Retention dan pratinjau Private Safety Processing untuk pelanggan API, menggeser standar privasi enterprise sekaligus membuka celah bagi pesaing yang belum menawarkan jaminan serupa. Pembiayaan transisi energi Indonesia mendapat dorongan nyata dari komitmen Indonesia-Jerman senilai Rp 47,5 triliun, sementara ESDM mengklaim telah mengamankan 9.000 hektare lahan untuk target PLTS 30 GW—dua sinyal yang memperkuat jalur investasi energi terbarukan namun belum terhubung dengan kerangka eksekusi yang jelas.",
   "signals": [
     {
       "rank": 1,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-restrukturisasi",
-      "entities": [
-        "Danantara",
-        "BUMN Karya",
-        "BP BUMN"
-      ],
-      "headline": "Danantara akui hambatan struktural restrukturisasi BUMN Karya; target laba konsolidasi Rp 360 T tetap dipasang",
-      "whatChanged": "CEO Danantara secara publik mengakui bahwa restrukturisasi BUMN Karya berlarut-larut akibat kompleksitas hukum, beban utang, dan tumpang-tindih proyek. Pada saat yang sama, Danantara memasang target laba konsolidasi seluruh BUMN sebesar Rp 360 triliun pada 2026—angka yang disebut eksplisit oleh investor.id dan dikonfirmasi ANTARA News.",
-      "whyItMatters": "Dua pernyataan ini saling bertegangan: mengakui hambatan restrukturisasi sambil mempertahankan target laba jumbo menunjukkan bahwa Danantara sedang mengelola ekspektasi publik sekaligus investor obligasi. Bila BUMN Karya—yang menanggung utang besar—tidak direstrukturisasi tepat waktu, target Rp 360 T rentan menjadi 'laba semu' seperti yang dikritik Media Indonesia.",
-      "secondOrder": "Tekanan tata kelola ini berpotensi mempersulit penerbitan obligasi dolar Danantara (yang sebelumnya menargetkan USD 1 miliar) karena investor institusional akan mempertanyakan kualitas aset underlying. Jika roadmap lima tahun yang difinalkan bersama BP BUMN tidak disertai milestone restrukturisasi yang terukur dan publik, diskon risiko pada instrumen utang Danantara akan melebar.",
-      "action": "Tinjau ulang eksposur portofolio terhadap sekuritas atau obligasi yang terkait BUMN Karya. Minta klarifikasi: dari Rp 360 T target laba, berapa persen berasal dari BUMN Karya yang sedang direstrukturisasi, dan apakah angka itu sudah mengeliminasi eliminasi konsolidasi antarentitas (risiko 'laba semu').",
-      "strength": "actionable",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZFNYMnUxak5xZnpRN01kZy0tY3lKT1JCWmpXUHlUR2dEUmwyQ3lOT2JNOFBQYzhWamFDRXp2YkZ6aU1wVjJrWGdYaTl0Y0JoMnpsUXQzZWRXaFBNZUFzV25lLXQ1MHJKcnRZNXhPT2xUZHJMTWp3aGViT3lUbk9QMVVMT29yZEZUcUFSRkVCOTIzTFdRZmtZVHVrQUVCNDcxRmhWSXI3UjRiS2ktdWFYRnRjWVd1ZWxqSDQzWEhwQ3NLQVZkaHc?oc=5",
-        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
-        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEtGUW40NHpCT2pqVmFxYXJOZnFfOVFpbzFWUnp2N04ySmIxS2Jod181QnpkcVhCMHFJeTRwU2F1N01EYTNQelRGWi1YNGVJS2F5ZDluektQUG5jZkk4VHBKM2ZieGFJajhCcFZxSG81czY4QWZHT2tFOTIyanJHa3JHM3M5WEFHQzN3MWhFQXI5bFE2TFYzRlRCRW8wbHkxMjEzQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5"
-      ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEF5WnpkOUZYQTREb0hzcjgwTXA0Y05iaThOQklNVEJnYXpOeHI1NVJLcW5UemRvUEFKZUszNk9ueXlnb1hZc1FlRVBKOWxvTWd3V1N3SWpJUGI4Y29qd1V2WFBrZG42RWpZNTdieWJTaVRyRzVCQzlQNnd3dEZ0RlpYTG1nb0xDRm5jSnRJbVlVZzBHR1FvbWVFcEtzN3IzNVJYSNIBnwFBVV95cUxQTWZBWDd4QjR0VDU0c01wWktBUFI2bjZzcjFKYUZPRmt5UWtTcDBJcXBRamRoSU5MNnpJejhqQW5DbXROQkhBSFd3eWViOXUzT0tIelUtNUR0YllXcjNUV1FCOTZYcl9IWWVJVGZUM1FVdDhYcGthWU1kUHFmRjBYZXU3aDJTTWczUFRDcXBPVTNIdHRkc3pkX3h0QkQ0X3c?oc=5"
-      ],
-      "corroboration": {
-        "publishers": 4,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "danantara-bumn-restrukturisasi",
-        "status": "recurring",
-        "occurrences": 2,
-        "firstSeen": "2026-08-19",
-        "spanDays": 1
-      }
-    },
-    {
-      "rank": 2,
       "domain": "energy",
-      "themeKey": "geothermal-konsesi-kebijakan-indonesia",
+      "themeKey": "indonesia-geothermal-konsesi-regulasi",
       "entities": [
-        "Kementerian ESDM",
         "Bahlil Lahadalia",
-        "PLN"
+        "PNBP Panas Bumi"
       ],
-      "headline": "Bahlil tekan pengembang panas bumi yang menahan konsesi; target PNBP Rp 2,6 T dan ajang internasional dipakai sebagai tekanan diplomatik",
-      "whatChanged": "Menteri ESDM Bahlil Lahadalia membuka ajang Indonesia International Geothermal Convention 2026 dengan pernyataan eksplisit meminta pengembang tidak menahan (idle) konsesi panas bumi. Kementerian ESDM bersamaan mengumumkan target PNBP panas bumi Rp 2,6 triliun tahun ini dan menyebut Indonesia memiliki potensi panas bumi terbesar di dunia yang belum optimal dieksploitasi.",
-      "whyItMatters": "Ini bukan pernyataan seremonial: menekan pengembang di forum internasional mengisyaratkan kemungkinan kebijakan 'use it or lose it' pada konsesi panas bumi—mekanisme yang bila diterapkan akan mengubah risiko holding cost bagi pengembang yang saat ini menunggu kondisi tarif lebih baik. Target PNBP yang spesifik (Rp 2,6 T) memberi landasan fiskal untuk tindakan regulasi.",
-      "secondOrder": "Bila mekanisme 'use it or lose it' diformalkan, pengembang asing dengan konsesi idle akan menghadapi tekanan divestasi atau percepatan eksplorasi—membuka peluang masuknya pemain baru atau konsolidasi antar-konsesi. Di sisi lain, tekanan ini dapat menekan daya tawar pengembang dalam negosiasi tarif PLN, yang justru bisa memperburuk bankabilitas proyek panas bumi skala kecil.",
-      "action": "Pantau draf revisi regulasi konsesi panas bumi pasca-konvensi ini. Evaluasi apakah pengembang panas bumi dalam portofolio atau pipeline memiliki konsesi idle yang berpotensi terdampak kebijakan baru. Minta update dari Kementerian ESDM tentang timeline formalisasi kebijakan 'use it or lose it'.",
+      "headline": "Bahlil tegur pengembang panas bumi yang tahan konsesi; target PNBP Rp 2,6 T dipertaruhkan",
+      "whatChanged": "Menteri ESDM Bahlil Lahadalia secara terbuka meminta pengembang panas bumi tidak menahan konsesi, disampaikan dalam forum pengusaha panas bumi dunia yang dibuka di Indonesia. Pemerintah menetapkan target PNBP panas bumi Rp 2,6 triliun dan mendorong akselerasi eksplorasi.",
+      "whyItMatters": "Indonesia memiliki potensi panas bumi terbesar di dunia, namun utilisasi tetap jauh di bawah kapasitas karena konsesi diakuisisi tanpa pengembangan. Pernyataan publik Bahlil dalam forum internasional menandai peningkatan tekanan regulasi dari sekadar imbauan menjadi ancaman tindakan—pola yang biasanya mendahului revisi aturan atau pencabutan izin.",
+      "secondOrder": "Pengembang yang selama ini menahan konsesi sebagai aset spekulatif kini menghadapi risiko dilusi nilai atau pencabutan. Ini dapat memicu konsolidasi kepemilikan konsesi secara cepat—pembeli strategis dengan kapasitas eksekusi akan diuntungkan, sementara pemegang konsesi pasif terpaksa divestasi atau kehilangan izin. Efek lanjutannya: pipeline proyek panas bumi yang selama ini stagnan dapat tiba-tiba ramai, tetapi dengan profil risiko konstruksi yang lebih tinggi karena tekanan waktu.",
+      "action": "Petakan konsesi panas bumi aktif vs. tidak aktif berdasarkan data ESDM; identifikasi pemegang konsesi yang belum memulai eksplorasi sebagai target analisis risiko regulasi atau peluang akuisisi aset.",
       "strength": "actionable",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSnlsa1VVY05Bd21oSS1STDQ3MTBVc042aWQwU1J4Y1RuR2FHUmNQdWZNT09NMzg0cmNLSjc4eVRzdlZLWTRCclh6elFzWHV3aHFTZHBwRzlsSHhpU3JFbjZIQkFIcnFnVXFTbXVmY2EzUXNaZlYxMWJoQXRSQTY0WTRvSHYyR1I1U1M3cmotZmpHX3hkWm1MZzZSLXFxNF90N1Q0Zk9Wei1CMFJ5NHVkT0VpQXhNZ0hfRDlSVGw4cU5GbWxSOXJCejA0d0JkYlRDalE?oc=5",
@@ -73,7 +36,42 @@
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "geothermal-konsesi-kebijakan-indonesia",
+        "themeKey": "indonesia-geothermal-konsesi-regulasi",
+        "status": "recurring",
+        "occurrences": 2,
+        "firstSeen": "2026-08-19",
+        "spanDays": 1
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restrukturisasi",
+      "entities": [
+        "Danantara",
+        "BUMN Karya",
+        "WIKA"
+      ],
+      "headline": "Danantara akui hambatan struktural restrukturisasi BUMN Karya; isu 'laba semu' mencuat",
+      "whatChanged": "Bos Danantara secara terbuka mengakui alasan restrukturisasi BUMN Karya berlarut-larut. Danantara menegaskan pendekatan kehati-hatian. Secara bersamaan, opini di Media Indonesia mempertanyakan validitas laba yang dilaporkan BUMN—framing 'laba semu' dalam arsitektur baru Danantara. BEI memperpanjang suspensi saham WIKA (BUMN Karya).",
+      "whyItMatters": "Pengakuan publik hambatan restrukturisasi oleh pimpinan Danantara sendiri menandai pergeseran narasi dari optimisme ke manajemen ekspektasi. Kombinasi dengan suspensi WIKA dan pertanyaan integritas laba menciptakan tekanan tata kelola yang nyata—bukan sekadar diskursus akademik.",
+      "secondOrder": "Jika laba BUMN Karya yang dilaporkan mengandung komponen semu (misalnya revaluasi aset atau eliminasi antar-entitas dalam konsolidasi Danantara), maka nilai ekuitas yang menjadi dasar restrukturisasi utang perlu dikoreksi. Ini dapat mempersulit negosiasi dengan kreditur dan memperlambat proses lebih jauh. Investor yang menahan posisi menunggu resolusi menghadapi risiko waktu yang tidak terdefinisi.",
+      "action": "Tinjau laporan keuangan BUMN Karya (WIKA, WSKT, PTPP) untuk mengidentifikasi pos laba yang berasal dari revaluasi atau transaksi intra-grup; bandingkan dengan arus kas operasi aktual sebagai proxy validitas laba.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQklLbElOQWd6Vk1acG9wN3BiTGUtalZrSDVWVXNlU1ZrdUJhSjVDWnloSV96cFJoV2Jiczc4ZU9rNE5JeWhOSjFVTWRtenVQYjhGUzBYNTUtNUF3RlFrNkdxQk05TlVzYS1ZYUpJRzVXVGFoU1RsaU9Yc0laZnA4ek1Jd2hEZnJaN1FTZHBybUFpa1h6UlBv?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZFNYMnUxak5xZnpRN01kZy0tY3lKT1JCWmpXUHlUR2dEUmwyQ3lOT2JNOFBQYzhWamFDRXp2YkZ6aU1wVjJrWGdYaTl0Y0JoMnpsUXQzZWRXaFBNZUFzV25lLXQ1MHJKcnRZNXhPT2xUZHJMTWp3aGViT3lUbk9QMVVMT29yZEZUcUFSRkVCOTIzTFdRZmtZVHVrQUVCNDcxRmhWSXI3UjRiS2ktdWFYRnRjWVd1ZWxqSDQzWEhwQ3NLQVZkaHc?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 5,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restrukturisasi",
         "status": "recurring",
         "occurrences": 2,
         "firstSeen": "2026-08-19",
@@ -85,13 +83,15 @@
       "domain": "ai",
       "themeKey": "openai-enterprise-data-privacy",
       "entities": [
-        "OpenAI"
+        "OpenAI",
+        "Zero Data Retention",
+        "Private Safety Processing"
       ],
-      "headline": "OpenAI resmi tawarkan Zero Data Retention untuk model frontier API dan pratinjau Private Safety Processing",
-      "whatChanged": "OpenAI mengumumkan bahwa pelanggan API enterprise yang memenuhi syarat kini dapat mengaktifkan Zero Data Retention (ZDR)—artinya input dan output tidak disimpan di infrastruktur OpenAI. Bersamaan, OpenAI memperkenalkan pratinjau Private Safety Processing: mekanisme pemeriksaan keamanan konten yang diklaim tidak mengekspos data pengguna ke sistem pelatihan.",
-      "whyItMatters": "ZDR adalah prasyarat adopsi AI di sektor keuangan, kesehatan, hukum, dan pemerintah yang terikat regulasi ketat (GDPR, HIPAA, data residency). Dengan menawarkan ini pada model frontier—bukan hanya model lama—OpenAI memindahkan kompetisi dari kemampuan model ke infrastruktur kepercayaan data, wilayah yang selama ini menjadi keunggulan vendor on-premise seperti Azure OpenAI dengan deployment privat.",
-      "secondOrder": "Perusahaan yang selama ini memilih solusi AI on-premise atau open-weight semata karena alasan privasi data kini menghadapi tekanan evaluasi ulang: apakah biaya dan kompleksitas deployment mandiri masih justified jika frontier model cloud sudah menawarkan ZDR? Ini dapat memperlambat adopsi model open-source di enterprise regulated, dan menggeser keunggulan kompetitif Anthropic dan Google yang sudah lebih dulu menawarkan jaminan privat enterprise.",
-      "action": "Untuk tim yang sedang mengevaluasi atau sedang menggunakan OpenAI API di lingkungan data sensitif: verifikasi apakah ZDR sudah tersedia untuk tier kontrak Anda, minta data sheet teknis Private Safety Processing, dan bandingkan dengan jaminan serupa dari Anthropic Claude API dan Google Vertex AI sebelum siklus procurement berikutnya.",
+      "headline": "OpenAI formalkan Zero Data Retention dan pratinjau Private Safety Processing untuk API enterprise",
+      "whatChanged": "OpenAI secara resmi menegaskan kembali Zero Data Retention (ZDR) untuk pelanggan API yang memenuhi syarat dan memperkenalkan pratinjau Private Safety Processing—mekanisme pemrosesan keamanan AI tanpa akses ke data pengguna. Pengumuman ini berasal langsung dari OpenAI (sumber primer T1).",
+      "whyItMatters": "ZDR dan Private Safety Processing secara bersamaan mengatasi dua hambatan utama adopsi enterprise: kekhawatiran data residency dan ketidakpercayaan bahwa moderasi konten berarti akses manusia ke data. Ini menggeser standar industri—vendor AI yang belum menawarkan jaminan setara kini menghadapi tekanan dari tim pengadaan enterprise.",
+      "secondOrder": "Private Safety Processing menciptakan preseden teknis bahwa keamanan AI dapat dijalankan secara kriptografis terisolasi dari data pengguna. Jika mekanisme ini terbukti, ia akan mempersulit argumen regulator yang menganggap moderasi AI inheren memerlukan akses data—berpotensi membentuk kerangka regulasi privasi AI di Eropa dan Asia. Di sisi lain, vendor yang mengandalkan data pengguna untuk pelatihan model berkelanjutan akan kehilangan sumber data penting bila ZDR diadopsi luas.",
+      "action": "Evaluasi ulang kontrak API AI yang aktif: periksa apakah klausul data retention sesuai standar ZDR baru OpenAI; gunakan ini sebagai leverage dalam negosiasi ulang kontrak dengan vendor AI lain.",
       "strength": "material",
       "sourceUrls": [
         "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
@@ -112,31 +112,30 @@
     {
       "rank": 4,
       "domain": "energy",
-      "themeKey": "indonesia-jerman-transisi-energi-pembiayaan",
+      "themeKey": "indonesia-transisi-energi-pendanaan-bilateral",
       "entities": [
-        "IESR",
-        "IEEFA"
+        "Kementerian ESDM",
+        "Jerman",
+        "PLTS 30 GW"
       ],
-      "headline": "Indonesia dan Jerman siap mobilisasi Rp 47,5 triliun untuk transisi energi; kerangka kerja sama diperkuat bersama EU",
-      "whatChanged": "CNN Indonesia melaporkan Indonesia dan Jerman siap menggelontorkan total Rp 47,5 triliun untuk mendukung transisi energi Indonesia. Kompas.id mengonfirmasi bahwa Indonesia dan Uni Eropa secara paralel memperkuat kerja sama digitalisasi dan transisi energi—dua jalur pembiayaan yang bergerak bersamaan.",
-      "whyItMatters": "Angka Rp 47,5 triliun dari bilateral RI-Jerman merupakan komitmen konkret (bukan Letter of Intent) yang mengisi sebagian kesenjangan pembiayaan transisi yang selama ini diidentifikasi IEEFA dan IESR. Konteks EU yang bergerak bersamaan menunjukkan koordinasi blok Eropa—bukan sekadar inisiatif bilateral terisolasi—yang meningkatkan probabilitas pencairan dibanding mekanisme JETP yang lebih berlarut.",
-      "secondOrder": "Masuknya pembiayaan Eropa dalam jumlah ini berpotensi mendorong adopsi standar teknis dan regulasi Eropa (termasuk Carbon Border Adjustment Mechanism) sebagai syarat terselubung—yang akan menekan sektor industri Indonesia yang mengekspor ke Eropa untuk mempercepat dekarbonisasi lebih cepat dari jadwal domestik. IESR sudah memperingatkan bahwa ekspor Jawa Tengah akan semakin ditentukan oleh standar lingkungan pasar global.",
-      "action": "Identifikasi proyek energi terbarukan atau infrastruktur grid dalam pipeline yang berpotensi eligible terhadap fasilitas pembiayaan RI-Jerman/EU ini. Cek apakah persyaratan teknis dan lingkungan yang menyertai pembiayaan Eropa kompatibel dengan spesifikasi proyek yang sedang dalam tahap studi kelayakan.",
+      "headline": "Indonesia-Jerman komitmen Rp 47,5 triliun untuk transisi energi; ESDM amankan 9.000 ha lahan PLTS",
+      "whatChanged": "Indonesia dan Jerman menyatakan kesiapan menggelontorkan Rp 47,5 triliun untuk mendukung transisi energi. Secara terpisah, Kementerian ESDM mengklaim telah mengamankan 9.000 hektare lahan untuk mengejar target PLTS 30 GW. Kedua pengumuman muncul pada 19 Agustus 2026.",
+      "whyItMatters": "Dua hambatan historis pengembangan energi terbarukan Indonesia adalah pendanaan dan ketersediaan lahan. Munculnya keduanya secara bersamaan—meski dari sumber berbeda—menandai kemajuan konkret dalam kondisi yang biasanya saling menunggu. Komitmen bilateral dengan Jerman (negara dengan rekam jejak pendanaan transisi energi yang kuat) lebih kredibel dibanding komitmen multilateral generik.",
+      "secondOrder": "Jika 9.000 hektare lahan telah diamankan secara legal (bukan sekadar identifikasi), pipeline tender PLTS skala besar dapat terbuka dalam 12-18 bulan ke depan—mendahului siklus anggaran APBN 2027. Ini akan menciptakan tekanan pada rantai pasok panel surya domestik dan lokal; kapasitas manufaktur yang ada (termasuk inisiatif seperti pabrik alat berat listrik di Weda Bay) perlu dinilai ulang terhadap skala permintaan yang akan datang.",
+      "action": "Verifikasi status legal 9.000 hektare lahan ESDM: apakah sudah HPL/HGU atau masih tahap identifikasi. Gunakan angka Rp 47,5 triliun komitmen Jerman untuk memetakan instrumen pembiayaan yang relevan (hibah, pinjaman lunak, blended finance).",
       "strength": "emerging",
       "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXRJM2tsSTNyRFlIR1ZnWUo3YzFWYXRYNEVDRzNLVTFVNlBONXhyZVc0dDRHSFcyVmtaaXJ1OU90V0JiaUtucUFrRUhyclhKRUdEc0tkdE9iVGlldHA1THZDdi11dUFYSXNZeENlTjZ4NFRmSWRmeUxBaEFrcWF4Nk9Vd29RUW9YVTdQM1JpNzNNUnlqV3owdEsxVmVFRmxQeE1OWW42dVJSLVZsakhyWF9TaGdfYUZLaHfSAb8BQVVfeXFMUEJtRllsRk1hVTRDc3VGSG41dEx4aHN3RkNtUHVFUXRIUVE0V3JPdkxvSHVHdm9xdHE4b0YyWjdSdlRsRnpiR244XzFteGIyaTkyd2RqV1gzZk9hY3FnVkJFeHBaVFlyc19EcXJlTlg3cUZZN0RmdDU5RTZ6eFlJclg4YTZVb1pNYVFCU01ueGxHRzNvck9sMDM2Wm1sMVFWZjlxZGgtVWFDZElQY2lXLUlQVnpWMmtOcXFRajNXTGs?oc=5",
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclhBakxuMlZ2OHA3LUVINFViSEtvWGg2UFJKZEx2NFJiSkEwSVV2V3hKZkhwbDl1cFd1TGRHclRoV0NTSjBEc3NOcm1ISWg5aHB6cEEwUUZVOEdfUE0zLWZEOXdMMWZmcHp6Vm03MmFzdTJuR1ZNVlFuaDhBQlo0elNEWlBHU3VhSGFuTDBJX19MN1Bxbmt5U2VRdVVaWHBHZG52Z2RHdWZkQ1ltRUJ6Xy1keHI1S2lCM1lxLU95VVpyUVN5eXfSAcsBQVVfeXFMTi11NkU3clpSNU56cTZ6Y1JlejlGTi1LYk54aXpLYzVOZllZNXl1d2RBeC1wWTdSQmN0YjVvTWc1TW5RS2ZZMnRXRVJGc1ZqQThTS0xNeWhZX28zSklsSGxuMmZlcThPYkYwSGFwZU9ra0ExcWt0MlVHWE1lOG1YNzFLYzJ4ckhzV3dXZk1TdzlpU3BFeHp0bjZEcHRQWG1KbndKbHdTUmJfdkZvYUNuWldiTDlfdnFmZ0xzTU1RYjc4ZC1OTDhob2Q3QWc?oc=5",
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYTFRd00zZ3pDc3NtekxmcTdsNnZMcWtrSllkQ0lZcjlJQ2hxVWxZS05rbjJpZk1IQTl5M2NLTWdUY2dtU3NNQ1BIU2NfMDVYWmFlT1piNUo2Yi11bjJNbTNTdk5TaXgybmF1TU82cU1ma1lkbXRLTE04WFEtazFRV2lQQ3NjNVNJLVZWNllUdlFHTGhGZ1EyUWxnY1NlOVdJUTVmWTFHYm9KTFJkVWxhaXZlWQ?oc=5",
-        "https://iesr.or.id/industri-hijau-menentukan-masa-depan-ekspor-jawa-tengah/"
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYTFRd00zZ3pDc3NtekxmcTdsNnZMcWtrSllkQ0lZcjlJQ2hxVWxZS05rbjJpZk1IQTl5M2NLTWdUY2dtU3NNQ1BIU2NfMDVYWmFlT1piNUo2Yi11bjJNbTNTdk5TaXgybmF1TU82cU1ma1lkbXRLTE04WFEtazFRV2lQQ3NjNVNJLVZWNllUdlFHTGhGZ1EyUWxnY1NlOVdJUTVmWTFHYm9KTFJkVWxhaXZlWQ?oc=5"
       ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 3,
-        "hasPrimary": true
+        "publishers": 2,
+        "hasPrimary": false
       },
       "trend": {
-        "themeKey": "indonesia-jerman-transisi-energi-pembiayaan",
+        "themeKey": "indonesia-transisi-energi-pendanaan-bilateral",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-20",
@@ -145,27 +144,31 @@
     },
     {
       "rank": 5,
-      "domain": "ai",
-      "themeKey": "ai-nuklir-datacenter-power",
+      "domain": "corporate",
+      "themeKey": "danantara-investasi-strategis-ekspansi",
       "entities": [
-        "TerraPower"
+        "Danantara",
+        "PNM",
+        "Bursa Efek Indonesia"
       ],
-      "headline": "TerraPower posisikan reaktor nuklir sebagai power source pusat data AI; konvergensi compute-energi makin konkret",
-      "whatChanged": "TechCrunch melaporkan TerraPower secara aktif memposisikan reaktor nuklir Natrium-nya sebagai solusi daya untuk pusat data AI—dengan klaim kemampuan load-following yang membuatnya cocok untuk beban komputasi yang fluktuatif. Ini adalah proposisi komersial eksplisit, bukan sekadar studi konsep.",
-      "whyItMatters": "Pusat data AI generasi berikutnya membutuhkan daya yang reliable, rendah karbon, dan tidak tergantung kondisi cuaca—tiga syarat yang tidak bisa dipenuhi sekaligus oleh energi terbarukan intermiten tanpa storage besar. TerraPower mengisi celah ini dengan reaktor modular yang diklaim bisa beroperasi sebagai baseload sekaligus mengikuti kurva beban komputasi.",
-      "secondOrder": "Bila model bisnis 'reaktor nuklir sebagai dedicated power untuk hyperscaler' terbukti secara regulasi dan komersial di AS, ini akan membuka preseden bagi negara lain—termasuk Indonesia yang punya rencana nuklir dalam RUPTL 2025-2034—untuk mengintegrasikan nuklir bukan ke grid umum, tetapi sebagai dedicated offtake untuk kawasan industri digital atau pusat data. Ini mengubah kalkulasi risiko regulasi dan pembiayaan nuklir secara fundamental.",
-      "action": "Pantau status perizinan NRC untuk reaktor TerraPower Natrium—keputusan regulasi AS akan menjadi preseden global. Bila Indonesia sedang menyusun regulasi nuklir atau mengkaji PLTN dalam konteks kawasan industri atau pusat data, masukkan skenario dedicated offtake nuklir sebagai alternatif dalam analisis opsi pembiayaan dan struktur risiko.",
+      "headline": "Danantara ekspansi ke mobil listrik dan ultramikro; pertanyaan independensi bursa mencuat",
+      "whatChanged": "Danantara dikonfirmasi akan terlibat dalam proyek mobil listrik (Tempo.co, 19 Agustus). PNM—di bawah ekosistem Danantara—memperluas layanan ke 23,1 juta pengusaha ultramikro. Opini di Bisnis Indonesia mempertanyakan apakah masuknya Danantara ke Bursa Efek Indonesia mengancam independensi bursa.",
+      "whyItMatters": "Danantara bergerak secara bersamaan di tiga lini berbeda (mobil listrik, keuangan mikro, pasar modal) dalam waktu satu minggu—menunjukkan pola ekspansi portofolio yang agresif di tengah hambatan restrukturisasi BUMN Karya. Pola ini menimbulkan pertanyaan kapasitas manajemen: apakah Danantara memiliki bandwidth governance untuk mengelola kompleksitas ini secara bersamaan.",
+      "secondOrder": "Jika Danantara menjadi pemegang saham signifikan di Bursa Efek Indonesia, konflik kepentingan struktural muncul: Danantara memiliki BUMN yang terdaftar di bursa yang sama tempat ia memiliki pengaruh. Ini dapat melemahkan kepercayaan investor asing terhadap integritas pasar modal Indonesia—risiko yang tidak akan segera terlihat dalam data, tetapi akan tercermin dalam premi risiko jangka menengah.",
+      "action": "Lacak struktur kepemilikan Danantara di BEI dan susun matriks konflik kepentingan potensial; jadikan ini bagian dari due diligence investasi di saham BUMN yang tercatat.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZFNEQ0dvb0VSM3lPbWdrelkzOHpsWGJ4NWlqRG5WTGlCMXVKN19hU2VTZk5heXNJekFPQ2w4WFZybHBvaVpsTHN3bVE5U0g1bGI1LXNpWXdnX1JPbC1tcnA0Q20wZ2p0VGs2cno4SVNBdnV1SWJmOUltN3gwRnBfWmw5US01N3pVcDRHT1J0Z0hETlZaam54ZUZxYXJfQWNtZVc3ZFpUa2tFdWJQdmRvSg?oc=5"
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE00YnJUb3ZUT3p0XzRzLTNlMERWaDZBTGdKWERwZm5kc1RmVnpQajYtX1Z1VlhjSXcxMkF5X1p1VkF1eUxhQ1V3cFhvdGNIOU84Ny02YmtPOFNJSW9fbktySE1xQmJrRmZ1OUY4X3ZpYzFQdHdtYktvT2ZR?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3I2SDlNbG8yS3UzOEtYM043QWUzS0dXclJ5Q2hnSHVwSXdzbjNHMjdCRy1BUTc1WVI3T1pYNE5mNkt5aTY3MVQ0Rmx0WnlMQUdJTGdCSHZncmV1UURJQjc5czN4ZEN4YmxWRklGMkY4SGZvYy1GSEtUbzdCVWFQSFRTS1RjcXVHcG5VMjgtWmNXeTRRYWhaVjRR?oc=5",
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMF9HeVlWenRvX0pRZTYzNUJ2N1RhX084SXZ5ZTkyd3U5WEVCSmxwN1R0a0g3cC1EMmQtOWtsYzdNa3diX1dBLXp1NW5sbnZFLXJJUVIzakxtMWFWaFloQkhRSHRzNnpKMWtXMEZZRzJaZ3ZSemxwcF82TVFjYWNiNnhucWFlWUpPUGdnRmxqZmRWU2J5SFRXQzhGaDBmVHhkR1N1MjNnMktTa3Z1elVUZ3h3TEk1aE1rU0VZTHgzUjJVYnY1eUM4RUpES2hYRnJrQ3fSAdcBQVVfeXFMTnJ1SjdqVENhMExvQ0RWUFprSDZnekQ0X2ZTVEJrVU9uckFTRlFlSk44eFc1RkZGVVFYRHR3S3lxTDZ1SXFFSS1tQWlQbXFIUzZqYkY4bFQ5RFIwZUxqM01YNXJwV3NSSzN2VFVRM1R6WEY3MmtOcndncXRxN19ScDhfbDVMRE9iOXdtWFpVcE4ycHQzSmNVVUExRWVQdUtfVVFsVDU5WTJkSjJtSjlPUmFjQzRnQlNXdnl4X2NzTWpMUGI4MERDV3cwMlRRM1c4X05JVkhmeUk?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 1,
+        "publishers": 3,
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "ai-nuklir-datacenter-power",
+        "themeKey": "danantara-investasi-strategis-ekspansi",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-20",
@@ -175,20 +178,20 @@
   ],
   "watchNext": [
     {
-      "item": "Formalisasi kebijakan 'use it or lose it' konsesi panas bumi oleh Kementerian ESDM pasca Indonesia International Geothermal Convention 2026",
+      "item": "Tindak lanjut regulasi ESDM terhadap pengembang panas bumi yang menahan konsesi: apakah ada pencabutan izin atau deadline eksplorasi yang ditetapkan secara formal.",
       "dueDate": "2026-09-30"
     },
     {
-      "item": "Publikasi milestone restrukturisasi BUMN Karya dalam roadmap lima tahun Danantara-BP BUMN; pantau apakah ada pemisahan neraca atau spin-off entitas bermasalah",
+      "item": "Pengumuman resmi status hukum 9.000 hektare lahan PLTS dan jadwal tender pertama dalam pipeline 30 GW.",
       "dueDate": "2026-10-31"
     },
     {
-      "item": "Keputusan NRC Amerika Serikat atas lisensi konstruksi reaktor Natrium TerraPower—preseden untuk model dedicated nuclear offtake pusat data AI",
-      "dueDate": "2027-06-30"
+      "item": "Perkembangan suspensi saham WIKA dan keputusan BEI apakah pencabutan suspensi disertai syarat restrukturisasi tertentu.",
+      "dueDate": "2026-09-15"
     },
     {
-      "item": "Pencairan dan syarat teknis pembiayaan transisi energi RI-Jerman Rp 47,5 triliun; cek apakah terikat standar CBAM atau persyaratan dekarbonisasi Eropa",
-      "dueDate": "2026-12-31"
+      "item": "Detail teknis Private Safety Processing OpenAI: apakah menggunakan trusted execution environment (TEE) atau mekanisme kriptografi lain—penting untuk menilai klaim privasi.",
+      "dueDate": "2026-09-01"
     }
   ],
   "sources": [
@@ -210,13 +213,40 @@
       "publishedAt": "2026-08-19T10:01:07.000Z"
     },
     {
-      "title": "Ajang Pengusaha Panas Bumi Dunia Kumpul di RI, Acara Dibuka Bahlil",
+      "title": "Laba Semu, Arsitektur Baru, dan Ujian Tata Kelola BUMN",
+      "publisher": "Media Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQklLbElOQWd6Vk1acG9wN3BiTGUtalZrSDVWVXNlU1ZrdUJhSjVDWnloSV96cFJoV2Jiczc4ZU9rNE5JeWhOSjFVTWRtenVQYjhGUzBYNTUtNUF3RlFrNkdxQk05TlVzYS1ZYUpJRzVXVGFoU1RsaU9Yc0laZnA4ek1Jd2hEZnJaN1FTZHBybUFpa1h6UlBv?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-19T09:31:40.000Z"
+    },
+    {
+      "title": "Bursa Efek Indonesia Perpanjang Gembok Saham WIKA",
       "publisher": "CNBC Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXdmb0s2b3J5TGVWbDc4S2FNZ0drMlEzM3ZwdmhsUTdDTXVFLVU2RGdjNU5udUNrTG5leTBLbmtuUnhiU3B1TE9jdGJlLThuU2lrQThGWDNGVEhhSkk1M0RnZC1oSUxaaDdsdUNsSGV0X05UaHVnbHN0UVBWNFBKcmxzNklCeVBXektfakJlZ1BJNllxUUVwdG96YW01Z2VHOGNRNER5dlJCSHJPbjZxV2MtZ1dtMWJMbG4xQVRZejFVZ9IBxwFBVV95cUxPNHN1eE9neGlpY2N1RTk0YVk5MFZFRjZocHZ3YmRSR09UTFZ2VU56ZTNKc3BDVWFNMC1JcUE1Zkd6Y19jZGRMU2FTVnFyZkhMWV8tNWpWLWFXZE1mUEpiQmFZUW45UmwxRFBlcGNXd3BCS0Z5LUtUN0NqZEs5LWdhMm9jRmpDRExaTXYtb3lkT0R2RXJ6NnlZLTBHZ1VoNGJ1UUZtNTF4aWJiaTFKTlZQOHZYTVQzS2MyLU5XT1IycWpHa3J5MUtJ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-19T05:40:15.000Z"
+    },
+    {
+      "title": "ESDM Kantongi 9.000 Hektare Lahan untuk Kejar PLTS 30 GW",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXRJM2tsSTNyRFlIR1ZnWUo3YzFWYXRYNEVDRzNLVTFVNlBONXhyZVc0dDRHSFcyVmtaaXJ1OU90V0JiaUtucUFrRUhyclhKRUdEc0tkdE9iVGlldHA1THZDdi11dUFYSXNZeENlTjZ4NFRmSWRmeUxBaEFrcWF4Nk9Vd29RUW9YVTdQM1JpNzNNUnlqV3owdEsxVmVFRmxQeE1OWW42dVJSLVZsakhyWF9TaGdfYUZLaHfSAb8BQVVfeXFMUEJtRllsRk1hVTRDc3VGSG41dEx4aHN3RkNtUHVFUXRIUVE0V3JPdkxvSHVHdm9xdHE4b0YyWjdSdlRsRnpiR244XzFteGIyaTkyd2RqV1gzZk9hY3FnVkJFeHBaVFlyc19EcXJlTlg3cUZZN0RmdDU5RTZ6eFlJclg4YTZVb1pNYVFCU01ueGxHRzNvck9sMDM2Wm1sMVFWZjlxZGgtVWFDZElQY2lXLUlQVnpWMmtOcXFRajNXTGs?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T13:05:33.000Z"
+      "publishedAt": "2026-08-19T23:35:05.000Z"
+    },
+    {
+      "title": "Danantara Bakal Terlibat Proyek Mobil Listrik",
+      "publisher": "Tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00YnJUb3ZUT3p0XzRzLTNlMERWaDZBTGdKWERwZm5kc1RmVnpQajYtX1Z1VlhjSXcxMkF5X1p1VkF1eUxhQ1V3cFhvdGNIOU84Ny02YmtPOFNJSW9fbktySE1xQmJrRmZ1OUY4X3ZpYzFQdHdtYktvT2ZR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-19T23:30:00.000Z"
     },
     {
       "title": "Bos Danantara Ungkap Alasan Restrukturisasi BUMN Karya Berlarut-larut",
@@ -228,22 +258,22 @@
       "publishedAt": "2026-08-19T06:36:00.000Z"
     },
     {
-      "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
-      "publisher": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZFNEQ0dvb0VSM3lPbWdrelkzOHpsWGJ4NWlqRG5WTGlCMXVKN19hU2VTZk5heXNJekFPQ2w4WFZybHBvaVpsTHN3bVE5U0g1bGI1LXNpWXdnX1JPbC1tcnA0Q20wZ2p0VGs2cno4SVNBdnV1SWJmOUltN3gwRnBfWmw5US01N3pVcDRHT1J0Z0hETlZaam54ZUZxYXJfQWNtZVc3ZFpUa2tFdWJQdmRvSg?oc=5",
+      "title": "Ajang Pengusaha Panas Bumi Dunia Kumpul di RI, Acara Dibuka Bahlil",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXdmb0s2b3J5TGVWbDc4S2FNZ0drMlEzM3ZwdmhsUTdDTXVFLVU2RGdjNU5udUNrTG5leTBLbmtuUnhiU3B1TE9jdGJlLThuU2lrQThGWDNGVEhhSkk1M0RnZC1oSUxaaDdsdUNsSGV0X05UaHVnbHN0UVBWNFBKcmxzNklCeVBXektfakJlZ1BJNllxUUVwdG96YW01Z2VHOGNRNER5dlJCSHJPbjZxV2MtZ1dtMWJMbG4xQVRZejFVZ9IBxwFBVV95cUxPNHN1eE9neGlpY2N1RTk0YVk5MFZFRjZocHZ3YmRSR09UTFZ2VU56ZTNKc3BDVWFNMC1JcUE1Zkd6Y19jZGRMU2FTVnFyZkhMWV8tNWpWLWFXZE1mUEpiQmFZUW45UmwxRFBlcGNXd3BCS0Z5LUtUN0NqZEs5LWdhMm9jRmpDRExaTXYtb3lkT0R2RXJ6NnlZLTBHZ1VoNGJ1UUZtNTF4aWJiaTFKTlZQOHZYTVQzS2MyLU5XT1IycWpHa3J5MUtJ?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T15:44:53.000Z"
+      "publishedAt": "2026-08-19T13:05:33.000Z"
     },
     {
-      "title": "Dukung Transisi Energi, Indonesia-Jerman Siap Gelontorkan Rp47,5 T",
-      "publisher": "CNN Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclhBakxuMlZ2OHA3LUVINFViSEtvWGg2UFJKZEx2NFJiSkEwSVV2V3hKZkhwbDl1cFd1TGRHclRoV0NTSjBEc3NOcm1ISWg5aHB6cEEwUUZVOEdfUE0zLWZEOXdMMWZmcHp6Vm03MmFzdTJuR1ZNVlFuaDhBQlo0elNEWlBHU3VhSGFuTDBJX19MN1Bxbmt5U2VRdVVaWHBHZG52Z2RHdWZkQ1ltRUJ6Xy1keHI1S2lCM1lxLU95VVpyUVN5eXfSAcsBQVVfeXFMTi11NkU3clpSNU56cTZ6Y1JlejlGTi1LYk54aXpLYzVOZllZNXl1d2RBeC1wWTdSQmN0YjVvTWc1TW5RS2ZZMnRXRVJGc1ZqQThTS0xNeWhZX28zSklsSGxuMmZlcThPYkYwSGFwZU9ra0ExcWt0MlVHWE1lOG1YNzFLYzJ4ckhzV3dXZk1TdzlpU3BFeHp0bjZEcHRQWG1KbndKbHdTUmJfdkZvYUNuWldiTDlfdnFmZ0xzTU1RYjc4ZC1OTDhob2Q3QWc?oc=5",
-      "tier": 2,
+      "title": "OPINI: Danantara Masuk, Bursa Tetap Independen?",
+      "publisher": "market.bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3I2SDlNbG8yS3UzOEtYM043QWUzS0dXclJ5Q2hnSHVwSXdzbjNHMjdCRy1BUTc1WVI3T1pYNE5mNkt5aTY3MVQ0Rmx0WnlMQUdJTGdCSHZncmV1UURJQjc5czN4ZEN4YmxWRklGMkY4SGZvYy1GSEtUbzdCVWFQSFRTS1RjcXVHcG5VMjgtWmNXeTRRYWhaVjRR?oc=5",
+      "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T11:47:04.000Z"
+      "publishedAt": "2026-08-19T22:00:22.000Z"
     },
     {
       "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
@@ -255,13 +285,13 @@
       "publishedAt": "2026-08-18T23:40:08.000Z"
     },
     {
-      "title": "RI-Uni Eropa Siap Perkuat Kerja Sama Digitalisasi dan Transisi Energi",
-      "publisher": "Kompas.id",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYTFRd00zZ3pDc3NtekxmcTdsNnZMcWtrSllkQ0lZcjlJQ2hxVWxZS05rbjJpZk1IQTl5M2NLTWdUY2dtU3NNQ1BIU2NfMDVYWmFlT1piNUo2Yi11bjJNbTNTdk5TaXgybmF1TU82cU1ma1lkbXRLTE04WFEtazFRV2lQQ3NjNVNJLVZWNllUdlFHTGhGZ1EyUWxnY1NlOVdJUTVmWTFHYm9KTFJkVWxhaXZlWQ?oc=5",
+      "title": "Dukung Transisi Energi, Indonesia-Jerman Siap Gelontorkan Rp47,5 T",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclhBakxuMlZ2OHA3LUVINFViSEtvWGg2UFJKZEx2NFJiSkEwSVV2V3hKZkhwbDl1cFd1TGRHclRoV0NTSjBEc3NOcm1ISWg5aHB6cEEwUUZVOEdfUE0zLWZEOXdMMWZmcHp6Vm03MmFzdTJuR1ZNVlFuaDhBQlo0elNEWlBHU3VhSGFuTDBJX19MN1Bxbmt5U2VRdVVaWHBHZG52Z2RHdWZkQ1ltRUJ6Xy1keHI1S2lCM1lxLU95VVpyUVN5eXfSAcsBQVVfeXFMTi11NkU3clpSNU56cTZ6Y1JlejlGTi1LYk54aXpLYzVOZllZNXl1d2RBeC1wWTdSQmN0YjVvTWc1TW5RS2ZZMnRXRVJGc1ZqQThTS0xNeWhZX28zSklsSGxuMmZlcThPYkYwSGFwZU9ra0ExcWt0MlVHWE1lOG1YNzFLYzJ4ckhzV3dXZk1TdzlpU3BFeHp0bjZEcHRQWG1KbndKbHdTUmJfdkZvYUNuWldiTDlfdnFmZ0xzTU1RYjc4ZC1OTDhob2Q3QWc?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T10:20:00.000Z"
+      "publishedAt": "2026-08-19T11:47:04.000Z"
     },
     {
       "title": "Target PNBP Panas Bumi Rp 2,6 Triliun, Pemerintah Genjot Eksplorasi",
@@ -273,21 +303,13 @@
       "publishedAt": "2026-08-19T13:47:43.000Z"
     },
     {
-      "title": "Industri Hijau Menentukan Masa Depan Ekspor Jawa Tengah",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/industri-hijau-menentukan-masa-depan-ekspor-jawa-tengah/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-11T02:00:45.000Z"
-    },
-    {
-      "title": "Danantara Bidik Laba Konsolidasi BUMN Rp 360 Triliun pada 2026",
-      "publisher": "investor.id",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEtGUW40NHpCT2pqVmFxYXJOZnFfOVFpbzFWUnp2N04ySmIxS2Jod181QnpkcVhCMHFJeTRwU2F1N01EYTNQelRGWi1YNGVJS2F5ZDluektQUG5jZkk4VHBKM2ZieGFJajhCcFZxSG81czY4QWZHT2tFOTIyanJHa3JHM3M5WEFHQzN3MWhFQXI5bFE2TFYzRlRCRW8wbHkxMjEzQQ?oc=5",
+      "title": "Bersama Danantara, PNM Perluas Harapan 23,1 Juta Pengusaha Ultra Mikro",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMF9HeVlWenRvX0pRZTYzNUJ2N1RhX084SXZ5ZTkyd3U5WEVCSmxwN1R0a0g3cC1EMmQtOWtsYzdNa3diX1dBLXp1NW5sbnZFLXJJUVIzakxtMWFWaFloQkhRSHRzNnpKMWtXMEZZRzJaZ3ZSemxwcF82TVFjYWNiNnhucWFlWUpPUGdnRmxqZmRWU2J5SFRXQzhGaDBmVHhkR1N1MjNnMktTa3Z1elVUZ3h3TEk1aE1rU0VZTHgzUjJVYnY1eUM4RUpES2hYRnJrQ3fSAdcBQVVfeXFMTnJ1SjdqVENhMExvQ0RWUFprSDZnekQ0X2ZTVEJrVU9uckFTRlFlSk44eFc1RkZGVVFYRHR3S3lxTDZ1SXFFSS1tQWlQbXFIUzZqYkY4bFQ5RFIwZUxqM01YNXJwV3NSSzN2VFVRM1R6WEY3MmtOcndncXRxN19ScDhfbDVMRE9iOXdtWFpVcE4ycHQzSmNVVUExRWVQdUtfVVFsVDU5WTJkSjJtSjlPUmFjQzRnQlNXdnl4X2NzTWpMUGI4MERDV3cwMlRRM1c4X05JVkhmeUk?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T08:06:58.000Z"
+      "publishedAt": "2026-08-19T12:27:53.000Z"
     },
     {
       "title": "Danantara tegaskan kehati-hatian dalam restrukturisasi BUMN Karya",
@@ -299,22 +321,13 @@
       "publishedAt": "2026-08-18T11:45:40.000Z"
     },
     {
-      "title": "Indonesia's Danantara Launches Dollar Bond, Eyes $1 Billion, Sources Say",
-      "publisher": "KONTAN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEF5WnpkOUZYQTREb0hzcjgwTXA0Y05iaThOQklNVEJnYXpOeHI1NVJLcW5UemRvUEFKZUszNk9ueXlnb1hZc1FlRVBKOWxvTWd3V1N3SWpJUGI4Y29qd1V2WFBrZG42RWpZNTdieWJTaVRyRzVCQzlQNnd3dEZ0RlpYTG1nb0xDRm5jSnRJbVlVZzBHR1FvbWVFcEtzN3IzNVJYSNIBnwFBVV95cUxQTWZBWDd4QjR0VDU0c01wWktBUFI2bjZzcjFKYUZPRmt5UWtTcDBJcXBRamRoSU5MNnpJejhqQW5DbXROQkhBSFd3eWViOXUzT0tIelUtNUR0YllXcjNUV1FCOTZYcl9IWWVJVGZUM1FVdDhYcGthWU1kUHFmRjBYZXU3aDJTTWczUFRDcXBPVTNIdHRkc3pkX3h0QkQ0X3c?oc=5",
+      "title": "RI-Uni Eropa Siap Perkuat Kerja Sama Digitalisasi dan Transisi Energi",
+      "publisher": "Kompas.id",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYTFRd00zZ3pDc3NtekxmcTdsNnZMcWtrSllkQ0lZcjlJQ2hxVWxZS05rbjJpZk1IQTl5M2NLTWdUY2dtU3NNQ1BIU2NfMDVYWmFlT1piNUo2Yi11bjJNbTNTdk5TaXgybmF1TU82cU1ma1lkbXRLTE04WFEtazFRV2lQQ3NjNVNJLVZWNllUdlFHTGhGZ1EyUWxnY1NlOVdJUTVmWTFHYm9KTFJkVWxhaXZlWQ?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-06-11T07:00:00.000Z"
-    },
-    {
-      "title": "Building credibility in Indonesia’s energy transition: Insights from the ETM and JETP Indonesia",
-      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-02-05T08:00:00.000Z"
+      "publishedAt": "2026-08-19T10:20:00.000Z"
     }
   ],
   "trends": [],
@@ -324,9 +337,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 366,
+    "candidateCount": 360,
     "poolSize": 110,
-    "generatedAt": "2026-08-19T23:19:18.767Z",
+    "generatedAt": "2026-08-19T23:49:25.232Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
