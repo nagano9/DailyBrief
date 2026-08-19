@@ -166,6 +166,34 @@ function parseWatch(v: unknown): WatchItem[] {
  * difference between "the lab announced it" and "someone says the lab
  * announced it".
  */
+/**
+ * Keep only the entities the signal actually mentions.
+ *
+ * A model asked for an entity index will supply a helpful one — including
+ * names it inferred rather than wrote. An index is a navigation promise: click
+ * PLN, get signals about PLN. One entry the text never mentions breaks that
+ * promise silently, so membership is checked against the prose rather than
+ * trusted.
+ */
+export function resolveEntities(raw: unknown, prose: string): string[] {
+  if (!Array.isArray(raw)) return [];
+  const haystack = prose.toLowerCase();
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const value of raw) {
+    if (typeof value !== "string") continue;
+    const name = value.trim();
+    // Single characters and stray punctuation are not entities.
+    if (name.length < 2) continue;
+    const key = name.toLowerCase();
+    if (seen.has(key)) continue;
+    if (!haystack.includes(key)) continue;
+    seen.add(key);
+    out.push(name);
+  }
+  return out.slice(0, 6);
+}
+
 function corroborate(items: FeedItem[]): Corroboration {
   const publishers = new Set(items.map((i) => i.publisher.toLowerCase()));
   // `primary` is decided at fetch time, where we know whether the item came
@@ -248,10 +276,19 @@ function resolveSignals(v: unknown, pool: FeedItem[]): ResolvedSignals {
       ? (s.strength as SignalStrength)
       : "material";
 
+    const prose = [
+      headline,
+      whatChanged,
+      whyItMatters,
+      str(s.secondOrder),
+      str(s.action),
+    ].join(" ");
+
     signals.push({
       rank: typeof s.rank === "number" ? s.rank : signals.length + 1,
       domain,
       themeKey,
+      entities: resolveEntities(s.entities, prose),
       headline,
       whatChanged,
       whyItMatters,

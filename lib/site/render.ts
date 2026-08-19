@@ -132,6 +132,7 @@ const CSS = `
 --rule:#dde1df;--rule-strong:#b9c1be;--card:#fdfdfd;
 --backed:#0f5c4d;--unbacked:#9c4221;
 --measure:44rem;--wide:56rem;
+--rail-l:10rem;--rail-r:15.5rem;--rail-gap:2rem;--spine-pad:1.15rem;
 --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
 --mono:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono",Consolas,monospace;
 --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
@@ -197,27 +198,7 @@ letter-spacing:.12em;color:var(--muted);white-space:nowrap}
    distinction this whole product rests on, and the one the previous design
    erased by rendering all four rungs identically.
    ------------------------------------------------------------------------- */
-.signal{padding:2rem 0 1.75rem;border-top:1px solid var(--rule)}
-.signal:first-of-type{border-top:0;padding-top:.75rem}
-.signal .head{display:flex;gap:.9rem;align-items:baseline;margin-bottom:.6rem}
-.signal .rank{font-family:var(--mono);font-size:.8rem;color:var(--faint);
-flex:none;min-width:1.5rem;padding-top:.2rem;font-variant-numeric:tabular-nums}
-.signal .tags{display:flex;gap:.9rem;flex-wrap:wrap;margin:.6rem 0 1.2rem;
-padding-left:2.4rem}
-
-dl.ladder{margin:0;padding-left:2.4rem}
-.rung{display:grid;grid-template-columns:7.5rem 1fr;gap:1rem;
-padding:.6rem 0 .6rem 1.1rem;border-left:2px dashed var(--rule-strong)}
-.rung.sourced{border-left-style:solid;border-left-color:var(--ink)}
-.rung dt{font-family:var(--mono);font-size:.66rem;font-weight:500;
-text-transform:uppercase;letter-spacing:.11em;color:var(--muted);padding-top:.3rem}
-.rung.sourced dt{color:var(--ink)}
-.rung dd{margin:0}
 .rung.act dd{font-weight:600}
-
-.corrob{font-family:var(--mono);font-size:.72rem;margin-top:1.1rem;
-margin-left:2.4rem;display:flex;gap:.55rem;align-items:baseline;flex-wrap:wrap;
-letter-spacing:.04em;padding-left:1.1rem}
 .corrob .backed{color:var(--backed);font-weight:600}
 .corrob .unbacked{color:var(--unbacked);font-weight:600}
 .cites a{color:var(--muted);text-decoration:none;margin-right:.4rem;
@@ -292,12 +273,118 @@ footer.site a{color:var(--ink)}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
-.signal .tags,dl.ladder{padding-left:0}
-.corrob{margin-left:0;padding-left:.9rem}
-.rung{grid-template-columns:1fr;gap:.25rem;padding-left:.9rem}
 .trend-row{grid-template-columns:1fr;gap:.25rem}
 .tierlist li{grid-template-columns:1fr}
 .tierlist li::before{padding-top:0}
+}
+/* ---------------------------------------------------------------------------
+   The three-column document.
+   ---------------------------------------------------------------------------
+   The prose column stays at its reading measure — widening it past roughly 75
+   characters a line would make the page worse, not fuller. So the margins are
+   given a job instead of being filled.
+
+   Left margin  : structure. The rung labels hang out of the text, so the
+                  prose runs uninterrupted and the ladder is legible as a
+                  ladder from across the room.
+   Right margin : evidence. The sources behind a signal sit beside it, so
+                  checking a claim costs no navigation — which is the whole
+                  proposition of the product.
+   ------------------------------------------------------------------------- */
+
+/* box-sizing is border-box, so max-width has to carry the outer padding too —
+   without it the padding eats the reading measure, and the prose column
+   measured 656px against a 704px target. */
+.doc{max-width:calc(var(--measure) + var(--rail-l) + var(--rail-r) + var(--rail-gap) * 2 + 3rem);
+margin:0 auto;padding:0 1.5rem;
+padding-left:calc(1.5rem + var(--rail-l) + var(--rail-gap));
+padding-right:calc(1.5rem + var(--rail-r) + var(--rail-gap))}
+.doc > *{max-width:var(--measure)}
+
+/* Labels hang into the left margin. The shift is exactly label + gap + the
+   spine's own padding, so the prose still starts on the column edge. */
+dl.ladder{margin:0;padding-left:0}
+.rung{display:grid;
+grid-template-columns:var(--rail-l) 1fr;column-gap:var(--rail-gap);
+margin-left:calc(-1 * (var(--rail-l) + var(--rail-gap)));
+padding:.55rem 0;border-left:0}
+.rung dt{font-family:var(--mono);font-size:.66rem;font-weight:500;
+text-transform:uppercase;letter-spacing:.11em;color:var(--muted);
+padding-top:.3rem;text-align:right}
+.rung.sourced dt{color:var(--ink)}
+.rung dd{margin:0;padding-left:var(--spine-pad);
+border-left:2px dashed var(--rule-strong)}
+.rung.sourced dd{border-left-style:solid;border-left-color:var(--ink)}
+
+.signal-doc{position:relative}
+.signal{position:relative;padding:2rem 0 1.75rem;border-top:1px solid var(--rule)}
+.signal:first-of-type{border-top:0;padding-top:.75rem}
+.signal .head{display:flex;gap:.9rem;align-items:baseline;margin-bottom:.6rem;
+margin-left:calc(-1 * (var(--rail-l) + var(--rail-gap)))}
+.signal .rank{font-family:var(--mono);font-size:.8rem;color:var(--faint);
+flex:0 0 var(--rail-l);text-align:right;padding-top:.35rem;
+font-variant-numeric:tabular-nums}
+.signal .tags{display:flex;gap:.9rem;flex-wrap:wrap;margin:.6rem 0 1.2rem;
+padding-left:0}
+.corrob{font-family:var(--mono);font-size:.72rem;margin:1.1rem 0 0;
+display:flex;gap:.55rem;align-items:baseline;flex-wrap:wrap;
+letter-spacing:.04em;padding-left:var(--spine-pad)}
+
+/* The evidence aside sits in the right margin, level with its signal. */
+.aside{position:absolute;left:100%;top:2rem;width:var(--rail-r);
+margin-left:var(--rail-gap);font-family:var(--sans);font-size:.76rem;
+line-height:1.5;color:var(--muted)}
+.signal:first-of-type .aside{top:.75rem}
+.aside h4{font-family:var(--mono);font-size:.62rem;font-weight:500;
+text-transform:uppercase;letter-spacing:.13em;color:var(--faint);
+margin:0 0 .5rem;padding-bottom:.35rem;border-bottom:1px solid var(--rule)}
+.aside h4 + h4{margin-top:1.4rem}
+.aside ol{margin:0;padding-left:1.2rem}
+.aside li{margin-bottom:.55rem}
+.aside li::marker{font-family:var(--mono);font-size:.7rem;color:var(--faint)}
+.aside a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.aside a:hover,.aside a:focus-visible{color:var(--ink);border-bottom-color:var(--ink)}
+.aside .who{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.05em;color:var(--faint);margin-top:.15rem}
+.aside .who .primary{color:var(--backed);font-weight:600}
+.ents{display:flex;flex-wrap:wrap;gap:.3rem .5rem;margin:0;padding:0;list-style:none}
+.ents li{font-family:var(--mono);font-size:.66rem;letter-spacing:.04em;
+color:var(--muted);border:1px solid var(--rule);padding:.12rem .4rem}
+
+/* The longitudinal panel rides the right margin at the top of the article. */
+.rail-trend{position:absolute;left:100%;top:0;width:var(--rail-r);
+margin-left:var(--rail-gap);font-family:var(--sans);font-size:.76rem;
+line-height:1.5;color:var(--muted)}
+.rail-trend h4{font-family:var(--mono);font-size:.62rem;font-weight:500;
+text-transform:uppercase;letter-spacing:.13em;color:var(--faint);
+margin:0 0 .5rem;padding-bottom:.35rem;border-bottom:1px solid var(--rule)}
+.rail-trend ul{margin:0;padding:0;list-style:none}
+.rail-trend li{margin-bottom:.7rem;padding-left:.7rem;
+border-left:2px solid var(--rule-strong)}
+.rail-trend li.structural{border-left-color:var(--unbacked)}
+.rail-trend .n{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.05em;color:var(--faint);margin-top:.1rem}
+
+/* ---------------------------------------------------------------------------
+   Below the point where three columns stop fitting, everything folds back into
+   one. The rails reflow rather than disappear: on a phone the sources beside a
+   claim become the sources beneath it, and nothing is lost.
+   ------------------------------------------------------------------------- */
+@media(max-width:70rem){
+.doc{padding-left:1.5rem;padding-right:1.5rem;max-width:var(--measure)}
+.rung{margin-left:0}
+.signal .head{margin-left:0}
+.signal .rank{flex:none;min-width:1.5rem;text-align:left}
+.aside,.rail-trend{position:static;width:auto;margin:1.4rem 0 0;
+padding-top:1rem;border-top:1px solid var(--rule)}
+.rail-trend{margin-bottom:2rem}
+}
+@media(max-width:38rem){
+.doc{padding-left:1.15rem;padding-right:1.15rem}
+.rung{grid-template-columns:1fr;gap:.25rem}
+.rung dt{text-align:left}
+.rung dd{padding-left:.9rem}
+.corrob{padding-left:.9rem}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `.trim();
@@ -311,6 +398,8 @@ interface PageOpts {
   altPath?: string;
   jsonLd?: unknown;
   wide?: boolean;
+  /** Use the three-column document shell (edition pages only). */
+  doc?: boolean;
   body: Html;
 }
 
@@ -321,7 +410,7 @@ function page(o: PageOpts): string {
   const canonical = absUrl(cfg, o.path);
   const hasOther = cfg.languages.includes(other);
   const alt = o.altPath ? absUrl(cfg, o.altPath) : absUrl(cfg, homePath(other));
-  const wrap = o.wide ? "wrap-wide" : "wrap";
+  const wrap = o.doc ? "doc" : o.wide ? "wrap-wide" : "wrap";
   const ogImage = o.cfg.ogImage
     ? o.cfg.ogImage.startsWith("http")
       ? o.cfg.ogImage
@@ -416,6 +505,39 @@ function citationLinks(e: Edition, urls: string[]): Html {
   )}</span>`;
 }
 
+/**
+ * The right margin of a signal: what backs it, and who it is about.
+ *
+ * These are the same citations the numbers point at, lifted out of the
+ * footnote list and set beside the claim. A reader checking a claim should
+ * not have to leave the sentence to do it.
+ */
+function signalAside(e: Edition, sig: Signal): Html {
+  const s = STRINGS[e.lang];
+  const byUrl = new Map(e.sources.map((src) => [src.url, src]));
+  const cited = [...new Set([...sig.sourceUrls, ...sig.secondOrderUrls])]
+    .map((u) => byUrl.get(u))
+    .filter((src): src is NonNullable<typeof src> => !!src);
+
+  if (cited.length === 0 && sig.entities.length === 0) return html``;
+
+  return html`<aside class="aside">
+${cited.length > 0 &&
+  html`<h4>${s.evidenceFor}</h4>
+<ol>
+${cited.map(
+  (src) => html`<li><a href="${src.url}" rel="nofollow noopener" target="_blank">${src.title}</a>
+<span class="who">${src.primary ? html`<span class="primary">${src.publisher}</span>` : src.publisher}${
+    src.via && html` · via ${src.via}`
+  }</span></li>`,
+)}
+</ol>`}
+${sig.entities.length > 0 &&
+  html`<h4>${s.entitiesLabel}</h4>
+<ul class="ents">${sig.entities.map((n) => html`<li>${n}</li>`)}</ul>`}
+</aside>`;
+}
+
 function renderSignal(e: Edition, sig: Signal): Html {
   const s = STRINGS[e.lang];
   const t = sig.trend;
@@ -434,11 +556,16 @@ function renderSignal(e: Edition, sig: Signal): Html {
   // `sourced` draws the spine solid. Everything without it draws dashed, so
   // the eye can follow where evidence ends and our reading begins without
   // reading a word.
-  const rung = (label: string, value: string, cls = "", cites?: string[]) =>
-    value &&
-    html`<div class="rung ${cls}${cites && cites.length > 0 ? " sourced" : ""}"><dt>${label}</dt><dd>${value}${
-      cites && cites.length > 0 ? html` ${citationLinks(e, cites)}` : ""
-    }</dd></div>`;
+  const rung = (label: string, value: string, cls = "", cites?: string[]) => {
+    const sourced = !!cites && cites.length > 0;
+    const classes = ["rung", cls, sourced ? "sourced" : ""].filter(Boolean).join(" ");
+    return (
+      value &&
+      html`<div class="${classes}"><dt>${label}</dt><dd>${value}${
+        sourced ? html` ${citationLinks(e, cites)}` : ""
+      }</dd></div>`
+    );
+  };
 
   const c = sig.corroboration;
   // The previous caveat required a single-publisher claim with no primary
@@ -452,6 +579,7 @@ function renderSignal(e: Edition, sig: Signal): Html {
   // publisher count.
 
   return html`<article class="signal">
+${signalAside(e, sig)}
 <div class="head"><span class="rank" aria-hidden="true">${sig.rank}</span><h3>${sig.headline}</h3></div>
 <div class="tags">
 <span class="tag strong">${DOMAIN_SHORT[e.lang][sig.domain]}</span>
@@ -501,16 +629,22 @@ function editionJsonLd(cfg: SiteConfig, e: Edition): unknown {
 export function renderEdition(cfg: SiteConfig, e: Edition, hasAlt: boolean): string {
   const s = STRINGS[e.lang];
 
-  const trends =
+  // The longitudinal view rides the right margin rather than sitting at the
+  // foot of the page. What has been building for three weeks is context for
+  // reading today, not an appendix to it.
+  const trendRail =
     e.trends.length > 0 &&
-    html`<h2>${s.trends}</h2>
-<p class="note">${s.trendsIntro}</p>
+    html`<aside class="rail-trend">
+<h4>${s.trends}</h4>
+<ul>
 ${e.trends.map(
-  (t) => html`<div class="trend-row">
-<span class="tag strong">${s.trendStatus[t.status]}</span>
-<div>${t.theme}<div class="n">${s.trendSince(t.occurrences, t.firstSeen)} · ${DOMAIN_SHORT[e.lang][t.domain]}</div></div>
-</div>`,
-)}`;
+  (t) => html`<li class="${t.status}">${t.theme}<span class="n">${s.trendSince(
+    t.occurrences,
+    t.firstSeen,
+  )} · ${DOMAIN_SHORT[e.lang][t.domain]}</span></li>`,
+)}
+</ul>
+</aside>`;
 
   const watch =
     e.watchNext.length > 0 &&
@@ -520,7 +654,8 @@ ${e.trends.map(
         html`<li>${w.item}${w.dueDate && html` <span class="n">— ${formatDate(w.dueDate, e.lang)}</span>`}</li>`,
     )}</ul>`;
 
-  const body = html`<article>
+  const body = html`<article class="signal-doc">
+${trendRail}
 <h1>${e.title}</h1>
 ${e.dek && html`<p class="dek">${e.dek}</p>`}
 <div class="meta">
@@ -546,7 +681,6 @@ ${e.summary && html`<h2>${s.summary}</h2>
 <h2>${s.signals}</h2>
 ${e.signals.map((sig) => renderSignal(e, sig))}
 
-${trends}
 
 ${watch}
 
@@ -572,6 +706,7 @@ ${subscribeBlock(cfg, e.lang)}`;
     path: editionPath(e.lang, e.slug),
     altPath: hasAlt ? editionPath(other, e.slug) : homePath(other),
     jsonLd: editionJsonLd(cfg, e),
+    doc: true,
     body,
   });
 }

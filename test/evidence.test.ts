@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { extractText, isDeepenable, trimBoilerplate } from "../lib/brief/deepen";
-import { buildCandidates } from "../lib/brief/compose";
+import { buildCandidates, resolveEntities } from "../lib/brief/compose";
 import type { FeedItem } from "../lib/brief/types";
 
 /**
@@ -137,4 +137,31 @@ test("primary sources read in full lead the candidate pool", () => {
   const { pool } = buildCandidates([...filler, deep]);
   assert.equal(pool[0].url, "https://openai.com/x", "the read source must lead");
   assert.equal(pool.length, 41, "ordering must not drop anything");
+});
+
+test("entities the signal never mentions are dropped", () => {
+  const prose = "Danantara mengakui utang BUMN Karya; PLN belum bersikap.";
+  const kept = resolveEntities(["Danantara", "BUMN Karya", "PLN", "Pertamina"], prose);
+  assert.deepEqual(kept, ["Danantara", "BUMN Karya", "PLN"]);
+  assert.ok(!kept.includes("Pertamina"), "an index promises navigation; a name absent from the text breaks it");
+});
+
+test("entity matching ignores case but keeps the written form", () => {
+  const kept = resolveEntities(["danantara"], "Danantara mengakui utang.");
+  assert.deepEqual(kept, ["danantara"], "the model's own spelling is preserved once verified");
+});
+
+test("entities are de-duplicated and capped", () => {
+  const names = ["PLN", "ESDM", "WSKT", "WIKA", "ADHI", "PTPP", "BREN", "ANTM"];
+  const prose = names.join(" ");
+  // "PLN" twice in different case must collapse to one entry.
+  const kept = resolveEntities(["PLN", "pln", ...names.slice(1)], prose);
+  assert.equal(kept.length, 6, "six is the display ceiling");
+  assert.equal(new Set(kept.map((k) => k.toLowerCase())).size, kept.length, "no duplicates");
+});
+
+test("resolveEntities tolerates a missing or malformed field", () => {
+  assert.deepEqual(resolveEntities(undefined, "text"), []);
+  assert.deepEqual(resolveEntities("PLN", "PLN"), [], "a string is not a list");
+  assert.deepEqual(resolveEntities([1, null, "x"], "x here"), [], "single characters are not entities");
 });

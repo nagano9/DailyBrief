@@ -87,6 +87,34 @@ function config(languages: Lang[]): SiteConfig {
   };
 }
 
+/**
+ * Bring an edition written by an older engine up to the current shape.
+ *
+ * The archive is permanent, so every field added from now on will meet
+ * editions that predate it. Reading those straight crashed the build the
+ * first time it happened — `entities` was undefined on yesterday's edition
+ * and the renderer asked for its length.
+ *
+ * Filling the gap here, in one place, keeps every renderer free of defensive
+ * reads and means an old edition renders as what it is: correct, with the
+ * newer sections simply absent.
+ */
+function normaliseEdition(raw: Edition, date: string): Edition {
+  return {
+    ...raw,
+    slug: date,
+    trends: raw.trends ?? [],
+    watchNext: raw.watchNext ?? [],
+    sources: (raw.sources ?? []).map((src) => ({ ...src, primary: src.primary ?? false })),
+    signals: (raw.signals ?? []).map((sig) => ({
+      ...sig,
+      entities: sig.entities ?? [],
+      sourceUrls: sig.sourceUrls ?? [],
+      secondOrderUrls: sig.secondOrderUrls ?? [],
+    })),
+  };
+}
+
 function loadEditions(): Map<Lang, Edition[]> {
   const out = new Map<Lang, Edition[]>(LANGS.map((l) => [l, []]));
   if (!fs.existsSync(EDITIONS_DIR)) return out;
@@ -101,12 +129,11 @@ function loadEditions(): Map<Lang, Edition[]> {
       const file = path.join(EDITIONS_DIR, date, `${lang}.json`);
       if (!fs.existsSync(file)) continue;
       try {
-        const edition = JSON.parse(fs.readFileSync(file, "utf8")) as Edition;
-        if (edition.slug !== date) {
-          console.warn(`[site] ${file}: slug '${edition.slug}' != directory '${date}' — using directory`);
-          edition.slug = date;
+        const parsed = JSON.parse(fs.readFileSync(file, "utf8")) as Edition;
+        if (parsed.slug !== date) {
+          console.warn(`[site] ${file}: slug '${parsed.slug}' != directory '${date}' — using directory`);
         }
-        out.get(lang)!.push(edition);
+        out.get(lang)!.push(normaliseEdition(parsed, date));
       } catch (e) {
         console.error(`[site] SKIP ${file} — ${(e as Error).message}`);
       }

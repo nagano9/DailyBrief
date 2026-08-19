@@ -141,6 +141,7 @@ Kembalikan SATU objek JSON valid, tanpa markdown, tanpa teks lain:
       "whyItMatters": "Pola dan implikasi strategis.",
       "secondOrder": "Akibat dari akibat.",
       "action": "Tindakan konkret minggu ini.",
+      "entities": ["PLN", "Kementerian ESDM", "RUPTL 2025-2034"],
       "strength": "material",
       "cites": [3, 12],
       "secondOrderCites": []
@@ -154,6 +155,9 @@ Kembalikan SATU objek JSON valid, tanpa markdown, tanpa teks lain:
 Ketentuan:
 - "signals": TEPAT 5, "rank" 1-5, terpenting lebih dulu
 - "domain": salah satu dari ai | energy | corporate
+- "entities": 2-5 nama yang BENAR-BENAR DISEBUT dalam teks sinyal ini —
+  perusahaan, lembaga, regulasi, atau proyek. Tulis persis seperti yang Anda
+  tulis di teksnya. Nama yang tidak muncul di teks akan dibuang.
 - "themeKey": WAJIB. Slug kebab-case 2-5 kata yang menamai TEMA, bukan berita
   hari ini. Tulis agar berita berbeda tentang benang yang sama menghasilkan
   slug yang sama besok. Bila KONTEKS TREN memuat slug yang cocok, gunakan
@@ -199,6 +203,7 @@ Return ONE valid JSON object, no markdown, no other text:
       "whyItMatters": "The pattern and strategic implication.",
       "secondOrder": "The effect of the effect.",
       "action": "A concrete move this week.",
+      "entities": ["PLN", "Kementerian ESDM", "RUPTL 2025-2034"],
       "strength": "material",
       "cites": [3, 12],
       "secondOrderCites": []
@@ -212,6 +217,9 @@ Return ONE valid JSON object, no markdown, no other text:
 Rules:
 - "signals": EXACTLY 5, "rank" 1-5, most important first
 - "domain": one of ai | energy | corporate
+- "entities": 2-5 names ACTUALLY MENTIONED in this signal's text — companies,
+  institutions, regulations, or projects. Write them exactly as they appear in
+  your own text. Names absent from the text are dropped.
 - "themeKey": REQUIRED. A 2-5 word kebab-case slug naming the THEME, not
   today's news. Write it so a different story about the same thread produces
   the same slug tomorrow. If TREND CONTEXT lists a matching slug, reuse it

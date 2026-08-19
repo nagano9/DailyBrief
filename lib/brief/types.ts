@@ -167,6 +167,15 @@ export interface Signal {
   secondOrder: string;
   /** What the reader could actually do about it. */
   action: string;
+  /**
+   * Named entities this signal is about: companies, institutions, regulations.
+   *
+   * Every entity is checked against the signal's own text before publication
+   * and dropped if it does not appear there. An index that lists something
+   * the signal never mentions is worse than no index — and it is the kind of
+   * thing a model will supply helpfully if nothing stops it.
+   */
+  entities: string[];
   strength: SignalStrength;
   /**
    * Sources supporting `whatChanged` — the fact.

@@ -62,6 +62,10 @@ export interface Strings {
   funnelRead: string;
   funnelSignals: string;
   funnelCited: string;
+  /** Heading over the source notes in the right margin. */
+  evidenceFor: string;
+  /** Heading over the entity index in the right margin. */
+  entitiesLabel: string;
   /** Labels the citations under the second-order rung. */
   secondOrderSources: string;
   trendSince: (n: number, since: string) => string;
@@ -168,6 +172,8 @@ export const STRINGS: Record<Lang, Strings> = {
     funnelRead: "dibaca",
     funnelSignals: "sinyal",
     funnelCited: "sumber dikutip",
+    evidenceFor: "Dasar",
+    entitiesLabel: "Disebut",
     secondOrderSources: "dasar",
     trendSince: (n, since) => `${n}x sejak ${since}`,
     methodology: "Metodologi",
@@ -273,6 +279,8 @@ export const STRINGS: Record<Lang, Strings> = {
     funnelRead: "read",
     funnelSignals: "signals",
     funnelCited: "sources cited",
+    evidenceFor: "Basis",
+    entitiesLabel: "Named",
     secondOrderSources: "basis",
     trendSince: (n, since) => `${n}x since ${since}`,
     methodology: "Methodology",
