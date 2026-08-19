@@ -2,48 +2,48 @@
   "slug": "2026-08-19",
   "date": "2026-08-19",
   "lang": "en",
-  "title": "Danantara Governance Test, Indonesia-Germany Energy Pact, OpenAI Safety Pivot",
-  "dek": "Three converging pressures—SOE restructuring credibility, a €3 bn energy transition commitment, and OpenAI's self-imposed model-pacing safeguards—demand fresh analytical frameworks this week.",
+  "title": "Danantara BUMN Karya Crunch, Geothermal Push, and ChatGPT Ads Go European",
+  "dek": "Indonesia's sovereign wealth complex faces simultaneous stress tests in construction-SOE restructuring and geothermal concession reform, while OpenAI's ad expansion reframes the AI monetisation debate.",
   "domains": [
     "corporate",
-    "ai",
-    "energy"
+    "energy",
+    "ai"
   ],
-  "summary": "Danantara's stated Rp 360 trillion consolidated profit target for 2026 lands alongside an admission that BUMN Karya restructuring remains stalled, raising governance questions about whether headline figures reflect economic reality or intra-group accounting. Separately, Indonesia and Germany have committed Rp 47.5 trillion to energy transition financing, a bilateral signal large enough to shift project pipelines. On the AI frontier, OpenAI has publicly disclosed a pacing framework that ties model release cadence to cyber-risk thresholds—a material governance change that reframes how frontier labs can be assessed. Indonesia's geothermal minister has simultaneously put concession holders on notice to develop or return rights, which could unlock the world's largest untapped resource. Together these signals show that capital allocation discipline—whether in SOEs, energy assets, or AI development—is becoming the defining governance question across all three domains.",
+  "summary": "Danantara's public admission that BUMN Karya restructuring is dragging—with the IDX extending Wijaya Karya's trading suspension—crystallises a governance crisis inside Indonesia's new sovereign investment architecture. On the energy side, the government is deploying two levers simultaneously: pressuring geothermal concession holders to relinquish idle blocks ahead of a World Geothermal Congress, while a confirmed Rp 47.5 trillion Indonesia-Germany energy transition financing package adds near-term capital. In AI, OpenAI's rollout of ChatGPT Ads across 31 European markets marks the first large-scale attempt to monetise conversational AI through advertising rather than subscriptions, shifting the competitive logic for every player in the space. Separately, OpenAI's democratic-oversight initiative for national-security AI signals that the regulatory perimeter around frontier models is hardening faster than most enterprise deployment timelines assume.",
   "signals": [
     {
       "rank": 1,
       "domain": "corporate",
-      "themeKey": "danantara-bumn-restructuring-credibility",
+      "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
         "Danantara",
         "BUMN Karya",
-        "Adhi Karya",
+        "Wijaya Karya",
+        "Bursa Efek Indonesia",
         "Media Indonesia"
       ],
-      "headline": "Danantara targets Rp 360 tn consolidated BUMN profit while admitting BUMN Karya restructuring is unresolved",
-      "whatChanged": "Danantara publicly stated a Rp 360 trillion consolidated SOE profit target for 2026, while its leadership simultaneously acknowledged that the restructuring of the state construction conglomerates (BUMN Karya) remains incomplete and is now targeted for year-end 2026 completion—after multiple prior deadlines were missed. Media Indonesia flagged the risk of 'laba semu' (illusory profit) arising from intra-group transactions under the new SOE architecture.",
-      "whyItMatters": "A consolidated profit target set against unresolved restructuring of loss-making subsidiaries is a classic governance red flag: the headline number may aggregate healthy SOEs with distressed ones without netting intercompany eliminations, making the figure misleading for external stakeholders and creditors. This fits the pattern of newly created holding structures globally where portfolio opacity inflates reported performance before consolidation accounting matures.",
-      "secondOrder": "If Danantara's reported profit is partly illusory, dividend flows to the state budget will be overstated, potentially creating a fiscal hole that only surfaces when BUMN Karya write-downs are eventually recognised. DPR's Komisi VI is already summoning Adhi Karya over LRT City, signalling parliamentary scrutiny is intensifying—which could force earlier disclosure and compress Danantara's restructuring timeline against its will.",
-      "action": "Request a reconciliation of Danantara's Rp 360 tn profit figure against audited standalone accounts of BUMN Karya entities; specifically test whether intercompany receivables from distressed subsidiaries are netted before the consolidated number is published. If not, discount the headline by the estimated BUMN Karya loss exposure before using it in any fiscal or credit analysis.",
-      "strength": "material",
+      "headline": "Danantara concedes BUMN Karya overhaul will not finish until end-2026 as IDX extends WIKA trading ban",
+      "whatChanged": "Danantara's leadership publicly attributed delays in restructuring the state construction SOEs (BUMN Karya) to legal complexity and legacy liability disputes, setting end-2026 as the revised completion target. On the same day, Bursa Efek Indonesia extended the trading suspension on Wijaya Karya (WIKA) shares, signalling that the exchange does not regard the company's disclosures as sufficient for normal market access. Media Indonesia simultaneously published analysis questioning whether intra-group asset transfers are generating real profit or merely 'laba semu' (phantom earnings) under the new Danantara architecture.",
+      "whyItMatters": "BUMN Karya restructuring is the highest-profile test of Danantara's operational credibility. A public timeline slip, combined with a stock suspension extension, signals that the legal and financial complexity of consolidating loss-making state contractors was underestimated when Danantara was structured. This fits the broader pattern of sovereign holding companies discovering that portfolio rationalisation is far harder than asset aggregation.",
+      "secondOrder": "The 'laba semu' question is the sleeper risk: if Danantara's consolidated profit target of Rp 360 trillion for 2026 is partly built on intra-group transactions that net to zero economically, external creditors—including holders of any Danantara dollar bonds—are pricing the wrong earnings base. This could surface as a covenant or rating trigger rather than an operational failure.",
+      "action": "Map the intra-group transaction flows between Danantara and BUMN Karya subsidiaries; assess whether reported consolidated earnings strip out intercompany eliminations consistent with IFRS 10. Cross-reference against the Danantara dollar bond covenants if accessible.",
+      "strength": "actionable",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEtGUW40NHpCT2pqVmFxYXJOZnFfOVFpbzFWUnp2N04ySmIxS2Jod181QnpkcVhCMHFJeTRwU2F1N01EYTNQelRGWi1YNGVJS2F5ZDluektQUG5jZkk4VHBKM2ZieGFJajhCcFZxSG81czY4QWZHT2tFOTIyanJHa3JHM3M5WEFHQzN3MWhFQXI5bFE2TFYzRlRCRW8wbHkxMjEzQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5",
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQklLbElOQWd6Vk1acG9wN3BiTGUtalZrSDVWVXNlU1ZrdUJhSjVDWnloSV96cFJoV2Jiczc4ZU9rNE5JeWhOSjFVTWRtenVQYjhGUzBYNTUtNUF3RlFrNkdxQk05TlVzYS1ZYUpJRzVXVGFoU1RsaU9Yc0laZnA4ek1Jd2hEZnJaN1FTZHBybUFpa1h6UlBv?oc=5",
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZFNYMnUxak5xZnpRN01kZy0tY3lKT1JCWmpXUHlUR2dEUmwyQ3lOT2JNOFBQYzhWamFDRXp2YkZ6aU1wVjJrWGdYaTl0Y0JoMnpsUXQzZWRXaFBNZUFzV25lLXQ1MHJKcnRZNXhPT2xUZHJMTWp3aGViT3lUbk9QMVVMT29yZEZUcUFSRkVCOTIzTFdRZmtZVHVrQUVCNDcxRmhWSXI3UjRiS2ktdWFYRnRjWVd1ZWxqSDQzWEhwQ3NLQVZkaHc?oc=5",
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbUxjclJnQzNZVGlpNHpENjQ5TnRqTDdMOGtWdUpPRGVDSDdjdzNiRnFQSkxuN2JRRm9fd0ttMHZ5S0VYNlFYOGhFNkJoVGpMaG0xWHlKTnRlS19CMm4tMk8xcUNZaDEtODBhdFZhZ2MydFQ2MTVGcVlaRW1ELVpqbmRvYkVPSFRrTUM3NnQ5Smhfa0VscmxYMmRhRzNGMC1OaFFaZ2I4Q2lXZThZd2ZQeGZfZ3dpVHlES2fSAb8BQVVfeXFMTVRYdFFCUkdUczdSMGZ4TDBTZkhBczRDQlVQN2NpUnZwZ1VHb185ajIzdE1xXzVLbDNDem80TEV1MVVUN3d1a1JOSW9vaHByTWhxZzhDTGxBTnB6WTZMUzBVbHk0T0k3cjZ5NENELUF3eHJ5b1lwOGl3dUlfWnNIM0lWbFN4ZjJxS1RGc2VGSXJZVUFROWZCZ0pFaHRnZy1TdGhUcG9MbDlreG9RYkFOekZxWEZRdEVZTmVPMVZ4Q0U?oc=5"
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5"
       ],
       "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQklLbElOQWd6Vk1acG9wN3BiTGUtalZrSDVWVXNlU1ZrdUJhSjVDWnloSV96cFJoV2Jiczc4ZU9rNE5JeWhOSjFVTWRtenVQYjhGUzBYNTUtNUF3RlFrNkdxQk05TlVzYS1ZYUpJRzVXVGFoU1RsaU9Yc0laZnA4ek1Jd2hEZnJaN1FTZHBybUFpa1h6UlBv?oc=5"
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQklLbElOQWd6Vk1acG9wN3BiTGUtalZrSDVWVXNlU1ZrdUJhSjVDWnloSV96cFJoV2Jiczc4ZU9rNE5JeWhOSjFVTWRtenVQYjhGUzBYNTUtNUF3RlFrNkdxQk05TlVzYS1ZYUpJRzVXVGFoU1RsaU9Yc0laZnA4ek1Jd2hEZnJaN1FTZHBybUFpa1h6UlBv?oc=5",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEtGUW40NHpCT2pqVmFxYXJOZnFfOVFpbzFWUnp2N04ySmIxS2Jod181QnpkcVhCMHFJeTRwU2F1N01EYTNQelRGWi1YNGVJS2F5ZDluektQUG5jZkk4VHBKM2ZieGFJajhCcFZxSG81czY4QWZHT2tFOTIyanJHa3JHM3M5WEFHQzN3MWhFQXI5bFE2TFYzRlRCRW8wbHkxMjEzQQ?oc=5"
       ],
       "corroboration": {
-        "publishers": 6,
+        "publishers": 4,
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "danantara-bumn-restructuring-credibility",
+        "themeKey": "danantara-bumn-karya-restructuring",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -52,28 +52,32 @@
     },
     {
       "rank": 2,
-      "domain": "ai",
-      "themeKey": "frontier-model-pacing-governance",
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
       "entities": [
-        "OpenAI",
-        "Anthropic"
+        "Bahlil Lahadalia",
+        "World Geothermal Congress"
       ],
-      "headline": "OpenAI formalises cyber-risk thresholds as a hard gate on frontier model release cadence",
-      "whatChanged": "OpenAI published a policy stating that model development pace will be explicitly constrained by cyber-critical capability thresholds—meaning specific measurable risk levels can pause or slow releases. The announcement also details strengthened monitoring and alignment checks tied to this framework, making it the first time OpenAI has publicly committed to a quantified pacing mechanism rather than a qualitative safety review.",
-      "whyItMatters": "This moves AI safety from a reputational posture to a disclosed operational constraint. For enterprise buyers, governments, and national-security customers, it signals that OpenAI is accepting bounded release timelines as a feature rather than a liability—a meaningful shift from the implicit 'ship when ready' norm that has governed frontier labs.",
-      "secondOrder": "Competitors who do not adopt equivalent pacing disclosures will face asymmetric regulatory pressure: the existence of a published standard at OpenAI gives regulators a benchmark to hold others to. This is likely to accelerate mandatory pacing frameworks in the EU AI Act implementing measures and in US executive-order follow-ons, compressing the window in which labs without equivalent governance can operate freely in government procurement.",
-      "action": "Map OpenAI's disclosed cyber-risk threshold taxonomy against existing AI procurement criteria in any active government or financial-sector RFP processes; flag where absence of equivalent disclosure from competing vendors constitutes a new due-diligence gap. Review this framing against Anthropic's concurrent watermarking disclosure for signs of coordinated industry standard-setting.",
-      "strength": "material",
+      "headline": "Minister Bahlil demands idle geothermal concessions be returned as Indonesia targets 15% geothermal share and Rp 2.6 trillion PNBP",
+      "whatChanged": "At the World Geothermal Congress held in Indonesia, Minister Bahlil Lahadalia publicly ordered concession holders sitting on undeveloped geothermal blocks to surrender them, framing it as a national development obligation. The government has set a non-tax revenue (PNBP) target of Rp 2.6 trillion from geothermal and a long-run mix target of 15%. Indonesia hosts the event as the country with the world's largest geothermal potential.",
+      "whyItMatters": "Idle-concession pressure is a qualitative policy shift: it converts geothermal rights from indefinitely-holdable exploration licences into use-or-lose assets. This changes the risk calculus for developers who have been land-banking concessions while waiting for tariff improvement, and creates a forced supply of retendered blocks that could attract new entrants or international capital.",
+      "secondOrder": "Retendered blocks will likely need a new tariff framework to attract bids, because the reason concessions were idle in the first place is often uneconomic feed-in tariffs. If the government simultaneously pressures holders to relinquish and fails to raise tariffs, retendering may yield no takers—turning a political announcement into a deadlock that delays the 15% mix target further.",
+      "action": "Identify which concession holders are most exposed to revocation risk (large blocks with no construction activity); assess whether a tariff revision is in the APBN 2027 pipeline as a paired policy move. The PNBP target of Rp 2.6 trillion implies expected royalty flows that only materialise with active production—test whether that target is consistent with the current project pipeline.",
+      "strength": "actionable",
       "sourceUrls": [
-        "https://openai.com/index/pacing-model-development-cyber-capabilities"
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOE9hT0xVdzNYejlpcFpqMHpvR3R3aWJlRS1yQ0xCZ2JHVGI1ckNIWTVVS3lDMWUtSjBaeThtYVVjbWRSNXBsOFlJQXA2cnI3VTR1bndOMEVRaVBoeW9rSzllczMwcVU5Q3RzSzhvdFM0NXNmRWdoRi1zTEw4eWFFZ1FuUjV0V1piNUZTbEVxQ2lmTzU0OGxpRDFOY1l6eUw4Q25LLVl1RGpyd0Y5YVlrNFpGdXp6UDJzTXMtelpGU05XOGdVQU5jeDkzSlprZjgz?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXdmb0s2b3J5TGVWbDc4S2FNZ0drMlEzM3ZwdmhsUTdDTXVFLVU2RGdjNU5udUNrTG5leTBLbmtuUnhiU3B1TE9jdGJlLThuU2lrQThGWDNGVEhhSkk1M0RnZC1oSUxaaDdsdUNsSGV0X05UaHVnbHN0UVBWNFBKcmxzNklCeVBXektfakJlZ1BJNllxUUVwdG96YW01Z2VHOGNRNER5dlJCSHJPbjZxV2MtZ1dtMWJMbG4xQVRZejFVZ9IBxwFBVV95cUxPNHN1eE9neGlpY2N1RTk0YVk5MFZFRjZocHZ3YmRSR09UTFZ2VU56ZTNKc3BDVWFNMC1JcUE1Zkd6Y19jZGRMU2FTVnFyZkhMWV8tNWpWLWFXZE1mUEpiQmFZUW45UmwxRFBlcGNXd3BCS0Z5LUtUN0NqZEs5LWdhMm9jRmpDRExaTXYtb3lkT0R2RXJ6NnlZLTBHZ1VoNGJ1UUZtNTF4aWJiaTFKTlZQOHZYTVQzS2MyLU5XT1IycWpHa3J5MUtJ?oc=5",
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMUlFOUhkZFNWdmhwVkh1U0xqY21fd2JsYmQ2V25UaktJRjFaVXRXVTNSdWxLWE1IUmJ3dDdtTWt5WGlBMEpOYjJQUlFBZ01NSFJfRlNMaUJYRHg2LXp6d3ozSjdKZjVFckxsVGJ3UlNIT3pIUXhmVmdtQ29iVTg3cmdCRGNGcG1NLVUxelRqRTZ5WjJqVzgzRGhRQlhQXzZxX1HSAZsBQVVfeXFMUEx6SUgzcnlnRWNsaHVXWnJWQTVQOTRoMDYxemVLZkR4Zk52YXplbzdnTE9STGlyNVFvTmtUWUxGdnhJMkFvSTQ5UXJrT2RuNjhEbmNISm5Ed1hSWFFOUjlPVWp1V0k3VkZudXNDUXhPckZFMjA5N0tfZl9uMWFISEhxZXhEWG1vX1RwOFFCUi1TQU9UdGxjU2xjV1U?oc=5"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3kxZ0RWMGl1VU8yMk91Q21rWnBDeV93OHdSWUVVTk0zR1NpdHZ0RFNwQ1luZWk0NkUxS2lIZHVSWjNEQV9GbDdxVkdhcDBPb21LMGN2X2N1TkpzdVhJUzdLLS1xcmhHQ0JXWThzTEJuclQ3a2E0OWJpbm1WY0p1OHZYQlUyeGlBS3IyTFl4Y3VqblFqNHNvYktn?oc=5"
+      ],
       "corroboration": {
-        "publishers": 1,
+        "publishers": 3,
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "frontier-model-pacing-governance",
+        "themeKey": "indonesia-geothermal-concession-reform",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -82,34 +86,28 @@
     },
     {
       "rank": 3,
-      "domain": "energy",
-      "themeKey": "indonesia-energy-transition-bilateral-finance",
+      "domain": "ai",
+      "themeKey": "chatgpt-advertising-monetisation",
       "entities": [
-        "Indonesia",
-        "Germany",
-        "IESR",
-        "PLN",
-        "JETP Indonesia"
+        "OpenAI",
+        "ChatGPT Ads"
       ],
-      "headline": "Indonesia and Germany commit Rp 47.5 trillion (≈€2.85 bn) to energy transition financing",
-      "whatChanged": "Indonesia and Germany announced readiness to deploy Rp 47.5 trillion in joint energy transition financing, according to CNN Indonesia. The funding framework is positioned as supporting renewable scale-up and grid modernisation, aligning with Indonesia's APBN 2027 priorities cited by IESR in its response to President Prabowo's state address.",
-      "whyItMatters": "Bilateral concessional and blended finance at this scale—if structured efficiently—can crowd in private capital at a 3–5× multiplier, meaning total investable capacity could reach Rp 140–240 trillion. Germany has been a lead funder of Indonesian energy transition through the JETP and ETM frameworks; a fresh bilateral commitment signals those mechanisms are being reinforced rather than wound down amid global aid budget pressures.",
-      "secondOrder": "The conditionality attached to German development finance typically requires transparent procurement, environmental safeguards, and sometimes domestic content waivers—terms that may conflict with Indonesia's Tingkat Komponen Dalam Negeri (TKDN) rules. Negotiating that tension will determine whether disbursement actually reaches project level or stalls in policy design, as has happened with portions of JETP Indonesia funding.",
-      "action": "Identify which project categories (geothermal, grid, solar) are explicitly earmarked in the bilateral framework and cross-reference against IEEFA's transmission subholding analysis; assess whether the financing is structured to flow through PLN's balance sheet or off it, since the latter would not count against PLN's debt ceiling and would be more deployable.",
-      "strength": "emerging",
+      "headline": "OpenAI rolls ChatGPT Ads to 31 European markets, embedding advertising into AI-native search and discovery",
+      "whatChanged": "OpenAI confirmed the expansion of ChatGPT Ads to 31 European markets, positioning the product explicitly around moments when users explore options and make decisions—language that maps directly onto high-value commercial-intent queries. This is OpenAI's primary move to generate revenue from the hundreds of millions of users who will not pay subscription fees.",
+      "whyItMatters": "The advertising expansion is structurally significant because it replicates the Google Search monetisation model inside a conversational interface. If ChatGPT captures even a fraction of commercial-intent query volume from traditional search, it directly erodes Google's core revenue base while giving OpenAI a second monetisation rail independent of API and enterprise contracts.",
+      "secondOrder": "European expansion first—rather than a US-only launch—suggests OpenAI made a deliberate regulatory calculation: GDPR and the EU AI Act create compliance overhead, but also provide a 'regulatory moat' signal to brand advertisers who want a premium, safe-to-partner platform. Success in Europe could accelerate advertiser migration before US-market dynamics are fully resolved, inverting the usual US-first rollout logic.",
+      "action": "Assess the implications for enterprise AI budget allocation: companies that currently spend on Google Search Ads and separately on OpenAI API/enterprise licences may face a consolidated AI-advertising relationship with OpenAI. Evaluate whether ChatGPT Ads targeting data could create conflict-of-interest concerns for enterprise customers who share proprietary query data with OpenAI.",
+      "strength": "material",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclhBakxuMlZ2OHA3LUVINFViSEtvWGg2UFJKZEx2NFJiSkEwSVV2V3hKZkhwbDl1cFd1TGRHclRoV0NTSjBEc3NOcm1ISWg5aHB6cEEwUUZVOEdfUE0zLWZEOXdMMWZmcHp6Vm03MmFzdTJuR1ZNVlFuaDhBQlo0elNEWlBHU3VhSGFuTDBJX19MN1Bxbmt5U2VRdVVaWHBHZG52Z2RHdWZkQ1ltRUJ6Xy1keHI1S2lCM1lxLU95VVpyUVN5eXfSAcsBQVVfeXFMTi11NkU3clpSNU56cTZ6Y1JlejlGTi1LYk54aXpLYzVOZllZNXl1d2RBeC1wWTdSQmN0YjVvTWc1TW5RS2ZZMnRXRVJGc1ZqQThTS0xNeWhZX28zSklsSGxuMmZlcThPYkYwSGFwZU9ra0ExcWt0MlVHWE1lOG1YNzFLYzJ4ckhzV3dXZk1TdzlpU3BFeHp0bjZEcHRQWG1KbndKbHdTUmJfdkZvYUNuWldiTDlfdnFmZ0xzTU1RYjc4ZC1OTDhob2Q3QWc?oc=5",
-        "https://iesr.or.id/tanggapan-iesr-terhadap-pidato-kenegaraan-presiden-prabowo-ruu-apbn-2027-dan-nota-keuangan/"
+        "https://openai.com/index/chatgpt-ads-expands-across-europe"
       ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 1,
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "indonesia-energy-transition-bilateral-finance",
+        "themeKey": "chatgpt-advertising-monetisation",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -118,29 +116,27 @@
     },
     {
       "rank": 4,
-      "domain": "energy",
-      "themeKey": "indonesia-geothermal-concession-discipline",
+      "domain": "ai",
+      "themeKey": "ai-national-security-governance",
       "entities": [
-        "Bahlil Lahadalia",
-        "Danantara"
+        "OpenAI"
       ],
-      "headline": "ESDM Minister Bahlil warns geothermal concession holders to develop or surrender rights",
-      "whatChanged": "Minister Bahlil Lahadalia publicly stated that Indonesia, holding the world's largest geothermal potential, will not tolerate concession hoarding: developers sitting on licences without progress will be required to relinquish them. The statement follows government targets of reaching a 15% geothermal share in the energy mix, which kompas.id notes is far behind schedule.",
-      "whyItMatters": "Indonesia's geothermal backlog is one of the most persistent mismatches between resource endowment and deployment globally. The use or lose threat, if backed by regulatory action, would free stranded concessions for reallocation to developers with capital and technical capacity—potentially unlocking gigawatts of baseload renewable capacity critical to both the national grid and data-centre power credibility for AI infrastructure investors.",
-      "secondOrder": "Concession reallocation at scale would create an immediate M&A opportunity for independent power producers and international energy majors with geothermal expertise. However, the risk is that reallocation processes become politicised or favour Danantara-linked entities over open competitive tender, which would replicate the capture problem rather than solve it. Monitoring the legal vehicle used for reallocation—ministerial decree versus regulatory revision—will indicate whether this is a credible enforcement or a rhetorical warning.",
-      "action": "Map active geothermal concessions against development status using ESDM registry data; identify which concessions held by private and BUMN developers show zero or sub-threshold drilling activity. Assess whether the Danantara Development Management Fund (DDMF) structure could absorb relinquished concessions, creating a state consolidation play rather than a competitive market outcome.",
-      "strength": "actionable",
+      "headline": "OpenAI launches democratic-oversight initiative for national-security AI, offering tools and training to government institutions",
+      "whatChanged": "OpenAI announced an initiative explicitly framed around strengthening democratic oversight of AI in national security contexts, committing to provide tools, training, and expertise to government institutions. This is a primary-source announcement from OpenAI, not a policy response to an external mandate.",
+      "whyItMatters": "A frontier AI lab voluntarily structuring a national-security engagement programme around democratic-oversight principles—rather than purely capability delivery—signals that OpenAI is attempting to pre-empt regulatory constraints by defining the governance framework itself. This is the same dynamic that shaped early cloud-computing government contracts but is moving faster given the dual-use nature of frontier models.",
+      "secondOrder": "By embedding oversight and training as part of the national-security offering, OpenAI creates switching costs that are institutional rather than merely technical: government agencies that adopt OpenAI's oversight frameworks will find it harder to migrate to alternative models (Anthropic, Google DeepMind, open-source) because the compliance and audit infrastructure will be OpenAI-specific. This is a moat-building move dressed as governance.",
+      "action": "For any institution evaluating AI procurement for sensitive functions: require that vendor governance frameworks be interoperable and auditable by third parties, not solely through vendor-provided tooling. Ask OpenAI specifically whether the oversight tools are open-standard or proprietary before committing to the programme.",
+      "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOE9hT0xVdzNYejlpcFpqMHpvR3R3aWJlRS1yQ0xCZ2JHVGI1ckNIWTVVS3lDMWUtSjBaeThtYVVjbWRSNXBsOFlJQXA2cnI3VTR1bndOMEVRaVBoeW9rSzllczMwcVU5Q3RzSzhvdFM0NXNmRWdoRi1zTEw4eWFFZ1FuUjV0V1piNUZTbEVxQ2lmTzU0OGxpRDFOY1l6eUw4Q25LLVl1RGpyd0Y5YVlrNFpGdXp6UDJzTXMtelpGU05XOGdVQU5jeDkzSlprZjgz?oc=5",
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3kxZ0RWMGl1VU8yMk91Q21rWnBDeV93OHdSWUVVTk0zR1NpdHZ0RFNwQ1luZWk0NkUxS2lIZHVSWjNEQV9GbDdxVkdhcDBPb21LMGN2X2N1TkpzdVhJUzdLLS1xcmhHQ0JXWThzTEJuclQ3a2E0OWJpbm1WY0p1OHZYQlUyeGlBS3IyTFl4Y3VqblFqNHNvYktn?oc=5"
+        "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 1,
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "indonesia-geothermal-concession-discipline",
+        "themeKey": "ai-national-security-governance",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -149,34 +145,32 @@
     },
     {
       "rank": 5,
-      "domain": "corporate",
-      "themeKey": "danantara-ddmf-fiscal-boundary",
+      "domain": "energy",
+      "themeKey": "indonesia-germany-energy-transition-finance",
       "entities": [
-        "Kemenkeu",
-        "Danantara",
-        "DDMF",
-        "JBS"
+        "Indonesia",
+        "Germany",
+        "PLN"
       ],
-      "headline": "Kemenkeu confirms Danantara Development Management Fund will not draw on APBN",
-      "whatChanged": "The Ministry of Finance (Kemenkeu) formally stated that the Danantara Development Management Fund (DDMF) will not use state budget (APBN) resources. This is a structural clarification that separates DDMF's capitalisation from fiscal appropriations, implying the fund must be capitalised through asset transfers, retained earnings from SOEs, or third-party investment.",
-      "whyItMatters": "The no-APBN constraint is a double-edged governance signal: it reduces explicit fiscal risk but increases pressure on DDMF to generate returns quickly from SOE asset monetisation or third-party co-investment—precisely the deals (such as the JBS protein partnership at USD 2.5 bn) that are emerging as the fund's deal flow. It also means DDMF's leverage is constrained to asset-backed structures, which limits deployment speed.",
-      "secondOrder": "If DDMF cannot access APBN and must self-fund through SOE dividends or asset sales, it becomes directly dependent on the consolidated profit figures that Media Indonesia has already flagged as potentially illusory. A circularity risk emerges: DDMF's investable capital is a function of BUMN profitability, which is a function of restructuring completion, which DDMF is supposed to finance. Breaking this loop requires either external equity (sovereign wealth or foreign strategic) or an explicit government guarantee—neither of which has been disclosed.",
-      "action": "Request DDMF's capitalisation schedule and compare it against projected BUMN dividend flows for 2026–2027; test whether the fund can meet its investment commitments (including the JBS deal) without either APBN support or leverage that would require a government guarantee. If the math does not close, escalate as a contingent fiscal liability risk in sovereign credit analysis.",
-      "strength": "material",
+      "headline": "Indonesia and Germany confirm Rp 47.5 trillion energy transition financing package",
+      "whatChanged": "Indonesia and Germany announced readiness to deploy Rp 47.5 trillion (approximately USD 2.9 billion at current rates) in energy transition financing, according to CNN Indonesia. The announcement follows the framework of bilateral development cooperation and is additional to existing JETP and ETM commitments.",
+      "whyItMatters": "A bilateral commitment of this scale, from a G7 economy with established green-finance instruments (KfW, DEG), adds a concrete near-term capital layer to Indonesia's energy transition, which has been characterised by abundant pledges and slow disbursement. Germany's involvement typically comes with concessional terms and technical assistance conditionalities that can accelerate regulatory reform.",
+      "secondOrder": "German financing at this scale is likely to be channelled through specific project pipelines—transmission, renewables, or industrial decarbonisation. If it concentrates in the transmission segment (where IEEFA has identified the most critical bottleneck), it could accelerate the PLN subholding restructuring debate that has stalled for over a year, because foreign lenders typically require ring-fenced project vehicles rather than exposure to the full PLN balance sheet.",
+      "action": "Track which ministry counter-signs the framework and which implementing agencies are named—this determines whether funds flow through PLN, Danantara, or a dedicated project vehicle. Cross-reference with IEEFA's transmission subholding analysis to assess alignment.",
+      "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQnUxS2I2dldxTkdfeWl0cXhLd0kySnFHTDRaendmZzRfWERSaFlOTHVSNkJYRHVNMjhVb2lxQ29GX056SHRSQ3lpend0Y2N1NlZOMExrX0xrS1NiSkN3cU9HZGdXWmdEUE93RW1Ra3VpeEg1VmJCWF9lMnp5d2NuQXNnenU0aWlyMEdyNldYWDVBNnh2YUJrTVFFSFJSRGFzMmdZLVNMOUxXaFdJZE9xNVRtQ0EtREpjMXc?oc=5",
-        "https://news.google.com/rss/articles/CBMiowFBVV95cUxOODFaWDZjX1YyZEVQbEpNd05KVUphQUYzZDVtSHA4TjlBZ09kOHcyazMtU1lJdm9WTHBCTHpMNHNCbVFHUHdpSFVscVc2eXpTbnpSMnVZbWhxcnc0U0s4bHJ3eFVIVE4wR0NBWWtaOFFDUXVoRTVRRVFyR3A1WG5qakwzbTRXNzM1S3hIVzlTdnNiZDhkT1hEYmVzWW9fbC1QWjMw?oc=5",
-        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXNwUldIdE5LSEJnSTUxS3RqUUZTcm5LUEx2aDE3VTdJdkJNMENDRkdrUUhiUko2MjFUc2JMYmhfdTBoTnAxVmRGZEFJTlJrYWlCb3p4ZVI3OHV2cjZDOTRNYmk3ZHdJSVRUamh1bjBkOHBCSVZManY1a3lNZXRYTk1oeGw0M3F4V2NKcXVmcE9qTzJEQ0M4WFdURm05RGNCaTlDbzZTN0LSAa4BQVVfeXFMTUVkOWozUmk4ZWVqLXlCNndVTEY3SmRXWV8xZVpaMnk3dE0yQmxacEdZeEtPTlRtbUJQQWdpZkNNV2F3MlgyckhqMzNKVFpSaG11b3VTb1FJTEgyUlNQY0ZaQ1A2M29IVTRSblFfMmJYMUtXMnY4clBLSG9hMkI2TnhYZXY4ZGtYRllaQUphd1dNQ2p3TXVpRV9HYkRRSlhycHlQMDZaVGpDTGZ2cEZn?oc=5"
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclhBakxuMlZ2OHA3LUVINFViSEtvWGg2UFJKZEx2NFJiSkEwSVV2V3hKZkhwbDl1cFd1TGRHclRoV0NTSjBEc3NOcm1ISWg5aHB6cEEwUUZVOEdfUE0zLWZEOXdMMWZmcHp6Vm03MmFzdTJuR1ZNVlFuaDhBQlo0elNEWlBHU3VhSGFuTDBJX19MN1Bxbmt5U2VRdVVaWHBHZG52Z2RHdWZkQ1ltRUJ6Xy1keHI1S2lCM1lxLU95VVpyUVN5eXfSAcsBQVVfeXFMTi11NkU3clpSNU56cTZ6Y1JlejlGTi1LYk54aXpLYzVOZllZNXl1d2RBeC1wWTdSQmN0YjVvTWc1TW5RS2ZZMnRXRVJGc1ZqQThTS0xNeWhZX28zSklsSGxuMmZlcThPYkYwSGFwZU9ra0ExcWt0MlVHWE1lOG1YNzFLYzJ4ckhzV3dXZk1TdzlpU3BFeHp0bjZEcHRQWG1KbndKbHdTUmJfdkZvYUNuWldiTDlfdnFmZ0xzTU1RYjc4ZC1OTDhob2Q3QWc?oc=5"
       ],
       "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQklLbElOQWd6Vk1acG9wN3BiTGUtalZrSDVWVXNlU1ZrdUJhSjVDWnloSV96cFJoV2Jiczc4ZU9rNE5JeWhOSjFVTWRtenVQYjhGUzBYNTUtNUF3RlFrNkdxQk05TlVzYS1ZYUpJRzVXVGFoU1RsaU9Yc0laZnA4ek1Jd2hEZnJaN1FTZHBybUFpa1h6UlBv?oc=5"
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
       ],
       "corroboration": {
-        "publishers": 3,
-        "hasPrimary": true
+        "publishers": 1,
+        "hasPrimary": false
       },
       "trend": {
-        "themeKey": "danantara-ddmf-fiscal-boundary",
+        "themeKey": "indonesia-germany-energy-transition-finance",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -186,35 +180,27 @@
   ],
   "watchNext": [
     {
-      "item": "BUMN Karya restructuring completion: Danantara has set end-2026 as the hard deadline; monitor for formal merger decrees or write-down announcements from Adhi Karya, Waskita, and PTPP that would test the Rp 360 tn profit claim.",
-      "dueDate": "2026-12-31"
+      "item": "WIKA trading suspension review: IDX decision on whether to lift or extend the WIKA share lock—key signal for BUMN Karya restructuring credibility.",
+      "dueDate": "2026-08-31"
     },
     {
-      "item": "DDMF capitalisation disclosure: Watch for a Ministry of Finance or Danantara press release detailing the fund's opening balance sheet and source of capital, which will confirm or refute the circularity risk identified today.",
-      "dueDate": "2026-10-01"
+      "item": "Danantara DDMF capital structure disclosure: Ministry of Finance confirmed DDMF will not use APBN funds; watch for the legal entity and funding source announcement.",
+      "dueDate": "2026-09-15"
     },
     {
-      "item": "Geothermal concession enforcement: Track whether Kementerian ESDM issues a formal regulatory instrument (Permen or PP) implementing Bahlil's use-or-lose warning, and whether relinquished concessions are re-tendered competitively.",
+      "item": "Geothermal concession revocation list: whether Kementerian ESDM publishes a formal list of idle concessions subject to relinquishment following Bahlil's World Geothermal Congress statement.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Indonesia-Germany energy transition financing: watch for KfW or DEG project agreements identifying specific implementing agencies and project pipelines.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "ChatGPT Ads Europe performance data: any advertiser case studies or CPM/CPC benchmarks that would allow comparison with Google Search Ads on commercial-intent queries.",
       "dueDate": "2026-11-30"
-    },
-    {
-      "item": "Indonesia-Germany energy finance disbursement structure: Confirm whether the Rp 47.5 tn commitment flows through KfW, BAPPENAS, or a new blended finance vehicle, and whether TKDN waivers are part of the conditionality.",
-      "dueDate": "2026-10-15"
-    },
-    {
-      "item": "OpenAI pacing framework regulatory uptake: Monitor EU AI Office and US NIST for references to OpenAI's cyber-risk threshold disclosure as a precedent in forthcoming frontier-model governance guidance.",
-      "dueDate": "2027-03-01"
     }
   ],
   "sources": [
-    {
-      "title": "Tanggapan IESR terhadap Pidato Kenegaraan Presiden Prabowo, RUU APBN 2027 dan Nota Keuangan",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/tanggapan-iesr-terhadap-pidato-kenegaraan-presiden-prabowo-ruu-apbn-2027-dan-nota-keuangan/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-14T09:39:48.000Z"
-    },
     {
       "title": "Kejar Potensi Panas Bumi Nomor Satu Dunia, Bahlil Minta Pengembang Tak Tahan Konsesi",
       "publisher": "Kementerian ESDM",
@@ -223,15 +209,6 @@
       "via": "Google News",
       "primary": true,
       "publishedAt": "2026-08-19T08:08:02.000Z"
-    },
-    {
-      "title": "Danantara & JBS Jalin Kemitraan Protein Senilai USD 2,5 Miliar",
-      "publisher": "Danantara Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOODFaWDZjX1YyZEVQbEpNd05KVUphQUYzZDVtSHA4TjlBZ09kOHcyazMtU1lJdm9WTHBCTHpMNHNCbVFHUHdpSFVscVc2eXpTbnpSMnVZbWhxcnc0U0s4bHJ3eFVIVE4wR0NBWWtaOFFDUXVoRTVRRVFyR3A1WG5qakwzbTRXNzM1S3hIVzlTdnNiZDhkT1hEYmVzWW9fbC1QWjMw?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-08-07T07:00:00.000Z"
     },
     {
       "title": "Laba Semu, Arsitektur Baru, dan Ujian Tata Kelola BUMN",
@@ -243,13 +220,30 @@
       "publishedAt": "2026-08-19T09:31:40.000Z"
     },
     {
-      "title": "Kemenkeu: Danantara Development Management Fund (DDMF) Tak Pakai APBN - Bisnis.com",
-      "publisher": "Bisnis.com - Ekonomi",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQnUxS2I2dldxTkdfeWl0cXhLd0kySnFHTDRaendmZzRfWERSaFlOTHVSNkJYRHVNMjhVb2lxQ29GX056SHRSQ3lpend0Y2N1NlZOMExrX0xrS1NiSkN3cU9HZGdXWmdEUE93RW1Ra3VpeEg1VmJCWF9lMnp5d2NuQXNnenU0aWlyMEdyNldYWDVBNnh2YUJrTVFFSFJSRGFzMmdZLVNMOUxXaFdJZE9xNVRtQ0EtREpjMXc?oc=5",
-      "tier": 1,
+      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Ajang Pengusaha Panas Bumi Dunia Kumpul di RI, Acara Dibuka Bahlil",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXdmb0s2b3J5TGVWbDc4S2FNZ0drMlEzM3ZwdmhsUTdDTXVFLVU2RGdjNU5udUNrTG5leTBLbmtuUnhiU3B1TE9jdGJlLThuU2lrQThGWDNGVEhhSkk1M0RnZC1oSUxaaDdsdUNsSGV0X05UaHVnbHN0UVBWNFBKcmxzNklCeVBXektfakJlZ1BJNllxUUVwdG96YW01Z2VHOGNRNER5dlJCSHJPbjZxV2MtZ1dtMWJMbG4xQVRZejFVZ9IBxwFBVV95cUxPNHN1eE9neGlpY2N1RTk0YVk5MFZFRjZocHZ3YmRSR09UTFZ2VU56ZTNKc3BDVWFNMC1JcUE1Zkd6Y19jZGRMU2FTVnFyZkhMWV8tNWpWLWFXZE1mUEpiQmFZUW45UmwxRFBlcGNXd3BCS0Z5LUtUN0NqZEs5LWdhMm9jRmpDRExaTXYtb3lkT0R2RXJ6NnlZLTBHZ1VoNGJ1UUZtNTF4aWJiaTFKTlZQOHZYTVQzS2MyLU5XT1IycWpHa3J5MUtJ?oc=5",
+      "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T08:53:00.000Z"
+      "publishedAt": "2026-08-19T13:05:33.000Z"
+    },
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-18T22:00:00.000Z"
     },
     {
       "title": "Bos Danantara Ungkap Alasan Restrukturisasi BUMN Karya Berlarut-larut",
@@ -261,6 +255,15 @@
       "publishedAt": "2026-08-19T06:36:00.000Z"
     },
     {
+      "title": "Bursa Efek Indonesia Perpanjang Gembok Saham WIKA",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-19T05:40:15.000Z"
+    },
+    {
       "title": "Dukung Transisi Energi, Indonesia-Jerman Siap Gelontorkan Rp47,5 T",
       "publisher": "CNN Indonesia",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclhBakxuMlZ2OHA3LUVINFViSEtvWGg2UFJKZEx2NFJiSkEwSVV2V3hKZkhwbDl1cFd1TGRHclRoV0NTSjBEc3NOcm1ISWg5aHB6cEEwUUZVOEdfUE0zLWZEOXdMMWZmcHp6Vm03MmFzdTJuR1ZNVlFuaDhBQlo0elNEWlBHU3VhSGFuTDBJX19MN1Bxbmt5U2VRdVVaWHBHZG52Z2RHdWZkQ1ltRUJ6Xy1keHI1S2lCM1lxLU95VVpyUVN5eXfSAcsBQVVfeXFMTi11NkU3clpSNU56cTZ6Y1JlejlGTi1LYk54aXpLYzVOZllZNXl1d2RBeC1wWTdSQmN0YjVvTWc1TW5RS2ZZMnRXRVJGc1ZqQThTS0xNeWhZX28zSklsSGxuMmZlcThPYkYwSGFwZU9ra0ExcWt0MlVHWE1lOG1YNzFLYzJ4ckhzV3dXZk1TdzlpU3BFeHp0bjZEcHRQWG1KbndKbHdTUmJfdkZvYUNuWldiTDlfdnFmZ0xzTU1RYjc4ZC1OTDhob2Q3QWc?oc=5",
@@ -270,13 +273,12 @@
       "publishedAt": "2026-08-19T11:47:04.000Z"
     },
     {
-      "title": "Danantara Bidik Laba Konsolidasi BUMN Rp 360 Triliun pada 2026",
-      "publisher": "investor.id",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEtGUW40NHpCT2pqVmFxYXJOZnFfOVFpbzFWUnp2N04ySmIxS2Jod181QnpkcVhCMHFJeTRwU2F1N01EYTNQelRGWi1YNGVJS2F5ZDluektQUG5jZkk4VHBKM2ZieGFJajhCcFZxSG81czY4QWZHT2tFOTIyanJHa3JHM3M5WEFHQzN3MWhFQXI5bFE2TFYzRlRCRW8wbHkxMjEzQQ?oc=5",
+      "title": "Strengthening democratic oversight in national security",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-19T08:06:58.000Z"
+      "primary": true,
+      "publishedAt": "2026-08-18T19:00:00.000Z"
     },
     {
       "title": "Danantara tegaskan kehati-hatian dalam restrukturisasi BUMN Karya",
@@ -288,8 +290,17 @@
       "publishedAt": "2026-08-18T11:45:40.000Z"
     },
     {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
       "title": "Kejar Bauran Geothermal 15 Persen, Keseriusan Pemerintah Ditunggu",
-      "publisher": "kompas.id",
+      "publisher": "Kompas.id",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3kxZ0RWMGl1VU8yMk91Q21rWnBDeV93OHdSWUVVTk0zR1NpdHZ0RFNwQ1luZWk0NkUxS2lIZHVSWjNEQV9GbDdxVkdhcDBPb21LMGN2X2N1TkpzdVhJUzdLLS1xcmhHQ0JXWThzTEJuclQ3a2E0OWJpbm1WY0p1OHZYQlUyeGlBS3IyTFl4Y3VqblFqNHNvYktn?oc=5",
       "tier": 2,
       "via": "Google News",
@@ -297,30 +308,22 @@
       "publishedAt": "2026-08-19T11:39:00.000Z"
     },
     {
-      "title": "Danantara, BP BUMN finalize five-year roadmap for SOE transformation",
-      "publisher": "ANTARA News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXNwUldIdE5LSEJnSTUxS3RqUUZTcm5LUEx2aDE3VTdJdkJNMENDRkdrUUhiUko2MjFUc2JMYmhfdTBoTnAxVmRGZEFJTlJrYWlCb3p4ZVI3OHV2cjZDOTRNYmk3ZHdJSVRUamh1bjBkOHBCSVZManY1a3lNZXRYTk1oeGw0M3F4V2NKcXVmcE9qTzJEQ0M4WFdURm05RGNCaTlDbzZTN0LSAa4BQVVfeXFMTUVkOWozUmk4ZWVqLXlCNndVTEY3SmRXWV8xZVpaMnk3dE0yQmxacEdZeEtPTlRtbUJQQWdpZkNNV2F3MlgyckhqMzNKVFpSaG11b3VTb1FJTEgyUlNQY0ZaQ1A2M29IVTRSblFfMmJYMUtXMnY4clBLSG9hMkI2TnhYZXY4ZGtYRllaQUphd1dNQ2p3TXVpRV9HYkRRSlhycHlQMDZaVGpDTGZ2cEZn?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-04T07:00:00.000Z"
-    },
-    {
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "publisher": "OpenAI",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-18T11:00:00.000Z"
-    },
-    {
-      "title": "Andre Rosiade: Datangkan Adhi Karya, Komisi VI DPR-Danantara Kawal soal LRT City",
-      "publisher": "detikNews",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbUxjclJnQzNZVGlpNHpENjQ5TnRqTDdMOGtWdUpPRGVDSDdjdzNiRnFQSkxuN2JRRm9fd0ttMHZ5S0VYNlFYOGhFNkJoVGpMaG0xWHlKTnRlS19CMm4tMk8xcUNZaDEtODBhdFZhZ2MydFQ2MTVGcVlaRW1ELVpqbmRvYkVPSFRrTUM3NnQ5Smhfa0VscmxYMmRhRzNGMC1OaFFaZ2I4Q2lXZThZd2ZQeGZfZ3dpVHlES2fSAb8BQVVfeXFMTVRYdFFCUkdUczdSMGZ4TDBTZkhBczRDQlVQN2NpUnZwZ1VHb185ajIzdE1xXzVLbDNDem80TEV1MVVUN3d1a1JOSW9vaHByTWhxZzhDTGxBTnB6WTZMUzBVbHk0T0k3cjZ5NENELUF3eHJ5b1lwOGl3dUlfWnNIM0lWbFN4ZjJxS1RGc2VGSXJZVUFROWZCZ0pFaHRnZy1TdGhUcG9MbDlreG9RYkFOekZxWEZRdEVZTmVPMVZ4Q0U?oc=5",
+      "title": "Target PNBP Panas Bumi Rp 2,6 Triliun, Pemerintah Genjot Eksplorasi",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMUlFOUhkZFNWdmhwVkh1U0xqY21fd2JsYmQ2V25UaktJRjFaVXRXVTNSdWxLWE1IUmJ3dDdtTWt5WGlBMEpOYjJQUlFBZ01NSFJfRlNMaUJYRHg2LXp6d3ozSjdKZjVFckxsVGJ3UlNIT3pIUXhmVmdtQ29iVTg3cmdCRGNGcG1NLVUxelRqRTZ5WjJqVzgzRGhRQlhQXzZxX1HSAZsBQVVfeXFMUEx6SUgzcnlnRWNsaHVXWnJWQTVQOTRoMDYxemVLZkR4Zk52YXplbzdnTE9STGlyNVFvTmtUWUxGdnhJMkFvSTQ5UXJrT2RuNjhEbmNISm5Ed1hSWFFOUjlPVWp1V0k3VkZudXNDUXhPckZFMjA5N0tfZl9uMWFISEhxZXhEWG1vX1RwOFFCUi1TQU9UdGxjU2xjV1U?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T05:47:18.000Z"
+      "publishedAt": "2026-08-19T13:47:43.000Z"
+    },
+    {
+      "title": "Danantara Bidik Laba Konsolidasi BUMN Rp 360 Triliun pada 2026",
+      "publisher": "investor.id",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEtGUW40NHpCT2pqVmFxYXJOZnFfOVFpbzFWUnp2N04ySmIxS2Jod181QnpkcVhCMHFJeTRwU2F1N01EYTNQelRGWi1YNGVJS2F5ZDluektQUG5jZkk4VHBKM2ZieGFJajhCcFZxSG81czY4QWZHT2tFOTIyanJHa3JHM3M5WEFHQzN3MWhFQXI5bFE2TFYzRlRCRW8wbHkxMjEzQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-19T08:06:58.000Z"
     },
     {
       "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
@@ -330,15 +333,6 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-08-18T11:22:29.000Z"
-    },
-    {
-      "title": "Building credibility in Indonesia’s energy transition: Insights from the ETM and JETP Indonesia",
-      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-02-05T08:00:00.000Z"
     }
   ],
   "trends": [],
@@ -348,9 +342,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 372,
+    "candidateCount": 371,
     "poolSize": 110,
-    "generatedAt": "2026-08-19T13:43:13.916Z",
+    "generatedAt": "2026-08-19T14:27:31.140Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
