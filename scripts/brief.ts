@@ -7,7 +7,6 @@ import { countByDomain, countByTier, enabledSources } from "../lib/brief/registr
 import { fetchAll } from "../lib/brief/fetch";
 import { deepenPrimarySources } from "../lib/brief/deepen";
 import { composeEdition } from "../lib/brief/compose";
-import { recordSignals } from "../lib/brief/memory";
 import { finish } from "../lib/brief/shutdown";
 import { validateBackendCredentials, getModelTag } from "../lib/ai/llm";
 import { todayKey } from "../lib/utils";
@@ -18,13 +17,11 @@ import type { Edition, FeedItem, Lang } from "../lib/brief/types";
  *
  *   editions/<date>/id.json     published Indonesian edition
  *   editions/<date>/en.json     published English edition
- *   signals/history.jsonl       appended signal memory (tier 6)
  *   .cache/<date>-items.json    raw fetched items (NOT published)
  *
- * `editions/` and `signals/` are committed. The editions are the archive;
- * the signal history is what makes tomorrow's briefing able to say "this is
- * the fourth time in three weeks". Lose the history and tier 6 restarts from
- * zero, so it belongs in version control as much as the editions do.
+ * `editions/` is committed, and is the whole archive. Tier 6 reads its memory
+ * back out of it, so what recurred is derived from what was actually
+ * published — not from a parallel log that a re-run could disagree with.
  *
  * `.cache/` holds source excerpts that are never republished, so it stays local.
  *
@@ -141,8 +138,9 @@ async function main() {
       for (const r of rejected) console.warn(`   - ${r.reason}: ${r.statement.slice(0, 90)}`);
     }
 
+    // Writing the edition IS recording the signal: tier 6 derives its memory
+    // from the published archive, so there is no second store to keep in step.
     fs.writeFileSync(path.join(outDir, `${lang}.json`), JSON.stringify(edition, null, 2), "utf8");
-    recordSignals(edition.signals, date, lang);
     written.push(edition);
   }
 

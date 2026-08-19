@@ -427,7 +427,7 @@ export async function composeEdition(
     throw new Error("no candidate items — refusing to compose an empty briefing");
   }
 
-  const history = loadHistory();
+  const history = loadHistory(date);
   const profile = loadProfile();
 
   const { text } = await runLlm({

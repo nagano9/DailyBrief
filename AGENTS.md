@@ -26,9 +26,11 @@ Non-negotiables:
 - **Corroboration and trend status are computed, never model-asserted.** If
   you find yourself adding a `corroboration` or `trend` field to the prompt
   schema, stop — a model that grades its own evidence grades it generously.
-- **`signals/history.jsonl` is append-only.** Duplicates from re-runs are
-  collapsed on read (`loadHistory`). Never rewrite or prune it: a trend that
-  can be silently revised is not evidence.
+- **Tier 6 memory is derived from `editions/`, never stored separately.** A
+  parallel log disagreed with the archive the first time a date was composed
+  more than once: 20 records for a day that published 5 signals, 13 of them
+  themes that never appeared. Do not reintroduce a second store — writing the
+  edition is what records the signal.
 - **`primary` is decided at fetch time, not from source tier.** A tier-1 RSS
   feed is the institution itself; a tier-1 *discovery* query returns whoever
   the index surfaced. Conflating them graded 14% of tier-1 items as primary
@@ -51,7 +53,7 @@ Non-negotiables:
   (gitignored) — inputs, not output.
 - **`sources.radar.json` is the only place radar sources live.** The registry
   validator refuses to load if any domain has no enabled tier-1 source.
-- **`editions/` and `signals/` are committed.** `site/` is disposable.
+- **`editions/` is committed and is the whole archive.** `site/` is disposable.
 
 Commands: `npm run brief` (run the radar), `npm run site` (build),
 `npm run brief:dry-run` (fetch + pool composition report, no LLM),

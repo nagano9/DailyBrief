@@ -59,7 +59,7 @@ async function main() {
     );
   }
 
-  const history = loadHistory();
+  const history = loadHistory(todayKey());
   const trends = summariseTrends(history, todayKey(), 5);
   console.log(`\n[dry-run] signal memory: ${history.length} records`);
   if (trends.length === 0) {

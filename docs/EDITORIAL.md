@@ -55,14 +55,15 @@ buktinya sendiri akan menilainya dengan murah hati.
 ## 1c. Tren dihitung dari arsip, bukan dari kesan
 
 Status "berulang" dan "struktural" berasal dari pencocokan **kunci tema**
-(`themeKey`) terhadap `signals/history.jsonl` — arsip append-only dari sinyal yang benar-benar
+(`themeKey`) terhadap `editions/` — arsip dari sinyal yang benar-benar
 diterbitkan. Sebuah tema disebut struktural hanya bila muncul minimal empat
 kali dalam 30 hari dan membentang minimal tujuh hari.
 
-Arsipnya append-only karena menulis ulang sejarah adalah persis yang tidak
-boleh dilakukan lapisan memori: tren yang bisa direvisi diam-diam bukan bukti.
-Menjalankan ulang satu tanggal akan menambahkan barisnya lagi; duplikat
-dikuncupkan saat pembacaan, bukan dengan mengedit yang sudah tertulis.
+Memori diturunkan dari edisi, bukan disimpan terpisah. Catatan terpisah
+sempat ada dan langsung tidak sepakat dengan arsipnya: hari terbit pertama
+menghasilkan 20 catatan untuk 5 sinyal yang terbit, 13 di antaranya tema dari
+run yang dibuang. Karena menjalankan ulang sebuah tanggal menimpa berkas
+edisinya, memori yang diturunkan darinya mengoreksi diri.
 
 Implementasi pertama mencocokkan kemiripan leksikal antar-headline. Diukur
 terhadap lima headline realistis untuk tema yang sama pada hari berbeda, ia

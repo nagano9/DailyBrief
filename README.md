@@ -62,8 +62,10 @@ berhenti di situ menjadi mustahil secara struktural:
 
 ### Tier 6 — memori sinyal
 
-Setiap sinyal yang terbit disimpan di `signals/history.jsonl` (append-only),
-lalu sinyal esok hari dicocokkan dengan arsip itu.
+Memori ini **diturunkan dari `editions/`**, bukan dari catatan terpisah.
+Edisi adalah satu-satunya rekaman tentang apa yang benar-benar terbit, jadi ia
+satu-satunya sumber jujur tentang apa yang berulang — dan menjalankan ulang
+sebuah tanggal menimpa berkas edisinya, sehingga memorinya mengoreksi diri.
 
 Pencocokannya memakai **kunci tema** (`themeKey`) yang dikeluarkan model —
 slug kanonik seperti `ai-datacenter-project-finance` — bukan kemiripan kata
@@ -194,9 +196,8 @@ Rinciannya, termasuk model ancaman dan cara melapor, ada di
 ## Menerbitkan ke domain sendiri
 
 Arsipnya **bukan basis data**. Setiap edisi adalah satu berkas JSON di
-`editions/<tanggal>/<bahasa>.json`, dan memori sinyal satu berkas JSONL di
-`signals/`. Keduanya di-commit ke git. Situs yang terbit hanyalah HTML statis
-yang dibangun ulang dari keduanya.
+`editions/<tanggal>/<bahasa>.json`. Berkas edisi di-commit ke git, dan itulah seluruh arsipnya. Situs
+yang terbit hanyalah HTML statis yang dibangun ulang darinya.
 
 Konsekuensinya: **situsnya bisa dipindahkan ke mana saja tanpa migrasi**.
 GitHub Pages, Cloudflare Pages, Netlify, atau sebuah bucket — sama saja. Yang
@@ -248,8 +249,7 @@ scripts/brief.ts    jalankan radar untuk satu hari
 scripts/site.ts     bangun situs dari editions/
 sources.radar.json  registry sumber bertingkat (satu-satunya sumber kebenaran)
 profile.example.json templat lapisan relevansi personal (profile.json di-gitignore)
-editions/           arsip terbit — di-commit
-signals/            memori sinyal — di-commit; kehilangan ini menghapus Tier 6
+editions/           arsip terbit — di-commit; Tier 6 membaca memorinya dari sini
 docs/EDITORIAL.md   standar redaksi dan titik penegakannya
 ```
 

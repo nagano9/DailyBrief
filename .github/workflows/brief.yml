@@ -22,7 +22,7 @@ name: Publish Brief
 #        SITE_NAME           masthead shown on every page
 #        SUBSCRIBE_ENDPOINT  POST target for the subscribe form (optional)
 #        PRIVACY_URL         required if SUBSCRIBE_ENDPOINT is set
-#        BRIEF_LANGS         id  (default; set 'id,en' for both)
+#        BRIEF_LANGS         id  (default; set to 'id,en' to publish English too)
 #        REPORT_TZ           Asia/Jakarta
 #        BRIEF_HOUR          local hour to publish (default 6)
 
@@ -95,19 +95,22 @@ jobs:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          BRIEF_LANGS: ${{ vars.BRIEF_LANGS || 'id,en' }}
+          # Matches the script default. Publishing both languages doubles the
+          # model spend and the editorial surface for a product still finding
+          # its readers; set the BRIEF_LANGS variable to 'id,en' to add English.
+          BRIEF_LANGS: ${{ vars.BRIEF_LANGS || 'id' }}
           REPORT_TZ: ${{ vars.REPORT_TZ || 'Asia/Jakarta' }}
         run: npm run brief
 
-      - name: Commit editions and signal memory
+      - name: Commit today's editions
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # signals/ is committed alongside editions/: it is what lets
-          # tomorrow's run say "fourth time in three weeks". Lose it and
-          # tier 6 restarts from zero.
-          git add editions/ signals/
+          # editions/ is the whole archive. Tier 6 derives its memory from it,
+          # so committing the editions is what lets tomorrow's run say "fourth
+          # time in three weeks".
+          git add editions/
           if git diff --cached --quiet; then
             echo "Nothing new to commit."
           else

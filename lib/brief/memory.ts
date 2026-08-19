@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Domain, Signal, TrendInfo, TrendStatus, TrendSummary } from "./types";
+import type { Domain, TrendInfo, TrendStatus, TrendSummary } from "./types";
 
 /**
  * Tier 6 — longitudinal signal memory.
@@ -32,7 +32,26 @@ import type { Domain, Signal, TrendInfo, TrendStatus, TrendSummary } from "./typ
  * a trend that can be silently revised is not evidence.
  */
 
-const HISTORY_PATH = process.env.SIGNAL_HISTORY ?? path.join("signals", "history.jsonl");
+/**
+ * Editions are the only record of what was published, so they are the only
+ * honest source for what recurred.
+ *
+ * The first design kept a separate append-only log written on every compose.
+ * Running a date more than once — which happens while iterating, and happened
+ * three times on the first published day — left the log holding 20 records
+ * for a day that published 5 signals. Thirteen of those themes were never
+ * published at all, and would have counted as prior occurrences the next
+ * morning, marking fresh signals as recurring.
+ *
+ * Deriving from `editions/` removes the failure mode rather than patching it:
+ * re-running a date overwrites its edition file, so the memory corrects
+ * itself. It also removes an artifact that had to be kept consistent with
+ * another one.
+ */
+/** Read at call time, not module load: a value fixed at import cannot be varied by a test. */
+function editionsDir(): string {
+  return process.env.EDITIONS_DIR ?? "editions";
+}
 
 /** Days of history considered when classifying a theme. */
 export const WINDOW_DAYS = Number(process.env.TREND_WINDOW_DAYS ?? 30);
@@ -99,27 +118,45 @@ function daysBetween(a: string, b: string): number {
   return Math.round(ms / 86_400_000);
 }
 
-export function loadHistory(): SignalRecord[] {
-  if (!fs.existsSync(HISTORY_PATH)) return [];
+/**
+ * Read the published signals within the lookback window of `referenceDate`.
+ *
+ * Directory names are filtered before any file is opened, so the cost stays
+ * flat as the archive grows rather than rising with it.
+ */
+export function loadHistory(referenceDate: string): SignalRecord[] {
+  const root = editionsDir();
+  if (!fs.existsSync(root)) return [];
+
   const out: SignalRecord[] = [];
-  // Re-running a date appends its signals again. The file stays append-only —
-  // rewriting history is exactly what a memory layer must never do — so
-  // duplicates are collapsed on read instead. Re-runs become idempotent
-  // without ever editing what was already written.
-  const seen = new Set<string>();
-  for (const line of fs.readFileSync(HISTORY_PATH, "utf8").split("\n")) {
-    const trimmed = line.trim();
-    if (!trimmed) continue;
-    try {
-      const record = JSON.parse(trimmed) as SignalRecord;
-      if (!record.themeKey) continue; // pre-2.1 record, no key to match on
-      const key = `${record.date}|${record.lang}|${record.themeKey}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      out.push(record);
-    } catch {
-      // One corrupt line must not take down the whole memory layer.
-      console.warn(`[memory] skipping unparseable history line`);
+  const dates = fs
+    .readdirSync(root)
+    .filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d))
+    .filter((d) => d < referenceDate && daysBetween(d, referenceDate) <= WINDOW_DAYS);
+
+  for (const date of dates) {
+    const dir = path.join(root, date);
+    for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+      const lang = file.replace(/\.json$/, "");
+      try {
+        const edition = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")) as {
+          signals?: { themeKey?: string; headline?: string; domain?: Domain; sourceUrls?: string[] }[];
+        };
+        for (const sig of edition.signals ?? []) {
+          // Editions written before themeKey existed carry no theme to match on.
+          if (!sig.themeKey || !sig.headline || !sig.domain) continue;
+          out.push({
+            date,
+            lang,
+            domain: sig.domain,
+            themeKey: sig.themeKey,
+            headline: sig.headline,
+            urls: sig.sourceUrls ?? [],
+          });
+        }
+      } catch {
+        console.warn(`[memory] skipping unreadable edition ${date}/${file}`);
+      }
     }
   }
   return out;
@@ -239,22 +276,4 @@ ${lines}
 Bila perkembangan hari ini melanjutkan salah satunya, GUNAKAN ULANG themeKey-nya PERSIS — itu yang membuat arsip mengenalinya sebagai benang yang sama. Nyatakan secara eksplisit bahwa ia melanjutkan, dan jelaskan apa implikasi akumulasinya. Tema berstatus "structural" bukan lagi berita, melainkan kondisi yang harus diperhitungkan.`;
 }
 
-/** Append today's published signals to the archive. */
-export function recordSignals(signals: Signal[], date: string, lang: string): void {
-  fs.mkdirSync(path.dirname(HISTORY_PATH), { recursive: true });
-  const lines = signals
-    .map((s) =>
-      JSON.stringify({
-        date,
-        lang,
-        domain: s.domain,
-        themeKey: s.trend.themeKey,
-        headline: s.headline,
-        urls: s.sourceUrls,
-      } satisfies SignalRecord),
-    )
-    .join("\n");
-  fs.appendFileSync(HISTORY_PATH, lines + "\n", "utf8");
-}
-
-export { HISTORY_PATH, slugSimilarity, SAME_THEME_SIMILARITY };
+export { slugSimilarity, SAME_THEME_SIMILARITY };

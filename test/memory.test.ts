@@ -1,8 +1,13 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 
+import fs from "node:fs";
+import path from "node:path";
+import os from "node:os";
+
 import {
   classifySignal,
+  loadHistory,
   historyWindow,
   normaliseThemeKey,
   slugSimilarity,
@@ -138,4 +143,47 @@ test("trendContext gives the model the existing slugs so it reuses them", () => 
 test("trendContext on an empty archive tells the model to coin fresh keys", () => {
   const ctx = trendContext([], TODAY, "en");
   assert.ok(/no recurring theme yet/i.test(ctx));
+});
+
+/**
+ * Memory is derived from the published archive, so a date composed twice can
+ * no longer leave behind themes that were never published. This is the
+ * failure the separate log had: 20 records for a day that published 5
+ * signals, 13 of them themes from discarded runs, all of which would have
+ * counted as prior occurrences the next morning.
+ */
+test("re-composing a date leaves no trace of the discarded attempt", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "radar-mem-"));
+  const dir = path.join(root, "2026-08-18");
+  fs.mkdirSync(dir, { recursive: true });
+
+  const write = (themes: string[]) =>
+    fs.writeFileSync(
+      path.join(dir, "id.json"),
+      JSON.stringify({
+        signals: themes.map((themeKey) => ({
+          themeKey,
+          headline: `Headline for ${themeKey}`,
+          domain: "ai",
+          sourceUrls: [],
+        })),
+      }),
+      "utf8",
+    );
+
+  // First attempt, then a second that supersedes it.
+  write(["discarded-theme-one", "discarded-theme-two"]);
+  write([THEME]);
+
+  process.env.EDITIONS_DIR = root;
+  const history = loadHistory("2026-08-19");
+  delete process.env.EDITIONS_DIR;
+  fs.rmSync(root, { recursive: true, force: true });
+
+  assert.equal(history.length, 1, "only the published edition counts");
+  assert.equal(history[0].themeKey, THEME);
+  assert.ok(
+    !history.some((r) => r.themeKey.startsWith("discarded")),
+    "a superseded run must leave nothing behind",
+  );
 });
