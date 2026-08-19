@@ -2,40 +2,70 @@
   "slug": "2026-08-19",
   "date": "2026-08-19",
   "lang": "id",
-  "title": "Danantara Kunci Tenggat Akhir 2026; Subsidi Listrik RAPBN Naik 17,8%",
-  "dek": "Dua tekanan fiskal besar—restrukturisasi BUMN Karya yang berlarut dan lonjakan subsidi listrik—berpotongan tepat saat OpenAI mengatur ulang batas keamanan model frontier.",
+  "title": "NVIDIA Jamin Pusat Data AI; Danantara Kejar Restrukturisasi BUMN Karya Akhir 2026",
+  "dek": "Tiga arus konvergen hari ini: pembiayaan infrastruktur AI bergeser ke model jaminan vendor, BUMN konstruksi Indonesia terancam melewati tenggat restrukturisasi, dan tekanan konsesi panas bumi membuka atau menutup 23,9 GW potensi terbarukan.",
   "domains": [
+    "ai",
     "corporate",
-    "energy",
-    "ai"
+    "energy"
   ],
-  "summary": "Danantara menetapkan tenggat akhir 2026 untuk menyelesaikan restrukturisasi BUMN Karya, namun bos Danantara sendiri mengakui prosesnya berlarut-larut akibat kompleksitas hukum dan utang lintas entitas—sementara BEI masih membekukan saham WIKA. Di sisi fiskal, RAPBN 2027 mengalokasikan subsidi listrik Rp130,1 triliun, naik 17,8% dari APBN 2026, menandai tekanan anggaran yang kian berat seiring tarif PLN yang belum berubah. Pada domain energi, lebih dari 90% potensi panas bumi Indonesia belum dimanfaatkan di tengah desakan Bahlil untuk mempercepat pengembangannya sebagai pilar swasembada energi. Di ranah AI, OpenAI secara bersamaan mengumumkan pengetatan keamanan model frontier sekaligus ekspansi ChatGPT Ads ke 31 pasar Eropa—kombinasi yang menunjukkan tekanan ganda antara monetisasi dan regulasi. Kelima sinyal ini mencerminkan fase transisi di mana keputusan investasi infrastruktur, fiskal, dan teknologi tidak lagi bisa ditunda.",
+  "summary": "NVIDIA secara resmi menjamin eksklusivitas compute di kampus pusat data Ohio milik SB Energy, menandai pergeseran struktural di mana vendor GPU kini menanggung eksposur infrastruktur layaknya project finance. Di sisi domestik, Danantara menetapkan tenggat akhir 2026 untuk restrukturisasi BUMN Karya sambil mengonfirmasi bahwa Dana Pembangunan (DDMF) tidak menggunakan APBN—dua fakta yang mengubah profil risiko fiskal Indonesia. Sementara itu, Menteri Bahlil memperingatkan pengembang panas bumi agar tidak menahan konsesi idle di tengah target bauran 15 persen yang belum terpenuhi, menciptakan tekanan regulasi yang akan menentukan arah investasi energi terbarukan jangka menengah. Kluster AI pendukung juga berkembang: OpenAI memperkuat pengawasan demokratis di keamanan nasional seiring meningkatnya penggunaan AI dalam konteks sensitif, dan pabrik alat berat listrik pertama di luar China yang berdiri di Weda Bay membuka preseden industrialisasi hijau berbasis nikel di Indonesia.",
   "signals": [
     {
       "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "NVIDIA",
+        "SB Energy"
+      ],
+      "headline": "NVIDIA menjamin eksklusivitas compute pusat data Ohio SB Energy—vendor GPU masuk ke risiko infrastruktur",
+      "whatChanged": "NVIDIA secara resmi menjamin kampus teknologi PORTS-Pike di Ohio milik SB Energy untuk secara eksklusif menjadi host komputasi AI NVIDIA. Ini adalah pengumuman langsung dari NVIDIA Newsroom, menandai komitmen jaminan vendor yang mengikat—bukan sekadar kemitraan komersial biasa.",
+      "whyItMatters": "Rantai nilai AI bergerak melampaui penjualan GPU ke arah pengendalian dan penjaminan infrastruktur fisik. Ketika NVIDIA bersedia memberikan jaminan eksklusivitas ke kampus pusat data tertentu, ia menyerap risiko offtake yang biasanya ditanggung pengembang atau lender—ini adalah logika project finance, bukan logika penjualan perangkat keras.",
+      "secondOrder": "Jika pola jaminan vendor ini meluas, bank dan lembaga pembiayaan infrastruktur akan mulai menuntut struktur Sponsor→Offtaker→EPC→Power→Grid→Lender→Guarantee dalam setiap proposal pusat data AI skala besar. Proyek yang tidak memiliki offtake commitment dari hyperscaler atau vendor GPU akan semakin sulit mendapat pembiayaan kompetitif. Di Indonesia, ini berdampak langsung pada rencana pusat data Danantara dan mitra asing yang bergantung pada ekosistem PLN.",
+      "action": "Gunakan struktur tujuh lapis (Sponsor→Offtaker→EPC→Power→Grid→Lender→Guarantee) sebagai kerangka evaluasi setiap proposal pusat data AI yang masuk minggu ini. Identifikasi apakah ada commitment offtake dari hyperscaler atau vendor GPU—absennya commitment ini adalah risiko refinancing tersembunyi.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYXdyMXl0ZUs3UDVBSFo1a3BCcDg4UlZUazQxSEp1allrY1B3SEVxYnQ2RjFQVFY5T3Q1YUFYM19Jc1ZQNXVobGtZNVJBc1BPQXpFWFFsTlBvWEJqV3VRM1lCU0ZzSVlHcS14UGxUZldBaEVsdUJveHN0TXJOLURfWDBxRlJYaFdXMHREU3VSNlVrcFZncENub1czY2lGV1F6eGpGSWZiU2loYlJYVVRFZTdQSU80Q0lNZmdvX3FZQ0hTU1pjZF8weHhCRWEzeURkcDk3N1Z3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "new",
+        "occurrences": 1,
+        "firstSeen": "2026-08-19",
+        "spanDays": 0
+      }
+    },
+    {
+      "rank": 2,
       "domain": "corporate",
       "themeKey": "danantara-bumn-karya-restrukturisasi",
       "entities": [
-        "Danantara",
+        "BUMN Karya",
         "WIKA",
-        "Adhi Karya"
+        "Adhi Karya",
+        "Kemenkeu"
       ],
-      "headline": "Danantara targetkan restrukturisasi BUMN Karya selesai akhir 2026, namun bos akui prosesnya berlarut",
-      "whatChanged": "Danantara secara resmi menargetkan restrukturisasi seluruh BUMN Karya rampung pada akhir 2026, dengan proyeksi penghematan puluhan triliun rupiah. Namun dalam pernyataan terpisah yang dikutip Kompas.com dan ANTARA (19 Agustus 2026), bos Danantara mengakui proses ini berlarut-larut. BEI pada saat yang sama memperpanjang pembekuan (gembok) saham WIKA per 19 Agustus 2026.",
-      "whyItMatters": "Tenggat akhir 2026 yang diumumkan publik menciptakan tekanan akuntabilitas yang sebelumnya tidak ada. Namun pengakuan bahwa proses berlarut—dikombinasikan dengan gembok saham WIKA yang diperpanjang—menunjukkan bahwa kompleksitas utang lintas entitas belum terurai, sehingga proyeksi penghematan masih bersifat indikatif.",
-      "secondOrder": "Jika restrukturisasi gagal memenuhi tenggat akhir 2026, Danantara Development Management Fund yang diklaim tidak memakai APBN akan menghadapi pertanyaan kredibilitas dari calon mitra swasta dan lembaga multilateral. Ini dapat menaikkan cost of capital untuk seluruh pipeline investasi Danantara, bukan hanya BUMN Karya.",
-      "action": "Petakan struktur utang masing-masing BUMN Karya (WIKA, Adhi Karya, dll.) secara terpisah—terutama jaminan silang dan kewajiban kepada kreditur perbankan—untuk menilai realistisnya tenggat akhir 2026 dan eksposur fiskal tersembunyi.",
+      "headline": "Danantara tetapkan tenggat akhir 2026 untuk restrukturisasi BUMN Karya; DDMF dikonfirmasi bebas APBN",
+      "whatChanged": "Danantara secara resmi menargetkan restrukturisasi seluruh BUMN Karya rampung pada akhir 2026, disampaikan oleh COO Danantara kepada media. Secara terpisah, Kemenkeu mengonfirmasi bahwa Danantara Development Management Fund (DDMF) tidak menggunakan APBN. Saham WIKA masih dalam status suspensi yang diperpanjang oleh BEI.",
+      "whyItMatters": "Dua fakta ini membentuk profil risiko berbeda: tenggat restrukturisasi akhir 2026 yang ketat di tengah kompleksitas hukum dan keuangan BUMN Karya menciptakan risiko eksekusi tinggi; sementara konfirmasi DDMF non-APBN mengurangi tekanan fiskal langsung ke negara tetapi memindahkan risiko ke neraca Danantara sendiri yang masih dalam pembentukan.",
+      "secondOrder": "Jika restrukturisasi melewati tenggat akhir 2026, tekanan akan beralih ke DPR (Komisi VI sudah mulai memanggil Adhi Karya soal LRT City) dan berpotensi memicu perdebatan tentang kewenangan Danantara versus BP BUMN. Suspensi saham WIKA yang berkepanjangan juga menekan likuiditas pasar modal untuk seluruh segmen infrastruktur.",
+      "action": "Petakan milestone spesifik restrukturisasi BUMN Karya—mana yang sudah memiliki kerangka hukum final versus yang masih dalam negosiasi. Tinjau apakah eksposur kreditur swasta ke WIKA, ADHI, dan entitas BUMN Karya lain membutuhkan pencadangan tambahan sebelum akhir kuartal.",
       "strength": "actionable",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZFNYMnUxak5xZnpRN01kZy0tY3lKT1JCWmpXUHlUR2dEUmwyQ3lOT2JNOFBQYzhWamFDRXp2YkZ6aU1wVjJrWGdYaTl0Y0JoMnpsUXQzZWRXaFBNZUFzV25lLXQ1MHJKcnRZNXhPT2xUZHJMTWp3aGViT3lUbk9QMVVMT29yZEZUcUFSRkVCOTIzTFdRZmtZVHVrQUVCNDcxRmhWSXI3UjRiS2ktdWFYRnRjWVd1ZWxqSDQzWEhwQ3NLQVZkaHc?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRElKcDNKakwza3ZxUTZFTy1IZC1zYnJmb24xbzdMUlFuUXVEQTN1V1dUQnZFSWhDQlIxaTQ0elgyR3VrX1RSZzRYQThxbUhzeGNSVFBjcS1jb0t2bGg4RDFrblNzR0JjZW5YMk9XWnl1Ui12QXV3S0lHQTFaaWNpUkEwVFUtVkE4S0RicDh4b1VndnY2TjdNVnFOejMtWlQxNFZEenI4S28yLVNoRVRTMWI1aG81aktW0gG-AUFVX3lxTE1sRm9qZFd6XzRnemRfQzVHdlVNT0ZUYmp5dnExMUxrRHpQTXMzYTEyWEJLWTVKM3hjVFc2cy1tN3QtQnJUazBqWmVRcHZRaXNRYzVMSXF6ZlA3VnNKZUEwelN5S1lTLWUwdHZCTlhsTFJFNE9heFpsQnhiZG9yUHIwSWYwTVo2RGdqUWJrakt0MWQxSTBxS3BKQWI5bHhDUlZJbV9vUUNYTEo4UzU1MGFYdFpxSG9HMUdOc0M2UGc?oc=5",
         "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcHl3amZ5bkJOdDJScEFSNU9JRXB2TWVKWVkxUHVwYm1NdkhSbWJsOXVXVjFnZDN2Rm1oWGJ4T1huZHZBSXR4T0JBNm5meFNoTUVhWWZWSFVEOHVxd21rT043MEgzNkI3czRpQmYwbVBzODdyXzMwN3JEU1AtdEJ0M0ZmX2ZyYU9XbUg2N1l5ZXJlS3pTQlc5MmxJTmYtNFBwZWp4bDlkNWR1M003cUE?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQnUxS2I2dldxTkdfeWl0cXhLd0kySnFHTDRaendmZzRfWERSaFlOTHVSNkJYRHVNMjhVb2lxQ29GX056SHRSQ3lpend0Y2N1NlZOMExrX0xrS1NiSkN3cU9HZGdXWmdEUE93RW1Ra3VpeEg1VmJCWF9lMnp5d2NuQXNnenU0aWlyMEdyNldYWDVBNnh2YUJrTVFFSFJSRGFzMmdZLVNMOUxXaFdJZE9xNVRtQ0EtREpjMXc?oc=5",
         "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5",
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5"
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbUxjclJnQzNZVGlpNHpENjQ5TnRqTDdMOGtWdUpPRGVDSDdjdzNiRnFQSkxuN2JRRm9fd0ttMHZ5S0VYNlFYOGhFNkJoVGpMaG0xWHlKTnRlS19CMm4tMk8xcUNZaDEtODBhdFZhZ2MydFQ2MTVGcVlaRW1ELVpqbmRvYkVPSFRrTUM3NnQ5Smhfa0VscmxYMmRhRzNGMC1OaFFaZ2I4Q2lXZThZd2ZQeGZfZ3dpVHlES2fSAb8BQVVfeXFMTVRYdFFCUkdUczdSMGZ4TDBTZkhBczRDQlVQN2NpUnZwZ1VHb185ajIzdE1xXzVLbDNDem80TEV1MVVUN3d1a1JOSW9vaHByTWhxZzhDTGxBTnB6WTZMUzBVbHk0T0k3cjZ5NENELUF3eHJ5b1lwOGl3dUlfWnNIM0lWbFN4ZjJxS1RGc2VGSXJZVUFROWZCZ0pFaHRnZy1TdGhUcG9MbDlreG9RYkFOekZxWEZRdEVZTmVPMVZ4Q0U?oc=5"
       ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNkNzU0dEamN1RWZqdVViREJaa01xOHNSak1zM3JhcTlTU0loSkhsMmtGNGlRZkdSdHBSWno0N3Z1emt0RFBQV1NWUmpUVjl2MjJlVURYclFaajlOR0xRbXRTd0NDQ0w2enlGVURTWEJNY040MTBrOEROMk41eHJIbllObGpCbzhFcnRHNmFVbElCMEJQbFZsZ25MdGRVdkNhMDJYSUl4Rlk0Q01uTUJGb2M3NUp6QdIBrwFBVV95cUxOZTVQS1NrWVJZUDBBUWxvVlNEZzdVVEpTWlB3TzFheXRhZVF4OEt0VmFPZkdsN09RS2hZMnFkV1FQOEVwcXVNbk5rcUFIbWdtbGVxMmRITjQ5Z0FlRzdCRHZJbGx2WWJZc0RYdGFHZE1MSTlhWTNDVkpfNHZEaTJJeGc3M1VXdFE1MnQ0aVpxVDFleTM1Rnc5clAxc1NVemRyVlh2Rk5XTXRyOUtuc3g0?oc=5"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
         "publishers": 5,
         "hasPrimary": false
@@ -49,24 +79,23 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "domain": "energy",
-      "themeKey": "subsidi-listrik-fiskal-indonesia",
+      "themeKey": "panas-bumi-konsesi-regulasi",
       "entities": [
-        "PLN",
-        "IESR"
+        "Bahlil Lahadalia",
+        "Pertamina Geothermal Energy"
       ],
-      "headline": "RAPBN 2027 alokasikan subsidi listrik Rp130,1 triliun, naik 17,8% dari APBN 2026",
-      "whatChanged": "Dokumen RAPBN 2027 yang dirilis dan dikutip Bloomberg Technoz (18 Agustus 2026) menetapkan subsidi listrik sebesar Rp130,1 triliun, naik 17,8% dari APBN 2026. Tarif listrik PLN untuk semua golongan pelanggan tidak berubah dalam periode 17–23 Agustus 2026.",
-      "whyItMatters": "Kenaikan subsidi sebesar 17,8% dalam satu tahun anggaran—tanpa penyesuaian tarif—mengindikasikan bahwa pemerintah memilih stabilitas harga atas keberlanjutan fiskal, kemungkinan terdorong tekanan inflasi pasca-El Niño dan agenda swasembada energi. Pola ini konsisten dengan pidato Presiden Prabowo yang diapresiasi IESR namun dikritisi soal kurangnya mekanisme exit subsidi.",
-      "secondOrder": "Subsidi listrik yang terus membesar menekan ruang fiskal untuk investasi transmisi dan energi terbarukan—dua kebutuhan yang justru dibutuhkan untuk menurunkan biaya pokok penyediaan (BPP) PLN dalam jangka menengah. Lingkaran ini dapat mengunci ketergantungan pada subsidi lebih lama dari yang direncanakan RUPTL.",
-      "action": "Bandingkan tren BPP PLN per kWh dengan tren alokasi subsidi listrik dalam tiga APBN terakhir untuk menguji apakah subsidi naik karena volume pelanggan, kenaikan BPP, atau kombinasi keduanya—hasilnya menentukan apakah kenaikan ini struktural atau siklikal.",
-      "strength": "material",
+      "headline": "Bahlil peringatkan pengembang panas bumi agar tidak menahan konsesi; PNBP ditargetkan Rp 2,6 triliun",
+      "whatChanged": "Menteri ESDM Bahlil Lahadalia secara eksplisit meminta pengembang panas bumi tidak menahan konsesi yang tidak aktif dikembangkan, bersamaan dengan target PNBP sektor panas bumi sebesar Rp 2,6 triliun yang diumumkan ESDM. Kompas.id melaporkan tekanan untuk mencapai bauran geothermal 15 persen yang masih jauh dari realisasi.",
+      "whyItMatters": "Indonesia memiliki potensi panas bumi terbesar di dunia (23,9 GW), namun utilisasi baru sekitar 2,4 GW. Pernyataan Bahlil menandai pergeseran dari insentif ke tekanan regulasi—sinyal bahwa pemerintah siap mencabut atau tidak memperpanjang konsesi idle, yang akan mengubah kalkulasi hold-versus-develop bagi pengembang.",
+      "secondOrder": "Ancaman pencabutan konsesi dapat memicu gelombang divestasi konsesi panas bumi oleh pemain yang tidak memiliki kapasitas pengembangan, membuka peluang bagi pemain baru atau BUMN energi (Pertamina Geothermal Energy) untuk mengkonsolidasi aset. Namun bila sinyal ini tidak diikuti tindakan nyata dalam 6 bulan, kredibilitas regulasi akan melemah dan investor institusional akan semakin ragu masuk.",
+      "action": "Verifikasi daftar konsesi panas bumi yang masuk kategori 'idle' menurut ESDM dan identifikasi pemegang konsesi yang paling rentan terhadap tekanan pencabutan. Pertanyakan kepada ESDM kapan regulasi teknis pencabutan konsesi idle akan diterbitkan sebagai bentuk konkret dari sinyal Bahlil.",
+      "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR1RpUzNaTlRzMnlrQ1doMXVuOTYwS2RtMG1OblpmaVlNTVVXMjE5eHNmZjlGcUhjaGRBUUxXdk80VU5rRjNsX2docFpkU2NSWExma1VSMHRFTTNjSGZMeUZ2Szh3Und3bVVNT2JXczZWTl9jNjVNUi1oYTFaQnp0SHg3eVdiOEVub0QzMmtWVWxpN0hmOVl0bGxMdTlfUERuVHlWYmh2ZHFGZUtPeUpUdXVMMA?oc=5",
-        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRWh5UXpFMkh6Q0p6VHBYbjBNb1lNS2preUUzY2NRb0JOU1JkcDJSSXZ0bWNBWEs5NEtJUEVuQmM3UG5QaVpXc3l5RlA1anFZYnZsVk5keU9ubUZxNW5USENRVHNxR3pjMUF6TmVJQ1ZlRnhOeDBNcW55a3VMRGtGZ1UxaVliNE9xVV9NUWthalRfcVNjQURFQ2NmUjlOZDRPaGVOUlNsc1Q2QTJ5VUNmdEZBbHlPVjQxeWpLNGlwY2QxR2dpU3NtcmowU1JmLVltU2FxLTVjMEo5cTRPaV8yYWVUMA?oc=5",
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxQazZ4dlhhMVBzQlA0SndlV1dJQnhkSlJHUzVJZEtfdkpabWFFdGFwa1BnV2NUZzhLV0dhWDk0azBEZEVsZVpNTi16Zm0tSjFIc1hXRGttT3BTMjEteTRQcGlmWXlhVkI4QTkweWFGTUFyNG1Yb0stTFpTcWY3bUE2dUJaZC1HcTRlbVN1bmNHN2VUZE4zc1pCNVN3Nk9wM3hkN3lMRTEzdnBtem01aWc?oc=5",
-        "https://iesr.or.id/tanggapan-iesr-terhadap-pidato-kenegaraan-presiden-prabowo-ruu-apbn-2027-dan-nota-keuangan/"
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOE9hT0xVdzNYejlpcFpqMHpvR3R3aWJlRS1yQ0xCZ2JHVGI1ckNIWTVVS3lDMWUtSjBaeThtYVVjbWRSNXBsOFlJQXA2cnI3VTR1bndOMEVRaVBoeW9rSzllczMwcVU5Q3RzSzhvdFM0NXNmRWdoRi1zTEw4eWFFZ1FuUjV0V1piNUZTbEVxQ2lmTzU0OGxpRDFOY1l6eUw4Q25LLVl1RGpyd0Y5YVlrNFpGdXp6UDJzTXMtelpGU05XOGdVQU5jeDkzSlprZjgz?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNem90aU9PTG5Kb1dzYk9ROXE2WkJ4aER0Y1ltdUV3QTFpMC1hYlF0M2pHdUlpUE9HcnFNOVZNVUFnbmVCUDFzV0o2NEdEU3l1aVltR2ZnQkV2REc4Zzl5ZFNVSDc5VWYyYkxoeGhYcHJ4UV8xdk1aZVEtRlhfRW5LNnFQYnAxQlN6dHFFSG5GdncyNDBVYllCOHgxMEo?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3kxZ0RWMGl1VU8yMk91Q21rWnBDeV93OHdSWUVVTk0zR1NpdHZ0RFNwQ1luZWk0NkUxS2lIZHVSWjNEQV9GbDdxVkdhcDBPb21LMGN2X2N1TkpzdVhJUzdLLS1xcmhHQ0JXWThzTEJuclQ3a2E0OWJpbm1WY0p1OHZYQlUyeGlBS3IyTFl4Y3VqblFqNHNvYktn?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -74,39 +103,7 @@
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "subsidi-listrik-fiskal-indonesia",
-        "status": "new",
-        "occurrences": 1,
-        "firstSeen": "2026-08-19",
-        "spanDays": 0
-      }
-    },
-    {
-      "rank": 3,
-      "domain": "energy",
-      "themeKey": "panas-bumi-indonesia-percepatan",
-      "entities": [
-        "Bahlil"
-      ],
-      "headline": "Lebih dari 90% potensi panas bumi Indonesia belum dimanfaatkan; Bahlil minta pengembangan dipercepat",
-      "whatChanged": "Ekonom yang dikutip hijau.bisnis.com (19 Agustus 2026) menyatakan lebih dari 90% potensi panas bumi Indonesia—diperkirakan mencapai 100 tahun umur sumber daya menurut CNBC Indonesia—belum dimanfaatkan. Menteri ESDM Bahlil secara eksplisit meminta percepatan pengembangan panas bumi sebagai komponen swasembada energi, sebagaimana dikutip republika.co.id dan CNBC Indonesia (19 Agustus 2026).",
-      "whyItMatters": "Panas bumi adalah satu-satunya sumber energi terbarukan baseload domestik Indonesia yang tidak bergantung pada cuaca—relevan langsung di tengah risiko El Niño super yang mengancam keandalan PLTA. Pernyataan Bahlil menaikkan panas bumi dari agenda teknis ke prioritas politik, yang biasanya mendahului perubahan regulasi tarif atau skema pembiayaan.",
-      "secondOrder": "Percepatan panas bumi menuntut revisi harga patokan (feed-in tariff) yang saat ini menjadi hambatan utama investasi swasta. Jika tarif tidak direvisi bersamaan dengan retorika percepatan, sinyal Bahlil akan berhenti di level deklaratif dan investor akan menunggu siklus kebijakan berikutnya.",
-      "action": "Periksa status revisi Permen ESDM terkait harga listrik panas bumi dan bandingkan dengan pipeline proyek yang telah memperoleh izin WKP (Wilayah Kerja Panas Bumi) tetapi belum financial close—ini adalah indikator terkuat apakah hambatan utama bersifat tarif, teknis, atau pembiayaan.",
-      "strength": "emerging",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ2ZoOHlVb0Vva25Pdm5xYjlXTTByRXJCSkhyWHpWblVVVi1melVPWWQtZzVtWWZNejZxcHd5RDhkaEhsRndva0JLVlZfdFpDOV9QVlMtam5PbmpWVWt0emlkUExNUnpWOU9hWjZHSjlFcUNHR2VBNWs5elJ1dUVkVjA1WFQ3aGxUN09xcGtxNTJZSWtaTkNUQ0JnZHlweWVWcEd5N1VSUTNyTVZVN0VPTk9wYw?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGlhZUxmRm9BOGx3eUVmcjYtbS1VOUctMlhQX3ZMVGtKVEU2eS1XMXlGSV9KSXJhVDZvcldRMUlmWDNIZGQzMzlXNDJhcEVuUXo0VTIxZHlmcHhtdU5OTWVQY0dhZFNKckdHOVNhRnNGdndzbDFRTV95NkROVmFrS2tiUVVac2JrMWRuSHhTWEEtTzZCNHBPUWpVeldGWEF2Q1dvRFhrNUNGUdIBrwFBVV95cUxOR1VPa3FxOTQ2WWE3cmYxN1JELUN5MDRpMzNfWmlrSE9xVjhPczk2T0JEckozcG9aaHA0QVhMUWx1QndRR2VYMTRwSmVpcXAtb1NGRkZVMTEtX2hwMzdtNm84LTRrblA1QVNaZENfZnNkRUJqbUZtRDFBVERhRkZndmtyNXJITmVlM2ZzcnlsZTlLbkpOYXdyblU5SG05aExGbVJtT2szaGs4b0dEbDBr?oc=5",
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNXdQU2V2cVdLRnFUbnd1Tmx1aklkWEVDUWhxNXJid1JsVmNYNElDS0MtQVJKUjN2UFQ2ajhSejJDWmFnOHo1ajBwMHd6ZVNLWHRxd1A4eUxOYS00WmRwRXg5clM4VExSZEx2dlo3cUpJNXlyNTJvdldycFJQOVVNc0pVT29DMWxndEhROWZmd25kZUVZakVrWkRuY3dURDdJcU1vVXNR0gGrAUFVX3lxTE9YVVpYMkItY3V1cGRFZWNFZXBoLVVNV3pVNGdCeEF0QWt1V1QwMUJpcmFWRWdPRTVzaWtXR3FOR1lITmk3YS1Vb29PR3RKRmV6dDdaZWNiRGs5a25KU1hMc2RKRVJvTGtWck9WWmp5SXpGM0c2RWwxVl9BeWFlN0FSSnVGTlpQbUV6dFFVX0ZsY1A5ajg5QUFpUnJvSWwtSG1rODlqdnJlQ016VQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3RLbkR2cDVWMnR4c0dyRktsUm9qS0xZLThWejN6MndhX01jb3J2UXZiTE5ZRDl2TkVnX0hWZXlTLWZEeGF3VmdnckpoNS1xSDVOZWV0allwblh5bjRUdVVvQy03VTJNMkxmTFAzR1JKLTRSeEhDOTFiRGhxWkhzUXJqRldnc09qU093V0RudXhRSlp1amRkUDk2cDVoVFZzMGdfbWJKSU5fa1BqRThGQWFOcTByUDNJckln?oc=5"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 3,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "panas-bumi-indonesia-percepatan",
+        "themeKey": "panas-bumi-konsesi-regulasi",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -116,29 +113,29 @@
     {
       "rank": 4,
       "domain": "ai",
-      "themeKey": "openai-keamanan-model-frontier",
+      "themeKey": "ai-keamanan-nasional-tata-kelola",
       "entities": [
         "OpenAI",
-        "Hugging Face"
+        "Anthropic",
+        "Google DeepMind"
       ],
-      "headline": "OpenAI perketat keamanan model frontier dan perluas ChatGPT Ads ke 31 pasar Eropa secara bersamaan",
-      "whatChanged": "Pada 18 Agustus 2026, OpenAI menerbitkan dua pengumuman terpisah: (1) dokumen kebijakan 'Pacing model development in an era of cyber-critical capabilities' yang merinci pengetatan monitoring, alignment, dan keamanan model frontier; dan (2) ekspansi ChatGPT Ads ke 31 pasar Eropa. Bloomberg juga melaporkan bahwa OpenAI membuat perubahan keamanan AI menyusul pelanggaran data di Hugging Face.",
-      "whyItMatters": "Dua pengumuman simultan ini bukan kebetulan: OpenAI sedang membangun narasi bahwa monetisasi (iklan) dan keamanan berjalan paralel untuk menghadapi tekanan regulasi Eropa—terutama AI Act yang mulai berlaku bertahap. Pendekatan ini mencerminkan pergeseran dari 'safety vs. capability' menjadi 'safety sebagai fitur komersial'.",
-      "secondOrder": "Ekspansi iklan ke Eropa akan segera bertemu dengan persyaratan transparansi AI Act untuk sistem AI yang berinteraksi dengan pengguna dalam konteks komersial. Jika OpenAI gagal memenuhi persyaratan consent dan explainability iklan berbasis AI, ini dapat menjadi kasus uji pertama penegakan AI Act terhadap model iklan berbasis LLM.",
-      "action": "Tinjau apakah kebijakan 'pacing model development' OpenAI mengandung komitmen spesifik yang dapat diukur (metrik, audit pihak ketiga, threshold) atau hanya pernyataan prinsip—perbedaan ini menentukan nilai riilnya sebagai sinyal regulasi diri (self-regulation) vs. persiapan audit eksternal.",
-      "strength": "material",
+      "headline": "OpenAI luncurkan inisiatif pengawasan demokratis AI di keamanan nasional",
+      "whatChanged": "OpenAI mengumumkan inisiatif formal untuk memperkuat pengawasan demokratis atas penggunaan AI dalam konteks keamanan nasional, mencakup pemberian alat, pelatihan, dan keahlian kepada institusi pemerintah. Ini adalah pengumuman langsung dari OpenAI, bukan respons terhadap regulasi yang sudah ada.",
+      "whyItMatters": "Ini adalah langkah pertama perusahaan AI frontier yang secara proaktif membangun kerangka pengawasan pemerintah untuk penggunaan militer/intelijen—berbeda dari pendekatan reaktif terhadap regulasi. Pola ini mengisyaratkan bahwa OpenAI memosisikan diri sebagai mitra state actor, bukan sekadar penyedia layanan komersial.",
+      "secondOrder": "Bila OpenAI berhasil mengunci posisi sebagai mitra pengawasan demokratis AI di keamanan nasional AS, pesaing (Anthropic, Google DeepMind) akan terdorong membuat deklarasi serupa. Bagi negara-negara non-AS termasuk Indonesia, ini berarti standar tata kelola AI keamanan nasional akan semakin dibentuk oleh arsitektur yang dirancang di Washington—menciptakan tekanan normative adoption jangka menengah.",
+      "action": "Tinjau apakah lembaga pertahanan dan intelijen di Indonesia sudah memiliki kerangka tata kelola internal untuk pengadaan dan penggunaan sistem AI frontier dari vendor AS. Identifikasi gap antara standar yang sedang dibentuk OpenAI dan kapasitas pengawasan domestik yang ada.",
+      "strength": "emerging",
       "sourceUrls": [
-        "https://openai.com/index/pacing-model-development-cyber-capabilities",
-        "https://openai.com/index/chatgpt-ads-expands-across-europe",
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLThmcXVJa0VyV0dXRVVsX0Q2YW5kTXE1czlsdnFSTUtaRjdmcW5FRzdScE1fajAwNm5lb0dCOGQyRjdqbXZRWk96dHZOUk1uYVBOS1hhSTFscTdwZnR0cTdlaGFpbUpyTzgwbkFrekh3Z1VvNG94d2VyTUxlVndnZVQ1eEt1YTJxelJmS2Qzb3kyRFMzYWMxMWJSZkFad1pRVTVoZmJDQ3JILUZhM2lJX3FB?oc=5"
+        "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+        "https://openai.com/index/pacing-model-development-cyber-capabilities"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 1,
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "openai-keamanan-model-frontier",
+        "themeKey": "ai-keamanan-nasional-tata-kelola",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -148,28 +145,27 @@
     {
       "rank": 5,
       "domain": "energy",
-      "themeKey": "plts-lahan-target-indonesia",
+      "themeKey": "industrialisasi-hijau-nikel-ev",
       "entities": [
-        "PLN",
-        "Kementerian ESDM",
-        "Waduk Saguling"
+        "IESR",
+        "Weda Bay"
       ],
-      "headline": "Pemerintah tandai 9.000 hektare lahan negara dan waduk untuk kejar target 30 GW PLTS",
-      "whatChanged": "Katadata (19 Agustus 2026) melaporkan pemerintah telah mengidentifikasi dan menandai lahan potensial seluas 9.000 hektare—termasuk lahan negara dan waduk seperti Waduk Saguling di Jawa Barat—sebagai lokasi pengembangan PLTS dalam rangka mengejar target 30 GW.",
-      "whyItMatters": "Identifikasi lahan spesifik adalah tahap pra-investasi yang konkret dan jarang terjadi sebelumnya pada skala ini. Ini menunjukkan pemerintah bergerak dari target numerik ke pemetaan sumber daya, yang merupakan prasyarat untuk tender IPP dan skema KPBU.",
-      "secondOrder": "Waduk sebagai lokasi PLTS terapung (floating solar) menghadirkan dimensi koordinasi baru antara pengelola sumber daya air (PJT I/II), PLN sebagai offtaker, dan Kementerian ESDM sebagai regulator—tiga pihak dengan kepentingan yang belum tentu selaras. Kegagalan koordinasi ini pada proyek percontohan dapat memperlambat seluruh pipeline 30 GW.",
-      "action": "Identifikasi proyek PLTS terapung yang sudah dalam pipeline di Waduk Saguling dan waduk besar lainnya, lalu periksa status power purchase agreement (PPA)-nya dengan PLN—ini adalah indikator terkuat apakah 9.000 hektare akan berkonversi menjadi kapasitas terpasang atau tetap sebagai peta potensi.",
+      "headline": "Pabrik alat berat listrik pertama di luar China berdiri di Weda Bay—preseden industrialisasi hijau berbasis nikel",
+      "whatChanged": "Menurut laporan IESR tertanggal 18 Agustus 2026, pabrik alat berat listrik pertama di luar China telah berdiri di Weda Bay, Halmahera, Maluku Utara. Pabrik ini diklaim untuk mendekatkan produksi ke sumber bahan baku nikel.",
+      "whyItMatters": "Indonesia selama ini mengekspor nikel sebagai bahan baku baterai EV global, tetapi belum berhasil membangun ekosistem manufaktur EV yang terintegrasi di dalam negeri. Pabrik alat berat listrik di Weda Bay menandai pergeseran dari hilirisasi komoditas ke integrasi vertikal manufaktur—sebuah lompatan kategori yang berbeda dari sekadar pengolahan bijih.",
+      "secondOrder": "Keberhasilan model Weda Bay akan menjadi uji casus bagi argumen bahwa larangan ekspor nikel mentah Indonesia efektif menarik investasi manufaktur hilir, bukan hanya pengolahan smelter. Jika pabrik ini beroperasi secara ekonomis, tekanan pada pemerintah untuk memperluas kebijakan serupa ke mineral strategis lain (bauksit, tembaga) akan meningkat. Namun IESR juga mencatat sejumlah hal yang perlu diperhatikan—risiko ketergantungan teknologi pada mitra China tetap ada.",
+      "action": "Minta detail kapasitas produksi, nama operator pabrik, dan skema offtake dari pabrik Weda Bay ini kepada IESR atau ESDM. Evaluasi apakah model industrialisasi ini sudah masuk dalam RUPTL 2025-2034 sebagai beban listrik tambahan yang membutuhkan pasokan dari grid atau pembangkit captive.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://katadata.co.id/ekonomi-hijau/energi-baru/6a85588adc967/kejar-target-30-gw-plts-pemerintah-tandai-9000-hektare-lahan-negara-dan-waduk"
+        "https://iesr.or.id/alat-berat-listrik-mulai-diproduksi-di-weda-bay-apa-yang-perlu-diperhatikan/"
       ],
       "secondOrderUrls": [],
       "corroboration": {
         "publishers": 1,
-        "hasPrimary": false
+        "hasPrimary": true
       },
       "trend": {
-        "themeKey": "plts-lahan-target-indonesia",
+        "themeKey": "industrialisasi-hijau-nikel-ev",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -179,47 +175,65 @@
   ],
   "watchNext": [
     {
-      "item": "Status finansial close restrukturisasi WIKA dan BUMN Karya lainnya—apakah tenggat akhir 2026 Danantara akan terpenuhi atau direvisi",
+      "item": "Tenggat restrukturisasi BUMN Karya oleh Danantara: pantau apakah milestone hukum dan keuangan terpenuhi sebelum Q4 2026, dan apakah suspensi saham WIKA dicabut.",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "Pengesahan RAPBN 2027 dan apakah angka subsidi listrik Rp130,1 triliun berubah dalam pembahasan DPR, serta ada-tidaknya mekanisme penyesuaian tarif terselip",
-      "dueDate": "2026-10-31"
+      "item": "Regulasi teknis pencabutan konsesi panas bumi idle pasca pernyataan Bahlil: apakah ESDM menerbitkan aturan konkret dalam 6 bulan ke depan.",
+      "dueDate": "2027-02-19"
     },
     {
-      "item": "Revisi Permen ESDM tentang harga listrik panas bumi—apakah mengikuti retorika percepatan Bahlil dengan perubahan tarif substantif",
+      "item": "Pola jaminan vendor GPU di proyek pusat data: pantau apakah Google, Microsoft, atau AMD mengikuti model jaminan eksklusivitas NVIDIA-SB Energy.",
       "dueDate": "2026-11-30"
     },
     {
-      "item": "Kasus uji pertama penegakan EU AI Act terhadap ChatGPT Ads di pasar Eropa, terutama terkait persyaratan transparansi dan consent",
-      "dueDate": "2027-03-31"
+      "item": "Operasionalisasi pabrik alat berat listrik Weda Bay: kapasitas produksi, nama operator, dan skema pasokan listrik dari PLN atau captive power.",
+      "dueDate": "2026-12-31"
     }
   ],
   "sources": [
     {
-      "title": "Tanggapan IESR terhadap Pidato Kenegaraan Presiden Prabowo, RUU APBN 2027 dan Nota Keuangan",
+      "title": "Alat Berat Listrik Mulai Diproduksi di Weda Bay, Apa yang Perlu Diperhatikan?",
       "publisher": "IESR",
-      "url": "https://iesr.or.id/tanggapan-iesr-terhadap-pidato-kenegaraan-presiden-prabowo-ruu-apbn-2027-dan-nota-keuangan/",
+      "url": "https://iesr.or.id/alat-berat-listrik-mulai-diproduksi-di-weda-bay-apa-yang-perlu-diperhatikan/",
       "tier": 1,
       "primary": true,
-      "publishedAt": "2026-08-14T09:39:48.000Z"
+      "publishedAt": "2026-08-18T02:55:11.000Z"
     },
     {
-      "title": "ChatGPT Ads expands across Europe",
+      "title": "Kejar Potensi Panas Bumi Nomor Satu Dunia, Bahlil Minta Pengembang Tak Tahan Konsesi",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOE9hT0xVdzNYejlpcFpqMHpvR3R3aWJlRS1yQ0xCZ2JHVGI1ckNIWTVVS3lDMWUtSjBaeThtYVVjbWRSNXBsOFlJQXA2cnI3VTR1bndOMEVRaVBoeW9rSzllczMwcVU5Q3RzSzhvdFM0NXNmRWdoRi1zTEw4eWFFZ1FuUjV0V1piNUZTbEVxQ2lmTzU0OGxpRDFOY1l6eUw4Q25LLVl1RGpyd0Y5YVlrNFpGdXp6UDJzTXMtelpGU05XOGdVQU5jeDkzSlprZjgz?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-19T08:08:02.000Z"
+    },
+    {
+      "title": "NVIDIA Guarantees SB Energy’s PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute",
+      "publisher": "NVIDIA Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYXdyMXl0ZUs3UDVBSFo1a3BCcDg4UlZUazQxSEp1allrY1B3SEVxYnQ2RjFQVFY5T3Q1YUFYM19Jc1ZQNXVobGtZNVJBc1BPQXpFWFFsTlBvWEJqV3VRM1lCU0ZzSVlHcS14UGxUZldBaEVsdUJveHN0TXJOLURfWDBxRlJYaFdXMHREU3VSNlVrcFZncENub1czY2lGV1F6eGpGSWZiU2loYlJYVVRFZTdQSU80Q0lNZmdvX3FZQ0hTU1pjZF8weHhCRWEzeURkcDk3N1Z3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-17T12:38:11.000Z"
+    },
+    {
+      "title": "Strengthening democratic oversight in national security",
       "publisher": "OpenAI",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "tier": 1,
       "primary": true,
-      "publishedAt": "2026-08-18T22:00:00.000Z"
+      "publishedAt": "2026-08-18T19:00:00.000Z"
     },
     {
-      "title": "Bos Danantara Ungkap Alasan Restrukturisasi BUMN Karya Berlarut-larut",
-      "publisher": "Kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZFNYMnUxak5xZnpRN01kZy0tY3lKT1JCWmpXUHlUR2dEUmwyQ3lOT2JNOFBQYzhWamFDRXp2YkZ6aU1wVjJrWGdYaTl0Y0JoMnpsUXQzZWRXaFBNZUFzV25lLXQ1MHJKcnRZNXhPT2xUZHJMTWp3aGViT3lUbk9QMVVMT29yZEZUcUFSRkVCOTIzTFdRZmtZVHVrQUVCNDcxRmhWSXI3UjRiS2ktdWFYRnRjWVd1ZWxqSDQzWEhwQ3NLQVZkaHc?oc=5",
+      "title": "Kemenkeu: Danantara Development Management Fund (DDMF) Tak Pakai APBN - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQnUxS2I2dldxTkdfeWl0cXhLd0kySnFHTDRaendmZzRfWERSaFlOTHVSNkJYRHVNMjhVb2lxQ29GX056SHRSQ3lpend0Y2N1NlZOMExrX0xrS1NiSkN3cU9HZGdXWmdEUE93RW1Ra3VpeEg1VmJCWF9lMnp5d2NuQXNnenU0aWlyMEdyNldYWDVBNnh2YUJrTVFFSFJSRGFzMmdZLVNMOUxXaFdJZE9xNVRtQ0EtREpjMXc?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T06:36:00.000Z"
+      "publishedAt": "2026-08-19T08:53:00.000Z"
     },
     {
       "title": "Bursa Efek Indonesia Perpanjang Gembok Saham WIKA",
@@ -231,77 +245,6 @@
       "publishedAt": "2026-08-19T05:40:15.000Z"
     },
     {
-      "title": "Tarif Listrik per kWh 18-23 Agustus 2026 untuk Semua Golongan Pelanggan PLN",
-      "publisher": "Kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRWh5UXpFMkh6Q0p6VHBYbjBNb1lNS2preUUzY2NRb0JOU1JkcDJSSXZ0bWNBWEs5NEtJUEVuQmM3UG5QaVpXc3l5RlA1anFZYnZsVk5keU9ubUZxNW5USENRVHNxR3pjMUF6TmVJQ1ZlRnhOeDBNcW55a3VMRGtGZ1UxaVliNE9xVV9NUWthalRfcVNjQURFQ2NmUjlOZDRPaGVOUlNsc1Q2QTJ5VUNmdEZBbHlPVjQxeWpLNGlwY2QxR2dpU3NtcmowU1JmLVltU2FxLTVjMEo5cTRPaV8yYWVUMA?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-18T02:50:00.000Z"
-    },
-    {
-      "title": "Wow! Umur Panas Bumi RI Sudah Capai 100 Tahun",
-      "publisher": "CNBC Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNXdQU2V2cVdLRnFUbnd1Tmx1aklkWEVDUWhxNXJid1JsVmNYNElDS0MtQVJKUjN2UFQ2ajhSejJDWmFnOHo1ajBwMHd6ZVNLWHRxd1A4eUxOYS00WmRwRXg5clM4VExSZEx2dlo3cUpJNXlyNTJvdldycFJQOVVNc0pVT29DMWxndEhROWZmd25kZUVZakVrWkRuY3dURDdJcU1vVXNR0gGrAUFVX3lxTE9YVVpYMkItY3V1cGRFZWNFZXBoLVVNV3pVNGdCeEF0QWt1V1QwMUJpcmFWRWdPRTVzaWtXR3FOR1lITmk3YS1Vb29PR3RKRmV6dDdaZWNiRGs5a25KU1hMc2RKRVJvTGtWck9WWmp5SXpGM0c2RWwxVl9BeWFlN0FSSnVGTlpQbUV6dFFVX0ZsY1A5ajg5QUFpUnJvSWwtSG1rODlqdnJlQ016VQ?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-19T06:53:24.000Z"
-    },
-    {
-      "title": "Pemerintah Sebut Modal Awal Danantara Development Management Fund Tak Pakai APBN",
-      "publisher": "kontan.co.id",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNkNzU0dEamN1RWZqdVViREJaa01xOHNSak1zM3JhcTlTU0loSkhsMmtGNGlRZkdSdHBSWno0N3Z1emt0RFBQV1NWUmpUVjl2MjJlVURYclFaajlOR0xRbXRTd0NDQ0w2enlGVURTWEJNY040MTBrOEROMk41eHJIbllObGpCbzhFcnRHNmFVbElCMEJQbFZsZ25MdGRVdkNhMDJYSUl4Rlk0Q01uTUJGb2M3NUp6QdIBrwFBVV95cUxOZTVQS1NrWVJZUDBBUWxvVlNEZzdVVEpTWlB3TzFheXRhZVF4OEt0VmFPZkdsN09RS2hZMnFkV1FQOEVwcXVNbk5rcUFIbWdtbGVxMmRITjQ5Z0FlRzdCRHZJbGx2WWJZc0RYdGFHZE1MSTlhWTNDVkpfNHZEaTJJeGc3M1VXdFE1MnQ0aVpxVDFleTM1Rnc5clAxc1NVemRyVlh2Rk5XTXRyOUtuc3g0?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-19T07:09:49.000Z"
-    },
-    {
-      "title": "RAPBN 2027: Subsidi Listrik Rp130,1 T, Naik 17,8% dari APBN 2026",
-      "publisher": "Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR1RpUzNaTlRzMnlrQ1doMXVuOTYwS2RtMG1OblpmaVlNTVVXMjE5eHNmZjlGcUhjaGRBUUxXdk80VU5rRjNsX2docFpkU2NSWExma1VSMHRFTTNjSGZMeUZ2Szh3Und3bVVNT2JXczZWTl9jNjVNUi1oYTFaQnp0SHg3eVdiOEVub0QzMmtWVWxpN0hmOVl0bGxMdTlfUERuVHlWYmh2ZHFGZUtPeUpUdXVMMA?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-18T01:50:00.000Z"
-    },
-    {
-      "title": "Kejar Target 30 GW PLTS, Pemerintah Tandai 9.000 Hektare Lahan Negara dan Waduk",
-      "publisher": "Katadata",
-      "url": "https://katadata.co.id/ekonomi-hijau/energi-baru/6a85588adc967/kejar-target-30-gw-plts-pemerintah-tandai-9000-hektare-lahan-negara-dan-waduk",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-19T07:17:00.000Z"
-    },
-    {
-      "title": "Bahlil: Pengembangan Panas Bumi Penting bagi Swasembada Energi RI",
-      "publisher": "republika.co.id",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ2ZoOHlVb0Vva25Pdm5xYjlXTTByRXJCSkhyWHpWblVVVi1melVPWWQtZzVtWWZNejZxcHd5RDhkaEhsRndva0JLVlZfdFpDOV9QVlMtam5PbmpWVWt0emlkUExNUnpWOU9hWjZHSjlFcUNHR2VBNWs5elJ1dUVkVjA1WFQ3aGxUN09xcGtxNTJZSWtaTkNUQ0JnZHlweWVWcEd5N1VSUTNyTVZVN0VPTk9wYw?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-19T06:25:47.000Z"
-    },
-    {
-      "title": "OpenAI Makes AI Safety Changes in Wake of Hugging Face Breach",
-      "publisher": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLThmcXVJa0VyV0dXRVVsX0Q2YW5kTXE1czlsdnFSTUtaRjdmcW5FRzdScE1fajAwNm5lb0dCOGQyRjdqbXZRWk96dHZOUk1uYVBOS1hhSTFscTdwZnR0cTdlaGFpbUpyTzgwbkFrekh3Z1VvNG94d2VyTUxlVndnZVQ1eEt1YTJxelJmS2Qzb3kyRFMzYWMxMWJSZkFad1pRVTVoZmJDQ3JILUZhM2lJX3FB?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-18T18:00:00.000Z"
-    },
-    {
-      "title": "Danantara Siapkan Perampingan BUMN, Penghematan Diproyeksi Puluhan Triliun",
-      "publisher": "investor.id",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcHl3amZ5bkJOdDJScEFSNU9JRXB2TWVKWVkxUHVwYm1NdkhSbWJsOXVXVjFnZDN2Rm1oWGJ4T1huZHZBSXR4T0JBNm5meFNoTUVhWWZWSFVEOHVxd21rT043MEgzNkI3czRpQmYwbVBzODdyXzMwN3JEU1AtdEJ0M0ZmX2ZyYU9XbUg2N1l5ZXJlS3pTQlc5MmxJTmYtNFBwZWp4bDlkNWR1M003cUE?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-19T06:52:40.000Z"
-    },
-    {
       "title": "Danantara tegaskan kehati-hatian dalam restrukturisasi BUMN Karya",
       "publisher": "ANTARA News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5",
@@ -311,21 +254,13 @@
       "publishedAt": "2026-08-18T11:45:40.000Z"
     },
     {
-      "title": "Bahlil Minta Pengembangan Panas Bumi Dipercepat",
-      "publisher": "CNBC Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGlhZUxmRm9BOGx3eUVmcjYtbS1VOUctMlhQX3ZMVGtKVEU2eS1XMXlGSV9KSXJhVDZvcldRMUlmWDNIZGQzMzlXNDJhcEVuUXo0VTIxZHlmcHhtdU5OTWVQY0dhZFNKckdHOVNhRnNGdndzbDFRTV95NkROVmFrS2tiUVVac2JrMWRuSHhTWEEtTzZCNHBPUWpVeldGWEF2Q1dvRFhrNUNGUdIBrwFBVV95cUxOR1VPa3FxOTQ2WWE3cmYxN1JELUN5MDRpMzNfWmlrSE9xVjhPczk2T0JEckozcG9aaHA0QVhMUWx1QndRR2VYMTRwSmVpcXAtb1NGRkZVMTEtX2hwMzdtNm84LTRrblA1QVNaZENfZnNkRUJqbUZtRDFBVERhRkZndmtyNXJITmVlM2ZzcnlsZTlLbkpOYXdyblU5SG05aExGbVJtT2szaGs4b0dEbDBr?oc=5",
+      "title": "Kejar Bauran Geothermal 15 Persen, Keseriusan Pemerintah Ditunggu",
+      "publisher": "Kompas.id",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3kxZ0RWMGl1VU8yMk91Q21rWnBDeV93OHdSWUVVTk0zR1NpdHZ0RFNwQ1luZWk0NkUxS2lIZHVSWjNEQV9GbDdxVkdhcDBPb21LMGN2X2N1TkpzdVhJUzdLLS1xcmhHQ0JXWThzTEJuclQ3a2E0OWJpbm1WY0p1OHZYQlUyeGlBS3IyTFl4Y3VqblFqNHNvYktn?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T05:57:05.000Z"
-    },
-    {
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "publisher": "OpenAI",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-18T11:00:00.000Z"
+      "publishedAt": "2026-08-19T11:39:00.000Z"
     },
     {
       "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
@@ -337,22 +272,39 @@
       "publishedAt": "2026-08-18T11:22:29.000Z"
     },
     {
-      "title": "Tarif Listrik PLN 17-23 Agustus 2026, Token Rp100 Ribu Dapat Berapa kWh?",
-      "publisher": "Kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQazZ4dlhhMVBzQlA0SndlV1dJQnhkSlJHUzVJZEtfdkpabWFFdGFwa1BnV2NUZzhLV0dhWDk0azBEZEVsZVpNTi16Zm0tSjFIc1hXRGttT3BTMjEteTRQcGlmWXlhVkI4QTkweWFGTUFyNG1Yb0stTFpTcWY3bUE2dUJaZC1HcTRlbVN1bmNHN2VUZE4zc1pCNVN3Nk9wM3hkN3lMRTEzdnBtem01aWc?oc=5",
+      "title": "ESDM Targetkan PNBP Rp 2,6 Triliun dari Industri Panas Bumi",
+      "publisher": "Tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNem90aU9PTG5Kb1dzYk9ROXE2WkJ4aER0Y1ltdUV3QTFpMC1hYlF0M2pHdUlpUE9HcnFNOVZNVUFnbmVCUDFzV0o2NEdEU3l1aVltR2ZnQkV2REc4Zzl5ZFNVSDc5VWYyYkxoeGhYcHJ4UV8xdk1aZVEtRlhfRW5LNnFQYnAxQlN6dHFFSG5GdncyNDBVYllCOHgxMEo?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-16T22:14:58.000Z"
+      "publishedAt": "2026-08-19T12:52:40.000Z"
     },
     {
-      "title": "Ekonom: Lebih dari 90% Potensi Panas Bumi Indonesia Belum Dimanfaatkan",
-      "publisher": "hijau.bisnis.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3RLbkR2cDVWMnR4c0dyRktsUm9qS0xZLThWejN6MndhX01jb3J2UXZiTE5ZRDl2TkVnX0hWZXlTLWZEeGF3VmdnckpoNS1xSDVOZWV0allwblh5bjRUdVVvQy03VTJNMkxmTFAzR1JKLTRSeEhDOTFiRGhxWkhzUXJqRldnc09qU093V0RudXhRSlp1amRkUDk2cDVoVFZzMGdfbWJKSU5fa1BqRThGQWFOcTByUDNJckln?oc=5",
-      "tier": 2,
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-18T11:00:00.000Z"
+    },
+    {
+      "title": "Andre Rosiade: Datangkan Adhi Karya, Komisi VI DPR-Danantara Kawal soal LRT City",
+      "publisher": "detikNews",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbUxjclJnQzNZVGlpNHpENjQ5TnRqTDdMOGtWdUpPRGVDSDdjdzNiRnFQSkxuN2JRRm9fd0ttMHZ5S0VYNlFYOGhFNkJoVGpMaG0xWHlKTnRlS19CMm4tMk8xcUNZaDEtODBhdFZhZ2MydFQ2MTVGcVlaRW1ELVpqbmRvYkVPSFRrTUM3NnQ5Smhfa0VscmxYMmRhRzNGMC1OaFFaZ2I4Q2lXZThZd2ZQeGZfZ3dpVHlES2fSAb8BQVVfeXFMTVRYdFFCUkdUczdSMGZ4TDBTZkhBczRDQlVQN2NpUnZwZ1VHb185ajIzdE1xXzVLbDNDem80TEV1MVVUN3d1a1JOSW9vaHByTWhxZzhDTGxBTnB6WTZMUzBVbHk0T0k3cjZ5NENELUF3eHJ5b1lwOGl3dUlfWnNIM0lWbFN4ZjJxS1RGc2VGSXJZVUFROWZCZ0pFaHRnZy1TdGhUcG9MbDlreG9RYkFOekZxWEZRdEVZTmVPMVZ4Q0U?oc=5",
+      "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T04:47:48.000Z"
+      "publishedAt": "2026-08-19T05:47:18.000Z"
+    },
+    {
+      "title": "COO Danantara Ungkap Progres Restrukturisasi BUMN Karya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRElKcDNKakwza3ZxUTZFTy1IZC1zYnJmb24xbzdMUlFuUXVEQTN1V1dUQnZFSWhDQlIxaTQ0elgyR3VrX1RSZzRYQThxbUhzeGNSVFBjcS1jb0t2bGg4RDFrblNzR0JjZW5YMk9XWnl1Ui12QXV3S0lHQTFaaWNpUkEwVFUtVkE4S0RicDh4b1VndnY2TjdNVnFOejMtWlQxNFZEenI4S28yLVNoRVRTMWI1aG81aktW0gG-AUFVX3lxTE1sRm9qZFd6XzRnemRfQzVHdlVNT0ZUYmp5dnExMUxrRHpQTXMzYTEyWEJLWTVKM3hjVFc2cy1tN3QtQnJUazBqWmVRcHZRaXNRYzVMSXF6ZlA3VnNKZUEwelN5S1lTLWUwdHZCTlhsTFJFNE9heFpsQnhiZG9yUHIwSWYwTVo2RGdqUWJrakt0MWQxSTBxS3BKQWI5bHhDUlZJbV9vUUNYTEo4UzU1MGFYdFpxSG9HMUdOc0M2UGc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T11:05:24.000Z"
     }
   ],
   "trends": [],
@@ -362,9 +314,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 372,
+    "candidateCount": 368,
     "poolSize": 110,
-    "generatedAt": "2026-08-19T07:43:42.419Z",
+    "generatedAt": "2026-08-19T12:58:35.928Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
