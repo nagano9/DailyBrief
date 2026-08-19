@@ -168,14 +168,8 @@ Google News" alih-alih menyamarkannya sebagai tautan langsung.
 
 **Selesai.** Radar enam tingkat, kutipan terverifikasi, korroborasi, memori
 sinyal berbasis kunci tema, situs dengan permalink, hreflang, JSON-LD, RSS,
-sitemap, dan arsip permanen.
-
-Terbit dalam **Bahasa Indonesia saja**. Mesinnya mendukung dan menguji dua
-bahasa — `BRIEF_LANGS=id,en` menghidupkannya — tetapi versi Inggris tidak
-diterbitkan, karena menerbitkannya setengah jalan lebih buruk daripada tidak
-sama sekali: edisi Inggris yang berhenti diperbarui akan tetap dibangun dari
-arsip, mengaku sebagai edisi terbaru untuk tanggal yang makin tertinggal,
-sementara `hreflang` di setiap halaman Indonesia menunjuk ke sana.
+sitemap, dan arsip permanen. Bahasa Inggris tersedia lewat `BRIEF_LANGS=id,en`
+saat ada permintaan.
 
 **Berikutnya — monetisasi.** Penyimpanan subscriber, pengiriman email harian,
 lalu lapisan berbayar dan pembayaran. Mesin premium sengaja **dihapus**, bukan

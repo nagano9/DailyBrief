@@ -34,23 +34,19 @@ const EDITIONS_DIR = "editions";
 const CACHE_DIR = ".cache";
 
 /**
- * Languages to compose. Indonesian only.
+ * Languages to compose.
  *
- * English is supported and tested — set BRIEF_LANGS=id,en to bring it back —
- * but it is not published, because publishing it halfway is worse than not
- * publishing it. Composing only Indonesian while an English edition sat in
- * the archive left the builder serving a frozen mirror with an hreflang
- * pointing at it, claiming to be the current edition for a date weeks behind.
+ * Both, deliberately: composing only Indonesian left the English edition
+ * frozen at the day it was last written, while every Indonesian page kept an
+ * hreflang pointing at it. A permanently stale mirror is worse than no mirror
+ * on a product that sells daily freshness, so either both languages publish
+ * or neither does.
  *
- * So either both languages publish daily, or the archive holds only one. It
- * holds one.
- *
- * This default must stay in step with the workflow. When they drifted, CI
- * composed two languages while local composed one, and nothing noticed until
- * records were counted in the archive.
+ * This default must stay in step with the workflow. When they drifted apart,
+ * CI quietly composed two languages while local composed one.
  */
 function parseLangs(): Lang[] {
-  const raw = (process.env.BRIEF_LANGS ?? "id").split(",").map((s) => s.trim());
+  const raw = (process.env.BRIEF_LANGS ?? "id,en").split(",").map((s) => s.trim());
   const langs = raw.filter((l): l is Lang => l === "id" || l === "en");
   if (langs.length === 0) throw new Error(`BRIEF_LANGS must list "id" and/or "en"`);
   return [...new Set(langs)];

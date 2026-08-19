@@ -23,7 +23,7 @@ name: Publish Brief
 #        SITE_NAME           masthead shown on every page
 #        SUBSCRIBE_ENDPOINT  POST target for the subscribe form (optional)
 #        PRIVACY_URL         required if SUBSCRIBE_ENDPOINT is set
-#        BRIEF_LANGS         id  (default; set to 'id,en' to publish English too)
+#        BRIEF_LANGS         id,en  (default; set to 'id' for Indonesian only)
 #        REPORT_TZ           Asia/Jakarta
 #        BRIEF_HOUR          local hour to publish (default 6)
 
@@ -99,7 +99,7 @@ jobs:
           # Must match the script default. When these drifted apart, CI
           # composed two languages while local composed one, and the mismatch
           # was only noticed by counting records in the archive.
-          BRIEF_LANGS: ${{ vars.BRIEF_LANGS || 'id' }}
+          BRIEF_LANGS: ${{ vars.BRIEF_LANGS || 'id,en' }}
           REPORT_TZ: ${{ vars.REPORT_TZ || 'Asia/Jakarta' }}
         run: npm run brief
 
