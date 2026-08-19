@@ -203,6 +203,16 @@ h3{font-family:var(--serif);font-size:1.1rem;font-weight:600;line-height:1.3;mar
 p{margin:0 0 1.05rem}
 .dek{font-size:1.12rem;line-height:1.5;color:var(--muted);margin:.8rem 0 0}
 
+/* The homepage opening is not a standfirst.
+   A standfirst is defined by the headline above it, and takes its muted
+   colour from being subordinate to one. At the top of the homepage there is
+   no headline — so the same treatment read as an orphaned caption: grey,
+   slightly oversized, floating. It is also the worst place for that, being
+   the one sentence a first-time reader uses to decide whether this is for
+   them. It gets the weight of a statement instead. */
+.standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
+color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+
 /* The funnel: what the radar actually did today. Four hundred candidates in,
    five signals out. That ratio is the product, so it opens the page. */
 .funnel{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;
@@ -756,7 +766,7 @@ export function renderHome(cfg: SiteConfig, editions: Edition[], lang: Lang): st
       title: cfg.siteName,
       description: s.siteTagline,
       path: homePath(lang),
-      body: html`<p class="dek">${s.homeIntro}</p>
+      body: html`<p class="standfirst">${s.homeIntro}</p>
 <p>${s.noEditions}</p>
 ${subscribeBlock(cfg, lang)}`,
     });
@@ -774,8 +784,8 @@ ${e.dek && html`<p>${e.dek}</p>`}
   // The first ten seconds have to answer "what is this, for whom, how often".
   // Leading straight into the latest headline assumed a reader who already
   // knew, which is every reader except the ones worth converting.
-  const body = html`<p class="dek">${s.homeIntro}</p>
-<p class="meta" style="margin-top:.75rem"><span class="tag strong">${s.cadence}</span>
+  const body = html`<p class="standfirst">${s.homeIntro}</p>
+<p class="meta" style="margin-top:1rem"><span class="tag strong">${s.cadence}</span>
 <span class="arrow">·</span>
 <a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle} →</a></p>
 
