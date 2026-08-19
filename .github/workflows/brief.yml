@@ -17,7 +17,8 @@ name: Publish Brief
 #      Variables:
 #        LLM_BACKEND         anthropic | openai | deepseek | minimax | zhipu
 #        SITE_URL            https://<user>.github.io   (origin only, no path)
-#        BASE_PATH           /<repo-name>               (omit for a custom domain)
+#        BASE_PATH           /<repo-name>               (LEAVE UNSET for a custom domain)
+#        CUSTOM_DOMAIN       brief.example.com          (optional; rebinds Pages each deploy)
 #        SITE_NAME           masthead shown on every page
 #        SUBSCRIBE_ENDPOINT  POST target for the subscribe form (optional)
 #        PRIVACY_URL         required if SUBSCRIBE_ENDPOINT is set
@@ -129,3 +130,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-pages
+          # GitHub Pages stores a custom domain as a CNAME file inside the
+          # published branch, and this deploy replaces that branch wholesale
+          # every morning. Without this the domain would unbind itself on the
+          # first scheduled run after it was set, and the site would start
+          # answering on github.io again with no obvious cause.
+          cname: ${{ vars.CUSTOM_DOMAIN }}

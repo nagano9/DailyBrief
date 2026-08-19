@@ -191,6 +191,48 @@ data JSON-LD, atau halaman tanpa CSP.
 Rinciannya, termasuk model ancaman dan cara melapor, ada di
 [SECURITY.md](SECURITY.md).
 
+## Menerbitkan ke domain sendiri
+
+Arsipnya **bukan basis data**. Setiap edisi adalah satu berkas JSON di
+`editions/<tanggal>/<bahasa>.json`, dan memori sinyal satu berkas JSONL di
+`signals/`. Keduanya di-commit ke git. Situs yang terbit hanyalah HTML statis
+yang dibangun ulang dari keduanya.
+
+Konsekuensinya: **situsnya bisa dipindahkan ke mana saja tanpa migrasi**.
+GitHub Pages, Cloudflare Pages, Netlify, atau sebuah bucket — sama saja. Yang
+perlu dijaga hanyalah repositori. Basis data baru diperlukan ketika ada
+subscriber dan pembayaran, bukan untuk menerbitkan.
+
+Pertumbuhannya: satu edisi sekitar 31 KB, jadi sekitar 11 MB per tahun.
+
+### Yang harus dipasang sebelum terbit otomatis
+
+Tanpa ini, job terjadwal akan gagal setiap pagi:
+
+```bash
+gh secret set ANTHROPIC_API_KEY
+gh variable set LLM_BACKEND    --body "anthropic"
+gh variable set SITE_URL       --body "https://brief.example.com"
+gh variable set SITE_NAME      --body "Daily Strategic Briefing"
+gh variable set REPORT_TZ      --body "Asia/Jakarta"
+gh variable set BRIEF_HOUR     --body "6"
+```
+
+Untuk **domain kustom**, tambahkan `CUSTOM_DOMAIN` dan **kosongkan
+`BASE_PATH`**:
+
+```bash
+gh variable set CUSTOM_DOMAIN  --body "brief.example.com"
+```
+
+`CUSTOM_DOMAIN` wajib dipasang sebagai variable, bukan disetel sekali lewat
+antarmuka GitHub: deploy mengganti isi branch `gh-pages` setiap pagi, dan
+ikatan domain tersimpan di dalam branch itu. Tanpa ini, domain akan lepas
+sendiri pada run terjadwal pertama setelah dipasang.
+
+Terakhir, aktifkan **Settings → Pages → Deploy from a branch → `gh-pages` /
+root**, dan arahkan DNS domain Anda ke GitHub Pages.
+
 ## Struktur proyek
 
 Mesin radar berjalan **paralel** dengan pipeline digest upstream, tidak
