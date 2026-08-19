@@ -9,6 +9,13 @@ name: Publish Brief
 # is not.
 #
 # One-time setup:
+# Running it by hand:
+#   Actions → Publish Brief → Run workflow. Leave "Compose a new edition" on to
+#   publish a fresh edition; turn it OFF to rebuild the site from the committed
+#   archive after a template or stylesheet change, leaving every edition exactly
+#   as published.
+#
+# One-time setup:
 #   1. Settings → Actions → General → Workflow permissions → Read and write
 #   2. Settings → Pages → Source: "Deploy from a branch" → gh-pages / root
 #   3. Settings → Secrets and variables → Actions
@@ -35,6 +42,11 @@ on:
     - cron: '11 * * * *'
     - cron: '41 * * * *'
   workflow_dispatch:
+    inputs:
+      compose:
+        description: 'Compose a new edition. Turn OFF to rebuild the site from the committed archive without touching its contents.'
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -85,7 +97,13 @@ jobs:
 
       - run: npm ci
 
+      # Scheduled runs always compose — that is the product. A manual run is
+      # usually something else: a template or stylesheet change that needs the
+      # site rebuilt, not the day rewritten. Composing anyway replaced a
+      # published edition with a different one twice in an afternoon, which is
+      # both a waste of API quota and a quiet edit to something already cited.
       - name: Compose today's editions
+        if: github.event_name != 'workflow_dispatch' || inputs.compose
         env:
           LLM_BACKEND: ${{ vars.LLM_BACKEND || 'anthropic' }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
@@ -104,6 +122,7 @@ jobs:
         run: npm run brief
 
       - name: Commit today's editions
+        if: github.event_name != 'workflow_dispatch' || inputs.compose
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
@@ -117,6 +136,14 @@ jobs:
           else
             git commit -m "radar: publish $(date -u +%Y-%m-%d) editions"
             git push
+          fi
+
+      - name: Report mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.compose }}" != "true" ]; then
+            echo "Rebuild only — the archive was not touched."
+          else
+            echo "Composed a fresh edition, then rebuilt."
           fi
 
       - name: Build site
