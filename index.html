@@ -34,7 +34,7 @@
 --paper:#f6f7f6;--ink:#191c1b;--muted:#5d6663;--faint:#66706d;
 --rule:#dde1df;--rule-strong:#b9c1be;--card:#fdfdfd;
 --backed:#0f5c4d;--unbacked:#9c4221;
---measure:44rem;--wide:56rem;
+--measure:40rem;--wide:56rem;
 --rail-l:10rem;--rail-r:15.5rem;--rail-gap:2rem;--spine-pad:1.15rem;
 --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
 --mono:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono",Consolas,monospace;
@@ -148,6 +148,20 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+
+/* The cover shows the spine. A reader who has not clicked through has no way
+   to see the one thing that separates this from a summary feed — the solid
+   rule under sourced fact, the dashed rule under our reading. So the lead
+   signal runs in full on the homepage. The ladder is flattened there: the
+   cover has no rails to hang the labels in, so the negative margin that
+   pulls them out of the column has to be cancelled or they fall off the
+   left edge. */
+.cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
+border-top:1px solid var(--rule);
+max-width:calc(var(--rail-l) + var(--rail-gap) + var(--measure))}
+.cover-h{font-family:var(--serif);font-size:1.25rem;font-weight:600;
+line-height:1.3;margin:0 0 .1rem}
+.ladder-flat .rung{margin-left:0}
 .lede h2.lead a{text-decoration:none}
 .lede h2.lead a:hover,.lede h2.lead a:focus-visible{color:var(--backed)}
 .cards{border-top:1px solid var(--rule)}
@@ -241,6 +255,13 @@ border-left:2px dashed var(--rule-strong)}
 .signal:first-of-type{border-top:0;padding-top:.75rem}
 .signal .head{display:flex;gap:.9rem;align-items:baseline;margin-bottom:.6rem;
 margin-left:calc(-1 * (var(--rail-l) + var(--rail-gap)))}
+
+/* The signal headline was 1.1rem against 1.0625rem body: six tenths of a
+   pixel apart, with weight alone carrying the rank. On a page whose premise
+   is five signals in order, the order has to be legible before the prose is
+   read. Scoped to the signal — the generic h3 also sets the subscribe block,
+   which should not compete with it. */
+.signal .head h3{font-size:1.4rem;line-height:1.25;letter-spacing:-.008em}
 .signal .rank{font-family:var(--mono);font-size:.8rem;color:var(--faint);
 flex:0 0 var(--rail-l);text-align:right;padding-top:.35rem;
 font-variant-numeric:tabular-nums}
@@ -291,13 +312,23 @@ letter-spacing:.05em;color:var(--faint);margin-top:.1rem}
    claim become the sources beneath it, and nothing is lost.
    ------------------------------------------------------------------------- */
 @media(max-width:70rem){
-.doc{padding-left:1.5rem;padding-right:1.5rem;max-width:var(--measure)}
-.rung{margin-left:0}
-.signal .head{margin-left:0}
-.signal .rank{flex:none;min-width:1.5rem;text-align:left}
+.doc{max-width:calc(var(--measure) + var(--rail-l) + var(--rail-gap) + 3rem);
+padding-right:1.5rem}
 .aside,.rail-trend{position:static;width:auto;margin:1.4rem 0 0;
 padding-top:1rem;border-top:1px solid var(--rule)}
 .rail-trend{margin-bottom:2rem}
+}
+
+/* The left rail costs 10rem; the right costs 15.5rem. Folding both at the
+   same breakpoint threw away the cheaper one for nothing — a tablet in
+   landscape, or a half-screen window, lost the ladder while still having
+   room for it. The labels now hang until the column itself stops fitting:
+   measure + rail + gap + padding = 55rem, so 58rem with room to breathe. */
+@media(max-width:58rem){
+.doc{padding-left:1.5rem;max-width:var(--measure)}
+.rung{margin-left:0}
+.signal .head{margin-left:0}
+.signal .rank{flex:none;min-width:1.5rem;text-align:left}
 }
 @media(max-width:38rem){
 .doc{padding-left:1.15rem;padding-right:1.15rem}
@@ -365,9 +396,17 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span>19 Agustus 2026</span>
 <span>·</span><span>Edisi terbaru</span>
 </div>
-<h2 class="lead"><a href="/edisi/2026-08-19/">NVIDIA Jamin Pusat Data AI; Danantara Kejar Restrukturisasi BUMN Karya Akhir 2026</a></h2>
-<p class="dek">Tiga arus konvergen hari ini: pembiayaan infrastruktur AI bergeser ke model jaminan vendor, BUMN konstruksi Indonesia terancam melewati tenggat restrukturisasi, dan tekanan konsesi panas bumi membuka atau menutup 23,9 GW potensi terbarukan.</p>
-<p style="margin-top:1rem">NVIDIA secara resmi menjamin eksklusivitas compute di kampus pusat data Ohio milik SB Energy, menandai pergeseran struktural di mana vendor GPU kini menanggung eksposur infrastruktur layaknya project finance. Di sisi domestik, Danantara menetapkan tenggat akhir 2026 untuk restrukturisasi BUMN Karya sambil mengonfirmasi bahwa Dana Pembangunan (DDMF) tidak menggunakan APBN—dua fakta yang mengubah profil risiko fiskal Indonesia. Sementara itu, Menteri Bahlil memperingatkan pengembang panas bumi agar tidak menahan konsesi idle di tengah target bauran 15 persen yang belum terpenuhi, menciptakan tekanan regulasi yang akan menentukan arah investasi energi terbarukan jangka menengah. Kluster AI pendukung juga berkembang: OpenAI memperkuat pengawasan demokratis di keamanan nasional seiring meningkatnya penggunaan AI dalam konteks sensitif, dan pabrik alat berat listrik pertama di luar China yang berdiri di Weda Bay membuka preseden industrialisasi hijau berbasis nikel di Indonesia.</p>
+<h2 class="lead"><a href="/edisi/2026-08-19/">Danantara Kejar Laba Rp360 T, BUMN Karya Molor, dan Alat Berat Listrik Weda Bay</a></h2>
+<p class="dek">Tiga tekanan tata kelola konvergen hari ini: target laba ambisius Danantara bertabrakan dengan restrukturisasi BUMN Karya yang berlarut, sementara industrialisasi hijau di Weda Bay membuka preseden baru untuk elektrifikasi sektor pertambangan Indonesia.</p>
+<div class="cover-signal">
+<h3 class="cover-h">Danantara bidik laba BUMN Rp360 T di 2026, tapi BUMN Karya masih molor</h3>
+<dl class="ladder ladder-flat">
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Danantara secara resmi menargetkan laba konsolidasi BUMN sebesar Rp360 triliun pada 2026. Bersamaan, pimpinan Danantara mengakui restrukturisasi BUMN Karya berlarut-larut dan menegaskan kehati-hatian sebagai alasan, dengan tenggat penyelesaian akhir 2026. Komisi VI DPR memanggil Adhi Karya untuk dikawal terkait proyek LRT City. <span class="cites"><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s7" aria-label="Sumber 7">[7]</a><a href="#s8" aria-label="Sumber 8">[8]</a><a href="#s11" aria-label="Sumber 11">[11]</a><a href="#s12" aria-label="Sumber 12">[12]</a><a href="#s15" aria-label="Sumber 15">[15]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Target laba Rp360 triliun menciptakan tekanan atas-bawah yang kuat: unit BUMN yang belum direstrukturisasi—termasuk BUMN Karya yang menanggung beban utang proyek infrastruktur—berisiko menjadi sumber &#39;laba semu&#39; melalui revaluasi aset atau konsolidasi akuntansi, bukan peningkatan operasional nyata. Ketegangan ini sudah diidentifikasi secara eksplisit oleh Media Indonesia.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Jika target Rp360 triliun dicapai melalui rekayasa akuntansi atau penundaan pengakuan kerugian BUMN Karya, maka laporan keuangan konsolidasi Danantara 2026 akan menjadi tolok ukur yang distorsif untuk keputusan alokasi modal tahun berikutnya—termasuk potensi DDMF yang diklaim tidak menggunakan APBN. Investor asing dan lembaga multilateral yang mengevaluasi eksposur BUMN Indonesia akan memerlukan rekonsiliasi independen sebelum mengambil posisi.</dd></div>
+<div class="rung act"><dt>Tindakan</dt><dd>Minta laporan rekonsiliasi antara target laba Rp360 triliun dengan posisi utang dan ekuitas BUMN Karya per Q2 2026; identifikasi komponen laba yang berasal dari operasional vs. revaluasi aset vs. konsolidasi entitas baru di bawah Danantara.</dd></div>
+</dl>
+</div>
 <p><a class="btn" href="/edisi/2026-08-19/">Baca edisi</a></p>
 </div>
 

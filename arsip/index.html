@@ -34,7 +34,7 @@
 --paper:#f6f7f6;--ink:#191c1b;--muted:#5d6663;--faint:#66706d;
 --rule:#dde1df;--rule-strong:#b9c1be;--card:#fdfdfd;
 --backed:#0f5c4d;--unbacked:#9c4221;
---measure:44rem;--wide:56rem;
+--measure:40rem;--wide:56rem;
 --rail-l:10rem;--rail-r:15.5rem;--rail-gap:2rem;--spine-pad:1.15rem;
 --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
 --mono:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono",Consolas,monospace;
@@ -148,6 +148,20 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+
+/* The cover shows the spine. A reader who has not clicked through has no way
+   to see the one thing that separates this from a summary feed — the solid
+   rule under sourced fact, the dashed rule under our reading. So the lead
+   signal runs in full on the homepage. The ladder is flattened there: the
+   cover has no rails to hang the labels in, so the negative margin that
+   pulls them out of the column has to be cancelled or they fall off the
+   left edge. */
+.cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
+border-top:1px solid var(--rule);
+max-width:calc(var(--rail-l) + var(--rail-gap) + var(--measure))}
+.cover-h{font-family:var(--serif);font-size:1.25rem;font-weight:600;
+line-height:1.3;margin:0 0 .1rem}
+.ladder-flat .rung{margin-left:0}
 .lede h2.lead a{text-decoration:none}
 .lede h2.lead a:hover,.lede h2.lead a:focus-visible{color:var(--backed)}
 .cards{border-top:1px solid var(--rule)}
@@ -241,6 +255,13 @@ border-left:2px dashed var(--rule-strong)}
 .signal:first-of-type{border-top:0;padding-top:.75rem}
 .signal .head{display:flex;gap:.9rem;align-items:baseline;margin-bottom:.6rem;
 margin-left:calc(-1 * (var(--rail-l) + var(--rail-gap)))}
+
+/* The signal headline was 1.1rem against 1.0625rem body: six tenths of a
+   pixel apart, with weight alone carrying the rank. On a page whose premise
+   is five signals in order, the order has to be legible before the prose is
+   read. Scoped to the signal — the generic h3 also sets the subscribe block,
+   which should not compete with it. */
+.signal .head h3{font-size:1.4rem;line-height:1.25;letter-spacing:-.008em}
 .signal .rank{font-family:var(--mono);font-size:.8rem;color:var(--faint);
 flex:0 0 var(--rail-l);text-align:right;padding-top:.35rem;
 font-variant-numeric:tabular-nums}
@@ -291,13 +312,23 @@ letter-spacing:.05em;color:var(--faint);margin-top:.1rem}
    claim become the sources beneath it, and nothing is lost.
    ------------------------------------------------------------------------- */
 @media(max-width:70rem){
-.doc{padding-left:1.5rem;padding-right:1.5rem;max-width:var(--measure)}
-.rung{margin-left:0}
-.signal .head{margin-left:0}
-.signal .rank{flex:none;min-width:1.5rem;text-align:left}
+.doc{max-width:calc(var(--measure) + var(--rail-l) + var(--rail-gap) + 3rem);
+padding-right:1.5rem}
 .aside,.rail-trend{position:static;width:auto;margin:1.4rem 0 0;
 padding-top:1rem;border-top:1px solid var(--rule)}
 .rail-trend{margin-bottom:2rem}
+}
+
+/* The left rail costs 10rem; the right costs 15.5rem. Folding both at the
+   same breakpoint threw away the cheaper one for nothing — a tablet in
+   landscape, or a half-screen window, lost the ladder while still having
+   room for it. The labels now hang until the column itself stops fitting:
+   measure + rail + gap + padding = 55rem, so 58rem with room to breathe. */
+@media(max-width:58rem){
+.doc{padding-left:1.5rem;max-width:var(--measure)}
+.rung{margin-left:0}
+.signal .head{margin-left:0}
+.signal .rank{flex:none;min-width:1.5rem;text-align:left}
 }
 @media(max-width:38rem){
 .doc{padding-left:1.15rem;padding-right:1.15rem}
@@ -360,8 +391,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <p class="meta">1 edisi</p>
 <table class="arch"><tr>
 <td class="d">19 Agustus 2026</td>
-<td><a href="/edisi/2026-08-19/">NVIDIA Jamin Pusat Data AI; Danantara Kejar Restrukturisasi BUMN Karya Akhir 2026</a>
-<div class="d">AI &amp; Model Frontier · Korporasi &amp; BUMN · Energi &amp; Kelistrikan · 13 sumber dikutip</div></td>
+<td><a href="/edisi/2026-08-19/">Danantara Kejar Laba Rp360 T, BUMN Karya Molor, dan Alat Berat Listrik Weda Bay</a>
+<div class="d">Korporasi &amp; BUMN · Energi &amp; Kelistrikan · AI &amp; Model Frontier · 15 sumber dikutip</div></td>
 </tr></table>
 </main>
 <footer class="site"><div class="wrap">
