@@ -114,11 +114,16 @@ npm install
 | `npm run brief:selftest` | Uji validasi, korroborasi, dan klasifikasi tren | tanpa LLM |
 | `npm run brief` | Susun edisi hari ini | 1 panggilan LLM per bahasa |
 | `npm run site` | Bangun situs dari `editions/` ke `site/` | instan |
+| `npm run publish` | Susun edisi, bangun situs, periksa strukturnya | 1 panggilan LLM per bahasa |
 | `npm run check:site` | Periksa struktur situs terbangun | instan |
 
 `brief:dry-run` mencetak sebaran tier, penerbit, dan domain pada pool
 kandidat. Itu yang membuat perubahan registry terukur, bukan sekadar terasa —
 menambah sumber tanpa memperbaiki pool berarti memperburuk keadaan.
+
+Perintah sehari-hari adalah `npm run publish` — satu perintah tanpa operator
+shell, sehingga identik di PowerShell dan bash. Rantai `a && b` hanya berlaku
+di bash; PowerShell 5.1 menolaknya.
 
 Menyusun ulang tanpa mengambil sumber lagi:
 

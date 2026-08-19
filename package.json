@@ -9,6 +9,7 @@
     "test:integration": "tsx scripts/brief-selftest.ts --offline",
     "check:site": "tsx scripts/check-site.ts",
     "brief": "tsx scripts/brief.ts",
+    "publish": "npm run brief && npm run site && npm run check:site",
     "brief:dry-run": "tsx scripts/brief-dry-run.ts",
     "brief:selftest": "tsx scripts/brief-selftest.ts",
     "site": "tsx scripts/site.ts",
