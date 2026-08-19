@@ -2,48 +2,46 @@
   "slug": "2026-08-19",
   "date": "2026-08-19",
   "lang": "id",
-  "title": "Danantara Akui Utang BUMN Karya Ratusan Triliun; OpenAI Perkuat Pagar Keamanan AI",
-  "dek": "Dua krisis bergerak serentak: tata kelola BUMN Karya mendekati titik keputusan struktural sementara OpenAI dan Anthropic menetapkan preseden baru tentang batas keamanan model frontier.",
+  "title": "Danantara Tetapkan Tenggat Akhir 2026 untuk BUMN Karya; OpenAI Perkuat Tata Kelola AI",
+  "dek": "Tiga sinyal struktural hari ini — restrukturisasi BUMN Karya yang kian mendesak, lonjakan subsidi listrik dalam RAPBN 2027, dan pengetatan kerangka keamanan AI oleh OpenAI — menuntut keputusan konkret sebelum akhir kuartal.",
   "domains": [
     "corporate",
-    "ai",
-    "energy"
+    "energy",
+    "ai"
   ],
-  "summary": "Danantara hari ini secara terbuka mengonfirmasi bahwa seluruh anak-cucu BUMN Karya bermasalah dengan utang ratusan triliun rupiah, menargetkan restrukturisasi tuntas akhir 2026—sebuah pengakuan resmi yang mengubah frame dari 'perbaikan operasional' menjadi 'restrukturisasi beban utang sistemik'. Di sisi fiskal, RAPBN 2027 mengalokasikan subsidi listrik Rp 130,1 triliun, naik 17,8% dari APBN 2026, menandakan bahwa tekanan energi belum mereda dan ruang fiskal untuk transisi semakin sempit. Di front AI, OpenAI menerbitkan kebijakan pacing model development yang eksplisit membatasi rilis model dengan kemampuan cyber-kritis, sementara Anthropic meluncurkan text watermarking—keduanya merespons insiden Hugging Face breach dan membentuk norma industri baru. Dalam domain energi domestik, Menteri Bahlil mendorong percepatan panas bumi di tengah potensi 90% yang belum dimanfaatkan, membuka peluang investasi tetapi juga mengekspos gap antara retorika dan eksekusi. Kelima sinyal ini konvergen pada satu tema: institusi—negara, korporasi, dan laboratorium AI—sedang dipaksa menetapkan batas eksplisit terhadap risiko yang sebelumnya dikelola secara implisit.",
+  "summary": "Danantara secara terbuka mengakui utang BUMN Karya mencapai ratusan triliun rupiah dengan seluruh anak-cucu perusahaan bermasalah, sekaligus menetapkan target restrukturisasi selesai akhir 2026 — tenggat yang ketat mengingat kompleksitas liabilitas. Di sisi fiskal, RAPBN 2027 mengalokasikan subsidi listrik Rp 130,1 triliun, naik 17,8% dari APBN 2026, mencerminkan tekanan ganda antara tarif yang harus terjaga dan biaya transisi energi yang meningkat. Dalam domain AI, OpenAI menerbitkan kerangka pacing pengembangan model untuk kemampuan siber-kritis sehari setelah Bloomberg melaporkan perubahan keamanan pasca-insiden Hugging Face — dua sinyal yang secara kolektif menandai pergeseran dari self-regulation ke protokol pengawasan terstruktur. Sementara itu, Cerebras meluncurkan CS-4 sebagai chip inferensi generasi baru yang berpotensi menggeser kalkulasi biaya komputasi frontier. Di sektor energi, Star Energy/BREN menargetkan 2 GW kapasitas panas bumi di tengah dorongan Menteri Bahlil untuk mempercepat pengembangan sektor ini — membuka pertanyaan serius soal kecukupan regulasi dan pembiayaan.",
   "signals": [
     {
       "rank": 1,
       "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restrukturisasi",
+      "themeKey": "bumn-karya-restrukturisasi-danantara",
       "entities": [
         "Danantara",
         "WIKA",
         "WSKT",
-        "Adhi Karya",
         "Bursa Efek Indonesia"
       ],
-      "headline": "Danantara akui utang BUMN Karya ratusan triliun, target selesai akhir 2026",
-      "whatChanged": "Danantara secara publik menyatakan bahwa utang BUMN Karya mencapai ratusan triliun rupiah dan seluruh entitas anak-cucu dalam kondisi bermasalah. COO Danantara mengungkap progres restrukturisasi, dengan target penyelesaian akhir 2026. Bursa Efek Indonesia memperpanjang suspensi saham WIKA, sementara saham WSKT dan WIKA terancam delisting.",
-      "whyItMatters": "Ini bukan lagi sinyal—ini adalah pengakuan resmi dari pemegang mandat restrukturisasi bahwa skalanya sistemik, bukan parsial. Frame berubah dari 'penyehatan operasional' menjadi 'workout utang multi-entitas' dengan tenggat yang terikat kalender anggaran. Pernyataan publik ini juga mengikat Danantara pada akuntabilitas yang dapat diukur.",
-      "secondOrder": "Pengakuan bahwa semua anak-cucu bermasalah akan mempersulit penerbitan obligasi baru oleh BUMN Karya tanpa jaminan negara atau Danantara—artinya pipeline proyek infrastruktur yang sedang berjalan berisiko terhenti pembiayaannya sebelum restrukturisasi tuntas. Kreditur perbankan domestik yang terekspos perlu menilai ulang provisi, dan ini bisa menekan rasio CAR bank-bank pelat merah secara bersamaan.",
-      "action": "Pemetaan matriks eksposur: identifikasi proyek infrastruktur aktif yang digarap WIKA, WSKT, dan Adhi Karya yang bergantung pada fasilitas kredit berjalan—tentukan mana yang berisiko stop-work jika fasilitas tidak diperbarui sebelum akhir Q3 2026.",
+      "headline": "Danantara akui utang BUMN Karya ratusan triliun, kejar restrukturisasi rampung akhir 2026",
+      "whatChanged": "COO Danantara Dony Oskaria secara publik mengonfirmasi bahwa utang BUMN Karya mencapai ratusan triliun rupiah dengan seluruh entitas anak-cucu dalam kondisi bermasalah. Danantara menetapkan target restrukturisasi selesai akhir 2026. Bursa Efek Indonesia memperpanjang suspensi saham WIKA, sementara saham WSKT dan WIKA terancam delisting.",
+      "whyItMatters": "Pengakuan publik skala liabilitas ini oleh Danantara — bukan sekadar estimasi analis — mengubah framing dari 'masalah operasional BUMN' menjadi 'krisis neraca sistemik'. Tenggat akhir 2026 berarti keputusan soal merger, likuidasi, atau bail-out struktural harus dieksekusi dalam 4–5 bulan ke depan, melampaui siklus anggaran normal.",
+      "secondOrder": "Tekanan waktu ini akan memaksa Danantara memilih antara penyelamatan selektif (melepas anak usaha non-strategis) dan restrukturisasi utang massal yang melibatkan perbankan BUMN sebagai kreditur utama — khususnya Himbara. Jika Himbara harus menyerap haircut atau perpanjangan tenor massal, rasio NPL perbankan BUMN berpotensi naik bersamaan dengan tekanan likuiditas di segmen konstruksi swasta yang menjadi subkontraktor.",
+      "action": "Petakan eksposur kredit Himbara (Bank Mandiri, BRI, BNI, BTN) ke BUMN Karya beserta struktur jaminan yang ada; evaluasi apakah restrukturisasi akhir 2026 realistis tanpa injeksi ekuitas negara melalui PMN — dan jika PMN diperlukan, perkirakan implikasinya terhadap defisit APBN 2027.",
       "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZnlMSXNfU3dZZXN2NEpLYmJSdmdXWEtERmktNkF6UmRUaGdHbU9IM3Zzb3gtSWFmRUlXRERzeHdWUjQtVXZ1d1FtWl9kNW9vNElpNG9GSG9aUVRZaTR5NzJXU2VBTXJoQjR0azIwUzZ4d1J2akFBcEFOWVhEclRmTkNQUVNCZnBrTGNuUzlaOWJna2l2bkxBeEQ0QzZ1aTNWMjVIb21fVnhsbGpveVdoaXlKUmxuMGoxOGRyQWc0NA?oc=5",
         "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRElKcDNKakwza3ZxUTZFTy1IZC1zYnJmb24xbzdMUlFuUXVEQTN1V1dUQnZFSWhDQlIxaTQ0elgyR3VrX1RSZzRYQThxbUhzeGNSVFBjcS1jb0t2bGg4RDFrblNzR0JjZW5YMk9XWnl1Ui12QXV3S0lHQTFaaWNpUkEwVFUtVkE4S0RicDh4b1VndnY2TjdNVnFOejMtWlQxNFZEenI4S28yLVNoRVRTMWI1aG81aktW0gG-AUFVX3lxTE1sRm9qZFd6XzRnemRfQzVHdlVNT0ZUYmp5dnExMUxrRHpQTXMzYTEyWEJLWTVKM3hjVFc2cy1tN3QtQnJUazBqWmVRcHZRaXNRYzVMSXF6ZlA3VnNKZUEwelN5S1lTLWUwdHZCTlhsTFJFNE9heFpsQnhiZG9yUHIwSWYwTVo2RGdqUWJrakt0MWQxSTBxS3BKQWI5bHhDUlZJbV9vUUNYTEo4UzU1MGFYdFpxSG9HMUdOc0M2UGc?oc=5",
         "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT0hzYXB1MXNXR3c0RGdYRS1SZl9mLWt1S1FVYnJaaWowNmVLVS1fVnRSc0JqbnN5XzFURmp2WlRYcy1ucHhHOUUtOVZ6dTBuT0JOc2ZQSGRCRTRJQ1VjZkpXZXZORGxZQkZDdVRTWndtVmtXc2ktb083dXNEOFRfNTEyb0dRS1RxZ3JYNG40ZHJaSG5FWUVrcXg5UU1UQUdrUHQtTmVQUjQ3M3ZFajNqUzBjQktSVkFYUFNsS0FzZzBvaVdK?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTE14WnMtZ2FrSjJmS1VyNTI1VF9tckVVaGxyVWdQckdjZzk1VVdLSW1GOGNBM0E1NndsVDhQM3BIcVAtZGNlZFUtTV85YXZOOUhEczJUVUtvaXUtaG41Q0J0Wk1PeDFqZldMcWEzOUx1NnVxb1phRFBraTB4NnZmSUxUSTVJS2E1SDR0UWxuX1RBc2xUYjE1SmFCaHVPU0huQkEyeERKUDR2NkZGN0ExcQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5"
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRElKcDNKakwza3ZxUTZFTy1IZC1zYnJmb24xbzdMUlFuUXVEQTN1V1dUQnZFSWhDQlIxaTQ0elgyR3VrX1RSZzRYQThxbUhzeGNSVFBjcS1jb0t2bGg4RDFrblNzR0JjZW5YMk9XWnl1Ui12QXV3S0lHQTFaaWNpUkEwVFUtVkE4S0RicDh4b1VndnY2TjdNVnFOejMtWlQxNFZEenI4S28yLVNoRVRTMWI1aG81aktW0gG-AUFVX3lxTE1sRm9qZFd6XzRnemRfQzVHdlVNT0ZUYmp5dnExMUxrRHpQTXMzYTEyWEJLWTVKM3hjVFc2cy1tN3QtQnJUazBqWmVRcHZRaXNRYzVMSXF6ZlA3VnNKZUEwelN5S1lTLWUwdHZCTlhsTFJFNE9heFpsQnhiZG9yUHIwSWYwTVo2RGdqUWJrakt0MWQxSTBxS3BKQWI5bHhDUlZJbV9vUUNYTEo4UzU1MGFYdFpxSG9HMUdOc0M2UGc?oc=5",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8624710/persoalan-pelik-bumn-karya-utangnya-besar-besar",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 5,
+        "publishers": 4,
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "danantara-bumn-karya-restrukturisasi",
+        "themeKey": "bumn-karya-restrukturisasi-danantara",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -52,31 +50,33 @@
     },
     {
       "rank": 2,
-      "domain": "ai",
-      "themeKey": "ai-frontier-safety-governance",
+      "domain": "energy",
+      "themeKey": "subsidi-listrik-fiskal-rapbn",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Hugging Face"
+        "RAPBN 2027",
+        "PLN",
+        "IESR"
       ],
-      "headline": "OpenAI tetapkan kebijakan pacing eksplisit untuk model dengan kemampuan cyber-kritis",
-      "whatChanged": "OpenAI menerbitkan kebijakan formal 'Pacing model development in an era of cyber-critical capabilities' yang secara eksplisit mengatur penguatan monitoring, alignment, dan keamanan sebagai prasyarat rilis model frontier. Bersamaan, Bloomberg melaporkan OpenAI melakukan perubahan keamanan menyusul insiden Hugging Face breach. Anthropic juga menerbitkan penjelasan teknis watermarking teks Claude.",
-      "whyItMatters": "Untuk pertama kalinya, OpenAI menetapkan dalam dokumen resmi bahwa kapabilitas cyber-kritis adalah kategori yang memerlukan perlambatan rilis—ini merupakan preseden kebijakan yang dapat dirujuk regulator dan pemangku kepentingan lain sebagai baseline. Dikombinasikan dengan respons terhadap Hugging Face breach, ini menandakan bahwa insiden keamanan ekosistem kini berdampak langsung pada roadmap model.",
-      "secondOrder": "Jika pacing policy ini diadopsi atau direferensikan oleh regulator (EU AI Act implementation, NIST AI RMF), perusahaan yang mengintegrasikan model OpenAI dalam sistem kritis—perbankan, infrastruktur—perlu mengantisipasi potensi jeda tak terjadwal dalam akses ke versi model terbaru. Ini mengubah kalkulasi vendor-lock-in vs. open-model bagi enterprise.",
-      "action": "Tinjau kontrak dan SLA dengan penyedia model AI frontier: apakah terdapat klausul tentang perubahan versi model mendadak? Jika tidak, masukkan sebagai item negosiasi kontrak berikutnya, terutama untuk use case yang bersentuhan dengan data sensitif atau infrastruktur kritis.",
+      "headline": "Subsidi listrik RAPBN 2027 naik 17,8% menjadi Rp 130,1 triliun — sinyal tekanan fiskal transisi energi",
+      "whatChanged": "RAPBN 2027 yang disampaikan Presiden Prabowo mengalokasikan subsidi listrik sebesar Rp 130,1 triliun, naik Rp 19,6 triliun atau 17,8% dibanding APBN 2026. IESR dalam tanggapan terhadap pidato kenegaraan mencatat apresiasi atas sinyal komitmen energi namun menyoroti ketidakselarasan anggaran dengan target transisi.",
+      "whyItMatters": "Kenaikan subsidi listrik yang signifikan di tengah komitmen transisi energi mencerminkan dilema struktural: pemerintah menahan tarif untuk menjaga daya beli, sementara biaya pembangkit (terutama BBM dan gas untuk peaker) meningkat akibat tekanan geopolitik Selat Hormuz. Pola ini mengindikasikan bahwa transisi ke energi terbarukan belum cukup cepat untuk mereduksi biaya pokok penyediaan PLN.",
+      "secondOrder": "Subsidi yang terus membesar mempersempit ruang fiskal untuk belanja infrastruktur energi produktif (transmisi, storage, interkoneksi). Ini menciptakan lingkaran setan: tanpa investasi transmisi memadai, energi terbarukan tidak dapat diserap sistem, sehingga bauran tetap mahal dan subsidi tidak turun. IEEFA telah mengidentifikasi kebutuhan subholding transmisi sebagai pemecah siklus ini.",
+      "action": "Analisis sensitivitas: berapa persen penurunan subsidi listrik per tahun jika target RUPTL energi terbarukan tercapai tepat waktu versus skenario business-as-usual? Gunakan angka Rp 130,1 T sebagai baseline untuk memodelkan nilai fiskal dari percepatan transmisi dan storage.",
       "strength": "material",
       "sourceUrls": [
-        "https://openai.com/index/pacing-model-development-cyber-capabilities",
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLThmcXVJa0VyV0dXRVVsX0Q2YW5kTXE1czlsdnFSTUtaRjdmcW5FRzdScE1fajAwNm5lb0dCOGQyRjdqbXZRWk96dHZOUk1uYVBOS1hhSTFscTdwZnR0cTdlaGFpbUpyTzgwbkFrekh3Z1VvNG94d2VyTUxlVndnZVQ1eEt1YTJxelJmS2Qzb3kyRFMzYWMxMWJSZkFad1pRVTVoZmJDQ3JILUZhM2lJX3FB?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5"
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR1RpUzNaTlRzMnlrQ1doMXVuOTYwS2RtMG1OblpmaVlNTVVXMjE5eHNmZjlGcUhjaGRBUUxXdk80VU5rRjNsX2docFpkU2NSWExma1VSMHRFTTNjSGZMeUZ2Szh3Und3bVVNT2JXczZWTl9jNjVNUi1oYTFaQnp0SHg3eVdiOEVub0QzMmtWVWxpN0hmOVl0bGxMdTlfUERuVHlWYmh2ZHFGZUtPeUpUdXVMMA?oc=5",
+        "https://iesr.or.id/tanggapan-iesr-terhadap-pidato-kenegaraan-presiden-prabowo-ruu-apbn-2027-dan-nota-keuangan/"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5"
+      ],
       "corroboration": {
-        "publishers": 3,
+        "publishers": 2,
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "ai-frontier-safety-governance",
+        "themeKey": "subsidi-listrik-fiskal-rapbn",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -85,22 +85,22 @@
     },
     {
       "rank": 3,
-      "domain": "energy",
-      "themeKey": "indonesia-subsidi-listrik-fiskal",
+      "domain": "ai",
+      "themeKey": "openai-frontier-safety-governance",
       "entities": [
-        "PLN",
-        "IESR",
-        "RAPBN 2027"
+        "OpenAI",
+        "Hugging Face"
       ],
-      "headline": "RAPBN 2027 alokasikan subsidi listrik Rp 130,1 triliun, naik 17,8% dari APBN 2026",
-      "whatChanged": "RAPBN 2027 yang disampaikan Presiden Prabowo mengalokasikan subsidi listrik sebesar Rp 130,1 triliun, meningkat 17,8% dibanding APBN 2026. IESR mencatat apresiasi terhadap pidato kenegaraan namun belum merinci mekanisme pengurangan subsidi ke depan.",
-      "whyItMatters": "Kenaikan subsidi listrik hampir 18% dalam satu tahun anggaran menunjukkan bahwa tarif listrik tidak mengikuti kenaikan biaya produksi—baik karena tekanan inflasi energi global maupun karena pertumbuhan pelanggan bersubsidi. Ini mempersempit ruang fiskal untuk belanja modal transisi energi (EBT, transmisi, storage) yang justru dibutuhkan untuk menekan biaya pokok produksi jangka panjang.",
-      "secondOrder": "Subsidi yang membesar tanpa reformasi tarif akan terus mendisinsentifkan investasi swasta di pembangkitan EBT karena harga jual listrik ke PLN tetap tertekan. Lingkaran ini sulit diputus tanpa political will untuk kenaikan tarif bertahap—yang justru semakin sulit secara politik ketika subsidi sudah dipatok tinggi dalam APBN.",
-      "action": "Analisis struktur biaya pokok penyediaan (BPP) PLN berdasarkan mix pembangkit saat ini versus proyeksi RUPTL: hitung berapa besar subsidi dapat dipangkas jika penetrasi EBT mencapai target 2030, untuk membangun argumen fiskal pro-transisi kepada pengambil keputusan anggaran.",
+      "headline": "OpenAI terbitkan kerangka pacing model siber-kritis dan perkuat keamanan pasca-insiden Hugging Face",
+      "whatChanged": "OpenAI pada 18 Agustus 2026 menerbitkan dua dokumen T1 dalam satu hari: (1) kerangka 'pacing model development' untuk kemampuan siber-kritis yang mencakup penguatan monitoring, alignment, dan keamanan; (2) inisiatif pengawasan demokratis AI di bidang keamanan nasional. Bloomberg secara terpisah melaporkan bahwa OpenAI melakukan perubahan keamanan menyusul insiden pelanggaran di Hugging Face.",
+      "whyItMatters": "Publikasi kerangka pacing secara voluntary oleh OpenAI — bukan sebagai respons regulasi yang sudah berlaku — menandai pergeseran industri dari safety-as-PR ke safety-as-operational-constraint. Jika diikuti lab lain, ini menjadi de-facto standar yang mendahului regulasi formal dan dapat memengaruhi kecepatan peluncuran model frontier secara global.",
+      "secondOrder": "Kerangka pacing yang membatasi kemampuan siber-kritis berimplikasi pada pelanggan enterprise dan pemerintah yang mengandalkan model frontier untuk keamanan siber ofensif/defensif. Vendor keamanan siber yang membangun produk di atas API OpenAI perlu mengevaluasi ulang roadmap kemampuan mereka. Di sisi lain, insiden Hugging Face mengekspos risiko rantai pasok model open-weight yang kini menjadi infrastruktur kritis bagi ribuan aplikasi.",
+      "action": "Tinjau ulang dependensi vendor AI dalam rantai pasok keamanan siber organisasi Anda: apakah model yang digunakan bersumber dari Hugging Face atau derivatifnya? Evaluasi apakah kerangka pacing OpenAI memengaruhi kemampuan yang saat ini dijanjikan dalam kontrak enterprise aktif.",
       "strength": "material",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR1RpUzNaTlRzMnlrQ1doMXVuOTYwS2RtMG1OblpmaVlNTVVXMjE5eHNmZjlGcUhjaGRBUUxXdk80VU5rRjNsX2docFpkU2NSWExma1VSMHRFTTNjSGZMeUZ2Szh3Und3bVVNT2JXczZWTl9jNjVNUi1oYTFaQnp0SHg3eVdiOEVub0QzMmtWVWxpN0hmOVl0bGxMdTlfUERuVHlWYmh2ZHFGZUtPeUpUdXVMMA?oc=5",
-        "https://iesr.or.id/tanggapan-iesr-terhadap-pidato-kenegaraan-presiden-prabowo-ruu-apbn-2027-dan-nota-keuangan/"
+        "https://openai.com/index/pacing-model-development-cyber-capabilities",
+        "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLThmcXVJa0VyV0dXRVVsX0Q2YW5kTXE1czlsdnFSTUtaRjdmcW5FRzdScE1fajAwNm5lb0dCOGQyRjdqbXZRWk96dHZOUk1uYVBOS1hhSTFscTdwZnR0cTdlaGFpbUpyTzgwbkFrekh3Z1VvNG94d2VyTUxlVndnZVQ1eEt1YTJxelJmS2Qzb3kyRFMzYWMxMWJSZkFad1pRVTVoZmJDQ3JILUZhM2lJX3FB?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -108,7 +108,7 @@
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "indonesia-subsidi-listrik-fiskal",
+        "themeKey": "openai-frontier-safety-governance",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -117,31 +117,27 @@
     },
     {
       "rank": 4,
-      "domain": "energy",
-      "themeKey": "indonesia-panas-bumi-akselerasi",
+      "domain": "ai",
+      "themeKey": "ai-chip-inference-frontier",
       "entities": [
-        "Bahlil",
-        "BREN",
-        "Star Energy"
+        "Cerebras"
       ],
-      "headline": "Bahlil dorong percepatan panas bumi; BREN bidik kapasitas 2 GW lewat Star Energy",
-      "whatChanged": "Menteri ESDM Bahlil secara publik meminta pengembangan panas bumi dipercepat. Bisnis.com melaporkan BREN (Barito Renewables) menargetkan kapasitas panas bumi 2 GW melalui strategi Star Energy. Ekonom menggarisbawahi bahwa lebih dari 90% potensi panas bumi Indonesia belum dimanfaatkan.",
-      "whyItMatters": "Pernyataan Menteri ESDM bersamaan dengan target korporasi BREN menciptakan momentum ganda—regulatori dan pasar. Panas bumi adalah satu-satunya baseload EBT yang dapat langsung menggantikan PLTU tanpa menambah beban intermittensi ke grid, sehingga strategis untuk target net-zero sekaligus ketahanan sistem.",
-      "secondOrder": "Akselerasi panas bumi yang terfokus pada pemain besar seperti Star Energy dapat semakin mengonsolidasikan pasar ke sedikit entitas, mengurangi kompetisi dan memperlemah posisi tawar PLN dalam negosiasi PPA jangka panjang. Regulator perlu memastikan struktur tarif feed-in atau lelang yang kompetitif berjalan paralel dengan akselerasi kapasitas.",
-      "action": "Kaji pipeline proyek panas bumi Star Energy dan wilayah kerja panas bumi (WKP) yang belum tergarap: identifikasi WKP dengan eksplorasi matang yang siap tender dalam 12 bulan, dan evaluasi apakah kerangka fiskal (royalti, bonus tanda tangan) kompetitif terhadap pasar regional.",
+      "headline": "Cerebras CS-4 diluncurkan sebagai chip inferensi generasi baru, mendapat traksi komunitas teknis",
+      "whatChanged": "Cerebras mengumumkan CS-4, chip inferensi generasi berikutnya, yang mendapat 178 poin dan 127 komentar di Hacker News pada 19 Agustus 2026 — sinyal traksi komunitas teknis yang signifikan untuk peluncuran chip non-Nvidia.",
+      "whyItMatters": "CS-4 memasuki pasar di saat inferensi — bukan pelatihan — menjadi bottleneck biaya utama dalam deployment AI skala enterprise. Jika Cerebras mampu memberikan throughput token per detik yang kompetitif pada harga lebih rendah dari GPU Nvidia untuk inferensi, ini membuka alternatif nyata bagi operator yang saat ini terkunci pada ekosistem CUDA.",
+      "secondOrder": "Diversifikasi chip inferensi menekan margin Nvidia di segmen inference-as-a-service dan mendorong cloud provider untuk menawarkan opsi multi-chip. Ini juga berdampak pada kalkulasi biaya operasional pusat data AI di Asia Tenggara yang saat ini sedang dalam fase perencanaan investasi besar — termasuk yang berpotensi masuk Indonesia.",
+      "action": "Minta tim teknis mengevaluasi spesifikasi CS-4 (throughput, latensi, TDP, harga per token) dibanding H100/H200 untuk workload inferensi spesifik Anda. Jika sedang dalam proses RFP infrastruktur AI, sertakan Cerebras sebagai opsi alternatif untuk negosiasi harga dengan Nvidia.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGlhZUxmRm9BOGx3eUVmcjYtbS1VOUctMlhQX3ZMVGtKVEU2eS1XMXlGSV9KSXJhVDZvcldRMUlmWDNIZGQzMzlXNDJhcEVuUXo0VTIxZHlmcHhtdU5OTWVQY0dhZFNKckdHOVNhRnNGdndzbDFRTV95NkROVmFrS2tiUVVac2JrMWRuSHhTWEEtTzZCNHBPUWpVeldGWEF2Q1dvRFhrNUNGUdIBrwFBVV95cUxOR1VPa3FxOTQ2WWE3cmYxN1JELUN5MDRpMzNfWmlrSE9xVjhPczk2T0JEckozcG9aaHA0QVhMUWx1QndRR2VYMTRwSmVpcXAtb1NGRkZVMTEtX2hwMzdtNm84LTRrblA1QVNaZENfZnNkRUJqbUZtRDFBVERhRkZndmtyNXJITmVlM2ZzcnlsZTlLbkpOYXdyblU5SG05aExGbVJtT2szaGs4b0dEbDBr?oc=5",
-        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3RLbkR2cDVWMnR4c0dyRktsUm9qS0xZLThWejN6MndhX01jb3J2UXZiTE5ZRDl2TkVnX0hWZXlTLWZEeGF3VmdnckpoNS1xSDVOZWV0allwblh5bjRUdVVvQy03VTJNMkxmTFAzR1JKLTRSeEhDOTFiRGhxWkhzUXJqRldnc09qU093V0RudXhRSlp1amRkUDk2cDVoVFZzMGdfbWJKSU5fa1BqRThGQWFOcTByUDNJckln?oc=5",
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOTNrVW15ZzdOMW5LQWFQUnA2YW5WOXVndmJVV0JqQzhLWDN1ZFVWMmRpWHViREJSTEQ3YUtpTnZhWE5nLWJwOFl3X3A4UHJJLVRhUksydllfdWN0dDVBZWdGd2pQNkIyZU1tS0RETk5TcXdlbEtmZ3RMRzZpcTNOSWVtYTlZRE5MdndLYXFULVZQdGtZZTdzWDFIb1dOaWZpZ28wV2J0N2NWMVB4SWFVN3ZBQmZIUQ?oc=5"
+        "https://www.cerebras.ai/cs4"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 3,
+        "publishers": 1,
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "indonesia-panas-bumi-akselerasi",
+        "themeKey": "ai-chip-inference-frontier",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -151,27 +147,30 @@
     {
       "rank": 5,
       "domain": "energy",
-      "themeKey": "indonesia-alat-berat-listrik-nikel",
+      "themeKey": "panas-bumi-indonesia-kapasitas",
       "entities": [
-        "Weda Bay",
-        "IESR"
+        "BREN",
+        "Star Energy",
+        "PLN"
       ],
-      "headline": "Pabrik alat berat listrik pertama di luar China beroperasi di Weda Bay, Halmahera",
-      "whatChanged": "IESR melaporkan bahwa pabrik alat berat listrik pertama di luar China telah berdiri di Weda Bay, Halmahera, Maluku Utara—diklaim untuk mendekatkan rantai pasok alat berat listrik ke lokasi tambang nikel.",
-      "whyItMatters": "Ini adalah pergeseran rantai nilai: Indonesia tidak hanya mengekspor bijih nikel atau bahkan baterai, tetapi kini memproduksi peralatan tambang bertenaga listrik di dalam negeri. Jika skala produksi tercapai, ini membuka jalur dekarbonisasi Scope 1 operasi tambang nikel yang selama ini bergantung pada alat berat diesel—sekaligus menciptakan preseden industri baru.",
-      "secondOrder": "Keberhasilan model ini dapat menjadi daya tarik bagi produsen alat berat listrik global (Komatsu, Caterpillar, Sandvik) untuk mempertimbangkan lokalisasi lebih lanjut di Indonesia guna mengakses pasar pertambangan Asia Tenggara—sekaligus memperketat persaingan dengan produsen China yang sudah hadir. Pemerintah perlu mengantisipasi tekanan dari pemain China yang ingin mempertahankan dominasi pasar.",
-      "action": "Verifikasi kapasitas produksi, kepemilikan, dan mitra teknologi pabrik Weda Bay: tentukan apakah ini joint venture dengan entitas China atau benar-benar transfer teknologi—hasilnya menentukan apakah ini sinyal lokalisasi sejati atau perpanjangan rantai pasok China dengan label Indonesia.",
+      "headline": "Star Energy/BREN bidik 2 GW panas bumi; Bahlil dorong percepatan — potensi 90% masih belum tersentuh",
+      "whatChanged": "Star Energy (emiten BREN) menargetkan kapasitas panas bumi mencapai 2 GW. Menteri ESDM Bahlil secara terpisah meminta percepatan pengembangan panas bumi. Ekonom mengonfirmasi bahwa lebih dari 90% potensi panas bumi Indonesia belum dimanfaatkan.",
+      "whyItMatters": "Kombinasi sinyal dari regulator (Bahlil), investor (BREN/Star Energy), dan analis (90% untapped) dalam satu hari menunjukkan momentum konvergensi yang belum pernah sekuat ini. Panas bumi adalah satu-satunya energi terbarukan baseload yang dimiliki Indonesia dalam skala besar — krusial untuk menggantikan PLTU batu bara tanpa mengorbankan keandalan sistem.",
+      "secondOrder": "Percepatan panas bumi menuntut revisi skema tarif listrik panas bumi yang saat ini dianggap tidak menarik bagi investor baru di luar kontraktor existing. Jika BREN berhasil menunjukkan jalur menuju 2 GW dengan struktur pembiayaan yang layak, ini menjadi blueprint yang dapat mereplikasi proyek serupa — tetapi juga mengekspos bottleneck perizinan eksplorasi yang selama ini menjadi penghambat utama.",
+      "action": "Kaji gap antara target 2 GW BREN dan regulasi tarif panas bumi saat ini (Permen ESDM terkait): apakah harga jual listrik panas bumi ke PLN cukup untuk menopang IRR proyek eksplorasi baru? Identifikasi wilayah kerja panas bumi (WKP) mana yang paling siap dikembangkan dengan regulasi existing.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://iesr.or.id/alat-berat-listrik-mulai-diproduksi-di-weda-bay-apa-yang-perlu-diperhatikan/"
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOTNrVW15ZzdOMW5LQWFQUnA2YW5WOXVndmJVV0JqQzhLWDN1ZFVWMmRpWHViREJSTEQ3YUtpTnZhWE5nLWJwOFl3X3A4UHJJLVRhUksydllfdWN0dDVBZWdGd2pQNkIyZU1tS0RETk5TcXdlbEtmZ3RMRzZpcTNOSWVtYTlZRE5MdndLYXFULVZQdGtZZTdzWDFIb1dOaWZpZ28wV2J0N2NWMVB4SWFVN3ZBQmZIUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGlhZUxmRm9BOGx3eUVmcjYtbS1VOUctMlhQX3ZMVGtKVEU2eS1XMXlGSV9KSXJhVDZvcldRMUlmWDNIZGQzMzlXNDJhcEVuUXo0VTIxZHlmcHhtdU5OTWVQY0dhZFNKckdHOVNhRnNGdndzbDFRTV95NkROVmFrS2tiUVVac2JrMWRuSHhTWEEtTzZCNHBPUWpVeldGWEF2Q1dvRFhrNUNGUdIBrwFBVV95cUxOR1VPa3FxOTQ2WWE3cmYxN1JELUN5MDRpMzNfWmlrSE9xVjhPczk2T0JEckozcG9aaHA0QVhMUWx1QndRR2VYMTRwSmVpcXAtb1NGRkZVMTEtX2hwMzdtNm84LTRrblA1QVNaZENfZnNkRUJqbUZtRDFBVERhRkZndmtyNXJITmVlM2ZzcnlsZTlLbkpOYXdyblU5SG05aExGbVJtT2szaGs4b0dEbDBr?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3RLbkR2cDVWMnR4c0dyRktsUm9qS0xZLThWejN6MndhX01jb3J2UXZiTE5ZRDl2TkVnX0hWZXlTLWZEeGF3VmdnckpoNS1xSDVOZWV0allwblh5bjRUdVVvQy03VTJNMkxmTFAzR1JKLTRSeEhDOTFiRGhxWkhzUXJqRldnc09qU093V0RudXhRSlp1amRkUDk2cDVoVFZzMGdfbWJKSU5fa1BqRThGQWFOcTByUDNJckln?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 1,
-        "hasPrimary": true
+        "publishers": 3,
+        "hasPrimary": false
       },
       "trend": {
-        "themeKey": "indonesia-alat-berat-listrik-nikel",
+        "themeKey": "panas-bumi-indonesia-kapasitas",
         "status": "new",
         "occurrences": 1,
         "firstSeen": "2026-08-19",
@@ -181,31 +180,27 @@
   ],
   "watchNext": [
     {
-      "item": "Tenggat restrukturisasi BUMN Karya oleh Danantara: pantau apakah WIKA dan WSKT berhasil keluar dari suspensi BEI atau melanjutkan proses delisting sebelum akhir 2026",
-      "dueDate": "2026-12-31"
-    },
-    {
-      "item": "Pembahasan RAPBN 2027 di DPR: apakah ada mekanisme pengurangan subsidi listrik bertahap yang disertakan, atau subsidi Rp 130,1 triliun dikunci tanpa reform pathway",
+      "item": "Keputusan konkret Danantara soal nasib WSKT dan WIKA: merger, spin-off aset, atau likuidasi parsial — tenggat internal akhir 2026 berarti pengumuman skema harus keluar sebelum Oktober.",
       "dueDate": "2026-10-31"
     },
     {
-      "item": "Respons regulator (EU, NIST, atau BSN/Kominfo Indonesia) terhadap kebijakan pacing OpenAI: apakah dokumen ini diadopsi sebagai referensi standar keamanan AI",
-      "dueDate": "2026-11-30"
+      "item": "Pembahasan RAPBN 2027 di DPR: apakah angka subsidi listrik Rp 130,1 T akan dipangkas atau dipertahankan, dan apakah ada alokasi tambahan untuk transmisi/storage.",
+      "dueDate": "2026-10-15"
     },
     {
-      "item": "Verifikasi detail kepemilikan dan kapasitas pabrik alat berat listrik Weda Bay: sumber IESR perlu dikonfirmasi dengan data registrasi perusahaan atau pernyataan resmi pemerintah daerah",
+      "item": "Respons lab AI lain (Google DeepMind, Anthropic, Mistral) terhadap kerangka pacing OpenAI: apakah akan diadopsi sebagai standar industri atau ditolak sebagai hambatan kompetitif.",
       "dueDate": "2026-09-15"
+    },
+    {
+      "item": "Spesifikasi teknis dan harga resmi Cerebras CS-4 serta respons Nvidia — indikator apakah pasar inferensi akan benar-benar terdiversifikasi dalam 12 bulan ke depan.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Regulasi tarif panas bumi baru dari Kementerian ESDM menyusul dorongan Menteri Bahlil — kunci apakah target 2 GW BREN dapat menarik co-investor baru.",
+      "dueDate": "2026-12-31"
     }
   ],
   "sources": [
-    {
-      "title": "Alat Berat Listrik Mulai Diproduksi di Weda Bay, Apa yang Perlu Diperhatikan?",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/alat-berat-listrik-mulai-diproduksi-di-weda-bay-apa-yang-perlu-diperhatikan/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-18T02:55:11.000Z"
-    },
     {
       "title": "Tanggapan IESR terhadap Pidato Kenegaraan Presiden Prabowo, RUU APBN 2027 dan Nota Keuangan",
       "publisher": "IESR",
@@ -224,13 +219,13 @@
       "publishedAt": "2026-08-19T05:40:15.000Z"
     },
     {
-      "title": "Danantara Kedepankan Prinsip Kehati-hatian Restrukturisasi BUMN Karya",
-      "publisher": "Media Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTE14WnMtZ2FrSjJmS1VyNTI1VF9tckVVaGxyVWdQckdjZzk1VVdLSW1GOGNBM0E1NndsVDhQM3BIcVAtZGNlZFUtTV85YXZOOUhEczJUVUtvaXUtaG41Q0J0Wk1PeDFqZldMcWEzOUx1NnVxb1phRFBraTB4NnZmSUxUSTVJS2E1SDR0UWxuX1RBc2xUYjE1SmFCaHVPU0huQkEyeERKUDR2NkZGN0ExcQ?oc=5",
-      "tier": 1,
+      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
       "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-18T11:57:49.000Z"
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
     },
     {
       "title": "Bahlil Minta Pengembangan Panas Bumi Dipercepat",
@@ -242,22 +237,20 @@
       "publishedAt": "2026-08-19T05:57:05.000Z"
     },
     {
-      "title": "How Claude's text watermarking works",
-      "publisher": "Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-08-14T19:22:20.000Z"
+      "title": "Cerebras CS-4",
+      "publisher": "Hacker News",
+      "url": "https://www.cerebras.ai/cs4",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-08-19T00:28:18.000Z"
     },
     {
-      "title": "Danantara tegaskan kehati-hatian dalam restrukturisasi BUMN Karya",
-      "publisher": "ANTARA News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5",
+      "title": "Strengthening democratic oversight in national security",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-18T11:45:40.000Z"
+      "primary": true,
+      "publishedAt": "2026-08-18T19:00:00.000Z"
     },
     {
       "title": "RAPBN 2027: Subsidi Listrik Rp130,1 T, Naik 17,8% dari APBN 2026",
@@ -269,6 +262,15 @@
       "publishedAt": "2026-08-18T01:50:00.000Z"
     },
     {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
       "title": "OpenAI Makes AI Safety Changes in Wake of Hugging Face Breach",
       "publisher": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLThmcXVJa0VyV0dXRVVsX0Q2YW5kTXE1czlsdnFSTUtaRjdmcW5FRzdScE1fajAwNm5lb0dCOGQyRjdqbXZRWk96dHZOUk1uYVBOS1hhSTFscTdwZnR0cTdlaGFpbUpyTzgwbkFrekh3Z1VvNG94d2VyTUxlVndnZVQ1eEt1YTJxelJmS2Qzb3kyRFMzYWMxMWJSZkFad1pRVTVoZmJDQ3JILUZhM2lJX3FB?oc=5",
@@ -276,14 +278,6 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-08-18T18:00:00.000Z"
-    },
-    {
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "publisher": "OpenAI",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-18T11:00:00.000Z"
     },
     {
       "title": "Danantara: Utang BUMN Karya Ratusan Triliun, Semua Anak-Cucu Bermasalah",
@@ -313,6 +307,14 @@
       "publishedAt": "2026-08-19T04:47:48.000Z"
     },
     {
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-18T11:00:00.000Z"
+    },
+    {
       "title": "Saham WSKT dan WIKA Terancam Delisting, Danantara Fokus Benahi Fundamental",
       "publisher": "Kompas.com",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT0hzYXB1MXNXR3c0RGdYRS1SZl9mLWt1S1FVYnJaaWowNmVLVS1fVnRSc0JqbnN5XzFURmp2WlRYcy1ucHhHOUUtOVZ6dTBuT0JOc2ZQSGRCRTRJQ1VjZkpXZXZORGxZQkZDdVRTWndtVmtXc2ktb083dXNEOFRfNTEyb0dRS1RxZ3JYNG40ZHJaSG5FWUVrcXg5UU1UQUdrUHQtTmVQUjQ3M3ZFajNqUzBjQktSVkFYUFNsS0FzZzBvaVdK?oc=5",
@@ -338,6 +340,14 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-08-19T03:51:31.000Z"
+    },
+    {
+      "title": "Persoalan Pelik BUMN Karya: Utangnya Besar-besar!",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8624710/persoalan-pelik-bumn-karya-utangnya-besar-besar",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-19T00:25:00.000Z"
     }
   ],
   "trends": [],
@@ -347,9 +357,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 373,
+    "candidateCount": 387,
     "poolSize": 110,
-    "generatedAt": "2026-08-19T06:02:48.597Z",
+    "generatedAt": "2026-08-19T06:14:06.343Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
