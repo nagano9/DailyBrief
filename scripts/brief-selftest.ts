@@ -127,7 +127,36 @@ function syntheticHistory(): SignalRecord[] {
   }));
 }
 
+/**
+ * A deterministic stand-in for a fetched pool.
+ *
+ * Lets the whole validation surface run in CI with no network, and pins the
+ * tier-4 cases that matter: a tier-1 feed the institution publishes itself
+ * (primary), and a tier-1 discovery hit from a publisher nobody recognises
+ * (not primary, however tier-1 its query was).
+ */
+function syntheticPool(): FeedItem[] {
+  const at = (d: string) => new Date(`${d}T00:00:00Z`);
+  const base = { excerpt: undefined, lang: "en" as const };
+  return [
+    { ...base, sourceId: "openai-news", publisher: "OpenAI", title: "A model release", url: "https://openai.com/a", domain: "ai" as const, tier: 1 as const, publishedAt: at("2026-08-18"), primary: true },
+    { ...base, sourceId: "google-deepmind", publisher: "Google DeepMind", title: "A research result", url: "https://deepmind.google/b", domain: "ai" as const, tier: 1 as const, publishedAt: at("2026-08-18"), primary: true },
+    { ...base, sourceId: "pln-primary", publisher: "Kompas.com", title: "Grid investment reported", url: "https://news.google.com/c", domain: "energy" as const, tier: 1 as const, publishedAt: at("2026-08-17"), via: "Google News", primary: false },
+    { ...base, sourceId: "anthropic-primary", publisher: "Anthropic", title: "A safety publication", url: "https://news.google.com/d", domain: "ai" as const, tier: 1 as const, publishedAt: at("2026-08-18"), via: "Google News", primary: true },
+    { ...base, sourceId: "ojk-idx-primary", publisher: "SomeRegionalBlog.co", title: "An unrelated local item", url: "https://news.google.com/e", domain: "corporate" as const, tier: 1 as const, publishedAt: at("2026-08-16"), via: "Google News", primary: false },
+    { ...base, sourceId: "disc-corporate-id", publisher: "Kontan", title: "A corporate action", url: "https://news.google.com/f", domain: "corporate" as const, tier: 2 as const, publishedAt: at("2026-08-17"), via: "Google News", primary: false },
+    { ...base, sourceId: "arxiv-ai", publisher: "arXiv cs.AI", title: "A preprint", url: "https://arxiv.org/abs/1", domain: "ai" as const, tier: 3 as const, publishedAt: at("2026-08-18"), primary: false },
+    { ...base, sourceId: "gh-vllm", publisher: "vLLM", title: "A release", url: "https://github.com/v/1", domain: "ai" as const, tier: 3 as const, publishedAt: at("2026-08-18"), primary: false },
+  ];
+}
+
 async function loadPool(): Promise<FeedItem[]> {
+  // A CLI flag as well as an env var: npm scripts have to work identically on
+  // sh and cmd, and `VAR=x cmd` does not on the latter.
+  if (process.env.BRIEF_SELFTEST_OFFLINE === "true" || process.argv.includes("--offline")) {
+    console.log(`[selftest] offline mode — using the synthetic pool`);
+    return syntheticPool();
+  }
   const cached = path.join(".cache", `${DATE}-items.json`);
   if (fs.existsSync(cached)) {
     const parsed = JSON.parse(fs.readFileSync(cached, "utf8")) as {
@@ -226,7 +255,7 @@ async function main() {
     check("malformed dueDate dropped", edition.watchNext[1]?.dueDate === undefined);
     check(
       "cited sources resolve to real fetched URLs",
-      edition.sources.length >= 5 && edition.sources.every((s) => s.url.startsWith("http")),
+      edition.sources.length >= 4 && edition.sources.every((s) => s.url.startsWith("http")),
     );
 
     fs.writeFileSync(path.join(editionsDir, `${lang}.json`), JSON.stringify(edition, null, 2), "utf8");

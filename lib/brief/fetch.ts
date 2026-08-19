@@ -17,11 +17,10 @@ import type { FeedItem, Lang, RadarSource, SourceTier } from "./types";
  *   arxiv            preprints, via the official Atom API
  *   github-releases  release notes, via GitHub's per-repo Atom feed
  *   hn               Hacker News above a points threshold
- *   search           an external search provider, when one is configured
  *
- * `search` is the honest gap. Live open-web search needs a provider; set
- * SEARCH_PROVIDER + SEARCH_API_KEY to enable it. Without one, `search`
- * sources fail loudly and `gnews` carries tier-2 discovery on its own.
+ * There is no live open-web search here. Tier-2 discovery runs on
+ * topic-scoped index queries, which is a real limitation and is documented as
+ * one — rather than carried as a source type that only ever throws.
  */
 
 const parser = new Parser<Record<string, unknown>, Record<string, unknown>>({
@@ -171,7 +170,7 @@ function unwrap(text: string): string {
  * site as a primary source for a capital-markets claim.
  */
 function isPrimary(source: RadarSource, publisher: string): boolean {
-  const viaIndex = source.type === "gnews" || source.type === "search";
+  const viaIndex = source.type === "gnews";
   if (!viaIndex) return source.tier === 1;
   return publisherTier(publisher) === 1;
 }
@@ -209,15 +208,6 @@ function toFeedItem(raw: Record<string, unknown>, source: RadarSource): FeedItem
 }
 
 export async function fetchSource(source: RadarSource): Promise<FeedItem[]> {
-  if (source.type === "search") {
-    // Failing loudly beats returning empty: a tier-2 discovery source that
-    // quietly contributes nothing every day is a blind spot that looks like
-    // a working system.
-    throw new Error(
-      `search sources need SEARCH_PROVIDER + SEARCH_API_KEY; set them or disable '${source.id}'`,
-    );
-  }
-
   const feed = await parseFeed(resolveUrl(source), source.useCurl);
   const limit = source.limit ?? 20;
 

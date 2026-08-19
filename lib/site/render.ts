@@ -1,5 +1,6 @@
 import { DOMAIN_LABELS, type Edition, type Lang, type Signal } from "../brief/types";
 import { STRINGS } from "./strings";
+import { esc, html, jsonLdScript, raw, type Html } from "./html";
 
 /**
  * Static site renderer.
@@ -9,8 +10,12 @@ import { STRINGS } from "./strings";
  * what lets the published archive outlive any particular host: these pages
  * work off a filesystem, a CDN, GitHub Pages, or an object store unchanged.
  *
+ * Every interpolation goes through the `html` tag, which escapes by default.
+ * See lib/site/html.ts for why that is a structural decision rather than a
+ * stylistic one.
+ *
  * Every page carries the metadata a reference product needs: canonical URL,
- * hreflang pairing between the two language editions, OpenGraph, and JSON-LD
+ * hreflang pairing between language editions, OpenGraph, and JSON-LD
  * `NewsArticle` whose `citation` array holds the real source URLs. That last
  * part is what makes an edition machine-verifiable rather than merely
  * readable.
@@ -27,7 +32,7 @@ export interface SiteConfig {
   /**
    * Languages actually present in this build.
    *
-   * When only one composes — a normal failure mode, since each language is a
+   * When only one composes — a routine failure mode, since each language is a
    * separate model call — the site must not advertise the other. Emitting a
    * nav link and an hreflang alternate to a tree that was never written gives
    * readers a 404 and search engines an invalid alternate.
@@ -35,39 +40,18 @@ export interface SiteConfig {
   languages: Lang[];
   /** Privacy policy URL. Required before the subscribe form will render. */
   privacyUrl: string;
+  /**
+   * Absolute or root-relative URL of a social preview image.
+   *
+   * Deliberately configuration rather than something the build generates: a
+   * fabricated card would be worse than none, and most platforms do not
+   * render SVG here, so a generated vector would silently produce a broken
+   * preview.
+   */
+  ogImage: string;
 }
 
-/**
- * Serialise a value for embedding inside a `<script type="application/ld+json">`
- * block.
- *
- * `JSON.stringify` does not escape `<` or `>`, so a source title containing
- * `</script><script>…` closes our tag and opens the attacker's. Verified
- * executing in a browser before this fix: a feed title is third-party input,
- * and discovery surfaces arbitrary domains, so this was reachable in normal
- * operation rather than only under a crafted attack.
- *
- * Escaping the angle brackets to their \u escape form keeps the JSON
- * semantically identical — a parser reads back the same string — while making
- * tag-breakout impossible. U+2028 and U+2029 are escaped too: valid in JSON,
- * but line terminators in JavaScript.
- */
-function jsonLdScript(value: unknown): string {
-  const json = JSON.stringify(value).replace(
-    /[<>&\u2028\u2029]/g,
-    (c) => "\\u" + c.charCodeAt(0).toString(16).padStart(4, "0"),
-  );
-  return `<script type="application/ld+json">${json}</script>`;
-}
-
-export function esc(s: string): string {
-  return s
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
-}
+export { esc };
 
 /** Root-relative URL honouring basePath, so project-scoped hosting works. */
 export function url(cfg: SiteConfig, p: string): string {
@@ -91,6 +75,10 @@ export function archivePath(lang: Lang): string {
   return lang === "id" ? "/arsip/" : "/en/archive/";
 }
 
+export function aboutPath(lang: Lang): string {
+  return lang === "id" ? "/tentang/" : "/en/about/";
+}
+
 export function feedPath(lang: Lang): string {
   return lang === "id" ? "/feed.xml" : "/en/feed.xml";
 }
@@ -104,6 +92,29 @@ export function formatDate(date: string, lang: Lang): string {
   const [y, m, d] = date.split("-").map(Number);
   if (!y || !m || !d) return date;
   return lang === "id" ? `${d} ${MONTHS.id[m - 1]} ${y}` : `${d} ${MONTHS.en[m - 1]} ${y}`;
+}
+
+/**
+ * Content Security Policy.
+ *
+ * The site ships zero JavaScript, so `script-src 'none'` costs nothing and
+ * would have neutralised the JSON-LD injection outright rather than merely
+ * escaping it. Defence in depth is cheap when there is nothing to defend.
+ *
+ * `form-action` is narrowed to the configured subscribe endpoint, so an
+ * injected form cannot exfiltrate anywhere else. `frame-ancestors` is
+ * deliberately omitted: browsers ignore it in a meta tag and log a warning.
+ */
+function csp(cfg: SiteConfig): string {
+  const formAction = cfg.subscribeEndpoint && cfg.privacyUrl ? cfg.subscribeEndpoint : "'none'";
+  return [
+    "default-src 'none'",
+    "script-src 'none'",
+    "style-src 'unsafe-inline'",
+    "img-src 'self' data:",
+    `form-action ${formAction}`,
+    "base-uri 'none'",
+  ].join("; ");
 }
 
 const CSS = `
@@ -126,14 +137,18 @@ a{color:inherit}
 .wrap{max-width:44rem;margin:0 auto;padding:0 1.5rem}
 .wrap-wide{max-width:56rem;margin:0 auto;padding:0 1.5rem}
 
+.skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:#fff;
+padding:.6rem 1rem;z-index:10;text-decoration:none;border-radius:0 0 4px 0}
+.skip:focus{left:0}
+
 header.site{border-bottom:1px solid var(--rule);padding:1.1rem 0;margin-bottom:2.5rem}
 header.site .row{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;flex-wrap:wrap}
 .brand{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-size:1.18rem;
 font-weight:600;letter-spacing:-.01em;text-decoration:none}
 .brand span{color:var(--accent)}
-nav.site{display:flex;gap:1.25rem;font-size:.85rem;color:var(--muted)}
+nav.site{display:flex;gap:1.15rem;font-size:.85rem;color:var(--muted)}
 nav.site a{text-decoration:none}
-nav.site a:hover{color:var(--accent)}
+nav.site a:hover,nav.site a:focus{color:var(--accent)}
 
 h1,h3{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
 letter-spacing:-.015em;line-height:1.24;margin:0}
@@ -148,8 +163,8 @@ p{margin:0 0 1rem}
 flex-wrap:wrap;margin-top:1.1rem}
 
 .badge{display:inline-block;font-size:.68rem;font-weight:600;letter-spacing:.06em;
-text-transform:uppercase;padding:.18rem .5rem;border-radius:3px;white-space:nowrap}
-.badge.free{background:var(--accent-soft);color:var(--accent)}
+text-transform:uppercase;padding:.18rem .5rem;border-radius:3px;white-space:nowrap;
+background:var(--accent-soft);color:var(--accent)}
 .dom{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;
 padding:.18rem .5rem;border-radius:3px;border:1px solid currentColor;white-space:nowrap}
 .dom.ai{color:var(--ai)}.dom.energy{color:var(--energy)}.dom.corporate{color:var(--corporate)}
@@ -158,7 +173,6 @@ padding:.18rem .5rem;border-radius:3px;border:1px solid currentColor;white-space
 .trend.structural{color:var(--structural)}
 .trend.recurring{color:var(--recurring)}
 
-/* signal cards — the reasoning ladder */
 .signal{border-top:1px solid var(--rule);padding:1.6rem 0}
 .signal:first-of-type{border-top:0;padding-top:.5rem}
 .signal .head{display:flex;gap:.75rem;align-items:baseline;margin-bottom:.5rem}
@@ -177,18 +191,16 @@ dl.ladder{margin:0}
 display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
 .corrob .thin{color:var(--structural)}
 .cites a{color:var(--accent);text-decoration:none;margin-right:.45rem;font-size:.78rem}
-.cites a:hover{text-decoration:underline}
+.cites a:hover,.cites a:focus{text-decoration:underline}
 
 ul.plain{padding-left:1.15rem;margin:0}
 ul.plain li{margin-bottom:.55rem}
 
-/* trends */
 .trend-row{display:flex;gap:.75rem;align-items:flex-start;padding:.65rem 0;
 border-bottom:1px solid var(--rule)}
 .trend-row:last-child{border-bottom:0}
 .trend-row .n{font-size:.78rem;color:var(--muted);white-space:nowrap;padding-top:.15rem}
 
-background:var(--card);border-radius:4px;padding:1.25rem 1.4rem;margin-top:1rem}
 .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
 font-size:.88rem;font-weight:600;padding:.6rem 1.1rem;border-radius:4px;border:0;cursor:pointer}
 .btn:hover{opacity:.9}
@@ -196,19 +208,19 @@ font-size:.88rem;font-weight:600;padding:.6rem 1.1rem;border-radius:4px;border:0
 ol.sources{padding-left:1.4rem;margin:0;font-size:.9rem}
 ol.sources li{margin-bottom:.6rem}
 ol.sources a{color:inherit;text-decoration:none}
-ol.sources a:hover{color:var(--accent);text-decoration:underline}
+ol.sources a:hover,ol.sources a:focus{color:var(--accent);text-decoration:underline}
 ol.sources .pub{color:var(--muted);font-size:.82rem}
 .note{font-size:.85rem;color:var(--muted);margin-bottom:1rem}
 
 .lede{border-bottom:1px solid var(--rule);padding-bottom:2rem;margin-bottom:2rem}
 .lede h1 a{text-decoration:none}
-.lede h1 a:hover{color:var(--accent)}
+.lede h1 a:hover,.lede h1 a:focus{color:var(--accent)}
 .cards{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);
 border-radius:4px;overflow:hidden}
 .card{background:var(--paper);padding:1.1rem 1.25rem}
 .card a{text-decoration:none}
 .card h3{margin-bottom:.35rem;font-size:1rem}
-.card h3 a:hover{color:var(--accent)}
+.card h3 a:hover,.card h3 a:focus{color:var(--accent)}
 .card .d{font-size:.78rem;color:var(--muted)}
 .card p{font-size:.9rem;color:var(--muted);margin:.4rem 0 0}
 
@@ -217,7 +229,7 @@ padding:1.5rem;margin:3rem 0}
 .sub h3{margin-bottom:.4rem}
 .sub p{color:var(--muted);font-size:.9rem;margin-bottom:1rem}
 .sub form{display:flex;gap:.5rem;flex-wrap:wrap}
-.sub input{flex:1 1 15rem;padding:.6rem .8rem;border:1px solid var(--rule);
+.sub input[type=email]{flex:1 1 15rem;padding:.6rem .8rem;border:1px solid var(--rule);
 border-radius:4px;background:var(--paper);color:var(--ink);font-size:.9rem;font-family:inherit}
 .sub input:focus{outline:2px solid var(--accent);outline-offset:1px}
 .consent{flex:1 1 100%;display:flex;gap:.5rem;align-items:flex-start;
@@ -229,7 +241,16 @@ table.arch{width:100%;border-collapse:collapse;font-size:.92rem}
 table.arch td{padding:.7rem 0;border-bottom:1px solid var(--rule);vertical-align:top}
 table.arch td.d{white-space:nowrap;color:var(--muted);font-size:.82rem;width:8.5rem;padding-right:1rem}
 table.arch a{text-decoration:none}
-table.arch a:hover{color:var(--accent)}
+table.arch a:hover,table.arch a:focus{color:var(--accent)}
+
+.tierlist{margin:0;padding:0;list-style:none;counter-reset:tier}
+.tierlist li{counter-increment:tier;display:grid;grid-template-columns:2rem 1fr;
+gap:.9rem;padding:.8rem 0;border-top:1px solid var(--rule)}
+.tierlist li:first-child{border-top:0}
+.tierlist li::before{content:counter(tier);font-family:Georgia,serif;font-size:1.2rem;
+color:var(--muted);line-height:1.3}
+.tierlist strong{display:block;margin-bottom:.15rem}
+.tierlist span{color:var(--muted);font-size:.94rem}
 
 footer.site{border-top:1px solid var(--rule);margin-top:4rem;padding:2rem 0 3rem;
 font-size:.82rem;color:var(--muted)}
@@ -248,7 +269,7 @@ interface PageOpts {
   altPath?: string;
   jsonLd?: unknown;
   wide?: boolean;
-  body: string;
+  body: Html;
 }
 
 function page(o: PageOpts): string {
@@ -258,68 +279,79 @@ function page(o: PageOpts): string {
   const canonical = absUrl(cfg, o.path);
   const hasOther = cfg.languages.includes(other);
   const alt = o.altPath ? absUrl(cfg, o.altPath) : absUrl(cfg, homePath(other));
+  const wrap = o.wide ? "wrap-wide" : "wrap";
+  const ogImage = o.cfg.ogImage
+    ? o.cfg.ogImage.startsWith("http")
+      ? o.cfg.ogImage
+      : absUrl(cfg, o.cfg.ogImage)
+    : "";
 
-  return `<!doctype html>
+  return html`<!doctype html>
 <html lang="${lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(o.title)}</title>
-<meta name="description" content="${esc(o.description)}">
-<link rel="canonical" href="${esc(canonical)}">
-<link rel="alternate" hreflang="${lang}" href="${esc(canonical)}">
-${hasOther ? `<link rel="alternate" hreflang="${other}" href="${esc(alt)}">` : ""}
-<link rel="alternate" type="application/rss+xml" title="${esc(cfg.siteName)}" href="${esc(url(cfg, feedPath(lang)))}">
+<meta http-equiv="Content-Security-Policy" content="${csp(cfg)}">
+<title>${o.title}</title>
+<meta name="description" content="${o.description}">
+<link rel="canonical" href="${canonical}">
+<link rel="alternate" hreflang="${lang}" href="${canonical}">
+${hasOther && html`<link rel="alternate" hreflang="${other}" href="${alt}">`}
+<link rel="alternate" type="application/rss+xml" title="${cfg.siteName}" href="${url(cfg, feedPath(lang))}">
 <meta property="og:type" content="${o.jsonLd ? "article" : "website"}">
-<meta property="og:site_name" content="${esc(cfg.siteName)}">
-<meta property="og:title" content="${esc(o.title)}">
-<meta property="og:description" content="${esc(o.description)}">
-<meta property="og:url" content="${esc(canonical)}">
+<meta property="og:site_name" content="${cfg.siteName}">
+<meta property="og:title" content="${o.title}">
+<meta property="og:description" content="${o.description}">
+<meta property="og:url" content="${canonical}">
 <meta property="og:locale" content="${lang === "id" ? "id_ID" : "en_US"}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="${esc(o.title)}">
-<meta name="twitter:description" content="${esc(o.description)}">
+${ogImage && html`<meta property="og:image" content="${ogImage}">`}
+<meta name="twitter:card" content="${ogImage ? "summary_large_image" : "summary"}">
+<meta name="twitter:title" content="${o.title}">
+<meta name="twitter:description" content="${o.description}">
 ${o.jsonLd ? jsonLdScript(o.jsonLd) : ""}
-<style>${CSS}</style>
+<style>${raw(CSS)}</style>
 </head>
 <body>
-<header class="site"><div class="${o.wide ? "wrap-wide" : "wrap"}"><div class="row">
-<a class="brand" href="${esc(url(cfg, homePath(lang)))}">${esc(cfg.siteName)}<span>.</span></a>
-<nav class="site">
-<a href="${esc(url(cfg, archivePath(lang)))}">${esc(s.archive)}</a>
-<a href="${esc(url(cfg, feedPath(lang)))}">RSS</a>
-${hasOther ? `<a href="${esc(url(cfg, o.altPath ?? homePath(other)))}">${esc(s.otherLang)}</a>` : ""}
+<a class="skip" href="#main">${s.skipToContent}</a>
+<header class="site"><div class="${wrap}"><div class="row">
+<a class="brand" href="${url(cfg, homePath(lang))}">${cfg.siteName}<span>.</span></a>
+<nav class="site" aria-label="${s.about}">
+<a href="${url(cfg, archivePath(lang))}">${s.archive}</a>
+<a href="${url(cfg, aboutPath(lang))}">${s.about}</a>
+<a href="${url(cfg, feedPath(lang))}">RSS</a>
+${hasOther && html`<a href="${url(cfg, o.altPath ?? homePath(other))}">${s.otherLang}</a>`}
 </nav></div></div></header>
-<main class="${o.wide ? "wrap-wide" : "wrap"}">
+<main id="main" class="${wrap}">
 ${o.body}
 </main>
-<footer class="site"><div class="${o.wide ? "wrap-wide" : "wrap"}">
-<p><strong>${esc(s.methodology)}.</strong> ${esc(s.methodologyBody)}</p>
-<p>${esc(s.disclaimer)}</p>
-<p>&copy; ${new Date().getFullYear()} ${esc(cfg.siteName)}</p>
+<footer class="site"><div class="${wrap}">
+<p><strong>${s.methodology}.</strong> ${s.methodologyBody}</p>
+<p>${s.disclaimer}</p>
+<p>&copy; ${new Date().getFullYear()} ${cfg.siteName} · <a href="${url(cfg, aboutPath(lang))}">${s.about}</a></p>
 </div></footer>
 </body>
-</html>`;
+</html>`.value;
 }
 
-function subscribeBlock(cfg: SiteConfig, lang: Lang): string {
+function subscribeBlock(cfg: SiteConfig, lang: Lang): Html {
   const s = STRINGS[lang];
   // No endpoint, or no privacy policy, means no form. Collecting an address
   // without recorded consent and a stated purpose is not something to ship
   // and fix later — UU PDP treats consent as a precondition, not a nicety.
   const canCollect = cfg.subscribeEndpoint && cfg.privacyUrl;
   const form = canCollect
-    ? `<form method="post" action="${esc(cfg.subscribeEndpoint)}">
-<input type="email" name="email" required placeholder="${esc(s.subscribePlaceholder)}" aria-label="Email">
+    ? html`<form method="post" action="${cfg.subscribeEndpoint}">
+<input type="email" name="email" required placeholder="${s.subscribePlaceholder}" aria-label="Email">
 <input type="hidden" name="lang" value="${lang}">
-<button class="btn" type="submit">${esc(s.subscribeButton)}</button>
+<button class="btn" type="submit">${s.subscribeButton}</button>
 <label class="consent"><input type="checkbox" name="consent" value="yes" required>
-<span>${esc(s.consentLabel)} <a href="${esc(cfg.privacyUrl)}" rel="noopener">${esc(s.privacyPolicy)}</a>.</span></label>
+<span>${s.consentLabel} <a href="${cfg.privacyUrl}" rel="noopener">${s.privacyPolicy}</a>.</span></label>
 </form>`
-    : `<p class="note">${esc(s.subscribeSoon)}</p>`;
-  return `<section class="sub">
-<h3>${esc(s.subscribeTitle)}</h3>
-<p>${esc(s.subscribeBlurb)}</p>
+    : html`<p class="note">${s.subscribeSoon}</p>`;
+
+  return html`<section class="sub">
+<h3>${s.subscribeTitle}</h3>
+<p>${s.subscribeBlurb}</p>
 ${form}
 </section>`;
 }
@@ -329,38 +361,40 @@ ${form}
  * Printing URLs beside every signal would triple the visual weight of the
  * citations and make the page read like a bibliography.
  */
-function citationLinks(e: Edition, urls: string[]): string {
+function citationLinks(e: Edition, urls: string[]): Html {
   const idx = new Map(e.sources.map((src, i) => [src.url, i + 1]));
   const nums = urls.map((u) => idx.get(u)).filter((n): n is number => !!n);
-  if (nums.length === 0) return "";
-  // "link, 1" is what a screen reader announces without this. WCAG 2.4.4.
+  if (nums.length === 0) return html``;
+  // "link, 1" is what a screen reader announces without a label. WCAG 2.4.4.
   const label = STRINGS[e.lang].citationLabel;
-  return `<span class="cites">${nums
-    .map((n) => `<a href="#s${n}" aria-label="${esc(label(n))}">[${n}]</a>`)
-    .join("")}</span>`;
+  return html`<span class="cites">${nums.map(
+    (n) => html`<a href="#s${n}" aria-label="${label(n)}">[${n}]</a>`,
+  )}</span>`;
 }
 
-function renderSignal(e: Edition, sig: Signal): string {
+function renderSignal(e: Edition, sig: Signal): Html {
   const s = STRINGS[e.lang];
   const t = sig.trend;
-  // Trend badge only when the archive actually has something to say. A "New"
-  // badge on every signal would be noise on day one and meaningless later.
+  // Trend badge only when the archive has something to say. A "New" badge on
+  // every signal would be noise on day one and meaningless later.
   const trendBadge =
-    t.status === "new"
-      ? ""
-      : `<span class="trend ${t.status}">${esc(s.trendStatus[t.status])} · ${esc(s.trendSince(t.occurrences, t.firstSeen))}</span>`;
+    t.status !== "new" &&
+    html`<span class="trend ${t.status}">${s.trendStatus[t.status]} · ${s.trendSince(
+      t.occurrences,
+      t.firstSeen,
+    )}</span>`;
 
   const rung = (label: string, value: string, cls = "") =>
-    value ? `<div class="rung ${cls}"><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>` : "";
+    value && html`<div class="rung ${cls}"><dt>${label}</dt><dd>${value}</dd></div>`;
 
   const c = sig.corroboration;
   const thin = c.publishers < 2 && !c.hasPrimary;
 
-  return `<article class="signal">
-<div class="head"><span class="rank">${sig.rank}</span><h3>${esc(sig.headline)}</h3></div>
+  return html`<article class="signal">
+<div class="head"><span class="rank" aria-hidden="true">${sig.rank}</span><h3>${sig.headline}</h3></div>
 <div class="tags">
-<span class="dom ${sig.domain}">${esc(DOMAIN_LABELS[e.lang][sig.domain])}</span>
-<span class="trend">${esc(s.strength[sig.strength])}</span>
+<span class="dom ${sig.domain}">${DOMAIN_LABELS[e.lang][sig.domain]}</span>
+<span class="trend">${s.strength[sig.strength]}</span>
 ${trendBadge}
 </div>
 <dl class="ladder">
@@ -370,8 +404,8 @@ ${rung(s.secondOrder, sig.secondOrder)}
 ${rung(s.action, sig.action, "act")}
 </dl>
 <div class="corrob">
-<span>${esc(s.corroboration(c.publishers, c.hasPrimary))}</span>
-${thin ? `<span class="thin">· ${esc(s.thinEvidence)}</span>` : ""}
+<span>${s.corroboration(c.publishers, c.hasPrimary)}</span>
+${thin && html`<span class="thin">· ${s.thinEvidence}</span>`}
 ${citationLinks(e, sig.sourceUrls)}
 </div>
 </article>`;
@@ -405,67 +439,58 @@ function editionJsonLd(cfg: SiteConfig, e: Edition): unknown {
 export function renderEdition(cfg: SiteConfig, e: Edition, hasAlt: boolean): string {
   const s = STRINGS[e.lang];
 
-  const domains = e.domains
-    .map((d) => `<span class="dom ${d}">${esc(DOMAIN_LABELS[e.lang][d])}</span>`)
-    .join(" ");
-
-  const signals = e.signals.map((sig) => renderSignal(e, sig)).join("\n");
-
-  const trends = e.trends.length
-    ? `<h2>${esc(s.trends)}</h2>
-<p class="note">${esc(s.trendsIntro)}</p>
-${e.trends
-  .map(
-    (t) => `<div class="trend-row">
-<span class="trend ${t.status}">${esc(s.trendStatus[t.status])}</span>
-<div>${esc(t.theme)}<div class="n">${esc(s.trendSince(t.occurrences, t.firstSeen))} · ${esc(DOMAIN_LABELS[e.lang][t.domain])}</div></div>
+  const trends =
+    e.trends.length > 0 &&
+    html`<h2>${s.trends}</h2>
+<p class="note">${s.trendsIntro}</p>
+${e.trends.map(
+  (t) => html`<div class="trend-row">
+<span class="trend ${t.status}">${s.trendStatus[t.status]}</span>
+<div>${t.theme}<div class="n">${s.trendSince(t.occurrences, t.firstSeen)} · ${DOMAIN_LABELS[e.lang][t.domain]}</div></div>
 </div>`,
-  )
-  .join("\n")}`
-    : "";
+)}`;
 
-  const watch = e.watchNext
-    .map(
+  const watch =
+    e.watchNext.length > 0 &&
+    html`<h2>${s.watchNext}</h2>
+<ul class="plain">${e.watchNext.map(
       (w) =>
-        `<li>${esc(w.item)}${w.dueDate ? ` <span class="n">— ${esc(formatDate(w.dueDate, e.lang))}</span>` : ""}</li>`,
-    )
-    .join("\n");
+        html`<li>${w.item}${w.dueDate && html` <span class="n">— ${formatDate(w.dueDate, e.lang)}</span>`}</li>`,
+    )}</ul>`;
 
-  const sources = e.sources
-    .map(
-      (src, i) =>
-        `<li id="s${i + 1}"><a href="${esc(src.url)}" rel="nofollow noopener" target="_blank">${esc(src.title)}</a><br><span class="pub">${esc(src.publisher)}${src.via ? ` · via ${esc(src.via)}` : ""}${src.publishedAt ? ` · ${esc(src.publishedAt.slice(0, 10))}` : ""}</span></li>`,
-    )
-    .join("\n");
-
-  const body = `<article>
-<h1>${esc(e.title)}</h1>
-${e.dek ? `<p class="dek">${esc(e.dek)}</p>` : ""}
+  const body = html`<article>
+<h1>${e.title}</h1>
+${e.dek && html`<p class="dek">${e.dek}</p>`}
 <div class="meta">
-${domains}
-<span>${esc(formatDate(e.date, e.lang))}</span>
+<span class="badge">${s.cadence}</span>
+${e.domains.map((d) => html`<span class="dom ${d}">${DOMAIN_LABELS[e.lang][d]}</span>`)}
+<span>${formatDate(e.date, e.lang)}</span>
 <span>·</span>
-<span>${esc(s.citedSources(e.sources.length))}</span>
+<span>${s.citedSources(e.sources.length)}</span>
 </div>
 
-${e.summary ? `<h2>${esc(s.summary)}</h2>\n<p>${esc(e.summary)}</p>` : ""}
+${e.summary && html`<h2>${s.summary}</h2>
+<p>${e.summary}</p>`}
 
-<h2>${esc(s.signals)}</h2>
-${signals}
+<h2>${s.signals}</h2>
+${e.signals.map((sig) => renderSignal(e, sig))}
 
 ${trends}
 
-${watch ? `<h2>${esc(s.watchNext)}</h2>\n<ul class="plain">${watch}</ul>` : ""}
+${watch}
 
-
-<h2>${esc(s.sources)}</h2>
-<p class="note">${esc(s.sourcesNote)}</p>
+<h2>${s.sources}</h2>
+<p class="note">${s.sourcesNote}</p>
 <ol class="sources">
-${sources}
+${e.sources.map(
+  (src, i) => html`<li id="s${i + 1}"><a href="${src.url}" rel="nofollow noopener" target="_blank">${src.title}</a><br><span class="pub">${src.publisher}${
+    src.via && html` · via ${src.via}`
+  }${src.publishedAt && html` · ${src.publishedAt.slice(0, 10)}`}</span></li>`,
+)}
 </ol>
 </article>
 
-<div id="subscribe">${subscribeBlock(cfg, e.lang)}</div>`;
+${subscribeBlock(cfg, e.lang)}`;
 
   const other: Lang = e.lang === "id" ? "en" : "id";
   return page({
@@ -489,38 +514,44 @@ export function renderHome(cfg: SiteConfig, editions: Edition[], lang: Lang): st
       title: cfg.siteName,
       description: s.siteTagline,
       path: homePath(lang),
-      body: `<p>${esc(s.noEditions)}</p>${subscribeBlock(cfg, lang)}`,
+      body: html`<p class="dek">${s.homeIntro}</p>
+<p>${s.noEditions}</p>
+${subscribeBlock(cfg, lang)}`,
     });
   }
 
   const [latest, ...rest] = editions;
-  const cards = rest
-    .slice(0, 12)
-    .map(
-      (e) => `<div class="card">
-<div class="d">${esc(formatDate(e.date, e.lang))} · </div>
-<h3><a href="${esc(url(cfg, editionPath(e.lang, e.slug)))}">${esc(e.title)}</a></h3>
-${e.dek ? `<p>${esc(e.dek)}</p>` : ""}
+  const cards = rest.slice(0, 12).map(
+    (e) => html`<div class="card">
+<div class="d">${formatDate(e.date, e.lang)}</div>
+<h3><a href="${url(cfg, editionPath(e.lang, e.slug))}">${e.title}</a></h3>
+${e.dek && html`<p>${e.dek}</p>`}
 </div>`,
-    )
-    .join("\n");
+  );
 
-  const body = `<p class="note">${esc(s.siteTagline)}</p>
-<div class="lede">
+  // The first ten seconds have to answer "what is this, for whom, how often".
+  // Leading straight into the latest headline assumed a reader who already
+  // knew, which is every reader except the ones worth converting.
+  const body = html`<p class="dek">${s.homeIntro}</p>
+<p class="meta" style="margin-top:.6rem"><span class="badge">${s.cadence}</span>
+<a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle} →</a></p>
+
+<div class="lede" style="margin-top:2rem">
 <div class="meta" style="margin:0 0 .8rem">
-<span>${esc(formatDate(latest.date, latest.lang))}</span>
-<span>·</span><span>${esc(s.latestEdition)}</span>
+<span>${formatDate(latest.date, latest.lang)}</span>
+<span>·</span><span>${s.latestEdition}</span>
 </div>
-<h1><a href="${esc(url(cfg, editionPath(latest.lang, latest.slug)))}">${esc(latest.title)}</a></h1>
-${latest.dek ? `<p class="dek">${esc(latest.dek)}</p>` : ""}
-${latest.summary ? `<p style="margin-top:1rem">${esc(latest.summary)}</p>` : ""}
-<p><a class="btn" href="${esc(url(cfg, editionPath(latest.lang, latest.slug)))}">${esc(s.readEdition)}</a></p>
+<h1><a href="${url(cfg, editionPath(latest.lang, latest.slug))}">${latest.title}</a></h1>
+${latest.dek && html`<p class="dek">${latest.dek}</p>`}
+${latest.summary && html`<p style="margin-top:1rem">${latest.summary}</p>`}
+<p><a class="btn" href="${url(cfg, editionPath(latest.lang, latest.slug))}">${s.readEdition}</a></p>
 </div>
 
 ${subscribeBlock(cfg, lang)}
 
-${cards ? `<h2>${esc(s.allEditions)}</h2>\n<div class="cards">${cards}</div>` : ""}
-<p style="margin-top:1.5rem"><a href="${esc(url(cfg, archivePath(lang)))}">${esc(s.archive)} →</a></p>`;
+${cards.length > 0 && html`<h2>${s.allEditions}</h2>
+<div class="cards">${cards}</div>`}
+<p style="margin-top:1.5rem"><a href="${url(cfg, archivePath(lang))}">${s.archive} →</a></p>`;
 
   return page({
     cfg,
@@ -534,22 +565,64 @@ ${cards ? `<h2>${esc(s.allEditions)}</h2>\n<div class="cards">${cards}</div>` : 
   });
 }
 
+/**
+ * The about page.
+ *
+ * A reader deciding whether to trust a daily brief needs to know who makes
+ * it, how, and under what rules — before subscribing, not after. Burying that
+ * in a footer line was the single biggest cold-start gap.
+ */
+export function renderAbout(cfg: SiteConfig, lang: Lang): string {
+  const s = STRINGS[lang];
+  const body = html`<h1>${s.aboutTitle}</h1>
+<p class="dek">${s.aboutLede}</p>
+
+<h2>${s.aboutWhatTitle}</h2>
+<p>${s.aboutWhatBody}</p>
+
+<h2>${s.aboutHowTitle}</h2>
+<ul class="tierlist">
+${s.aboutTiers.map((t) => html`<li><div><strong>${t.name}</strong><span>${t.body}</span></div></li>`)}
+</ul>
+
+<h2>${s.aboutRulesTitle}</h2>
+<ul class="plain">${s.aboutRules.map((r) => html`<li>${r}</li>`)}</ul>
+
+<h2>${s.aboutAiTitle}</h2>
+<p>${s.aboutAiBody}</p>
+
+<h2>${s.aboutLimitsTitle}</h2>
+<p>${s.aboutLimitsBody}</p>
+
+${subscribeBlock(cfg, lang)}`;
+
+  return page({
+    cfg,
+    lang,
+    title: `${s.aboutTitle} — ${cfg.siteName}`,
+    description: s.aboutLede,
+    path: aboutPath(lang),
+    altPath: aboutPath(lang === "id" ? "en" : "id"),
+    body,
+  });
+}
+
 export function renderArchive(cfg: SiteConfig, editions: Edition[], lang: Lang): string {
   const s = STRINGS[lang];
-  const rows = editions
-    .map(
-      (e) => `<tr>
-<td class="d">${esc(formatDate(e.date, e.lang))}</td>
-<td><a href="${esc(url(cfg, editionPath(e.lang, e.slug)))}">${esc(e.title)}</a>
-<div class="d">${e.domains.map((x) => esc(DOMAIN_LABELS[e.lang][x])).join(" · ")} · ${esc(s.citedSources(e.sources.length))}</div></td>
+  const rows = editions.map(
+    (e) => html`<tr>
+<td class="d">${formatDate(e.date, e.lang)}</td>
+<td><a href="${url(cfg, editionPath(e.lang, e.slug))}">${e.title}</a>
+<div class="d">${e.domains.map((x) => DOMAIN_LABELS[e.lang][x]).join(" · ")} · ${s.citedSources(
+      e.sources.length,
+    )}</div></td>
 </tr>`,
-    )
-    .join("\n");
+  );
 
-  const body = `<h1>${esc(s.archiveTitle)}</h1>
-<p class="dek">${esc(s.archiveIntro)}</p>
-<p class="meta">${esc(s.editionsCount(editions.length))}</p>
-${editions.length ? `<table class="arch">${rows}</table>` : `<p>${esc(s.noEditions)}</p>`}`;
+  const body = html`<h1>${s.archiveTitle}</h1>
+<p class="dek">${s.archiveIntro}</p>
+<p class="meta">${s.editionsCount(editions.length)}</p>
+${editions.length > 0 ? html`<table class="arch">${rows}</table>` : html`<p>${s.noEditions}</p>`}`;
 
   return page({
     cfg,
@@ -564,47 +637,56 @@ ${editions.length ? `<table class="arch">${rows}</table>` : `<p>${esc(s.noEditio
 
 export function renderFeed(cfg: SiteConfig, editions: Edition[], lang: Lang): string {
   const s = STRINGS[lang];
-  const items = editions
-    .slice(0, 30)
-    .map((e) => {
-      const link = absUrl(cfg, editionPath(e.lang, e.slug));
-      return `    <item>
-      <title>${esc(e.title)}</title>
-      <link>${esc(link)}</link>
-      <guid isPermaLink="true">${esc(link)}</guid>
+  const items = editions.slice(0, 30).map((e) => {
+    const link = absUrl(cfg, editionPath(e.lang, e.slug));
+    return html`    <item>
+      <title>${e.title}</title>
+      <link>${link}</link>
+      <guid isPermaLink="true">${link}</guid>
       <pubDate>${new Date(e.meta.generatedAt).toUTCString()}</pubDate>
-      <description>${esc(e.dek || e.summary)}</description>
-    </item>`;
-    })
-    .join("\n");
+      <description>${e.dek || e.summary}</description>
+    </item>
+`;
+  });
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
+  return html`<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>${esc(cfg.siteName)}${lang === "en" ? " (English)" : ""}</title>
-    <link>${esc(absUrl(cfg, homePath(lang)))}</link>
-    <description>${esc(s.siteTagline)}</description>
+    <title>${cfg.siteName}${lang === "en" ? " (English)" : ""}</title>
+    <link>${absUrl(cfg, homePath(lang))}</link>
+    <description>${s.siteTagline}</description>
     <language>${lang}</language>
-    <atom:link href="${esc(absUrl(cfg, feedPath(lang)))}" rel="self" type="application/rss+xml"/>
-${items}
-  </channel>
+    <atom:link href="${absUrl(cfg, feedPath(lang))}" rel="self" type="application/rss+xml"/>
+${items}  </channel>
 </rss>
-`;
+`.value;
 }
 
 export function renderSitemap(cfg: SiteConfig, editions: Edition[]): string {
-  const urls = new Set<string>();
-  for (const lang of ["id", "en"] as Lang[]) {
-    urls.add(absUrl(cfg, homePath(lang)));
-    urls.add(absUrl(cfg, archivePath(lang)));
-  }
-  for (const e of editions) urls.add(absUrl(cfg, editionPath(e.lang, e.slug)));
+  // lastmod lets a crawler skip pages it already has. Without it every
+  // recrawl re-fetches the whole archive, which grows without bound.
+  const newest = editions.map((e) => e.date).sort().at(-1);
+  const entries: { loc: string; lastmod?: string }[] = [];
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
+  for (const lang of cfg.languages) {
+    entries.push({ loc: absUrl(cfg, homePath(lang)), lastmod: newest });
+    entries.push({ loc: absUrl(cfg, archivePath(lang)), lastmod: newest });
+    entries.push({ loc: absUrl(cfg, aboutPath(lang)) });
+  }
+  for (const e of editions) {
+    entries.push({ loc: absUrl(cfg, editionPath(e.lang, e.slug)), lastmod: e.date });
+  }
+
+  const seen = new Set<string>();
+  const unique = entries.filter((u) => (seen.has(u.loc) ? false : (seen.add(u.loc), true)));
+
+  return html`<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${[...urls].map((u) => `  <url><loc>${esc(u)}</loc></url>`).join("\n")}
-</urlset>
-`;
+${unique.map(
+  (u) => html`  <url><loc>${u.loc}</loc>${u.lastmod && html`<lastmod>${u.lastmod}</lastmod>`}</url>
+`,
+)}</urlset>
+`.value;
 }
 
 export function renderRobots(cfg: SiteConfig): string {

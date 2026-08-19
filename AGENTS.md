@@ -37,9 +37,16 @@ Non-negotiables:
   fingerprinting measured 0/10 recall on realistic same-theme headlines. If a
   test for tier 6 passes using identical headlines across dates, the test is
   wrong, not the feature.
+- **Build markup with the `html` tag from `lib/site/html.ts`.** It escapes
+  every interpolation; `raw()` is the only way out and is meant to be
+  greppable. Do not reintroduce hand-called `esc()` at interpolation points —
+  that pattern shipped a browser-executing XSS once, and one missed call is
+  all it takes.
 - **Never emit untrusted strings into a `<script>` block.** Use
-  `jsonLdScript()`. `JSON.stringify` does not escape `<`, and a feed title is
-  third-party input — this was a confirmed, browser-executing XSS.
+  `jsonLdScript()`. `JSON.stringify` does not escape `<`.
+- **`npm test` must stay offline.** Typecheck, unit tests, the offline
+  self-test, and the site structure check all run with no network and no API
+  key. A CI that fails because a feed was slow stops being read.
 - **Never write source excerpts into `editions/`.** Excerpts live in `.cache/`
   (gitignored) — inputs, not output.
 - **`sources.radar.json` is the only place radar sources live.** The registry
@@ -51,7 +58,7 @@ Commands: `npm run brief` (run the radar), `npm run site` (build),
 `npm run brief:selftest` (full validation surface against fixtures, no LLM).
 
 Adding a source: append to `sources.radar.json` with `type` one of
-`rss | gnews | arxiv | github-releases | hn | search`, then run
+`rss | gnews | arxiv | github-releases | hn`, then run
 `npm run brief:dry-run` and check the pool mix actually improved. Volume is
 not improvement.
 

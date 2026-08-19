@@ -1,0 +1,44 @@
+name: CI
+
+# Everything here runs with no network and no API key, so a red build always
+# means the code is wrong — never that a feed was slow or a quota ran out. A
+# CI that fails for reasons outside the diff stops being read.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Typecheck and tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      # typecheck + unit tests + the offline integration self-test
+      - run: npm test
+
+      - name: Build the site from the fixture archive and check its structure
+        env:
+          EDITIONS_DIR: .cache/selftest/editions
+          SITE_OUT: .cache/ci-site
+          SITE_URL: https://example.invalid
+        run: |
+          npm run site
+          npx tsx scripts/check-site.ts .cache/ci-site

@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "npm run typecheck && npm run test:unit && npm run test:integration && npm run test:site",
+    "typecheck": "tsc --noEmit",
+    "test:unit": "tsx --test test/*.test.ts",
+    "test:integration": "tsx scripts/brief-selftest.ts --offline",
+    "check:site": "tsx scripts/check-site.ts",
     "brief": "tsx scripts/brief.ts",
     "brief:dry-run": "tsx scripts/brief-dry-run.ts",
     "brief:selftest": "tsx scripts/brief-selftest.ts",
@@ -17,7 +22,8 @@
     "sources:check": "tsx scripts/sources.ts check",
     "deploy": "node scripts/deploy.mjs",
     "build-site": "node scripts/build-site.mjs",
-    "open": "node scripts/open-report.mjs"
+    "open": "node scripts/open-report.mjs",
+    "test:site": "tsx scripts/site.ts --editions .cache/selftest/editions --out .cache/test-site --site-url https://example.invalid && tsx scripts/check-site.ts .cache/test-site"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.96.0",

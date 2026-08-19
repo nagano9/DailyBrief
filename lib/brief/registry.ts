@@ -18,7 +18,7 @@ import { DOMAINS, type Domain, type RadarSource, type SourceTier } from "./types
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CONFIG_PATH = path.resolve(__dirname, "../..", "sources.radar.json");
 
-const VALID_TYPES = new Set(["rss", "gnews", "arxiv", "github-releases", "hn", "search"]);
+const VALID_TYPES = new Set(["rss", "gnews", "arxiv", "github-releases", "hn"]);
 const VALID_LANGS = new Set(["id", "en", "other"]);
 const VALID_DOMAINS = new Set<string>(DOMAINS);
 const VALID_TIERS = new Set([1, 2, 3]);
@@ -46,7 +46,7 @@ function validate(parsed: unknown): RadarSource[] {
     // than a search query. Everywhere else it is a missing field.
     if (typeof s.url !== "string" || (!s.url && s.type !== "hn")) {
       throw new Error(
-        `${who}: missing 'url' (feed URL for rss; query for gnews/search; empty or query for hn; category for arxiv; owner/repo for github-releases)`,
+        `${who}: missing 'url' (feed URL for rss; query for gnews; empty or query for hn; category for arxiv; owner/repo for github-releases)`,
       );
     }
     if (!VALID_DOMAINS.has(s.domain as string)) {

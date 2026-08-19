@@ -130,13 +130,12 @@ function parseWatch(v: unknown): WatchItem[] {
  */
 function corroborate(items: FeedItem[]): Corroboration {
   const publishers = new Set(items.map((i) => i.publisher.toLowerCase()));
-  const bestTier = Math.min(...items.map((i) => i.tier)) as SourceTier;
   // `primary` is decided at fetch time, where we know whether the item came
   // from an institution's own feed or from an index query that happened to
   // sit at tier 1. Reading source tier here graded 14% of tier-1 items as
   // primary when they were not.
   const hasPrimary = items.some((i) => i.primary);
-  return { publishers: publishers.size, hasPrimary, bestTier };
+  return { publishers: publishers.size, hasPrimary };
 }
 
 interface ResolvedSignals {

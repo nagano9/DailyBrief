@@ -93,6 +93,9 @@ asetnya.
 | Sinyal tanpa `themeKey` | `compose.ts` `resolveSignals()` | Sinyal dibuang |
 | Email dikumpulkan tanpa kebijakan privasi | `render.ts` `subscribeBlock()` | Form tidak dirender |
 | Cuplikan sumber bocor ke arsip | `.gitignore` + pemisahan `.cache/` | — |
+| Skrip yang bisa dieksekusi di halaman terbit | `check-site.ts` | Build gagal |
+| Halaman tanpa CSP atau canonical | `check-site.ts` | Build gagal |
+| Tautan internal ke halaman yang tak dibangun | `check-site.ts` | Build gagal |
 
 Rinciannya di [docs/EDITORIAL.md](docs/EDITORIAL.md).
 
@@ -106,10 +109,12 @@ npm install
 
 | Perintah | Fungsi | Biaya |
 |---|---|---|
+| `npm test` | Typecheck, 42 uji unit, 44 pemeriksaan integrasi, bangun + periksa situs | tanpa LLM, tanpa jaringan |
 | `npm run brief:dry-run` | Ambil semua sumber, laporkan komposisi pool kandidat | tanpa LLM |
 | `npm run brief:selftest` | Uji validasi, korroborasi, dan klasifikasi tren | tanpa LLM |
 | `npm run brief` | Susun edisi hari ini | 1 panggilan LLM per bahasa |
 | `npm run site` | Bangun situs dari `editions/` ke `site/` | instan |
+| `npm run check:site` | Periksa struktur situs terbangun | instan |
 
 `brief:dry-run` mencetak sebaran tier, penerbit, dan domain pada pool
 kandidat. Itu yang membuat perubahan registry terukur, bukan sekadar terasa —
@@ -138,10 +143,11 @@ sudah berhenti menjadi radar.
 ## Yang belum ada
 
 **Live open-web search.** Tier 2 berjalan di atas kueri indeks berita, bukan
-pencarian web sungguhan. Sumber bertipe `search` sudah didukung dan akan gagal
-secara terbuka sampai `SEARCH_PROVIDER` dan `SEARCH_API_KEY` diisi — gagal
-terbuka, bukan diam-diam kosong, karena sumber discovery yang tiap hari tidak
-menyumbang apa-apa adalah titik buta yang menyerupai sistem yang bekerja.
+pencarian web sungguhan. Sebelumnya ada tipe sumber `search` yang disiapkan
+untuk itu; ia dihapus karena satu-satunya perilakunya adalah melempar error —
+tipe sumber yang tidak pernah bisa berhasil bukan dukungan, melainkan janji
+yang harus dirawat. Keterbatasannya dicatat di sini, bukan disamarkan sebagai
+fitur yang menunggu kunci API.
 
 **Image discovery.** Sengaja tidak dibangun. Gambar bukan bukti, dan
 menyematkan gambar penerbit ke halaman komersial menimbulkan persoalan hak
@@ -168,6 +174,18 @@ Bangun kembali saat pembayaran ada.
 regulasi), pencarian lintas arsip, provider pencarian web untuk Tier 2, dan
 pengelompokan tren berbasis entitas sebagai pelengkap kunci tema.
 
+## Keamanan
+
+Situs terbit tidak memuat JavaScript sama sekali, sehingga setiap halaman
+dikirim dengan `script-src 'none'`. Escaping tidak lagi bergantung pada
+disiplin manual: `lib/site/html.ts` menyediakan tagged template yang
+meng-escape setiap interpolasi, dan memancarkan markup mentah menuntut
+`raw()` yang bisa di-grep. CI menolak build yang memuat `<script>` selain blok
+data JSON-LD, atau halaman tanpa CSP.
+
+Rinciannya, termasuk model ancaman dan cara melapor, ada di
+[SECURITY.md](SECURITY.md).
+
 ## Struktur proyek
 
 Mesin radar berjalan **paralel** dengan pipeline digest upstream, tidak
@@ -175,7 +193,10 @@ menggantikannya — sehingga merge dari upstream tetap bersih.
 
 ```
 lib/brief/          radar: types, registry, fetch, publishers, memory, profile, prompt, compose
+lib/site/html.ts    tagged template yang meng-escape secara konstruksi
 lib/site/           renderer situs: templat, string per bahasa
+scripts/check-site.ts  pemeriksa struktur situs terbangun (dipakai CI)
+test/               uji unit atas lapisan murni
 scripts/brief.ts    jalankan radar untuk satu hari
 scripts/site.ts     bangun situs dari editions/
 sources.radar.json  registry sumber bertingkat (satu-satunya sumber kebenaran)

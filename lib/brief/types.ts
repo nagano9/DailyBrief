@@ -50,13 +50,7 @@ export const DOMAIN_LABELS: Record<Lang, Record<Domain, string>> = {
  */
 export type SourceTier = 1 | 2 | 3;
 
-export type SourceType =
-  | "rss"
-  | "gnews"
-  | "arxiv"
-  | "github-releases"
-  | "hn"
-  | "search";
+export type SourceType = "rss" | "gnews" | "arxiv" | "github-releases" | "hn";
 
 /**
  * How load-bearing a signal is. Mirrors the three buckets the briefing
@@ -92,8 +86,6 @@ export interface TrendInfo {
 export interface Corroboration {
   publishers: number;
   hasPrimary: boolean;
-  /** Highest source tier among citations (1 is best). */
-  bestTier: SourceTier;
 }
 
 export interface FeedItem {
@@ -227,7 +219,6 @@ export interface RadarSource {
    * arxiv           — arXiv category, e.g. "cs.AI"
    * github-releases — "owner/repo"
    * hn              — Hacker News search query (empty for front page)
-   * search          — query for the external search provider, when configured
    */
   url: string;
   domain: Domain;

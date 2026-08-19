@@ -8,6 +8,8 @@ import {
   editionPath,
   feedPath,
   homePath,
+  aboutPath,
+  renderAbout,
   renderArchive,
   renderEdition,
   renderFeed,
@@ -26,14 +28,24 @@ import type { Edition, Lang } from "../lib/brief/types";
  * published HTML is disposable, the JSON is the asset.
  */
 
-// Overridable so a fixture archive (scripts/brief-selftest.ts) can be
-// rendered to a scratch directory without touching the real site.
-const EDITIONS_DIR = process.env.EDITIONS_DIR ?? "editions";
-const OUT_DIR = process.env.SITE_OUT ?? "site";
+/**
+ * Input and output are overridable so a fixture archive can be rendered to a
+ * scratch directory without touching the real site.
+ *
+ * Both a CLI flag and an env var: npm scripts run through sh on POSIX and cmd
+ * on Windows, and `VAR=x cmd` only works on the former.
+ */
+function arg(flag: string): string | undefined {
+  const i = process.argv.indexOf(flag);
+  return i !== -1 ? process.argv[i + 1] : undefined;
+}
+
+const EDITIONS_DIR = arg("--editions") ?? process.env.EDITIONS_DIR ?? "editions";
+const OUT_DIR = arg("--out") ?? process.env.SITE_OUT ?? "site";
 const LANGS: Lang[] = ["id", "en"];
 
 function config(languages: Lang[]): SiteConfig {
-  const siteUrl = (process.env.SITE_URL ?? "http://localhost:8080").replace(/\/$/, "");
+  const siteUrl = (arg("--site-url") ?? process.env.SITE_URL ?? "http://localhost:8080").replace(/\/$/, "");
   const basePath = (process.env.BASE_PATH ?? "").replace(/\/$/, "");
   return {
     siteUrl,
@@ -41,6 +53,7 @@ function config(languages: Lang[]): SiteConfig {
     siteName: process.env.SITE_NAME ?? "Daily Strategic Briefing",
     subscribeEndpoint: process.env.SUBSCRIBE_ENDPOINT ?? "",
     privacyUrl: process.env.PRIVACY_URL ?? "",
+    ogImage: process.env.OG_IMAGE ?? "",
     languages,
   };
 }
@@ -115,9 +128,10 @@ function main() {
     }
     write(outFile(homePath(lang)), renderHome(cfg, editions, lang));
     write(outFile(archivePath(lang)), renderArchive(cfg, editions, lang));
+    write(outFile(aboutPath(lang)), renderAbout(cfg, lang));
     write(outFile(feedPath(lang)), renderFeed(cfg, editions, lang));
-    pages += 3;
-    console.log(`[site] ${lang}: ${editions.length} editions + home + archive + feed`);
+    pages += 4;
+    console.log(`[site] ${lang}: ${editions.length} editions + home + archive + about + feed`);
   }
 
   const all = LANGS.flatMap((l) => byLang.get(l)!);
@@ -133,7 +147,9 @@ function main() {
         `Collecting an address needs a stated purpose and a policy to point at.`,
     );
   }
-  if (!process.env.SITE_URL) {
+  // Check the resolved value, not the env var: a warning that fires when the
+  // setting was supplied another way trains people to ignore warnings.
+  if (!arg("--site-url") && !process.env.SITE_URL) {
     console.warn(`[site] SITE_URL is unset — canonical/OG/sitemap URLs point at localhost. Set it before publishing.`);
   }
 }
