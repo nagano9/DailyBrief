@@ -34,15 +34,19 @@ const EDITIONS_DIR = "editions";
 const CACHE_DIR = ".cache";
 
 /**
- * Languages to compose. Defaults to Indonesian only.
+ * Languages to compose.
  *
- * Publishing both from day one doubles the model spend and the editorial
- * surface that can go wrong, and splits SEO attention — for a product with no
- * readers yet. Add the second language when there is demand for it, by
- * setting BRIEF_LANGS=id,en.
+ * Both, deliberately: composing only Indonesian left the English edition
+ * frozen at the day it was last written, while every Indonesian page kept an
+ * hreflang pointing at it. A permanently stale mirror is worse than no mirror
+ * on a product that sells daily freshness, so either both languages publish
+ * or neither does.
+ *
+ * This default must stay in step with the workflow. When they drifted apart,
+ * CI quietly composed two languages while local composed one.
  */
 function parseLangs(): Lang[] {
-  const raw = (process.env.BRIEF_LANGS ?? "id").split(",").map((s) => s.trim());
+  const raw = (process.env.BRIEF_LANGS ?? "id,en").split(",").map((s) => s.trim());
   const langs = raw.filter((l): l is Lang => l === "id" || l === "en");
   if (langs.length === 0) throw new Error(`BRIEF_LANGS must list "id" and/or "en"`);
   return [...new Set(langs)];

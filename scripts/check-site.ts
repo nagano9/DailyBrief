@@ -151,7 +151,21 @@ function main(): void {
       fail("canonical-required", `${where} has no canonical URL`);
     }
 
-    // 6. Accessibility floor: one h1, a skip link, and a main landmark.
+    // 6. Heading levels may not skip.
+    //
+    //    Placing the evidence aside first in the markup — for the CSS
+    //    positioning — put its h4 before the signal's own h3 and jumped
+    //    straight from h2. A screen-reader user navigating by heading heard
+    //    "Dasar" before the signal it was the basis for. Nothing caught it,
+    //    so it is a rule now.
+    const levels = [...html.matchAll(/<h([1-6])\b/g)].map((m) => Number(m[1]));
+    for (let i = 1; i < levels.length; i++) {
+      if (levels[i] - levels[i - 1] > 1) {
+        fail("heading-skip", `${where} jumps h${levels[i - 1]} to h${levels[i]}`);
+      }
+    }
+
+    // 7. Accessibility floor: one h1, a skip link, and a main landmark.
     const h1s = (html.match(/<h1\b/g) ?? []).length;
     if (h1s !== 1) fail("single-h1", `${where} has ${h1s} <h1> elements`);
     if (!html.includes('class="skip"')) fail("skip-link", `${where} has no skip link`);

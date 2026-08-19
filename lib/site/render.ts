@@ -211,7 +211,14 @@ p{margin:0 0 1.05rem}
    the one sentence a first-time reader uses to decide whether this is for
    them. It gets the weight of a statement instead. */
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
-color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+
+/* The lead edition keeps the visual weight of a headline while giving up the
+   h1: a homepage heading should describe the page, and the page is the
+   publication, not whichever story ran today. */
+.lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
+line-height:1.2;letter-spacing:-.012em;color:var(--ink);text-transform:none;
+margin:0;padding:0;border:0}
 
 /* The funnel: what the radar actually did today. Four hundred candidates in,
    five signals out. That ratio is the product, so it opens the page. */
@@ -268,8 +275,8 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
-.lede h1 a{text-decoration:none}
-.lede h1 a:hover,.lede h1 a:focus-visible{color:var(--backed)}
+.lede h2.lead a{text-decoration:none}
+.lede h2.lead a:hover,.lede h2.lead a:focus-visible{color:var(--backed)}
 .cards{border-top:1px solid var(--rule)}
 .card{padding:1.15rem 0;border-bottom:1px solid var(--rule)}
 .card a{text-decoration:none}
@@ -425,6 +432,42 @@ padding-top:1rem;border-top:1px solid var(--rule)}
 .rung dt{text-align:left}
 .rung dd{padding-left:.9rem}
 .corrob{padding-left:.9rem}
+}
+/* ---------------------------------------------------------------------------
+   Print.
+   ---------------------------------------------------------------------------
+   A briefing read before a meeting is the archetypal thing someone prints or
+   saves as PDF, and the three-column layout is exactly wrong on paper: the
+   rails are positioned against the viewport edge and would fall off it.
+
+   On paper the document folds back to one column, the evidence follows the
+   claim it supports, and everything that only makes sense on screen — the
+   navigation, the skip link, the subscribe form — is dropped. Source URLs are
+   printed after their titles, because a citation you cannot follow on paper
+   is not a citation.
+   ------------------------------------------------------------------------- */
+@media print{
+:root{--paper:#fff;--ink:#000;--muted:#333;--faint:#555;
+--rule:#ccc;--rule-strong:#999;--backed:#000;--unbacked:#000}
+body{font-size:10.5pt;line-height:1.45}
+.skip,nav.site,.sub,.rail-trend{display:none}
+header.site{border-bottom:1pt solid #999;margin-bottom:1.5rem}
+.doc,.wrap,.wrap-wide{max-width:none;padding:0}
+.rung{margin-left:0;grid-template-columns:6.5rem 1fr;column-gap:1rem}
+.signal .head{margin-left:0}
+.signal .rank{flex:none;min-width:1.2rem;text-align:left}
+.aside{position:static;width:auto;margin:.8rem 0 0;padding-top:.6rem;
+border-top:1pt solid #ccc}
+
+/* Keep a signal and its evidence on one sheet where the paper allows. */
+.signal{break-inside:avoid;page-break-inside:avoid}
+h1,h2,h3,h4{break-after:avoid;page-break-after:avoid}
+
+/* A printed link is only useful if its destination is printed with it. */
+.aside a::after,ol.sources a::after{content:" (" attr(href) ")";
+font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
+.corrob .backed::before{content:"[+] "}
+.corrob .unbacked::before{content:"[!] "}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `.trim();
@@ -624,8 +667,12 @@ function renderSignal(e: Edition, sig: Signal): Html {
   // So the absence of a primary source is now stated outright, whatever the
   // publisher count.
 
+  // The aside is placed AFTER the signal in the DOM and positioned back
+  // beside it with CSS. Put first — as it was, for convenience — its heading
+  // preceded the signal's own, so a screen-reader user navigating by heading
+  // heard "Dasar" before the signal it was the basis for, and skipped a level
+  // getting there.
   return html`<article class="signal">
-${signalAside(e, sig)}
 <div class="head"><span class="rank" aria-hidden="true">${sig.rank}</span><h3>${sig.headline}</h3></div>
 <div class="tags">
 <span class="tag strong">${DOMAIN_SHORT[e.lang][sig.domain]}</span>
@@ -644,6 +691,7 @@ ${rung(s.action, sig.action, "act")}
   }</span>
 <span>${s.publisherCount(c.publishers)}</span>
 </div>
+${signalAside(e, sig)}
 </article>`;
 }
 
@@ -701,7 +749,6 @@ ${e.trends.map(
     )}</ul>`;
 
   const body = html`<article class="signal-doc">
-${trendRail}
 <h1>${e.title}</h1>
 ${e.dek && html`<p class="dek">${e.dek}</p>`}
 <div class="meta">
@@ -725,6 +772,7 @@ ${e.summary && html`<h2>${s.summary}</h2>
 <p>${e.summary}</p>`}
 
 <h2>${s.signals}</h2>
+${trendRail}
 ${e.signals.map((sig) => renderSignal(e, sig))}
 
 
@@ -766,7 +814,7 @@ export function renderHome(cfg: SiteConfig, editions: Edition[], lang: Lang): st
       title: cfg.siteName,
       description: s.siteTagline,
       path: homePath(lang),
-      body: html`<p class="standfirst">${s.homeIntro}</p>
+      body: html`<h1 class="standfirst">${s.homeIntro}</h1>
 <p>${s.noEditions}</p>
 ${subscribeBlock(cfg, lang)}`,
     });
@@ -784,7 +832,7 @@ ${e.dek && html`<p>${e.dek}</p>`}
   // The first ten seconds have to answer "what is this, for whom, how often".
   // Leading straight into the latest headline assumed a reader who already
   // knew, which is every reader except the ones worth converting.
-  const body = html`<p class="standfirst">${s.homeIntro}</p>
+  const body = html`<h1 class="standfirst">${s.homeIntro}</h1>
 <p class="meta" style="margin-top:1rem"><span class="tag strong">${s.cadence}</span>
 <span class="arrow">·</span>
 <a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle} →</a></p>
@@ -794,7 +842,7 @@ ${e.dek && html`<p>${e.dek}</p>`}
 <span>${formatDate(latest.date, latest.lang)}</span>
 <span>·</span><span>${s.latestEdition}</span>
 </div>
-<h1><a href="${url(cfg, editionPath(latest.lang, latest.slug))}">${latest.title}</a></h1>
+<h2 class="lead"><a href="${url(cfg, editionPath(latest.lang, latest.slug))}">${latest.title}</a></h2>
 ${latest.dek && html`<p class="dek">${latest.dek}</p>`}
 ${latest.summary && html`<p style="margin-top:1rem">${latest.summary}</p>`}
 <p><a class="btn" href="${url(cfg, editionPath(latest.lang, latest.slug))}">${s.readEdition}</a></p>
