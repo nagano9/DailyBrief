@@ -161,7 +161,7 @@ const CSS = `
 --paper:#f6f7f6;--ink:#191c1b;--muted:#5d6663;--faint:#66706d;
 --rule:#dde1df;--rule-strong:#b9c1be;--card:#fdfdfd;
 --backed:#0f5c4d;--unbacked:#9c4221;
---measure:44rem;--wide:56rem;
+--measure:40rem;--wide:56rem;
 --rail-l:10rem;--rail-r:15.5rem;--rail-gap:2rem;--spine-pad:1.15rem;
 --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
 --mono:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono",Consolas,monospace;
@@ -275,6 +275,20 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+
+/* The cover shows the spine. A reader who has not clicked through has no way
+   to see the one thing that separates this from a summary feed — the solid
+   rule under sourced fact, the dashed rule under our reading. So the lead
+   signal runs in full on the homepage. The ladder is flattened there: the
+   cover has no rails to hang the labels in, so the negative margin that
+   pulls them out of the column has to be cancelled or they fall off the
+   left edge. */
+.cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
+border-top:1px solid var(--rule);
+max-width:calc(var(--rail-l) + var(--rail-gap) + var(--measure))}
+.cover-h{font-family:var(--serif);font-size:1.25rem;font-weight:600;
+line-height:1.3;margin:0 0 .1rem}
+.ladder-flat .rung{margin-left:0}
 .lede h2.lead a{text-decoration:none}
 .lede h2.lead a:hover,.lede h2.lead a:focus-visible{color:var(--backed)}
 .cards{border-top:1px solid var(--rule)}
@@ -368,6 +382,13 @@ border-left:2px dashed var(--rule-strong)}
 .signal:first-of-type{border-top:0;padding-top:.75rem}
 .signal .head{display:flex;gap:.9rem;align-items:baseline;margin-bottom:.6rem;
 margin-left:calc(-1 * (var(--rail-l) + var(--rail-gap)))}
+
+/* The signal headline was 1.1rem against 1.0625rem body: six tenths of a
+   pixel apart, with weight alone carrying the rank. On a page whose premise
+   is five signals in order, the order has to be legible before the prose is
+   read. Scoped to the signal — the generic h3 also sets the subscribe block,
+   which should not compete with it. */
+.signal .head h3{font-size:1.4rem;line-height:1.25;letter-spacing:-.008em}
 .signal .rank{font-family:var(--mono);font-size:.8rem;color:var(--faint);
 flex:0 0 var(--rail-l);text-align:right;padding-top:.35rem;
 font-variant-numeric:tabular-nums}
@@ -418,13 +439,23 @@ letter-spacing:.05em;color:var(--faint);margin-top:.1rem}
    claim become the sources beneath it, and nothing is lost.
    ------------------------------------------------------------------------- */
 @media(max-width:70rem){
-.doc{padding-left:1.5rem;padding-right:1.5rem;max-width:var(--measure)}
-.rung{margin-left:0}
-.signal .head{margin-left:0}
-.signal .rank{flex:none;min-width:1.5rem;text-align:left}
+.doc{max-width:calc(var(--measure) + var(--rail-l) + var(--rail-gap) + 3rem);
+padding-right:1.5rem}
 .aside,.rail-trend{position:static;width:auto;margin:1.4rem 0 0;
 padding-top:1rem;border-top:1px solid var(--rule)}
 .rail-trend{margin-bottom:2rem}
+}
+
+/* The left rail costs 10rem; the right costs 15.5rem. Folding both at the
+   same breakpoint threw away the cheaper one for nothing — a tablet in
+   landscape, or a half-screen window, lost the ladder while still having
+   room for it. The labels now hang until the column itself stops fitting:
+   measure + rail + gap + padding = 55rem, so 58rem with room to breathe. */
+@media(max-width:58rem){
+.doc{padding-left:1.5rem;max-width:var(--measure)}
+.rung{margin-left:0}
+.signal .head{margin-left:0}
+.signal .rank{flex:none;min-width:1.5rem;text-align:left}
 }
 @media(max-width:38rem){
 .doc{padding-left:1.15rem;padding-right:1.15rem}
@@ -627,6 +658,38 @@ ${sig.entities.length > 0 &&
 </aside>`;
 }
 
+/**
+ * The reasoning ladder, and the evidence spine that runs down it.
+ *
+ * Citations belong under the rung they support. `whatChanged` is the fact and
+ * carries the evidence; the rungs below it are our reading, and showing them
+ * uncited is the honest signal that they are. `sourced` draws the spine
+ * solid — everything without it draws dashed, so the eye can follow where
+ * evidence ends and our reading begins without reading a word.
+ *
+ * `flat` drops the hanging labels for contexts with no left rail to hang them
+ * in, which today means the homepage cover.
+ */
+function ladder(e: Edition, sig: Signal, flat = false): Html {
+  const s = STRINGS[e.lang];
+  const rung = (label: string, value: string, cls = "", cites?: string[]) => {
+    const sourced = !!cites && cites.length > 0;
+    const classes = ["rung", cls, sourced ? "sourced" : ""].filter(Boolean).join(" ");
+    return (
+      value &&
+      html`<div class="${classes}"><dt>${label}</dt><dd>${value}${
+        sourced ? html` ${citationLinks(e, cites)}` : ""
+      }</dd></div>`
+    );
+  };
+  return html`<dl class="ladder${flat ? " ladder-flat" : ""}">
+${rung(s.whatChanged, sig.whatChanged, "", sig.sourceUrls)}
+${rung(s.whyItMatters, sig.whyItMatters)}
+${rung(s.secondOrder, sig.secondOrder, "", sig.secondOrderUrls)}
+${rung(s.action, sig.action, "act")}
+</dl>`;
+}
+
 function renderSignal(e: Edition, sig: Signal): Html {
   const s = STRINGS[e.lang];
   const t = sig.trend;
@@ -638,23 +701,6 @@ function renderSignal(e: Edition, sig: Signal): Html {
       t.occurrences,
       t.firstSeen,
     )}</span>`;
-
-  // Citations belong under the rung they support. `whatChanged` is the fact
-  // and carries the evidence; the rungs below it are our reading, and showing
-  // them uncited is the honest signal that they are.
-  // `sourced` draws the spine solid. Everything without it draws dashed, so
-  // the eye can follow where evidence ends and our reading begins without
-  // reading a word.
-  const rung = (label: string, value: string, cls = "", cites?: string[]) => {
-    const sourced = !!cites && cites.length > 0;
-    const classes = ["rung", cls, sourced ? "sourced" : ""].filter(Boolean).join(" ");
-    return (
-      value &&
-      html`<div class="${classes}"><dt>${label}</dt><dd>${value}${
-        sourced ? html` ${citationLinks(e, cites)}` : ""
-      }</dd></div>`
-    );
-  };
 
   const c = sig.corroboration;
   // The previous caveat required a single-publisher claim with no primary
@@ -679,12 +725,7 @@ function renderSignal(e: Edition, sig: Signal): Html {
 <span class="tag">${s.strength[sig.strength]}</span>
 ${trendBadge}
 </div>
-<dl class="ladder">
-${rung(s.whatChanged, sig.whatChanged, "", sig.sourceUrls)}
-${rung(s.whyItMatters, sig.whyItMatters)}
-${rung(s.secondOrder, sig.secondOrder, "", sig.secondOrderUrls)}
-${rung(s.action, sig.action, "act")}
-</dl>
+${ladder(e, sig)}
 <div class="corrob">
 <span class="${c.hasPrimary ? "backed" : "unbacked"}">${
     c.hasPrimary ? s.hasPrimarySource : s.noPrimarySource
@@ -821,6 +862,10 @@ ${subscribeBlock(cfg, lang)}`,
   }
 
   const [latest, ...rest] = editions;
+  // The lead signal is shown in full on the cover, spine and citations
+  // included. Claiming traceability and then hiding every trace behind a
+  // click was the cover's one real failure.
+  const lead = latest.signals?.[0];
   const cards = rest.slice(0, 12).map(
     (e) => html`<div class="card">
 <div class="d">${formatDate(e.date, e.lang)}</div>
@@ -845,6 +890,11 @@ ${e.dek && html`<p>${e.dek}</p>`}
 <h2 class="lead"><a href="${url(cfg, editionPath(latest.lang, latest.slug))}">${latest.title}</a></h2>
 ${latest.dek && html`<p class="dek">${latest.dek}</p>`}
 ${latest.summary && html`<p style="margin-top:1rem">${latest.summary}</p>`}
+${lead &&
+    html`<div class="cover-signal">
+<h3 class="cover-h">${lead.headline}</h3>
+${ladder(latest, lead, true)}
+</div>`}
 <p><a class="btn" href="${url(cfg, editionPath(latest.lang, latest.slug))}">${s.readEdition}</a></p>
 </div>
 
