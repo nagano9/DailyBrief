@@ -83,6 +83,7 @@ function config(languages: Lang[]): SiteConfig {
     subscribeEndpoint: process.env.SUBSCRIBE_ENDPOINT ?? "",
     privacyUrl: process.env.PRIVACY_URL ?? "",
     ogImage: process.env.OG_IMAGE ?? "",
+    contactWhatsapp: process.env.CONTACT_WHATSAPP ?? "",
     languages,
   };
 }

@@ -19,6 +19,7 @@ name: Publish Brief
 #        SITE_URL            https://<user>.github.io   (origin only, no path)
 #        BASE_PATH           /<repo-name>               (LEAVE UNSET for a custom domain)
 #        CUSTOM_DOMAIN       brief.example.com          (optional; rebinds Pages each deploy)
+#        CONTACT_WHATSAPP    6281393000399              (optional; footer and about page)
 #        SITE_NAME           masthead shown on every page
 #        SUBSCRIBE_ENDPOINT  POST target for the subscribe form (optional)
 #        PRIVACY_URL         required if SUBSCRIBE_ENDPOINT is set
@@ -125,6 +126,7 @@ jobs:
           SITE_NAME: ${{ vars.SITE_NAME }}
           SUBSCRIBE_ENDPOINT: ${{ vars.SUBSCRIBE_ENDPOINT }}
           PRIVACY_URL: ${{ vars.PRIVACY_URL }}
+          CONTACT_WHATSAPP: ${{ vars.CONTACT_WHATSAPP }}
         run: npm run site
 
       - name: Deploy to Pages

@@ -49,6 +49,36 @@ export interface SiteConfig {
    * preview.
    */
   ogImage: string;
+  /**
+   * WhatsApp contact, digits only in international form (no +, no leading 0).
+   *
+   * Configuration rather than a literal in the source: this repository is
+   * public, and a fork should not inherit someone else's phone number — the
+   * same reason profile.json is not committed.
+   */
+  contactWhatsapp: string;
+}
+
+/**
+ * Normalise an Indonesian number into the form wa.me accepts.
+ *
+ * People write the same number four ways — +62813…, 62813…, 0813…, with
+ * spaces or dashes — and wa.me silently fails on all but one of them, so the
+ * link would look fine and go nowhere.
+ */
+export function whatsappUrl(raw: string): string {
+  const digits = raw.replace(/[^0-9]/g, "");
+  if (!digits) return "";
+  const international = digits.startsWith("0") ? "62" + digits.slice(1) : digits;
+  return `https://wa.me/${international}`;
+}
+
+/** The same number, formatted for reading rather than dialling. */
+export function whatsappLabel(raw: string): string {
+  const digits = raw.replace(/[^0-9]/g, "");
+  if (!digits) return "";
+  const international = digits.startsWith("0") ? "62" + digits.slice(1) : digits;
+  return "+" + international;
 }
 
 export { esc };
@@ -458,7 +488,13 @@ ${o.body}
 <footer class="site"><div class="${wrap}">
 <p><strong>${s.methodology}.</strong> ${s.methodologyBody}</p>
 <p>${s.disclaimer}</p>
-<p>&copy; ${new Date().getFullYear()} ${cfg.siteName} · <a href="${url(cfg, aboutPath(lang))}">${s.about}</a></p>
+<p>&copy; ${new Date().getFullYear()} ${cfg.siteName}
+· <a href="${url(cfg, aboutPath(lang))}">${s.about}</a>${
+  cfg.contactWhatsapp
+    ? html`
+· <a href="${whatsappUrl(cfg.contactWhatsapp)}" rel="noopener" target="_blank">${s.contact}</a>`
+    : ""
+}</p>
 </div></footer>
 </body>
 </html>`.value;
@@ -800,6 +836,15 @@ ${s.aboutTiers.map((t) => html`<li><div><strong>${t.name}</strong><span>${t.body
 
 <h2>${s.aboutLimitsTitle}</h2>
 <p>${s.aboutLimitsBody}</p>
+
+${
+  cfg.contactWhatsapp &&
+  html`<h2>${s.contactTitle}</h2>
+<p>${s.contactBody}</p>
+<p><a class="btn" href="${whatsappUrl(cfg.contactWhatsapp)}" rel="noopener" target="_blank">${s.contactCta} ${whatsappLabel(
+    cfg.contactWhatsapp,
+  )}</a></p>`
+}
 
 ${subscribeBlock(cfg, lang)}`;
 

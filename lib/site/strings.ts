@@ -48,6 +48,10 @@ export interface Strings {
   aboutAiBody: string;
   aboutLimitsTitle: string;
   aboutLimitsBody: string;
+  contact: string;
+  contactTitle: string;
+  contactBody: string;
+  contactCta: string;
   strength: Record<SignalStrength, string>;
   trendStatus: Record<TrendStatus, string>;
   /** e.g. "3 publishers · primary source" */
@@ -161,6 +165,11 @@ export const STRINGS: Record<Lang, Strings> = {
     aboutLimitsTitle: "Batasnya",
     aboutLimitsBody:
       "Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia ringkasan informasi publik untuk membantu Anda masuk ke rapat dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.",
+    contact: "Kontak",
+    contactTitle: "Menghubungi kami",
+    contactBody:
+      "Untuk koreksi, pertanyaan tentang metodologi, atau permintaan liputan sektor tertentu, hubungi langsung lewat WhatsApp. Koreksi ditangani terbuka di edisi yang bersangkutan.",
+    contactCta: "WhatsApp",
     strength: { material: "Material", emerging: "Sinyal awal", actionable: "Menuntut keputusan" },
     trendStatus: { new: "Baru", recurring: "Berulang", structural: "Struktural" },
     corroboration: (publishers, hasPrimary) =>
@@ -268,6 +277,11 @@ export const STRINGS: Record<Lang, Strings> = {
     aboutLimitsTitle: "Its limits",
     aboutLimitsBody:
       "This is not investment, legal, tax, or technical advice. It summarises public information to help you walk into a meeting better briefed. Some citations route through a news index rather than a direct publisher link; those are marked “via”.",
+    contact: "Contact",
+    contactTitle: "Getting in touch",
+    contactBody:
+      "For corrections, questions about methodology, or a request to cover a particular sector, reach us on WhatsApp. Corrections are handled in the open, in the edition concerned.",
+    contactCta: "WhatsApp",
     strength: { material: "Material", emerging: "Emerging", actionable: "Decision-forcing" },
     trendStatus: { new: "New", recurring: "Recurring", structural: "Structural" },
     corroboration: (publishers, hasPrimary) =>

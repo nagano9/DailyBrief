@@ -4,7 +4,16 @@ import assert from "node:assert/strict";
 import { byCredibilityThenRecency, publisherTier } from "../lib/brief/publishers";
 import { arxivUrl, githubReleasesUrl, gnewsUrl, hnUrl } from "../lib/brief/fetch";
 import { enabledSources, countByTier, countByDomain, loadRadarSources } from "../lib/brief/registry";
-import { aboutPath, archivePath, editionPath, feedPath, formatDate, homePath } from "../lib/site/render";
+import {
+  aboutPath,
+  archivePath,
+  editionPath,
+  feedPath,
+  formatDate,
+  homePath,
+  whatsappLabel,
+  whatsappUrl,
+} from "../lib/site/render";
 import { DOMAINS } from "../lib/brief/types";
 
 /** Publisher tiering, URL construction, registry invariants, routing. */
@@ -128,4 +137,30 @@ test("formatDate is localised and degrades to the raw string when malformed", ()
   assert.equal(formatDate("2026-08-18", "id"), "18 Agustus 2026");
   assert.equal(formatDate("2026-08-18", "en"), "18 August 2026");
   assert.equal(formatDate("not-a-date", "id"), "not-a-date");
+});
+
+test("whatsappUrl accepts every way a number gets written", () => {
+  // wa.me takes international digits only, and fails silently on the rest —
+  // the link would look right and go nowhere.
+  const expected = "https://wa.me/6281393000399";
+  for (const written of [
+    "6281393000399",
+    "+6281393000399",
+    "+62 813 9300 0399",
+    "0813-9300-0399",
+    "62 813-9300-0399",
+  ]) {
+    assert.equal(whatsappUrl(written), expected, `failed for ${written}`);
+  }
+});
+
+test("whatsappLabel shows the number as a person would read it", () => {
+  assert.equal(whatsappLabel("0813-9300-0399"), "+6281393000399");
+  assert.equal(whatsappLabel("+6281393000399"), "+6281393000399");
+});
+
+test("an unset contact yields no link rather than a broken one", () => {
+  assert.equal(whatsappUrl(""), "");
+  assert.equal(whatsappUrl("not a number"), "");
+  assert.equal(whatsappLabel(""), "");
 });
