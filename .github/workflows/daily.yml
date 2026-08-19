@@ -27,17 +27,15 @@ name: Daily Brief
 # job to run when they match. workflow_dispatch always bypasses the gate.
 
 on:
-  schedule:
-    # Two hourly triggers (at :07 and :37) — GitHub Actions silently drops
-    # a non-trivial fraction of scheduled runs, sometimes whole stretches
-    # of 2-3 hours back-to-back. A single off-peak cron was not enough; we
-    # saw the BJ 08-10 stretch get fully swallowed multiple times. Two
-    # triggers per hour gives ~95% per-window coverage, and the gate's
-    # catchup branch handles the residual misses by allowing a build any
-    # time after `earliest REPORT_HOUR - 1` if today's report is still
-    # absent from gh-pages.
-    - cron: '7 * * * *'
-    - cron: '37 * * * *'
+  # The scheduled triggers are removed deliberately.
+  #
+  # This repository publishes the strategic intelligence radar
+  # (.github/workflows/brief.yml). The upstream digest still works and is kept
+  # for reference, but running it on a cron here would push a different
+  # product to the same gh-pages branch every day — two publishers racing for
+  # one site — and would spend model credits on output nobody reads.
+  #
+  # Run it by hand from the Actions tab if you want to compare the two.
   workflow_dispatch:
 
 permissions:
