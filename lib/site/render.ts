@@ -1,4 +1,11 @@
-import { DOMAIN_LABELS, DOMAIN_SHORT, type Edition, type Lang, type Signal } from "../brief/types";
+import {
+  DOMAIN_LABELS,
+  DOMAIN_SHORT,
+  type Domain,
+  type Edition,
+  type Lang,
+  type Signal,
+} from "../brief/types";
 import { STRINGS } from "./strings";
 import { esc, html, jsonLdScript, raw, type Html } from "./html";
 
@@ -101,8 +108,20 @@ export function homePath(lang: Lang): string {
   return lang === "id" ? "/" : "/en/";
 }
 
-export function archivePath(lang: Lang): string {
-  return lang === "id" ? "/arsip/" : "/en/archive/";
+/** Every domain the archive can be narrowed to, in display order. */
+export const ARCHIVE_DOMAINS: Domain[] = ["ai", "energy", "corporate"];
+
+/** URL slug per domain. Kept ASCII and identical across languages so a link
+ *  survives translation and neither tree invents its own vocabulary. */
+const DOMAIN_SLUG: Record<Domain, string> = {
+  ai: "ai",
+  energy: "energi",
+  corporate: "korporasi",
+};
+
+export function archivePath(lang: Lang, domain?: Domain): string {
+  const root = lang === "id" ? "/arsip/" : "/en/archive/";
+  return domain ? `${root}${DOMAIN_SLUG[domain]}/` : root;
 }
 
 export function aboutPath(lang: Lang): string {
@@ -291,7 +310,11 @@ line-height:1.3;margin:0 0 .1rem}
 .ladder-flat .rung{margin-left:0}
 .lede h2.lead a{text-decoration:none}
 .lede h2.lead a:hover,.lede h2.lead a:focus-visible{color:var(--backed)}
-.cards{border-top:1px solid var(--rule)}
+/* Twelve full-width cards ran 1,865px — 47% of the homepage — restating what
+   the archive says more compactly. Six in two columns say the same thing in a
+   quarter of the height, and the archive link below carries the rest. */
+.cards{border-top:1px solid var(--rule);display:grid;
+grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.5rem}
 .card{padding:1.15rem 0;border-bottom:1px solid var(--rule)}
 .card a{text-decoration:none}
 .card h3{margin-bottom:.3rem;font-size:1rem}
@@ -309,6 +332,30 @@ background:var(--card);color:var(--ink);font-size:.94rem;font-family:var(--serif
 .consent{flex:1 1 100%;display:flex;gap:.55rem;align-items:flex-start;
 font-family:var(--sans);font-size:.8rem;color:var(--muted);margin-top:.35rem;line-height:1.5}
 .consent input{flex:none;width:auto;margin-top:.2rem}
+
+/* An edition had no way out but the header. A reader who arrived from search
+   or a shared link could not step to the day before without going back to the
+   archive and finding their place again. */
+.ed-nav{display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;
+margin:3rem 0 0;padding-top:1.4rem;border-top:1px solid var(--rule-strong);
+font-family:var(--sans);font-size:.86rem;line-height:1.4}
+.ed-nav a{color:var(--muted);text-decoration:none;max-width:19rem;
+border-bottom:1px solid transparent}
+.ed-nav a:hover,.ed-nav a:focus-visible{color:var(--ink);border-bottom-color:var(--ink)}
+.ed-nav .lbl{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.13em;color:var(--faint);margin-bottom:.3rem}
+.ed-nav .next{margin-left:auto;text-align:right}
+
+/* The site ships no JavaScript, so the domain filter is not a control — each
+   domain is its own static page. That also gives a crawler three real URLs
+   instead of one page it would have to run script to see. */
+.arch-filter{display:flex;flex-wrap:wrap;gap:1.1rem;margin:1.2rem 0 0;
+font-family:var(--mono);font-size:.68rem;text-transform:uppercase;
+letter-spacing:.1em}
+.arch-filter a{color:var(--muted);text-decoration:none;padding-bottom:2px;
+border-bottom:1px solid transparent}
+.arch-filter a:hover,.arch-filter a:focus-visible{color:var(--ink);border-bottom-color:var(--ink)}
+.arch-filter a[aria-current]{color:var(--ink);border-bottom-color:var(--backed)}
 
 table.arch{width:100%;border-collapse:collapse;font-size:.96rem}
 table.arch td{padding:.85rem 0;border-bottom:1px solid var(--rule);vertical-align:top}
@@ -331,9 +378,12 @@ font-family:var(--sans);font-size:.8rem;color:var(--muted);line-height:1.6}
 footer.site p{margin:0 0 .7rem}
 footer.site a{color:var(--ink)}
 
+@media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
+.ed-nav{flex-direction:column;gap:1.2rem}
+.ed-nav .next{margin-left:0;text-align:left}
 .trend-row{grid-template-columns:1fr;gap:.25rem}
 .tierlist li{grid-template-columns:1fr}
 .tierlist li::before{padding-top:0}
@@ -761,7 +811,19 @@ function editionJsonLd(cfg: SiteConfig, e: Edition): unknown {
   };
 }
 
-export function renderEdition(cfg: SiteConfig, e: Edition, hasAlt: boolean): string {
+/** The editions either side of this one, newest-first order: `newer` ran the
+ *  day after, `older` the day before. Either may be absent at the ends. */
+export interface EditionNeighbours {
+  newer?: Edition;
+  older?: Edition;
+}
+
+export function renderEdition(
+  cfg: SiteConfig,
+  e: Edition,
+  hasAlt: boolean,
+  neighbours: EditionNeighbours = {},
+): string {
   const s = STRINGS[e.lang];
 
   // The longitudinal view rides the right margin rather than sitting at the
@@ -830,6 +892,24 @@ ${e.sources.map(
 </ol>
 </article>
 
+${
+    (neighbours.older || neighbours.newer) &&
+    html`<nav class="ed-nav" aria-label="${s.archiveTitle}">
+${
+      neighbours.older &&
+      html`<a class="prev" href="${url(cfg, editionPath(neighbours.older.lang, neighbours.older.slug))}"><span class="lbl">← ${
+        s.prevEdition
+      }</span>${formatDate(neighbours.older.date, neighbours.older.lang)}</a>`
+    }
+${
+      neighbours.newer &&
+      html`<a class="next" href="${url(cfg, editionPath(neighbours.newer.lang, neighbours.newer.slug))}"><span class="lbl">${
+        s.nextEdition
+      } →</span>${formatDate(neighbours.newer.date, neighbours.newer.lang)}</a>`
+    }
+</nav>`
+  }
+
 ${subscribeBlock(cfg, e.lang)}`;
 
   const other: Lang = e.lang === "id" ? "en" : "id";
@@ -871,7 +951,7 @@ ${subscribeBlock(cfg, lang)}`,
   // its sources. Nothing is lost: the summary still opens the edition itself
   // under its own heading.
   const lead = latest.signals?.[0];
-  const cards = rest.slice(0, 12).map(
+  const cards = rest.slice(0, 6).map(
     (e) => html`<div class="card">
 <div class="d">${formatDate(e.date, e.lang)}</div>
 <h3><a href="${url(cfg, editionPath(e.lang, e.slug))}">${e.title}</a></h3>
@@ -971,9 +1051,41 @@ ${subscribeBlock(cfg, lang)}`;
   });
 }
 
-export function renderArchive(cfg: SiteConfig, editions: Edition[], lang: Lang): string {
+/**
+ * The archive.
+ *
+ * This is the product's spine: the about page promises every edition is
+ * permanent and citable, so this page carries the most weight over time and
+ * had the least structure — a flat table that reads fine at thirty rows and
+ * becomes unusable at three hundred.
+ *
+ * Two changes. Editions group under the month they belong to, so a reader
+ * scanning for "sometime in July" has somewhere to land. And because the site
+ * ships no JavaScript, narrowing by domain is not a control but three more
+ * static pages, each a real URL a crawler and a bookmark can both hold.
+ */
+export function renderArchive(
+  cfg: SiteConfig,
+  editions: Edition[],
+  lang: Lang,
+  domain?: Domain,
+): string {
   const s = STRINGS[lang];
-  const rows = editions.map(
+  const shown = domain ? editions.filter((e) => e.domains.includes(domain)) : editions;
+
+  // Editions arrive newest first and stay that way; grouping must not reorder
+  // them, only insert a heading when the month changes.
+  const months: { key: string; label: string; rows: Edition[] }[] = [];
+  for (const e of shown) {
+    const key = e.date.slice(0, 7);
+    if (months.at(-1)?.key !== key) {
+      const [y, m] = key.split("-").map(Number);
+      months.push({ key, label: `${MONTHS[lang][m - 1]} ${y}`, rows: [] });
+    }
+    months.at(-1)!.rows.push(e);
+  }
+
+  const table = (rows: Edition[]) => html`<table class="arch">${rows.map(
     (e) => html`<tr>
 <td class="d">${formatDate(e.date, e.lang)}</td>
 <td><a href="${url(cfg, editionPath(e.lang, e.slug))}">${e.title}</a>
@@ -981,20 +1093,41 @@ export function renderArchive(cfg: SiteConfig, editions: Edition[], lang: Lang):
       e.sources.length,
     )}</div></td>
 </tr>`,
-  );
+  )}</table>`;
 
-  const body = html`<h1>${s.archiveTitle}</h1>
-<p class="dek">${s.archiveIntro}</p>
-<p class="meta">${s.editionsCount(editions.length)}</p>
-${editions.length > 0 ? html`<table class="arch">${rows}</table>` : html`<p>${s.noEditions}</p>`}`;
+  const filter = html`<nav class="arch-filter" aria-label="${s.archiveTitle}">
+<a href="${url(cfg, archivePath(lang))}"${!domain && raw(' aria-current="page"')}>${
+    s.archiveAllDomains
+  }</a>
+${ARCHIVE_DOMAINS.map(
+  (d) => html`<a href="${url(cfg, archivePath(lang, d))}"${
+    domain === d && raw(' aria-current="page"')
+  }>${DOMAIN_SHORT[lang][d]}</a>`,
+)}
+</nav>`;
+
+  const label = DOMAIN_LABELS[lang][domain ?? "ai"];
+  const title = domain ? s.archiveDomainTitle(label) : s.archiveTitle;
+  const intro = domain ? s.archiveDomainIntro(label) : s.archiveIntro;
+
+  const body = html`<h1>${title}</h1>
+<p class="dek">${intro}</p>
+${filter}
+<p class="meta">${s.editionsCount(shown.length)}</p>
+${
+    shown.length > 0
+      ? months.map((m) => html`<h2>${m.label}</h2>
+${table(m.rows)}`)
+      : html`<p>${s.noEditions}</p>`
+  }`;
 
   return page({
     cfg,
     lang,
-    title: `${s.archiveTitle} — ${cfg.siteName}`,
-    description: s.archiveIntro,
-    path: archivePath(lang),
-    altPath: archivePath(lang === "id" ? "en" : "id"),
+    title: `${title} — ${cfg.siteName}`,
+    description: intro,
+    path: archivePath(lang, domain),
+    altPath: archivePath(lang === "id" ? "en" : "id", domain),
     body,
   });
 }
@@ -1035,6 +1168,9 @@ export function renderSitemap(cfg: SiteConfig, editions: Edition[]): string {
   for (const lang of cfg.languages) {
     entries.push({ loc: absUrl(cfg, homePath(lang)), lastmod: newest });
     entries.push({ loc: absUrl(cfg, archivePath(lang)), lastmod: newest });
+    for (const d of ARCHIVE_DOMAINS) {
+      entries.push({ loc: absUrl(cfg, archivePath(lang, d)), lastmod: newest });
+    }
     entries.push({ loc: absUrl(cfg, aboutPath(lang)) });
   }
   for (const e of editions) {

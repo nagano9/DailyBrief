@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 import {
+  ARCHIVE_DOMAINS,
   archivePath,
   editionPath,
   feedPath,
@@ -179,16 +180,31 @@ function main() {
     const other: Lang = lang === "id" ? "en" : "id";
     const otherDates = new Set(byLang.get(other)!.map((e) => e.slug));
 
-    for (const e of editions) {
-      write(outFile(editionPath(lang, e.slug)), renderEdition(cfg, e, otherDates.has(e.slug)));
+    // `editions` is newest first, so the entry before an edition in the array
+    // is the day after it. Passing both ends lets a reader walk the archive
+    // day by day instead of returning to the index between every step.
+    for (const [i, e] of editions.entries()) {
+      write(
+        outFile(editionPath(lang, e.slug)),
+        renderEdition(cfg, e, otherDates.has(e.slug), {
+          newer: editions[i - 1],
+          older: editions[i + 1],
+        }),
+      );
       pages++;
     }
     write(outFile(homePath(lang)), renderHome(cfg, editions, lang));
     write(outFile(archivePath(lang)), renderArchive(cfg, editions, lang));
+    for (const d of ARCHIVE_DOMAINS) {
+      write(outFile(archivePath(lang, d)), renderArchive(cfg, editions, lang, d));
+      pages++;
+    }
     write(outFile(aboutPath(lang)), renderAbout(cfg, lang));
     write(outFile(feedPath(lang)), renderFeed(cfg, editions, lang));
     pages += 4;
-    console.log(`[site] ${lang}: ${editions.length} editions + home + archive + about + feed`);
+    console.log(
+      `[site] ${lang}: ${editions.length} editions + home + archive (+${ARCHIVE_DOMAINS.length} by domain) + about + feed`,
+    );
   }
 
   const all = LANGS.flatMap((l) => byLang.get(l)!);

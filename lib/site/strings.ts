@@ -12,6 +12,14 @@ export interface Strings {
   archiveTitle: string;
   archiveIntro: string;
   allEditions: string;
+  /** Foot-of-edition navigation to the neighbouring days. */
+  prevEdition: string;
+  nextEdition: string;
+  /** Archive filtering. The site ships no JavaScript, so each domain is its
+      own static page rather than a control. */
+  archiveAllDomains: string;
+  archiveDomainTitle: (domain: string) => string;
+  archiveDomainIntro: (domain: string) => string;
   summary: string;
   signals: string;
   whatChanged: string;
@@ -92,6 +100,12 @@ export const STRINGS: Record<Lang, Strings> = {
     archiveTitle: "Arsip edisi",
     archiveIntro: "Seluruh edisi, terbaru lebih dulu. Setiap edisi permanen dan dapat dirujuk.",
     allEditions: "Semua edisi",
+    prevEdition: "Edisi sebelumnya",
+    nextEdition: "Edisi berikutnya",
+    archiveAllDomains: "Semua domain",
+    archiveDomainTitle: (d) => `Arsip: ${d}`,
+    archiveDomainIntro: (d) =>
+      `Edisi yang memuat sinyal ${d}, terbaru lebih dulu.`,
     summary: "Ringkasan",
     signals: "Lima sinyal hari ini",
     whatChanged: "Yang berubah",
@@ -204,6 +218,11 @@ export const STRINGS: Record<Lang, Strings> = {
     archiveTitle: "Edition archive",
     archiveIntro: "Every edition, newest first. Each one is permanent and citable.",
     allEditions: "All editions",
+    prevEdition: "Previous edition",
+    nextEdition: "Next edition",
+    archiveAllDomains: "All domains",
+    archiveDomainTitle: (d) => `Archive: ${d}`,
+    archiveDomainIntro: (d) => `Editions carrying a ${d} signal, newest first.`,
     summary: "Summary",
     signals: "Today's five signals",
     whatChanged: "What changed",
