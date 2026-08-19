@@ -5,6 +5,7 @@ import path from "node:path";
 
 import { countByDomain, countByTier, enabledSources } from "../lib/brief/registry";
 import { fetchAll } from "../lib/brief/fetch";
+import { deepenPrimarySources } from "../lib/brief/deepen";
 import { composeEdition } from "../lib/brief/compose";
 import { recordSignals } from "../lib/brief/memory";
 import { finish } from "../lib/brief/shutdown";
@@ -108,6 +109,10 @@ async function main() {
           `refusing to publish on this little evidence`,
       );
     }
+
+    // Read the primary sources in full before composing. Non-fatal: a
+    // briefing from titles beats no briefing.
+    await deepenPrimarySources(items);
 
     fs.mkdirSync(CACHE_DIR, { recursive: true });
     fs.writeFileSync(cachePath, JSON.stringify({ date, items }, null, 2), "utf8");

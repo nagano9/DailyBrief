@@ -6,6 +6,7 @@ import { runLlm, getModelTag } from "../ai/llm";
 import { extractJson } from "../ai/json-util";
 import { systemPrompt, userPrompt, type CandidateLine } from "./prompt";
 import { loadProfile } from "./profile";
+import { publisherTier } from "./publishers";
 import {
   classifySignal,
   loadHistory,
@@ -57,11 +58,47 @@ function fmtDate(d?: Date): string {
   return d.toISOString().slice(0, 10);
 }
 
+/**
+ * Publisher-tier-3 items are held back unless the pool would otherwise run
+ * short.
+ *
+ * Ranking already pushed the long tail down the ordering, but the cap still
+ * admitted some — and once an item is in the pool the model treats every
+ * candidate as equal. That is how a price-comparison site with an
+ * auto-generated news section ended up cited beside Bloomberg and OpenAI,
+ * supplying the most dramatic sentence in the edition.
+ *
+ * Held back, not banned: if a thin day leaves too few known publishers, a
+ * smaller pool would hurt more than a weaker one.
+ */
+function preferKnownPublishers(items: FeedItem[], cap: number): FeedItem[] {
+  const known = items.filter((i) => publisherTier(i.publisher) <= 2);
+  if (known.length >= cap) return known.slice(0, cap);
+  const rest = items.filter((i) => publisherTier(i.publisher) === 3);
+  return [...known, ...rest].slice(0, cap);
+}
+
+/**
+ * Put the primary sources we read in full at the front.
+ *
+ * Round-robin across sources spreads any one source's items across many
+ * rounds, so OpenAI's third item landed at position 73 of 110 — carrying, in
+ * its body, the most consequential fact available that day. The model saw it
+ * and weighed it against 72 headlines ahead of it.
+ *
+ * These are the highest-value candidates by construction: an institution
+ * publishing about itself, read to the end. Ordering is stable, so the
+ * existing credibility ranking still decides everything within each group.
+ */
+function fullTextFirst(items: FeedItem[]): FeedItem[] {
+  return [...items.filter((i) => i.body), ...items.filter((i) => !i.body)];
+}
+
 export function buildCandidates(items: FeedItem[]): {
   lines: CandidateLine[];
   pool: FeedItem[];
 } {
-  const pool = items.slice(0, CANDIDATE_LIMIT);
+  const pool = fullTextFirst(preferKnownPublishers(items, CANDIDATE_LIMIT));
   const lines = pool.map((it, i) => ({
     index: i + 1,
     publisher: it.publisher,
@@ -70,6 +107,7 @@ export function buildCandidates(items: FeedItem[]): {
     tier: it.tier,
     domain: it.domain,
     excerpt: it.excerpt?.slice(0, 180),
+    body: it.body,
   }));
   return { lines, pool };
 }
@@ -197,6 +235,13 @@ function resolveSignals(v: unknown, pool: FeedItem[]): ResolvedSignals {
     for (const n of unique) cited.add(n);
     const backing = unique.map((n) => pool[n - 1]);
 
+    // Optional, and usually absent. The second-order read is normally our
+    // inference, and leaving it uncited is what tells a reader so.
+    const secondOrder = (Array.isArray(s.secondOrderCites) ? s.secondOrderCites : [])
+      .map((n) => (typeof n === "number" ? n : Number.parseInt(String(n), 10)))
+      .filter((n) => Number.isInteger(n) && n >= 1 && n <= pool.length);
+    for (const n of secondOrder) cited.add(n);
+
     const domainRaw = str(s.domain);
     const domain = VALID_DOMAINS.has(domainRaw) ? (domainRaw as Domain) : backing[0].domain;
     const strength = STRENGTHS.has(s.strength as SignalStrength)
@@ -214,6 +259,10 @@ function resolveSignals(v: unknown, pool: FeedItem[]): ResolvedSignals {
       action: str(s.action),
       strength,
       sourceUrls: backing.map((b) => b.url),
+      secondOrderUrls: [...new Set(secondOrder)].map((n) => pool[n - 1].url),
+      // Computed from the FACT citations only. Corroboration answers "is this
+      // true", and a source cited for a downstream inference says nothing
+      // about that.
       corroboration: corroborate(backing),
     });
   }

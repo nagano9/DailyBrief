@@ -142,7 +142,8 @@ Kembalikan SATU objek JSON valid, tanpa markdown, tanpa teks lain:
       "secondOrder": "Akibat dari akibat.",
       "action": "Tindakan konkret minggu ini.",
       "strength": "material",
-      "cites": [3, 12]
+      "cites": [3, 12],
+      "secondOrderCites": []
     }
   ],
   "watchNext": [
@@ -161,7 +162,16 @@ Ketentuan:
     buruk  : "nvidia-umumkan-jaminan-10-miliar-hari-selasa" (terlalu spesifik,
              tidak akan pernah cocok lagi)
 - "strength": material (fakta yang sudah pasti) | emerging (sinyal awal) | actionable (menuntut keputusan)
-- "cites": WAJIB, minimal satu nomor kandidat per sinyal
+- "cites": WAJIB. Kandidat yang mendukung "whatChanged" — FAKTANYA saja.
+  Jangan memasukkan sumber yang hanya mendukung penafsiran Anda. Kutipan di
+  sini menentukan penilaian kekuatan bukti, jadi mencampurkan sumber lemah
+  akan meminjamkan otoritas sumber kuat kepada klaim yang tidak didukungnya.
+- "secondOrderCites": OPSIONAL, biasanya kosong. Isi hanya bila "secondOrder"
+  bersandar pada sesuatu yang benar-benar diterbitkan, bukan pada inferensi
+  Anda. Membiarkannya kosong adalah cara menandai bahwa itu pembacaan Anda.
+- Bila sebuah kandidat menyertakan FULL TEXT, itu sumber primer yang terbaca
+  utuh. Baca sampai habis: fakta paling penting sering terkubur beberapa
+  paragraf di dalam, di bawah judul yang membosankan.
 - "watchNext": 3-5 butir; "dueDate" YYYY-MM-DD, hilangkan bila sumber tidak menyiratkan tanggal
 
 
@@ -190,7 +200,8 @@ Return ONE valid JSON object, no markdown, no other text:
       "secondOrder": "The effect of the effect.",
       "action": "A concrete move this week.",
       "strength": "material",
-      "cites": [3, 12]
+      "cites": [3, 12],
+      "secondOrderCites": []
     }
   ],
   "watchNext": [
@@ -209,7 +220,16 @@ Rules:
     bad  : "nvidia-announces-10bn-guarantee-tuesday" (too specific; will never
            match again)
 - "strength": material (established fact) | emerging (early signal) | actionable (forces a decision)
-- "cites": REQUIRED, at least one candidate number per signal
+- "cites": REQUIRED. The candidates supporting "whatChanged" — the FACT
+  only. Do not include sources that merely support your interpretation.
+  These citations drive the evidence-strength grading, so mixing a weak
+  source in lends the strong one's authority to a claim it never made.
+- "secondOrderCites": OPTIONAL, usually empty. Fill it only when
+  "secondOrder" rests on something actually published rather than on your
+  inference. Leaving it empty is how a reader can tell the reading is yours.
+- When a candidate includes FULL TEXT, it is a primary source read in full.
+  Read to the end: the fact that matters most is often buried several
+  paragraphs down, under a dull headline.
 - "watchNext": 3-5 entries; "dueDate" as YYYY-MM-DD, omit when sources imply none
 
 
@@ -264,6 +284,8 @@ export interface CandidateLine {
   tier: number;
   domain: Domain;
   excerpt?: string;
+  /** Body text, present only for primary sources that were read in full. */
+  body?: string;
 }
 
 export function userPrompt(

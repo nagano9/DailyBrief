@@ -52,7 +52,10 @@ export interface Strings {
   trendStatus: Record<TrendStatus, string>;
   /** e.g. "3 publishers · primary source" */
   corroboration: (publishers: number, hasPrimary: boolean) => string;
-  thinEvidence: string;
+  /** Shown whenever no cited source is primary, however many outlets carried it. */
+  noPrimarySource: string;
+  /** Labels the citations under the second-order rung. */
+  secondOrderSources: string;
   trendSince: (n: number, since: string) => string;
   methodology: string;
   methodologyBody: string;
@@ -150,7 +153,8 @@ export const STRINGS: Record<Lang, Strings> = {
     trendStatus: { new: "Baru", recurring: "Berulang", structural: "Struktural" },
     corroboration: (publishers, hasPrimary) =>
       `${publishers} penerbit${hasPrimary ? " · ada sumber primer" : ""}`,
-    thinEvidence: "bukti masih tipis",
+    noPrimarySource: "tanpa sumber primer",
+    secondOrderSources: "dasar",
     trendSince: (n, since) => `${n}x sejak ${since}`,
     methodology: "Metodologi",
     methodologyBody:
@@ -248,7 +252,8 @@ export const STRINGS: Record<Lang, Strings> = {
     trendStatus: { new: "New", recurring: "Recurring", structural: "Structural" },
     corroboration: (publishers, hasPrimary) =>
       `${publishers} publisher${publishers === 1 ? "" : "s"}${hasPrimary ? " · primary source" : ""}`,
-    thinEvidence: "evidence is thin",
+    noPrimarySource: "no primary source",
+    secondOrderSources: "basis",
     trendSince: (n, since) => `${n}x since ${since}`,
     methodology: "Methodology",
     methodologyBody:

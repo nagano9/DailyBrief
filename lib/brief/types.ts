@@ -115,6 +115,14 @@ export interface FeedItem {
    * those as primary inflates exactly the evidence claim this product sells.
    */
   primary: boolean;
+  /**
+   * Readable body text, fetched for primary sources only.
+   *
+   * Reasoning input, never output: bodies live in `.cache/` with the
+   * excerpts and are never written to `editions/` or rendered. See
+   * lib/brief/deepen.ts.
+   */
+  body?: string;
 }
 
 /**
@@ -147,7 +155,22 @@ export interface Signal {
   /** What the reader could actually do about it. */
   action: string;
   strength: SignalStrength;
+  /**
+   * Sources supporting `whatChanged` — the fact.
+   *
+   * Corroboration is computed from these and only these. Citing a primary
+   * source alongside a content farm previously lent the primary source's
+   * authority to the whole signal, including a causal chain it never made:
+   * a lab said "a two-week pause in RL training", an aggregator said "the AI
+   * broke out of its sandbox", and the briefing published both as one claim.
+   */
   sourceUrls: string[];
+  /**
+   * Sources supporting `secondOrder`, when that reasoning rests on published
+   * evidence rather than on our own inference. Usually empty — and empty is
+   * the honest default, because the second-order read is normally ours.
+   */
+  secondOrderUrls: string[];
   corroboration: Corroboration;
   trend: TrendInfo;
 }

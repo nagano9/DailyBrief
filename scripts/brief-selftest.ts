@@ -70,7 +70,10 @@ function fixture(lang: Lang, poolSize: number): string {
     signals: [
       // Two distinct sources → corroboration must count 2 publishers.
       sig(1, "ai", "ai-agents-enterprise", "Agen AI bergerak ke produksi perusahaan", [1, 2]),
-      sig(2, "energy", "pln-grid-investment", "Investasi jaringan listrik dipercepat", [3]),
+      // Second-order reasoning that rests on published evidence, not inference.
+      sig(2, "energy", "pln-grid-investment", "Investasi jaringan listrik dipercepat", [3], {
+        secondOrderCites: [6],
+      }),
       // Same theme as the seeded archive, but a HEADLINE THAT SHARES ALMOST NO
       // WORDS with any seeded one. Only the themeKey ties them together.
       sig(3, "ai", THEME, "Vendor chip menanggung eksposur pembiayaan infrastruktur", [4]),
@@ -233,6 +236,26 @@ async function main() {
 
     // Tier 4
     check("corroboration counts distinct publishers", edition.signals[0].corroboration.publishers >= 1);
+    check(
+      "second-order citations resolve separately from the fact ones",
+      edition.signals[1].secondOrderUrls.length === 1 &&
+        !edition.signals[1].sourceUrls.includes(edition.signals[1].secondOrderUrls[0]),
+    );
+    check(
+      "signals without second-order evidence leave it empty",
+      edition.signals[0].secondOrderUrls.length === 0,
+    );
+    check(
+      "corroboration ignores second-order citations",
+      // Signal 2 cites one fact source; adding a second-order citation must
+      // not inflate the publisher count that grades the claim.
+      edition.signals[1].corroboration.publishers === 1,
+    );
+    check(
+      "no source body is ever written into a published edition",
+      !JSON.stringify(edition).includes("FULL TEXT") &&
+        edition.sources.every((src) => !("body" in src)),
+    );
     check(
       "corroboration is computed, not claimed",
       edition.signals.every((s) => typeof s.corroboration.hasPrimary === "boolean"),

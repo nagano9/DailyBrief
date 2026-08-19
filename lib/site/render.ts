@@ -363,7 +363,9 @@ ${form}
  */
 function citationLinks(e: Edition, urls: string[]): Html {
   const idx = new Map(e.sources.map((src, i) => [src.url, i + 1]));
-  const nums = urls.map((u) => idx.get(u)).filter((n): n is number => !!n);
+  const nums = [...new Set(urls.map((u) => idx.get(u)).filter((n): n is number => !!n))].sort(
+    (a, b) => a - b,
+  );
   if (nums.length === 0) return html``;
   // "link, 1" is what a screen reader announces without a label. WCAG 2.4.4.
   const label = STRINGS[e.lang].citationLabel;
@@ -384,11 +386,25 @@ function renderSignal(e: Edition, sig: Signal): Html {
       t.firstSeen,
     )}</span>`;
 
-  const rung = (label: string, value: string, cls = "") =>
-    value && html`<div class="rung ${cls}"><dt>${label}</dt><dd>${value}</dd></div>`;
+  // Citations belong under the rung they support. `whatChanged` is the fact
+  // and carries the evidence; the rungs below it are our reading, and showing
+  // them uncited is the honest signal that they are.
+  const rung = (label: string, value: string, cls = "", cites?: string[]) =>
+    value &&
+    html`<div class="rung ${cls}"><dt>${label}</dt><dd>${value}${
+      cites && cites.length > 0 ? html` ${citationLinks(e, cites)}` : ""
+    }</dd></div>`;
 
   const c = sig.corroboration;
-  const thin = c.publishers < 2 && !c.hasPrimary;
+  // The previous caveat required a single-publisher claim with no primary
+  // source, and fired on 0 of 5 signals in the first real edition — while the
+  // day's lead story, hundreds of trillions of rupiah of state debt, rested
+  // on six press citations and no primary source at all. The reader saw
+  // "5 penerbit", which reads as strength.
+  //
+  // Five outlets carrying one statement is correlation, not corroboration.
+  // So the absence of a primary source is now stated outright, whatever the
+  // publisher count.
 
   return html`<article class="signal">
 <div class="head"><span class="rank" aria-hidden="true">${sig.rank}</span><h3>${sig.headline}</h3></div>
@@ -398,14 +414,14 @@ function renderSignal(e: Edition, sig: Signal): Html {
 ${trendBadge}
 </div>
 <dl class="ladder">
-${rung(s.whatChanged, sig.whatChanged)}
+${rung(s.whatChanged, sig.whatChanged, "", sig.sourceUrls)}
 ${rung(s.whyItMatters, sig.whyItMatters)}
-${rung(s.secondOrder, sig.secondOrder)}
+${rung(s.secondOrder, sig.secondOrder, "", sig.secondOrderUrls)}
 ${rung(s.action, sig.action, "act")}
 </dl>
 <div class="corrob">
 <span>${s.corroboration(c.publishers, c.hasPrimary)}</span>
-${thin && html`<span class="thin">· ${s.thinEvidence}</span>`}
+${!c.hasPrimary && html`<span class="thin">· ${s.noPrimarySource}</span>`}
 ${citationLinks(e, sig.sourceUrls)}
 </div>
 </article>`;
