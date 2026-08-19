@@ -48,6 +48,19 @@ export const DOMAIN_LABELS: Record<Lang, Record<Domain, string>> = {
  *   3 — emerging signal. Papers, releases, technical communities. Early and
  *       noisy by construction; weighted accordingly.
  */
+/**
+ * Short forms, for use as labels.
+ *
+ * The full names read correctly in prose and in structured data, but three of
+ * them in a row — each containing its own comma — collapse into an unreadable
+ * run. A label has to survive being set at 11px in uppercase beside two
+ * others.
+ */
+export const DOMAIN_SHORT: Record<Lang, Record<Domain, string>> = {
+  id: { ai: "AI & Model Frontier", energy: "Energi & Kelistrikan", corporate: "Korporasi & BUMN" },
+  en: { ai: "AI & Frontier Models", energy: "Energy & Power", corporate: "Corporate & SOE" },
+};
+
 export type SourceTier = 1 | 2 | 3;
 
 export type SourceType = "rss" | "gnews" | "arxiv" | "github-releases" | "hn";

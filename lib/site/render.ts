@@ -1,4 +1,4 @@
-import { DOMAIN_LABELS, type Edition, type Lang, type Signal } from "../brief/types";
+import { DOMAIN_LABELS, DOMAIN_SHORT, type Edition, type Lang, type Signal } from "../brief/types";
 import { STRINGS } from "./strings";
 import { esc, html, jsonLdScript, raw, type Html } from "./html";
 
@@ -118,146 +118,188 @@ function csp(cfg: SiteConfig): string {
 }
 
 const CSS = `
+/* ---------------------------------------------------------------------------
+   Colour is reserved for evidence.
+   ---------------------------------------------------------------------------
+   Everything here is greyscale except one thing: whether a claim is backed by
+   a primary source. Domain, strength and trend are set in weight and tracking
+   instead. On a product whose whole pitch is that you can check it, a colour
+   meaning "trust this" earns its place; a colour meaning "this one is about
+   energy" does not, and would compete with it.
+   ------------------------------------------------------------------------- */
 :root{color-scheme:light dark;
---paper:#fbfaf8;--ink:#16181d;--muted:#5c6270;--rule:#e5e2dc;--card:#ffffff;
---accent:#0d5c4d;--accent-soft:#e6f1ee;
---ai:#3b4f9e;--energy:#0d5c4d;--corporate:#7a3f6d;
---structural:#a13224;--recurring:#8a5f18;}
+--paper:#f6f7f6;--ink:#191c1b;--muted:#5d6663;--faint:#66706d;
+--rule:#dde1df;--rule-strong:#b9c1be;--card:#fdfdfd;
+--backed:#0f5c4d;--unbacked:#9c4221;
+--measure:44rem;--wide:56rem;
+--serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+--mono:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono",Consolas,monospace;
+--sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 @media (prefers-color-scheme:dark){:root{
---paper:#101215;--ink:#e8e6e1;--muted:#98a0ac;--rule:#262a31;--card:#171a1f;
---accent:#57bda6;--accent-soft:#122b26;
---ai:#8fa2ea;--energy:#57bda6;--corporate:#c78fb8;
---structural:#e08272;--recurring:#d9a441;}}
+--paper:#101312;--ink:#e6e9e7;--muted:#949d9a;--faint:#7d8683;
+--rule:#252a28;--rule-strong:#39413e;--card:#171b1a;
+--backed:#5cbfa8;--unbacked:#e08a63}}
+
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);
-font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-font-feature-settings:"kern","liga";}
+font:1.0625rem/1.62 var(--serif);
+font-feature-settings:"kern","liga";text-rendering:optimizeLegibility}
 a{color:inherit}
-.wrap{max-width:44rem;margin:0 auto;padding:0 1.5rem}
-.wrap-wide{max-width:56rem;margin:0 auto;padding:0 1.5rem}
+:focus-visible{outline:2px solid var(--backed);outline-offset:2px}
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 1.5rem}
+.wrap-wide{max-width:var(--wide);margin:0 auto;padding:0 1.5rem}
 
-.skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:#fff;
-padding:.6rem 1rem;z-index:10;text-decoration:none;border-radius:0 0 4px 0}
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--paper);
+padding:.6rem 1rem;z-index:10;text-decoration:none;font-family:var(--sans);font-size:.85rem}
 .skip:focus{left:0}
 
-header.site{border-bottom:1px solid var(--rule);padding:1.1rem 0;margin-bottom:2.5rem}
-header.site .row{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-.brand{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-size:1.18rem;
-font-weight:600;letter-spacing:-.01em;text-decoration:none}
-.brand span{color:var(--accent)}
-nav.site{display:flex;gap:1.15rem;font-size:.85rem;color:var(--muted)}
-nav.site a{text-decoration:none}
-nav.site a:hover,nav.site a:focus{color:var(--accent)}
+header.site{border-bottom:1px solid var(--rule-strong);padding:1rem 0;margin-bottom:2.75rem}
+header.site .row{display:flex;align-items:baseline;justify-content:space-between;
+gap:1rem;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-size:1.1rem;font-weight:600;text-decoration:none}
+nav.site{display:flex;gap:1.1rem;font-family:var(--mono);font-size:.72rem;
+text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+nav.site a{text-decoration:none;padding-bottom:1px;border-bottom:1px solid transparent}
+nav.site a:hover,nav.site a:focus-visible{color:var(--ink);border-bottom-color:var(--ink)}
 
-h1,h3{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
-letter-spacing:-.015em;line-height:1.24;margin:0}
-h1{font-size:2.05rem;font-weight:600}
-h2{font-size:.82rem;font-weight:600;text-transform:uppercase;letter-spacing:.09em;
-color:var(--muted);margin:2.8rem 0 1rem;padding-bottom:.4rem;
-border-bottom:1px solid var(--rule)}
-h3{font-size:1.12rem;font-weight:600}
-p{margin:0 0 1rem}
-.dek{font-size:1.14rem;line-height:1.5;color:var(--muted);margin:.85rem 0 0}
-.meta{font-size:.82rem;color:var(--muted);display:flex;gap:.6rem;align-items:center;
-flex-wrap:wrap;margin-top:1.1rem}
+h1{font-family:var(--serif);font-size:2rem;font-weight:600;line-height:1.2;
+letter-spacing:-.012em;margin:0}
+h2{font-family:var(--mono);font-size:.7rem;font-weight:500;text-transform:uppercase;
+letter-spacing:.14em;color:var(--muted);margin:3rem 0 1.1rem;
+padding-bottom:.5rem;border-bottom:1px solid var(--rule)}
+h3{font-family:var(--serif);font-size:1.1rem;font-weight:600;line-height:1.3;margin:0}
+p{margin:0 0 1.05rem}
+.dek{font-size:1.12rem;line-height:1.5;color:var(--muted);margin:.8rem 0 0}
 
-.badge{display:inline-block;font-size:.68rem;font-weight:600;letter-spacing:.06em;
-text-transform:uppercase;padding:.18rem .5rem;border-radius:3px;white-space:nowrap;
-background:var(--accent-soft);color:var(--accent)}
-.dom{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;
-padding:.18rem .5rem;border-radius:3px;border:1px solid currentColor;white-space:nowrap}
-.dom.ai{color:var(--ai)}.dom.energy{color:var(--energy)}.dom.corporate{color:var(--corporate)}
-.trend{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;
-padding:.18rem .5rem;border-radius:3px;border:1px solid currentColor;white-space:nowrap;color:var(--muted)}
-.trend.structural{color:var(--structural)}
-.trend.recurring{color:var(--recurring)}
+/* The funnel: what the radar actually did today. Four hundred candidates in,
+   five signals out. That ratio is the product, so it opens the page. */
+.funnel{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;
+color:var(--muted);margin:.5rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem;
+align-items:baseline}
+.funnel b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.funnel .arrow,.meta .arrow{color:var(--faint)}
 
-.signal{border-top:1px solid var(--rule);padding:1.6rem 0}
-.signal:first-of-type{border-top:0;padding-top:.5rem}
-.signal .head{display:flex;gap:.75rem;align-items:baseline;margin-bottom:.5rem}
-.signal .rank{font-family:Georgia,serif;font-size:1.6rem;line-height:1;color:var(--muted);
-flex:none;min-width:1.4rem}
-.signal .tags{display:flex;gap:.4rem;flex-wrap:wrap;margin:.55rem 0 1rem}
-.rung{display:grid;grid-template-columns:8.5rem 1fr;gap:.9rem;padding:.55rem 0;
-border-top:1px dotted var(--rule)}
-.rung:first-of-type{border-top:0}
-.rung dt{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;
-color:var(--muted);padding-top:.22rem}
+.meta{font-family:var(--mono);font-size:.72rem;color:var(--muted);display:flex;
+gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04em}
+
+.tag{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.12em;color:var(--muted);white-space:nowrap}
+.tag.strong{color:var(--ink);font-weight:600}
+.tag.rule{border:1px solid var(--rule-strong);padding:.15rem .45rem}
+
+/* ---------------------------------------------------------------------------
+   The signal, and its evidence spine.
+   ---------------------------------------------------------------------------
+   One vertical rule runs down each signal: SOLID beside the rung carrying
+   sourced fact, DASHED beside the rungs carrying our reading. A reader sees,
+   rather than infers, where evidence stops and interpretation starts — the
+   distinction this whole product rests on, and the one the previous design
+   erased by rendering all four rungs identically.
+   ------------------------------------------------------------------------- */
+.signal{padding:2rem 0 1.75rem;border-top:1px solid var(--rule)}
+.signal:first-of-type{border-top:0;padding-top:.75rem}
+.signal .head{display:flex;gap:.9rem;align-items:baseline;margin-bottom:.6rem}
+.signal .rank{font-family:var(--mono);font-size:.8rem;color:var(--faint);
+flex:none;min-width:1.5rem;padding-top:.2rem;font-variant-numeric:tabular-nums}
+.signal .tags{display:flex;gap:.9rem;flex-wrap:wrap;margin:.6rem 0 1.2rem;
+padding-left:2.4rem}
+
+dl.ladder{margin:0;padding-left:2.4rem}
+.rung{display:grid;grid-template-columns:7.5rem 1fr;gap:1rem;
+padding:.6rem 0 .6rem 1.1rem;border-left:2px dashed var(--rule-strong)}
+.rung.sourced{border-left-style:solid;border-left-color:var(--ink)}
+.rung dt{font-family:var(--mono);font-size:.66rem;font-weight:500;
+text-transform:uppercase;letter-spacing:.11em;color:var(--muted);padding-top:.3rem}
+.rung.sourced dt{color:var(--ink)}
 .rung dd{margin:0}
 .rung.act dd{font-weight:600}
-dl.ladder{margin:0}
-.corrob{font-size:.78rem;color:var(--muted);margin-top:.8rem;
-display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
-.corrob .thin{color:var(--structural)}
-.cites a{color:var(--accent);text-decoration:none;margin-right:.45rem;font-size:.78rem}
-.cites a:hover,.cites a:focus{text-decoration:underline}
+
+.corrob{font-family:var(--mono);font-size:.72rem;margin-top:1.1rem;
+margin-left:2.4rem;display:flex;gap:.55rem;align-items:baseline;flex-wrap:wrap;
+letter-spacing:.04em;padding-left:1.1rem}
+.corrob .backed{color:var(--backed);font-weight:600}
+.corrob .unbacked{color:var(--unbacked);font-weight:600}
+.cites a{color:var(--muted);text-decoration:none;margin-right:.4rem;
+font-variant-numeric:tabular-nums}
+.cites a:hover,.cites a:focus-visible{color:var(--ink);text-decoration:underline}
 
 ul.plain{padding-left:1.15rem;margin:0}
-ul.plain li{margin-bottom:.55rem}
+ul.plain li{margin-bottom:.6rem}
 
-.trend-row{display:flex;gap:.75rem;align-items:flex-start;padding:.65rem 0;
-border-bottom:1px solid var(--rule)}
-.trend-row:last-child{border-bottom:0}
-.trend-row .n{font-size:.78rem;color:var(--muted);white-space:nowrap;padding-top:.15rem}
+.trend-row{display:grid;grid-template-columns:7.5rem 1fr;gap:1rem;padding:.7rem 0;
+border-top:1px solid var(--rule)}
+.trend-row:first-of-type{border-top:0}
+.trend-row .n{font-family:var(--mono);font-size:.7rem;color:var(--faint);
+letter-spacing:.04em;margin-top:.2rem}
 
-.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
-font-size:.88rem;font-weight:600;padding:.6rem 1.1rem;border-radius:4px;border:0;cursor:pointer}
-.btn:hover{opacity:.9}
+.btn{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;
+font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;
+font-weight:500;padding:.65rem 1.15rem;border:0;cursor:pointer}
+.btn:hover{background:var(--backed)}
 
-ol.sources{padding-left:1.4rem;margin:0;font-size:.9rem}
-ol.sources li{margin-bottom:.6rem}
-ol.sources a{color:inherit;text-decoration:none}
-ol.sources a:hover,ol.sources a:focus{color:var(--accent);text-decoration:underline}
-ol.sources .pub{color:var(--muted);font-size:.82rem}
-.note{font-size:.85rem;color:var(--muted);margin-bottom:1rem}
+ol.sources{padding-left:1.7rem;margin:0;font-size:.94rem}
+ol.sources li{margin-bottom:.7rem;padding-left:.2rem}
+ol.sources li::marker{font-family:var(--mono);font-size:.78rem;color:var(--faint)}
+ol.sources a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+ol.sources a:hover,ol.sources a:focus-visible{border-bottom-color:var(--ink)}
+ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:.04em}
+.note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
-.lede{border-bottom:1px solid var(--rule);padding-bottom:2rem;margin-bottom:2rem}
+.lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
 .lede h1 a{text-decoration:none}
-.lede h1 a:hover,.lede h1 a:focus{color:var(--accent)}
-.cards{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);
-border-radius:4px;overflow:hidden}
-.card{background:var(--paper);padding:1.1rem 1.25rem}
+.lede h1 a:hover,.lede h1 a:focus-visible{color:var(--backed)}
+.cards{border-top:1px solid var(--rule)}
+.card{padding:1.15rem 0;border-bottom:1px solid var(--rule)}
 .card a{text-decoration:none}
-.card h3{margin-bottom:.35rem;font-size:1rem}
-.card h3 a:hover,.card h3 a:focus{color:var(--accent)}
-.card .d{font-size:.78rem;color:var(--muted)}
-.card p{font-size:.9rem;color:var(--muted);margin:.4rem 0 0}
+.card h3{margin-bottom:.3rem;font-size:1rem}
+.card h3 a:hover,.card h3 a:focus-visible{color:var(--backed)}
+.card .d{font-family:var(--mono);font-size:.7rem;color:var(--faint);letter-spacing:.05em}
+.card p{font-size:.94rem;color:var(--muted);margin:.35rem 0 0}
 
-.sub{background:var(--card);border:1px solid var(--rule);border-radius:4px;
-padding:1.5rem;margin:3rem 0}
-.sub h3{margin-bottom:.4rem}
-.sub p{color:var(--muted);font-size:.9rem;margin-bottom:1rem}
+.sub{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.75rem 0;margin:3.5rem 0}
+.sub h3{margin-bottom:.35rem}
+.sub p{color:var(--muted);font-size:.94rem;margin-bottom:1.1rem}
 .sub form{display:flex;gap:.5rem;flex-wrap:wrap}
-.sub input[type=email]{flex:1 1 15rem;padding:.6rem .8rem;border:1px solid var(--rule);
-border-radius:4px;background:var(--paper);color:var(--ink);font-size:.9rem;font-family:inherit}
-.sub input:focus{outline:2px solid var(--accent);outline-offset:1px}
-.consent{flex:1 1 100%;display:flex;gap:.5rem;align-items:flex-start;
-font-size:.8rem;color:var(--muted);margin-top:.2rem}
-.consent input{flex:none;width:auto;margin-top:.25rem}
-.consent a{color:var(--accent)}
+.sub input[type=email]{flex:1 1 16rem;padding:.65rem .8rem;border:1px solid var(--rule-strong);
+background:var(--card);color:var(--ink);font-size:.94rem;font-family:var(--serif)}
+.consent{flex:1 1 100%;display:flex;gap:.55rem;align-items:flex-start;
+font-family:var(--sans);font-size:.8rem;color:var(--muted);margin-top:.35rem;line-height:1.5}
+.consent input{flex:none;width:auto;margin-top:.2rem}
 
-table.arch{width:100%;border-collapse:collapse;font-size:.92rem}
-table.arch td{padding:.7rem 0;border-bottom:1px solid var(--rule);vertical-align:top}
-table.arch td.d{white-space:nowrap;color:var(--muted);font-size:.82rem;width:8.5rem;padding-right:1rem}
+table.arch{width:100%;border-collapse:collapse;font-size:.96rem}
+table.arch td{padding:.85rem 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.arch td.d{font-family:var(--mono);font-size:.7rem;letter-spacing:.05em;
+white-space:nowrap;color:var(--faint);width:9rem;padding-right:1rem;padding-top:1rem}
 table.arch a{text-decoration:none}
-table.arch a:hover,table.arch a:focus{color:var(--accent)}
+table.arch a:hover,table.arch a:focus-visible{color:var(--backed)}
 
 .tierlist{margin:0;padding:0;list-style:none;counter-reset:tier}
-.tierlist li{counter-increment:tier;display:grid;grid-template-columns:2rem 1fr;
-gap:.9rem;padding:.8rem 0;border-top:1px solid var(--rule)}
+.tierlist li{counter-increment:tier;display:grid;grid-template-columns:2.5rem 1fr;
+gap:1rem;padding:.9rem 0;border-top:1px solid var(--rule)}
 .tierlist li:first-child{border-top:0}
-.tierlist li::before{content:counter(tier);font-family:Georgia,serif;font-size:1.2rem;
-color:var(--muted);line-height:1.3}
-.tierlist strong{display:block;margin-bottom:.15rem}
-.tierlist span{color:var(--muted);font-size:.94rem}
+.tierlist li::before{content:counter(tier,decimal-leading-zero);font-family:var(--mono);
+font-size:.72rem;color:var(--faint);padding-top:.3rem;letter-spacing:.05em}
+.tierlist strong{display:block;margin-bottom:.2rem}
+.tierlist span{color:var(--muted);font-size:.96rem}
 
-footer.site{border-top:1px solid var(--rule);margin-top:4rem;padding:2rem 0 3rem;
-font-size:.82rem;color:var(--muted)}
-footer.site p{margin:0 0 .6rem}
-footer.site a{color:var(--accent)}
-@media(max-width:34rem){h1{font-size:1.7rem}.wrap,.wrap-wide{padding:0 1.15rem}
-.rung{grid-template-columns:1fr;gap:.2rem}}
+footer.site{border-top:1px solid var(--rule-strong);margin-top:4.5rem;padding:2rem 0 3.5rem;
+font-family:var(--sans);font-size:.8rem;color:var(--muted);line-height:1.6}
+footer.site p{margin:0 0 .7rem}
+footer.site a{color:var(--ink)}
+
+@media(max-width:38rem){
+h1{font-size:1.65rem}
+.wrap,.wrap-wide{padding:0 1.15rem}
+.signal .tags,dl.ladder{padding-left:0}
+.corrob{margin-left:0;padding-left:.9rem}
+.rung{grid-template-columns:1fr;gap:.25rem;padding-left:.9rem}
+.trend-row{grid-template-columns:1fr;gap:.25rem}
+.tierlist li{grid-template-columns:1fr}
+.tierlist li::before{padding-top:0}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `.trim();
 
 interface PageOpts {
@@ -381,7 +423,7 @@ function renderSignal(e: Edition, sig: Signal): Html {
   // every signal would be noise on day one and meaningless later.
   const trendBadge =
     t.status !== "new" &&
-    html`<span class="trend ${t.status}">${s.trendStatus[t.status]} · ${s.trendSince(
+    html`<span class="tag rule">${s.trendStatus[t.status]} · ${s.trendSince(
       t.occurrences,
       t.firstSeen,
     )}</span>`;
@@ -389,9 +431,12 @@ function renderSignal(e: Edition, sig: Signal): Html {
   // Citations belong under the rung they support. `whatChanged` is the fact
   // and carries the evidence; the rungs below it are our reading, and showing
   // them uncited is the honest signal that they are.
+  // `sourced` draws the spine solid. Everything without it draws dashed, so
+  // the eye can follow where evidence ends and our reading begins without
+  // reading a word.
   const rung = (label: string, value: string, cls = "", cites?: string[]) =>
     value &&
-    html`<div class="rung ${cls}"><dt>${label}</dt><dd>${value}${
+    html`<div class="rung ${cls}${cites && cites.length > 0 ? " sourced" : ""}"><dt>${label}</dt><dd>${value}${
       cites && cites.length > 0 ? html` ${citationLinks(e, cites)}` : ""
     }</dd></div>`;
 
@@ -409,8 +454,8 @@ function renderSignal(e: Edition, sig: Signal): Html {
   return html`<article class="signal">
 <div class="head"><span class="rank" aria-hidden="true">${sig.rank}</span><h3>${sig.headline}</h3></div>
 <div class="tags">
-<span class="dom ${sig.domain}">${DOMAIN_LABELS[e.lang][sig.domain]}</span>
-<span class="trend">${s.strength[sig.strength]}</span>
+<span class="tag strong">${DOMAIN_SHORT[e.lang][sig.domain]}</span>
+<span class="tag">${s.strength[sig.strength]}</span>
 ${trendBadge}
 </div>
 <dl class="ladder">
@@ -420,9 +465,10 @@ ${rung(s.secondOrder, sig.secondOrder, "", sig.secondOrderUrls)}
 ${rung(s.action, sig.action, "act")}
 </dl>
 <div class="corrob">
-<span>${s.corroboration(c.publishers, c.hasPrimary)}</span>
-${!c.hasPrimary && html`<span class="thin">· ${s.noPrimarySource}</span>`}
-${citationLinks(e, sig.sourceUrls)}
+<span class="${c.hasPrimary ? "backed" : "unbacked"}">${
+    c.hasPrimary ? s.hasPrimarySource : s.noPrimarySource
+  }</span>
+<span>${s.publisherCount(c.publishers)}</span>
 </div>
 </article>`;
 }
@@ -461,8 +507,8 @@ export function renderEdition(cfg: SiteConfig, e: Edition, hasAlt: boolean): str
 <p class="note">${s.trendsIntro}</p>
 ${e.trends.map(
   (t) => html`<div class="trend-row">
-<span class="trend ${t.status}">${s.trendStatus[t.status]}</span>
-<div>${t.theme}<div class="n">${s.trendSince(t.occurrences, t.firstSeen)} · ${DOMAIN_LABELS[e.lang][t.domain]}</div></div>
+<span class="tag strong">${s.trendStatus[t.status]}</span>
+<div>${t.theme}<div class="n">${s.trendSince(t.occurrences, t.firstSeen)} · ${DOMAIN_SHORT[e.lang][t.domain]}</div></div>
 </div>`,
 )}`;
 
@@ -478,12 +524,21 @@ ${e.trends.map(
 <h1>${e.title}</h1>
 ${e.dek && html`<p class="dek">${e.dek}</p>`}
 <div class="meta">
-<span class="badge">${s.cadence}</span>
-${e.domains.map((d) => html`<span class="dom ${d}">${DOMAIN_LABELS[e.lang][d]}</span>`)}
 <span>${formatDate(e.date, e.lang)}</span>
 <span>·</span>
-<span>${s.citedSources(e.sources.length)}</span>
+${e.domains.map(
+  (d, i) =>
+    html`${i > 0 ? html`<span class="arrow">·</span>` : ""}<span class="tag">${
+      DOMAIN_SHORT[e.lang][d]
+    }</span>`,
+)}
 </div>
+<p class="funnel">
+<b>${e.meta.candidateCount}</b> ${s.funnelCandidates}
+<span class="arrow">→</span> <b>${e.meta.poolSize}</b> ${s.funnelRead}
+<span class="arrow">→</span> <b>${e.signals.length}</b> ${s.funnelSignals}
+<span class="arrow">·</span> <b>${e.sources.length}</b> ${s.funnelCited}
+</p>
 
 ${e.summary && html`<h2>${s.summary}</h2>
 <p>${e.summary}</p>`}
@@ -549,7 +604,8 @@ ${e.dek && html`<p>${e.dek}</p>`}
   // Leading straight into the latest headline assumed a reader who already
   // knew, which is every reader except the ones worth converting.
   const body = html`<p class="dek">${s.homeIntro}</p>
-<p class="meta" style="margin-top:.6rem"><span class="badge">${s.cadence}</span>
+<p class="meta" style="margin-top:.75rem"><span class="tag strong">${s.cadence}</span>
+<span class="arrow">·</span>
 <a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle} →</a></p>
 
 <div class="lede" style="margin-top:2rem">
@@ -629,7 +685,7 @@ export function renderArchive(cfg: SiteConfig, editions: Edition[], lang: Lang):
     (e) => html`<tr>
 <td class="d">${formatDate(e.date, e.lang)}</td>
 <td><a href="${url(cfg, editionPath(e.lang, e.slug))}">${e.title}</a>
-<div class="d">${e.domains.map((x) => DOMAIN_LABELS[e.lang][x]).join(" · ")} · ${s.citedSources(
+<div class="d">${e.domains.map((x) => DOMAIN_SHORT[e.lang][x]).join(" · ")} · ${s.citedSources(
       e.sources.length,
     )}</div></td>
 </tr>`,

@@ -54,6 +54,14 @@ export interface Strings {
   corroboration: (publishers: number, hasPrimary: boolean) => string;
   /** Shown whenever no cited source is primary, however many outlets carried it. */
   noPrimarySource: string;
+  /** Its counterpart, so the evidence line always states a verdict. */
+  hasPrimarySource: string;
+  publisherCount: (n: number) => string;
+  /** The selection funnel that opens each edition: candidates in, signals out. */
+  funnelCandidates: string;
+  funnelRead: string;
+  funnelSignals: string;
+  funnelCited: string;
   /** Labels the citations under the second-order rung. */
   secondOrderSources: string;
   trendSince: (n: number, since: string) => string;
@@ -154,6 +162,12 @@ export const STRINGS: Record<Lang, Strings> = {
     corroboration: (publishers, hasPrimary) =>
       `${publishers} penerbit${hasPrimary ? " · ada sumber primer" : ""}`,
     noPrimarySource: "tanpa sumber primer",
+    hasPrimarySource: "sumber primer",
+    publisherCount: (n) => `${n} penerbit`,
+    funnelCandidates: "kandidat",
+    funnelRead: "dibaca",
+    funnelSignals: "sinyal",
+    funnelCited: "sumber dikutip",
     secondOrderSources: "dasar",
     trendSince: (n, since) => `${n}x sejak ${since}`,
     methodology: "Metodologi",
@@ -253,6 +267,12 @@ export const STRINGS: Record<Lang, Strings> = {
     corroboration: (publishers, hasPrimary) =>
       `${publishers} publisher${publishers === 1 ? "" : "s"}${hasPrimary ? " · primary source" : ""}`,
     noPrimarySource: "no primary source",
+    hasPrimarySource: "primary source",
+    publisherCount: (n) => `${n} publisher${n === 1 ? "" : "s"}`,
+    funnelCandidates: "candidates",
+    funnelRead: "read",
+    funnelSignals: "signals",
+    funnelCited: "sources cited",
     secondOrderSources: "basis",
     trendSince: (n, since) => `${n}x since ${since}`,
     methodology: "Methodology",
