@@ -8,7 +8,7 @@
 <meta name="description" content="Radar intelijen strategis harian: AI dan model frontier, energi dan kelistrikan, strategi korporasi dan BUMN.">
 <link rel="canonical" href="https://nagano9.github.io/DailyBrief/">
 <link rel="alternate" hreflang="id" href="https://nagano9.github.io/DailyBrief/">
-<link rel="alternate" hreflang="en" href="https://nagano9.github.io/DailyBrief/en/">
+
 <link rel="alternate" type="application/rss+xml" title="Daily Strategic Briefing" href="/DailyBrief/feed.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Daily Strategic Briefing">
@@ -76,6 +76,23 @@ h3{font-family:var(--serif);font-size:1.1rem;font-weight:600;line-height:1.3;mar
 p{margin:0 0 1.05rem}
 .dek{font-size:1.12rem;line-height:1.5;color:var(--muted);margin:.8rem 0 0}
 
+/* The homepage opening is not a standfirst.
+   A standfirst is defined by the headline above it, and takes its muted
+   colour from being subordinate to one. At the top of the homepage there is
+   no headline — so the same treatment read as an orphaned caption: grey,
+   slightly oversized, floating. It is also the worst place for that, being
+   the one sentence a first-time reader uses to decide whether this is for
+   them. It gets the weight of a statement instead. */
+.standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
+font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+
+/* The lead edition keeps the visual weight of a headline while giving up the
+   h1: a homepage heading should describe the page, and the page is the
+   publication, not whichever story ran today. */
+.lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
+line-height:1.2;letter-spacing:-.012em;color:var(--ink);text-transform:none;
+margin:0;padding:0;border:0}
+
 /* The funnel: what the radar actually did today. Four hundred candidates in,
    five signals out. That ratio is the product, so it opens the page. */
 .funnel{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;
@@ -131,8 +148,8 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
-.lede h1 a{text-decoration:none}
-.lede h1 a:hover,.lede h1 a:focus-visible{color:var(--backed)}
+.lede h2.lead a{text-decoration:none}
+.lede h2.lead a:hover,.lede h2.lead a:focus-visible{color:var(--backed)}
 .cards{border-top:1px solid var(--rule)}
 .card{padding:1.15rem 0;border-bottom:1px solid var(--rule)}
 .card a{text-decoration:none}
@@ -289,6 +306,42 @@ padding-top:1rem;border-top:1px solid var(--rule)}
 .rung dd{padding-left:.9rem}
 .corrob{padding-left:.9rem}
 }
+/* ---------------------------------------------------------------------------
+   Print.
+   ---------------------------------------------------------------------------
+   A briefing read before a meeting is the archetypal thing someone prints or
+   saves as PDF, and the three-column layout is exactly wrong on paper: the
+   rails are positioned against the viewport edge and would fall off it.
+
+   On paper the document folds back to one column, the evidence follows the
+   claim it supports, and everything that only makes sense on screen — the
+   navigation, the skip link, the subscribe form — is dropped. Source URLs are
+   printed after their titles, because a citation you cannot follow on paper
+   is not a citation.
+   ------------------------------------------------------------------------- */
+@media print{
+:root{--paper:#fff;--ink:#000;--muted:#333;--faint:#555;
+--rule:#ccc;--rule-strong:#999;--backed:#000;--unbacked:#000}
+body{font-size:10.5pt;line-height:1.45}
+.skip,nav.site,.sub,.rail-trend{display:none}
+header.site{border-bottom:1pt solid #999;margin-bottom:1.5rem}
+.doc,.wrap,.wrap-wide{max-width:none;padding:0}
+.rung{margin-left:0;grid-template-columns:6.5rem 1fr;column-gap:1rem}
+.signal .head{margin-left:0}
+.signal .rank{flex:none;min-width:1.2rem;text-align:left}
+.aside{position:static;width:auto;margin:.8rem 0 0;padding-top:.6rem;
+border-top:1pt solid #ccc}
+
+/* Keep a signal and its evidence on one sheet where the paper allows. */
+.signal{break-inside:avoid;page-break-inside:avoid}
+h1,h2,h3,h4{break-after:avoid;page-break-after:avoid}
+
+/* A printed link is only useful if its destination is printed with it. */
+.aside a::after,ol.sources a::after{content:" (" attr(href) ")";
+font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
+.corrob .backed::before{content:"[+] "}
+.corrob .unbacked::before{content:"[!] "}
+}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}</style>
 </head>
 <body>
@@ -299,11 +352,11 @@ padding-top:1rem;border-top:1px solid var(--rule)}
 <a href="/DailyBrief/arsip/">Arsip</a>
 <a href="/DailyBrief/tentang/">Tentang</a>
 <a href="/DailyBrief/feed.xml">RSS</a>
-<a href="/DailyBrief/en/">English</a>
+
 </nav></div></div></header>
 <main id="main" class="wrap-wide">
-<p class="dek">Lima sinyal setiap pagi dari tiga domain: AI dan model frontier, energi dan kelistrikan, strategi korporasi dan BUMN. Setiap sinyal wajib mengutip sumber yang bisa Anda periksa sendiri.</p>
-<p class="meta" style="margin-top:.75rem"><span class="tag strong">Terbit setiap pagi</span>
+<h1 class="standfirst">Lima sinyal setiap pagi dari tiga domain: AI dan model frontier, energi dan kelistrikan, strategi korporasi dan BUMN. Setiap sinyal wajib mengutip sumber yang bisa Anda periksa sendiri.</h1>
+<p class="meta" style="margin-top:1rem"><span class="tag strong">Terbit setiap pagi</span>
 <span class="arrow">·</span>
 <a href="/DailyBrief/tentang/">Tentang radar ini →</a></p>
 
@@ -312,9 +365,9 @@ padding-top:1rem;border-top:1px solid var(--rule)}
 <span>19 Agustus 2026</span>
 <span>·</span><span>Edisi terbaru</span>
 </div>
-<h1><a href="/DailyBrief/edisi/2026-08-19/">Danantara Tetapkan Tenggat Akhir 2026 untuk BUMN Karya; OpenAI Perkuat Tata Kelola AI</a></h1>
-<p class="dek">Tiga sinyal struktural hari ini — restrukturisasi BUMN Karya yang kian mendesak, lonjakan subsidi listrik dalam RAPBN 2027, dan pengetatan kerangka keamanan AI oleh OpenAI — menuntut keputusan konkret sebelum akhir kuartal.</p>
-<p style="margin-top:1rem">Danantara secara terbuka mengakui utang BUMN Karya mencapai ratusan triliun rupiah dengan seluruh anak-cucu perusahaan bermasalah, sekaligus menetapkan target restrukturisasi selesai akhir 2026 — tenggat yang ketat mengingat kompleksitas liabilitas. Di sisi fiskal, RAPBN 2027 mengalokasikan subsidi listrik Rp 130,1 triliun, naik 17,8% dari APBN 2026, mencerminkan tekanan ganda antara tarif yang harus terjaga dan biaya transisi energi yang meningkat. Dalam domain AI, OpenAI menerbitkan kerangka pacing pengembangan model untuk kemampuan siber-kritis sehari setelah Bloomberg melaporkan perubahan keamanan pasca-insiden Hugging Face — dua sinyal yang secara kolektif menandai pergeseran dari self-regulation ke protokol pengawasan terstruktur. Sementara itu, Cerebras meluncurkan CS-4 sebagai chip inferensi generasi baru yang berpotensi menggeser kalkulasi biaya komputasi frontier. Di sektor energi, Star Energy/BREN menargetkan 2 GW kapasitas panas bumi di tengah dorongan Menteri Bahlil untuk mempercepat pengembangan sektor ini — membuka pertanyaan serius soal kecukupan regulasi dan pembiayaan.</p>
+<h2 class="lead"><a href="/DailyBrief/edisi/2026-08-19/">Danantara Ultimatum BUMN Karya; Subsidi Listrik 2027 Melonjak; OpenAI Rem Model Siber</a></h2>
+<p class="dek">Tiga sinyal hari ini menunjukkan tekanan fiskal dan tata kelola yang konvergen: utang BUMN Karya ratusan triliun, subsidi listrik naik 17,8%, dan OpenAI pertama kali secara terbuka membatasi laju pengembangan model berkapabilitas siber-kritis.</p>
+<p style="margin-top:1rem">Danantara mengungkap bahwa seluruh anak-cucu BUMN Karya bermasalah dengan total utang ratusan triliun rupiah, dan menargetkan restrukturisasi rampung akhir 2026 — sebuah batas waktu ambisius yang kini diawasi langsung oleh Komisi VI DPR. Bersamaan, RAPBN 2027 menganggarkan subsidi listrik Rp 130,1 triliun (naik 17,8%), mencerminkan bahwa kebijakan tarif listrik stabil dipertahankan di tengah tekanan geopolitik Selat Hormuz justru memperbesar beban fiskal negara. Di sisi energi, pemerintah mengumumkan pembangunan 30 GW PLTS mulai tahun ini — sebuah angka yang bila serius dieksekusi akan menjadi lonjakan kapasitas surya terbesar dalam sejarah Indonesia. Di ranah AI, OpenAI menerbitkan kebijakan pacing model untuk kapabilitas siber-kritis, menandai pergeseran dari janji sukarela menuju pembatasan internal yang dapat diverifikasi. Keempat sinyal ini — defisit BUMN, beban subsidi, ambisi surya, dan tata kelola AI — bermuara pada satu pertanyaan tunggal: dari mana sumber daya untuk semua ini akan datang.</p>
 <p><a class="btn" href="/DailyBrief/edisi/2026-08-19/">Baca edisi</a></p>
 </div>
 
@@ -330,7 +383,9 @@ padding-top:1rem;border-top:1px solid var(--rule)}
 <footer class="site"><div class="wrap-wide">
 <p><strong>Metodologi.</strong> Enam lapisan: sumber wajib-pantau, penemuan terbuka, sinyal awal dari riset dan rilis teknis, verifikasi silang, penalaran strategis, dan memori sinyal lintas hari. Setiap sinyal wajib mengutip sumber yang benar-benar terambil hari itu; klaim tanpa kutipan yang dapat diverifikasi tidak diterbitkan.</p>
 <p>Radar ini adalah analisis atas informasi publik untuk keperluan informasi umum. Bukan nasihat investasi, hukum, atau teknis.</p>
-<p>&copy; 2026 Daily Strategic Briefing · <a href="/DailyBrief/tentang/">Tentang</a></p>
+<p>&copy; 2026 Daily Strategic Briefing
+· <a href="/DailyBrief/tentang/">Tentang</a>
+· <a href="https://wa.me/6281393000399" rel="noopener" target="_blank">Kontak</a></p>
 </div></footer>
 </body>
 </html>
