@@ -865,6 +865,11 @@ ${subscribeBlock(cfg, lang)}`,
   // The lead signal is shown in full on the cover, spine and citations
   // included. Claiming traceability and then hiding every trace behind a
   // click was the cover's one real failure.
+  //
+  // It replaces the edition summary rather than following it. The two said
+  // much the same thing back to back, and of the pair only the ladder shows
+  // its sources. Nothing is lost: the summary still opens the edition itself
+  // under its own heading.
   const lead = latest.signals?.[0];
   const cards = rest.slice(0, 12).map(
     (e) => html`<div class="card">
@@ -889,7 +894,6 @@ ${e.dek && html`<p>${e.dek}</p>`}
 </div>
 <h2 class="lead"><a href="${url(cfg, editionPath(latest.lang, latest.slug))}">${latest.title}</a></h2>
 ${latest.dek && html`<p class="dek">${latest.dek}</p>`}
-${latest.summary && html`<p style="margin-top:1rem">${latest.summary}</p>`}
 ${lead &&
     html`<div class="cover-signal">
 <h3 class="cover-h">${lead.headline}</h3>
