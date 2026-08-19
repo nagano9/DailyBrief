@@ -231,6 +231,16 @@ antarmuka GitHub: deploy mengganti isi branch `gh-pages` setiap pagi, dan
 ikatan domain tersimpan di dalam branch itu. Tanpa ini, domain akan lepas
 sendiri pada run terjadwal pertama setelah dipasang.
 
+`BASE_PATH` harus **kosong** bersama domain kustom, karena domain melayani
+dari akarnya. Membiarkannya terisi menghasilkan `domain.anda/SubPath/...` di
+setiap canonical — konsisten secara internal dan salah di mana-mana. Pembangun
+menolak kombinasi itu daripada menerbitkannya.
+
+Untuk domain apex tanpa `www`, DNS-nya adalah empat A record ke GitHub Pages
+(`185.199.108.153`, `.109.153`, `.110.153`, `.111.153`), dan `www` sebagai
+CNAME ke `<user>.github.io`. Setelah domain terpasang, GitHub mengalihkan
+alamat `github.io` lama ke domain baru secara otomatis.
+
 Terakhir, aktifkan **Settings → Pages → Deploy from a branch → `gh-pages` /
 root**, dan arahkan DNS domain Anda ke GitHub Pages.
 

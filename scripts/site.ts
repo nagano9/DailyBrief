@@ -198,6 +198,17 @@ function main() {
   write(path.join(OUT_DIR, ".nojekyll"), "");
 
   console.log(`[site] ${pages} pages → ${OUT_DIR}/  (base=${cfg.basePath || "/"}, url=${cfg.siteUrl})`);
+  // A custom domain serves from its root. Leaving a sub-path set alongside
+  // one produces dailybrief.id/DailyBrief/… on every canonical — internally
+  // consistent, and wrong everywhere, which is the shape of misconfiguration
+  // that reached production once already.
+  if (process.env.CUSTOM_DOMAIN && cfg.basePath) {
+    throw new Error(
+      `CUSTOM_DOMAIN is set to '${process.env.CUSTOM_DOMAIN}' but BASE_PATH is '${cfg.basePath}'. ` +
+        `A custom domain serves from the root — unset BASE_PATH.`,
+    );
+  }
+
   if (cfg.subscribeEndpoint && !cfg.privacyUrl) {
     console.warn(
       `[site] SUBSCRIBE_ENDPOINT is set but PRIVACY_URL is not — the subscribe form is disabled. ` +
