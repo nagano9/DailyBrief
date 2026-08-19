@@ -42,6 +42,29 @@ function routeOf(file: string): string {
   return rel.endsWith("index.html") ? "/" + rel.slice(0, -"index.html".length) : "/" + rel;
 }
 
+/**
+ * Work out the sub-path the site is served from, by comparing a page's
+ * canonical URL with where that page sits on disk.
+ */
+function inferBasePath(pages: string[]): string {
+  for (const file of pages) {
+    const html = fs.readFileSync(file, "utf8");
+    const m = /<link rel="canonical" href="([^"]*)"/.exec(html);
+    if (!m) continue;
+    let pathname: string;
+    try {
+      pathname = new URL(m[1]).pathname;
+    } catch {
+      continue;
+    }
+    const route = routeOf(file);
+    if (pathname.endsWith(route)) {
+      return pathname.slice(0, pathname.length - route.length);
+    }
+  }
+  return "";
+}
+
 function main(): void {
   if (!fs.existsSync(SITE)) {
     console.error(`[check-site] ${SITE}/ does not exist — build it first.`);
@@ -54,6 +77,14 @@ function main(): void {
     console.error(`[check-site] no HTML in ${SITE}/`);
     process.exit(1);
   }
+
+  // The site may be hosted under a sub-path, in which case internal links
+  // carry a prefix the filesystem does not. Infer it from a page's own
+  // canonical URL rather than accepting it as a second copy of the config:
+  // a checker configured separately from the builder eventually disagrees
+  // with it, and then it is checking the wrong thing.
+  const basePath = inferBasePath(pages);
+  if (basePath) console.log(`[check-site] base path detected: ${basePath}`);
 
   const routes = new Set(files.map(routeOf));
   // A directory route resolves through its index.html.
@@ -84,19 +115,43 @@ function main(): void {
     //    A single-language build once advertised a language tree it never
     //    wrote, giving readers a 404 and crawlers a dead hreflang.
     const hrefs = [...html.matchAll(/(?:href|content)="(\/[^"#?]*)"/g)].map((m) => m[1]);
-    for (const href of new Set(hrefs)) {
-      if (href.startsWith("//")) continue; // protocol-relative, external
+    for (const raw of new Set(hrefs)) {
+      if (raw.startsWith("//")) continue; // protocol-relative, external
+      const href = basePath && raw.startsWith(basePath) ? raw.slice(basePath.length) || "/" : raw;
       if (!routes.has(href) && !routes.has(href.replace(/\/$/, ""))) {
-        fail("dead-internal-link", `${where} links to ${href}, which was not built`);
+        fail("dead-internal-link", `${where} links to ${raw}, which was not built`);
       }
     }
 
-    // 4. A page without a canonical is a page search engines may duplicate.
+    // 4. Absolute URLs must actually be absolute URLs.
+    //
+    //    A mangled BASE_PATH once produced
+    //    `https://host.exampleC:/Program Files/...` on every canonical, and
+    //    every other rule here still passed because the links were
+    //    internally consistent — consistently wrong.
+    //
+    //    Parse rather than pattern-match: the first attempt used a regex for
+    //    a drive letter and matched the `s:` in `https:`, flagging correct
+    //    builds. A check that cries wolf gets switched off.
+    for (const [, value] of html.matchAll(/(?:href|content)="(https?:[^"]*)"/g)) {
+      let parsed: URL;
+      try {
+        parsed = new URL(value);
+      } catch {
+        fail("malformed-url", `${where} emits an unparseable URL: ${value}`);
+        continue;
+      }
+      if (/^\/[A-Za-z]:/.test(parsed.pathname) || parsed.pathname.includes("\\")) {
+        fail("mangled-url", `${where} emits a filesystem path in a URL: ${value}`);
+      }
+    }
+
+    // 5. A page without a canonical is a page search engines may duplicate.
     if (!/<link rel="canonical"/.test(html)) {
       fail("canonical-required", `${where} has no canonical URL`);
     }
 
-    // 5. Accessibility floor: one h1, a skip link, and a main landmark.
+    // 6. Accessibility floor: one h1, a skip link, and a main landmark.
     const h1s = (html.match(/<h1\b/g) ?? []).length;
     if (h1s !== 1) fail("single-h1", `${where} has ${h1s} <h1> elements`);
     if (!html.includes('class="skip"')) fail("skip-link", `${where} has no skip link`);

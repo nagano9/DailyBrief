@@ -7,6 +7,7 @@ import { assembleEdition } from "../lib/brief/compose";
 import { enabledSources, countByTier } from "../lib/brief/registry";
 import { fetchAll } from "../lib/brief/fetch";
 import { normaliseThemeKey, type SignalRecord } from "../lib/brief/memory";
+import { finish } from "../lib/brief/shutdown";
 import type { FeedItem, Lang } from "../lib/brief/types";
 
 /**
@@ -270,8 +271,8 @@ async function main() {
 }
 
 main()
-  .then(() => process.exit(0))
+  .then(() => finish(0))
   .catch((e) => {
-    console.error(`[selftest] FAILED:`, e);
-    process.exit(1);
+    console.error(e);
+    void finish(1);
   });

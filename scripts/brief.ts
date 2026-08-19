@@ -7,6 +7,7 @@ import { countByDomain, countByTier, enabledSources } from "../lib/brief/registr
 import { fetchAll } from "../lib/brief/fetch";
 import { composeEdition } from "../lib/brief/compose";
 import { recordSignals } from "../lib/brief/memory";
+import { finish } from "../lib/brief/shutdown";
 import { validateBackendCredentials, getModelTag } from "../lib/ai/llm";
 import { todayKey } from "../lib/utils";
 import type { Edition, FeedItem, Lang } from "../lib/brief/types";
@@ -146,14 +147,8 @@ async function main() {
 }
 
 main()
-  .then(() => {
-    // Undici keeps HTTP/1.1 sockets alive after the last response, so the
-    // event loop stays busy for minutes after the work is done and stdout
-    // (buffered to a pipe) never flushes. Exiting explicitly is the
-    // difference between "finished in 12s" and "appears to hang".
-    process.exit(0);
-  })
+  .then(() => finish(0))
   .catch((e) => {
     console.error(`[brief] FAILED:`, e);
-    process.exit(1);
+    void finish(1);
   });

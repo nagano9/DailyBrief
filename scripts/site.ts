@@ -44,9 +44,38 @@ const EDITIONS_DIR = arg("--editions") ?? process.env.EDITIONS_DIR ?? "editions"
 const OUT_DIR = arg("--out") ?? process.env.SITE_OUT ?? "site";
 const LANGS: Lang[] = ["id", "en"];
 
+/**
+ * Validate the sub-path the site is hosted under.
+ *
+ * Git Bash rewrites an argument that looks like an absolute POSIX path into a
+ * Windows one, so `BASE_PATH=/DailyBrief` arrived as
+ * `C:/Program Files/Git/DailyBrief` and every canonical URL on the site came
+ * out as `https://host.example.comC:/Program Files/...`. The build reported
+ * success and the structure check passed, because the links were internally
+ * consistent — just pointing nowhere real.
+ *
+ * A base path is a URL path. Anything carrying a drive letter or a backslash
+ * is a mangled filesystem path, and publishing it would be worse than
+ * failing.
+ */
+function normaliseBasePath(raw: string): string {
+  const trimmed = raw.trim().replace(/\/+$/, "");
+  if (!trimmed) return "";
+  if (/^[A-Za-z]:/.test(trimmed) || trimmed.includes("\\")) {
+    throw new Error(
+      `BASE_PATH looks like a filesystem path, not a URL path: '${trimmed}'. ` +
+        `On Git Bash, prefix the command with MSYS_NO_PATHCONV=1, or use PowerShell.`,
+    );
+  }
+  if (!trimmed.startsWith("/")) {
+    throw new Error(`BASE_PATH must start with "/" — got '${trimmed}'`);
+  }
+  return trimmed;
+}
+
 function config(languages: Lang[]): SiteConfig {
   const siteUrl = (arg("--site-url") ?? process.env.SITE_URL ?? "http://localhost:8080").replace(/\/$/, "");
-  const basePath = (process.env.BASE_PATH ?? "").replace(/\/$/, "");
+  const basePath = normaliseBasePath(arg("--base-path") ?? process.env.BASE_PATH ?? "");
   return {
     siteUrl,
     basePath,

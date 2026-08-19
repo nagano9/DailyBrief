@@ -5,6 +5,7 @@ import { fetchAll } from "../lib/brief/fetch";
 import { buildCandidates } from "../lib/brief/compose";
 import { publisherTier } from "../lib/brief/publishers";
 import { loadHistory, summariseTrends } from "../lib/brief/memory";
+import { finish } from "../lib/brief/shutdown";
 import { todayKey } from "../lib/utils";
 import { DOMAINS, type SourceTier } from "../lib/brief/types";
 
@@ -71,8 +72,8 @@ async function main() {
 }
 
 main()
-  .then(() => process.exit(0))
+  .then(() => finish(0))
   .catch((e) => {
     console.error(e);
-    process.exit(1);
+    void finish(1);
   });
