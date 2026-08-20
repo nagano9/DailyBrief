@@ -2,41 +2,37 @@
   "slug": "2026-08-21",
   "date": "2026-08-21",
   "lang": "id",
-  "title": "Danantara Tanpa Laporan Keuangan; ESDM Lelang 14 WKP Panas Bumi",
-  "dek": "Tiga tekanan struktural bergerak serentak: opasitas Danantara memburuk, reformasi konsesi panas bumi memasuki fase lelang nyata, dan OpenAI membuka front kebijakan tata kelola AI global.",
+  "title": "Danantara Akui Laporan Keuangan Belum Terbit; ESDM Lelang 14 WKP Baru",
+  "dek": "Tiga sinyal struktural—akuntabilitas Danantara, reforma konsesi panas bumi, dan pemangkasan anak usaha Telkom—berkumpul hari ini, membentuk tekanan tata kelola BUMN yang semakin konkret dan bisa diukur.",
   "domains": [
     "corporate",
     "energy",
     "ai"
   ],
-  "summary": "Danantara menghadapi tekanan ganda hari ini: laporan keuangan yang belum terbit memperdalam krisis kepercayaan publik, sementara BEI memperpanjang suspensi saham WIKA yang menjadi proxy kesehatan BUMN Karya — melanjutkan tema struktural yang telah dua kali muncul sejak 19 Agustus. Di sisi energi, Kementerian ESDM membuka lelang 14 Wilayah Kerja Panas Bumi baru pada hari yang sama Menteri Bahlil menegur pengembang yang menahan konsesi, menandai eskalasi dari retorika ke tindakan regulasi konkret. Danantara secara terpisah mendorong pembangunan stasiun pengisian EV, yang relevan dengan pemotongan insentif motor listrik dari Rp 5 juta menjadi Rp 3 juta per unit — sinyal bahwa fiskal EV sedang dikalibrasi ulang. Di domain AI, OpenAI meluncurkan blog 'AI Futures' yang secara eksplisit membahas implikasi AI terhadap kekuasaan dan tata kelola, bersamaan dengan penawaran Zero Data Retention untuk pelanggan API — dua langkah yang bersama-sama menunjukkan bahwa OpenAI sedang membangun postur kebijakan publik sebelum gelombang regulasi berikutnya.",
+  "summary": "Laporan keuangan Danantara yang belum terbit mempertegas risiko akuntabilitas di balik mandat restrukturisasi BUMN Karya yang ditarget rampung akhir 2026, sementara BEI memperpanjang suspensi saham WIKA sebagai penanda formal kebuntuan proses tersebut. Di sisi energi, Kementerian ESDM membuka lelang 14 WKP baru—eskalasi langsung dari teguran Bahlil kepada pengembang yang menahan konsesi—menandai bahwa tekanan regulasi kini diterjemahkan ke instrumen pasar. Danantara secara terpisah mendorong pembangunan charging station EV, namun tanpa laporan keuangan publik, komitmen investasi ini sulit diverifikasi. Sementara itu, Telkom berencana memangkas anak usaha dari angka saat ini menjadi 18 perusahaan atas arahan Danantara, sebuah langkah rasionalisasi korporasi terbesar dalam satu dekade yang akan menguji kapasitas eksekusi Danantara sebagai super-holding.",
   "signals": [
     {
       "rank": 1,
       "domain": "corporate",
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "Danantara",
-        "Bursa Efek Indonesia",
-        "WIKA",
-        "BP BUMN"
+        "Danantara Indonesia",
+        "BUMN Karya",
+        "Republika.co.id"
       ],
-      "headline": "Laporan keuangan Danantara belum terbit; BEI perpanjang suspensi saham WIKA",
-      "whatChanged": "Per 20 Agustus 2026, laporan keuangan Danantara belum diterbitkan — ekonom yang dikutip Republika menyorot absennya akuntabilitas publik atas pengelolaan aset negara. Pada hari yang sama, Bursa Efek Indonesia memperpanjang suspensi perdagangan saham WIKA, yang merupakan salah satu BUMN Karya utama dalam portofolio restrukturisasi Danantara.",
-      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring yang telah muncul dua kali sejak 19 Agustus. Implikasi akumulatifnya: ketiadaan laporan keuangan bukan lagi kelalaian administratif — ia kini menjadi kondisi struktural yang mempersulit setiap mitra, kreditur, atau investor untuk menilai eksposur nyata Danantara terhadap BUMN Karya yang bermasalah. Suspensi WIKA mempertegas bahwa risiko ini sudah berwujud di pasar modal.",
-      "secondOrder": "Tanpa laporan keuangan audited, Danantara tidak dapat memenuhi standar disclosure yang dibutuhkan untuk menarik pembiayaan eksternal berskala besar — baik obligasi internasional maupun kemitraan ekuitas seperti kesepakatan USD 2,5 miliar dengan JBS. Artinya, target restrukturisasi BUMN Karya akhir 2026 yang diumumkan Bloomberg Technoz secara implisit mensyaratkan percepatan penerbitan laporan keuangan sebagai prasyarat, bukan sekadar output.",
-      "action": "Tinjau ulang apakah roadmap restrukturisasi Danantara–BP BUMN yang difinalkan Agustus 2026 menyertakan milestone penerbitan laporan keuangan dengan tanggal pasti; jika tidak ada, jadikan itu pertanyaan eksplisit dalam setiap forum keterlibatan dengan manajemen Danantara minggu ini.",
+      "headline": "Laporan keuangan Danantara belum terbit; ekonom soroti defisit transparansi super-holding",
+      "whatChanged": "Per 20 Agustus 2026, Danantara Indonesia belum menerbitkan laporan keuangan sejak berdiri. Ekonom yang dikutip Republika.co.id menyebut ketiadaan laporan ini sebagai risiko akuntabilitas serius mengingat Danantara memegang mandat restrukturisasi BUMN Karya bernilai triliunan rupiah dengan target rampung akhir 2026.",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring yang telah muncul dua kali sejak 19 Agustus. Akumulasinya kini lebih berat: bukan hanya hambatan teknis restrukturisasi dan isu 'laba semu', tetapi ketiadaan laporan keuangan berarti tidak ada baseline angka publik untuk menilai apakah target akhir 2026 realistis. Super-holding yang mengelola aset negara tanpa akuntabilitas publik menciptakan blind spot bagi kreditur, investor, dan DPR.",
+      "secondOrder": "Ketiadaan laporan keuangan akan menyulitkan Danantara menarik mitra strategis swasta atau asing untuk skema co-investment di BUMN Karya—karena due diligence standar menuntut audited financials. Bila laporan tidak terbit sebelum tenggat akhir 2026, restrukturisasi berisiko ditunda ke kuartal pertama 2027, tepat bertabrakan dengan siklus anggaran dan kemungkinan perombakan kabinet.",
+      "action": "Verifikasi kepada Kementerian BUMN dan OJK apakah ada kewajiban pelaporan periodik Danantara yang berlaku; siapkan matriks risiko yang memisahkan BUMN Karya mana yang bisa direstrukturisasi tanpa keterbukaan induk versus yang memerlukan laporan konsolidasi Danantara.",
       "strength": "actionable",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3BHVG41NEJRNHQ1bTVMeWIwX3AzQWNnRUhKREJRZDl1U3pMNllzMWJ6TVBqUHBQVG5ZeU1ITHluQXBhWmxia3pObnZSbzVWNzB4RWF5WkNndExLRjBPZVpUSjhJWWdndWdzTG1YaVVnYmRCZDFzT2xDZHZueFY5MEFWQllmcFp4ZUNuZEF2MXZPblBpSVk1cmx1NG42ZWhsOUlnaFdpa1JsdDRreDNoMFExMXFjUUxrUkRVcg?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5",
         "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazQ5a2JxTWQ2bHJPblpYZ0VIb2dDazRFdkFpQVFnaGNPVTMtQkFhdjRickptdkdwcXRFeXBaZVVMcWFEdmJoLXczdGk3dk5YZjA3OW5tMm9uNUFPRXNrUF8xcnBfSFVYR3FBWTlZVlg5UW1McTBCUGpXU1ZvVEQycUpuQ0VPc1BDdkZZQXJOWWFISkhkem1HaUlCcG96NXRRYVp4b21OU2pxSmvSAa4BQVVfeXFMTjJ1R1hIRklzaTItQ0tSZXRyX1lNZWFXRDNsaDFjZDREYU5pNzlvM3hvUDZUT2hQSjhQdTJySjlCYjFTLVh6NzVEb2djY19RRlFKRlFrbUdPUWVkclBNUGZtd1RlTXB2MjZmWWVQYlhFOExHTDhSUUxrX1RSeDgxTHJFUnJDVUl5YmgyYnVfQUh0bDVKbDdneFk2bEJhdVdpLUNRS29wVXJYbHZ5c0pR?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
         "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5"
       ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMiowFBVV95cUxOODFaWDZjX1YyZEVQbEpNd05KVUphQUYzZDVtSHA4TjlBZ09kOHcyazMtU1lJdm9WTHBCTHpMNHNCbVFHUHdpSFVscVc2eXpTbnpSMnVZbWhxcnc0U0s4bHJ3eFVIVE4wR0NBWWtaOFFDUXVoRTVRRVFyR3A1WG5qakwzbTRXNzM1S3hIVzlTdnNiZDhkT1hEYmVzWW9fbC1QWjMw?oc=5",
-        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXNwUldIdE5LSEJnSTUxS3RqUUZTcm5LUEx2aDE3VTdJdkJNMENDRkdrUUhiUko2MjFUc2JMYmhfdTBoTnAxVmRGZEFJTlJrYWlCb3p4ZVI3OHV2cjZDOTRNYmk3ZHdJSVRUamh1bjBkOHBCSVZManY1a3lNZXRYTk1oeGw0M3F4V2NKcXVmcE9qTzJEQ0M4WFdURm05RGNCaTlDbzZTN0LSAa4BQVVfeXFMTUVkOWozUmk4ZWVqLXlCNndVTEY3SmRXWV8xZVpaMnk3dE0yQmxacEdZeEtPTlRtbUJQQWdpZkNNV2F3MlgyckhqMzNKVFpSaG11b3VTb1FJTEgyUlNQY0ZaQ1A2M29IVTRSblFfMmJYMUtXMnY4clBLSG9hMkI2TnhYZXY4ZGtYRllaQUphd1dNQ2p3TXVpRV9HYkRRSlhycHlQMDZaVGpDTGZ2cEZn?oc=5"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
         "publishers": 4,
         "hasPrimary": false
@@ -55,21 +51,23 @@
       "themeKey": "indonesia-geothermal-concession-reform",
       "entities": [
         "Kementerian ESDM",
-        "Bahlil"
+        "Bloomberg Technoz",
+        "Pemprov Banten"
       ],
-      "headline": "ESDM buka lelang 14 WKP panas bumi baru sehari setelah Bahlil tegur pengembang",
-      "whatChanged": "Kementerian ESDM membuka lelang 14 Wilayah Kerja Panas Bumi baru per 20 Agustus 2026, satu hari setelah Menteri Bahlil secara publik menegur pengembang yang menahan konsesi tanpa mengembangkannya — sebuah eskalasi dari peringatan verbal ke tindakan regulasi berupa pembukaan kompetisi langsung.",
-      "whyItMatters": "Ini melanjutkan tema indonesia-geothermal-concession-reform yang telah muncul dua kali sejak 19 Agustus. Secara akumulatif, pola ini menunjukkan bahwa Kementerian ESDM sedang menggunakan dua instrumen sekaligus: tekanan reputasi pada pemegang konsesi lama, dan sinyal pasar melalui lelang WKP baru. Target PNBP Rp 2,6 triliun yang sebelumnya dipertaruhkan kini memiliki mekanisme konkret untuk direalisasikan.",
-      "secondOrder": "Pembukaan 14 WKP secara bersamaan berisiko memecah minat investor dan kapasitas due diligence pasar — terutama bila persyaratan teknis dan finansial tidak dibedakan berdasarkan kematangan lapangan. Pengembang dengan neraca kuat berpotensi mengunci WKP premium, sementara WKP marginal tetap tak terserap, sehingga target PNBP hanya terpenuhi sebagian.",
-      "action": "Peta 14 WKP yang dilelang: identifikasi mana yang memiliki data eksplorasi matang versus greenfield, lalu nilai apakah struktur lelang memberi insentif cukup untuk WKP marginal — ini menentukan apakah target PNBP Rp 2,6 triliun realistis atau hanya aspirasional.",
+      "headline": "ESDM buka lelang 14 WKP panas bumi baru, eskalasi langsung dari teguran Bahlil",
+      "whatChanged": "Kementerian ESDM pada 20 Agustus 2026 membuka lelang 14 Wilayah Kerja Panas Bumi (WKP) baru, dikonfirmasi Bloomberg Technoz. Langkah ini hadir satu hari setelah Menteri Bahlil secara terbuka menegur pengembang yang menahan konsesi tanpa pengembangan, dengan target PNBP Rp 2,6 triliun dipertaruhkan.",
+      "whyItMatters": "Ini melanjutkan tema indonesia-geothermal-concession-reform (2x sejak 19 Agustus) dan kini masuk fase eksekusi: teguran verbal telah diterjemahkan ke instrumen pasar—lelang terbuka. Bila 14 WKP ini terisi, Indonesia mendorong pemanfaatan cadangan panas bumi terbesar dunia yang selama ini terkunci di konsesi pasif. Pemprov Banten turut mengumumkan optimalisasi panas bumi sebagai penggerak ekonomi daerah, menandai konvergensi pusat-daerah.",
+      "secondOrder": "Lelang massal 14 WKP sekaligus dapat menekan harga penawaran karena kompetisi antarpengembang meningkat, yang secara paradoks menarik pengembang asing bereputasi tetapi mengurangi daya tawar pengembang domestik kecil. Regulator perlu menyiapkan kapasitas evaluasi teknis yang memadai agar proses lelang tidak menjadi formalitas.",
+      "action": "Pantau siapa pengembang yang mengikuti lelang 14 WKP ini—khususnya apakah ada pemain asing baru—dan bandingkan dengan daftar konsesi yang selama ini 'ditahan'; gunakan sebagai indikator apakah teguran Bahlil menghasilkan rotasi nyata pemegang konsesi.",
       "strength": "actionable",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXlmZXA5Ri0tOEF1QlhJRVFmT2dWd19FNEtib2NOZmJ1ZmZ5MXItYms1VjlQZ01FVUx5aFBPZ3VUT3dpOFB1V05jMzkyNHRiUVpVMk5ST1ppcWw4RUx4ZWxzeW9hemp0SUJLOXh5ckZnbW1MMDVfcmt1d3IwbldaRlBqRG5YTk1CWnpXNUJNd2N0QXZCY2lLRXIwajFYY1JGb0FLVEZB?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSnlsa1VVY05Bd21oSS1STDQ3MTBVc042aWQwU1J4Y1RuR2FHUmNQdWZNT09NMzg0cmNLSjc4eVRzdlZLWTRCclh6elFzWHV3aHFTZHBwRzlsSHhpU3JFbjZIQkFIcnFnVXFTbXVmY2EzUXNaZlYxMWJoQXRSQTY0WTRvSHYyR1I1U1M3cmotZmpHX3hkWm1MZzZSLXFxNF90N1Q0Zk9Wei1CMFJ5NHVkT0VpQXhNZ0hfRDlSVGw4cU5GbWxSOXJCejA0d0JkYlRDalE?oc=5"
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSnlsa1VVY05Bd21oSS1STDQ3MTBVc042aWQwU1J4Y1RuR2FHUmNQdWZNT09NMzg0cmNLSjc4eVRzdlZLWTRCclh6elFzWHV3aHFTZHBwRzlsSHhpU3JFbjZIQkFIcnFnVXFTbXVmY2EzUXNaZlYxMWJoQXRSQTY0WTRvSHYyR1I1U1M3cmotZmpHX3hkWm1MZzZSLXFxNF90N1Q0Zk9Wei1CMFJ5NHVkT0VpQXhNZ0hfRDlSVGw4cU5GbWxSOXJCejA0d0JkYlRDalE?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX3h6V1Q1XzFMekYyZ242TWtnYVB1Wng2WVhOaVJyQm93MHRoYl82ZFJyeFBTVVNsMGY5al9hbGF0MXI3QWlfQ2VEcDhmbExkQWNQMXVuanpnZmxFTmNmX2NNMkpfc1BsNXhkS2taNWpsdl81WHU4REJPN1RSZUV4eGh6LWREYUcxUmo3cXVqN3RUd242UERLUUlDU1UxVEhkN01XekVPX3hMS3RhRUptMnprc9IBuAFBVV95cUxQa2pEWEhJOGUzWDhGSGcxOFF5cEEzSmlHdTVpNndZaTlIdHZmSVdUbkRsOEJZMU83eG5WMm1TZkZJSmZQZWRuSnk4aldaRW92TVBvZGlkMWVWUnF3TWNvZEpZZTV1bTJXdE0tc2h4SU1vWFhtOXFiTTFEWFNZbUxGR0xrODhsdS02TnNmbDQtZk5KUVBBM2gwZ3Q0ZXY5NE1YUjFOUXVNRUxjRUQyNDUwQ0ZBcTlvT1JV?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 3,
         "hasPrimary": true
       },
       "trend": {
@@ -83,50 +81,51 @@
     {
       "rank": 3,
       "domain": "corporate",
-      "themeKey": "danantara-ev-charging-fiscal-calibration",
+      "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "Danantara",
-        "Purbaya Yudhi Sadewa"
+        "Bursa Efek Indonesia",
+        "WIKA",
+        "CNBC Indonesia"
       ],
-      "headline": "Danantara masuk pengisian EV; insentif motor listrik dipangkas dari Rp 5 juta ke Rp 3 juta",
-      "whatChanged": "Danantara secara aktif mendorong pembangunan stasiun pengisian kendaraan listrik per 20 Agustus 2026. Pada hari yang sama, Menteri Keuangan Purbaya Yudhi Sadewa mengumumkan anggaran Rp 3 triliun untuk insentif motor listrik dengan nilai Rp 3 juta per unit — turun dari rencana awal Rp 5 juta per unit.",
-      "whyItMatters": "Dua sinyal ini bergerak ke arah berlawanan dalam satu hari: Danantara memperluas peran ke infrastruktur EV hilir (charging), sementara pemerintah memangkas subsidi permintaan (insentif unit). Pemotongan 40% pada insentif per unit berisiko memperlambat laju adopsi yang seharusnya menjadi justifikasi bisnis infrastruktur pengisian.",
-      "secondOrder": "Jika adopsi motor listrik melambat akibat insentif yang lebih rendah, utilisasi charging station yang dibangun Danantara akan tertunda — menciptakan potensi stranded asset di infrastruktur yang baru saja didorong. Ini relevan untuk penilaian kelayakan investasi charging station Danantara yang saat ini sedang dirancang.",
-      "action": "Minta proyeksi utilisasi charging station Danantara yang menggunakan asumsi adopsi berbasis insentif Rp 3 juta (bukan Rp 5 juta); jika model bisnis belum direvisi, tandai sebagai risiko overestimasi permintaan.",
-      "strength": "emerging",
+      "headline": "BEI perpanjang suspensi saham WIKA, sinyal formal kebuntuan restrukturisasi BUMN Karya",
+      "whatChanged": "Bursa Efek Indonesia pada 19 Agustus 2026 memperpanjang suspensi perdagangan saham PT Wijaya Karya (WIKA), dikonfirmasi CNBC Indonesia. Perpanjangan ini terjadi di tengah proses restrukturisasi BUMN Karya yang belum menemukan resolusi.",
+      "whyItMatters": "Suspensi berkepanjangan oleh BEI adalah sinyal resmi bahwa kondisi fundamental WIKA belum memenuhi syarat untuk diperdagangkan secara wajar—ini bukan sekadar opini analis, melainkan keputusan regulator. Dalam konteks tema danantara-bumn-karya-restructuring yang terus berulang, suspensi ini menambah tekanan hukum dan reputasional pada Danantara untuk segera menuntaskan restrukturisasi sebelum akhir 2026.",
+      "secondOrder": "Suspensi berkepanjangan menutup opsi rights issue sebagai instrumen penyehatan modal WIKA di pasar publik, sehingga Danantara harus mencari mekanisme rekapitalisasi alternatif—berpotensi lewat injeksi APBN atau pinjaman perbankan BUMN—yang keduanya memiliki implikasi fiskal lebih besar.",
+      "action": "Tinjau jadwal lifting suspensi BEI dan syarat yang harus dipenuhi WIKA; gunakan sebagai milestone terukur untuk mengevaluasi kemajuan restrukturisasi Danantara secara independen dari pernyataan resmi.",
+      "strength": "material",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ3hzdFBqbjZWTzVPWC1hRDFjZjFtRDd0T2g2MHRHb2k3S1VDVkc0cFdtTExBdTEwLUpzWHY2clNYTFJyYzZXVjQ0T0JCMXJJZnktLXRNTFp3VmVRRE9oRW00TlNQT3dtZURaclJ1NEV2SXlCX2F2UldlTDViZWVYR0pTXzBkZXRvczdFNFBHSnh3TVZlUmR1dWpJTzFhVGRyWmpoS1lZSmFIbjBC0gGvAUFVX3lxTE00QVViZ29HRkRiWjM1YXoyVFdZem1vMDVXMFMxbk1fVDA5dzlkSHZLa3RoWkxRQ3dRRF9zN2ZQaUZKYTFEMnp0eVkwdjhuaGFiaWdoWE5tZDVLTWhlcUlTc0VZNDVuY055dUZQNndtNl8yOWxwR0V5OV82RXlLS3lHQVJZRE1qazhYSFU2X2JTOWFPcUFxNU5heFNmY25yLVhvM2FVNVBsdUF1ZTFmdnM?oc=5",
-        "https://finance.detik.com/industri/d-8627624/bukan-rp-5-juta-insentif-motor-listrik-turun-jadi-rp-3-juta",
-        "https://finance.detik.com/industri/d-8627312/purbaya-sebut-insentif-motor-listrik-jadi-cuma-rp-3-juta-unit"
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmtubnFHLWhXenlWakNTU2Z4VHVxa1M2ZEJpak1teDdmUnh6NVB3eDZOd25tZUNQVjk3OS05WkRMYlNfSjN0ZTB2TkxwZFdxc1B0Q0VzdWZRcUpnOU8wZjRtdnpFblVXUWl0bm0xRU5TSHlXa3NERjVKNlhaY0NHU3hDMzhzSmJuRnduVzh2NmthdVBmNWZweHRrZEJVNVg1N3B0VTRmWnJBX252VmxSaNIBtgFBVV95cUxQMFNGRFJjQlpvNkI1TG1IWmZFU2NrUVFENm9Ub2Z1d0hjLUcwMVV3Zm1yVWtfRjZPUnBXdUJnN1NGSFVhSXQxZnNnQWV0cFZLZjc4WUNuREVXOGd3ckNMR1FvdWdaWUtGWGVfcGRvLXl3NEVQal9kVHItM0FISEc1RXNManRnMEt6Mkpia3R6REo2aWZ4NDV5OVF2bGNoaEUwWTZsVDRTbTllRVJrS3JsaVdnd2ljUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 3,
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "danantara-ev-charging-fiscal-calibration",
-        "status": "new",
-        "occurrences": 1,
-        "firstSeen": "2026-08-21",
-        "spanDays": 0
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "recurring",
+        "occurrences": 3,
+        "firstSeen": "2026-08-19",
+        "spanDays": 2
       }
     },
     {
       "rank": 4,
       "domain": "ai",
-      "themeKey": "openai-ai-governance-policy-posture",
+      "themeKey": "openai-enterprise-data-governance",
       "entities": [
-        "OpenAI"
+        "OpenAI",
+        "Private Safety Processing"
       ],
-      "headline": "OpenAI luncurkan blog 'AI Futures' dan perluas Zero Data Retention untuk API — dua langkah kebijakan serentak",
-      "whatChanged": "OpenAI pada 20 Agustus 2026 meluncurkan 'AI Futures', blog yang secara eksplisit membahas bagaimana AI transformatif akan membentuk kekuasaan, tata kelola, ekonomi, dan kebebasan individu. Sehari sebelumnya (19 Agustus), OpenAI memperluas Zero Data Retention untuk pelanggan API frontier dan memperkenalkan Private Safety Processing — pemrosesan keamanan AI tanpa menyimpan data pengguna.",
-      "whyItMatters": "Kedua langkah ini tidak berdiri sendiri: 'AI Futures' membangun narasi publik tentang AI dan kekuasaan, sementara Zero Data Retention memberikan infrastruktur teknis yang memungkinkan adopsi enterprise di sektor sensitif (keuangan, kesehatan, pemerintah). Bersama-sama, ini adalah postur pre-emptive sebelum gelombang regulasi AI di berbagai yurisdiksi — OpenAI mendefinisikan kerangka tata kelola sebelum regulator melakukannya.",
-      "secondOrder": "Jika narasi 'AI Futures' diadopsi sebagai referensi dalam debat regulasi AI di parlemen atau lembaga internasional, OpenAI berpotensi memengaruhi desain regulasi secara asimetris — keuntungan first-mover dalam pembentukan kebijakan, bukan hanya produk. Ini relevan bagi pemerintah Indonesia yang sedang merancang kerangka AI nasional.",
-      "action": "Evaluasi apakah Zero Data Retention OpenAI memenuhi syarat residensi data yang disyaratkan regulasi Indonesia (PDPA/PP 71/2019) — bila ya, ini membuka jalur adopsi AI enterprise di BUMN dan lembaga pemerintah yang sebelumnya terhambat kekhawatiran kedaulatan data.",
-      "strength": "emerging",
+      "headline": "OpenAI tawarkan Zero Data Retention dan pratinjau Private Safety Processing untuk pelanggan API",
+      "whatChanged": "OpenAI pada 19 Agustus 2026 mengumumkan Zero Data Retention (ZDR) untuk pelanggan API yang memenuhi syarat, sekaligus mem-preview fitur Private Safety Processing—mekanisme keamanan AI yang tidak mengharuskan OpenAI melihat data pengguna. Ini adalah kebijakan data enterprise baru yang dikonfirmasi langsung oleh sumber primer OpenAI.",
+      "whyItMatters": "ZDR mengubah proposisi nilai OpenAI untuk pelanggan enterprise di sektor regulated—perbankan, kesehatan, pemerintah—yang selama ini ragu menggunakan model frontier karena risiko data residency. Bagi perusahaan Indonesia yang sedang mempertimbangkan adopsi AI, ini menghapus salah satu hambatan utama compliance.",
+      "secondOrder": "Bila ZDR diadopsi luas oleh enterprise regulated, tekanan pada penyedia model lokal atau on-premise (termasuk model open-source yang di-deploy sendiri) akan meningkat karena argumen utama mereka—kontrol data—melemah. Regulator seperti OJK dan Kominfo perlu memutakhirkan kerangka AI governance yang mempertimbangkan ZDR sebagai standar minimum, bukan premium.",
+      "action": "Evaluasi apakah vendor AI yang digunakan saat ini menawarkan ZDR atau setara; jadikan ZDR sebagai persyaratan minimum dalam RFP pengadaan solusi AI untuk unit bisnis yang menangani data sensitif.",
+      "strength": "material",
       "sourceUrls": [
-        "https://openai.com/index/introducing-ai-futures",
         "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
       ],
       "secondOrderUrls": [],
@@ -135,27 +134,27 @@
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "openai-ai-governance-policy-posture",
+        "themeKey": "openai-enterprise-data-governance",
         "status": "recurring",
         "occurrences": 2,
-        "firstSeen": "2026-08-19",
-        "spanDays": 2
+        "firstSeen": "2026-08-20",
+        "spanDays": 1
       }
     },
     {
       "rank": 5,
       "domain": "corporate",
-      "themeKey": "telkom-bumn-subsidiary-rationalization",
+      "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "Danantara",
-        "Telkom"
+        "Telkom",
+        "CNBC Indonesia"
       ],
-      "headline": "Danantara panggil manajemen Telkom; anak perusahaan dipangkas menjadi 18",
-      "whatChanged": "Bos Danantara memanggil manajemen Telkom Indonesia dan menetapkan target pemangkasan anak perusahaan menjadi 18 entitas, per laporan CNBC Indonesia 20 Agustus 2026. Jumlah sebelumnya tidak dirinci dalam sumber, namun pemangkasan ini merupakan bagian dari agenda efisiensi portofolio BUMN yang dikelola Danantara.",
-      "whyItMatters": "Ini adalah sinyal bahwa Danantara mulai bergerak dari restrukturisasi BUMN Karya (yang macet) ke konsolidasi BUMN non-konstruksi yang lebih likuid dan operasional — Telkom adalah kandidat yang lebih mudah karena memiliki arus kas, bukan beban utang laten. Pola ini menunjukkan Danantara memilih 'kemenangan cepat' untuk menunjukkan progres di tengah tekanan opasitas laporan keuangan.",
-      "secondOrder": "Pemangkasan anak perusahaan Telkom ke 18 entitas akan memaksa konsolidasi atau divestasi aset digital, telekomunikasi, dan fintech yang selama ini beroperasi semi-independen. Anak perusahaan yang tidak masuk daftar 18 akan menghadapi tekanan M&A — ini menciptakan peluang akuisisi bagi pemain swasta atau mitra strategis asing dalam 6–12 bulan ke depan.",
-      "action": "Peta anak perusahaan Telkom saat ini dan identifikasi entitas mana yang paling mungkin menjadi target divestasi atau merger; susun watchlist untuk monitoring potensi transaksi M&A yang akan muncul dari rasionalisasi ini.",
-      "strength": "material",
+      "headline": "Danantara minta Telkom pangkas anak usaha menjadi 18 perusahaan",
+      "whatChanged": "CNBC Indonesia melaporkan 20 Agustus 2026 bahwa pimpinan Danantara memanggil manajemen Telkom dan mengarahkan pemangkasan jumlah anak usaha menjadi 18 entitas. Jumlah saat ini tidak disebutkan eksplisit dalam sumber, namun ini adalah instruksi rasionalisasi korporasi signifikan dari super-holding.",
+      "whyItMatters": "Ini adalah contoh pertama yang terdokumentasi secara publik di mana Danantara mengeluarkan instruksi operasional konkret kepada BUMN non-Karya. Ini menunjukkan bahwa mandatnya lebih luas dari sekadar BUMN Karya—dan bahwa model intervensi Danantara adalah top-down, bukan bottom-up restrukturisasi berbasis due diligence. Ini melanjutkan tekanan struktural danantara-bumn-karya-restructuring ke domain telekomunikasi.",
+      "secondOrder": "Pemangkasan anak usaha Telkom dapat memicu gelombang konsolidasi, divestasi, atau likuidasi entitas yang selama ini menjadi 'kantong biaya' tersembunyi. Karyawan anak usaha yang tidak terserap berpotensi menjadi isu ketenagakerjaan. Di sisi lain, entitas yang dilikuidasi membuka celah akuisisi bagi swasta di segmen digital dan infrastruktur.",
+      "action": "Peta anak usaha Telkom saat ini dan identifikasi kandidat yang paling mungkin dilikuidasi atau dimerger; evaluasi apakah ada aset strategis di antara kandidat tersebut yang relevan untuk portofolio infrastruktur digital atau energi.",
+      "strength": "emerging",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNlpTOFRNSDVpeVNNZ0RkUXdWaFR1NWhCMGRUVkliNWE1Nmt3T01pV3ZPWlgyTkVUdnRaaFZZWUs0RThLVHh2MTJGTUI3U2VScEExNE5jbS1Hbm94MXJoMjl0V3JGQi0xTFhzMnhOR1BKbF8tOHRBYU01UlN5MWdQUHhhMFdXc1ROZU5ETWZsRjVkcWxNenAwa0pCT09OQ3pfc21GU3R6eDNBbzhzR3k0R0Iwc0lKQnRCLWFxckp4akxNMkZPOVHSAcsBQVVfeXFMT2VUNkQzNFBPZ2Q0Qy05MXp1ZC13RUc4T1duZ1gzWGZMVXdSazFkbG1wb2hDR0hzbEdJZHY3TTA5M3U5Zm9KS0Fld2dzUjBqMTItZFFfcTlyNXZmU1VBa3lxTmVKaUJRT0V0RkZKYVcwMDFmMHFWVU5lVm13Z3BXVklwanZVLXRzcVA1Z3B5OWp3TlpHYUI1c1dIOU9NWWVqT0dzNExzeFBoUEJoSUwyWnRDbTB3SmF3NUtyeFBSUmY5dC1YQlluOFZvM1k?oc=5"
       ],
@@ -165,41 +164,33 @@
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "telkom-bumn-subsidiary-rationalization",
-        "status": "new",
-        "occurrences": 1,
-        "firstSeen": "2026-08-21",
-        "spanDays": 0
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "recurring",
+        "occurrences": 3,
+        "firstSeen": "2026-08-19",
+        "spanDays": 2
       }
     }
   ],
   "watchNext": [
     {
-      "item": "Tenggat restrukturisasi BUMN Karya akhir 2026 yang dicanangkan Danantara: pantau apakah laporan keuangan Danantara terbit sebelum Q3 2026 sebagai prasyarat kredibilitas milestone ini.",
-      "dueDate": "2026-09-30"
+      "item": "Tenggat restrukturisasi BUMN Karya akhir 2026: pantau apakah Danantara menerbitkan laporan keuangan pertama sebelum Oktober sebagai prasyarat kredibilitas proses",
+      "dueDate": "2026-10-01"
     },
     {
-      "item": "Hasil lelang 14 WKP panas bumi: pantau berapa WKP yang mendapat penawar pada putaran pertama dan apakah pengembang yang sebelumnya menahan konsesi ikut berpartisipasi.",
+      "item": "Hasil evaluasi penawaran 14 WKP panas bumi baru: identifikasi pengembang pemenang dan apakah ada rotasi dari pemegang konsesi lama yang ditegur Bahlil",
       "dueDate": "2026-11-30"
     },
     {
-      "item": "Dampak pemotongan insentif motor listrik ke Rp 3 juta terhadap angka penjualan Q3 2026: data BPS atau asosiasi industri kendaraan listrik perlu dipantau untuk validasi asumsi utilisasi charging station Danantara.",
-      "dueDate": "2026-10-15"
+      "item": "Lifting suspensi saham WIKA oleh BEI: jadikan sebagai indikator kemajuan restrukturisasi yang terverifikasi secara regulasi",
+      "dueDate": "2026-12-31"
     },
     {
-      "item": "Struktur dan daftar final 18 anak perusahaan Telkom pasca-rasionalisasi: identifikasi entitas yang keluar dari daftar sebagai sinyal awal aktivitas M&A.",
-      "dueDate": "2026-12-31"
+      "item": "Rencana pemangkasan anak usaha Telkom menjadi 18 entitas: pantau pengumuman resmi Telkom dan daftar entitas yang dilikuidasi atau dimerger",
+      "dueDate": "2026-10-31"
     }
   ],
   "sources": [
-    {
-      "title": "Introducing AI Futures",
-      "publisher": "OpenAI",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-20T07:00:00.000Z"
-    },
     {
       "title": "Kejar Potensi Panas Bumi Nomor Satu Dunia, Bahlil Minta Pengembang Tak Tahan Konsesi",
       "publisher": "Kementerian ESDM",
@@ -210,30 +201,22 @@
       "publishedAt": "2026-08-19T10:01:07.000Z"
     },
     {
-      "title": "Danantara & JBS Jalin Kemitraan Protein Senilai USD 2,5 Miliar",
-      "publisher": "Danantara Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOODFaWDZjX1YyZEVQbEpNd05KVUphQUYzZDVtSHA4TjlBZ09kOHcyazMtU1lJdm9WTHBCTHpMNHNCbVFHUHdpSFVscVc2eXpTbnpSMnVZbWhxcnc0U0s4bHJ3eFVIVE4wR0NBWWtaOFFDUXVoRTVRRVFyR3A1WG5qakwzbTRXNzM1S3hIVzlTdnNiZDhkT1hEYmVzWW9fbC1QWjMw?oc=5",
+      "title": "Mengapa Restrukturisasi BUMN Karya Sangat Rumit?",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
       "tier": 1,
       "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-08-07T07:00:00.000Z"
+      "primary": false,
+      "publishedAt": "2026-08-20T08:29:00.000Z"
     },
     {
-      "title": "Bukan Rp 5 Juta, Insentif Motor Listrik Turun Jadi Rp 3 juta",
-      "publisher": "detikFinance",
-      "url": "https://finance.detik.com/industri/d-8627624/bukan-rp-5-juta-insentif-motor-listrik-turun-jadi-rp-3-juta",
+      "title": "Pemprov Banten optimalkan panas bumi sebagai penggerak ekonomi daerah",
+      "publisher": "ANTARA News Banten",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX3h6V1Q1XzFMekYyZ242TWtnYVB1Wng2WVhOaVJyQm93MHRoYl82ZFJyeFBTVVNsMGY5al9hbGF0MXI3QWlfQ2VEcDhmbExkQWNQMXVuanpnZmxFTmNmX2NNMkpfc1BsNXhkS2taNWpsdl81WHU4REJPN1RSZUV4eGh6LWREYUcxUmo3cXVqN3RUd242UERLUUlDU1UxVEhkN01XekVPX3hMS3RhRUptMnprc9IBuAFBVV95cUxQa2pEWEhJOGUzWDhGSGcxOFF5cEEzSmlHdTVpNndZaTlIdHZmSVdUbkRsOEJZMU83eG5WMm1TZkZJSmZQZWRuSnk4aldaRW92TVBvZGlkMWVWUnF3TWNvZEpZZTV1bTJXdE0tc2h4SU1vWFhtOXFiTTFEWFNZbUxGR0xrODhsdS02TnNmbDQtZk5KUVBBM2gwZ3Q0ZXY5NE1YUjFOUXVNRUxjRUQyNDUwQ0ZBcTlvT1JV?oc=5",
       "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-20T22:55:06.000Z"
-    },
-    {
-      "title": "Danantara dorong upaya pembangunan charging station pacu adopsi EV",
-      "publisher": "ANTARA News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ3hzdFBqbjZWTzVPWC1hRDFjZjFtRDd0T2g2MHRHb2k3S1VDVkc0cFdtTExBdTEwLUpzWHY2clNYTFJyYzZXVjQ0T0JCMXJJZnktLXRNTFp3VmVRRE9oRW00TlNQT3dtZURaclJ1NEV2SXlCX2F2UldlTDViZWVYR0pTXzBkZXRvczdFNFBHSnh3TVZlUmR1dWpJTzFhVGRyWmpoS1lZSmFIbjBC0gGvAUFVX3lxTE00QVViZ29HRkRiWjM1YXoyVFdZem1vMDVXMFMxbk1fVDA5dzlkSHZLa3RoWkxRQ3dRRF9zN2ZQaUZKYTFEMnp0eVkwdjhuaGFiaWdoWE5tZDVLTWhlcUlTc0VZNDVuY055dUZQNndtNl8yOWxwR0V5OV82RXlLS3lHQVJZRE1qazhYSFU2X2JTOWFPcUFxNU5heFNmY25yLVhvM2FVNVBsdUF1ZTFmdnM?oc=5",
-      "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-20T13:03:38.000Z"
+      "publishedAt": "2026-08-20T13:54:29.000Z"
     },
     {
       "title": "Bursa Efek Indonesia Perpanjang Gembok Saham WIKA",
@@ -243,6 +226,15 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-08-19T05:40:15.000Z"
+    },
+    {
+      "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T23:40:08.000Z"
     },
     {
       "title": "Offering Zero Data Retention for frontier models",
@@ -278,23 +270,6 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-08-18T11:45:40.000Z"
-    },
-    {
-      "title": "Danantara, BP BUMN finalize five-year roadmap for SOE transformation",
-      "publisher": "ANTARA News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXNwUldIdE5LSEJnSTUxS3RqUUZTcm5LUEx2aDE3VTdJdkJNMENDRkdrUUhiUko2MjFUc2JMYmhfdTBoTnAxVmRGZEFJTlJrYWlCb3p4ZVI3OHV2cjZDOTRNYmk3ZHdJSVRUamh1bjBkOHBCSVZManY1a3lNZXRYTk1oeGw0M3F4V2NKcXVmcE9qTzJEQ0M4WFdURm05RGNCaTlDbzZTN0LSAa4BQVVfeXFMTUVkOWozUmk4ZWVqLXlCNndVTEY3SmRXWV8xZVpaMnk3dE0yQmxacEdZeEtPTlRtbUJQQWdpZkNNV2F3MlgyckhqMzNKVFpSaG11b3VTb1FJTEgyUlNQY0ZaQ1A2M29IVTRSblFfMmJYMUtXMnY4clBLSG9hMkI2TnhYZXY4ZGtYRllaQUphd1dNQ2p3TXVpRV9HYkRRSlhycHlQMDZaVGpDTGZ2cEZn?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-04T07:00:00.000Z"
-    },
-    {
-      "title": "Purbaya Sebut Insentif Motor Listrik Jadi Cuma Rp 3 Juta/Unit",
-      "publisher": "detikFinance",
-      "url": "https://finance.detik.com/industri/d-8627312/purbaya-sebut-insentif-motor-listrik-jadi-cuma-rp-3-juta-unit",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-20T09:46:06.000Z"
     },
     {
       "title": "Bos Danantara Panggil Manajemen, Telkom Bakal Pangkas Anak Jadi 18",
@@ -343,7 +318,7 @@
     },
     "candidateCount": 399,
     "poolSize": 110,
-    "generatedAt": "2026-08-20T23:19:27.269Z",
+    "generatedAt": "2026-08-20T23:50:13.501Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
