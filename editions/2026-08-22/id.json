@@ -1,0 +1,359 @@
+{
+  "slug": "2026-08-22",
+  "date": "2026-08-22",
+  "lang": "id",
+  "title": "Nvidia Masuk Infrastruktur, WKP Lelang Meluas, BUMN Karya Masih Terganjal",
+  "dek": "Tiga domain bergerak serentak: Nvidia mengambil posisi ekuitas di pusat data, lelang 14 WKP panas bumi Indonesia memasuki fase eksekusi, dan restrukturisasi BUMN Karya belum punya tenggat pasti.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "Nvidia berinvestasi langsung ke Cloverleaf Infrastructure, mengkonfirmasi bahwa vendor GPU kini mengambil eksposur ekuitas di lapisan infrastruktur fisik — bukan sekadar menjual perangkat keras. Di Indonesia, Kementerian ESDM membuka lelang 14 Wilayah Kerja Panas Bumi baru dan Pertamina mempublikasikan agenda ekspansi geothermal di IIGCE 2026, memperkuat sinyal bahwa teguran Bahlil telah berubah menjadi aksi konkret. Sementara itu, BP BUMN menyatakan restrukturisasi BUMN Karya diupayakan segera selesai tanpa menyebut batas waktu, dan analisis Kompas.com mengurai kompleksitas struktural yang menjelaskan mengapa prosesnya mandek — benang yang sudah berulang tiga kali dalam 30 hari terakhir. PLN membangun backbone transmisi cadangan Aceh-Sumut, sinyal investasi jaringan yang sejalan dengan kebutuhan energi terbarukan skala besar. OpenAI mengukuhkan Zero Data Retention untuk pelanggan API, melanjutkan tema enterprise-ai-data-privacy-contracts yang telah muncul dua kali sebelumnya dan kini mendapat konfirmasi resmi.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "Nvidia",
+        "Cloverleaf Infrastructure",
+        "Reuters",
+        "TechCrunch"
+      ],
+      "headline": "Nvidia berinvestasi ekuitas di Cloverleaf Infrastructure, bukan sekadar menjual GPU",
+      "whatChanged": "Nvidia mengambil posisi investasi langsung di Cloverleaf Infrastructure, pengembang pusat data, sebagaimana dilaporkan Reuters dan TechCrunch pada 21 Agustus 2026. Ini bukan penjualan perangkat keras biasa — Nvidia menaruh modal di entitas yang membangun dan mengoperasikan fasilitas komputasi.",
+      "whyItMatters": "Pola yang terbentuk: vendor GPU bergerak ke hilir rantai nilai, dari hardware ke compute layer ke infrastruktur fisik. Nvidia kini memiliki eksposur langsung terhadap risiko pengisian kapasitas, biaya energi, dan siklus hidup aset pusat data — bukan hanya risiko penjualan chip. Ini mengubah cara menilai Nvidia: dari perusahaan semikonduktor menjadi entitas dengan karakteristik project finance.",
+      "secondOrder": "Jika Nvidia — sebagai pemasok utama — juga menjadi pemegang ekuitas di hilir, maka pelanggan pusat data yang bergantung padanya menghadapi konflik kepentingan struktural: vendor sekaligus kompetitor dalam perebutan kapasitas komputasi. Bank dan lembaga pembiayaan yang mendanai pusat data independen perlu menilai ulang risiko persaingan dari Cloverleaf yang kini didukung Nvidia.",
+      "action": "Tinjau ulang proposal pembiayaan pusat data independen dengan lensa struktur Sponsor→Offtaker→EPC→Power→Grid→Lender→Guarantee; tambahkan dimensi 'vendor-as-equity-holder' sebagai variabel risiko konsentrasi. Pertanyaan konkret minggu ini: apakah Cloverleaf mendapat akses GPU prioritas yang tidak tersedia bagi operator lain?",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRjJpMUNyWEhLOFVLUHU2M05haDdFRXpkUnBuby1ZSUhwdjZjMjhJYmVqUTY4UEdSZFBYNG00RWxOMUowekFsZEJ0LWFmckpQSFVGcE4yMlZTUnlqSERKeDJTM3pZNDUtdjRKeGpPTnNpSy01UlkxV256UjhxSzFNZUlWQUwwZWlveTVMcXBUOGRZUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnVtUUVfYWJoSUhsRXpLZGNEdHM0eFBmU0hVZzZiVzlDdUZXWkV2X3k1bGppdnp5Zy1fcy1HYnBGc0pPXzZoRmpsZmtPTDRqSFd5anNGR1hnMDlOYjk2U1BZeU42UTh4RUxiaE1XSWRyZW9RTjUtWjYzVXM5N0ZYU0VXdXRSNmNmZnRpREUzdDE4U3l4VDBIa3JPdklOUjdvbFp3dGRZdlZnQjBwSEE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "recurring",
+        "occurrences": 2,
+        "firstSeen": "2026-08-20",
+        "spanDays": 2
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "Kementerian ESDM",
+        "Pertamina",
+        "IIGCE 2026",
+        "Bloomberg Technoz"
+      ],
+      "headline": "ESDM lelang 14 WKP baru dan Pertamina umumkan ekspansi geothermal di IIGCE 2026",
+      "whatChanged": "Kementerian ESDM membuka lelang 14 Wilayah Kerja Panas Bumi baru, dikonfirmasi Bloomberg Technoz pada 20 Agustus 2026. Bersamaan, Pertamina mempublikasikan agenda ekspansi panas bumi nasional di Indonesia International Geothermal Convention and Exhibition (IIGCE) 2026, dilaporkan CNN Indonesia dan detikFinance pada 21 Agustus 2026. Ini melanjutkan sinyal dari teguran Bahlil kepada pengembang yang menahan konsesi, yang sudah muncul tiga kali dalam 30 hari terakhir.",
+      "whyItMatters": "Akumulasi tiga sinyal dalam satu bulan — teguran publik Bahlil, publikasi ESDM tentang potensi nomor satu dunia, kini lelang nyata 14 WKP — menunjukkan bahwa ini bukan retorika kebijakan, melainkan pergeseran dari fase wacana ke fase eksekusi. Pertamina sebagai operator BUMN yang ikut mendeklarasikan ekspansi menambah tekanan pada pengembang swasta yang selama ini menahan konsesi.",
+      "secondOrder": "Lelang 14 WKP sekaligus berarti 14 pertanyaan tarif yang harus diselesaikan — Feed-in Tariff atau mekanisme harga lain yang selama ini menjadi hambatan utama pengembangan. Jika harga belum diselesaikan sebelum lelang selesai, gelombang pengembang baru akan menghadapi jebakan yang sama dengan gelombang sebelumnya: konsesi dipegang, proyek mandek. Risiko akumulasi konsesi berulang.",
+      "action": "Pantau apakah dokumen lelang 14 WKP menyertakan klausul harga (Perjanjian Jual Beli Tenaga Listrik / PJBTL) yang pra-disetujui PLN, atau sekadar lelang konsesi. Ini penentu apakah lelang ini berbeda dari siklus sebelumnya. Deadline: sebelum penutupan penawaran WKP pertama.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXlmZXA5Ri0tOEF1QlhJRVFmT2dWd19FNEtib2NOZmJ1ZmZ5MXItYms1VjlQZ01FVUx5aFBPZ3VUT3dpOFB1V05jMzkyNHRiUVpVMk5ST1ppcWw4RUx4ZWxzeW9hemp0SUJLOXh5ckZnbW1MMDVfcmt1d3IwbldaRlBqRG5YTk1CWnpXNUJNd2N0QXZCY2lLRXIwajFYY1JGb0FLVEZB?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdkhEaWtjM0kyRFNoUHNDMXZLMjBuYURwOWhxbzY2dEg1Y0lxRG51YmZ4a0JzNFRVT2NCajExTGU2cmJ6MEt2NF9yYVlsWG1QYUp5dGdCN2Nnc2t1NE1FeEhFN01wUHV5cUYtMjItTVYtdGFzUndkUFRyN3JUNlZ2Vk41Y2h1V2VpZklfSGJDOTBKWnFsNWRxUmRFRkVBRWdvN1JnRk1kTTRZcDg2VjdHS3A3WWhPYTktTkNpMzNDRU5WbTBoOTBhdNIBzgFBVV95cUxNMnlMMkk1M3RfMmwwblpidFNyTExGS0xSOTBVNi12MTgzbllwbVB0MHVTMlhMM3NDbDBtUkFMdnZ1VlNkRGhndktzMTZOY0NnSVZJUmtUTnpVWUJPdHRkSnQ0SEp4clNwMjBQeEFfRkhOemNHendHekZheWNOZTV5cUREVThQWnhpQjBmbE93ZldsakllaFBLYkZyalpEQUhEaWU1MnpaN0ZVNjdwRnZwM3RucXRpa1NkVlVuZTB3Y04zanFwQUpwbFNLWWhEQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRUl3QmY3NVJjLXlJbms1WWxrTmsyVW9oRUM0MFJyX0VJZWoyNmtrbWVOX0VqYTNmUHd3SWdQQmkwakFOYmZhQ09yTHVXYlp4S0t1NEVrVmRNd3VpcnNoczFRUkpPZDNNcWNIOUY1aElqOUxkVGF5RHNqQWRFc3R2SnNiZDZDNk1sU2F2YWpyZHlXTV9Zc0Z4S1NVQ3pyVWxiZURDc1g3WDEwQdIBrwFBVV95cUxNM0FxRW1ZVXFIOUJKM3F5RFNvbzlKemxDZEhNeWpMcmdXS1VyM0lmSUVSeVJfTW8zZk9NendzRXBWN0pjTzVmZTA3akxTZlJIam1wX1R5UGlscms3MzdpUzhfenZWUG9hZkZUaGFQV3BNVzQ2M3NPRWpMME9SUFdzY0xTdkVORHFSaUpXcDBrTk1MVzhoZ2VMVjM4YlhPaXBSUHQweDd5X2IxdF9UUUNZ?oc=5",
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSnlsa1VVY05Bd21oSS1STDQ3MTBVc042aWQwU1J4Y1RuR2FHUmNQdWZNT09NMzg0cmNLSjc4eVRzdlZLWTRCclh6elFzWHV3aHFTZHBwRzlsSHhpU3JFbjZIQkFIcnFnVXFTbXVmY2EzUXNaZlYxMWJoQXRSQTY0WTRvSHYyR1I1U1M3cmotZmpHX3hkWm1MZzZSLXFxNF90N1Q0Zk9Wei1CMFJ5NHVkT0VpQXhNZ0hfRDlSVGw4cU5GbWxSOXJCejA0d0JkYlRDalE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "recurring",
+        "occurrences": 4,
+        "firstSeen": "2026-08-19",
+        "spanDays": 3
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BP BUMN",
+        "Danantara",
+        "CNBC Indonesia",
+        "Kompas.com"
+      ],
+      "headline": "BP BUMN akui restrukturisasi BUMN Karya belum punya tenggat, kompleksitas struktural diurai",
+      "whatChanged": "Kepala BP BUMN menyatakan di CNBC Indonesia pada 21 Agustus 2026 bahwa restrukturisasi BUMN Karya 'diupayakan segera selesai' tanpa menyebut tenggat waktu konkret. Kompas.com pada 20 Agustus 2026 menerbitkan analisis yang mengurai kerumitan struktural: tumpang-tindih proyek, jaminan silang utang, dan kepemilikan aset yang belum terpisah bersih. Ini pengulangan ketiga tema ini dalam 30 hari, kini dengan konfirmasi eksplisit dari pejabat berwenang bahwa proses belum selesai.",
+      "whyItMatters": "Setelah tiga sinyal, tema ini bergeser dari 'berita' menjadi kondisi struktural: restrukturisasi BUMN Karya adalah masalah yang diakui tetapi belum terpecahkan. Ketiadaan tenggat dari BP BUMN mengindikasikan bahwa hambatan bukan politis melainkan teknis-legal — jaminan silang dan struktur utang yang saling terkait membuat setiap langkah berpotensi memicu default lintas entitas.",
+      "secondOrder": "Selama restrukturisasi menggantung, BUMN Karya tidak bisa mengakses pembiayaan baru dengan terms wajar — kreditur menunggu kejelasan struktur. Proyek infrastruktur yang seharusnya didanai BUMN Karya (jalan, gedung, bendungan) berisiko tertunda, yang pada gilirannya menekan target pertumbuhan ekonomi 8% pemerintah Prabowo. Danantara sebagai holding perlu memilih: tetapkan tenggat keras atau akui bahwa konsolidasi parsial lebih realistis.",
+      "action": "Identifikasi BUMN Karya mana yang memiliki jaminan silang dengan bank BUMN (BRI, Mandiri, BNI) dan seberapa besar eksposurnya. Pertanyaan konkret untuk diajukan ke manajemen minggu ini: apakah ada ring-fencing proposal yang memisahkan proyek 'selesai' dari proyek 'bermasalah' sebagai langkah awal sebelum konsolidasi penuh?",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "recurring",
+        "occurrences": 4,
+        "firstSeen": "2026-08-19",
+        "spanDays": 3
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Zero Data Retention",
+        "Private Safety Processing"
+      ],
+      "headline": "OpenAI mengukuhkan Zero Data Retention dan pratinjau Private Safety Processing untuk pelanggan API",
+      "whatChanged": "OpenAI menerbitkan halaman resmi pada 19 Agustus 2026 yang mengkonfirmasi Zero Data Retention (ZDR) untuk pelanggan API yang memenuhi syarat, dan mem-preview Private Safety Processing — mekanisme yang memungkinkan pemrosesan keamanan AI tanpa OpenAI mengakses data pengguna. Ini adalah konfirmasi sumber primer, melanjutkan tema yang sudah muncul dua kali dalam 30 hari terakhir.",
+      "whyItMatters": "Dengan ZDR dan Private Safety Processing, OpenAI memisahkan dua hal yang sebelumnya dianggap tak terpisahkan: kebutuhan data untuk safety monitoring versus privasi data pelanggan. Ini membuka pasar enterprise yang sebelumnya tertutup — sektor keuangan, kesehatan, dan pemerintahan yang memiliki hambatan regulasi untuk mengirim data ke vendor AI eksternal.",
+      "secondOrder": "Jika standar ZDR menjadi norma industri (bukan keunggulan kompetitif OpenAI saja), maka perusahaan yang masih menolak adopsi AI dengan alasan privasi kehilangan argumen utamanya. Tekanan untuk adopsi akan meningkat, tetapi tanggung jawab audit dan compliance bergeser ke pelanggan — mereka yang harus membuktikan bahwa data mereka memang tidak tersimpan, bukan OpenAI yang membuktikannya.",
+      "action": "Tinjau ulang klausul data processing agreement yang saat ini digunakan dalam kontrak AI enterprise. Pertanyaan konkret: apakah ZDR OpenAI kompatibel dengan persyaratan PDPA Indonesia dan regulasi data sektoral OJK/BPOM? Bila ya, ini argumen untuk mempercepat pilot enterprise AI di sektor regulated.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "recurring",
+        "occurrences": 3,
+        "firstSeen": "2026-08-20",
+        "spanDays": 2
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "RUPTL 2025-2034",
+        "IEEFA"
+      ],
+      "headline": "PLN bangun backbone transmisi cadangan Aceh-Sumut sebagai antisipasi gangguan sistemik",
+      "whatChanged": "PLN mengumumkan pembangunan backbone cadangan jaringan transmisi Aceh-Sumatra Utara, dilaporkan detikcom pada 21 Agustus 2026. Investasi ini bersifat redundansi jaringan — bukan kapasitas baru, melainkan ketahanan sistem yang sudah ada.",
+      "whyItMatters": "Investasi transmisi redundansi di koridor Aceh-Sumut relevan secara strategis karena Sumatra Utara adalah simpul utama pengembangan geothermal (Sarulla, Sorik Marapi, dan potensi WKP baru dari lelang ESDM). Tanpa keandalan transmisi, kapasitas pembangkit baru tidak bisa diandalkan untuk offtake jangka panjang — hambatan yang selama ini membuat PJBTL sulit disepakati.",
+      "secondOrder": "Jika PLN secara paralel membangun redundansi transmisi dan ESDM membuka lelang WKP baru di Sumatra, maka bottleneck berikutnya bergeser ke lapisan distribusi dan interconnection agreement antara Independent Power Producer geothermal baru dengan sistem PLN. IEEFA telah mengidentifikasi transmisi sebagai hambatan utama investasi energi terbarukan Indonesia — backbone baru ini adalah langkah pertama tetapi belum cukup.",
+      "action": "Periksa apakah backbone Aceh-Sumut ini masuk dalam RUPTL 2025-2034 sebagai proyek terjadwal atau akselerasi baru. Bila akselerasi, ini sinyal bahwa PLN merespons tekanan geothermal expansion — dan bisa jadi leverage dalam negosiasi PJBTL WKP baru.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNm5ranNNOG5RMlUtVE5YOEJnNzlfRXhubEtmTzhFNkU4U2JlOTJzNGg0Q3QzaU1ncjBzM0IwUGc1ektCQXhsaW9DVUhIUWNOQXJfZVJaM2MzSHVpRnJvTHpDT0JMVzZSM0JVdk54LXJ5Vjg1cktkdlpYQ09VSUtvSEI0Y1V3Z0pkYVdpWWlrVkJ6S2t1RW04QmEwSkFmVG9hZEgwY3IwS3BBVERsamJyS0JGaVBfSWhxQ1N0VXgxUm7SAcYBQVVfeXFMTjFyNDVOQ1YzTDJjVEZmZkstSUlmQ19LMHJOMG5FTGhkNnh4UjJ6emZXZTRsUllXN0laVFNDT2lXTGlvLTY1TjBELU05a18zQnZ0T0EtNUpqQVdkRmk5YnhnYjFVaTdOU2xNLXdCR21uQzY0VkppN01pWS1zUkZaaHl1eUVNYUE4dFhvV1FuSUpNV2tHWXBCVUdwcERkeTREWWYyazlxbXNYdTB1LWdoT0ZMRTBrdmlTUzd0U0wxTWxRT0JlMGlB?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "new",
+        "occurrences": 1,
+        "firstSeen": "2026-08-22",
+        "spanDays": 0
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Dokumen lelang resmi 14 WKP panas bumi ESDM: periksa apakah menyertakan mekanisme harga PJBTL pra-disetujui atau sekadar lelang konsesi kosong",
+      "dueDate": "2026-09-05"
+    },
+    {
+      "item": "Tenggat restrukturisasi BUMN Karya: apakah BP BUMN atau Danantara menetapkan milestone konkret sebelum akhir kuartal III 2026",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Cloverleaf Infrastructure: detail struktur investasi Nvidia — apakah ekuitas minoritas, jaminan offtake GPU, atau kombinasi — untuk menilai implikasi bagi operator pusat data independen",
+      "dueDate": "2026-09-01"
+    },
+    {
+      "item": "IIGCE 2026: apakah Pertamina mengumumkan target kapasitas geothermal tambahan dan koridor WKP prioritas yang akan diikuti dalam lelang ESDM",
+      "dueDate": "2026-08-29"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kejar Potensi Panas Bumi Nomor Satu Dunia, Bahlil Minta Pengembang Tak Tahan Konsesi",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSnlsa1VVY05Bd21oSS1STDQ3MTBVc042aWQwU1J4Y1RuR2FHUmNQdWZNT09NMzg0cmNLSjc4eVRzdlZLWTRCclh6elFzWHV3aHFTZHBwRzlsSHhpU3JFbjZIQkFIcnFnVXFTbXVmY2EzUXNaZlYxMWJoQXRSQTY0WTRvSHYyR1I1U1M3cmotZmpHX3hkWm1MZzZSLXFxNF90N1Q0Zk9Wei1CMFJ5NHVkT0VpQXhNZ0hfRDlSVGw4cU5GbWxSOXJCejA0d0JkYlRDalE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-19T10:01:07.000Z"
+    },
+    {
+      "title": "Antisipasi Gangguan, PLN Bangun Backbone Cadangan Jaringan Transmisi Aceh-Sumut",
+      "publisher": "detikcom",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNm5ranNNOG5RMlUtVE5YOEJnNzlfRXhubEtmTzhFNkU4U2JlOTJzNGg0Q3QzaU1ncjBzM0IwUGc1ektCQXhsaW9DVUhIUWNOQXJfZVJaM2MzSHVpRnJvTHpDT0JMVzZSM0JVdk54LXJ5Vjg1cktkdlpYQ09VSUtvSEI0Y1V3Z0pkYVdpWWlrVkJ6S2t1RW04QmEwSkFmVG9hZEgwY3IwS3BBVERsamJyS0JGaVBfSWhxQ1N0VXgxUm7SAcYBQVVfeXFMTjFyNDVOQ1YzTDJjVEZmZkstSUlmQ19LMHJOMG5FTGhkNnh4UjJ6emZXZTRsUllXN0laVFNDT2lXTGlvLTY1TjBELU05a18zQnZ0T0EtNUpqQVdkRmk5YnhnYjFVaTdOU2xNLXdCR21uQzY0VkppN01pWS1zUkZaaHl1eUVNYUE4dFhvV1FuSUpNV2tHWXBCVUdwcERkeTREWWYyazlxbXNYdTB1LWdoT0ZMRTBrdmlTUzd0U0wxTWxRT0JlMGlB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T14:58:31.000Z"
+    },
+    {
+      "title": "Bos BP BUMN: Restrukturisasi BUMN Karya Diupayakan Segera Selesai",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T03:33:57.000Z"
+    },
+    {
+      "title": "Nvidia partners with data center developer Cloverleaf",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRjJpMUNyWEhLOFVLUHU2M05haDdFRXpkUnBuby1ZSUhwdjZjMjhJYmVqUTY4UEdSZFBYNG00RWxOMUowekFsZEJ0LWFmckpQSFVGcE4yMlZTUnlqSERKeDJTM3pZNDUtdjRKeGpPTnNpSy01UlkxV256UjhxSzFNZUlWQUwwZWlveTVMcXBUOGRZUQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T22:37:38.000Z"
+    },
+    {
+      "title": "Pertamina Genjot Ekspansi Panas Bumi Nasional di Ajang IIGCE 2026",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdkhEaWtjM0kyRFNoUHNDMXZLMjBuYURwOWhxbzY2dEg1Y0lxRG51YmZ4a0JzNFRVT2NCajExTGU2cmJ6MEt2NF9yYVlsWG1QYUp5dGdCN2Nnc2t1NE1FeEhFN01wUHV5cUYtMjItTVYtdGFzUndkUFRyN3JUNlZ2Vk41Y2h1V2VpZklfSGJDOTBKWnFsNWRxUmRFRkVBRWdvN1JnRk1kTTRZcDg2VjdHS3A3WWhPYTktTkNpMzNDRU5WbTBoOTBhdNIBzgFBVV95cUxNMnlMMkk1M3RfMmwwblpidFNyTExGS0xSOTBVNi12MTgzbllwbVB0MHVTMlhMM3NDbDBtUkFMdnZ1VlNkRGhndktzMTZOY0NnSVZJUmtUTnpVWUJPdHRkSnQ0SEp4clNwMjBQeEFfRkhOemNHendHekZheWNOZTV5cUREVThQWnhpQjBmbE93ZldsakllaFBLYkZyalpEQUhEaWU1MnpaN0ZVNjdwRnZwM3RucXRpa1NkVlVuZTB3Y04zanFwQUpwbFNLWWhEQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T15:01:32.000Z"
+    },
+    {
+      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Nvidia invests in data center developer Cloverleaf Infrastructure",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnVtUUVfYWJoSUhsRXpLZGNEdHM0eFBmU0hVZzZiVzlDdUZXWkV2X3k1bGppdnp5Zy1fcy1HYnBGc0pPXzZoRmpsZmtPTDRqSFd5anNGR1hnMDlOYjk2U1BZeU42UTh4RUxiaE1XSWRyZW9RTjUtWjYzVXM5N0ZYU0VXdXRSNmNmZnRpREUzdDE4U3l4VDBIa3JPdklOUjdvbFp3dGRZdlZnQjBwSEE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T14:44:25.000Z"
+    },
+    {
+      "title": "Pertamina Dorong Pengembangan Panas Bumi Nasional di IIGCE 2026",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRUl3QmY3NVJjLXlJbms1WWxrTmsyVW9oRUM0MFJyX0VJZWoyNmtrbWVOX0VqYTNmUHd3SWdQQmkwakFOYmZhQ09yTHVXYlp4S0t1NEVrVmRNd3VpcnNoczFRUkpPZDNNcWNIOUY1aElqOUxkVGF5RHNqQWRFc3R2SnNiZDZDNk1sU2F2YWpyZHlXTV9Zc0Z4S1NVQ3pyVWxiZURDc1g3WDEwQdIBrwFBVV95cUxNM0FxRW1ZVXFIOUJKM3F5RFNvbzlKemxDZEhNeWpMcmdXS1VyM0lmSUVSeVJfTW8zZk9NendzRXBWN0pjTzVmZTA3akxTZlJIam1wX1R5UGlscms3MzdpUzhfenZWUG9hZkZUaGFQV3BNVzQ2M3NPRWpMME9SUFdzY0xTdkVORHFSaUpXcDBrTk1MVzhoZ2VMVjM4YlhPaXBSUHQweDd5X2IxdF9UUUNZ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T14:02:44.000Z"
+    },
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-19T19:00:00.000Z"
+    },
+    {
+      "title": "Mengapa Restrukturisasi BUMN Karya Sangat Rumit?",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-20T08:29:00.000Z"
+    },
+    {
+      "title": "Kementerian ESDM Buka Lelang 14 WKP Baru Panas Bumi",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXlmZXA5Ri0tOEF1QlhJRVFmT2dWd19FNEtib2NOZmJ1ZmZ5MXItYms1VjlQZ01FVUx5aFBPZ3VUT3dpOFB1V05jMzkyNHRiUVpVMk5ST1ppcWw4RUx4ZWxzeW9hemp0SUJLOXh5ckZnbW1MMDVfcmt1d3IwbldaRlBqRG5YTk1CWnpXNUJNd2N0QXZCY2lLRXIwajFYY1JGb0FLVEZB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-20T09:30:00.000Z"
+    },
+    {
+      "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T23:40:08.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara minta Telkom pangkas anak usaha menjadi 18 perusahaan",
+      "occurrences": 3,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-21",
+      "status": "recurring",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "ESDM buka lelang 14 WKP panas bumi baru, eskalasi langsung dari teguran Bahlil",
+      "occurrences": 3,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-21",
+      "status": "recurring",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI tawarkan Zero Data Retention dan pratinjau Private Safety Processing untuk pelanggan API",
+      "occurrences": 2,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-21",
+      "status": "recurring",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 355,
+    "poolSize": 110,
+    "generatedAt": "2026-08-21T23:18:42.944Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
