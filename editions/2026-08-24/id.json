@@ -1,0 +1,328 @@
+{
+  "slug": "2026-08-24",
+  "date": "2026-08-24",
+  "lang": "id",
+  "title": "PGE Kejar 1,8 GW, 110 WKP Swasta, dan OpenAI Nol Retensi Data",
+  "dek": "Tiga tema struktural—geothermal Indonesia, privasi data AI, dan restrukturisasi BUMN Karya—serentak mencapai titik keputusan minggu ini.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "Pertamina Geothermal Energy memperkuat fundamental keuangan menuju target 1,8 GW sementara 110 proyek panas bumi berkapasitas 5,1 GW kini mayoritas di tangan swasta—sinyal bahwa dominasi BUMN di sektor ini sedang bergeser. Di sisi AI, OpenAI secara resmi menawarkan Zero Data Retention untuk pelanggan API frontier, mengubah standar kontrak enterprise dan menekan pesaing untuk mengikuti. Restrukturisasi BUMN Karya yang terus tertunda menambah tekanan pada Danantara yang jadwal penyelesaiannya belum konkret. PLN mengeksekusi co-firing di PLTU Tidore sebagai bukti transisi energi bertahap di wilayah terpencil. Kelima sinyal ini menunjukkan bahwa keputusan investasi dan kontrak yang dibuat minggu ini akan terikat pada kondisi pasar yang sedang berubah cepat.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "Pertamina Geothermal Energy",
+        "Kementerian ESDM",
+        "PLN",
+        "PGEO",
+        "BREN"
+      ],
+      "headline": "110 proyek panas bumi 5,1 GW mayoritas swasta; PGE perkuat keuangan menuju 1,8 GW",
+      "whatChanged": "Per 23 Agustus 2026, Kontan melaporkan 110 proyek panas bumi berkapasitas total 5,1 GW sedang dikembangkan dan mayoritas dikelola oleh swasta, bukan BUMN. Secara paralel, CNBC Indonesia melaporkan Pertamina Geothermal Energy (PGE) sedang memperkuat fundamental keuangan untuk mendukung ekspansi menuju kapasitas listrik 1,8 GW. Kementerian ATR/BPN menerima penghargaan dari Kementerian ESDM atas kontribusi dalam pengembangan geotermal, yang menyiratkan percepatan perizinan lahan.",
+      "whyItMatters": "Melanjutkan tema indonesia-geothermal-concession-reform yang sudah muncul 5x sejak 19 Agustus. Akumulasi sinyal ini mengonfirmasi pergeseran struktural: pasar panas bumi Indonesia tidak lagi didominasi BUMN—swasta kini memegang sebagian besar portofolio 5,1 GW. Tekanan Bahlil pada pengembang penahan WKP minggu lalu kini terbukti konteksnya: pemerintah membutuhkan swasta bergerak cepat karena BUMN tidak bisa menanggung sendiri.",
+      "secondOrder": "Jika swasta menguasai mayoritas dari 5,1 GW, maka off-take risk dan financing risk beralih dari neraca PLN/PGE ke pasar modal dan lender swasta. Ini akan mendorong permintaan Power Purchase Agreement (PPA) dengan tenor dan harga yang lebih kompetitif dari PLN—dan berpotensi menciptakan tekanan pada margin PGE yang masih membangun skala. Bursa Karbon sebagai katalis tambahan (PGEO dan BREN disebut Kontan paling berpeluang) menambah dimensi revenue baru yang belum diperhitungkan dalam model valuasi konvensional.",
+      "action": "Tinjau ulang model keuangan proyek panas bumi yang mengasumsikan PLN/PGE sebagai offtaker tunggal—masukkan skenario PPA dengan swasta dan potensi pendapatan karbon. Ajukan pertanyaan kepada manajemen PGE: berapa proporsi 1,8 GW yang didanai dari neraca sendiri versus project finance eksternal?",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdEVGWXhsNnpoV3NwLXdLRzRGNTdnMDAxU083TnhOVjBQejBjamxDYmlPWUdPZGpvbUVlNmhkaWlxTjIwZ09QaEVMcmVQZUZnUlVNM3FYZXJCRlMzTjNpbGoybUJmckI2M3h3dUl5QVV0NDVqS05tcXp3S3BrUVFBWmYtTjZndmNfRFhYNGcxVWNmc3piMExIZGtoZlFvOU1aeHdxMHhhNUF3UUFubUHSAacBQVVfeXFMTWhYUGh2ZnU1NnZ6dURzTTVreVVaaDYyaVhSd0o2RXhCNGFRU2Frem52ZmNTbWF4Um1CR01Vc00yRkxtUmxBZE9pUmwxQ2Z5LWlGU1FwWENNTVNHRksyeXRBZXl1VjRRLWU1WDI0UC00THdKeTY2dkwxd2hxRXZoYzNKcTc0aGQyY3h0ZEk0UTBkWDg5cWFsdHNVRTBhaXZiaFNMNHRhaWs?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXBnRk1ISDhURXVpbVVPOXlQRTgtZGhBSHZsWVg2RW5fZTB2SEpSWEUyX2x5SmRKXzljM1N6RGJQUUttUjEtV29IZ0tjNnFqckE2TnZrX095b2dvVkg2eS0yXzBpdU9SUW0wcnNqY0ZzZnN3WUd2WThveHcyZGpSb1A1VGJ3UnFOaGU2VjJsX2RWWG5lSUVUX3B5MVpIRHB0STVHMTVHdTBTUHVrUmRjRWxJb2VfZklzM004U1puS01xZXdtTHc?oc=5",
+        "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTVBMV05GTXBYYVJwbl9Na3RmeURJNzdtcmZjTXkyN2xFdWdIZzJzRk8wT3dHdFpVWDJrN0FROUNVVHE3TEY1bkZXeGZ0UTlUaGVzTGxwcHVBaVBHcml1VXd4ZGJMa0JjWm1sSWwyM0h1amloSEJsUjFJR3lHYjFKNU5EYnpYaVJENEtzZHpTZE9Eb1BSLVhiVExvSnFhWmpEc081Qk5mM3pqTHN1TGg0Y0hBdkxOcGptdEFLMVVRejR4VUI2UVRNeVRqVlZkWUo3bTJ5LV9qSGp1ZkRRaUJIUDVxZXZjTUxCTzBDRA?oc=5",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOE9hT0xVdzNYejlpcFpqMHpvR3R3aWJlRS1yQ0xCZ2JHVGI1ckNIWTVVS3lDMWUtSjBaeThtYVVjbWRSNXBsOFlJQXA2cnI3VTR1bndOMEVRaVBoeW9rSzllczMwcVU5Q3RzSzhvdFM0NXNmRWdoRi1zTEw4eWFFZ1FuUjV0V1piNUZTbEVxQ2lmTzU0OGxpRDFOY1l6eUw4Q25LLVl1RGpyd0Y5YVlrNFpGdXp6UDJzTXMtelpGU05XOGdVQU5jeDkzSlprZjgz?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWlSMGpHR1ZKZTZCLU9PTHlzMkdYdHZ6S2xJNm5fd2dkUEhEZ0xuUUw3Z21OclhwVGZEeDVjcGNtRHpSYThHRUdNRmRkM2VTdFNidDMwYlIwYWZUOHl4VnZRWHFONms1bEgySmd6aXdaNFRkXzVjT3B3VWlXT3pISUg3dEVoQl9xOFM5Z1c2OG1uV01sdEhLWTRRN1JpdjU5OGU0cWVQcFBVbU1NQzU3MHBVa1dUZTg?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "recurring",
+        "occurrences": 6,
+        "firstSeen": "2026-08-19",
+        "spanDays": 5
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "BSSN",
+        "OJK"
+      ],
+      "headline": "OpenAI tawarkan Zero Data Retention resmi untuk API frontier, pratinjau Private Safety Processing",
+      "whatChanged": "OpenAI pada 19 Agustus 2026 secara resmi mengumumkan Zero Data Retention (ZDR) untuk pelanggan API yang memenuhi syarat pada model-model frontier, disertai pratinjau fitur Private Safety Processing—mekanisme yang memungkinkan pemrosesan keamanan AI tanpa menyimpan data pengguna. Ini adalah komitmen kontraktual eksplisit, bukan sekadar kebijakan internal.",
+      "whyItMatters": "Melanjutkan tema enterprise-ai-data-privacy-contracts (4x sejak 20 Agustus). ZDR mengubah lanskap negosiasi kontrak enterprise: perusahaan di sektor keuangan, kesehatan, dan pemerintahan yang sebelumnya ragu menggunakan LLM frontier karena risiko retensi data kini memiliki dasar kontraktual untuk adopsi. Ini merupakan langkah diferensiasi kompetitif yang signifikan dari OpenAI.",
+      "secondOrder": "Vendor AI lain—Anthropic, Google DeepMind, pemain lokal—akan mendapat tekanan untuk menawarkan jaminan setara atau kehilangan segmen enterprise yang paling bernilai. Bagi perusahaan Indonesia yang sedang menyusun kebijakan AI internal (terutama BUMN dan lembaga keuangan yang tunduk pada regulasi OJK dan BSSN), pengumuman ini memberikan preseden kontraktual yang bisa dijadikan benchmark negosiasi dengan vendor manapun.",
+      "action": "Minta tim legal/procurement meninjau klausul retensi data dalam kontrak AI yang sedang berjalan atau akan ditandatangani—bandingkan dengan standar ZDR OpenAI. Identifikasi use case internal mana yang selama ini diblokir oleh kekhawatiran retensi data dan evaluasi apakah kini layak dilanjutkan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEtxYVJNZVpadnhFd05FSUowYlhmaXhHN0pZWUhUU3dCTnFyZVBZM2JsS2NxcDVkNUJ0a2NocGd0UlZpaGlNNFBFWlNEeGZBaU5ibFd3bXh5cl8zNFJVZDJYQkZ0SE9INkpoN0N5VGhEOXoySzdUNXhoY0lxelRWbXRaTkl1dEM4S2tEOE5HbXdNYUVXZ3lSRkd3?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "recurring",
+        "occurrences": 5,
+        "firstSeen": "2026-08-20",
+        "spanDays": 4
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BP BUMN",
+        "BUMN Karya",
+        "Himbara"
+      ],
+      "headline": "Bos BP BUMN akui restrukturisasi BUMN Karya 'diupayakan segera selesai' tanpa tenggat konkret",
+      "whatChanged": "Kepala BP BUMN pada 21 Agustus 2026 (CNBC Indonesia) menyatakan restrukturisasi BUMN Karya diupayakan segera selesai—tanpa menyebut tenggat waktu spesifik. Kompas.com pada 20 Agustus merinci akar kerumitan: beban utang silang antar-entitas, proyek mangkrak, dan struktur holding yang belum terdefinisi. CNN Indonesia (18 Agustus) mengonfirmasi Danantara mengakui kesulitan pelaksanaan.",
+      "whyItMatters": "Melanjutkan tema danantara-bumn-karya-restructuring (5x sejak 19 Agustus). Akumulasi pernyataan tanpa tenggat dari pejabat tingkat kepala badan mengindikasikan hambatan bukan teknis melainkan politis—kemungkinan besar berkaitan dengan distribusi aset dan penempatan direksi. Ketidakpastian ini mempengaruhi kontraktor, kreditur, dan mitra proyek infrastruktur yang menggantungkan kepastian pembayaran pada resolusi restrukturisasi.",
+      "secondOrder": "Proyek infrastruktur nasional yang mengandalkan BUMN Karya sebagai kontraktor utama berisiko mengalami penundaan eksekusi lebih lanjut. Bank-bank BUMN yang memiliki eksposur kredit ke BUMN Karya (Himbara) akan menghadapi tekanan NPL yang berpotensi mempengaruhi kapasitas penyaluran kredit baru di sektor konstruksi. Investor asing yang mempertimbangkan kemitraan infrastruktur dengan BUMN akan menunda komitmen hingga struktur kepemilikan pasca-restrukturisasi jelas.",
+      "action": "Petakan eksposur kredit Himbara terhadap masing-masing entitas BUMN Karya dan estimasi dampak NPL pada rasio kecukupan modal. Ajukan pertanyaan spesifik kepada manajemen Danantara: apakah ada mekanisme ring-fencing aset untuk memisahkan proyek sehat dari proyek bermasalah?",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "recurring",
+        "occurrences": 6,
+        "firstSeen": "2026-08-19",
+        "spanDays": 5
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "PLTU Tidore",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "PLN implementasikan co-firing di PLTU Tidore sebagai strategi transisi energi kepulauan terpencil",
+      "whatChanged": "ANTARA News pada 23 Agustus 2026 melaporkan PLN mengimplementasikan co-firing di PLTU Tidore, Maluku Utara, sebagai bagian dari program transisi energi berkelanjutan. Ini adalah implementasi operasional—bukan perencanaan—di wilayah kepulauan yang selama ini bergantung penuh pada batubara.",
+      "whyItMatters": "Melanjutkan tema pln-transmisi-investasi. Co-firing di PLTU kepulauan terpencil menunjukkan bahwa strategi transisi PLN bersifat bertahap dan berbasis infrastruktur eksisting, bukan penggantian total. Ini relevan untuk penilaian RUPTL 2025-2034: kecepatan transisi di wilayah terpencil akan lebih lambat dari proyeksi optimistis, sehingga permintaan biomassa dan bahan bakar campuran akan bertahan lebih lama dari yang diasumsikan.",
+      "secondOrder": "Implementasi co-firing skala kecil di pulau-pulau terpencil menciptakan permintaan rantai pasok biomassa lokal yang belum terorganisir. Jika PLN mengekspansi program ini ke ratusan PLTU kecil di kepulauan Indonesia Timur, dibutuhkan agregator biomassa dan logistik yang belum ada—peluang bagi BUMN kehutanan dan perusahaan agribisnis yang memiliki limbah biomassa.",
+      "action": "Identifikasi berapa banyak PLTU kepulauan dalam portofolio PLN yang memenuhi syarat co-firing dan perkirakan volume biomassa tahunan yang dibutuhkan. Evaluasi apakah BUMN Kehutanan atau mitra agribisnis di wilayah Indonesia Timur sudah masuk dalam rantai pasok program ini.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLVFnZmV6akpmS0lvc0xCRndRV0dwM0UtSDg0d1cxNmY4Nk94NjZ1emtfZ2VHYmpLZ25QRlNQSWc0OEFDeU1fY2xFQ01KVHdjUk9EOWNQY3ZERFJnd1FiRGhfZEg0RTZTZ1BVUzFhV0hadEd1REF4RDFEeWlKdkxkZEtaYmZEMERsTXhRSU5kMWt2enRiYjFCcnJyRERmRzRtWWxQQlU4Z1E0dGZnc1ZYdWtFWEJTZ2NUNU1SOG9yQ0ZLZ1prMWlNcNIBzgFBVV95cUxPcHhfbkFtTm1hUlQtdlJ5cENxcDhUOVRENlNiVl9hbEY0UzcxSnJEZUpoaUFFa3VGdEh2LVdmLW53azJqVk9PNURzNnlzZUd0TTRvdnNFSk1LV1FaWWpjSjlkTVJPaW9OdXpRd0hGNzVOZk1CMzZNRFF5TFh1b1QwbWk4WXF2RldVY2swVFJOV0djMGk0ZVhLZWFaYXhTOWwxU2d2bmpZWU1YODRrdG5WUXRDdmhYMGNCcUZQd1kyNF9DVWtzRE1ldFRncTR6UQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "recurring",
+        "occurrences": 3,
+        "firstSeen": "2026-08-22",
+        "spanDays": 2
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Tenggat konkret restrukturisasi BUMN Karya dari Danantara/BP BUMN—jika tidak ada pengumuman resmi dalam 2 minggu, risiko penundaan proyek infrastruktur nasional meningkat signifikan.",
+      "dueDate": "2026-09-07"
+    },
+    {
+      "item": "Rencana keuangan PGE untuk mencapai target 1,8 GW: apakah akan melalui rights issue, project finance, atau kemitraan strategis—dan berapa proporsi dari 110 WKP yang akan diambil PGE versus swasta.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Respons kompetitor (Anthropic, Google, vendor lokal) terhadap Zero Data Retention OpenAI—apakah ada penawaran setara dalam 30 hari ke depan yang mengubah posisi tawar enterprise.",
+      "dueDate": "2026-09-19"
+    },
+    {
+      "item": "Ekspansi program co-firing PLN ke PLTU-PLTU kepulauan lain di Indonesia Timur—pantau pengumuman RUPTL atau kebijakan biomassa dari Kementerian ESDM.",
+      "dueDate": "2026-10-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kejar Potensi Panas Bumi Nomor Satu Dunia, Bahlil Minta Pengembang Tak Tahan Konsesi",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOE9hT0xVdzNYejlpcFpqMHpvR3R3aWJlRS1yQ0xCZ2JHVGI1ckNIWTVVS3lDMWUtSjBaeThtYVVjbWRSNXBsOFlJQXA2cnI3VTR1bndOMEVRaVBoeW9rSzllczMwcVU5Q3RzSzhvdFM0NXNmRWdoRi1zTEw4eWFFZ1FuUjV0V1piNUZTbEVxQ2lmTzU0OGxpRDFOY1l6eUw4Q25LLVl1RGpyd0Y5YVlrNFpGdXp6UDJzTXMtelpGU05XOGdVQU5jeDkzSlprZjgz?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-19T08:08:02.000Z"
+    },
+    {
+      "title": "Bos BP BUMN: Restrukturisasi BUMN Karya Diupayakan Segera Selesai",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T03:33:57.000Z"
+    },
+    {
+      "title": "110 Proyek Panas Bumi Berkapasitas 5,1 GW Mayoritas Dikembangkan Swasta",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdEVGWXhsNnpoV3NwLXdLRzRGNTdnMDAxU083TnhOVjBQejBjamxDYmlPWUdPZGpvbUVlNmhkaWlxTjIwZ09QaEVMcmVQZUZnUlVNM3FYZXJCRlMzTjNpbGoybUJmckI2M3h3dUl5QVV0NDVqS05tcXp3S3BrUVFBWmYtTjZndmNfRFhYNGcxVWNmc3piMExIZGtoZlFvOU1aeHdxMHhhNUF3UUFubUHSAacBQVVfeXFMTWhYUGh2ZnU1NnZ6dURzTTVreVVaaDYyaVhSd0o2RXhCNGFRU2Frem52ZmNTbWF4Um1CR01Vc00yRkxtUmxBZE9pUmwxQ2Z5LWlGU1FwWENNTVNHRksyeXRBZXl1VjRRLWU1WDI0UC00THdKeTY2dkwxd2hxRXZoYzNKcTc0aGQyY3h0ZEk0UTBkWDg5cWFsdHNVRTBhaXZiaFNMNHRhaWs?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-23T14:35:56.000Z"
+    },
+    {
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEtxYVJNZVpadnhFd05FSUowYlhmaXhHN0pZWUhUU3dCTnFyZVBZM2JsS2NxcDVkNUJ0a2NocGd0UlZpaGlNNFBFWlNEeGZBaU5ibFd3bXh5cl8zNFJVZDJYQkZ0SE9INkpoN0N5VGhEOXoySzdUNXhoY0lxelRWbXRaTkl1dEM4S2tEOE5HbXdNYUVXZ3lSRkd3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-22T16:30:34.000Z"
+    },
+    {
+      "title": "PLN dorong transisi energi berkelanjutan melalui implementasi Co-Firing di PLTU Tidore",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLVFnZmV6akpmS0lvc0xCRndRV0dwM0UtSDg0d1cxNmY4Nk94NjZ1emtfZ2VHYmpLZ25QRlNQSWc0OEFDeU1fY2xFQ01KVHdjUk9EOWNQY3ZERFJnd1FiRGhfZEg0RTZTZ1BVUzFhV0hadEd1REF4RDFEeWlKdkxkZEtaYmZEMERsTXhRSU5kMWt2enRiYjFCcnJyRERmRzRtWWxQQlU4Z1E0dGZnc1ZYdWtFWEJTZ2NUNU1SOG9yQ0ZLZ1prMWlNcNIBzgFBVV95cUxPcHhfbkFtTm1hUlQtdlJ5cENxcDhUOVRENlNiVl9hbEY0UzcxSnJEZUpoaUFFa3VGdEh2LVdmLW53azJqVk9PNURzNnlzZUd0TTRvdnNFSk1LV1FaWWpjSjlkTVJPaW9OdXpRd0hGNzVOZk1CMzZNRFF5TFh1b1QwbWk4WXF2RldVY2swVFJOV0djMGk0ZVhLZWFaYXhTOWwxU2d2bmpZWU1YODRrdG5WUXRDdmhYMGNCcUZQd1kyNF9DVWtzRE1ldFRncTR6UQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-23T05:51:41.000Z"
+    },
+    {
+      "title": "Video: PGE Perkuat Fundamental Keuangan Menju Kapasitas Listrik 1,8 GW",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXBnRk1ISDhURXVpbVVPOXlQRTgtZGhBSHZsWVg2RW5fZTB2SEpSWEUyX2x5SmRKXzljM1N6RGJQUUttUjEtV29IZ0tjNnFqckE2TnZrX095b2dvVkg2eS0yXzBpdU9SUW0wcnNqY0ZzZnN3WUd2WThveHcyZGpSb1A1VGJ3UnFOaGU2VjJsX2RWWG5lSUVUX3B5MVpIRHB0STVHMTVHdTBTUHVrUmRjRWxJb2VfZklzM004U1puS01xZXdtTHc?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-23T09:00:48.000Z"
+    },
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-19T19:00:00.000Z"
+    },
+    {
+      "title": "Mengapa Restrukturisasi BUMN Karya Sangat Rumit?",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-20T08:29:00.000Z"
+    },
+    {
+      "title": "Berkontribusi dalam Pengembangan Geotermal di Indonesia, Kementerian ATR/BPNdapat penghargaan dari Kementerian ESDM",
+      "publisher": "ANTARA News Yogyakarta",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTVBMV05GTXBYYVJwbl9Na3RmeURJNzdtcmZjTXkyN2xFdWdIZzJzRk8wT3dHdFpVWDJrN0FROUNVVHE3TEY1bkZXeGZ0UTlUaGVzTGxwcHVBaVBHcml1VXd4ZGJMa0JjWm1sSWwyM0h1amloSEJsUjFJR3lHYjFKNU5EYnpYaVJENEtzZHpTZE9Eb1BSLVhiVExvSnFhWmpEc081Qk5mM3pqTHN1TGg0Y0hBdkxOcGptdEFLMVVRejR4VUI2UVRNeVRqVlZkWUo3bTJ5LV9qSGp1ZkRRaUJIUDVxZXZjTUxCTzBDRA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-23T11:03:14.000Z"
+    },
+    {
+      "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T23:40:08.000Z"
+    },
+    {
+      "title": "Bursa Karbon Jadi Katalis Baru Emiten Energi Hijau, PGEO dan BREN Paling Berpeluang",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWlSMGpHR1ZKZTZCLU9PTHlzMkdYdHZ6S2xJNm5fd2dkUEhEZ0xuUUw3Z21OclhwVGZEeDVjcGNtRHpSYThHRUdNRmRkM2VTdFNidDMwYlIwYWZUOHl4VnZRWHFONms1bEgySmd6aXdaNFRkXzVjT3B3VWlXT3pISUg3dEVoQl9xOFM5Z1c2OG1uV01sdEhLWTRRN1JpdjU5OGU0cWVQcFBVbU1NQzU3MHBVa1dUZTg?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-23T07:30:01.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Kepala BP BUMN akui restrukturisasi BUMN Karya belum tuntas; Kompas analisis akar hambatan struktural",
+      "occurrences": 5,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-23",
+      "status": "recurring",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "Bahlil tegur pengembang penahan WKP; Pertamina deklarasikan ekspansi panas bumi nasional di IIGCE 2026",
+      "occurrences": 5,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-23",
+      "status": "recurring",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI dorong penguatan RUU keamanan AI California—lab frontier pertama yang secara proaktif minta regulasi lebih ketat",
+      "occurrences": 4,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-23",
+      "status": "recurring",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Nvidia investasi ekuitas di Cloverleaf Infrastructure, melanjutkan pola vendor-jadi-investor infrastruktur AI",
+      "occurrences": 3,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-23",
+      "status": "recurring",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Indonesia-Germany formalise renewable energy and grid investment partnership, adding bilateral financing to PLN's transmission gap",
+      "occurrences": 2,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-23",
+      "status": "recurring",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 363,
+    "poolSize": 110,
+    "generatedAt": "2026-08-23T23:18:37.046Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
