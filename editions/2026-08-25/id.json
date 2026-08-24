@@ -2,35 +2,35 @@
   "slug": "2026-08-25",
   "date": "2026-08-25",
   "lang": "id",
-  "title": "DSI Siap Luncurkan Platform Ekspor 1 Sep; Transmisi Jadi Hambatan 100 GW PLTS",
-  "dek": "Dua gerak kelembagaan besar — DSI mengambilalih tata kelola ekspor komoditas dan tender 100 GW PLTS dibayangi defisit transmisi — mengubah peta risiko operasional minggu ini.",
+  "title": "Transmisi Jadi Bottleneck Tender 100 GW; Danantara Ekspansi Global Tanpa Roadmap BUMN Karya",
+  "dek": "Tiga hambatan struktural — jaringan listrik, restrukturisasi BUMN Karya, dan privasi data AI — muncul bersamaan dan menuntut keputusan konkret pekan ini.",
   "domains": [
     "energy",
     "corporate",
     "ai"
   ],
-  "summary": "Danantara Sumberdaya Indonesia (DSI) akan meluncurkan platform tata kelola ekspor CPO, batu bara, dan ferro alloy pada 1 September 2026, memantau 100 kapal per hari dengan integrasi sistem ESDM dan Bea Cukai — langkah korporasi BUMN yang mengubah struktur rantai nilai komoditas nasional. Di sisi energi, rencana tender PLTS 100 GW Menteri Bahlil terbentur kenyataan bahwa jaringan transmisi desa belum siap menyerap kapasitas baru, sementara IESR menegaskan transmisi adalah prasyarat mutlak, bukan aksesori. Restrukturisasi BUMN Karya tetap tanpa jadwal pasti meski BP BUMN mengklaim sedang diupayakan, menambah ketidakpastian bagi sektor konstruksi strategis. OpenAI melanjutkan agenda privasi data enterprise dengan Zero Data Retention untuk model frontier, memperkuat posisi kontraktual perusahaan di pasar AI yang semakin diregulasi. Kelima sinyal ini membentuk satu narasi: kelembagaan — bukan teknologi atau modal — adalah faktor penentu kecepatan transformasi ekonomi Indonesia.",
+  "summary": "IESR dan Bloomberg Technoz mengonfirmasi bahwa rencana tender 100 GW PLTS Bahlil terancam oleh ketiadaan infrastruktur transmisi desa, memperpanjang benang pln-transmisi-investasi yang sudah tiga kali muncul dalam 30 hari terakhir. Sementara itu, Danantara memperluas jejak global ke Mekah dan Filipina sekaligus memamerkan kinerja BUMN di CNBC, namun restrukturisasi BUMN Karya — tema recurring enam kali sejak 19 Agustus — masih tanpa jadwal pasti, memperlihatkan kesenjangan antara narasi ekspansi dan kapasitas benahi domestik. Di sisi AI, OpenAI mempertegas Zero Data Retention dan memperkenalkan GPT-5.6 dalam Kiro, dua langkah yang memperkuat tema enterprise-ai-data-privacy-contracts. Seluruh sinyal ini bermuara pada satu risiko sistemik: ambisi infrastruktur besar diumumkan lebih cepat dari kemampuan implementasi, baik di sektor energi maupun korporasi negara.",
   "signals": [
     {
       "rank": 1,
       "domain": "energy",
       "themeKey": "pln-transmisi-investasi",
       "entities": [
-        "Bahlil Lahadalia",
+        "IESR",
         "PLN",
-        "IESR"
+        "Bahlil"
       ],
-      "headline": "Tender PLTS 100 GW Bahlil disorot: transmisi desa jadi hambatan struktural",
-      "whatChanged": "Menteri ESDM Bahlil Lahadalia berencana membuka tender PLTS 100 GW, namun Bloomberg Technoz dan IESR (melalui ANTARA) secara bersamaan menyoroti bahwa sistem transmisi di tingkat desa belum mampu menyerap kapasitas pembangkit baru. IESR secara eksplisit menyatakan jaringan transmisi harus diperhatikan sebagai prasyarat dalam pembangunan PLTS skala besar. Target 100 GW yang ditetapkan Presiden Prabowo dijadwalkan dalam dua hingga tiga tahun.",
-      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang telah muncul tiga kali dalam 30 hari terakhir. Pola yang terbentuk: pemerintah menetapkan target kapasitas pembangkit dengan kecepatan yang melampaui kemampuan investasi transmisi PLN. Panel surya impor dinilai lebih murah daripada produksi domestik, menambah dilema antara target kapasitas dan pengembangan industri lokal. Ketidakseimbangan ini bersifat struktural, bukan sementara.",
-      "secondOrder": "Bila transmisi tidak dibangun paralel dengan pembangkit, proyek PLTS yang sudah terkontrak berisiko curtailment tinggi — investor akan menghadapi revenue shortfall yang tidak terprediksi. Kondisi ini dapat memicu penundaan financial close proyek-proyek PLTS yang sedang dalam pipeline, justru di saat pemerintah ingin mempercepat tender.",
-      "action": "Dalam evaluasi proyek PLTS manapun, jadikan ketersediaan kapasitas transmisi dan jadwal pembangunan gardu sebagai kriteria go/no-go — bukan hanya kesiapan lahan dan izin pembangkit. Mintakan konfirmasi tertulis dari PLN mengenai commitment transmisi sebelum financial close.",
+      "headline": "Tender PLTS 100 GW Bahlil disorot karena sistem transmisi desa belum siap",
+      "whatChanged": "Bloomberg Technoz (24 Agustus) melaporkan Menteri ESDM Bahlil berencana membuka tender PLTS 100 GW, namun IESR dan ANTARA News pada hari yang sama menegaskan bahwa jaringan transmisi — khususnya di tingkat desa — belum memadai untuk menyerap kapasitas tersebut. IESR secara eksplisit menyatakan jaringan transmisi harus diperhatikan dalam pembangunan PLTS skala besar.",
+      "whyItMatters": "Ini melanjutkan dan memperparah tema pln-transmisi-investasi yang sudah muncul tiga kali dalam 30 hari. Target 100 GW Presiden Prabowo — yang ditetapkan untuk 2-3 tahun ke depan per kandidat [8][13] — kini menghadapi bottleneck yang sama yang menghambat proyek panas bumi: infrastruktur jaringan tidak tumbuh seiring ambisi kapasitas pembangkitan. Implikasi akumulatifnya: tanpa percepatan investasi transmisi, tender bisa menghasilkan kapasitas terpasang yang tidak tersalurkan (stranded asset).",
+      "secondOrder": "Investor swasta yang memenangkan tender PLTS 100 GW akan menghadapi risiko offtake yang belum dapat dimitigasi kontrak PPA standar, karena PLN sebagai off-taker tidak dapat menjamin penyaluran bila transmisi tidak tersedia. Ini berpotensi menaikkan cost of capital proyek atau mendorong syarat sovereign guarantee yang membebani neraca fiskal.",
+      "action": "Tinjau ulang apakah dokumen tender PLTS yang sedang disiapkan ESDM sudah mencantumkan klausul transmisi-readiness sebagai kondisi precedent. Jika belum, rekomendasikan penambahan sebelum RFP diterbitkan.",
       "strength": "actionable",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeC1FeXdvUTJLTzRzREJLQVJ6Y2p1YkFlZXpyM1ZLVUxFRFZybUgwOTJXaHZJbV9OWTZTOXZHZ2ZnZ3FUTUZXQkI5S3loR0dBdW1WRHZYdDYzdHZkYzFham5LelNseVdZaXMyR0VyTk5CV0FZbmJFWF96WWJaNTd1aGFFdUtFc0hLeU5mRHdZRjdyWFNFUVZfRko4M2pMOV9lWk5KNG5mcUxUYzFwUzdZS3MwWHAwNWs?oc=5",
         "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNU1LOGZIVHk1ZUJmWTlkTEdGclQ4Znhwd210bHZkeTVQa3BmMFBvaUphOUo0YlI2MkdJODlXc1VqLVBFcVBfUnhiN3RyU2NscmhTR0FvMHNMbHRsMHlGSWVqTG44UXNkbVdjSm94aGNtcGljZE8xcXdSUXBwWl81OU5TQzVGeC1OcllxSVBRUGg5T3VGeV96a1dGY05Vdl91X2E4UzhMeUdhTEXSAa4BQVVfeXFMTWdCdklNZzhsLVoyaXpPVEJtdHppZVRWejRvWWw4V0RjWTNzVlp6NTNjTGNtTHU5REV4aE1YMThNZFFlbmlFeXp0ZU5iSTdVLVNJVGtuTDlzOEs1bkp5dUZJQ2QxUkwzQ1VtT0taWEVrSDg4ZXZrRUVybTRwZkJhdTF0djVYR3VzWFhaMWQ0WkJJZHZpZW40VllIWVZOeG1jNEtLNUdsLWU3VjdlWHdn?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeC1FeXdvUTJLTzRzREJLQVJ6Y2p1YkFlZXpyM1ZLVUxFRFZybUgwOTJXaHZJbV9OWTZTOXZHZ2ZnZ3FUTUZXQkI5S3loR0dBdW1WRHZYdDYzdHZkYzFham5LelNseVdZaXMyR0VyTk5CV0FZbmJFWF96WWJaNTd1aGFFdUtFc0hLeU5mRHdZRjdyWFNFUVZfRko4M2pMOV9lWk5KNG5mcUxUYzFwUzdZS3MwWHAwNWs?oc=5",
         "https://iesr.or.id/the-jakarta-post-membangun-institusi-untuk-mendorong-pengembangan-tenaga-surya-di-indonesia/",
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxObVJlZmxqZHBaX2VvWm1qdlhQeXpUemlnNkxzTDR2LXNrakFqcXBGeTgyRjNsSWkzYS1FTDBLLTlaZUhHdVhxOGNldFlnbHEzQlRCRXc0c1ctQXhoNU5iMmpGeDc0bXNUWG1ZVlkxd1pBNTVyeFE2X1htSFpULVQ4UGlWeHgtTnBlblREbUVCY1RvLVQweGhaVmp1NHE4eHNsTEtEQ1VZRUx2R1VxZkFhaklOak1Pdw?oc=5"
+        "https://iesr.or.id/pv-magazine-indonesia-isyaratkan-dimulainya-inisiatif-tenaga-surya-100-gw/"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -51,23 +51,24 @@
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
         "BP BUMN",
-        "Danantara",
-        "BUMN Karya"
+        "BUMN Karya",
+        "CNBC Indonesia"
       ],
-      "headline": "BP BUMN: restrukturisasi BUMN Karya 'diupayakan segera' tapi masih tanpa jadwal",
-      "whatChanged": "Kepala BP BUMN dalam pernyataan terbaru (21 Agustus 2026) menyatakan restrukturisasi BUMN Karya diupayakan segera diselesaikan, namun tidak menyebut tenggat waktu konkret. CNBC Indonesia dan Kompas.com memetakan kerumitan struktural yang menyebabkan proses ini tertunda — termasuk kompleksitas utang antar-entitas dan tumpang tindih proyek. Ini sinyal keenam dalam 30 hari terakhir untuk tema yang sama.",
-      "whyItMatters": "Akumulasi enam sinyal tanpa resolusi mengonfirmasi bahwa restrukturisasi BUMN Karya telah bergeser dari 'proses aktif' menjadi kondisi struktural yang harus diperhitungkan sebagai risiko laten. Kontraktor konstruksi strategis yang bergantung pada BUMN Karya — untuk proyek infrastruktur, energi, dan perumahan — beroperasi dalam ketidakpastian tata kelola yang berkepanjangan.",
-      "secondOrder": "Ketidakpastian BUMN Karya menekan kemampuan perusahaan-perusahaan ini mengikuti tender besar — termasuk tender PLTS 100 GW dan proyek infrastruktur Danantara — karena kapasitas bonding dan jaminan bank mereka terbatas selama proses restrukturisasi belum tuntas. Ini secara tidak langsung mempersempit pool kontraktor domestik yang kompeten untuk proyek strategis.",
-      "action": "Audit eksposur kontraktor BUMN Karya dalam pipeline proyek yang sedang dievaluasi; pertimbangkan klausul substitusi kontraktor dalam kontrak EPC yang melibatkan entitas BUMN Karya yang belum direstrukturisasi.",
+      "headline": "Danantara ekspansi ke Mekah dan Filipina sementara restrukturisasi BUMN Karya masih tanpa jadwal",
+      "whatChanged": "CNBC Indonesia (24 Agustus) melaporkan Danantara memulai ekspansi global mencakup proyek di Mekah dan Filipina, sekaligus mempublikasikan data transformasi kinerja BUMN di bawah Danantara. Namun pada saat yang sama, BP BUMN — per CNBC Indonesia (21 Agustus) — hanya menyatakan restrukturisasi BUMN Karya 'diupayakan segera selesai' tanpa jadwal konkret.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring kini masuk iterasi keenam sejak 19 Agustus, dan pola yang terbentuk konsisten: narasi ekspansi eksternal dipercepat sementara pembenahan internal tertunda. Kesenjangan ini bukan sekadar komunikasi — ini mencerminkan prioritas alokasi manajemen yang memilih deal-making global ketimbang workout domestik yang lebih kompleks.",
+      "secondOrder": "Ekspansi global Danantara tanpa resolusi BUMN Karya menciptakan risiko reputasi dengan mitra internasional: counterpart asing yang melakukan due diligence akan menemukan bahwa portofolio Danantara masih menyimpan liabilitas konstruksi yang belum diselesaikan. Ini dapat menaikkan risk premium atau mempersulit closing transaksi.",
+      "action": "Minta klarifikasi dari BP BUMN: apakah restrukturisasi BUMN Karya sedang dalam proses legal formal (PKPU, restrukturisasi utang berbasis pengadilan) atau masih tahap negosiasi bilateral? Jawabannya menentukan apakah timeline bisa diprediksi.",
       "strength": "material",
       "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHdIQ3ZvZk93T25kQnFmclllZ2pWdDVReFMzWDZsaHNlZEtBeHJvWExRcUxGTnVOZ014bVQ4NHlIX25aSm5wMHhpNGZWaC04bUwtOThWT1J0czJEblV2ajMtTzVXelk4b2RhVDB3QldyUUxWVHA1anpRa1Y0RVhfRXRGRHY0SVREWmxDWEI4aHQ4QWZvbEdTaGEtSklmUU0waEdoYmpYWnVDZkQ0WUZQTjZyZmtETjlTZEHSAb8BQVVfeXFMTkt2ZGtCYl82Rm1RX19FZ1JzeUUwWjFDek0wejlmTXltRksyOE53SlphUk93Q2FEU0dfOWNtZVNXSGxtUzBrNjFJTS1XSzVaWFN2dUFjZ2RicmlqekRqWnZva3RXaElzVW40SVpnSGlyM1RwYTIwSmpNbW9JZC1HVk01Tm90MmQtT3k0RUNqdEl4ZUR1bVlnRWV0MkhYa0NFUGNWTDJrUGpkUUVTTkRaVHNFTjR0NXNWcTNOV0JDSTA?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWl9EbFktYmhoVU5UNWJrdnA2OE93N2ExTkRlc0JUenRkUlh4WWVzVDdmWDhVRUFxRVE4U3gtSkljWHZIR2xGSEcxaHR0d2hlWC1QMjZwSzFhRk11NUpOMU5aZG1yRVB2SXQtcVFiRzZRNnB5eDhtdDRNNHM2Y2lzdGpudGh3Z29zSEZ6SVJxRGZibmtMbllfVjBuaWhNV0hvdkxLT1pjUlBQam1DaWU00gG0AUFVX3lxTE1EZW5kdkREOUNWdjNzb1ZBNHpLYzdTdWVvLUNOOEUwd1UzbnktNUtpRlZtcEhnOGNKd0hGcUpXVmxmZkdPMTNUWHd1cngtVHM5YTlpVGpUYnVSVHR5ZTl5azQ5MkJ3SktHX1ZZalFETl9YT0U5X3hqNFVZbVdoOWVyeTVUSkl1THFuYW43TTF3eEQxMDNjX1ZrcHFacmRoUEF5N29ZMWNvenJpZDBWbzAyMWw5Zg?oc=5",
         "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
-        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
         "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 3,
+        "publishers": 2,
         "hasPrimary": false
       },
       "trend": {
@@ -80,16 +81,51 @@
     },
     {
       "rank": 3,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "GPT-5.6",
+        "Kiro",
+        "Zero Data Retention"
+      ],
+      "headline": "OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise",
+      "whatChanged": "OpenAI pada 24 Agustus mengumumkan GPT-5.6 tersedia di Kiro untuk developer dengan proposisi price-performance yang lebih baik [16]. Sebelumnya, pada 19-20 Agustus, OpenAI menegaskan Zero Data Retention untuk pelanggan API eligible dan memperkenalkan Private Safety Processing — mekanisme keamanan AI tanpa kompromi privasi data [90].",
+      "whyItMatters": "Ini melanjutkan tema enterprise-ai-data-privacy-contracts yang muncul lima kali sejak 20 Agustus. Kombinasi GPT-5.6 (harga lebih kompetitif) dan Zero Data Retention (jaminan privasi kontraktual) secara bersamaan menurunkan dua hambatan adopsi enterprise terbesar: biaya dan kepatuhan data. Pasar enterprise Asia Tenggara — termasuk BUMN Indonesia yang mulai mengeksplorasi AI — kini memiliki produk yang secara teknis memenuhi syarat data residency.",
+      "secondOrder": "Jika OpenAI menjadi default pilihan enterprise berkat jaminan privasi kontraktual, vendor AI lain (termasuk Google dan Anthropic) akan tertekan untuk mencocokkan standar Zero Data Retention sebagai tabel stake, bukan diferensiasi. Ini akan mengkommoditisasi fitur privasi dan memindahkan kompetisi ke kualitas model dan harga inferensi.",
+      "action": "Evaluasi apakah kontrak API OpenAI yang sudah berjalan di organisasi Anda sudah mencakup klausul Zero Data Retention, atau perlu di-renegosiate. Periksa juga apakah Private Safety Processing kompatibel dengan kebijakan keamanan informasi internal.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/gpt-5-6-in-kiro",
+        "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "recurring",
+        "occurrences": 6,
+        "firstSeen": "2026-08-20",
+        "spanDays": 5
+      }
+    },
+    {
+      "rank": 4,
       "domain": "energy",
       "themeKey": "indonesia-geothermal-concession-reform",
       "entities": [
-        "INAGA"
+        "INAGA",
+        "Bahlil",
+        "IIGCE 2026"
       ],
-      "headline": "IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi Indonesia",
-      "whatChanged": "Indonesia International Geothermal Convention & Exhibition (IIGCE) 2026 resmi dibuka oleh INAGA bersama pemerintah pada 24 Agustus 2026, dengan fokus akselerasi ekosistem panas bumi. Ini berlangsung dalam konteks perintah Menteri ESDM Bahlil kepada pengembang untuk tidak menahan konsesi panas bumi (sinyal sebelumnya, 19 Agustus), dan 110 proyek senilai 5,1 GW yang sebagian besar dikembangkan swasta.",
-      "whyItMatters": "Melanjutkan tema indonesia-geothermal-concession-reform yang telah muncul enam kali sejak 19 Agustus. Pola kumulatif menunjukkan pemerintah menaikkan tekanan pada pemegang konsesi idle melalui kombinasi peringatan publik (Bahlil) dan forum industri (IIGCE) — sebuah strategi dua jalur yang dapat mendahului tindakan regulasi formal pencabutan konsesi. Indonesia memiliki potensi panas bumi terbesar di dunia namun utilisasinya jauh di bawah potensi.",
-      "secondOrder": "Tekanan pencabutan konsesi dapat memicu gelombang penjualan paksa atau transfer konsesi, membuka peluang akuisisi bagi pengembang yang memiliki kapital dan kemampuan operasional — namun juga menciptakan ketidakpastian hukum bagi investor yang tengah dalam due diligence proyek panas bumi baru.",
-      "action": "Pantau pengumuman regulasi pasca-IIGCE 2026 terkait batas waktu pengembangan konsesi; prioritaskan due diligence legal atas status konsesi sebelum menandatangani perjanjian akuisisi proyek panas bumi.",
+      "headline": "IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi",
+      "whatChanged": "Pada 24 Agustus, IIGCE 2026 (Indonesia International Geothermal Convention & Exhibition) dibuka oleh INAGA dengan dukungan pemerintah, berfokus pada akselerasi ekosistem panas bumi [50]. Ini terjadi satu minggu setelah Menteri Bahlil secara eksplisit meminta pengembang tidak menahan konsesi [17], dalam konteks 110 proyek panas bumi 5,1 GW yang mayoritas dikembangkan swasta.",
+      "whyItMatters": "Tema indonesia-geothermal-concession-reform kini memasuki iterasi keenam. IIGCE bukan sekadar forum — ini adalah venue di mana komitmen investasi dan kesepakatan konsesi sering diformalkan. Tekanan Bahlil untuk 'tidak tahan konsesi' yang bertepatan dengan pembukaan konvensi menciptakan momentum politik untuk percepatan, tetapi tanpa perubahan regulasi WKP (Wilayah Kerja Panas Bumi), tekanan verbal tidak mengubah insentif ekonomi pengembang.",
+      "secondOrder": "Jika pengembang swasta dipaksa melepas konsesi yang tidak berkembang tanpa kompensasi memadai, risiko litigasi arbitrase internasional meningkat — terutama bagi pengembang asing yang terikat BIT (Bilateral Investment Treaty). Ini dapat mendinginkan minat investasi baru justru saat Indonesia membutuhkannya.",
+      "action": "Pantau output IIGCE 2026 dalam 48-72 jam ke depan: apakah ada pengumuman perubahan skema WKP, insentif fiskal baru, atau tenggat pengembalian konsesi yang tertulis? Tanpa angka konkret, momentum ini bersifat seremonial.",
       "strength": "emerging",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjBaSDlvSm9aZDFLcDJHR1llLXE5Mi12aXZGRzF0NzU3Rm50Qzl1cVA0NmxzREdsTDM0QXdvMGRHSVBpdldvcUN6cTh3Z1E0VnlUYVRqQjVLWWc0UXMyb2lOdV9mZ1VnVjhhTnRQX2pzVEEtWE1LcEtQTW9OYmNFcVQ4dXpfY2FSaDZWZTRRUUIxc09JR2MzUV9TX256SGNITEVSV0ZsVzRRcVEyTkhkU1FzR1c?oc=5",
@@ -109,22 +145,21 @@
       }
     },
     {
-      "rank": 4,
-      "domain": "ai",
-      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
       "entities": [
-        "OpenAI",
-        "Zero Data Retention",
-        "Private Safety Processing"
+        "IESR",
+        "PLN"
       ],
-      "headline": "OpenAI konfirmasi Zero Data Retention untuk model frontier; pratinjau Private Safety Processing",
-      "whatChanged": "OpenAI (19 Agustus 2026) menegaskan kembali ketersediaan Zero Data Retention (ZDR) bagi pelanggan API yang memenuhi syarat — berarti data input tidak disimpan di server OpenAI — dan mempratinjau Private Safety Processing, mekanisme yang memungkinkan pemrosesan safety tanpa akses ke konten pengguna. Ini berlaku untuk model frontier dalam API, bukan produk konsumen.",
-      "whyItMatters": "Melanjutkan tema enterprise-ai-data-privacy-contracts (lima kali dalam 30 hari). ZDR yang sebelumnya hanya tersedia untuk model tertentu kini diperluas ke frontier models, mengubah kalkulasi kontraktual perusahaan yang selama ini enggan menggunakan API OpenAI karena kekhawatiran data residency dan kerahasiaan. Ini secara langsung menjawab hambatan adopsi enterprise di sektor keuangan, hukum, dan kesehatan.",
-      "secondOrder": "Pesaing — Anthropic, Google DeepMind, vendor lokal — akan mendapat tekanan untuk menawarkan jaminan setara atau lebih kuat. Perusahaan yang sedang dalam proses pengadaan AI harus memperbarui standar minimum dalam RFP mereka untuk mencerminkan ZDR dan Private Safety Processing sebagai baseline, bukan diferensiasi premium.",
-      "action": "Perbarui template RFP dan klausul data processing agreement untuk memasukkan ZDR dan mekanisme safety processing sebagai persyaratan wajib; evaluasi ulang vendor AI incumbent yang belum menawarkan jaminan setara.",
-      "strength": "material",
+      "headline": "IESR: Insentif motor listrik Rp3 juta — di bawah ambang batas efektif — berisiko gagalkan transisi EV roda dua",
+      "whatChanged": "IESR pada 24 Agustus menyatakan insentif pembelian motor listrik ditetapkan pemerintah sebesar Rp3 juta per unit, lebih rendah dari rencana awal Rp5 juta. IESR menilai besaran insentif menentukan keberhasilan peralihan, dengan anggaran yang dialokasikan belum diumumkan secara rinci [3].",
+      "whyItMatters": "Penurunan insentif dari Rp5 juta ke Rp3 juta bukan sekadar pemotongan 40% — ini bisa melewati ambang batas psikologis konsumen yang membuat keputusan beli. Motor listrik masih memiliki selisih harga awal vs motor BBM yang signifikan; insentif Rp3 juta mungkin tidak cukup untuk menutup gap tersebut bagi segmen bawah yang paling banyak menggunakan motor sebagai alat kerja.",
+      "secondOrder": "Kegagalan program insentif motor listrik akan memperlambat pertumbuhan beban EV pada jaringan distribusi PLN — yang ironisnya merupakan salah satu argumen untuk investasi grid yang lebih modern. Skenario adopsi EV rendah juga melemahkan business case produsen baterai lokal yang sedang dibangun dalam ekosistem hilirisasi mineral.",
+      "action": "Bandingkan elastisitas harga program serupa di Vietnam dan Thailand (keduanya punya data adopsi EV roda dua) untuk memperkirakan apakah Rp3 juta cukup menggerakkan volume. Hasilnya relevan untuk keputusan apakah perlu lobi revisi besaran insentif sebelum program diluncurkan resmi.",
+      "strength": "emerging",
       "sourceUrls": [
-        "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+        "https://iesr.or.id/iesr-besaran-insentif-menentukan-keberhasilan-peralihan-motor-bbm-ke-motor-listrik/"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -132,67 +167,45 @@
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "themeKey": "pln-grid-investment",
         "status": "recurring",
-        "occurrences": 6,
-        "firstSeen": "2026-08-20",
-        "spanDays": 5
-      }
-    },
-    {
-      "rank": 5,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
-      "entities": [
-        "PT Danantara Sumberdaya Indonesia",
-        "Kementerian ESDM",
-        "Direktorat Jenderal Bea Cukai",
-        "Danantara"
-      ],
-      "headline": "DSI luncurkan platform ekspor SDA 1 September; pungut biaya tata kelola dari eksportir",
-      "whatChanged": "PT Danantara Sumberdaya Indonesia (DSI) mengonfirmasi platform tata kelola ekspor sumber daya alam — mencakup CPO, batu bara, dan ferro alloy — diluncurkan 1 September 2026. DSI memantau sekitar 100 kapal ekspor per hari melalui integrasi data dengan sistem Kementerian ESDM dan Direktorat Jenderal Bea Cukai. DSI juga akan memungut biaya tata kelola ekspor dari eksportir sebagai model pendapatan platform.",
-      "whyItMatters": "Ini bukan sekadar sistem pelaporan: DSI mengambil posisi sebagai operator tata kelola rantai nilai komoditas nasional dengan kewenangan memungut biaya. Entitas yang dikendalikan Danantara kini menjadi titik kontrol antara produsen komoditas dan pasar ekspor, mengubah struktur industri dari model swasta-bebas menjadi model dengan lapis pengawasan negara dan retribusi baru.",
-      "secondOrder": "Eksportir komoditas swasta — khususnya perusahaan CPO dan batu bara — akan menghadapi kenaikan biaya kepatuhan dan risiko penundaan operasional bila sistem integrasi DSI–ESDM–Bea Cukai belum stabil saat peluncuran. Investor asing yang masuk via offtake agreement juga perlu memperhitungkan DSI sebagai aktor tata kelola baru yang dapat mengubah ketentuan ekspor secara sepihak bila regulasinya berevolusi.",
-      "action": "Tinjau klausul force majeure dan regulatory change dalam kontrak offtake komoditas yang jatuh tempo setelah 1 September 2026; identifikasi eksposur biaya tata kelola DSI dalam proyeksi margin eksportir portofolio.",
-      "strength": "actionable",
-      "sourceUrls": [
-        "https://finance.detik.com/energi/d-8633276/platform-ekspor-pt-dsi-diluncurkan-1-september",
-        "https://finance.detik.com/energi/d-8633220/dsi-pantau-100-kapal-ekspor-hari-terhubung-sistem-esdm-hingga-bea-cukai",
-        "https://finance.detik.com/energi/d-8633146/pt-dsi-bakal-terapkan-biaya-tata-kelola-ekspor"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 1,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
-        "status": "recurring",
-        "occurrences": 7,
-        "firstSeen": "2026-08-19",
-        "spanDays": 6
+        "occurrences": 3,
+        "firstSeen": "2026-08-22",
+        "spanDays": 3
       }
     }
   ],
   "watchNext": [
     {
-      "item": "Peluncuran resmi platform ekspor DSI dan publikasi tarif tata kelola — konfirmasi model bisnis dan reaksi eksportir swasta",
+      "item": "Output konkret IIGCE 2026: perubahan skema WKP, tenggat pengembalian konsesi, atau insentif fiskal baru untuk panas bumi",
+      "dueDate": "2026-08-27"
+    },
+    {
+      "item": "Dokumen RFP atau kerangka tender PLTS 100 GW dari Kementerian ESDM: apakah mencantumkan klausul transmisi-readiness",
+      "dueDate": "2026-09-15"
+    },
+    {
+      "item": "Pengumuman jadwal formal restrukturisasi BUMN Karya dari BP BUMN atau Danantara, termasuk mekanisme legal yang dipilih",
       "dueDate": "2026-09-01"
     },
     {
-      "item": "Pengumuman regulasi pasca-IIGCE 2026: apakah ada tenggat baru pencabutan konsesi panas bumi idle",
-      "dueDate": "2026-09-07"
-    },
-    {
-      "item": "Rilis detail tender PLTS 100 GW Kementerian ESDM — apakah disertai roadmap transmisi PLN yang mengikat",
+      "item": "Adopsi Zero Data Retention dan Private Safety Processing OpenAI oleh enterprise Asia Tenggara: announcement dari pelanggan anchor atau mitra regional",
       "dueDate": "2026-09-30"
     },
     {
-      "item": "Pengumuman jadwal konkret restrukturisasi BUMN Karya dari BP BUMN atau Danantara",
-      "dueDate": "2026-10-01"
+      "item": "Regulasi resmi insentif motor listrik Rp3 juta: Perpres atau Permen yang merinci anggaran total, kuota unit, dan mekanisme penyaluran",
+      "dueDate": "2026-09-10"
     }
   ],
   "sources": [
+    {
+      "title": "IESR: Besaran Insentif Menentukan Keberhasilan Peralihan Motor BBM ke Motor Listrik",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-besaran-insentif-menentukan-keberhasilan-peralihan-motor-bbm-ke-motor-listrik/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-24T08:50:01.000Z"
+    },
     {
       "title": "The Jakarta Post | Membangun institusi untuk mendorong pengembangan tenaga surya di Indonesia",
       "publisher": "IESR",
@@ -200,6 +213,22 @@
       "tier": 1,
       "primary": true,
       "publishedAt": "2026-08-24T04:04:03.000Z"
+    },
+    {
+      "title": "PV Magazine | Indonesia isyaratkan dimulainya inisiatif tenaga surya 100 GW",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/pv-magazine-indonesia-isyaratkan-dimulainya-inisiatif-tenaga-surya-100-gw/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-24T03:44:20.000Z"
+    },
+    {
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-24T12:00:00.000Z"
     },
     {
       "title": "Kejar Potensi Panas Bumi Nomor Satu Dunia, Bahlil Minta Pengembang Tak Tahan Konsesi",
@@ -229,12 +258,13 @@
       "publishedAt": "2026-08-21T03:33:57.000Z"
     },
     {
-      "title": "Platform Ekspor PT DSI Diluncurkan 1 September",
-      "publisher": "detikFinance",
-      "url": "https://finance.detik.com/energi/d-8633276/platform-ekspor-pt-dsi-diluncurkan-1-september",
-      "tier": 2,
+      "title": "Begini Transformasi Kinerja BUMN di Bawah Danantara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWl9EbFktYmhoVU5UNWJrdnA2OE93N2ExTkRlc0JUenRkUlh4WWVzVDdmWDhVRUFxRVE4U3gtSkljWHZIR2xGSEcxaHR0d2hlWC1QMjZwSzFhRk11NUpOMU5aZG1yRVB2SXQtcVFiRzZRNnB5eDhtdDRNNHM2Y2lzdGpudGh3Z29zSEZ6SVJxRGZibmtMbllfVjBuaWhNV0hvdkxLT1pjUlBQam1DaWU00gG0AUFVX3lxTE1EZW5kdkREOUNWdjNzb1ZBNHpLYzdTdWVvLUNOOEUwd1UzbnktNUtpRlZtcEhnOGNKd0hGcUpXVmxmZkdPMTNUWHd1cngtVHM5YTlpVGpUYnVSVHR5ZTl5azQ5MkJ3SktHX1ZZalFETl9YT0U5X3hqNFVZbVdoOWVyeTVUSkl1THFuYW43TTF3eEQxMDNjX1ZrcHFacmRoUEF5N29ZMWNvenJpZDBWbzAyMWw5Zg?oc=5",
+      "tier": 1,
+      "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-24T15:14:44.000Z"
+      "publishedAt": "2026-08-24T12:06:05.000Z"
     },
     {
       "title": "IIGCE 2026, Dibuka INAGA dan Pemerintah Dorong Akselerasi Ekosistem Panas Bumi",
@@ -246,30 +276,13 @@
       "publishedAt": "2026-08-24T16:17:12.000Z"
     },
     {
-      "title": "DSI Pantau 100 Kapal Ekspor/ Hari, Terhubung Sistem ESDM hingga Bea Cukai",
-      "publisher": "detikFinance",
-      "url": "https://finance.detik.com/energi/d-8633220/dsi-pantau-100-kapal-ekspor-hari-terhubung-sistem-esdm-hingga-bea-cukai",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-24T14:09:35.000Z"
-    },
-    {
-      "title": "Mengapa Restrukturisasi BUMN Karya Sangat Rumit?",
-      "publisher": "Kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-20T08:29:00.000Z"
-    },
-    {
-      "title": "Dilema Tender PLTS 100 GW, Panel Surya Impor Dinilai Lebih Murah",
+      "title": "Bahlil Mau Buka Tender PLTS 100 GW, Sistem Transmisi Desa Disorot",
       "publisher": "Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObVJlZmxqZHBaX2VvWm1qdlhQeXpUemlnNkxzTDR2LXNrakFqcXBGeTgyRjNsSWkzYS1FTDBLLTlaZUhHdVhxOGNldFlnbHEzQlRCRXc0c1ctQXhoNU5iMmpGeDc0bXNUWG1ZVlkxd1pBNTVyeFE2X1htSFpULVQ4UGlWeHgtTnBlblREbUVCY1RvLVQweGhaVmp1NHE4eHNsTEtEQ1VZRUx2R1VxZkFhaklOak1Pdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeC1FeXdvUTJLTzRzREJLQVJ6Y2p1YkFlZXpyM1ZLVUxFRFZybUgwOTJXaHZJbV9OWTZTOXZHZ2ZnZ3FUTUZXQkI5S3loR0dBdW1WRHZYdDYzdHZkYzFham5LelNseVdZaXMyR0VyTk5CV0FZbmJFWF96WWJaNTd1aGFFdUtFc0hLeU5mRHdZRjdyWFNFUVZfRko4M2pMOV9lWk5KNG5mcUxUYzFwUzdZS3MwWHAwNWs?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-24T06:40:00.000Z"
+      "publishedAt": "2026-08-24T06:00:00.000Z"
     },
     {
       "title": "Offering Zero Data Retention for frontier models",
@@ -280,6 +293,15 @@
       "publishedAt": "2026-08-19T19:00:00.000Z"
     },
     {
+      "title": "Danantara Mulai \"Invasi\" Global, dari Mekah sampai Filipina",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHdIQ3ZvZk93T25kQnFmclllZ2pWdDVReFMzWDZsaHNlZEtBeHJvWExRcUxGTnVOZ014bVQ4NHlIX25aSm5wMHhpNGZWaC04bUwtOThWT1J0czJEblV2ajMtTzVXelk4b2RhVDB3QldyUUxWVHA1anpRa1Y0RVhfRXRGRHY0SVREWmxDWEI4aHQ4QWZvbEdTaGEtSklmUU0waEdoYmpYWnVDZkQ0WUZQTjZyZmtETjlTZEHSAb8BQVVfeXFMTkt2ZGtCYl82Rm1RX19FZ1JzeUUwWjFDek0wejlmTXltRksyOE53SlphUk93Q2FEU0dfOWNtZVNXSGxtUzBrNjFJTS1XSzVaWFN2dUFjZ2RicmlqekRqWnZva3RXaElzVW40SVpnSGlyM1RwYTIwSmpNbW9JZC1HVk01Tm90MmQtT3k0RUNqdEl4ZUR1bVlnRWV0MkhYa0NFUGNWTDJrUGpkUUVTTkRaVHNFTjR0NXNWcTNOV0JDSTA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-24T10:25:34.000Z"
+    },
+    {
       "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
       "publisher": "CNN Indonesia",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
@@ -287,23 +309,6 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-08-18T23:40:08.000Z"
-    },
-    {
-      "title": "Bahlil Mau Buka Tender PLTS 100 GW, Sistem Transmisi Desa Disorot",
-      "publisher": "Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeC1FeXdvUTJLTzRzREJLQVJ6Y2p1YkFlZXpyM1ZLVUxFRFZybUgwOTJXaHZJbV9OWTZTOXZHZ2ZnZ3FUTUZXQkI5S3loR0dBdW1WRHZYdDYzdHZkYzFham5LelNseVdZaXMyR0VyTk5CV0FZbmJFWF96WWJaNTd1aGFFdUtFc0hLeU5mRHdZRjdyWFNFUVZfRko4M2pMOV9lWk5KNG5mcUxUYzFwUzdZS3MwWHAwNWs?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-24T06:00:00.000Z"
-    },
-    {
-      "title": "PT DSI Bakal Terapkan Biaya Tata Kelola Ekspor",
-      "publisher": "detikFinance",
-      "url": "https://finance.detik.com/energi/d-8633146/pt-dsi-bakal-terapkan-biaya-tata-kelola-ekspor",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-24T13:17:44.000Z"
     }
   ],
   "trends": [
@@ -359,9 +364,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 386,
+    "candidateCount": 377,
     "poolSize": 110,
-    "generatedAt": "2026-08-24T23:18:36.584Z",
+    "generatedAt": "2026-08-24T23:48:59.808Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
