@@ -1,0 +1,413 @@
+{
+  "slug": "2026-08-25",
+  "date": "2026-08-25",
+  "lang": "en",
+  "title": "DSI Launch, PLTS 100 GW Grid Gap, BUMN Karya Stall, AI Power Transformers",
+  "dek": "Indonesia's resource-export governance, solar grid bottleneck, and BUMN restructuring each crystallise this week, while AI data-centre power demand is reshaping transformer hardware globally.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Danantara Sumberdaya Indonesia (DSI) goes live on 1 September with a fee-bearing export governance platform covering CPO, coal and ferro alloy — a structural intervention in commodity flows that adds cost and compliance obligations across Indonesia's export supply chains. Simultaneously, the 100 GW solar tender is blocked not by panels or finance but by village-level transmission infrastructure, confirming IESR and IEEFA warnings that grid investment is the binding constraint. BUMN Karya restructuring remains without a schedule after six weeks of public acknowledgement, deepening uncertainty for contractors and their bank creditors. On the AI-energy nexus, data-centre power demand is forcing a hardware redesign of power transformers — a supply-chain bottleneck that may slow data-centre build-out faster than GPU or land constraints. The enterprise AI privacy thread advances as OpenAI formalises Zero Data Retention, raising the contractual bar for API customers handling sensitive data.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "PT Danantara Sumberdaya Indonesia",
+        "Kementerian ESDM",
+        "Bea Cukai",
+        "Freeport"
+      ],
+      "headline": "DSI launches 1 September with export-governance fee on coal, CPO and ferro alloy — 100 vessels/day under surveillance",
+      "whatChanged": "PT Danantara Sumberdaya Indonesia (DSI) confirmed its export-governance platform will go live on 1 September 2026, monitoring approximately 100 export vessels per day through integrated data links to Kementerian ESDM and Bea Cukai. DSI will charge a tata kelola ekspor fee and will cover CPO, coal and ferro alloy. Board composition includes the CEO of Freeport and a former World Bank executive.",
+      "whyItMatters": "This is the first operational instrument through which Danantara extracts recurring revenue from Indonesia's commodity export flows rather than simply holding equity stakes. It converts a governance function into a fee-generating intermediary sitting between exporters and customs — a structurally new cost layer for commodity supply chains.",
+      "secondOrder": "International commodity traders and offtakers sourcing Indonesian coal and CPO now face an additional compliance counterparty with undefined fee levels and enforcement teeth tied to Bea Cukai. This may shift contract structures — buyers could demand price adjustments to absorb DSI fees, or challenge the platform's legality under WTO trade-facilitation rules. The Freeport CEO's board seat signals that DSI's scope may extend to mineral exports, directly implicating existing smelter and divestiture agreements.",
+      "action": "Commodity trading desks and legal teams sourcing Indonesian coal, CPO or ferro alloy should request DSI's fee schedule and compliance protocol before 1 September; assess whether existing offtake contracts contain cost-passthrough provisions that cover new sovereign intermediary charges.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://finance.detik.com/energi/d-8633276/platform-ekspor-pt-dsi-diluncurkan-1-september",
+        "https://finance.detik.com/energi/d-8633220/dsi-pantau-100-kapal-ekspor-hari-terhubung-sistem-esdm-hingga-bea-cukai",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYkE0NEZMb1JCMFl0eDZGemVTdDlsM3lkV2RaMkxEenRCWUw1a1dVd2xEZ0xWOG45Yk5ta1BCbEtUUFZ1T01RSzEyZEQ5eWgwbzVjTi1JMUxuX1NpMVBsM2FsaDJBSGZtMTRWM0wtREFOc3RaY1dqWTh3dXFKQkNYZ3dLRXZvanlUTkJRT012SXNaT0d3QXdmWlRuOHc5dDV4Vl9mZ0VMa0VaYXNGR2ZnWjl2bTdnZEU3ek95ZDNub2pFSUxvdHfSAcsBQVVfeXFMTjZFbWU2VW9LaTUzUC1IRjNlWjlXRHYtT2Z0aHQ3S25BekZRNWNjOFE2SW03eDNWUnJsa0xhRklRUjFMUS0tbnFiZjZFRUxMV2Y0blpPcWJCSHkycDBSSlFzZk0zSVE4Q0l1bWRBTXdhZnYwZHJOX1FZazRpRk5NN3hkVTd4MHJSWl80Q2RtMkRuTks3UVZlZUlpQkVhWTNYTFliWUdpc3ZScDA2T21SWlpuek5iV0xOYjBzOExsMlNaSDNLbGtwdEtyS0k?oc=5",
+        "https://finance.detik.com/energi/d-8633146/pt-dsi-bakal-terapkan-biaya-tata-kelola-ekspor"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "recurring",
+        "occurrences": 7,
+        "firstSeen": "2026-08-19",
+        "spanDays": 6
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "IESR",
+        "Bahlil"
+      ],
+      "headline": "Indonesia's 100 GW solar tender stalls on village-level transmission gaps, not panel supply or finance",
+      "whatChanged": "Minister Bahlil has signalled readiness to open the 100 GW PLTS tender, but Bloomberg Technoz and IESR independently flag that village-level and rural transmission systems are inadequate to absorb the generation. IESR's concurrent ANTARA statement specifies that transmission networks must be addressed as a prerequisite for the solar build-out. Import panels are also assessed as cheaper than domestic supply, creating a local-content policy dilemma.",
+      "whyItMatters": "This continues and strengthens the pln-grid-investment thread. The accumulation of signals — Indonesia-Germany grid partnership, IEEFA transmission subholding proposals, and now the 100 GW tender itself hitting a transmission wall — means grid underinvestment is no longer an emerging risk but a structural condition blocking the energy transition programme. The 100 GW target, first announced August 2025, is now publicly constrained by infrastructure that PLN has not yet built.",
+      "secondOrder": "Tendering 100 GW without resolving transmission creates a pipeline of stranded-asset risk: projects awarded but unable to evacuate power. Developers who win tenders may find grid connection timelines undefined, making project finance bankability questionable. This also gives the Indonesia-Germany bilateral (formalised at ISEW 2026) its most concrete near-term agenda item — German grid-technology financing directed at rural evacuation infrastructure rather than large backbone lines.",
+      "action": "Any developer or financier evaluating the PLTS 100 GW tender should require a grid-connection commitment letter from PLN before financial close; map project sites against PLN's existing transmission capacity maps to identify evacuation risk before bidding.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeC1FeXdvUTJLTzRzREJLQVJ6Y2p1YkFlZXpyM1ZLVUxFRFZybUgwOTJXaHZJbV9OWTZTOXZHZ2ZnZ3FUTUZXQkI5S3loR0dBdW1WRHZYdDYzdHZkYzFham5LelNseVdZaXMyR0VyTk5CV0FZbmJFWF96WWJaNTd1aGFFdUtFc0hLeU5mRHdZRjdyWFNFUVZfRko4M2pMOV9lWk5KNG5mcUxUYzFwUzdZS3MwWHAwNWs?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNU1LOGZIVHk1ZUJmWTlkTEdGclQ4Znhwd210bHZkeTVQa3BmMFBvaUphOUo0YlI2MkdJODlXc1VqLVBFcVBfUnhiN3RyU2NscmhTR0FvMHNMbHRsMHlGSWVqTG44UXNkbVdjSm94aGNtcGljZE8xcXdSUXBwWl81OU5TQzVGeC1OcllxSVBRUGg5T3VGeV96a1dGY05Vdl91X2E4UzhMeUdhTEXSAa4BQVVfeXFMTWdCdklNZzhsLVoyaXpPVEJtdHppZVRWejRvWWw4V0RjWTNzVlp6NTNjTGNtTHU5REV4aE1YMThNZFFlbmlFeXp0ZU5iSTdVLVNJVGtuTDlzOEs1bkp5dUZJQ2QxUkwzQ1VtT0taWEVrSDg4ZXZrRUVybTRwZkJhdTF0djVYR3VzWFhaMWQ0WkJJZHZpZW40VllIWVZOeG1jNEtLNUdsLWU3VjdlWHdn?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxObVJlZmxqZHBaX2VvWm1qdlhQeXpUemlnNkxzTDR2LXNrakFqcXBGeTgyRjNsSWkzYS1FTDBLLTlaZUhHdVhxOGNldFlnbHEzQlRCRXc0c1ctQXhoNU5iMmpGeDc0bXNUWG1ZVlkxd1pBNTVyeFE2X1htSFpULVQ4UGlWeHgtTnBlblREbUVCY1RvLVQweGhaVmp1NHE4eHNsTEtEQ1VZRUx2R1VxZkFhaklOak1Pdw?oc=5",
+        "https://iesr.or.id/the-jakarta-post-membangun-institusi-untuk-mendorong-pengembangan-tenaga-surya-di-indonesia/",
+        "https://iesr.or.id/pv-magazine-indonesia-isyaratkan-dimulainya-inisiatif-tenaga-surya-100-gw/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "recurring",
+        "occurrences": 3,
+        "firstSeen": "2026-08-22",
+        "spanDays": 3
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BP BUMN",
+        "Danantara",
+        "BUMN Karya"
+      ],
+      "headline": "BP BUMN acknowledges BUMN Karya restructuring still has no fixed schedule after six weeks of public pressure",
+      "whatChanged": "The head of BP BUMN stated that BUMN Karya restructuring is being 'pursued to complete soon' but confirmed no definitive timeline exists. Kompas and CNN Indonesia have documented the structural complexity: overlapping debt, cross-guarantees, and politically sensitive contractor workforces. This is the sixth appearance of this theme in 30 days with no resolution announced.",
+      "whyItMatters": "At six recurrences without a schedule, this has crossed from news into a planning condition. State construction companies — including those with large infrastructure project backlogs — are operating under unresolved ownership and liability structures. Banks with BUMN Karya exposure cannot provision correctly, and government infrastructure counterparts cannot rely on contractor solvency.",
+      "secondOrder": "The absence of a schedule is itself a decision: it signals that Danantara lacks either the legal authority or political consensus to impose a restructuring timeline. This creates an opening for creditor banks to push their own terms rather than wait for a state-directed workout. If Danantara cannot resolve BUMN Karya before the next major infrastructure contract cycle, project awards may flow to private or foreign contractors by default — a structural shift in Indonesia's construction sector.",
+      "action": "Banks with BUMN Karya credit exposure should stress-test provisions under a scenario where restructuring extends beyond Q1 2027; infrastructure project sponsors should include BUMN Karya contractor-replacement clauses in new EPC agreements.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "recurring",
+        "occurrences": 7,
+        "firstSeen": "2026-08-19",
+        "spanDays": 6
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google DeepMind"
+      ],
+      "headline": "OpenAI formalises Zero Data Retention and previews Private Safety Processing for frontier API models",
+      "whatChanged": "OpenAI has formally offered Zero Data Retention (ZDR) to eligible API customers using frontier models, and previewed Private Safety Processing — a mechanism enabling AI safety functions without OpenAI retaining or accessing customer data. This is a primary-source announcement from OpenAI dated 2026-08-19, continuing the enterprise-ai-data-privacy-contracts thread.",
+      "whyItMatters": "ZDR formalisation sets a new contractual floor for enterprise and regulated-sector API customers. Organisations in financial services, healthcare, and government that previously avoided frontier models due to data-retention risk now have a documented, contractually enforceable option. The Private Safety Processing preview signals that OpenAI is pre-empting the regulatory argument that safety monitoring requires data access — removing the last structural objection to regulated-sector adoption.",
+      "secondOrder": "Competitors — Anthropic, Google DeepMind — face pressure to match ZDR terms or lose regulated-sector enterprise deals. More consequentially, enterprise procurement teams will now use ZDR as a standard RFP requirement, which may disadvantage smaller model providers that lack the infrastructure to offer credible zero-retention guarantees. This accelerates consolidation of enterprise AI spend toward the two or three vendors who can credibly certify ZDR at scale.",
+      "action": "Enterprise AI procurement teams should update vendor evaluation frameworks to include ZDR certification and Private Safety Processing equivalents as minimum requirements; legal and compliance officers should review existing OpenAI API agreements to determine whether ZDR terms require a contract amendment to activate.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "recurring",
+        "occurrences": 6,
+        "firstSeen": "2026-08-20",
+        "spanDays": 5
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "NeutraDC",
+        "PLN"
+      ],
+      "headline": "AI data-centre power demand forces redesign of power transformers, signalling a new hardware supply-chain bottleneck",
+      "whatChanged": "Ars Technica reports that energy-hungry AI data centres are spurring new power transformer technology, with transformer design being actively revised to meet load profiles and density requirements that existing grid-standard transformers cannot serve. The piece identifies transformer supply as an emerging physical constraint on data-centre build-out.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power thread and adds a layer below the GPU-compute-power chain: the grid-interconnection hardware itself. Transformers are long-lead items (18–36 months manufacturing time globally) made by a concentrated set of suppliers. If AI data-centre specifications require custom transformer designs, lead times extend further and cost per MW rises.",
+      "secondOrder": "Data-centre developers and hyperscalers who have modelled power procurement around standard utility interconnection timelines will face an additional delay vector that sits outside their control and outside standard project finance risk matrices. This makes transformer procurement a critical-path item — potentially more constraining than land, permits, or even grid capacity agreements. For Indonesia specifically, where NeutraDC and others are expanding data-centre capacity, PLN's transformer procurement and grid-interconnection pipeline becomes a hidden dependency for the AI infrastructure build.",
+      "action": "Data-centre project teams should add transformer procurement lead time to their critical-path schedules and issue RFQs to transformer manufacturers before grid-connection agreements are signed; investors in data-centre REITs and developers should ask operators to disclose transformer order status as part of construction risk disclosure.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXA3cWJJa3JoVkpJcU1UWWVrcG5XLUp3WUJLOVVZa0N5Z3d5UlRQWWN4cDJ0Q2VINkJaZk1PamtxYk8xUDVwbWNnTDU3MmliWnF0dlVWWXU5V0dHMUFCVlNMeGR1dEVtLWZDcktxUFNmWGJ0UTRHRFcwd19iRVF3NUxsUlVNeHVIQkZuMWxScTZOYlFUaFRlTktvOThibzNWcUVWMTZoX1R5UE80?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "recurring",
+        "occurrences": 5,
+        "firstSeen": "2026-08-20",
+        "spanDays": 5
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "DSI fee schedule and first enforcement action under the 1 September export-governance platform launch; watch for WTO or trade-partner objections",
+      "dueDate": "2026-09-05"
+    },
+    {
+      "item": "PLTS 100 GW tender formal issuance by Kementerian ESDM — and whether grid-connection terms are included or deferred",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "BUMN Karya restructuring schedule announcement or creditor-bank disclosure of provisioning changes — either signals who is driving the workout",
+      "dueDate": "2026-10-01"
+    },
+    {
+      "item": "Transformer manufacturer order backlogs and lead-time data from major suppliers (ABB, Siemens Energy, Hitachi Energy) for AI data-centre specifications",
+      "dueDate": "2026-11-01"
+    },
+    {
+      "item": "Anthropic and Google DeepMind API contract updates matching OpenAI's Zero Data Retention terms — competitive parity or differentiation response",
+      "dueDate": "2026-09-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Jakarta Post | Membangun institusi untuk mendorong pengembangan tenaga surya di Indonesia",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/the-jakarta-post-membangun-institusi-untuk-mendorong-pengembangan-tenaga-surya-di-indonesia/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-24T04:04:03.000Z"
+    },
+    {
+      "title": "PV Magazine | Indonesia isyaratkan dimulainya inisiatif tenaga surya 100 GW",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/pv-magazine-indonesia-isyaratkan-dimulainya-inisiatif-tenaga-surya-100-gw/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-24T03:44:20.000Z"
+    },
+    {
+      "title": "IESR: Jaringan transmisi harus diperhatikan dalam pembangunan PLTS",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNU1LOGZIVHk1ZUJmWTlkTEdGclQ4Znhwd210bHZkeTVQa3BmMFBvaUphOUo0YlI2MkdJODlXc1VqLVBFcVBfUnhiN3RyU2NscmhTR0FvMHNMbHRsMHlGSWVqTG44UXNkbVdjSm94aGNtcGljZE8xcXdSUXBwWl81OU5TQzVGeC1OcllxSVBRUGg5T3VGeV96a1dGY05Vdl91X2E4UzhMeUdhTEXSAa4BQVVfeXFMTWdCdklNZzhsLVoyaXpPVEJtdHppZVRWejRvWWw4V0RjWTNzVlp6NTNjTGNtTHU5REV4aE1YMThNZFFlbmlFeXp0ZU5iSTdVLVNJVGtuTDlzOEs1bkp5dUZJQ2QxUkwzQ1VtT0taWEVrSDg4ZXZrRUVybTRwZkJhdTF0djVYR3VzWFhaMWQ0WkJJZHZpZW40VllIWVZOeG1jNEtLNUdsLWU3VjdlWHdn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-24T07:43:59.000Z"
+    },
+    {
+      "title": "Bos BP BUMN: Restrukturisasi BUMN Karya Diupayakan Segera Selesai",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T03:33:57.000Z"
+    },
+    {
+      "title": "Energy-hungry AI data centers spur new power transformer technology",
+      "publisher": "Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXA3cWJJa3JoVkpJcU1UWWVrcG5XLUp3WUJLOVVZa0N5Z3d5UlRQWWN4cDJ0Q2VINkJaZk1PamtxYk8xUDVwbWNnTDU3MmliWnF0dlVWWXU5V0dHMUFCVlNMeGR1dEVtLWZDcktxUFNmWGJ0UTRHRFcwd19iRVF3NUxsUlVNeHVIQkZuMWxScTZOYlFUaFRlTktvOThibzNWcUVWMTZoX1R5UE80?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-24T21:32:16.000Z"
+    },
+    {
+      "title": "Platform Ekspor PT DSI Diluncurkan 1 September",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8633276/platform-ekspor-pt-dsi-diluncurkan-1-september",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-24T15:14:44.000Z"
+    },
+    {
+      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "DSI Pantau 100 Kapal Ekspor/ Hari, Terhubung Sistem ESDM hingga Bea Cukai",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8633220/dsi-pantau-100-kapal-ekspor-hari-terhubung-sistem-esdm-hingga-bea-cukai",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-24T14:09:35.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "Susunan Direksi-Komisaris DSI, Ada CEO Freeport & Eks Bos Bank Dunia",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYkE0NEZMb1JCMFl0eDZGemVTdDlsM3lkV2RaMkxEenRCWUw1a1dVd2xEZ0xWOG45Yk5ta1BCbEtUUFZ1T01RSzEyZEQ5eWgwbzVjTi1JMUxuX1NpMVBsM2FsaDJBSGZtMTRWM0wtREFOc3RaY1dqWTh3dXFKQkNYZ3dLRXZvanlUTkJRT012SXNaT0d3QXdmWlRuOHc5dDV4Vl9mZ0VMa0VaYXNGR2ZnWjl2bTdnZEU3ek95ZDNub2pFSUxvdHfSAcsBQVVfeXFMTjZFbWU2VW9LaTUzUC1IRjNlWjlXRHYtT2Z0aHQ3S25BekZRNWNjOFE2SW03eDNWUnJsa0xhRklRUjFMUS0tbnFiZjZFRUxMV2Y0blpPcWJCSHkycDBSSlFzZk0zSVE4Q0l1bWRBTXdhZnYwZHJOX1FZazRpRk5NN3hkVTd4MHJSWl80Q2RtMkRuTks3UVZlZUlpQkVhWTNYTFliWUdpc3ZScDA2T21SWlpuek5iV0xOYjBzOExsMlNaSDNLbGtwdEtyS0k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-24T11:05:13.000Z"
+    },
+    {
+      "title": "Mengapa Restrukturisasi BUMN Karya Sangat Rumit?",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE8zem5rSVpEb0EwNDJRdW9ucWNIckZrVjdJS1ZPUmpvcmpzM1N3WEdxRzhpSUVFVXBzb2QwTGYwNldfQUhqbEhwc0Y4QXd1a1RpMmppUXBWdzdtWHNmSm5PLUFxb1Z1ZWhkdGZWTEZ1LUtRdktCZEhJaFhjWUJYZm01a3kxd1BTU01IZUpQajY3QmVsMUg4UDJXYzBGY2pLTE1XNGtnYUU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-20T08:29:00.000Z"
+    },
+    {
+      "title": "Dilema Tender PLTS 100 GW, Panel Surya Impor Dinilai Lebih Murah",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObVJlZmxqZHBaX2VvWm1qdlhQeXpUemlnNkxzTDR2LXNrakFqcXBGeTgyRjNsSWkzYS1FTDBLLTlaZUhHdVhxOGNldFlnbHEzQlRCRXc0c1ctQXhoNU5iMmpGeDc0bXNUWG1ZVlkxd1pBNTVyeFE2X1htSFpULVQ4UGlWeHgtTnBlblREbUVCY1RvLVQweGhaVmp1NHE4eHNsTEtEQ1VZRUx2R1VxZkFhaklOak1Pdw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-24T06:40:00.000Z"
+    },
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-19T19:00:00.000Z"
+    },
+    {
+      "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T23:40:08.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "Bahlil Mau Buka Tender PLTS 100 GW, Sistem Transmisi Desa Disorot",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeC1FeXdvUTJLTzRzREJLQVJ6Y2p1YkFlZXpyM1ZLVUxFRFZybUgwOTJXaHZJbV9OWTZTOXZHZ2ZnZ3FUTUZXQkI5S3loR0dBdW1WRHZYdDYzdHZkYzFham5LelNseVdZaXMyR0VyTk5CV0FZbmJFWF96WWJaNTd1aGFFdUtFc0hLeU5mRHdZRjdyWFNFUVZfRko4M2pMOV9lWk5KNG5mcUxUYzFwUzdZS3MwWHAwNWs?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-24T06:00:00.000Z"
+    },
+    {
+      "title": "PT DSI Bakal Terapkan Biaya Tata Kelola Ekspor",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8633146/pt-dsi-bakal-terapkan-biaya-tata-kelola-ekspor",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-24T13:17:44.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BP BUMN akui restrukturisasi BUMN Karya belum punya jadwal pasti; Kompas petakan akar hambatan",
+      "occurrences": 6,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-24",
+      "status": "recurring",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "110 proyek panas bumi 5,1 GW terkuantifikasi; mayoritas dikembangkan swasta",
+      "occurrences": 6,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-24",
+      "status": "recurring",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI formalisasi Zero Data Retention dan Private Safety Processing untuk API frontier",
+      "occurrences": 5,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-24",
+      "status": "recurring",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Nvidia–Cloverleaf: vendor AI kembali ambil posisi ekuitas infrastruktur pusat data",
+      "occurrences": 4,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-24",
+      "status": "recurring",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN implementasi co-firing di PLTU Tidore; sinyal transisi energi berbasis campuran bahan bakar",
+      "occurrences": 3,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-24",
+      "status": "recurring",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 386,
+    "poolSize": 110,
+    "generatedAt": "2026-08-24T23:19:46.900Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
