@@ -2,37 +2,75 @@
   "slug": "2026-08-26",
   "date": "2026-08-26",
   "lang": "id",
-  "title": "Jalapeño, PLTS 100 GWp, dan Biaya Rp 100 T Restrukturisasi BUMN Karya",
-  "dek": "Tiga pergeseran struktural terjadi serentak: OpenAI kuasai lapisan chip, Indonesia formal-luncurkan agenda surya terbesar di dunia, dan Danantara menghadapi tagihan restrukturisasi yang bisa mencapai Rp 100 triliun.",
+  "title": "PLTS 100 GWp Diluncurkan; OpenAI Umumkan Chip Jalapeño; Danantara Estimasi Biaya Rp 100 T",
+  "dek": "Tiga pengumuman besar hari ini menguji eksekusi: target surya ambisius tanpa perpres final, chip inferensi proprietary yang mengancam rantai nilai GPU, dan biaya restrukturisasi BUMN yang kini punya angka.",
   "domains": [
-    "ai",
     "energy",
+    "ai",
     "corporate"
   ],
-  "summary": "Hari ini OpenAI mengumumkan chip inferensi proprietary 'Jalapeño', menandai pergeseran strategi dari konsumen GPU pihak ketiga menjadi produsen silikon sendiri — sebuah langkah yang mengubah peta biaya AI secara fundamental. Di sisi energi, Presiden Prabowo meluncurkan program PLTS 100 GWp di Bali dengan target tiga tahun, namun IESR dan Kementerian ESDM sendiri mengakui bahwa perpres pendukung belum terbit dan transmisi belum siap — ini melanjutkan benang pln-transmisi-investasi yang sudah 4x berulang di arsip. Pada domain korporasi, investor.id melaporkan estimasi biaya restrukturisasi BUMN Karya oleh Danantara dapat mencapai Rp 100 triliun, sementara BP BUMN menyatakan target selesai akhir 2026 — ketegangan antara ambisi dan kapasitas fiskal Danantara semakin tajam. Melengkapi gambar AI, OpenAI juga membongkar tumpukan chip-compute-model-produk dalam pernyataan CFO Sarah Friar, mengkonfirmasi bahwa Jalapeño adalah komponen integral strategi 'abundant intelligence' bukan sekadar proyek riset. Terakhir, The Guardian mengonfirmasi bahwa AS sedang membangun kapasitas gas dua kali lebih besar dari China untuk merespons lonjakan permintaan daya AI — sinyal bahwa taruhan energi-AI kini bersifat geopolitik.",
+  "summary": "Presiden Prabowo secara resmi meluncurkan program PLTS 100 GWp di Bali dengan 14 proyek pertama senilai Rp 135 triliun, namun IESR memperingatkan bahwa tanpa transmisi dan perpres yang segera, groundbreaking ini berisiko tidak berlanjut ke eksekusi. Di sisi AI, OpenAI mengungkap chip inferensi proprietary Jalapeño yang mengklaim kinerja dan efisiensi daya di atas standar industri—sinyal bahwa integrasi vertikal komputasi AI semakin dalam. Danantara kini menghadapi estimasi biaya restrukturisasi BUMN Karya hingga Rp 100 triliun, sementara BP BUMN dan Danantara menyiapkan sistem SDM terintegrasi sebagai fondasi tata kelola pasca-konsolidasi. Di Amerika Serikat, analisis menunjukkan kapasitas gas baru untuk mendukung pusat data AI tumbuh dua kali lipat China, menegaskan tekanan energi-AI sebagai variabel permanen. Kelima sinyal ini bermuara pada satu implikasi: ambisi besar—baik di energi, AI, maupun korporasi negara—semakin membutuhkan kerangka pembiayaan dan kelembagaan, bukan sekadar pengumuman.",
   "signals": [
     {
       "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Presiden Prabowo",
+        "IESR",
+        "PLN"
+      ],
+      "headline": "PLTS 100 GWp resmi diluncurkan Presiden Prabowo: 14 proyek pertama, Rp 135 T investasi, target hemat APBN Rp 4,6 T/tahun—tapi perpres belum ada dan transmisi belum siap",
+      "whatChanged": "Pada 25 Agustus 2026 di Bali, Presiden Prabowo secara resmi meluncurkan Program PLTS 100 GWp sekaligus groundbreaking 14 proyek PLTS berkapasitas 5,3 GWp dengan total investasi Rp 135 triliun. Pemerintah menargetkan penghematan APBN Rp 4,6 triliun per tahun dan melarang impor minyak sebagai narasi energi mandiri. PLTS 1 GWp di Bali diklaim akan mengeliminasi diesel dari pulau tersebut. Pemerintah menyatakan sedang menyiapkan Perpres untuk program ini.",
+      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang telah 4x muncul sejak 22 Agustus: setiap kali target 100 GWp diumumkan, IESR dan IEEFA konsisten menunjukkan bahwa sistem transmisi desa dan jaringan distribusi belum siap menyerap kapasitas sebesar ini. IESR secara eksplisit menyebut peluncuran ini harus menjadi 'titik awal eksekusi cepat dan terukur', mengisyaratkan bahwa tanpa tindak lanjut kelembagaan, momentum bisa hilang. Secara akumulatif, pola ini menunjukkan gap antara pengumuman politik dan kapasitas eksekusi teknis yang belum tertutup.",
+      "secondOrder": "Perpres yang belum terbit berarti skema tarif, jaminan offtake PLN, dan mekanisme pembiayaan proyek-proyek berikutnya masih abu-abu. Investor EPC dan lender yang sudah hadir di groundbreaking akan menunggu kepastian regulasi sebelum mengunci komitmen finansial—artinya pipa proyek fase 2 dan 3 berisiko tertahan meski fase 1 sudah dimulai. Di sisi lain, target eliminasi diesel di Bali membuka preseden: jika berhasil, model ini bisa dipaksakan ke pulau-pulau lain dengan kesiapan transmisi yang jauh lebih rendah dari Bali.",
+      "action": "Pantau penerbitan Perpres PLTS 100 GWp: ini adalah dokumen penentu apakah skema tarif dan jaminan PLN cukup bankable. Ajukan pertanyaan kepada PLN mengenai rencana investasi transmisi per regional yang mendukung 5,3 GWp fase pertama—angka Rp 135 triliun belum mencakup biaya grid.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU0R1akdBZEl2S0ppTk5WRjVvSHN0UWQwMW93YmVqWGFKUk1fWXJiTVM2MmhKWG51eTZ2TmF6b3lGS3pmYklZVU16Vy02TGUwMnFNNDZEZHVmQzQ2dWRPSHF5VnlfbnhsSHVFakFFMnZIS3g5dlFDWTkxMHYxXzRaNFRoX0ZrS2R5RndoSlRzY2w?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVXRDTUZ2VDN3Umt4dURhWXlrdGRnaHRnN3ZuSWh5NHpCcWNDYXFkQnN1ai1qNjluTVh0YWN3dERLa1FMWGxQWjRJTlZuZ0lGZW5nMHRGSi0xR1FINEpZelZGWkRkT3BYZVNrT0xOMTh3Y0tpQm0zWk1ma1Vxd2tOQUVWZGM1MzhXOFNZcnBPM1VTRVR6NFByMDJsanpMajZvd1pnc2ZzbXJTdDRhMjZj0gGyAUFVX3lxTE4zOG5adF9zelU3TWV3eUpaQ0hxNjZsT0hmSTZvM3VMWEpCTDdEZ3RMWjVjUGRnSVpEQVl0bXB4LWNDRndySGlHZmVnLUhvV3l5VmxCdUdqRkFiTUtuZUNnUHp5ZWlVWUdGdEQ5amlIeThCbDFIVEppS3FxSjViNXRXaldYT0puT2otTzl3UjRsaU51TlhxdVlTTUZRMy1oOVpCVmM0aHg2eFdlOTh0RHFUWUE?oc=5",
+        "https://katadata.co.id/berita/energi/6a8d7b860157a/14-plts-dibangun-target-hemat-apbn-rp-4-6-triliun-tiap-tahun"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 6,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "recurring",
+        "occurrences": 5,
+        "firstSeen": "2026-08-22",
+        "spanDays": 4
+      }
+    },
+    {
+      "rank": 2,
       "domain": "ai",
       "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
         "OpenAI",
         "Jalapeño",
         "Nvidia",
-        "Sarah Friar"
+        "NeutraDC",
+        "PLN"
       ],
-      "headline": "OpenAI luncurkan chip inferensi proprietary 'Jalapeño': lebih cepat, lebih efisien, throughput lebih tinggi",
-      "whatChanged": "OpenAI secara resmi mengumumkan Jalapeño, chip inferensi custom-nya, dengan klaim performa industry-leading pada kecepatan, efisiensi daya, throughput, dan latensi untuk model modern. CFO Sarah Friar dalam pernyataan terpisah hari yang sama menjelaskan bahwa chip, compute, model, dan produk kini bersenyawa dalam satu tumpukan untuk menghadirkan 'abundant intelligence' di skala dan biaya yang turun.",
-      "whyItMatters": "OpenAI selama ini bergantung sepenuhnya pada GPU Nvidia untuk inferensi skala besar. Dengan Jalapeño, OpenAI memutus ketergantungan itu di lapisan paling mahal dari rantai nilai AI — inferensi, bukan pelatihan. Ini bukan sekadar penghematan biaya: ia mengubah OpenAI dari pelanggan infrastruktur menjadi pesaing vertikal bagi Nvidia, Google TPU, dan AWS Trainium sekaligus.",
-      "secondOrder": "Vendor AI lain yang masih bergantung pada Nvidia akan menghadapi tekanan margin ganda: biaya GPU tetap tinggi sementara OpenAI dapat menurunkan harga API karena biaya inferensinya turun. Ini bisa memaksa konsolidasi di antara startup AI midsize yang tidak mampu membangun silikon sendiri. Di sisi permintaan energi, chip yang lebih efisien belum tentu mengurangi konsumsi daya total — efek Jevons berlaku: kapasitas lebih murah mendorong permintaan lebih besar, mengkonfirmasi tekanan daya AI yang dilaporkan The Guardian.",
-      "action": "Tinjau ulang asumsi biaya inferensi dalam model bisnis produk AI yang menggunakan OpenAI API: jika Jalapeño menurunkan biaya per token OpenAI, negosiasi ulang kontrak volume atau evaluasi apakah margin produk berbasis API perlu direvisi ke bawah untuk kompetitif.",
+      "headline": "OpenAI umumkan chip inferensi proprietary Jalapeño: klaim throughput dan efisiensi daya terdepan di industri",
+      "whatChanged": "OpenAI mempublikasikan hasil awal chip inferensi custom bernama Jalapeño pada 25 Agustus 2026, mengklaim kecepatan inferensi lebih tinggi dan konsumsi daya lebih rendah dibanding standar industri saat ini untuk model-model modern. Chip ini dirancang khusus untuk AI inference, bukan training.",
+      "whyItMatters": "OpenAI—selama ini bergantung pada GPU Nvidia dan infrastruktur Microsoft Azure—kini bergerak ke integrasi vertikal komputasi, menyusul langkah serupa Google (TPU) dan Amazon (Trainium/Inferentia). Kombinasi chip proprietary dengan pengumuman CFO Sarah Friar tentang 'full stack abundant intelligence' [16] mengonfirmasi strategi: OpenAI tidak ingin biaya inferensi menjadi hambatan pertumbuhan yang dikendalikan pihak ketiga. Ini melanjutkan tema nuclear-ai-datacenter-power: permintaan komputasi AI terus naik, dan pemain frontier kini mengambil kendali lapisan daya-komputasi.",
+      "secondOrder": "Jika Jalapeño terbukti di skala produksi, Nvidia kehilangan satu pembeli terbesar di segmen inferensi—segmen yang selama ini paling cepat tumbuh pasca-training. Bagi operator pusat data yang menyediakan layanan GPU-as-a-service, margin mereka terancam karena hyperscaler AI akan semakin menggunakan silikon sendiri. Untuk Indonesia, ini relevan: NeutraDC dan mitra PLN yang merencanakan ekspansi data center 200 MW [59] perlu mempertanyakan apakah model pembiayaan GPU-rental yang mereka asumsikan masih valid dalam 3-5 tahun.",
+      "action": "Tinjau asumsi teknologi dalam proposal data center AI di Indonesia: jika OpenAI dan Google bergerak ke silikon proprietary, infrastruktur yang dibangun di sekitar GPU Nvidia generasi saat ini memiliki risiko obsolescence lebih cepat. Pertanyaan konkret untuk diajukan kepada NeutraDC dan PLN: apakah perjanjian 200 MW mencakup klausul teknologi-agnostik?",
       "strength": "material",
       "sourceUrls": [
         "https://openai.com/index/jalapeno-first-results",
         "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
       ],
       "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYTJjQWtwZl96QnZuLWJWUHRSVmVEekpxWk9KR083cm84QUFaX3h3VVNMWE54SkZjSUVtSnh0Wi1XOTJxQVJZMUFtaTNuTXhyZnVqV2hNXzk1d2JCMWhKbE16WnR5Tk1CdWpCXzIzd0p1Q0tsZEcwYjVkNU0zVVNxU0dVSnBJS0k?oc=5"
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
       ],
       "corroboration": {
         "publishers": 1,
@@ -47,64 +85,32 @@
       }
     },
     {
-      "rank": 2,
-      "domain": "energy",
-      "themeKey": "pln-transmisi-investasi",
-      "entities": [
-        "Kementerian ESDM",
-        "IESR",
-        "Danantara",
-        "PLN"
-      ],
-      "headline": "Prabowo groundbreaking PLTS 100 GWp di Bali; perpres belum terbit, transmisi belum siap",
-      "whatChanged": "Pada 25 Agustus 2026, Presiden Prabowo secara resmi meluncurkan dan melakukan groundbreaking program PLTS 100 GWp di Bali dengan target penyelesaian tiga tahun. Menteri ESDM Bahlil menyatakan tujuh PLTS akan ditawarkan ke swasta melalui tender kompetitif, dengan Danantara sebagai penyerap jika swasta tidak berminat. IESR mencatat bahwa perpres pendukung belum terbit dan sistem transmisi desa belum siap, sehingga groundbreaking ini hanya bermakna bila diikuti eksekusi cepat dan terukur. Kementerian ESDM menyatakan PLTS 1 GWp di Bali akan mengeliminasi diesel.",
-      "whyItMatters": "Ini melanjutkan benang pln-transmisi-investasi (4x di arsip). Akumulasi sinyal menunjukkan pola berulang: ambisi kapasitas pembangkit dideklarasikan tanpa infrastruktur transmisi yang setara. Program 100 GWp adalah terbesar yang pernah diumumkan Indonesia dan secara langsung menguji apakah pola ini akhirnya diputus. Dengan Danantara sebagai backstop investor, risiko fiskal program ini bermigrasi dari APBN ke neraca sovereign wealth fund.",
-      "secondOrder": "Mekanisme Danantara-sebagai-penyerap-last-resort mengubah profil risiko PLTS Indonesia: proyek yang tidak komersial bagi swasta akan masuk ke neraca Danantara, menciptakan potensi akumulasi aset bermasalah energi di atas beban restrukturisasi BUMN Karya yang sudah ada. Perpres yang belum terbit juga menciptakan ketidakpastian regulasi yang dapat menghambat minat investor swasta asing pada tahap tender awal.",
-      "action": "Pantau penerbitan perpres PLTS 100 GWp — ini adalah gating item: tanpa perpres, tender tidak bisa diumumkan secara mengikat. Jadwalkan review terhadap kapasitas transmisi Bali dan Jawa-Bali interconnect sebelum berkomitmen pada proyek PLTS skala besar di wilayah tersebut.",
-      "strength": "actionable",
-      "sourceUrls": [
-        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
-        "https://finance.detik.com/energi/d-8634181/bahlil-bakal-tawarkan-7-plts-ke-swasta-danantara-ambil-alih-jika-tak-laku",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU0R1akdBZEl2S0ppTk5WRjVvSHN0UWQwMW93YmVqWGFKUk1fWXJiTVM2MmhKWG51eTZ2TmF6b3lGS3pmYklZVU16Vy02TGUwMnFNNDZEZHVmQzQ2dWRPSHF5VnlfbnhsSHVFakFFMnZIS3g5dlFDWTkxMHYxXzRaNFRoX0ZrS2R5RndoSlRzY2w?oc=5",
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVXRDTUZ2VDN3Umt4dURhWXlrdGRnaHRnN3ZuSWh5NHpCcWNDYXFkQnN1ai1qNjluTVh0YWN3dERLa1FMWGxQWjRJTlZuZ0lGZW5nMHRGSi0xR1FINEpZelZGWkRkT3BYZVNrT0xOMTh3Y0tpQm0zWk1ma1Vxd2tOQUVWZGM1MzhXOFNZcnBPM1VTRVR6NFByMDJsanpMajZvd1pnc2ZzbXJTdDRhMjZj0gGyAUFVX3lxTE4zOG5adF9zelU3TWV3eUpaQ0hxNjZsT0hmSTZvM3VMWEpCTDdEZ3RMWjVjUGRnSVpEQVl0bXB4LWNDRndySGlHZmVnLUhvV3l5VmxCdUdqRkFiTUtuZUNnUHp5ZWlVWUdGdEQ5amlIeThCbDFIVEppS3FxSjViNXRXaldYT0puT2otTzl3UjRsaU51TlhxdVlTTUZRMy1oOVpCVmM0aHg2eFdlOTh0RHFUWUE?oc=5"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 5,
-        "hasPrimary": true
-      },
-      "trend": {
-        "themeKey": "pln-transmisi-investasi",
-        "status": "recurring",
-        "occurrences": 5,
-        "firstSeen": "2026-08-22",
-        "spanDays": 4
-      }
-    },
-    {
       "rank": 3,
       "domain": "corporate",
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
         "Danantara",
+        "BP BUMN",
         "BUMN Karya",
-        "BP BUMN"
+        "Danantara Investment Management",
+        "OJK"
       ],
-      "headline": "Estimasi biaya restrukturisasi BUMN Karya oleh Danantara capai Rp 100 triliun",
-      "whatChanged": "investor.id melaporkan bahwa Danantara berpotensi menanggung biaya hingga Rp 100 triliun untuk membersihkan BUMN Karya. BP BUMN sebelumnya menyatakan restrukturisasi diupayakan selesai akhir 2026. Bloomberg Technoz mengonfirmasi target akhir 2026. BP BUMN-Danantara juga sedang menyiapkan sistem SDM terintegrasi sebagai bagian dari konsolidasi kelembagaan.",
-      "whyItMatters": "Ini melanjutkan benang danantara-bumn-karya-restructuring (7x di arsip, recurring). Angka Rp 100 triliun adalah estimasi biaya pertama yang secara eksplisit dikuantifikasi dari sumber finansial — sebelumnya diskusi bersifat proses dan timeline. Dengan Danantara juga berperan sebagai backstop PLTS 100 GWp, total eksposur potensial neraca Danantara dalam 12 bulan ke depan menjadi sangat material terhadap kapasitas pinjaman dan rating sovereign Indonesia.",
-      "secondOrder": "Jika Rp 100 triliun restrukturisasi BUMN Karya terbukti akurat, ini setara dengan sebagian besar modal awal Danantara yang dilaporkan. Kombinasi dengan peran backstop energi surya dapat memaksa Danantara memprioritaskan sumber pendanaan eksternal — obligasi dolar atau Panda Bond yang sudah disinggung di arsip — dengan implikasi biaya bunga dan covenant yang membatasi fleksibilitas strategis.",
-      "action": "Minta klarifikasi metodologi di balik angka Rp 100 triliun: apakah mencakup rekapitalisasi, penghapusan utang, atau biaya operasional transisi? Bedakan tiga skenario (bail-in, merger, likuidasi parsial) untuk menilai mana yang paling mungkin dan dampaknya pada BUMN Karya mana secara spesifik.",
-      "strength": "emerging",
+      "headline": "Danantara estimasi biaya bersihkan BUMN Karya hingga Rp 100 triliun; BP BUMN-Danantara siapkan sistem SDM terintegrasi",
+      "whatChanged": "investor.id melaporkan Danantara berpotensi mencatat biaya hingga Rp 100 triliun untuk restrukturisasi BUMN Karya dan entitas terkait. Secara bersamaan, BP BUMN dan Danantara mengumumkan persiapan sistem SDM terintegrasi sebagai infrastruktur tata kelola pasca-konsolidasi. Bos BP BUMN sebelumnya menyatakan restrukturisasi diupayakan selesai akhir 2026 [103].",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring yang sudah 7x muncul sejak 19 Agustus—tema ini kini bertransisi dari 'kapan selesai' ke 'berapa biayanya'. Angka Rp 100 triliun adalah estimasi material pertama yang muncul di ruang publik, mengubah diskusi dari wacana proses menjadi kalkulasi fiskal. Dengan Danantara juga aktif berekspansi ke Mekah, Filipina, dan mengelola obligasi dolar, kapasitas absorpsi biaya restrukturisasi ini perlu dibandingkan dengan neraca konsolidasi.",
+      "secondOrder": "Biaya Rp 100 triliun yang ditanggung Danantara berimplikasi pada rating kredit obligasi Danantara yang sedang dibangun—termasuk Patriot Bond yang terdaftar di OJK [83] dan dollar bond senilai USD 1 miliar [106]. Investor obligasi yang belum memperhitungkan beban restrukturisasi ini perlu melakukan repricing risiko. Di sisi lain, sistem SDM terintegrasi BP BUMN-Danantara mengisyaratkan konsolidasi kewenangan SDM yang jika berhasil akan menjadi instrumen kontrol tata kelola paling efektif—namun jika gagal dieksekusi, akan menjadi sumber konflik yuridis dengan BUMN yang masih go-public.",
+      "action": "Analisis struktur neraca Danantara Investment Management: bandingkan estimasi biaya restrukturisasi Rp 100 triliun dengan aset yang dikelola dan arus kas proyeksi, lalu nilai apakah Patriot Bond dan dollar bond memiliki covenant yang cukup untuk melindungi investor dari beban ini. Periksa apakah prospektus obligasi mengungkapkan liabilitas kontinjensi restrukturisasi.",
+      "strength": "actionable",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbG5ZVUk1Rmt6bXZKMUF4Y3VLZkdYX09wYk5obXgwbjRTS3FxTFVoem1sSUtzUjNkVXRLTEJYdnBZVTVsNnJSYUMyeDNsQnFhb2xEOExnU1VETERfUXNVTThTVl9BQ1liMHpvSm5EeGx4VTI3UTdxNFZ1dWVuRGZ5VUJsUXRSNGNHZlN0bDgtMExfaXlzMW1ULTlHMA?oc=5",
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxNenZHUlJjaHNtY2gzbFRlUS1XRldLd0xmUWl4d2F3aFFLYXdOUHZrb3JUdnA1RVNpRlBLUUNYRFhiVlZ6RXFFR0k2U1A1bG1wUUNycklsbVBteFl1R0toYlVkRGFvbjltRWp4a2ZmOGt4SVUyR1hGdndxUHpqVlJnY2FpS1FGWjJMQmZ3cjNaejZsWWVZ?oc=5",
         "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxNenZHUlJjaHNtY2gzbFRlUS1XRldLd0xmUWl4d2F3aFFLYXdOUHZrb3JUdnA1RVNpRlBLUUNYRFhiVlZ6RXFFR0k2U1A1bG1wUUNycklsbVBteFl1R0toYlVkRGFvbjltRWp4a2ZmOGt4SVUyR1hGdndxUHpqVlJnY2FpS1FGWjJMQmZ3cjNaejZsWWVZ?oc=5"
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEF5WnpkOUZYQTREb0hzcjgwTXA0Y05iaThOQklNVEJnYXpOeHI1NVJLcW5UemRvUEFKZUszNk9ueXlnb1hZc1FlRVBKOWxvTWd3V1N3SWpJUGI4Y29qd1V2WFBrZG42RWpZNTdieWJTaVRyRzVCQzlQNnd3dEZ0RlpYTG1nb0xDRm5jSnRJbVlVZzBHR1FvbWVFcEtzN3IzNVJYSNIBnwFBVV95cUxQTWZBWDd4QjR0VDU0c01wWktBUFI2bjZzcjFKYUZPRmt5UWtTcDBJcXBRamRoSU5MNnpJejhqQW5DbXROQkhBSFd3eWViOXUzT0tIelUtNUR0YllXcjNUV1FCOTZYcl9IWWVJVGZUM1FVdDhYcGthWU1kUHFmRjBYZXU3aDJTTWczUFRDcXBPVTNIdHRkc3pkX3h0QkQ0X3c?oc=5"
+      ],
       "corroboration": {
         "publishers": 4,
         "hasPrimary": false
@@ -119,49 +125,18 @@
     },
     {
       "rank": 4,
-      "domain": "ai",
-      "themeKey": "enterprise-ai-data-privacy-contracts",
-      "entities": [
-        "The Guardian",
-        "Jalapeño"
-      ],
-      "headline": "AS bangun kapasitas gas dua kali lebih besar dari China untuk merespons lonjakan permintaan daya AI",
-      "whatChanged": "The Guardian melaporkan, mengutip analisis terbaru, bahwa AS sedang membangun kapasitas pembangkit gas baru dua kali lebih besar dari China — didorong oleh kebutuhan daya pusat data AI yang melonjak. Ini terjadi bersamaan dengan peluncuran Jalapeño yang diklaim lebih hemat energi, namun efisiensi per chip tidak mengurangi total konsumsi sistem.",
-      "whyItMatters": "Ini melanjutkan benang nuclear-ai-datacenter-power (5x di arsip). Pola yang terbentuk: kebutuhan daya AI bukan sekadar masalah teknis atau bisnis — ia kini mendefinisikan ulang kebijakan energi nasional dan kompetisi geopolitik antara AS dan China. Negara yang lebih cepat mengamankan kapasitas daya baseload untuk AI akan memiliki keunggulan komputasi jangka panjang.",
-      "secondOrder": "Indonesia, yang sedang mendorong 100 GWp PLTS dalam tiga tahun, berisiko menjadi eksportir energi terbarukan de facto bagi pusat data multinasional alih-alih menggunakannya untuk industri domestik — kecuali ada kebijakan alokasi eksplisit. Di sisi lain, lonjakan gas AS membuka peluang ekspor LNG Indonesia ke pasar AI-adjacent yang lebih besar.",
-      "action": "Evaluasi apakah peta jalan PLTS 100 GWp Indonesia mencakup alokasi daya eksplisit untuk pusat data AI domestik versus ekspor; jika tidak, rekomendasikan penambahan klausul alokasi dalam perpres yang sedang disiapkan.",
-      "strength": "emerging",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYTJjQWtwZl96QnZuLWJWUHRSVmVEekpxWk9KR083cm84QUFaX3h3VVNMWE54SkZjSUVtSnh0Wi1XOTJxQVJZMUFtaTNuTXhyZnVqV2hNXzk1d2JCMWhKbE16WnR5Tk1CdWpCXzIzd0p1Q0tsZEcwYjVkNU0zVVNxU0dVSnBJS0k?oc=5",
-        "https://openai.com/index/jalapeno-first-results"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 2,
-        "hasPrimary": true
-      },
-      "trend": {
-        "themeKey": "enterprise-ai-data-privacy-contracts",
-        "status": "recurring",
-        "occurrences": 7,
-        "firstSeen": "2026-08-20",
-        "spanDays": 6
-      }
-    },
-    {
-      "rank": 5,
       "domain": "energy",
       "themeKey": "pln-grid-investment",
       "entities": [
         "IESR",
         "PLN"
       ],
-      "headline": "IESR: Insentif motor listrik Rp 3 juta di bawah ambang efektif, berisiko gagalkan transisi EV nasional",
-      "whatChanged": "IESR pada 24 Agustus 2026 menyatakan secara eksplisit bahwa insentif pembelian motor listrik sebesar Rp 3 juta per unit — turun dari rencana awal Rp 5 juta — berada di bawah ambang batas yang diperlukan untuk mendorong adopsi massal. Anggaran yang dialokasikan juga disebutkan lebih rendah dari target program.",
-      "whyItMatters": "Ini melanjutkan benang pln-grid-investment (3x di arsip). Pola akumulatif menunjukkan bahwa program elektrifikasi transportasi Indonesia secara konsisten didesain dengan anggaran di bawah titik kritis efektivitas — mirip dengan pola transmisi listrik yang dideklarasikan namun tidak dianggarkan cukup. Jika motor listrik gagal terdifusi, permintaan puncak jaringan listrik tidak akan terbentuk secara merata, mempersulit justifikasi investasi grid PLN.",
-      "secondOrder": "Kegagalan program motor listrik mengurangi argumen fiskal untuk investasi infrastruktur pengisian (SPKLU) yang sudah minim. Ini menciptakan lingkaran mundur: tanpa insentif cukup → adopsi rendah → SPKLU tidak terbangun → adopsi tetap rendah. Dalam konteks PLTS 100 GWp, rendahnya permintaan EV berarti penyerapan listrik surya di sisi hilir tetap terbatas, memperburuk problem curtailment.",
-      "action": "Bandingkan besaran insentif Rp 3 juta terhadap data elastisitas permintaan motor listrik di pasar ASEAN (Thailand, Vietnam) untuk mengkuantifikasi berapa selisih yang dibutuhkan agar program mencapai target adopsi; gunakan ini sebagai dasar advokasi revisi anggaran sebelum APBN 2027 dikunci.",
-      "strength": "actionable",
+      "headline": "IESR: Insentif motor listrik Rp 3 juta di bawah ambang efektif, berisiko gagalkan transisi kendaraan roda dua",
+      "whatChanged": "IESR mempublikasikan analisis pada 24 Agustus 2026 bahwa pemerintah menetapkan insentif pembelian motor listrik Rp 3 juta per unit—lebih rendah dari rencana awal Rp 5 juta—dengan total anggaran yang tidak disebutkan secara spesifik. IESR menilai angka Rp 3 juta berada di bawah ambang batas yang diperlukan untuk mendorong keputusan pembelian konsumen secara masif.",
+      "whyItMatters": "Ini melanjutkan tema pln-grid-investment yang muncul 3x sejak 22 Agustus. Secara akumulatif: Indonesia mengejar dua target transisi energi serentak—PLTS 100 GWp di sisi pembangkitan dan elektrifikasi kendaraan di sisi konsumsi—namun desain insentif di sisi demand tidak cukup kuat. Kegagalan adopsi motor listrik berarti proyeksi pertumbuhan beban PLN dari segmen kendaraan tidak terwujud, yang pada gilirannya memperlemah business case untuk investasi grid yang lebih dalam.",
+      "secondOrder": "Jika penetrasi motor listrik melambat akibat insentif yang tidak efektif, PLN kehilangan beban puncak yang terdistribusi—justru jenis beban yang paling mudah diintegrasikan dengan PLTS atap dan smart grid. Ini menciptakan lingkaran: grid tidak diinvestasikan karena permintaan rendah, permintaan tetap rendah karena adopsi EV gagal, dan PLTS 100 GWp akhirnya kelebihan produksi tanpa penyerap fleksibel. Bagi produsen motor listrik lokal yang bergantung pada program insentif pemerintah, revisi anggaran ke bawah dari Rp 5 juta ke Rp 3 juta adalah sinyal bahwa komitmen fiskal pemerintah untuk transisi kendaraan bisa berubah lagi.",
+      "action": "Minta IESR atau IEEFA merilis model sensitivitas: pada insentif berapa rupiah per unit, adopsi motor listrik mencapai ambang batas yang membuat investasi grid smart charging ekonomis? Angka ini penting untuk negosiasi anggaran berikutnya dan untuk PLN dalam merencanakan infrastruktur pengisian daya.",
+      "strength": "material",
       "sourceUrls": [
         "https://iesr.or.id/iesr-besaran-insentif-menentukan-keberhasilan-peralihan-motor-bbm-ke-motor-listrik/"
       ],
@@ -177,24 +152,53 @@
         "firstSeen": "2026-08-22",
         "spanDays": 4
       }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "The Guardian"
+      ],
+      "headline": "Analisis: AS bangun kapasitas gas untuk AI dua kali lebih besar dari China, memperdalam ketergantungan energi-AI",
+      "whatChanged": "The Guardian melaporkan analisis yang menemukan Amerika Serikat sedang membangun kapasitas pembangkit gas baru untuk mendukung pusat data AI pada laju dua kali lipat China. Ini merupakan konfirmasi kuantitatif dari tren yang sebelumnya hanya bersifat direktional.",
+      "whyItMatters": "Ini melanjutkan tema nuclear-ai-datacenter-power yang sudah 5x muncul sejak 20 Agustus. Secara akumulatif, tema ini kini memasuki fase 'structural': bukan lagi pertanyaan apakah AI akan mendorong lonjakan permintaan listrik, melainkan seberapa dalam ketergantungan fossil fuel dalam rantai nilai AI yang diklaim sebagai teknologi masa depan. Paradoks ini memiliki implikasi geopolitik—negara yang mengklaim kepemimpinan AI sambil membangun gas baru memberi justifikasi bagi ekonomi berkembang untuk tidak terburu-buru mengakhiri bahan bakar fosil.",
+      "secondOrder": "Bagi Indonesia, data ini memberikan narasi diplomatik: jika AS—pemimpin AI global—masih membangun gas untuk data center, Indonesia memiliki ruang argumen untuk memperlambat phase-out batu bara di sektor captive power yang mendukung digitalisasi. Ini bisa dieksploitasi oleh kepentingan industri untuk menunda dekarbonisasi industrial, bahkan sementara PLTS 100 GWp diluncurkan untuk grid publik.",
+      "action": "Dalam diskusi kebijakan energi-AI Indonesia minggu ini, waspadai penggunaan data AS-China ini sebagai justifikasi mempertahankan pembangkit batu bara captive di kawasan industri digital. Siapkan counter-argument berbasis data: biaya PLTS+BESS untuk beban data center sudah kompetitif dengan gas baru di sebagian besar lokasi Indonesia.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYTJjQWtwZl96QnZuLWJWUHRSVmVEekpxWk9KR083cm84QUFaX3h3VVNMWE54SkZjSUVtSnh0Wi1XOTJxQVJZMUFtaTNuTXhyZnVqV2hNXzk1d2JCMWhKbE16WnR5Tk1CdWpCXzIzd0p1Q0tsZEcwYjVkNU0zVVNxU0dVSnBJS0k?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "recurring",
+        "occurrences": 6,
+        "firstSeen": "2026-08-20",
+        "spanDays": 6
+      }
     }
   ],
   "watchNext": [
     {
-      "item": "Penerbitan Perpres PLTS 100 GWp: gating item untuk seluruh program — tanpa ini tender tidak mengikat dan target tiga tahun tidak realistis.",
+      "item": "Penerbitan Perpres PLTS 100 GWp: kepastian skema tarif, jaminan offtake PLN, dan mekanisme pembiayaan untuk proyek fase 2-3 bergantung pada dokumen ini.",
       "dueDate": "2026-09-30"
     },
     {
-      "item": "Pengumuman resmi spesifikasi dan roadmap produksi massal Jalapeño OpenAI: apakah akan dijual ke pihak ketiga atau hanya untuk internal — ini menentukan dampak kompetitif terhadap Nvidia dan vendor AI lain.",
+      "item": "Hasil uji skala produksi chip Jalapeño OpenAI: apakah klaim throughput dan efisiensi daya terkonfirmasi di deployment nyata, dan dampaknya pada pembelian GPU Nvidia.",
       "dueDate": "2026-10-31"
     },
     {
-      "item": "Hasil tender tujuh PLTS pertama yang ditawarkan Bahlil ke swasta: tingkat minat investor akan menjadi indikator nyata kelayakan komersial program 100 GWp.",
-      "dueDate": "2026-11-30"
+      "item": "Penyelesaian restrukturisasi BUMN Karya oleh Danantara: target akhir 2026 yang diumumkan Bloomberg Technoz perlu diverifikasi dengan milestone konkret dan mekanisme pendanaan Rp 100 T.",
+      "dueDate": "2026-12-31"
     },
     {
-      "item": "Laporan kemajuan restrukturisasi BUMN Karya dari Danantara menjelang target akhir 2026: apakah Rp 100 triliun dikonfirmasi atau direvisi, dan BUMN mana yang masuk kategori likuidasi.",
-      "dueDate": "2026-12-31"
+      "item": "Revisi besaran insentif motor listrik: apakah pemerintah akan menaikkan dari Rp 3 juta ke Rp 5 juta setelah evaluasi penyerapan kuartal ini.",
+      "dueDate": "2026-11-30"
     }
   ],
   "sources": [
@@ -241,14 +245,6 @@
       "publishedAt": "2026-08-25T15:38:31.000Z"
     },
     {
-      "title": "Bahlil Bakal Tawarkan 7 PLTS ke Swasta, Danantara Ambil Alih Jika Tak Laku",
-      "publisher": "detikFinance",
-      "url": "https://finance.detik.com/energi/d-8634181/bahlil-bakal-tawarkan-7-plts-ke-swasta-danantara-ambil-alih-jika-tak-laku",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-25T15:05:32.000Z"
-    },
-    {
       "title": "US building twice as much gas-fired capacity as China in AI boom, analysis finds",
       "publisher": "The Guardian",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYTJjQWtwZl96QnZuLWJWUHRSVmVEekpxWk9KR083cm84QUFaX3h3VVNMWE54SkZjSUVtSnh0Wi1XOTJxQVJZMUFtaTNuTXhyZnVqV2hNXzk1d2JCMWhKbE16WnR5Tk1CdWpCXzIzd0p1Q0tsZEcwYjVkNU0zVVNxU0dVSnBJS0k?oc=5",
@@ -293,6 +289,14 @@
       "publishedAt": "2026-08-25T14:27:20.000Z"
     },
     {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
       "title": "BP BUMN-Danantara Siapkan Sistem SDM Terintegrasi",
       "publisher": "Epaper Media Indonesia",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNenZHUlJjaHNtY2gzbFRlUS1XRldLd0xmUWl4d2F3aFFLYXdOUHZrb3JUdnA1RVNpRlBLUUNYRFhiVlZ6RXFFR0k2U1A1bG1wUUNycklsbVBteFl1R0toYlVkRGFvbjltRWp4a2ZmOGt4SVUyR1hGdndxUHpqVlJnY2FpS1FGWjJMQmZ3cjNaejZsWWVZ?oc=5",
@@ -311,6 +315,23 @@
       "publishedAt": "2026-08-25T15:12:32.000Z"
     },
     {
+      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T10:15:34.000Z"
+    },
+    {
+      "title": "Kata OJK soal Penerbitan Panda Bond dan Patriot Bond",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-01T08:07:27.000Z"
+    },
+    {
       "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
       "publisher": "Bloomberg Technoz",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
@@ -318,6 +339,23 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-08-18T11:22:29.000Z"
+    },
+    {
+      "title": "Indonesia's Danantara Launches Dollar Bond, Eyes $1 Billion, Sources Say",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEF5WnpkOUZYQTREb0hzcjgwTXA0Y05iaThOQklNVEJnYXpOeHI1NVJLcW5UemRvUEFKZUszNk9ueXlnb1hZc1FlRVBKOWxvTWd3V1N3SWpJUGI4Y29qd1V2WFBrZG42RWpZNTdieWJTaVRyRzVCQzlQNnd3dEZ0RlpYTG1nb0xDRm5jSnRJbVlVZzBHR1FvbWVFcEtzN3IzNVJYSNIBnwFBVV95cUxQTWZBWDd4QjR0VDU0c01wWktBUFI2bjZzcjFKYUZPRmt5UWtTcDBJcXBRamRoSU5MNnpJejhqQW5DbXROQkhBSFd3eWViOXUzT0tIelUtNUR0YllXcjNUV1FCOTZYcl9IWWVJVGZUM1FVdDhYcGthWU1kUHFmRjBYZXU3aDJTTWczUFRDcXBPVTNIdHRkc3pkX3h0QkQ0X3c?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-06-11T07:00:00.000Z"
+    },
+    {
+      "title": "14 PLTS Dibangun, Target Hemat APBN Rp 4,6 Triliun Tiap Tahun",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/berita/energi/6a8d7b860157a/14-plts-dibangun-target-hemat-apbn-rp-4-6-triliun-tiap-tahun",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-25T11:24:00.000Z"
     }
   ],
   "trends": [
@@ -373,9 +411,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 380,
+    "candidateCount": 369,
     "poolSize": 110,
-    "generatedAt": "2026-08-25T23:19:29.109Z",
+    "generatedAt": "2026-08-25T23:50:07.826Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
