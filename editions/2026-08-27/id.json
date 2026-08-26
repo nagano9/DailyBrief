@@ -2,14 +2,14 @@
   "slug": "2026-08-27",
   "date": "2026-08-27",
   "lang": "id",
-  "title": "Anthropic–Nscale $45 M; PLTS 100 GWp Butuh Eksekusi; BUMN Karya Belum Usai",
-  "dek": "Hari ini menegaskan tiga tekanan struktural sekaligus: biaya komputasi AI melonjak ke skala project-finance, agenda surya Indonesia memasuki fase uji eksekusi nyata, dan restrukturisasi BUMN Karya masih tanpa garis finis.",
+  "title": "Anthropic–Nscale $45 M; PLTS 100 GWp; Danantara–Indosat AI Hub",
+  "dek": "Tiga arus besar bertemu hari ini: belanja komputasi AI menembus skala project-finance, Indonesia mengikat target surya ambisius ke janji eksekusi tiga tahun, dan modal swasta-BUMN mulai mengisi kesenjangan infrastruktur AI dalam negeri.",
   "domains": [
     "ai",
     "energy",
     "corporate"
   ],
-  "summary": "Anthropic mengunci kontrak komputasi senilai $45 miliar dengan Nscale—angka yang menggeser AI dari belanja modal teknologi ke logika project finance. Di sisi energi, peluncuran PLTS 100 GWp oleh Presiden Prabowo disambut IESR dengan peringatan bahwa keberhasilan ditentukan oleh kecepatan eksekusi, bukan seremoni; sementara Spanyol mewajibkan 80% listrik pusat data dari EBT dengan pencocokan per jam, preseden regulasi yang relevan bagi Indonesia yang tengah membangun ekosistem AI-plus-data center. Di domain korporasi, rekonsiliasi antara Danantara dan BUMN Karya belum memiliki tenggat yang mengikat meski tekanan publik meningkat—dan Danantara kini mulai menyentuh proyek nyata seperti WtE Bekasi. Kelima sinyal ini bukan kejadian terpisah: semuanya bertumpu pada pertanyaan yang sama, yaitu apakah kapasitas eksekusi kelembagaan Indonesia sebanding dengan ambisi investasinya.",
+  "summary": "Anthropic meneken kontrak $45 miliar dengan Nscale untuk compute—bukan membeli GPU, melainkan menyewa kapasitas jangka panjang—menandai AI compute bergerak sepenuhnya ke logika project-finance. Di dalam negeri, Presiden Prabowo meresmikan PLTS 100 GWp dengan target tiga tahun dan Rp 135 T investasi; IESR segera mengingatkan bahwa eksekusi cepat dan terukur adalah tantangan sesungguhnya. Secara paralel, perusahaan Hashim Djojohadikusumo bersama Indosat mengumumkan investasi infrastruktur AI Rp 3,8 triliun—sinyal bahwa ekosistem AI Indonesia kini memerlukan pasokan listrik andal dalam skala besar, tepat ketika PLN EPI menghadapi ketidakpastian peran akibat rencana BLU batu bara dan gas. Kelima sinyal ini membentuk satu narasi: transisi energi dan ekspansi AI saling mengikat melalui kebutuhan listrik, pembiayaan, dan tata kelola.",
   "signals": [
     {
       "rank": 1,
@@ -21,11 +21,11 @@
         "Reuters",
         "Bloomberg"
       ],
-      "headline": "Anthropic kontrak $45 miliar dengan Nscale untuk komputasi AI—terbesar yang pernah tercatat",
-      "whatChanged": "Anthropic menandatangani perjanjian sewa daya komputasi dengan Nscale senilai $45 miliar, dikonfirmasi oleh Reuters dan Bloomberg. Ini adalah komitmen komputasi AI terbesar yang dilaporkan secara publik hingga saat ini dan menjadikan Nscale—operator pusat data asal Eropa—sebagai penyedia hiper-skala de facto untuk Anthropic.",
-      "whyItMatters": "Pada skala $45 miliar, kontrak ini tidak lagi berperilaku seperti pengadaan TI biasa; ia menuntut struktur pembiayaan, jaminan offtake, dan manajemen risiko kredit yang identik dengan project finance energi. Ini melanjutkan tema nuclear-ai-datacenter-power yang sudah enam kali muncul dalam arsip: implikasi akumulatifnya adalah bahwa kurva biaya komputasi AI tidak landai—ia melonjak secara eksponensial, mendorong lab-lab untuk mengunci kapasitas jangka panjang di luar neraca tradisional.",
-      "secondOrder": "Vendor komputasi seperti Nscale kini menjadi counterparty keuangan kelas infrastruktur, bukan sekadar pemasok layanan. Bank dan institusi pembiayaan yang selama ini menilai eksposur mereka ke AI lewat lensa ekuitas teknologi perlu merevisi kerangka risiko mereka menuju analisis proyek energi-dan-infrastruktur: siapa sponsornya, siapa offtaker-nya, di mana power purchase agreement-nya, dan bagaimana jaminan kredit distrukturkan. Bagi pasar Asia—termasuk Indonesia yang sedang membangun ekosistem data center—ini memberi template bahwa komitmen jangka panjang dari anchor tenant sekaliber Anthropic adalah syarat untuk membuka pembiayaan berskala besar.",
-      "action": "Gunakan kontrak Anthropic–Nscale sebagai studi kasus: petakan struktur Sponsor → Offtaker → EPC → Power → Grid → Lender → Guarantee untuk setiap proposal data center AI di pipeline. Identifikasi apakah anchor tenant lokal (misalnya Indosat, NeutraDC) memiliki komitmen yang cukup kuat untuk berfungsi sebagai offtaker yang bankable.",
+      "headline": "Anthropic kontrak $45 miliar dengan Nscale untuk compute jangka panjang",
+      "whatChanged": "Anthropic meneken kesepakatan senilai $45 miliar dengan Nscale—penyedia infrastruktur komputasi berbasis Eropa—untuk menyewa kapasitas AI computing dalam jangka panjang. Ini bukan pembelian GPU; ini adalah kontrak offtake compute skala utilitas, dikonfirmasi Reuters dan Bloomberg secara independen.",
+      "whyItMatters": "Kontrak $45 miliar setara dengan belanja modal pembangkit listrik skala besar. Pola ini—lab AI menjadi anchor tenant jangka panjang untuk infrastruktur compute pihak ketiga—mengkonfirmasi bahwa AI compute kini berstruktur seperti project finance: ada sponsor (Nscale), offtaker (Anthropic), dan kebutuhan pembiayaan utang besar. Ini melanjutkan tema nuclear-ai-datacenter-power yang telah terekam enam kali sejak 20 Agustus; akumulasi sinyalnya menunjukkan bahwa AS dan Eropa berlomba mengunci kapasitas compute sebelum pasokan energi menjadi bottleneck.",
+      "secondOrder": "Ketika lab AI mengunci compute melalui kontrak offtake jangka panjang, lenders dan rating agencies akan mulai menilai kelayakan kredit Nscale—dan peer-nya—menggunakan metrik power purchase agreement, bukan metrik SaaS. Ini akan menarik modal infrastruktur (pensiun, asuransi, sovereign wealth) ke pasar compute dan secara tidak langsung mendorong permintaan listrik terencana skala multi-GW di lokasi data center Nscale. Untuk Indonesia, ini menciptakan preseden: kontrak compute lokal yang dijamin offtaker tier-1 dapat menjadi instrumen pembiayaan infrastruktur digital.",
+      "action": "Nilai proposal data center domestik menggunakan kerangka Sponsor → Offtaker → EPC → Power → Grid → Lender → Guarantee. Pekan ini: petakan apakah kontrak Nscale–Anthropic mengungkapkan klausul power-guarantee atau minimum-uptime yang bisa dijadikan template untuk negosiasi NeutraDC–PLN dan Hashim–Indosat.",
       "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEZ0RVh4UE8tSXpXc3F4VXU2N0k1dk93YWNPMFNnQV9ucTU1bi0zZnJqTTJxNFpjTGczVmItNVhicEpTZmN3X2JySUlMZXo0c2RKcVQ3NkEzb0tGeHRKNXBFMWFqeXppMDF3ZVRjWjc5NTZqaUVRMm1adzFCOU96QzFGaGhYbm5PQ1RBc3lLcVpWbUZ1bDhwekV3X0NUQmpodW9iTUo1aFNJNkJhWHFPRE94Z3RIVzgzZEVycVpWbERvcVk?oc=5",
@@ -54,23 +54,24 @@
         "IESR",
         "Presiden Prabowo"
       ],
-      "headline": "IESR: PLTS 100 GWp harus jadi eksekusi terukur, bukan seremoni—risiko gagal tinggi",
-      "whatChanged": "Presiden Prabowo secara resmi meluncurkan Program PLTS 100 GWp di Bali pada 25 Agustus 2026, dengan 14 proyek pertama dan investasi Rp 135 triliun. IESR pada hari yang sama merilis pernyataan resmi yang mengapresiasi peluncuran namun secara eksplisit memperingatkan bahwa titik kritis adalah kecepatan dan keterukuran eksekusi, bukan besarnya angka yang diumumkan. Kementerian ESDM menyebut PLTS 1 GWp di Bali akan mengeliminasi diesel dari jaringan pulau itu.",
-      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang sudah lima kali muncul. Implikasi akumulatifnya: Indonesia kini memiliki program surya terbesar yang pernah diumumkan secara domestik, tetapi setiap sinyal sebelumnya menunjukkan bahwa bottleneck bukan di sisi kebijakan melainkan di sisi transmisi, perizinan, dan pembiayaan proyek-per-proyek. Konversi seremoni menjadi energi yang tersambung ke jaringan adalah ujian sesungguhnya.",
-      "secondOrder": "Proyek PLTS 100 GWp skala ini akan menciptakan permintaan besar terhadap asuransi proyek—KONTAN melaporkan bahwa sektor asuransi umum sudah mulai mengincar segmen ini. Jika kapasitas underwriting domestik tidak memadai, risiko akan ditanggung oleh reasuransi internasional, yang pada gilirannya akan mensyaratkan standar due diligence dan kontrak yang lebih ketat dari yang biasa diterapkan di proyek EBT Indonesia. Ini berpotensi memperlambat proyek-proyek yang dokumennya belum rapi.",
-      "action": "Audit kesiapan 14 proyek PLTS pertama pada tiga dimensi: (1) status izin lokasi dan lingkungan, (2) kesiapan jaringan transmisi PLN untuk menyerap output, (3) struktur PPA dan bankability-nya. Bandingkan dengan benchmark eksekusi proyek EBT sebelumnya untuk menilai risiko slip jadwal.",
-      "strength": "actionable",
+      "headline": "PLTS 100 GWp diresmikan; IESR peringatkan eksekusi adalah tantangan nyata",
+      "whatChanged": "Presiden Prabowo secara resmi meluncurkan Program PLTS 100 GWp di Bali pada 25 Agustus 2026, dengan target penyelesaian dalam tiga tahun dan 14 proyek perdana senilai Rp 135 triliun. Kementerian ESDM menyatakan PLTS 1 GWp di Bali akan mengeliminasi diesel. IESR pada hari yang sama menerbitkan respons formal bahwa peluncuran harus menjadi 'titik awal eksekusi cepat dan terukur', mengimplikasikan risiko slippage jadwal signifikan.",
+      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang telah terekam lima kali sejak 22 Agustus. Akumulasi sinyal menunjukkan pola berulang: komitmen politik berskala besar diikuti peringatan institusi riset bahwa kapasitas eksekusi belum terbukti. Program 100 GWp membutuhkan rata-rata ~33 GWp per tahun—lebih dari sepuluh kali kapasitas PLTS terpasang Indonesia saat ini—sehingga bottleneck transmisi, pengadaan, dan perizinan menjadi risiko utama, bukan kekurangan komitmen investasi.",
+      "secondOrder": "Proyek PLTS 100 GWp mulai menarik minat asuransi umum sebagai pasar asuransi konstruksi dan operasional [107]. Jika eksekusi melambat, premi asuransi proyek akan naik, menyempitkan margin developer. Lebih strategis: jika PLN tidak segera menyelesaikan blueprint transmisi—khususnya subholding transmisi yang direkomendasikan IEEFA—kapasitas pembangkit baru akan terjebak tanpa jalur evakuasi, menciptakan PLTS terpasang yang tak terserap grid.",
+      "action": "Pekan ini: minta klarifikasi dari PLN mengenai status rencana subholding transmisi (rekomendasi IEEFA [51, 108]) dan apakah 14 proyek perdana telah memiliki Power Purchase Agreement yang ditandatangani. Tanpa PPA ter-eksekusi, angka Rp 135 T masih merupakan pipeline niat, bukan komitmen.",
+      "strength": "material",
       "sourceUrls": [
         "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
         "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3dzUTJ0Mkh3Y3dDWTB1ZVM5aG1jam9GZWNvaUdGbmNZSGNLY3JPWHdrbzF1anZiVGlSUmY4VTRBTVBNV0VrVmxTUzNMTmZTN2c1WUxoYzlQd0x0R1dXWlZzSmxhdkYxdGg2T2ZxbW9YZDZzQ19kOFhiRVlCdTQ3NlkyRF81aDFsX2xSRWN0ZlExYU11MjRiRFp6OVpxR2FZVlJMTk54UHBmZ1RjRS04WmMxcVVrd9IBuwFBVV95cUxQTzg4NGNFLTRzSXRTVGZyRk9ybC01dXBnVXVHMWktZVI4VHc3Vmw1dFZpOVNPZ0lRQzBPWEc2OGJTR3lDVk5VQzJocERkM1k2dERnTm1FQl9qbFpac0hRUlM1dGMtSTItNnh5bmU1Ym1tQlRkeGF6ei1MVnpaSFFDWVE4aWZoeWd3cUF4ZVRUZkl5ZWRKVnBIVjFxQlVPTGs3TVJNUU9tczY2OUE1dThHbUY3cVZacndZVWln?oc=5",
-        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa0xBUzlrXzlJb0xEX2VqM1hBSEk3T2hTdEdEMk9uenBBaDQtSjJ2b29Hdi1aMjhXMkZmWFV4S2FxekNYOGhocVliLU5BcVJxUXJlc3hhTjJTa1I5NHdhY0ZNTFJhTHJGQ3VUTUwzTmFFNjJOLXlYYThhUlBqZ3FZVW80SWZpR0NyMEhpUnpnT0hlMFJROGQ3d05RSWx5NTJrUk00R3ZyMEItSzE0dEdfZGgzNl94cTlTTjl6RnZwSHdaaVpnWXc3QQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5"
+      ],
+      "secondOrderUrls": [
         "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc296Ymw2V2R1MkRqLThCZGxPVW1nSkNkdDRxS1dza2tYU2lzbmVKanZTUEhqdDQtanp4bTBGRjRtSGQtbGRnZHYzYy04UExmaldOWUJvSVhIMTdsaU5wcEczbnp3blViTHN1YXIwRWtZNHlFNkxOaGZOWEFnSjRMYmhId1JTQQ?oc=5"
       ],
-      "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 6,
+        "publishers": 4,
         "hasPrimary": true
       },
       "trend": {
@@ -84,17 +85,16 @@
     {
       "rank": 3,
       "domain": "energy",
-      "themeKey": "nuclear-ai-datacenter-power",
+      "themeKey": "pln-grid-investment",
       "entities": [
         "Spanyol",
-        "Indosat",
-        "NeutraDC"
+        "pv magazine"
       ],
-      "headline": "Spanyol wajibkan 80% listrik data center dari EBT dengan pencocokan per jam—preseden regulasi global",
-      "whatChanged": "Spanyol mengusulkan regulasi baru yang mewajibkan pusat data menyumber setidaknya 80% listrik dari pembangkit terbarukan tambahan, dengan pencocokan konsumsi dan pasokan secara per jam (hourly matching), bukan tahunan. Ini adalah standar tertinggi yang pernah diusulkan regulator manapun untuk sektor data center.",
-      "whyItMatters": "Pencocokan per jam jauh lebih ketat dibanding Renewable Energy Certificate (REC) berbasis tahunan yang umum digunakan. Ini akan memaksa data center untuk berinvestasi dalam penyimpanan energi atau kontrak PPA dengan profil produksi yang cocok dengan pola konsumsi—mengubah cara data center dievaluasi dari sisi capex dan opex. Sinyal ini relevan untuk tema nuclear-ai-datacenter-power karena memperdalam keterkaitan antara regulasi energi dan keputusan investasi infrastruktur digital.",
-      "secondOrder": "Jika model regulasi Spanyol diadopsi oleh Uni Eropa atau menjadi referensi global (seperti yang sering terjadi dengan regulasi energi Eropa), data center yang beroperasi atau direncanakan di Asia—termasuk proyek infrastruktur AI senilai Rp 3,8 triliun yang digarap perusahaan Hashim dan Indosat di Indonesia—akan menghadapi tekanan dari investor dan offtaker internasional untuk memenuhi standar serupa bahkan sebelum regulasi lokal mewajibkannya.",
-      "action": "Evaluasi apakah proposal data center AI di Indonesia (termasuk proyek Indosat–Hashim dan ekspansi NeutraDC 200 MW) sudah memasukkan skenario hourly matching dalam struktur energy procurement-nya. Jika belum, hitung implikasi biaya tambahan dari penyimpanan energi atau PPA berbasis waktu nyata.",
+      "headline": "Spanyol wajibkan data center sumber 80% listrik dari EBT dengan hourly matching",
+      "whatChanged": "Spanyol mengusulkan regulasi yang mewajibkan data center menyumber minimal 80% listrik dari pembangkit terbarukan tambahan (additionality), dengan pencocokan konsumsi per jam—bukan tahunan. Dilaporkan pv magazine per 26 Agustus 2026 berdasarkan draf regulasi pemerintah Spanyol.",
+      "whyItMatters": "Persyaratan hourly matching jauh lebih ketat dari standar RECs (Renewable Energy Certificates) tahunan yang berlaku di sebagian besar pasar. Jika diadopsi luas, ini mengubah cara data center membeli listrik: dari sertifikat tahunan ke kontrak power delivery real-time, mendorong permintaan storage dan grid flexibility. Ini adalah preseden regulasi yang relevan untuk diskusi Indonesia tentang persyaratan listrik hijau bagi data center AI.",
+      "secondOrder": "Regulasi hourly matching Spanyol akan mendorong co-location antara data center dan pembangkit solar/angin plus storage di satu lokasi—mengurangi ketergantungan pada grid publik. Untuk Indonesia, jika regulator mengadopsi pendekatan serupa sebagai syarat izin data center AI (seperti proyek Hashim–Indosat), PLN harus menyiapkan produk green power dengan granularitas jam, sesuatu yang belum ada dalam struktur tarif saat ini.",
+      "action": "Pekan ini: bandingkan draf regulasi Spanyol ini dengan rancangan persyaratan listrik data center dalam Rancangan Perpres AI Indonesia. Jika belum ada klausul additionality atau hourly matching, ini adalah celah regulasi yang perlu diisi sebelum investasi data center AI skala besar mengunci infrastruktur berbahan bakar fosil.",
       "strength": "emerging",
       "sourceUrls": [
         "https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/"
@@ -105,11 +105,11 @@
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "nuclear-ai-datacenter-power",
-        "status": "structural",
-        "occurrences": 7,
-        "firstSeen": "2026-08-20",
-        "spanDays": 7
+        "themeKey": "pln-grid-investment",
+        "status": "recurring",
+        "occurrences": 5,
+        "firstSeen": "2026-08-22",
+        "spanDays": 5
       }
     },
     {
@@ -118,25 +118,22 @@
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
         "Danantara Indonesia",
-        "BP BUMN",
-        "BUMN Karya",
-        "Bisnis.com"
+        "Bekasi",
+        "detikFinance"
       ],
-      "headline": "Danantara groundbreak WtE Bekasi sambil restrukturisasi BUMN Karya belum punya tenggat mengikat",
-      "whatChanged": "Danantara Indonesia secara resmi memulai konstruksi fasilitas Waste-to-Energy (WtE) Bekasi pada 26 Agustus 2026—sebuah proyek investasi nyata yang menjadi bukti pertama Danantara mengeksekusi mandat di luar fungsi holding. Di sisi lain, Bisnis.com dan Bloomberg Technoz melaporkan bahwa roadmap restrukturisasi BUMN Karya—yang mencakup perbaikan laporan keuangan, divestasi aset, dan potensi merger—masih dalam taraf upaya tanpa tenggat hukum yang mengikat, meski Bos BP BUMN menyebut target akhir 2026.",
-      "whyItMatters": "Ini adalah sinyal structural yang sudah delapan kali muncul sejak 19 Agustus. Implikasi akumulatifnya kini lebih tajam: Danantara mulai memperlihatkan kapasitas eksekusi proyek (WtE Bekasi), tetapi isu terbesar—BUMN Karya dengan estimasi biaya pembersihan hingga Rp 100 triliun—belum memiliki milestone yang terverifikasi secara publik. Ketidakseimbangan antara aksi simbolik dan penyelesaian masalah sistemik berisiko menggerus kredibilitas institusi.",
-      "secondOrder": "Jika restrukturisasi BUMN Karya tidak selesai sebelum akhir 2026 sesuai target Bos BP BUMN, investor dalam instrumen utang Danantara (termasuk dollar bond $1 miliar yang sedang disiapkan) akan memiliki dasar untuk mempertanyakan kapasitas Danantara mengelola portofolio bermasalah skala besar. Ini bisa memperketat spread pembiayaan Danantara di pasar internasional tepat saat Indonesia membutuhkan akses modal murah untuk program infrastruktur energi.",
-      "action": "Identifikasi milestone verifikasi restrukturisasi BUMN Karya: apakah ada audit laporan keuangan independen yang dijadwalkan, aset apa yang masuk daftar divestasi dengan timeline LOI, dan apakah ada rencana merger yang sudah masuk tahap due diligence. Gunakan ini sebagai checklist untuk menilai apakah target akhir 2026 realistis.",
-      "strength": "actionable",
+      "headline": "Danantara groundbreaking fasilitas Waste-to-Energy Bekasi Rp 3 T, target operasi 2028",
+      "whatChanged": "Danantara Indonesia memulai konstruksi fasilitas Waste-to-Energy di Bekasi senilai Rp 3 triliun pada 26 Agustus 2026. Fasilitas ini ditargetkan beroperasi akhir 2027–2028, dengan kapasitas pengolahan 500 ribu ton sampah per tahun, dikonfirmasi oleh sumber primer Danantara Indonesia dan detikFinance.",
+      "whyItMatters": "Ini adalah sinyal bahwa Danantara mulai mengeksekusi proyek infrastruktur nyata—bukan hanya restrukturisasi BUMN Karya—dan memilih sektor waste-to-energy sebagai salah satu portfolio awal. Tema danantara-bumn-karya-restructuring telah terekam delapan kali sejak 19 Agustus dan kini berstatus structural: pertanyaannya bukan lagi apakah restrukturisasi terjadi, melainkan apakah Danantara mampu menjalankan fungsi ganda sebagai restrukturisasi BUMN sekaligus sovereign investment fund aktif.",
+      "secondOrder": "BUMN Karya yang sedang dibenahi—PT Wijaya Karya, PT Waskita, dll.—berpotensi menjadi kontraktor EPC proyek WtE Bekasi ini. Jika demikian, proyek ini berfungsi ganda: menghasilkan arus kas bagi BUMN Karya sambil membangun aset infrastruktur untuk Danantara. Namun risiko jadwal tinggi: target operasi 2028 untuk proyek yang baru groundbreaking Agustus 2026 hanya menyisakan ~26 bulan—sangat ketat untuk fasilitas WtE skala 500 ribu ton/tahun.",
+      "action": "Pekan ini: verifikasi apakah kontrak EPC proyek WtE Bekasi telah ditetapkan dan siapa kontraktornya—apakah BUMN Karya terlibat atau kontraktor asing. Ini akan mengkonfirmasi atau menyangkal tesis bahwa Danantara menggunakan proyek infrastruktur sebagai mekanisme pemulihan BUMN Karya.",
+      "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbGNUQmN5bUNMUlB6X0EwLS14RjdBMkpoRkRrQ3ZnaHVZSDNHWHVpMnNTVFFwSkp6cldfLWVqRnBMX0d0NXJzQUhuaDFGSVZHNU9BeVlhUWJUU2l0N1JJVERyMzQ0M2R1VDN1dkJFeGE4VW9mX0tpT2lfakVrQmNDUDYwXzQtWDFieHY0dDZfUktSNXRoMEM5QWx0cTV6cjY2dXc?oc=5",
-        "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWnl6aXM2RXFzS005Q1NwUzNFY0h2U2ZaVkxtb2F5VF9PeVEwOTJ1RUMxT1ZwY0FYQ1piR0tvR0MtS0RjWjRlTTROQkEwVTJtdnY0MTB5V0hiQW9KQ2RLR05XeEhWTEF4YjBuYTZ3ZVVBeEZwa1J0RDhyQk1HUDdkdXNzdDJKcWxrQ1Q1RjJaQ2RSUHlCajRPSEtWQ3NkZk9iRlh4QW1tbi0xbm5BanY5N2w1NnFZUWhmY21DUkNRZG9JSUxXYXd4ampCV1lnQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5"
+        "https://finance.detik.com/energi/d-8634993/proyek-rp-3-t-ubah-sampah-bekasi-jadi-listrik-ditargetkan-operasi-2028"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 4,
+        "publishers": 2,
         "hasPrimary": true
       },
       "trend": {
@@ -153,20 +150,22 @@
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
         "Hashim Djojohadikusumo",
-        "Indosat",
-        "NeutraDC",
-        "PLN"
+        "Indosat Ooredoo Hutchison",
+        "PLN EPI",
+        "Katadata"
       ],
-      "headline": "Infrastruktur AI Rp 3,8 T oleh Hashim–Indosat: sinyal konvergensi korporasi-energi-AI di Indonesia",
-      "whatChanged": "Katadata melaporkan bahwa perusahaan milik Hashim Djojohadikusumo dan Indosat sedang membangun infrastruktur AI senilai Rp 3,8 triliun, mencakup perakitan GPU hingga kabel bawah laut. Ini adalah komitmen kapex AI domestik terbesar yang dilaporkan secara publik dalam siklus berita ini.",
-      "whyItMatters": "Sinyal ini menunjukkan bahwa ekosistem AI Indonesia kini memiliki momentum korporasi pribumi—bukan hanya minat asing. Keterlibatan Hashim (yang memiliki kedekatan langsung dengan lingkaran kebijakan Prabowo) mengindikasikan bahwa infrastruktur AI akan mendapat dukungan regulasi dan akses lahan/energi yang lebih mudah dibanding pemain independen. Ini mengubah peta persaingan dan kemitraan bagi pemain seperti NeutraDC atau operator data center lain.",
-      "secondOrder": "Proyek GPU assembly domestik membuka pertanyaan tentang rantai pasok: dari mana chip-nya, siapa distributor resminya, dan apakah ada risiko sanksi ekspor AS yang perlu dimitigasi. Jika proyek ini menggunakan chip Nvidia atau AMD, struktur kepemilikan dan end-use certification-nya perlu diverifikasi sesuai ketentuan BIS (Bureau of Industry and Security) AS—risiko yang jarang dibicarakan dalam liputan domestik.",
-      "action": "Verifikasi struktur hukum entitas Hashim–Indosat yang mengeksekusi proyek ini: apakah berbentuk JV, siapa pemegang saham mayoritas, dan apakah ada skema pembiayaan dari institusi keuangan domestik atau asing. Sekaligus periksa apakah ada PPA atau komitmen pasokan listrik tertulis dengan PLN untuk kapasitas data center yang direncanakan.",
+      "headline": "Hashim–Indosat investasi Rp 3,8 T infrastruktur AI, dari GPU hingga kabel bawah laut",
+      "whatChanged": "Perusahaan milik Hashim Djojohadikusumo dan Indosat Ooredoo Hutchison mengumumkan pembangunan infrastruktur AI senilai Rp 3,8 triliun, mencakup perakitan GPU dan kabel bawah laut, dikonfirmasi Katadata per 26 Agustus 2026.",
+      "whyItMatters": "Ini adalah sinyal bahwa modal swasta Indonesia—dengan afiliasi politik di lingkaran pemerintah—mulai mengisi kekosongan infrastruktur AI yang tidak bisa dipenuhi BUMN sendirian. Rp 3,8 triliun untuk GPU assembly dan kabel bawah laut berarti Indonesia mulai membangun stack AI dari perangkat keras (bukan hanya cloud subscription), sebuah pergeseran dari postur konsumsi ke postur infrastruktur.",
+      "secondOrder": "Proyek ini akan membutuhkan listrik andal berskala besar dalam waktu dua hingga tiga tahun—tepat di tengah ketidakpastian peran PLN EPI pasca-rencana BLU batu bara dan gas [75]. Jika PLN tidak dapat menjamin pasokan listrik terinteruptible untuk data center AI, investor seperti Hashim–Indosat akan terdorong membangun captive power atau mengimpor listrik via interkoneksi, menambah kompleksitas regulasi. Sinyal ini juga perlu dibaca bersama tema danantara-bumn-karya-restructuring: apakah BUMN Karya yang sedang dibenahi akan menjadi kontraktor EPC proyek ini, memberi mereka arus kas segar?",
+      "action": "Pekan ini: telusuri apakah proyek Hashim–Indosat ini memiliki offtake agreement dengan hyperscaler global (Microsoft, Google, AWS) sebagai anchor tenant—karena tanpa offtaker, proyek GPU assembly skala ini berisiko menjadi stranded asset. Pertanyakan juga ketergantungan pasokan listriknya pada PLN versus captive.",
       "strength": "emerging",
       "sourceUrls": [
         "https://katadata.co.id/digital/teknologi/6a8eecfba97a9/perusahaan-hashim-dan-indosat-garap-infrastruktur-ai-senilai-rp-3-8-triliun"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNEJoSWowMXZ3TEtMeXdiZmtET2ZNaW5KVVVISmVremZnMDZKWDZMWVdSMFhPQjg4NncycWJ1WDR2dURINVNXeUhDaE8zdW04ZUNsQXRISUhfTW5WUlNJWWduOUR6d09TcUxYVnQ0QVBCQVFOQUo5TzZwbmRPZlJ2TjVQUzRKVEw5TDBtODhWanVNbXV3dFlCaHRUQllYNGYtcnNseHFYS2puX2Rady1fV253?oc=5"
+      ],
       "corroboration": {
         "publishers": 1,
         "hasPrimary": false
@@ -182,24 +181,20 @@
   ],
   "watchNext": [
     {
-      "item": "Milestone restrukturisasi BUMN Karya: apakah ada pengumuman divestasi aset atau merger resmi sebelum akhir Q3 2026",
+      "item": "Penandatanganan PPA untuk 14 proyek perdana PLTS 100 GWp: apakah terealisasi sebelum akhir Q3 2026 sesuai target Presiden Prabowo",
       "dueDate": "2026-09-30"
     },
     {
-      "item": "Realisasi konstruksi 14 proyek PLTS pertama dari program 100 GWp: laporan progres dari PLN atau Kementerian ESDM",
-      "dueDate": "2026-11-30"
-    },
-    {
-      "item": "Rincian kontrak Anthropic–Nscale: struktur jaminan, tenor, dan apakah ada komponen power purchase agreement yang terkait",
+      "item": "Detail teknis kontrak Anthropic–Nscale: klausul power guarantee, lokasi data center, dan apakah ada lender bank yang terlibat—yang akan mengkonfirmasi pergeseran ke struktur project finance",
       "dueDate": "2026-09-15"
     },
     {
-      "item": "Perkembangan regulasi data center Spanyol: apakah Komisi Eropa mengadopsi standar hourly matching sebagai direktif regional",
+      "item": "Status restrukturisasi BUMN Karya: Danantara menargetkan selesai akhir 2026; milestone Q3 perlu diverifikasi termasuk siapa kontraktor EPC WtE Bekasi",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "Struktur hukum dan sumber pembiayaan proyek AI Rp 3,8 T Hashim–Indosat: konfirmasi dari filing OJK atau pengumuman resmi",
-      "dueDate": "2026-09-30"
+      "item": "Regulasi data center listrik hijau Indonesia: apakah ada klausul additionality atau hourly matching yang mengikuti preseden Spanyol dalam Perpres AI atau regulasi PLN",
+      "dueDate": "2026-10-31"
     }
   ],
   "sources": [
@@ -221,31 +216,13 @@
       "publishedAt": "2026-08-26T07:31:30.000Z"
     },
     {
-      "title": "PLTS 100 GWp Diluncurkan, PLN Siap Dukung Akselerasi Pengembangan EBT Menuju Swasembada Energi",
-      "publisher": "investor.id",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa0xBUzlrXzlJb0xEX2VqM1hBSEk3T2hTdEdEMk9uenBBaDQtSjJ2b29Hdi1aMjhXMkZmWFV4S2FxekNYOGhocVliLU5BcVJxUXJlc3hhTjJTa1I5NHdhY0ZNTFJhTHJGQ3VUTUwzTmFFNjJOLXlYYThhUlBqZ3FZVW80SWZpR0NyMEhpUnpnT0hlMFJROGQ3d05RSWx5NTJrUk00R3ZyMEItSzE0dEdfZGgzNl94cTlTTjl6RnZwSHdaaVpnWXc3QQ?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-26T08:51:00.000Z"
-    },
-    {
-      "title": "Bos BP BUMN: Restrukturisasi BUMN Karya Diupayakan Segera Selesai",
-      "publisher": "CNBC Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-21T03:33:57.000Z"
-    },
-    {
-      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "title": "Presiden Prabowo: PLTS 100 GWp Perkuat Kemandirian Energi Indonesia",
       "publisher": "Sekretariat Kabinet Republik Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": true,
-      "publishedAt": "2026-08-25T14:27:20.000Z"
+      "publishedAt": "2026-08-25T15:38:31.000Z"
     },
     {
       "title": "Anthropic to rent AI computing power from Nscale for $45 billion, source says",
@@ -257,15 +234,6 @@
       "publishedAt": "2026-08-26T18:35:51.000Z"
     },
     {
-      "title": "Jalan Panjang Danantara Sehatkan BUMN Karya: Benahi Lapkeu, Divestasi hingga Merger - Bisnis.com",
-      "publisher": "Bisnis.com - Market",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWnl6aXM2RXFzS005Q1NwUzNFY0h2U2ZaVkxtb2F5VF9PeVEwOTJ1RUMxT1ZwY0FYQ1piR0tvR0MtS0RjWjRlTTROQkEwVTJtdnY0MTB5V0hiQW9KQ2RLR05XeEhWTEF4YjBuYTZ3ZVVBeEZwa1J0RDhyQk1HUDdkdXNzdDJKcWxrQ1Q1RjJaQ2RSUHlCajRPSEtWQ3NkZk9iRlh4QW1tbi0xbm5BanY5N2w1NnFZUWhmY21DUkNRZG9JSUxXYXd4ampCV1lnQQ?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-26T23:00:00.000Z"
-    },
-    {
       "title": "Kementerian ESDM nyatakan PLTS 1 GWp akan eliminasi diesel dari Bali",
       "publisher": "ANTARA News Gorontalo",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3dzUTJ0Mkh3Y3dDWTB1ZVM5aG1jam9GZWNvaUdGbmNZSGNLY3JPWHdrbzF1anZiVGlSUmY4VTRBTVBNV0VrVmxTUzNMTmZTN2c1WUxoYzlQd0x0R1dXWlZzSmxhdkYxdGg2T2ZxbW9YZDZzQ19kOFhiRVlCdTQ3NlkyRF81aDFsX2xSRWN0ZlExYU11MjRiRFp6OVpxR2FZVlJMTk54UHBmZ1RjRS04WmMxcVVrd9IBuwFBVV95cUxQTzg4NGNFLTRzSXRTVGZyRk9ybC01dXBnVXVHMWktZVI4VHc3Vmw1dFZpOVNPZ0lRQzBPWEc2OGJTR3lDVk5VQzJocERkM1k2dERnTm1FQl9qbFpac0hRUlM1dGMtSTItNnh5bmU1Ym1tQlRkeGF6ei1MVnpaSFFDWVE4aWZoeWd3cUF4ZVRUZkl5ZWRKVnBIVjFxQlVPTGs3TVJNUU9tczY2OUE1dThHbUY3cVZacndZVWln?oc=5",
@@ -275,13 +243,13 @@
       "publishedAt": "2026-08-26T00:53:46.000Z"
     },
     {
-      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
-      "publisher": "Kementerian ESDM",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": true,
-      "publishedAt": "2026-08-25T10:15:34.000Z"
+      "publishedAt": "2026-08-25T14:27:20.000Z"
     },
     {
       "title": "Anthropic to Pay Nscale $45 Billion for AI Computing Power",
@@ -301,13 +269,30 @@
       "publishedAt": "2026-08-26T13:41:00.000Z"
     },
     {
-      "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
+      "title": "Batu Bara & Gas Pembangkit Dipasok BLU, Bagaimana Nasib PLN EPI?",
       "publisher": "Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNEJoSWowMXZ3TEtMeXdiZmtET2ZNaW5KVVVISmVremZnMDZKWDZMWVdSMFhPQjg4NncycWJ1WDR2dURINVNXeUhDaE8zdW04ZUNsQXRISUhfTW5WUlNJWWduOUR6d09TcUxYVnQ0QVBCQVFOQUo5TzZwbmRPZlJ2TjVQUzRKVEw5TDBtODhWanVNbXV3dFlCaHRUQllYNGYtcnNseHFYS2puX2Rady1fV253?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-18T11:22:29.000Z"
+      "publishedAt": "2026-08-26T05:30:00.000Z"
+    },
+    {
+      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T10:15:34.000Z"
+    },
+    {
+      "title": "Spain to require data centers to source 80% of electricity from renewables",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-26T12:55:31.000Z"
     },
     {
       "title": "Proyek PLTS 100 GW Jadi Incaran Asuransi Umum",
@@ -319,12 +304,12 @@
       "publishedAt": "2026-08-26T22:30:46.000Z"
     },
     {
-      "title": "Spain to require data centers to source 80% of electricity from renewables",
-      "publisher": "pv magazine",
-      "url": "https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-26T12:55:31.000Z"
+      "title": "Proyek Rp 3 T Ubah Sampah Bekasi Jadi Listrik Ditargetkan Operasi 2028",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8634993/proyek-rp-3-t-ubah-sampah-bekasi-jadi-listrik-ditargetkan-operasi-2028",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-26T07:04:05.000Z"
     }
   ],
   "trends": [
@@ -380,9 +365,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 377,
+    "candidateCount": 400,
     "poolSize": 110,
-    "generatedAt": "2026-08-26T23:18:13.071Z",
+    "generatedAt": "2026-08-26T23:50:32.391Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
