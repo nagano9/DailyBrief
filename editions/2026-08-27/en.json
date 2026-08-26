@@ -1,0 +1,390 @@
+{
+  "slug": "2026-08-27",
+  "date": "2026-08-27",
+  "lang": "en",
+  "title": "Anthropic's $45B Nscale Deal Anchors AI Infrastructure Finance Shift",
+  "dek": "A landmark compute lease, Indonesia's 100 GWp solar launch under scrutiny, and Danantara's restructuring marathon converge into three decisions that cannot wait.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "Anthropic's $45 billion compute lease with Nscale — the largest of its kind — confirms that frontier AI labs are now the anchor tenants structuring the data-centre project-finance stack, a pattern the Financial Times flagged on the same day as a mounting risk for lenders. In Indonesia, the Prabowo government's 100 GWp solar programme entered groundbreaking phase, but IESR's same-day assessment warns that speed without execution infrastructure risks repeating the country's chronic renewable undershoot. Danantara's path to cleaning up the BUMN Karya construction conglomerates — estimated at up to Rp 100 trillion — remains the structural overhang shaping every state-sector capital allocation decision, with Bisnis.com detailing the sequencing of balance-sheet repair, divestiture, and merger. Spain's new rule requiring data centres to source 80% of power from additional renewables, matched hourly, is the clearest regulatory signal yet that AI infrastructure siting decisions will soon be constrained by grid-additionality requirements, not just headline renewable-energy targets. A proposed Rp 3.8 trillion AI infrastructure joint venture between Hashim Djojohadikusumo's firm and Indosat signals that domestic private capital is beginning to price Indonesia's AI buildout, though the project's scope — from GPU assembly to subsea cable — raises integration-risk questions.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Anthropic",
+        "Nscale",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "headline": "Anthropic signs $45 billion compute lease with Nscale, largest AI infrastructure deal on record",
+      "whatChanged": "Anthropic has agreed to rent AI computing capacity from Nscale for $45 billion, according to Reuters and Bloomberg. The deal makes Nscale Anthropic's primary compute supplier and represents a multi-year contractual obligation at a scale that exceeds any previously disclosed AI compute contract.",
+      "whyItMatters": "This continues and accelerates the pattern tracked under nuclear-ai-datacenter-power: frontier labs are no longer buying compute spot or negotiating cloud credits — they are signing decade-scale offtake agreements that force the infrastructure supply chain (GPUs → racks → power → grid → financing) to behave like project finance. Nscale must now secure power, capital, and construction commitments against Anthropic's covenant, meaning Anthropic's creditworthiness backstops gigawatts of energy demand.",
+      "secondOrder": "Lenders and insurers assessing Nscale — or any competing hyperscaler — must now model AI-lab revenue concentration risk the same way a power-purchase-agreement analyst models single-offtaker exposure. If Anthropic's revenue trajectory disappoints, Nscale's debt service is impaired. The Financial Times ran a concurrent piece on multiplying data-centre financing risks; the Anthropic-Nscale structure is exactly the concentration scenario that piece implies but does not name. This will push lenders to demand revenue diversification covenants or higher credit spreads on single-offtaker AI compute deals.",
+      "action": "Map any data-centre or AI infrastructure proposal through the Sponsor → Offtaker (Anthropic/equivalent) → EPC → Power → Grid → Lender → Guarantee chain. This week: ask whether the offtaker's AI revenue base is sufficient to sustain debt service if model-level competition compresses API pricing by 30–50% — the range already visible in commodity inference markets.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEZ0RVh4UE8tSXpXc3F4VXU2N0k1dk93YWNPMFNnQV9ucTU1bi0zZnJqTTJxNFpjTGczVmItNVhicEpTZmN3X2JySUlMZXo0c2RKcVQ3NkEzb0tGeHRKNXBFMWFqeXppMDF3ZVRjWjc5NTZqaUVRMm1adzFCOU96QzFGaGhYbm5PQ1RBc3lLcVpWbUZ1bDhwekV3X0NUQmpodW9iTUo1aFNJNkJhWHFPRE94Z3RIVzgzZEVycVpWbERvcVk?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVzVZckV2QWFDb2xsVWN6OGhuamVpbENEQTZxZWk3SjFxVWxhSlVWeERya1lGM0dzbGx0RGlsMU1kLWhxcFQxVldKZThrR01CUS1Gcnhya0NEMGk2aklKMnZIRHIzZlNlTWRIekdlQ19jaU5NczBNUmpqY1hWVlVTbTFVclF2dWRGUVZ3SUN2NFp4OXA3QktYcW5LWWNHZWtmMDBxVFItc2FBS3Iy?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT3NLZk16NDdyV3NrQ292SmUzeXJPX2lKVEw2aG9MTmNTd2VRNVcwbTNIN1RQVkN5aWF3aExlVE91c3l3UV8xNGhvQnFjbWtfNGFPSXFLOUwtZGg5aWhFYl9zT3h4ZG9FMzFqaGd5MldabVVtcG9sejM5MVh2WVBTdzYzWVE?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 7,
+        "firstSeen": "2026-08-20",
+        "spanDays": 7
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "IESR",
+        "Kementerian ESDM",
+        "Prabowo"
+      ],
+      "headline": "IESR: Indonesia's 100 GWp solar launch must be 'starting point,' not announcement — execution infrastructure still absent",
+      "whatChanged": "President Prabowo launched the 100 GWp PLTS programme and held a groundbreaking ceremony in Bali on 25 August 2026, covering 14 initial projects with Rp 135 trillion in investment. IESR, publishing the same day, assessed that the launch is welcome but that without rapid commissioning of grid integration, procurement frameworks, and storage co-development, the programme risks stalling at the announcement stage. Kementerian ESDM separately stated that 1 GWp of solar in Bali alone will eliminate diesel generation from the island.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread now at recurring/5x. The accumulation implies a structural condition: Indonesia has repeatedly launched large renewable targets that then undershoot because transmission and procurement mechanisms lag generation ambition. The 100 GWp target is three years, meaning roughly 33 GWp per year — more than ten times Indonesia's historical annual solar addition rate.",
+      "secondOrder": "The gap between announcement and delivery creates a window in which insurance, EPC contractors, and project finance lenders will price uncertainty premiums into deal structures. KONTAN reports that general insurers are already positioning for the 100 GW pipeline. If early projects slip, risk premiums will harden across the entire programme, making later tranches more expensive even if political will holds. The more consequential bottleneck is not capital but grid interconnection — PLN's transmission subholding structure (flagged by IEEFA separately) is not yet operational enough to absorb 33 GWp per year.",
+      "action": "Before committing to any tranche of the 100 GWp programme, map grid interconnection capacity project-by-project. This week: request PLN's transmission queue data for the 14 groundbroken projects to determine whether interconnection agreements pre-exist or are still being negotiated — the latter would flag a 12–24 month slip risk.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3dzUTJ0Mkh3Y3dDWTB1ZVM5aG1jam9GZWNvaUdGbmNZSGNLY3JPWHdrbzF1anZiVGlSUmY4VTRBTVBNV0VrVmxTUzNMTmZTN2c1WUxoYzlQd0x0R1dXWlZzSmxhdkYxdGg2T2ZxbW9YZDZzQ19kOFhiRVlCdTQ3NlkyRF81aDFsX2xSRWN0ZlExYU11MjRiRFp6OVpxR2FZVlJMTk54UHBmZ1RjRS04WmMxcVVrd9IBuwFBVV95cUxQTzg4NGNFLTRzSXRTVGZyRk9ybC01dXBnVXVHMWktZVI4VHc3Vmw1dFZpOVNPZ0lRQzBPWEc2OGJTR3lDVk5VQzJocERkM1k2dERnTm1FQl9qbFpac0hRUlM1dGMtSTItNnh5bmU1Ym1tQlRkeGF6ei1MVnpaSFFDWVE4aWZoeWd3cUF4ZVRUZkl5ZWRKVnBIVjFxQlVPTGs3TVJNUU9tczY2OUE1dThHbUY3cVZacndZVWln?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc296Ymw2V2R1MkRqLThCZGxPVW1nSkNkdDRxS1dza2tYU2lzbmVKanZTUEhqdDQtanp4bTBGRjRtSGQtbGRnZHYzYy04UExmaldOWUJvSVhIMTdsaU5wcEczbnp3blViTHN1YXIwRWtZNHlFNkxOaGZOWEFnSjRMYmhId1JTQQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "recurring",
+        "occurrences": 6,
+        "firstSeen": "2026-08-22",
+        "spanDays": 5
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Spain",
+        "European Commission"
+      ],
+      "headline": "Spain mandates 80% additional renewables for data centres with hourly matching — first G7-scale additionality rule",
+      "whatChanged": "Spain has proposed regulations requiring data centres to source at least 80% of their electricity from additional (newly built) renewable generation, with hourly — not annual — matching of consumption and supply. This goes materially beyond existing European renewable energy certificate frameworks, which allow annual averaging and do not require additionality.",
+      "whyItMatters": "This is the first major European economy to propose grid-additionality requirements specifically targeting data centres at hourly granularity. It signals that AI infrastructure siting decisions will increasingly be constrained not by whether renewable power exists on the grid, but by whether the operator can demonstrate it caused new generation to be built and dispatched in the same hour. This has direct implications for the nuclear-ai-datacenter-power theme: nuclear PPAs are attractive precisely because they provide 24/7 additionality that wind and solar alone cannot.",
+      "secondOrder": "If Spain's rule becomes an EU-level template — a plausible path given the European Commission's data-centre sustainability agenda — operators who locked in long-term renewable energy certificates under annual-matching contracts face stranded compliance costs. Co-location strategies with nuclear, geothermal, or storage-backed solar move from premium to prerequisite. Indonesian data-centre developers (e.g. NeutraDC-PLN, the Hashim-Indosat JV) should note that export-oriented data-centre clients domiciled in Europe may contractually require hourly matching even if Indonesian regulation does not.",
+      "action": "Review any data-centre power procurement contract drafted under annual-matching assumptions. This week: assess whether key clients or lenders have European regulatory exposure that would require hourly additionality compliance, and whether the power supply mix for planned Indonesian facilities can be restructured to meet that standard.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 7,
+        "firstSeen": "2026-08-20",
+        "spanDays": 7
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BP BUMN",
+        "BUMN Karya",
+        "Bisnis.com"
+      ],
+      "headline": "Bisnis.com details Danantara's BUMN Karya sequencing: balance-sheet audit → divestiture → merger, targeting end-2026",
+      "whatChanged": "Bisnis.com published a detailed account of Danantara's three-stage plan for the BUMN Karya construction conglomerates: first, remediation of financial statements (some of which are qualified or unauditable); second, divestiture of non-core assets; and third, merger of surviving entities. Bloomberg Technoz had earlier confirmed the end-2026 target. CNBC Indonesia reported the BP BUMN chairman as saying the process is being 'accelerated.' The estimated cleanup cost remains up to Rp 100 trillion.",
+      "whyItMatters": "This theme is now structural at 8x since 19 August — it is a planning condition, not a news event. The sequencing detail published today is the first authoritative account of the operative logic: you cannot merge entities whose books are unreliable, and you cannot divest assets whose valuations are contested. The implied timeline constraint is that reliable financials must be completed before Q4 2026 for a merger to close by year-end — a very compressed schedule given the scale of the forensic accounting work involved.",
+      "secondOrder": "State-linked banks (BNI, BRI, Mandiri, BTN) holding BUMN Karya debt will face provisioning decisions as divestiture values are established. If asset sale prices come in below carrying value — likely given distressed-sale conditions — the write-downs will ripple into bank capital ratios before end-2026. This is the transmission mechanism from BUMN Karya restructuring to the broader Indonesian financial system that most commentary omits.",
+      "action": "Model the provisioning exposure of each state bank to BUMN Karya off-balance-sheet and on-balance-sheet claims. This week: map which BUMN Karya entities have the largest bank debt and cross-reference with the divestiture sequence Bisnis.com described — entities scheduled for late-stage divestiture carry the longest mark-to-market uncertainty.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWnl6aXM2RXFzS005Q1NwUzNFY0h2U2ZaVkxtb2F5VF9PeVEwOTJ1RUMxT1ZwY0FYQ1piR0tvR0MtS0RjWjRlTTROQkEwVTJtdnY0MTB5V0hiQW9KQ2RLR05XeEhWTEF4YjBuYTZ3ZVVBeEZwa1J0RDhyQk1HUDdkdXNzdDJKcWxrQ1Q1RjJaQ2RSUHlCajRPSEtWQ3NkZk9iRlh4QW1tbi0xbm5BanY5N2w1NnFZUWhmY21DUkNRZG9JSUxXYXd4ampCV1lnQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-08-19",
+        "spanDays": 8
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Hashim Djojohadikusumo",
+        "Indosat",
+        "Katadata",
+        "Huawei"
+      ],
+      "headline": "Hashim Djojohadikusumo and Indosat launch Rp 3.8 trillion AI infrastructure JV spanning GPU assembly to subsea cable",
+      "whatChanged": "Katadata reports that a company linked to Hashim Djojohadikusumo and Indosat are jointly developing AI infrastructure worth Rp 3.8 trillion, covering GPU assembly facilities and subsea cable, making it one of the largest domestically-anchored AI infrastructure commitments announced in Indonesia to date.",
+      "whyItMatters": "This is the first disclosed instance of a politically connected Indonesian private-capital vehicle taking a vertically integrated position across the AI infrastructure stack — compute hardware, connectivity, and (implicitly) data-centre hosting. Indosat's 5G network and Huawei agentic partnership (reported separately by Katadata) provide the connectivity layer. The Hashim connection places this venture in proximity to presidential policy, which may accelerate permitting and PLN power allocation.",
+      "secondOrder": "A vertically integrated domestic AI infrastructure player changes the competitive landscape for foreign hyperscalers and co-location providers seeking Indonesian market entry. If the JV secures preferential grid access or government anchor tenancy (e.g. for public-sector AI workloads), it could crowd out independent developers who assumed the market was open. The GPU assembly component also signals an attempt to capture value-added manufacturing rents from Indonesia's AI buildout — a strategic hedge against being a pure importer of compute.",
+      "action": "Assess whether the Hashim-Indosat JV's scope overlaps with any planned data-centre or connectivity investment. This week: determine whether PLN has received a power reservation request from the JV, which would confirm seriousness and signal preferred grid access — a material competitive variable for any rival infrastructure proposal.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://katadata.co.id/digital/teknologi/6a8eecfba97a9/perusahaan-hashim-dan-indosat-garap-infrastruktur-ai-senilai-rp-3-8-triliun"
+      ],
+      "secondOrderUrls": [
+        "https://katadata.co.id/digital/teknologi/6a8edab2c634f/indosat-dan-huawei-siapkan-panggilan-telepon-yang-bisa-terjemahkan-bahasa"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 7,
+        "firstSeen": "2026-08-20",
+        "spanDays": 7
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Nscale's capital structure and power procurement disclosures: as Anthropic's $45B covenant forces Nscale to secure financing, watch for lender syndication announcements or power PPA filings that reveal which grid markets will absorb the load.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "European Commission response to Spain's hourly-additionality data-centre rule: if the Commission endorses it as a model for the EU AI Act's infrastructure provisions, the compliance cost for Asian data-centre operators serving European clients becomes material.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "BUMN Karya financial statement remediation progress: the end-2026 merger target requires auditable books by approximately October 2026. Watch for qualified-audit reversals or Big Four engagement announcements as confirmation signals.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "PLN power reservation status for the Hashim-Indosat AI infrastructure JV: a filed reservation would confirm the project is past conceptual stage and would reveal its grid impact on the 100 GWp solar programme's transmission queue.",
+      "dueDate": "2026-09-15"
+    },
+    {
+      "item": "IESR and IEEFA assessment of PLN transmission subholding progress: the 100 GWp programme's credibility depends on grid absorption capacity. The next IEEFA transmission-investment update will be a leading indicator of programme slippage risk.",
+      "dueDate": "2026-10-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-25T10:00:49.000Z"
+    },
+    {
+      "title": "Bos BP BUMN: Restrukturisasi BUMN Karya Diupayakan Segera Selesai",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNXktS1ZScUNTcUFzWlVFSzBrTjEwdFdtZllaNGJscEZ2dU5Eb1ZkMVM1RExGZVhjRDZTU0VoTDdBMjJIUjE2UjJHOVFZbGVYVjc5Q2U4OXg2aUs5RFRxMThFQy15bWdCQjJWT1EtOXY3MHJPa1djNjh0bFB2SFUtcmp4UFRQbzdPaktFcWNlaEg3NkV6S0ZreUlkamh1RkRPOU9Kc2Fnd09YR3N0Z1dqUE5OYktkWi1DZldVVjVlcE0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-21T03:33:57.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T14:27:20.000Z"
+    },
+    {
+      "title": "Anthropic to rent AI computing power from Nscale for $45 billion, source says",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEZ0RVh4UE8tSXpXc3F4VXU2N0k1dk93YWNPMFNnQV9ucTU1bi0zZnJqTTJxNFpjTGczVmItNVhicEpTZmN3X2JySUlMZXo0c2RKcVQ3NkEzb0tGeHRKNXBFMWFqeXppMDF3ZVRjWjc5NTZqaUVRMm1adzFCOU96QzFGaGhYbm5PQ1RBc3lLcVpWbUZ1bDhwekV3X0NUQmpodW9iTUo1aFNJNkJhWHFPRE94Z3RIVzgzZEVycVpWbERvcVk?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-26T18:35:51.000Z"
+    },
+    {
+      "title": "Jalan Panjang Danantara Sehatkan BUMN Karya: Benahi Lapkeu, Divestasi hingga Merger - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWnl6aXM2RXFzS005Q1NwUzNFY0h2U2ZaVkxtb2F5VF9PeVEwOTJ1RUMxT1ZwY0FYQ1piR0tvR0MtS0RjWjRlTTROQkEwVTJtdnY0MTB5V0hiQW9KQ2RLR05XeEhWTEF4YjBuYTZ3ZVVBeEZwa1J0RDhyQk1HUDdkdXNzdDJKcWxrQ1Q1RjJaQ2RSUHlCajRPSEtWQ3NkZk9iRlh4QW1tbi0xbm5BanY5N2w1NnFZUWhmY21DUkNRZG9JSUxXYXd4ampCV1lnQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-26T23:00:00.000Z"
+    },
+    {
+      "title": "Kementerian ESDM nyatakan PLTS 1 GWp akan eliminasi diesel dari Bali",
+      "publisher": "ANTARA News Gorontalo",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3dzUTJ0Mkh3Y3dDWTB1ZVM5aG1jam9GZWNvaUdGbmNZSGNLY3JPWHdrbzF1anZiVGlSUmY4VTRBTVBNV0VrVmxTUzNMTmZTN2c1WUxoYzlQd0x0R1dXWlZzSmxhdkYxdGg2T2ZxbW9YZDZzQ19kOFhiRVlCdTQ3NlkyRF81aDFsX2xSRWN0ZlExYU11MjRiRFp6OVpxR2FZVlJMTk54UHBmZ1RjRS04WmMxcVVrd9IBuwFBVV95cUxQTzg4NGNFLTRzSXRTVGZyRk9ybC01dXBnVXVHMWktZVI4VHc3Vmw1dFZpOVNPZ0lRQzBPWEc2OGJTR3lDVk5VQzJocERkM1k2dERnTm1FQl9qbFpac0hRUlM1dGMtSTItNnh5bmU1Ym1tQlRkeGF6ei1MVnpaSFFDWVE4aWZoeWd3cUF4ZVRUZkl5ZWRKVnBIVjFxQlVPTGs3TVJNUU9tczY2OUE1dThHbUY3cVZacndZVWln?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-26T00:53:46.000Z"
+    },
+    {
+      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T10:15:34.000Z"
+    },
+    {
+      "title": "Anthropic to Pay Nscale $45 Billion for AI Computing Power",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVzVZckV2QWFDb2xsVWN6OGhuamVpbENEQTZxZWk3SjFxVWxhSlVWeERya1lGM0dzbGx0RGlsMU1kLWhxcFQxVldKZThrR01CUS1Gcnhya0NEMGk2aklKMnZIRHIzZlNlTWRIekdlQ19jaU5NczBNUmpqY1hWVlVTbTFVclF2dWRGUVZ3SUN2NFp4OXA3QktYcW5LWWNHZWtmMDBxVFItc2FBS3Iy?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-26T17:02:32.000Z"
+    },
+    {
+      "title": "Perusahaan Hashim dan Indosat Garap Infrastruktur AI Senilai Rp 3,8 Triliun",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/digital/teknologi/6a8eecfba97a9/perusahaan-hashim-dan-indosat-garap-infrastruktur-ai-senilai-rp-3-8-triliun",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-26T13:41:00.000Z"
+    },
+    {
+      "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T11:22:29.000Z"
+    },
+    {
+      "title": "Proyek PLTS 100 GW Jadi Incaran Asuransi Umum",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc296Ymw2V2R1MkRqLThCZGxPVW1nSkNkdDRxS1dza2tYU2lzbmVKanZTUEhqdDQtanp4bTBGRjRtSGQtbGRnZHYzYy04UExmaldOWUJvSVhIMTdsaU5wcEczbnp3blViTHN1YXIwRWtZNHlFNkxOaGZOWEFnSjRMYmhId1JTQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-26T22:30:46.000Z"
+    },
+    {
+      "title": "The multiplying risks of financing data centres",
+      "publisher": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT3NLZk16NDdyV3NrQ292SmUzeXJPX2lKVEw2aG9MTmNTd2VRNVcwbTNIN1RQVkN5aWF3aExlVE91c3l3UV8xNGhvQnFjbWtfNGFPSXFLOUwtZGg5aWhFYl9zT3h4ZG9FMzFqaGd5MldabVVtcG9sejM5MVh2WVBTdzYzWVE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-26T04:00:13.000Z"
+    },
+    {
+      "title": "Spain to require data centers to source 80% of electricity from renewables",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-26T12:55:31.000Z"
+    },
+    {
+      "title": "Indosat dan Huawei Siapkan Panggilan Telepon yang Bisa Terjemahkan Bahasa",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/digital/teknologi/6a8edab2c634f/indosat-dan-huawei-siapkan-panggilan-telepon-yang-bisa-terjemahkan-bahasa",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-26T12:23:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara estimasi biaya bersihkan BUMN Karya hingga Rp 100 triliun; BP BUMN-Danantara siapkan sistem SDM terintegrasi",
+      "occurrences": 8,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-26",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi",
+      "occurrences": 7,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-25",
+      "status": "recurring",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Analisis: AS bangun kapasitas gas untuk AI dua kali lebih besar dari China, memperdalam ketergantungan energi-AI",
+      "occurrences": 6,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-26",
+      "status": "recurring",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise",
+      "occurrences": 6,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-25",
+      "status": "recurring",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLTS 100 GWp resmi diluncurkan Presiden Prabowo: 14 proyek pertama, Rp 135 T investasi, target hemat APBN Rp 4,6 T/tahun—tapi perpres belum ada dan transmisi belum siap",
+      "occurrences": 5,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-26",
+      "status": "recurring",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 377,
+    "poolSize": 110,
+    "generatedAt": "2026-08-26T23:19:35.932Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
