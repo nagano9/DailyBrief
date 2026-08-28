@@ -1,0 +1,366 @@
+{
+  "slug": "2026-08-29",
+  "date": "2026-08-29",
+  "lang": "en",
+  "title": "Anthropic's Hardware Standard, Danantara Dividend, and Indonesia's 100 GWp Solar Push",
+  "dek": "Three structurally significant moves land simultaneously: Anthropic extends AI agents into physical infrastructure, Danantara confirms a Rp 120 trillion fiscal transfer, and Indonesia's PLTS 100 GWp program crosses from announcement into named execution.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "Anthropic has published a Model Hardware Standard that formally specifies how AI agents interact with physical devices, shifting the AI-agent stack from software into regulated hardware territory and opening a new front for enterprise and infrastructure risk assessment. On the corporate side, Danantara's CEO has confirmed a Rp 120 trillion dividend transfer to the Indonesian state budget in 2026, a figure that now converts the sovereign wealth vehicle from an investment narrative into a measurable fiscal instrument—with BUMN Karya restructuring still incomplete. Indonesia's PLTS 100 GWp program, groundbroken at Bali with presidential backing, now has named sites from Gilimanuk to Pulau Rengit, but IESR has restated that execution capacity—not ambition—is the binding constraint. Separately, global solar-plus-storage investment reached $25 billion in H1 2026 alone, reinforcing that co-located renewables-plus-storage is now the dominant capital deployment pattern. Anthropic's parallel publication on automated alignment researchers adds a second material signal: the lab is beginning to delegate safety-critical research tasks to its own AI systems, a qualitative shift in how frontier AI development works.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Anthropic",
+        "Model Hardware Standard",
+        "Ars Technica"
+      ],
+      "headline": "Anthropic publishes Model Hardware Standard, defining how AI agents control physical systems",
+      "whatChanged": "Anthropic released a formal Model Hardware Standard—previewed on its own site and covered by Ars Technica—specifying interfaces, capability tiers, and safety requirements for AI agents that interact with physical-world hardware. This is the first published specification of its kind from a frontier lab.",
+      "whyItMatters": "The AI-agent stack has until now been a software-and-API conversation. A hardware standard from Anthropic formalises the boundary between agent software and physical actuators—sensors, robots, industrial controllers—creating a de facto specification layer that equipment vendors, integrators, and enterprise buyers will need to evaluate, adopt, or contest. It continues the nuclear-ai-datacenter-power theme: AI infrastructure requirements are now propagating beyond compute and power into physical control systems.",
+      "secondOrder": "A vendor-published hardware standard, if it achieves adoption, functions as private regulation: it sets liability boundaries, shapes insurance underwriting for agentic deployments, and gives Anthropic structural influence over a supply chain it does not manufacture. Procurement teams and legal departments that treat this as a product announcement rather than a governance document will misprice the contractual risk of deploying Claude-family agents in industrial settings.",
+      "action": "This week: map any agentic deployment roadmap against the Anthropic Model Hardware Standard's capability tiers. Identify which integration points now carry new contractual and liability exposure, and add a hardware-standard compliance review to the enterprise AI procurement checklist.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2dOSHcyS2VTS2YxQ2ZwSTBLZ2ljelNkd2ZPeXVLc196Y0h5eG9lRDF0U1c1ZUN4VmEza29mSWdXT05QVURvNHFZMnNxWWVieHdLenAzUDdtOGlVbF9SU3ZrVjJVek5wM1Voek5mN0NmSk5jVDdNUjhhamlDYk1Ha2Y1Y3lKbGQtUm8zWW91TklhUWp4akVDNWNmdFdERkxsRGkyNTZ2YmNpLXQ1X24w?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-08-20",
+        "spanDays": 9
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Purbaya",
+        "APBN",
+        "BUMN Karya"
+      ],
+      "headline": "Danantara CEO confirms Rp 120 trillion dividend transfer to APBN 2026, restructuring still open",
+      "whatChanged": "Danantara CEO Purbaya publicly confirmed—corroborated by ANTARA and detikFinance—that Danantara will transfer approximately Rp 120 trillion in dividends to the Indonesian state budget (APBN) in 2026, with the timing still to be determined by presidential decision. BUMN Karya restructuring, which involves financial statement remediation, divestiture, and potential mergers, remains unfinished.",
+      "whyItMatters": "This is the first concrete fiscal quantum attached to Danantara's sovereign wealth mandate. The Rp 120 trillion figure converts Danantara from a strategic narrative into a measurable APBN line item, with direct implications for budget credibility and the government's fiscal space. The theme has now accumulated nine appearances since 19 August; it is a structural condition, not a news event. The juxtaposition of a large outbound dividend alongside incomplete BUMN Karya restructuring raises a sequencing question: is capital being extracted before the portfolio is stabilised?",
+      "secondOrder": "A Rp 120 trillion transfer while BUMN Karya balance sheets remain under remediation implies that Danantara's liquid or income-generating assets are subsidising the restructuring of its distressed ones. If the dividend is sourced from profitable subsidiaries, it reduces the internal cross-subsidy capacity available to nurse weaker BUMN Karya entities—potentially prolonging restructuring timelines or increasing the state's direct rescue exposure.",
+      "action": "This week: model Danantara's asset composition to identify which entities are plausibly generating the Rp 120 trillion transfer, and assess whether that dividend draw compresses the capital cushion available for BUMN Karya remediation. Flag the sequencing risk in any sovereign credit or conglomerate governance assessment.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8638126/purbaya-sebut-danantara-bakal-setor-dividen-rp-120-t-ke-negara",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxONXUzc043dkp3NElNVlBmajJtQ0FQbWduSXpxUEtJTkhmbnMwdDdPcFVZd2Y2RVQ0bzZFaDEwRlFITmh2dEhjRVNOWGxvdnJkN3dJNzJTOG9XemRWOVk5Y0RFNmFFWkFDVWR2R0hBV2tNWWZ4V0pMdndreXdNTnRTb2h5Yk5EQjBLWGQ0QkJBN1M5MVQ5WEtSTW1CWGs4bGtwYnZXZUpxeThacVRGcVRr?oc=5",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTXd6ZmozM040NlZRX1dmcGxDNE9FZElmRHVDSEt2UnYyQ1J1WktPc2RiX3FVTVpaZFFCTzJYMmVmT3BGMTZCZ0RaVWN4Z0c0VDRUSFhkeEJXdkZYZXlFQnQyOUJUbDdBODJoTWNWZDZlOUxZOWJXOWFLd0U0eW4zWXBHQUI4UWtTeW5xTWVCVmNGZU3SAZgBQVVfeXFMTm1GSEpWbUU3Yk9RbExuYW5UbTJCZ3NwX0hFbGkzUjZTS0JpTmxvY1p6bXllaE41TWgtSjFGYjE4OVE3dVNGWHh1Qm9ZMV9pNzZyVHlGRjVZM2V3RWtHNkpuRTJ2VzJiS2w3S3VzREdfZ1RzRDZFdldnN0lXQjNKQ3JLSG00UzBZMEhnUU1tVWwxWGxrOElSVGc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 10,
+        "firstSeen": "2026-08-19",
+        "spanDays": 10
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Kementerian ESDM",
+        "IESR",
+        "PLN",
+        "Gilimanuk",
+        "Pulau Rengit"
+      ],
+      "headline": "PLTS 100 GWp groundbreaking names specific sites; IESR flags execution as the real constraint",
+      "whatChanged": "Indonesia's PLTS 100 GWp solar program was formally groundbroken at Bali under President Prabowo, with Kementerian ESDM naming sites from Gilimanuk to Pulau Rengit and a stated three-year build target. IESR, publishing on 25 August, explicitly warned that the launch must mark the start of fast and measured execution—not merely a political milestone—and that the program's credibility depends on implementation pace.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread, now at recurring status with six appearances since 22 August. Moving from a 100 GWp headline to named geographic sites is a material step: it creates mappable grid interconnection requirements, land-acquisition obligations, and financing tranches. But IESR's simultaneous caveat is the operative signal—Indonesia has a structural history of large renewable targets that stall at execution.",
+      "secondOrder": "Named sites without confirmed grid evacuation capacity create a stranded-asset risk: solar capacity installed faster than transmission can absorb it will either curtail output or require emergency grid investment that is not yet budgeted. PLN's transmission subholding structure—still evolving per IEEFA analysis—may not be capitalised or empowered to move at the pace the three-year target demands.",
+      "action": "This week: cross-reference the named PLTS sites (Gilimanuk, Pulau Rengit) against PLN's published transmission investment map and RUPTL capacity. Identify which sites lack confirmed grid evacuation plans—those are the first execution bottlenecks and the first investment gaps worth sizing.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 7,
+        "firstSeen": "2026-08-22",
+        "spanDays": 7
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "BloombergNEF",
+        "PLN"
+      ],
+      "headline": "Global solar-plus-storage investment hits $25 billion in H1 2026; co-location becomes the dominant model",
+      "whatChanged": "BloombergNEF data, reported by pv magazine, shows global solar-plus-storage co-located investment reached $25 billion in the first half of 2026, within a total renewable energy investment figure of $327.5 billion for H1. The shift toward co-located projects is attributed to growing revenue uncertainty for standalone solar in merchant markets.",
+      "whyItMatters": "Co-located solar-plus-storage at $25 billion in a single half-year is no longer an emerging segment—it is the primary form of new solar capital deployment in competitive markets. This directly reframes Indonesia's PLTS 100 GWp program: a target defined in generation-only terms (GWp) is increasingly misaligned with how international capital actually structures renewable projects. Investors will price storage requirements into any large-scale Indonesian solar bid.",
+      "secondOrder": "If Indonesia's PLTS tender structures do not accommodate or mandate storage co-location, they risk attracting capital optimised for curtailment-prone, merchant-revenue environments rather than grid-stabilising baseload substitutes. The gap between a GWp procurement framework and a GWh+GWp investment reality will show up as either undersubscription in tenders or as post-completion curtailment that erodes developer returns and PLN's offtake economics.",
+      "action": "This week: review whether PLTS 100 GWp tender documents include storage co-location provisions or requirements. If not, model the curtailment risk under the three-year build scenario using PLN load-growth and grid-absorption assumptions. This is the question international project finance teams will ask first.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/08/28/investments-in-co-located-solar-plus-storage-reach-25-billion-in-h1-says-bloombergnef/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 6,
+        "firstSeen": "2026-08-22",
+        "spanDays": 7
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Anthropic"
+      ],
+      "headline": "Anthropic deploys automated AI researchers to detect and fix alignment failures autonomously",
+      "whatChanged": "Anthropic published a research finding—on its own site—that automated AI researchers can reliably identify and mitigate alignment failures without continuous human direction. This is a primary-source disclosure from Anthropic about delegating a safety-critical research function to its own AI systems.",
+      "whyItMatters": "Frontier AI safety has until now been a human-supervised process: researchers identify failure modes and design mitigations. Anthropic's finding that automated researchers can perform this function reliably represents a qualitative shift in the development pipeline—AI systems are now partially responsible for their own safety assurance. This fits the nuclear-ai-datacenter-power structural theme: as AI becomes embedded in high-stakes infrastructure (data centres, physical control systems), the integrity of the safety assurance process itself becomes an infrastructure-grade question.",
+      "secondOrder": "If automated alignment researchers become standard practice, the governance question shifts from 'who reviews the AI?' to 'who reviews the AI that reviews the AI?' Regulators and enterprise risk committees currently have no framework for auditing recursive safety assurance. This creates a window in which Anthropic—and any lab adopting similar practices—operates ahead of any external verification standard, concentrating both the capability and the accountability for alignment in a single private entity.",
+      "action": "This week: add 'automated alignment assurance' as a disclosure question in any AI vendor due-diligence checklist. For institutions deploying Claude-family models in regulated environments, assess whether current contractual representations about safety oversight still hold when the oversight mechanism is itself an AI system.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-08-20",
+        "spanDays": 9
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Anthropic Model Hardware Standard: watch for adoption signals from industrial automation vendors (Siemens, Rockwell, ABB) or rejection/counter-standards from competing labs — this determines whether it becomes private regulation or niche spec.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Danantara Rp 120 trillion APBN transfer: watch for the presidential timing decree and the disclosed source of funds — which subsidiary portfolio is liquidated or dividended up reveals the true capital structure of the vehicle.",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "PLTS 100 GWp tender release: watch for whether Kementerian ESDM or PLN issues formal procurement documents for the named Gilimanuk and Pulau Rengit sites, and whether those documents include co-located storage requirements.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "BUMN Karya restructuring deadline: Danantara has targeted end-2026 completion — watch for Q3 progress disclosure on financial statement remediation and any announced mergers or divestitures.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Automated alignment research: watch for peer review, independent replication, or regulatory response to Anthropic's claim that AI researchers can reliably mitigate alignment failures — the absence of external validation is itself a signal.",
+      "dueDate": "2026-11-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Investments in co-located solar-plus-storage reach $25 billion in H1, says BloombergNEF",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/08/28/investments-in-co-located-solar-plus-storage-reach-25-billion-in-h1-says-bloombergnef/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-28T13:38:09.000Z"
+    },
+    {
+      "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-25T10:00:49.000Z"
+    },
+    {
+      "title": "Automated researchers can reliably mitigate alignment failures",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-28T17:03:08.000Z"
+    },
+    {
+      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-27T10:15:17.000Z"
+    },
+    {
+      "title": "Purbaya Sebut Danantara Bakal Setor Dividen Rp 120 T ke Negara",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8638126/purbaya-sebut-danantara-bakal-setor-dividen-rp-120-t-ke-negara",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-28T07:44:38.000Z"
+    },
+    {
+      "title": "Previewing the Model Hardware Standard",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-27T17:58:11.000Z"
+    },
+    {
+      "title": "Purbaya sebut Danantara akan setor Rp120 triliun ke APBN tahun ini",
+      "publisher": "ANTARA News Sumbar",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONXUzc043dkp3NElNVlBmajJtQ0FQbWduSXpxUEtJTkhmbnMwdDdPcFVZd2Y2RVQ0bzZFaDEwRlFITmh2dEhjRVNOWGxvdnJkN3dJNzJTOG9XemRWOVk5Y0RFNmFFWkFDVWR2R0hBV2tNWWZ4V0pMdndreXdNTnRTb2h5Yk5EQjBLWGQ0QkJBN1M5MVQ5WEtSTW1CWGs4bGtwYnZXZUpxeThacVRGcVRr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-28T22:42:23.000Z"
+    },
+    {
+      "title": "Presiden Prabowo: PLTS 100 GWp Perkuat Kemandirian Energi Indonesia",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T15:38:31.000Z"
+    },
+    {
+      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Anthropic’s new hardware standard lets AI agents control the physical world",
+      "publisher": "Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2dOSHcyS2VTS2YxQ2ZwSTBLZ2ljelNkd2ZPeXVLc196Y0h5eG9lRDF0U1c1ZUN4VmEza29mSWdXT05QVURvNHFZMnNxWWVieHdLenAzUDdtOGlVbF9SU3ZrVjJVek5wM1Voek5mN0NmSk5jVDdNUjhhamlDYk1Ha2Y1Y3lKbGQtUm8zWW91TklhUWp4akVDNWNmdFdERkxsRGkyNTZ2YmNpLXQ1X24w?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-27T22:15:43.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T14:27:20.000Z"
+    },
+    {
+      "title": "Danantara akan setor Rp120 triliun ke APBN 2026",
+      "publisher": "ANTARA News Bali",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTXd6ZmozM040NlZRX1dmcGxDNE9FZElmRHVDSEt2UnYyQ1J1WktPc2RiX3FVTVpaZFFCTzJYMmVmT3BGMTZCZ0RaVWN4Z0c0VDRUSFhkeEJXdkZYZXlFQnQyOUJUbDdBODJoTWNWZDZlOUxZOWJXOWFLd0U0eW4zWXBHQUI4UWtTeW5xTWVCVmNGZU3SAZgBQVVfeXFMTm1GSEpWbUU3Yk9RbExuYW5UbTJCZ3NwX0hFbGkzUjZTS0JpTmxvY1p6bXllaE41TWgtSjFGYjE4OVE3dVNGWHh1Qm9ZMV9pNzZyVHlGRjVZM2V3RWtHNkpuRTJ2VzJiS2w3S3VzREdfZ1RzRDZFdldnN0lXQjNKQ3JLSG00UzBZMEhnUU1tVWwxWGxrOElSVGc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-28T12:58:08.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Hashim–Indosat investasi Rp 3,8 T infrastruktur AI, dari GPU hingga kabel bawah laut",
+      "occurrences": 9,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-27",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Anthropic kontrak $45 miliar dengan Nscale untuk compute jangka panjang",
+      "occurrences": 7,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-27",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi",
+      "occurrences": 7,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-25",
+      "status": "recurring",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLTS 100 GWp diresmikan; IESR peringatkan eksekusi adalah tantangan nyata",
+      "occurrences": 6,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-27",
+      "status": "recurring",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise",
+      "occurrences": 6,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-25",
+      "status": "recurring",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 388,
+    "poolSize": 110,
+    "generatedAt": "2026-08-28T23:20:07.023Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
