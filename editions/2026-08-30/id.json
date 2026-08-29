@@ -1,0 +1,337 @@
+{
+  "slug": "2026-08-30",
+  "date": "2026-08-30",
+  "lang": "id",
+  "title": "Cursor–SpaceX Putus dari OpenAI; PLTS 100 GWp Masuk Eksekusi; Danantara ke Partners Group",
+  "dek": "Tiga keputusan hari ini — pemutusan kontrak AI frontier, peluncuran megaproyek surya Indonesia, dan penempatan modal institusional Danantara — menandai pergeseran dari wacana ke eksekusi di ketiga domain sekaligus.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI secara resmi mengakhiri kontrak layanan model kepada Cursor menyusul akuisisi Cursor oleh SpaceX, mempertegas bahwa kepemilikan perusahaan kini menjadi syarat akses model frontier. Di sisi energi, program PLTS 100 GWp Indonesia resmi diluncurkan Presiden Prabowo dengan target tiga tahun, didukung konfirmasi operasional PLTS Terapung Gajah Mungkur oleh PLN — melanjutkan tema pln-transmisi-investasi yang telah berulang tujuh kali. Sementara itu, Danantara menempatkan mandat investasi kredit swasta Rp17,76 triliun kepada Partners Group (Swiss), sinyal bahwa sovereign wealth fund ini kini bergerak ke alokasi aset alternatif global, bukan hanya restrukturisasi BUMN. SpaceX secara paralel menyiapkan pabrik turbin-blade untuk mengatasi krisis daya pusat data — memperkuat pola bahwa rantai nilai AI kini mencakup manufaktur pembangkit. Kelima sinyal ini secara kolektif menunjukkan bahwa infrastruktur AI, energi terbarukan, dan kapital institusional Indonesia sedang bergerak dari komitmen ke kontrak nyata.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Cursor",
+        "SpaceX"
+      ],
+      "headline": "OpenAI putus kontrak dengan Cursor setelah SpaceX mengakuisisinya",
+      "whatChanged": "OpenAI secara resmi mengumumkan keputusan untuk mengakhiri kontrak penyediaan model kepada Cursor, menyusul akuisisi Cursor oleh SpaceX. Pengumuman ini datang langsung dari sumber primer OpenAI pada 28 Agustus 2026.",
+      "whyItMatters": "Ini adalah pertama kalinya OpenAI secara publik memutus kontrak enterprise berbasis alasan kepemilikan pelanggan — bukan pelanggaran penggunaan. Pola yang terbentuk: akses ke model frontier kini bersyarat pada identitas pemilik, bukan hanya profil penggunaan. Bagi perusahaan yang bergantung pada API OpenAI, akuisisi oleh entitas yang dianggap kompetitif atau sensitif secara geopolitik kini menjadi risiko konektivitas, bukan sekadar risiko reputasi.",
+      "secondOrder": "Vendor AI yang melayani klien korporasi besar kini harus mengantisipasi klausul 'change-of-control' dalam kontrak API mereka. Perusahaan-perusahaan yang sedang dalam proses M&A perlu menilai ulang ketergantungan pada model tertentu sebelum transaksi ditutup — karena akuisisi sendiri bisa menjadi pemicu pemutusan layanan. Hal ini juga membuka celah bagi model open-weight (GLM-5.3 Flash, Qwen4-Exp) sebagai asuransi infrastruktur AI yang tidak bisa dicabut.",
+      "action": "Audit kontrak API model frontier yang dimiliki organisasi: tambahkan klausul 'change-of-control continuity' dalam negosiasi baru, dan tetapkan model open-weight lokal sebagai fallback yang sudah teruji sebelum dibutuhkan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-08-20",
+        "spanDays": 10
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "IESR",
+        "Presiden Prabowo"
+      ],
+      "headline": "PLTS 100 GWp resmi diluncurkan; PLN operasikan PLTS Terapung Gajah Mungkur",
+      "whatChanged": "Presiden Prabowo secara resmi meluncurkan Program PLTS 100 GWp pada 25 Agustus 2026 di Bali dengan target penyelesaian tiga tahun. Bersamaan, PLN mengoperasikan PLTS Terapung Gajah Mungkur di Jawa Tengah. IESR mengonfirmasi peluncuran dan mendesak eksekusi cepat dan terukur. Kementerian ESDM mengonfirmasi proyek mencakup lokasi dari Gilimanuk hingga Pulau Rengit.",
+      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang telah muncul tujuh kali dalam 30 hari — tema ini kini berstatus kondisi struktural, bukan berita. Implikasi akumulatif: komitmen politik tertinggi kini telah diberikan; pertanyaan yang tersisa adalah kecepatan eksekusi pengadaan dan kapasitas grid untuk menyerap tambahan kapasitas. IESR secara eksplisit memperingatkan bahwa peluncuran harus menjadi 'titik awal eksekusi,' bukan seremoni.",
+      "secondOrder": "Target 100 GWp dalam tiga tahun membutuhkan rata-rata ~33 GWp per tahun — sekitar 10x kapasitas tambahan solar Indonesia di tahun-tahun sebelumnya. Bottleneck bukan pada panel surya (pasokan global berlimpah) melainkan pada: transmisi grid untuk mengalirkan daya dari lokasi terpencil, sistem penyimpanan (BESS) yang dibutuhkan bersamaan, dan mekanisme pembiayaan offtake yang bankable. Tanpa transmisi subholding yang terpisah (seperti yang direkomendasikan IEEFA), proyek bisa terganjal di level korporasi PLN.",
+      "action": "Peta lokasi proyek PLTS yang sudah dikonfirmasi (Gilimanuk, Gajah Mungkur, Pulau Rengit) terhadap kapasitas transmisi PLN yang ada — identifikasi bottleneck grid paling kritis dan timeline pengadaan BESS yang realistis untuk mendampingi kapasitas surya tersebut.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNWc5RDU0TXd3RWtHY3ByQ1VuVkVPajlwaFpEX21uWHRPV0IxRkk2RTY3VktDMFd2bXNQRE90aUhUakNrckJyWFMzQmFHMW1pTTBhejR2YkRkWmcxOXA1WFF2VE41d3lnQW8wNnVod2FRcUZZdElKWWpUTU9mQXo2VGRNSGdGbm9JMF9pTUZ3VXpJSGRVeHViblloaHZtQ1g3d29hcU05bFVCeVVVV3ZIbVdlODB4ZjVLekE?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-08-22",
+        "spanDays": 8
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Anthropic",
+        "Model Hardware Standard",
+        "Ars Technica"
+      ],
+      "headline": "Anthropic Model Hardware Standard: agen AI kini bisa kendalikan perangkat fisik",
+      "whatChanged": "Anthropic mempublikasikan pratinjau Model Hardware Standard pada 27 Agustus 2026, sebuah spesifikasi teknis yang memungkinkan agen AI mengontrol perangkat fisik di dunia nyata. Ars Technica mengonfirmasi dengan liputan terpisah yang menyebut standar ini secara eksplisit membuka kendali fisik oleh AI agent.",
+      "whyItMatters": "Ini melanjutkan tema nuclear-ai-datacenter-power dari sisi permintaan: standar ini menambahkan dimensi baru — agen yang sama yang membutuhkan daya komputasi besar kini juga dapat mengoperasikan infrastruktur fisik, termasuk potensi kontrol di fasilitas industri dan energi. Ini mengubah kalkulasi risiko siber untuk infrastruktur kritis.",
+      "secondOrder": "Standar hardware Anthropic dapat menjadi lapisan protokol yang diikuti vendor industri — mirip bagaimana USB atau Bluetooth menjadi standar de facto. Jika diadopsi luas, regulator infrastruktur kritis (termasuk BSSN di Indonesia) perlu mempertimbangkan rezim sertifikasi baru untuk agen AI yang terhubung ke sistem SCADA atau pembangkit listrik.",
+      "action": "Baca full text Model Hardware Standard Anthropic dan identifikasi apakah ada persyaratan keamanan fisik atau audit yang diwajibkan bagi vendor yang mengimplementasikannya — ini relevan bagi operator PLTS, pusat data, dan BUMN infrastruktur yang sedang mengevaluasi adopsi AI agentic.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2dOSHcyS2VTS2YxQ2ZwSTBLZ2ljelNkd2ZPeXVLc196Y0h5eG9lRDF0U1c1ZUN4VmEza29mSWdXT05QVURvNHFZMnNxWWVieHdLenAzUDdtOGlVbF9SU3ZrVjJVek5wM1Voek5mN0NmSk5jVDdNUjhhamlDYk1Ha2Y1Y3lKbGQtUm8zWW91TklhUWp4akVDNWNmdFdERkxsRGkyNTZ2YmNpLXQ1X24w?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-08-20",
+        "spanDays": 10
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Partners Group",
+        "OJK"
+      ],
+      "headline": "Danantara tempatkan Rp17,76 triliun ke Partners Group Swiss sebagai mandat kredit swasta",
+      "whatChanged": "Danantara disebut memberikan mandat investasi kredit swasta senilai US$1 miliar (±Rp17,76 triliun) kepada Partners Group, manajer aset asal Swiss, per laporan Katadata 29 Agustus 2026. Ini adalah penempatan aset kelola Danantara ke manajer aset global yang pertama kali teridentifikasi secara publik.",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring, namun menandai pergeseran dimensi: Danantara tidak lagi semata-mata merestrukturisasi BUMN domestik, melainkan mulai mengalokasikan modal ke instrumen kredit swasta global. Mandat ke Partners Group — salah satu manajer aset alternatif terbesar dunia — menunjukkan Danantara membangun portofolio yang lebih mirip sovereign wealth fund konvensional (GIC, Temasek) daripada holding BUMN.",
+      "secondOrder": "Alokasi kredit swasta global mengimplikasikan bahwa Danantara sedang membangun kemampuan pengukuran risiko dan due diligence untuk aset alternatif — ini membutuhkan kapasitas SDM dan sistem yang belum tentu ada. Jika pola ini berlanjut, pertanyaan tata kelola menjadi kritis: mekanisme pelaporan kepada DPR dan publik untuk penempatan ke kendaraan swasta offshore belum jelas. Tempo.co English sebelumnya telah memperingatkan pentingnya pelaporan keuangan Danantara yang tepat waktu.",
+      "action": "Telusuri apakah mandat Partners Group ini terdaftar atau dilaporkan ke OJK (mengacu pada preseden Patriot Bond yang dilaporkan ke OJK per [80]); jika belum, ini adalah celah tata kelola yang perlu diangkat ke pemangku kepentingan sebelum penempatan berikutnya dilakukan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://katadata.co.id/finansial/korporasi/6a92c4ab1e075/danantara-tempatkan-dana-rp-17-76-triliun-ke-manajer-aset-swiss-partners-group"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZW9tbG9pWF8ybE11c3JwVlpucW1CSHliX21TRjQ4Q0g5b0tlZnpzTU1yX3AtdWRhN3NEcWhuUDczVjVTV2VnN3E0eFlnb1puOGFFdkFYSTljOWFXUHlUU0d2clBmWmNOMzZWeTZhTjFycFRFR1FxS29ERTMtQ21YS2hWQjc5SWVlX1pyeXJR?oc=5",
+        "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 11,
+        "firstSeen": "2026-08-19",
+        "spanDays": 11
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Konfirmasi resmi pendaftaran mandat Partners Group ke OJK atau laporan keuangan Danantara Q3 2026 — penentu apakah tata kelola alokasi aset alternatif memenuhi standar transparansi.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Pengumuman pengadaan BESS (Battery Energy Storage System) pertama dalam program PLTS 100 GWp — indikator apakah eksekusi teknis mengikuti komitmen politik.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Respons Cursor dan ekosistem developer terhadap pemutusan OpenAI: apakah mereka migrasi ke model open-weight atau menegosiasikan ulang akses melalui entitas terpisah dari SpaceX.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Publikasi penuh atau adopsi industri pertama terhadap Anthropic Model Hardware Standard — khususnya apakah vendor SCADA atau operator jaringan energi mulai mengimplementasikannya.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Konfirmasi atau bantahan SpaceX atas laporan The Information tentang pabrik turbin-blade — bila dikonfirmasi, tanda bahwa integrasi vertikal AI-ke-pembangkitan menjadi tren yang perlu dipetakan ulang.",
+      "dueDate": "2026-09-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-25T10:00:49.000Z"
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-28T06:00:00.000Z"
+    },
+    {
+      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-27T10:15:17.000Z"
+    },
+    {
+      "title": "Previewing the Model Hardware Standard",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-27T17:58:11.000Z"
+    },
+    {
+      "title": "Presiden Prabowo: PLTS 100 GWp Perkuat Kemandirian Energi Indonesia",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T15:38:31.000Z"
+    },
+    {
+      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Danantara Tempatkan Dana Rp 17,76 Triliun ke Manajer Aset Swiss Partners Group",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/korporasi/6a92c4ab1e075/danantara-tempatkan-dana-rp-17-76-triliun-ke-manajer-aset-swiss-partners-group",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-29T11:38:00.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T14:27:20.000Z"
+    },
+    {
+      "title": "Kata OJK soal Penerbitan Panda Bond dan Patriot Bond",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-01T08:07:27.000Z"
+    },
+    {
+      "title": "Anthropic’s new hardware standard lets AI agents control the physical world",
+      "publisher": "Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2dOSHcyS2VTS2YxQ2ZwSTBLZ2ljelNkd2ZPeXVLc196Y0h5eG9lRDF0U1c1ZUN4VmEza29mSWdXT05QVURvNHFZMnNxWWVieHdLenAzUDdtOGlVbF9SU3ZrVjJVek5wM1Voek5mN0NmSk5jVDdNUjhhamlDYk1Ha2Y1Y3lKbGQtUm8zWW91TklhUWp4akVDNWNmdFdERkxsRGkyNTZ2YmNpLXQ1X24w?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-27T22:15:43.000Z"
+    },
+    {
+      "title": "PLN hadirkan PLTS Terapung Gajah Mungkur perkuat energi bersih Jawa Tengah",
+      "publisher": "ANTARA News Jateng",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNWc5RDU0TXd3RWtHY3ByQ1VuVkVPajlwaFpEX21uWHRPV0IxRkk2RTY3VktDMFd2bXNQRE90aUhUakNrckJyWFMzQmFHMW1pTTBhejR2YkRkWmcxOXA1WFF2VE41d3lnQW8wNnVod2FRcUZZdElKWWpUTU9mQXo2VGRNSGdGbm9JMF9pTUZ3VXpJSGRVeHViblloaHZtQ1g3d29hcU05bFVCeVVVV3ZIbVdlODB4ZjVLekE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-27T04:54:36.000Z"
+    },
+    {
+      "title": "Why Timely Financial Reporting Matters for Danantara",
+      "publisher": "Tempo.co English",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZW9tbG9pWF8ybE11c3JwVlpucW1CSHliX21TRjQ4Q0g5b0tlZnpzTU1yX3AtdWRhN3NEcWhuUDczVjVTV2VnN3E0eFlnb1puOGFFdkFYSTljOWFXUHlUU0d2clBmWmNOMzZWeTZhTjFycFRFR1FxS29ERTMtQ21YS2hWQjc5SWVlX1pyeXJR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-07-04T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara konfirmasi setoran Rp120 triliun ke APBN 2026, batas waktu fiskal kini nyata",
+      "occurrences": 10,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Anthropic publishes Model Hardware Standard, enabling AI agents to control physical-world devices",
+      "occurrences": 8,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "GLM-5.3 Flash (320B multimodal) goes open-weight, raising competitive pressure on proprietary frontier models",
+      "occurrences": 7,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLTS 100 GWp mulai eksekusi: PLN operasikan PLTS Terapung Gajah Mungkur, ESDM konfirmasi proyek dari Gilimanuk hingga Pulau Rengit",
+      "occurrences": 7,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi",
+      "occurrences": 7,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-25",
+      "status": "recurring",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 372,
+    "poolSize": 110,
+    "generatedAt": "2026-08-29T23:19:23.874Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

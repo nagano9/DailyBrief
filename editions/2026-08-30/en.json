@@ -1,0 +1,303 @@
+{
+  "slug": "2026-08-30",
+  "date": "2026-08-30",
+  "lang": "en",
+  "title": "SpaceX Enters AI Power; OpenAI Cuts Cursor; PLTS 100 GW Execution Begins",
+  "dek": "Three structural shifts converge: AI infrastructure goes vertical into power hardware, model-access geopolitics reshapes enterprise contracts, and Indonesia's solar megaproject moves from announcement to groundbreaking.",
+  "domains": [
+    "ai",
+    "energy"
+  ],
+  "summary": "SpaceX is building turbine-blade manufacturing capacity to supply data-centre power directly, signalling that AI compute leaders are now integrating backward into energy hardware — a move with direct implications for how AI infrastructure is financed and who controls it. Simultaneously, OpenAI's decision to terminate its Cursor contract after SpaceX's acquisition illustrates that model-access risk is now a live corporate-governance variable, not a hypothetical. In Indonesia, President Prabowo's 100 GWp solar launch has moved from political declaration to groundbreaking at multiple sites, with IESR and ESDM both confirming execution pressure — continuing a structural trend now eight weeks old. Danantara's US$1 billion private-credit mandate to Partners Group marks the sovereign fund's first disclosed external asset-manager relationship, a meaningful governance signal for a fund managing SOE restructuring and APBN commitments simultaneously. Finally, the BLU energy body's coal-supply role for PLN's steam plants — with demands for payment terms faster than PLN's current cycle — introduces a new fiscal friction point inside Indonesia's energy transition.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Cursor",
+        "SpaceX"
+      ],
+      "headline": "OpenAI terminates Cursor's model contract following SpaceX acquisition, establishing model-access geopolitics precedent",
+      "whatChanged": "OpenAI published a primary-source announcement confirming it will wind down its contract providing OpenAI models to Cursor after Cursor's acquisition by SpaceX — a direct, named termination tied to an acquirer's identity rather than product or performance terms.",
+      "whyItMatters": "This is the first publicly confirmed instance of a frontier model provider exercising counterparty discretion based on the downstream acquirer's identity. It converts what was previously theoretical — that model API access could be revoked on geopolitical or competitive grounds — into an established contractual risk. The enterprise-ai-data-privacy-contracts theme (structural, 7× in 30 days) now has a concrete enforcement example to cite.",
+      "secondOrder": "Every enterprise or government that has built a product or workflow on a single model provider's API now faces a documented scenario in which M&A activity by their company, a parent, or a key investor could trigger involuntary service termination. Legal and procurement teams have not priced this risk; standard SaaS contract clauses do not cover it. The likely response — multi-model architectures and model-agnostic abstraction layers — accelerates demand for frameworks like LangChain's MCP adapter and Hugging Face open-weight models as insurance, not just cost tools.",
+      "action": "Review all API-dependent AI product contracts this week for change-of-control clauses; where absent, draft addenda requiring notice periods and data-portability guarantees; identify one open-weight or multi-provider fallback for each critical model dependency.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-08-20",
+        "spanDays": 10
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "IESR"
+      ],
+      "headline": "Indonesia's 100 GWp solar programme moves from launch to multi-site groundbreaking with IESR flagging execution accountability",
+      "whatChanged": "President Prabowo officially launched the 100 GWp PLTS programme with a three-year build target; ESDM confirmed groundbreaking at multiple sites from Gilimanuk to Pulau Rengit; PLN operationalised the Gajah Mungkur floating solar plant in Central Java; and IESR publicly stated the launch must be the start of fast, measurable execution — not another declaration.",
+      "whyItMatters": "This continues the pln-transmisi-investasi structural thread (7× in 30 days). The programme has crossed the critical threshold from political commitment to physical execution at named sites, with a sovereign launch event creating accountability. At 100 GWp over three years, the implied annual addition (~33 GWp/yr) would be roughly 15× Indonesia's current annual solar installation rate, making grid integration and transmission investment the binding constraint, not generation.",
+      "secondOrder": "IESR's public call for 'fast and measurable execution' signals that the domestic reform community is already positioning to hold the government accountable on delivery metrics — meaning regulatory and financing frameworks for grid expansion must materialise within months, not years, or the programme risks the same implementation gap as prior RUPTL commitments. This creates an immediate window for multilateral lenders (including German bilateral partners, per recent Indonesia-Germany grid investment signals) to lock in financing structures before the political momentum peaks.",
+      "action": "Map the transmission subholding proposal (IEEFA, May 2026) against the 100 GWp site list now public from ESDM; identify which sites have no confirmed grid connection pathway and flag them as the first likely delays — those are the conversations to initiate with PLN and ESDM counterparts this week.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNWc5RDU0TXd3RWtHY3ByQ1VuVkVPajlwaFpEX21uWHRPV0IxRkk2RTY3VktDMFd2bXNQRE90aUhUakNrckJyWFMzQmFHMW1pTTBhejR2YkRkWmcxOXA1WFF2VE41d3lnQW8wNnVod2FRcUZZdElKWWpUTU9mQXo2VGRNSGdGbm9JMF9pTUZ3VXpJSGRVeHViblloaHZtQ1g3d29hcU05bFVCeVVVV3ZIbVdlODB4ZjVLekE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-08-22",
+        "spanDays": 8
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "PLN EPI",
+        "Bloomberg Technoz"
+      ],
+      "headline": "BLU energy body demands faster payment from PLN for coal supply, adding fiscal friction to Indonesia's energy transition",
+      "whatChanged": "Bloomberg Technoz reports that the planned BLU (Badan Layanan Umum) energy body, which will supply coal to PLN's steam plants, is demanding payment terms faster than PLN's existing payment cycle — creating a structural mismatch between the new state logistics entity's cash-flow requirements and PLN's current procurement and payment processes.",
+      "whyItMatters": "This touches the pln-grid-investment structural thread: PLN's financial health is the single most critical variable for Indonesia's energy transition financing. A new mandatory supplier demanding accelerated payment terms adds a working-capital liability to PLN at the same moment it is expected to fund 100 GWp of solar integration and transmission expansion. The BLU's coal mandate also embeds a fossil-fuel supply chain at the centre of PLN's cost structure for the duration of the steam-plant retirement schedule.",
+      "secondOrder": "If BLU's payment demands are not matched by faster tariff pass-through or government subsidy disbursement, PLN's accounts-payable cycle lengthens on renewable contractors (who are lower in the payment priority stack than a state-mandated coal supplier), directly slowing the 100 GWp execution that was just launched. This is the kind of second-order fiscal friction that kills energy-transition programmes not through policy reversal but through cash-flow attrition — and it is almost entirely absent from current coverage of the PLTS launch.",
+      "action": "Obtain PLN EPI's current payment-cycle data and map it against BLU's stated payment demands; model the working-capital gap under three scenarios (BLU wins full terms, compromise, status quo) and assess which renewable IPP payment queues are most exposed — this analysis is worth commissioning before the BLU's operational launch date.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWZkTS1vSWFSUmpFNzhGWkVEZ09kd2czbXhpNUhLTTBNRWxGYnNXU3ZoYWRhOVlpWWh2R0k3MUoyLVZ3RThBLUk5YS1uMGtBTFNXLUNSekwwVS1ZOVJWazdBaldoQTlRSDRWWWt3MVNXZnQwaWZsN19kYWNnRm5mNE9nNmZvdEVza3l5eDhJa1VFNWN3NUZTRE00bFBhaE10amNzZHMzV01ZM256dHNqVkpRaVpfNjg?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdzZaNV9LUndRRDZFVHhWVEtQZTlVdU9xUm9qSC00bENkdDFFajhmYjdFRXRXNDhxU3ZXak9jRGdUQS16Ny0tZjNDOUxtT2VUUVhuQWFqNU53SGhfUEJXYnM5bE9nREFKWnlHSGlKbmVQb0JZWjVhbkROamE3UDJkbW5tdXMxMVFuNGFNdGpHRGhFdnAxaU03MFNnV00zWW9sUlFpTUw4Zw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 7,
+        "firstSeen": "2026-08-22",
+        "spanDays": 8
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "SpaceX",
+        "The Information"
+      ],
+      "headline": "SpaceX lays groundwork for turbine-blade factory to supply data-centre power directly",
+      "whatChanged": "The Information reports exclusively that SpaceX is establishing manufacturing capacity for turbine blades specifically to address the data-centre power shortage, moving the company from rocket and satellite hardware into power-generation components for AI infrastructure.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power structural thread: AI compute leaders are no longer waiting for utilities or independent power producers — they are integrating backward into the energy hardware stack. SpaceX's entry follows the pattern of hyperscalers signing nuclear PPAs, but goes further by owning production inputs, not just offtake. At structural frequency (8× in 30 days), this is now a condition to plan around, not a news event.",
+      "secondOrder": "If SpaceX supplies turbine components to data centres it also powers with Starlink backhaul and potentially finances through internal capital, the AI-infrastructure supply chain becomes a closed loop controlled by a single private actor. This creates a new category of counterparty concentration risk for any enterprise or sovereign that sources AI compute from SpaceX-adjacent infrastructure — and makes regulatory oversight of AI infrastructure significantly harder because the critical path runs through a private defence contractor, not a regulated utility.",
+      "action": "Reassess any data-centre procurement or co-location proposal that touches SpaceX-linked power supply using a full sponsor–offtaker–EPC–power–grid–lender–guarantee structure; flag single-actor vertical integration as a concentration risk requiring contractual ring-fencing or alternative power sourcing.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbjZJbXowc1htYzgyMFppeVBpc0h5NjFvbmtTbU1wbUlGbU5vYVJaN2JGaE4tY3l4QTBqY1NDenhJZ3NLQzFCbTZUV003Zk5vWkFwdkRrTDNSMnFIeUY1Y1N1aGFuekhRMTFSNFBWbUxkUGhDSXhWNERjUzJHcnNBTDVudC1kN1VoV0VpWk1RX3YtSmRMTF93LS16T1RyRnNrcXV3YnhHcUhNUU9xQ1RobGRfamIyRHNHUjBMMFI4N2VyTGdKR092VkJTenN4dU02clZNMjUxV2ZCRVpiaFk0?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-08-20",
+        "spanDays": 10
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "SpaceX turbine-blade factory: watch for facility permits, equipment orders, or customer announcements that confirm operational timeline and first data-centre power delivery target",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Cursor/OpenAI contract wind-down: monitor whether Cursor migrates to xAI/Grok or open-weight models, and whether other SpaceX-adjacent AI products face similar access revocation",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "PLTS 100 GWp: track whether ESDM publishes site-by-site connection agreements and PPA signatures within 90 days of groundbreaking — absence of these by November 2026 signals execution gap",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Danantara external mandates: watch for additional third-party asset-manager appointments that would confirm outsourced governance as a deliberate strategy ahead of BUMN Karya restructuring close",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "BLU energy body launch: confirm operational start date, payment-term resolution with PLN, and whether renewable IPP payment queues show measurable lengthening in next PLN financial disclosure",
+      "dueDate": "2026-10-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-25T10:00:49.000Z"
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-28T06:00:00.000Z"
+    },
+    {
+      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-27T10:15:17.000Z"
+    },
+    {
+      "title": "Exclusive: SpaceX Lays Groundwork For Turbine-Blade Factory to Solve Data Center Power Crunch",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbjZJbXowc1htYzgyMFppeVBpc0h5NjFvbmtTbU1wbUlGbU5vYVJaN2JGaE4tY3l4QTBqY1NDenhJZ3NLQzFCbTZUV003Zk5vWkFwdkRrTDNSMnFIeUY1Y1N1aGFuekhRMTFSNFBWbUxkUGhDSXhWNERjUzJHcnNBTDVudC1kN1VoV0VpWk1RX3YtSmRMTF93LS16T1RyRnNrcXV3YnhHcUhNUU9xQ1RobGRfamIyRHNHUjBMMFI4N2VyTGdKR092VkJTenN4dU02clZNMjUxV2ZCRVpiaFk0?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-29T18:21:00.000Z"
+    },
+    {
+      "title": "Nasib PLN EPI di Tengah Rencana Kehadiran BLU Energi - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdzZaNV9LUndRRDZFVHhWVEtQZTlVdU9xUm9qSC00bENkdDFFajhmYjdFRXRXNDhxU3ZXak9jRGdUQS16Ny0tZjNDOUxtT2VUUVhuQWFqNU53SGhfUEJXYnM5bE9nREFKWnlHSGlKbmVQb0JZWjVhbkROamE3UDJkbW5tdXMxMVFuNGFNdGpHRGhFdnAxaU03MFNnV00zWW9sUlFpTUw4Zw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-28T03:30:45.000Z"
+    },
+    {
+      "title": "Presiden Prabowo: PLTS 100 GWp Perkuat Kemandirian Energi Indonesia",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T15:38:31.000Z"
+    },
+    {
+      "title": "BLU Pasok Batu Bara PLTU, Pembayaran Diminta Lebih Cepat dari PLN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWZkTS1vSWFSUmpFNzhGWkVEZ09kd2czbXhpNUhLTTBNRWxGYnNXU3ZoYWRhOVlpWWh2R0k3MUoyLVZ3RThBLUk5YS1uMGtBTFNXLUNSekwwVS1ZOVJWazdBaldoQTlRSDRWWWt3MVNXZnQwaWZsN19kYWNnRm5mNE9nNmZvdEVza3l5eDhJa1VFNWN3NUZTRE00bFBhaE10amNzZHMzV01ZM256dHNqVkpRaVpfNjg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-27T08:40:00.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T14:27:20.000Z"
+    },
+    {
+      "title": "PLN hadirkan PLTS Terapung Gajah Mungkur perkuat energi bersih Jawa Tengah",
+      "publisher": "ANTARA News Jateng",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNWc5RDU0TXd3RWtHY3ByQ1VuVkVPajlwaFpEX21uWHRPV0IxRkk2RTY3VktDMFd2bXNQRE90aUhUakNrckJyWFMzQmFHMW1pTTBhejR2YkRkWmcxOXA1WFF2VE41d3lnQW8wNnVod2FRcUZZdElKWWpUTU9mQXo2VGRNSGdGbm9JMF9pTUZ3VXpJSGRVeHViblloaHZtQ1g3d29hcU05bFVCeVVVV3ZIbVdlODB4ZjVLekE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-27T04:54:36.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara konfirmasi setoran Rp120 triliun ke APBN 2026, batas waktu fiskal kini nyata",
+      "occurrences": 10,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Anthropic publishes Model Hardware Standard, enabling AI agents to control physical-world devices",
+      "occurrences": 8,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "GLM-5.3 Flash (320B multimodal) goes open-weight, raising competitive pressure on proprietary frontier models",
+      "occurrences": 7,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLTS 100 GWp mulai eksekusi: PLN operasikan PLTS Terapung Gajah Mungkur, ESDM konfirmasi proyek dari Gilimanuk hingga Pulau Rengit",
+      "occurrences": 7,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi",
+      "occurrences": 7,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-25",
+      "status": "recurring",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 372,
+    "poolSize": 110,
+    "generatedAt": "2026-08-29T23:20:38.638Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
