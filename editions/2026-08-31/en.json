@@ -1,0 +1,314 @@
+{
+  "slug": "2026-08-31",
+  "date": "2026-08-31",
+  "lang": "en",
+  "title": "Anthropic Physical-World Agents, PLTS 100 GW Execution Gap, Danantara Sritex Bid",
+  "dek": "Three structural themes converge today: AI agents cross into hardware control, Indonesia's solar moonshot meets financing reality, and Danantara extends its intervention portfolio beyond construction SOEs.",
+  "domains": [
+    "ai",
+    "energy"
+  ],
+  "summary": "Anthropic has published a hardware standard enabling AI agents to actuate physical systems, a step that moves autonomous agents from software into industrial and infrastructure contexts — with immediate implications for enterprise AI governance. OpenAI's published rationale for terminating Cursor's model access following SpaceX's acquisition sharpens the boundary between AI vendor and AI competitor, a pattern every enterprise procurement team must now price in. Indonesia's 100 GWp solar programme, launched by President Prabowo on 25 August, faces the same execution bottleneck IESR identified: grid readiness and financing mechanisms remain undefined, keeping the structural pln-transmisi-investasi constraint alive. Separately, Danantara's reported interest in acquiring the bankrupt textile firm Sritex signals that the sovereign fund's intervention logic is expanding from BUMN Karya construction firms toward distressed industrial assets — a governance risk worth tracking. Global solar-plus-storage investment reaching $25 billion in H1 2026 confirms capital is moving toward co-located projects, directly relevant to Indonesia's PLTS programme design.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Cursor",
+        "SpaceX"
+      ],
+      "headline": "OpenAI publishes its rationale for terminating Cursor's model contract post-SpaceX acquisition",
+      "whatChanged": "OpenAI published an official statement on 28 August 2026 confirming it is winding down the model-supply contract with Cursor following Cursor's acquisition by SpaceX. The document makes explicit that the decision was driven by the competitive boundary created when a downstream AI application moved inside a rival technology conglomerate.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts thread, now at structural frequency (8x in 30 days). OpenAI is operationalising a vendor-competitor firewall: any enterprise customer that is acquired by, or merges with, a firm OpenAI classifies as a competitor can expect model access to be revoked. This is no longer a hypothetical clause — it is a documented precedent.",
+      "secondOrder": "Enterprise software buyers who have built products on OpenAI APIs now carry acquisition-event risk in their cap tables. An acquirer from the AI infrastructure or defence-tech sector could inadvertently trigger contract termination on day one of closing. Legal and procurement teams have not yet priced this into M&A due diligence frameworks — but they will need to after this ruling.",
+      "action": "This week: add an 'AI vendor dependency' schedule to M&A due diligence templates, listing all foundation-model API contracts and their competitive-use or change-of-control clauses. Flag any target whose acquirer could be classified as an OpenAI competitor.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-08-20",
+        "spanDays": 11
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "IESR",
+        "IEEFA"
+      ],
+      "headline": "IESR flags execution and financing gaps in Indonesia's 100 GWp solar launch; grid bottleneck persists",
+      "whatChanged": "On 25 August 2026, President Prabowo officially launched the 100 GWp PLTS programme with a three-year build target. IESR, in a same-day statement, welcomed the launch but explicitly conditioned its endorsement on rapid follow-through: grid readiness, offtake mechanisms, and financing instruments remain unspecified. Kementerian ESDM and the Presidential Secretariat confirmed the launch across multiple channels.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread, now structural (7-8x in 30 days). A 100 GWp target in three years implies roughly 33 GW per year — approximately 15× Indonesia's recent annual solar addition rate. The gap between announcement and executable pipeline is not a communications problem; it is a financing and grid-infrastructure problem that the launch event did not resolve.",
+      "secondOrder": "International capital will not commit at the required scale without bankable offtake structures and a credible transmission expansion plan. The IEEFA transmission subholding proposal (published May–June 2026) remains the most concrete structural fix on the table, but has not been adopted. Every month without a financing and grid decision narrows the three-year window and increases the probability that the 100 GWp figure becomes a rebase target rather than a delivery commitment.",
+      "action": "This week: map the delta between Indonesia's current annual solar commissioning rate and the 33 GW/year implied by the programme. Use this figure to stress-test any project pipeline or offtake commitment that assumes the 100 GWp target is fully achievable by 2029.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-08-22",
+        "spanDays": 9
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "solar-plus-storage-investment",
+      "entities": [
+        "BloombergNEF",
+        "pv magazine"
+      ],
+      "headline": "Global solar-plus-storage co-located investment hits $25 billion in H1 2026, per BloombergNEF",
+      "whatChanged": "BloombergNEF data cited by pv magazine (28 August 2026) show that global investment in co-located solar-plus-storage projects reached $25 billion in the first half of 2026, within a total renewable energy investment figure of $327.5 billion for H1. The shift toward co-located configurations is attributed to growing revenue uncertainty for standalone solar.",
+      "whyItMatters": "Revenue cannibalisation — the depression of wholesale electricity prices during peak solar hours — is now visibly driving capital away from standalone solar toward storage-paired configurations at scale. This is not a marginal trend: $25 billion in six months for a single project typology represents a structural repricing of how solar assets are underwritten.",
+      "secondOrder": "For Indonesia's 100 GWp PLTS programme, this global capital shift is a double signal: co-located storage improves grid compatibility and bankability, but it raises per-MW capital costs and complicates tariff design. Any offtake or financing framework designed around standalone solar economics will be misaligned with where international capital is actually flowing — and will struggle to attract the institutional co-financing the programme needs.",
+      "action": "This week: when evaluating Indonesia PLTS project structures, require proponents to model co-located storage scenarios and assess whether the proposed offtake tariff is competitive with H1 2026 international benchmarks for solar-plus-storage.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/08/28/investments-in-co-located-solar-plus-storage-reach-25-billion-in-h1-says-bloombergnef/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "solar-plus-storage-investment",
+        "status": "new",
+        "occurrences": 1,
+        "firstSeen": "2026-08-31",
+        "spanDays": 0
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-agent-hardware-control",
+      "entities": [
+        "Anthropic",
+        "Ars Technica"
+      ],
+      "headline": "Anthropic releases hardware standard enabling AI agents to actuate physical-world systems",
+      "whatChanged": "On 27 August 2026, Anthropic published a new hardware standard — reported by Ars Technica — that defines how AI agents can interface with and control physical hardware, extending agent capability beyond software execution into real-world actuation.",
+      "whyItMatters": "AI agents have until now operated within software sandboxes. A vendor-level hardware standard from Anthropic signals the field is standardising the interface between agentic AI and physical systems — factories, grid equipment, laboratory instruments. The Model Context Protocol (MCP) established the software-tool interface; this hardware standard is the physical-world equivalent.",
+      "secondOrder": "Industrial operators and critical-infrastructure owners — including energy utilities and data-centre operators — now face a near-term decision about whether to permit AI agent access to operational technology (OT) networks. The standard's existence will accelerate vendor pitches into OT environments before safety and governance frameworks for those environments are mature. Regulators who have focused on AI in software contexts will need to extend their remit to OT/AI interfaces.",
+      "action": "This week: assess whether your organisation's OT security policy explicitly addresses AI agent authentication and privilege boundaries. If it does not, open a gap-analysis workstream before vendors begin proposing agent-controlled physical integrations.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2dOSHcyS2VTS2YxQ2ZwSTBLZ2ljelNkd2ZPeXVLc196Y0h5eG9lRDF0U1c1ZUN4VmEza29mSWdXT05QVURvNHFZMnNxWWVieHdLenAzUDdtOGlVbF9SU3ZrVjJVek5wM1Voek5mN0NmSk5jVDdNUjhhamlDYk1Ha2Y1Y3lKbGQtUm8zWW91TklhUWp4akVDNWNmdFdERkxsRGkyNTZ2YmNpLXQ1X24w?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-agent-hardware-control",
+        "status": "recurring",
+        "occurrences": 2,
+        "firstSeen": "2026-08-29",
+        "spanDays": 2
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Danantara formal announcement on Sritex acquisition: watch for deal structure, capital source (Danantara balance sheet vs. APBN), and whether OJK classifies it as a regulated transaction.",
+      "dueDate": "2026-09-14"
+    },
+    {
+      "item": "PLN / Kementerian ESDM release of PLTS 100 GWp financing framework and transmission expansion plan — the absence of these documents is the core execution risk flagged by IESR.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Anthropic hardware-standard adoption: watch for first OT-vendor or industrial-IoT partnership announcements referencing the standard, and any regulatory response from ICS/SCADA security bodies.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "OpenAI competitive-use clause enforcement: monitor whether additional AI application vendors with strategic investor overlaps receive similar contract termination notices, establishing pattern frequency.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Danantara BUMN Karya restructuring end-2026 deadline: Bloomberg Technoz reported the target as December 2026 — track whether financial statement remediation and merger/divestiture milestones are being met.",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Investments in co-located solar-plus-storage reach $25 billion in H1, says BloombergNEF",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/08/28/investments-in-co-located-solar-plus-storage-reach-25-billion-in-h1-says-bloombergnef/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-28T13:38:09.000Z"
+    },
+    {
+      "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-25T10:00:49.000Z"
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-28T06:00:00.000Z"
+    },
+    {
+      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-27T10:15:17.000Z"
+    },
+    {
+      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Presiden Prabowo: PLTS 100 GWp Perkuat Kemandirian Energi Indonesia",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T15:38:31.000Z"
+    },
+    {
+      "title": "Anthropic’s new hardware standard lets AI agents control the physical world",
+      "publisher": "Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2dOSHcyS2VTS2YxQ2ZwSTBLZ2ljelNkd2ZPeXVLc196Y0h5eG9lRDF0U1c1ZUN4VmEza29mSWdXT05QVURvNHFZMnNxWWVieHdLenAzUDdtOGlVbF9SU3ZrVjJVek5wM1Voek5mN0NmSk5jVDdNUjhhamlDYk1Ha2Y1Y3lKbGQtUm8zWW91TklhUWp4akVDNWNmdFdERkxsRGkyNTZ2YmNpLXQ1X24w?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-27T22:15:43.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T14:27:20.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara konfirmasi setoran Rp120 triliun ke APBN 2026, batas waktu fiskal kini nyata",
+      "occurrences": 10,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "SpaceX meletakkan fondasi pabrik bilah turbin untuk atasi krisis daya pusat data AI",
+      "occurrences": 9,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-30",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI winds down Cursor contract after SpaceX acquisition, drawing AI ecosystem boundary",
+      "occurrences": 8,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-30",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLTS 100 GWp diluncurkan Presiden Prabowo, PLN operasikan PLTS Terapung Gajah Mungkur sebagai eksekusi pertama",
+      "occurrences": 8,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-30",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "OpenAI akhiri kontrak model untuk Cursor pasca-akuisisi oleh SpaceX",
+      "occurrences": 7,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-30",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 374,
+    "poolSize": 110,
+    "generatedAt": "2026-08-30T23:21:07.549Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

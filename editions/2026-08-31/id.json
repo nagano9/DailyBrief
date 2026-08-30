@@ -1,0 +1,388 @@
+{
+  "slug": "2026-08-31",
+  "date": "2026-08-31",
+  "lang": "id",
+  "title": "OpenAI-Cursor, Antropic Hardware Agent, PLTS 100 GW & Danantara Capai Titik Infleksi",
+  "dek": "Empat sinyal hari ini menunjukkan batas ekosistem AI semakin tegas, agen fisik masuk produksi, investasi surya global bergeser ke storage, dan dua reformasi besar Indonesia—PLTS & BUMN Karya—memasuki fase eksekusi yang memerlukan keputusan fiskal konkret.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI secara resmi mengakhiri kontrak model untuk Cursor pasca-akuisisi SpaceX, menegaskan bahwa kepemilikan korporasi kini menjadi penentu akses ekosistem AI—bukan sekadar persyaratan teknis. Bersamaan, Anthropic meluncurkan standar hardware baru yang memungkinkan agen AI mengendalikan perangkat fisik, menandai perpindahan AI dari lapisan perangkat lunak ke infrastruktur fisik. Di sisi energi, investasi global solar-plus-storage mencapai USD 25 miliar di H1 2026 dengan pergeseran modal yang nyata dari proyek EPC murni ke proyek terintegrasi penyimpanan—sinyal yang relevan bagi agenda PLTS 100 GWp Indonesia yang baru diluncurkan Presiden Prabowo namun masih membutuhkan roadmap storage dan transmisi. Di front korporasi, Danantara kini menghadapi dua tekanan bersamaan: batas waktu restrukturisasi BUMN Karya akhir 2026 dan pengambilalihan Sritex yang membutuhkan keputusan fiskal segera, sementara rencana BLU energi berpotensi menggeser peran PLN EPI dalam rantai pasok batu bara PLTU—menciptakan risiko operasional sebelum transisi energi selesai.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Cursor",
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "headline": "OpenAI resmi akhiri kontrak model untuk Cursor setelah akuisisi SpaceX—batas ekosistem AI kini berbasis kepemilikan",
+      "whatChanged": "OpenAI menerbitkan pernyataan resmi [17] yang mengonfirmasi keputusan mengakhiri kontrak penyediaan model untuk Cursor, dengan alasan eksplisit bahwa akuisisi Cursor oleh SpaceX—yang juga dimiliki Elon Musk—menciptakan konflik kepentingan yang tidak dapat diselesaikan dalam kerangka perjanjian yang ada.",
+      "whyItMatters": "Ini adalah preseden pertama di mana OpenAI secara publik menggunakan struktur kepemilikan korporasi pihak ketiga—bukan pelanggaran teknis atau hukum—sebagai dasar pemutusan kontrak B2B. Pola ini mengubah cara perusahaan menilai risiko vendor AI: kepemilikan saham dan afiliasi korporasi kini menjadi variabel kontrak, bukan sekadar latar belakang.",
+      "secondOrder": "Perusahaan teknologi yang bergantung pada API OpenAI dan sedang dalam proses M&A atau yang dimiliki konglomerat dengan portofolio bersaing kini menanggung risiko terminasi kontrak yang sebelumnya tidak diperhitungkan dalam due diligence. Ini akan mendorong diversifikasi vendor model (multi-model strategy) sebagai standar operasional baru, mempercepat adopsi model open-source atau model yang dikelola sendiri sebagai hedging, dan berpotensi menciptakan klausul 'change of control' spesifik AI dalam kontrak SaaS.",
+      "action": "Audit kontrak vendor AI yang berjalan: identifikasi klausul change-of-control, afiliasi korporasi yang bersinggungan dengan ekosistem OpenAI/Microsoft/Google, dan siapkan rencana migrasi model sebagai bagian dari business continuity planning.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-08-20",
+        "spanDays": 11
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Anthropic",
+        "Ars Technica"
+      ],
+      "headline": "Anthropic rilis standar hardware baru yang memungkinkan agen AI kendalikan perangkat fisik",
+      "whatChanged": "Anthropic mengumumkan standar hardware baru—dilaporkan oleh Ars Technica [64] dan dikonfirmasi melalui komunikasi resmi Anthropic [16, 41]—yang memungkinkan agen AI mengontrol sistem fisik secara langsung, melampaui batasan perangkat lunak dan antarmuka digital yang selama ini menjadi batas operasi agen.",
+      "whyItMatters": "Perpindahan agen AI dari lapisan perangkat lunak ke pengendalian fisik menandai transisi kategori: AI bukan lagi alat analisis atau otomasi teks, melainkan operator infrastruktur fisik. Standar hardware yang terbuka berpotensi menjadi lapisan interoperabilitas baru seperti yang dilakukan USB atau Bluetooth pada eranya—siapa yang menetapkan standar, menetapkan ekosistem.",
+      "secondOrder": "Jika standar ini diadopsi luas, vendor peralatan industri, sistem SCADA, dan infrastruktur kritis akan menghadapi tekanan untuk mengintegrasikan antarmuka kompatibel—menciptakan permukaan serangan baru yang belum memiliki regulasi keamanan siber yang memadai di mayoritas yurisdiksi, termasuk Indonesia. Regulator sektor energi dan infrastruktur kritis perlu mengantisipasi kerangka sertifikasi untuk agen AI yang beroperasi pada aset fisik.",
+      "action": "Nilai eksposur infrastruktur fisik yang dikelola (pembangkit, transmisi, fasilitas industri) terhadap standar agen AI baru ini; konsultasikan dengan tim keamanan siber apakah arsitektur OT/IT saat ini memiliki pemisahan yang memadai sebelum integrasi agen fisik.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2dOSHcyS2VTS2YxQ2ZwSTBLZ2ljelNkd2ZPeXVLc196Y0h5eG9lRDF0U1c1ZUN4VmEza29mSWdXT05QVURvNHFZMnNxWWVieHdLenAzUDdtOGlVbF9SU3ZrVjJVek5wM1Voek5mN0NmSk5jVDdNUjhhamlDYk1Ha2Y1Y3lKbGQtUm8zWW91TklhUWp4akVDNWNmdFdERkxsRGkyNTZ2YmNpLXQ1X24w?oc=5",
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 10,
+        "firstSeen": "2026-08-20",
+        "spanDays": 11
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "IESR",
+        "BloombergNEF",
+        "Presiden Prabowo"
+      ],
+      "headline": "Investasi solar-plus-storage global capai USD 25 miliar H1 2026; Indonesia luncurkan PLTS 100 GWp tanpa roadmap storage terintegrasi",
+      "whatChanged": "BloombergNEF melaporkan [7] investasi global di proyek co-located solar-plus-storage mencapai USD 25 miliar di H1 2026—bagian dari total investasi energi terbarukan USD 327,5 miliar—dengan modal yang secara eksplisit bergeser dari proyek EPC murni ke proyek terintegrasi penyimpanan akibat ketidakpastian pendapatan. Bersamaan, Presiden Prabowo meluncurkan Program PLTS 100 GWp di Bali [48, 72, 23] dengan target pembangunan tiga tahun, namun IESR [10] mengingatkan bahwa peluncuran ini harus menjadi 'titik awal eksekusi cepat dan terukur'—mengindikasikan belum adanya rencana eksekusi yang konkret.",
+      "whyItMatters": "Tren global menunjukkan bahwa proyek surya skala besar yang tidak terintegrasi dengan storage semakin sulit menarik modal karena ketidakpastian pendapatan akibat curtailment. Program PLTS 100 GWp Indonesia yang dirancang tanpa roadmap storage terintegrasi berisiko menghadapi hambatan pembiayaan yang sama, terutama karena kapasitas transmisi PLN belum memadai untuk menyerap tambahan kapasitas sebesar itu.",
+      "secondOrder": "Ketidakselarasan antara target kapasitas PLTS dan kesiapan transmisi-storage menciptakan risiko stranded asset: proyek yang selesai dibangun namun tidak dapat menyalurkan listrik secara optimal. Ini akan memperburuk neraca PLN dan berpotensi mengharuskan renegoisasi PPA yang sudah ditandatangani—preseden yang merusak kepercayaan investor IPP.",
+      "action": "Dorong PLN dan Kementerian ESDM untuk menerbitkan roadmap storage terintegrasi sebagai prasyarat tender PLTS gelombang pertama; gunakan fakta pergeseran investasi global ke solar-plus-storage sebagai argumen untuk mewajibkan komponen storage dalam skema PLTS 100 GWp.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/08/28/investments-in-co-located-solar-plus-storage-reach-25-billion-in-h1-says-bloombergnef/",
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-08-22",
+        "spanDays": 9
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Sritex",
+        "BUMN Karya",
+        "CNBC Indonesia"
+      ],
+      "headline": "Danantara hadapi dua deadline bersamaan: restrukturisasi BUMN Karya akhir 2026 dan pengambilalihan Sritex",
+      "whatChanged": "Bloomberg Technoz [71] mengonfirmasi Danantara menargetkan restrukturisasi BUMN Karya rampung akhir 2026, sementara KONTAN [44] melaporkan rencana pengambilalihan Sritex oleh Danantara sedang diproses. CNBC Indonesia [47] sebelumnya mengungkap COO Danantara memaparkan progres restrukturisasi yang mencakup perbaikan laporan keuangan, divestasi, dan merger. Bisnis.com [52] mencatat kompleksitas proses ini, termasuk persoalan laporan keuangan BUMN Karya yang belum bersih.",
+      "whyItMatters": "Dua operasi korporasi besar yang dijalankan bersamaan—restrukturisasi delapan BUMN Karya plus akuisisi korporasi gagal (Sritex)—membebani kapasitas manajerial dan modal Danantara yang juga terikat setoran Rp120 triliun ke APBN 2026. Ini bukan lagi agenda reformasi; ini adalah operasi turnaround dengan tekanan likuiditas dan tenggat fiskal yang nyata.",
+      "secondOrder": "Bila restrukturisasi BUMN Karya tertunda melewati akhir 2026, konsekuensi fiskal langsung adalah berkurangnya kemampuan Danantara menyetor ke APBN 2027—menciptakan tekanan anggaran di tengah kebutuhan belanja infrastruktur energi yang meningkat. Pengambilalihan Sritex yang buruk strukturnya dapat menambah liabilitas kontingen yang tidak tercermin dalam valuasi Danantara saat ini.",
+      "action": "Petakan secara terpisah jalur pembiayaan restrukturisasi BUMN Karya versus akuisisi Sritex: apakah keduanya menggunakan sumber modal yang sama? Identifikasi risiko crowding-out antara dua operasi ini dan kapasitas Danantara memenuhi kewajiban setoran APBN 2026.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWEUxTEthcHgtSHZhS08zdkxab0d3OTR0Q1RrWW5QRDB0RkxfTzRPWG1nam9vaUVtVmx6dHJCczFwd2Z6eVlFN2k1dDZYTWR1NXBkQ1VkU3R6RVJnV2hEbXc1SVVFU0NSNDVScmMwbVFvZk5VUW5saXhjMmtweHhySlpLUmg?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRElKcDNKakwza3ZxUTZFTy1IZC1zYnJmb24xbzdMUlFuUXVEQTN1V1dUQnZFSWhDQlIxaTQ0elgyR3VrX1RSZzRYQThxbUhzeGNSVFBjcS1jb0t2bGg4RDFrblNzR0JjZW5YMk9XWnl1Ui12QXV3S0lHQTFaaWNpUkEwVFUtVkE4S0RicDh4b1VndnY2TjdNVnFOejMtWlQxNFZEenI4S28yLVNoRVRTMWI1aG81aktW0gG-AUFVX3lxTE1sRm9qZFd6XzRnemRfQzVHdlVNT0ZUYmp5dnExMUxrRHpQTXMzYTEyWEJLWTVKM3hjVFc2cy1tN3QtQnJUazBqWmVRcHZRaXNRYzVMSXF6ZlA3VnNKZUEwelN5S1lTLWUwdHZCTlhsTFJFNE9heFpsQnhiZG9yUHIwSWYwTVo2RGdqUWJrakt0MWQxSTBxS3BKQWI5bHhDUlZJbV9vUUNYTEo4UzU1MGFYdFpxSG9HMUdOc0M2UGc?oc=5",
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWnl6aXM2RXFzS005Q1NwUzNFY0h2U2ZaVkxtb2F5VF9PeVEwOTJ1RUMxT1ZwY0FYQ1piR0tvR0MtS0RjWjRlTTROQkEwVTJtdnY0MTB5V0hiQW9KQ2RLR05XeEhWTEF4YjBuYTZ3ZVVBeEZwa1J0RDhyQk1HUDdkdXNzdDJKcWxrQ1Q1RjJaQ2RSUHlCajRPSEtWQ3NkZk9iRlh4QW1tbi0xbm5BanY5N2w1NnFZUWhmY21DUkNRZG9JSUxXYXd4ampCV1lnQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 11,
+        "firstSeen": "2026-08-19",
+        "spanDays": 12
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN EPI",
+        "BLU Energi",
+        "PLN"
+      ],
+      "headline": "Rencana BLU Energi ancam posisi PLN EPI dalam rantai pasok batu bara PLTU sebelum transisi selesai",
+      "whatChanged": "Bisnis.com [70] melaporkan nasib PLN Energi Primer Indonesia (PLN EPI) terancam dengan rencana pembentukan Badan Layanan Umum (BLU) Energi yang akan mengambil alih fungsi pasokan batu bara ke PLTU. Bloomberg Technoz [98] menambahkan bahwa BLU yang direncanakan ini meminta skema pembayaran yang lebih cepat dari PLN—menunjukkan adanya tekanan arus kas dalam rantai pasok energi primer saat ini.",
+      "whyItMatters": "Intervensi BLU dalam rantai pasok batu bara memperkenalkan entitas baru dengan logika anggaran negara ke dalam rantai yang selama ini dikelola korporasi. Ini berpotensi menciptakan konflik prioritas: BLU cenderung mengutamakan stabilitas pasokan dengan harga regulasi, sementara PLN EPI beroperasi dengan logika margin komersial. Ketidakjelasan peran ini terjadi tepat saat PLTU masih menjadi tulang punggung sistem kelistrikan nasional.",
+      "secondOrder": "Transisi yang tidak mulus antara PLN EPI dan BLU Energi dapat menciptakan celah pasokan batu bara ke PLTU dalam jangka pendek, terutama bila peraturan teknis BLU belum siap saat PLTU membutuhkan pasokan kontraktual. Ini berpotensi menekan keandalan sistem kelistrikan justru saat permintaan listrik sedang meningkat akibat program elektrifikasi dan pertumbuhan beban pusat data.",
+      "action": "Pantau proses legislasi/regulasi pembentukan BLU Energi: apakah ada masa transisi yang diatur untuk PLN EPI? Nilai risiko gap pasokan batu bara ke PLTU dalam skenario transisi cepat, dan identifikasi apakah kontrak jangka panjang PLN EPI dengan pemasok batu bara memiliki klausul novasi ke BLU.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdzZaNV9LUndRRDZFVHhWVEtQZTlVdU9xUm9qSC00bENkdDFFajhmYjdFRXRXNDhxU3ZXak9jRGdUQS16Ny0tZjNDOUxtT2VUUVhuQWFqNU53SGhfUEJXYnM5bE9nREFKWnlHSGlKbmVQb0JZWjVhbkROamE3UDJkbW5tdXMxMVFuNGFNdGpHRGhFdnAxaU03MFNnV00zWW9sUlFpTUw4Zw?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWZkTS1vSWFSUmpFNzhGWkVEZ09kd2czbXhpNUhLTTBNRWxGYnNXU3ZoYWRhOVlpWWh2R0k3MUoyLVZ3RThBLUk5YS1uMGtBTFNXLUNSekwwVS1ZOVJWazdBaldoQTlRSDRWWWt3MVNXZnQwaWZsN19kYWNnRm5mNE9nNmZvdEVza3l5eDhJa1VFNWN3NUZTRE00bFBhaE10amNzZHMzV01ZM256dHNqVkpRaVpfNjg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-08-22",
+        "spanDays": 9
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Tender gelombang pertama PLTS 100 GWp: apakah skema mensyaratkan komponen storage terintegrasi dan bagaimana PLN menanggung risiko curtailment",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Peraturan teknis pembentukan BLU Energi dan nasib kontrak eksisting PLN EPI dengan pemasok batu bara",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Adopsi standar hardware Anthropic oleh vendor industri dan respons regulator keamanan siber infrastruktur kritis",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Keputusan Danantara atas Sritex: struktur pembiayaan, sumber modal, dan dampak terhadap kapasitas setoran APBN 2026",
+      "dueDate": "2026-09-15"
+    },
+    {
+      "item": "Respons industri terhadap terminasi kontrak OpenAI-Cursor: apakah muncul klausul 'change of control' baru dalam perjanjian API OpenAI",
+      "dueDate": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Investments in co-located solar-plus-storage reach $25 billion in H1, says BloombergNEF",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/08/28/investments-in-co-located-solar-plus-storage-reach-25-billion-in-h1-says-bloombergnef/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-28T13:38:09.000Z"
+    },
+    {
+      "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-25T10:00:49.000Z"
+    },
+    {
+      "title": "Automated researchers can reliably mitigate alignment failures",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm12QTFLek9sVlhENXNNaFlpUHlnbEl5dDRNZTBCbG1iSUtndjBhaUQ3UGl6N2VOWFppR19kbGhHWjlGaWRnby1BcHNlM0lNLUFaZXVrWV9MTFFOcjg0dmpFcWc0cHkyUTd1d2Z3bjNjaU9FeUQzUnpKbFloc1lRVDRPNjBHQ2JRVDh6cg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-28T17:03:08.000Z"
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-28T06:00:00.000Z"
+    },
+    {
+      "title": "Dari Gilimanuk hingga Pulau Rengit, Program PLTS 100 GWp Dorong Kemandirian Energi Nasional",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZkp0WXhWMmlROWFYMS11dDJTbFlWMHp4X05tT1dYbHlORzlSWHRQVnQteE00cWZ2TXgwMUZPY3l0S0toRl9iUW1nbkI1ZXRqMDcwTmVPSFgzR3c0OHNvVzByQmV3dTktb2hpeE1JV3JsYUVvMUNEQ19paHJZaEZQMTAtMW5UMGNnYXU5YXBKVzAxM3JBWXUxYlZKNnpLVklERGpvZ2tfOGNFU0dsUUNQbTFIdTJfaFRBM2xtaGpDaTlsRXVWS3hEODBoN096amNBZnJESHFvNU02dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-27T10:15:17.000Z"
+    },
+    {
+      "title": "Danantara dan Rencana Pengambilalihan Sritex",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWEUxTEthcHgtSHZhS08zdkxab0d3OTR0Q1RrWW5QRDB0RkxfTzRPWG1nam9vaUVtVmx6dHJCczFwd2Z6eVlFN2k1dDZYTWR1NXBkQ1VkU3R6RVJnV2hEbXc1SVVFU0NSNDVScmMwbVFvZk5VUW5saXhjMmtweHhySlpLUmg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-30T21:16:57.000Z"
+    },
+    {
+      "title": "COO Danantara Ungkap Progres Restrukturisasi BUMN Karya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRElKcDNKakwza3ZxUTZFTy1IZC1zYnJmb24xbzdMUlFuUXVEQTN1V1dUQnZFSWhDQlIxaTQ0elgyR3VrX1RSZzRYQThxbUhzeGNSVFBjcS1jb0t2bGg4RDFrblNzR0JjZW5YMk9XWnl1Ui12QXV3S0lHQTFaaWNpUkEwVFUtVkE4S0RicDh4b1VndnY2TjdNVnFOejMtWlQxNFZEenI4S28yLVNoRVRTMWI1aG81aktW0gG-AUFVX3lxTE1sRm9qZFd6XzRnemRfQzVHdlVNT0ZUYmp5dnExMUxrRHpQTXMzYTEyWEJLWTVKM3hjVFc2cy1tN3QtQnJUazBqWmVRcHZRaXNRYzVMSXF6ZlA3VnNKZUEwelN5S1lTLWUwdHZCTlhsTFJFNE9heFpsQnhiZG9yUHIwSWYwTVo2RGdqUWJrakt0MWQxSTBxS3BKQWI5bHhDUlZJbV9vUUNYTEo4UzU1MGFYdFpxSG9HMUdOc0M2UGc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T07:00:00.000Z"
+    },
+    {
+      "title": "Presiden Prabowo: PLTS 100 GWp Perkuat Kemandirian Energi Indonesia",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T15:38:31.000Z"
+    },
+    {
+      "title": "Jalan Panjang Danantara Sehatkan BUMN Karya: Benahi Lapkeu, Divestasi hingga Merger - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWnl6aXM2RXFzS005Q1NwUzNFY0h2U2ZaVkxtb2F5VF9PeVEwOTJ1RUMxT1ZwY0FYQ1piR0tvR0MtS0RjWjRlTTROQkEwVTJtdnY0MTB5V0hiQW9KQ2RLR05XeEhWTEF4YjBuYTZ3ZVVBeEZwa1J0RDhyQk1HUDdkdXNzdDJKcWxrQ1Q1RjJaQ2RSUHlCajRPSEtWQ3NkZk9iRlh4QW1tbi0xbm5BanY5N2w1NnFZUWhmY21DUkNRZG9JSUxXYXd4ampCV1lnQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-26T23:00:00.000Z"
+    },
+    {
+      "title": "Anthropic’s new hardware standard lets AI agents control the physical world",
+      "publisher": "Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2dOSHcyS2VTS2YxQ2ZwSTBLZ2ljelNkd2ZPeXVLc196Y0h5eG9lRDF0U1c1ZUN4VmEza29mSWdXT05QVURvNHFZMnNxWWVieHdLenAzUDdtOGlVbF9SU3ZrVjJVek5wM1Voek5mN0NmSk5jVDdNUjhhamlDYk1Ha2Y1Y3lKbGQtUm8zWW91TklhUWp4akVDNWNmdFdERkxsRGkyNTZ2YmNpLXQ1X24w?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-27T22:15:43.000Z"
+    },
+    {
+      "title": "Nasib PLN EPI di Tengah Rencana Kehadiran BLU Energi - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdzZaNV9LUndRRDZFVHhWVEtQZTlVdU9xUm9qSC00bENkdDFFajhmYjdFRXRXNDhxU3ZXak9jRGdUQS16Ny0tZjNDOUxtT2VUUVhuQWFqNU53SGhfUEJXYnM5bE9nREFKWnlHSGlKbmVQb0JZWjVhbkROamE3UDJkbW5tdXMxMVFuNGFNdGpHRGhFdnAxaU03MFNnV00zWW9sUlFpTUw4Zw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-28T03:30:45.000Z"
+    },
+    {
+      "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T07:00:00.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T14:27:20.000Z"
+    },
+    {
+      "title": "BLU Pasok Batu Bara PLTU, Pembayaran Diminta Lebih Cepat dari PLN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWZkTS1vSWFSUmpFNzhGWkVEZ09kd2czbXhpNUhLTTBNRWxGYnNXU3ZoYWRhOVlpWWh2R0k3MUoyLVZ3RThBLUk5YS1uMGtBTFNXLUNSekwwVS1ZOVJWazdBaldoQTlRSDRWWWt3MVNXZnQwaWZsN19kYWNnRm5mNE9nNmZvdEVza3l5eDhJa1VFNWN3NUZTRE00bFBhaE10amNzZHMzV01ZM256dHNqVkpRaVpfNjg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-27T08:40:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara konfirmasi setoran Rp120 triliun ke APBN 2026, batas waktu fiskal kini nyata",
+      "occurrences": 10,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-08-29",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "SpaceX meletakkan fondasi pabrik bilah turbin untuk atasi krisis daya pusat data AI",
+      "occurrences": 9,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-30",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI winds down Cursor contract after SpaceX acquisition, drawing AI ecosystem boundary",
+      "occurrences": 8,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-30",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLTS 100 GWp diluncurkan Presiden Prabowo, PLN operasikan PLTS Terapung Gajah Mungkur sebagai eksekusi pertama",
+      "occurrences": 8,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-30",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "OpenAI akhiri kontrak model untuk Cursor pasca-akuisisi oleh SpaceX",
+      "occurrences": 7,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-30",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 374,
+    "poolSize": 110,
+    "generatedAt": "2026-08-30T23:20:02.129Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
