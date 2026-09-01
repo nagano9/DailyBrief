@@ -2,14 +2,14 @@
   "slug": "2026-09-02",
   "date": "2026-09-02",
   "lang": "en",
-  "title": "OpenAI Astra Hits Cyber Threshold; China's Battery Tax Reshapes Solar Cost Stack",
-  "dek": "A frontier AI safety escalation, a structural shift in battery supply-chain economics, and persistent Indonesian energy-governance gaps all demand decisions this week.",
+  "title": "OpenAI Astra Hits Cyber Threshold; China Battery Tax; PalmCo Pivot",
+  "dek": "A frontier AI safety tripwire fires for the first time, a Chinese tax reshapes global battery economics, and Danantara reorients its largest palm asset toward global markets — three decisions that compound across domains.",
   "domains": [
     "ai",
     "energy",
     "corporate"
   ],
-  "summary": "OpenAI has formally designated Astra the first model to cross its Critical cybersecurity capability threshold, triggering enhanced safeguards and signalling that AI safety governance is now operationally consequential rather than aspirational. Simultaneously, China's reimposition of a 2% lithium-ion battery export tax—rising to 4% in September 2027—ends an 11-year exemption and directly reprices the cost stack for solar-storage projects globally, including Indonesia's 100 GWp programme. SB Energy's US IPO filing confirms that AI-driven power demand is now a bankable infrastructure thesis, pulling renewable developers into capital markets in real time. On the Indonesian corporate front, Danantara's pivot of PalmCo toward global markets represents the first concrete business-model change under the sovereign wealth fund's BUMN restructuring mandate—moving from a restructuring story to an execution test. PLN tariffs holding flat for September 2026 continues to compress the utility's investable headroom exactly when grid capital requirements are rising, sustaining the structural tension the archive has tracked since August.",
+  "summary": "OpenAI has released Astra, its first model to breach the Critical cybersecurity capability threshold under its own Preparedness Framework, triggering stronger mandatory safeguards and marking the first time a lab's internal AI-risk tripwire has forced a gated release. In parallel, China's reinstatement of a 2% lithium-ion battery import tax from September 1 — rising to 4% in 2027 — ends an 11-year exemption and will propagate into battery storage costs globally, adding a new cost variable for Indonesia's PLTS 100 GWp programme, which IESR and the government still describe as execution-challenged. Danantara is restructuring PalmCo's business model to target global commodity markets, the most concrete portfolio-level strategic move from the holding entity outside BUMN Karya, and it arrives as the danantara-bumn-karya-restructuring thread continues accumulating. SB Energy's IPO filing in the US, backed by SoftBank, brings the AI-power demand thesis into the public equity market for the first time and is a direct pricing signal for infrastructure investors. Indonesia's ESDM 2027 budget, approved at Rp27.37 trillion with oil-and-gas as the largest line item, reveals that the energy transition's fiscal backing remains fossil-fuel-weighted at the moment the 100 GWp solar programme needs capital.",
   "signals": [
     {
       "rank": 1,
@@ -20,11 +20,11 @@
         "Astra",
         "Preparedness Framework"
       ],
-      "headline": "OpenAI designates Astra first model at Critical cybersecurity threshold, activating enhanced Preparedness safeguards",
-      "whatChanged": "OpenAI announced on 2026-09-01 that Astra is the first model to meet the Critical cybersecurity capability threshold defined in its Preparedness Framework, and that it is being released with correspondingly stronger safeguards. This is the first time any OpenAI model has formally triggered that tier.",
-      "whyItMatters": "The Preparedness Framework is OpenAI's own binding internal governance instrument. A Critical classification at release—rather than as a post-hoc finding—means OpenAI is now operationalising frontier risk management in a way that is observable, auditable, and likely to set a precedent other labs must respond to. The nuclear-ai-datacenter-power theme, already structural in this archive, gains a new dimension: not just power demand but the regulatory surface area of the models driving that demand.",
-      "secondOrder": "Governments and enterprise procurement teams that have been treating AI safety disclosures as marketing will now face a harder question: if OpenAI itself classifies a deployed model as Critical for cybersecurity, what does that imply for liability frameworks, insurance underwriting, and government procurement rules? Financial and critical-infrastructure sector CISOs should expect regulators to cite this classification in supervisory guidance within months.",
-      "action": "Map your organisation's AI procurement and vendor risk policies against the OpenAI Preparedness Framework tiers. Determine whether your existing third-party risk assessments have a field for 'vendor-declared capability threshold' and whether a Critical-tier finding would trigger escalation, contract review, or board notification.",
+      "headline": "OpenAI releases Astra — first model to trip its own Critical cybersecurity capability threshold, gated safeguards now active",
+      "whatChanged": "OpenAI published the Astra model on September 1, 2026, formally designating it the first model to meet the Critical cybersecurity capability threshold defined in its Preparedness Framework. The release is accompanied by a described set of stronger frontier safeguards that the framework requires before deployment at this capability level.",
+      "whyItMatters": "This is the first time any major lab's internal AI-risk architecture has actually fired: a model crossed a pre-defined capability threshold and a gated protocol was engaged rather than bypassed. The nuclear-ai-datacenter-power thread has tracked AI infrastructure standardisation across 11 editions; Astra shows the governance layer is now being operationalised at the model level, not just in policy documents. It reframes the conversation from 'will labs self-govern' to 'what does self-governance cost in deployment speed and revenue.'",
+      "secondOrder": "Once a Critical threshold is publicly acknowledged and gated, enterprise customers and regulators gain a concrete hook to demand equivalent disclosures from competing labs. The competitive pressure is no longer purely on capability benchmarks — it shifts to who can demonstrate a credible, auditable threshold regime. Labs that lack a published Preparedness-equivalent framework face a new kind of procurement and regulatory disadvantage, independent of model quality.",
+      "action": "Map OpenAI's Preparedness Framework threshold definitions against Anthropic's Responsible Scaling Policy and Google DeepMind's Frontier Safety Framework this week. Identify which capability categories each lab treats as Critical, and whether any lab has a lower threshold than OpenAI's cybersecurity trigger. This comparison will determine whether Astra's gating sets a de-facto industry floor or remains an outlier.",
       "strength": "material",
       "sourceUrls": [
         "https://openai.com/index/path-to-astra"
@@ -49,13 +49,14 @@
       "entities": [
         "China",
         "PLN",
-        "IESR"
+        "IESR",
+        "PLTS 100 GWp"
       ],
-      "headline": "China reinstates 2% lithium-ion battery tax from Sept 1, rising to 4% in 2027, ending an 11-year exemption",
-      "whatChanged": "China began levying a 2% consumption tax on lithium-ion batteries on 2026-09-01, terminating an exemption in place since 2015. The rate is scheduled to increase to 4% in September 2027. Emerging battery technologies are carved out and remain exempt.",
-      "whyItMatters": "China supplies the dominant share of lithium-ion cells and battery storage systems procured for utility-scale solar-plus-storage projects globally. A 2-to-4% cost escalation embeds directly into the BESS component of any project that sources from China—which includes virtually every large solar-storage tender in Southeast Asia, including Indonesia's 100 GWp programme. This continues and materially sharpens the pln-transmisi-investasi thread: the grid and storage investment gap that IESR and Setkab have flagged is now facing a supply-side cost headwind that was not in earlier project proformas.",
-      "secondOrder": "Project finance models for Indonesian solar-plus-storage projects signed or in due diligence before 2026-09-01 will have an unpriced cost variance. Lenders and developers who locked BESS pricing on pre-tax quotes will need to remodel. The carve-out for emerging technologies creates a procurement incentive to evaluate sodium-ion or solid-state alternatives—accelerating technology substitution earlier than market-maturity curves would otherwise suggest.",
-      "action": "This week, audit any solar-storage project proforma or term sheet signed before 2026-09-01 for BESS cost assumptions. Quantify the 2% (and forward 4%) impact on project IRR and debt service coverage ratios. Flag to investment committees whether pricing lock-ins or offtake agreements need to be renegotiated.",
+      "headline": "China reinstates 2% lithium-ion battery tax from September 1, rising to 4% in 2027 — ends 11-year exemption",
+      "whatChanged": "China began taxing lithium-ion battery imports at 2% on September 1, 2026, terminating an exemption in place since approximately 2015. The rate is scheduled to step up to 4% in September 2027. Emerging battery technologies retain exemption status under the new regime.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread, which has tracked the execution gap in Indonesia's 100 GWp solar programme across 10 editions. Battery storage costs are already the swing variable in utility-scale solar-plus-storage projects; a Chinese export tax directly raises the landed cost of the cells and modules that dominate Indonesia's BESS procurement pipeline. IESR has repeatedly flagged that grid and storage investment execution is the binding constraint — this tax adds a cost headwind on top of that structural gap.",
+      "secondOrder": "Because China controls an estimated 80%+ of global lithium-ion cell manufacturing, the tax functions less like a tariff and more like a global price floor adjustment. Developers who signed storage offtake or EPC contracts before September 1 at pre-tax cost assumptions now carry unpriced exposure. Indonesian IPP and PLN project finance models underwriting PLTS 100 GWp BESS components will need to be re-run; projects at financial close stage face renegotiation pressure or margin compression.",
+      "action": "Request updated BESS cost assumptions from any PLTS 100 GWp project at or approaching financial close. Specifically, ask whether EPC contracts are fixed-price with a Chinese cell supplier, what the delivery schedule is relative to the September 2027 step-up to 4%, and whether there is a price-adjustment clause triggered by import duty changes.",
       "strength": "material",
       "sourceUrls": [
         "https://www.pv-magazine.com/2026/09/01/china-restores-2-lithium-ion-battery-tax-after-11-year-exemption/"
@@ -78,27 +79,25 @@
     },
     {
       "rank": 3,
-      "domain": "energy",
+      "domain": "ai",
       "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
         "SB Energy",
         "SoftBank",
-        "NeutraDC",
-        "PLN"
+        "Reuters",
+        "Bloomberg"
       ],
-      "headline": "SoftBank-backed SB Energy files US IPO to monetise AI-driven power infrastructure demand",
-      "whatChanged": "SB Energy, backed by SoftBank, filed for a US IPO on or around 2026-09-01, explicitly positioning the offering around accelerating AI infrastructure power demand as its growth thesis.",
-      "whyItMatters": "An IPO filing converts the AI-power demand narrative into a capital markets event with a prospectus, disclosed financials, and underwriter due diligence. This is no longer a thematic argument—it is a bankable investment thesis that public market investors are being asked to price. The nuclear-ai-datacenter-power theme, structural in this archive since August, now has a valuation reference point emerging in real time.",
-      "secondOrder": "The IPO prospectus will, when published, provide the first public disclosure of actual contracted AI power demand volumes, pricing structures, and offtake terms from a major infrastructure developer. That data will become the benchmark against which Indonesian data-centre and power agreements—such as the NeutraDC-PLN 200 MW arrangement—will be implicitly compared by international investors and lenders. If SB Energy's multiples are rich, it will attract capital to the sector globally; if they are disappointing, it signals the AI power premium is already priced in.",
-      "action": "Obtain SB Energy's S-1 filing from the SEC when published. Extract the offtake structure, tenor, counterparty credit profile, and power pricing methodology. Use it as a comparables framework for evaluating Indonesian AI-infrastructure power agreements and for stress-testing your own assumptions about the AI power premium.",
+      "headline": "SoftBank-backed SB Energy files for US IPO explicitly citing AI power demand — infrastructure thesis enters public equity pricing",
+      "whatChanged": "SB Energy, a US renewable energy developer backed by SoftBank, filed for a US IPO on or around September 1, 2026. Both Reuters and Bloomberg report the filing explicitly frames AI infrastructure power demand as a primary growth driver for the company's utility-scale solar and storage pipeline.",
+      "whyItMatters": "The nuclear-ai-datacenter-power theme has tracked 11 editions of AI-power infrastructure convergence. An IPO filing is a qualitatively different event: it subjects the AI-power demand thesis to SEC disclosure standards, underwriter due diligence, and public market pricing for the first time. The implied valuation embedded in the prospectus will create a benchmark against which private infrastructure deals in AI-adjacent energy are priced.",
+      "secondOrder": "SoftBank's dual role — as a major AI investor (Arm, OpenAI stake negotiations) and now as sponsor of an AI-power infrastructure IPO — creates an integrated value-chain position that is unusual and potentially self-reinforcing: SoftBank can direct AI portfolio company power procurement toward SB Energy, improving the latter's offtake quality for IPO purposes. If this model is replicated, it changes how AI hyperscalers think about energy procurement: affiliating with a power developer rather than contracting at arm's length may become a capital-efficiency strategy.",
+      "action": "When the SB Energy prospectus (S-1) becomes publicly available via SEC EDGAR, extract the offtake contract counterparty list and the proportion of contracted capacity tied to AI datacenter customers. That figure is the clean empirical test of how real the AI-power demand story is in a document subject to legal liability.",
       "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWs5azJGWFlYTnJCV1FTak9LYXZtUkNYOGFaZzhNWkhHSEhLMkJMVVdYX2U1ek9mTmJoRFl0YUxoX2Njc0htbVhjcDU5bklsd0c4c29FeUxIdVFrd2pvak9ENTBHZV9CcXB5YVdudDdJV0IzWlU1c082SEJ4RF9yZFd0MVZHcUFIWGdQbXVSZ1FfSmxKQ1B2NFkxQktIR0kyRnlKNzVzdlNxcXZQOHZHRGhfRFhKLUVvbU9LRWctUWpmUQ?oc=5",
         "https://news.google.com/rss/articles/CBMiswFBVV95cUxNblJxWWgyS0tqQVJnYzJMNTNYLWlYaGNVbThQaHNJcnhDX1V6M3NnNUNkMGNfclBMdnhQbEpOZ0FsVnVBaXdrTklabmMyVjRVdTFBZVBKRHozR2dpVkQwRlhZdlRfMXlabGl6T1d4ejZiWHhoaXpWWUhuOVZHMlYxXzdQMDFDNkExS2xzTTI4V1ZyVlpZWWdoQzBZWlZlR1VnV2U2VzlGNnBKVjNDejNKNUdQRQ?oc=5"
       ],
-      "secondOrderUrls": [
-        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
         "publishers": 2,
         "hasPrimary": false
@@ -113,57 +112,21 @@
     },
     {
       "rank": 4,
-      "domain": "energy",
-      "themeKey": "pln-grid-investment",
-      "entities": [
-        "PLN",
-        "IEEFA",
-        "DPR"
-      ],
-      "headline": "PLN tariffs confirmed flat for September 2026 as ESDM 2027 budget approved at Rp27.37 trillion, weighted toward oil and gas",
-      "whatChanged": "PLN electricity tariffs are officially confirmed unchanged for September 2026 across all customer categories. Separately, Indonesia's DPR has approved the ESDM ministry budget for 2027 at Rp27.37 trillion, with oil and gas receiving the largest allocation—implying renewables and grid receive a proportionally smaller share of public expenditure.",
-      "whyItMatters": "The pln-grid-investment theme is structural: tariffs have now held flat through a sustained period of rising renewable deployment ambitions and increasing grid capital requirements. The simultaneous approval of an ESDM budget weighted toward fossil fuels compounds the financing gap. PLN cannot raise revenue from tariffs; the government budget prioritises hydrocarbons; yet Indonesia has committed to 100 GWp of solar requiring grid and storage co-investment. The three constraints are now simultaneously visible in official data.",
-      "secondOrder": "The combination of frozen tariffs and a fossil-weighted ESDM budget will accelerate pressure for private capital to fill the gap—but private investors require offtake certainty, which PLN cannot provide at current tariff levels without subsidy top-ups or regulatory restructuring. This creates a structural case for the IEEFA-proposed transmission subholding model, which would deconsolidate grid investment from PLN's balance sheet. The budget approval makes that structural reform more urgent, not less.",
-      "action": "Map the arithmetic: Indonesia's 100 GWp solar programme implies substantial annual grid and storage capex. Against that, model PLN's investable headroom at current tariffs and the ESDM 2027 renewable allocation. The gap is the number to take to any conversation about concessional finance, green bonds, or regulatory restructuring this quarter.",
-      "strength": "actionable",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT040QXF6Um9pU2RhVkE1ZDJ0M0dnLWRMRVYyS2JadmE5TWphVnlOdVRhQW9SajZnU0NMSnp4TWVOVC03dXlWN0h4d2NBQ0FxR0g2WGZoblA1OGJqM2xibHo5M0RhaFlvakNFalhhelRpZmFNWkIyVjlRaE9jZUdRSTdISzNCeTdBMWRCUWFVczZ6Z2NiaDItT0VEN0s4ZXBkcTkxTGduYTZtazNOaG9xNmxmU0U5MWR6UGhVNHV5NHVFQdIBxwFBVV95cUxOTXJuRDhTLWxuQ2R5MldRNDNya0NmUXdxLS14ZERDNWhXRzZaV1ZJLTZYUnRoczd1dnFSZzFBaG0wTm9Da2QyeF80ZERmajhMV0ViaHlFUzRqRUcxd1d2QnZQWWlRUEozYXhxM1JycFNfcE9LSUNlU0E3M1RldVhoTU9Rdk8tZnpaaE85YXVGem1Qb3N0U29QU1kwZVhtZ0NzUkxIeXB3RThUU1VPcjFaMHpTZHBTNEdVdkYwd2UzTkFEeElZV2JV?oc=5",
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxORDBZRWRpZldVUlYyblM5MHlsQS1pN00tU3l4VmsyYzVhM0ZWWjB5YjE0UmNGbVRLT0EzUnVScnJmSTFqUzlkdzFseTNrV0VpWmpRSnFtNkxhRHlNMGdFdVZBZ21ldVRmcUJYUF9hQy1NUFRNYjFvcUFmNnBidTB0YkpkeTBxX1RWT2Vmc0pPWVlEMzRNOTRueDVTTWotZ01pR0dyRnRzYTVFYTMyWk82Q0VlUE4tOGlVZlJqRHlmaERWcEMz?oc=5",
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0xDcGlVOXJjMDMtUjUwTGVpczJ0T3NfcThiREJHT0hsdVdhZHRwdWxndzFndDVUNFN6akdtV3RZSEo1c2dnWkp1YnZaZFUzVzhIVWlBeTZ0NnR0Sm5sMHNNZGZZT2t5U19KMnVVTlZwNnV0UF9kQnF2a3FEUkxpT2pKVGdvclQxSDFCT1hMajFUTUNFSGRpUUxQOXM0cjVHSldBQUhaX2ZTUEhFTVVoUGpaakpldw?oc=5",
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ0xOXzZvYUZIdlVZcWZFVUU5UGZQOUNYc3p4eGwwTEF6NTZlR09MTDd1bk9rLThUdk1ZekpLbVp3SHJHN0thYmJXVjFBXzR2ZTdEbGFrMVVXZ2RMczZJUEhCMmtMbFRHOWRIajkzNkJFejlyOUNYdGNHbkR5ZEpkMjl1Z2hVS1NNSDFDdEtIR3ZjRVY0RjlnOFVRdktoNndvQmtxdkNBYzdRVXYzSFhaWjhR0gGyAUFVX3lxTE1DTE5fNm9hRkh2VVlxZkVVRTlQZlA5Q1hzenh4bDBMQXo1NmVHT0xMN3VuT2stOFR2TVl6SkttWndIckc3S2FiYldWMUFfNHZlN0RsYWsxVVdnZExzNklQSEIya0xsVEc5ZEhqOTM2QkV6OXI5Q1h0Y0duRHlkSmQyOXVnaFVLU01IMUN0S0hHdmNFVjRGOWc4VVF2S2g2d29Ca3F2Q0FjN1FVdjNIWFpaOFE?oc=5"
-      ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5"
-      ],
-      "corroboration": {
-        "publishers": 4,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "pln-grid-investment",
-        "status": "structural",
-        "occurrences": 10,
-        "firstSeen": "2026-08-22",
-        "spanDays": 11
-      }
-    },
-    {
-      "rank": 5,
       "domain": "corporate",
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
         "Danantara",
-        "PalmCo"
+        "PalmCo",
+        "ANTARA"
       ],
-      "headline": "Danantara pivots PalmCo business model toward global palm oil markets, first concrete BUMN operating-model change",
-      "whatChanged": "Danantara announced on 2026-09-01 that it is changing PalmCo's business model to target global markets, a shift from the entity's prior domestic orientation. This is the first reported instance of Danantara altering an operating-company's commercial strategy—rather than merely announcing structural or financial restructuring—under its BUMN reform mandate.",
-      "whyItMatters": "The danantara-bumn-karya-restructuring theme has been structural in this archive for 12 iterations since August 19, tracking Danantara's consolidation and restructuring announcements. A business-model pivot at the operating-company level signals the programme is moving from restructuring design into execution. PalmCo is a significant state palm-oil vehicle; repositioning it for global markets implies export revenue ambitions, changes in capital allocation, and potential conflict with existing domestic supply obligations or price controls.",
-      "secondOrder": "If PalmCo is repositioned as a global commodity exporter, it will require international-standard ESG certification (RSPO or equivalent), supply-chain traceability, and sustainability reporting to access premium export markets. Danantara's ability to deliver on these requirements—while simultaneously managing a multi-entity BUMN restructuring—will be an early stress test of its operational governance capacity. Failure to meet export-market ESG standards could expose the sovereign wealth fund to reputational risk precisely as it courts international co-investors.",
-      "action": "Assess PalmCo's current RSPO certification status, export revenue mix, and domestic supply obligation exposure. Determine whether Danantara's announced business-model change is consistent with existing PalmCo contractual and regulatory obligations, and whether the ESG compliance runway is realistic for the export markets being targeted.",
+      "headline": "Danantara restructures PalmCo business model to target global markets — first concrete portfolio pivot beyond BUMN Karya",
+      "whatChanged": "Danantara has announced a change to PalmCo's business model explicitly aimed at positioning the entity to compete in global commodity markets, according to ANTARA on September 1, 2026. This is a strategic reorientation of the palm oil BUMN cluster under Danantara's holding structure.",
+      "whyItMatters": "This thread has run for 12 editions since August 19 and has been classified as structural — meaning it is a condition to plan around, not a news event. The PalmCo move is the first signal that Danantara is executing portfolio-level strategic repositioning beyond the BUMN Karya construction cluster. It suggests Danantara's remit is broadening from distressed asset triage to active commercial strategy, which changes the risk and opportunity profile of every BUMN with a global market angle.",
+      "secondOrder": "A Danantara-directed global commercial push for PalmCo will intersect with EU Deforestation Regulation compliance timelines and ESG scrutiny from international commodity buyers. If PalmCo's model change is interpreted as a bid for premium global market access, it will require supply-chain traceability investment that the current BUMN palm cluster has not systematically made. The restructuring could either accelerate ESG compliance or create a governance gap if commercial ambition outpaces traceability infrastructure.",
+      "action": "Assess PalmCo's current EUDR compliance posture and traceability certification status this week. If Danantara's global market pivot is credible, the gap between current ESG standing and the certification requirements of major European and North American buyers is the most proximate execution risk — and potentially a financing condition for any international offtake agreement.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSldKTUhHZnRfc2lnYWdRTU5BclVLZko4WXRJbXJiS254b3pSa0ZmU25TUDZONDJPQnQwdzlySldzYjI4c0JyajFKODAzTmdsdm1ZeHpGRXViOVU3eFh5Y3FrS0NfUGVzcnhMcWI0OUNBbzU2clk2TnRUUnFjcjZlSWNILUplMGxubUR3RUtUREFKa1dDdEk0TkZxb25GVmNTUWJsWGZHX1hBby14VHZUUmRSLWp0YWMybk5fS19XVTZkVzRpX2NLZkFKandyaWJESllvRF9fRzVkdTB2VDB3akV0amFCcG90cTRHY3FsbnN1RGotU2ZBdzdNYkREQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3VUT1BsVEpWem9YdWhqN1ZOc0Q5VjZHZkxGM3JkTlB2TnJiN1UwWjZlTGtSdDRBajh2Ry1pYk50QmN0S2lRVTZzaU5UM3V3djZxNGxhMUF0MHo4RDJOemZuZ003aloxc1R5VjhvUlJjNUdVYjRocFV5bUZXMUpIYUJKWjlIVDc2QUx0R0FCOC1TTkh5TTd2T0o3MDJkZmE0b3JkV9IBqgFBVV95cUxPLXNGMXFKUk9rLTdGNlhLT3BtN0hXTXdzcE5jOGtHdkpQbWZQMHllR3JsdFdCNlRWMnpwVDJ5b2ptellXdjJDbmpDcDY2SHBmSkhGWi13blA0OS1RMkNEbjVWN3EyODFVUGhacEFPWTMzbTRsX1V4MDVvLS02MWJGaUFoSGQ5MVlxVU9sYUpIR1l5NVo4ZE9CM0pjemdKclFCdFdJd0E1aW9tdw?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -181,24 +144,24 @@
   ],
   "watchNext": [
     {
-      "item": "SB Energy S-1 prospectus publication: extract AI power offtake pricing, tenor, and counterparty structure as a global benchmark for Indonesian data-centre power agreements.",
+      "item": "SB Energy S-1 prospectus publication on SEC EDGAR — extract AI datacenter offtake proportion and SoftBank affiliate procurement terms",
       "dueDate": "2026-09-30"
     },
     {
-      "item": "China lithium-ion battery tax pass-through: monitor whether Indonesian solar-storage tender pricing or project proformas are revised upward in response to the September 1 imposition.",
-      "dueDate": "2026-10-15"
-    },
-    {
-      "item": "PalmCo global market pivot: track RSPO certification status and any domestic supply obligation regulatory response to Danantara's announced business-model change.",
-      "dueDate": "2026-11-01"
-    },
-    {
-      "item": "ESDM 2027 budget breakdown: obtain line-item allocation between oil/gas, renewables, and grid infrastructure to quantify the public-finance gap against the 100 GWp solar commitment.",
+      "item": "China lithium-ion battery tax implementation detail: which HS codes are covered, which emerging technologies retain exemption, and whether Indonesian BESS importers have applied for exemption status",
       "dueDate": "2026-09-15"
     },
     {
-      "item": "OpenAI Preparedness Framework regulatory uptake: watch for government procurement agencies or financial regulators citing the Astra Critical-tier classification in supervisory guidance or RFP requirements.",
-      "dueDate": "2026-12-01"
+      "item": "ESDM 2027 budget sub-sector breakdown: EBTKE vs upstream oil-and-gas allocation in real terms vs 2026 baseline",
+      "dueDate": "2026-09-10"
+    },
+    {
+      "item": "PalmCo global market strategy detail: which export markets, what ESG/EUDR compliance posture, and whether Danantara has engaged international offtake counterparties",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Competing lab Preparedness/RSP threshold disclosures post-Astra: watch for Anthropic or Google DeepMind announcements of Critical-equivalent capability triggers being reached or redefined",
+      "dueDate": "2026-10-01"
     }
   ],
   "sources": [
@@ -209,15 +172,6 @@
       "tier": 1,
       "primary": true,
       "publishedAt": "2026-09-01T13:48:13.000Z"
-    },
-    {
-      "title": "Tarif Listrik PLN September 2026 dipastikan tidak naik, Ini daftar lengkap per kWh",
-      "publisher": "ANTARA News Jawa Barat",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT040QXF6Um9pU2RhVkE1ZDJ0M0dnLWRMRVYyS2JadmE5TWphVnlOdVRhQW9SajZnU0NMSnp4TWVOVC03dXlWN0h4d2NBQ0FxR0g2WGZoblA1OGJqM2xibHo5M0RhaFlvakNFalhhelRpZmFNWkIyVjlRaE9jZUdRSTdISzNCeTdBMWRCUWFVczZ6Z2NiaDItT0VEN0s4ZXBkcTkxTGduYTZtazNOaG9xNmxmU0U5MWR6UGhVNHV5NHVFQdIBxwFBVV95cUxOTXJuRDhTLWxuQ2R5MldRNDNya0NmUXdxLS14ZERDNWhXRzZaV1ZJLTZYUnRoczd1dnFSZzFBaG0wTm9Da2QyeF80ZERmajhMV0ViaHlFUzRqRUcxd1d2QnZQWWlRUEozYXhxM1JycFNfcE9LSUNlU0E3M1RldVhoTU9Rdk8tZnpaaE85YXVGem1Qb3N0U29QU1kwZVhtZ0NzUkxIeXB3RThUU1VPcjFaMHpTZHBTNEdVdkYwd2UzTkFEeElZV2JV?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-01T14:40:33.000Z"
     },
     {
       "title": "SoftBank-backed SB Energy files for US IPO as AI turbocharges infrastructure demand",
@@ -245,15 +199,6 @@
       "publishedAt": "2026-09-01T13:00:00.000Z"
     },
     {
-      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
-      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-06-30T07:00:00.000Z"
-    },
-    {
       "title": "SoftBank-Backed SB Energy Files for IPO to Tap AI Power Thirst",
       "publisher": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNblJxWWgyS0tqQVJnYzJMNTNYLWlYaGNVbThQaHNJcnhDX1V6M3NnNUNkMGNfclBMdnhQbEpOZ0FsVnVBaXdrTklabmMyVjRVdTFBZVBKRHozR2dpVkQwRlhZdlRfMXlabGl6T1d4ejZiWHhoaXpWWUhuOVZHMlYxXzdQMDFDNkExS2xzTTI4V1ZyVlpZWWdoQzBZWlZlR1VnV2U2VzlGNnBKVjNDejNKNUdQRQ?oc=5",
@@ -263,21 +208,13 @@
       "publishedAt": "2026-09-01T13:18:10.000Z"
     },
     {
-      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
-      "publisher": "Tempo",
-      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-14T07:04:39.000Z"
-    },
-    {
       "title": "Danantara ubah model bisnis PalmCo untuk bidik pasar global",
       "publisher": "ANTARA News",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSldKTUhHZnRfc2lnYWdRTU5BclVLZko4WXRJbXJiS254b3pSa0ZmU25TUDZONDJPQnQwdzlySldzYjI4c0JyajFKODAzTmdsdm1ZeHpGRXViOVU3eFh5Y3FrS0NfUGVzcnhMcWI0OUNBbzU2clk2TnRUUnFjcjZlSWNILUplMGxubUR3RUtUREFKa1dDdEk0TkZxb25GVmNTUWJsWGZHX1hBby14VHZUUmRSLWp0YWMybk5fS19XVTZkVzRpX2NLZkFKandyaWJESllvRF9fRzVkdTB2VDB3akV0amFCcG90cTRHY3FsbnN1RGotU2ZBdzdNYkREQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3VUT1BsVEpWem9YdWhqN1ZOc0Q5VjZHZkxGM3JkTlB2TnJiN1UwWjZlTGtSdDRBajh2Ry1pYk50QmN0S2lRVTZzaU5UM3V3djZxNGxhMUF0MHo4RDJOemZuZ003aloxc1R5VjhvUlJjNUdVYjRocFV5bUZXMUpIYUJKWjlIVDc2QUx0R0FCOC1TTkh5TTd2T0o3MDJkZmE0b3JkV9IBqgFBVV95cUxPLXNGMXFKUk9rLTdGNlhLT3BtN0hXTXdzcE5jOGtHdkpQbWZQMHllR3JsdFdCNlRWMnpwVDJ5b2ptellXdjJDbmpDcDY2SHBmSkhGWi13blA0OS1RMkNEbjVWN3EyODFVUGhacEFPWTMzbTRsX1V4MDVvLS02MWJGaUFoSGQ5MVlxVU9sYUpIR1l5NVo4ZE9CM0pjemdKclFCdFdJd0E1aW9tdw?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-01T17:01:55.000Z"
+      "publishedAt": "2026-09-01T23:17:16.000Z"
     },
     {
       "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
@@ -286,42 +223,6 @@
       "tier": 1,
       "primary": true,
       "publishedAt": "2026-08-25T10:00:49.000Z"
-    },
-    {
-      "title": "Tarif Listrik September 2026 Resmi Berlaku, Cek Harga per kWh Semua Golongan",
-      "publisher": "Kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORDBZRWRpZldVUlYyblM5MHlsQS1pN00tU3l4VmsyYzVhM0ZWWjB5YjE0UmNGbVRLT0EzUnVScnJmSTFqUzlkdzFseTNrV0VpWmpRSnFtNkxhRHlNMGdFdVZBZ21ldVRmcUJYUF9hQy1NUFRNYjFvcUFmNnBidTB0YkpkeTBxX1RWT2Vmc0pPWVlEMzRNOTRueDVTTWotZ01pR0dyRnRzYTVFYTMyWk82Q0VlUE4tOGlVZlJqRHlmaERWcEMz?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-01T03:25:00.000Z"
-    },
-    {
-      "title": "Anggaran Kementerian ESDM 2027 Diketok Rp27,37 T, Migas Terbesar",
-      "publisher": "Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0xDcGlVOXJjMDMtUjUwTGVpczJ0T3NfcThiREJHT0hsdVdhZHRwdWxndzFndDVUNFN6akdtV3RZSEo1c2dnWkp1YnZaZFUzVzhIVWlBeTZ0NnR0Sm5sMHNNZGZZT2t5U19KMnVVTlZwNnV0UF9kQnF2a3FEUkxpT2pKVGdvclQxSDFCT1hMajFUTUNFSGRpUUxQOXM0cjVHSldBQUhaX2ZTUEhFTVVoUGpaakpldw?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-01T02:40:00.000Z"
-    },
-    {
-      "title": "Daftar Tarif Listrik PLN Terbaru September 2026, Naik atau Tidak?",
-      "publisher": "detikcom",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ0xOXzZvYUZIdlVZcWZFVUU5UGZQOUNYc3p4eGwwTEF6NTZlR09MTDd1bk9rLThUdk1ZekpLbVp3SHJHN0thYmJXVjFBXzR2ZTdEbGFrMVVXZ2RMczZJUEhCMmtMbFRHOWRIajkzNkJFejlyOUNYdGNHbkR5ZEpkMjl1Z2hVS1NNSDFDdEtIR3ZjRVY0RjlnOFVRdktoNndvQmtxdkNBYzdRVXYzSFhaWjhR0gGyAUFVX3lxTE1DTE5fNm9hRkh2VVlxZkVVRTlQZlA5Q1hzenh4bDBMQXo1NmVHT0xMN3VuT2stOFR2TVl6SkttWndIckc3S2FiYldWMUFfNHZlN0RsYWsxVVdnZExzNklQSEIya0xsVEc5ZEhqOTM2QkV6OXI5Q1h0Y0duRHlkSmQyOXVnaFVLU01IMUN0S0hHdmNFVjRGOWc4VVF2S2g2d29Ca3F2Q0FjN1FVdjNIWFpaOFE?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-31T12:00:29.000Z"
-    },
-    {
-      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
-      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-05-20T07:00:00.000Z"
     }
   ],
   "trends": [
@@ -377,9 +278,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 394,
+    "candidateCount": 396,
     "poolSize": 110,
-    "generatedAt": "2026-09-01T23:21:11.264Z",
+    "generatedAt": "2026-09-01T23:47:14.080Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }

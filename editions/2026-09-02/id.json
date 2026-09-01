@@ -2,14 +2,14 @@
   "slug": "2026-09-02",
   "date": "2026-09-02",
   "lang": "id",
-  "title": "OpenAI Astra Lampaui Ambang Keamanan Kritis; China Kenakan Pajak Baterai Li-ion",
-  "dek": "Dua perkembangan struktural bergerak bersamaan: batas kemampuan siber AI frontier resmi tertembus untuk pertama kali, sementara rantai pasok baterai global menghadapi guncangan pajak dari China.",
+  "title": "OpenAI Astra Capai Ambang Siber Kritis; China Naikkan Pajak Baterai; PalmCo Pivot Global",
+  "dek": "Tiga sinyal bergerak serentak: batas keamanan AI model frontier diuji ulang, rantai pasok baterai global terguncang kebijakan pajak China, dan Danantara mulai reorientasi BUMN dari domestik ke pasar global.",
   "domains": [
     "ai",
     "energy",
     "corporate"
   ],
-  "summary": "OpenAI merilis Astra sebagai model pertama yang memenuhi ambang kemampuan siber kritis dalam Preparedness Framework-nya, menandai babak baru pengelolaan risiko AI frontier. Di sisi energi, China memberlakukan kembali pajak 2% atas baterai litium-ion mulai 1 September 2026 — kebijakan yang akan naik ke 4% pada 2027 dan langsung menghantam ekonomi proyek penyimpanan energi global. SB Energy yang didukung SoftBank mengajukan IPO untuk menangkap lonjakan permintaan infrastruktur AI, memperkuat pola konvergensi AI–energi–project finance. Danantara mengubah model bisnis PalmCo menuju orientasi pasar global, sinyal pertama restrukturisasi BUMN melampaui konsolidasi keuangan ke repositioning strategis. Sementara itu, Indonesia mendorong integrasi target 100 GWp surya ke dalam RUPTL, tetapi gap transmisi tetap menjadi variabel eksekusi terkritis yang belum terjawab.",
+  "summary": "OpenAI mengonfirmasi model Astra memenuhi ambang kemampuan siber kritis pertama dalam Preparedness Framework — sebuah preseden regulatif yang memaksa semua lab frontier meninjau ulang protokol rilis. Di sisi energi, China menerapkan pajak 2% atas baterai lithium-ion mulai 1 September 2026 setelah 11 tahun bebas pajak, dengan eskalasi ke 4% pada September 2027, yang akan menekan marjin proyek penyimpanan energi global termasuk target PLTS 100 GWp Indonesia. Sementara itu, Danantara mengubah model bisnis PalmCo dari orientasi domestik ke pasar global, sinyal bahwa restrukturisasi BUMN mulai bergerak dari fase konsolidasi ke fase reposisi aset. Dua sinyal pendukung melengkapi pola: China kini menjalankan mikrogrid surya-baterai 358 MWac/1,2 GWh terbesar dunia di Arab Saudi — preseden teknologi yang relevan untuk kepulauan Indonesia — sementara SB Energy mengajukan IPO AS dengan narasi eksplisit 'AI power thirst', menandai bahwa infrastruktur energi untuk AI kini diperlakukan sebagai aset publik yang dapat dikapitalisasi.",
   "signals": [
     {
       "rank": 1,
@@ -17,14 +17,14 @@
       "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
         "OpenAI",
-        "Astra",
-        "Preparedness Framework"
+        "Preparedness Framework",
+        "Astra"
       ],
-      "headline": "OpenAI Astra menjadi model pertama yang melampaui ambang kemampuan siber kritis dalam Preparedness Framework",
-      "whatChanged": "OpenAI merilis model bernama Astra dan mengonfirmasikan bahwa ini adalah model pertama yang memenuhi 'Critical cybersecurity capability threshold' dalam Preparedness Framework perusahaan. Sebagai syarat rilis, OpenAI mengimplementasikan 'stronger safeguards' yang belum pernah diterapkan sebelumnya pada level ini.",
-      "whyItMatters": "Ini bukan sekadar rilis model — ini adalah preseden pertama di mana batas kemampuan kritis yang selama ini bersifat hipotetis dalam framework tata kelola AI frontier benar-benar dilintasi dan dipublikasikan. Artinya, framework evaluasi keamanan AI kini diuji secara nyata, bukan teoritis. Regulator, mitra korporasi, dan pesaing (Anthropic, Google DeepMind) harus menyesuaikan posisi mereka terhadap definisi 'model berisiko tinggi'.",
-      "secondOrder": "Saat ambang keamanan kritis pertama kali dilampaui secara resmi, tekanan regulasi akan bergeser dari debat definisi ke perdebatan tentang kecukupan safeguard yang ada. Pemerintah yang sedang menyusun regulasi AI — termasuk Indonesia yang sedang membahas Perpres AI — akan menghadapi tekanan untuk mengadopsi standar Preparedness Framework atau setidaknya merespons publikasi ini secara formal. Di sisi lain, enterprise yang sudah berkomitmen pada deployment Astra perlu meninjau ulang klausul keamanan kontrak mereka.",
-      "action": "Tinjau apakah klausul keamanan dalam kontrak AI enterprise yang sedang berjalan atau dalam negosiasi sudah mengacu pada threshold kemampuan siber yang terdefinisi — bukan hanya 'best effort'. Minta vendor mendokumentasikan safeguard spesifik yang diterapkan untuk model di atas ambang kritis.",
+      "headline": "OpenAI rilis Astra sebagai model pertama yang melewati ambang kemampuan siber kritis dalam Preparedness Framework",
+      "whatChanged": "OpenAI mengonfirmasi bahwa Astra adalah model pertama yang memenuhi 'Critical cybersecurity capability threshold' dalam Preparedness Framework internal mereka, dan menyertakan 'stronger safeguards for release' sebagai syarat distribusi.",
+      "whyItMatters": "Ini bukan sekadar pengumuman produk — ini adalah precedent regulatif self-imposed pertama di mana sebuah lab frontier secara publik mengakui bahwa modelnya mencapai batas kapabilitas berbahaya dan merinci kondisi pengamanan yang diperlukan sebelum rilis. Pola ini melanjutkan tren 'nuclear-ai-datacenter-power': semakin kuat model, semakin besar infrastruktur fisik dan institusional yang dibutuhkan untuk menahannya. Kini dimensi keamanan bergabung dengan dimensi daya komputasi dan energi sebagai variabel penentu kelayakan rilis.",
+      "secondOrder": "Lab lain — Google DeepMind, Anthropic, xAI — kini menghadapi tekanan untuk mempublikasikan ambang serupa atau dianggap kurang transparan dari standar yang baru saja OpenAI tetapkan secara sepihak. Regulator di Uni Eropa dan AS akan menggunakan dokumen ini sebagai referensi dalam penyusunan persyaratan audit model. Bagi operator infrastruktur AI di Indonesia (termasuk NeutraDC dan calon tenant data center), ini berarti kontrak layanan komputasi untuk model frontier kemungkinan akan memuat klausul keamanan baru yang belum ada dalam kerangka kontrak saat ini.",
+      "action": "Tinjau ulang draft SLA dan kontrak colocation data center yang sedang berjalan: apakah klausul 'acceptable use' dan 'security audit' sudah mengantisipasi pembedaan antara model standar dan model yang melewati ambang kapabilitas kritis? Minta tim hukum mengidentifikasi celah sebelum regulasi eksternal mewajibkan amendemen kontrak.",
       "strength": "material",
       "sourceUrls": [
         "https://openai.com/index/path-to-astra"
@@ -45,18 +45,86 @@
     {
       "rank": 2,
       "domain": "energy",
-      "themeKey": "pln-grid-investment",
+      "themeKey": "pln-transmisi-investasi",
       "entities": [
         "China",
+        "PLTS 100 GWp",
+        "RUPTL",
         "PLN"
       ],
-      "headline": "China kenakan pajak 2% baterai litium-ion per 1 September 2026, naik ke 4% pada 2027 — mengakhiri pembebasan 11 tahun",
-      "whatChanged": "China mulai memberlakukan pajak 2% atas baterai litium-ion efektif 1 September 2026, mengakhiri pembebasan yang telah berlaku selama 11 tahun. Tarif akan naik ke 4% pada September 2027. Teknologi baru seperti solid-state dilaporkan tetap mendapat pengecualian.",
-      "whyItMatters": "China mendominasi lebih dari 70% kapasitas manufaktur baterai litium-ion global. Pengenaan pajak ini langsung menaikkan biaya komponen penyimpanan energi untuk proyek BESS di seluruh dunia — termasuk proyek 100 GWp PLTS Indonesia yang membutuhkan storage masif. Kenaikan bertahap ke 4% memberi sinyal bahwa ini bukan penyesuaian sementara, melainkan pergeseran struktural kebijakan industri China.",
-      "secondOrder": "Proyek penyimpanan energi yang model keuangannya disusun dengan asumsi harga baterai berbasis pasar 2025 kini menghadapi risiko cost overrun. Kontraktor EPC yang sudah menandatangani kontrak fixed-price untuk BESS akan menanggung selisih ini. Dalam konteks Indonesia, PLN dan mitra swasta yang sedang mengembangkan proposal storage untuk mendukung PLTS 100 GWp perlu merevisi feasibility study — terutama untuk kontrak yang belum final.",
-      "action": "Untuk setiap proposal proyek BESS atau storage yang sedang dalam pipeline: verifikasi apakah harga baterai dalam model sudah memasukkan skenario pajak 2% (berlaku sekarang) dan 4% (September 2027). Minta EPC atau pemasok mengonfirmasi apakah kontrak pasokan mereka dilindungi dari eskalasi tarif ini.",
+      "headline": "China naikkan pajak baterai lithium-ion ke 2% mulai September 2026, naik ke 4% September 2027 — akhir 11 tahun eksempsi",
+      "whatChanged": "China memberlakukan pajak konsumsi 2% atas baterai lithium-ion efektif 1 September 2026, mengakhiri eksempsi yang berlaku sejak 2015. Tarif dijadwalkan naik ke 4% pada September 2027. Teknologi seperti solid-state dikecualikan dari kenaikan ini.",
+      "whyItMatters": "China menguasai lebih dari 75% kapasitas manufaktur sel baterai global. Pajak ini akan ditransmisikan ke harga BESS (Battery Energy Storage System) di seluruh rantai pasok global dalam 6–12 bulan. Ini langsung menekan kelayakan finansial proyek penyimpanan energi yang mendampingi PLTS 100 GWp Indonesia — program yang baru groundbreaking di Bali Agustus 2026 dan masih dalam fase penyusunan PPA. Tema 'pln-transmisi-investasi' yang sudah 10 kali muncul dalam arsip kini berhadapan dengan variabel biaya baru yang belum diperhitungkan dalam asumsi RUPTL.",
+      "secondOrder": "Proyek mikrogrid dan storage yang CAPEX-nya sudah di-lock dalam proposal tender sebelum September 2026 akan menghadami cost overrun jika komponen baterai belum di-procurement. Produsen baterai yang mengekspor dari China kemungkinan akan mencoba mengabsorpsi sebagian pajak untuk mempertahankan pangsa pasar, tetapi kemampuan absorpsi ini terbatas pada margin yang sudah tipis. Paradoksnya, pajak ini dapat mendorong diversifikasi sumber baterai ke Korea Selatan dan Amerika — membuka peluang negosiasi bilateral Indonesia yang selama ini terlalu bergantung pada China.",
+      "action": "Identifikasi semua proyek BESS dalam pipeline PLTS 100 GWp yang belum melakukan procurement kontrak pasokan baterai. Hitung ulang IRR dengan asumsi kenaikan komponen baterai 3–8% dalam 12 bulan ke depan, dan pertimbangkan untuk mempercepat proses pengadaan sebelum tarif 4% berlaku September 2027.",
       "strength": "material",
       "sourceUrls": [
+        "https://www.pv-magazine.com/2026/09/01/china-restores-2-lithium-ion-battery-tax-after-11-year-exemption/",
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://www.eco-business.com/news/indonesia-urged-to-integrate-100-gw-solar-plan-into-national-electricity-scheme/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 11,
+        "firstSeen": "2026-08-22",
+        "spanDays": 11
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "PalmCo",
+        "EUDR"
+      ],
+      "headline": "Danantara ubah model bisnis PalmCo dari pasar domestik ke orientasi ekspor global",
+      "whatChanged": "Danantara mengumumkan perubahan model bisnis PalmCo — BUMN kelapa sawit — untuk membidik pasar global, menandai pergeseran eksplisit dari posisi domestik. Ini adalah sinyal pertama bahwa restrukturisasi BUMN tidak hanya tentang konsolidasi neraca, tetapi juga reposisi kompetitif aset.",
+      "whyItMatters": "Tema 'danantara-bumn-karya-restructuring' yang sudah 12 kali muncul dalam arsip sejak 19 Agustus selama ini berfokus pada konsolidasi dan pengurangan jumlah BUMN. PalmCo adalah sinyal pertama bahwa fase berikutnya adalah reposisi strategis: BUMN yang selamat dari konsolidasi diharapkan bersaing di pasar global, bukan sekadar bertahan di pasar domestik. Ini mengubah tolok ukur keberhasilan reformasi dari 'berapa BUMN yang dimerger' menjadi 'berapa BUMN yang mampu bersaing global'.",
+      "secondOrder": "Perubahan orientasi PalmCo ke pasar global akan membutuhkan standar tata kelola, pelaporan ESG, dan due diligence yang jauh lebih ketat — khususnya mengingat tekanan Uni Eropa melalui EUDR (EU Deforestation Regulation) terhadap produk kelapa sawit. Jika Danantara mendorong BUMN lain mengikuti pola yang sama, maka gap antara standar governance saat ini dan standar yang dibutuhkan pasar global akan menjadi hambatan eksekusi yang lebih besar dari hambatan finansial.",
+      "action": "Evaluasi apakah PalmCo sudah memiliki sertifikasi RSPO dan dokumentasi rantai pasok yang memenuhi persyaratan EUDR yang berlaku mulai akhir 2025. Jika belum, timeline 'pivot global' Danantara perlu mempertimbangkan 12–18 bulan waktu sertifikasi sebelum akses pasar Eropa terbuka.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3VUT1BsVEpWem9YdWhqN1ZOc0Q5VjZHZkxGM3JkTlB2TnJiN1UwWjZlTGtSdDRBajh2Ry1pYk50QmN0S2lRVTZzaU5UM3V3djZxNGxhMUF0MHo4RDJOemZuZ003aloxc1R5VjhvUlJjNUdVYjRocFV5bUZXMUpIYUJKWjlIVDc2QUx0R0FCOC1TTkh5TTd2T0o3MDJkZmE0b3JkV9IBqgFBVV95cUxPLXNGMXFKUk9rLTdGNlhLT3BtN0hXTXdzcE5jOGtHdkpQbWZQMHllR3JsdFdCNlRWMnpwVDJ5b2ptellXdjJDbmpDcDY2SHBmSkhGWi13blA0OS1RMkNEbjVWN3EyODFVUGhacEFPWTMzbTRsX1V4MDVvLS02MWJGaUFoSGQ5MVlxVU9sYUpIR1l5NVo4ZE9CM0pjemdKclFCdFdJd0E1aW9tdw?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMktYTFFOOUxNQ2Zhd0RrNXlvRzdsM3FhcWc2TEJITjcwT2cyR1BqVU14RWZxWDBleHA4OU44QUxjNjJTUm5DMjJFczZtbkR5UUhyQVRsOTR5NnFJQWxrN0tzM2k1RDdxMFRWNnJDQ1gzUDF2WnJiUzJfNTdlcG4tV2pjX2haeVRQNDJUTHRQNkJaV005MFpJ0gGcAUFVX3lxTE9nYm5NRXBwd1dIM1hPYW1iVkpnRy1vVlFQdmw3VWZzTjZtZ1hfQ19kMS0wdG40bGdlRjlnTG9QWVNRSkRGMUVPOWw2VDM1VzBOVTVPbXFkMXBEN2Yxcl9kaWxXSjlVd2NJVlpuV1ptOUZpRFFKel9HUEJCUUo5N21zQUo0U2dZU00xRGtuUEZyZXZLdVdVT01TZ3FSdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRElKcDNKakwza3ZxUTZFTy1IZC1zYnJmb24xbzdMUlFuUXVEQTN1V1dUQnZFSWhDQlIxaTQ0elgyR3VrX1RSZzRYQThxbUhzeGNSVFBjcS1jb0t2bGg4RDFrblNzR0JjZW5YMk9XWnl1Ui12QXV3S0lHQTFaaWNpUkEwVFUtVkE4S0RicDh4b1VndnY2TjdNVnFOejMtWlQxNFZEenI4S28yLVNoRVRTMWI1aG81aktW0gG-AUFVX3lxTE1sRm9qZFd6XzRnemRfQzVHdlVNT0ZUYmp5dnExMUxrRHpQTXMzYTEyWEJLWTVKM3hjVFc2cy1tN3QtQnJUazBqWmVRcHZRaXNRYzVMSXF6ZlA3VnNKZUEwelN5S1lTLWUwdHZCTlhsTFJFNE9heFpsQnhiZG9yUHIwSWYwTVo2RGdqUWJrakt0MWQxSTBxS3BKQWI5bHhDUlZJbV9vUUNYTEo4UzU1MGFYdFpxSG9HMUdOc0M2UGc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 13,
+        "firstSeen": "2026-08-19",
+        "spanDays": 14
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "BESS"
+      ],
+      "headline": "Mikrogrid surya-baterai terbesar dunia — 358 MWac + 1,2 GWh — beroperasi penuh di Arab Saudi",
+      "whatChanged": "Proyek Red Sea multi-utility di Arab Saudi mencapai full commercial operation dengan kapasitas 358 MWac solar dan 1,2 GWh BESS dalam konfigurasi isolated grid — menjadikannya mikrogrid solar-storage terbesar di dunia saat ini.",
+      "whyItMatters": "Ini adalah bukti teknologi berskala besar bahwa isolated grid berbasis surya-baterai tanpa sambungan jaringan transmisi utama kini bankable dan dapat beroperasi penuh. Relevansinya untuk Indonesia: dengan lebih dari 17.000 pulau dan ratusan sistem kelistrikan terisolasi yang masih bergantung pada diesel, model ini adalah template yang langsung applicable. Ini melanjutkan tema 'pln-grid-investment' dengan menambahkan dimensi: solusi untuk gap transmisi bukan hanya membangun transmisi baru, tetapi juga island-scale microgrids.",
+      "secondOrder": "Jika model Red Sea dapat direplikasi di kepulauan Indonesia, maka PLN tidak perlu menunggu pembangunan transmisi lintas laut yang mahal dan lambat untuk mengintegrasikan energi terbarukan di pulau-pulau kecil. Namun, pajak baterai China yang baru saja berlaku (Sinyal 2) langsung memengaruhi ekonomi replikasi ini — membuat biaya BESS lebih tinggi tepat saat bukti teknologinya paling kuat.",
+      "action": "Identifikasi 5–10 sistem kelistrikan terisolasi PLN dengan kapasitas di atas 20 MW yang saat ini 100% diesel, dan hitung ulang business case konversi ke solar-storage dengan asumsi biaya BESS +5% akibat pajak China. Bandingkan dengan LCOE diesel pada harga BBM September 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/09/01/worlds-largest-solar-storage-microgrid-goes-online-in-saudi-arabia/",
         "https://www.pv-magazine.com/2026/09/01/china-restores-2-lithium-ion-battery-tax-after-11-year-exemption/"
       ],
       "secondOrderUrls": [],
@@ -73,7 +141,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "domain": "ai",
       "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
@@ -82,21 +150,20 @@
         "NeutraDC",
         "PLN"
       ],
-      "headline": "SB Energy (SoftBank) ajukan IPO AS untuk menangkap permintaan infrastruktur tenaga listrik AI",
-      "whatChanged": "SB Energy, perusahaan energi terbarukan yang didukung SoftBank, mengajukan pendaftaran IPO di bursa AS dengan narasi eksplisit bahwa lonjakan permintaan tenaga listrik dari AI adalah pendorong utama valuasinya.",
-      "whyItMatters": "Ini melanjutkan pola yang sudah terlacak dalam tema nuclear-ai-datacenter-power: infrastruktur energi yang melayani beban AI kini diperlakukan sebagai aset kelas tersendiri yang layak masuk pasar modal publik. IPO ini akan menjadi ujian valuasi publik pertama untuk tesis 'AI power infrastructure' — hasilnya akan menjadi benchmark bagi transaksi serupa di Asia Tenggara, termasuk Indonesia.",
-      "secondOrder": "Jika IPO SB Energy berhasil dengan premi valuasi yang signifikan, gelombang 'AI-powered energy infrastructure' akan masuk ke pipeline IPO regional. Investor institusional Indonesia yang sudah aktif di sektor energi terbarukan perlu memposisikan diri sebelum arus modal global mematok harga aset sejenis di dalam negeri lebih tinggi. NeutraDC yang sudah bermitra dengan PLN untuk 200 MW data center [60] menjadi kandidat natural untuk narasi serupa.",
-      "action": "Ikuti prospektus IPO SB Energy saat dipublikasikan — khususnya pada bagian metrik operasional dan struktur kontrak offtake dengan hyperscaler AI. Gunakan sebagai template untuk mengevaluasi struktur serupa pada proyek infrastruktur AI-energy di Indonesia.",
+      "headline": "SB Energy (SoftBank) ajukan IPO AS dengan narasi eksplisit 'AI power thirst' sebagai thesis utama",
+      "whatChanged": "SB Energy, perusahaan energi terbarukan yang didukung SoftBank, mengajukan dokumen IPO di bursa AS dengan narasi utama bahwa lonjakan permintaan daya untuk AI adalah pendorong utama valuasi dan pipeline proyeknya.",
+      "whyItMatters": "Ini adalah IPO pertama yang secara eksplisit memposisikan dirinya sebagai 'AI power infrastructure play' — mengemas aset energi terbarukan sebagai infrastruktur kritis AI, bukan sekadar utilitas hijau. Pola ini melanjutkan tema 'nuclear-ai-datacenter-power': konvergensi antara AI dan infrastruktur energi kini sudah cukup terdefinisi sehingga dapat dimonetisasi melalui pasar modal publik. Investor institusional yang sebelumnya menilai aset energi terbarukan dengan multiple utilitas kini akan dihadapkan pada argumen bahwa aset yang sama bernilai lebih tinggi jika dikontrak untuk melayani data center AI.",
+      "secondOrder": "Jika IPO SB Energy berhasil dengan premium valuasi berbasis narasi AI, hal ini akan mendorong perusahaan energi terbarukan lain — termasuk di Asia Tenggara — untuk mengemas ulang aset mereka dengan framing serupa. Bagi NeutraDC yang bermitra dengan PLN untuk ekspansi data center 200 MW, ini membuka preseden: aset pembangkit yang dedicated untuk data center AI dapat dihargai dengan kelipatan yang berbeda dari pembangkit konvensional, memungkinkan struktur pembiayaan baru.",
+      "action": "Pantau prospektus IPO SB Energy ketika tersedia publik: identifikasi struktur kontrak antara aset energi dan tenants data center AI (durasi PPA, harga, klausul take-or-pay). Gunakan sebagai template untuk mengevaluasi apakah struktur serupa dapat diterapkan dalam proyek NeutraDC-PLN atau inisiatif data center Danantara.",
       "strength": "emerging",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWs5azJGWFlYTnJCV1FTak9LYXZtUkNYOGFaZzhNWkhHSEhLMkJMVVdYX2U1ek9mTmJoRFl0YUxoX2Njc0htbVhjcDU5bklsd0c4c29FeUxIdVFrd2pvak9ENTBHZV9CcXB5YVdudDdJV0IzWlU1c082SEJ4RF9yZFd0MVZHcUFIWGdQbXVSZ1FfSmxKQ1B2NFkxQktIR0kyRnlKNzVzdlNxcXZQOHZHRGhfRFhKLUVvbU9LRWctUWpmUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNblJxWWgyS0tqQVJnYzJMNTNYLWlYaGNVbThQaHNJcnhDX1V6M3NnNUNkMGNfclBMdnhQbEpOZ0FsVnVBaXdrTklabmMyVjRVdTFBZVBKRHozR2dpVkQwRlhZdlRfMXlabGl6T1d4ejZiWHhoaXpWWUhuOVZHMlYxXzdQMDFDNkExS2xzTTI4V1ZyVlpZWWdoQzBZWlZlR1VnV2U2VzlGNnBKVjNDejNKNUdQRQ?oc=5"
-      ],
-      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNblJxWWgyS0tqQVJnYzJMNTNYLWlYaGNVbThQaHNJcnhDX1V6M3NnNUNkMGNfclBMdnhQbEpOZ0FsVnVBaXdrTklabmMyVjRVdTFBZVBKRHozR2dpVkQwRlhZdlRfMXlabGl6T1d4ejZiWHhoaXpWWUhuOVZHMlYxXzdQMDFDNkExS2xzTTI4V1ZyVlpZWWdoQzBZWlZlR1VnV2U2VzlGNnBKVjNDejNKNUdQRQ?oc=5",
         "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
       ],
+      "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 3,
         "hasPrimary": false
       },
       "trend": {
@@ -106,91 +173,24 @@
         "firstSeen": "2026-08-20",
         "spanDays": 13
       }
-    },
-    {
-      "rank": 4,
-      "domain": "energy",
-      "themeKey": "pln-transmisi-investasi",
-      "entities": [
-        "PLN",
-        "Kementerian ESDM",
-        "IESR",
-        "RUPTL"
-      ],
-      "headline": "Eco-Business dan IESR desak integrasi target 100 GWp surya ke RUPTL; gap transmisi tetap variabel eksekusi terkritis",
-      "whatChanged": "Eco-Business melaporkan seruan dari para analis energi agar pemerintah Indonesia mengintegrasikan target PLTS 100 GWp ke dalam Rencana Umum Penyediaan Tenaga Listrik (RUPTL), dengan argumen bahwa koordinasi investasi antara pembangkit, jaringan transmisi, dan penyimpanan tidak dapat berjalan tanpa payung RUPTL yang diperbarui. IESR sebelumnya juga mengonfirmasi bahwa peluncuran di Bali harus menjadi titik awal eksekusi terukur, bukan seremoni.",
-      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang sudah berstatus structural. Tanpa integrasi ke RUPTL, investasi swasta dalam PLTS 100 GWp akan beroperasi tanpa kepastian off-take dan koordinasi transmisi — dua faktor yang paling menentukan kelayakan proyek. Setiap bulan tanpa pembaruan RUPTL adalah bulan di mana pipeline proyek berpotensi stagnan meskipun angka target terlihat ambisius.",
-      "secondOrder": "Jika RUPTL tidak diperbarui sebelum akhir 2026, investor internasional yang sedang melakukan due diligence untuk proyek surya skala besar di Indonesia akan memasukkan risiko regulasi ini dalam discount rate mereka — menaikkan biaya modal efektif dan memperlemah daya saing tarif Indonesia dibanding Vietnam atau India. Risiko ini bersifat kumulatif: semakin lama tertunda, semakin dalam gap kepercayaan yang harus ditutup.",
-      "action": "Pantau jadwal revisi RUPTL dari Kementerian ESDM dan PLN — khususnya apakah 100 GWp PLTS sudah masuk sebagai target mengikat dengan alokasi kapasitas transmisi per wilayah. Jadikan kejelasan ini sebagai kondisi awal dalam setiap evaluasi investasi energi surya skala besar di Indonesia.",
-      "strength": "actionable",
-      "sourceUrls": [
-        "https://www.eco-business.com/news/indonesia-urged-to-integrate-100-gw-solar-plan-into-national-electricity-scheme/",
-        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 2,
-        "hasPrimary": true
-      },
-      "trend": {
-        "themeKey": "pln-transmisi-investasi",
-        "status": "structural",
-        "occurrences": 11,
-        "firstSeen": "2026-08-22",
-        "spanDays": 11
-      }
-    },
-    {
-      "rank": 5,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
-      "entities": [
-        "Danantara",
-        "PalmCo"
-      ],
-      "headline": "Danantara ubah model bisnis PalmCo dari orientasi domestik ke pasar global",
-      "whatChanged": "Danantara Indonesia secara resmi mengumumkan perubahan model bisnis PalmCo — BUMN kelapa sawit — dari orientasi domestik menjadi bidikan pasar global. Ini adalah pengumuman publik pertama tentang repositioning strategis PalmCo di bawah pengelolaan Danantara.",
-      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring, tetapi menandai pergeseran kualitas: restrukturisasi tidak lagi semata konsolidasi neraca dan efisiensi operasional, melainkan sudah masuk ke redefinisi proposisi nilai bisnis. PalmCo yang berorientasi global berarti Danantara mulai menggunakan BUMN sebagai alat kompetisi ekspor, bukan sekadar aset negara yang dikelola efisien.",
-      "secondOrder": "Reorientasi global PalmCo akan memunculkan tekanan untuk memenuhi standar ESG internasional yang jauh lebih ketat — terutama terkait deforestasi dan traceability rantai pasok — sebagai syarat akses pasar Eropa dan AS. Jika standar ini tidak disiapkan sejak awal, ambisi pasar global justru bisa menjadi hambatan baru. Di sisi lain, model ini bisa menjadi template untuk BUMN perkebunan lain yang juga berada di bawah pengelolaan Danantara.",
-      "action": "Petakan apakah PalmCo sudah memiliki sertifikasi RSPO atau ISPO yang diakui pasar tujuan ekspor. Jika belum, timeline sertifikasi harus masuk dalam rencana transformasi sebagai critical path — bukan inisiatif terpisah.",
-      "strength": "emerging",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSldKTUhHZnRfc2lnYWdRTU5BclVLZko4WXRJbXJiS254b3pSa0ZmU25TUDZONDJPQnQwdzlySldzYjI4c0JyajFKODAzTmdsdm1ZeHpGRXViOVU3eFh5Y3FrS0NfUGVzcnhMcWI0OUNBbzU2clk2TnRUUnFjcjZlSWNILUplMGxubUR3RUtUREFKa1dDdEk0TkZxb25GVmNTUWJsWGZHX1hBby14VHZUUmRSLWp0YWMybk5fS19XVTZkVzRpX2NLZkFKandyaWJESllvRF9fRzVkdTB2VDB3akV0amFCcG90cTRHY3FsbnN1RGotU2ZBdzdNYkREQQ?oc=5"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 1,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
-        "status": "structural",
-        "occurrences": 13,
-        "firstSeen": "2026-08-19",
-        "spanDays": 14
-      }
     }
   ],
   "watchNext": [
     {
-      "item": "Prospektus lengkap IPO SB Energy di AS — perhatikan struktur kontrak offtake dengan hyperscaler dan metrik revenue per MW untuk benchmark valuasi infrastruktur AI-energy",
-      "dueDate": "2026-10-01"
+      "item": "Prospektus lengkap IPO SB Energy tersedia publik — periksa struktur PPA dengan tenants data center AI dan kelipatan valuasi vs. utilitas konvensional",
+      "dueDate": "2026-09-30"
     },
     {
-      "item": "Tarif pajak baterai litium-ion China naik dari 2% ke 4% — verifikasi dampak pada pipeline proyek BESS Indonesia dan revisi feasibility study yang sedang berjalan",
+      "item": "Tarif pajak baterai China naik ke 4%: pantau respons harga BESS di tender proyek PLTS 100 GWp Indonesia dan apakah ada klausul price adjustment dalam kontrak yang sudah ditandatangani",
       "dueDate": "2027-09-01"
     },
     {
-      "item": "Pembaruan RUPTL yang mengintegrasikan target PLTS 100 GWp — pantau apakah alokasi transmisi per wilayah sudah terdefinisi sebelum akhir 2026",
+      "item": "Danantara: apakah BUMN lain menyusul model PalmCo dengan pivot global? Pantau pengumuman restrukturisasi BUMN Karya yang ditargetkan selesai akhir 2026",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "Respons regulator dan kompetitor (Anthropic, Google DeepMind) terhadap preseden Astra sebagai model pertama yang melampaui ambang kemampuan siber kritis dalam framework tata kelola AI",
-      "dueDate": "2026-10-15"
-    },
-    {
-      "item": "Rencana sertifikasi ESG internasional (RSPO/ISPO) PalmCo pasca-pengumuman reorientasi pasar global oleh Danantara",
-      "dueDate": "2026-12-31"
+      "item": "Respons lab AI lain (Google DeepMind, Anthropic) terhadap preseden Preparedness Framework OpenAI Astra — apakah mereka mempublikasikan ambang kapabilitas kritis setara?",
+      "dueDate": "2026-10-01"
     }
   ],
   "sources": [
@@ -201,6 +201,14 @@
       "tier": 1,
       "primary": true,
       "publishedAt": "2026-09-01T13:48:13.000Z"
+    },
+    {
+      "title": "World’s largest solar-storage microgrid goes online in Saudi Arabia",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/09/01/worlds-largest-solar-storage-microgrid-goes-online-in-saudi-arabia/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-01T13:39:43.000Z"
     },
     {
       "title": "SoftBank-backed SB Energy files for US IPO as AI turbocharges infrastructure demand",
@@ -228,6 +236,15 @@
       "publishedAt": "2026-09-01T13:00:00.000Z"
     },
     {
+      "title": "Indonesia cuts 250 SOEs under Danantara reform: Prabowo",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMktYTFFOOUxNQ2Zhd0RrNXlvRzdsM3FhcWc2TEJITjcwT2cyR1BqVU14RWZxWDBleHA4OU44QUxjNjJTUm5DMjJFczZtbkR5UUhyQVRsOTR5NnFJQWxrN0tzM2k1RDdxMFRWNnJDQ1gzUDF2WnJiUzJfNTdlcG4tV2pjX2haeVRQNDJUTHRQNkJaV005MFpJ0gGcAUFVX3lxTE9nYm5NRXBwd1dIM1hPYW1iVkpnRy1vVlFQdmw3VWZzTjZtZ1hfQ19kMS0wdG40bGdlRjlnTG9QWVNRSkRGMUVPOWw2VDM1VzBOVTVPbXFkMXBEN2Yxcl9kaWxXSjlVd2NJVlpuV1ptOUZpRFFKel9HUEJCUUo5N21zQUo0U2dZU00xRGtuUEZyZXZLdVdVT01TZ3FSdw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-07-20T07:00:00.000Z"
+    },
+    {
       "title": "SoftBank-Backed SB Energy Files for IPO to Tap AI Power Thirst",
       "publisher": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNblJxWWgyS0tqQVJnYzJMNTNYLWlYaGNVbThQaHNJcnhDX1V6M3NnNUNkMGNfclBMdnhQbEpOZ0FsVnVBaXdrTklabmMyVjRVdTFBZVBKRHozR2dpVkQwRlhZdlRfMXlabGl6T1d4ejZiWHhoaXpWWUhuOVZHMlYxXzdQMDFDNkExS2xzTTI4V1ZyVlpZWWdoQzBZWlZlR1VnV2U2VzlGNnBKVjNDejNKNUdQRQ?oc=5",
@@ -247,11 +264,11 @@
     {
       "title": "Danantara ubah model bisnis PalmCo untuk bidik pasar global",
       "publisher": "ANTARA News",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSldKTUhHZnRfc2lnYWdRTU5BclVLZko4WXRJbXJiS254b3pSa0ZmU25TUDZONDJPQnQwdzlySldzYjI4c0JyajFKODAzTmdsdm1ZeHpGRXViOVU3eFh5Y3FrS0NfUGVzcnhMcWI0OUNBbzU2clk2TnRUUnFjcjZlSWNILUplMGxubUR3RUtUREFKa1dDdEk0TkZxb25GVmNTUWJsWGZHX1hBby14VHZUUmRSLWp0YWMybk5fS19XVTZkVzRpX2NLZkFKandyaWJESllvRF9fRzVkdTB2VDB3akV0amFCcG90cTRHY3FsbnN1RGotU2ZBdzdNYkREQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3VUT1BsVEpWem9YdWhqN1ZOc0Q5VjZHZkxGM3JkTlB2TnJiN1UwWjZlTGtSdDRBajh2Ry1pYk50QmN0S2lRVTZzaU5UM3V3djZxNGxhMUF0MHo4RDJOemZuZ003aloxc1R5VjhvUlJjNUdVYjRocFV5bUZXMUpIYUJKWjlIVDc2QUx0R0FCOC1TTkh5TTd2T0o3MDJkZmE0b3JkV9IBqgFBVV95cUxPLXNGMXFKUk9rLTdGNlhLT3BtN0hXTXdzcE5jOGtHdkpQbWZQMHllR3JsdFdCNlRWMnpwVDJ5b2ptellXdjJDbmpDcDY2SHBmSkhGWi13blA0OS1RMkNEbjVWN3EyODFVUGhacEFPWTMzbTRsX1V4MDVvLS02MWJGaUFoSGQ5MVlxVU9sYUpIR1l5NVo4ZE9CM0pjemdKclFCdFdJd0E1aW9tdw?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-01T17:01:55.000Z"
+      "publishedAt": "2026-09-01T23:17:16.000Z"
     },
     {
       "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
@@ -260,6 +277,15 @@
       "tier": 1,
       "primary": true,
       "publishedAt": "2026-08-25T10:00:49.000Z"
+    },
+    {
+      "title": "COO Danantara Ungkap Progres Restrukturisasi BUMN Karya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRElKcDNKakwza3ZxUTZFTy1IZC1zYnJmb24xbzdMUlFuUXVEQTN1V1dUQnZFSWhDQlIxaTQ0elgyR3VrX1RSZzRYQThxbUhzeGNSVFBjcS1jb0t2bGg4RDFrblNzR0JjZW5YMk9XWnl1Ui12QXV3S0lHQTFaaWNpUkEwVFUtVkE4S0RicDh4b1VndnY2TjdNVnFOejMtWlQxNFZEenI4S28yLVNoRVRTMWI1aG81aktW0gG-AUFVX3lxTE1sRm9qZFd6XzRnemRfQzVHdlVNT0ZUYmp5dnExMUxrRHpQTXMzYTEyWEJLWTVKM3hjVFc2cy1tN3QtQnJUazBqWmVRcHZRaXNRYzVMSXF6ZlA3VnNKZUEwelN5S1lTLWUwdHZCTlhsTFJFNE9heFpsQnhiZG9yUHIwSWYwTVo2RGdqUWJrakt0MWQxSTBxS3BKQWI5bHhDUlZJbV9vUUNYTEo4UzU1MGFYdFpxSG9HMUdOc0M2UGc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T07:00:00.000Z"
     }
   ],
   "trends": [
@@ -315,9 +341,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 394,
+    "candidateCount": 396,
     "poolSize": 110,
-    "generatedAt": "2026-09-01T23:19:59.363Z",
+    "generatedAt": "2026-09-01T23:45:56.320Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
