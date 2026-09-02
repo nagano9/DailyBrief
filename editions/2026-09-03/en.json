@@ -2,14 +2,13 @@
   "slug": "2026-09-03",
   "date": "2026-09-03",
   "lang": "en",
-  "title": "OpenAI Astra Hits Cyber Threshold; Germany's €35B Capacity Deal; Ungaran Geothermal Heats Up",
-  "dek": "A frontier AI safety trigger, Europe's largest capacity mechanism approval, and a contested Indonesian geothermal site converge into decisions that cannot be deferred.",
+  "title": "OpenAI's Astra Hits Cyber Threshold; Texas Halts Data-Center Power; RI Solar Needs Grid",
+  "dek": "Three converging pressures — AI safety limits, power-grid reality checks, and Indonesia's renewable integration gap — demand immediate strategic reassessment.",
   "domains": [
     "ai",
-    "energy",
-    "corporate"
+    "energy"
   ],
-  "summary": "OpenAI has declared its Astra model the first to cross the 'Critical cybersecurity capability' threshold under its own Preparedness Framework, a self-imposed governance trigger that now forces documented safeguard disclosures and sets a precedent for how regulators and enterprise buyers assess model risk. In Europe, the European Commission approved Germany's capacity mechanism at up to €35.2 billion — the largest state-backed power-security intervention in EU history — signalling that energy-transition economics increasingly require explicit government backstops rather than market prices alone. In Indonesia, the Ungaran geothermal development is generating legislative and ministerial friction that continues the structural theme of concession-reform delay, while Pertamina NRE's conditional readiness to build 100 GW of solar underlines that regulatory support — not capital — remains the binding constraint on Indonesia's energy transition. Danantara's potential Rp 2 trillion entry into Bakrie group equities adds a new dimension to the BUMN restructuring story: sovereign capital is now moving into distressed private assets, not just state enterprises, with governance implications that the market has not yet priced.",
+  "summary": "OpenAI's Astra model has formally crossed the 'Critical cybersecurity capability' threshold under its own Preparedness Framework, the first model to do so, creating a new compliance and liability reference point for enterprise AI buyers. Simultaneously, Texas's halt on powering data centers over 'ghost demand' signals that US grid operators are now enforcing load-forecasting discipline that will reshape AI infrastructure timelines globally. In Indonesia, Pertamina NRE's call for regulatory support to develop 100 GW of solar — combined with IESR's warning that the target must be embedded in the national electricity plan — confirms that the 100 GW groundbreaking was an announcement without an integration plan. Danantara's Rp 2 trillion injection into EV commercial emitter VKTR marks its first disclosed strategic-sector equity deployment, testing whether the sovereign vehicle can function as an industrial policy tool rather than a balance-sheet consolidator. Germany's EC-approved €35.2 billion capacity mechanism sets a precedent for state-backed firm-power support that Indonesian policymakers designing the coal BLU transition and grid stability framework should study.",
   "signals": [
     {
       "rank": 1,
@@ -20,12 +19,12 @@
         "Astra",
         "Preparedness Framework"
       ],
-      "headline": "OpenAI declares Astra first model to cross 'Critical cybersecurity capability' threshold under Preparedness Framework",
-      "whatChanged": "OpenAI published its Preparedness Framework assessment for Astra, designating it the first model to meet the Critical cybersecurity capability threshold — a level that by the Framework's own terms requires enhanced safeguards before deployment. The announcement details specific capability evidence and the corresponding mitigations applied prior to release.",
-      "whyItMatters": "This is the first time OpenAI has self-applied a 'Critical' designation in the Preparedness Framework, converting a voluntary governance document into an operational gate. It continues the enterprise-ai-data-privacy-contracts theme: the governance and contractual environment around frontier AI is hardening from aspiration to documented, auditable trigger. Enterprise buyers and regulators now have a named precedent to reference when demanding pre-deployment capability assessments.",
-      "secondOrder": "The self-certification model creates a template that regulators in the EU (AI Act high-risk classification) and prospective national AI legislation can point to as a floor — meaning OpenAI has inadvertently lowered the cost of demanding mandatory third-party audits, because the internal process is now publicly legible. Competitors who have not published equivalent frameworks face immediate comparative pressure to do so or accept a procurement disadvantage with risk-sensitive enterprise and government buyers.",
-      "action": "Review any enterprise or government AI procurement terms this week: insert a clause requiring vendors to disclose capability-threshold assessments equivalent to the Preparedness Framework before model upgrades are pushed to production. Use Astra as the reference case.",
-      "strength": "actionable",
+      "headline": "OpenAI's Astra is first model to formally cross Critical cybersecurity capability threshold under Preparedness Framework",
+      "whatChanged": "OpenAI published that Astra is the first model to meet the 'Critical cybersecurity capability' threshold defined in its Preparedness Framework, triggering a specific set of 'frontier safeguards' required before deployment. The announcement names the threshold explicitly and confirms safeguards were applied prior to release.",
+      "whyItMatters": "This is the first real-world activation of a self-imposed AI safety classification system at the Critical level. It establishes that OpenAI now has a model it judges capable of material cybersecurity harm in adversarial hands, and has released it anyway under a safeguard regime — a decision that will be scrutinized by regulators and enterprise compliance teams simultaneously.",
+      "secondOrder": "The Preparedness Framework's threshold vocabulary — 'Critical' cybersecurity capability — is now a live standard that competitors, regulators, and insurers will be forced to respond to. Enterprises running AI procurement or vendor risk assessments will need to map their own frameworks against OpenAI's taxonomy. More consequentially, if a regulator adopts the Preparedness Framework's thresholds as a reference, OpenAI has effectively drafted its own regulation — a governance asymmetry that favors the incumbent.",
+      "action": "Enterprise AI procurement and legal teams should this week review supplier contracts and acceptable-use policies against the Preparedness Framework's Critical threshold definition. Specifically: does existing indemnification language cover incidents involving a model the vendor itself classifies as Critical-capability?",
+      "strength": "material",
       "sourceUrls": [
         "https://openai.com/index/path-to-astra"
       ],
@@ -47,21 +46,28 @@
       "domain": "energy",
       "themeKey": "pln-grid-investment",
       "entities": [
-        "European Commission",
-        "Germany"
+        "Pertamina NRE",
+        "IESR",
+        "PLN",
+        "RUPTL"
       ],
-      "headline": "EU approves Germany's capacity mechanism at up to €35.2 billion — largest state power-security intervention in EU history",
-      "whatChanged": "The European Commission formally approved Germany's capacity mechanism, authorising up to €35.2 billion in state support covering generation, storage, and demand-side flexibility. This clears the legal state-aid hurdle that had blocked the scheme and allows Germany to contract capacity ahead of coal-phase-out deadlines.",
-      "whyItMatters": "This continues the pln-grid-investment theme at the European level: the structural condition is now confirmed that energy-transition economics require explicit government backstops rather than market clearing prices. A €35.2 billion mechanism from the EU's largest economy normalises sovereign underwriting of dispatchable capacity and storage at scale, giving other governments — including Indonesia — a high-visibility precedent for similar instruments.",
-      "secondOrder": "Germany's approved mechanism will absorb significant battery storage and demand-response capacity under long-term contracts, tightening the European market for those assets and potentially raising costs for non-European buyers — including Indonesian and Southeast Asian developers sourcing European storage technology or financing. More immediately, the EU approval reframes capacity mechanisms as compatible with competitive markets, weakening the doctrinal argument against similar schemes elsewhere.",
-      "action": "Assess whether Indonesia's planned PLTS 100 GW programme and PLN's grid investment pipeline can be structured to reference Germany's capacity mechanism as a state-aid-compatible precedent in multilateral financing negotiations; flag this to legal and finance teams this week.",
-      "strength": "material",
+      "headline": "Pertamina NRE signals readiness for 100 GW solar but demands regulatory framework; IESR warns target must be embedded in national electricity plan",
+      "whatChanged": "Pertamina NRE has publicly stated readiness to develop Indonesia's 100 GW solar target but is conditioning meaningful participation on regulatory support, while IESR warned separately that the 100 GW launch and groundbreaking in Bali must be integrated into the national electricity scheme — coordinating generation, grids, and storage — or risk being an unexecutable announcement.",
+      "whyItMatters": "This continues the structural pln-grid-investment theme (10x in archive). The accumulation now implies a specific gap: Indonesia has a headline solar target and a willing anchor developer, but lacks the regulatory and grid-integration architecture to make the investment bankable. The missing link is the RUPTL-level coordination that translates targets into firm offtake, transmission capacity, and storage dispatch rules.",
+      "secondOrder": "Pertamina NRE's conditional readiness signals that the 100 GW program will stall not on generation appetite but on the regulatory prerequisite chain — tariff structure, grid code for variable renewables, and storage procurement rules. The entity most exposed to this stall is PLN Transmisi, which must plan transmission before generation contracts are signed but cannot plan without knowing where generation will be located. This is a chicken-and-egg that only a RUPTL revision with explicit spatial and technology allocation can break.",
+      "action": "Track whether the Ministry of Energy and Mineral Resources issues a RUPTL amendment or interim regulation embedding the 100 GW solar target with transmission and storage coordinates before year-end. If not issued by Q4 2026, treat the 100 GW program as a political target without an execution architecture for planning purposes.",
+      "strength": "actionable",
       "sourceUrls": [
-        "https://www.pv-magazine.com/2026/09/02/eu-approves-german-capacity-mechanism/"
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaldVcFJXRVNvdV9PZUpUVFJHY1F1TFNLU2dWN0R1bExYekFvRjlRZ0x5d0NzcDhGV2JTRnlCS09MNmZHd1dNOVJVUGdxYTdsUDFTcjVqNVVaOEpHek1fMFQ1ZDNuVldQZjJid1ZQSzVLWlZ6eUdfN19GcWVJRHZQdDRhOWlMT05uTnVnM04xMy1wVk9RaHEzMlhLdEVlSjB5Z3VFM2x1MG5hTHlob01IaEZ0Z0Q5aXllVDN0V0UwcWLSAcYBQVVfeXFMTmYtVjk1NWFVcktBUnZoQkxFQ2JxZG1UMWZMSWRWZlIwOUdtU3dVV1FoYW1Tay0xcTNweGxWUU4yeFBCZnU4QW5jSXRGR18zYmp3SFJLT3BGWTZmaXYyWXZVV1ZadVpWOFYwUUdBVFF4YXA5d1JQbjJWTlpXU05UZDhfV3FHU0JvSlBsWnc0MG5EMGFiZTNnc1JMY21MWVVEcElyclhFbXBNLXJkRFN3T2RDMWZXdE9BajlnOS1FR08xTF93UnR3?oc=5",
+        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+        "https://www.eco-business.com/news/indonesia-urged-to-integrate-100-gw-solar-plan-into-national-electricity-scheme/"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
       "corroboration": {
-        "publishers": 1,
+        "publishers": 3,
         "hasPrimary": true
       },
       "trend": {
@@ -75,118 +81,91 @@
     {
       "rank": 3,
       "domain": "energy",
-      "themeKey": "indonesia-geothermal-concession-reform",
+      "themeKey": "pln-transmisi-investasi",
       "entities": [
-        "DPRD Jateng",
-        "Kementerian ESDM",
-        "Gunung Ungaran"
+        "European Commission",
+        "Germany",
+        "PLN"
       ],
-      "headline": "DPRD Jateng to confront Kementerian ESDM over Ungaran geothermal; ministry insists on phased, study-based approach",
-      "whatChanged": "The Central Java provincial legislature (DPRD Jateng) announced it will formally meet Kementerian ESDM to contest the development plan for the Gunung Ungaran geothermal site. Kementerian ESDM publicly stated that Ungaran development will proceed in phases and only on the basis of completed assessments — signalling a deliberate brake on timeline.",
-      "whyItMatters": "This continues the indonesia-geothermal-concession-reform theme, now at 7x in 30 days. The pattern is structural: local legislative bodies are increasingly asserting procedural oversight over concession decisions previously treated as central-government prerogatives. Ungaran is the clearest current example of a site where political friction — not resource quality or technology — is the binding constraint on development.",
-      "secondOrder": "The legislative escalation at Ungaran sets a replicable template for communities and local governments near other geothermal sites to demand formal ministerial consultations as a condition of development. If ESDM concedes procedural ground here, it implicitly acknowledges that geothermal concessions require provincial legislative buy-in — a shift that would materially extend the permitting timeline across the pipeline and increase the cost of social licence for IPPs already committed to sites.",
-      "action": "For any geothermal investment thesis involving Indonesian sites, immediately map which concessions have active DPRD engagement or pending local legislative sessions; treat Ungaran as a leading indicator of procedural risk at comparable sites.",
+      "headline": "EU approves Germany's €35.2 billion capacity mechanism, largest state-backed firm-power support in European history",
+      "whatChanged": "The European Commission has approved Germany's capacity mechanism, authorizing up to €35.2 billion in state support for generation, storage, and demand-side flexibility over the mechanism's term. The approval clears legal-state-aid barriers and sets a structural precedent for government-backed reliability payments in liberalized electricity markets.",
+      "whyItMatters": "Germany's capacity mechanism — the largest of its kind in Europe — confirms that even highly liberalized, market-oriented power systems are reverting to state-backed firm-capacity support to manage the reliability gap created by high variable-renewable penetration. This is a direct policy signal for emerging markets including Indonesia, where the transition from coal-dominated dispatch to renewable-dominant generation will create analogous reliability gaps.",
+      "secondOrder": "The EC approval gives the Germany model regulatory legitimacy that Indonesian policymakers designing post-coal firm-power support — including the coal BLU mechanism and gas-peaker financing under RUPTL — can cite as international precedent. It reduces the political risk of being seen as 'anti-market' when implementing capacity payments. More specifically, it validates a hybrid structure (generation + storage + demand response in one mechanism) that PLN could propose as a bankable reliability framework for investors in dispatchable renewables like geothermal and hydro.",
+      "action": "The Ministry of Energy and Mineral Resources and PLN's regulatory affairs team should this week document the Germany capacity mechanism's structure — eligibility criteria, payment design, and EC state-aid conditions — as a reference template for Indonesia's own reliability payment design ahead of the RUPTL 2025–2034 implementation review.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUDRSMC10N29keXBnOXdCTHVaVm1zWnQ5MGhEOGtLaXFEUmdFaG5kVDZDTUd2OG9GTUhuM3NXeHBCLTNsZmZSc1JSVWptWURqdmk0SjdOQTZkSjFDRlFfTVdNUV9oQm8tTnppRjJfdXJUSDNNSWVaOVpCaHpBcVpjemZYZ0ZFZU9YQ2JDemlRYWhTSUZlaHZmWGV4elZkUjRUblk4Szh1MjJhc0RQVmR5Tkx4ODRKcGVtY3NDOFpSRzNNRlE1Z1JLSE1uVQ?oc=5",
-        "https://news.google.com/rss/articles/CBMizwFBVV95cUxNREtYMEYxLUVyazNHT3dQRlJSNlh2cGdCb1dDU09QUks0eGpzclROSFhrbHQycTUtbGpmNWNHLThOM25hTm5FT0c3Y1hHbkNRZDNPbk8tSl9Jekd2bmZMQ3Z6d28zNE5vNzFlMzFmYkFjTkFKOXpJZDltLUFlcmJtUC1qQU4xeEt3eHVJOGZLRnMzcVpHd21HZnAxOG5DQlpmVWdPYlRadUlyYzJpZENfUVRyM0ZUMFZxbGJsQ2d3LU5ueWVLakFnRDlmWklZSUk?oc=5"
+        "https://www.pv-magazine.com/2026/09/02/eu-approves-german-capacity-mechanism/"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbDZHMnpwNWwwSXFVZzhvM1l0YkxrYWhha2k3NWRiNHpoYld1S2Z5YWhsdWJCVU5VV3N0ZG1QY0tnbHNsVTZZaWZCem13OW1wZmRlYkZGSHdJVFFTTkVpY2JPSWdiQUZybVUwX29KMENEcUNBaWlzdklNZTlzXzh4QWFxYlE3WVJVZ3d5T0JIV1lOYlRkVGpxNlBNSHMwQUZ0bHZ5NmxxOWhxcXBnZ0hCSW10eEpMRlBRWXNF?oc=5"
+      ],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 1,
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "indonesia-geothermal-concession-reform",
+        "themeKey": "pln-transmisi-investasi",
         "status": "structural",
-        "occurrences": 8,
-        "firstSeen": "2026-08-19",
-        "spanDays": 15
-      }
-    },
-    {
-      "rank": 4,
-      "domain": "energy",
-      "themeKey": "pln-grid-investment",
-      "entities": [
-        "Pertamina NRE",
-        "Kementerian ESDM",
-        "RUPTL 2025-2034"
-      ],
-      "headline": "Pertamina NRE confirms readiness to build 100 GW solar but conditions commitment on regulatory support",
-      "whatChanged": "Pertamina NRE publicly stated it is ready to develop the government's 100 GW solar programme, but explicitly conditioned its commitment on receiving adequate regulatory support — confirming that capital availability is not the binding constraint and pointing to permitting, tariff, and grid-connection rules as the actual blockers.",
-      "whyItMatters": "This continues the pln-grid-investment theme. Pertamina NRE's conditional readiness shifts the accountability frame: the government cannot present capital shortage as the reason for slow execution. The bottleneck is regulatory design, and a state-owned enterprise has now said so publicly. This is a material shift in the domestic policy debate because it is the implementing entity, not an external critic, making the diagnosis.",
-      "secondOrder": "If Pertamina NRE's regulatory conditions are not met and the 100 GW programme stalls, the reputational and financial exposure falls on the ministry rather than the developer — the inverse of the usual dynamic. This creates an incentive for Kementerian ESDM to fast-track specific regulatory instruments (revised tariff decrees, grid-access rules) that it might otherwise defer, potentially accelerating the regulatory timeline for the broader renewable pipeline.",
-      "action": "Track the specific regulatory instruments Pertamina NRE is conditioning on — tariff decree revisions, grid-connection guarantees, land acquisition rules — and map them against the current RUPTL 2025-2034 commitments to identify which are already obligated versus which require new ministerial action.",
-      "strength": "actionable",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaldVcFJXRVNvdV9PZUpUVFJHY1F1TFNLU2dWN0R1bExYekFvRjlRZ0x5d0NzcDhGV2JTRnlCS09MNmZHd1dNOVJVUGdxYTdsUDFTcjVqNVVaOEpHek1fMFQ1ZDNuVldQZjJid1ZQSzVLWlZ6eUdfN19GcWVJRHZQdDRhOWlMT05uTnVnM04xMy1wVk9RaHEzMlhLdEVlSjB5Z3VFM2x1MG5hTHlob01IaEZ0Z0Q5aXllVDN0V0UwcWLSAcYBQVVfeXFMTmYtVjk1NWFVcktBUnZoQkxFQ2JxZG1UMWZMSWRWZlIwOUdtU3dVV1FoYW1Tay0xcTNweGxWUU4yeFBCZnU4QW5jSXRGR18zYmp3SFJLT3BGWTZmaXYyWXZVV1ZadVpWOFYwUUdBVFF4YXA5d1JQbjJWTlpXU05UZDhfV3FHU0JvSlBsWnc0MG5EMGFiZTNnc1JMY21MWVVEcElyclhFbXBNLXJkRFN3T2RDMWZXdE9BajlnOS1FR08xTF93UnR3?oc=5",
-        "https://www.eco-business.com/news/indonesia-urged-to-integrate-100-gw-solar-plan-into-national-electricity-scheme/"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 2,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "pln-grid-investment",
-        "status": "structural",
-        "occurrences": 11,
+        "occurrences": 12,
         "firstSeen": "2026-08-22",
         "spanDays": 12
       }
     },
     {
-      "rank": 5,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
-        "Danantara",
-        "Bakrie"
+        "Texas",
+        "Reuters",
+        "NeutraDC",
+        "PLN"
       ],
-      "headline": "Danantara weighs Rp 2 trillion entry into Bakrie group equities — sovereign capital moving into distressed private assets",
-      "whatChanged": "Kontan reports that Danantara is considering deploying Rp 2 trillion to acquire a stake in Bakrie group-linked equities, which would make the sovereign wealth vehicle a material shareholder in a privately owned, distressed conglomerate rather than a state enterprise.",
-      "whyItMatters": "This continues the danantara-bumn-karya-restructuring theme, now at 13x since August 19 and designated structural. The new dimension is qualitative: Danantara is no longer purely a BUMN restructuring vehicle — it is beginning to act as a distressed-asset investor in the private sector. This expands its mandate implicitly and raises the question of whether governance frameworks designed for SOE oversight apply to minority stakes in private conglomerates.",
-      "secondOrder": "If Danantara's Bakrie stake proceeds, it establishes a precedent that sovereign capital can be used to stabilise politically sensitive private-sector balance sheets, blurring the boundary between state and market in Indonesian corporate governance. Foreign investors assessing Indonesian equities will need to price in the possibility that Danantara can become a swing shareholder in any sufficiently large distressed situation — changing the risk calculus for activist or restructuring strategies in the Indonesian market.",
-      "action": "Revisit any Indonesian equity or credit exposure involving large private conglomerates with debt stress: assess whether Danantara's potential entry as a shareholder is stabilising (reduces default risk) or complicating (introduces governance uncertainty and exit constraints) for existing positions.",
-      "strength": "emerging",
+      "headline": "Texas grid operator halts data-center connections over unverifiable 'ghost' load forecasts",
+      "whatChanged": "Texas's grid regulator has paused the process of powering new data centers after audits revealed that forecast electricity demand from AI and hyperscale facilities could not be substantiated — labeled 'ghost demand' — with Reuters reporting the halt as a systemic US reckoning, not an isolated Texas event.",
+      "whyItMatters": "This continues the structural theme — now 12x in the archive — that AI infrastructure demand is outrunning grid capacity to verify and absorb it. The Texas action transforms what was a planning friction into a regulatory enforcement mechanism: data-center developers must now prove load before they receive interconnection, reversing the prior presumption.",
+      "secondOrder": "Ghost-demand enforcement creates a new credit and permitting risk layer for AI infrastructure projects globally. Lenders and equity sponsors who underwrote data-center IRRs assuming a fixed interconnection timeline must now price in regulatory delay as a base case, not a tail risk. This accelerates the project-finance structuring logic already emerging in the sector — sponsors need firm power offtake agreements and grid capacity confirmation before financial close, not after.",
+      "action": "Any data-center investment memo in the pipeline — including NeutraDC's 200 MW PLN-backed expansion in Indonesia — should be stress-tested this week against a scenario where grid connection is delayed 12–24 months by load-verification requirements. Reframe interconnection timing from an assumption to a gated milestone.",
+      "strength": "actionable",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMFlvd1VPZUZ4YjlmdEUzRm1XR3ctanZXclVxaXdueW1OSGtsX0NqQ0hReVlEVmx4VC1iUjV5YVJLOTlWNERlSWJrUnBTc0lRWUEwbWJGd3pIVWctR25wRmVhVTRIWmROMWZ5d0l0RXU5T044V0dyQlRsYTJ6QWZsdkdtZ296cGM1NDJmdmxqTnB2SXVleGxWeEE3YXpkQVgxemN6LWtLZ3p3YlFyZ0RXdDZwcU5pR1nSAa8BQVVfeXFMUEM1WXNNb1ROVEJzc2pOdS1rRFlldlJ2bWllay1MRjhySGxxZ2lqVGkwRFgwb2dFUTNhQUxseFlzdFNzbE5wZ09uaTYxTk5lSTE2cVVQME5KcWQzQlA4SG81amZuWGctYjdfUkxPUlcweDdBWFJ2dXhSMHR3cUpWYy13cVEtZEhPb2VrVlFqU0hjcl9Fa2FZdHd2Qk5ra2JjYzhidlJMWlIzeE9VTTVZZw?oc=5"
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0JFMjBfWUxIY3p0OFNoc09iVWtIcXJOWkI4M2tkVFVFdkZ6bHZMeTJJLWc1UDZCVXNhbWc3MDF4QVBmaEREeWpoOHRJZTlad19NcGxBRFlVRmVpTFdSNDdnOEszUG43dW1VSUhSb0g0ekxOcUZadzY5dEdxM2ZhRHdPbTdzRnVHdWNXZHVvX25RN0c4WDJnSDN0eGNlTXR0Rl9HZllhU0RzUzdyaXZ5dWVCVk9oQk9v?oc=5"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
       "corroboration": {
         "publishers": 1,
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
+        "themeKey": "nuclear-ai-datacenter-power",
         "status": "structural",
-        "occurrences": 14,
-        "firstSeen": "2026-08-19",
-        "spanDays": 15
+        "occurrences": 13,
+        "firstSeen": "2026-08-20",
+        "spanDays": 14
       }
     }
   ],
   "watchNext": [
     {
-      "item": "OpenAI Preparedness Framework: monitor whether EU AI Act enforcement bodies or national regulators formally reference the Astra Critical designation as a baseline for mandatory third-party audit requirements",
-      "dueDate": "2026-09-30"
-    },
-    {
-      "item": "Ungaran geothermal: outcome of DPRD Jateng meeting with Kementerian ESDM — whether ministry concedes procedural ground or holds the phased-assessment position, and whether other DPRD bodies in geothermal-adjacent provinces follow suit",
-      "dueDate": "2026-09-17"
-    },
-    {
-      "item": "Pertamina NRE 100 GW solar: publication of specific regulatory conditions demanded and any Kementerian ESDM response, including tariff decree or grid-access rule amendments",
-      "dueDate": "2026-09-30"
-    },
-    {
-      "item": "Danantara-Bakrie: confirmation or denial of the Rp 2 trillion investment decision, and any OJK or government statement on the governance framework applicable to Danantara minority stakes in private companies",
-      "dueDate": "2026-09-15"
-    },
-    {
-      "item": "Germany capacity mechanism: first tender results and battery storage contract volumes — watch for price signals affecting Southeast Asian storage procurement costs",
+      "item": "RUPTL amendment or ESDM regulation embedding 100 GW solar target with transmission and storage spatial coordinates — absence by Q4 2026 signals execution failure",
       "dueDate": "2026-12-31"
+    },
+    {
+      "item": "OJK/BEI disclosure on VKTR Danantara injection: related-party classification, fairness opinion, and full investment terms — sets governance precedent for all future Danantara strategic deployments",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Texas ERCOT and FERC response to ghost-demand findings: whether load-verification requirements are codified into interconnection rules nationally, and whether similar audits are initiated in other ISO/RTO jurisdictions",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Regulatory or legislative response to OpenAI Preparedness Framework Critical threshold: monitor EU AI Act implementing authority, FTC, and enterprise insurer policy updates referencing the threshold",
+      "dueDate": "2026-11-01"
+    },
+    {
+      "item": "Germany capacity mechanism first procurement round results and EC monitoring report — concrete data on pricing and technology mix will calibrate what Indonesia should expect from an equivalent design",
+      "dueDate": "2027-06-30"
     }
   ],
   "sources": [
@@ -199,13 +178,30 @@
       "publishedAt": "2026-09-02T13:32:37.000Z"
     },
     {
-      "title": "ESDM: Pengembangan Panas Bumi Gunung Ungaran Dilakukan Bertahap dan Berbasis Kajian",
-      "publisher": "Kementerian ESDM",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNREtYMEYxLUVyazNHT3dQRlJSNlh2cGdCb1dDU09QUks0eGpzclROSFhrbHQycTUtbGpmNWNHLThOM25hTm5FT0c3Y1hHbkNRZDNPbk8tSl9Jekd2bmZMQ3Z6d28zNE5vNzFlMzFmYkFjTkFKOXpJZDltLUFlcmJtUC1qQU4xeEt3eHVJOGZLRnMzcVpHd21HZnAxOG5DQlpmVWdPYlRadUlyYzJpZENfUVRyM0ZUMFZxbGJsQ2d3LU5ueWVLakFnRDlmWklZSUk?oc=5",
+      "title": "Fact Sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": true,
-      "publishedAt": "2026-09-02T03:42:43.000Z"
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Texas' halt on powering data centers reflects US reckoning over 'ghost' demand",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0JFMjBfWUxIY3p0OFNoc09iVWtIcXJOWkI4M2tkVFVFdkZ6bHZMeTJJLWc1UDZCVXNhbWc3MDF4QVBmaEREeWpoOHRJZTlad19NcGxBRFlVRmVpTFdSNDdnOEszUG43dW1VSUhSb0g0ekxOcUZadzY5dEdxM2ZhRHdPbTdzRnVHdWNXZHVvX25RN0c4WDJnSDN0eGNlTXR0Rl9HZllhU0RzUzdyaXZ5dWVCVk9oQk9v?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-01T20:38:01.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
     },
     {
       "title": "Path to Astra: critical capabilities and frontier safeguards",
@@ -216,22 +212,29 @@
       "publishedAt": "2026-09-01T13:00:00.000Z"
     },
     {
-      "title": "DPRD Jateng Akan Temui Kementerian ESDM untuk Bahas Geotermal Gunung Ungaran",
-      "publisher": "Kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUDRSMC10N29keXBnOXdCTHVaVm1zWnQ5MGhEOGtLaXFEUmdFaG5kVDZDTUd2OG9GTUhuM3NXeHBCLTNsZmZSc1JSVWptWURqdmk0SjdOQTZkSjFDRlFfTVdNUV9oQm8tTnppRjJfdXJUSDNNSWVaOVpCaHpBcVpjemZYZ0ZFZU9YQ2JDemlRYWhTSUZlaHZmWGV4elZkUjRUblk4Szh1MjJhc0RQVmR5Tkx4ODRKcGVtY3NDOFpSRzNNRlE1Z1JLSE1uVQ?oc=5",
-      "tier": 1,
-      "via": "Google News",
+      "title": "Indonesia urged to integrate 100 GW solar plan into national electricity scheme",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/indonesia-urged-to-integrate-100-gw-solar-plan-into-national-electricity-scheme/",
+      "tier": 2,
       "primary": false,
-      "publishedAt": "2026-09-02T08:29:00.000Z"
+      "publishedAt": "2026-09-01T02:00:00.000Z"
     },
     {
-      "title": "Kucurkan Rp 2 T, Danantara Bisa Jadi Pemilik Saham Bakrie, Investor Pilih Beli/Jual?",
-      "publisher": "kontan.co.id",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMFlvd1VPZUZ4YjlmdEUzRm1XR3ctanZXclVxaXdueW1OSGtsX0NqQ0hReVlEVmx4VC1iUjV5YVJLOTlWNERlSWJrUnBTc0lRWUEwbWJGd3pIVWctR25wRmVhVTRIWmROMWZ5d0l0RXU5T044V0dyQlRsYTJ6QWZsdkdtZ296cGM1NDJmdmxqTnB2SXVleGxWeEE3YXpkQVgxemN6LWtLZ3p3YlFyZ0RXdDZwcU5pR1nSAa8BQVVfeXFMUEM1WXNNb1ROVEJzc2pOdS1rRFlldlJ2bWllay1MRjhySGxxZ2lqVGkwRFgwb2dFUTNhQUxseFlzdFNzbE5wZ09uaTYxTk5lSTE2cVVQME5KcWQzQlA4SG81amZuWGctYjdfUkxPUlcweDdBWFJ2dXhSMHR3cUpWYy13cVEtZEhPb2VrVlFqU0hjcl9Fa2FZdHd2Qk5ra2JjYzhidlJMWlIzeE9VTTVZZw?oc=5",
+      "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-08-25T10:00:49.000Z"
+    },
+    {
+      "title": "Risiko Mengintai di Balik Wacana Batu Bara Pembangkit Dipasok BLU - Energi",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbDZHMnpwNWwwSXFVZzhvM1l0YkxrYWhha2k3NWRiNHpoYld1S2Z5YWhsdWJCVU5VV3N0ZG1QY0tnbHNsVTZZaWZCem13OW1wZmRlYkZGSHdJVFFTTkVpY2JPSWdiQUZybVUwX29KMENEcUNBaWlzdklNZTlzXzh4QWFxYlE3WVJVZ3d5T0JIV1lOYlRkVGpxNlBNSHMwQUZ0bHZ5NmxxOWhxcXBnZ0hCSW10eEpMRlBRWXNF?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-02T22:45:47.000Z"
+      "publishedAt": "2026-08-31T03:40:00.000Z"
     },
     {
       "title": "Pertamina NRE Siap Garap PLTS 100 GW, Minta Dukungan Regulasi",
@@ -243,12 +246,13 @@
       "publishedAt": "2026-09-02T09:51:13.000Z"
     },
     {
-      "title": "Indonesia urged to integrate 100 GW solar plan into national electricity scheme",
-      "publisher": "Eco-Business",
-      "url": "https://www.eco-business.com/news/indonesia-urged-to-integrate-100-gw-solar-plan-into-national-electricity-scheme/",
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
       "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-09-01T02:00:00.000Z"
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
     }
   ],
   "trends": [
@@ -304,9 +308,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 373,
+    "candidateCount": 384,
     "poolSize": 110,
-    "generatedAt": "2026-09-02T23:22:33.201Z",
+    "generatedAt": "2026-09-02T23:46:09.088Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
