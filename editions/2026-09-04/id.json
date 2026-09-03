@@ -2,14 +2,14 @@
   "slug": "2026-09-04",
   "date": "2026-09-04",
   "lang": "id",
-  "title": "GPT-6 Astra Lampaui Ambang Kritis Keamanan Siber; Danantara Jadi Kanal Investasi Rusia",
-  "dek": "Dua sinyal berbobot tinggi hari ini—model AI frontier pertama yang menembus ambang 'Critical' keamanan siber, dan repositioning Danantara sebagai jembatan kapital RI–Rusia—menuntut penilaian ulang risiko operasional dan tata kelola secara bersamaan.",
+  "title": "GPT-6 Astra Lampaui Ambang Kritis; Danantara-APBN Belum Final; RI-Rusia Energi",
+  "dek": "Tiga pergeseran struktural bertabrakan: model AI pertama yang secara resmi dinilai 'Critical' dalam keamanan siber, ketidakpastian setoran laba Danantara ke APBN, dan diplomasi energi RI-Rusia yang membuka ulang ketergantungan geopolitik baru.",
   "domains": [
     "ai",
     "corporate",
     "energy"
   ],
-  "summary": "OpenAI merilis GPT-6 Astra sebagai model pertama yang secara resmi mencapai level 'Critical' kapabilitas keamanan siber dalam Preparedness Framework-nya, sebuah eskalasi kualitatif yang mengubah status AI dari alat produktivitas menjadi aset—sekaligus ancaman—infrastruktur kritis. Di sisi lain, OpenAI mengumumkan komitmen $1 miliar untuk program siber defensif 'Daybreak for Frontline Defenders', yang secara tidak langsung mengakui besarnya eksposur yang dibuka oleh model tersebut. Di dalam negeri, Presiden Prabowo menetapkan Danantara sebagai kanal investasi resmi kunjungan ke Rusia, memperluas mandatnya jauh melampaui restrukturisasi BUMN domestik ke diplomasi ekonomi geopolitik—dengan risiko kuasi-fiskal yang belum terukur. Pada domain energi, lawatan RI–Rusia yang disertai Menteri ESDM membuka kemungkinan kerja sama energi baru yang bersinggungan dengan transisi dan ketahanan energi, sementara China mencatatkan tonggak sejarah kapasitas surya 1,28 TW yang melampaui batu bara—sebuah kondisi struktural baru bagi rantai pasok panel global dan ambisi PLTS 100 GW Indonesia.",
+  "summary": "OpenAI merilis GPT-6 Astra dan secara bersamaan mengumumkan komitmen $1 miliar untuk pertahanan siber—model ini adalah yang pertama menembus ambang 'Critical' dalam Preparedness Framework, mengubah status AI dari alat produktivitas menjadi aset infrastruktur keamanan nasional. Di domain korporasi, setoran laba Danantara ke APBN yang semula dikomunikasikan Rp120 triliun ternyata belum final, memunculkan kembali risiko kuasi-fiskal yang selama ini tersembunyi di balik angka defisit 3%. Sementara itu, kunjungan Menteri ESDM ke Rusia mendampingi Presiden Prabowo membuka potensi kerja sama energi bilateral yang berimplikasi pada postur diversifikasi sumber energi Indonesia. Ketiga sinyal ini terhubung oleh satu tema: lembaga negara—baik di AI, fiskal, maupun energi—sedang membuat komitmen berskala besar dengan parameter yang belum sepenuhnya terdefinisi, sehingga risiko eksekusi menjadi variabel terpenting yang harus dipantau.",
   "signals": [
     {
       "rank": 1,
@@ -19,18 +19,20 @@
         "OpenAI",
         "GPT-6 Astra",
         "Preparedness Framework",
+        "Daybreak for Frontline Defenders",
         "Legora"
       ],
-      "headline": "GPT-6 Astra resmi mencapai level 'Critical' kapabilitas keamanan siber—pertama dalam sejarah Preparedness Framework OpenAI",
-      "whatChanged": "OpenAI merilis GPT-6 Astra dan menyatakan dalam Safety Overview resminya bahwa model ini adalah model pertama yang mencapai level 'Critical' kapabilitas keamanan siber di bawah Preparedness Framework mereka. Dalam studi kasus yang dipublikasikan, Legora menggunakan GPT-6 Astra untuk meninjau 41 dokumen dalam hitungan menit, menemukan seluruh empat kesalahan yang ditanam, dan meningkatkan performa alur kerja financial review hampir 40%.",
-      "whyItMatters": "Tema 'enterprise-ai-data-privacy-contracts' yang telah tercatat 11 kali sejak 20 Agustus kini memasuki fase baru: sebelumnya diskusi berkisar pada privasi data dan kontrak; kini ada preseden formal bahwa model frontier telah melampaui ambang yang oleh OpenAI sendiri dianggap sebagai titik di mana kapabilitas siber menjadi material-risiko. Ini bukan label pemasaran—ini adalah klasifikasi internal yang memiliki implikasi prosedur keamanan.",
-      "secondOrder": "Penetapan 'Critical' oleh OpenAI sendiri akan menjadi referensi regulasi global: regulator di UE (AI Act), G20 (sesuai kesepakatan light-touch yang dilaporkan Bloomberg [79]), dan otoritas nasional lainnya kini memiliki benchmark publik dari lab asal model untuk menetapkan kewajiban audit, lisensi, atau pembatasan akses. Lembaga keuangan dan operator infrastruktur kritis di Indonesia yang mulai mengadopsi model frontier perlu meninjau ulang klausul indemnifikasi dan batas penggunaan dalam kontrak vendor AI mereka sebelum regulasi nasional menyusul.",
-      "action": "Tinjau kontrak pengadaan AI aktif dan yang sedang dinegosiasi: pastikan ada klausul yang mengakomodasi reklasifikasi kapabilitas model oleh vendor (seperti perubahan Preparedness Framework level), karena kontrak yang ditandatangani sebelum pengumuman ini mungkin tidak mencakup kewajiban audit yang akan datang. Ajukan pertanyaan spesifik kepada vendor: apakah model yang sedang digunakan telah dievaluasi menggunakan framework setara?",
+      "headline": "GPT-6 Astra adalah model pertama yang mencapai level 'Critical' dalam Preparedness Framework OpenAI—ambang yang sebelumnya belum pernah dilampaui",
+      "whatChanged": "OpenAI merilis GPT-6 Astra pada 3 September 2026. Safety overview resmi OpenAI menyatakan model ini adalah 'our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.' Pada hari yang sama, OpenAI mengumumkan komitmen $1 miliar melalui program Daybreak for Frontline Defenders untuk memperluas akses AI siber bagi layanan esensial. Legora melaporkan GPT-6 Astra meninjau 41 dokumen dalam hitungan menit, menemukan empat kesalahan yang ditanam, dan meningkatkan kinerja workflow tinjauan keuangan hampir 40%.",
+      "whyItMatters": "Level 'Critical' dalam Preparedness Framework bukan sekadar label pemasaran—ini adalah threshold yang ditetapkan OpenAI sendiri sebagai penanda kapabilitas yang memerlukan mitigasi keamanan khusus sebelum deployment. Fakta bahwa model ini tetap dirilis menandakan OpenAI menganggap kontrol mitigasinya memadai, tetapi juga berarti model ini secara resmi diakui memiliki kapabilitas ofensif siber yang signifikan. Ini melanjutkan tema enterprise-ai-data-privacy-contracts yang telah berjalan 11x: kontrak enterprise kini harus mengakomodasi klausul keamanan siber yang sebelumnya hanya relevan untuk vendor pertahanan.",
+      "secondOrder": "Pemerintah dan regulator di negara-negara G20—termasuk Indonesia—yang sedang menyusun kerangka tata kelola AI akan menghadapi tekanan untuk segera mendefinisikan ulang 'dual-use AI': model yang sama yang digunakan untuk tinjauan dokumen hukum dan prototyping game juga memiliki kapabilitas siber tingkat 'Critical'. Ini berarti procurement publik untuk AI enterprise di sektor perbankan, infrastruktur kritis, dan pertahanan harus melewati proses risk assessment yang belum ada kerangkanya di sebagian besar yurisdiksi, termasuk Indonesia. Di sisi lain, komitmen $1 miliar Daybreak menciptakan preseden bahwa vendor AI frontier kini mengambil peran yang sebelumnya dipegang lembaga keamanan nasional.",
+      "action": "Tinjau ulang klausul kontrak AI enterprise yang sedang berjalan atau sedang dinegosiasikan: apakah sudah mencakup ketentuan terkait kapabilitas dual-use, audit keamanan berkala, dan kewajiban notifikasi insiden? Minta legal counsel untuk memetakan apakah Perpres/regulasi AI Indonesia yang ada sudah mengakomodasi kategorisasi 'Critical capability'. Baca System Card GPT-6 Astra secara penuh sebelum deployment di workload sensitif.",
       "strength": "material",
       "sourceUrls": [
         "https://openai.com/index/safety-overview-gpt-6-astra",
+        "https://openai.com/index/daybreak-for-frontline-defenders",
         "https://openai.com/index/legora-financial-statement-review-with-astra",
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnEtVl8wdXF1ZEgxSzF4VFI4OUZoT1JHa0ZTU2drVHAtWU9LRWplUjNNdEZPaUJ2U2VZUHJiQjh3TEVTbmRKVnZMT3pRVGFHbG0xajNVclZhQTdaanQ2elBPaXVSTXJsZ2ZFSm5YYnh3ajJoZ2RRbnNaTnlfbnhRTnBkRi02enZZdjRJVmNSWUdwa1RVTzh6Uy1GQkt6emhKYXdNbk15UzZVc1l5dHgxT2VzUzlCUnI4RVpEMGJn?oc=5"
       ],
       "secondOrderUrls": [
         "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR3ZNOVVac1k3Ymxlb0Y0R2YyWGFxUHBreldYRVlMdldlZG9rZTgySEx6M3BiZzNWMmFJWlVoNWFDaGwzelVzT1RmTGRzMDZWcUxvUXp5dG41X2ZXVWZreXo1M0tBSkdqUXZqdmJ5Z1JUckxJVllHQTR2S1ZGUDYtOTdBNzhWY3A2NGViR3ltN09LWFd3cm4yMXNWaWVKUE9zR1liR2tsQldCcDRsN0tPNw?oc=5"
@@ -49,62 +51,31 @@
     },
     {
       "rank": 2,
-      "domain": "ai",
-      "themeKey": "enterprise-ai-data-privacy-contracts",
-      "entities": [
-        "OpenAI",
-        "Daybreak for Frontline Defenders"
-      ],
-      "headline": "OpenAI komitmen $1 miliar untuk siber defensif 'Daybreak'—mengakui eksposur infrastruktur kritis dari model frontier",
-      "whatChanged": "OpenAI mengumumkan program 'Daybreak for Frontline Defenders' dengan komitmen $1 miliar, memperluas akses ke AI siber frontier, pelatihan, dan dukungan untuk layanan esensial—dirilis bersamaan dengan peluncuran GPT-6 Astra pada 3 September 2026.",
-      "whyItMatters": "Penerbitan program defensif senilai $1 miliar bersamaan dengan model yang pertama kali mencapai ambang 'Critical' siber bukan kebetulan: OpenAI secara implisit mengakui bahwa model ini membuka permukaan serangan baru yang cukup material untuk menuntut respons defensif berskala besar dari lab itu sendiri. Ini menggeser tanggung jawab keamanan AI dari 'fitur produk' menjadi 'kewajiban ekosistem'.",
-      "secondOrder": "Lembaga pemerintah dan operator infrastruktur kritis—termasuk PLN, perbankan BUMN, dan operator telekomunikasi di Indonesia—kini berada dalam posisi di mana tidak mengadopsi kapabilitas siber AI defensif setara dapat menjadi celah audit. Program Daybreak yang difokuskan pada 'essential services' menciptakan preseden bahwa operator layanan esensial di negara mitra dapat mengajukan akses preferensial—sebuah opsi diplomatik dan pengadaan yang belum terpetakan.",
-      "action": "Identifikasi apakah entitas BUMN yang beroperasi sebagai layanan esensial (PLN, Telkom, perbankan Himbara) memenuhi kriteria 'essential services' untuk program Daybreak. Jika ya, buka jalur komunikasi dengan OpenAI dalam 30 hari sebelum alokasi program terisi. Jika tidak, gunakan pengumuman ini sebagai leverage negosiasi kapabilitas siber dengan vendor AI alternatif.",
-      "strength": "material",
-      "sourceUrls": [
-        "https://openai.com/index/daybreak-for-frontline-defenders",
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnEtVl8wdXF1ZEgxSzF4VFI4OUZoT1JHa0ZTU2drVHAtWU9LRWplUjNNdEZPaUJ2U2VZUHJiQjh3TEVTbmRKVnZMT3pRVGFHbG0xajNVclZhQTdaanQ2elBPaXVSTXJsZ2ZFSm5YYnh3ajJoZ2RRbnNaTnlfbnhRTnBkRi02enZZdjRJVmNSWUdwa1RVTzh6Uy1GQkt6emhKYXdNbk15UzZVc1l5dHgxT2VzUzlCUnI4RVpEMGJn?oc=5"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 2,
-        "hasPrimary": true
-      },
-      "trend": {
-        "themeKey": "enterprise-ai-data-privacy-contracts",
-        "status": "structural",
-        "occurrences": 12,
-        "firstSeen": "2026-08-20",
-        "spanDays": 15
-      }
-    },
-    {
-      "rank": 3,
       "domain": "corporate",
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
         "Danantara",
-        "Prabowo"
+        "APBN",
+        "Kementerian Keuangan",
+        "CNBC Indonesia"
       ],
-      "headline": "Prabowo tetapkan Danantara sebagai jembatan investasi RI–Rusia—mandatnya kini melampaui restrukturisasi BUMN domestik",
-      "whatChanged": "Dalam kunjungan kenegaraan ke Rusia per 3 September 2026, Presiden Prabowo secara eksplisit menyebut Danantara sebagai 'jembatan investasi' antara Indonesia dan Rusia. Menteri ESDM Bahlil turut mendampingi, mengindikasikan dimensi energi dalam agenda bilateral ini.",
-      "whyItMatters": "Tema 'danantara-bumn-karya-restructuring' yang telah berjalan 13 kali sejak 19 Agustus sejauh ini berfokus pada konsolidasi dan orientasi ekspor domestik. Penetapan Danantara sebagai kanal investasi geopolitik—khususnya dengan Rusia yang berada di bawah sanksi Barat—adalah pergeseran kualitatif: Danantara kini bukan hanya holding BUMN tetapi instrumen diplomasi ekonomi dengan profil risiko geopolitik yang berbeda.",
-      "secondOrder": "Partisipasi Danantara dalam investasi yang melibatkan Rusia dapat memicu klausul sanksi sekunder bagi perusahaan dan bank yang bermitra dengan Danantara di pasar Barat. Lembaga keuangan internasional yang sedang atau berencana memberikan pendanaan kepada Danantara—termasuk melalui Patriot Bond atau instrumen lainnya—perlu mengevaluasi ulang eksposur mereka terhadap risiko sanksi. Katadata [27] telah memperingatkan risiko kuasi-fiskal Danantara; dimensi Rusia memperburuk profil ini.",
-      "action": "Lakukan pemetaan cepat atas portofolio Danantara yang bersinggungan dengan entitas berdomisili di yurisdiksi terdampak sanksi Barat. Tinjau klausul 'sanctions compliance' dalam perjanjian pendanaan internasional yang melibatkan Danantara. Pantau perkembangan pertemuan KSSK setelah Purbaya membuka peluang mengundang Danantara ke rapat [70]—ini dapat menjadi titik di mana eksposur kuasi-fiskal menjadi isu sistemik.",
-      "strength": "material",
+      "headline": "Setoran laba Danantara ke APBN Rp120 triliun belum final; risiko kuasi-fiskal mencuat kembali",
+      "whatChanged": "CNBC Indonesia melaporkan pada 3 September 2026 bahwa angka setoran laba Danantara ke APBN yang sebelumnya dikomunikasikan sebesar Rp120 triliun belum bersifat final. Pada hari yang sama, Katadata menerbitkan analisis yang menyoroti risiko kuasi-fiskal di balik defisit APBN Indonesia: keamanan fiskal tidak hanya ditentukan oleh batas defisit 3%, tetapi juga oleh intervensi kuasi-fiskal pemerintah melalui BUMN, bank pemerintah, dan lembaga negara lainnya—termasuk Danantara.",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring yang telah berjalan 13x secara struktural. Ketidakfinalann angka setoran laba menunjukkan bahwa model bisnis dan arus kas Danantara belum cukup stabil untuk memberikan kepastian kepada APBN—padahal restrukturisasi BUMN yang diklaim menghemat Rp50 triliun per tahun sebagian besar bertumpu pada asumsi efisiensi yang belum terbukti dalam satu siklus fiskal penuh. Ini bukan sekadar masalah akuntansi: ketidakpastian setoran laba berarti APBN memiliki 'off-balance-sheet exposure' yang sulit dipreis oleh pasar obligasi.",
+      "secondOrder": "Jika angka setoran akhirnya lebih rendah dari Rp120 triliun, pemerintah harus menutup gap melalui penerbitan SBN tambahan atau pemangkasan belanja—keduanya berpengaruh pada likuiditas pasar domestik dan cost of borrowing BUMN lain. Lebih jauh, investor asing yang memantau kredibilitas fiskal Indonesia akan membaca ketidakfinalan ini sebagai indikator lemahnya governance keuangan entitas sovereign wealth fund baru. Hal ini berpotensi menunda atau mempermahal akses Danantara ke pasar modal internasional, termasuk potensi penerbitan Patriot Bond yang sedang diproses.",
+      "action": "Pantau pengumuman resmi Kementerian Keuangan atau Danantara mengenai finalisasi angka setoran laba sebelum RAPBN 2027 dibahas di DPR (biasanya Oktober). Tinjau eksposur portofolio terhadap obligasi BUMN yang terkait Danantara: repricing risiko bisa terjadi cepat jika angka setoran direvisi turun signifikan. Baca analisis kuasi-fiskal Katadata [27] sebagai kerangka audit internal.",
+      "strength": "actionable",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTDM0V1ZrbTJ0ZWNnSE5IWkhUdXZ2ajRkSnlneTlmZWVsMi1zUTk1eEpOSU0xa0pJSUlrbkxsdUs5Nkd6Y1VHUWdpazl1Mkc5M2Zpa1gyYWd3TXg1V29BaWhlRUZpRFRMUFVLUE1zUVc0Sm15VVRnZVF6dE4xTWxra1J4bElrM0gtVkJycm5vMndmdzRKU0swWXVzUzRDd2RGQUg5UFFnNlFiTjA3YXUxM29hMV8?oc=5",
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMW50S3FzcmtZZ3NJRWtDQ2ZBM08zenV4YkVMZGdZcUxETmIxS2NZclZseEZfREJPa080WjhhWnhIUTVXU2l4NnBNSk9FVE5zLU9NYjFWUVFoNVdReGFVdlpQano2TjBmQ05LcGhwV3VhT0VIcWhmLVFqUm03cTE2NWZEZTBZU3kySFpTeExmTjMxVFBPa2h4V1lmVXZTTFZrQjJZQlozalR6UDJDRzFzR1Y5YmRHWE5HVnlzamdxZTV0a3dMdGZ2czljcllQM3diWnlKWU5IU0drWEE?oc=5",
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa2FNY1EzcGE5MktKc3ZVLVNTQS1qeGtIR1FrdUQ5X2RmVHlfMEVDaThlbWROWC1GLUpnaHFZRG5QSE4xQS1DNm1jd1dFSTk3YUpkTVpQSEM4QjlNaVlaRlVIa1Q2RlFVbno0cnd4NGJYZC1KdWpGQmZjd2JxMS15SDEwSkVLdGhxRmcwUnB6a2t4STVtR3FoUjlBb21jXzNEWmFNTWdUMVQ2cEoxdDFENXJWWEo?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbUFTajlZZkZ6Zmpycl85THc5UEphUlZKVU5pZlVqZEw2WGxaU0xqN2FiT0ZSNjJxR2dyaGdFQWpjaWZNdXVKNWJNX1QxU2dfaS1PZHZBTmdmVFZDQVJLVlZGRHlqRGdheUY3RmVTUFJBOFdXWnlCVC1rNGFyeWktVkhsZjF2cDQ0ZldwbE5tVFFiemNOUWRXai05aFBDeS1NNWpTOGl3MlFReWF2ajkxUzlnWkFoN3VSa3RubE5UZURJeU9Y0gHKAUFVX3lxTE1SVFVySlV4dnlYRXNfT2g3T2VsaVN3VHVCUURtWC10S05UWWh4RUJXRmRLejEyTFZTY1RWWjZVS3d3OWF1Nk4yQ3ZxNGtKSWZlZDhhWlRJRVZFcnVrU3dIckhZYnZBNVFDcWp0dU1kTDFsTlE0WWFhLXNLcVVYbkRFa19xdWhTel9HVWhycldBMHpOb1gwRWlXQWRiNUZvX2I1WHdhR2JxaHhVdURDak1JQk42Q1pYaGpvVnlWbXVxbmhfR3piejFfVnc?oc=5",
         "https://katadata.co.id/indepth/opini/6a98dfc4a4287/risiko-kuasi-fiskal-di-balik-defisit-apbn-indonesia"
       ],
       "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR3AwMWM3ZGVxUF9zNDlON19EdjUwRENzcXlWblpaTV9UNTBxenU1aXBuZjNQbXp0UUk2NkhkWDhMMjVtRHZwZWxaa2xkV09fQjdsSlVDWVdwbzJ2ZlcxWVRQeGlONVZFeUI3V2pXUFR5REZTV1k4ckJnM2lla0RYQTBLY3JlR3ZkemY4UExnRGlsSDNsUUs0X252dS1WUVZ2eHdBV1VMVUFLZXdpUjE3QjAwc3gwSTN6M0FLRlRTRjdyak5kOTR4dGx3?oc=5",
-        "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond"
+        "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZW9tbG9pWF8ybE11c3JwVlpucW1CSHliX21TRjQ4Q0g5b0tlZnpzTU1yX3AtdWRhN3NEcWhuUDczVjVTV2VnN3E0eFlnb1puOGFFdkFYSTljOWFXUHlUU0d2clBmWmNOMzZWeTZhTjFycFRFR1FxS29ERTMtQ21YS2hWQjc5SWVlX1pyeXJR?oc=5"
       ],
       "corroboration": {
-        "publishers": 3,
-        "hasPrimary": true
+        "publishers": 2,
+        "hasPrimary": false
       },
       "trend": {
         "themeKey": "danantara-bumn-karya-restructuring",
@@ -115,32 +86,31 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "domain": "energy",
       "themeKey": "pln-grid-investment",
       "entities": [
-        "Pertamina NRE",
-        "IESR",
-        "IndoEBTKE ConEx 2026"
+        "Kementerian ESDM",
+        "Bahlil",
+        "Presiden Prabowo",
+        "Rusia",
+        "RUPTL"
       ],
-      "headline": "China catat kapasitas surya 1,28 TW—melampaui batu bara untuk pertama kali; relevansi langsung bagi ambisi PLTS 100 GW Indonesia",
-      "whatChanged": "Kapasitas surya kumulatif China mencapai 1,286 TW pada akhir Juli 2026, melampaui batu bara dan mencapai 31,5% dari total kapasitas terpasang, menurut pv magazine per 3 September 2026. Tonggak ini terjadi bersamaan dengan IndoEBTKE ConEx 2026 yang dibuka pemerintah RI pada 2 September 2026 untuk memperkuat ekosistem energi bersih.",
-      "whyItMatters": "Tema 'pln-grid-investment' yang berjalan 11 kali sejak 22 Agustus—termasuk sinyal Pertamina NRE soal 100 GW surya dan target PLTS 100 GW Presiden Prabowo—kini menghadapi konteks baru: jika China memiliki 1,28 TW kapasitas terpasang, tekanan manufaktur panel surya global akan terus menurunkan harga modul, mempercepat window ekonomis bagi Indonesia. Namun hal ini juga berarti kapasitas produksi China semakin mendominasi rantai pasok global.",
-      "secondOrder": "Ketergantungan Indonesia pada modul surya China untuk program 100 GW akan semakin dalam, bukan berkurang—kecuali ada kebijakan konten lokal yang terukur. IESR [11] telah memperingatkan perlunya memastikan kualitas dan dampak investasi China untuk transisi berkeadilan. Pada saat yang sama, dominasi China dalam surya dapat menjadi leverage dalam negosiasi skema pembiayaan proyek—termasuk dalam konteks kunjungan Prabowo ke Rusia yang dapat membuka alternatif rantai pasok.",
-      "action": "Evaluasi porsi konten lokal (TKDN) yang realistis dalam roadmap PLTS 100 GW menghadapi pasar modul China yang semakin likuid dan murah. Tentukan titik di mana insentif TKDN tidak lagi memadai untuk bersaing secara biaya, dan siapkan opsi kebijakan alternatif (tarif, kuota, joint venture manufaktur) sebelum target tiga tahun Presiden berakhir.",
-      "strength": "material",
+      "headline": "Menteri ESDM dampingi Prabowo ke Rusia; kerja sama energi bilateral berpotensi mengubah peta diversifikasi sumber energi RI",
+      "whatChanged": "Kementerian ESDM pada 3 September 2026 mengumumkan Menteri ESDM Bahlil mendampingi Presiden Prabowo dalam lawatan ke Rusia dengan agenda mendorong kerja sama energi RI-Rusia yang 'berdampak nyata'. Ini merupakan kunjungan resmi tingkat kepala negara dengan agenda energi eksplisit, bukan sekadar kunjungan diplomatik protokoler.",
+      "whyItMatters": "Di tengah tekanan transisi energi global dan konteks geopolitik pasca-2022 yang mempersulit akses Rusia ke pasar Barat, Indonesia memosisikan diri sebagai mitra energi alternatif—berpotensi mencakup LNG, nuklir (Rosatom), dan teknologi energi. Ini relevan dengan konteks pln-grid-investment yang berjalan 11x: kebutuhan investasi transmisi dan pembangkitan Indonesia yang masif memerlukan sumber pembiayaan dan teknologi baru, dan Rusia menawarkan keduanya dengan syarat geopolitik yang berbeda dari Barat atau Tiongkok.",
+      "secondOrder": "Kemitraan energi dengan Rusia—terutama bila mencakup proyek nuklir melalui Rosatom—akan memperumit posisi Indonesia dalam negosiasi JETP dan pembiayaan transisi energi dari lembaga-lembaga Barat, yang secara eksplisit mensyaratkan diversifikasi menjauh dari mitra Rusia. Ini menciptakan dilema: Indonesia bisa mendapatkan teknologi dan pembiayaan, tetapi dengan risiko menutup akses ke instrumen pembiayaan iklim yang lebih besar seperti ETM dan fasilitas Just Energy Transition Partnership.",
+      "action": "Pantau joint statement pasca-kunjungan Rusia untuk melihat apakah ada MoU konkret—khususnya di nuklir, LNG, atau EBT. Jika ada MoU nuklir dengan Rosatom, evaluasi implikasinya terhadap eligibilitas Indonesia untuk pembiayaan dari lembaga multilateral yang membatasi exposure ke entitas Rusia. Siapkan analisis skenario: bagaimana postur pembiayaan RUPTL berubah jika salah satu sumber utamanya adalah entitas Rusia yang terkena sanksi Barat?",
+      "strength": "emerging",
       "sourceUrls": [
-        "https://www.pv-magazine.com/2026/09/03/chinas-solar-capacity-hits-1-28-tw-accounts-for-31-5-of-total-power-capacity/",
-        "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNd2EyWEM4QXhRQjc3eC13NjZxSXVBSV94enlPa1BLOUNVSWtObXFnYlAyRDBjbnhmMXY1dVAzeURfMVZGYmt1cWdLNWFmM253V0VFUEJ6QjRNRFRjRGZTQTJmeXNUVlU1NGl1N09tekROLTBlSHVFVTI1UWtrWUlvYVVNMnk0TF8zUlczanZQREZ5Rm5IQ1l2NEE1MlQ0V08wWTVSdVQzTVB5bG5zdXV1Mkc1QnBkNXFJaFNiOGhYaUkyVVlsNUFwZkJmcXRYbTJuUmFiWUowcFNIdUFDeHhjTmFvVk1yS19YMnc?oc=5",
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMW50S3FzcmtZZ3NJRWtDQ2ZBM08zenV4YkVMZGdZcUxETmIxS2NZclZseEZfREJPa080WjhhWnhIUTVXU2l4NnBNSk9FVE5zLU9NYjFWUVFoNVdReGFVdlpQano2TjBmQ05LcGhwV3VhT0VIcWhmLVFqUm03cTE2NWZEZTBZU3kySFpTeExmTjMxVFBPa2h4V1lmVXZTTFZrQjJZQlozalR6UDJDRzFzR1Y5YmRHWE5HVnlzamdxZTV0a3dMdGZ2czljcllQM3diWnlKWU5IU0drWEE?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa2FNY1EzcGE5MktKc3ZVLVNTQS1qeGtIR1FrdUQ5X2RmVHlfMEVDaThlbWROWC1GLUpnaHFZRG5QSE4xQS1DNm1jd1dFSTk3YUpkTVpQSEM4QjlNaVlaRlVIa1Q2RlFVbno0cnd4NGJYZC1KdWpGQmZjd2JxMS15SDEwSkVLdGhxRmcwUnB6a2t4STVtR3FoUjlBb21jXzNEWmFNTWdUMVQ2cEoxdDFENXJWWEo?oc=5"
       ],
       "secondOrderUrls": [
-        "https://iesr.or.id/memastikan-kualitas-dan-dampak-investasi-tiongkok-untuk-transisi-berkeadilan/",
-        "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/"
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5"
       ],
       "corroboration": {
-        "publishers": 3,
+        "publishers": 1,
         "hasPrimary": true
       },
       "trend": {
@@ -152,72 +122,60 @@
       }
     },
     {
-      "rank": 5,
-      "domain": "energy",
-      "themeKey": "indonesia-geothermal-concession-reform",
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
-        "Prabowo"
+        "Humain",
+        "Arab Saudi",
+        "Bloomberg"
       ],
-      "headline": "Kerja sama energi RI–Rusia: ESDM dampingi Prabowo ke Moskow—dimensi panas bumi dan ketahanan energi dalam agenda bilateral",
-      "whatChanged": "Menteri ESDM Bahlil secara resmi mendampingi Presiden Prabowo dalam lawatan ke Rusia per 3 September 2026, dengan agenda mendorong kerja sama energi RI–Rusia 'berdampak nyata'. Presiden Prabowo secara eksplisit mengajak Rusia bekerja sama di bidang energi terbarukan dan ketahanan pangan, menurut ANTARA Jateng [103].",
-      "whyItMatters": "Tema 'indonesia-geothermal-concession-reform' yang berjalan 8 kali sejak 19 Agustus—mencakup Gunung Ungaran dan ekosistem konsesi panas bumi—kini bersinggungan dengan dimensi geopolitik: Rusia memiliki keahlian teknis dalam eksplorasi panas bumi (kapasitas terpasang terbesar kedelapan di dunia) dan industri nuklir. Jika kerja sama energi terbarukan mencakup panas bumi atau nuklir, ini berimplikasi langsung pada regulasi konsesi dan kerangka investasi asing yang sedang direvisi.",
-      "secondOrder": "Jika negosiasi menghasilkan keterlibatan entitas Rusia dalam sektor energi Indonesia, lembaga pembiayaan multilateral (ADB, World Bank) yang terlibat dalam program transisi energi Indonesia—termasuk JETP—akan menghadapi dilema komitmen versus kepatuhan sanksi. Ini dapat memperlambat pencairan komitmen JETP yang sudah tertinggal jadwal, memperburuk defisit pembiayaan transisi energi.",
-      "action": "Pantau dokumen MoU atau LoI yang dihasilkan dari lawatan Rusia dalam dua minggu ke depan—identifikasi apakah ada entitas Rusia yang masuk ke sektor panas bumi atau nuklir Indonesia. Jika ada, lakukan due diligence kepatuhan sanksi sebelum proses lisensi atau konsesi berlanjut, mengingat keterlibatan pembiayaan multilateral dalam ekosistem transisi energi Indonesia.",
+      "headline": "Humain (Arab Saudi) bidik dana $2,5 miliar untuk membangun pusat data—sinyal terbaru dari perlombaan sovereign AI infrastructure",
+      "whatChanged": "Bloomberg melaporkan pada 3 September 2026 bahwa Humain, perusahaan AI milik Arab Saudi, sedang menjajaki pembentukan dana senilai $2,5 miliar yang ditujukan untuk membangun pusat data. Humain adalah entitas sovereign yang didukung langsung oleh pemerintah Arab Saudi dalam strategi diversifikasi ekonomi Vision 2030.",
+      "whyItMatters": "Ini melanjutkan tema nuclear-ai-datacenter-power yang telah berjalan 13x secara struktural: permintaan pusat data berskala besar kini tidak lagi didominasi hyperscaler AS, melainkan juga oleh sovereign wealth fund dan entitas negara yang membangun infrastruktur AI sebagai proyek strategis nasional. Dana $2,5 miliar yang distrukturkan sebagai fund—bukan belanja modal langsung—mengindikasikan model pembiayaan project-finance style yang menarik co-investor, bukan hanya anggaran negara.",
+      "secondOrder": "Masuknya sovereign fund seperti Humain ke dalam pembiayaan pusat data akan mendorong konvergensi antara pasar modal Islam (sukuk), pembiayaan infrastruktur, dan investasi AI—menciptakan instrumen baru yang belum ada preseden prisingnya. Bagi Indonesia, ini relevan: Danantara dan PLN sama-sama memiliki kebutuhan infrastruktur digital dan kelistrikan yang bisa dikemas dalam struktur fund serupa untuk menarik co-investor Gulf. Namun kompetisi untuk modal sovereign Gulf juga akan semakin ketat.",
+      "action": "Analisis struktur fund Humain begitu detail lebih banyak tersedia: apakah ini closed-end fund dengan target IRR, atau co-investment vehicle? Evaluasi apakah struktur serupa relevan untuk Indonesia Data Center Fund yang pernah diwacanakan. Jika Anda terlibat dalam negosiasi pembiayaan infrastruktur digital, pertimbangkan Gulf sovereign capital sebagai alternatif pembiayaan yang semakin kompetitif secara pricing.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMW50S3FzcmtZZ3NJRWtDQ2ZBM08zenV4YkVMZGdZcUxETmIxS2NZclZseEZfREJPa080WjhhWnhIUTVXU2l4NnBNSk9FVE5zLU9NYjFWUVFoNVdReGFVdlpQano2TjBmQ05LcGhwV3VhT0VIcWhmLVFqUm03cTE2NWZEZTBZU3kySFpTeExmTjMxVFBPa2h4V1lmVXZTTFZrQjJZQlozalR6UDJDRzFzR1Y5YmRHWE5HVnlzamdxZTV0a3dMdGZ2czljcllQM3diWnlKWU5IU0drWEE?oc=5",
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa2FNY1EzcGE5MktKc3ZVLVNTQS1qeGtIR1FrdUQ5X2RmVHlfMEVDaThlbWROWC1GLUpnaHFZRG5QSE4xQS1DNm1jd1dFSTk3YUpkTVpQSEM4QjlNaVlaRlVIa1Q2RlFVbno0cnd4NGJYZC1KdWpGQmZjd2JxMS15SDEwSkVLdGhxRmcwUnB6a2t4STVtR3FoUjlBb21jXzNEWmFNTWdUMVQ2cEoxdDFENXJWWEo?oc=5",
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSHRIX0s4NWhCOGZON3AzaWMwUmwwWWFrS3ZsQng3N0EtaDlBMUZtd0VBVkdUeVFxcGxoYmxLSEZuQ3U4VnBGa2t3cGhxcG1xbFJBZmdMLUJhZFZzOFBxTjktazk4em9ZVVdyci1wTXRjU3lmRDhkdWdWTVVhckFzbkFMd0psc056YUFxRlhadHhOd1I1RW5IUGJ0SzFaeHVMVEpYaDVicXhwbmRHdkw0eDhRQ0h2UVpFUmNKcEI0Q0hnQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXlpcnAyTV83TlJFVk94ZkRMQmhScmVhbnVnQTF5Q1Z4S3pPcEJFTFNtMTBaQ2xEY19XTGxKQU43c001WXQwNlhoRGtFdmZxZEJjVFpsVUZFeXF2UUVOTUFtV1FudzJSRDBJX2VfNG9wSk43RDF1WTR4czI0V3M4YXBrRGd4UF9nckpOZ3liam9qWTByV240R2h5OF8yZ3htWlRsMDhXYy1EVUwxTDJkZUZR?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
-        "hasPrimary": true
+        "publishers": 1,
+        "hasPrimary": false
       },
       "trend": {
-        "themeKey": "indonesia-geothermal-concession-reform",
+        "themeKey": "nuclear-ai-datacenter-power",
         "status": "structural",
-        "occurrences": 9,
-        "firstSeen": "2026-08-19",
-        "spanDays": 16
+        "occurrences": 14,
+        "firstSeen": "2026-08-20",
+        "spanDays": 15
       }
     }
   ],
   "watchNext": [
     {
-      "item": "MoU atau LoI hasil lawatan Prabowo–Rusia: apakah entitas Rusia masuk ke sektor panas bumi, nuklir, atau LNG Indonesia, dan implikasinya terhadap kepatuhan sanksi bagi mitra multilateral.",
-      "dueDate": "2026-09-18"
+      "item": "Joint statement resmi RI-Rusia pasca-kunjungan Prabowo: ada tidaknya MoU energi konkret, khususnya nuklir (Rosatom) atau LNG, yang akan menentukan implikasi terhadap pembiayaan JETP dan ETM Indonesia.",
+      "dueDate": "2026-09-10"
     },
     {
-      "item": "Respons regulasi global terhadap klasifikasi 'Critical' GPT-6 Astra: apakah EU AI Act, G20, atau OJK/BSSN Indonesia mengeluarkan panduan penggunaan model tingkat Critical untuk sektor keuangan dan infrastruktur.",
-      "dueDate": "2026-10-01"
+      "item": "Finalisasi angka setoran laba Danantara ke APBN: angka resmi harus terkonfirmasi sebelum pembahasan RAPBN 2027 di DPR, dengan implikasi langsung pada likuiditas pasar SBN dan cost of borrowing BUMN.",
+      "dueDate": "2026-10-15"
     },
     {
-      "item": "Perkembangan rapat KSSK dengan kemungkinan keterlibatan Danantara: apakah eksposur kuasi-fiskal Danantara mulai diperlakukan sebagai isu stabilitas sistem keuangan.",
+      "item": "Detail struktur fund Humain ($2,5 miliar): apakah ada co-investor sovereign Asia Tenggara, dan apakah ini membuka preseden untuk sovereign AI infrastructure fund di Indonesia melalui Danantara.",
       "dueDate": "2026-09-30"
     },
     {
-      "item": "Regulasi TKDN dan kebijakan konten lokal dalam roadmap PLTS 100 GW setelah IndoEBTKE ConEx 2026: apakah pemerintah menetapkan ambang TKDN yang dapat bersaing dengan harga modul China.",
+      "item": "Respons regulator global terhadap GPT-6 Astra sebagai model 'Critical' cybersecurity: apakah EU AI Act, NIST, atau regulator Asia-Pasifik akan mengeluarkan guidance procurement khusus untuk model di level ini.",
+      "dueDate": "2026-10-01"
+    },
+    {
+      "item": "Revisi formal mekanisme konsultasi KSSK oleh OJK terkait keterlibatan Danantara: ini akan menjadi penanda apakah status quasi-sistemik Danantara diakui secara regulatori.",
       "dueDate": "2026-11-01"
     }
   ],
   "sources": [
-    {
-      "title": "China’s solar capacity hits 1.28 TW, accounts for 31.5% of total power capacity",
-      "publisher": "pv magazine",
-      "url": "https://www.pv-magazine.com/2026/09/03/chinas-solar-capacity-hits-1-28-tw-accounts-for-31-5-of-total-power-capacity/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-09-03T13:58:32.000Z"
-    },
-    {
-      "title": "Memastikan Kualitas dan Dampak Investasi Tiongkok untuk Transisi Berkeadilan",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/memastikan-kualitas-dan-dampak-investasi-tiongkok-untuk-transisi-berkeadilan/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-28T03:50:34.000Z"
-    },
     {
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "publisher": "OpenAI",
@@ -245,12 +203,21 @@
     },
     {
       "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
-      "publisher": "reuters.com",
+      "publisher": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnEtVl8wdXF1ZEgxSzF4VFI4OUZoT1JHa0ZTU2drVHAtWU9LRWplUjNNdEZPaUJ2U2VZUHJiQjh3TEVTbmRKVnZMT3pRVGFHbG0xajNVclZhQTdaanQ2elBPaXVSTXJsZ2ZFSm5YYnh3ajJoZ2RRbnNaTnlfbnhRTnBkRi02enZZdjRJVmNSWUdwa1RVTzh6Uy1GQkt6emhKYXdNbk15UzZVc1l5dHgxT2VzUzlCUnI4RVpEMGJn?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-09-03T21:43:43.000Z"
+    },
+    {
+      "title": "Saudi Firm Humain Eyes $2.5 Billion Fund to Build Data Centers",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXlpcnAyTV83TlJFVk94ZkRMQmhScmVhbnVnQTF5Q1Z4S3pPcEJFTFNtMTBaQ2xEY19XTGxKQU43c001WXQwNlhoRGtFdmZxZEJjVFpsVUZFeXF2UUVOTUFtV1FudzJSRDBJX2VfNG9wSk43RDF1WTR4czI0V3M4YXBrRGd4UF9nckpOZ3liam9qWTByV240R2h5OF8yZ3htWlRsMDhXYy1EVUwxTDJkZUZR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-03T12:43:20.000Z"
     },
     {
       "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
@@ -270,53 +237,26 @@
       "publishedAt": "2026-09-03T07:37:25.000Z"
     },
     {
-      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
-      "publisher": "Sekretariat Kabinet Republik Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-08-25T07:00:00.000Z"
-    },
-    {
-      "title": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release",
-      "publisher": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5",
+      "title": "Why Timely Financial Reporting Matters for Danantara",
+      "publisher": "Tempo.co English",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZW9tbG9pWF8ybE11c3JwVlpucW1CSHliX21TRjQ4Q0g5b0tlZnpzTU1yX3AtdWRhN3NEcWhuUDczVjVTV2VnN3E0eFlnb1puOGFFdkFYSTljOWFXUHlUU0d2clBmWmNOMzZWeTZhTjFycFRFR1FxS29ERTMtQ21YS2hWQjc5SWVlX1pyeXJR?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-03T20:05:00.000Z"
+      "publishedAt": "2026-07-04T07:00:00.000Z"
     },
     {
-      "title": "Buka IndoEBTKE ConEx 2026, Pemerintah Perkuat Ekosistem Energi Bersih untuk Kemandirian Energi Nasional",
-      "publisher": "Kementerian ESDM",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNd2EyWEM4QXhRQjc3eC13NjZxSXVBSV94enlPa1BLOUNVSWtObXFnYlAyRDBjbnhmMXY1dVAzeURfMVZGYmt1cWdLNWFmM253V0VFUEJ6QjRNRFRjRGZTQTJmeXNUVlU1NGl1N09tekROLTBlSHVFVTI1UWtrWUlvYVVNMnk0TF8zUlczanZQREZ5Rm5IQ1l2NEE1MlQ0V08wWTVSdVQzTVB5bG5zdXV1Mkc1QnBkNXFJaFNiOGhYaUkyVVlsNUFwZkJmcXRYbTJuUmFiWUowcFNIdUFDeHhjTmFvVk1yS19YMnc?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-09-02T09:00:25.000Z"
-    },
-    {
-      "title": "Tak Hanya Danantara, Purbaya Buka Peluang Undang Perwakilan Swasta ke Rapat KSSK - Bisnis.com",
-      "publisher": "Bisnis.com - Ekonomi",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR3AwMWM3ZGVxUF9zNDlON19EdjUwRENzcXlWblpaTV9UNTBxenU1aXBuZjNQbXp0UUk2NkhkWDhMMjVtRHZwZWxaa2xkV09fQjdsSlVDWVdwbzJ2ZlcxWVRQeGlONVZFeUI3V2pXUFR5REZTV1k4ckJnM2lla0RYQTBLY3JlR3ZkemY4UExnRGlsSDNsUUs0X252dS1WUVZ2eHdBV1VMVUFLZXdpUjE3QjAwc3gwSTN6M0FLRlRTRjdyak5kOTR4dGx3?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-03T20:00:00.000Z"
-    },
-    {
-      "title": "Presiden Prabowo: PLTS 100 GWp Perkuat Kemandirian Energi Indonesia",
-      "publisher": "Sekretariat Kabinet Republik Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlUyeDd6WkJoMUZDVm54eGQ4UkFrVzVWSFZsb0hiVWg1Z05VZnJOcFpDYU1abDBVQk5ON0VmTjdEcWhQQ0tDckJDdjBoTUZLVG1nVmV3QXRsSVE1dEs5Xzg3aG5LdVdWM2loMThIdmNCdVVOczg3ZFM1dVZiekZEd0l1Rk9EV3lFU0RlM2VPaGxzQQ?oc=5",
+      "title": "Building credibility in Indonesia’s energy transition: Insights from the ETM and JETP Indonesia",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": true,
-      "publishedAt": "2026-08-25T07:00:00.000Z"
+      "publishedAt": "2026-02-05T08:00:00.000Z"
     },
     {
       "title": "US Strikes Light-Touch AI Regulation Accord With G20 Members",
-      "publisher": "bloomberg.com",
+      "publisher": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR3ZNOVVac1k3Ymxlb0Y0R2YyWGFxUHBreldYRVlMdldlZG9rZTgySEx6M3BiZzNWMmFJWlVoNWFDaGwzelVzT1RmTGRzMDZWcUxvUXp5dG41X2ZXVWZreXo1M0tBSkdqUXZqdmJ5Z1JUckxJVllHQTR2S1ZGUDYtOTdBNzhWY3A2NGViR3ltN09LWFd3cm4yMXNWaWVKUE9zR1liR2tsQldCcDRsN0tPNw?oc=5",
       "tier": 2,
       "via": "Google News",
@@ -340,30 +280,13 @@
       "publishedAt": "2026-09-03T00:00:00.000Z"
     },
     {
-      "title": "Prabowo: Danantara Jadi Jembatan Investasi RI-Rusia",
-      "publisher": "CNN Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTDM0V1ZrbTJ0ZWNnSE5IWkhUdXZ2ajRkSnlneTlmZWVsMi1zUTk1eEpOSU0xa0pJSUlrbkxsdUs5Nkd6Y1VHUWdpazl1Mkc5M2Zpa1gyYWd3TXg1V29BaWhlRUZpRFRMUFVLUE1zUVc0Sm15VVRnZVF6dE4xTWxra1J4bElrM0gtVkJycm5vMndmdzRKU0swWXVzUzRDd2RGQUg5UFFnNlFiTjA3YXUxM29hMV8?oc=5",
+      "title": "Setoran Laba Danantara ke APBN Belum Final Rp120 T, Ini Alasannya!",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbUFTajlZZkZ6Zmpycl85THc5UEphUlZKVU5pZlVqZEw2WGxaU0xqN2FiT0ZSNjJxR2dyaGdFQWpjaWZNdXVKNWJNX1QxU2dfaS1PZHZBTmdmVFZDQVJLVlZGRHlqRGdheUY3RmVTUFJBOFdXWnlCVC1rNGFyeWktVkhsZjF2cDQ0ZldwbE5tVFFiemNOUWRXai05aFBDeS1NNWpTOGl3MlFReWF2ajkxUzlnWkFoN3VSa3RubE5UZURJeU9Y0gHKAUFVX3lxTE1SVFVySlV4dnlYRXNfT2g3T2VsaVN3VHVCUURtWC10S05UWWh4RUJXRmRLejEyTFZTY1RWWjZVS3d3OWF1Nk4yQ3ZxNGtKSWZlZDhhWlRJRVZFcnVrU3dIckhZYnZBNVFDcWp0dU1kTDFsTlE0WWFhLXNLcVVYbkRFa19xdWhTel9HVWhycldBMHpOb1gwRWlXQWRiNUZvX2I1WHdhR2JxaHhVdURDak1JQk42Q1pYaGpvVnlWbXVxbmhfR3piejFfVnc?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-03T10:36:37.000Z"
-    },
-    {
-      "title": "IESR: Peluncuran dan Groundbreaking PLTS 100 GW di Bali Harus Menjadi Titik Awal Eksekusi Cepat dan Terukur",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/iesr-peluncuran-dan-groundbreaking-plts-100-gw-di-bali-harus-menjadi-titik-awal-eksekusi-cepat-dan-terukur/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-08-25T10:00:49.000Z"
-    },
-    {
-      "title": "Presiden Prabowo ajak Rusia kerja sama energi terbarukan hingga ketahanan pangan",
-      "publisher": "ANTARA News Jateng",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSHRIX0s4NWhCOGZON3AzaWMwUmwwWWFrS3ZsQng3N0EtaDlBMUZtd0VBVkdUeVFxcGxoYmxLSEZuQ3U4VnBGa2t3cGhxcG1xbFJBZmdMLUJhZFZzOFBxTjktazk4em9ZVVdyci1wTXRjU3lmRDhkdWdWTVVhckFzbkFMd0psc056YUFxRlhadHhOd1I1RW5IUGJ0SzFaeHVMVEpYaDVicXhwbmRHdkw0eDhRQ0h2UVpFUmNKcEI0Q0hnQQ?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-03T13:42:34.000Z"
+      "publishedAt": "2026-09-03T12:53:22.000Z"
     }
   ],
   "trends": [
@@ -419,9 +342,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 390,
+    "candidateCount": 374,
     "poolSize": 110,
-    "generatedAt": "2026-09-03T23:20:38.436Z",
+    "generatedAt": "2026-09-03T23:46:56.189Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
