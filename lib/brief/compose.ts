@@ -61,6 +61,7 @@ const MAX_UNVERIFIED = Number(process.env.BRIEF_MAX_UNVERIFIED ?? 1);
 const REQUIRED_SIGNALS = 5;
 /** Publish with fewer than this many valid signals and the briefing is thin. */
 const MIN_SIGNALS = Number(process.env.BRIEF_MIN_SIGNALS ?? 3);
+const MAX_COMPOSE_ATTEMPTS = 2;
 
 export interface ComposeResult {
   edition: Edition;
@@ -146,6 +147,73 @@ function parseLlmJson(raw: string): Record<string, unknown> {
 
 function str(v: unknown): string {
   return typeof v === "string" ? v.trim() : "";
+}
+
+class StyleViolationError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "StyleViolationError";
+  }
+}
+
+const STYLE_RULES: { name: string; pattern: RegExp; fix: string }[] = [
+  {
+    name: "em dash",
+    pattern: /—/,
+    fix: "replace em dashes with commas, colons, semicolons, or separate sentences",
+  },
+  { name: "arrow", pattern: /[→←]/, fix: "write the causal chain as a sentence" },
+  {
+    name: "not-just frame",
+    pattern: /\b(?:bukan|tidak)\s+(?:sekadar|hanya)\b.{0,90}\b(?:tetapi|melainkan|namun)\b/i,
+    fix: "state the claim directly without the not-just/but frame",
+  },
+  {
+    name: "not-just/not-only frame",
+    pattern: /\bnot\s+(?:just|only)\b.{0,90}\bbut(?:\s+also)?\b/i,
+    fix: "state the claim directly without the not-only/but frame",
+  },
+  {
+    name: "generic opening",
+    pattern: /\b(?:di tengah dinamika|dalam lanskap|di era|seiring dengan perkembangan)\b/i,
+    fix: "open with the concrete development, entity, or decision",
+  },
+  {
+    name: "generic opening",
+    pattern: /\b(?:amid|in an evolving landscape|in an era|as developments continue)\b/i,
+    fix: "open with the concrete development, entity, or decision",
+  },
+  {
+    name: "boilerplate label",
+    pattern: /\b(?:apa artinya|mengapa penting|ke depan|implikasinya jelas)\b/i,
+    fix: "remove boilerplate labels and write the substance",
+  },
+  {
+    name: "boilerplate label",
+    pattern: /\b(?:what this means|why it matters|going forward|the implication is clear)\b/i,
+    fix: "remove boilerplate labels and write the substance",
+  },
+];
+
+function assertCleanProse(value: string, where: string): void {
+  for (const rule of STYLE_RULES) {
+    if (rule.pattern.test(value)) {
+      throw new StyleViolationError(`${where} contains ${rule.name}; ${rule.fix}`);
+    }
+  }
+}
+
+function assertCleanProseFields(fields: [string, string][]): void {
+  for (const [where, value] of fields) {
+    if (value) assertCleanProse(value, where);
+  }
+}
+
+function styleRetryHint(lang: Lang, reason: string): string {
+  if (lang === "en") {
+    return `\n\nSTYLE REPAIR REQUIRED:\nThe previous draft failed validation: ${reason}.\nRewrite the entire JSON object. Do not use em dashes, arrows, generic openings, not-just/not-only frames, or boilerplate labels. Keep every field concrete and source-grounded.`;
+  }
+  return `\n\nPERBAIKAN GAYA WAJIB:\nDraft sebelumnya gagal validasi: ${reason}.\nTulis ulang seluruh objek JSON. Jangan memakai em dash, tanda panah, pembuka generik, pola bukan-sekadar/tidak-hanya, atau label boilerplate. Pastikan setiap field konkret dan berbasis sumber.`;
 }
 
 const STRENGTHS = new Set<SignalStrength>(["material", "emerging", "actionable"]);
@@ -261,10 +329,19 @@ function resolveSignals(v: unknown, pool: FeedItem[]): ResolvedSignals {
 
     const whatChanged = str(s.whatChanged);
     const whyItMatters = str(s.whyItMatters);
+    const secondOrder = str(s.secondOrder);
+    const action = str(s.action);
     if (!whatChanged || !whyItMatters) {
       rejected.push({ statement: headline, reason: "incomplete reasoning ladder" });
       continue;
     }
+    assertCleanProseFields([
+      ["signal.headline", headline],
+      ["signal.whatChanged", whatChanged],
+      ["signal.whyItMatters", whyItMatters],
+      ["signal.secondOrder", secondOrder],
+      ["signal.action", action],
+    ]);
 
     const indices = (Array.isArray(s.cites) ? s.cites : [])
       .map((n) => (typeof n === "number" ? n : Number.parseInt(String(n), 10)))
@@ -289,10 +366,10 @@ function resolveSignals(v: unknown, pool: FeedItem[]): ResolvedSignals {
 
     // Optional, and usually absent. The second-order read is normally our
     // inference, and leaving it uncited is what tells a reader so.
-    const secondOrder = (Array.isArray(s.secondOrderCites) ? s.secondOrderCites : [])
+    const secondOrderCites = (Array.isArray(s.secondOrderCites) ? s.secondOrderCites : [])
       .map((n) => (typeof n === "number" ? n : Number.parseInt(String(n), 10)))
       .filter((n) => Number.isInteger(n) && n >= 1 && n <= pool.length);
-    for (const n of secondOrder) cited.add(n);
+    for (const n of secondOrderCites) cited.add(n);
 
     const domainRaw = str(s.domain);
     const domain = VALID_DOMAINS.has(domainRaw) ? (domainRaw as Domain) : backing[0].domain;
@@ -316,11 +393,11 @@ function resolveSignals(v: unknown, pool: FeedItem[]): ResolvedSignals {
       headline,
       whatChanged,
       whyItMatters,
-      secondOrder: str(s.secondOrder),
-      action: str(s.action),
+      secondOrder,
+      action,
       strength,
       sourceUrls: backing.map((b) => b.url),
-      secondOrderUrls: [...new Set(secondOrder)].map((n) => pool[n - 1].url),
+      secondOrderUrls: [...new Set(secondOrderCites)].map((n) => pool[n - 1].url),
       // Computed from the FACT citations only. Corroboration answers "is this
       // true", and a source cited for a downstream inference says nothing
       // about that.
@@ -439,17 +516,26 @@ export function assembleEdition({
   const trends = summariseTrends(history, date, 5);
 
   const title = str(raw.title);
+  const dek = str(raw.dek);
+  const summary = str(raw.summary);
+  const watchNext = parseWatch(raw.watchNext);
+  assertCleanProseFields([
+    ["title", title],
+    ["dek", dek],
+    ["summary", summary],
+    ...watchNext.map((w, i) => [`watchNext[${i}].item`, w.item] as [string, string]),
+  ]);
   const edition: Edition = {
     slug: date,
     date,
     lang,
     title:
-      title || (lang === "en" ? `Strategic briefing — ${date}` : `Briefing strategis — ${date}`),
-    dek: str(raw.dek),
+      title || (lang === "en" ? `Strategic briefing: ${date}` : `Briefing strategis: ${date}`),
+    dek,
     domains: [...new Set(signals.map((s) => s.domain))],
-    summary: str(raw.summary),
+    summary,
     signals,
-    watchNext: parseWatch(raw.watchNext),
+    watchNext,
     sources: toSourceRefs(pool, cited),
     trends,
     meta: {
@@ -477,18 +563,32 @@ export async function composeEdition(
   const history = loadHistory(date);
   const profile = loadProfile();
 
-  const { text } = await runLlm({
-    systemPrompt: systemPrompt(lang),
-    userPrompt: userPrompt(lang, date, lines, trendContext(history, date, lang), profile),
-    timeoutMs: 300_000,
-  });
+  const basePrompt = userPrompt(lang, date, lines, trendContext(history, date, lang), profile);
+  let lastError: unknown;
 
-  return assembleEdition({
-    text,
-    pool,
-    lang,
-    date,
-    history,
-    meta: { tierCounts, candidateCount: items.length, poolSize: pool.length },
-  });
+  for (let attempt = 1; attempt <= MAX_COMPOSE_ATTEMPTS; attempt++) {
+    const prompt = attempt === 1 ? basePrompt : basePrompt + styleRetryHint(lang, String((lastError as Error).message ?? lastError));
+    const { text } = await runLlm({
+      systemPrompt: systemPrompt(lang),
+      userPrompt: prompt,
+      timeoutMs: 300_000,
+    });
+
+    try {
+      return assembleEdition({
+        text,
+        pool,
+        lang,
+        date,
+        history,
+        meta: { tierCounts, candidateCount: items.length, poolSize: pool.length },
+      });
+    } catch (e) {
+      lastError = e;
+      if (!(e instanceof StyleViolationError) || attempt === MAX_COMPOSE_ATTEMPTS) throw e;
+      console.warn(`[compose] ${lang}: style validation failed, retrying once — ${(e as Error).message}`);
+    }
+  }
+
+  throw lastError instanceof Error ? lastError : new Error(String(lastError));
 }

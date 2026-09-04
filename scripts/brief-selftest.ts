@@ -81,24 +81,24 @@ function fixture(lang: Lang, poolSize: number): string {
       // Theme key with sloppy formatting — must normalise to the same slug.
       sig(4, "ai", "  AI Datacenter Project Finance.  ", "Bank mulai menstruktur ulang fasilitas pusat data", [2]),
       // DEFECT 1: citation beyond the pool → rejected.
-      sig(5, "ai", "x-out-of-range", id ? "Kutipan di luar rentang — DITOLAK." : "Out-of-range citation — REJECTED.", [poolSize + 500]),
+      sig(5, "ai", "x-out-of-range", id ? "Kutipan di luar rentang, DITOLAK." : "Out-of-range citation, REJECTED.", [poolSize + 500]),
       // DEFECT 2: no citation → rejected.
-      sig(6, "ai", "x-no-citation", id ? "Tanpa kutipan — DITOLAK." : "No citation — REJECTED.", []),
+      sig(6, "ai", "x-no-citation", id ? "Tanpa kutipan, DITOLAK." : "No citation, REJECTED.", []),
       // DEFECT 3: missing themeKey → rejected.
-      sig(7, "energy", "", id ? "Tanpa themeKey — DITOLAK." : "No themeKey — REJECTED.", [1]),
+      sig(7, "energy", "", id ? "Tanpa themeKey, DITOLAK." : "No themeKey, REJECTED.", [1]),
       // DEFECT 4: incomplete ladder → rejected.
       {
         rank: 8,
         domain: "energy",
         themeKey: "x-incomplete",
-        headline: id ? "Tangga tak lengkap — DITOLAK." : "Incomplete ladder — REJECTED.",
+        headline: id ? "Tangga tak lengkap, DITOLAK." : "Incomplete ladder, REJECTED.",
         whatChanged: "",
         whyItMatters: "",
         strength: "material",
         cites: [1],
       },
       // DEFECT 5: invalid domain and strength → coerced, not rejected.
-      sig(9, "not-a-domain", "x-bad-enums", id ? "Enum tidak valid — dinormalisasi." : "Invalid enums — normalised.", [2], {
+      sig(9, "not-a-domain", "x-bad-enums", id ? "Enum tidak valid, dinormalisasi." : "Invalid enums, normalised.", [2], {
         strength: "catastrophic",
       }),
       // Two single-publisher, no-primary claims. One may publish; the other

@@ -12,7 +12,7 @@ import { esc, html, jsonLdScript, raw, type Html } from "./html";
 /**
  * Static site renderer.
  *
- * No framework, no build step, no external assets — consistent with the
+ * No framework, no build step, no external assets; consistent with the
  * project's standing rule that output is self-contained HTML. That is also
  * what lets the published archive outlive any particular host: these pages
  * work off a filesystem, a CDN, GitHub Pages, or an object store unchanged.
@@ -39,8 +39,8 @@ export interface SiteConfig {
   /**
    * Languages actually present in this build.
    *
-   * When only one composes — a routine failure mode, since each language is a
-   * separate model call — the site must not advertise the other. Emitting a
+   * When only one composes, a routine failure mode since each language is a
+   * separate model call, the site must not advertise the other. Emitting a
    * nav link and an hreflang alternate to a tree that was never written gives
    * readers a 404 and search engines an invalid alternate.
    */
@@ -60,7 +60,7 @@ export interface SiteConfig {
    * WhatsApp contact, digits only in international form (no +, no leading 0).
    *
    * Configuration rather than a literal in the source: this repository is
-   * public, and a fork should not inherit someone else's phone number — the
+   * public, and a fork should not inherit someone else's phone number; the
    * same reason profile.json is not committed.
    */
   contactWhatsapp: string;
@@ -69,8 +69,8 @@ export interface SiteConfig {
 /**
  * Normalise an Indonesian number into the form wa.me accepts.
  *
- * People write the same number four ways — +62813…, 62813…, 0813…, with
- * spaces or dashes — and wa.me silently fails on all but one of them, so the
+ * People write the same number four ways: +62813…, 62813…, 0813…, with
+ * spaces or dashes, and wa.me silently fails on all but one of them, so the
  * link would look fine and go nowhere.
  */
 export function whatsappUrl(raw: string): string {
@@ -225,7 +225,7 @@ p{margin:0 0 1.05rem}
 /* The homepage opening is not a standfirst.
    A standfirst is defined by the headline above it, and takes its muted
    colour from being subordinate to one. At the top of the homepage there is
-   no headline — so the same treatment read as an orphaned caption: grey,
+   no headline, so the same treatment read as an orphaned caption: grey,
    slightly oversized, floating. It is also the worst place for that, being
    the one sentence a first-time reader uses to decide whether this is for
    them. It gets the weight of a statement instead. */
@@ -260,7 +260,7 @@ letter-spacing:.12em;color:var(--muted);white-space:nowrap}
    ---------------------------------------------------------------------------
    One vertical rule runs down each signal: SOLID beside the rung carrying
    sourced fact, DASHED beside the rungs carrying our reading. A reader sees,
-   rather than infers, where evidence stops and interpretation starts — the
+   rather than infers, where evidence stops and interpretation starts; the
    distinction this whole product rests on, and the one the previous design
    erased by rendering all four rungs identically.
    ------------------------------------------------------------------------- */
@@ -296,7 +296,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
 
 /* The cover shows the spine. A reader who has not clicked through has no way
-   to see the one thing that separates this from a summary feed — the solid
+   to see the one thing that separates this from a summary feed: the solid
    rule under sourced fact, the dashed rule under our reading. So the lead
    signal runs in full on the homepage. The ladder is flattened there: the
    cover has no rails to hang the labels in, so the negative margin that
@@ -310,7 +310,7 @@ line-height:1.3;margin:0 0 .1rem}
 .ladder-flat .rung{margin-left:0}
 .lede h2.lead a{text-decoration:none}
 .lede h2.lead a:hover,.lede h2.lead a:focus-visible{color:var(--backed)}
-/* Twelve full-width cards ran 1,865px — 47% of the homepage — restating what
+/* Twelve full-width cards ran 1,865px, 47% of the homepage, restating what
    the archive says more compactly. Six in two columns say the same thing in a
    quarter of the height, and the archive link below carries the rest. */
 .cards{border-top:1px solid var(--rule);display:grid;
@@ -346,7 +346,7 @@ border-bottom:1px solid transparent}
 text-transform:uppercase;letter-spacing:.13em;color:var(--faint);margin-bottom:.3rem}
 .ed-nav .next{margin-left:auto;text-align:right}
 
-/* The site ships no JavaScript, so the domain filter is not a control — each
+/* The site ships no JavaScript, so the domain filter is not a control; each
    domain is its own static page. That also gives a crawler three real URLs
    instead of one page it would have to run script to see. */
 .arch-filter{display:flex;flex-wrap:wrap;gap:1.1rem;margin:1.2rem 0 0;
@@ -391,7 +391,7 @@ h1{font-size:1.65rem}
 /* ---------------------------------------------------------------------------
    The three-column document.
    ---------------------------------------------------------------------------
-   The prose column stays at its reading measure — widening it past roughly 75
+   The prose column stays at its reading measure; widening it past roughly 75
    characters a line would make the page worse, not fuller. So the margins are
    given a job instead of being filled.
 
@@ -399,11 +399,11 @@ h1{font-size:1.65rem}
                   prose runs uninterrupted and the ladder is legible as a
                   ladder from across the room.
    Right margin : evidence. The sources behind a signal sit beside it, so
-                  checking a claim costs no navigation — which is the whole
+                  checking a claim costs no navigation, which is the whole
                   proposition of the product.
    ------------------------------------------------------------------------- */
 
-/* box-sizing is border-box, so max-width has to carry the outer padding too —
+/* box-sizing is border-box, so max-width has to carry the outer padding too;
    without it the padding eats the reading measure, and the prose column
    measured 656px against a 704px target. */
 .doc{max-width:calc(var(--measure) + var(--rail-l) + var(--rail-r) + var(--rail-gap) * 2 + 3rem);
@@ -436,7 +436,7 @@ margin-left:calc(-1 * (var(--rail-l) + var(--rail-gap)))}
 /* The signal headline was 1.1rem against 1.0625rem body: six tenths of a
    pixel apart, with weight alone carrying the rank. On a page whose premise
    is five signals in order, the order has to be legible before the prose is
-   read. Scoped to the signal — the generic h3 also sets the subscribe block,
+   read. Scoped to the signal; the generic h3 also sets the subscribe block,
    which should not compete with it. */
 .signal .head h3{font-size:1.4rem;line-height:1.25;letter-spacing:-.008em}
 .signal .rank{font-family:var(--mono);font-size:.8rem;color:var(--faint);
@@ -497,7 +497,7 @@ padding-top:1rem;border-top:1px solid var(--rule)}
 }
 
 /* The left rail costs 10rem; the right costs 15.5rem. Folding both at the
-   same breakpoint threw away the cheaper one for nothing — a tablet in
+   same breakpoint threw away the cheaper one for nothing; a tablet in
    landscape, or a half-screen window, lost the ladder while still having
    room for it. The labels now hang until the column itself stops fitting:
    measure + rail + gap + padding = 55rem, so 58rem with room to breathe. */
@@ -522,8 +522,8 @@ padding-top:1rem;border-top:1px solid var(--rule)}
    rails are positioned against the viewport edge and would fall off it.
 
    On paper the document folds back to one column, the evidence follows the
-   claim it supports, and everything that only makes sense on screen — the
-   navigation, the skip link, the subscribe form — is dropped. Source URLs are
+   claim it supports, and everything that only makes sense on screen, the
+   navigation, the skip link, the subscribe form, is dropped. Source URLs are
    printed after their titles, because a citation you cannot follow on paper
    is not a citation.
    ------------------------------------------------------------------------- */
@@ -639,7 +639,7 @@ function subscribeBlock(cfg: SiteConfig, lang: Lang): Html {
   const s = STRINGS[lang];
   // No endpoint, or no privacy policy, means no form. Collecting an address
   // without recorded consent and a stated purpose is not something to ship
-  // and fix later — UU PDP treats consent as a precondition, not a nicety.
+  // and fix later; UU PDP treats consent as a precondition, not a nicety.
   const canCollect = cfg.subscribeEndpoint && cfg.privacyUrl;
   const form = canCollect
     ? html`<form method="post" action="${cfg.subscribeEndpoint}">
@@ -715,7 +715,7 @@ ${sig.entities.length > 0 &&
  * Citations belong under the rung they support. `whatChanged` is the fact and
  * carries the evidence; the rungs below it are our reading, and showing them
  * uncited is the honest signal that they are. `sourced` draws the spine
- * solid — everything without it draws dashed, so the eye can follow where
+ * solid; everything without it draws dashed, so the eye can follow where
  * evidence ends and our reading begins without reading a word.
  *
  * `flat` drops the hanging labels for contexts with no left rail to hang them
@@ -755,7 +755,7 @@ function renderSignal(e: Edition, sig: Signal): Html {
 
   const c = sig.corroboration;
   // The previous caveat required a single-publisher claim with no primary
-  // source, and fired on 0 of 5 signals in the first real edition — while the
+  // source, and fired on 0 of 5 signals in the first real edition, while the
   // day's lead story, hundreds of trillions of rupiah of state debt, rested
   // on six press citations and no primary source at all. The reader saw
   // "5 penerbit", which reads as strength.
@@ -765,7 +765,7 @@ function renderSignal(e: Edition, sig: Signal): Html {
   // publisher count.
 
   // The aside is placed AFTER the signal in the DOM and positioned back
-  // beside it with CSS. Put first — as it was, for convenience — its heading
+  // beside it with CSS. Put first, as it was for convenience, its heading
   // preceded the signal's own, so a screen-reader user navigating by heading
   // heard "Dasar" before the signal it was the basis for, and skipped a level
   // getting there.
@@ -849,7 +849,7 @@ ${e.trends.map(
     html`<h2>${s.watchNext}</h2>
 <ul class="plain">${e.watchNext.map(
       (w) =>
-        html`<li>${w.item}${w.dueDate && html` <span class="n">— ${formatDate(w.dueDate, e.lang)}</span>`}</li>`,
+        html`<li>${w.item}${w.dueDate && html` <span class="n">· ${formatDate(w.dueDate, e.lang)}</span>`}</li>`,
     )}</ul>`;
 
   const body = html`<article class="signal-doc">
@@ -867,8 +867,8 @@ ${e.domains.map(
 </div>
 <p class="funnel">
 <b>${e.meta.candidateCount}</b> ${s.funnelCandidates}
-<span class="arrow">→</span> <b>${e.meta.poolSize}</b> ${s.funnelRead}
-<span class="arrow">→</span> <b>${e.signals.length}</b> ${s.funnelSignals}
+<span class="arrow">·</span> <b>${e.meta.poolSize}</b> ${s.funnelRead}
+<span class="arrow">·</span> <b>${e.signals.length}</b> ${s.funnelSignals}
 <span class="arrow">·</span> <b>${e.sources.length}</b> ${s.funnelCited}
 </p>
 
@@ -898,7 +898,7 @@ ${
     html`<nav class="ed-nav" aria-label="${s.archiveTitle}">
 ${
       neighbours.older &&
-      html`<a class="prev" href="${url(cfg, editionPath(neighbours.older.lang, neighbours.older.slug))}"><span class="lbl">← ${
+      html`<a class="prev" href="${url(cfg, editionPath(neighbours.older.lang, neighbours.older.slug))}"><span class="lbl">${
         s.prevEdition
       }</span>${formatDate(neighbours.older.date, neighbours.older.lang)}</a>`
     }
@@ -906,7 +906,7 @@ ${
       neighbours.newer &&
       html`<a class="next" href="${url(cfg, editionPath(neighbours.newer.lang, neighbours.newer.slug))}"><span class="lbl">${
         s.nextEdition
-      } →</span>${formatDate(neighbours.newer.date, neighbours.newer.lang)}</a>`
+      }</span>${formatDate(neighbours.newer.date, neighbours.newer.lang)}</a>`
     }
 </nav>`
   }
@@ -917,7 +917,7 @@ ${subscribeBlock(cfg, e.lang)}`;
   return page({
     cfg,
     lang: e.lang,
-    title: `${e.title} — ${cfg.siteName}`,
+    title: `${e.title} | ${cfg.siteName}`,
     description: e.dek || e.summary.slice(0, 180),
     path: editionPath(e.lang, e.slug),
     altPath: hasAlt ? editionPath(other, e.slug) : homePath(other),
@@ -966,7 +966,7 @@ ${e.dek && html`<p>${e.dek}</p>`}
   const body = html`<h1 class="standfirst">${s.homeIntro}</h1>
 <p class="meta" style="margin-top:1rem"><span class="tag strong">${s.cadence}</span>
 <span class="arrow">·</span>
-<a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle} →</a></p>
+<a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle}</a></p>
 
 <div class="lede" style="margin-top:2rem">
 <div class="meta" style="margin:0 0 .8rem">
@@ -987,12 +987,12 @@ ${subscribeBlock(cfg, lang)}
 
 ${cards.length > 0 && html`<h2>${s.allEditions}</h2>
 <div class="cards">${cards}</div>`}
-<p style="margin-top:1.5rem"><a href="${url(cfg, archivePath(lang))}">${s.archive} →</a></p>`;
+<p style="margin-top:1.5rem"><a href="${url(cfg, archivePath(lang))}">${s.archive}</a></p>`;
 
   return page({
     cfg,
     lang,
-    title: `${cfg.siteName} — ${s.siteTagline.slice(0, 90)}`,
+    title: `${cfg.siteName} | ${s.siteTagline.slice(0, 90)}`,
     description: s.siteTagline,
     path: homePath(lang),
     altPath: homePath(lang === "id" ? "en" : "id"),
@@ -1005,7 +1005,7 @@ ${cards.length > 0 && html`<h2>${s.allEditions}</h2>
  * The about page.
  *
  * A reader deciding whether to trust a daily brief needs to know who makes
- * it, how, and under what rules — before subscribing, not after. Burying that
+ * it, how, and under what rules, before subscribing, not after. Burying that
  * in a footer line was the single biggest cold-start gap.
  */
 export function renderAbout(cfg: SiteConfig, lang: Lang): string {
@@ -1044,7 +1044,7 @@ ${subscribeBlock(cfg, lang)}`;
   return page({
     cfg,
     lang,
-    title: `${s.aboutTitle} — ${cfg.siteName}`,
+    title: `${s.aboutTitle} | ${cfg.siteName}`,
     description: s.aboutLede,
     path: aboutPath(lang),
     altPath: aboutPath(lang === "id" ? "en" : "id"),
@@ -1057,7 +1057,7 @@ ${subscribeBlock(cfg, lang)}`;
  *
  * This is the product's spine: the about page promises every edition is
  * permanent and citable, so this page carries the most weight over time and
- * had the least structure — a flat table that reads fine at thirty rows and
+ * had the least structure: a flat table that reads fine at thirty rows and
  * becomes unusable at three hundred.
  *
  * Two changes. Editions group under the month they belong to, so a reader
@@ -1125,7 +1125,7 @@ ${table(m.rows)}`)
   return page({
     cfg,
     lang,
-    title: `${title} — ${cfg.siteName}`,
+    title: `${title} | ${cfg.siteName}`,
     description: intro,
     path: archivePath(lang, domain),
     altPath: archivePath(lang === "id" ? "en" : "id", domain),

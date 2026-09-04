@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 
 import { extractText, isDeepenable, trimBoilerplate } from "../lib/brief/deepen";
-import { buildCandidates, resolveEntities } from "../lib/brief/compose";
+import { assembleEdition, buildCandidates, resolveEntities } from "../lib/brief/compose";
 import type { FeedItem } from "../lib/brief/types";
 
 /**
@@ -27,6 +27,47 @@ function item(over: Partial<FeedItem> & { publisher: string }): FeedItem {
   };
 }
 
+const pool = [
+  item({ publisher: "OpenAI", url: "https://openai.invalid/a", tier: 1, primary: true }),
+  item({ publisher: "Reuters", url: "https://reuters.invalid/a", tier: 2 }),
+];
+
+function draft(over: Record<string, unknown> = {}): string {
+  return JSON.stringify({
+    title: "AI infrastructure raises the financing test",
+    dek: "Power demand and capital structure now belong in one investment memo.",
+    summary:
+      "OpenAI changed the enterprise risk screen for critical models. Reuters added a financing angle that links capacity planning to lenders. Boards should test whether existing approval gates can see both risks at once.",
+    signals: Array.from({ length: 5 }, (_, i) => ({
+      rank: i + 1,
+      domain: i % 2 === 0 ? "ai" : "energy",
+      themeKey: `ai-infrastructure-finance-${i + 1}`,
+      headline: `AI infrastructure financing test ${i + 1}`,
+      whatChanged: "OpenAI published a new model safety threshold and Reuters reported financing pressure.",
+      whyItMatters: "The decision frame now joins model capability, power availability, and lender appetite.",
+      secondOrder: "Procurement teams need evidence from technical, energy, and finance teams in one gate.",
+      action: "Ask sponsors to show power, grid, lender, and cyber assumptions before approval.",
+      entities: ["OpenAI", "Reuters"],
+      strength: "material",
+      cites: [1, 2],
+      secondOrderCites: [],
+    })),
+    watchNext: [{ item: "Check whether power availability appears in the next AI capex approval." }],
+    ...over,
+  });
+}
+
+function assemble(text: string) {
+  return assembleEdition({
+    text,
+    pool,
+    lang: "en",
+    date: "2026-09-04",
+    history: [],
+    meta: { tierCounts: { 1: 1, 2: 1, 3: 0 }, candidateCount: pool.length, poolSize: pool.length },
+  });
+}
+
 test("only primary sources on direct feeds are read in full", () => {
   assert.equal(
     isDeepenable(item({ publisher: "OpenAI", tier: 1, primary: true })),
@@ -47,6 +88,34 @@ test("only primary sources on direct feeds are read in full", () => {
     isDeepenable(item({ publisher: "OpenAI", tier: 1, primary: false })),
     false,
   );
+});
+
+test("style validation rejects em dashes in generated prose", () => {
+  assert.throws(
+    () => assemble(draft({ title: "AI financing shifts — boards need a new gate" })),
+    /title contains em dash/,
+  );
+});
+
+test("style validation rejects arrow symbols in generated prose", () => {
+  const parsed = JSON.parse(draft()) as Record<string, unknown>;
+  const signals = parsed.signals as Record<string, unknown>[];
+  signals[0].action = "Check sponsor → offtaker → lender exposure before approval.";
+  assert.throws(() => assemble(JSON.stringify(parsed)), /action contains arrow/);
+});
+
+test("style validation rejects not-just framing in generated prose", () => {
+  const parsed = JSON.parse(draft()) as Record<string, unknown>;
+  const signals = parsed.signals as Record<string, unknown>[];
+  signals[0].whyItMatters =
+    "This is not just a model release, but a financing signal for infrastructure sponsors.";
+  assert.throws(() => assemble(JSON.stringify(parsed)), /not-just\/not-only frame/);
+});
+
+test("style validation lets direct source-grounded prose through", () => {
+  const result = assemble(draft());
+  assert.equal(result.edition.signals.length, 5);
+  assert.equal(result.edition.title, "AI infrastructure raises the financing test");
 });
 
 test("extractText drops scripts, styles and chrome", () => {

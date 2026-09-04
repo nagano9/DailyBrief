@@ -118,7 +118,7 @@ export const STRINGS: Record<Lang, Strings> = {
     watchNext: "Yang perlu dipantau",
     sources: "Sumber",
     sourcesNote:
-      "Setiap sinyal di atas mengutip sumber di bawah ini. Kami tidak menerbitkan ulang isi artikel — klik untuk membaca di penerbit aslinya.",
+      "Setiap sinyal di atas mengutip sumber di bawah ini. Kami tidak menerbitkan ulang isi artikel; klik untuk membaca di penerbit aslinya.",
     subscribeTitle: "Terima radar setiap pagi",
     subscribeBlurb: "Satu email, sebelum jam kerja dimulai. Tanpa spam, berhenti kapan saja.",
     subscribePlaceholder: "email@perusahaan.co.id",
@@ -136,12 +136,12 @@ export const STRINGS: Record<Lang, Strings> = {
     cadence: "Terbit setiap pagi",
     aboutWhatTitle: "Apa ini",
     aboutWhatBody:
-      "Briefing harian untuk pembaca yang perlu tahu apa yang bergerak sebelum rapat dimulai. Bukan agregator berita: dari sekitar empat ratus kandidat yang terkumpul tiap hari, hanya lima yang terbit — dan masing-masing dibawa naik dari fakta ke pola, ke efek lanjutan, ke tindakan. Yang kami tawarkan adalah seleksi dan pertimbangan, bukan volume.",
+      "Briefing harian untuk pembaca yang perlu tahu apa yang bergerak sebelum rapat dimulai. Bukan agregator berita: dari sekitar empat ratus kandidat yang terkumpul tiap hari, hanya lima yang terbit. Masing-masing dibawa naik dari fakta ke pola, ke efek lanjutan, ke tindakan. Yang kami tawarkan adalah seleksi dan pertimbangan, bukan volume.",
     aboutHowTitle: "Bagaimana ia disusun",
     aboutTiers: [
       {
         name: "Sumber wajib-pantau",
-        body: "Sumber primer dan resmi, diperiksa setiap kali berjalan — lab yang mengumumkan modelnya sendiri, regulator yang menerbitkan keputusannya sendiri.",
+        body: "Sumber primer dan resmi, diperiksa setiap kali berjalan: lab yang mengumumkan modelnya sendiri, regulator yang menerbitkan keputusannya sendiri.",
       },
       {
         name: "Penemuan terbuka",
@@ -149,7 +149,7 @@ export const STRINGS: Record<Lang, Strings> = {
       },
       {
         name: "Sinyal awal",
-        body: "arXiv, rilis GitHub, dan komunitas teknis. Berisik dan dini secara sengaja — kadang mendahului liputannya berbulan-bulan.",
+        body: "arXiv, rilis GitHub, dan komunitas teknis. Berisik dan dini secara sengaja; kadang mendahului liputannya berbulan-bulan.",
       },
       {
         name: "Verifikasi",
@@ -175,7 +175,7 @@ export const STRINGS: Record<Lang, Strings> = {
     ],
     aboutAiTitle: "Peran otomasi",
     aboutAiBody:
-      "Edisi disusun oleh model bahasa dari kandidat yang dikumpulkan otomatis. Kami tidak menyamarkannya sebagai tulisan manusia — model dan versi mesin yang dipakai tercatat di setiap edisi dan bisa dibaca langsung dari file JSON-nya. Yang kami klaim adalah disiplin prosesnya: sumber yang dikurasi, kutipan yang terverifikasi, dan aturan yang ditegakkan kode, bukan oleh niat baik.",
+      "Edisi disusun oleh model bahasa dari kandidat yang dikumpulkan otomatis. Kami tidak menyamarkannya sebagai tulisan manusia; model dan versi mesin yang dipakai tercatat di setiap edisi dan bisa dibaca langsung dari file JSON-nya. Yang kami klaim adalah disiplin prosesnya: sumber yang dikurasi, kutipan yang terverifikasi, dan aturan yang ditegakkan kode, bukan oleh niat baik.",
     aboutLimitsTitle: "Batasnya",
     aboutLimitsBody:
       "Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia ringkasan informasi publik untuk membantu Anda masuk ke rapat dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.",
@@ -235,7 +235,7 @@ export const STRINGS: Record<Lang, Strings> = {
     watchNext: "What to watch",
     sources: "Sources",
     sourcesNote:
-      "Every signal above cites the sources below. We do not republish article content — follow the link to read it at the original publisher.",
+      "Every signal above cites the sources below. We do not republish article content; follow the link to read it at the original publisher.",
     subscribeTitle: "Get the radar every morning",
     subscribeBlurb: "One email, before the working day starts. No spam, unsubscribe anytime.",
     subscribePlaceholder: "you@company.com",
@@ -253,12 +253,12 @@ export const STRINGS: Record<Lang, Strings> = {
     cadence: "Published every morning",
     aboutWhatTitle: "What this is",
     aboutWhatBody:
-      "A daily brief for readers who need to know what moved before a meeting starts. Not an aggregator: of roughly four hundred candidates gathered daily, five are published — each carried from fact to pattern to second-order effect to action. What we offer is selection and judgement, not volume.",
+      "A daily brief for readers who need to know what moved before a meeting starts. Not an aggregator: of roughly four hundred candidates gathered daily, five are published. Each is carried from fact to pattern to second-order effect to action. What we offer is selection and judgement, not volume.",
     aboutHowTitle: "How it is made",
     aboutTiers: [
       {
         name: "Must-monitor sources",
-        body: "Primary and official sources, checked on every run — the lab announcing its own model, the regulator publishing its own decision.",
+        body: "Primary and official sources, checked on every run: the lab announcing its own model, the regulator publishing its own decision.",
       },
       {
         name: "Open discovery",
@@ -266,7 +266,7 @@ export const STRINGS: Record<Lang, Strings> = {
       },
       {
         name: "Emerging signal",
-        body: "arXiv, GitHub releases, and technical communities. Noisy and early by design — sometimes months ahead of the coverage.",
+        body: "arXiv, GitHub releases, and technical communities. Noisy and early by design; sometimes months ahead of the coverage.",
       },
       {
         name: "Verification",
@@ -292,7 +292,7 @@ export const STRINGS: Record<Lang, Strings> = {
     ],
     aboutAiTitle: "The role of automation",
     aboutAiBody:
-      "Editions are composed by a language model from automatically gathered candidates. We do not disguise that as human writing — the model and engine version are recorded in every edition and readable straight from its JSON. What we claim is the discipline of the process: curated sources, verified citations, and rules enforced by code rather than good intentions.",
+      "Editions are composed by a language model from automatically gathered candidates. We do not disguise that as human writing; the model and engine version are recorded in every edition and readable straight from its JSON. What we claim is the discipline of the process: curated sources, verified citations, and rules enforced by code rather than good intentions.",
     aboutLimitsTitle: "Its limits",
     aboutLimitsBody:
       "This is not investment, legal, tax, or technical advice. It summarises public information to help you walk into a meeting better briefed. Some citations route through a news index rather than a direct publisher link; those are marked “via”.",
