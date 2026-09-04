@@ -580,6 +580,7 @@ function page(o: PageOpts): string {
       ? o.cfg.ogImage
       : absUrl(cfg, o.cfg.ogImage)
     : "";
+  const googleVerification = "D_rAihSMsnXvLIIEMHCEGqosuxUua9czU0NmXbOWrp8";
 
   return html`<!doctype html>
 <html lang="${lang}">
@@ -589,6 +590,7 @@ function page(o: PageOpts): string {
 <meta http-equiv="Content-Security-Policy" content="${csp(cfg)}">
 <title>${o.title}</title>
 <meta name="description" content="${o.description}">
+<meta name="google-site-verification" content="${googleVerification}">
 <link rel="icon" href="${url(cfg, "/favicon.svg")}" type="image/svg+xml">
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="${lang}" href="${canonical}">
