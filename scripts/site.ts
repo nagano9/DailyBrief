@@ -149,6 +149,14 @@ function write(file: string, contents: string): void {
   fs.writeFileSync(file, contents, "utf8");
 }
 
+function copyStaticAssets(): void {
+  const favicon = "favicon.svg";
+  if (fs.existsSync(favicon)) {
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+    fs.copyFileSync(favicon, path.join(OUT_DIR, favicon));
+  }
+}
+
 /** Map a site path like "/edisi/2026-08-18/" to "site/edisi/2026-08-18/index.html". */
 function outFile(sitePath: string): string {
   const clean = sitePath.replace(/^\//, "");
@@ -172,6 +180,7 @@ function main() {
   }
 
   fs.rmSync(OUT_DIR, { recursive: true, force: true });
+  copyStaticAssets();
 
   let pages = 0;
   for (const lang of LANGS) {
