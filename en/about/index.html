@@ -110,6 +110,10 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 letter-spacing:.12em;color:var(--muted);white-space:nowrap}
 .tag.strong{color:var(--ink);font-weight:600}
 .tag.rule{border:1px solid var(--rule-strong);padding:.15rem .45rem}
+.audit{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;color:var(--muted);
+border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+padding:.7rem 0;margin:1.2rem 0 1.8rem;display:flex;gap:.5rem;flex-wrap:wrap}
+.audit b{color:var(--backed);font-weight:600;text-transform:uppercase}
 
 /* ---------------------------------------------------------------------------
    The signal, and its evidence spine.
@@ -446,7 +450,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <ul class="plain"><li>Every signal must cite a source actually retrieved that day. Ones whose citations do not resolve are dropped, not repaired.</li><li>If too few signals survive validation, the edition does not publish. We would rather skip a day than publish a thin one.</li><li>We do not republish article content. What you read is our analysis; the sources are linked so you can check it.</li><li>Figures are cited only when the sources give them. No estimates.</li><li>Evidence strength is computed in code, not graded by the model that wrote the claim.</li><li>Corrections are made in the open. Every edition is under version control, so its revision history is permanent.</li></ul>
 
 <h2>The role of automation</h2>
-<p>Editions are composed by a language model from automatically gathered candidates. We do not disguise that as human writing; the model and engine version are recorded in every edition and readable straight from its JSON. What we claim is the discipline of the process: curated sources, verified citations, and rules enforced by code rather than good intentions.</p>
+<p>DailyBrief is an AI-assisted editorial product. Automation gathers candidate public sources, a language model helps structure patterns and draft analysis, and a separate audit agent checks citations, duplication, reasoning completeness, primary-source evidence, and generic-language patterns before publication. AI is not treated as the final authority; editorial accountability remains with the publisher, and readers can open the original sources linked in every edition.</p>
 
 <h2>Its limits</h2>
 <p>This is not investment, legal, tax, or technical advice. It summarises public information to help you walk into a meeting better briefed. Some citations route through a news index rather than a direct publisher link; those are marked “via”.</p>
@@ -462,7 +466,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 </main>
 <footer class="site"><div class="wrap">
-<p><strong>Methodology.</strong> Six layers: must-monitor sources, open discovery, emerging signal from research and technical releases, cross-source verification, strategic reasoning, and longitudinal signal memory. Every signal must cite a source actually retrieved that day; claims without a verifiable citation are not published.</p>
+<p><strong>Methodology.</strong> AI-assisted. Source-verified. Editorially accountable. Six layers: must-monitor sources, open discovery, emerging signal from research and technical releases, cross-source verification, strategic reasoning, and longitudinal signal memory. Every signal must cite a source actually retrieved that day; claims without a verifiable citation are not published.</p>
 <p>This radar is analysis of public information for general information purposes. It is not investment, legal, or technical advice.</p>
 <p>&copy; 2026 Daily Strategic Briefing
 · <a href="/en/about/">About</a>
