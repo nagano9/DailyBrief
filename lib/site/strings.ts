@@ -175,7 +175,7 @@ export const STRINGS: Record<Lang, Strings> = {
     ],
     aboutAiTitle: "Peran otomasi",
     aboutAiBody:
-      "Edisi disusun oleh model bahasa dari kandidat yang dikumpulkan otomatis. Kami tidak menyamarkannya sebagai tulisan manusia; model dan versi mesin yang dipakai tercatat di setiap edisi dan bisa dibaca langsung dari file JSON-nya. Yang kami klaim adalah disiplin prosesnya: sumber yang dikurasi, kutipan yang terverifikasi, dan aturan yang ditegakkan kode, bukan oleh niat baik.",
+      "DailyBrief adalah produk editorial yang dibantu AI. Otomasi mengumpulkan kandidat sumber publik, model bahasa membantu menyusun pola dan draf analisis, lalu agent audit terpisah memeriksa kutipan, duplikasi, kelengkapan tangga penalaran, sumber primer, dan pola bahasa generik sebelum publikasi. AI tidak diposisikan sebagai otoritas final; tanggung jawab editorial tetap berada pada penerbit, dan pembaca selalu bisa membuka sumber asli yang ditautkan di setiap edisi.",
     aboutLimitsTitle: "Batasnya",
     aboutLimitsBody:
       "Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia ringkasan informasi publik untuk membantu Anda masuk ke rapat dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.",
@@ -201,7 +201,7 @@ export const STRINGS: Record<Lang, Strings> = {
     trendSince: (n, since) => `${n}x sejak ${since}`,
     methodology: "Metodologi",
     methodologyBody:
-      "Enam lapisan: sumber wajib-pantau, penemuan terbuka, sinyal awal dari riset dan rilis teknis, verifikasi silang, penalaran strategis, dan memori sinyal lintas hari. Setiap sinyal wajib mengutip sumber yang benar-benar terambil hari itu; klaim tanpa kutipan yang dapat diverifikasi tidak diterbitkan.",
+      "AI-assisted. Source-verified. Editorially accountable. Enam lapisan: sumber wajib-pantau, penemuan terbuka, sinyal awal dari riset dan rilis teknis, verifikasi silang, penalaran strategis, dan memori sinyal lintas hari. Setiap sinyal wajib mengutip sumber yang benar-benar terambil hari itu; klaim tanpa kutipan yang dapat diverifikasi tidak diterbitkan.",
     otherLang: "English",
     noEditions: "Belum ada edisi yang diterbitkan.",
     editionsCount: (n) => `${n} edisi`,
@@ -292,7 +292,7 @@ export const STRINGS: Record<Lang, Strings> = {
     ],
     aboutAiTitle: "The role of automation",
     aboutAiBody:
-      "Editions are composed by a language model from automatically gathered candidates. We do not disguise that as human writing; the model and engine version are recorded in every edition and readable straight from its JSON. What we claim is the discipline of the process: curated sources, verified citations, and rules enforced by code rather than good intentions.",
+      "DailyBrief is an AI-assisted editorial product. Automation gathers candidate public sources, a language model helps structure patterns and draft analysis, and a separate audit agent checks citations, duplication, reasoning completeness, primary-source evidence, and generic-language patterns before publication. AI is not treated as the final authority; editorial accountability remains with the publisher, and readers can open the original sources linked in every edition.",
     aboutLimitsTitle: "Its limits",
     aboutLimitsBody:
       "This is not investment, legal, tax, or technical advice. It summarises public information to help you walk into a meeting better briefed. Some citations route through a news index rather than a direct publisher link; those are marked “via”.",
@@ -318,7 +318,7 @@ export const STRINGS: Record<Lang, Strings> = {
     trendSince: (n, since) => `${n}x since ${since}`,
     methodology: "Methodology",
     methodologyBody:
-      "Six layers: must-monitor sources, open discovery, emerging signal from research and technical releases, cross-source verification, strategic reasoning, and longitudinal signal memory. Every signal must cite a source actually retrieved that day; claims without a verifiable citation are not published.",
+      "AI-assisted. Source-verified. Editorially accountable. Six layers: must-monitor sources, open discovery, emerging signal from research and technical releases, cross-source verification, strategic reasoning, and longitudinal signal memory. Every signal must cite a source actually retrieved that day; claims without a verifiable citation are not published.",
     otherLang: "Bahasa Indonesia",
     noEditions: "No editions published yet.",
     editionsCount: (n) => `${n} edition${n === 1 ? "" : "s"}`,

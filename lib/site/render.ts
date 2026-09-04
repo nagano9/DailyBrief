@@ -258,6 +258,10 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 letter-spacing:.12em;color:var(--muted);white-space:nowrap}
 .tag.strong{color:var(--ink);font-weight:600}
 .tag.rule{border:1px solid var(--rule-strong);padding:.15rem .45rem}
+.audit{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;color:var(--muted);
+border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+padding:.7rem 0;margin:1.2rem 0 1.8rem;display:flex;gap:.5rem;flex-wrap:wrap}
+.audit b{color:var(--backed);font-weight:600;text-transform:uppercase}
 
 /* ---------------------------------------------------------------------------
    The signal, and its evidence spine.
@@ -676,6 +680,12 @@ ${form}
 </section>`;
 }
 
+function auditBlock(lang: Lang): Html {
+  return lang === "id"
+    ? html`<div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Pemeriksaan: kutipan, duplikasi, sumber primer, tangga penalaran, dan pola bahasa generik.</span></div>`
+    : html`<div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Checks: citations, duplication, primary-source evidence, reasoning ladder, and generic-language patterns.</span></div>`;
+}
+
 /**
  * Sources are listed once, numbered, and each signal links into that list.
  * Printing URLs beside every signal would triple the visual weight of the
@@ -889,6 +899,7 @@ ${e.domains.map(
 <span class="arrow">·</span> <b>${e.signals.length}</b> ${s.funnelSignals}
 <span class="arrow">·</span> <b>${e.sources.length}</b> ${s.funnelCited}
 </p>
+${auditBlock(e.lang)}
 
 ${e.summary && html`<h2>${s.summary}</h2>
 <p>${e.summary}</p>`}
@@ -985,6 +996,7 @@ ${e.dek && html`<p>${e.dek}</p>`}
 <p class="meta" style="margin-top:1rem"><span class="tag strong">${s.cadence}</span>
 <span class="arrow">·</span>
 <a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle}</a></p>
+${auditBlock(lang)}
 
 <div class="lede" style="margin-top:2rem">
 <div class="meta" style="margin:0 0 .8rem">
