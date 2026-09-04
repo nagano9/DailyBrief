@@ -10,11 +10,13 @@ import {
   feedPath,
   homePath,
   aboutPath,
+  premiumPath,
   renderAbout,
   renderArchive,
   renderEdition,
   renderFeed,
   renderHome,
+  renderPremium,
   renderRobots,
   renderSitemap,
   type SiteConfig,
@@ -203,6 +205,7 @@ function main() {
       pages++;
     }
     write(outFile(homePath(lang)), renderHome(cfg, editions, lang));
+    write(outFile(premiumPath(lang)), renderPremium(cfg, lang));
     write(outFile(archivePath(lang)), renderArchive(cfg, editions, lang));
     for (const d of ARCHIVE_DOMAINS) {
       write(outFile(archivePath(lang, d)), renderArchive(cfg, editions, lang, d));
@@ -210,7 +213,7 @@ function main() {
     }
     write(outFile(aboutPath(lang)), renderAbout(cfg, lang));
     write(outFile(feedPath(lang)), renderFeed(cfg, editions, lang));
-    pages += 4;
+    pages += 5;
     console.log(
       `[site] ${lang}: ${editions.length} editions + home + archive (+${ARCHIVE_DOMAINS.length} by domain) + about + feed`,
     );

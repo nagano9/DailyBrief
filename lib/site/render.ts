@@ -128,6 +128,10 @@ export function aboutPath(lang: Lang): string {
   return lang === "id" ? "/tentang/" : "/en/about/";
 }
 
+export function premiumPath(lang: Lang): string {
+  return lang === "id" ? "/premium/" : "/en/premium/";
+}
+
 export function feedPath(lang: Lang): string {
   return lang === "id" ? "/feed.xml" : "/en/feed.xml";
 }
@@ -373,6 +377,17 @@ font-size:.72rem;color:var(--faint);padding-top:.3rem;letter-spacing:.05em}
 .tierlist strong{display:block;margin-bottom:.2rem}
 .tierlist span{color:var(--muted);font-size:.96rem}
 
+.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;margin:1.5rem 0 2rem}
+.plan{border-top:1px solid var(--rule-strong);padding-top:1rem}
+.plan h3{font-size:1.05rem;margin:0 0 .35rem}
+.price{font-family:var(--mono);font-size:.78rem;color:var(--backed);letter-spacing:.04em;margin:.2rem 0 .7rem}
+.plan p{font-size:.94rem;color:var(--muted)}
+.premium-cta{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.6rem 0;margin:2rem 0}
+.premium-cta p{color:var(--muted)}
+
+@media(max-width:48rem){.plans{grid-template-columns:1fr}}
+
 footer.site{border-top:1px solid var(--rule-strong);margin-top:4.5rem;padding:2rem 0 3.5rem;
 font-family:var(--sans);font-size:.8rem;color:var(--muted);line-height:1.6}
 footer.site p{margin:0 0 .7rem}
@@ -615,6 +630,7 @@ ${o.jsonLd ? jsonLdScript(o.jsonLd) : ""}
 <a class="brand" href="${url(cfg, homePath(lang))}">${cfg.siteName}<span>.</span></a>
 <nav class="site" aria-label="${s.about}">
 <a href="${url(cfg, archivePath(lang))}">${s.archive}</a>
+<a href="${url(cfg, premiumPath(lang))}">Premium</a>
 <a href="${url(cfg, aboutPath(lang))}">${s.about}</a>
 <a href="${url(cfg, feedPath(lang))}">RSS</a>
 ${hasOther && html`<a href="${url(cfg, o.altPath ?? homePath(other))}">${s.otherLang}</a>`}
@@ -1003,6 +1019,132 @@ ${cards.length > 0 && html`<h2>${s.allEditions}</h2>
   });
 }
 
+export function renderPremium(cfg: SiteConfig, lang: Lang): string {
+  const contact = cfg.contactWhatsapp ? whatsappUrl(cfg.contactWhatsapp) : "";
+  const copy =
+    lang === "id"
+      ? {
+          title: "Premium",
+          description:
+            "Paket premium dan korporasi Daily Strategic Briefing untuk pembaca yang membutuhkan radar keputusan, sponsor, dan briefing khusus.",
+          h1: "Premium intelligence untuk keputusan yang tidak bisa menunggu.",
+          dek:
+            "Edisi publik membangun radar harian. Paket premium mengubahnya menjadi briefing eksekutif, tracker keputusan, dan jalur diskusi untuk tim strategi, risiko, energi, dan transformasi.",
+          plans: [
+            {
+              name: "Individu",
+              price: "Rp99.000-199.000 per bulan",
+              body:
+                "Untuk pembaca profesional yang ingin arsip lengkap, ringkasan mingguan, dan watchlist yang lebih tajam dari edisi publik.",
+            },
+            {
+              name: "Tim korporasi",
+              price: "Rp1.500.000-5.000.000 per bulan",
+              body:
+                "Untuk unit strategi, risiko, legal, energi, atau transformasi yang membutuhkan briefing sektor, PDF internal, dan prioritas topik.",
+            },
+            {
+              name: "Sponsor",
+              price: "Mulai dari paket bulanan",
+              body:
+                "Untuk brand B2B yang ingin tampil di hadapan pembaca pengambil keputusan melalui slot sponsor yang jelas dan tidak mengganggu editorial.",
+            },
+          ],
+          includesTitle: "Yang bisa dijual lebih dulu",
+          includes: [
+            "Weekly executive memo dari lima edisi terakhir.",
+            "Signal tracker per tema: AI frontier, energi, korporasi, dan BUMN.",
+            "Briefing khusus untuk rapat Direksi, Komite Risiko, atau tim strategi.",
+            "Sponsor placement dengan label yang transparan.",
+          ],
+          ctaTitle: "Mulai dari pilot 30 hari",
+          cta:
+            "Pilot pertama sebaiknya sederhana: satu memo mingguan, satu sesi briefing, dan satu dashboard topik prioritas. Dari situ harga dan paket bisa dinaikkan berdasarkan kebutuhan pembaca nyata.",
+          button: "Diskusikan paket",
+          fallback: "Hubungi kami melalui kanal kontak di halaman Tentang untuk pilot premium.",
+        }
+      : {
+          title: "Premium",
+          description:
+            "Premium and corporate packages for Daily Strategic Briefing: decision radar, sponsorship, and custom executive briefings.",
+          h1: "Premium intelligence for decisions that cannot wait.",
+          dek:
+            "The public edition builds a daily radar. Premium turns it into executive memos, decision trackers, and focused briefings for strategy, risk, energy, and transformation teams.",
+          plans: [
+            {
+              name: "Individual",
+              price: "Rp99,000-199,000 per month",
+              body:
+                "For professional readers who want the full archive, weekly synthesis, and sharper watchlists than the public edition.",
+            },
+            {
+              name: "Corporate team",
+              price: "Rp1,500,000-5,000,000 per month",
+              body:
+                "For strategy, risk, legal, energy, or transformation teams that need sector briefings, internal PDFs, and topic prioritisation.",
+            },
+            {
+              name: "Sponsor",
+              price: "Monthly packages",
+              body:
+                "For B2B brands that want to reach decision-making readers through clearly labelled sponsorship that does not blur editorial trust.",
+            },
+          ],
+          includesTitle: "First products to sell",
+          includes: [
+            "Weekly executive memo from the last five editions.",
+            "Signal tracker by theme: frontier AI, energy, corporate strategy, and SOEs.",
+            "Custom briefings for boards, risk committees, or strategy teams.",
+            "Transparent sponsor placement.",
+          ],
+          ctaTitle: "Start with a 30-day pilot",
+          cta:
+            "The first pilot should stay simple: one weekly memo, one briefing session, and one dashboard of priority themes. Pricing can then move with actual reader demand.",
+          button: "Discuss a package",
+          fallback: "Contact us through the About page to discuss a premium pilot.",
+        };
+
+  const body = html`<h1>${copy.h1}</h1>
+<p class="dek">${copy.dek}</p>
+
+<div class="plans">
+${copy.plans.map(
+  (p) => html`<section class="plan">
+<h2>${p.name}</h2>
+<p class="price">${p.price}</p>
+<p>${p.body}</p>
+</section>`,
+)}
+</div>
+
+<h2>${copy.includesTitle}</h2>
+<ul class="plain">${copy.includes.map((i) => html`<li>${i}</li>`)}</ul>
+
+<section class="premium-cta">
+<h2>${copy.ctaTitle}</h2>
+<p>${copy.cta}</p>
+${
+  contact
+    ? html`<p><a class="btn" href="${contact}?text=${encodeURIComponent(
+        lang === "id"
+          ? "Saya ingin diskusi paket premium DailyBrief."
+          : "I would like to discuss a DailyBrief premium package.",
+      )}" rel="noopener" target="_blank">${copy.button}</a></p>`
+    : html`<p class="note">${copy.fallback}</p>`
+}
+</section>`;
+
+  return page({
+    cfg,
+    lang,
+    title: `${copy.title} | ${cfg.siteName}`,
+    description: copy.description,
+    path: premiumPath(lang),
+    altPath: premiumPath(lang === "id" ? "en" : "id"),
+    body,
+  });
+}
+
 /**
  * The about page.
  *
@@ -1174,6 +1316,7 @@ export function renderSitemap(cfg: SiteConfig, editions: Edition[]): string {
     for (const d of ARCHIVE_DOMAINS) {
       entries.push({ loc: absUrl(cfg, archivePath(lang, d)), lastmod: newest });
     }
+    entries.push({ loc: absUrl(cfg, premiumPath(lang)) });
     entries.push({ loc: absUrl(cfg, aboutPath(lang)) });
   }
   for (const e of editions) {
