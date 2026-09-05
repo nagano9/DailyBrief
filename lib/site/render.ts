@@ -256,6 +256,32 @@ p{margin:0 0 1.05rem}
    them. It gets the weight of a statement instead. */
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 /* The lead edition keeps the visual weight of a headline while giving up the
    h1: a homepage heading should describe the page, and the page is the
@@ -277,6 +303,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -336,6 +364,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 /* The cover shows the spine. A reader who has not clicked through has no way
    to see the one thing that separates this from a summary feed: the solid
@@ -433,6 +462,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -440,6 +474,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -771,11 +806,11 @@ function auditBlock(lang: Lang): Html {
     : html`<div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Each edition passes internal quality review before publication.</span></div>`;
 }
 
-function decisionContextBlock(cfg: SiteConfig, lang: Lang, date: string): Html {
+function decisionContextBlock(cfg: SiteConfig, lang: Lang, date: string, home = false): Html {
   if (cfg.decisionContext.length === 0) return html``;
   const title = lang === "id" ? "Konteks Keputusan" : "Decision Context";
   const asOf = lang === "id" ? `per ${formatDate(date, lang)}` : `as of ${formatDate(date, lang)}`;
-  return html`<section class="context" aria-labelledby="decision-context">
+  return html`<section class="${home ? "context home-context" : "context"}" aria-labelledby="decision-context">
 <h2 id="decision-context">${title}</h2>
 <div class="context-grid">
 ${cfg.decisionContext.map(
@@ -787,6 +822,49 @@ ${cfg.decisionContext.map(
 )}
 </div>
 </section>`;
+}
+
+function homeKpis(e: Edition, lang: Lang): Html {
+  const labels =
+    lang === "id"
+      ? { signals: "sinyal", domains: "domain", sources: "sumber" }
+      : { signals: "signals", domains: "domains", sources: "sources" };
+  return html`<div class="home-kpis" aria-label="${lang === "id" ? "Ringkasan edisi" : "Edition summary"}">
+<div><b>${e.signals.length}</b><span>${labels.signals}</span></div>
+<div><b>${e.domains.length}</b><span>${labels.domains}</span></div>
+<div><b>${e.sources.length}</b><span>${labels.sources}</span></div>
+</div>`;
+}
+
+function issueRail(e: Edition, lang: Lang): Html {
+  const copy =
+    lang === "id"
+      ? {
+          title: "Radar hari ini",
+          focus: "Fokus",
+          depth: "Kedalaman",
+          trail: "Jejak sumber",
+          focusNote: "Domain dalam edisi terbaru",
+          depthNote: "Sinyal terpilih untuk dibaca cepat",
+          trailNote: "Tautan sumber ada di edisi penuh",
+        }
+      : {
+          title: "Today's radar",
+          focus: "Focus",
+          depth: "Depth",
+          trail: "Source trail",
+          focusNote: "Domains in the latest edition",
+          depthNote: "Selected signals for fast reading",
+          trailNote: "Source links are in the full edition",
+        };
+  return html`<aside class="issue-rail" aria-labelledby="home-rail">
+<h2 id="home-rail">${copy.title}</h2>
+<ul>
+<li><b>${copy.focus}</b><span>${e.domains.map((d) => DOMAIN_SHORT[lang][d]).join(" · ")}</span><small>${copy.focusNote}</small></li>
+<li><b>${copy.depth}</b><span>${e.signals.length} ${lang === "id" ? "sinyal" : "signals"}</span><small>${copy.depthNote}</small></li>
+<li><b>${copy.trail}</b><span>${e.sources.length} ${lang === "id" ? "sumber" : "sources"}</span><small>${copy.trailNote}</small></li>
+</ul>
+</aside>`;
 }
 
 /**
@@ -1098,14 +1176,20 @@ ${e.dek && html`<p>${e.dek}</p>`}
   // The first ten seconds have to answer "what is this, for whom, how often".
   // Leading straight into the latest headline assumed a reader who already
   // knew, which is every reader except the ones worth converting.
-  const body = html`<h1 class="standfirst">${s.homeIntro}</h1>
-<p class="meta" style="margin-top:1rem"><span class="tag strong">${s.cadence}</span>
-<span class="arrow">·</span>
-<a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle}</a></p>
+  const body = html`<section class="home-hero">
+<div>
+<p class="eyebrow">${s.cadence}</p>
+<h1 class="standfirst">${s.homeIntro}</h1>
+<p class="meta" style="margin-top:1rem"><a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle}</a></p>
+</div>
+${homeKpis(latest, lang)}
+</section>
 ${auditBlock(lang)}
-${decisionContextBlock(cfg, lang, latest.date)}
+${decisionContextBlock(cfg, lang, latest.date, true)}
 
-<div class="lede" style="margin-top:2rem">
+<section class="home-issue">
+<div class="issue-main">
+<div class="lede">
 <div class="meta" style="margin:0 0 .8rem">
 <span>${formatDate(latest.date, latest.lang)}</span>
 <span>·</span><span>${s.latestEdition}</span>
@@ -1119,6 +1203,9 @@ ${ladder(latest, lead, true)}
 </div>`}
 <p><a class="btn" href="${url(cfg, editionPath(latest.lang, latest.slug))}">${s.readEdition}</a></p>
 </div>
+</div>
+${issueRail(latest, lang)}
+</section>
 
 ${subscribeBlock(cfg, lang)}
 
