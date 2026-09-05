@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Ringkasan</h2>
-<p>SpaceX meletakkan fondasi pabrik bilah turbin untuk memecahkan krisis daya pusat data, menandai pergeseran dari operator roket menjadi integrator infrastruktur energi-AI — sebuah pola yang memperkuat tren nuclear-ai-datacenter-power di arsip. Sementara itu, Anthropic merilis preview Model Hardware Standard yang membuka jalan bagi agen AI mengendalikan perangkat fisik, mempertegas bahwa standar antarmuka—bukan hanya model—kini menjadi medan kompetisi utama. Di sisi energi Indonesia, Program PLTS 100 GWp resmi diluncurkan Presiden Prabowo dengan target tiga tahun, dan PLN telah mengoperasikan PLTS Terapung Gajah Mungkur sebagai eksekusi pertama—melanjutkan tema pln-transmisi-investasi yang sudah tujuh kali muncul. Danantara menempatkan mandat investasi kredit swasta US$1 miliar ke Partners Group, sinyal bahwa sovereign fund ini mulai mendiversifikasi alokasi modal ke aset riil global di luar portofolio BUMN domestik. Kelima sinyal ini berhubungan: infrastruktur daya adalah penghubung antara ambisi AI, transisi energi, dan strategi modal negara.</p>
+<p>SpaceX meletakkan fondasi pabrik bilah turbin untuk memecahkan krisis daya pusat data, menandai pergeseran dari operator roket menjadi integrator infrastruktur energi-AI, sebuah pola yang memperkuat tren nuclear-ai-datacenter-power di arsip. Sementara itu, Anthropic merilis preview Model Hardware Standard yang membuka jalan bagi agen AI mengendalikan perangkat fisik, mempertegas bahwa standar antarmuka, bukan hanya model, kini menjadi medan kompetisi utama. Di sisi energi Indonesia, Program PLTS 100 GWp resmi diluncurkan Presiden Prabowo dengan target tiga tahun, dan PLN telah mengoperasikan PLTS Terapung Gajah Mungkur sebagai eksekusi pertama, melanjutkan tema pln-transmisi-investasi yang sudah tujuh kali muncul. Danantara menempatkan mandat investasi kredit swasta US$1 miliar ke Partners Group, sinyal bahwa sovereign fund ini mulai mendiversifikasi alokasi modal ke aset riil global di luar portofolio BUMN domestik. Kelima sinyal ini berhubungan: infrastruktur daya adalah penghubung antara ambisi AI, transisi energi, dan strategi modal negara.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Tren yang sedang terbentuk</h2>
@@ -464,8 +499,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Anthropic mempublikasikan preview Model Hardware Standard [42], sebuah spesifikasi antarmuka yang memungkinkan agen AI mengendalikan perangkat keras fisik. Ars Technica mengonfirmasi ini sebagai langkah yang secara eksplisit membuka kendali dunia fisik bagi agen berbasis model [92]. Ini adalah pengumuman sumber primer dari Anthropic sendiri. <span class="cites"><a href="#s6" aria-label="Sumber 6">[6]</a><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Standar antarmuka hardware adalah infrastruktur — bukan fitur produk. Siapa yang mendefinisikan standar ini akan menentukan ekosistem mana yang kompatibel dan mana yang terpinggirkan. Ini melanjutkan tema nuclear-ai-datacenter-power: jika sebelumnya fokusnya pada daya komputasi dan listrik untuk model, kini agen AI mulai menjangkau lapisan fisik — otomatisasi industri, fasilitas energi, dan infrastruktur kritis. Standar ini bisa menjadi &#39;USB-C&#39;-nya AI fisik.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Adopsi standar ini oleh OEM perangkat industri — robot, PLC, sensor jaringan listrik — akan mengubah siklus pengadaan infrastruktur fisik. Operator yang mengunci kontrak perangkat keras sebelum standar ini matang berisiko memiliki aset yang tidak kompatibel dengan ekosistem agen generasi berikutnya. Untuk sektor energi Indonesia, ini bermakna: PLTS, sistem baterai, dan jaringan transmisi baru yang sedang dibangun dalam program 100 GWp perlu dievaluasi kompatibilitasnya dengan standar kontrol agen AI masa depan.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Standar antarmuka hardware adalah infrastruktur, bukan fitur produk. Siapa yang mendefinisikan standar ini akan menentukan ekosistem mana yang kompatibel dan mana yang terpinggirkan. Ini melanjutkan tema nuclear-ai-datacenter-power: jika sebelumnya fokusnya pada daya komputasi dan listrik untuk model, kini agen AI mulai menjangkau lapisan fisik, otomatisasi industri, fasilitas energi, dan infrastruktur kritis. Standar ini bisa menjadi &#39;USB-C&#39;-nya AI fisik.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Adopsi standar ini oleh OEM perangkat industri, robot, PLC, sensor jaringan listrik, akan mengubah siklus pengadaan infrastruktur fisik. Operator yang mengunci kontrak perangkat keras sebelum standar ini matang berisiko memiliki aset yang tidak kompatibel dengan ekosistem agen generasi berikutnya. Untuk sektor energi Indonesia, ini bermakna: PLTS, sistem baterai, dan jaringan transmisi baru yang sedang dibangun dalam program 100 GWp perlu dievaluasi kompatibilitasnya dengan standar kontrol agen AI masa depan.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Tinjau apakah spesifikasi pengadaan perangkat keras untuk proyek PLTS 100 GWp dan sistem penyimpanan energi baru sudah mempertimbangkan interoperabilitas dengan standar kontrol agen AI yang sedang berkembang; minta tim teknis menilai Model Hardware Standard Anthropic dalam konteks ini.</dd></div>
 </dl>
 <div class="corrob">
@@ -492,8 +527,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Presiden Prabowo secara resmi meluncurkan Program PLTS 100 GWp di Bali pada 25 Agustus 2026 dengan target penyelesaian tiga tahun [73, 48]. Kementerian ESDM mengonfirmasi eksekusi di berbagai titik dari Gilimanuk hingga Pulau Rengit [23]. PLN telah mengoperasikan PLTS Terapung Gajah Mungkur di Jawa Tengah sebagai unit konkret pertama yang beroperasi [99]. IESR menyatakan peluncuran ini harus menjadi titik awal eksekusi cepat dan terukur [10]. <span class="cites"><a href="#s2" aria-label="Sumber 2">[2]</a><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s7" aria-label="Sumber 7">[7]</a><a href="#s9" aria-label="Sumber 9">[9]</a><a href="#s11" aria-label="Sumber 11">[11]</a></span></dd></div>
 <div class="rung"><dt>Mengapa penting</dt><dd>Ini melanjutkan tema pln-transmisi-investasi yang sudah tujuh kali muncul sejak 22 Agustus. Kini statusnya bergeser: dari pengumuman kebijakan menjadi eksekusi terverifikasi. Komitmen skala 100 GWp dalam tiga tahun (rata-rata ~33 GWp/tahun) jauh melampaui kapasitas instalasi surya Indonesia yang pernah ada sebelumnya. Pertanyaan kritis bukan lagi &#39;apakah program ini nyata&#39; tetapi &#39;siapa yang membangun, membiayai, dan menyerap listriknya&#39;.</dd></div>
-<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Kecepatan target 100 GWp dalam tiga tahun menciptakan tekanan pengadaan masif pada rantai pasokan panel surya, inverter, kabel, dan tenaga kerja teknis. Jika PLN tidak memiliki kapasitas transmisi yang memadai untuk menyerap seluruh output, investasi PLTS berisiko menghasilkan curtailment besar-besaran seperti yang terjadi di Chile [1] — ironisnya mendorong kebutuhan baterai penyimpanan yang Indonesia belum punya industri lokalnya. Ini membuka peluang dan risiko sekaligus bagi investor EPC, BUMN Karya (yang sedang direstrukturisasi), dan mitra asing. <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a></span></dd></div>
-<div class="rung act"><dt>Tindakan</dt><dd>Petakan BUMN Karya mana yang berposisi mengerjakan kontrak EPC PLTS 100 GWp; evaluasi apakah RUPTL 2025-2034 sudah mengakomodasi kebutuhan transmisi tambahan untuk menyerap 100 GWp — jika belum, identifikasi gap yang perlu dinegosiasikan sebelum kontrak EPC ditandatangani.</dd></div>
+<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Kecepatan target 100 GWp dalam tiga tahun menciptakan tekanan pengadaan masif pada rantai pasokan panel surya, inverter, kabel, dan tenaga kerja teknis. Jika PLN tidak memiliki kapasitas transmisi yang memadai untuk menyerap seluruh output, investasi PLTS berisiko menghasilkan curtailment besar-besaran seperti yang terjadi di Chile [1], ironisnya mendorong kebutuhan baterai penyimpanan yang Indonesia belum punya industri lokalnya. Ini membuka peluang dan risiko sekaligus bagi investor EPC, BUMN Karya (yang sedang direstrukturisasi), dan mitra asing. <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a></span></dd></div>
+<div class="rung act"><dt>Tindakan</dt><dd>Petakan BUMN Karya mana yang berposisi mengerjakan kontrak EPC PLTS 100 GWp; evaluasi apakah RUPTL 2025-2034 sudah mengakomodasi kebutuhan transmisi tambahan untuk menyerap 100 GWp, jika belum, identifikasi gap yang perlu dinegosiasikan sebelum kontrak EPC ditandatangani.</dd></div>
 </dl>
 <div class="corrob">
 <span class="backed">sumber primer</span>
@@ -522,8 +557,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>OpenAI secara resmi mengumumkan keputusan untuk menghentikan kontrak penyediaan model OpenAI kepada Cursor, menyusul akuisisi Cursor oleh SpaceX [16]. Ini adalah pengumuman sumber primer dari OpenAI sendiri. <span class="cites"><a href="#s3" aria-label="Sumber 3">[3]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Ini adalah preseden pertama yang terdokumentasi di mana OpenAI memutus akses API kepada mitra komersial berdasarkan perubahan kepemilikan — bukan pelanggaran ToS atau kinerja teknis. Dengan SpaceX (dan Elon Musk) sebagai pemilik baru Cursor, OpenAI secara implisit menetapkan bahwa kepemilikan oleh entitas yang dianggap kompetitor atau konflik kepentingan dapat menjadi dasar pemutusan akses. Ini mengubah cara perusahaan menilai risiko vendor AI dalam due diligence M&amp;A.</dd></div>
-<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Setiap perusahaan yang bergantung pada API OpenAI kini harus menambahkan klausul &#39;perubahan kendali&#39; (change-of-control) dalam analisis risiko vendor AI mereka. Lebih jauh: jika SpaceX membangun kapabilitas AI sendiri (didukung pabrik turbin untuk daya pusat datanya [26]), penghentian akses Cursor ke OpenAI bisa menjadi titik awal ekosistem AI alternatif berbasis Grok/xAI + SpaceX — kompetisi model bukan hanya soal benchmark, tetapi kontrol distribusi. <span class="cites"><a href="#s5" aria-label="Sumber 5">[5]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Ini adalah preseden pertama yang terdokumentasi di mana OpenAI memutus akses API kepada mitra komersial berdasarkan perubahan kepemilikan, bukan pelanggaran ToS atau kinerja teknis. Dengan SpaceX (dan Elon Musk) sebagai pemilik baru Cursor, OpenAI secara implisit menetapkan bahwa kepemilikan oleh entitas yang dianggap kompetitor atau konflik kepentingan dapat menjadi dasar pemutusan akses. Ini mengubah cara perusahaan menilai risiko vendor AI dalam due diligence M&amp;A.</dd></div>
+<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Setiap perusahaan yang bergantung pada API OpenAI kini harus menambahkan klausul &#39;perubahan kendali&#39; (change-of-control) dalam analisis risiko vendor AI mereka. Lebih jauh: jika SpaceX membangun kapabilitas AI sendiri (didukung pabrik turbin untuk daya pusat datanya [26]), penghentian akses Cursor ke OpenAI bisa menjadi titik awal ekosistem AI alternatif berbasis Grok/xAI + SpaceX, kompetisi model bukan hanya soal benchmark, tetapi kontrol distribusi. <span class="cites"><a href="#s5" aria-label="Sumber 5">[5]</a></span></dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Audit ketergantungan produk atau layanan internal pada API OpenAI; tambahkan klausul &#39;change-of-control API risk&#39; dalam template due diligence investasi teknologi dan perjanjian kemitraan AI.</dd></div>
 </dl>
 <div class="corrob">
@@ -549,8 +584,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>The Information melaporkan SpaceX secara aktif membangun landasan untuk pabrik bilah turbin yang ditujukan khusus untuk memasok kebutuhan daya pusat data AI yang terus melonjak. Ini adalah langkah konkret melampaui sekadar wacana: SpaceX bergerak ke rantai nilai manufaktur energi demi mengamankan pasokan listrik bagi fasilitas komputasi skala besar. <span class="cites"><a href="#s5" aria-label="Sumber 5">[5]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Ini melanjutkan tema nuclear-ai-datacenter-power yang sudah delapan kali muncul di arsip sejak 20 Agustus. Pergeserannya kini struktural: perusahaan teknologi dan luar angkasa tidak lagi mengandalkan grid eksisting atau PPA dengan utilitas—mereka mundur ke hulu untuk mengendalikan rantai pasokan energi secara vertikal. SpaceX, dengan akses ke manufaktur presisi dan kemampuan logistik, memposisikan diri sebagai pemain infrastruktur daya, bukan sekadar penyewa daya.</dd></div>
-<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Jika model vertikal ini terbukti berhasil, utilitas konvensional dan pemasok turbin independen akan kehilangan pelanggan terbesar mereka sebelum grid baru sempat dibangun. Lebih jauh, pabrik bilah turbin milik SpaceX dapat menjadi leverage negosiasi terhadap grid operator dan regulator energi — menciptakan entitas yang secara bersamaan adalah konsumen, produsen, dan penekan standar regulasi energi. Di Indonesia, ini relevan: investor pusat data seperti NeutraDC yang sedang ekspansi 200 MW bersama PLN [56] harus mempertimbangkan apakah model ketergantungan pada grid PLN masih kompetitif dibanding model self-supply vertikal. <span class="cites"><a href="#s8" aria-label="Sumber 8">[8]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Ini melanjutkan tema nuclear-ai-datacenter-power yang sudah delapan kali muncul di arsip sejak 20 Agustus. Pergeserannya kini struktural: perusahaan teknologi dan luar angkasa tidak lagi mengandalkan grid eksisting atau PPA dengan utilitas, mereka mundur ke hulu untuk mengendalikan rantai pasokan energi secara vertikal. SpaceX, dengan akses ke manufaktur presisi dan kemampuan logistik, memposisikan diri sebagai pemain infrastruktur daya, bukan sekadar penyewa daya.</dd></div>
+<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Jika model vertikal ini terbukti berhasil, utilitas konvensional dan pemasok turbin independen akan kehilangan pelanggan terbesar mereka sebelum grid baru sempat dibangun. Lebih jauh, pabrik bilah turbin milik SpaceX dapat menjadi leverage negosiasi terhadap grid operator dan regulator energi, menciptakan entitas yang secara bersamaan adalah konsumen, produsen, dan penekan standar regulasi energi. Di Indonesia, ini relevan: investor pusat data seperti NeutraDC yang sedang ekspansi 200 MW bersama PLN [56] harus mempertimbangkan apakah model ketergantungan pada grid PLN masih kompetitif dibanding model self-supply vertikal. <span class="cites"><a href="#s8" aria-label="Sumber 8">[8]</a></span></dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Evaluasi apakah pipeline pusat data di Indonesia (termasuk NeutraDC-PLN 200 MW) memiliki klausul pasokan daya yang terlindungi dari risiko grid; bandingkan struktur offtake PLN vs opsi self-generation yang sedang dikembangkan pemain global.</dd></div>
 </dl>
 <div class="corrob">
@@ -571,7 +606,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>Yang perlu dipantau</h2>
-<ul class="plain"><li>Rincian kontrak EPC PLTS 100 GWp: BUMN Karya mana yang mendapat porsi, berapa nilai, dan jadwal financial close — indikator apakah target tiga tahun realistis <span class="n">· 30 September 2026</span></li><li>Adopsi industri atas Model Hardware Standard Anthropic: OEM robot atau sistem kontrol mana yang pertama mengumumkan kompatibilitas — menentukan apakah ini menjadi standar de facto <span class="n">· 31 Oktober 2026</span></li><li>Laporan keuangan Danantara pertama yang mencakup penempatan Partners Group dan setoran Rp120 triliun ke APBN — memverifikasi konsistensi alokasi modal antara kewajiban fiskal domestik dan investasi global <span class="n">· 31 Desember 2026</span></li><li>Respons Cursor dan pelanggannya pasca-pemutusan OpenAI: apakah mereka migrasi ke model alternatif (Anthropic, Gemini, xAI) — mengindikasikan seberapa cepat ekosistem AI terfragmentasi berdasarkan kepemilikan korporasi <span class="n">· 15 September 2026</span></li></ul>
+<ul class="plain"><li>Rincian kontrak EPC PLTS 100 GWp: BUMN Karya mana yang mendapat porsi, berapa nilai, dan jadwal financial close, indikator apakah target tiga tahun realistis <span class="n">· 30 September 2026</span></li><li>Adopsi industri atas Model Hardware Standard Anthropic: OEM robot atau sistem kontrol mana yang pertama mengumumkan kompatibilitas, menentukan apakah ini menjadi standar de facto <span class="n">· 31 Oktober 2026</span></li><li>Laporan keuangan Danantara pertama yang mencakup penempatan Partners Group dan setoran Rp120 triliun ke APBN, memverifikasi konsistensi alokasi modal antara kewajiban fiskal domestik dan investasi global <span class="n">· 31 Desember 2026</span></li><li>Respons Cursor dan pelanggannya pasca-pemutusan OpenAI: apakah mereka migrasi ke model alternatif (Anthropic, Gemini, xAI), mengindikasikan seberapa cepat ekosistem AI terfragmentasi berdasarkan kepemilikan korporasi <span class="n">· 15 September 2026</span></li></ul>
 
 <h2>Sumber</h2>
 <p class="note">Setiap sinyal di atas mengutip sumber di bawah ini. Kami tidak menerbitkan ulang isi artikel; klik untuk membaca di penerbit aslinya.</p>

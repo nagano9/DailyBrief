@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,12 +481,12 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Ringkasan</h2>
-<p>Kontan mengungkap 110 proyek panas bumi berkapasitas 5,1 GW—mayoritas swasta—memberikan angka konkret pada tekanan konsesi yang sudah disuarakan Bahlil sejak pekan lalu, sekaligus mengkonfirmasi bahwa hambatan bukan pada pasokan proyek melainkan pada off-take dan perizinan lahan. Di sisi AI, OpenAI meresmikan Zero Data Retention untuk pelanggan API frontier dan memperkenalkan Private Safety Processing, menggeser debat privasi enterprise dari janji kontraktual ke arsitektur teknis yang dapat diaudit. Nvidia–Cloverleaf memperluas pola vendor-jadi-investor infrastruktur yang mengubah valuasi pusat data dari belanja capex teknologi ke project finance. Di domain korporasi, BP BUMN mempertegas bahwa restrukturisasi BUMN Karya &#39;diupayakan segera selesai&#39; tanpa jadwal pasti, sementara analisis Kompas memetakan akar hambatannya—gabungan keduanya membentuk sinyal bahwa ketidakpastian fiskal BUMN Karya akan berlanjut setidaknya satu kuartal lagi. Co-firing PLTU Tidore oleh PLN menambah satu data poin pada pola transisi energi berbasis bahan bakar campuran yang masih jauh dari dekarbonisasi penuh.</p>
+<p>Kontan mengungkap 110 proyek panas bumi berkapasitas 5,1 GW, mayoritas swasta, memberikan angka konkret pada tekanan konsesi yang sudah disuarakan Bahlil sejak pekan lalu, sekaligus mengkonfirmasi bahwa hambatan bukan pada pasokan proyek melainkan pada off-take dan perizinan lahan. Di sisi AI, OpenAI meresmikan Zero Data Retention untuk pelanggan API frontier dan memperkenalkan Private Safety Processing, menggeser debat privasi enterprise dari janji kontraktual ke arsitektur teknis yang dapat diaudit. Nvidia–Cloverleaf memperluas pola vendor-jadi-investor infrastruktur yang mengubah valuasi pusat data dari belanja capex teknologi ke project finance. Di domain korporasi, BP BUMN mempertegas bahwa restrukturisasi BUMN Karya &#39;diupayakan segera selesai&#39; tanpa jadwal pasti, sementara analisis Kompas memetakan akar hambatannya, gabungan keduanya membentuk sinyal bahwa ketidakpastian fiskal BUMN Karya akan berlanjut setidaknya satu kuartal lagi. Co-firing PLTU Tidore oleh PLN menambah satu data poin pada pola transisi energi berbasis bahan bakar campuran yang masih jauh dari dekarbonisasi penuh.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Tren yang sedang terbentuk</h2>
 <ul>
-<li class="recurring">Kepala BP BUMN akui restrukturisasi BUMN Karya belum tuntas; Kompas analisis akar hambatan struktural<span class="n">5x sejak 2026-08-19 · Korporasi &amp; BUMN</span></li><li class="recurring">Bahlil tegur pengembang penahan WKP; Pertamina deklarasikan ekspansi panas bumi nasional di IIGCE 2026<span class="n">5x sejak 2026-08-19 · Energi &amp; Kelistrikan</span></li><li class="recurring">OpenAI dorong penguatan RUU keamanan AI California—lab frontier pertama yang secara proaktif minta regulasi lebih ketat<span class="n">4x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="recurring">Nvidia investasi ekuitas di Cloverleaf Infrastructure, melanjutkan pola vendor-jadi-investor infrastruktur AI<span class="n">3x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="recurring">Indonesia-Germany formalise renewable energy and grid investment partnership, adding bilateral financing to PLN&#39;s transmission gap<span class="n">2x sejak 2026-08-22 · Energi &amp; Kelistrikan</span></li>
+<li class="recurring">Kepala BP BUMN akui restrukturisasi BUMN Karya belum tuntas; Kompas analisis akar hambatan struktural<span class="n">5x sejak 2026-08-19 · Korporasi &amp; BUMN</span></li><li class="recurring">Bahlil tegur pengembang penahan WKP; Pertamina deklarasikan ekspansi panas bumi nasional di IIGCE 2026<span class="n">5x sejak 2026-08-19 · Energi &amp; Kelistrikan</span></li><li class="recurring">OpenAI dorong penguatan RUU keamanan AI California, lab frontier pertama yang secara proaktif minta regulasi lebih ketat<span class="n">4x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="recurring">Nvidia investasi ekuitas di Cloverleaf Infrastructure, melanjutkan pola vendor-jadi-investor infrastruktur AI<span class="n">3x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="recurring">Indonesia-Germany formalise renewable energy and grid investment partnership, adding bilateral financing to PLN&#39;s transmission gap<span class="n">2x sejak 2026-08-22 · Energi &amp; Kelistrikan</span></li>
 </ul>
 </aside>
 <h2>Lima sinyal hari ini</h2>
@@ -463,10 +498,10 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Berulang · 6x sejak 2026-08-19</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>Kontan (23 Agustus 2026) melaporkan bahwa pipeline panas bumi Indonesia kini mencakup 110 proyek dengan total kapasitas 5,1 GW, dengan porsi mayoritas di tangan pengembang swasta—bukan Pertamina Geothermal. <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Sinyal ini melanjutkan tema indonesia-geothermal-concession-reform yang telah muncul 5x sejak 19 Agustus. Kini implikasi akumulatifnya lebih tajam: hambatan bukan pada kekurangan proyek atau investor, melainkan pada sisi hilir—tarif beli PLN, kepastian off-take, dan tumpang-tindih izin lahan yang membuat WKP tertahan. Bahlil menegur pengembang penahan konsesi, namun angka 5,1 GW justru menunjukkan bahwa kapasitas siap kembang sudah ada; yang macet adalah mekanisme konversi ke konstruksi.</dd></div>
-<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Jika mayoritas 5,1 GW adalah swasta, maka risiko gagal bangun bersifat tersebar dan sulit dikoordinasi oleh satu regulator. Kegagalan sebagian proyek tidak akan menimbulkan satu titik krisis besar, tetapi akan menghasilkan erosi bertahap kepercayaan investor sektor panas bumi—efek yang lebih sulit dibalik daripada satu kebangkrutan proyek tunggal. Bursa karbon (PGEO dan BREN disebut Kontan sebagai emiten paling berpeluang) dapat menjadi katalis baru, tetapi hanya bila skema carbon credit panas bumi terstandardisasi sebelum proyek-proyek ini mencapai financial close. <span class="cites"><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
-<div class="rung act"><dt>Tindakan</dt><dd>Petakan 110 proyek tersebut berdasarkan status: WKP aktif vs. ditahan, ada PPA vs. belum, serta kepemilikan (BUMN vs. swasta). Identifikasi proyek mana yang berada dalam jangkauan financial close 12 bulan dan sudah memiliki off-take agreement—itulah yang layak diprioritaskan dalam negosiasi tarif PLN putaran berikutnya.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Kontan (23 Agustus 2026) melaporkan bahwa pipeline panas bumi Indonesia kini mencakup 110 proyek dengan total kapasitas 5,1 GW, dengan porsi mayoritas di tangan pengembang swasta, bukan Pertamina Geothermal. <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Sinyal ini melanjutkan tema indonesia-geothermal-concession-reform yang telah muncul 5x sejak 19 Agustus. Kini implikasi akumulatifnya lebih tajam: hambatan bukan pada kekurangan proyek atau investor, melainkan pada sisi hilir, tarif beli PLN, kepastian off-take, dan tumpang-tindih izin lahan yang membuat WKP tertahan. Bahlil menegur pengembang penahan konsesi, namun angka 5,1 GW justru menunjukkan bahwa kapasitas siap kembang sudah ada; yang macet adalah mekanisme konversi ke konstruksi.</dd></div>
+<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Jika mayoritas 5,1 GW adalah swasta, maka risiko gagal bangun bersifat tersebar dan sulit dikoordinasi oleh satu regulator. Kegagalan sebagian proyek tidak akan menimbulkan satu titik krisis besar, tetapi akan menghasilkan erosi bertahap kepercayaan investor sektor panas bumi, efek yang lebih sulit dibalik daripada satu kebangkrutan proyek tunggal. Bursa karbon (PGEO dan BREN disebut Kontan sebagai emiten paling berpeluang) dapat menjadi katalis baru, tetapi hanya bila skema carbon credit panas bumi terstandardisasi sebelum proyek-proyek ini mencapai financial close. <span class="cites"><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
+<div class="rung act"><dt>Tindakan</dt><dd>Petakan 110 proyek tersebut berdasarkan status: WKP aktif vs. ditahan, ada PPA vs. belum, serta kepemilikan (BUMN vs. swasta). Identifikasi proyek mana yang berada dalam jangkauan financial close 12 bulan dan sudah memiliki off-take agreement, itulah yang layak diprioritaskan dalam negosiasi tarif PLN putaran berikutnya.</dd></div>
 </dl>
 <div class="corrob">
 <span class="backed">sumber primer</span>
@@ -491,9 +526,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Berulang · 5x sejak 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>OpenAI (19 Agustus 2026) secara resmi mengumumkan Zero Data Retention (ZDR) untuk pelanggan API yang memenuhi syarat pada model frontier, sekaligus memperkenalkan Private Safety Processing—mekanisme pemrosesan keamanan AI tanpa menyimpan data pengguna. <span class="cites"><a href="#s8" aria-label="Sumber 8">[8]</a><a href="#s11" aria-label="Sumber 11">[11]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Sinyal ini melanjutkan tema enterprise-ai-data-privacy-contracts (4x sejak 20 Agustus). Implikasi akumulatifnya: setelah insiden Hugging Face breach (Bloomberg, 18 Agustus) mendorong tekanan publik, OpenAI kini bergerak dari komitmen kontraktual ke arsitektur teknis yang dapat diaudit. Ini menggeser standar minimum industri—enterprise buyer kini dapat meminta ZDR sebagai baseline, bukan fitur premium.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Jika ZDR menjadi ekspektasi standar enterprise, vendor AI yang tidak mampu menawarkan arsitektur serupa (karena ketergantungan pada data pengguna untuk fine-tuning atau safety monitoring) akan menghadapi hambatan adopsi di segmen regulated industries—perbankan, kesehatan, pemerintahan. Di Indonesia, ini berimplikasi langsung pada pengadaan AI oleh BUMN dan kementerian yang tunduk pada regulasi data residency.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>OpenAI (19 Agustus 2026) secara resmi mengumumkan Zero Data Retention (ZDR) untuk pelanggan API yang memenuhi syarat pada model frontier, sekaligus memperkenalkan Private Safety Processing, mekanisme pemrosesan keamanan AI tanpa menyimpan data pengguna. <span class="cites"><a href="#s8" aria-label="Sumber 8">[8]</a><a href="#s11" aria-label="Sumber 11">[11]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Sinyal ini melanjutkan tema enterprise-ai-data-privacy-contracts (4x sejak 20 Agustus). Implikasi akumulatifnya: setelah insiden Hugging Face breach (Bloomberg, 18 Agustus) mendorong tekanan publik, OpenAI kini bergerak dari komitmen kontraktual ke arsitektur teknis yang dapat diaudit. Ini menggeser standar minimum industri, enterprise buyer kini dapat meminta ZDR sebagai baseline, bukan fitur premium.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Jika ZDR menjadi ekspektasi standar enterprise, vendor AI yang tidak mampu menawarkan arsitektur serupa (karena ketergantungan pada data pengguna untuk fine-tuning atau safety monitoring) akan menghadapi hambatan adopsi di segmen regulated industries, perbankan, kesehatan, pemerintahan. Di Indonesia, ini berimplikasi langsung pada pengadaan AI oleh BUMN dan kementerian yang tunduk pada regulasi data residency.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Tinjau ulang kontrak API AI yang sedang berjalan di organisasi Anda: apakah klausul retensi data sudah setara dengan ZDR OpenAI? Jika belum, jadikan ini leverage negosiasi dalam perpanjangan kontrak atau RFP berikutnya. Untuk lembaga pemerintah Indonesia, periksa apakah Private Safety Processing memenuhi syarat Peraturan Pemerintah No. 71/2019 tentang penyelenggaraan sistem elektronik.</dd></div>
 </dl>
 <div class="corrob">
@@ -520,7 +555,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Kepala BP BUMN menyatakan restrukturisasi BUMN Karya &#39;diupayakan segera selesai&#39; tanpa menyebut tenggat waktu (CNBC Indonesia, 21 Agustus). Kompas (20 Agustus) menerbitkan analisis yang memetakan kompleksitas struktural: utang silang antar-entitas, proyek mangkrak dengan nilai aset yang diperdebatkan, dan ketiadaan calon acquirer yang memiliki neraca cukup kuat. <span class="cites"><a href="#s3" aria-label="Sumber 3">[3]</a><a href="#s9" aria-label="Sumber 9">[9]</a><a href="#s12" aria-label="Sumber 12">[12]</a></span></dd></div>
 <div class="rung"><dt>Mengapa penting</dt><dd>Sinyal ini melanjutkan tema danantara-bumn-karya-restructuring (5x sejak 19 Agustus, kini berstatus recurring mendekati structural). Akumulasi sinyal menunjukkan bahwa ketidakpastian ini bukan fase transisi normal melainkan indikasi kebuntuan struktural: tidak ada pembeli strategis, tidak ada skema haircut utang yang disepakati kreditur, dan tidak ada payung hukum baru untuk merger paksa.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Selama BUMN Karya belum direstrukturisasi, Danantara menanggung risiko kontingensi yang tidak terbooked secara transparan—ini menekan kapasitas Danantara untuk mengerahkan modal segar ke investasi produktif lain (termasuk energi terbarukan dan infrastruktur digital). Mitra internasional yang sedang menjajaki co-investment dengan Danantara akan memperhitungkan eksposur ini sebagai risiko holdco.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Selama BUMN Karya belum direstrukturisasi, Danantara menanggung risiko kontingensi yang tidak terbooked secara transparan, ini menekan kapasitas Danantara untuk mengerahkan modal segar ke investasi produktif lain (termasuk energi terbarukan dan infrastruktur digital). Mitra internasional yang sedang menjajaki co-investment dengan Danantara akan memperhitungkan eksposur ini sebagai risiko holdco.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Dalam analisis investasi atau kemitraan yang melibatkan Danantara sebagai sponsor atau co-investor, tambahkan due diligence layer khusus untuk mengkuantifikasi eksposur kontingensi BUMN Karya: berapa total utang yang berpotensi dikonsolidasi ke neraca Danantara, dan dalam skenario apa pemerintah akan menjamin kewajiban tersebut.</dd></div>
 </dl>
 <div class="corrob">
@@ -547,8 +582,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>TechCrunch (21 Agustus) melaporkan Nvidia bermitra dengan pengembang pusat data Cloverleaf, melanjutkan pola investasi ekuitas Nvidia di infrastruktur compute yang sudah terdokumentasi di arsip tema nuclear-ai-datacenter-power (3x sejak 20 Agustus). <span class="cites"><a href="#s5" aria-label="Sumber 5">[5]</a><a href="#s7" aria-label="Sumber 7">[7]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Pola ini kini berulang cukup konsisten untuk diperlakukan sebagai kondisi struktural, bukan berita tunggal. Nvidia tidak lagi sekadar menjual GPU; ia mengambil eksposur ekuitas di rantai nilai hilir—pusat data, daya, konektivitas. Ini mengubah insentif Nvidia dalam negosiasi harga chip dan layanan: ada konflik kepentingan potensial antara peran vendor dan investor.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Operator pusat data independen yang selama ini mengandalkan Nvidia sebagai vendor netral kini menghadapi kompetitor yang juga merupakan pemasok utama mereka. Akses ke GPU terbaru, prioritas alokasi, dan dukungan teknis berpotensi menjadi instrumen persaingan—bukan sekadar keputusan komersial. Regulator antimonopoli di Eropa dan AS kemungkinan akan memperhatikan pola ini jika berlanjut.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Pola ini kini berulang cukup konsisten untuk diperlakukan sebagai kondisi struktural, bukan berita tunggal. Nvidia tidak lagi sekadar menjual GPU; ia mengambil eksposur ekuitas di rantai nilai hilir, pusat data, daya, konektivitas. Ini mengubah insentif Nvidia dalam negosiasi harga chip dan layanan: ada konflik kepentingan potensial antara peran vendor dan investor.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Operator pusat data independen yang selama ini mengandalkan Nvidia sebagai vendor netral kini menghadapi kompetitor yang juga merupakan pemasok utama mereka. Akses ke GPU terbaru, prioritas alokasi, dan dukungan teknis berpotensi menjadi instrumen persaingan, bukan sekadar keputusan komersial. Regulator antimonopoli di Eropa dan AS kemungkinan akan memperhatikan pola ini jika berlanjut.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Jika organisasi Anda sedang mengevaluasi kontrak jangka panjang pasokan GPU atau co-location dengan mitra Nvidia, masukkan klausul most-favored-nation dan audit akses layanan untuk mengantisipasi skenario di mana Nvidia mengutamakan afiliasi ekuitasnya. Nilai juga apakah Cloverleaf dan entitas serupa layak dianalisis dengan framework project finance (Sponsor → Offtaker → EPC → Power → Grid → Lender).</dd></div>
 </dl>
 <div class="corrob">
@@ -574,7 +609,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>ANTARA (23 Agustus) melaporkan PLN mengimplementasikan co-firing biomassa di PLTU Tidore sebagai bagian dari program transisi energi berkelanjutan, melanjutkan pola pln-transmisi-investasi yang sudah muncul 2x sejak 22 Agustus. <span class="cites"><a href="#s2" aria-label="Sumber 2">[2]</a><a href="#s6" aria-label="Sumber 6">[6]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Co-firing di PLTU pulau kecil seperti Tidore menunjukkan bahwa strategi transisi PLN di sistem kelistrikan terisolasi berbeda dari sistem Jawa-Bali: alih-alih mengganti pembangkit, PLN memodifikasi bahan bakar. Ini adalah respons pragmatis terhadap keterbatasan grid interkoneksi dan mahalnya biaya pensiun dini PLTU, tetapi tidak mengurangi emisi secara signifikan—biomassa co-firing umumnya hanya menurunkan emisi 5–15% per unit.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Co-firing di PLTU pulau kecil seperti Tidore menunjukkan bahwa strategi transisi PLN di sistem kelistrikan terisolasi berbeda dari sistem Jawa-Bali: alih-alih mengganti pembangkit, PLN memodifikasi bahan bakar. Ini adalah respons pragmatis terhadap keterbatasan grid interkoneksi dan mahalnya biaya pensiun dini PLTU, tetapi tidak mengurangi emisi secara signifikan, biomassa co-firing umumnya hanya menurunkan emisi 5–15% per unit.</dd></div>
 <div class="rung"><dt>Efek lanjutan</dt><dd>Jika co-firing menjadi strategi default untuk PLTU di sistem isolated (luar Jawa), ini berpotensi mengunci keberlangsungan aset batubara 10–15 tahun lebih lama dari skenario transisi energi yang diasumsikan investor ESG dan kreditur multilateral. Ini relevan bagi pembiayaan PLN: lembaga seperti ADB dan JBIC yang mensyaratkan roadmap pensiun PLTU akan mempertanyakan konsistensi co-firing dengan komitmen dekarbonisasi.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Minta PLN atau Kementerian ESDM untuk mempublikasikan peta jalan eksplisit: PLTU mana yang akan co-firing (perpanjangan umur efektif), mana yang akan pensiun dini, dan mana yang akan digantikan EBT dalam 5 tahun. Tanpa peta jalan ini, komitmen transisi energi Indonesia tidak dapat diverifikasi oleh mitra pembiayaan internasional.</dd></div>
 </dl>
@@ -596,7 +631,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>Yang perlu dipantau</h2>
-<ul class="plain"><li>Keputusan tarif beli PLN untuk proyek panas bumi swasta: apakah ada revisi feed-in tariff atau skema lelang baru yang memungkinkan 110 proyek bergerak ke financial close. <span class="n">· 30 September 2026</span></li><li>Pengumuman resmi jadwal atau mekanisme restrukturisasi BUMN Karya dari BP BUMN atau Danantara—termasuk kemungkinan pembentukan SPV atau skema haircut utang. <span class="n">· 15 September 2026</span></li><li>Respons regulator antimonopoli AS atau EU terhadap pola investasi ekuitas Nvidia di infrastruktur pusat data (Cloverleaf dan entitas serupa). <span class="n">· 31 Desember 2026</span></li><li>Publikasi roadmap pensiun PLTU oleh PLN atau Kementerian ESDM yang membedakan PLTU yang akan co-firing vs. pensiun dini—krusial bagi verifikasi komitmen NDC Indonesia. <span class="n">· 1 November 2026</span></li></ul>
+<ul class="plain"><li>Keputusan tarif beli PLN untuk proyek panas bumi swasta: apakah ada revisi feed-in tariff atau skema lelang baru yang memungkinkan 110 proyek bergerak ke financial close. <span class="n">· 30 September 2026</span></li><li>Pengumuman resmi jadwal atau mekanisme restrukturisasi BUMN Karya dari BP BUMN atau Danantara, termasuk kemungkinan pembentukan SPV atau skema haircut utang. <span class="n">· 15 September 2026</span></li><li>Respons regulator antimonopoli AS atau EU terhadap pola investasi ekuitas Nvidia di infrastruktur pusat data (Cloverleaf dan entitas serupa). <span class="n">· 31 Desember 2026</span></li><li>Publikasi roadmap pensiun PLTU oleh PLN atau Kementerian ESDM yang membedakan PLTU yang akan co-firing vs. pensiun dini, krusial bagi verifikasi komitmen NDC Indonesia. <span class="n">· 1 November 2026</span></li></ul>
 
 <h2>Sumber</h2>
 <p class="note">Setiap sinyal di atas mengutip sumber di bawah ini. Kami tidak menerbitkan ulang isi artikel; klik untuk membaca di penerbit aslinya.</p>

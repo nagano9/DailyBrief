@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,12 +481,12 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>OpenAI&#39;s ChatGPT Ads business reaching a $1 billion annualised revenue run rate marks the first confirmed proof point that conversational AI can sustain a large advertising layer distinct from subscription revenue—reshaping competitive dynamics for every platform that depends on search advertising. Simultaneously, Anthropic&#39;s publication of automated alignment-research results introduces a credible path toward self-improving AI safety systems, a development with deeper long-run implications than the benchmark numbers suggest. On the corporate side, Danantara&#39;s public statement on a potential MTEL-TBIG tower merger extends its restructuring mandate from construction SOEs into digital infrastructure, a domain with cash-generative assets that could recapitalise the broader portfolio. Indonesia&#39;s 100 GWp solar programme, now formally launched by President Prabowo with a three-year build target, remains structurally exposed to the same transmission investment gap that IEEFA and IESR have flagged across nine prior editions—making grid readiness the decisive variable. The DPR&#39;s approval of a Rp 27.37 trillion ESDM budget for 2026 sets the fiscal ceiling within which all of these energy ambitions must be executed.</p>
+<p>OpenAI&#39;s ChatGPT Ads business reaching a $1 billion annualised revenue run rate marks the first confirmed proof point that conversational AI can sustain a large advertising layer distinct from subscription revenue, reshaping competitive dynamics for every platform that depends on search advertising. Simultaneously, Anthropic&#39;s publication of automated alignment-research results introduces a credible path toward self-improving AI safety systems, a development with deeper long-run implications than the benchmark numbers suggest. On the corporate side, Danantara&#39;s public statement on a potential MTEL-TBIG tower merger extends its restructuring mandate from construction SOEs into digital infrastructure, a domain with cash-generative assets that could recapitalise the broader portfolio. Indonesia&#39;s 100 GWp solar programme, now formally launched by President Prabowo with a three-year build target, remains structurally exposed to the same transmission investment gap that IEEFA and IESR have flagged across nine prior editions, making grid readiness the decisive variable. The DPR&#39;s approval of a Rp 27.37 trillion ESDM budget for 2026 sets the fiscal ceiling within which all of these energy ambitions must be executed.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
 <ul>
-<li class="structural">Danantara pertimbangkan pengambilalihan Sritex — mandat restrukturisasi meluas ke aset swasta pailit<span class="n">11x since 2026-08-19 · Corporate &amp; SOE</span></li><li class="structural">Anthropic luncurkan standar hardware baru untuk agen AI kendalikan dunia fisik<span class="n">10x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="structural">OpenAI resmi putus kontrak Cursor setelah SpaceX akuisisi — batas ekosistem AI kini berlaku keras<span class="n">9x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="structural">IESR: Peluncuran PLTS 100 GWp di Bali harus segera diikuti eksekusi konkret, bukan seremoni<span class="n">9x since 2026-08-22 · Energy &amp; Power</span></li><li class="structural">Nasib PLN EPI terancam oleh rencana BLU Energi — rantai pasokan bahan bakar pembangkit berisiko terganggu<span class="n">8x since 2026-08-22 · Energy &amp; Power</span></li>
+<li class="structural">Danantara pertimbangkan pengambilalihan Sritex, mandat restrukturisasi meluas ke aset swasta pailit<span class="n">11x since 2026-08-19 · Corporate &amp; SOE</span></li><li class="structural">Anthropic luncurkan standar hardware baru untuk agen AI kendalikan dunia fisik<span class="n">10x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="structural">OpenAI resmi putus kontrak Cursor setelah SpaceX akuisisi, batas ekosistem AI kini berlaku keras<span class="n">9x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="structural">IESR: Peluncuran PLTS 100 GWp di Bali harus segera diikuti eksekusi konkret, bukan seremoni<span class="n">9x since 2026-08-22 · Energy &amp; Power</span></li><li class="structural">Nasib PLN EPI terancam oleh rencana BLU Energi, rantai pasokan bahan bakar pembangkit berisiko terganggu<span class="n">8x since 2026-08-22 · Energy &amp; Power</span></li>
 </ul>
 </aside>
 <h2>Today&#39;s five signals</h2>
@@ -464,7 +499,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>OpenAI announced that its ChatGPT Ads product has reached a $1 billion annualised revenue run rate and is expanding to additional markets, positioning advertising as a structural revenue layer alongside subscriptions. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This is the first confirmed, primary-source figure demonstrating that conversational AI can sustain an advertising business at scale. It continues the enterprise-AI-data-privacy-contracts thread: as OpenAI monetises user interactions through advertising, the data-use, targeting, and consent surface expands dramatically beyond what enterprise subscription contracts anticipated. Every competitor platform—Google Search, Meta, and browser-based AI assistants—now faces a validated threat to their advertising moats from within their own AI tooling.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This is the first confirmed, primary-source figure demonstrating that conversational AI can sustain an advertising business at scale. It continues the enterprise-AI-data-privacy-contracts thread: as OpenAI monetises user interactions through advertising, the data-use, targeting, and consent surface expands dramatically beyond what enterprise subscription contracts anticipated. Every competitor platform, Google Search, Meta, and browser-based AI assistants, now faces a validated threat to their advertising moats from within their own AI tooling.</dd></div>
 <div class="rung"><dt>Second-order effect</dt><dd>The advertising model creates a structural incentive for OpenAI to maximise session length and query breadth, which directly conflicts with privacy-minimising enterprise data-handling commitments. Enterprises that signed data-processing agreements premised on a subscription model must now assess whether ChatGPT&#39;s ad-targeting infrastructure changes the data flows those agreements were written to govern. Regulators in the EU and markets with strict data-localisation rules will likely treat the ad layer as a new processing purpose requiring fresh consent.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>This week: audit any ChatGPT enterprise or Teams contracts for data-use clauses that were scoped to subscription-only processing; determine whether the ad-revenue layer constitutes a new processing purpose under GDPR Article 6 or equivalent local law, and decide whether to seek contractual amendments or migrate sensitive workflows off shared-model endpoints.</dd></div>
 </dl>
@@ -490,8 +525,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Anthropic released a primary-source research post claiming that automated research agents can reliably identify and mitigate alignment failures in AI systems, offering early evidence of a self-improving safety loop. TechCrunch independently characterised this as &#39;a peek at self-improving AI.&#39; <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s9" aria-label="Source 9">[9]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the nuclear-ai-datacenter-power thread: the compute and power infrastructure being built for frontier AI is justified partly on the premise that safety problems remain tractable. Anthropic&#39;s result, if reproducible, shifts that premise from aspiration to early empirical claim—meaning the case for scaling compute (and the power loads that come with it) is strengthened on safety grounds, not just capability grounds.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>If automated alignment research becomes self-sustaining, the human research bottleneck on AI safety loosens. That changes the talent and time calculus for labs: the marginal value of hiring another alignment researcher compresses, while the value of compute to run automated research agents rises. For data-centre and power planners, this is a signal that AI infrastructure demand has a new justification layer—safety-compute—that is unlikely to face regulatory headwinds and may attract preferential grid access or financing.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the nuclear-ai-datacenter-power thread: the compute and power infrastructure being built for frontier AI is justified partly on the premise that safety problems remain tractable. Anthropic&#39;s result, if reproducible, shifts that premise from aspiration to early empirical claim, meaning the case for scaling compute (and the power loads that come with it) is strengthened on safety grounds, not just capability grounds.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>If automated alignment research becomes self-sustaining, the human research bottleneck on AI safety loosens. That changes the talent and time calculus for labs: the marginal value of hiring another alignment researcher compresses, while the value of compute to run automated research agents rises. For data-centre and power planners, this is a signal that AI infrastructure demand has a new justification layer, safety-compute, that is unlikely to face regulatory headwinds and may attract preferential grid access or financing.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Flag this result to any team evaluating AI infrastructure investment or nuclear power offtake agreements: the safety-compute justification for large dedicated loads is now backed by a primary-source empirical claim, not just stated intent. Revisit power-purchase and grid-connection assumptions that modelled AI load growth as capability-only.</dd></div>
 </dl>
 <div class="corrob">
@@ -518,7 +553,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Indonesia&#39;s DPR Komisi XII approved the Ministry of ESDM&#39;s 2026 budget at Rp 27.37 trillion. Separately, President Prabowo formally launched the 100 GWp solar programme with a three-year build target, confirmed by the Presidential Secretariat and ESDM&#39;s own communications. IESR explicitly warned that the launch must be followed by concrete execution, not ceremony. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s3" aria-label="Source 3">[3]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s10" aria-label="Source 10">[10]</a><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues the pln-transmisi-investasi thread, now at structural status across nine editions. The 100 GWp target is the largest single solar commitment in Indonesia&#39;s history, but the approved ESDM budget and PLN&#39;s known transmission investment backlog together define the binding constraint: generation capacity without matching grid capacity produces stranded assets. The three-year timeline compresses what IEEFA has previously described as a multi-year grid-investment sequencing problem.</dd></div>
-<div class="rung sourced"><dt>Second-order effect</dt><dd>At structural status, this is no longer a planning risk—it is an execution condition. Developers, financiers, and offtakers bidding on the 100 GWp programme must now price grid-connection delay as a base case, not a tail risk. EPC contractors that win early lots may face revenue recognition problems if interconnection queues lengthen. Insurance and project-finance structures written against commissioning milestones will need grid-readiness conditions precedent. <span class="cites"><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
+<div class="rung sourced"><dt>Second-order effect</dt><dd>At structural status, this is no longer a planning risk, it is an execution condition. Developers, financiers, and offtakers bidding on the 100 GWp programme must now price grid-connection delay as a base case, not a tail risk. EPC contractors that win early lots may face revenue recognition problems if interconnection queues lengthen. Insurance and project-finance structures written against commissioning milestones will need grid-readiness conditions precedent. <span class="cites"><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
 <div class="rung act"><dt>Action</dt><dd>This week: for any project or financing exposure to the PLTS 100 GWp programme, run a scenario in which grid interconnection is delayed 18–36 months beyond generation commissioning. Stress-test IRR, DSCR, and offtake payment triggers under that scenario; if the project cannot survive it, renegotiate milestone definitions before financial close.</dd></div>
 </dl>
 <div class="corrob">
@@ -549,7 +584,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Multiple primary sources confirm PLN electricity tariffs are unchanged across all 13 customer categories effective 1 September 2026. Separately, ESDM reported that B50 biodiesel distribution has reached 80% of its programme target as of end-August 2026. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a><a href="#s6" aria-label="Source 6">[6]</a><a href="#s11" aria-label="Source 11">[11]</a><a href="#s14" aria-label="Source 14">[14]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues the pln-grid-investment thread. Frozen tariffs while fuel and grid-investment costs rise compress PLN&#39;s internal cash generation, increasing dependence on government subsidy transfers or sovereign borrowing to fund the transmission investment that the PLTS 100 GWp programme requires. The B50 figure matters because biodiesel mandates affect the dispatch cost and fuel-supply chain of PLN&#39;s thermal fleet, which backstops grid stability during the solar ramp-up.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>If tariffs remain politically frozen through the 100 GWp build cycle, PLN&#39;s balance sheet absorbs both the stranded-asset risk of premature thermal retirement and the capital cost of grid expansion—without the revenue uplift that tariff normalisation would provide. This makes PLN&#39;s creditworthiness, and by extension the sovereign guarantee structures behind it, the hidden load-bearing element of Indonesia&#39;s entire energy transition financing stack.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>If tariffs remain politically frozen through the 100 GWp build cycle, PLN&#39;s balance sheet absorbs both the stranded-asset risk of premature thermal retirement and the capital cost of grid expansion, without the revenue uplift that tariff normalisation would provide. This makes PLN&#39;s creditworthiness, and by extension the sovereign guarantee structures behind it, the hidden load-bearing element of Indonesia&#39;s entire energy transition financing stack.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>This week: update any PLN credit or project-finance analysis to reflect the confirmed tariff freeze through at least Q3 2026; model the incremental subsidy transfer required to keep PLN investment-grade if tariffs remain frozen through 2027 while the PLTS programme draws on grid capital. Flag this as a watch item for the next APBN budget discussion.</dd></div>
 </dl>
 <div class="corrob">
@@ -578,7 +613,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Danantara Indonesia issued a public statement on the proposed merger of Mitratel (MTEL) and Tower Bersama Infrastructure (TBIG), two of Indonesia&#39;s largest independent tower companies. This is the first time Danantara has formally engaged with a consolidation move in digital infrastructure rather than construction or housing SOEs. <span class="cites"><a href="#s13" aria-label="Source 13">[13]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues the danantara-bumn-karya-restructuring thread, now at structural status across eleven editions. The shift from distressed BUMN Karya (construction firms) into cash-generative telecoms tower assets is strategically significant: tower companies produce long-duration, contracted recurring revenue that could serve as internal capital recycling for the broader Danantara portfolio. It signals that the restructuring mandate is expanding from liability management to asset optimisation.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>A MTEL-TBIG merger would create a dominant tower company with pricing power over all mobile operators, including Telkom Group subsidiaries. Antitrust review by KPPU becomes the decisive variable—and Danantara&#39;s involvement introduces a state-interest dimension that could complicate standard competition analysis. For minority shareholders of both listed entities, the merger terms and any squeeze-out premium will be set in an environment where the dominant shareholder has sovereign-backed negotiating leverage.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>A MTEL-TBIG merger would create a dominant tower company with pricing power over all mobile operators, including Telkom Group subsidiaries. Antitrust review by KPPU becomes the decisive variable, and Danantara&#39;s involvement introduces a state-interest dimension that could complicate standard competition analysis. For minority shareholders of both listed entities, the merger terms and any squeeze-out premium will be set in an environment where the dominant shareholder has sovereign-backed negotiating leverage.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>This week: assess minority shareholder exposure in MTEL and TBIG positions against the scenario of a state-directed merger at a Danantara-set exchange ratio. Identify the KPPU review timeline and any regulatory carve-outs that could accelerate or block approval; flag sovereign-shareholder discount risk in any valuation model.</dd></div>
 </dl>
 <div class="corrob">

@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>Danantara&#39;s public admission that BUMN Karya restructuring is dragging—with the IDX extending Wijaya Karya&#39;s trading suspension—crystallises a governance crisis inside Indonesia&#39;s new sovereign investment architecture. On the energy side, the government is deploying two levers simultaneously: pressuring geothermal concession holders to relinquish idle blocks ahead of a World Geothermal Congress, while a confirmed Rp 47.5 trillion Indonesia-Germany energy transition financing package adds near-term capital. In AI, OpenAI&#39;s rollout of ChatGPT Ads across 31 European markets marks the first large-scale attempt to monetise conversational AI through advertising rather than subscriptions, shifting the competitive logic for every player in the space. Separately, OpenAI&#39;s democratic-oversight initiative for national-security AI signals that the regulatory perimeter around frontier models is hardening faster than most enterprise deployment timelines assume.</p>
+<p>Danantara&#39;s public admission that BUMN Karya restructuring is dragging, with the IDX extending Wijaya Karya&#39;s trading suspension, crystallises a governance crisis inside Indonesia&#39;s new sovereign investment architecture. On the energy side, the government is deploying two levers simultaneously: pressuring geothermal concession holders to relinquish idle blocks ahead of a World Geothermal Congress, while a confirmed Rp 47.5 trillion Indonesia-Germany energy transition financing package adds near-term capital. In AI, OpenAI&#39;s rollout of ChatGPT Ads across 31 European markets marks the first large-scale attempt to monetise conversational AI through advertising rather than subscriptions, shifting the competitive logic for every player in the space. Separately, OpenAI&#39;s democratic-oversight initiative for national-security AI signals that the regulatory perimeter around frontier models is hardening faster than most enterprise deployment timelines assume.</p>
 
 
 <h2>Today&#39;s five signals</h2>
@@ -460,7 +495,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Danantara&#39;s leadership publicly attributed delays in restructuring the state construction SOEs (BUMN Karya) to legal complexity and legacy liability disputes, setting end-2026 as the revised completion target. On the same day, Bursa Efek Indonesia extended the trading suspension on Wijaya Karya (WIKA) shares, signalling that the exchange does not regard the company&#39;s disclosures as sufficient for normal market access. Media Indonesia simultaneously published analysis questioning whether intra-group asset transfers are generating real profit or merely &#39;laba semu&#39; (phantom earnings) under the new Danantara architecture. <span class="cites"><a href="#s6" aria-label="Source 6">[6]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s10" aria-label="Source 10">[10]</a><a href="#s15" aria-label="Source 15">[15]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>BUMN Karya restructuring is the highest-profile test of Danantara&#39;s operational credibility. A public timeline slip, combined with a stock suspension extension, signals that the legal and financial complexity of consolidating loss-making state contractors was underestimated when Danantara was structured. This fits the broader pattern of sovereign holding companies discovering that portfolio rationalisation is far harder than asset aggregation.</dd></div>
-<div class="rung sourced"><dt>Second-order effect</dt><dd>The &#39;laba semu&#39; question is the sleeper risk: if Danantara&#39;s consolidated profit target of Rp 360 trillion for 2026 is partly built on intra-group transactions that net to zero economically, external creditors—including holders of any Danantara dollar bonds—are pricing the wrong earnings base. This could surface as a covenant or rating trigger rather than an operational failure. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s14" aria-label="Source 14">[14]</a></span></dd></div>
+<div class="rung sourced"><dt>Second-order effect</dt><dd>The &#39;laba semu&#39; question is the sleeper risk: if Danantara&#39;s consolidated profit target of Rp 360 trillion for 2026 is partly built on intra-group transactions that net to zero economically, external creditors, including holders of any Danantara dollar bonds, are pricing the wrong earnings base. This could surface as a covenant or rating trigger rather than an operational failure. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s14" aria-label="Source 14">[14]</a></span></dd></div>
 <div class="rung act"><dt>Action</dt><dd>Map the intra-group transaction flows between Danantara and BUMN Karya subsidiaries; assess whether reported consolidated earnings strip out intercompany eliminations consistent with IFRS 10. Cross-reference against the Danantara dollar bond covenants if accessible.</dd></div>
 </dl>
 <div class="corrob">
@@ -491,8 +526,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>At the World Geothermal Congress held in Indonesia, Minister Bahlil Lahadalia publicly ordered concession holders sitting on undeveloped geothermal blocks to surrender them, framing it as a national development obligation. The government has set a non-tax revenue (PNBP) target of Rp 2.6 trillion from geothermal and a long-run mix target of 15%. Indonesia hosts the event as the country with the world&#39;s largest geothermal potential. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s4" aria-label="Source 4">[4]</a><a href="#s13" aria-label="Source 13">[13]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>Idle-concession pressure is a qualitative policy shift: it converts geothermal rights from indefinitely-holdable exploration licences into use-or-lose assets. This changes the risk calculus for developers who have been land-banking concessions while waiting for tariff improvement, and creates a forced supply of retendered blocks that could attract new entrants or international capital.</dd></div>
-<div class="rung sourced"><dt>Second-order effect</dt><dd>Retendered blocks will likely need a new tariff framework to attract bids, because the reason concessions were idle in the first place is often uneconomic feed-in tariffs. If the government simultaneously pressures holders to relinquish and fails to raise tariffs, retendering may yield no takers—turning a political announcement into a deadlock that delays the 15% mix target further. <span class="cites"><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
-<div class="rung act"><dt>Action</dt><dd>Identify which concession holders are most exposed to revocation risk (large blocks with no construction activity); assess whether a tariff revision is in the APBN 2027 pipeline as a paired policy move. The PNBP target of Rp 2.6 trillion implies expected royalty flows that only materialise with active production—test whether that target is consistent with the current project pipeline.</dd></div>
+<div class="rung sourced"><dt>Second-order effect</dt><dd>Retendered blocks will likely need a new tariff framework to attract bids, because the reason concessions were idle in the first place is often uneconomic feed-in tariffs. If the government simultaneously pressures holders to relinquish and fails to raise tariffs, retendering may yield no takers, turning a political announcement into a deadlock that delays the 15% mix target further. <span class="cites"><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
+<div class="rung act"><dt>Action</dt><dd>Identify which concession holders are most exposed to revocation risk (large blocks with no construction activity); assess whether a tariff revision is in the APBN 2027 pipeline as a paired policy move. The PNBP target of Rp 2.6 trillion implies expected royalty flows that only materialise with active production, test whether that target is consistent with the current project pipeline.</dd></div>
 </dl>
 <div class="corrob">
 <span class="backed">primary source</span>
@@ -518,9 +553,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>OpenAI confirmed the expansion of ChatGPT Ads to 31 European markets, positioning the product explicitly around moments when users explore options and make decisions—language that maps directly onto high-value commercial-intent queries. This is OpenAI&#39;s primary move to generate revenue from the hundreds of millions of users who will not pay subscription fees. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>OpenAI confirmed the expansion of ChatGPT Ads to 31 European markets, positioning the product explicitly around moments when users explore options and make decisions, language that maps directly onto high-value commercial-intent queries. This is OpenAI&#39;s primary move to generate revenue from the hundreds of millions of users who will not pay subscription fees. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>The advertising expansion is structurally significant because it replicates the Google Search monetisation model inside a conversational interface. If ChatGPT captures even a fraction of commercial-intent query volume from traditional search, it directly erodes Google&#39;s core revenue base while giving OpenAI a second monetisation rail independent of API and enterprise contracts.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>European expansion first—rather than a US-only launch—suggests OpenAI made a deliberate regulatory calculation: GDPR and the EU AI Act create compliance overhead, but also provide a &#39;regulatory moat&#39; signal to brand advertisers who want a premium, safe-to-partner platform. Success in Europe could accelerate advertiser migration before US-market dynamics are fully resolved, inverting the usual US-first rollout logic.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>European expansion first, rather than a US-only launch, suggests OpenAI made a deliberate regulatory calculation: GDPR and the EU AI Act create compliance overhead, but also provide a &#39;regulatory moat&#39; signal to brand advertisers who want a premium, safe-to-partner platform. Success in Europe could accelerate advertiser migration before US-market dynamics are fully resolved, inverting the usual US-first rollout logic.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Assess the implications for enterprise AI budget allocation: companies that currently spend on Google Search Ads and separately on OpenAI API/enterprise licences may face a consolidated AI-advertising relationship with OpenAI. Evaluate whether ChatGPT Ads targeting data could create conflict-of-interest concerns for enterprise customers who share proprietary query data with OpenAI.</dd></div>
 </dl>
 <div class="corrob">
@@ -545,7 +580,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>OpenAI announced an initiative explicitly framed around strengthening democratic oversight of AI in national security contexts, committing to provide tools, training, and expertise to government institutions. This is a primary-source announcement from OpenAI, not a policy response to an external mandate. <span class="cites"><a href="#s9" aria-label="Source 9">[9]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>A frontier AI lab voluntarily structuring a national-security engagement programme around democratic-oversight principles—rather than purely capability delivery—signals that OpenAI is attempting to pre-empt regulatory constraints by defining the governance framework itself. This is the same dynamic that shaped early cloud-computing government contracts but is moving faster given the dual-use nature of frontier models.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>A frontier AI lab voluntarily structuring a national-security engagement programme around democratic-oversight principles, rather than purely capability delivery, signals that OpenAI is attempting to pre-empt regulatory constraints by defining the governance framework itself. This is the same dynamic that shaped early cloud-computing government contracts but is moving faster given the dual-use nature of frontier models.</dd></div>
 <div class="rung"><dt>Second-order effect</dt><dd>By embedding oversight and training as part of the national-security offering, OpenAI creates switching costs that are institutional rather than merely technical: government agencies that adopt OpenAI&#39;s oversight frameworks will find it harder to migrate to alternative models (Anthropic, Google DeepMind, open-source) because the compliance and audit infrastructure will be OpenAI-specific. This is a moat-building move dressed as governance.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>For any institution evaluating AI procurement for sensitive functions: require that vendor governance frameworks be interoperable and auditable by third parties, not solely through vendor-provided tooling. Ask OpenAI specifically whether the oversight tools are open-standard or proprietary before committing to the programme.</dd></div>
 </dl>
@@ -572,8 +607,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Indonesia and Germany announced readiness to deploy Rp 47.5 trillion (approximately USD 2.9 billion at current rates) in energy transition financing, according to CNN Indonesia. The announcement follows the framework of bilateral development cooperation and is additional to existing JETP and ETM commitments. <span class="cites"><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>A bilateral commitment of this scale, from a G7 economy with established green-finance instruments (KfW, DEG), adds a concrete near-term capital layer to Indonesia&#39;s energy transition, which has been characterised by abundant pledges and slow disbursement. Germany&#39;s involvement typically comes with concessional terms and technical assistance conditionalities that can accelerate regulatory reform.</dd></div>
-<div class="rung sourced"><dt>Second-order effect</dt><dd>German financing at this scale is likely to be channelled through specific project pipelines—transmission, renewables, or industrial decarbonisation. If it concentrates in the transmission segment (where IEEFA has identified the most critical bottleneck), it could accelerate the PLN subholding restructuring debate that has stalled for over a year, because foreign lenders typically require ring-fenced project vehicles rather than exposure to the full PLN balance sheet. <span class="cites"><a href="#s3" aria-label="Source 3">[3]</a><a href="#s11" aria-label="Source 11">[11]</a></span></dd></div>
-<div class="rung act"><dt>Action</dt><dd>Track which ministry counter-signs the framework and which implementing agencies are named—this determines whether funds flow through PLN, Danantara, or a dedicated project vehicle. Cross-reference with IEEFA&#39;s transmission subholding analysis to assess alignment.</dd></div>
+<div class="rung sourced"><dt>Second-order effect</dt><dd>German financing at this scale is likely to be channelled through specific project pipelines, transmission, renewables, or industrial decarbonisation. If it concentrates in the transmission segment (where IEEFA has identified the most critical bottleneck), it could accelerate the PLN subholding restructuring debate that has stalled for over a year, because foreign lenders typically require ring-fenced project vehicles rather than exposure to the full PLN balance sheet. <span class="cites"><a href="#s3" aria-label="Source 3">[3]</a><a href="#s11" aria-label="Source 11">[11]</a></span></dd></div>
+<div class="rung act"><dt>Action</dt><dd>Track which ministry counter-signs the framework and which implementing agencies are named, this determines whether funds flow through PLN, Danantara, or a dedicated project vehicle. Cross-reference with IEEFA&#39;s transmission subholding analysis to assess alignment.</dd></div>
 </dl>
 <div class="corrob">
 <span class="unbacked">no primary source</span>
@@ -594,7 +629,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>What to watch</h2>
-<ul class="plain"><li>WIKA trading suspension review: IDX decision on whether to lift or extend the WIKA share lock—key signal for BUMN Karya restructuring credibility. <span class="n">· 31 August 2026</span></li><li>Danantara DDMF capital structure disclosure: Ministry of Finance confirmed DDMF will not use APBN funds; watch for the legal entity and funding source announcement. <span class="n">· 15 September 2026</span></li><li>Geothermal concession revocation list: whether Kementerian ESDM publishes a formal list of idle concessions subject to relinquishment following Bahlil&#39;s World Geothermal Congress statement. <span class="n">· 30 September 2026</span></li><li>Indonesia-Germany energy transition financing: watch for KfW or DEG project agreements identifying specific implementing agencies and project pipelines. <span class="n">· 31 October 2026</span></li><li>ChatGPT Ads Europe performance data: any advertiser case studies or CPM/CPC benchmarks that would allow comparison with Google Search Ads on commercial-intent queries. <span class="n">· 30 November 2026</span></li></ul>
+<ul class="plain"><li>WIKA trading suspension review: IDX decision on whether to lift or extend the WIKA share lock, key signal for BUMN Karya restructuring credibility. <span class="n">· 31 August 2026</span></li><li>Danantara DDMF capital structure disclosure: Ministry of Finance confirmed DDMF will not use APBN funds; watch for the legal entity and funding source announcement. <span class="n">· 15 September 2026</span></li><li>Geothermal concession revocation list: whether Kementerian ESDM publishes a formal list of idle concessions subject to relinquishment following Bahlil&#39;s World Geothermal Congress statement. <span class="n">· 30 September 2026</span></li><li>Indonesia-Germany energy transition financing: watch for KfW or DEG project agreements identifying specific implementing agencies and project pipelines. <span class="n">· 31 October 2026</span></li><li>ChatGPT Ads Europe performance data: any advertiser case studies or CPM/CPC benchmarks that would allow comparison with Google Search Ads on commercial-intent queries. <span class="n">· 30 November 2026</span></li></ul>
 
 <h2>Sources</h2>
 <p class="note">Every signal above cites the sources below. We do not republish article content; follow the link to read it at the original publisher.</p>

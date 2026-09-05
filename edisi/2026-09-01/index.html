@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,17 +481,17 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Ringkasan</h2>
-<p>OpenAI mengumumkan ChatGPT Ads melewati $1 miliar annualized revenue, menandai transisi model bisnis AI dari langganan B2B ke monetisasi massa yang mengubah dinamika persaingan platform digital. Di domain infrastruktur, Danantara membuka suara soal rencana merger MTEL dan TBIG — langkah konsolidasi menara terbesar dalam sejarah BUMN telekomunikasi Indonesia yang memiliki implikasi lanjutan terhadap struktur utang dan penilaian aset. Sementara itu, program PLTS 100 GWp yang diluncurkan Presiden Prabowo pada 25 Agustus terus ditagih eksekusinya oleh IESR dan berbagai pemangku kepentingan, dengan gap antara kapasitas transmisi PLN dan target ambisius ini menjadi variabel kritis yang belum terjawab. Anthropic sebelumnya mempublikasikan standar hardware model untuk agen AI, yang kini mendapat korroborasi lebih luas sebagai kondisi struktural — bukan sekadar rilis teknis. Kelima sinyal ini terhubung oleh satu benang: ambisi besar di AI dan energi kini bertemu dengan pertanyaan keras tentang pembiayaan, infrastruktur, dan tata kelola.</p>
+<p>OpenAI mengumumkan ChatGPT Ads melewati $1 miliar annualized revenue, menandai transisi model bisnis AI dari langganan B2B ke monetisasi massa yang mengubah dinamika persaingan platform digital. Di domain infrastruktur, Danantara membuka suara soal rencana merger MTEL dan TBIG, langkah konsolidasi menara terbesar dalam sejarah BUMN telekomunikasi Indonesia yang memiliki implikasi lanjutan terhadap struktur utang dan penilaian aset. Sementara itu, program PLTS 100 GWp yang diluncurkan Presiden Prabowo pada 25 Agustus terus ditagih eksekusinya oleh IESR dan berbagai pemangku kepentingan, dengan gap antara kapasitas transmisi PLN dan target ambisius ini menjadi variabel kritis yang belum terjawab. Anthropic sebelumnya mempublikasikan standar hardware model untuk agen AI, yang kini mendapat korroborasi lebih luas sebagai kondisi struktural, bukan sekadar rilis teknis. Kelima sinyal ini terhubung oleh satu benang: ambisi besar di AI dan energi kini bertemu dengan pertanyaan keras tentang pembiayaan, infrastruktur, dan tata kelola.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Tren yang sedang terbentuk</h2>
 <ul>
-<li class="structural">Danantara pertimbangkan pengambilalihan Sritex — mandat restrukturisasi meluas ke aset swasta pailit<span class="n">11x sejak 2026-08-19 · Korporasi &amp; BUMN</span></li><li class="structural">Anthropic luncurkan standar hardware baru untuk agen AI kendalikan dunia fisik<span class="n">10x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="structural">OpenAI resmi putus kontrak Cursor setelah SpaceX akuisisi — batas ekosistem AI kini berlaku keras<span class="n">9x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="structural">IESR: Peluncuran PLTS 100 GWp di Bali harus segera diikuti eksekusi konkret, bukan seremoni<span class="n">9x sejak 2026-08-22 · Energi &amp; Kelistrikan</span></li><li class="structural">Nasib PLN EPI terancam oleh rencana BLU Energi — rantai pasokan bahan bakar pembangkit berisiko terganggu<span class="n">8x sejak 2026-08-22 · Energi &amp; Kelistrikan</span></li>
+<li class="structural">Danantara pertimbangkan pengambilalihan Sritex, mandat restrukturisasi meluas ke aset swasta pailit<span class="n">11x sejak 2026-08-19 · Korporasi &amp; BUMN</span></li><li class="structural">Anthropic luncurkan standar hardware baru untuk agen AI kendalikan dunia fisik<span class="n">10x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="structural">OpenAI resmi putus kontrak Cursor setelah SpaceX akuisisi, batas ekosistem AI kini berlaku keras<span class="n">9x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="structural">IESR: Peluncuran PLTS 100 GWp di Bali harus segera diikuti eksekusi konkret, bukan seremoni<span class="n">9x sejak 2026-08-22 · Energi &amp; Kelistrikan</span></li><li class="structural">Nasib PLN EPI terancam oleh rencana BLU Energi, rantai pasokan bahan bakar pembangkit berisiko terganggu<span class="n">8x sejak 2026-08-22 · Energi &amp; Kelistrikan</span></li>
 </ul>
 </aside>
 <h2>Lima sinyal hari ini</h2>
 <article class="signal">
-<div class="head"><span class="rank" aria-hidden="true">1</span><h3>ChatGPT Ads capai $1 miliar annualized revenue — monetisasi AI beralih dari langganan ke iklan massa</h3></div>
+<div class="head"><span class="rank" aria-hidden="true">1</span><h3>ChatGPT Ads capai $1 miliar annualized revenue, monetisasi AI beralih dari langganan ke iklan massa</h3></div>
 <div class="tags">
 <span class="tag strong">AI &amp; Model Frontier</span>
 <span class="tag">Material</span>
@@ -464,7 +499,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>OpenAI mengumumkan ChatGPT Ads telah mencapai $1 miliar dalam annualized revenue run rate dan sedang diperluas secara global. Ini adalah sumber pendapatan baru yang berbeda dari model langganan ChatGPT Plus/Enterprise dan dari kontrak API seperti yang digunakan Cursor sebelum diputus. <span class="cites"><a href="#s4" aria-label="Sumber 4">[4]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Selama tiga tahun terakhir, model bisnis AI frontier bertumpu pada langganan dan API enterprise. Tonggak $1 miliar dari iklan menandai diversifikasi struktural: OpenAI kini memiliki tiga kaki pendapatan (langganan konsumen, API enterprise, iklan) yang saling memperkuat skala. Ini menekan Google dan Meta yang selama ini mendominasi pasar iklan digital — keduanya kini berhadapan dengan pemain yang sebelumnya hanya dilihat sebagai ancaman di sisi pencarian.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Selama tiga tahun terakhir, model bisnis AI frontier bertumpu pada langganan dan API enterprise. Tonggak $1 miliar dari iklan menandai diversifikasi struktural: OpenAI kini memiliki tiga kaki pendapatan (langganan konsumen, API enterprise, iklan) yang saling memperkuat skala. Ini menekan Google dan Meta yang selama ini mendominasi pasar iklan digital, keduanya kini berhadapan dengan pemain yang sebelumnya hanya dilihat sebagai ancaman di sisi pencarian.</dd></div>
 <div class="rung"><dt>Efek lanjutan</dt><dd>Masuknya OpenAI ke pasar iklan dengan ChatGPT sebagai antarmuka percakapan mengubah unit ekonomi iklan: dari tayangan (impression) ke niat (intent) yang lebih dalam dan terverifikasi oleh konteks percakapan. Ini berpotensi mendisrupsi model penawaran iklan berbasis klik. Lebih jauh, ekosistem publisher dan agensi yang selama ini bergantung pada Google Search Ads perlu mengevaluasi ulang alokasi anggaran pemasaran klien mereka.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Perusahaan media dan agensi iklan Indonesia perlu segera memetakan: (1) berapa persen anggaran klien yang berpotensi beralih ke ChatGPT Ads dalam 12 bulan, (2) apakah format iklan percakapan memerlukan creative brief yang berbeda dari iklan display/search. Jadikan ini agenda di pertemuan strategi digital Q4 2026.</dd></div>
 </dl>
@@ -482,16 +517,16 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <ul class="ents"><li>OpenAI</li><li>ChatGPT Ads</li><li>Google</li><li>Meta</li></ul>
 </aside>
 </article><article class="signal">
-<div class="head"><span class="rank" aria-hidden="true">2</span><h3>IESR dan Setkab konfirmasi PLTS 100 GWp butuh eksekusi konkret — gap transmisi jadi variabel kritis</h3></div>
+<div class="head"><span class="rank" aria-hidden="true">2</span><h3>IESR dan Setkab konfirmasi PLTS 100 GWp butuh eksekusi konkret, gap transmisi jadi variabel kritis</h3></div>
 <div class="tags">
 <span class="tag strong">Energi &amp; Kelistrikan</span>
 <span class="tag">Menuntut keputusan</span>
 <span class="tag rule">Struktural · 10x sejak 2026-08-22</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>IESR (25 Agustus) dan Sekretariat Kabinet (25 Agustus) sama-sama menegaskan bahwa peluncuran Program PLTS 100 GWp oleh Presiden Prabowo harus diikuti eksekusi cepat dan terukur. IESR secara eksplisit menyebut bahwa peluncuran di Bali harus menjadi &#39;titik awal eksekusi,&#39; bukan seremoni. Program ini menargetkan pembangunan dalam tiga tahun — rata-rata lebih dari 33 GWp per tahun, dibandingkan kapasitas terpasang surya Indonesia saat ini yang masih jauh di bawah angka itu. <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a><a href="#s3" aria-label="Sumber 3">[3]</a><a href="#s6" aria-label="Sumber 6">[6]</a><a href="#s8" aria-label="Sumber 8">[8]</a><a href="#s9" aria-label="Sumber 9">[9]</a></span></dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>IESR (25 Agustus) dan Sekretariat Kabinet (25 Agustus) sama-sama menegaskan bahwa peluncuran Program PLTS 100 GWp oleh Presiden Prabowo harus diikuti eksekusi cepat dan terukur. IESR secara eksplisit menyebut bahwa peluncuran di Bali harus menjadi &#39;titik awal eksekusi,&#39; bukan seremoni. Program ini menargetkan pembangunan dalam tiga tahun, rata-rata lebih dari 33 GWp per tahun, dibandingkan kapasitas terpasang surya Indonesia saat ini yang masih jauh di bawah angka itu. <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a><a href="#s3" aria-label="Sumber 3">[3]</a><a href="#s6" aria-label="Sumber 6">[6]</a><a href="#s8" aria-label="Sumber 8">[8]</a><a href="#s9" aria-label="Sumber 9">[9]</a></span></dd></div>
 <div class="rung"><dt>Mengapa penting</dt><dd>Melanjutkan tema struktural pln-transmisi-investasi (9x sejak 22 Agustus). Implikasi akumulasinya: narasi kebijakan energi Indonesia kini terpusat pada PLTS 100 GWp sebagai program unggulan, tetapi IESR dan IEEFA secara konsisten menunjukkan bahwa bottleneck bukan pada panel surya (yang tersedia dari Tiongkok) melainkan pada jaringan transmisi PLN yang belum siap menyerap intermiten dalam skala besar. Anggaran ESDM yang baru disetujui DPR sebesar Rp27,37 triliun perlu diperiksa alokasi transmisinya.</dd></div>
-<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Jika eksekusi PLTS 100 GWp berjalan tanpa ekspansi transmisi yang sepadan, Indonesia berisiko menghadapi curtailment (pemangkasan output surya) berskala nasional — pemborosan investasi dan sinyal buruk bagi investor EBT berikutnya. Lebih jauh, tekanan pada PLN untuk menyerap listrik surya murah sementara masih menanggung beban kontrak take-or-pay pembangkit fosil menciptakan risiko neraca keuangan PLN yang perlu diperhatikan kreditur. <span class="cites"><a href="#s7" aria-label="Sumber 7">[7]</a></span></dd></div>
+<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Jika eksekusi PLTS 100 GWp berjalan tanpa ekspansi transmisi yang sepadan, Indonesia berisiko menghadapi curtailment (pemangkasan output surya) berskala nasional, pemborosan investasi dan sinyal buruk bagi investor EBT berikutnya. Lebih jauh, tekanan pada PLN untuk menyerap listrik surya murah sementara masih menanggung beban kontrak take-or-pay pembangkit fosil menciptakan risiko neraca keuangan PLN yang perlu diperhatikan kreditur. <span class="cites"><a href="#s7" aria-label="Sumber 7">[7]</a></span></dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Minta PLN atau Kementerian ESDM merilis peta jalan transmisi yang spesifik: berapa GW kapasitas transmisi baru yang direncanakan per tahun 2026-2029, di wilayah mana, dan dengan sumber pembiayaan apa. Gunakan IEEFA Fact Sheet tentang dedicated transmission subholding [50] sebagai kerangka analisis alternatif struktur kelembagaan.</dd></div>
 </dl>
 <div class="corrob">
@@ -513,16 +548,16 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <ul class="ents"><li>IESR</li><li>PLN</li><li>Kementerian ESDM</li><li>Presiden Prabowo</li></ul>
 </aside>
 </article><article class="signal">
-<div class="head"><span class="rank" aria-hidden="true">3</span><h3>Anthropic publikasikan Model Hardware Standard — infrastruktur fisik agen AI mulai terstandardisasi</h3></div>
+<div class="head"><span class="rank" aria-hidden="true">3</span><h3>Anthropic publikasikan Model Hardware Standard, infrastruktur fisik agen AI mulai terstandardisasi</h3></div>
 <div class="tags">
 <span class="tag strong">AI &amp; Model Frontier</span>
 <span class="tag">Sinyal awal</span>
 <span class="tag rule">Struktural · 11x sejak 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>Anthropic pada 27 Agustus 2026 mempublikasikan &#39;Model Hardware Standard,&#39; sebuah dokumen yang menetapkan spesifikasi dan persyaratan perangkat keras untuk agen AI yang mengendalikan sistem fisik. Ini adalah dokumen standar, bukan sekadar whitepaper — Anthropic memposisikannya sebagai acuan bagi mitra hardware dan deployer. <span class="cites"><a href="#s2" aria-label="Sumber 2">[2]</a><a href="#s5" aria-label="Sumber 5">[5]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Melanjutkan tema struktural nuclear-ai-datacenter-power (10x sejak 20 Agustus). Implikasi akumulasinya: standardisasi hardware untuk agen AI fisik adalah langkah yang setara dengan USB atau PCIe dalam komputasi — begitu standar diadopsi, vendor yang tidak comply akan tersisih dari ekosistem. Ini memberi Anthropic leverage arsitektural di luar model language, masuk ke lapisan infrastruktur.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Standar hardware Anthropic, jika diadopsi luas, menciptakan lapisan sertifikasi baru yang mirip dengan standar keamanan industri (IEC, ISO). Perusahaan yang ingin menyebarkan agen AI di fasilitas fisik — pabrik, jaringan energi, rumah sakit — perlu melalui proses compliance tambahan. Ini membuka peluang bisnis baru bagi integrator sistem dan konsultan keamanan, sementara menambah friction bagi startup agen yang bergerak cepat tanpa dukungan sertifikasi.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Anthropic pada 27 Agustus 2026 mempublikasikan &#39;Model Hardware Standard,&#39; sebuah dokumen yang menetapkan spesifikasi dan persyaratan perangkat keras untuk agen AI yang mengendalikan sistem fisik. Ini adalah dokumen standar, bukan sekadar whitepaper, Anthropic memposisikannya sebagai acuan bagi mitra hardware dan deployer. <span class="cites"><a href="#s2" aria-label="Sumber 2">[2]</a><a href="#s5" aria-label="Sumber 5">[5]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Melanjutkan tema struktural nuclear-ai-datacenter-power (10x sejak 20 Agustus). Implikasi akumulasinya: standardisasi hardware untuk agen AI fisik adalah langkah yang setara dengan USB atau PCIe dalam komputasi, begitu standar diadopsi, vendor yang tidak comply akan tersisih dari ekosistem. Ini memberi Anthropic leverage arsitektural di luar model language, masuk ke lapisan infrastruktur.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Standar hardware Anthropic, jika diadopsi luas, menciptakan lapisan sertifikasi baru yang mirip dengan standar keamanan industri (IEC, ISO). Perusahaan yang ingin menyebarkan agen AI di fasilitas fisik, pabrik, jaringan energi, rumah sakit, perlu melalui proses compliance tambahan. Ini membuka peluang bisnis baru bagi integrator sistem dan konsultan keamanan, sementara menambah friction bagi startup agen yang bergerak cepat tanpa dukungan sertifikasi.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Evaluasi apakah vendor hardware dan integrator sistem yang bekerja sama dengan organisasi Anda (atau portofolio Anda) sedang mengikuti perkembangan Model Hardware Standard Anthropic. Identifikasi proyek agen AI internal yang melibatkan kontrol sistem fisik dan periksa apakah roadmap teknisnya perlu disesuaikan dengan standar baru ini.</dd></div>
 </dl>
 <div class="corrob">
@@ -540,16 +575,16 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <ul class="ents"><li>Anthropic</li><li>Model Hardware Standard</li></ul>
 </aside>
 </article><article class="signal">
-<div class="head"><span class="rank" aria-hidden="true">4</span><h3>Danantara konfirmasi kajian merger MTEL-TBIG — konsolidasi menara BUMN terbesar dimulai</h3></div>
+<div class="head"><span class="rank" aria-hidden="true">4</span><h3>Danantara konfirmasi kajian merger MTEL-TBIG, konsolidasi menara BUMN terbesar dimulai</h3></div>
 <div class="tags">
 <span class="tag strong">Korporasi &amp; BUMN</span>
 <span class="tag">Menuntut keputusan</span>
 <span class="tag rule">Struktural · 12x sejak 2026-08-19</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>Danantara secara resmi membuka suara mengenai rencana merger PT Mitratel (MTEL) dan PT Tower Bersama Infrastructure (TBIG) per 31 Agustus 2026, melanjutkan mandat restrukturisasi yang telah berlangsung sejak awal 2026. Ini adalah sinyal pertama dari Danantara langsung — bukan dari analis pasar — tentang konsolidasi dua operator menara telekomunikasi terbesar Indonesia. <span class="cites"><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Melanjutkan tema struktural danantara-bumn-karya-restructuring (11x sejak 19 Agustus). Implikasi akumulasinya: Danantara kini bergerak dari restrukturisasi BUMN konstruksi (BUMN Karya) ke konsolidasi aset infrastruktur digital bernilai tinggi. MTEL adalah anak usaha Telkom (BUMN) sementara TBIG adalah perusahaan swasta — merger lintas kepemilikan ini memerlukan persetujuan regulator telekomunikasi dan Kementerian BUMN, menciptakan preseden baru untuk konsolidasi mixed-ownership.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Jika merger terealisasi, entitas gabungan MTEL-TBIG akan menjadi operator menara terbesar di Asia Tenggara berdasarkan jumlah menara, dengan posisi tawar luar biasa terhadap operator seluler (Telkomsel, Indosat, XL). Ini berpotensi menaikkan biaya sewa menara bagi operator — yang akhirnya dibebankan ke tarif data konsumen. Di sisi lain, entitas besar dengan neraca kuat akan lebih mudah menarik pembiayaan untuk ekspansi menara di daerah 3T yang selama ini tidak ekonomis secara komersial.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Danantara secara resmi membuka suara mengenai rencana merger PT Mitratel (MTEL) dan PT Tower Bersama Infrastructure (TBIG) per 31 Agustus 2026, melanjutkan mandat restrukturisasi yang telah berlangsung sejak awal 2026. Ini adalah sinyal pertama dari Danantara langsung, bukan dari analis pasar, tentang konsolidasi dua operator menara telekomunikasi terbesar Indonesia. <span class="cites"><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Melanjutkan tema struktural danantara-bumn-karya-restructuring (11x sejak 19 Agustus). Implikasi akumulasinya: Danantara kini bergerak dari restrukturisasi BUMN konstruksi (BUMN Karya) ke konsolidasi aset infrastruktur digital bernilai tinggi. MTEL adalah anak usaha Telkom (BUMN) sementara TBIG adalah perusahaan swasta, merger lintas kepemilikan ini memerlukan persetujuan regulator telekomunikasi dan Kementerian BUMN, menciptakan preseden baru untuk konsolidasi mixed-ownership.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Jika merger terealisasi, entitas gabungan MTEL-TBIG akan menjadi operator menara terbesar di Asia Tenggara berdasarkan jumlah menara, dengan posisi tawar luar biasa terhadap operator seluler (Telkomsel, Indosat, XL). Ini berpotensi menaikkan biaya sewa menara bagi operator, yang akhirnya dibebankan ke tarif data konsumen. Di sisi lain, entitas besar dengan neraca kuat akan lebih mudah menarik pembiayaan untuk ekspansi menara di daerah 3T yang selama ini tidak ekonomis secara komersial.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Tinjau ulang valuasi MTEL dan TBIG dengan asumsi skenario merger: hitung potensi premium kontrol, dampak terhadap leverage gabungan, dan implikasi regulasi. Pertanyaan kritis yang perlu diajukan ke manajemen atau analis: apakah Danantara akan menjadi pemegang saham mayoritas entitas gabungan, dan bagaimana perlakuan pemegang saham publik TBIG?</dd></div>
 </dl>
 <div class="corrob">
@@ -569,7 +604,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>Yang perlu dipantau</h2>
-<ul class="plain"><li>Rincian alokasi transmisi dalam anggaran ESDM Rp27,37 triliun yang baru disetujui DPR — apakah ada pos khusus untuk mendukung PLTS 100 GWp <span class="n">· 15 September 2026</span></li><li>Konfirmasi resmi struktur kepemilikan merger MTEL-TBIG: apakah Danantara akan menjadi pemegang saham pengendali dan bagaimana perlakuan pemegang saham publik TBIG <span class="n">· 30 September 2026</span></li><li>Respons Google dan Meta terhadap ekspansi global ChatGPT Ads — apakah ada perubahan pricing atau format iklan sebagai respons kompetitif <span class="n">· 1 Oktober 2026</span></li><li>Adopsi Model Hardware Standard Anthropic oleh vendor hardware tier-1 (NVIDIA, Intel, Qualcomm) — konfirmasi atau penolakan kompatibilitas <span class="n">· 1 November 2026</span></li><li>Kemajuan eksekusi PLTS 100 GWp: apakah ada penandatanganan PPA atau groundbreaking konkret di luar Bali dalam 60 hari sejak peluncuran <span class="n">· 25 Oktober 2026</span></li></ul>
+<ul class="plain"><li>Rincian alokasi transmisi dalam anggaran ESDM Rp27,37 triliun yang baru disetujui DPR, apakah ada pos khusus untuk mendukung PLTS 100 GWp <span class="n">· 15 September 2026</span></li><li>Konfirmasi resmi struktur kepemilikan merger MTEL-TBIG: apakah Danantara akan menjadi pemegang saham pengendali dan bagaimana perlakuan pemegang saham publik TBIG <span class="n">· 30 September 2026</span></li><li>Respons Google dan Meta terhadap ekspansi global ChatGPT Ads, apakah ada perubahan pricing atau format iklan sebagai respons kompetitif <span class="n">· 1 Oktober 2026</span></li><li>Adopsi Model Hardware Standard Anthropic oleh vendor hardware tier-1 (NVIDIA, Intel, Qualcomm), konfirmasi atau penolakan kompatibilitas <span class="n">· 1 November 2026</span></li><li>Kemajuan eksekusi PLTS 100 GWp: apakah ada penandatanganan PPA atau groundbreaking konkret di luar Bali dalam 60 hari sejak peluncuran <span class="n">· 25 Oktober 2026</span></li></ul>
 
 <h2>Sumber</h2>
 <p class="note">Setiap sinyal di atas mengutip sumber di bawah ini. Kami tidak menerbitkan ulang isi artikel; klik untuk membaca di penerbit aslinya.</p>

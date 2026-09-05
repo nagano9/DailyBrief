@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Ringkasan</h2>
-<p>Kementerian ESDM menegur pengembang panas bumi yang menahan konsesi di tengah target PNBP Rp 2,6 triliun—menandai eskalasi tekanan regulasi pada sektor yang selama ini lamban. Secara paralel, Danantara mengakui hambatan struktural dalam restrukturisasi BUMN Karya, sementara opini tata kelola mempertanyakan validitas laba BUMN yang dilaporkan. Di sisi AI, OpenAI memformalkan Zero Data Retention dan pratinjau Private Safety Processing untuk pelanggan API, menggeser standar privasi enterprise sekaligus membuka celah bagi pesaing yang belum menawarkan jaminan serupa. Pembiayaan transisi energi Indonesia mendapat dorongan nyata dari komitmen Indonesia-Jerman senilai Rp 47,5 triliun, sementara ESDM mengklaim telah mengamankan 9.000 hektare lahan untuk target PLTS 30 GW—dua sinyal yang memperkuat jalur investasi energi terbarukan namun belum terhubung dengan kerangka eksekusi yang jelas.</p>
+<p>Kementerian ESDM menegur pengembang panas bumi yang menahan konsesi di tengah target PNBP Rp 2,6 triliun, menandai eskalasi tekanan regulasi pada sektor yang selama ini lamban. Secara paralel, Danantara mengakui hambatan struktural dalam restrukturisasi BUMN Karya, sementara opini tata kelola mempertanyakan validitas laba BUMN yang dilaporkan. Di sisi AI, OpenAI memformalkan Zero Data Retention dan pratinjau Private Safety Processing untuk pelanggan API, menggeser standar privasi enterprise sekaligus membuka celah bagi pesaing yang belum menawarkan jaminan serupa. Pembiayaan transisi energi Indonesia mendapat dorongan nyata dari komitmen Indonesia-Jerman senilai Rp 47,5 triliun, sementara ESDM mengklaim telah mengamankan 9.000 hektare lahan untuk target PLTS 30 GW, dua sinyal yang memperkuat jalur investasi energi terbarukan namun belum terhubung dengan kerangka eksekusi yang jelas.</p>
 
 
 <h2>Lima sinyal hari ini</h2>
@@ -459,8 +494,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Menteri ESDM Bahlil Lahadalia secara terbuka meminta pengembang panas bumi tidak menahan konsesi, disampaikan dalam forum pengusaha panas bumi dunia yang dibuka di Indonesia. Pemerintah menetapkan target PNBP panas bumi Rp 2,6 triliun dan mendorong akselerasi eksplorasi. <span class="cites"><a href="#s2" aria-label="Sumber 2">[2]</a><a href="#s8" aria-label="Sumber 8">[8]</a><a href="#s12" aria-label="Sumber 12">[12]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Indonesia memiliki potensi panas bumi terbesar di dunia, namun utilisasi tetap jauh di bawah kapasitas karena konsesi diakuisisi tanpa pengembangan. Pernyataan publik Bahlil dalam forum internasional menandai peningkatan tekanan regulasi dari sekadar imbauan menjadi ancaman tindakan—pola yang biasanya mendahului revisi aturan atau pencabutan izin.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Pengembang yang selama ini menahan konsesi sebagai aset spekulatif kini menghadapi risiko dilusi nilai atau pencabutan. Ini dapat memicu konsolidasi kepemilikan konsesi secara cepat—pembeli strategis dengan kapasitas eksekusi akan diuntungkan, sementara pemegang konsesi pasif terpaksa divestasi atau kehilangan izin. Efek lanjutannya: pipeline proyek panas bumi yang selama ini stagnan dapat tiba-tiba ramai, tetapi dengan profil risiko konstruksi yang lebih tinggi karena tekanan waktu.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Indonesia memiliki potensi panas bumi terbesar di dunia, namun utilisasi tetap jauh di bawah kapasitas karena konsesi diakuisisi tanpa pengembangan. Pernyataan publik Bahlil dalam forum internasional menandai peningkatan tekanan regulasi dari sekadar imbauan menjadi ancaman tindakan, pola yang biasanya mendahului revisi aturan atau pencabutan izin.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Pengembang yang selama ini menahan konsesi sebagai aset spekulatif kini menghadapi risiko dilusi nilai atau pencabutan. Ini dapat memicu konsolidasi kepemilikan konsesi secara cepat, pembeli strategis dengan kapasitas eksekusi akan diuntungkan, sementara pemegang konsesi pasif terpaksa divestasi atau kehilangan izin. Efek lanjutannya: pipeline proyek panas bumi yang selama ini stagnan dapat tiba-tiba ramai, tetapi dengan profil risiko konstruksi yang lebih tinggi karena tekanan waktu.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Petakan konsesi panas bumi aktif vs. tidak aktif berdasarkan data ESDM; identifikasi pemegang konsesi yang belum memulai eksplorasi sebagai target analisis risiko regulasi atau peluang akuisisi aset.</dd></div>
 </dl>
 <div class="corrob">
@@ -486,8 +521,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Berulang · 2x sejak 2026-08-19</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>Bos Danantara secara terbuka mengakui alasan restrukturisasi BUMN Karya berlarut-larut. Danantara menegaskan pendekatan kehati-hatian. Secara bersamaan, opini di Media Indonesia mempertanyakan validitas laba yang dilaporkan BUMN—framing &#39;laba semu&#39; dalam arsitektur baru Danantara. BEI memperpanjang suspensi saham WIKA (BUMN Karya). <span class="cites"><a href="#s3" aria-label="Sumber 3">[3]</a><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s7" aria-label="Sumber 7">[7]</a><a href="#s10" aria-label="Sumber 10">[10]</a><a href="#s14" aria-label="Sumber 14">[14]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Pengakuan publik hambatan restrukturisasi oleh pimpinan Danantara sendiri menandai pergeseran narasi dari optimisme ke manajemen ekspektasi. Kombinasi dengan suspensi WIKA dan pertanyaan integritas laba menciptakan tekanan tata kelola yang nyata—bukan sekadar diskursus akademik.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Bos Danantara secara terbuka mengakui alasan restrukturisasi BUMN Karya berlarut-larut. Danantara menegaskan pendekatan kehati-hatian. Secara bersamaan, opini di Media Indonesia mempertanyakan validitas laba yang dilaporkan BUMN, framing &#39;laba semu&#39; dalam arsitektur baru Danantara. BEI memperpanjang suspensi saham WIKA (BUMN Karya). <span class="cites"><a href="#s3" aria-label="Sumber 3">[3]</a><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s7" aria-label="Sumber 7">[7]</a><a href="#s10" aria-label="Sumber 10">[10]</a><a href="#s14" aria-label="Sumber 14">[14]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Pengakuan publik hambatan restrukturisasi oleh pimpinan Danantara sendiri menandai pergeseran narasi dari optimisme ke manajemen ekspektasi. Kombinasi dengan suspensi WIKA dan pertanyaan integritas laba menciptakan tekanan tata kelola yang nyata, bukan sekadar diskursus akademik.</dd></div>
 <div class="rung"><dt>Efek lanjutan</dt><dd>Jika laba BUMN Karya yang dilaporkan mengandung komponen semu (misalnya revaluasi aset atau eliminasi antar-entitas dalam konsolidasi Danantara), maka nilai ekuitas yang menjadi dasar restrukturisasi utang perlu dikoreksi. Ini dapat mempersulit negosiasi dengan kreditur dan memperlambat proses lebih jauh. Investor yang menahan posisi menunggu resolusi menghadapi risiko waktu yang tidak terdefinisi.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Tinjau laporan keuangan BUMN Karya (WIKA, WSKT, PTPP) untuk mengidentifikasi pos laba yang berasal dari revaluasi atau transaksi intra-grup; bandingkan dengan arus kas operasi aktual sebagai proxy validitas laba.</dd></div>
 </dl>
@@ -516,9 +551,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>OpenAI secara resmi menegaskan kembali Zero Data Retention (ZDR) untuk pelanggan API yang memenuhi syarat dan memperkenalkan pratinjau Private Safety Processing—mekanisme pemrosesan keamanan AI tanpa akses ke data pengguna. Pengumuman ini berasal langsung dari OpenAI (sumber primer T1). <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>ZDR dan Private Safety Processing secara bersamaan mengatasi dua hambatan utama adopsi enterprise: kekhawatiran data residency dan ketidakpercayaan bahwa moderasi konten berarti akses manusia ke data. Ini menggeser standar industri—vendor AI yang belum menawarkan jaminan setara kini menghadapi tekanan dari tim pengadaan enterprise.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Private Safety Processing menciptakan preseden teknis bahwa keamanan AI dapat dijalankan secara kriptografis terisolasi dari data pengguna. Jika mekanisme ini terbukti, ia akan mempersulit argumen regulator yang menganggap moderasi AI inheren memerlukan akses data—berpotensi membentuk kerangka regulasi privasi AI di Eropa dan Asia. Di sisi lain, vendor yang mengandalkan data pengguna untuk pelatihan model berkelanjutan akan kehilangan sumber data penting bila ZDR diadopsi luas.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>OpenAI secara resmi menegaskan kembali Zero Data Retention (ZDR) untuk pelanggan API yang memenuhi syarat dan memperkenalkan pratinjau Private Safety Processing, mekanisme pemrosesan keamanan AI tanpa akses ke data pengguna. Pengumuman ini berasal langsung dari OpenAI (sumber primer T1). <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>ZDR dan Private Safety Processing secara bersamaan mengatasi dua hambatan utama adopsi enterprise: kekhawatiran data residency dan ketidakpercayaan bahwa moderasi konten berarti akses manusia ke data. Ini menggeser standar industri, vendor AI yang belum menawarkan jaminan setara kini menghadapi tekanan dari tim pengadaan enterprise.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Private Safety Processing menciptakan preseden teknis bahwa keamanan AI dapat dijalankan secara kriptografis terisolasi dari data pengguna. Jika mekanisme ini terbukti, ia akan mempersulit argumen regulator yang menganggap moderasi AI inheren memerlukan akses data, berpotensi membentuk kerangka regulasi privasi AI di Eropa dan Asia. Di sisi lain, vendor yang mengandalkan data pengguna untuk pelatihan model berkelanjutan akan kehilangan sumber data penting bila ZDR diadopsi luas.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Evaluasi ulang kontrak API AI yang aktif: periksa apakah klausul data retention sesuai standar ZDR baru OpenAI; gunakan ini sebagai leverage dalam negosiasi ulang kontrak dengan vendor AI lain.</dd></div>
 </dl>
 <div class="corrob">
@@ -543,8 +578,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Indonesia dan Jerman menyatakan kesiapan menggelontorkan Rp 47,5 triliun untuk mendukung transisi energi. Secara terpisah, Kementerian ESDM mengklaim telah mengamankan 9.000 hektare lahan untuk mengejar target PLTS 30 GW. Kedua pengumuman muncul pada 19 Agustus 2026. <span class="cites"><a href="#s5" aria-label="Sumber 5">[5]</a><a href="#s11" aria-label="Sumber 11">[11]</a><a href="#s15" aria-label="Sumber 15">[15]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Dua hambatan historis pengembangan energi terbarukan Indonesia adalah pendanaan dan ketersediaan lahan. Munculnya keduanya secara bersamaan—meski dari sumber berbeda—menandai kemajuan konkret dalam kondisi yang biasanya saling menunggu. Komitmen bilateral dengan Jerman (negara dengan rekam jejak pendanaan transisi energi yang kuat) lebih kredibel dibanding komitmen multilateral generik.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Jika 9.000 hektare lahan telah diamankan secara legal (bukan sekadar identifikasi), pipeline tender PLTS skala besar dapat terbuka dalam 12-18 bulan ke depan—mendahului siklus anggaran APBN 2027. Ini akan menciptakan tekanan pada rantai pasok panel surya domestik dan lokal; kapasitas manufaktur yang ada (termasuk inisiatif seperti pabrik alat berat listrik di Weda Bay) perlu dinilai ulang terhadap skala permintaan yang akan datang.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Dua hambatan historis pengembangan energi terbarukan Indonesia adalah pendanaan dan ketersediaan lahan. Munculnya keduanya secara bersamaan, meski dari sumber berbeda, menandai kemajuan konkret dalam kondisi yang biasanya saling menunggu. Komitmen bilateral dengan Jerman (negara dengan rekam jejak pendanaan transisi energi yang kuat) lebih kredibel dibanding komitmen multilateral generik.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Jika 9.000 hektare lahan telah diamankan secara legal (bukan sekadar identifikasi), pipeline tender PLTS skala besar dapat terbuka dalam 12-18 bulan ke depan, mendahului siklus anggaran APBN 2027. Ini akan menciptakan tekanan pada rantai pasok panel surya domestik dan lokal; kapasitas manufaktur yang ada (termasuk inisiatif seperti pabrik alat berat listrik di Weda Bay) perlu dinilai ulang terhadap skala permintaan yang akan datang.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Verifikasi status legal 9.000 hektare lahan ESDM: apakah sudah HPL/HGU atau masih tahap identifikasi. Gunakan angka Rp 47,5 triliun komitmen Jerman untuk memetakan instrumen pembiayaan yang relevan (hibah, pinjaman lunak, blended finance).</dd></div>
 </dl>
 <div class="corrob">
@@ -570,9 +605,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>Danantara dikonfirmasi akan terlibat dalam proyek mobil listrik (Tempo.co, 19 Agustus). PNM—di bawah ekosistem Danantara—memperluas layanan ke 23,1 juta pengusaha ultramikro. Opini di Bisnis Indonesia mempertanyakan apakah masuknya Danantara ke Bursa Efek Indonesia mengancam independensi bursa. <span class="cites"><a href="#s6" aria-label="Sumber 6">[6]</a><a href="#s9" aria-label="Sumber 9">[9]</a><a href="#s13" aria-label="Sumber 13">[13]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Danantara bergerak secara bersamaan di tiga lini berbeda (mobil listrik, keuangan mikro, pasar modal) dalam waktu satu minggu—menunjukkan pola ekspansi portofolio yang agresif di tengah hambatan restrukturisasi BUMN Karya. Pola ini menimbulkan pertanyaan kapasitas manajemen: apakah Danantara memiliki bandwidth governance untuk mengelola kompleksitas ini secara bersamaan.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Jika Danantara menjadi pemegang saham signifikan di Bursa Efek Indonesia, konflik kepentingan struktural muncul: Danantara memiliki BUMN yang terdaftar di bursa yang sama tempat ia memiliki pengaruh. Ini dapat melemahkan kepercayaan investor asing terhadap integritas pasar modal Indonesia—risiko yang tidak akan segera terlihat dalam data, tetapi akan tercermin dalam premi risiko jangka menengah.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Danantara dikonfirmasi akan terlibat dalam proyek mobil listrik (Tempo.co, 19 Agustus). PNM, di bawah ekosistem Danantara, memperluas layanan ke 23,1 juta pengusaha ultramikro. Opini di Bisnis Indonesia mempertanyakan apakah masuknya Danantara ke Bursa Efek Indonesia mengancam independensi bursa. <span class="cites"><a href="#s6" aria-label="Sumber 6">[6]</a><a href="#s9" aria-label="Sumber 9">[9]</a><a href="#s13" aria-label="Sumber 13">[13]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Danantara bergerak secara bersamaan di tiga lini berbeda (mobil listrik, keuangan mikro, pasar modal) dalam waktu satu minggu, menunjukkan pola ekspansi portofolio yang agresif di tengah hambatan restrukturisasi BUMN Karya. Pola ini menimbulkan pertanyaan kapasitas manajemen: apakah Danantara memiliki bandwidth governance untuk mengelola kompleksitas ini secara bersamaan.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Jika Danantara menjadi pemegang saham signifikan di Bursa Efek Indonesia, konflik kepentingan struktural muncul: Danantara memiliki BUMN yang terdaftar di bursa yang sama tempat ia memiliki pengaruh. Ini dapat melemahkan kepercayaan investor asing terhadap integritas pasar modal Indonesia, risiko yang tidak akan segera terlihat dalam data, tetapi akan tercermin dalam premi risiko jangka menengah.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Lacak struktur kepemilikan Danantara di BEI dan susun matriks konflik kepentingan potensial; jadikan ini bagian dari due diligence investasi di saham BUMN yang tercatat.</dd></div>
 </dl>
 <div class="corrob">
@@ -594,7 +629,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>Yang perlu dipantau</h2>
-<ul class="plain"><li>Tindak lanjut regulasi ESDM terhadap pengembang panas bumi yang menahan konsesi: apakah ada pencabutan izin atau deadline eksplorasi yang ditetapkan secara formal. <span class="n">· 30 September 2026</span></li><li>Pengumuman resmi status hukum 9.000 hektare lahan PLTS dan jadwal tender pertama dalam pipeline 30 GW. <span class="n">· 31 Oktober 2026</span></li><li>Perkembangan suspensi saham WIKA dan keputusan BEI apakah pencabutan suspensi disertai syarat restrukturisasi tertentu. <span class="n">· 15 September 2026</span></li><li>Detail teknis Private Safety Processing OpenAI: apakah menggunakan trusted execution environment (TEE) atau mekanisme kriptografi lain—penting untuk menilai klaim privasi. <span class="n">· 1 September 2026</span></li></ul>
+<ul class="plain"><li>Tindak lanjut regulasi ESDM terhadap pengembang panas bumi yang menahan konsesi: apakah ada pencabutan izin atau deadline eksplorasi yang ditetapkan secara formal. <span class="n">· 30 September 2026</span></li><li>Pengumuman resmi status hukum 9.000 hektare lahan PLTS dan jadwal tender pertama dalam pipeline 30 GW. <span class="n">· 31 Oktober 2026</span></li><li>Perkembangan suspensi saham WIKA dan keputusan BEI apakah pencabutan suspensi disertai syarat restrukturisasi tertentu. <span class="n">· 15 September 2026</span></li><li>Detail teknis Private Safety Processing OpenAI: apakah menggunakan trusted execution environment (TEE) atau mekanisme kriptografi lain, penting untuk menilai klaim privasi. <span class="n">· 1 September 2026</span></li></ul>
 
 <h2>Sumber</h2>
 <p class="note">Setiap sinyal di atas mengutip sumber di bawah ini. Kami tidak menerbitkan ulang isi artikel; klik untuk membaca di penerbit aslinya.</p>

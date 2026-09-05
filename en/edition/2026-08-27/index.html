@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,17 +481,17 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>Anthropic has committed $45 billion to rent AI computing power from Nscale, a deal that fundamentally reframes how AI labs procure and finance infrastructure at scale. In Indonesia, President Prabowo formally launched the 100 GWp solar program with 14 initial projects and Rp 135 trillion in investment, while IESR warns that speed of execution — not ambition — is now the binding constraint. On the corporate side, Danantara broke ground on the Bekasi Waste-to-Energy facility and continues its multi-track BUMN Karya restructuring, both signalling that Danantara is transitioning from a holding vehicle into an active project developer. Spain&#39;s proposed 80% renewable-hourly-matching rule for data centers sets a regulatory precedent that will ripple into AI infrastructure siting globally, including in Southeast Asia. Together, these five signals show AI compute demand, renewable energy deployment, and state-owned enterprise reform converging into a single infrastructure financing story.</p>
+<p>Anthropic has committed $45 billion to rent AI computing power from Nscale, a deal that fundamentally reframes how AI labs procure and finance infrastructure at scale. In Indonesia, President Prabowo formally launched the 100 GWp solar program with 14 initial projects and Rp 135 trillion in investment, while IESR warns that speed of execution, not ambition, is now the binding constraint. On the corporate side, Danantara broke ground on the Bekasi Waste-to-Energy facility and continues its multi-track BUMN Karya restructuring, both signalling that Danantara is transitioning from a holding vehicle into an active project developer. Spain&#39;s proposed 80% renewable-hourly-matching rule for data centers sets a regulatory precedent that will ripple into AI infrastructure siting globally, including in Southeast Asia. Together, these five signals show AI compute demand, renewable energy deployment, and state-owned enterprise reform converging into a single infrastructure financing story.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
 <ul>
-<li class="structural">Danantara estimasi biaya bersihkan BUMN Karya hingga Rp 100 triliun; BP BUMN-Danantara siapkan sistem SDM terintegrasi<span class="n">8x since 2026-08-19 · Corporate &amp; SOE</span></li><li class="recurring">IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi<span class="n">7x since 2026-08-19 · Energy &amp; Power</span></li><li class="recurring">Analisis: AS bangun kapasitas gas untuk AI dua kali lebih besar dari China, memperdalam ketergantungan energi-AI<span class="n">6x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise<span class="n">6x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">PLTS 100 GWp resmi diluncurkan Presiden Prabowo: 14 proyek pertama, Rp 135 T investasi, target hemat APBN Rp 4,6 T/tahun—tapi perpres belum ada dan transmisi belum siap<span class="n">5x since 2026-08-22 · Energy &amp; Power</span></li>
+<li class="structural">Danantara estimasi biaya bersihkan BUMN Karya hingga Rp 100 triliun; BP BUMN-Danantara siapkan sistem SDM terintegrasi<span class="n">8x since 2026-08-19 · Corporate &amp; SOE</span></li><li class="recurring">IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi<span class="n">7x since 2026-08-19 · Energy &amp; Power</span></li><li class="recurring">Analisis: AS bangun kapasitas gas untuk AI dua kali lebih besar dari China, memperdalam ketergantungan energi-AI<span class="n">6x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise<span class="n">6x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">PLTS 100 GWp resmi diluncurkan Presiden Prabowo: 14 proyek pertama, Rp 135 T investasi, target hemat APBN Rp 4,6 T/tahun, tapi perpres belum ada dan transmisi belum siap<span class="n">5x since 2026-08-22 · Energy &amp; Power</span></li>
 </ul>
 </aside>
 <h2>Today&#39;s five signals</h2>
 <article class="signal">
-<div class="head"><span class="rank" aria-hidden="true">1</span><h3>Anthropic commits $45 billion to Nscale for AI compute — largest known AI infrastructure contract on record</h3></div>
+<div class="head"><span class="rank" aria-hidden="true">1</span><h3>Anthropic commits $45 billion to Nscale for AI compute, largest known AI infrastructure contract on record</h3></div>
 <div class="tags">
 <span class="tag strong">AI &amp; Frontier Models</span>
 <span class="tag">Material</span>
@@ -465,7 +500,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Anthropic has agreed to pay Nscale $45 billion to rent AI computing power, according to a source cited by Reuters and confirmed in outline by Bloomberg. The deal structure is a long-term rental/capacity agreement rather than a capital purchase, making it the largest single AI compute procurement contract publicly disclosed. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues and materially escalates the nuclear-ai-datacenter-power theme. The pattern is no longer speculation: frontier AI labs are moving from owning GPUs to signing decade-scale offtake-style agreements with compute providers, mirroring how utilities and industrial buyers structure power purchase agreements. The $45 billion figure exceeds the annual capex of most national grid operators, placing AI compute procurement in the same financial weight class as energy infrastructure.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>If Anthropic&#39;s compute is now financed via long-term rental at this scale, Nscale must in turn secure its own debt and equity against Anthropic&#39;s credit. This inserts a project-finance layer — sponsor, offtaker, lender, guarantee — into what was previously treated as technology procurement. Credit analysts, not just technology investors, now need to underwrite AI compute providers. Counterparty concentration risk (a single AI lab as anchor tenant) becomes a systemic question for the compute layer, and any regulatory action on Anthropic flows directly into Nscale&#39;s debt serviceability.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>If Anthropic&#39;s compute is now financed via long-term rental at this scale, Nscale must in turn secure its own debt and equity against Anthropic&#39;s credit. This inserts a project-finance layer, sponsor, offtaker, lender, guarantee, into what was previously treated as technology procurement. Credit analysts, not just technology investors, now need to underwrite AI compute providers. Counterparty concentration risk (a single AI lab as anchor tenant) becomes a systemic question for the compute layer, and any regulatory action on Anthropic flows directly into Nscale&#39;s debt serviceability.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Assess any AI infrastructure investment or partnership proposal this week using a full project-finance lens: Who is the anchor offtaker? What is their credit standing? What is the lender&#39;s recourse if the offtaker&#39;s revenue model shifts? Map Anthropic→Nscale as the reference structure.</dd></div>
 </dl>
 <div class="corrob">
@@ -490,9 +525,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Recurring · 6x since 2026-08-22</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>President Prabowo officially launched the 100 GWp solar program at a groundbreaking in Bali on 25 August 2026, with 14 initial projects and a stated investment target of Rp 135 trillion. The Cabinet Secretariat confirmed a three-year build timeline. Kementerian ESDM stated that a 1 GWp solar installation will eliminate diesel generation from Bali. IESR, in a same-day statement, welcomed the launch but explicitly warned that the groundbreaking must become a starting point for fast, measured execution — implying that prior Indonesian renewable announcements have not translated into equivalent deployment. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s3" aria-label="Source 3">[3]</a><a href="#s6" aria-label="Source 6">[6]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s10" aria-label="Source 10">[10]</a><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>President Prabowo officially launched the 100 GWp solar program at a groundbreaking in Bali on 25 August 2026, with 14 initial projects and a stated investment target of Rp 135 trillion. The Cabinet Secretariat confirmed a three-year build timeline. Kementerian ESDM stated that a 1 GWp solar installation will eliminate diesel generation from Bali. IESR, in a same-day statement, welcomed the launch but explicitly warned that the groundbreaking must become a starting point for fast, measured execution, implying that prior Indonesian renewable announcements have not translated into equivalent deployment. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s3" aria-label="Source 3">[3]</a><a href="#s6" aria-label="Source 6">[6]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s10" aria-label="Source 10">[10]</a><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues the pln-transmisi-investasi theme, which is now at structural status (8 entries). The program is no longer a policy proposal; it is a formally committed government initiative with named projects and a public timeline. The shift from announcement to groundbreaking changes the accountability frame: missed milestones are now politically visible, not just technically delayed.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>At 100 GWp over three years, the implied annual addition (~33 GWp/year) would make Indonesia one of the top five solar deployment markets globally by volume. That scale requires a domestic supply chain — polysilicon, modules, mounting, inverters — that does not yet exist in Indonesia at this throughput. The insurance sector is already positioning (KONTAN reports general insurers are eyeing the 100 GW project pipeline), signalling that financial risk transfer mechanisms are forming ahead of actual project risk assessment. Grid absorption capacity and transmission investment, already flagged by IEEFA as the binding constraint, remain unresolved.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>At 100 GWp over three years, the implied annual addition (~33 GWp/year) would make Indonesia one of the top five solar deployment markets globally by volume. That scale requires a domestic supply chain, polysilicon, modules, mounting, inverters, that does not yet exist in Indonesia at this throughput. The insurance sector is already positioning (KONTAN reports general insurers are eyeing the 100 GW project pipeline), signalling that financial risk transfer mechanisms are forming ahead of actual project risk assessment. Grid absorption capacity and transmission investment, already flagged by IEEFA as the binding constraint, remain unresolved.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>This week, map the 14 initial projects against PLN&#39;s transmission expansion plan and IEEFA&#39;s grid investment gap analysis. Identify which projects risk stranded generation if transmission is not co-scheduled. Flag this as a due-diligence requirement for any entity considering offtake or financing exposure.</dd></div>
 </dl>
 <div class="corrob">
@@ -514,16 +549,16 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <ul class="ents"><li>Kementerian ESDM</li><li>PLN</li><li>IESR</li></ul>
 </aside>
 </article><article class="signal">
-<div class="head"><span class="rank" aria-hidden="true">3</span><h3>Spain mandates 80% renewable electricity with hourly matching for data centers — a global regulatory first</h3></div>
+<div class="head"><span class="rank" aria-hidden="true">3</span><h3>Spain mandates 80% renewable electricity with hourly matching for data centers, a global regulatory first</h3></div>
 <div class="tags">
 <span class="tag strong">Energy &amp; Power</span>
 <span class="tag">Decision-forcing</span>
 <span class="tag rule">Structural · 7x since 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>Spain has proposed regulations requiring data centers to source at least 80% of their electricity from additional renewable generation, with hourly — not annual — matching of consumption and supply. This is a primary source report from pv magazine covering the Spanish government&#39;s formal proposal. <span class="cites"><a href="#s11" aria-label="Source 11">[11]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>Hourly matching is significantly more stringent than the annual matching used in most renewable energy certificate regimes. It eliminates the ability to buy RECs from off-peak renewable generation and claim 24/7 clean power. If adopted, this sets a template that other jurisdictions — particularly the EU — could follow, directly affecting where hyperscalers and AI compute providers site new capacity. It intersects with the nuclear-ai-datacenter-power theme by tightening the link between AI power demand and real-time renewable availability.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Hourly matching requirements at 80% effectively make data center siting a grid-planning decision, not just a real estate or connectivity decision. Regions with high renewable curtailment (surplus solar or wind that is currently wasted) become more attractive siting targets because they can meet the hourly requirement at low cost. For Southeast Asia, this could accelerate interest in Indonesia&#39;s solar surplus zones — but only if grid interconnection allows the surplus to reach load centers where data centers would actually sit. Spain&#39;s rule also creates a compliance arbitrage risk: operators may site capacity in jurisdictions without such rules, undermining the policy&#39;s intent.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>Spain has proposed regulations requiring data centers to source at least 80% of their electricity from additional renewable generation, with hourly, not annual, matching of consumption and supply. This is a primary source report from pv magazine covering the Spanish government&#39;s formal proposal. <span class="cites"><a href="#s11" aria-label="Source 11">[11]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>Hourly matching is significantly more stringent than the annual matching used in most renewable energy certificate regimes. It eliminates the ability to buy RECs from off-peak renewable generation and claim 24/7 clean power. If adopted, this sets a template that other jurisdictions, particularly the EU, could follow, directly affecting where hyperscalers and AI compute providers site new capacity. It intersects with the nuclear-ai-datacenter-power theme by tightening the link between AI power demand and real-time renewable availability.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Hourly matching requirements at 80% effectively make data center siting a grid-planning decision, not just a real estate or connectivity decision. Regions with high renewable curtailment (surplus solar or wind that is currently wasted) become more attractive siting targets because they can meet the hourly requirement at low cost. For Southeast Asia, this could accelerate interest in Indonesia&#39;s solar surplus zones, but only if grid interconnection allows the surplus to reach load centers where data centers would actually sit. Spain&#39;s rule also creates a compliance arbitrage risk: operators may site capacity in jurisdictions without such rules, undermining the policy&#39;s intent.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Review any data center siting analysis in Europe or jurisdictions likely to mirror EU policy. Add hourly renewable matching as a siting constraint, not just an annual average. For Indonesia-based AI infrastructure proposals (e.g., Indosat/Hashim, NeutraDC), ask whether future regulatory adoption of hourly matching would strand planned capacity.</dd></div>
 </dl>
 <div class="corrob">
@@ -548,8 +583,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Danantara Indonesia announced the start of construction of the Bekasi City Waste-to-Energy facility. detikFinance confirms the project is valued at Rp 3 trillion, targets operation by end-2027 (with full completion by 2028), and is designed to process 500,000 tonnes of waste per year. This is a primary source announcement from Danantara itself. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s5" aria-label="Source 5">[5]</a><a href="#s13" aria-label="Source 13">[13]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the danantara-bumn-karya-restructuring theme, which is now structural (8 entries since 19 August). The Bekasi WtE groundbreaking is qualitatively different from prior Danantara announcements: it is a physical construction start on a named, costed project with a public deadline. It signals that Danantara is no longer solely a financial restructuring vehicle for distressed BUMN Karya entities but is actively originating and developing new infrastructure projects in its own name. The simultaneity with BUMN Karya restructuring (which Bisnis.com reports involves auditing financial statements, divestiture, and merger) means Danantara is managing two distinct mandates — clean-up and greenfield — in parallel.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Running a distressed-asset workout and a greenfield development program simultaneously under one governance structure creates competing capital allocation priorities and management bandwidth risks. Creditors and co-investors in new Danantara projects (like Bekasi WtE) need to assess whether the restructuring liability exposure — estimated at up to Rp 100 trillion by prior reporting — could impair Danantara&#39;s ability to meet project development obligations. The honorary award being prepared for Danantara leadership (Media Indonesia) suggests political capital is being invested in the institution, which could entrench its dual mandate regardless of execution risk.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the danantara-bumn-karya-restructuring theme, which is now structural (8 entries since 19 August). The Bekasi WtE groundbreaking is qualitatively different from prior Danantara announcements: it is a physical construction start on a named, costed project with a public deadline. It signals that Danantara is no longer solely a financial restructuring vehicle for distressed BUMN Karya entities but is actively originating and developing new infrastructure projects in its own name. The simultaneity with BUMN Karya restructuring (which Bisnis.com reports involves auditing financial statements, divestiture, and merger) means Danantara is managing two distinct mandates, clean-up and greenfield, in parallel.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Running a distressed-asset workout and a greenfield development program simultaneously under one governance structure creates competing capital allocation priorities and management bandwidth risks. Creditors and co-investors in new Danantara projects (like Bekasi WtE) need to assess whether the restructuring liability exposure, estimated at up to Rp 100 trillion by prior reporting, could impair Danantara&#39;s ability to meet project development obligations. The honorary award being prepared for Danantara leadership (Media Indonesia) suggests political capital is being invested in the institution, which could entrench its dual mandate regardless of execution risk.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>For any counterparty or financing exposure to Danantara-originated projects, perform a liability ring-fencing analysis this week: are project-level obligations legally separated from the parent entity&#39;s BUMN Karya restructuring liabilities? If not, model a stress scenario where restructuring costs exceed Rp 100 trillion and assess the waterfall effect on new project financing.</dd></div>
 </dl>
 <div class="corrob">
@@ -575,9 +610,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Structural · 9x since 2026-08-19</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>Katadata reports that a company linked to Hashim Djojohadikusumo and Indosat are jointly building AI infrastructure valued at Rp 3.8 trillion, spanning GPU assembly through to subsea cable. Evidence rests on a single Indonesian financial publisher without a primary source confirmation — treated as a single-source signal with thin evidence. <span class="cites"><a href="#s9" aria-label="Source 9">[9]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>Katadata reports that a company linked to Hashim Djojohadikusumo and Indosat are jointly building AI infrastructure valued at Rp 3.8 trillion, spanning GPU assembly through to subsea cable. Evidence rests on a single Indonesian financial publisher without a primary source confirmation, treated as a single-source signal with thin evidence. <span class="cites"><a href="#s9" aria-label="Source 9">[9]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>If confirmed, this is the most vertically integrated private AI infrastructure commitment in Indonesia to date, covering compute (GPU assembly), connectivity (subsea cable), and by implication colocation or cloud services. It places a politically connected private entity (Hashim, brother of President Prabowo) at the center of Indonesia&#39;s AI infrastructure build-out, alongside a listed telecoms operator (Indosat). This intersects the corporate and AI domains and connects to the broader pattern of AI infrastructure financing moving from global hyperscalers to sovereign or semi-sovereign actors in Southeast Asia.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Political proximity to the presidency could accelerate regulatory approvals and PLN power supply agreements for the project — but it also creates governance concentration risk. If AI infrastructure permitting and grid access become channeled through politically connected entities, competitive market entry by neutral or foreign-owned operators may face structural disadvantage. This is an early signal worth monitoring against Indonesia&#39;s stated goal of attracting diverse foreign AI investment.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Political proximity to the presidency could accelerate regulatory approvals and PLN power supply agreements for the project, but it also creates governance concentration risk. If AI infrastructure permitting and grid access become channeled through politically connected entities, competitive market entry by neutral or foreign-owned operators may face structural disadvantage. This is an early signal worth monitoring against Indonesia&#39;s stated goal of attracting diverse foreign AI investment.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Verify this report against Indosat&#39;s investor relations disclosures or any regulatory filings this week. If confirmed, map the project&#39;s power demand against PLN&#39;s capacity in the relevant region and assess whether preferential grid access is implied by the political structure of the consortium.</dd></div>
 </dl>
 <div class="corrob">
@@ -597,7 +632,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>What to watch</h2>
-<ul class="plain"><li>Nscale debt financing structure: monitor for any bond issuance, credit facility, or equity raise by Nscale that reveals how the $45B Anthropic contract is being financed and what lender concentration risk looks like. <span class="n">· 10 September 2026</span></li><li>Indonesia 100 GWp solar: monitor PLN&#39;s transmission co-investment announcements and whether the 14 initial projects have secured grid connection agreements — the gap between generation groundbreaking and grid-ready status is the key execution risk. <span class="n">· 30 September 2026</span></li><li>Spain data center renewable mandate: monitor EU-level response and whether the European Commission signals intent to harmonize hourly matching requirements across member states, which would lock in the regulatory template for global operators. <span class="n">· 31 October 2026</span></li><li>Danantara BUMN Karya restructuring deadline: end-2026 target confirmed by Bloomberg Technoz; monitor for any slippage announcement or request for government capital injection that would confirm the Rp 100 trillion liability estimate. <span class="n">· 31 December 2026</span></li><li>Indosat/Hashim AI infrastructure: verify against Indosat investor disclosures or BKPM project registration; if confirmed, assess PLN power allocation and competitive market access implications. <span class="n">· 15 September 2026</span></li></ul>
+<ul class="plain"><li>Nscale debt financing structure: monitor for any bond issuance, credit facility, or equity raise by Nscale that reveals how the $45B Anthropic contract is being financed and what lender concentration risk looks like. <span class="n">· 10 September 2026</span></li><li>Indonesia 100 GWp solar: monitor PLN&#39;s transmission co-investment announcements and whether the 14 initial projects have secured grid connection agreements, the gap between generation groundbreaking and grid-ready status is the key execution risk. <span class="n">· 30 September 2026</span></li><li>Spain data center renewable mandate: monitor EU-level response and whether the European Commission signals intent to harmonize hourly matching requirements across member states, which would lock in the regulatory template for global operators. <span class="n">· 31 October 2026</span></li><li>Danantara BUMN Karya restructuring deadline: end-2026 target confirmed by Bloomberg Technoz; monitor for any slippage announcement or request for government capital injection that would confirm the Rp 100 trillion liability estimate. <span class="n">· 31 December 2026</span></li><li>Indosat/Hashim AI infrastructure: verify against Indosat investor disclosures or BKPM project registration; if confirmed, assess PLN power allocation and competitive market access implications. <span class="n">· 15 September 2026</span></li></ul>
 
 <h2>Sources</h2>
 <p class="note">Every signal above cites the sources below. We do not republish article content; follow the link to read it at the original publisher.</p>

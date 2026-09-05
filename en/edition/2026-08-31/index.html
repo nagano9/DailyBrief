@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>Anthropic has launched an AI tool capable of conducting autonomous scientific experiments, a step-change from text generation toward physical-lab agency that reshapes how research pipelines are built and governed. Simultaneously, OpenAI has published its own account of winding down the Cursor contract post-SpaceX acquisition, confirming a hard boundary in the AI supply chain that forces enterprise buyers to map vendor-ecosystem exposure before signing. On energy, Indonesia&#39;s 100 GWp solar programme—now backed by presidential groundbreaking—faces its first real execution test: IESR notes the launch must translate into rapid, measurable rollout, while PLN&#39;s internal fuel-procurement unit (PLN EPI) faces structural uncertainty as a new BLU Energi entity is proposed alongside it. Danantara&#39;s attempted takeover of the bankrupt textile firm Sritex adds a new data point to its BUMN-restructuring mandate, signalling that the sovereign fund is moving from construction SOEs to broader industrial rescues, with governance implications that remain unresolved.</p>
+<p>Anthropic has launched an AI tool capable of conducting autonomous scientific experiments, a step-change from text generation toward physical-lab agency that reshapes how research pipelines are built and governed. Simultaneously, OpenAI has published its own account of winding down the Cursor contract post-SpaceX acquisition, confirming a hard boundary in the AI supply chain that forces enterprise buyers to map vendor-ecosystem exposure before signing. On energy, Indonesia&#39;s 100 GWp solar programme, now backed by presidential groundbreaking, faces its first real execution test: IESR notes the launch must translate into rapid, measurable rollout, while PLN&#39;s internal fuel-procurement unit (PLN EPI) faces structural uncertainty as a new BLU Energi entity is proposed alongside it. Danantara&#39;s attempted takeover of the bankrupt textile firm Sritex adds a new data point to its BUMN-restructuring mandate, signalling that the sovereign fund is moving from construction SOEs to broader industrial rescues, with governance implications that remain unresolved.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
@@ -463,10 +498,10 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Structural · 10x since 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>Anthropic released an AI tool—covered by the Financial Times and confirmed by Anthropic&#39;s own publications—that can autonomously design, execute, and interpret scientific experiments, extending agent capability from digital reasoning into physical laboratory workflows. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a><a href="#s7" aria-label="Source 7">[7]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>Anthropic released an AI tool, covered by the Financial Times and confirmed by Anthropic&#39;s own publications, that can autonomously design, execute, and interpret scientific experiments, extending agent capability from digital reasoning into physical laboratory workflows. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a><a href="#s7" aria-label="Source 7">[7]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>The nuclear-ai-datacenter-power theme has tracked the structural coupling of AI compute demand with physical infrastructure. This development pushes that frontier one level further: AI is no longer just consuming physical resources (power, cooling, chips) but is now operating inside physical research environments. The boundary between &#39;AI as software tool&#39; and &#39;AI as autonomous research actor&#39; has moved.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Autonomous lab agents will compress the time between hypothesis and validated result in materials science, battery chemistry, and nuclear fuel research—precisely the domains where AI-datacenter power solutions are being sought. The firms best positioned are not necessarily the largest AI labs but those with wet-lab or instrumentation partnerships that can supply the physical interface layer Anthropic&#39;s standard still lacks. Regulatory frameworks for lab safety, IP ownership of AI-generated discoveries, and research liability have no current answer for a non-human principal conducting experiments.</dd></div>
-<div class="rung act"><dt>Action</dt><dd>This week: identify whether any energy or materials R&amp;D pipeline in your portfolio—battery storage, geothermal drilling, solar panel chemistry—could be accelerated or disrupted by autonomous lab agents, and assess whether vendor contracts assign IP and liability clearly when AI is the experimenter.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Autonomous lab agents will compress the time between hypothesis and validated result in materials science, battery chemistry, and nuclear fuel research, precisely the domains where AI-datacenter power solutions are being sought. The firms best positioned are not necessarily the largest AI labs but those with wet-lab or instrumentation partnerships that can supply the physical interface layer Anthropic&#39;s standard still lacks. Regulatory frameworks for lab safety, IP ownership of AI-generated discoveries, and research liability have no current answer for a non-human principal conducting experiments.</dd></div>
+<div class="rung act"><dt>Action</dt><dd>This week: identify whether any energy or materials R&amp;D pipeline in your portfolio, battery storage, geothermal drilling, solar panel chemistry, could be accelerated or disrupted by autonomous lab agents, and assess whether vendor contracts assign IP and liability clearly when AI is the experimenter.</dd></div>
 </dl>
 <div class="corrob">
 <span class="backed">primary source</span>
@@ -491,7 +526,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>OpenAI released a formal statement explaining its decision to wind down its model-supply contract with Cursor following Cursor&#39;s acquisition by SpaceX, citing competitive conflict. This is the primary-source confirmation of a rupture first reported externally, and it establishes OpenAI&#39;s position as a matter of record rather than inference. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the enterprise-ai-data-privacy-contracts thread, which is now structural. OpenAI is enforcing an ecosystem boundary: acquirers of OpenAI-dependent products who are also competitors—or affiliates of competitors—lose access. For enterprise buyers, this transforms AI vendor selection from a technology decision into a supply-chain dependency audit. A single acquisition upstream can void a critical AI contract downstream with minimal notice.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the enterprise-ai-data-privacy-contracts thread, which is now structural. OpenAI is enforcing an ecosystem boundary: acquirers of OpenAI-dependent products who are also competitors, or affiliates of competitors, lose access. For enterprise buyers, this transforms AI vendor selection from a technology decision into a supply-chain dependency audit. A single acquisition upstream can void a critical AI contract downstream with minimal notice.</dd></div>
 <div class="rung"><dt>Second-order effect</dt><dd>The pattern implies that as AI consolidation accelerates, enterprise procurement teams must now perform &#39;ecosystem conflict screening&#39; on every vendor: who owns them, who owns their investors, and who those investors compete with. Insurers and legal teams have not yet priced or drafted for &#39;AI contract termination due to ownership change&#39; as a standard risk class. The Cursor case will likely become the reference precedent.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Review all AI model-supply agreements in your vendor stack this week for change-of-control clauses and competitive-conflict definitions; where absent, prioritise renegotiation before the next M&amp;A cycle closes.</dd></div>
 </dl>
@@ -509,7 +544,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <ul class="ents"><li>OpenAI</li><li>Cursor</li><li>SpaceX</li></ul>
 </aside>
 </article><article class="signal">
-<div class="head"><span class="rank" aria-hidden="true">3</span><h3>IESR warns Indonesia&#39;s 100 GWp solar launch must convert to fast, measurable execution—groundbreaking alone is insufficient</h3></div>
+<div class="head"><span class="rank" aria-hidden="true">3</span><h3>IESR warns Indonesia&#39;s 100 GWp solar launch must convert to fast, measurable execution, groundbreaking alone is insufficient</h3></div>
 <div class="tags">
 <span class="tag strong">Energy &amp; Power</span>
 <span class="tag">Decision-forcing</span>
@@ -517,8 +552,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>IESR published a formal response to the 25 August presidential groundbreaking of the 100 GWp solar and energy-storage programme, welcoming the launch but explicitly stating it must become a &#39;titik awal eksekusi cepat dan terukur&#39; (starting point for fast, measurable execution), not a symbolic event. The presidential office confirmed a three-year build target. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s3" aria-label="Source 3">[3]</a><a href="#s5" aria-label="Source 5">[5]</a><a href="#s6" aria-label="Source 6">[6]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the pln-transmisi-investasi theme, now at structural frequency (8x in 30 days). The programme has passed the announcement phase; the question is now execution cadence, grid-absorption capacity, and financing close. IESR&#39;s warning is a leading indicator that the policy community already expects slippage—a signal institutional investors and project developers should weight.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>A 100 GWp programme targeting three-year completion implies roughly 33 GW per year of commissioning—Indonesia has never exceeded 1 GW per year of solar additions. The gap between presidential ambition and grid-integration reality will surface first in PLN&#39;s transmission investment budget and land-acquisition bottlenecks, not in panel procurement. Developers who move on generation capacity without confirmed grid-connection agreements will accumulate stranded-capex risk.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the pln-transmisi-investasi theme, now at structural frequency (8x in 30 days). The programme has passed the announcement phase; the question is now execution cadence, grid-absorption capacity, and financing close. IESR&#39;s warning is a leading indicator that the policy community already expects slippage, a signal institutional investors and project developers should weight.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>A 100 GWp programme targeting three-year completion implies roughly 33 GW per year of commissioning, Indonesia has never exceeded 1 GW per year of solar additions. The gap between presidential ambition and grid-integration reality will surface first in PLN&#39;s transmission investment budget and land-acquisition bottlenecks, not in panel procurement. Developers who move on generation capacity without confirmed grid-connection agreements will accumulate stranded-capex risk.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Map the critical path from generation to grid connection for any solar project in Indonesia&#39;s pipeline: confirm PLN interconnection queue position, transmission upgrade status, and JETP/financing commitments before committing further development capex.</dd></div>
 </dl>
 <div class="corrob">
@@ -545,8 +580,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Structural · 8x since 2026-08-22</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>Bisnis.com reports that the government is planning to establish a new Badan Layanan Umum (BLU) Energi to handle fuel procurement for power generation, creating structural ambiguity over whether PLN EPI—PLN&#39;s existing fuel-procurement and energy-trading subsidiary—will be merged, subordinated, or dissolved. <span class="cites"><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>PLN EPI is the operational backbone of PLN&#39;s coal and gas supply chain for baseload generation. Any reorganisation of that function mid-transition—while the 100 GWp solar programme is being executed and gas peaker capacity is still needed—introduces procurement-continuity risk. The BLU structure would also shift fiscal accountability from PLN&#39;s balance sheet to a government-budget mechanism, changing the incentive structure for fuel cost efficiency.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>Bisnis.com reports that the government is planning to establish a new Badan Layanan Umum (BLU) Energi to handle fuel procurement for power generation, creating structural ambiguity over whether PLN EPI, PLN&#39;s existing fuel-procurement and energy-trading subsidiary, will be merged, subordinated, or dissolved. <span class="cites"><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>PLN EPI is the operational backbone of PLN&#39;s coal and gas supply chain for baseload generation. Any reorganisation of that function mid-transition, while the 100 GWp solar programme is being executed and gas peaker capacity is still needed, introduces procurement-continuity risk. The BLU structure would also shift fiscal accountability from PLN&#39;s balance sheet to a government-budget mechanism, changing the incentive structure for fuel cost efficiency.</dd></div>
 <div class="rung"><dt>Second-order effect</dt><dd>If BLU Energi absorbs fuel-procurement from PLN EPI, it removes a key commercial lever PLN used to cross-subsidise grid operations. It may also slow PLN&#39;s ability to sign long-term fuel offtake agreements, since BLU entities operate under different procurement rules (government tender law rather than corporate procurement). This could delay gas-peaker contracting precisely when flexible capacity is most needed to back up the solar ramp.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Assess any gas supply, coal supply, or LNG contracts currently negotiated with or through PLN EPI: clarify counterparty continuity risk if BLU Energi absorbs those functions, and flag this in due-diligence checklists for any PLN-adjacent energy project.</dd></div>
 </dl>
@@ -567,7 +602,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>What to watch</h2>
-<ul class="plain"><li>Anthropic lab-agent regulatory response: watch for biosafety regulators (FDA, OECD) or research-ethics bodies issuing guidance on AI-conducted physical experiments; first statements likely within 60 days of commercial deployment. <span class="n">· 31 October 2026</span></li><li>PLN EPI / BLU Energi: watch for formal government regulation (Peraturan Pemerintah or Perpres) establishing BLU Energi scope—this will determine whether PLN EPI is merged or survives as a subsidiary. <span class="n">· 31 December 2026</span></li><li>Indonesia 100 GWp solar: track first quarterly progress report from ESDM or PLN on commissioned capacity vs. three-year target; slippage visible by Q1 2027. <span class="n">· 31 March 2027</span></li><li>Danantara–Sritex: watch for binding acquisition announcement or cabinet-level approval; if confirmed, assess impact on Danantara&#39;s Rp120 trillion APBN commitment timeline. <span class="n">· 15 October 2026</span></li><li>OpenAI ecosystem-conflict clause: watch for comparable contract terminations affecting other OpenAI API customers following M&amp;A events; second case would confirm a systemic policy rather than a one-off. <span class="n">· 30 November 2026</span></li></ul>
+<ul class="plain"><li>Anthropic lab-agent regulatory response: watch for biosafety regulators (FDA, OECD) or research-ethics bodies issuing guidance on AI-conducted physical experiments; first statements likely within 60 days of commercial deployment. <span class="n">· 31 October 2026</span></li><li>PLN EPI / BLU Energi: watch for formal government regulation (Peraturan Pemerintah or Perpres) establishing BLU Energi scope, this will determine whether PLN EPI is merged or survives as a subsidiary. <span class="n">· 31 December 2026</span></li><li>Indonesia 100 GWp solar: track first quarterly progress report from ESDM or PLN on commissioned capacity vs. three-year target; slippage visible by Q1 2027. <span class="n">· 31 March 2027</span></li><li>Danantara–Sritex: watch for binding acquisition announcement or cabinet-level approval; if confirmed, assess impact on Danantara&#39;s Rp120 trillion APBN commitment timeline. <span class="n">· 15 October 2026</span></li><li>OpenAI ecosystem-conflict clause: watch for comparable contract terminations affecting other OpenAI API customers following M&amp;A events; second case would confirm a systemic policy rather than a one-off. <span class="n">· 30 November 2026</span></li></ul>
 
 <h2>Sources</h2>
 <p class="note">Every signal above cites the sources below. We do not republish article content; follow the link to read it at the original publisher.</p>

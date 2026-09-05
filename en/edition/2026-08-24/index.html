@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,12 +481,12 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>Three converging pressures make this edition consequential. Indonesia&#39;s geothermal pipeline has grown to 110 projects totalling 5.1 GW, mostly privately held, while the new API chairman signals sovereignty-first development priorities — a combination that tests whether Bahlil&#39;s concession-use-it-or-lose-it ultimatum translates into actual reallocation. Separately, Danantara&#39;s BUMN Karya restructuring remains publicly unresolved five weeks after it entered this briefing as a recurring theme, and BP BUMN&#39;s language has softened from &#39;on track&#39; to &#39;being pursued urgently,&#39; signalling stall risk. On AI, OpenAI&#39;s formalised Zero Data Retention and Private Safety Processing offering shifts the enterprise procurement conversation from voluntary commitment to contractual right, raising the bar for all frontier model vendors. Nvidia&#39;s equity partnership with Cloverleaf continues the vendor-to-infrastructure-investor pattern, deepening the project-finance logic now governing AI datacenter buildout. PLN&#39;s co-firing trial at PLTU Tidore adds a concrete operational data point to Indonesia&#39;s coal-transition toolkit but does not yet change the structural grid investment gap.</p>
+<p>Three converging pressures make this edition consequential. Indonesia&#39;s geothermal pipeline has grown to 110 projects totalling 5.1 GW, mostly privately held, while the new API chairman signals sovereignty-first development priorities, a combination that tests whether Bahlil&#39;s concession-use-it-or-lose-it ultimatum translates into actual reallocation. Separately, Danantara&#39;s BUMN Karya restructuring remains publicly unresolved five weeks after it entered this briefing as a recurring theme, and BP BUMN&#39;s language has softened from &#39;on track&#39; to &#39;being pursued urgently,&#39; signalling stall risk. On AI, OpenAI&#39;s formalised Zero Data Retention and Private Safety Processing offering shifts the enterprise procurement conversation from voluntary commitment to contractual right, raising the bar for all frontier model vendors. Nvidia&#39;s equity partnership with Cloverleaf continues the vendor-to-infrastructure-investor pattern, deepening the project-finance logic now governing AI datacenter buildout. PLN&#39;s co-firing trial at PLTU Tidore adds a concrete operational data point to Indonesia&#39;s coal-transition toolkit but does not yet change the structural grid investment gap.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
 <ul>
-<li class="recurring">Kepala BP BUMN akui restrukturisasi BUMN Karya belum tuntas; Kompas analisis akar hambatan struktural<span class="n">5x since 2026-08-19 · Corporate &amp; SOE</span></li><li class="recurring">Bahlil tegur pengembang penahan WKP; Pertamina deklarasikan ekspansi panas bumi nasional di IIGCE 2026<span class="n">5x since 2026-08-19 · Energy &amp; Power</span></li><li class="recurring">OpenAI dorong penguatan RUU keamanan AI California—lab frontier pertama yang secara proaktif minta regulasi lebih ketat<span class="n">4x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">Nvidia investasi ekuitas di Cloverleaf Infrastructure, melanjutkan pola vendor-jadi-investor infrastruktur AI<span class="n">3x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">Indonesia-Germany formalise renewable energy and grid investment partnership, adding bilateral financing to PLN&#39;s transmission gap<span class="n">2x since 2026-08-22 · Energy &amp; Power</span></li>
+<li class="recurring">Kepala BP BUMN akui restrukturisasi BUMN Karya belum tuntas; Kompas analisis akar hambatan struktural<span class="n">5x since 2026-08-19 · Corporate &amp; SOE</span></li><li class="recurring">Bahlil tegur pengembang penahan WKP; Pertamina deklarasikan ekspansi panas bumi nasional di IIGCE 2026<span class="n">5x since 2026-08-19 · Energy &amp; Power</span></li><li class="recurring">OpenAI dorong penguatan RUU keamanan AI California, lab frontier pertama yang secara proaktif minta regulasi lebih ketat<span class="n">4x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">Nvidia investasi ekuitas di Cloverleaf Infrastructure, melanjutkan pola vendor-jadi-investor infrastruktur AI<span class="n">3x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">Indonesia-Germany formalise renewable energy and grid investment partnership, adding bilateral financing to PLN&#39;s transmission gap<span class="n">2x since 2026-08-22 · Energy &amp; Power</span></li>
 </ul>
 </aside>
 <h2>Today&#39;s five signals</h2>
@@ -464,8 +499,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Kontan reports that Indonesia&#39;s geothermal pipeline stands at 110 projects with 5.1 GW of combined capacity, with private developers holding the majority of working area permits (WKPs). Simultaneously, the newly elected chairman of the Indonesian Geothermal Association (API) has declared energy sovereignty the organisation&#39;s core development mandate. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s3" aria-label="Source 3">[3]</a><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the indonesia-geothermal-concession-reform thread — now five occurrences since 19 August — and materially sharpens it. Bahlil&#39;s use-it-or-lose-it ultimatum against permit hoarding now has a quantified target universe: 5.1 GW across 110 WKPs, mostly private. The API chair&#39;s sovereignty framing signals that the industry lobby is aligning with the government&#39;s nationalist energy narrative, reducing the political cost of forced reallocation and potentially accelerating concession re-tendering.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>If even a fraction of the privately held 5.1 GW pipeline faces re-tendering, Pertamina Geothermal Energy (PGEO) and state-adjacent developers gain a structural advantage in rebids, since sovereignty rhetoric systematically favours BUMN participants. This would paradoxically concentrate geothermal assets back in state hands after years of private-sector liberalisation — repricing PGEO&#39;s growth optionality upward while raising political-risk premiums for independent power producers holding idle WKPs.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the indonesia-geothermal-concession-reform thread, now five occurrences since 19 August, and materially sharpens it. Bahlil&#39;s use-it-or-lose-it ultimatum against permit hoarding now has a quantified target universe: 5.1 GW across 110 WKPs, mostly private. The API chair&#39;s sovereignty framing signals that the industry lobby is aligning with the government&#39;s nationalist energy narrative, reducing the political cost of forced reallocation and potentially accelerating concession re-tendering.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>If even a fraction of the privately held 5.1 GW pipeline faces re-tendering, Pertamina Geothermal Energy (PGEO) and state-adjacent developers gain a structural advantage in rebids, since sovereignty rhetoric systematically favours BUMN participants. This would paradoxically concentrate geothermal assets back in state hands after years of private-sector liberalisation, repricing PGEO&#39;s growth optionality upward while raising political-risk premiums for independent power producers holding idle WKPs.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Map which of the 110 WKPs are held by private developers with no active drilling programme; model the re-tendering scenarios for the top-10 idle concessions by capacity and assess PGEO&#39;s balance-sheet capacity to absorb reallocated assets this fiscal year.</dd></div>
 </dl>
 <div class="corrob">
@@ -484,16 +519,16 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <ul class="ents"><li>API</li><li>PGEO</li><li>Pertamina Geothermal Energy</li></ul>
 </aside>
 </article><article class="signal">
-<div class="head"><span class="rank" aria-hidden="true">2</span><h3>BP BUMN chief says BUMN Karya restructuring is being &#39;urgently pursued&#39; — language weaker than prior official positions</h3></div>
+<div class="head"><span class="rank" aria-hidden="true">2</span><h3>BP BUMN chief says BUMN Karya restructuring is being &#39;urgently pursued&#39;, language weaker than prior official positions</h3></div>
 <div class="tags">
 <span class="tag strong">Corporate &amp; SOE</span>
 <span class="tag">Decision-forcing</span>
 <span class="tag rule">Recurring · 6x since 2026-08-19</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>CNBC Indonesia reports BP BUMN&#39;s head as saying BUMN Karya restructuring is being &#39;diupayakan segera selesai&#39; (urgently pursued to completion), while Kompas and CNN Indonesia have separately published analytical pieces explaining why the restructuring is structurally difficult — citing overlapping debt obligations, fragmented project portfolios, and unclear asset-liability transfers across the seven construction SOEs. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s6" aria-label="Source 6">[6]</a><a href="#s7" aria-label="Source 7">[7]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This is the sixth occurrence of this theme since 19 August. The shift in official language — from delivery commitments to &#39;being pursued&#39; — is a classic signal of a programme slipping against its own timeline. Three independent editorial treatments (CNBC, Kompas, CNN Indonesia) converging on the same story within 72 hours indicates the market and media community have reached a shared diagnosis of stall, not just delay.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>A prolonged BUMN Karya limbo has a specific second-order risk: the seven companies continue to draw on state guarantees and PLN/government project pipelines while their balance sheets remain unresolved, crowding out private contractors and distorting project pricing in infrastructure procurement. The longer the restructuring stalls, the deeper the liability crystallisation risk for Danantara&#39;s consolidated balance sheet — the entity that ultimately backstops the holding.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>CNBC Indonesia reports BP BUMN&#39;s head as saying BUMN Karya restructuring is being &#39;diupayakan segera selesai&#39; (urgently pursued to completion), while Kompas and CNN Indonesia have separately published analytical pieces explaining why the restructuring is structurally difficult, citing overlapping debt obligations, fragmented project portfolios, and unclear asset-liability transfers across the seven construction SOEs. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s6" aria-label="Source 6">[6]</a><a href="#s7" aria-label="Source 7">[7]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This is the sixth occurrence of this theme since 19 August. The shift in official language, from delivery commitments to &#39;being pursued&#39;, is a classic signal of a programme slipping against its own timeline. Three independent editorial treatments (CNBC, Kompas, CNN Indonesia) converging on the same story within 72 hours indicates the market and media community have reached a shared diagnosis of stall, not just delay.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>A prolonged BUMN Karya limbo has a specific second-order risk: the seven companies continue to draw on state guarantees and PLN/government project pipelines while their balance sheets remain unresolved, crowding out private contractors and distorting project pricing in infrastructure procurement. The longer the restructuring stalls, the deeper the liability crystallisation risk for Danantara&#39;s consolidated balance sheet, the entity that ultimately backstops the holding.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Request the current status of each of the seven BUMN Karya entities&#39; debt-to-equity positions and outstanding government-guaranteed obligations; stress-test Danantara&#39;s consolidated exposure if two of the seven require recapitalisation before year-end.</dd></div>
 </dl>
 <div class="corrob">
@@ -519,9 +554,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Recurring · 5x since 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>OpenAI published a primary-source post confirming Zero Data Retention (ZDR) is now a formalised offering for eligible API customers, and previewed Private Safety Processing — a mechanism to run advanced safety checks without retaining or exposing customer data. This is a direct product announcement, not a policy statement. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the enterprise-ai-data-privacy-contracts thread. The move converts what was previously a best-effort assurance into a contractual API-layer commitment, setting a new floor for enterprise procurement negotiations. Regulated industries — financial services, healthcare, legal — can now use ZDR as a baseline requirement in RFP processes, forcing competing vendors (Anthropic, Google DeepMind, Mistral) to match or explain the gap.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Private Safety Processing is the more consequential signal: it means OpenAI is building infrastructure to decouple safety monitoring from data retention. If this architecture becomes standard, it weakens the argument that safety and privacy are inherently in tension — removing one of the last structural objections enterprises cite for avoiding frontier models in sensitive workflows. This accelerates enterprise adoption curves more than any benchmark improvement.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>OpenAI published a primary-source post confirming Zero Data Retention (ZDR) is now a formalised offering for eligible API customers, and previewed Private Safety Processing, a mechanism to run advanced safety checks without retaining or exposing customer data. This is a direct product announcement, not a policy statement. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the enterprise-ai-data-privacy-contracts thread. The move converts what was previously a best-effort assurance into a contractual API-layer commitment, setting a new floor for enterprise procurement negotiations. Regulated industries, financial services, healthcare, legal, can now use ZDR as a baseline requirement in RFP processes, forcing competing vendors (Anthropic, Google DeepMind, Mistral) to match or explain the gap.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Private Safety Processing is the more consequential signal: it means OpenAI is building infrastructure to decouple safety monitoring from data retention. If this architecture becomes standard, it weakens the argument that safety and privacy are inherently in tension, removing one of the last structural objections enterprises cite for avoiding frontier models in sensitive workflows. This accelerates enterprise adoption curves more than any benchmark improvement.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Audit existing AI vendor contracts for data retention clauses; where ZDR or equivalent is absent, use OpenAI&#39;s formalised offering as a negotiating reference to demand equivalent commitments or written risk disclosures from incumbent vendors.</dd></div>
 </dl>
 <div class="corrob">
@@ -545,9 +580,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Recurring · 4x since 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>TechCrunch reports Nvidia has entered an equity partnership with Cloverleaf Infrastructure, a datacenter developer, extending a pattern — previously documented in this briefing — of Nvidia taking direct infrastructure exposure rather than remaining a pure hardware vendor. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>TechCrunch reports Nvidia has entered an equity partnership with Cloverleaf Infrastructure, a datacenter developer, extending a pattern, previously documented in this briefing, of Nvidia taking direct infrastructure exposure rather than remaining a pure hardware vendor. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues the nuclear-ai-datacenter-power thread. Nvidia is now structurally incentivised to ensure the datacenter projects it partners with succeed as operating assets, not merely as GPU customers. This creates a sponsor-like posture: Nvidia&#39;s returns depend on project-level economics, not just chip sales volumes.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>As Nvidia accumulates equity positions across datacenter developers, its balance sheet begins to absorb infrastructure risk at scale. This is not yet visible in consensus financial models, which still treat Nvidia primarily as a semiconductor company. If two or three Cloverleaf-style positions mature simultaneously, analysts will need to apply a mixed conglomerate valuation framework — compressing the multiple applied to the GPU business while adding an infrastructure NAV component. The transition happens quietly until it doesn&#39;t.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>As Nvidia accumulates equity positions across datacenter developers, its balance sheet begins to absorb infrastructure risk at scale. This is not yet visible in consensus financial models, which still treat Nvidia primarily as a semiconductor company. If two or three Cloverleaf-style positions mature simultaneously, analysts will need to apply a mixed conglomerate valuation framework, compressing the multiple applied to the GPU business while adding an infrastructure NAV component. The transition happens quietly until it doesn&#39;t.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Identify all Nvidia equity or guarantee positions in infrastructure assets disclosed to date; build a shadow balance sheet tracking infrastructure exposure as a percentage of Nvidia&#39;s total assets, and set a threshold at which standard semiconductor valuation frameworks become misleading.</dd></div>
 </dl>
 <div class="corrob">

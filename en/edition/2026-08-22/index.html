@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>Nvidia&#39;s equity stake in Cloverleaf Infrastructure marks the clearest signal yet that GPU vendors are absorbing project-finance risk, not merely selling hardware—a structural change that reframes how AI infrastructure should be underwritten. In Indonesia, the head of BP BUMN stated publicly that BUMN Karya restructuring is being pushed to completion imminently, adding urgency to a theme already flagged three times this month; Kompas.com&#39;s parallel analysis of why the process is so complex provides the diagnostic frame. On energy, Pertamina&#39;s public push at IIGCE 2026 and the Ministry of ESDM&#39;s auction of 14 new geothermal working areas (WKP) together signal that Indonesia&#39;s geothermal concession reform has moved from ministerial rhetoric to active procurement—a theme now at structural status. OpenAI&#39;s Zero Data Retention offering continues to shift enterprise AI contracting norms, reinforcing a two-week-old trend that procurement teams can no longer ignore.</p>
+<p>Nvidia&#39;s equity stake in Cloverleaf Infrastructure marks the clearest signal yet that GPU vendors are absorbing project-finance risk, not merely selling hardware, a structural change that reframes how AI infrastructure should be underwritten. In Indonesia, the head of BP BUMN stated publicly that BUMN Karya restructuring is being pushed to completion imminently, adding urgency to a theme already flagged three times this month; Kompas.com&#39;s parallel analysis of why the process is so complex provides the diagnostic frame. On energy, Pertamina&#39;s public push at IIGCE 2026 and the Ministry of ESDM&#39;s auction of 14 new geothermal working areas (WKP) together signal that Indonesia&#39;s geothermal concession reform has moved from ministerial rhetoric to active procurement, a theme now at structural status. OpenAI&#39;s Zero Data Retention offering continues to shift enterprise AI contracting norms, reinforcing a two-week-old trend that procurement teams can no longer ignore.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
@@ -465,8 +500,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Nvidia has made a direct equity investment in Cloverleaf Infrastructure, a data center developer, as reported by Reuters and TechCrunch on 2026-08-21. This is not a supply agreement or a procurement commitment; Nvidia is taking an ownership position in the infrastructure entity itself. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a><a href="#s6" aria-label="Source 6">[6]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>The AI value chain is compressing: GPU vendor → compute layer → data center equity → power → project finance. When the chip supplier begins absorbing infrastructure equity risk, the industry&#39;s investment structure shifts from technology capex toward project-finance logic, with sponsor, offtaker, EPC, power, and lender roles all becoming relevant to what was previously a hardware procurement decision.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Nvidia holding infrastructure equity creates a new conflict-of-interest surface for hyperscalers and independent data center operators who are simultaneously Nvidia&#39;s customers and now its competitive adjacents. It also changes how lenders price Nvidia-affiliated projects—sponsor credit quality rises, but counterparty concentration risk increases. Insurers, ratings agencies, and infrastructure debt funds will need new frameworks for deals where the GPU supplier is also a co-equity holder.</dd></div>
-<div class="rung act"><dt>Action</dt><dd>Revise any data center investment or procurement assessment to apply a full project-finance lens: map Sponsor → Offtaker → EPC → Power → Grid → Lender → Guarantee, and explicitly identify where Nvidia sits. Ask whether Nvidia&#39;s equity position in a target project creates preferential GPU supply terms—and whether that constitutes a material undisclosed subsidy to project economics.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Nvidia holding infrastructure equity creates a new conflict-of-interest surface for hyperscalers and independent data center operators who are simultaneously Nvidia&#39;s customers and now its competitive adjacents. It also changes how lenders price Nvidia-affiliated projects, sponsor credit quality rises, but counterparty concentration risk increases. Insurers, ratings agencies, and infrastructure debt funds will need new frameworks for deals where the GPU supplier is also a co-equity holder.</dd></div>
+<div class="rung act"><dt>Action</dt><dd>Revise any data center investment or procurement assessment to apply a full project-finance lens: map Sponsor → Offtaker → EPC → Power → Grid → Lender → Guarantee, and explicitly identify where Nvidia sits. Ask whether Nvidia&#39;s equity position in a target project creates preferential GPU supply terms, and whether that constitutes a material undisclosed subsidy to project economics.</dd></div>
 </dl>
 <div class="corrob">
 <span class="unbacked">no primary source</span>
@@ -491,8 +526,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>The head of BP BUMN stated on 2026-08-21 that restructuring of the BUMN Karya (state-owned construction companies) cluster is being actively pushed toward completion. A parallel Kompas.com analysis published 2026-08-20 identifies the specific reasons the process is complex: overlapping liabilities, cross-shareholding structures, and contested asset valuations among the construction SOEs. <span class="cites"><a href="#s3" aria-label="Source 3">[3]</a><a href="#s9" aria-label="Source 9">[9]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This is the fourth occurrence of this theme in the archive since 2026-08-19, elevating it from a recurring signal to a structural condition. A public deadline commitment from the BP BUMN head converts what was bureaucratic process into a reputational and political commitment—failure to deliver becomes a visible governance event, not a routine delay.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>The combination of a stated urgency and a publicly documented set of structural blockers creates a gap that investors and creditors to BUMN Karya entities should price now. If restructuring proceeds rapidly, debt obligations may be reallocated or written down under a merger or dissolution scenario. If it stalls despite the public commitment, Danantara&#39;s credibility as a reform vehicle takes a measurable hit—with downstream effects on its ability to attract foreign co-investors for other portfolio companies.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This is the fourth occurrence of this theme in the archive since 2026-08-19, elevating it from a recurring signal to a structural condition. A public deadline commitment from the BP BUMN head converts what was bureaucratic process into a reputational and political commitment, failure to deliver becomes a visible governance event, not a routine delay.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>The combination of a stated urgency and a publicly documented set of structural blockers creates a gap that investors and creditors to BUMN Karya entities should price now. If restructuring proceeds rapidly, debt obligations may be reallocated or written down under a merger or dissolution scenario. If it stalls despite the public commitment, Danantara&#39;s credibility as a reform vehicle takes a measurable hit, with downstream effects on its ability to attract foreign co-investors for other portfolio companies.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Map current credit and equity exposure to individual BUMN Karya entities (Waskita, Wijaya Karya, Adhi Karya, PP, PTPP) against the restructuring scenarios implied by the Kompas analysis. Identify which entities are most likely to be merged, dissolved, or recapitalized, and stress-test counterparty risk accordingly before the restructuring announcement arrives.</dd></div>
 </dl>
 <div class="corrob">
@@ -519,7 +554,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>At the Indonesia International Geothermal Convention and Exhibition (IIGCE) 2026, Pertamina publicly committed to expanding its national geothermal portfolio. This follows the Ministry of ESDM&#39;s opening of competitive bidding for 14 new geothermal working areas (WKP), reported by Bloomberg Technoz on 2026-08-20, itself a direct follow-through to Minister Bahlil&#39;s earlier demand that developers not sit on concessions. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s5" aria-label="Source 5">[5]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s10" aria-label="Source 10">[10]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This theme has now appeared three times in the archive since 2026-08-19 and is reaching structural status. The simultaneous occurrence of a state-enterprise public commitment and an active tender process means Indonesia&#39;s geothermal concession reform has moved past policy declaration into procurement execution. For developers and financiers, the risk profile shifts: the question is no longer whether concessions will be awarded but whether Pertamina&#39;s involvement as anchor developer crowds out or de-risks private participation.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Pertamina&#39;s public posture at IIGCE signals it intends to be the dominant off-taker or developer in the new WKP round, which may suppress competitive bidding by independents who cannot match Pertamina&#39;s balance sheet or PLN access. This could paradoxically slow the very acceleration Bahlil demanded—replacing hoarded private concessions with a Pertamina-dominated pipeline that moves at state-enterprise pace rather than market pace.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Pertamina&#39;s public posture at IIGCE signals it intends to be the dominant off-taker or developer in the new WKP round, which may suppress competitive bidding by independents who cannot match Pertamina&#39;s balance sheet or PLN access. This could paradoxically slow the very acceleration Bahlil demanded, replacing hoarded private concessions with a Pertamina-dominated pipeline that moves at state-enterprise pace rather than market pace.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>For any party evaluating the 14 new WKP tenders: assess whether Pertamina is likely to bid on the same blocks, and model the scenario where Pertamina wins the anchor sites, leaving independents with lower-resource or higher-cost assets. Engage ESDM on whether the auction design includes any carve-outs or consortium requirements that would mandate private-sector co-development.</dd></div>
 </dl>
 <div class="corrob">
@@ -546,9 +581,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Recurring · 3x since 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>OpenAI published on 2026-08-19 that Zero Data Retention (ZDR) is now a formal offering for eligible API customers, and previewed Private Safety Processing—a mechanism that allows advanced safety checks to run without OpenAI accessing the underlying prompt content. This continues and materially advances the theme first logged 2026-08-20. <span class="cites"><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>OpenAI published on 2026-08-19 that Zero Data Retention (ZDR) is now a formal offering for eligible API customers, and previewed Private Safety Processing, a mechanism that allows advanced safety checks to run without OpenAI accessing the underlying prompt content. This continues and materially advances the theme first logged 2026-08-20. <span class="cites"><a href="#s8" aria-label="Source 8">[8]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>Enterprise AI adoption has been gated in regulated industries (finance, healthcare, legal, government) by data residency and confidentiality requirements. ZDR combined with Private Safety Processing removes the two most cited contractual objections simultaneously: data retention and the argument that safety monitoring requires vendor access to content. This structurally expands the addressable enterprise market for frontier models.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>If OpenAI&#39;s privacy architecture becomes the market standard, it forces competing providers—Anthropic, Google DeepMind, Mistral—to match it or cede the regulated-enterprise segment. More importantly, it shifts the competitive axis from model capability to trust architecture and contract terms, a dimension where incumbents with enterprise sales infrastructure have a durable advantage over newer model providers regardless of benchmark performance.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>If OpenAI&#39;s privacy architecture becomes the market standard, it forces competing providers, Anthropic, Google DeepMind, Mistral, to match it or cede the regulated-enterprise segment. More importantly, it shifts the competitive axis from model capability to trust architecture and contract terms, a dimension where incumbents with enterprise sales infrastructure have a durable advantage over newer model providers regardless of benchmark performance.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Review any existing or pending enterprise AI contracts that include data-handling carve-outs or rejections of frontier models on privacy grounds. Determine whether ZDR and Private Safety Processing satisfy the specific clauses at issue, and initiate a re-evaluation cycle. If advising a regulated enterprise, update the vendor shortlist to reflect that OpenAI&#39;s offering now formally addresses the two most common contractual blockers.</dd></div>
 </dl>
 <div class="corrob">
@@ -573,8 +608,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>PLN announced on 2026-08-21 that it is constructing a backup transmission backbone for the Aceh–North Sumatra corridor, explicitly framed as a resilience measure against grid disruptions. This is an infrastructure hardening investment, not a capacity expansion. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>The Aceh–Sumatra corridor is a chokepoint for power supply to one of Indonesia&#39;s most industrially significant regions. A dedicated redundant backbone signals that PLN is prioritizing grid reliability over pure capacity expansion—a shift in investment philosophy that matters for industrial offtakers and for the credibility of renewable energy integration plans that depend on stable transmission.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Grid hardening investments of this type tend to be the prerequisite that unlocks larger renewable energy commitments from industrial and commercial buyers who have been unwilling to sign long-term offtake agreements due to supply reliability risk. If PLN is now systematically addressing backbone redundancy, it may accelerate the pipeline of renewable energy corporate PPAs in Sumatra—a region with significant geothermal and hydro potential that has been commercially underutilized due to transmission risk perception.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>The Aceh–Sumatra corridor is a chokepoint for power supply to one of Indonesia&#39;s most industrially significant regions. A dedicated redundant backbone signals that PLN is prioritizing grid reliability over pure capacity expansion, a shift in investment philosophy that matters for industrial offtakers and for the credibility of renewable energy integration plans that depend on stable transmission.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Grid hardening investments of this type tend to be the prerequisite that unlocks larger renewable energy commitments from industrial and commercial buyers who have been unwilling to sign long-term offtake agreements due to supply reliability risk. If PLN is now systematically addressing backbone redundancy, it may accelerate the pipeline of renewable energy corporate PPAs in Sumatra, a region with significant geothermal and hydro potential that has been commercially underutilized due to transmission risk perception.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Map planned renewable energy projects in Aceh and North Sumatra against the new redundant backbone route. Assess whether the reliability improvement is sufficient to move stalled corporate PPA negotiations, and identify which industrial anchor tenants (nickel smelters, palm oil processors, data center candidates) are best positioned to sign first-mover offtake agreements once the backbone is commissioned.</dd></div>
 </dl>
 <div class="corrob">
@@ -594,7 +629,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>What to watch</h2>
-<ul class="plain"><li>BUMN Karya restructuring announcement: BP BUMN has committed to urgency—monitor for a formal decree, merger announcement, or asset transfer plan affecting Waskita, Wijaya Karya, Adhi Karya, or PP. <span class="n">· 5 September 2026</span></li><li>ESDM 14-WKP geothermal auction: Track bid submission deadlines, Pertamina&#39;s declared participation, and whether the auction design includes private-sector carve-outs or consortium mandates. <span class="n">· 30 September 2026</span></li><li>Nvidia-Cloverleaf deal terms: Watch for SEC filings, deal size disclosure, or follow-on announcements that reveal equity percentage, board rights, or GPU supply commitments embedded in the investment. <span class="n">· 15 September 2026</span></li><li>OpenAI Zero Data Retention enterprise uptake: Monitor whether regulated-sector clients (banks, hospitals, government agencies) publicly announce adoption following the ZDR formalization, which would confirm the market-expansion thesis. <span class="n">· 1 October 2026</span></li><li>PLN Aceh-Sumatra backbone commissioning timeline: Seek a project schedule and assess whether the redundancy investment triggers new corporate PPA activity from industrial offtakers in the corridor. <span class="n">· 31 December 2026</span></li></ul>
+<ul class="plain"><li>BUMN Karya restructuring announcement: BP BUMN has committed to urgency, monitor for a formal decree, merger announcement, or asset transfer plan affecting Waskita, Wijaya Karya, Adhi Karya, or PP. <span class="n">· 5 September 2026</span></li><li>ESDM 14-WKP geothermal auction: Track bid submission deadlines, Pertamina&#39;s declared participation, and whether the auction design includes private-sector carve-outs or consortium mandates. <span class="n">· 30 September 2026</span></li><li>Nvidia-Cloverleaf deal terms: Watch for SEC filings, deal size disclosure, or follow-on announcements that reveal equity percentage, board rights, or GPU supply commitments embedded in the investment. <span class="n">· 15 September 2026</span></li><li>OpenAI Zero Data Retention enterprise uptake: Monitor whether regulated-sector clients (banks, hospitals, government agencies) publicly announce adoption following the ZDR formalization, which would confirm the market-expansion thesis. <span class="n">· 1 October 2026</span></li><li>PLN Aceh-Sumatra backbone commissioning timeline: Seek a project schedule and assess whether the redundancy investment triggers new corporate PPA activity from industrial offtakers in the corridor. <span class="n">· 31 December 2026</span></li></ul>
 
 <h2>Sources</h2>
 <p class="note">Every signal above cites the sources below. We do not republish article content; follow the link to read it at the original publisher.</p>

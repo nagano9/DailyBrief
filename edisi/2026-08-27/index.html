@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,12 +481,12 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Ringkasan</h2>
-<p>Anthropic meneken kontrak $45 miliar dengan Nscale untuk compute—bukan membeli GPU, melainkan menyewa kapasitas jangka panjang—menandai AI compute bergerak sepenuhnya ke logika project-finance. Di dalam negeri, Presiden Prabowo meresmikan PLTS 100 GWp dengan target tiga tahun dan Rp 135 T investasi; IESR segera mengingatkan bahwa eksekusi cepat dan terukur adalah tantangan sesungguhnya. Secara paralel, perusahaan Hashim Djojohadikusumo bersama Indosat mengumumkan investasi infrastruktur AI Rp 3,8 triliun—sinyal bahwa ekosistem AI Indonesia kini memerlukan pasokan listrik andal dalam skala besar, tepat ketika PLN EPI menghadapi ketidakpastian peran akibat rencana BLU batu bara dan gas. Kelima sinyal ini membentuk satu narasi: transisi energi dan ekspansi AI saling mengikat melalui kebutuhan listrik, pembiayaan, dan tata kelola.</p>
+<p>Anthropic meneken kontrak $45 miliar dengan Nscale untuk compute, bukan membeli GPU, melainkan menyewa kapasitas jangka panjang, menandai AI compute bergerak sepenuhnya ke logika project-finance. Di dalam negeri, Presiden Prabowo meresmikan PLTS 100 GWp dengan target tiga tahun dan Rp 135 T investasi; IESR segera mengingatkan bahwa eksekusi cepat dan terukur adalah tantangan sesungguhnya. Secara paralel, perusahaan Hashim Djojohadikusumo bersama Indosat mengumumkan investasi infrastruktur AI Rp 3,8 triliun, sinyal bahwa ekosistem AI Indonesia kini memerlukan pasokan listrik andal dalam skala besar, tepat ketika PLN EPI menghadapi ketidakpastian peran akibat rencana BLU batu bara dan gas. Kelima sinyal ini membentuk satu narasi: transisi energi dan ekspansi AI saling mengikat melalui kebutuhan listrik, pembiayaan, dan tata kelola.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Tren yang sedang terbentuk</h2>
 <ul>
-<li class="structural">Danantara estimasi biaya bersihkan BUMN Karya hingga Rp 100 triliun; BP BUMN-Danantara siapkan sistem SDM terintegrasi<span class="n">8x sejak 2026-08-19 · Korporasi &amp; BUMN</span></li><li class="recurring">IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi<span class="n">7x sejak 2026-08-19 · Energi &amp; Kelistrikan</span></li><li class="recurring">Analisis: AS bangun kapasitas gas untuk AI dua kali lebih besar dari China, memperdalam ketergantungan energi-AI<span class="n">6x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="recurring">OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise<span class="n">6x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="recurring">PLTS 100 GWp resmi diluncurkan Presiden Prabowo: 14 proyek pertama, Rp 135 T investasi, target hemat APBN Rp 4,6 T/tahun—tapi perpres belum ada dan transmisi belum siap<span class="n">5x sejak 2026-08-22 · Energi &amp; Kelistrikan</span></li>
+<li class="structural">Danantara estimasi biaya bersihkan BUMN Karya hingga Rp 100 triliun; BP BUMN-Danantara siapkan sistem SDM terintegrasi<span class="n">8x sejak 2026-08-19 · Korporasi &amp; BUMN</span></li><li class="recurring">IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi<span class="n">7x sejak 2026-08-19 · Energi &amp; Kelistrikan</span></li><li class="recurring">Analisis: AS bangun kapasitas gas untuk AI dua kali lebih besar dari China, memperdalam ketergantungan energi-AI<span class="n">6x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="recurring">OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise<span class="n">6x sejak 2026-08-20 · AI &amp; Model Frontier</span></li><li class="recurring">PLTS 100 GWp resmi diluncurkan Presiden Prabowo: 14 proyek pertama, Rp 135 T investasi, target hemat APBN Rp 4,6 T/tahun, tapi perpres belum ada dan transmisi belum siap<span class="n">5x sejak 2026-08-22 · Energi &amp; Kelistrikan</span></li>
 </ul>
 </aside>
 <h2>Lima sinyal hari ini</h2>
@@ -463,9 +498,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Struktural · 7x sejak 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>Anthropic meneken kesepakatan senilai $45 miliar dengan Nscale—penyedia infrastruktur komputasi berbasis Eropa—untuk menyewa kapasitas AI computing dalam jangka panjang. Ini bukan pembelian GPU; ini adalah kontrak offtake compute skala utilitas, dikonfirmasi Reuters dan Bloomberg secara independen. <span class="cites"><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s7" aria-label="Sumber 7">[7]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Kontrak $45 miliar setara dengan belanja modal pembangkit listrik skala besar. Pola ini—lab AI menjadi anchor tenant jangka panjang untuk infrastruktur compute pihak ketiga—mengkonfirmasi bahwa AI compute kini berstruktur seperti project finance: ada sponsor (Nscale), offtaker (Anthropic), dan kebutuhan pembiayaan utang besar. Ini melanjutkan tema nuclear-ai-datacenter-power yang telah terekam enam kali sejak 20 Agustus; akumulasi sinyalnya menunjukkan bahwa AS dan Eropa berlomba mengunci kapasitas compute sebelum pasokan energi menjadi bottleneck.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Ketika lab AI mengunci compute melalui kontrak offtake jangka panjang, lenders dan rating agencies akan mulai menilai kelayakan kredit Nscale—dan peer-nya—menggunakan metrik power purchase agreement, bukan metrik SaaS. Ini akan menarik modal infrastruktur (pensiun, asuransi, sovereign wealth) ke pasar compute dan secara tidak langsung mendorong permintaan listrik terencana skala multi-GW di lokasi data center Nscale. Untuk Indonesia, ini menciptakan preseden: kontrak compute lokal yang dijamin offtaker tier-1 dapat menjadi instrumen pembiayaan infrastruktur digital.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Anthropic meneken kesepakatan senilai $45 miliar dengan Nscale, penyedia infrastruktur komputasi berbasis Eropa, untuk menyewa kapasitas AI computing dalam jangka panjang. Ini bukan pembelian GPU; ini adalah kontrak offtake compute skala utilitas, dikonfirmasi Reuters dan Bloomberg secara independen. <span class="cites"><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s7" aria-label="Sumber 7">[7]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Kontrak $45 miliar setara dengan belanja modal pembangkit listrik skala besar. Pola ini, lab AI menjadi anchor tenant jangka panjang untuk infrastruktur compute pihak ketiga, mengkonfirmasi bahwa AI compute kini berstruktur seperti project finance: ada sponsor (Nscale), offtaker (Anthropic), dan kebutuhan pembiayaan utang besar. Ini melanjutkan tema nuclear-ai-datacenter-power yang telah terekam enam kali sejak 20 Agustus; akumulasi sinyalnya menunjukkan bahwa AS dan Eropa berlomba mengunci kapasitas compute sebelum pasokan energi menjadi bottleneck.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Ketika lab AI mengunci compute melalui kontrak offtake jangka panjang, lenders dan rating agencies akan mulai menilai kelayakan kredit Nscale, dan peer-nya, menggunakan metrik power purchase agreement, bukan metrik SaaS. Ini akan menarik modal infrastruktur (pensiun, asuransi, sovereign wealth) ke pasar compute dan secara tidak langsung mendorong permintaan listrik terencana skala multi-GW di lokasi data center Nscale. Untuk Indonesia, ini menciptakan preseden: kontrak compute lokal yang dijamin offtaker tier-1 dapat menjadi instrumen pembiayaan infrastruktur digital.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Nilai proposal data center domestik menggunakan kerangka Sponsor → Offtaker → EPC → Power → Grid → Lender → Guarantee. Pekan ini: petakan apakah kontrak Nscale–Anthropic mengungkapkan klausul power-guarantee atau minimum-uptime yang bisa dijadikan template untuk negosiasi NeutraDC–PLN dan Hashim–Indosat.</dd></div>
 </dl>
 <div class="corrob">
@@ -491,8 +526,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Presiden Prabowo secara resmi meluncurkan Program PLTS 100 GWp di Bali pada 25 Agustus 2026, dengan target penyelesaian dalam tiga tahun dan 14 proyek perdana senilai Rp 135 triliun. Kementerian ESDM menyatakan PLTS 1 GWp di Bali akan mengeliminasi diesel. IESR pada hari yang sama menerbitkan respons formal bahwa peluncuran harus menjadi &#39;titik awal eksekusi cepat dan terukur&#39;, mengimplikasikan risiko slippage jadwal signifikan. <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a><a href="#s3" aria-label="Sumber 3">[3]</a><a href="#s5" aria-label="Sumber 5">[5]</a><a href="#s6" aria-label="Sumber 6">[6]</a><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Ini melanjutkan tema pln-transmisi-investasi yang telah terekam lima kali sejak 22 Agustus. Akumulasi sinyal menunjukkan pola berulang: komitmen politik berskala besar diikuti peringatan institusi riset bahwa kapasitas eksekusi belum terbukti. Program 100 GWp membutuhkan rata-rata ~33 GWp per tahun—lebih dari sepuluh kali kapasitas PLTS terpasang Indonesia saat ini—sehingga bottleneck transmisi, pengadaan, dan perizinan menjadi risiko utama, bukan kekurangan komitmen investasi.</dd></div>
-<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Proyek PLTS 100 GWp mulai menarik minat asuransi umum sebagai pasar asuransi konstruksi dan operasional [107]. Jika eksekusi melambat, premi asuransi proyek akan naik, menyempitkan margin developer. Lebih strategis: jika PLN tidak segera menyelesaikan blueprint transmisi—khususnya subholding transmisi yang direkomendasikan IEEFA—kapasitas pembangkit baru akan terjebak tanpa jalur evakuasi, menciptakan PLTS terpasang yang tak terserap grid. <span class="cites"><a href="#s12" aria-label="Sumber 12">[12]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Ini melanjutkan tema pln-transmisi-investasi yang telah terekam lima kali sejak 22 Agustus. Akumulasi sinyal menunjukkan pola berulang: komitmen politik berskala besar diikuti peringatan institusi riset bahwa kapasitas eksekusi belum terbukti. Program 100 GWp membutuhkan rata-rata ~33 GWp per tahun, lebih dari sepuluh kali kapasitas PLTS terpasang Indonesia saat ini, sehingga bottleneck transmisi, pengadaan, dan perizinan menjadi risiko utama, bukan kekurangan komitmen investasi.</dd></div>
+<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Proyek PLTS 100 GWp mulai menarik minat asuransi umum sebagai pasar asuransi konstruksi dan operasional [107]. Jika eksekusi melambat, premi asuransi proyek akan naik, menyempitkan margin developer. Lebih strategis: jika PLN tidak segera menyelesaikan blueprint transmisi, khususnya subholding transmisi yang direkomendasikan IEEFA, kapasitas pembangkit baru akan terjebak tanpa jalur evakuasi, menciptakan PLTS terpasang yang tak terserap grid. <span class="cites"><a href="#s12" aria-label="Sumber 12">[12]</a></span></dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Pekan ini: minta klarifikasi dari PLN mengenai status rencana subholding transmisi (rekomendasi IEEFA [51, 108]) dan apakah 14 proyek perdana telah memiliki Power Purchase Agreement yang ditandatangani. Tanpa PPA ter-eksekusi, angka Rp 135 T masih merupakan pipeline niat, bukan komitmen.</dd></div>
 </dl>
 <div class="corrob">
@@ -521,9 +556,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Berulang · 5x sejak 2026-08-22</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>Spanyol mengusulkan regulasi yang mewajibkan data center menyumber minimal 80% listrik dari pembangkit terbarukan tambahan (additionality), dengan pencocokan konsumsi per jam—bukan tahunan. Dilaporkan pv magazine per 26 Agustus 2026 berdasarkan draf regulasi pemerintah Spanyol. <span class="cites"><a href="#s11" aria-label="Sumber 11">[11]</a></span></dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Spanyol mengusulkan regulasi yang mewajibkan data center menyumber minimal 80% listrik dari pembangkit terbarukan tambahan (additionality), dengan pencocokan konsumsi per jam, bukan tahunan. Dilaporkan pv magazine per 26 Agustus 2026 berdasarkan draf regulasi pemerintah Spanyol. <span class="cites"><a href="#s11" aria-label="Sumber 11">[11]</a></span></dd></div>
 <div class="rung"><dt>Mengapa penting</dt><dd>Persyaratan hourly matching jauh lebih ketat dari standar RECs (Renewable Energy Certificates) tahunan yang berlaku di sebagian besar pasar. Jika diadopsi luas, ini mengubah cara data center membeli listrik: dari sertifikat tahunan ke kontrak power delivery real-time, mendorong permintaan storage dan grid flexibility. Ini adalah preseden regulasi yang relevan untuk diskusi Indonesia tentang persyaratan listrik hijau bagi data center AI.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Regulasi hourly matching Spanyol akan mendorong co-location antara data center dan pembangkit solar/angin plus storage di satu lokasi—mengurangi ketergantungan pada grid publik. Untuk Indonesia, jika regulator mengadopsi pendekatan serupa sebagai syarat izin data center AI (seperti proyek Hashim–Indosat), PLN harus menyiapkan produk green power dengan granularitas jam, sesuatu yang belum ada dalam struktur tarif saat ini.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Regulasi hourly matching Spanyol akan mendorong co-location antara data center dan pembangkit solar/angin plus storage di satu lokasi, mengurangi ketergantungan pada grid publik. Untuk Indonesia, jika regulator mengadopsi pendekatan serupa sebagai syarat izin data center AI (seperti proyek Hashim–Indosat), PLN harus menyiapkan produk green power dengan granularitas jam, sesuatu yang belum ada dalam struktur tarif saat ini.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Pekan ini: bandingkan draf regulasi Spanyol ini dengan rancangan persyaratan listrik data center dalam Rancangan Perpres AI Indonesia. Jika belum ada klausul additionality atau hourly matching, ini adalah celah regulasi yang perlu diisi sebelum investasi data center AI skala besar mengunci infrastruktur berbahan bakar fosil.</dd></div>
 </dl>
 <div class="corrob">
@@ -548,9 +583,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Danantara Indonesia memulai konstruksi fasilitas Waste-to-Energy di Bekasi senilai Rp 3 triliun pada 26 Agustus 2026. Fasilitas ini ditargetkan beroperasi akhir 2027–2028, dengan kapasitas pengolahan 500 ribu ton sampah per tahun, dikonfirmasi oleh sumber primer Danantara Indonesia dan detikFinance. <span class="cites"><a href="#s2" aria-label="Sumber 2">[2]</a><a href="#s13" aria-label="Sumber 13">[13]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Ini adalah sinyal bahwa Danantara mulai mengeksekusi proyek infrastruktur nyata—bukan hanya restrukturisasi BUMN Karya—dan memilih sektor waste-to-energy sebagai salah satu portfolio awal. Tema danantara-bumn-karya-restructuring telah terekam delapan kali sejak 19 Agustus dan kini berstatus structural: pertanyaannya bukan lagi apakah restrukturisasi terjadi, melainkan apakah Danantara mampu menjalankan fungsi ganda sebagai restrukturisasi BUMN sekaligus sovereign investment fund aktif.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>BUMN Karya yang sedang dibenahi—PT Wijaya Karya, PT Waskita, dll.—berpotensi menjadi kontraktor EPC proyek WtE Bekasi ini. Jika demikian, proyek ini berfungsi ganda: menghasilkan arus kas bagi BUMN Karya sambil membangun aset infrastruktur untuk Danantara. Namun risiko jadwal tinggi: target operasi 2028 untuk proyek yang baru groundbreaking Agustus 2026 hanya menyisakan ~26 bulan—sangat ketat untuk fasilitas WtE skala 500 ribu ton/tahun.</dd></div>
-<div class="rung act"><dt>Tindakan</dt><dd>Pekan ini: verifikasi apakah kontrak EPC proyek WtE Bekasi telah ditetapkan dan siapa kontraktornya—apakah BUMN Karya terlibat atau kontraktor asing. Ini akan mengkonfirmasi atau menyangkal tesis bahwa Danantara menggunakan proyek infrastruktur sebagai mekanisme pemulihan BUMN Karya.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Ini adalah sinyal bahwa Danantara mulai mengeksekusi proyek infrastruktur nyata, bukan hanya restrukturisasi BUMN Karya, dan memilih sektor waste-to-energy sebagai salah satu portfolio awal. Tema danantara-bumn-karya-restructuring telah terekam delapan kali sejak 19 Agustus dan kini berstatus structural: pertanyaannya bukan lagi apakah restrukturisasi terjadi, melainkan apakah Danantara mampu menjalankan fungsi ganda sebagai restrukturisasi BUMN sekaligus sovereign investment fund aktif.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>BUMN Karya yang sedang dibenahi, PT Wijaya Karya, PT Waskita, dll., berpotensi menjadi kontraktor EPC proyek WtE Bekasi ini. Jika demikian, proyek ini berfungsi ganda: menghasilkan arus kas bagi BUMN Karya sambil membangun aset infrastruktur untuk Danantara. Namun risiko jadwal tinggi: target operasi 2028 untuk proyek yang baru groundbreaking Agustus 2026 hanya menyisakan ~26 bulan, sangat ketat untuk fasilitas WtE skala 500 ribu ton/tahun.</dd></div>
+<div class="rung act"><dt>Tindakan</dt><dd>Pekan ini: verifikasi apakah kontrak EPC proyek WtE Bekasi telah ditetapkan dan siapa kontraktornya, apakah BUMN Karya terlibat atau kontraktor asing. Ini akan mengkonfirmasi atau menyangkal tesis bahwa Danantara menggunakan proyek infrastruktur sebagai mekanisme pemulihan BUMN Karya.</dd></div>
 </dl>
 <div class="corrob">
 <span class="backed">sumber primer</span>
@@ -575,9 +610,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Perusahaan milik Hashim Djojohadikusumo dan Indosat Ooredoo Hutchison mengumumkan pembangunan infrastruktur AI senilai Rp 3,8 triliun, mencakup perakitan GPU dan kabel bawah laut, dikonfirmasi Katadata per 26 Agustus 2026. <span class="cites"><a href="#s8" aria-label="Sumber 8">[8]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Ini adalah sinyal bahwa modal swasta Indonesia—dengan afiliasi politik di lingkaran pemerintah—mulai mengisi kekosongan infrastruktur AI yang tidak bisa dipenuhi BUMN sendirian. Rp 3,8 triliun untuk GPU assembly dan kabel bawah laut berarti Indonesia mulai membangun stack AI dari perangkat keras (bukan hanya cloud subscription), sebuah pergeseran dari postur konsumsi ke postur infrastruktur.</dd></div>
-<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Proyek ini akan membutuhkan listrik andal berskala besar dalam waktu dua hingga tiga tahun—tepat di tengah ketidakpastian peran PLN EPI pasca-rencana BLU batu bara dan gas [75]. Jika PLN tidak dapat menjamin pasokan listrik terinteruptible untuk data center AI, investor seperti Hashim–Indosat akan terdorong membangun captive power atau mengimpor listrik via interkoneksi, menambah kompleksitas regulasi. Sinyal ini juga perlu dibaca bersama tema danantara-bumn-karya-restructuring: apakah BUMN Karya yang sedang dibenahi akan menjadi kontraktor EPC proyek ini, memberi mereka arus kas segar? <span class="cites"><a href="#s9" aria-label="Sumber 9">[9]</a></span></dd></div>
-<div class="rung act"><dt>Tindakan</dt><dd>Pekan ini: telusuri apakah proyek Hashim–Indosat ini memiliki offtake agreement dengan hyperscaler global (Microsoft, Google, AWS) sebagai anchor tenant—karena tanpa offtaker, proyek GPU assembly skala ini berisiko menjadi stranded asset. Pertanyakan juga ketergantungan pasokan listriknya pada PLN versus captive.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Ini adalah sinyal bahwa modal swasta Indonesia, dengan afiliasi politik di lingkaran pemerintah, mulai mengisi kekosongan infrastruktur AI yang tidak bisa dipenuhi BUMN sendirian. Rp 3,8 triliun untuk GPU assembly dan kabel bawah laut berarti Indonesia mulai membangun stack AI dari perangkat keras (bukan hanya cloud subscription), sebuah pergeseran dari postur konsumsi ke postur infrastruktur.</dd></div>
+<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Proyek ini akan membutuhkan listrik andal berskala besar dalam waktu dua hingga tiga tahun, tepat di tengah ketidakpastian peran PLN EPI pasca-rencana BLU batu bara dan gas [75]. Jika PLN tidak dapat menjamin pasokan listrik terinteruptible untuk data center AI, investor seperti Hashim–Indosat akan terdorong membangun captive power atau mengimpor listrik via interkoneksi, menambah kompleksitas regulasi. Sinyal ini juga perlu dibaca bersama tema danantara-bumn-karya-restructuring: apakah BUMN Karya yang sedang dibenahi akan menjadi kontraktor EPC proyek ini, memberi mereka arus kas segar? <span class="cites"><a href="#s9" aria-label="Sumber 9">[9]</a></span></dd></div>
+<div class="rung act"><dt>Tindakan</dt><dd>Pekan ini: telusuri apakah proyek Hashim–Indosat ini memiliki offtake agreement dengan hyperscaler global (Microsoft, Google, AWS) sebagai anchor tenant, karena tanpa offtaker, proyek GPU assembly skala ini berisiko menjadi stranded asset. Pertanyakan juga ketergantungan pasokan listriknya pada PLN versus captive.</dd></div>
 </dl>
 <div class="corrob">
 <span class="unbacked">tanpa sumber primer</span>
@@ -597,7 +632,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>Yang perlu dipantau</h2>
-<ul class="plain"><li>Penandatanganan PPA untuk 14 proyek perdana PLTS 100 GWp: apakah terealisasi sebelum akhir Q3 2026 sesuai target Presiden Prabowo <span class="n">· 30 September 2026</span></li><li>Detail teknis kontrak Anthropic–Nscale: klausul power guarantee, lokasi data center, dan apakah ada lender bank yang terlibat—yang akan mengkonfirmasi pergeseran ke struktur project finance <span class="n">· 15 September 2026</span></li><li>Status restrukturisasi BUMN Karya: Danantara menargetkan selesai akhir 2026; milestone Q3 perlu diverifikasi termasuk siapa kontraktor EPC WtE Bekasi <span class="n">· 31 Desember 2026</span></li><li>Regulasi data center listrik hijau Indonesia: apakah ada klausul additionality atau hourly matching yang mengikuti preseden Spanyol dalam Perpres AI atau regulasi PLN <span class="n">· 31 Oktober 2026</span></li></ul>
+<ul class="plain"><li>Penandatanganan PPA untuk 14 proyek perdana PLTS 100 GWp: apakah terealisasi sebelum akhir Q3 2026 sesuai target Presiden Prabowo <span class="n">· 30 September 2026</span></li><li>Detail teknis kontrak Anthropic–Nscale: klausul power guarantee, lokasi data center, dan apakah ada lender bank yang terlibat, yang akan mengkonfirmasi pergeseran ke struktur project finance <span class="n">· 15 September 2026</span></li><li>Status restrukturisasi BUMN Karya: Danantara menargetkan selesai akhir 2026; milestone Q3 perlu diverifikasi termasuk siapa kontraktor EPC WtE Bekasi <span class="n">· 31 Desember 2026</span></li><li>Regulasi data center listrik hijau Indonesia: apakah ada klausul additionality atau hourly matching yang mengikuti preseden Spanyol dalam Perpres AI atau regulasi PLN <span class="n">· 31 Oktober 2026</span></li></ul>
 
 <h2>Sumber</h2>
 <p class="note">Setiap sinyal di atas mengutip sumber di bawah ini. Kami tidak menerbitkan ulang isi artikel; klik untuk membaca di penerbit aslinya.</p>

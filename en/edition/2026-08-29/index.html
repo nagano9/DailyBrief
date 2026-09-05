@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>Anthropic has published a Model Hardware Standard that defines how AI agents interact with physical-world devices, extending the agentic frontier beyond software into industrial and embedded systems. Simultaneously, Danantara CEO Purbaya has confirmed a Rp120 trillion dividend transfer to the state budget this year, the first major fiscal test of the sovereign fund&#39;s commercial logic amid an unfinished BUMN Karya restructuring. Indonesia&#39;s 100GWp PLTS program, launched by President Prabowo in Bali, remains structurally at risk: IESR&#39;s public warning that execution — not announcement — is the real challenge continues the recurring pattern of ambitious targets without grid and financing infrastructure to match. On the frontier model side, GLM-5.3 going open-weight with 320B multimodal parameters raises competitive pressure on proprietary models in non-English markets. Across these signals, the common thread is commitments being stress-tested by implementation: hardware specs, dividend schedules, and solar buildout deadlines all demand operational follow-through this quarter.</p>
+<p>Anthropic has published a Model Hardware Standard that defines how AI agents interact with physical-world devices, extending the agentic frontier beyond software into industrial and embedded systems. Simultaneously, Danantara CEO Purbaya has confirmed a Rp120 trillion dividend transfer to the state budget this year, the first major fiscal test of the sovereign fund&#39;s commercial logic amid an unfinished BUMN Karya restructuring. Indonesia&#39;s 100GWp PLTS program, launched by President Prabowo in Bali, remains structurally at risk: IESR&#39;s public warning that execution, not announcement, is the real challenge continues the recurring pattern of ambitious targets without grid and financing infrastructure to match. On the frontier model side, GLM-5.3 going open-weight with 320B multimodal parameters raises competitive pressure on proprietary models in non-English markets. Across these signals, the common thread is commitments being stress-tested by implementation: hardware specs, dividend schedules, and solar buildout deadlines all demand operational follow-through this quarter.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
@@ -463,9 +498,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Structural · 8x since 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>Anthropic released a formal Model Hardware Standard — previewed on its own site and covered by Ars Technica — that specifies how AI agents interface with physical hardware, including robotics, embedded systems, and industrial controllers. This is a primary-source specification document, not a research paper. <span class="cites"><a href="#s6" aria-label="Source 6">[6]</a><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>The standard externalises the agent-hardware interface from proprietary silos into a defined protocol layer, analogous to what MCP did for software tool use. Any hardware vendor or systems integrator can now build to spec, accelerating agentic deployment into manufacturing, energy infrastructure, and logistics — domains where Indonesia and Southeast Asia are active investors.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Once a hardware interface standard exists, liability and certification questions move to the foreground. Regulators and insurers — not just AI labs — will need to certify agent behaviour in physical environments. This compresses the timeline for sector-specific AI governance (energy grid control, medical devices, autonomous vehicles) from years to months, because the technical capability is now ahead of the legal framework.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>Anthropic released a formal Model Hardware Standard, previewed on its own site and covered by Ars Technica, that specifies how AI agents interface with physical hardware, including robotics, embedded systems, and industrial controllers. This is a primary-source specification document, not a research paper. <span class="cites"><a href="#s6" aria-label="Source 6">[6]</a><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>The standard externalises the agent-hardware interface from proprietary silos into a defined protocol layer, analogous to what MCP did for software tool use. Any hardware vendor or systems integrator can now build to spec, accelerating agentic deployment into manufacturing, energy infrastructure, and logistics, domains where Indonesia and Southeast Asia are active investors.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Once a hardware interface standard exists, liability and certification questions move to the foreground. Regulators and insurers, not just AI labs, will need to certify agent behaviour in physical environments. This compresses the timeline for sector-specific AI governance (energy grid control, medical devices, autonomous vehicles) from years to months, because the technical capability is now ahead of the legal framework.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Map which of your portfolio companies or infrastructure projects involve physical-world automation. For any that do, assess whether their vendor contracts and insurance policies address AI-agent-controlled hardware, and flag where Anthropic&#39;s new spec may create either an opportunity (faster integration) or a gap (certification not yet available).</dd></div>
 </dl>
 <div class="corrob">
@@ -490,9 +525,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Structural · 10x since 2026-08-19</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>Danantara CEO Purbaya publicly confirmed — corroborated across ANTARA, detikFinance, and investor.id — that Danantara will transfer approximately Rp120 trillion to the state budget (APBN) this year, with the timing still to be determined by presidential decision. This is the first public, named commitment on the fiscal extraction quantum from the sovereign fund. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s14" aria-label="Source 14">[14]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>Danantara was structured as a wealth-accumulation vehicle; a Rp120 trillion dividend in year one — while BUMN Karya restructuring remains unfinished and target completion is end-2026 — signals that the fund is being asked to perform fiscal support and portfolio repair simultaneously. That dual mandate creates capital allocation tension: dividend payments reduce the internal capital available for the recapitalisation and merger exercises the BUMN Karya restructuring requires.</dd></div>
-<div class="rung sourced"><dt>Second-order effect</dt><dd>If Danantara meets the Rp120 trillion commitment by drawing on liquid portfolio income rather than asset sales, it will delay or force dilution of BUMN Karya restructuring timelines. If it draws on asset disposals, markets will need to price accelerated divestiture of state-linked entities. Either path changes the risk profile for counterparties — banks, contractors, and foreign JV partners — who have exposures to BUMN Karya entities. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a><a href="#s15" aria-label="Source 15">[15]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>Danantara CEO Purbaya publicly confirmed, corroborated across ANTARA, detikFinance, and investor.id, that Danantara will transfer approximately Rp120 trillion to the state budget (APBN) this year, with the timing still to be determined by presidential decision. This is the first public, named commitment on the fiscal extraction quantum from the sovereign fund. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s14" aria-label="Source 14">[14]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>Danantara was structured as a wealth-accumulation vehicle; a Rp120 trillion dividend in year one, while BUMN Karya restructuring remains unfinished and target completion is end-2026, signals that the fund is being asked to perform fiscal support and portfolio repair simultaneously. That dual mandate creates capital allocation tension: dividend payments reduce the internal capital available for the recapitalisation and merger exercises the BUMN Karya restructuring requires.</dd></div>
+<div class="rung sourced"><dt>Second-order effect</dt><dd>If Danantara meets the Rp120 trillion commitment by drawing on liquid portfolio income rather than asset sales, it will delay or force dilution of BUMN Karya restructuring timelines. If it draws on asset disposals, markets will need to price accelerated divestiture of state-linked entities. Either path changes the risk profile for counterparties, banks, contractors, and foreign JV partners, who have exposures to BUMN Karya entities. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a><a href="#s15" aria-label="Source 15">[15]</a></span></dd></div>
 <div class="rung act"><dt>Action</dt><dd>Request clarity from Danantara or its advisors on the source of the Rp120 trillion: operating distributions, asset sales, or inter-entity transfers. The answer determines whether the BUMN Karya restructuring timeline announced for end-2026 remains credible, and whether counterparty risk to BUMN Karya entities is rising.</dd></div>
 </dl>
 <div class="corrob">
@@ -520,9 +555,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Structural · 7x since 2026-08-22</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>President Prabowo formally launched the 100GWp solar program and associated battery storage at a ceremony in Bali on 25 August 2026, confirmed by Sekretariat Kabinet and Kementerian ESDM. IESR, in a same-day statement, welcomed the launch but explicitly warned that fast and measurable execution — not the announcement itself — is the actual challenge, and called for it to be a genuine starting point rather than a symbolic milestone. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s3" aria-label="Source 3">[3]</a><a href="#s8" aria-label="Source 8">[8]</a><a href="#s13" aria-label="Source 13">[13]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the pln-transmisi-investasi thread, now at structural status (6x in 30 days). The program&#39;s 100GWp target over three years implies roughly 33 GWp per year — Indonesia has never built more than low single-digit GWp annually. Grid interconnection, land permitting, and financing structures are not yet resolved. IESR&#39;s public caution from a credible domestic think-tank on the same day as the presidential launch is a material signal, not routine commentary.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>The gap between ceremonial commitment and grid-ready capacity is where project finance defaults and policy credibility losses originate. If the 100GWp program stalls in 2027 — as prior Indonesia renewable targets have — it will raise the risk premium on subsequent sovereign green financing instruments, including any Danantara-linked green bonds or the Patriot Bond issuance already flagged by OJK.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>President Prabowo formally launched the 100GWp solar program and associated battery storage at a ceremony in Bali on 25 August 2026, confirmed by Sekretariat Kabinet and Kementerian ESDM. IESR, in a same-day statement, welcomed the launch but explicitly warned that fast and measurable execution, not the announcement itself, is the actual challenge, and called for it to be a genuine starting point rather than a symbolic milestone. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s3" aria-label="Source 3">[3]</a><a href="#s8" aria-label="Source 8">[8]</a><a href="#s13" aria-label="Source 13">[13]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the pln-transmisi-investasi thread, now at structural status (6x in 30 days). The program&#39;s 100GWp target over three years implies roughly 33 GWp per year, Indonesia has never built more than low single-digit GWp annually. Grid interconnection, land permitting, and financing structures are not yet resolved. IESR&#39;s public caution from a credible domestic think-tank on the same day as the presidential launch is a material signal, not routine commentary.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>The gap between ceremonial commitment and grid-ready capacity is where project finance defaults and policy credibility losses originate. If the 100GWp program stalls in 2027, as prior Indonesia renewable targets have, it will raise the risk premium on subsequent sovereign green financing instruments, including any Danantara-linked green bonds or the Patriot Bond issuance already flagged by OJK.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Track the pipeline of signed PPAs and grid connection agreements in Q3 2026 as the first concrete execution indicator. If fewer than 5GWp of projects reach financial close by end-2026, revise the 100GWp forecast downward and adjust any green-bond exposure accordingly. Coordinate this watch with the pln-transmisi-investasi archive thread.</dd></div>
 </dl>
 <div class="corrob">
@@ -550,7 +585,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series at 320B parameters, was released as open-weight, confirmed in the Hugging Face Transformers v5.16.1 release notes and corroborated by significant Hacker News traction (546 points). The model is from Zhipu AI (z.ai). <span class="cites"><a href="#s10" aria-label="Source 10">[10]</a><a href="#s11" aria-label="Source 11">[11]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>A 320B open-weight multimodal model narrows the capability gap between proprietary frontier APIs and self-hostable alternatives. For enterprise and government deployments — particularly in markets with data sovereignty concerns like Indonesia — this shifts the make-vs-buy calculus on AI infrastructure. The enterprise-ai-data-privacy-contracts theme (6x in 30 days) is directly affected: organisations that were choosing proprietary APIs for capability reasons now have a credible open-weight alternative.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>A 320B open-weight multimodal model narrows the capability gap between proprietary frontier APIs and self-hostable alternatives. For enterprise and government deployments, particularly in markets with data sovereignty concerns like Indonesia, this shifts the make-vs-buy calculus on AI infrastructure. The enterprise-ai-data-privacy-contracts theme (6x in 30 days) is directly affected: organisations that were choosing proprietary APIs for capability reasons now have a credible open-weight alternative.</dd></div>
 <div class="rung sourced"><dt>Second-order effect</dt><dd>Open-weight models at this scale commoditise inference revenue for API providers and shift value toward fine-tuning, deployment infrastructure, and integration services. Indonesian cloud and data-centre operators (e.g. NeutraDC, Telkom) face a strategic inflection: hosting open-weight frontier models for domestic enterprise clients becomes a viable revenue line, but requires GPU capacity that remains constrained domestically. <span class="cites"><a href="#s9" aria-label="Source 9">[9]</a></span></dd></div>
 <div class="rung act"><dt>Action</dt><dd>Evaluate GLM-5.3-Flash against your current frontier model API spend. For any use case where data sovereignty or cost is a constraint, run a pilot on self-hosted GLM-5.3 this month. For data-centre or cloud investment theses, update GPU demand models to reflect that open-weight frontier models increase on-premise inference load.</dd></div>
 </dl>
@@ -577,8 +612,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Structural · 6x since 2026-08-22</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>BloombergNEF data, reported by pv magazine, shows global renewable energy investment reached $327.5 billion in H1 2026. Within this, co-located solar-plus-storage investment reached $25 billion — a structural shift in where capital is flowing, driven by revenue uncertainty in merchant solar markets. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>The shift from standalone solar to solar-plus-storage as the preferred investment vehicle reflects grid and revenue risk being priced into project finance globally. This is directly relevant to Indonesia&#39;s 100GWp PLTS program: if international capital is increasingly requiring storage co-location to underwrite solar projects, Indonesia&#39;s program design — and PLN&#39;s grid absorption capacity — must accommodate storage from the outset, not as an afterthought.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>BloombergNEF data, reported by pv magazine, shows global renewable energy investment reached $327.5 billion in H1 2026. Within this, co-located solar-plus-storage investment reached $25 billion, a structural shift in where capital is flowing, driven by revenue uncertainty in merchant solar markets. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>The shift from standalone solar to solar-plus-storage as the preferred investment vehicle reflects grid and revenue risk being priced into project finance globally. This is directly relevant to Indonesia&#39;s 100GWp PLTS program: if international capital is increasingly requiring storage co-location to underwrite solar projects, Indonesia&#39;s program design, and PLN&#39;s grid absorption capacity, must accommodate storage from the outset, not as an afterthought.</dd></div>
 <div class="rung"><dt>Second-order effect</dt><dd>Solar-plus-storage projects have higher upfront capital requirements and longer permitting timelines than standalone PV. This raises the financing threshold for Indonesia&#39;s program precisely as Danantara is being asked to redirect capital to the state budget. The intersection of tighter project finance standards globally and domestic capital extraction pressure from Danantara creates a financing gap that neither domestic banks nor the state budget is currently structured to fill at 100GWp scale.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Review the financing assumptions behind Indonesia&#39;s 100GWp program against the global shift to storage co-location requirements. Specifically, assess whether the program&#39;s tariff structures and PPAs include storage components sufficient to attract international project finance at current market standards. If not, this is a material risk to flag to ESDM or potential project sponsors this quarter.</dd></div>
 </dl>

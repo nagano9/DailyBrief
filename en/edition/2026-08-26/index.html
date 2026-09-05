@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,12 +481,12 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>OpenAI&#39;s disclosure of its Jalapeño inference chip marks a structural shift in AI hardware strategy, with the lab now competing with its own chip suppliers and redefining the cost curve for inference-at-scale. In Indonesia, President Prabowo&#39;s Bali groundbreaking of the 100 GWp solar program—backed by a presidential-decree framework in preparation—is the most concrete execution signal yet for a target announced a year ago, though IESR&#39;s same-day warning that transmission infrastructure is unready repeats a structural bottleneck the archive has tracked four times. The BUMN Karya restructuring crystallises financially: investor.id reports Danantara faces up to Rp 100 trillion in cleanup costs, while BP BUMN signals completion by end-2026—timelines that are now in direct tension. Meanwhile, the US-China gas capacity asymmetry driven by AI data-centre demand adds a geopolitical dimension to the nuclear-AI-datacenter power theme, and the Solara4 administration in Portugal is a live stress-test of merchant solar project finance that every infrastructure investor should be tracking.</p>
+<p>OpenAI&#39;s disclosure of its Jalapeño inference chip marks a structural shift in AI hardware strategy, with the lab now competing with its own chip suppliers and redefining the cost curve for inference-at-scale. In Indonesia, President Prabowo&#39;s Bali groundbreaking of the 100 GWp solar program, backed by a presidential-decree framework in preparation, is the most concrete execution signal yet for a target announced a year ago, though IESR&#39;s same-day warning that transmission infrastructure is unready repeats a structural bottleneck the archive has tracked four times. The BUMN Karya restructuring crystallises financially: investor.id reports Danantara faces up to Rp 100 trillion in cleanup costs, while BP BUMN signals completion by end-2026, timelines that are now in direct tension. Meanwhile, the US-China gas capacity asymmetry driven by AI data-centre demand adds a geopolitical dimension to the nuclear-AI-datacenter power theme, and the Solara4 administration in Portugal is a live stress-test of merchant solar project finance that every infrastructure investor should be tracking.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
 <ul>
-<li class="recurring">Danantara ekspansi ke Mekah dan Filipina sementara restrukturisasi BUMN Karya masih tanpa jadwal<span class="n">7x since 2026-08-19 · Corporate &amp; SOE</span></li><li class="recurring">IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi<span class="n">7x since 2026-08-19 · Energy &amp; Power</span></li><li class="recurring">OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise<span class="n">6x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">Ars Technica reports AI data-centre power demand is forcing transformer technology redesign — hardware supply chain becomes a grid bottleneck<span class="n">5x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">Tender PLTS 100 GW Bahlil disorot karena sistem transmisi desa belum siap<span class="n">4x since 2026-08-22 · Energy &amp; Power</span></li>
+<li class="recurring">Danantara ekspansi ke Mekah dan Filipina sementara restrukturisasi BUMN Karya masih tanpa jadwal<span class="n">7x since 2026-08-19 · Corporate &amp; SOE</span></li><li class="recurring">IIGCE 2026 dibuka: pemerintah dorong akselerasi ekosistem panas bumi di tengah tekanan konsesi<span class="n">7x since 2026-08-19 · Energy &amp; Power</span></li><li class="recurring">OpenAI rilis GPT-5.6 di Kiro dan perkuat Zero Data Retention untuk API enterprise<span class="n">6x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">Ars Technica reports AI data-centre power demand is forcing transformer technology redesign, hardware supply chain becomes a grid bottleneck<span class="n">5x since 2026-08-20 · AI &amp; Frontier Models</span></li><li class="recurring">Tender PLTS 100 GW Bahlil disorot karena sistem transmisi desa belum siap<span class="n">4x since 2026-08-22 · Energy &amp; Power</span></li>
 </ul>
 </aside>
 <h2>Today&#39;s five signals</h2>
@@ -464,8 +499,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>OpenAI published first-party benchmark results for Jalapeño, its custom inference chip, claiming industry-leading throughput, lower latency, and higher power efficiency than current alternatives for modern large-model inference. This is OpenAI&#39;s first disclosed proprietary silicon specifically designed for inference at scale. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>The AI compute value chain has been GPU-dominated; a hyperscaler-grade inference chip from a model lab collapses the vendor layer between model and hardware. OpenAI simultaneously controls the model, the inference stack, and now the silicon—compressing margin that previously flowed to Nvidia and cloud providers. The chip also directly attacks the power-per-token problem that has been forcing data-centre operators toward gas and nuclear capacity additions.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>If Jalapeño&#39;s efficiency claims hold at scale, the power-demand forecasts underpinning current AI data-centre energy contracts—many signed on assumptions of GPU-class power density—become overstated. Utility offtake agreements, grid interconnection queues, and nuclear-power PPAs negotiated against GPU baselines may be mispriced. Equipment suppliers (transformers, cooling, UPS) sized to GPU density face demand revision. Simultaneously, chip fabs not in OpenAI&#39;s supply chain face a new competitive displacement risk.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>The AI compute value chain has been GPU-dominated; a hyperscaler-grade inference chip from a model lab collapses the vendor layer between model and hardware. OpenAI simultaneously controls the model, the inference stack, and now the silicon, compressing margin that previously flowed to Nvidia and cloud providers. The chip also directly attacks the power-per-token problem that has been forcing data-centre operators toward gas and nuclear capacity additions.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>If Jalapeño&#39;s efficiency claims hold at scale, the power-demand forecasts underpinning current AI data-centre energy contracts, many signed on assumptions of GPU-class power density, become overstated. Utility offtake agreements, grid interconnection queues, and nuclear-power PPAs negotiated against GPU baselines may be mispriced. Equipment suppliers (transformers, cooling, UPS) sized to GPU density face demand revision. Simultaneously, chip fabs not in OpenAI&#39;s supply chain face a new competitive displacement risk.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Audit any AI data-centre power or infrastructure model built on GPU power-density assumptions: requantify load forecasts using Jalapeño&#39;s published efficiency figures and stress-test whether signed energy offtake volumes remain justified.</dd></div>
 </dl>
 <div class="corrob">
@@ -490,8 +525,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>On 25 August 2026 President Prabowo launched the 100 GWp PLTS program at a Bali ceremony, with 14 projects totalling 5.3 GWp and Rp 135 trillion in investment formally commenced. The government is preparing a presidential decree (perpres) to underpin the program. KESDM stated the first 1 GWp Bali installation will eliminate diesel generation from the island. IESR, in a same-day statement, welcomed the launch but flagged that village-level transmission infrastructure is not ready and that execution speed and measurability must now be demonstrated, not announced. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s3" aria-label="Source 3">[3]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s8" aria-label="Source 8">[8]</a><a href="#s10" aria-label="Source 10">[10]</a><a href="#s11" aria-label="Source 11">[11]</a><a href="#s14" aria-label="Source 14">[14]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the pln-transmisi-investasi thread, now at seven recurrences since 19 August. The groundbreaking converts a year-old political target into a legally and financially committed project pipeline. The perpres in preparation is the critical missing governance instrument—without it, land-acquisition and offtake disputes cannot be adjudicated at speed. The IESR warning is structurally identical to prior alerts in this archive thread: generation capacity is being committed faster than the grid that must carry it.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>The Rp 135 trillion investment across 14 projects implies average project size of roughly Rp 9.6 trillion—large enough to require sophisticated project-finance structures but in locations (remote islands, village grids) where transmission creditworthiness is thin. If the perpres does not explicitly assign grid-readiness obligations and financing responsibility to PLN, private developers will price transmission risk into tariffs or exit the pipeline. The Rp 4.6 trillion annual APBN saving target depends on those projects actually displacing diesel; delayed transmission means the saving evaporates while capital is already deployed.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the pln-transmisi-investasi thread, now at seven recurrences since 19 August. The groundbreaking converts a year-old political target into a legally and financially committed project pipeline. The perpres in preparation is the critical missing governance instrument, without it, land-acquisition and offtake disputes cannot be adjudicated at speed. The IESR warning is structurally identical to prior alerts in this archive thread: generation capacity is being committed faster than the grid that must carry it.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>The Rp 135 trillion investment across 14 projects implies average project size of roughly Rp 9.6 trillion, large enough to require sophisticated project-finance structures but in locations (remote islands, village grids) where transmission creditworthiness is thin. If the perpres does not explicitly assign grid-readiness obligations and financing responsibility to PLN, private developers will price transmission risk into tariffs or exit the pipeline. The Rp 4.6 trillion annual APBN saving target depends on those projects actually displacing diesel; delayed transmission means the saving evaporates while capital is already deployed.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Track the perpres drafting process for three items: (1) mandatory transmission-readiness milestones tied to project commissioning dates, (2) PLN grid-investment funding allocation, (3) penalty structure for grid delays. These three clauses determine whether the 100 GW target is bankable or merely political.</dd></div>
 </dl>
 <div class="corrob">
@@ -522,8 +557,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>investor.id reported on 25 August that Danantara could incur up to Rp 100 trillion in costs to resolve the liabilities of BUMN Karya companies. Separately, BP BUMN&#39;s head stated on 21 August that restructuring is being pursued for completion as soon as possible, and Bloomberg Technoz reported on 18 August that the target is end-2026. BP BUMN and Danantara are simultaneously preparing an integrated HR system, signalling operational consolidation is being designed in parallel with financial restructuring. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s6" aria-label="Source 6">[6]</a><a href="#s9" aria-label="Source 9">[9]</a><a href="#s13" aria-label="Source 13">[13]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the danantara-bumn-karya-restructuring thread, now at seven recurrences since 19 August. The Rp 100 trillion figure is the first concrete cost estimate in the public record—it transforms an open-ended restructuring narrative into a quantified liability. At this scale, the cost exceeds Danantara&#39;s reported dollar-bond target of approximately USD 1 billion (~Rp 16 trillion), meaning external capital alone cannot close the gap. The end-2026 timeline against a Rp 100 trillion bill implies either accelerated asset sales, state budget support, or both.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Danantara&#39;s parallel international expansion (Mecca, Philippines, JBS protein partnership) and its housing expo positioning are being financed from the same sovereign balance sheet absorbing this restructuring cost. If the Rp 100 trillion estimate is accurate, Danantara&#39;s credit profile and debt capacity for new overseas deals deteriorates materially. Rating agencies and offshore lenders evaluating Danantara&#39;s dollar bonds need to net this contingent liability against deal-level asset quality—something current deal marketing likely does not disclose transparently.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the danantara-bumn-karya-restructuring thread, now at seven recurrences since 19 August. The Rp 100 trillion figure is the first concrete cost estimate in the public record, it transforms an open-ended restructuring narrative into a quantified liability. At this scale, the cost exceeds Danantara&#39;s reported dollar-bond target of approximately USD 1 billion (~Rp 16 trillion), meaning external capital alone cannot close the gap. The end-2026 timeline against a Rp 100 trillion bill implies either accelerated asset sales, state budget support, or both.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Danantara&#39;s parallel international expansion (Mecca, Philippines, JBS protein partnership) and its housing expo positioning are being financed from the same sovereign balance sheet absorbing this restructuring cost. If the Rp 100 trillion estimate is accurate, Danantara&#39;s credit profile and debt capacity for new overseas deals deteriorates materially. Rating agencies and offshore lenders evaluating Danantara&#39;s dollar bonds need to net this contingent liability against deal-level asset quality, something current deal marketing likely does not disclose transparently.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Request Danantara&#39;s consolidated pro-forma balance sheet netting BUMN Karya contingent liabilities against current bond proceeds and international deal pipeline. If unavailable, apply a Rp 100 trillion haircut to any Danantara creditworthiness assessment this week.</dd></div>
 </dl>
 <div class="corrob">
@@ -550,9 +585,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Recurring · 2x since 2026-08-22</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>Welink Energy Portugal 2 UK, owner of the 220 MW Solara4 solar plant—Portugal&#39;s largest—entered administration. The causes cited are weak generation output, falling wholesale power prices, technical issues, and rising costs. This is a live insolvency of a utility-scale merchant solar asset in a mature European market. <span class="cites"><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>Solara4&#39;s failure is a real-world stress test of the merchant solar project-finance model: a large asset, in an established renewable market, failed because wholesale prices fell below the level needed to service project costs. This is directly relevant to Indonesia&#39;s 100 GWp program, where 14 projects are being structured, and to any emerging-market solar pipeline where tariff or offtake terms remain unsettled. The pattern—capacity commissioned into a falling-price environment—is a known risk that IESR&#39;s warnings about Indonesia&#39;s transmission and tariff readiness implicitly flag.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>As solar capacity scales globally, wholesale power price cannibalism—where solar output peaks at exactly the time solar depresses spot prices—becomes structurally more common. Developers and lenders pricing Indonesian solar projects on current tariff assumptions need to model the same dynamic: if 100 GWp of capacity is added in 2–3 years into a grid that is not yet deep or interconnected enough to absorb it, Indonesian wholesale prices (or avoided-diesel savings) may fall faster than projected, replicating Solara4&#39;s economics in a less mature institutional environment.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>Welink Energy Portugal 2 UK, owner of the 220 MW Solara4 solar plant, Portugal&#39;s largest, entered administration. The causes cited are weak generation output, falling wholesale power prices, technical issues, and rising costs. This is a live insolvency of a utility-scale merchant solar asset in a mature European market. <span class="cites"><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>Solara4&#39;s failure is a real-world stress test of the merchant solar project-finance model: a large asset, in an established renewable market, failed because wholesale prices fell below the level needed to service project costs. This is directly relevant to Indonesia&#39;s 100 GWp program, where 14 projects are being structured, and to any emerging-market solar pipeline where tariff or offtake terms remain unsettled. The pattern, capacity commissioned into a falling-price environment, is a known risk that IESR&#39;s warnings about Indonesia&#39;s transmission and tariff readiness implicitly flag.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>As solar capacity scales globally, wholesale power price cannibalism, where solar output peaks at exactly the time solar depresses spot prices, becomes structurally more common. Developers and lenders pricing Indonesian solar projects on current tariff assumptions need to model the same dynamic: if 100 GWp of capacity is added in 2–3 years into a grid that is not yet deep or interconnected enough to absorb it, Indonesian wholesale prices (or avoided-diesel savings) may fall faster than projected, replicating Solara4&#39;s economics in a less mature institutional environment.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Review any solar project financial model in your pipeline for merchant price cannibalization sensitivity: stress-test IRRs under a 30–50% wholesale price decline at peak solar hours by year 5 post-commissioning, and confirm whether offtake structures (PLN PPAs, avoided-diesel contracts) are fixed-price or indexed.</dd></div>
 </dl>
 <div class="corrob">
@@ -577,8 +612,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>The Guardian reported on 25 August, citing analysis, that the United States is currently building approximately twice as much new gas-fired generation capacity as China specifically to meet AI data-centre power demand. This is a comparative, quantified finding on the energy-mix divergence between the two largest AI compute markets. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>This continues the nuclear-ai-datacenter-power thread, now at five recurrences since 20 August. The US-China divergence is strategically significant: China is meeting AI power demand with a heavier mix of renewables and coal rather than gas, while the US is locking in gas—a fuel with higher long-term carbon and price-volatility exposure. The asymmetry has implications for AI operational cost competitiveness over a 10–20-year horizon as carbon pricing regimes mature.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>US AI operators committing to gas-fired capacity today are embedding a carbon-price exposure that Chinese competitors—building into a different fuel mix—do not face to the same degree. If US federal or state carbon pricing advances, or if LNG export demand tightens domestic gas prices, the US AI infrastructure cost base faces a structurally higher floor than the Chinese equivalent. This could shift the competitive economics of frontier model inference toward jurisdictions with cheaper, lower-carbon power—potentially accelerating data-centre investment in markets like Indonesia if the 100 GW solar program delivers cheap electrons.</dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>This continues the nuclear-ai-datacenter-power thread, now at five recurrences since 20 August. The US-China divergence is strategically significant: China is meeting AI power demand with a heavier mix of renewables and coal rather than gas, while the US is locking in gas, a fuel with higher long-term carbon and price-volatility exposure. The asymmetry has implications for AI operational cost competitiveness over a 10–20-year horizon as carbon pricing regimes mature.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>US AI operators committing to gas-fired capacity today are embedding a carbon-price exposure that Chinese competitors, building into a different fuel mix, do not face to the same degree. If US federal or state carbon pricing advances, or if LNG export demand tightens domestic gas prices, the US AI infrastructure cost base faces a structurally higher floor than the Chinese equivalent. This could shift the competitive economics of frontier model inference toward jurisdictions with cheaper, lower-carbon power, potentially accelerating data-centre investment in markets like Indonesia if the 100 GW solar program delivers cheap electrons.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Model a sensitivity analysis on US-based AI inference economics under three carbon price scenarios (USD 0, USD 50, USD 100/tonne CO2) and compare against projected Indonesian solar-powered data-centre costs post-2028, when the 100 GWp program&#39;s first tranches come online.</dd></div>
 </dl>
 <div class="corrob">
@@ -598,7 +633,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>What to watch</h2>
-<ul class="plain"><li>Presidential decree (perpres) for PLTS 100 GWp: track publication date and whether it includes binding transmission-readiness milestones and PLN grid-financing obligations <span class="n">· 30 September 2026</span></li><li>Danantara BUMN Karya restructuring completion: monitor whether end-2026 deadline holds and whether the Rp 100 trillion liability estimate is formalised in any disclosure or rating agency communication <span class="n">· 31 December 2026</span></li><li>OpenAI Jalapeño chip: watch for independent third-party benchmarks and for announcements of supply-chain partners or foundry relationships that reveal production scale <span class="n">· 31 October 2026</span></li><li>Solara4 administration proceedings: monitor whether the asset is restructured, sold, or liquidated, and what recoveries lenders achieve—sets a precedent for merchant solar project-finance valuation <span class="n">· 31 March 2027</span></li><li>Indonesia-Germany renewable energy and grid investment MOU (Petromindo, 20 Aug): track whether this produces a concrete grid-financing commitment that addresses the transmission bottleneck flagged by IESR and IEEFA <span class="n">· 30 November 2026</span></li></ul>
+<ul class="plain"><li>Presidential decree (perpres) for PLTS 100 GWp: track publication date and whether it includes binding transmission-readiness milestones and PLN grid-financing obligations <span class="n">· 30 September 2026</span></li><li>Danantara BUMN Karya restructuring completion: monitor whether end-2026 deadline holds and whether the Rp 100 trillion liability estimate is formalised in any disclosure or rating agency communication <span class="n">· 31 December 2026</span></li><li>OpenAI Jalapeño chip: watch for independent third-party benchmarks and for announcements of supply-chain partners or foundry relationships that reveal production scale <span class="n">· 31 October 2026</span></li><li>Solara4 administration proceedings: monitor whether the asset is restructured, sold, or liquidated, and what recoveries lenders achieve, sets a precedent for merchant solar project-finance valuation <span class="n">· 31 March 2027</span></li><li>Indonesia-Germany renewable energy and grid investment MOU (Petromindo, 20 Aug): track whether this produces a concrete grid-financing commitment that addresses the transmission bottleneck flagged by IESR and IEEFA <span class="n">· 30 November 2026</span></li></ul>
 
 <h2>Sources</h2>
 <p class="note">Every signal above cites the sources below. We do not republish article content; follow the link to read it at the original publisher.</p>

@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>Danantara&#39;s BUMN Karya restructuring has now accumulated three weeks of coverage confirming the same diagnosis—phantom profits, legal complexity, and no published financials—making this a structural condition rather than a news event. Simultaneously, ESDM opened tenders for 14 new geothermal working areas while Minister Bahlil publicly pressed developers to release hoarded concessions, continuing a reform thread that is building enforcement credibility. Telkom&#39;s Danantara-directed subsidiary cull to 18 entities signals that the holding company can force operational decisions even when balance-sheet restructuring is blocked. On the AI side, OpenAI&#39;s Zero Data Retention expansion and Private Safety Processing preview materially change the enterprise API procurement calculus. Europe&#39;s 48% jump in battery storage to 36 GWh in 2025 closes the supply-side picture for grid flexibility.</p>
+<p>Danantara&#39;s BUMN Karya restructuring has now accumulated three weeks of coverage confirming the same diagnosis, phantom profits, legal complexity, and no published financials, making this a structural condition rather than a news event. Simultaneously, ESDM opened tenders for 14 new geothermal working areas while Minister Bahlil publicly pressed developers to release hoarded concessions, continuing a reform thread that is building enforcement credibility. Telkom&#39;s Danantara-directed subsidiary cull to 18 entities signals that the holding company can force operational decisions even when balance-sheet restructuring is blocked. On the AI side, OpenAI&#39;s Zero Data Retention expansion and Private Safety Processing preview materially change the enterprise API procurement calculus. Europe&#39;s 48% jump in battery storage to 36 GWh in 2025 closes the supply-side picture for grid flexibility.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
@@ -463,9 +498,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Recurring · 3x since 2026-08-19</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>As of 2026-08-20, Danantara has not published its financial statements, drawing economist criticism. Kompas.com details why restructuring is structurally intractable—cross-guarantees, phantom profits from intra-group transactions, and overlapping project books. CNN Indonesia and Bloomberg Technoz report Danantara is targeting end-2026 for completion while simultaneously acknowledging the constraints. Bursa Efek Indonesia extended the trading suspension on WIKA shares, a direct market consequence. <span class="cites"><a href="#s3" aria-label="Source 3">[3]</a><a href="#s4" aria-label="Source 4">[4]</a><a href="#s5" aria-label="Source 5">[5]</a><a href="#s8" aria-label="Source 8">[8]</a><a href="#s9" aria-label="Source 9">[9]</a><a href="#s11" aria-label="Source 11">[11]</a></span></dd></div>
-<div class="rung"><dt>Why it matters</dt><dd>Three weeks of accumulating coverage now converge on the same diagnosis: the obstacles are not transient liquidity problems but embedded in how BUMN Karya balance sheets were constructed—revenue recognised on government contracts before cash is received, and cross-entity guarantees that make isolating a single firm&#39;s true position legally and technically difficult. This is no longer news; it is a structural condition.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>The absence of audited Danantara financials blocks the very equity or debt transactions needed to recapitalise distressed BUMN Karya subsidiaries. Lenders and potential strategic partners cannot price risk without them. The restructuring therefore cannot close before the transparency gap closes—meaning the end-2026 target is contingent on a prerequisite that does not yet exist, and each month of delay compounds contingent liabilities on the sovereign balance sheet.</dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>As of 2026-08-20, Danantara has not published its financial statements, drawing economist criticism. Kompas.com details why restructuring is structurally intractable, cross-guarantees, phantom profits from intra-group transactions, and overlapping project books. CNN Indonesia and Bloomberg Technoz report Danantara is targeting end-2026 for completion while simultaneously acknowledging the constraints. Bursa Efek Indonesia extended the trading suspension on WIKA shares, a direct market consequence. <span class="cites"><a href="#s3" aria-label="Source 3">[3]</a><a href="#s4" aria-label="Source 4">[4]</a><a href="#s5" aria-label="Source 5">[5]</a><a href="#s8" aria-label="Source 8">[8]</a><a href="#s9" aria-label="Source 9">[9]</a><a href="#s11" aria-label="Source 11">[11]</a></span></dd></div>
+<div class="rung"><dt>Why it matters</dt><dd>Three weeks of accumulating coverage now converge on the same diagnosis: the obstacles are not transient liquidity problems but embedded in how BUMN Karya balance sheets were constructed, revenue recognised on government contracts before cash is received, and cross-entity guarantees that make isolating a single firm&#39;s true position legally and technically difficult. This is no longer news; it is a structural condition.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>The absence of audited Danantara financials blocks the very equity or debt transactions needed to recapitalise distressed BUMN Karya subsidiaries. Lenders and potential strategic partners cannot price risk without them. The restructuring therefore cannot close before the transparency gap closes, meaning the end-2026 target is contingent on a prerequisite that does not yet exist, and each month of delay compounds contingent liabilities on the sovereign balance sheet.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Model the BUMN Karya restructuring timeline with financial-statement publication as the gating event, not the announced end-2026 target. Assess which BUMN Karya counterparties (suppliers, project financiers, subcontractors) carry undisclosed exposure and whether their own credit profiles price that in.</dd></div>
 </dl>
 <div class="corrob">
@@ -521,7 +556,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Recurring · 2x since 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>OpenAI published on 2026-08-19 that Zero Data Retention (ZDR) is now available for eligible API customers across its frontier models, and previewed Private Safety Processing—a mechanism enabling AI safety checks without OpenAI accessing customer prompt content. Previously, ZDR was limited to select model tiers. <span class="cites"><a href="#s6" aria-label="Source 6">[6]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>OpenAI published on 2026-08-19 that Zero Data Retention (ZDR) is now available for eligible API customers across its frontier models, and previewed Private Safety Processing, a mechanism enabling AI safety checks without OpenAI accessing customer prompt content. Previously, ZDR was limited to select model tiers. <span class="cites"><a href="#s6" aria-label="Source 6">[6]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>Enterprise AI procurement in regulated industries (finance, health, government) has been blocked or slowed by data-residency and confidentiality requirements. Extending ZDR to frontier models removes a principal objection. Private Safety Processing is a meaningful architectural concession: it decouples safety compliance from data access, addressing the tension between regulatory oversight and client confidentiality that has persisted since GPT-4&#39;s enterprise rollout.</dd></div>
 <div class="rung"><dt>Second-order effect</dt><dd>If OpenAI can deliver safety assurance without data retention, the regulatory argument for preferring on-premise or private-cloud LLM deployments weakens substantially. This shifts competitive pressure onto providers whose enterprise value proposition rested on data isolation (self-hosted open-weight models, private-cloud API vendors). It also sets a new procurement benchmark: enterprise buyers will now ask all frontier API providers to match ZDR plus privacy-preserving safety processing.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Revisit enterprise AI procurement policies drafted before this announcement. Re-evaluate whether on-premise or private-cloud LLM deployments remain necessary for data-confidentiality compliance, and request ZDR and Private Safety Processing terms from all frontier API vendors as a baseline.</dd></div>
@@ -549,7 +584,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>SolarPower Europe data published by pv magazine on 2026-08-20 show Europe installed 36 GWh of new battery storage capacity in 2025, a 48% increase year-on-year. Germany remained the largest market. Ukraine entered the top five, reflecting war-driven demand for grid resilience. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>A 48% annual growth rate on an already-large base confirms that battery storage is moving from supplementary to structural in European grid architecture. The Ukraine entry is notable: conflict-driven energy resilience requirements are accelerating deployment in markets that would otherwise be years behind, compressing what was expected to be a gradual diffusion curve.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Rapid European storage deployment is tightening global supply chains for lithium-iron-phosphate cells and inverters—the same components Indonesia needs for its own renewable integration. If Indonesia&#39;s grid investment (flagged in the Indonesia-Germany bilateral cooperation story) accelerates, it will compete for equipment in a market where European demand is already growing at 48% annually, potentially inflating procurement costs and extending delivery timelines.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Rapid European storage deployment is tightening global supply chains for lithium-iron-phosphate cells and inverters, the same components Indonesia needs for its own renewable integration. If Indonesia&#39;s grid investment (flagged in the Indonesia-Germany bilateral cooperation story) accelerates, it will compete for equipment in a market where European demand is already growing at 48% annually, potentially inflating procurement costs and extending delivery timelines.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>For Indonesian energy project developers and PLN, assess procurement pipelines for battery storage components against European demand trajectories. Consider locking in supply agreements now rather than at financial close, and evaluate whether Indonesian-German bilateral energy cooperation [24] can include preferential equipment access.</dd></div>
 </dl>
 <div class="corrob">
@@ -575,7 +610,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>CNBC Indonesia reported on 2026-08-20 that Danantara&#39;s leadership summoned Telkom management and directed the company to reduce its subsidiary count to 18. The number of subsidiaries being eliminated was not specified in the available headline, but the directive is attributed directly to Danantara&#39;s principal. <span class="cites"><a href="#s10" aria-label="Source 10">[10]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>Danantara is demonstrating that it can exercise operational governance over SOEs even while balance-sheet restructuring of BUMN Karya remains blocked. Telkom is Indonesia&#39;s most profitable and liquid SOE; rationalising its subsidiary portfolio is lower-risk than restructuring insolvent construction firms, but the precedent matters: Danantara is acting as an active holding company, not a passive fund.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Telkom subsidiaries being wound down or merged will create M&amp;A opportunities—and displacement risk—in Indonesia&#39;s digital infrastructure, fintech (LinkAja is Telkom-adjacent), and enterprise-IT markets. Investors and strategic buyers should map which of Telkom&#39;s subsidiaries fall below the 18-entity threshold and whether any carry assets worth acquiring.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Telkom subsidiaries being wound down or merged will create M&amp;A opportunities, and displacement risk, in Indonesia&#39;s digital infrastructure, fintech (LinkAja is Telkom-adjacent), and enterprise-IT markets. Investors and strategic buyers should map which of Telkom&#39;s subsidiaries fall below the 18-entity threshold and whether any carry assets worth acquiring.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Map Telkom&#39;s current subsidiary structure against the 18-entity target. Identify which subsidiaries are candidates for divestiture or closure, and assess whether any represent acquirable digital-infrastructure or fintech assets at distressed valuations.</dd></div>
 </dl>
 <div class="corrob">
@@ -595,7 +630,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>What to watch</h2>
-<ul class="plain"><li>Publication of Danantara audited financial statements — the gating event for BUMN Karya recapitalisation and the end-2026 restructuring target <span class="n">· 31 December 2026</span></li><li>ESDM release of 14 new WKP tender terms: check minimum work-program commitments and financial-qualification thresholds versus prior auction cycles <span class="n">· 30 September 2026</span></li><li>Telkom subsidiary list post-rationalisation to 18 entities: identify divested or wound-down units as potential acquisition targets <span class="n">· 31 October 2026</span></li><li>Competing frontier API providers&#39; response to OpenAI&#39;s ZDR + Private Safety Processing benchmark — watch Anthropic and Google for equivalent announcements <span class="n">· 1 October 2026</span></li><li>Indonesia-Germany renewable energy and grid investment MOU implementation details — equipment procurement terms and battery storage supply chain implications <span class="n">· 30 November 2026</span></li></ul>
+<ul class="plain"><li>Publication of Danantara audited financial statements, the gating event for BUMN Karya recapitalisation and the end-2026 restructuring target <span class="n">· 31 December 2026</span></li><li>ESDM release of 14 new WKP tender terms: check minimum work-program commitments and financial-qualification thresholds versus prior auction cycles <span class="n">· 30 September 2026</span></li><li>Telkom subsidiary list post-rationalisation to 18 entities: identify divested or wound-down units as potential acquisition targets <span class="n">· 31 October 2026</span></li><li>Competing frontier API providers&#39; response to OpenAI&#39;s ZDR + Private Safety Processing benchmark, watch Anthropic and Google for equivalent announcements <span class="n">· 1 October 2026</span></li><li>Indonesia-Germany renewable energy and grid investment MOU implementation details, equipment procurement terms and battery storage supply chain implications <span class="n">· 30 November 2026</span></li></ul>
 
 <h2>Sources</h2>
 <p class="note">Every signal above cites the sources below. We do not republish article content; follow the link to read it at the original publisher.</p>

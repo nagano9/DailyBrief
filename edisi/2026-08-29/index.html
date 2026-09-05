@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Ringkasan</h2>
-<p>Danantara mengonfirmasi setoran dividen Rp120 triliun ke APBN tahun ini—jumlah yang menegaskan bahwa restrukturisasi BUMN Karya kini memiliki tenggat fiskal keras, bukan sekadar target operasional. Bersamaan, Anthropic meluncurkan Model Hardware Standard yang untuk pertama kali memberi agen AI akses terkontrol ke perangkat keras fisik, membuka kelas risiko dan peluang baru di luar domain perangkat lunak. Di sisi energi, rencana pembentukan BLU Energi langsung mempertanyakan posisi PLN EPI sebagai entitas pengadaan batu bara, sementara program PLTS 100 GWp masih menghadapi tantangan eksekusi yang dicatat IESR. Empat sinyal ini saling terkait: kebutuhan fiskal Danantara mendorong akselerasi divestasi dan merger BUMN Karya, yang sebagian besar beroperasi di sektor infrastruktur energi; sementara perubahan arsitektur AI-fisik Anthropic akan mempercepat kebutuhan daya komputasi yang berdampak pada agenda kelistrikan Indonesia.</p>
+<p>Danantara mengonfirmasi setoran dividen Rp120 triliun ke APBN tahun ini, jumlah yang menegaskan bahwa restrukturisasi BUMN Karya kini memiliki tenggat fiskal keras, bukan sekadar target operasional. Bersamaan, Anthropic meluncurkan Model Hardware Standard yang untuk pertama kali memberi agen AI akses terkontrol ke perangkat keras fisik, membuka kelas risiko dan peluang baru di luar domain perangkat lunak. Di sisi energi, rencana pembentukan BLU Energi langsung mempertanyakan posisi PLN EPI sebagai entitas pengadaan batu bara, sementara program PLTS 100 GWp masih menghadapi tantangan eksekusi yang dicatat IESR. Empat sinyal ini saling terkait: kebutuhan fiskal Danantara mendorong akselerasi divestasi dan merger BUMN Karya, yang sebagian besar beroperasi di sektor infrastruktur energi; sementara perubahan arsitektur AI-fisik Anthropic akan mempercepat kebutuhan daya komputasi yang berdampak pada agenda kelistrikan Indonesia.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Tren yang sedang terbentuk</h2>
@@ -464,8 +499,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Kepala BP BUMN Purbaya Yudhi Sadewa secara publik menyatakan bahwa Danantara akan menyetor dividen sekitar Rp120 triliun ke kas negara tahun ini, dengan keputusan sudah ditetapkan oleh Presiden dan hanya menunggu jadwal pengiriman. <span class="cites"><a href="#s5" aria-label="Sumber 5">[5]</a><a href="#s7" aria-label="Sumber 7">[7]</a><a href="#s14" aria-label="Sumber 14">[14]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Kewajiban fiskal Rp120 triliun mengubah restrukturisasi BUMN Karya dari proses transformasi jangka panjang menjadi agenda dengan tenggat keras 2026. Danantara harus mengoptimalkan arus kas dari portofolio BUMN—termasuk entitas Karya yang masih dalam proses penyehatan laporan keuangan, divestasi, dan merger—untuk memenuhi komitmen ini. Ini melanjutkan tema danantara-bumn-karya-restructuring yang kini memasuki fase akuntabilitas fiskal.</dd></div>
-<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Tekanan Rp120 triliun dapat memaksa percepatan divestasi aset BUMN Karya yang semula dijadwalkan hati-hati, berpotensi menurunkan nilai transaksi karena pembeli strategis mengetahui urgensi penjual. Lebih jauh, jika setoran tidak terpenuhi penuh, kredibilitas Danantara sebagai sovereign wealth vehicle akan dipertanyakan pasar obligasi—termasuk investor Patriot Bond yang sudah terdaftar di OJK. <span class="cites"><a href="#s13" aria-label="Sumber 13">[13]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Kewajiban fiskal Rp120 triliun mengubah restrukturisasi BUMN Karya dari proses transformasi jangka panjang menjadi agenda dengan tenggat keras 2026. Danantara harus mengoptimalkan arus kas dari portofolio BUMN, termasuk entitas Karya yang masih dalam proses penyehatan laporan keuangan, divestasi, dan merger, untuk memenuhi komitmen ini. Ini melanjutkan tema danantara-bumn-karya-restructuring yang kini memasuki fase akuntabilitas fiskal.</dd></div>
+<div class="rung sourced"><dt>Efek lanjutan</dt><dd>Tekanan Rp120 triliun dapat memaksa percepatan divestasi aset BUMN Karya yang semula dijadwalkan hati-hati, berpotensi menurunkan nilai transaksi karena pembeli strategis mengetahui urgensi penjual. Lebih jauh, jika setoran tidak terpenuhi penuh, kredibilitas Danantara sebagai sovereign wealth vehicle akan dipertanyakan pasar obligasi, termasuk investor Patriot Bond yang sudah terdaftar di OJK. <span class="cites"><a href="#s13" aria-label="Sumber 13">[13]</a></span></dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Tinjau ulang proyeksi arus kas BUMN Karya yang berada di portofolio Danantara: identifikasi aset mana yang paling liquid untuk divestasi cepat, dan bandingkan dengan jadwal merger yang sudah berjalan. Pertanyaan kunci: apakah Rp120 triliun berasal dari dividen portofolio eksisting atau dari pencairan aset?</dd></div>
 </dl>
 <div class="corrob">
@@ -493,8 +528,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Anthropic mempublikasikan Model Hardware Standard, sebuah spesifikasi teknis yang mendefinisikan bagaimana model AI dapat mengontrol perangkat keras fisik secara terkontrol. Ars Technica mengonfirmasi bahwa ini adalah standar pertama yang secara eksplisit memberi agen AI akses ke dunia fisik. <span class="cites"><a href="#s6" aria-label="Sumber 6">[6]</a><a href="#s10" aria-label="Sumber 10">[10]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Ini bukan pembaruan model—ini pergeseran kategori. Selama ini, batas antara AI dan infrastruktur fisik dijaga oleh absennya standar antarmuka. Dengan standar ini, Anthropic mendefinisikan protokol yang memungkinkan agen mengoperasikan peralatan industri, laboratorium, atau fasilitas produksi. Ini membuka pasar baru yang jauh lebih besar dari software-only AI.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Standar hardware Anthropic akan menarik respons dari regulator keselamatan industri (bukan hanya regulator AI), karena kini ada jalur teknis yang terdefinisi antara model bahasa dan aktuator fisik. Di Indonesia, ini relevan untuk diskusi BUMN energi dan infrastruktur yang mulai mengeksplorasi otomasi berbasis AI—kesiapan regulasi domestik untuk agen AI yang mengontrol aset fisik belum ada.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Ini bukan pembaruan model, ini pergeseran kategori. Selama ini, batas antara AI dan infrastruktur fisik dijaga oleh absennya standar antarmuka. Dengan standar ini, Anthropic mendefinisikan protokol yang memungkinkan agen mengoperasikan peralatan industri, laboratorium, atau fasilitas produksi. Ini membuka pasar baru yang jauh lebih besar dari software-only AI.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Standar hardware Anthropic akan menarik respons dari regulator keselamatan industri (bukan hanya regulator AI), karena kini ada jalur teknis yang terdefinisi antara model bahasa dan aktuator fisik. Di Indonesia, ini relevan untuk diskusi BUMN energi dan infrastruktur yang mulai mengeksplorasi otomasi berbasis AI, kesiapan regulasi domestik untuk agen AI yang mengontrol aset fisik belum ada.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Baca penuh dokumen Model Hardware Standard Anthropic dan identifikasi apakah spesifikasinya kompatibel dengan protokol SCADA/OT yang digunakan BUMN infrastruktur Indonesia. Pertanyaan yang perlu diajukan ke tim hukum dan teknis: apakah kontrak vendor AI eksisting sudah mencakup skenario kendali perangkat keras?</dd></div>
 </dl>
 <div class="corrob">
@@ -520,8 +555,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>Bisnis.com melaporkan bahwa rencana pembentukan BLU Energi oleh pemerintah langsung mempertanyakan nasib PLN EPI (Energi Primer Indonesia) sebagai entitas pengadaan batu bara untuk pembangkit PLN. Bloomberg Technoz menambahkan bahwa BLU yang akan memasok batu bara ke pembangkit diwajibkan memiliki izin blending. <span class="cites"><a href="#s3" aria-label="Sumber 3">[3]</a><a href="#s8" aria-label="Sumber 8">[8]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>PLN EPI adalah anak usaha PLN yang selama ini mengelola pengadaan energi primer. Jika BLU Energi mengambil alih fungsi ini, struktur vertikali PLN—dari pembangkitan hingga distribusi—akan terfragmentasi secara institusional. Ini melanjutkan tema pln-transmisi-investasi: setelah PLTS 100 GWp diluncurkan dengan tantangan eksekusi, kini sisi hulu batu bara pun menghadapi perombakan kelembagaan.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Fragmentasi pengadaan energi primer dari PLN ke BLU Energi akan menciptakan dua pusat kontrak—PLN EPI dan BLU—yang berpotensi tumpang tindih dalam negosiasi dengan pemasok batu bara. Bagi produsen batu bara termal, ini adalah ketidakpastian kontrak jangka menengah. Bagi investor transmisi dan pembangkit EBT, pertanyaannya menjadi: siapa offtaker sesungguhnya dalam kontrak PPA baru?</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>PLN EPI adalah anak usaha PLN yang selama ini mengelola pengadaan energi primer. Jika BLU Energi mengambil alih fungsi ini, struktur vertikali PLN, dari pembangkitan hingga distribusi, akan terfragmentasi secara institusional. Ini melanjutkan tema pln-transmisi-investasi: setelah PLTS 100 GWp diluncurkan dengan tantangan eksekusi, kini sisi hulu batu bara pun menghadapi perombakan kelembagaan.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Fragmentasi pengadaan energi primer dari PLN ke BLU Energi akan menciptakan dua pusat kontrak, PLN EPI dan BLU, yang berpotensi tumpang tindih dalam negosiasi dengan pemasok batu bara. Bagi produsen batu bara termal, ini adalah ketidakpastian kontrak jangka menengah. Bagi investor transmisi dan pembangkit EBT, pertanyaannya menjadi: siapa offtaker sesungguhnya dalam kontrak PPA baru?</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Minta klarifikasi dari tim regulasi: apakah BLU Energi akan menggantikan atau berdampingan dengan PLN EPI, dan bagaimana implikasinya terhadap kontrak PPA yang sedang negosiasi. Tinjau klausul change-of-control dalam kontrak energi primer eksisting PLN.</dd></div>
 </dl>
 <div class="corrob">
@@ -546,9 +581,9 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>Yang berubah</dt><dd>Anthropic mempublikasikan temuan bahwa automated researchers—agen AI yang didesain untuk meneliti masalah keselamatan—dapat secara andal mengidentifikasi dan memitigasi kegagalan alignment pada model AI lain. <span class="cites"><a href="#s2" aria-label="Sumber 2">[2]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Ini adalah sinyal pertama dari lab frontier bahwa pengawasan keselamatan AI dapat diskalakan secara otomatis, bukan hanya bergantung pada peneliti manusia. Jika divalidasi secara independen, ini mengubah argumen bahwa AI tidak bisa diawasi pada skala yang dibutuhkan—dan memberi justifikasi untuk deploy agen AI di domain berisiko tinggi lebih cepat.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Klaim bahwa AI dapat mengawasi AI sendiri akan mempercepat tekanan regulasi untuk meminta lab membuktikan kapabilitas ini secara teraudit—bukan sekadar self-reported. Di Indonesia, BSSN dan Kominfo belum memiliki kerangka audit untuk klaim keselamatan AI semacam ini, sehingga adopsi enterprise dari temuan ini akan berjalan tanpa pengawas teknis yang memadai.</dd></div>
+<div class="rung sourced"><dt>Yang berubah</dt><dd>Anthropic mempublikasikan temuan bahwa automated researchers, agen AI yang didesain untuk meneliti masalah keselamatan, dapat secara andal mengidentifikasi dan memitigasi kegagalan alignment pada model AI lain. <span class="cites"><a href="#s2" aria-label="Sumber 2">[2]</a></span></dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Ini adalah sinyal pertama dari lab frontier bahwa pengawasan keselamatan AI dapat diskalakan secara otomatis, bukan hanya bergantung pada peneliti manusia. Jika divalidasi secara independen, ini mengubah argumen bahwa AI tidak bisa diawasi pada skala yang dibutuhkan, dan memberi justifikasi untuk deploy agen AI di domain berisiko tinggi lebih cepat.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Klaim bahwa AI dapat mengawasi AI sendiri akan mempercepat tekanan regulasi untuk meminta lab membuktikan kapabilitas ini secara teraudit, bukan sekadar self-reported. Di Indonesia, BSSN dan Kominfo belum memiliki kerangka audit untuk klaim keselamatan AI semacam ini, sehingga adopsi enterprise dari temuan ini akan berjalan tanpa pengawas teknis yang memadai.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Baca penuh publikasi Anthropic tentang automated alignment researchers dan identifikasi metodologi evaluasi yang digunakan. Pertanyaan kunci untuk due diligence vendor AI: apakah sistem yang ditawarkan menggunakan mekanisme pengawasan otomatis yang dapat diaudit pihak ketiga?</dd></div>
 </dl>
 <div class="corrob">
@@ -573,8 +608,8 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </div>
 <dl class="ladder">
 <div class="rung sourced"><dt>Yang berubah</dt><dd>PLN mengoperasikan PLTS Terapung di Waduk Gajah Mungkur, Jawa Tengah. Kementerian ESDM mengonfirmasi program PLTS 100 GWp mencakup lokasi dari Gilimanuk hingga Pulau Rengit. IESR sebelumnya mencatat bahwa eksekusi cepat dan terukur adalah tantangan nyata setelah peluncuran oleh Presiden Prabowo di Bali. <span class="cites"><a href="#s1" aria-label="Sumber 1">[1]</a><a href="#s4" aria-label="Sumber 4">[4]</a><a href="#s9" aria-label="Sumber 9">[9]</a><a href="#s11" aria-label="Sumber 11">[11]</a><a href="#s12" aria-label="Sumber 12">[12]</a></span></dd></div>
-<div class="rung"><dt>Mengapa penting</dt><dd>Program PLTS 100 GWp kini melewati fase peluncuran seremonial ke fase eksekusi lapangan. Adanya proyek konkret yang beroperasi (Gajah Mungkur) dan peta lokasi yang dikonfirmasi ESDM menunjukkan bahwa pipeline proyek nyata—namun kecepatan dan skala eksekusi masih jauh dari target 100 GWp dalam tiga tahun. Ini melanjutkan tema pln-transmisi-investasi dengan akumulasi bukti bahwa gap antara ambisi dan kapasitas eksekusi semakin terlihat.</dd></div>
-<div class="rung"><dt>Efek lanjutan</dt><dd>Jika laju eksekusi PLTS 100 GWp tidak mencapai trajektori yang dibutuhkan dalam 12 bulan pertama, tekanan pada PLN untuk memprioritaskan pembangkit batu bara eksisting akan meningkat—tepat di saat BLU Energi sedang didisain untuk mengambil alih pengadaan batu bara. Dua perombakan kelembagaan berjalan bersamaan dengan kapasitas birokrasi yang terbatas.</dd></div>
+<div class="rung"><dt>Mengapa penting</dt><dd>Program PLTS 100 GWp kini melewati fase peluncuran seremonial ke fase eksekusi lapangan. Adanya proyek konkret yang beroperasi (Gajah Mungkur) dan peta lokasi yang dikonfirmasi ESDM menunjukkan bahwa pipeline proyek nyata, namun kecepatan dan skala eksekusi masih jauh dari target 100 GWp dalam tiga tahun. Ini melanjutkan tema pln-transmisi-investasi dengan akumulasi bukti bahwa gap antara ambisi dan kapasitas eksekusi semakin terlihat.</dd></div>
+<div class="rung"><dt>Efek lanjutan</dt><dd>Jika laju eksekusi PLTS 100 GWp tidak mencapai trajektori yang dibutuhkan dalam 12 bulan pertama, tekanan pada PLN untuk memprioritaskan pembangkit batu bara eksisting akan meningkat, tepat di saat BLU Energi sedang didisain untuk mengambil alih pengadaan batu bara. Dua perombakan kelembagaan berjalan bersamaan dengan kapasitas birokrasi yang terbatas.</dd></div>
 <div class="rung act"><dt>Tindakan</dt><dd>Bangun tracker kapasitas PLTS yang terinstall per kuartal versus target 100 GWp/3 tahun (~33 GWp/tahun). Bandingkan dengan data IESR tentang kapasitas EPC domestik. Pertanyaan ke ESDM: berapa GWp yang sudah dalam tahap financial close, bukan sekadar groundbreaking?</dd></div>
 </dl>
 <div class="corrob">
@@ -598,7 +633,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>Yang perlu dipantau</h2>
-<ul class="plain"><li>Jadwal dan mekanisme setoran Rp120 triliun Danantara ke APBN: apakah dari dividen portofolio atau divestasi aset—ini menentukan urgensi likuidasi BUMN Karya. <span class="n">· 30 September 2026</span></li><li>Regulasi teknis BLU Energi: apakah akan menggantikan PLN EPI atau berdampingan, dan bagaimana dampaknya terhadap kontrak PPA EBT yang sedang berjalan. <span class="n">· 31 Oktober 2026</span></li><li>Respons industri dan regulator keselamatan terhadap Model Hardware Standard Anthropic—khususnya apakah IEEE atau IEC akan mengadopsi atau merespons standar ini. <span class="n">· 30 November 2026</span></li><li>Laporan kuartal pertama eksekusi PLTS 100 GWp: berapa GWp yang sudah financial close versus groundbreaking seremonial. <span class="n">· 1 Desember 2026</span></li></ul>
+<ul class="plain"><li>Jadwal dan mekanisme setoran Rp120 triliun Danantara ke APBN: apakah dari dividen portofolio atau divestasi aset, ini menentukan urgensi likuidasi BUMN Karya. <span class="n">· 30 September 2026</span></li><li>Regulasi teknis BLU Energi: apakah akan menggantikan PLN EPI atau berdampingan, dan bagaimana dampaknya terhadap kontrak PPA EBT yang sedang berjalan. <span class="n">· 31 Oktober 2026</span></li><li>Respons industri dan regulator keselamatan terhadap Model Hardware Standard Anthropic, khususnya apakah IEEE atau IEC akan mengadopsi atau merespons standar ini. <span class="n">· 30 November 2026</span></li><li>Laporan kuartal pertama eksekusi PLTS 100 GWp: berapa GWp yang sudah financial close versus groundbreaking seremonial. <span class="n">· 1 Desember 2026</span></li></ul>
 
 <h2>Sumber</h2>
 <p class="note">Setiap sinyal di atas mengutip sumber di bawah ini. Kami tidak menerbitkan ulang isi artikel; klik untuk membaca di penerbit aslinya.</p>

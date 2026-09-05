@@ -83,6 +83,32 @@ p{margin:0 0 1.05rem}
 
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+border-bottom:1px solid var(--rule-strong)}
+.eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
+.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
+border-top:1px solid var(--rule);padding-top:.85rem}
+.home-kpis div{min-width:0}
+.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
+line-height:1.05;font-weight:600;color:var(--ink)}
+.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.issue-main{min-width:0}
+.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
+.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
+.issue-rail ul{list-style:none;margin:0;padding:0}
+.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
+.issue-rail li:first-child{border-top:0;padding-top:0}
+.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
+.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
+.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
+letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 
 .lede h2.lead{font-family:var(--serif);font-size:2rem;font-weight:600;
@@ -101,6 +127,8 @@ gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04e
 
 .context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1rem 0;margin:1.3rem 0 1.8rem}
+.home-context{background:var(--card);padding:1rem 1rem .95rem;
+border:1px solid var(--rule);margin:1.2rem 0 1.8rem}
 .context h2{margin:0 0 .8rem;padding:0;border:0}
 .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
 .context-item{min-width:0}
@@ -152,6 +180,7 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .note{font-size:.9rem;color:var(--muted);margin-bottom:1.1rem}
 
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
+.home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
 
 .cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
@@ -237,6 +266,11 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:48rem){
+.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-kpis{max-width:none}
+.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
+}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -244,6 +278,7 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
+.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -446,7 +481,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 </section>
 
 <h2>Summary</h2>
-<p>Nvidia&#39;s equity investment in Cloverleaf Infrastructure confirms that the AI value chain has migrated from hardware sales to project-finance-style infrastructure sponsorship, demanding a new analytical lens for evaluating AI datacenter exposure. Separately, OpenAI&#39;s positioning on California&#39;s AI safety bill signals that frontier labs are now active shapers of their own regulatory environment rather than passive subjects. In Indonesia, Danantara&#39;s inability to complete the BUMN Karya restructuring after months of effort reveals that cross-ministry coordination failures—not financial logic—are the binding constraint on SOE reform. On energy, Indonesia&#39;s Ministry of ESDM has publicly demanded that geothermal concession holders stop sitting on work areas, a direct escalation that continues the 14-WKP auction thread and puts Pertamina&#39;s expansion narrative under immediate pressure. Finally, the Indonesia-Germany renewable energy and grid investment MoU adds a bilateral financing dimension to the PLN transmission investment gap that IEEFA has documented since May.</p>
+<p>Nvidia&#39;s equity investment in Cloverleaf Infrastructure confirms that the AI value chain has migrated from hardware sales to project-finance-style infrastructure sponsorship, demanding a new analytical lens for evaluating AI datacenter exposure. Separately, OpenAI&#39;s positioning on California&#39;s AI safety bill signals that frontier labs are now active shapers of their own regulatory environment rather than passive subjects. In Indonesia, Danantara&#39;s inability to complete the BUMN Karya restructuring after months of effort reveals that cross-ministry coordination failures, not financial logic, are the binding constraint on SOE reform. On energy, Indonesia&#39;s Ministry of ESDM has publicly demanded that geothermal concession holders stop sitting on work areas, a direct escalation that continues the 14-WKP auction thread and puts Pertamina&#39;s expansion narrative under immediate pressure. Finally, the Indonesia-Germany renewable energy and grid investment MoU adds a bilateral financing dimension to the PLN transmission investment gap that IEEFA has documented since May.</p>
 
 <aside class="rail-trend" aria-labelledby="tren">
 <h2 id="tren" class="rail-h">Trends forming</h2>
@@ -465,7 +500,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Nvidia has made a direct equity investment in Cloverleaf Infrastructure, a datacenter developer, as confirmed by Reuters and TechCrunch. This is not a supply agreement or a preferred-customer arrangement; Nvidia is taking ownership exposure in the project entity itself. <span class="cites"><a href="#s5" aria-label="Source 5">[5]</a><a href="#s9" aria-label="Source 9">[9]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues and deepens the thread flagged two editions ago (nuclear-ai-datacenter-power): Nvidia is no longer positioning as a hardware vendor but as an infrastructure co-sponsor with balance-sheet risk in the datacenter asset. The vendor is now on the same side of the table as the equity investor, not the equipment supplier.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Once a GPU vendor holds equity in a datacenter, the conflict-of-interest structure changes entirely: Nvidia has an incentive to steer compute procurement, cooling specs, and power contracts toward configurations that maximise its own return, not the customer&#39;s. Lenders and co-investors in future AI datacenter projects must now treat Nvidia&#39;s involvement as a sponsor position requiring the same scrutiny as any controlling shareholder—including related-party transaction review—not merely a technology dependency.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Once a GPU vendor holds equity in a datacenter, the conflict-of-interest structure changes entirely: Nvidia has an incentive to steer compute procurement, cooling specs, and power contracts toward configurations that maximise its own return, not the customer&#39;s. Lenders and co-investors in future AI datacenter projects must now treat Nvidia&#39;s involvement as a sponsor position requiring the same scrutiny as any controlling shareholder, including related-party transaction review, not merely a technology dependency.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Revise any AI datacenter due-diligence checklist to add a &#39;Sponsor identity and conflict&#39; layer: when Nvidia (or any compute vendor) appears as equity holder, treat procurement of GPUs, networking, and power as related-party transactions and require arm&#39;s-length benchmarking before approving project financing.</dd></div>
 </dl>
 <div class="corrob">
@@ -492,7 +527,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>The head of BP BUMN publicly stated that the BUMN Karya restructuring has not been completed and that cross-ministry coordination barriers remain unresolved, as reported by CNBC Indonesia and Kompas.com. CNN Indonesia separately detailed the structural reasons Danantara finds the process difficult. This is now the fourth appearance of this thread in 30 days, having recurred since 2026-08-19. <span class="cites"><a href="#s2" aria-label="Source 2">[2]</a><a href="#s8" aria-label="Source 8">[8]</a><a href="#s11" aria-label="Source 11">[11]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>The accumulation of four confirmed recurrences in 30 days shifts this from &#39;news&#39; to &#39;structural condition&#39;: the BUMN Karya impasse is no longer a temporary delay but an institutionalised coordination failure. Danantara holds the financial mandate but not the regulatory authority over the ministries that control land rights, project permits, and labour arrangements for the construction SOEs. That gap is the actual binding constraint.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>At the structural stage, the risk is no longer &#39;will the restructuring complete?&#39; but &#39;what happens to the SOEs&#39; existing project pipelines and counterparty obligations while they remain in limbo?&#39; Contractors, subcontractors, and project-finance lenders with exposure to BUMN Karya entities (Waskita, Hutama Karya, PTPP, Wijaya Karya) face prolonged uncertainty on contract novation, guarantee coverage, and parent-company support—risks that are not yet priced into their bond spreads or supplier credit terms.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>At the structural stage, the risk is no longer &#39;will the restructuring complete?&#39; but &#39;what happens to the SOEs&#39; existing project pipelines and counterparty obligations while they remain in limbo?&#39; Contractors, subcontractors, and project-finance lenders with exposure to BUMN Karya entities (Waskita, Hutama Karya, PTPP, Wijaya Karya) face prolonged uncertainty on contract novation, guarantee coverage, and parent-company support, risks that are not yet priced into their bond spreads or supplier credit terms.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>This week: map direct and indirect exposure to BUMN Karya entities across any portfolio or procurement chain; assess whether existing guarantees or letters of support from these SOEs remain enforceable under the current restructuring ambiguity, and flag any debt maturities falling within the next 12 months that assume a completed restructuring.</dd></div>
 </dl>
 <div class="corrob">
@@ -520,7 +555,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Kementerian ESDM Minister Bahlil issued a public statement demanding that geothermal developers not hold (sit on) their concessions without active development, directly threatening concession revocation. Pertamina simultaneously announced national geothermal expansion at IIGCE 2026, and a detikFinance report confirms that existing geothermal assets are being targeted for an additional 45 MW of capacity uplift. <span class="cites"><a href="#s1" aria-label="Source 1">[1]</a><a href="#s7" aria-label="Source 7">[7]</a><a href="#s10" aria-label="Source 10">[10]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues the indonesia-geothermal-concession-reform thread (now four occurrences since 2026-08-19). The minister&#39;s public ultimatum is a qualitative escalation beyond the 14-WKP auction announcement: it signals that the government is prepared to use concession revocation as an active policy instrument, not merely as a theoretical backstop. Pertamina&#39;s expansion posture at IIGCE 2026 suggests it is positioning to absorb reassigned areas.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>If revocation becomes credible, private and foreign developers holding underdeveloped WKPs face a binary choice—accelerate capital deployment into Indonesia&#39;s geothermal pipeline or exit before forced surrender. This compresses the decision timeline for developers who have been deferring final investment decisions pending PPA tariff clarity. It also concentrates geothermal development risk further in Pertamina, which may lack the balance sheet to absorb a large portfolio of reassigned areas without crowding out its upstream oil and gas capex.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>If revocation becomes credible, private and foreign developers holding underdeveloped WKPs face a binary choice, accelerate capital deployment into Indonesia&#39;s geothermal pipeline or exit before forced surrender. This compresses the decision timeline for developers who have been deferring final investment decisions pending PPA tariff clarity. It also concentrates geothermal development risk further in Pertamina, which may lack the balance sheet to absorb a large portfolio of reassigned areas without crowding out its upstream oil and gas capex.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Request an updated WKP status matrix from any geothermal project counterparty this week: identify which areas are at revocation risk, whether Pertamina or private developers hold them, and whether existing PPA negotiations are advanced enough to satisfy the government&#39;s &#39;active development&#39; criterion before enforcement begins.</dd></div>
 </dl>
 <div class="corrob">
@@ -548,7 +583,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <dl class="ladder">
 <div class="rung sourced"><dt>What changed</dt><dd>Indonesia and Germany have stepped up a renewable energy and grid investment partnership, as reported by Petromindo. This adds a bilateral government-to-government financing dimension to the PLN transmission investment gap that IEEFA documented in May and June 2026 presentations on unlocking Indonesia&#39;s grid investment. <span class="cites"><a href="#s3" aria-label="Source 3">[3]</a><a href="#s6" aria-label="Source 6">[6]</a><a href="#s12" aria-label="Source 12">[12]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>IEEFA&#39;s work established that PLN&#39;s transmission constraints are the primary bottleneck for renewable energy integration; the Indonesia-Germany partnership now introduces a potential concessional or blended-finance channel that could bypass the PLN balance-sheet limitations that have slowed grid expansion. Germany&#39;s development finance institutions (KfW, DEG) have established playbooks for transmission subholding structures that match IEEFA&#39;s recommended reform path.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>Bilateral partnerships of this type typically take 18-24 months to convert from MoU to disbursable financing, but their announcement shifts the negotiating dynamic for parallel commercial lenders: once a concessional anchor is in place, commercial tranches become easier to price and credit-enhance. The near-term effect is not capital—it is the validation signal that changes risk perception for private investors already assessing Indonesian grid assets.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>Bilateral partnerships of this type typically take 18-24 months to convert from MoU to disbursable financing, but their announcement shifts the negotiating dynamic for parallel commercial lenders: once a concessional anchor is in place, commercial tranches become easier to price and credit-enhance. The near-term effect is not capital, it is the validation signal that changes risk perception for private investors already assessing Indonesian grid assets.</dd></div>
 <div class="rung act"><dt>Action</dt><dd>Track the specific instruments being discussed under the Indonesia-Germany partnership (loan, grant, guarantee, or equity) and compare them against IEEFA&#39;s transmission subholding model. If a subholding structure is on the table, assess whether PLN&#39;s existing regulatory framework permits it before the next RUPTL revision cycle closes.</dd></div>
 </dl>
 <div class="corrob">
@@ -574,10 +609,10 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="tag rule">Recurring · 4x since 2026-08-20</span>
 </div>
 <dl class="ladder">
-<div class="rung sourced"><dt>What changed</dt><dd>OpenAI has publicly stated that California should strengthen—not weaken or delay—its AI safety bill, according to TechCrunch. This is the opposite of the position taken by most frontier-lab lobbying efforts in prior state-level AI legislation cycles. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a></span></dd></div>
+<div class="rung sourced"><dt>What changed</dt><dd>OpenAI has publicly stated that California should strengthen, not weaken or delay, its AI safety bill, according to TechCrunch. This is the opposite of the position taken by most frontier-lab lobbying efforts in prior state-level AI legislation cycles. <span class="cites"><a href="#s4" aria-label="Source 4">[4]</a></span></dd></div>
 <div class="rung"><dt>Why it matters</dt><dd>This continues the enterprise-ai-data-privacy-contracts thread. OpenAI formalised Zero Data Retention and previewed Private Safety Processing in the prior edition; now it is advocating for a regulatory framework that would mandate safety standards it already claims to meet. The pattern is regulatory capture by compliance: OpenAI is attempting to encode its existing practices as the legal floor, raising barriers for competitors who have not yet built equivalent infrastructure.</dd></div>
-<div class="rung"><dt>Second-order effect</dt><dd>If California passes a strengthened bill with OpenAI&#39;s implicit blessing, enterprise procurement teams will face a bifurcated vendor landscape: providers that can demonstrate compliance with California&#39;s safety standards (OpenAI, possibly Anthropic) and those that cannot. This shifts competitive advantage from model capability to compliance infrastructure—a moat that favours incumbents with large legal and safety teams and disadvantages open-source and smaller commercial providers. Enterprise AI contract terms will need to reference California compliance status as a material vendor qualification.</dd></div>
-<div class="rung act"><dt>Action</dt><dd>Review any enterprise AI vendor shortlists this week against the likely requirements of California&#39;s bill (audit rights, safety testing documentation, incident reporting). Flag vendors—particularly open-source API providers—whose compliance posture is unclear, and insert a regulatory-change clause into any AI services contracts being negotiated now.</dd></div>
+<div class="rung"><dt>Second-order effect</dt><dd>If California passes a strengthened bill with OpenAI&#39;s implicit blessing, enterprise procurement teams will face a bifurcated vendor landscape: providers that can demonstrate compliance with California&#39;s safety standards (OpenAI, possibly Anthropic) and those that cannot. This shifts competitive advantage from model capability to compliance infrastructure, a moat that favours incumbents with large legal and safety teams and disadvantages open-source and smaller commercial providers. Enterprise AI contract terms will need to reference California compliance status as a material vendor qualification.</dd></div>
+<div class="rung act"><dt>Action</dt><dd>Review any enterprise AI vendor shortlists this week against the likely requirements of California&#39;s bill (audit rights, safety testing documentation, incident reporting). Flag vendors, particularly open-source API providers, whose compliance posture is unclear, and insert a regulatory-change clause into any AI services contracts being negotiated now.</dd></div>
 </dl>
 <div class="corrob">
 <span class="unbacked">no primary source</span>
@@ -596,7 +631,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 
 
 <h2>What to watch</h2>
-<ul class="plain"><li>Cloverleaf Infrastructure project-finance terms: watch for lender syndication announcements that reveal whether Nvidia&#39;s equity position is treated as sponsor equity or vendor subordinated debt—the distinction determines risk allocation for co-investors. <span class="n">· 15 September 2026</span></li><li>BUMN Karya restructuring: monitor for any Presidential Regulation or inter-ministerial decree that would give Danantara cross-ministry authority; absence of such a decree by end-September 2026 would confirm the structural deadlock is permanent under current governance. <span class="n">· 30 September 2026</span></li><li>Geothermal concession revocation: watch KESDM for any formal revocation notice or WKP re-tender announcement following Bahlil&#39;s public ultimatum; first enforcement action would validate the policy shift from signal to reality. <span class="n">· 1 October 2026</span></li><li>California AI safety bill: track committee votes and OpenAI&#39;s formal written submissions; if the bill passes with OpenAI-endorsed provisions, update enterprise AI procurement standards immediately. <span class="n">· 30 September 2026</span></li><li>Indonesia-Germany grid partnership: identify the specific KfW or DEG instrument announced and whether a PLN transmission subholding feasibility study is commissioned as a precondition for disbursement. <span class="n">· 1 November 2026</span></li></ul>
+<ul class="plain"><li>Cloverleaf Infrastructure project-finance terms: watch for lender syndication announcements that reveal whether Nvidia&#39;s equity position is treated as sponsor equity or vendor subordinated debt, the distinction determines risk allocation for co-investors. <span class="n">· 15 September 2026</span></li><li>BUMN Karya restructuring: monitor for any Presidential Regulation or inter-ministerial decree that would give Danantara cross-ministry authority; absence of such a decree by end-September 2026 would confirm the structural deadlock is permanent under current governance. <span class="n">· 30 September 2026</span></li><li>Geothermal concession revocation: watch KESDM for any formal revocation notice or WKP re-tender announcement following Bahlil&#39;s public ultimatum; first enforcement action would validate the policy shift from signal to reality. <span class="n">· 1 October 2026</span></li><li>California AI safety bill: track committee votes and OpenAI&#39;s formal written submissions; if the bill passes with OpenAI-endorsed provisions, update enterprise AI procurement standards immediately. <span class="n">· 30 September 2026</span></li><li>Indonesia-Germany grid partnership: identify the specific KfW or DEG instrument announced and whether a PLN transmission subholding feasibility study is commissioned as a precondition for disbursement. <span class="n">· 1 November 2026</span></li></ul>
 
 <h2>Sources</h2>
 <p class="note">Every signal above cites the sources below. We do not republish article content; follow the link to read it at the original publisher.</p>
