@@ -136,46 +136,32 @@ export const STRINGS: Record<Lang, Strings> = {
     cadence: "Terbit setiap pagi",
     aboutWhatTitle: "Apa ini",
     aboutWhatBody:
-      "Briefing harian untuk pembaca yang perlu tahu apa yang bergerak sebelum rapat dimulai. Bukan agregator berita: dari sekitar empat ratus kandidat yang terkumpul tiap hari, hanya lima yang terbit. Masing-masing dibawa naik dari fakta ke pola, ke efek lanjutan, ke tindakan. Yang kami tawarkan adalah seleksi dan pertimbangan, bukan volume.",
+      "Briefing harian untuk pembaca yang perlu tahu apa yang bergerak sebelum rapat dimulai. DailyBrief bukan agregator berita; ia menyajikan sedikit sinyal yang telah dipilih, disusun, dan diberi konteks agar pembaca dapat menangkap implikasi strategisnya dengan cepat.",
     aboutHowTitle: "Bagaimana ia disusun",
     aboutTiers: [
       {
-        name: "Sumber wajib-pantau",
-        body: "Sumber primer dan resmi, diperiksa setiap kali berjalan: lab yang mengumumkan modelnya sendiri, regulator yang menerbitkan keputusannya sendiri.",
+        name: "Informasi publik",
+        body: "DailyBrief disusun dari informasi publik yang relevan dan dapat ditelusuri pembaca.",
       },
       {
-        name: "Penemuan terbuka",
-        body: "Kueri terhadap indeks berita, sehingga semesta sumbernya bisa berubah tiap hari. Ini yang menjangkau lembaga yang tidak menerbitkan feed sama sekali.",
+        name: "Konteks pembaca",
+        body: "Setiap edisi dirancang agar ringkas, jelas, dan berguna bagi pembaca profesional.",
       },
       {
-        name: "Sinyal awal",
-        body: "arXiv, rilis GitHub, dan komunitas teknis. Berisik dan dini secara sengaja; kadang mendahului liputannya berbulan-bulan.",
-      },
-      {
-        name: "Verifikasi",
-        body: "Berapa penerbit berbeda yang berdiri di balik sebuah klaim, dan apakah salah satunya sumber primer. Dihitung kode dari kutipannya, tidak pernah diklaim model.",
-      },
-      {
-        name: "Penalaran strategis",
-        body: "Fakta, lalu pola, lalu efek lanjutan, lalu tindakan. Keempatnya wajib, sehingga berhenti di ringkasan berita menjadi mustahil.",
-      },
-      {
-        name: "Memori sinyal",
-        body: "Tema yang sama lintas hari. Ini yang membedakan “ada berita” dari “ini sudah keempat kalinya dalam tiga minggu, dan sudah berhenti menjadi berita”.",
+        name: "Review internal",
+        body: "Sebelum publikasi, edisi ditinjau untuk menjaga akurasi, relevansi, kejelasan, dan akuntabilitas editorial.",
       },
     ],
     aboutRulesTitle: "Aturan yang mengikat kami",
     aboutRules: [
-      "Setiap sinyal wajib mengutip sumber yang benar-benar terambil hari itu. Yang kutipannya tidak resolve dibuang, bukan diperbaiki.",
-      "Bila terlalu sedikit sinyal lolos validasi, edisi hari itu tidak terbit. Kami memilih absen daripada terbit tipis.",
-      "Kami tidak menerbitkan ulang isi artikel. Yang Anda baca adalah analisis kami; sumbernya ditautkan agar bisa Anda periksa.",
-      "Angka hanya dikutip bila ada di sumbernya. Tidak ada estimasi.",
-      "Kekuatan bukti dihitung kode, bukan dinilai sendiri oleh model yang menulis klaimnya.",
-      "Koreksi dilakukan terbuka. Setiap edisi ada di bawah kontrol versi, jadi riwayat perubahannya permanen.",
+      "DailyBrief menyajikan analisis atas informasi publik, bukan menyalin ulang isi artikel.",
+      "Setiap edisi diarahkan untuk relevan, ringkas, dan berguna bagi pembaca profesional.",
+      "AI dipakai sebagai alat bantu kerja editorial, bukan sebagai otoritas final.",
+      "Bila ada koreksi material, pembaruan dilakukan secara bertanggung jawab.",
     ],
     aboutAiTitle: "Peran otomasi",
     aboutAiBody:
-      "DailyBrief adalah produk editorial yang dibantu AI. Otomasi membantu membaca sumber publik, menyusun bahan awal, dan menyiapkan analisis. Sebelum publikasi, setiap edisi melewati quality review internal untuk menjaga akurasi, relevansi, dan kejelasan editorial. AI tidak diposisikan sebagai otoritas final; tanggung jawab editorial tetap berada pada penerbit, dan pembaca selalu bisa membuka sumber asli yang ditautkan di setiap edisi.",
+      "DailyBrief adalah produk editorial yang dibantu AI. Otomasi dipakai sebagai alat bantu dalam alur kerja editorial, sementara standar akhir tetap ditentukan oleh akurasi, relevansi, kejelasan, dan akuntabilitas penerbit. Pembaca tetap dapat membuka sumber asli yang ditautkan di setiap edisi.",
     aboutLimitsTitle: "Batasnya",
     aboutLimitsBody:
       "Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia ringkasan informasi publik untuk membantu Anda masuk ke rapat dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.",
@@ -201,7 +187,7 @@ export const STRINGS: Record<Lang, Strings> = {
     trendSince: (n, since) => `${n}x sejak ${since}`,
     methodology: "Metodologi",
     methodologyBody:
-      "AI-assisted. Source-verified. Editorially accountable. Enam lapisan: sumber wajib-pantau, penemuan terbuka, sinyal awal dari riset dan rilis teknis, verifikasi silang, penalaran strategis, dan memori sinyal lintas hari. Setiap sinyal wajib mengutip sumber yang benar-benar terambil hari itu; klaim tanpa kutipan yang dapat diverifikasi tidak diterbitkan.",
+      "AI-assisted. Source-informed. Editorially accountable. DailyBrief menggunakan metodologi internal untuk memilih informasi publik yang relevan, menyusunnya menjadi konteks strategis, dan meninjau kualitasnya sebelum publikasi.",
     otherLang: "English",
     noEditions: "Belum ada edisi yang diterbitkan.",
     editionsCount: (n) => `${n} edisi`,
@@ -253,46 +239,32 @@ export const STRINGS: Record<Lang, Strings> = {
     cadence: "Published every morning",
     aboutWhatTitle: "What this is",
     aboutWhatBody:
-      "A daily brief for readers who need to know what moved before a meeting starts. Not an aggregator: of roughly four hundred candidates gathered daily, five are published. Each is carried from fact to pattern to second-order effect to action. What we offer is selection and judgement, not volume.",
+      "A daily brief for readers who need to know what moved before a meeting starts. DailyBrief is not a news aggregator; it presents a small number of selected signals with enough context for readers to understand their implications quickly.",
     aboutHowTitle: "How it is made",
     aboutTiers: [
       {
-        name: "Must-monitor sources",
-        body: "Primary and official sources, checked on every run: the lab announcing its own model, the regulator publishing its own decision.",
+        name: "Public information",
+        body: "DailyBrief is prepared from public information that readers can trace for themselves.",
       },
       {
-        name: "Open discovery",
-        body: "Queries against a news index, so the source universe can change daily. This is what reaches institutions that publish no feed at all.",
+        name: "Reader context",
+        body: "Each edition is designed to be concise, clear, and useful for professional readers.",
       },
       {
-        name: "Emerging signal",
-        body: "arXiv, GitHub releases, and technical communities. Noisy and early by design; sometimes months ahead of the coverage.",
-      },
-      {
-        name: "Verification",
-        body: "How many distinct publishers stand behind a claim, and whether any of them is primary. Computed in code from the citations, never asserted by the model.",
-      },
-      {
-        name: "Strategic reasoning",
-        body: "Fact, then pattern, then second-order effect, then action. All four are required, which makes stopping at a news summary impossible.",
-      },
-      {
-        name: "Signal memory",
-        body: "The same theme across days. This is what separates “there is news” from “this is the fourth time in three weeks, and it has stopped being news”.",
+        name: "Internal review",
+        body: "Before publication, each edition is reviewed for accuracy, relevance, clarity, and editorial accountability.",
       },
     ],
     aboutRulesTitle: "The rules that bind us",
     aboutRules: [
-      "Every signal must cite a source actually retrieved that day. Ones whose citations do not resolve are dropped, not repaired.",
-      "If too few signals survive validation, the edition does not publish. We would rather skip a day than publish a thin one.",
-      "We do not republish article content. What you read is our analysis; the sources are linked so you can check it.",
-      "Figures are cited only when the sources give them. No estimates.",
-      "Evidence strength is computed in code, not graded by the model that wrote the claim.",
-      "Corrections are made in the open. Every edition is under version control, so its revision history is permanent.",
+      "DailyBrief presents analysis of public information, not republished article content.",
+      "Each edition is designed to be relevant, concise, and useful to professional readers.",
+      "AI is used as an editorial workflow aid, not as the final authority.",
+      "Material corrections are handled responsibly.",
     ],
     aboutAiTitle: "The role of automation",
     aboutAiBody:
-      "DailyBrief is an AI-assisted editorial product. Automation helps read public sources, prepare working material, and support analysis. Before publication, each edition passes internal quality review for accuracy, relevance, and editorial clarity. AI is not treated as the final authority; editorial accountability remains with the publisher, and readers can open the original sources linked in every edition.",
+      "DailyBrief is an AI-assisted editorial product. Automation is used as an aid inside the editorial workflow, while the final standard remains accuracy, relevance, clarity, and publisher accountability. Readers can still open the original sources linked in every edition.",
     aboutLimitsTitle: "Its limits",
     aboutLimitsBody:
       "This is not investment, legal, tax, or technical advice. It summarises public information to help you walk into a meeting better briefed. Some citations route through a news index rather than a direct publisher link; those are marked “via”.",
@@ -318,7 +290,7 @@ export const STRINGS: Record<Lang, Strings> = {
     trendSince: (n, since) => `${n}x since ${since}`,
     methodology: "Methodology",
     methodologyBody:
-      "AI-assisted. Source-verified. Editorially accountable. Six layers: must-monitor sources, open discovery, emerging signal from research and technical releases, cross-source verification, strategic reasoning, and longitudinal signal memory. Every signal must cite a source actually retrieved that day; claims without a verifiable citation are not published.",
+      "AI-assisted. Source-informed. Editorially accountable. DailyBrief uses an internal methodology to select relevant public information, shape it into strategic context, and review quality before publication.",
     otherLang: "Bahasa Indonesia",
     noEditions: "No editions published yet.",
     editionsCount: (n) => `${n} edition${n === 1 ? "" : "s"}`,

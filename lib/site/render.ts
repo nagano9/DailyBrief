@@ -616,6 +616,10 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 `.trim();
 
+function publicCss(): string {
+  return CSS.replace(/\/\*[\s\S]*?\*\//g, "").trim();
+}
+
 interface PageOpts {
   cfg: SiteConfig;
   lang: Lang;
@@ -703,7 +707,7 @@ ${ogImage && html`<meta property="og:image" content="${ogImage}">`}
 <meta name="twitter:title" content="${o.title}">
 <meta name="twitter:description" content="${o.description}">
 ${o.jsonLd ? jsonLdScript(o.jsonLd) : ""}
-<style>${raw(CSS)}</style>
+<style>${raw(publicCss())}</style>
 </head>
 <body>
 <a class="skip" href="#main">${s.skipToContent}</a>
