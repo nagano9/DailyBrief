@@ -47,6 +47,8 @@ export interface SiteConfig {
   languages: Lang[];
   /** Privacy policy URL. Required before the subscribe form will render. */
   privacyUrl: string;
+  /** Macro and market context shown near the top of home and edition pages. */
+  decisionContext: DecisionContextItem[];
   /**
    * Absolute or root-relative URL of a social preview image.
    *
@@ -64,6 +66,14 @@ export interface SiteConfig {
    * same reason profile.json is not committed.
    */
   contactWhatsapp: string;
+}
+
+export interface DecisionContextItem {
+  label: string;
+  value: string;
+  direction?: string;
+  source: string;
+  sourceUrl: string;
 }
 
 /**
@@ -254,6 +264,19 @@ align-items:baseline}
 .meta{font-family:var(--mono);font-size:.72rem;color:var(--muted);display:flex;
 gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04em}
 
+.context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1rem 0;margin:1.3rem 0 1.8rem}
+.context h2{margin:0 0 .8rem;padding:0;border:0}
+.context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
+.context-item{min-width:0}
+.context-item b{display:block;font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.1em;color:var(--faint);font-weight:500;margin-bottom:.15rem}
+.context-item span{display:block;font-size:.96rem;color:var(--ink);line-height:1.35}
+.context-item small{display:block;font-family:var(--mono);font-size:.64rem;color:var(--muted);
+letter-spacing:.04em;margin-top:.2rem}
+.context-item a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.context-item a:hover,.context-item a:focus-visible{border-bottom-color:var(--ink)}
+
 .tag{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
 letter-spacing:.12em;color:var(--muted);white-space:nowrap}
 .tag.strong{color:var(--ink);font-weight:600}
@@ -398,9 +421,11 @@ footer.site p{margin:0 0 .7rem}
 footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
+@media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
+.context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
 .trend-row{grid-template-columns:1fr;gap:.25rem}
@@ -686,6 +711,24 @@ function auditBlock(lang: Lang): Html {
     : html`<div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Checks: citations, duplication, primary-source evidence, reasoning ladder, and generic-language patterns.</span></div>`;
 }
 
+function decisionContextBlock(cfg: SiteConfig, lang: Lang, date: string): Html {
+  if (cfg.decisionContext.length === 0) return html``;
+  const title = lang === "id" ? "Konteks Keputusan" : "Decision Context";
+  const asOf = lang === "id" ? `per ${formatDate(date, lang)}` : `as of ${formatDate(date, lang)}`;
+  return html`<section class="context" aria-labelledby="decision-context">
+<h2 id="decision-context">${title}</h2>
+<div class="context-grid">
+${cfg.decisionContext.map(
+  (item) => html`<div class="context-item">
+<b>${item.label}</b>
+<span>${item.value}${item.direction ? html` · ${item.direction}` : ""}</span>
+<small><a href="${item.sourceUrl}" rel="nofollow noopener" target="_blank">${item.source}</a> · ${asOf}</small>
+</div>`,
+)}
+</div>
+</section>`;
+}
+
 /**
  * Sources are listed once, numbered, and each signal links into that list.
  * Printing URLs beside every signal would triple the visual weight of the
@@ -900,6 +943,7 @@ ${e.domains.map(
 <span class="arrow">·</span> <b>${e.sources.length}</b> ${s.funnelCited}
 </p>
 ${auditBlock(e.lang)}
+${decisionContextBlock(cfg, e.lang, e.date)}
 
 ${e.summary && html`<h2>${s.summary}</h2>
 <p>${e.summary}</p>`}
@@ -997,6 +1041,7 @@ ${e.dek && html`<p>${e.dek}</p>`}
 <span class="arrow">·</span>
 <a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle}</a></p>
 ${auditBlock(lang)}
+${decisionContextBlock(cfg, lang, latest.date)}
 
 <div class="lede" style="margin-top:2rem">
 <div class="meta" style="margin:0 0 .8rem">

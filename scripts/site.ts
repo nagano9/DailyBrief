@@ -19,6 +19,7 @@ import {
   renderPremium,
   renderRobots,
   renderSitemap,
+  type DecisionContextItem,
   type SiteConfig,
 } from "../lib/site/render";
 import type { Edition, Lang } from "../lib/brief/types";
@@ -46,6 +47,65 @@ function arg(flag: string): string | undefined {
 const EDITIONS_DIR = arg("--editions") ?? process.env.EDITIONS_DIR ?? "editions";
 const OUT_DIR = arg("--out") ?? process.env.SITE_OUT ?? "site";
 const LANGS: Lang[] = ["id", "en"];
+
+const DEFAULT_DECISION_CONTEXT: DecisionContextItem[] = [
+  {
+    label: "BI Rate",
+    value: "policy rate",
+    direction: "monitor RDG",
+    source: "Bank Indonesia",
+    sourceUrl: "https://www.bi.go.id/",
+  },
+  {
+    label: "Inflasi",
+    value: "CPI yoy",
+    direction: "monthly release",
+    source: "BPS",
+    sourceUrl: "https://www.bps.go.id/",
+  },
+  {
+    label: "USD/IDR",
+    value: "JISDOR",
+    direction: "currency pressure",
+    source: "Bank Indonesia",
+    sourceUrl: "https://www.bi.go.id/id/statistik/informasi-kurs/jisdor/",
+  },
+  {
+    label: "Energi",
+    value: "Brent / ICP",
+    direction: "input cost",
+    source: "ESDM",
+    sourceUrl: "https://www.esdm.go.id/",
+  },
+  {
+    label: "IHSG / SBN",
+    value: "risk appetite",
+    direction: "market signal",
+    source: "IDX",
+    sourceUrl: "https://www.idx.co.id/",
+  },
+  {
+    label: "APBN",
+    value: "fiscal room",
+    direction: "policy signal",
+    source: "Kemenkeu",
+    sourceUrl: "https://www.kemenkeu.go.id/",
+  },
+];
+
+function decisionContext(): DecisionContextItem[] {
+  const raw = process.env.DECISION_CONTEXT_JSON;
+  if (!raw) return DEFAULT_DECISION_CONTEXT;
+  try {
+    const parsed = JSON.parse(raw) as DecisionContextItem[];
+    return parsed
+      .filter((x) => x && x.label && x.value && x.source && x.sourceUrl)
+      .slice(0, 8);
+  } catch (e) {
+    console.warn(`[site] DECISION_CONTEXT_JSON ignored: ${(e as Error).message}`);
+    return DEFAULT_DECISION_CONTEXT;
+  }
+}
 
 /**
  * Validate the sub-path the site is hosted under.
@@ -85,6 +145,7 @@ function config(languages: Lang[]): SiteConfig {
     siteName: process.env.SITE_NAME ?? "Daily Strategic Briefing",
     subscribeEndpoint: process.env.SUBSCRIBE_ENDPOINT ?? "",
     privacyUrl: process.env.PRIVACY_URL ?? "",
+    decisionContext: decisionContext(),
     ogImage: process.env.OG_IMAGE ?? "",
     contactWhatsapp: process.env.CONTACT_WHATSAPP ?? "",
     languages,
