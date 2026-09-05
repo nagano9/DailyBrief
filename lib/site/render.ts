@@ -767,8 +767,8 @@ ${form}
 
 function auditBlock(lang: Lang): Html {
   return lang === "id"
-    ? html`<div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Pemeriksaan: kutipan, duplikasi, sumber primer, tangga penalaran, dan pola bahasa generik.</span></div>`
-    : html`<div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Checks: citations, duplication, primary-source evidence, reasoning ladder, and generic-language patterns.</span></div>`;
+    ? html`<div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Setiap edisi melewati quality review internal sebelum publikasi.</span></div>`
+    : html`<div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Each edition passes internal quality review before publication.</span></div>`;
 }
 
 function decisionContextBlock(cfg: SiteConfig, lang: Lang, date: string): Html {

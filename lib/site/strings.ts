@@ -175,7 +175,7 @@ export const STRINGS: Record<Lang, Strings> = {
     ],
     aboutAiTitle: "Peran otomasi",
     aboutAiBody:
-      "DailyBrief adalah produk editorial yang dibantu AI. Otomasi mengumpulkan kandidat sumber publik, model bahasa membantu menyusun pola dan draf analisis, lalu agent audit terpisah memeriksa kutipan, duplikasi, kelengkapan tangga penalaran, sumber primer, dan pola bahasa generik sebelum publikasi. AI tidak diposisikan sebagai otoritas final; tanggung jawab editorial tetap berada pada penerbit, dan pembaca selalu bisa membuka sumber asli yang ditautkan di setiap edisi.",
+      "DailyBrief adalah produk editorial yang dibantu AI. Otomasi membantu membaca sumber publik, menyusun bahan awal, dan menyiapkan analisis. Sebelum publikasi, setiap edisi melewati quality review internal untuk menjaga akurasi, relevansi, dan kejelasan editorial. AI tidak diposisikan sebagai otoritas final; tanggung jawab editorial tetap berada pada penerbit, dan pembaca selalu bisa membuka sumber asli yang ditautkan di setiap edisi.",
     aboutLimitsTitle: "Batasnya",
     aboutLimitsBody:
       "Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia ringkasan informasi publik untuk membantu Anda masuk ke rapat dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.",
@@ -292,7 +292,7 @@ export const STRINGS: Record<Lang, Strings> = {
     ],
     aboutAiTitle: "The role of automation",
     aboutAiBody:
-      "DailyBrief is an AI-assisted editorial product. Automation gathers candidate public sources, a language model helps structure patterns and draft analysis, and a separate audit agent checks citations, duplication, reasoning completeness, primary-source evidence, and generic-language patterns before publication. AI is not treated as the final authority; editorial accountability remains with the publisher, and readers can open the original sources linked in every edition.",
+      "DailyBrief is an AI-assisted editorial product. Automation helps read public sources, prepare working material, and support analysis. Before publication, each edition passes internal quality review for accuracy, relevance, and editorial clarity. AI is not treated as the final authority; editorial accountability remains with the publisher, and readers can open the original sources linked in every edition.",
     aboutLimitsTitle: "Its limits",
     aboutLimitsBody:
       "This is not investment, legal, tax, or technical advice. It summarises public information to help you walk into a meeting better briefed. Some citations route through a news index rather than a direct publisher link; those are marked “via”.",
