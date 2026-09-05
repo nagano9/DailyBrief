@@ -218,14 +218,29 @@ a{color:inherit}
 padding:.6rem 1rem;z-index:10;text-decoration:none;font-family:var(--sans);font-size:.85rem}
 .skip:focus{left:0}
 
-header.site{border-bottom:1px solid var(--rule-strong);padding:1rem 0;margin-bottom:2.75rem}
-header.site .row{display:flex;align-items:baseline;justify-content:space-between;
-gap:1rem;flex-wrap:wrap}
-.brand{font-family:var(--serif);font-size:1.1rem;font-weight:600;text-decoration:none}
-nav.site{display:flex;gap:1.1rem;font-family:var(--mono);font-size:.72rem;
-text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+header.site{border-bottom:1px solid var(--rule-strong);padding:1.25rem 0 .9rem;margin-bottom:2.75rem}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;
+padding-bottom:1rem;border-bottom:1px solid var(--rule)}
+.brand-lockup{min-width:0}
+.brand{font-family:var(--serif);font-size:1.32rem;line-height:1.1;font-weight:600;text-decoration:none}
+.brand span{color:var(--backed)}
+.brand-sub{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
+letter-spacing:.13em;color:var(--muted);margin:.35rem 0 0}
+.masthead-status{font-family:var(--mono);text-align:right;color:var(--muted);
+font-size:.68rem;letter-spacing:.06em;min-width:13rem}
+.masthead-status span{display:block;text-transform:uppercase;color:var(--faint);
+font-size:.62rem;letter-spacing:.13em;margin-bottom:.15rem}
+.masthead-status b{display:block;color:var(--ink);font-weight:600;font-size:.78rem}
+.masthead-status small{display:block;font-size:.64rem;color:var(--muted);margin-top:.15rem}
+.nav-row{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-top:.82rem}
+nav.site{display:flex;gap:1.15rem;font-family:var(--mono);font-size:.68rem;
+text-transform:uppercase;letter-spacing:.1em;color:var(--muted);flex-wrap:wrap}
 nav.site a{text-decoration:none;padding-bottom:1px;border-bottom:1px solid transparent}
 nav.site a:hover,nav.site a:focus-visible{color:var(--ink);border-bottom-color:var(--ink)}
+.premium-link{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.12em;text-decoration:none;border:1px solid var(--rule-strong);
+padding:.38rem .62rem;color:var(--ink);white-space:nowrap}
+.premium-link:hover,.premium-link:focus-visible{border-color:var(--backed);color:var(--backed)}
 
 h1{font-family:var(--serif);font-size:2rem;font-weight:600;line-height:1.2;
 letter-spacing:-.012em;margin:0}
@@ -425,6 +440,10 @@ footer.site a{color:var(--ink)}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
+.masthead{display:block}
+.masthead-status{text-align:left;margin-top:.85rem;min-width:0}
+.nav-row{align-items:flex-start}
+nav.site{gap:.75rem .95rem}
 .context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
@@ -608,7 +627,40 @@ interface PageOpts {
   wide?: boolean;
   /** Use the three-column document shell (edition pages only). */
   doc?: boolean;
+  mastheadDate?: string;
+  mastheadSignalCount?: number;
+  mastheadLatest?: boolean;
   body: Html;
+}
+
+function mastheadStatus(lang: Lang, date?: string, count?: number, latest?: boolean): Html {
+  if (date) {
+    const label = latest
+      ? lang === "id"
+        ? "Edisi terbaru"
+        : "Latest edition"
+      : lang === "id"
+        ? "Edisi"
+        : "Edition";
+    const unit = lang === "id" ? "sinyal" : "signals";
+    const verified = lang === "id" ? "sumber terverifikasi" : "source-verified";
+    return html`<div class="masthead-status">
+<span>${label}</span>
+<b>${formatDate(date, lang)}</b>
+<small>${count ?? 5} ${unit} · ${verified}</small>
+</div>`;
+  }
+  return lang === "id"
+    ? html`<div class="masthead-status">
+<span>Radar harian</span>
+<b>5 sinyal setiap pagi</b>
+<small>AI · energi · strategi korporasi</small>
+</div>`
+    : html`<div class="masthead-status">
+<span>Daily radar</span>
+<b>5 signals every morning</b>
+<small>AI · energy · corporate strategy</small>
+</div>`;
 }
 
 function page(o: PageOpts): string {
@@ -655,15 +707,23 @@ ${o.jsonLd ? jsonLdScript(o.jsonLd) : ""}
 </head>
 <body>
 <a class="skip" href="#main">${s.skipToContent}</a>
-<header class="site"><div class="${wrap}"><div class="row">
+<header class="site"><div class="${wrap}">
+<div class="masthead">
+<div class="brand-lockup">
 <a class="brand" href="${url(cfg, homePath(lang))}">${cfg.siteName}<span>.</span></a>
+<p class="brand-sub">${lang === "id" ? "AI · Energi · Strategi Korporasi" : "AI · Energy · Corporate Strategy"}</p>
+</div>
+${mastheadStatus(lang, o.mastheadDate, o.mastheadSignalCount, o.mastheadLatest)}
+</div>
+<div class="nav-row">
 <nav class="site" aria-label="${s.about}">
 <a href="${url(cfg, archivePath(lang))}">${s.archive}</a>
-<a href="${url(cfg, premiumPath(lang))}">Premium</a>
 <a href="${url(cfg, aboutPath(lang))}">${s.about}</a>
 <a href="${url(cfg, feedPath(lang))}">RSS</a>
 ${hasOther && html`<a href="${url(cfg, o.altPath ?? homePath(other))}">${s.otherLang}</a>`}
-</nav></div></div></header>
+</nav>
+<a class="premium-link" href="${url(cfg, premiumPath(lang))}">Premium</a>
+</div></div></header>
 <main id="main" class="${wrap}">
 ${o.body}
 </main>
@@ -996,6 +1056,8 @@ ${subscribeBlock(cfg, e.lang)}`;
     altPath: hasAlt ? editionPath(other, e.slug) : homePath(other),
     jsonLd: editionJsonLd(cfg, e),
     doc: true,
+    mastheadDate: e.date,
+    mastheadSignalCount: e.signals.length,
     body,
   });
 }
@@ -1072,6 +1134,9 @@ ${cards.length > 0 && html`<h2>${s.allEditions}</h2>
     path: homePath(lang),
     altPath: homePath(lang === "id" ? "en" : "id"),
     wide: true,
+    mastheadDate: latest.date,
+    mastheadSignalCount: latest.signals.length,
+    mastheadLatest: true,
     body,
   });
 }
