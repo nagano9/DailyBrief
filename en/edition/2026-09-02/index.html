@@ -106,6 +106,19 @@ align-items:baseline}
 .meta{font-family:var(--mono);font-size:.72rem;color:var(--muted);display:flex;
 gap:.55rem;align-items:center;flex-wrap:wrap;margin-top:1rem;letter-spacing:.04em}
 
+.context{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
+padding:1rem 0;margin:1.3rem 0 1.8rem}
+.context h2{margin:0 0 .8rem;padding:0;border:0}
+.context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem 1.4rem}
+.context-item{min-width:0}
+.context-item b{display:block;font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.1em;color:var(--faint);font-weight:500;margin-bottom:.15rem}
+.context-item span{display:block;font-size:.96rem;color:var(--ink);line-height:1.35}
+.context-item small{display:block;font-family:var(--mono);font-size:.64rem;color:var(--muted);
+letter-spacing:.04em;margin-top:.2rem}
+.context-item a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.context-item a:hover,.context-item a:focus-visible{border-bottom-color:var(--ink)}
+
 .tag{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
 letter-spacing:.12em;color:var(--muted);white-space:nowrap}
 .tag.strong{color:var(--ink);font-weight:600}
@@ -250,9 +263,11 @@ footer.site p{margin:0 0 .7rem}
 footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
+@media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
+.context-grid{grid-template-columns:1fr}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
 .trend-row{grid-template-columns:1fr;gap:.25rem}
@@ -450,6 +465,36 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <span class="arrow">·</span> <b>7</b> sources cited
 </p>
 <div class="audit"><b>Audit passed</b><span>AI-assisted, source-verified, editorially accountable. Checks: citations, duplication, primary-source evidence, reasoning ladder, and generic-language patterns.</span></div>
+<section class="context" aria-labelledby="decision-context">
+<h2 id="decision-context">Decision Context</h2>
+<div class="context-grid">
+<div class="context-item">
+<b>BI Rate</b>
+<span>policy rate · monitor RDG</span>
+<small><a href="https://www.bi.go.id/" rel="nofollow noopener" target="_blank">Bank Indonesia</a> · as of 2 September 2026</small>
+</div><div class="context-item">
+<b>Inflasi</b>
+<span>CPI yoy · monthly release</span>
+<small><a href="https://www.bps.go.id/" rel="nofollow noopener" target="_blank">BPS</a> · as of 2 September 2026</small>
+</div><div class="context-item">
+<b>USD/IDR</b>
+<span>JISDOR · currency pressure</span>
+<small><a href="https://www.bi.go.id/id/statistik/informasi-kurs/jisdor/" rel="nofollow noopener" target="_blank">Bank Indonesia</a> · as of 2 September 2026</small>
+</div><div class="context-item">
+<b>Energi</b>
+<span>Brent / ICP · input cost</span>
+<small><a href="https://www.esdm.go.id/" rel="nofollow noopener" target="_blank">ESDM</a> · as of 2 September 2026</small>
+</div><div class="context-item">
+<b>IHSG / SBN</b>
+<span>risk appetite · market signal</span>
+<small><a href="https://www.idx.co.id/" rel="nofollow noopener" target="_blank">IDX</a> · as of 2 September 2026</small>
+</div><div class="context-item">
+<b>APBN</b>
+<span>fiscal room · policy signal</span>
+<small><a href="https://www.kemenkeu.go.id/" rel="nofollow noopener" target="_blank">Kemenkeu</a> · as of 2 September 2026</small>
+</div>
+</div>
+</section>
 
 <h2>Summary</h2>
 <p>OpenAI has released Astra, its first model to breach the Critical cybersecurity capability threshold under its own Preparedness Framework, triggering stronger mandatory safeguards and marking the first time a lab&#39;s internal AI-risk tripwire has forced a gated release. In parallel, China&#39;s reinstatement of a 2% lithium-ion battery import tax from September 1 — rising to 4% in 2027 — ends an 11-year exemption and will propagate into battery storage costs globally, adding a new cost variable for Indonesia&#39;s PLTS 100 GWp programme, which IESR and the government still describe as execution-challenged. Danantara is restructuring PalmCo&#39;s business model to target global commodity markets, the most concrete portfolio-level strategic move from the holding entity outside BUMN Karya, and it arrives as the danantara-bumn-karya-restructuring thread continues accumulating. SB Energy&#39;s IPO filing in the US, backed by SoftBank, brings the AI-power demand thesis into the public equity market for the first time and is a direct pricing signal for infrastructure investors. Indonesia&#39;s ESDM 2027 budget, approved at Rp27.37 trillion with oil-and-gas as the largest line item, reveals that the energy transition&#39;s fiscal backing remains fossil-fuel-weighted at the moment the 100 GWp solar programme needs capital.</p>
