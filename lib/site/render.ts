@@ -761,7 +761,12 @@ function page(o: PageOpts): string {
 <title>${o.title}</title>
 <meta name="description" content="${o.description}">
 <meta name="google-site-verification" content="${googleVerification}">
+<link rel="icon" href="${url(cfg, "/favicon.ico")}" sizes="any">
 <link rel="icon" href="${url(cfg, "/favicon.svg")}" type="image/svg+xml">
+<link rel="icon" href="${url(cfg, "/favicon-48x48.png")}" type="image/png" sizes="48x48">
+<link rel="apple-touch-icon" href="${url(cfg, "/apple-touch-icon.png")}" sizes="180x180">
+<link rel="manifest" href="${url(cfg, "/site.webmanifest")}">
+<meta name="theme-color" content="#111827">
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="${lang}" href="${canonical}">
 ${hasOther && html`<link rel="alternate" hreflang="${other}" href="${alt}">`}

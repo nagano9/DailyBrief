@@ -219,10 +219,19 @@ function write(file: string, contents: string): void {
 }
 
 function copyStaticAssets(): void {
-  const favicon = "favicon.svg";
-  if (fs.existsSync(favicon)) {
-    fs.mkdirSync(OUT_DIR, { recursive: true });
-    fs.copyFileSync(favicon, path.join(OUT_DIR, favicon));
+  const assets = [
+    "favicon.ico",
+    "favicon.svg",
+    "favicon-48x48.png",
+    "favicon-512x512.png",
+    "apple-touch-icon.png",
+    "site.webmanifest",
+  ];
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  for (const asset of assets) {
+    if (fs.existsSync(asset)) {
+      fs.copyFileSync(asset, path.join(OUT_DIR, asset));
+    }
   }
 }
 
