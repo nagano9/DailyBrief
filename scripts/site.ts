@@ -18,9 +18,15 @@ import {
   renderHome,
   renderPremium,
   renderRobots,
+  renderSignalTracker,
   renderSitemap,
+  renderTopicHub,
+  renderTopicIndex,
   type DecisionContextItem,
   type SiteConfig,
+  topicIndexPath,
+  topicPath,
+  trackerPath,
 } from "../lib/site/render";
 import type { Edition, Lang } from "../lib/brief/types";
 
@@ -268,15 +274,18 @@ function main() {
     write(outFile(homePath(lang)), renderHome(cfg, editions, lang));
     write(outFile(premiumPath(lang)), renderPremium(cfg, lang));
     write(outFile(archivePath(lang)), renderArchive(cfg, editions, lang));
+    write(outFile(topicIndexPath(lang)), renderTopicIndex(cfg, editions, lang));
+    write(outFile(trackerPath(lang)), renderSignalTracker(cfg, editions, lang));
     for (const d of ARCHIVE_DOMAINS) {
       write(outFile(archivePath(lang, d)), renderArchive(cfg, editions, lang, d));
-      pages++;
+      write(outFile(topicPath(lang, d)), renderTopicHub(cfg, editions, lang, d));
+      pages += 2;
     }
     write(outFile(aboutPath(lang)), renderAbout(cfg, lang));
     write(outFile(feedPath(lang)), renderFeed(cfg, editions, lang));
-    pages += 5;
+    pages += 7;
     console.log(
-      `[site] ${lang}: ${editions.length} editions + home + archive (+${ARCHIVE_DOMAINS.length} by domain) + about + feed`,
+      `[site] ${lang}: ${editions.length} editions + home + archive (+${ARCHIVE_DOMAINS.length} by domain) + topics (+${ARCHIVE_DOMAINS.length} by domain) + tracker + about + feed`,
     );
   }
 

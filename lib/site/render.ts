@@ -134,6 +134,18 @@ export function archivePath(lang: Lang, domain?: Domain): string {
   return domain ? `${root}${DOMAIN_SLUG[domain]}/` : root;
 }
 
+export function topicIndexPath(lang: Lang): string {
+  return lang === "id" ? "/tema/" : "/en/topics/";
+}
+
+export function topicPath(lang: Lang, domain: Domain): string {
+  return `${topicIndexPath(lang)}${DOMAIN_SLUG[domain]}/`;
+}
+
+export function trackerPath(lang: Lang): string {
+  return lang === "id" ? "/tracker/" : "/en/tracker/";
+}
+
 export function aboutPath(lang: Lang): string {
   return lang === "id" ? "/tentang/" : "/en/about/";
 }
@@ -392,6 +404,31 @@ grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.5rem}
 .card h3 a:hover,.card h3 a:focus-visible{color:var(--backed)}
 .card .d{font-family:var(--mono);font-size:.7rem;color:var(--faint);letter-spacing:.05em}
 .card p{font-size:.94rem;color:var(--muted);margin:.35rem 0 0}
+.topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.1rem;
+margin:1.6rem 0 2.4rem}
+.topic-card{border-top:1px solid var(--rule-strong);padding-top:1rem}
+.topic-card a{text-decoration:none}
+.topic-card a:hover,.topic-card a:focus-visible{color:var(--backed)}
+.topic-card p{font-size:.94rem;color:var(--muted);margin:.45rem 0 .7rem}
+.topic-card .meta{margin-top:.55rem}
+.signal-list{border-top:1px solid var(--rule);margin-top:1.3rem}
+.signal-row{display:grid;grid-template-columns:8.5rem 1fr;gap:1.2rem;
+padding:1rem 0;border-bottom:1px solid var(--rule)}
+.signal-row .d{font-family:var(--mono);font-size:.7rem;color:var(--faint);
+letter-spacing:.05em;padding-top:.15rem}
+.signal-row a{text-decoration:none}
+.signal-row a:hover,.signal-row a:focus-visible{color:var(--backed)}
+.signal-row h3{font-size:1.02rem;margin-bottom:.3rem}
+.signal-row p{font-size:.94rem;color:var(--muted);margin:.35rem 0 0}
+.tracker-table{width:100%;border-collapse:collapse;margin-top:1.3rem;font-size:.94rem}
+.tracker-table th{font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500;text-align:left;
+border-bottom:1px solid var(--rule-strong);padding:.65rem .5rem .65rem 0}
+.tracker-table td{border-bottom:1px solid var(--rule);padding:.85rem .5rem .85rem 0;
+vertical-align:top}
+.tracker-table a{text-decoration:none}
+.tracker-table a:hover,.tracker-table a:focus-visible{color:var(--backed)}
+.tracker-table .n{font-family:var(--mono);font-size:.7rem;color:var(--muted)}
 
 .sub{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1.75rem 0;margin:3.5rem 0}
@@ -453,7 +490,7 @@ font-size:.72rem;color:var(--faint);padding-top:.3rem;letter-spacing:.05em}
 padding:1.6rem 0;margin:2rem 0}
 .premium-cta p{color:var(--muted)}
 
-@media(max-width:48rem){.plans{grid-template-columns:1fr}}
+@media(max-width:48rem){.plans,.topic-grid{grid-template-columns:1fr}}
 
 footer.site{border-top:1px solid var(--rule-strong);margin-top:4.5rem;padding:2rem 0 3.5rem;
 font-family:var(--sans);font-size:.8rem;color:var(--muted);line-height:1.6}
@@ -476,6 +513,8 @@ h1{font-size:1.65rem}
 nav.site{gap:.75rem .95rem}
 .home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
+.signal-row{grid-template-columns:1fr;gap:.25rem}
+.tracker-table{display:block;overflow-x:auto;white-space:nowrap}
 .ed-nav{flex-direction:column;gap:1.2rem}
 .ed-nav .next{margin-left:0;text-align:left}
 .trend-row{grid-template-columns:1fr;gap:.25rem}
@@ -753,6 +792,8 @@ ${mastheadStatus(lang, o.mastheadDate, o.mastheadSignalCount, o.mastheadLatest)}
 <div class="nav-row">
 <nav class="site" aria-label="${s.about}">
 <a href="${url(cfg, archivePath(lang))}">${s.archive}</a>
+<a href="${url(cfg, topicIndexPath(lang))}">${lang === "id" ? "Tema" : "Topics"}</a>
+<a href="${url(cfg, trackerPath(lang))}">Tracker</a>
 <a href="${url(cfg, aboutPath(lang))}">${s.about}</a>
 <a href="${url(cfg, feedPath(lang))}">RSS</a>
 ${hasOther && html`<a href="${url(cfg, o.altPath ?? homePath(other))}">${s.otherLang}</a>`}
@@ -1486,6 +1527,191 @@ ${table(m.rows)}`)
   });
 }
 
+function topicIntro(lang: Lang, domain: Domain): string {
+  const label = DOMAIN_LABELS[lang][domain];
+  return lang === "id"
+    ? `Halaman permanen untuk mengikuti sinyal ${label} lintas edisi. Disusun terbaru lebih dulu agar pembaca dapat melihat isu yang bergerak dan konteksnya dari waktu ke waktu.`
+    : `A permanent page for following ${label} signals across editions. Newest first, so readers can see what is moving and how the context changes over time.`;
+}
+
+function topicIndexIntro(lang: Lang): string {
+  return lang === "id"
+    ? "Tiga halaman topik permanen yang mengumpulkan sinyal DailyBrief berdasarkan domain. Gunakan ini untuk mengikuti isu, bukan hanya membaca edisi harian."
+    : "Three permanent topic pages that collect DailyBrief signals by domain. Use them to follow issues, not only daily editions.";
+}
+
+export function renderTopicIndex(cfg: SiteConfig, editions: Edition[], lang: Lang): string {
+  const title = lang === "id" ? "Tema" : "Topics";
+  const intro = topicIndexIntro(lang);
+  const cards = ARCHIVE_DOMAINS.map((domain) => {
+    const signals = editions.flatMap((e) => e.signals.filter((sig) => sig.domain === domain));
+    const latest = editions.find((e) => e.signals.some((sig) => sig.domain === domain));
+    return html`<section class="topic-card">
+<h2><a href="${url(cfg, topicPath(lang, domain))}">${DOMAIN_LABELS[lang][domain]}</a></h2>
+<p>${topicIntro(lang, domain)}</p>
+<p class="meta"><span>${signals.length} ${lang === "id" ? "sinyal" : "signals"}</span>${
+      latest && html`<span class="arrow">·</span><span>${formatDate(latest.date, lang)}</span>`
+    }</p>
+</section>`;
+  });
+
+  const body = html`<h1>${title}</h1>
+<p class="dek">${intro}</p>
+<div class="topic-grid">${cards}</div>
+<p><a href="${url(cfg, trackerPath(lang))}">${lang === "id" ? "Lihat Signal Tracker" : "View Signal Tracker"}</a></p>`;
+
+  return page({
+    cfg,
+    lang,
+    title: `${title} | ${cfg.siteName}`,
+    description: intro,
+    path: topicIndexPath(lang),
+    altPath: topicIndexPath(lang === "id" ? "en" : "id"),
+    body,
+  });
+}
+
+export function renderTopicHub(
+  cfg: SiteConfig,
+  editions: Edition[],
+  lang: Lang,
+  domain: Domain,
+): string {
+  const title = DOMAIN_LABELS[lang][domain];
+  const intro = topicIntro(lang, domain);
+  const rows = editions.flatMap((e) =>
+    e.signals
+      .filter((sig) => sig.domain === domain)
+      .map((sig) => ({ edition: e, signal: sig })),
+  );
+
+  const body = html`<h1>${title}</h1>
+<p class="dek">${intro}</p>
+<p class="meta"><span>${rows.length} ${lang === "id" ? "sinyal" : "signals"}</span>
+<span class="arrow">·</span><a href="${url(cfg, archivePath(lang, domain))}">${lang === "id" ? "Arsip domain" : "Domain archive"}</a>
+<span class="arrow">·</span><a href="${url(cfg, trackerPath(lang))}">Tracker</a></p>
+<h2>${lang === "id" ? "Sinyal terbaru" : "Latest signals"}</h2>
+<div class="signal-list">
+${rows.map(
+  ({ edition, signal }) => html`<article class="signal-row">
+<div class="d">${formatDate(edition.date, lang)}<br>${STRINGS[lang].trendStatus[signal.trend.status]}</div>
+<div>
+<h3><a href="${url(cfg, editionPath(lang, edition.slug))}">${signal.headline}</a></h3>
+<p>${signal.whyItMatters}</p>
+<p class="meta"><span>${STRINGS[lang].strength[signal.strength]}</span><span class="arrow">·</span><span>${STRINGS[lang].publisherCount(
+    signal.corroboration.publishers,
+  )}</span></p>
+</div>
+</article>`,
+)}
+</div>`;
+
+  return page({
+    cfg,
+    lang,
+    title: `${title} | ${cfg.siteName}`,
+    description: intro,
+    path: topicPath(lang, domain),
+    altPath: topicPath(lang === "id" ? "en" : "id", domain),
+    body,
+  });
+}
+
+interface TrackerRow {
+  key: string;
+  headline: string;
+  domain: Domain;
+  status: Signal["trend"]["status"];
+  occurrences: number;
+  firstSeen: string;
+  lastSeen: string;
+  latestEdition: Edition;
+}
+
+function trackerRows(editions: Edition[]): TrackerRow[] {
+  const byKey = new Map<string, TrackerRow>();
+  for (const edition of editions) {
+    for (const signal of edition.signals) {
+      const existing = byKey.get(signal.themeKey);
+      if (!existing) {
+        byKey.set(signal.themeKey, {
+          key: signal.themeKey,
+          headline: signal.headline,
+          domain: signal.domain,
+          status: signal.trend.status,
+          occurrences: 1,
+          firstSeen: edition.date,
+          lastSeen: edition.date,
+          latestEdition: edition,
+        });
+        continue;
+      }
+      existing.occurrences += 1;
+      if (edition.date > existing.lastSeen) {
+        existing.lastSeen = edition.date;
+        existing.latestEdition = edition;
+        existing.headline = signal.headline;
+        existing.status = signal.trend.status;
+        existing.domain = signal.domain;
+      }
+      if (edition.date < existing.firstSeen) existing.firstSeen = edition.date;
+    }
+  }
+  return [...byKey.values()].sort((a, b) => {
+    const statusRank = { structural: 3, recurring: 2, new: 1 };
+    return (
+      statusRank[b.status] - statusRank[a.status] ||
+      b.occurrences - a.occurrences ||
+      b.lastSeen.localeCompare(a.lastSeen)
+    );
+  });
+}
+
+export function renderSignalTracker(cfg: SiteConfig, editions: Edition[], lang: Lang): string {
+  const s = STRINGS[lang];
+  const title = lang === "id" ? "Signal Tracker" : "Signal Tracker";
+  const intro =
+    lang === "id"
+      ? "Peta isu yang berulang di DailyBrief. Tracker ini membantu pembaca melihat mana sinyal yang baru muncul, mana yang berulang, dan mana yang sudah menjadi kondisi struktural."
+      : "A map of recurring issues in DailyBrief. The tracker helps readers see which signals are new, recurring, or already structural.";
+  const rows = trackerRows(editions).slice(0, 60);
+
+  const body = html`<h1>${title}</h1>
+<p class="dek">${intro}</p>
+<p class="meta"><span>${rows.length} ${lang === "id" ? "tema dilacak" : "tracked themes"}</span>
+<span class="arrow">·</span><a href="${url(cfg, topicIndexPath(lang))}">${lang === "id" ? "Lihat tema" : "View topics"}</a></p>
+<table class="tracker-table">
+<thead><tr>
+<th>${lang === "id" ? "Tema" : "Theme"}</th>
+<th>Status</th>
+<th>${lang === "id" ? "Domain" : "Domain"}</th>
+<th>${lang === "id" ? "Muncul" : "Seen"}</th>
+<th>${lang === "id" ? "Terbaru" : "Latest"}</th>
+</tr></thead>
+<tbody>
+${rows.map(
+  (row) => html`<tr>
+<td><a href="${url(cfg, editionPath(lang, row.latestEdition.slug))}">${row.headline}</a><div class="n">${row.key}</div></td>
+<td>${s.trendStatus[row.status]}</td>
+<td>${DOMAIN_SHORT[lang][row.domain]}</td>
+<td>${row.occurrences}x<div class="n">${formatDate(row.firstSeen, lang)}</div></td>
+<td>${formatDate(row.lastSeen, lang)}</td>
+</tr>`,
+)}
+</tbody>
+</table>`;
+
+  return page({
+    cfg,
+    lang,
+    title: `${title} | ${cfg.siteName}`,
+    description: intro,
+    path: trackerPath(lang),
+    altPath: trackerPath(lang === "id" ? "en" : "id"),
+    body,
+  });
+}
+
 export function renderFeed(cfg: SiteConfig, editions: Edition[], lang: Lang): string {
   const s = STRINGS[lang];
   const items = editions.slice(0, 30).map((e) => {
@@ -1522,8 +1748,11 @@ export function renderSitemap(cfg: SiteConfig, editions: Edition[]): string {
   for (const lang of cfg.languages) {
     entries.push({ loc: absUrl(cfg, homePath(lang)), lastmod: newest });
     entries.push({ loc: absUrl(cfg, archivePath(lang)), lastmod: newest });
+    entries.push({ loc: absUrl(cfg, topicIndexPath(lang)), lastmod: newest });
+    entries.push({ loc: absUrl(cfg, trackerPath(lang)), lastmod: newest });
     for (const d of ARCHIVE_DOMAINS) {
       entries.push({ loc: absUrl(cfg, archivePath(lang, d)), lastmod: newest });
+      entries.push({ loc: absUrl(cfg, topicPath(lang, d)), lastmod: newest });
     }
     entries.push({ loc: absUrl(cfg, premiumPath(lang)) });
     entries.push({ loc: absUrl(cfg, aboutPath(lang)) });
