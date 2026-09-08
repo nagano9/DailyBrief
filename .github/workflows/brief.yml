@@ -67,6 +67,7 @@ jobs:
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           BRIEF_HOUR: ${{ vars.BRIEF_HOUR }}
           EVENT_NAME: ${{ github.event_name }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
@@ -75,8 +76,23 @@ jobs:
           TZ_VAL="${REPORT_TZ:-Asia/Jakarta}"
           WANT="${BRIEF_HOUR:-6}"
           NOW=$(TZ="$TZ_VAL" date +%-H)
+          TODAY=$(TZ="$TZ_VAL" date +%Y-%m-%d)
           if [ "$NOW" = "$WANT" ]; then
             echo "should-run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$NOW" -gt "$WANT" ]; then
+            CHECK_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/editions/${TODAY}/id.json?ref=main"
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$CHECK_URL" || echo "000")
+            if [ "$HTTP_CODE" = "404" ]; then
+              echo "Catch-up: editions/${TODAY}/id.json is missing after ${WANT}:00 in ${TZ_VAL}"
+              echo "should-run=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "Hour $NOW in $TZ_VAL != $WANT and today's edition exists (HTTP $HTTP_CODE) — skipping"
+              echo "should-run=false" >> "$GITHUB_OUTPUT"
+            fi
           else
             echo "Hour $NOW in $TZ_VAL != $WANT — skipping"
             echo "should-run=false" >> "$GITHUB_OUTPUT"
