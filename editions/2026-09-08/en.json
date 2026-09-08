@@ -1,0 +1,334 @@
+{
+  "slug": "2026-09-08",
+  "date": "2026-09-08",
+  "lang": "en",
+  "title": "Prabowo Pushes BUMN Hilirisasi; Danantara Guarantees Kopdes Credit; PLN Grid Recovery Continues",
+  "dek": "Three Indonesian structural pressures converge today: BUMN reform accelerates under direct presidential instruction, Danantara expands its credit guarantee exposure, and PLN's Sulbagsel grid recovery remains active, while India and DeepSeek signal new hardware dependencies in energy and AI infrastructure.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "President Prabowo convened a direct session at Hambalang on 5 September to push hilirisasi and BUMN restructuring, giving Danantara a fresh political mandate on top of its existing end-2026 deadline. Danantara's chief then publicly guaranteed on 8 September that Kopdes credit routed through Himbara banks will not default, citing state backing, which adds a contingent fiscal exposure that sits outside the formal APBN. PLN continues optimising supply and accelerating recovery in Sulbagsel, a grid failure pattern now structural enough to plan around rather than treat as news. India's Central Electricity Authority has proposed mandatory co-located storage for all new solar and wind, a regulatory template that Indonesian grid planners should assess for adoption. DeepSeek's reported order of Huawei AI chips to power a new data centre signals that the US-China chip split is hardening into parallel infrastructure stacks, with direct implications for Southeast Asian buyers choosing between ecosystems.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BUMN Karya"
+      ],
+      "headline": "Prabowo convenes Hambalang session, orders accelerated hilirisasi and BUMN restructuring with direct presidential supervision",
+      "whatChanged": "On 5 September 2026, President Prabowo held a dedicated meeting at Hambalang and issued direct instructions to accelerate downstream industrialisation (hilirisasi) and to restructure BUMN, with the Sekretariat Kabinet publishing the session formally. This is a presidential-level intervention layered on top of Danantara's existing self-imposed end-2026 restructuring deadline.",
+      "whyItMatters": "The Hambalang session converts what was a Danantara administrative target into a presidential directive, raising the political cost of slippage. The danantara-bumn-karya-restructuring theme has now appeared 17 times since 19 August; it is a structural condition, not an event. Direct presidential supervision typically accelerates disbursement timelines but also increases the risk of politically motivated sequencing over financially sound sequencing.",
+      "secondOrder": "Ministerial and BUMN board decisions made between now and end-2026 will be read as either compliant with or resistant to a presidential order, compressing the space for technically justified delays. Creditors and minority shareholders in BUMN Karya entities face a situation where restructuring terms may be set by political timetable rather than balance-sheet readiness, increasing the probability of terms that transfer value away from private holders.",
+      "action": "Map each BUMN Karya entity's current debt maturity schedule against the end-2026 deadline. Identify which restructurings require creditor consent and whether the presidential mandate creates implicit pressure to waive covenants, then price that risk into any exposure to Himbara banks holding BUMN Karya paper.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUt6b0R3ZHF3TkVSM05xSGJOYi1ZYjAzYWc3Z01mQlJXZjBnb25Tdms5dTZ5SWFiNnlUcnREYWdxNmJxUThVQmdUbWJndHdNalg0Z1V4aVJNdzRGZkc4MGpiU1I0ZU9uTml5MnR2TEwzZnJRRGNRNjhWSzd4NGN5OXZJTVYwTFQ1NzY4eW9mM0RJWkVmT2FON3NWc3NFN3ZWenBfSVNHLVFsQmNqT1BTRFRhQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-08-19",
+        "spanDays": 20
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Himbara"
+      ],
+      "headline": "Danantara chief publicly guarantees Kopdes credit at Himbara banks will not default, citing state backing",
+      "whatChanged": "On 8 September 2026, Danantara's chief executive stated publicly that Kopdes (village cooperative) credit channelled through Himbara banks carries a state guarantee and will not become non-performing. This was reported by both Kontan and CNBC Indonesia on the same date, providing corroboration from two separate financial outlets.",
+      "whyItMatters": "A public guarantee by Danantara's chief creates a reputational and quasi-contractual obligation even if no formal legal instrument has been published. Himbara banks, as state-owned, cannot easily dispute the guarantee without political consequence, so the credit risk is effectively being socialised onto the state balance sheet without passing through the formal APBN appropriation process.",
+      "secondOrder": "If Kopdes loans underperform, the resolution pathway runs through Danantara rather than through standard bank provisioning or the deposit guarantee scheme (LPS). This creates a precedent for Danantara acting as an implicit lender-of-last-resort for programmatic government credit, which is a structurally different role from its stated sovereign wealth function and raises questions about its capitalisation adequacy for that role.",
+      "action": "Request disclosure of the formal legal instrument underpinning the Danantara guarantee: if none exists, assess Himbara bank exposure to Kopdes credit as uncollateralised sovereign-moral-hazard risk rather than guaranteed credit, and adjust provisioning assumptions accordingly.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeVFZLUthUm9rclRvajVZMm5ZM0NlRFhsTVZXcUdIMlFBZEpBbkFhZE9YZVJBZFMtUGpfYjNLNUVJbXpyYVZtdWwxTWh5VUg1Wl84eGRxclZHMmZiMnQ3Z0lnNTdNQjNZdU1BWkVYcmRuS3J3WktUNUJmX0VJLWV2S2c1dmZMYlJBQkwwaTNlcV9jWjJ3VUVFY0hlT003Z3I2MUF5TVh3RjdTMkhvSmF6c0NR0gGrAUFVX3lxTE9aLXd3RFFESjYwWGtCWURhNHYzOWxiRE5NWFpleGJvZUwxa2VlenExQkcwblkzc2J3Wm14THd4RHhtSEhkdEwwNkF0YVNHc242N1BQcEdKaU9selpzUkM3WkJJZlZ5V2tzRE1sOHpaV01ZbzRIZVZnWVNLcTkwSEJPWElEVUd6U2k2SWNnaEcxY2xIWWN5aXZfN0Z3QTRka0FkV21nd09zZzMtMA?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZDNlYkFKWE9sQ2ZoaXBMdzdOa1FZSGp5WmZYSXNfMkVKZThMT0h2VF93d2VJOXY0b1dKX2JMXzlXWjhiQ1p4ekdpRndjSGx0VXVxVWRmZUNyOXZCTlhIZUhOb2dia2Z6eHotMU8zSllRT1puR0hUaW1YVTJvNmlNV1dhdnVuVklvVDJzVFBiNUJpbnBsR1V3U0YycVM3ckdfYk5wWXRjNF9fa2hHYlVnMGhxUFQyUURXaVhMUmJOeVc3UFNCMU03dHJB0gHPAUFVX3lxTE8tMmJHb1hvelFsVHFUZE54TG5GcWtmQkt3TE9oTngxRGdHUE1BYnlLU00zSUw3d09obFF1MHNBNUJYRDBYclRrdEJvYzJCMWhEVUw0QWRQcm1fa2liQmo5TlpKbHU0OEFvRDlieGxSQXRYYzBiYk5zTnNlcmc1WW9NTWtjUmtVdE1XX2txUl9FQWwxVmFvbjltV1FHQ2hyQlVVU05YLWxyYVgxRXE2T3FncUlxZmUtVmdXcHVQQWEtVU11TUhfLVdrUzZGUEduNA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-08-19",
+        "spanDays": 20
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "PLN UP3 Nabire",
+        "PLTMH Kalibumi",
+        "Sulbagsel"
+      ],
+      "headline": "PLN continues active supply optimisation and recovery acceleration in Sulbagsel grid, confirming structural failure pattern",
+      "whatChanged": "On 7 September 2026, PLN UP3 Nabire announced preparation of the PLTMH Kalibumi micro-hydro plant to support energy transition in Central Papua, while PLN simultaneously reported active optimisation and accelerated recovery of the Sulbagsel (South and West Sulawesi) power system. These are two separate grid events on the same date, both covered by ANTARA regional bureaus.",
+      "whyItMatters": "The pln-grid-investment theme has been flagged 15 times since 22 August. Sulbagsel recovery being described as still requiring 'acceleration' seven-plus days after the disruption confirms this is not an isolated incident but a systemic reliability deficit in eastern Indonesian grids. The simultaneous Nabire micro-hydro development signals that PLN is pursuing distributed small-scale generation as a parallel track to transmission investment.",
+      "secondOrder": "If PLN increasingly relies on micro-hydro and distributed assets to patch grid gaps in eastern Indonesia rather than investing in transmission backbone, industrial and data-centre offtakers in those regions face a permanently fragmented supply structure. This affects bankability of any power purchase agreement backed by eastern Indonesian grid supply, because curtailment and outage risk cannot be hedged through transmission redundancy that does not exist.",
+      "action": "For any project requiring reliable grid supply in Sulawesi or Papua, commission a grid reliability assessment that explicitly models Sulbagsel-style cascading failure scenarios rather than using national PLN average reliability figures. Treat eastern Indonesian grid reliability as a distinct and lower-rated category.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxONF96ekVRSEJ4anNveUFnVE1aNHpTeks2a21WWU9jd2tMZjdkNnEwNTFKNFRjb21TejZ3TEFqQTBqR0RiTEVFUEJHQXNwbkhrdG1WOG90b1ZMbFVJVUQ4VlQ3blJKbmotTXFaWHZlSXMtb1BBQ3BhLUN5R1REZDQwOTEzeHE3eUhTZU81S3FwRGZSZDVLSUxFTnBJYTRKQzFoR0t3R3RsUFZBdWFETHg2S2p2MjdEel8tQThCaXZRNzJqYUdhZ2V3?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZDIwNFNRT1ZXdlZlOEx0azZtd0UwTzh1enZTelZlaThKbEFLbkhram5JQ0QtTms5bXFveUpqWUVHN1lBQkphYVpuQXVSTFJGMWFsd0JDYnV3UXo4RXc0amowa1o3am92REhVYWd3Z0UwWmZhX1BOQ21IOGJ6S1liNXpQcmo2Rk5vQmVCVW1qbTdLN3lZNmpwbE02WlVsSFpQTGZ5cUF6UlpqY3R10gGyAUFVX3lxTFBudFpNUjlDUVNOY0s3clpsakJWTXlQbFhDb3pyOF90UFRuYkZxMGNQSGUwWlFILVZzeDF3LXBMS3dwbEJLclBuZWNrS0I4YXhoUFZKY3BSaFpQelgtcGc3eGt0bXdxeUlMSlZKNk9Oaks0cm1XQTVFaFliTm9SRDA5ZTRHMHQ0bVc4ZVozbDNEeVh2cFI1SDlMeWhLNm1Id2J2TV9vV2p4dHF4TlNmdFVtR3c?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 16,
+        "firstSeen": "2026-08-22",
+        "spanDays": 17
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Central Electricity Authority",
+        "PLN"
+      ],
+      "headline": "India's CEA proposes mandatory co-located storage and grid-forming inverters for all new solar and wind projects",
+      "whatChanged": "India's Central Electricity Authority published a proposal requiring mandatory grid-forming inverters and co-located energy storage for all new ground-mounted solar and onshore wind projects. This is a primary regulatory proposal from a national grid authority covering the world's third-largest renewable deployment market.",
+      "whyItMatters": "Mandatory co-location requirements change the economics of solar and wind projects materially: developers must finance and operate storage assets, which raises upfront capex by an estimated 20-40% depending on battery sizing requirements, but reduces grid stabilisation costs borne by the system operator. India adopting this at scale sets a template that other large emerging-market regulators, including Indonesia's ESDM and PLN, are likely to reference.",
+      "secondOrder": "If Indonesia follows India's path and mandates co-located storage, PLN's current renewable PPAs and the 100 GWp solar programme announced by Prabowo in August 2026 would require renegotiation or supplemental contracting for storage. Developers who have already signed or are negotiating PPAs without storage obligations face retroactive compliance risk, and financing structures built around solar-only cash flows would need restructuring.",
+      "action": "Review the draft terms of any Indonesian renewable PPA signed or under negotiation to determine whether a storage co-location mandate would constitute a change-in-law event triggering tariff renegotiation or early termination rights, and advise clients to insert explicit change-in-law clauses before execution.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/09/08/indias-cea-proposes-mandatory-co-located-storage-for-new-solar-wind-projects/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 14,
+        "firstSeen": "2026-08-22",
+        "spanDays": 17
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "DeepSeek",
+        "Huawei",
+        "Nvidia"
+      ],
+      "headline": "DeepSeek plans large Huawei AI chip order for new data centre, hardening the US-China compute infrastructure split",
+      "whatChanged": "Bloomberg reported on 4 September 2026 that DeepSeek is planning a significant order of Huawei AI chips to power a new data centre. This is the first reported large-scale deployment of Huawei AI accelerators by a frontier AI lab, distinct from prior reports of Chinese cloud providers using Huawei chips.",
+      "whyItMatters": "DeepSeek's decision signals that the US export control regime has pushed at least one frontier Chinese AI lab to commit fully to a non-CUDA hardware stack. Until now, most frontier model training globally depended on Nvidia CUDA tooling; a large DeepSeek-Huawei deployment tests whether the Ascend ecosystem can support frontier-scale training, with results that will be visible in DeepSeek's next model release timeline.",
+      "secondOrder": "Southeast Asian AI infrastructure investors and government digital economy programmes face a binary ecosystem choice that is now hardening faster than anticipated. Data centres, cloud platforms, and AI service providers in Indonesia, Singapore, and Malaysia that have not yet committed to a chip supply chain are approaching a decision point where interoperability between Nvidia and Huawei stacks cannot be assumed. Operators who choose Huawei for cost or supply reasons face downstream model compatibility constraints if major frontier models remain CUDA-optimised.",
+      "action": "Assess any data-centre investment or AI infrastructure procurement in Southeast Asia by mapping the chip supply chain to the intended model workloads: if the workloads depend on Nvidia-optimised models, a Huawei-primary infrastructure plan carries a model-compatibility risk that should be stress-tested before capex commitment.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY2JjdG0xZVFfY3YyalRpcjBfNmU1LUs4NFdpRGZpM0c0UFB5ZWtpZV9FWFZpTkVpNkptRjJRODJBSHFHMGFRS0FudEZPNHFQYW9lZkFnaXVaUC1ycGlsR2ZjaEdrS3J2NFpjTGJxN0ZENUN0aHA2d0lseV85dnhPdmplT1Yxd0xQYnhaOFpPYmhaZGROTlAxNlNJTk1uZjdodkRpT1l4Y2FNMC1zNFBESmNCMzNSZw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-08-20",
+        "spanDays": 19
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Danantara formal legal instrument for Kopdes credit guarantee: look for publication of the guarantee deed or presidential regulation to determine whether the guarantee is legally binding on APBN or solely reputational.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "BUMN Karya restructuring completion: Danantara's self-imposed end-2026 deadline and presidential Hambalang directive set the clock. Track which entities have signed restructuring agreements versus which remain in negotiation by October.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "PLN Sulbagsel full restoration announcement: absence of a formal restoration completion notice beyond 'acceleration' language indicates the grid remains partially degraded. Monitor PLN press releases for system-normal declaration.",
+      "dueDate": "2026-09-20"
+    },
+    {
+      "item": "India CEA mandatory storage regulation: final rule publication following the proposal period will set the template for emerging-market co-location mandates. Track CEA consultation deadline and final gazette notification.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "DeepSeek next model release on Huawei Ascend hardware: the training timeline on Huawei chips will become visible through DeepSeek's next public model drop, which will confirm or deny Ascend's frontier-scale viability.",
+      "dueDate": "2027-03-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gelar Pertemuan di Hambalang, Presiden Prabowo Dorong Percepatan Hilirisasi dan Penataan BUMN",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUt6b0R3ZHF3TkVSM05xSGJOYi1ZYjAzYWc3Z01mQlJXZjBnb25Tdms5dTZ5SWFiNnlUcnREYWdxNmJxUThVQmdUbWJndHdNalg0Z1V4aVJNdzRGZkc4MGpiU1I0ZU9uTml5MnR2TEwzZnJRRGNRNjhWSzd4NGN5OXZJTVYwTFQ1NzY4eW9mM0RJWkVmT2FON3NWc3NFN3ZWenBfSVNHLVFsQmNqT1BTRFRhQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-05T07:00:00.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T07:00:00.000Z"
+    },
+    {
+      "title": "PLN UP3 Nabire siapkan PLTMH Kalibumi dukung transisi energi",
+      "publisher": "ANTARA News Papua Tengah",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZDIwNFNRT1ZXdlZlOEx0azZtd0UwTzh1enZTelZlaThKbEFLbkhram5JQ0QtTms5bXFveUpqWUVHN1lBQkphYVpuQXVSTFJGMWFsd0JDYnV3UXo4RXc0amowa1o3am92REhVYWd3Z0UwWmZhX1BOQ21IOGJ6S1liNXpQcmo2Rk5vQmVCVW1qbTdLN3lZNmpwbE02WlVsSFpQTGZ5cUF6UlpqY3R10gGyAUFVX3lxTFBudFpNUjlDUVNOY0s3clpsakJWTXlQbFhDb3pyOF90UFRuYkZxMGNQSGUwWlFILVZzeDF3LXBMS3dwbEJLclBuZWNrS0I4YXhoUFZKY3BSaFpQelgtcGc3eGt0bXdxeUlMSlZKNk9Oaks0cm1XQTVFaFliTm9SRDA5ZTRHMHQ0bVc4ZVozbDNEeVh2cFI1SDlMeWhLNm1Id2J2TV9vV2p4dHF4TlNmdFVtR3c?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-07T23:55:03.000Z"
+    },
+    {
+      "title": "DeepSeek Plans Big Huawei AI Chip Order to Power New Data Center",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY2JjdG0xZVFfY3YyalRpcjBfNmU1LUs4NFdpRGZpM0c0UFB5ZWtpZV9FWFZpTkVpNkptRjJRODJBSHFHMGFRS0FudEZPNHFQYW9lZkFnaXVaUC1ycGlsR2ZjaEdrS3J2NFpjTGJxN0ZENUN0aHA2d0lseV85dnhPdmplT1Yxd0xQYnhaOFpPYmhaZGROTlAxNlNJTk1uZjdodkRpT1l4Y2FNMC1zNFBESmNCMzNSZw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-04T09:08:43.000Z"
+    },
+    {
+      "title": "Danantara Pastikan Kredit Bank Kopdes dan MBG Takan Macet: Aman, Dijamin Negara",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeVFZLUthUm9rclRvajVZMm5ZM0NlRFhsTVZXcUdIMlFBZEpBbkFhZE9YZVJBZFMtUGpfYjNLNUVJbXpyYVZtdWwxTWh5VUg1Wl84eGRxclZHMmZiMnQ3Z0lnNTdNQjNZdU1BWkVYcmRuS3J3WktUNUJmX0VJLWV2S2c1dmZMYlJBQkwwaTNlcV9jWjJ3VUVFY0hlT003Z3I2MUF5TVh3RjdTMkhvSmF6c0NR0gGrAUFVX3lxTE9aLXd3RFFESjYwWGtCWURhNHYzOWxiRE5NWFpleGJvZUwxa2VlenExQkcwblkzc2J3Wm14THd4RHhtSEhkdEwwNkF0YVNHc242N1BQcEdKaU9selpzUkM3WkJJZlZ5V2tzRE1sOHpaV01ZbzRIZVZnWVNLcTkwSEJPWElEVUd6U2k2SWNnaEcxY2xIWWN5aXZfN0Z3QTRka0FkV21nd09zZzMtMA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-08T03:36:36.000Z"
+    },
+    {
+      "title": "India’s regulator proposes mandatory co-located storage for new solar, wind projects",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/09/08/indias-cea-proposes-mandatory-co-located-storage-for-new-solar-wind-projects/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-08T05:15:35.000Z"
+    },
+    {
+      "title": "Bos Danantara Pastikan Kredit Kopdes di Himbara Tak Bakal Bermasalah",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZDNlYkFKWE9sQ2ZoaXBMdzdOa1FZSGp5WmZYSXNfMkVKZThMT0h2VF93d2VJOXY0b1dKX2JMXzlXWjhiQ1p4ekdpRndjSGx0VXVxVWRmZUNyOXZCTlhIZUhOb2dia2Z6eHotMU8zSllRT1puR0hUaW1YVTJvNmlNV1dhdnVuVklvVDJzVFBiNUJpbnBsR1V3U0YycVM3ckdfYk5wWXRjNF9fa2hHYlVnMGhxUFQyUURXaVhMUmJOeVc3UFNCMU03dHJB0gHPAUFVX3lxTE8tMmJHb1hvelFsVHFUZE54TG5GcWtmQkt3TE9oTngxRGdHUE1BYnlLU00zSUw3d09obFF1MHNBNUJYRDBYclRrdEJvYzJCMWhEVUw0QWRQcm1fa2liQmo5TlpKbHU0OEFvRDlieGxSQXRYYzBiYk5zTnNlcmc1WW9NTWtjUmtVdE1XX2txUl9FQWwxVmFvbjltV1FHQ2hyQlVVU05YLWxyYVgxRXE2T3FncUlxZmUtVmdXcHVQQWEtVU11TUhfLVdrUzZGUEduNA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-08T02:10:36.000Z"
+    },
+    {
+      "title": "PLN optimalkan pasokan listrik dan percepat pemulihan sistem kelistrikan Sulbagsel",
+      "publisher": "ANTARA News Makassar",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONF96ekVRSEJ4anNveUFnVE1aNHpTeks2a21WWU9jd2tMZjdkNnEwNTFKNFRjb21TejZ3TEFqQTBqR0RiTEVFUEJHQXNwbkhrdG1WOG90b1ZMbFVJVUQ4VlQ3blJKbmotTXFaWHZlSXMtb1BBQ3BhLUN5R1REZDQwOTEzeHE3eUhTZU81S3FwRGZSZDVLSUxFTnBJYTRKQzFoR0t3R3RsUFZBdWFETHg2S2p2MjdEel8tQThCaXZRNzJqYUdhZ2V3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-07T21:35:35.000Z"
+    },
+    {
+      "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
+      "publisher": "bloombergtechnoz.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara tolak setor Rp120 triliun ke negara, ekspos tegangan desain fiskal",
+      "occurrences": 17,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-07",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "OpenAI komitmen USD 1 miliar untuk keamanan siber layanan esensial via program Daybreak",
+      "occurrences": 17,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-07",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Kepala riset OpenAI publikasi seruan formal: alignment model kapabel butuh koordinasi internasional",
+      "occurrences": 15,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-07",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN masih berjuang pulihkan Sulbagsel, pola kegagalan grid berulang terkonfirmasi",
+      "occurrences": 15,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-07",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Ireland's LEAP policy mandates 80% onsite renewables for large data centres, setting a replicable regulatory template",
+      "occurrences": 13,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-06",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 366,
+    "poolSize": 110,
+    "generatedAt": "2026-09-08T06:29:46.959Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

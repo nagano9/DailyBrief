@@ -1,0 +1,323 @@
+{
+  "slug": "2026-09-08",
+  "date": "2026-09-08",
+  "lang": "id",
+  "title": "Danantara Jamin Kredit Kopdes; PLN Sulbagsel Belum Pulih; Prabowo Dorong Hilirisasi BUMN",
+  "dek": "Tiga sinyal struktural Indonesia bertemu hari ini: eksposur fiskal Danantara meluas ke kredit program, grid Sulawesi masih dalam pemulihan, dan presiden mempercepat konsolidasi BUMN via pertemuan Hambalang.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Danantara secara publik menjamin kredit Koperasi Desa di bank Himbara tidak akan macet, memperluas eksposur negara di luar restrukturisasi BUMN Karya yang belum selesai. Bersamaan, PLN masih mengoptimalkan pasokan Sulbagsel setelah kegagalan grid yang berulang, menegaskan kelemahan infrastruktur transmisi yang sudah terdokumentasi. Presiden Prabowo memanggil pemimpin BUMN ke Hambalang untuk mempercepat hilirisasi dan penataan, memberi sinyal tekanan politik baru pada timeline konsolidasi Danantara. Di domain AI, OpenAI mempublikasikan data internal tentang percepatan riset via agen pengoding, memberikan benchmark konkret pertama tentang produktivitas agen di lingkungan lab frontier. India juga menetapkan kewajiban penyimpanan co-located untuk proyek surya dan angin baru, preseden regulasi yang relevan untuk perencanaan RUPTL Indonesia.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Himbara",
+        "Bank Koperasi Desa"
+      ],
+      "headline": "Danantara jamin kredit Kopdes di Himbara tidak macet, perluas eksposur fiskal negara",
+      "whatChanged": "Kepala Danantara secara publik menyatakan kredit Bank Koperasi Desa dan program Makan Bergizi Gratis yang disalurkan melalui bank Himbara tidak akan bermasalah, dengan argumen bahwa kredit tersebut dijamin negara. Pernyataan ini disampaikan 8 September 2026 kepada media.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring kini melampaui restrukturisasi neraca BUMN Karya: Danantara aktif menjamin portofolio kredit program pemerintah di bank-bank milik negara. Ini memperluas eksposur kontinjensi Danantara jauh melampaui ekuitas BUMN yang sedang direstrukturisasi, sementara mekanisme penjaminan belum dijelaskan secara teknis kepada publik.",
+      "secondOrder": "Jika kualitas kredit Kopdes memburuk, klaim 'dijamin negara' akan menguji siapa yang menanggung kerugian pertama: Himbara, Danantara, atau APBN. Ketidakjelasan ini dapat mempengaruhi rating kredit bank Himbara secara individual dan menambah kompleksitas audit fiskal Kementerian Keuangan yang sudah menghadapi tekanan dari dividen BUMN yang tertahan.",
+      "action": "Minta penjelasan tertulis dari Danantara dan Kementerian Keuangan tentang struktur penjaminan kredit Kopdes: apakah berbentuk KKPE, imbal hasil tetap, atau jaminan first-loss. Bandingkan dengan eksposur yang sudah tercatat di neraca Himbara sebelum memutuskan posisi kredit atau ekuitas di BRI, BNI, atau Mandiri.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeVFZLUthUm9rclRvajVZMm5ZM0NlRFhsTVZXcUdIMlFBZEpBbkFhZE9YZVJBZFMtUGpfYjNLNUVJbXpyYVZtdWwxTWh5VUg1Wl84eGRxclZHMmZiMnQ3Z0lnNTdNQjNZdU1BWkVYcmRuS3J3WktUNUJmX0VJLWV2S2c1dmZMYlJBQkwwaTNlcV9jWjJ3VUVFY0hlT003Z3I2MUF5TVh3RjdTMkhvSmF6c0NR0gGrAUFVX3lxTE9aLXd3RFFESjYwWGtCWURhNHYzOWxiRE5NWFpleGJvZUwxa2VlenExQkcwblkzc2J3Wm14THd4RHhtSEhkdEwwNkF0YVNHc242N1BQcEdKaU9selpzUkM3WkJJZlZ5V2tzRE1sOHpaV01ZbzRIZVZnWVNLcTkwSEJPWElEVUd6U2k2SWNnaEcxY2xIWWN5aXZfN0Z3QTRka0FkV21nd09zZzMtMA?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZDNlYkFKWE9sQ2ZoaXBMdzdOa1FZSGp5WmZYSXNfMkVKZThMT0h2VF93d2VJOXY0b1dKX2JMXzlXWjhiQ1p4ekdpRndjSGx0VXVxVWRmZUNyOXZCTlhIZUhOb2dia2Z6eHotMU8zSllRT1puR0hUaW1YVTJvNmlNV1dhdnVuVklvVDJzVFBiNUJpbnBsR1V3U0YycVM3ckdfYk5wWXRjNF9fa2hHYlVnMGhxUFQyUURXaVhMUmJOeVc3UFNCMU03dHJB0gHPAUFVX3lxTE8tMmJHb1hvelFsVHFUZE54TG5GcWtmQkt3TE9oTngxRGdHUE1BYnlLU00zSUw3d09obFF1MHNBNUJYRDBYclRrdEJvYzJCMWhEVUw0QWRQcm1fa2liQmo5TlpKbHU0OEFvRDlieGxSQXRYYzBiYk5zTnNlcmc1WW9NTWtjUmtVdE1XX2txUl9FQWwxVmFvbjltV1FHQ2hyQlVVU05YLWxyYVgxRXE2T3FncUlxZmUtVmdXcHVQQWEtVU11TUhfLVdrUzZGUEduNA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-08-19",
+        "spanDays": 20
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Presiden Prabowo",
+        "Danantara"
+      ],
+      "headline": "Prabowo panggil pimpinan BUMN ke Hambalang, percepat hilirisasi dan penataan",
+      "whatChanged": "Presiden Prabowo menggelar pertemuan di Hambalang pada 5 September 2026 yang secara spesifik mendorong percepatan hilirisasi komoditas dan penataan ulang struktur BUMN, menurut siaran resmi Sekretariat Kabinet.",
+      "whyItMatters": "Pertemuan Hambalang menambahkan tekanan politik langsung dari presiden pada timeline konsolidasi Danantara yang sudah tertunda. Tema ini sudah tercatat 17 kali sejak 19 Agustus; intervensi langsung presiden menandai eskalasi dari tekanan administratif ke arahan eksekutif tertinggi.",
+      "secondOrder": "Percepatan yang didorong dari atas tanpa penyelesaian kerangka hukum restrukturisasi BUMN Karya berisiko menghasilkan merger atau akuisisi yang lemah secara legal, membuka ruang sengketa pemegang saham minoritas di BUMN yang terdaftar di bursa.",
+      "action": "Periksa apakah BUMN Karya yang terdaftar di IDX (WIKA, PTPP, WSKT) telah menyampaikan keterbukaan informasi terkait arahan Hambalang. Jika belum, ini adalah risiko material yang belum diungkapkan ke pasar.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUt6b0R3ZHF3TkVSM05xSGJOYi1ZYjAzYWc3Z01mQlJXZjBnb25Tdms5dTZ5SWFiNnlUcnREYWdxNmJxUThVQmdUbWJndHdNalg0Z1V4aVJNdzRGZkc4MGpiU1I0ZU9uTml5MnR2TEwzZnJRRGNRNjhWSzd4NGN5OXZJTVYwTFQ1NzY4eW9mM0RJWkVmT2FON3NWc3NFN3ZWenBfSVNHLVFsQmNqT1BTRFRhQ1k?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-08-19",
+        "spanDays": 20
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM"
+      ],
+      "headline": "PLN masih dalam mode optimasi pasokan Sulbagsel per 7 September 2026",
+      "whatChanged": "PLN UP3 wilayah Sulawesi Bagian Selatan masih dalam tahap optimasi dan percepatan pemulihan sistem kelistrikan per 7 September 2026, menurut ANTARA News Makassar. Ini terjadi setelah erupsi Anak Krakatau yang berlangsung 25 jam dan dinyatakan berakhir oleh Kementerian ESDM pada 7 September.",
+      "whyItMatters": "Tema pln-grid-investment sudah terdokumentasi sebagai kondisi struktural: pola kegagalan grid berulang di Sulbagsel terkonfirmasi kembali. Pemulihan yang belum selesai berhari-hari setelah insiden menunjukkan redundansi transmisi yang tidak memadai, bukan sekadar gangguan operasional sementara.",
+      "secondOrder": "Investor proyek energi terbarukan di Sulawesi yang sedang negosiasi PPA dengan PLN perlu memasukkan risiko offtake yang lebih tinggi akibat ketidakstabilan grid. Keandalan offtaker mempengaruhi struktur pembiayaan proyek dan premi risiko yang diminta lender.",
+      "action": "Tinjau ulang asumsi keandalan grid dalam model keuangan proyek EBT di Sulawesi. Minta PLN menyediakan data SAIDI dan SAIFI terbaru untuk sistem Sulbagsel sebagai dasar negosiasi klausul force majeure dan kompensasi dalam PPA.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxONF96ekVRSEJ4anNveUFnVE1aNHpTeks2a21WWU9jd2tMZjdkNnEwNTFKNFRjb21TejZ3TEFqQTBqR0RiTEVFUEJHQXNwbkhrdG1WOG90b1ZMbFVJVUQ4VlQ3blJKbmotTXFaWHZlSXMtb1BBQ3BhLUN5R1REZDQwOTEzeHE3eUhTZU81S3FwRGZSZDVLSUxFTnBJYTRKQzFoR0t3R3RsUFZBdWFETHg2S2p2MjdEel8tQThCaXZRNzJqYUdhZ2V3?oc=5",
+        "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNmNweTItRWNRMEtuUDBLLTU5NjdDcGFjZlZKb0RnRlFkWDJ5VVJWbS1Ebzk1eTQxajg5WTB6aHhoTm5BQ0I2QUYzR1J4bk9uOEpzUkttMk1VSmRzck51M0xwMWRNT2FDVnJGUWRCbmRVTWx2TEJ5czhVY2pUcE93R2RyQndEanRfeFEya08wQ1FBU2VqcUNUTzNZa2p3YjlzbUQwdlZuV1E5LXZGTFlLNkFPVm5JSFZlaHp1MU9PNDhRU1ZsdWUzS2NzaFBXX1VEelZZa2EtZWhMdVlNQXNuOHRnekEtb2hLUFF2c0gwNkg?oc=5",
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWUhvcXB6SkJYRVNXdkpKZUUyQnJoTVVfUTRBcnl5bU5SX1p1QWEwTWl1UTBPclJXb0loMElTLWU0VFRZYlBxbk9kVWJ1OG9nSE5Td3hmWmlGYVJYR090dkE0TExNZUZqWGg1dXF3b1hEcjhMaUcyVFRHcDYxSGRNR1JFYS1UY0xOdDFNTm5USTc2LWRoajBCcm94d3ZTaUVaQUE1WFQ1cm5lVnJ6d0FYVzhOLWhyWkRJU19kNTFuSWhFNzRySUhfUmJ3Vm1hQjFRR1RJdE43RHA1SGpOLVE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 16,
+        "firstSeen": "2026-08-22",
+        "spanDays": 17
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI"
+      ],
+      "headline": "OpenAI publikasi data internal: agen pengoding mendorong percepatan riset secara terukur",
+      "whatChanged": "OpenAI mempublikasikan laporan internal pada 6 September 2026 yang menyajikan data awal tentang penggunaan agen pengoding di dalam organisasi, mencakup kecepatan eksperimen, kompleksitas tugas, dan percepatan riset secara kuantitatif.",
+      "whyItMatters": "Ini adalah pertama kalinya lab frontier mempublikasikan metrik internal tentang dampak agen pada produktivitas penelitian AI itu sendiri. Data ini mengkonfirmasi bahwa agen sudah mengubah kecepatan iterasi riset di dalam OpenAI, bukan hanya di pelanggan eksternal. Tema enterprise-ai-data-privacy-contracts kini mendapat dimensi baru: perusahaan yang mengadopsi agen serupa akan menghadapi tekanan untuk mendokumentasikan dampak produktivitas yang sebanding.",
+      "secondOrder": "Jika agen riset mempercepat iterasi model secara eksponensial di lab frontier, gap kapabilitas antara lab dengan agen internal dan perusahaan tanpa agen akan melebar lebih cepat dari perkiraan. Perusahaan teknologi Indonesia yang mengandalkan model foundational dari luar negeri perlu menilai ulang apakah mereka sedang kehilangan jendela adopsi.",
+      "action": "Gunakan data OpenAI sebagai benchmark untuk mengevaluasi ROI program AI internal. Tanyakan: berapa eksperimen per minggu yang bisa dilakukan tim riset saat ini tanpa agen, dan berapa target realistis dengan agen? Angka ini harus masuk ke dalam justifikasi anggaran Q1 2027.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://openai.com/index/research-acceleration-view-inside-openai"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 16,
+        "firstSeen": "2026-08-20",
+        "spanDays": 19
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Central Electricity Authority",
+        "PLN",
+        "Kementerian ESDM",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "India wajibkan penyimpanan co-located untuk semua proyek surya dan angin baru",
+      "whatChanged": "Regulator ketenagalistrikan India, Central Electricity Authority (CEA), mengusulkan kewajiban inverter grid-forming dan penyimpanan energi co-located untuk seluruh proyek surya ground-mounted dan angin onshore baru, per pv magazine 8 September 2026.",
+      "whyItMatters": "Tema pln-transmisi-investasi memperoleh preseden regulasi baru dari pasar berkembang berskala besar yang kondisinya paling mirip dengan Indonesia: grid lemah, penetrasi surya tinggi, dan tekanan harga. Regulasi CEA India menetapkan standar bahwa integrasi penyimpanan bukan opsional melainkan syarat izin untuk proyek baru.",
+      "secondOrder": "Jika Indonesia mengikuti preseden India dalam revisi RUPTL atau regulasi turunannya, biaya proyek EBT baru akan naik karena komponen penyimpanan wajib, sementara pembiayaan proyek harus memperhitungkan aset baterai sebagai bagian dari struktur modal. Developer EBT yang sudah dalam pipeline tanpa komponen storage perlu menilai ulang kelayakan finansialnya.",
+      "action": "Pantau apakah Kementerian ESDM atau PLN mereferensikan regulasi CEA India dalam konsultasi RUPTL 2025-2034 yang sedang berjalan. Jika muncul, minta analisis dampak biaya pada proyek surya dan angin yang sudah masuk daftar tunggu PLN untuk PPA.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/09/08/indias-cea-proposes-mandatory-co-located-storage-for-new-solar-wind-projects/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 14,
+        "firstSeen": "2026-08-22",
+        "spanDays": 17
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Mekanisme teknis penjaminan kredit Kopdes oleh Danantara: apakah ada Peraturan Pemerintah atau Keputusan Menteri Keuangan yang mendasarinya",
+      "dueDate": "2026-09-15"
+    },
+    {
+      "item": "Keterbukaan informasi BUMN Karya terdaftar bursa (WIKA, PTPP, WSKT) terkait arahan restrukturisasi pasca-pertemuan Hambalang",
+      "dueDate": "2026-09-12"
+    },
+    {
+      "item": "Status pemulihan penuh sistem kelistrikan Sulbagsel dan laporan penyebab teknis dari PLN",
+      "dueDate": "2026-09-14"
+    },
+    {
+      "item": "Finalisasi proposal CEA India tentang kewajiban co-located storage dan respons regulator negara berkembang lain termasuk kemungkinan adopsi IESR atau ESDM Indonesia",
+      "dueDate": "2026-10-01"
+    },
+    {
+      "item": "Evaluasi binding offer divestasi NeutraDC oleh Telkom yang ditarget selesai akhir 2026",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Erupsi Menerus Anak Krakatau Berakhir, Aktivitas Gunung Api Kembali Menurun dan Tetap Dipantau",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWUhvcXB6SkJYRVNXdkpKZUUyQnJoTVVfUTRBcnl5bU5SX1p1QWEwTWl1UTBPclJXb0loMElTLWU0VFRZYlBxbk9kVWJ1OG9nSE5Td3hmWmlGYVJYR090dkE0TExNZUZqWGg1dXF3b1hEcjhMaUcyVFRHcDYxSGRNR1JFYS1UY0xOdDFNTm5USTc2LWRoajBCcm94d3ZTaUVaQUE1WFQ1cm5lVnJ6d0FYVzhOLWhyWkRJU19kNTFuSWhFNzRySUhfUmJ3Vm1hQjFRR1RJdE43RHA1SGpOLVE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-07T04:18:53.000Z"
+    },
+    {
+      "title": "Gelar Pertemuan di Hambalang, Presiden Prabowo Dorong Percepatan Hilirisasi dan Penataan BUMN",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUt6b0R3ZHF3TkVSM05xSGJOYi1ZYjAzYWc3Z01mQlJXZjBnb25Tdms5dTZ5SWFiNnlUcnREYWdxNmJxUThVQmdUbWJndHdNalg0Z1V4aVJNdzRGZkc4MGpiU1I0ZU9uTml5MnR2TEwzZnJRRGNRNjhWSzd4NGN5OXZJTVYwTFQ1NzY4eW9mM0RJWkVmT2FON3NWc3NFN3ZWenBfSVNHLVFsQmNqT1BTRFRhQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-05T07:00:00.000Z"
+    },
+    {
+      "title": "Aktivitas Anak Krakatau Terus Dipantau, PVMBG Pastikan Status Siaga Tetap Berlaku Usai Erupsi Menerus 25 Jam",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNmNweTItRWNRMEtuUDBLLTU5NjdDcGFjZlZKb0RnRlFkWDJ5VVJWbS1Ebzk1eTQxajg5WTB6aHhoTm5BQ0I2QUYzR1J4bk9uOEpzUkttMk1VSmRzck51M0xwMWRNT2FDVnJGUWRCbmRVTWx2TEJ5czhVY2pUcE93R2RyQndEanRfeFEya08wQ1FBU2VqcUNUTzNZa2p3YjlzbUQwdlZuV1E5LXZGTFlLNkFPVm5JSFZlaHp1MU9PNDhRU1ZsdWUzS2NzaFBXX1VEelZZa2EtZWhMdVlNQXNuOHRnekEtb2hLUFF2c0gwNkg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-06T06:46:09.000Z"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-06T08:00:00.000Z"
+    },
+    {
+      "title": "Danantara Pastikan Kredit Bank Kopdes dan MBG Takan Macet: Aman, Dijamin Negara",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeVFZLUthUm9rclRvajVZMm5ZM0NlRFhsTVZXcUdIMlFBZEpBbkFhZE9YZVJBZFMtUGpfYjNLNUVJbXpyYVZtdWwxTWh5VUg1Wl84eGRxclZHMmZiMnQ3Z0lnNTdNQjNZdU1BWkVYcmRuS3J3WktUNUJmX0VJLWV2S2c1dmZMYlJBQkwwaTNlcV9jWjJ3VUVFY0hlT003Z3I2MUF5TVh3RjdTMkhvSmF6c0NR0gGrAUFVX3lxTE9aLXd3RFFESjYwWGtCWURhNHYzOWxiRE5NWFpleGJvZUwxa2VlenExQkcwblkzc2J3Wm14THd4RHhtSEhkdEwwNkF0YVNHc242N1BQcEdKaU9selpzUkM3WkJJZlZ5V2tzRE1sOHpaV01ZbzRIZVZnWVNLcTkwSEJPWElEVUd6U2k2SWNnaEcxY2xIWWN5aXZfN0Z3QTRka0FkV21nd09zZzMtMA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-08T03:36:36.000Z"
+    },
+    {
+      "title": "India’s regulator proposes mandatory co-located storage for new solar, wind projects",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/09/08/indias-cea-proposes-mandatory-co-located-storage-for-new-solar-wind-projects/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-08T05:15:35.000Z"
+    },
+    {
+      "title": "Bos Danantara Pastikan Kredit Kopdes di Himbara Tak Bakal Bermasalah",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZDNlYkFKWE9sQ2ZoaXBMdzdOa1FZSGp5WmZYSXNfMkVKZThMT0h2VF93d2VJOXY0b1dKX2JMXzlXWjhiQ1p4ekdpRndjSGx0VXVxVWRmZUNyOXZCTlhIZUhOb2dia2Z6eHotMU8zSllRT1puR0hUaW1YVTJvNmlNV1dhdnVuVklvVDJzVFBiNUJpbnBsR1V3U0YycVM3ckdfYk5wWXRjNF9fa2hHYlVnMGhxUFQyUURXaVhMUmJOeVc3UFNCMU03dHJB0gHPAUFVX3lxTE8tMmJHb1hvelFsVHFUZE54TG5GcWtmQkt3TE9oTngxRGdHUE1BYnlLU00zSUw3d09obFF1MHNBNUJYRDBYclRrdEJvYzJCMWhEVUw0QWRQcm1fa2liQmo5TlpKbHU0OEFvRDlieGxSQXRYYzBiYk5zTnNlcmc1WW9NTWtjUmtVdE1XX2txUl9FQWwxVmFvbjltV1FHQ2hyQlVVU05YLWxyYVgxRXE2T3FncUlxZmUtVmdXcHVQQWEtVU11TUhfLVdrUzZGUEduNA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-08T02:10:36.000Z"
+    },
+    {
+      "title": "PLN optimalkan pasokan listrik dan percepat pemulihan sistem kelistrikan Sulbagsel",
+      "publisher": "ANTARA News Makassar",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONF96ekVRSEJ4anNveUFnVE1aNHpTeks2a21WWU9jd2tMZjdkNnEwNTFKNFRjb21TejZ3TEFqQTBqR0RiTEVFUEJHQXNwbkhrdG1WOG90b1ZMbFVJVUQ4VlQ3blJKbmotTXFaWHZlSXMtb1BBQ3BhLUN5R1REZDQwOTEzeHE3eUhTZU81S3FwRGZSZDVLSUxFTnBJYTRKQzFoR0t3R3RsUFZBdWFETHg2S2p2MjdEel8tQThCaXZRNzJqYUdhZ2V3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-07T21:35:35.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara tolak setor Rp120 triliun ke negara, ekspos tegangan desain fiskal",
+      "occurrences": 17,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-07",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "OpenAI komitmen USD 1 miliar untuk keamanan siber layanan esensial via program Daybreak",
+      "occurrences": 17,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-07",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Kepala riset OpenAI publikasi seruan formal: alignment model kapabel butuh koordinasi internasional",
+      "occurrences": 15,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-07",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN masih berjuang pulihkan Sulbagsel, pola kegagalan grid berulang terkonfirmasi",
+      "occurrences": 15,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-07",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Ireland's LEAP policy mandates 80% onsite renewables for large data centres, setting a replicable regulatory template",
+      "occurrences": 13,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-06",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 366,
+    "poolSize": 110,
+    "generatedAt": "2026-09-08T06:28:35.511Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
