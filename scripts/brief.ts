@@ -28,6 +28,11 @@ import type { Edition, FeedItem, Lang } from "../lib/brief/types";
  * Sources are fetched ONCE and both language editions are composed from the
  * same item set. Two fetches would give the two editions different evidence
  * and let them contradict each other — a credibility problem, not a cost one.
+ *
+ * Each language is still audited independently. If one language fails the
+ * minimum-quality gate, the language that passed is published and the failed
+ * mirror is omitted for that date. Shipping a verified Indonesian edition is
+ * better than losing the entire day because the English mirror came back thin.
  */
 
 const EDITIONS_DIR = "editions";
@@ -123,10 +128,21 @@ async function main() {
   fs.mkdirSync(outDir, { recursive: true });
 
   const written: Edition[] = [];
+  const failed: { lang: Lang; error: unknown }[] = [];
   for (const lang of langs) {
     console.log(`\n[brief] composing ${lang} edition with ${getModelTag()}…`);
     const t0 = Date.now();
-    const { edition, rejected } = await composeEdition(items, lang, date, tierCounts);
+    let result: Awaited<ReturnType<typeof composeEdition>>;
+    try {
+      result = await composeEdition(items, lang, date, tierCounts);
+    } catch (e) {
+      failed.push({ lang, error: e });
+      const msg = e instanceof Error ? e.message : String(e);
+      console.error(`[brief] ${lang} FAILED audit after ${((Date.now() - t0) / 1000).toFixed(1)}s — ${msg}`);
+      continue;
+    }
+
+    const { edition, rejected } = result;
 
     const trendNote = edition.signals
       .filter((s) => s.trend.status !== "new")
@@ -146,6 +162,20 @@ async function main() {
     // from the published archive, so there is no second store to keep in step.
     fs.writeFileSync(path.join(outDir, `${lang}.json`), JSON.stringify(edition, null, 2), "utf8");
     written.push(edition);
+  }
+
+  if (written.length === 0) {
+    const detail = failed
+      .map(({ lang, error }) => `${lang}: ${error instanceof Error ? error.message : String(error)}`)
+      .join("; ");
+    throw new Error(`all requested languages failed audit — refusing to publish (${detail})`);
+  }
+
+  if (failed.length > 0) {
+    console.warn(
+      `[brief] ${failed.length} language(s) omitted after audit failure: ` +
+        failed.map((f) => f.lang).join(", "),
+    );
   }
 
   console.log(
