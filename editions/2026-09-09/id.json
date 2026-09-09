@@ -1,0 +1,341 @@
+{
+  "slug": "2026-09-09",
+  "date": "2026-09-09",
+  "lang": "id",
+  "title": "OpenAI Klaim Pecahkan Navier–Stokes; Danantara Tekan BUMN Karya; PLN Karbon Geothermal",
+  "dek": "Tiga domain bergerak serentak: AI memasuki matematika tingkat milenium, Danantara memperketat tenggat restrukturisasi akhir 2026, dan PLN IP membuka jalur pendapatan karbon dari PLTP Gunung Salak.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "OpenAI menerbitkan solusi AI terhadap Masalah Milenium Navier–Stokes beserta bukti formal dalam Lean, menandai perpindahan kapabilitas model frontier dari koding ke penalaran matematika murni yang terverifikasi secara formal. Bersamaan, Danantara mempercepat restrukturisasi BUMN Karya dengan tenggat akhir 2026, didorong langsung oleh Presiden Prabowo dalam pertemuan Hambalang 5 September 2026. Di sektor energi, PLN IP mengumumkan inisiatif monetisasi aset karbon dari PLTP Gunung Salak, membuka model pendapatan baru yang belum pernah dioperasikan oleh entitas PLN sebelumnya. Uji B50 selama 1.000 jam yang dikonfirmasi Kementerian ESDM memperkuat posisi Indonesia sebagai negara pertama yang mengoperasikan campuran biodiesel 50 persen. Amerika Serikat dan Tiongkok dijadwalkan menggelar pembicaraan keamanan AI pertengahan September 2026, potensi titik pivot regulasi global.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Clay Mathematics Institute"
+      ],
+      "headline": "OpenAI publikasikan solusi AI untuk Masalah Milenium Navier–Stokes dengan bukti formal Lean",
+      "whatChanged": "OpenAI pada 8 September 2026 merilis dokumen yang mengklaim solusi terhadap Masalah Milenium Navier–Stokes, disertai bukti formal yang dikodekan dalam bahasa verifikasi Lean. Ini adalah klaim pertama dari lab AI besar atas salah satu tujuh Masalah Milenium Clay Mathematics Institute yang belum terpecahkan.",
+      "whyItMatters": "Navier–Stokes adalah masalah persamaan diferensial parsial yang selama lebih dari 150 tahun belum terbukti memiliki solusi mulus (smooth) atau terbukti mengalami singularitas. Bukti formal dalam Lean berarti klaim ini, jika lolos verifikasi komunitas matematika, tidak bergantung pada penilaian manusia semata, melainkan pada pemeriksaan mesin yang deterministik. Ini menggeser batas antara AI sebagai alat bantu matematikawan dan AI sebagai agen penalaran deduktif mandiri.",
+      "secondOrder": "Jika komunitas matematika memvalidasi bukti ini, lembaga riset dan universitas akan menghadapi tekanan untuk mengevaluasi ulang nilai kompetitif program doktoral matematika murni, karena bagian terbesar dari pekerjaan pencarian bukti berpotensi terotomasi. Perusahaan yang menggunakan simulasi komputasional fluida, termasuk di sektor kedirgantaraan, energi, dan farmasi, perlu menilai apakah ada implikasi praktis dari pemahaman baru ini terhadap solver numerik mereka.",
+      "action": "Minta tim riset atau konsultan matematika terapan untuk memverifikasi apakah bukti Lean yang dirilis OpenAI telah diajukan ke Clay Mathematics Institute atau jurnal terverifikasi. Tentukan apakah klaim ini sudah dikorroborasi oleh matematikawan independen sebelum mengkomunikasikannya sebagai fakta kepada pemangku kepentingan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://openai.com/index/navier-stokes-solution"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 17,
+        "firstSeen": "2026-08-20",
+        "spanDays": 20
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Adhi Karya",
+        "Presiden Prabowo",
+        "LRT City"
+      ],
+      "headline": "Prabowo tekan percepatan restrukturisasi BUMN Karya di Hambalang, Danantara kejar tenggat akhir 2026",
+      "whatChanged": "Pada 5 September 2026, Presiden Prabowo menggelar pertemuan dengan pimpinan BUMN di Hambalang dan secara langsung mendorong percepatan hilirisasi serta penataan BUMN. Danantara sebelumnya telah menetapkan target restrukturisasi BUMN Karya selesai akhir 2026, dengan Adhi Karya mengkonfirmasi bahwa kucuran dana Danantara terkait penyelesaian LRT City sedang dalam proses.",
+      "whyItMatters": "Pertemuan Hambalang adalah sinyal intervensi langsung kepresidenan, bukan sekadar arahan birokrasi. Dengan CNN Indonesia sebelumnya melaporkan bahwa Danantara menghadapi kesulitan struktural dalam merestrukturisasi BUMN Karya, tekanan dari Prabowo mempersempit ruang negosiasi waktu. Ini melanjutkan tren struktural yang sudah 18 kali tercatat dalam arsip sejak 19 Agustus 2026, dan kini memasuki fase eksekusi dengan nama proyek dan entitas spesifik.",
+      "secondOrder": "BUMN Karya seperti Adhi Karya yang menggantungkan penyelesaian proyek pada injeksi dana Danantara menghadapi risiko likuiditas jangka pendek bila proses pencairan terlambat melewati tenggat akhir 2026. Kreditur perbankan yang memiliki eksposur terhadap BUMN Karya perlu menilai ulang jadwal pembayaran berdasarkan kapan dana Danantara secara efektif masuk ke neraca masing-masing entitas.",
+      "action": "Periksa keterbukaan informasi Adhi Karya di BEI minggu ini untuk angka spesifik komitmen dana Danantara dan jadwal pencairan terkait LRT City. Bandingkan dengan laporan keuangan kuartal terakhir untuk mengidentifikasi gap likuiditas yang perlu ditutup sebelum akhir 2026.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUt6b0R3ZHF3TkVSM05xSGJOYi1ZYjAzYWc3Z01mQlJXZjBnb25Tdms5dTZ5SWFiNnlUcnREYWdxNmJxUThVQmdUbWJndHdNalg0Z1V4aVJNdzRGZkc4MGpiU1I0ZU9uTml5MnR2TEwzZnJRRGNRNjhWSzd4NGN5OXZJTVYwTFQ1NzY4eW9mM0RJWkVmT2FON3NWc3NFN3ZWenBfSVNHLVFsQmNqT1BTRFRhQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZTRtRWVVQlU4S045NVh5MU9nRVcwQkdSQW00cHJzUXNOUnAxakVib2R0UHplNzBEa2FQbFJPZnN2OXVfbTZqbGtEWlAtcDZXNE1aMHBDa1dTYTJ6YWdacHlRR3p3T0ptY05SbTh1SW9CemRCTHE3SUR3VmFaUTFmRWZ0V01IMWp2M1cySjQ2Vks2eHRPQURVVmxVN0ZYLU9TN05BZEJHUk03YzQyYTZUWW94NFZMZzM1bmk1UmNsOC1pUjZRRUE?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-08-19",
+        "spanDays": 21
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN Indonesia Power",
+        "PLTP Gunung Salak"
+      ],
+      "headline": "PLN IP buka jalur monetisasi karbon dari PLTP Gunung Salak, pendapatan melampaui penjualan listrik",
+      "whatChanged": "PLN Indonesia Power (PLN IP) pada 8 September 2026 mengumumkan inisiatif monetisasi aset karbon dari Pembangkit Listrik Tenaga Panas Bumi (PLTP) Gunung Salak. Ini adalah langkah eksplisit untuk menghasilkan pendapatan dari kredit karbon di atas pendapatan tarif listrik yang sudah ada.",
+      "whyItMatters": "PLTP Gunung Salak adalah salah satu aset geothermal terbesar PLN. Monetisasi karbon menambah lapisan pendapatan baru tanpa penambahan kapasitas pembangkitan, memanfaatkan nilai emisi yang dihindari dari operasi geothermal dibandingkan pembangkit berbahan bakar fosil. Ini melanjutkan tren struktural pln-grid-investment dengan menambahkan dimensi pendapatan non-tarif yang belum pernah dioperasikan skala penuh oleh entitas PLN sebelumnya.",
+      "secondOrder": "Jika model ini berhasil divalidasi di Gunung Salak, PLN IP memiliki argumen kuat untuk menerapkannya di seluruh portofolio geothermal lain. Hal ini berpotensi mengubah valuasi aset geothermal PLN karena pendapatan karbon akan dikapitalisasi terpisah dari pendapatan tarif regulasi, menciptakan struktur yang menarik bagi investor karbon internasional dan lembaga pembiayaan iklim.",
+      "action": "Identifikasi standar kredit karbon yang akan digunakan PLN IP untuk Gunung Salak, apakah Gold Standard, Verra VCS, atau mekanisme artikel 6 Paris Agreement. Perbedaan standar menentukan harga karbon yang bisa diklaim dan akses ke pasar karbon internasional versus domestik.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMk0zaVViOTJ0NmtOM2hON21Cb21KcENYODdoUGNSRmh1Y1hJckU4YTlJdUNuNk5tLUFsVzVVRC1oQWJRaDM1WFNHRmRtdUl4WDh4YWwyc3I4dVlTdHdLSjVXdTgyVHdrOGk3Z1hfdG9ZQVM1ajFHbExLbWdiRzZHcHBQNUJjd0ZKaXJLajRsVDdBTVJVWFZPQmE2S20tT2ZCOUtaOVlvTU4wRk9TbVFNUzFJS0LSAa4BQVVfeXFMUE5Xd00wOExzSTUwdmtVRDgxeUlHOWVJVGRpc3lsV2xPUWkwQTNKVVZCcS1fb2xNZnVHNlpuRjZZZzFSLUsyYW1VXzNaUThOT05GZVVXclY1LXlfZmNJNEdBV0JmSXUxNWpVLU1OU1NDbDR4M2VPZnZtWEM4bjJGN3BKRm5kc0ZlTm85RnNlLWJKRWFaNkJRVUF5YXZwZ09Yc3doOV9tVVpYRzFGR0Jn?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlhvaXZKQ1pScFQ5TDN4emxlakVGdnEybGRwcnZXZXFRdFZidFpyWHVoMFRfWjVpaGJaOW9NN2VITVc0Wm9xRWEwQ1hvelU2THdiTGQzQjhqd2cydWJUWnlVbzlyenFmWTN2bnIwZTEwZEVtZmliTXRkWHRQMWZjbDdtZGY5RThXaWx0QmY0NUgwTkxzY0Qwczc1SXVyb0hRZ3Fxd3ppM253anFuNG5TRVVaRFdqUWhOYWN1VQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 17,
+        "firstSeen": "2026-08-22",
+        "spanDays": 18
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "Kementerian ESDM"
+      ],
+      "headline": "Kementerian ESDM konfirmasi B50 lolos uji tambang 1.000 jam, Indonesia pertama di dunia terapkan B50",
+      "whatChanged": "Kementerian ESDM pada 9 September 2026 mengkonfirmasi bahwa bahan bakar B50 (campuran 50 persen biodiesel dari minyak sawit) telah melewati uji tambang selama 1.000 jam. Indonesia menjadi negara pertama yang menjalankan program B50 secara operasional, dan program ini menarik minat Jepang, Malaysia, dan Eropa dengan potensi penghematan devisa Rp 170 triliun.",
+      "whyItMatters": "Uji 1.000 jam di lingkungan tambang adalah benchmark teknis yang diakui untuk mesin diesel berat. Konfirmasi dari Kementerian ESDM sebagai sumber primer mengangkat status B50 dari program pilot menjadi kebijakan yang siap diterapkan di sektor industri. Dengan negara-negara lain menunjukkan minat, Indonesia memiliki potensi posisi sebagai eksportir standar teknis B50.",
+      "secondOrder": "Jepang dan Malaysia yang tertarik dengan B50 kemungkinan menginginkan akses ke rantai pasok minyak sawit Indonesia sebagai feedstock. Ini bisa memperketat pasar CPO domestik dan meningkatkan harga referensi CPO jika permintaan B50 dari ekspor standar teknis terealisasi, dengan implikasi langsung ke biaya bahan baku produsen biodiesel dalam negeri.",
+      "action": "Verifikasi spesifikasi teknis uji tambang B50 dari Kementerian ESDM, termasuk merek alat berat yang digunakan dan parameter emisi yang diukur. Data ini diperlukan untuk menilai apakah standar uji Indonesia kompatibel dengan regulasi emisi Euro 5 atau Stage V yang berlaku di pasar Eropa yang disebut tertarik.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeTdtdHpkQTk3dTRyNVVhcENpcHBHV1hSTGZPTXVrdTZHS1g0TnNhZUxqak5OWGVINU4xX1d4WjJlaEh5Y1ZQV0p1UkxIMHZVREF3RWJxRWRjajhLYVRYcnhhNG9VVExwSUszUWFrSHVrS0wyejlvZ2t6Rl9ucllubm9XVzR6N1lhVWo3Yi1VUFBQam1rT3kzWXZB0gGfAUFVX3lxTFBqUHhMUnB2VDBEZWFNRmVRcEpaQ21rZDB1QXZVOEwwV29iLW9HU2p4MkJXd3FnNGJPbVNvNGNubHVwdEtPby1RN0QzMTVOblJJTTY2OGNXeHZKLURzdDhSYmlDZFhxcWtWUmo3RlZQUmw5ZEhiTjRZS1U5MGtZYVpVN1dwaS1hWFExM2k2eDZ5WVl5S0plX0hwOHZDTUt4dw?oc=5",
+        "https://finance.detik.com/energi/d-8654009/b50-ri-bikin-jepang-malaysia-eropa-penasaran-ada-potensi-hemat-rp-170-t"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-08-19",
+        "spanDays": 21
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Reuters"
+      ],
+      "headline": "AS dan Tiongkok siapkan pembicaraan keamanan AI pertengahan September 2026, pertama sejak peningkatan ketegangan",
+      "whatChanged": "Reuters melaporkan secara eksklusif pada 4 September 2026 bahwa Amerika Serikat dan Tiongkok sedang mempersiapkan pembicaraan keamanan AI yang dijadwalkan pertengahan September 2026. Ini adalah pembicaraan bilateral formal pertama tentang keamanan AI dalam konteks persaingan teknologi yang meningkat.",
+      "whyItMatters": "Pembicaraan ini berlangsung di tengah konteks persaingan chip AI AS-Tiongkok yang melibatkan pembatasan ekspor Nvidia dan pemesanan chip Huawei oleh DeepSeek, yang sudah tercatat sebagai tren struktural nuclear-ai-datacenter-power dalam arsip 30 hari terakhir. Dialog formal membuka kemungkinan kerangka pengendalian risiko bersama, yang jika disepakati, akan mengubah arah regulasi AI global.",
+      "secondOrder": "Jika pembicaraan ini menghasilkan kesepakatan bahkan parsial tentang standar keamanan AI, negara-negara lain termasuk Indonesia yang sedang membangun regulasi AI nasional akan menghadapi tekanan untuk menyelaraskan diri dengan kerangka AS-Tiongkok, bukan mengembangkan standar independen. Perusahaan teknologi yang beroperasi di kedua ekosistem perlu memantau apakah ada klausul pembatasan baru yang muncul dari dialog ini.",
+      "action": "Pantau konfirmasi tanggal dan agenda pembicaraan AS-Tiongkok yang dijadwalkan pertengahan September 2026. Identifikasi apakah ada perwakilan Indonesia, ASEAN, atau G20 yang dilibatkan sebagai pengamat, karena keterlibatan atau ketidakterlibatan itu menentukan seberapa besar ruang Indonesia untuk membentuk norma keamanan AI global.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd0dTWnZWcm1zc3pGR2l0R0c3YWhnUWFZa2JQeDFSeDA0OHNBdXlULTgya3ZKQ192OXI3NU0xZEEyRmdYb01zaHRQTEt6N01CNFZxU1NnOEZ3WVI0MGtkOUNQSmI3UTJyaWVVTE1hY19NOGJMOWJESVYycVpRU3NvaTdIamVWX2k4dXlIUXVhMUtzZXo4SWV6S01JblIwMGJ5UDF1VA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-08-20",
+        "spanDays": 20
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Validasi komunitas matematika dan Clay Mathematics Institute terhadap bukti Navier–Stokes yang diterbitkan OpenAI dalam Lean",
+      "dueDate": "2026-10-09"
+    },
+    {
+      "item": "Konfirmasi tanggal, agenda, dan hasil pembicaraan keamanan AI AS-Tiongkok pertengahan September 2026",
+      "dueDate": "2026-09-20"
+    },
+    {
+      "item": "Keterbukaan informasi Adhi Karya dan BUMN Karya lain terkait jadwal pencairan dana Danantara menjelang tenggat restrukturisasi akhir 2026",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Standar kredit karbon dan mitra pembeli yang dipilih PLN IP untuk monetisasi karbon PLTP Gunung Salak",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Regulasi teknis B50 yang diterbitkan Kementerian ESDM pasca-uji 1.000 jam, termasuk jadwal mandatory untuk sektor tambang",
+      "dueDate": "2026-12-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gelar Pertemuan di Hambalang, Presiden Prabowo Dorong Percepatan Hilirisasi dan Penataan BUMN",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUt6b0R3ZHF3TkVSM05xSGJOYi1ZYjAzYWc3Z01mQlJXZjBnb25Tdms5dTZ5SWFiNnlUcnREYWdxNmJxUThVQmdUbWJndHdNalg0Z1V4aVJNdzRGZkc4MGpiU1I0ZU9uTml5MnR2TEwzZnJRRGNRNjhWSzd4NGN5OXZJTVYwTFQ1NzY4eW9mM0RJWkVmT2FON3NWc3NFN3ZWenBfSVNHLVFsQmNqT1BTRFRhQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-05T07:00:00.000Z"
+    },
+    {
+      "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd0dTWnZWcm1zc3pGR2l0R0c3YWhnUWFZa2JQeDFSeDA0OHNBdXlULTgya3ZKQ192OXI3NU0xZEEyRmdYb01zaHRQTEt6N01CNFZxU1NnOEZ3WVI0MGtkOUNQSmI3UTJyaWVVTE1hY19NOGJMOWJESVYycVpRU3NvaTdIamVWX2k4dXlIUXVhMUtzZXo4SWV6S01JblIwMGJ5UDF1VA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-04T22:57:32.000Z"
+    },
+    {
+      "title": "PLN IP Garap Monetisasi Aset Karbon, Dorong Nilai Ekonomi dari PLTP Gunung Salak",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMk0zaVViOTJ0NmtOM2hON21Cb21KcENYODdoUGNSRmh1Y1hJckU4YTlJdUNuNk5tLUFsVzVVRC1oQWJRaDM1WFNHRmRtdUl4WDh4YWwyc3I4dVlTdHdLSjVXdTgyVHdrOGk3Z1hfdG9ZQVM1ajFHbExLbWdiRzZHcHBQNUJjd0ZKaXJLajRsVDdBTVJVWFZPQmE2S20tT2ZCOUtaOVlvTU4wRk9TbVFNUzFJS0LSAa4BQVVfeXFMUE5Xd00wOExzSTUwdmtVRDgxeUlHOWVJVGRpc3lsV2xPUWkwQTNKVVZCcS1fb2xNZnVHNlpuRjZZZzFSLUsyYW1VXzNaUThOT05GZVVXclY1LXlfZmNJNEdBV0JmSXUxNWpVLU1OU1NDbDR4M2VPZnZtWEM4bjJGN3BKRm5kc0ZlTm85RnNlLWJKRWFaNkJRVUF5YXZwZ09Yc3doOV9tVVpYRzFGR0Jn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-08T07:47:38.000Z"
+    },
+    {
+      "title": "Adhi Karya Buka Suara soal Kucuran Dana Danantara dan Penyelesaian LRT City - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZTRtRWVVQlU4S045NVh5MU9nRVcwQkdSQW00cHJzUXNOUnAxakVib2R0UHplNzBEa2FQbFJPZnN2OXVfbTZqbGtEWlAtcDZXNE1aMHBDa1dTYTJ6YWdacHlRR3p3T0ptY05SbTh1SW9CemRCTHE3SUR3VmFaUTFmRWZ0V01IMWp2M1cySjQ2Vks2eHRPQURVVmxVN0ZYLU9TN05BZEJHUk03YzQyYTZUWW94NFZMZzM1bmk1UmNsOC1pUjZRRUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-08T13:45:57.000Z"
+    },
+    {
+      "title": "Tak Cuma Jual Listrik, PLN IP Bidik Cuan dari Karbon PLTP Gunung Salak",
+      "publisher": "Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlhvaXZKQ1pScFQ5TDN4emxlakVGdnEybGRwcnZXZXFRdFZidFpyWHVoMFRfWjVpaGJaOW9NN2VITVc0Wm9xRWEwQ1hvelU2THdiTGQzQjhqd2cydWJUWnlVbzlyenFmWTN2bnIwZTEwZEVtZmliTXRkWHRQMWZjbDdtZGY5RThXaWx0QmY0NUgwTkxzY0Qwczc1SXVyb0hRZ3Fxd3ppM253anFuNG5TRVVaRFdqUWhOYWN1VQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-08T05:26:27.000Z"
+    },
+    {
+      "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-19T07:00:00.000Z"
+    },
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "title": "Kementerian ESDM: B50 melewati uji tambang 1.000 jam",
+      "publisher": "kalsel.antaranews.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeTdtdHpkQTk3dTRyNVVhcENpcHBHV1hSTGZPTXVrdTZHS1g0TnNhZUxqak5OWGVINU4xX1d4WjJlaEh5Y1ZQV0p1UkxIMHZVREF3RWJxRWRjajhLYVRYcnhhNG9VVExwSUszUWFrSHVrS0wyejlvZ2t6Rl9ucllubm9XVzR6N1lhVWo3Yi1VUFBQam1rT3kzWXZB0gGfAUFVX3lxTFBqUHhMUnB2VDBEZWFNRmVRcEpaQ21rZDB1QXZVOEwwV29iLW9HU2p4MkJXd3FnNGJPbVNvNGNubHVwdEtPby1RN0QzMTVOblJJTTY2OGNXeHZKLURzdDhSYmlDZFhxcWtWUmo3RlZQUmw5ZEhiTjRZS1U5MGtZYVpVN1dwaS1hWFExM2k2eDZ5WVl5S0plX0hwOHZDTUt4dw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T00:06:43.000Z"
+    },
+    {
+      "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T07:00:00.000Z"
+    },
+    {
+      "title": "B50 RI Bikin Jepang-Malaysia-Eropa Penasaran, Ada Potensi Hemat Rp 170 T",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8654009/b50-ri-bikin-jepang-malaysia-eropa-penasaran-ada-potensi-hemat-rp-170-t",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-08T08:59:06.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Prabowo panggil pimpinan BUMN ke Hambalang, percepat hilirisasi dan penataan",
+      "occurrences": 18,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "DeepSeek plans large Huawei AI chip order for new data centre, hardening the US-China compute infrastructure split",
+      "occurrences": 18,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI publikasi data internal: agen pengoding mendorong percepatan riset secara terukur",
+      "occurrences": 16,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN masih dalam mode optimasi pasokan Sulbagsel per 7 September 2026",
+      "occurrences": 16,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "India wajibkan penyimpanan co-located untuk semua proyek surya dan angin baru",
+      "occurrences": 14,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 390,
+    "poolSize": 110,
+    "generatedAt": "2026-09-09T01:12:59.907Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
