@@ -457,6 +457,14 @@ border-bottom:1px solid transparent}
 .ed-nav .lbl{display:block;font-family:var(--mono);font-size:.62rem;
 text-transform:uppercase;letter-spacing:.13em;color:var(--faint);margin-bottom:.3rem}
 .ed-nav .next{margin-left:auto;text-align:right}
+.edition-switcher{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;
+border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+padding:.75rem 0;margin:1.35rem 0 2rem;font-family:var(--mono);
+font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;color:var(--faint)}
+.edition-switcher a{color:var(--muted);text-decoration:none;border-bottom:1px solid transparent}
+.edition-switcher a:hover,.edition-switcher a:focus-visible{color:var(--ink);border-bottom-color:var(--ink)}
+.edition-switcher .lbl{color:var(--ink);font-weight:600;margin-right:.2rem}
+.edition-switcher .spacer{color:var(--rule-strong)}
 
 /* The site ships no JavaScript, so the domain filter is not a control; each
    domain is its own static page. That also gives a crawler three real URLs
@@ -1111,6 +1119,17 @@ ${e.trends.map(
         html`<li>${w.item}${w.dueDate && html` <span class="n">· ${formatDate(w.dueDate, e.lang)}</span>`}</li>`,
     )}</ul>`;
 
+  const editionSwitcher =
+    (neighbours.older || neighbours.newer) &&
+    html`<nav class="edition-switcher" aria-label="${s.archiveTitle}">
+<span class="lbl">${e.lang === "id" ? "Pindah edisi" : "Switch edition"}</span>
+${neighbours.older &&
+      html`<a href="${url(cfg, editionPath(neighbours.older.lang, neighbours.older.slug))}">${s.prevEdition}</a><span class="spacer">/</span>`}
+<a href="${url(cfg, archivePath(e.lang))}">${s.archive}</a>
+${neighbours.newer &&
+      html`<span class="spacer">/</span><a href="${url(cfg, editionPath(neighbours.newer.lang, neighbours.newer.slug))}">${s.nextEdition}</a>`}
+</nav>`;
+
   const body = html`<article class="signal-doc">
 <h1>${e.title}</h1>
 ${e.dek && html`<p class="dek">${e.dek}</p>`}
@@ -1131,6 +1150,7 @@ ${e.domains.map(
 <span class="arrow">·</span> <b>${e.sources.length}</b> ${s.funnelCited}
 </p>
 ${auditBlock(e.lang)}
+${editionSwitcher}
 ${decisionContextBlock(cfg, e.lang, e.date)}
 
 ${e.summary && html`<h2>${s.summary}</h2>
