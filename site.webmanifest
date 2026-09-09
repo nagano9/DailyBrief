@@ -13,7 +13,26 @@
       "type": "image/png"
     }
   ],
+  "start_url": "/",
+  "scope": "/",
   "theme_color": "#111827",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "shortcuts": [
+    {
+      "name": "Edisi terbaru",
+      "short_name": "Terbaru",
+      "url": "/"
+    },
+    {
+      "name": "Arsip edisi",
+      "short_name": "Arsip",
+      "url": "/arsip/"
+    },
+    {
+      "name": "Signal tracker",
+      "short_name": "Tracker",
+      "url": "/tracker/"
+    }
+  ]
 }
