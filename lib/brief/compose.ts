@@ -63,6 +63,14 @@ const REQUIRED_SIGNALS = 5;
 const MIN_SIGNALS = Number(process.env.BRIEF_MIN_SIGNALS ?? 3);
 const MAX_COMPOSE_ATTEMPTS = 2;
 
+const PROTECTED_ROLE_MISMATCHES = [
+  {
+    person: /purbaya(?:\s+yudhi\s+sadewa)?/i,
+    wrongRole: /\b(danantara\s+ceo|ceo\s+danantara|kepala\s+danantara|kepala\s+bp\s+bumn|pimpinan\s+danantara)\b/i,
+    expected: "Purbaya Yudhi Sadewa is Finance Minister, not Danantara leadership",
+  },
+];
+
 export interface ComposeResult {
   edition: Edition;
   rejected: { statement: string; reason: string }[];
@@ -199,6 +207,11 @@ function assertCleanProse(value: string, where: string): void {
   for (const rule of STYLE_RULES) {
     if (rule.pattern.test(value)) {
       throw new StyleViolationError(`${where} contains ${rule.name}; ${rule.fix}`);
+    }
+  }
+  for (const rule of PROTECTED_ROLE_MISMATCHES) {
+    if (rule.person.test(value) && rule.wrongRole.test(value)) {
+      throw new StyleViolationError(`${where} contains protected role mismatch; ${rule.expected}`);
     }
   }
 }

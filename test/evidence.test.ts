@@ -112,6 +112,15 @@ test("style validation rejects not-just framing in generated prose", () => {
   assert.throws(() => assemble(JSON.stringify(parsed)), /not-just\/not-only frame/);
 });
 
+test("style validation rejects protected role mismatches", () => {
+  const parsed = JSON.parse(draft()) as Record<string, unknown>;
+  const signals = parsed.signals as Record<string, unknown>[];
+  signals[0].headline = "Danantara fiscal transfer dispute escalates";
+  signals[0].whatChanged =
+    "Kepala Danantara Purbaya Yudhi Sadewa stated that the Rp120 trillion transfer remains contested.";
+  assert.throws(() => assemble(JSON.stringify(parsed)), /protected role mismatch/);
+});
+
 test("style validation lets direct source-grounded prose through", () => {
   const result = assemble(draft());
   assert.equal(result.edition.signals.length, 5);

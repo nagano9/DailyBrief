@@ -217,6 +217,8 @@ ATURAN LAIN:
 - Jangan menceritakan ulang isi artikel. Kutip angka hanya bila ada di kandidat.
 - Bedakan fakta dari inferensi; beri bahasa berhati-hati untuk inferensi.
 - Sebut entitas secara eksplisit: nama perusahaan, lembaga, produk, regulasi.
+- Jangan menebak jabatan. Orang yang mengomentari sebuah lembaga tidak otomatis
+  pejabat lembaga itu. Atribusikan jabatan hanya bila kandidat menyatakannya.
 - Bahasa Indonesia formal-eksekutif. Tanpa klise, tanpa kalimat pengisi.
 ${STYLE_ID}
 `.trim();
@@ -280,6 +282,8 @@ OTHER RULES:
 - Do not restate article content. Cite figures only when the candidates give them.
 - Separate fact from inference; hedge inferences.
 - Name entities explicitly: companies, institutions, products, regulations.
+- Do not infer titles. A person commenting on an institution is not necessarily
+  an officer of that institution. Attribute a role only when a candidate states it.
 - Professional English for an institutional reader. No clichés, no filler.
 ${STYLE_EN}
 `.trim();

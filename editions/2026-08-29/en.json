@@ -9,7 +9,7 @@
     "corporate",
     "energy"
   ],
-  "summary": "Anthropic has published a Model Hardware Standard that defines how AI agents interact with physical-world devices, extending the agentic frontier beyond software into industrial and embedded systems. Simultaneously, Danantara CEO Purbaya has confirmed a Rp120 trillion dividend transfer to the state budget this year, the first major fiscal test of the sovereign fund's commercial logic amid an unfinished BUMN Karya restructuring. Indonesia's 100GWp PLTS program, launched by President Prabowo in Bali, remains structurally at risk: IESR's public warning that execution, not announcement, is the real challenge continues the recurring pattern of ambitious targets without grid and financing infrastructure to match. On the frontier model side, GLM-5.3 going open-weight with 320B multimodal parameters raises competitive pressure on proprietary models in non-English markets. Across these signals, the common thread is commitments being stress-tested by implementation: hardware specs, dividend schedules, and solar buildout deadlines all demand operational follow-through this quarter.",
+  "summary": "Anthropic has published a Model Hardware Standard that defines how AI agents interact with physical-world devices, extending the agentic frontier beyond software into industrial and embedded systems. Simultaneously, Finance Minister Purbaya Yudhi Sadewa has said Danantara will make a Rp120 trillion dividend transfer to the state budget this year, the first major fiscal test of the sovereign fund's commercial logic amid an unfinished BUMN Karya restructuring. Indonesia's 100GWp PLTS program, launched by President Prabowo in Bali, remains structurally at risk: IESR's public warning that execution, not announcement, is the real challenge continues the recurring pattern of ambitious targets without grid and financing infrastructure to match. On the frontier model side, GLM-5.3 going open-weight with 320B multimodal parameters raises competitive pressure on proprietary models in non-English markets. Across these signals, the common thread is commitments being stress-tested by implementation: hardware specs, dividend schedules, and solar buildout deadlines all demand operational follow-through this quarter.",
   "signals": [
     {
       "rank": 1,
@@ -48,13 +48,12 @@
       "domain": "corporate",
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "Danantara",
-        "Purbaya",
-        "BUMN Karya",
-        "APBN"
+        "Purbaya Yudhi Sadewa",
+        "Ministry of Finance",
+        "Danantara"
       ],
-      "headline": "Danantara CEO confirms Rp120 trillion dividend transfer to state budget in 2026",
-      "whatChanged": "Danantara CEO Purbaya publicly confirmed, corroborated across ANTARA, detikFinance, and investor.id, that Danantara will transfer approximately Rp120 trillion to the state budget (APBN) this year, with the timing still to be determined by presidential decision. This is the first public, named commitment on the fiscal extraction quantum from the sovereign fund.",
+      "headline": "Finance Minister says Danantara will transfer Rp120 trillion to state budget in 2026",
+      "whatChanged": "Finance Minister Purbaya Yudhi Sadewa said, in reports carried by ANTARA, detikFinance, and investor.id, that Danantara will transfer approximately Rp120 trillion to the state budget this year, with timing still to be determined by presidential decision. This is a public fiscal-authority statement on the expected transfer, not a statement from Danantara leadership.",
       "whyItMatters": "Danantara was structured as a wealth-accumulation vehicle; a Rp120 trillion dividend in year one, while BUMN Karya restructuring remains unfinished and target completion is end-2026, signals that the fund is being asked to perform fiscal support and portfolio repair simultaneously. That dual mandate creates capital allocation tension: dividend payments reduce the internal capital available for the recapitalisation and merger exercises the BUMN Karya restructuring requires.",
       "secondOrder": "If Danantara meets the Rp120 trillion commitment by drawing on liquid portfolio income rather than asset sales, it will delay or force dilution of BUMN Karya restructuring timelines. If it draws on asset disposals, markets will need to price accelerated divestiture of state-linked entities. Either path changes the risk profile for counterparties, banks, contractors, and foreign JV partners, who have exposures to BUMN Karya entities.",
       "action": "Request clarity from Danantara or its advisors on the source of the Rp120 trillion: operating distributions, asset sales, or inter-entity transfers. The answer determines whether the BUMN Karya restructuring timeline announced for end-2026 remains credible, and whether counterparty risk to BUMN Karya entities is rising.",
