@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; data:; form-action &#39;none&#39;; base-uri &#39;none&#39;">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;self&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; data:; worker-src &#39;self&#39;; form-action &#39;none&#39;; base-uri &#39;none&#39;">
 <title>SpaceX Eyes Turbine Factory; PLTS 100 GWp Groundbreaking; Danantara to Partners Group | Daily Strategic Briefing</title>
 <meta name="description" content="Three structurally significant moves, AI infrastructure verticalizing into power hardware, Indonesia&#39;s solar megaproject breaking ground, and Danantara deploying $1B offshore, converge in a single session.">
 <meta name="google-site-verification" content="D_rAihSMsnXvLIIEMHCEGqosuxUua9czU0NmXbOWrp8">
@@ -75,6 +75,11 @@ nav.site a:hover,nav.site a:focus-visible{color:var(--ink);border-bottom-color:v
 letter-spacing:.12em;text-decoration:none;border:1px solid var(--rule-strong);
 padding:.38rem .62rem;color:var(--ink);white-space:nowrap}
 .premium-link:hover,.premium-link:focus-visible{border-color:var(--backed);color:var(--backed)}
+.install-app{display:none;font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.12em;border:1px solid var(--ink);background:var(--ink);color:var(--paper);
+padding:.38rem .62rem;white-space:nowrap;cursor:pointer}
+.install-app[data-ready]{display:inline-block}
+.install-app:hover,.install-app:focus-visible{background:var(--backed);border-color:var(--backed)}
 
 h1{font-family:var(--serif);font-size:2rem;font-weight:600;line-height:1.2;
 letter-spacing:-.012em;margin:0}
@@ -477,6 +482,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <a href="/en/feed.xml">RSS</a>
 <a href="/edisi/2026-08-30/">Bahasa Indonesia</a>
 </nav>
+<button class="install-app" type="button" data-install-app>Install app</button>
 <a class="premium-link" href="/en/premium/">Premium</a>
 </div></div></header>
 <main id="main" class="doc">
@@ -683,5 +689,6 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 · <a href="/en/about/">About</a>
 · <a href="https://wa.me/6281393000399" rel="noopener" target="_blank">Contact</a></p>
 </div></footer>
+<script src="/app.js" defer></script>
 </body>
 </html>
