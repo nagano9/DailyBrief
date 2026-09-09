@@ -2,13 +2,14 @@
   "slug": "2026-09-10",
   "date": "2026-09-10",
   "lang": "en",
-  "title": "GPT-6 Astra launches; Anthropic discloses 4th AI hack; Adhi Karya divests",
-  "dek": "OpenAI's GPT-6 Astra release, a compounding Anthropic cybersecurity disclosure, and Adhi Karya's forced asset sales collectively shift the week's calculus on frontier AI deployment, AI safety governance, and Indonesia's BUMN restructuring timeline.",
+  "title": "GPT-6 Astra, Danantara's Rp120T Rift, and ADHI's Asset Fire Sale",
+  "dek": "A new frontier AI model enters enterprise markets, Indonesia's sovereign wealth fund faces a governance crisis over profit transfers, and BUMN Karya restructuring moves from policy to forced divestiture.",
   "domains": [
     "ai",
-    "corporate"
+    "corporate",
+    "energy"
   ],
-  "summary": "OpenAI has released GPT-6 Astra for business, marking the first GPT-6-family model positioned explicitly for enterprise work including computer use and design judgment. Simultaneously, Anthropic has disclosed a fourth AI-facilitated cybersecurity incident that had been missed in earlier internal reviews, deepening the operational risk case for enterprise AI adoption. On Indonesia's corporate front, Adhi Karya is divesting hotels and toll-road assets under Danantara-driven BUMN Karya restructuring pressure, a concrete signal that the restructuring has moved from declaration to forced balance-sheet action. Massachusetts has introduced clean-power mandates for new data centers, adding a regulatory cost dimension to AI infrastructure that other jurisdictions will study. Separately, a Kontan report flags a Rp 120 trillion dispute between Danantara and the government over profit remittance, which, if unresolved, constrains Danantara's capacity to fund the restructuring it is simultaneously accelerating.",
+  "summary": "OpenAI's GPT-6 Astra launch formally moves frontier AI into enterprise workflows with computer-use and advanced reasoning, raising procurement and vendor-lock questions for large institutions. Simultaneously, Massachusetts mandates clean-power procurement for data centres, creating a regulatory template that will propagate to other jurisdictions and force data-centre operators to treat energy sourcing as a compliance obligation. On Indonesia's corporate front, Danantara and the government are publicly split over whether Rp120 trillion in profits must be transferred to the state, a rift that signals governance ambiguity at the centre of Indonesia's largest investment vehicle. That restructuring pressure is now visible in asset markets: Adhi Karya is actively divesting hotels and toll roads under Danantara and BP BUMN direction, converting the BUMN Karya restructuring from a presidential directive into observable asset liquidation. Anthropic's disclosure of a fourth AI cybersecurity incident, combined with its researchers' public extinction-risk statements, adds a safety-governance dimension that enterprise AI buyers and regulators cannot treat as background noise.",
   "signals": [
     {
       "rank": 1,
@@ -18,11 +19,11 @@
         "OpenAI",
         "GPT-6 Astra"
       ],
-      "headline": "OpenAI releases GPT-6 Astra, its first GPT-6-family model targeted at enterprise work",
-      "whatChanged": "OpenAI published GPT-6 Astra on 9 September 2026, describing it as its most capable model for business use, with advanced reasoning, computer use, and stronger writing and design judgment. This is the first GPT-6-series model released under an explicit enterprise positioning.",
-      "whyItMatters": "GPT-6 Astra moves the frontier model release cycle into a phase where computer-use capability is bundled into the standard enterprise offer, not positioned as an experimental add-on. Enterprises evaluating AI contracts must now account for autonomous desktop and browser actions as a default capability, which changes procurement, security review, and liability scope.",
-      "secondOrder": "Computer-use capability embedded in a generally available enterprise model forces corporate IT and legal teams to treat AI deployments as process-automation infrastructure rather than decision-support tools. Insurance, audit, and change-management frameworks written for decision-support AI are now structurally inadequate for the class of systems being sold.",
-      "action": "Review any enterprise AI contract or pilot scope written before September 2026: if it does not explicitly address computer-use permissions, sandboxing, and audit logging, it carries unpriced operational risk. Update procurement checklists to require explicit computer-use policies before GPT-6 Astra rollout approvals.",
+      "headline": "OpenAI launches GPT-6 Astra, its first model positioned explicitly for enterprise business workflows",
+      "whatChanged": "OpenAI released GPT-6 Astra on 9 September 2026, describing it as its most capable model for business use, with advanced reasoning, computer-use capability, and stronger writing and design judgment. The announcement frames the model as purpose-built for work automation rather than general consumer use.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts thread, which is now structural after 17 archive appearances. A frontier model with native computer-use and advanced reasoning packaged for business procurement changes the evaluation calculus for enterprise buyers: the question shifts from whether AI can assist workers to which vendor's agent infrastructure to commit to, and on what contract terms.",
+      "secondOrder": "Computer-use capability in an enterprise-licensed model exposes organisations to a new class of data-handling risk: the model can take actions across internal systems, not merely generate text. Procurement teams that have evaluated AI on output quality alone will need to add access-scope, audit-log, and liability clauses to contracts before deployment, or face uncontrolled data egress.",
+      "action": "Revisit any pending GPT-series enterprise contracts this week to confirm whether computer-use features are included by default or must be opted in, and map which internal systems would be accessible under current API permission structures.",
       "strength": "material",
       "sourceUrls": [
         "https://openai.com/index/gpt-6-astra-next-generation-work"
@@ -42,25 +43,61 @@
     },
     {
       "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BP BUMN",
+        "Adhi Karya",
+        "ADHI"
+      ],
+      "headline": "Danantara and the Indonesian government are publicly split over a Rp120 trillion profit transfer obligation",
+      "whatChanged": "Kontan and Tempo both reported on 9 September 2026 that Danantara has not yet discussed the Rp120 trillion profit transfer that the government expects it to deliver to the state treasury, with both parties holding divergent positions on the obligation. Adhi Karya (ADHI), meanwhile, confirmed it is divesting hotels and toll-road assets under pressure from Danantara and BP BUMN, its largest Series A and B shareholders.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now structural at 19 archive appearances. The Rp120 trillion dispute is the first public evidence of a governance gap between Danantara's investment mandate and the state's fiscal expectations. A sovereign investment vehicle that is simultaneously restructuring operating companies, raising international bonds, and disputing profit-transfer terms faces compounded credibility risk with foreign counterparties.",
+      "secondOrder": "The ADHI asset divestiture shows that restructuring pressure is converting from political directive into balance-sheet events. Buyers of divested toll roads and hotels will price the distressed-seller dynamic into offers, likely depressing recovery values below carrying amounts. If other BUMN Karya entities follow the same path, the aggregate valuation markdown will feed back into Danantara's own asset base, weakening the collateral quality underpinning its international bond programme.",
+      "action": "Map Danantara's currently disclosed international bond covenants against the Rp120 trillion transfer scenario: if the transfer is enforced, assess whether it triggers liquidity or coverage thresholds that bondholders could act on.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWlhZRWJKT2RvRFBHRVpDTFRzWmxYazVadHMzbTJXYk84a3duNlQxYml5eEw4ZWlSbUZobGlxZjB3REc0aE5yb09UcHlWcm9FeTZ6eFhxeUFUZENTTXNFdDR4UXNUV1owWXNTM0lmNzl1UTNXNThGcVY4MlBjSVNKUUZXZzJha0ZSMFZ0XzlKNmhSakh4Z3RXSzA2UmkzOWlUdFQ0MnpwUlc2b0Fuajlnb19B0gGrAUFVX3lxTFByOEMxWjJWRkJRS1dfV3VZVnU0eUkzYkU5aEZhYl9iTUVmNTlXekRYdmd4MERfRG1uZERBb0tuUkRjZ3NWZGZpS1BfeFg3MENXTG0zaUpFNG1VMzZjYm1aVVBFYkF3OHNfMENCQ3BtRXNaRU82eUxvT19Nbk1QalVyUnR4dE5vMERDeFVSTk50VWQ3RzdBalZCY0JPb0dsZ19OU0lIVkI0MDM2TQ?oc=5",
+        "https://finance.detik.com/bursa-dan-valas/d-8655761/adhi-karya-buka-suara-usai-diminta-tutup-semua-anak-usaha",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjhrQkJTbmFYbVp4N0pZSWQzajNHSjFlWW5RZEdfdXZ6TTRwcWZaTmR2VWM4b3gtNXNLRDdJRTIzTFJfN29HNWVsb0tHUmgzUUxFNGlBNHY1Z2tSR3hIVGxGM3JaVDM0RW9Sc1FiMUpYS2Y2QkpOc1U3TjY0T1FNQW41eW9LYUtXWC1ZRTNpM2J1OEZBamRjb0FTMA?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnRtUVpTMElING9wREJ2LVk4T2t2S0xvTTdfek91bmNOWm14TkFzcWtFSi1fWUphLWZXYXpRdDRPQ1hVSl9xM2FWbjNkUm8zSmV0MVdCUnVJb1ZWVTdlVlBMSDZGWFJQWDcwaWZTTW13XzUxSk1PLXNJenZYSHhldklRWmRzMG9wdEt3ZVhVN3p6ZmFRaWVTR1B2aGdyaGVmNVNLd1RYcVBDd1Rob3V0TXJMa3ZINHRi?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-19",
+        "spanDays": 22
+      }
+    },
+    {
+      "rank": 3,
       "domain": "ai",
       "themeKey": "ai-model-safety-frontier",
       "entities": [
-        "Anthropic",
-        "Reuters"
+        "Anthropic"
       ],
-      "headline": "Anthropic discloses a fourth AI-facilitated hacking incident missed in its own earlier review",
-      "whatChanged": "Reuters reported on 9 September 2026 that Anthropic disclosed a fourth cybersecurity incident in which its AI was involved in hacking activity, one that had not been identified in the company's prior internal review. Anthropic published a companion alignment assessment of recent cybersecurity incidents on the same day.",
-      "whyItMatters": "The missed detection is the operative fact: Anthropic's own review process failed to surface an incident that later required separate disclosure. This is not a story about AI risk in the abstract but about the reliability of vendor-run safety reviews as the primary assurance mechanism for enterprise buyers.",
-      "secondOrder": "If a frontier lab's internal alignment review misses incidents, enterprise buyers and regulators cannot treat vendor self-attestation as sufficient due diligence. The governance gap this reveals will accelerate demand for third-party AI safety audits, analogous to the financial audit function, and may inform legislative proposals already circulating in the EU and US.",
-      "action": "This week, request that any AI vendor in your procurement pipeline provide its incident-disclosure policy, the cadence of internal safety reviews, and whether third-party auditors have access. If the answer is self-attestation only, price that risk explicitly in the procurement decision.",
+      "headline": "Anthropic discloses a fourth AI cybersecurity incident and researchers publicly assign more than 10% probability to AI-caused human extinction by 2030",
+      "whatChanged": "Reuters reported on 9 September 2026 that Anthropic disclosed a fourth AI hacking incident that had been missed in an earlier internal review. Separately, BBC and The Guardian reported the same day that Anthropic researchers stated a greater than 10% probability that AI could cause human extinction by 2030, with at least one researcher describing it as more than 10%.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread. A lab disclosing a missed incident in its own review signals that internal safety audits are structurally insufficient at current scale. The extinction-probability statements, made by researchers at the company building the models, give regulators public cover to impose mandatory incident-reporting and third-party audit requirements without waiting for legislative consensus.",
+      "secondOrder": "Enterprise procurement teams treating AI safety as a vendor-assurance checkbox will face pressure from boards and insurers to treat it as a first-order due-diligence item. The combination of a disclosed incident backlog and researcher-level public risk statements creates documentary evidence that any acquirer, insurer, or regulator can cite, raising liability exposure for organisations that deploy Anthropic models without documented safety assessments.",
+      "action": "Request Anthropic's updated incident disclosure register before any new Claude deployment decision this quarter, and confirm whether your organisation's AI liability insurance covers incidents originating from model-level vulnerabilities rather than only user-side misuse.",
       "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaU1ZZ0ZRWnBaSnRlakoxVTU1SE9aZTEySkNZU2N2eU5XWG9remJKT29feUVoNlhhQVpfWnNFd1NKZ0xnb3lobTExTXE5dXZud0tCbGVLMzR4Y0NFRkRRUUlnWUllbjVTcXBWeHJzMDJVamFBQjJveC1PNThKSGUzNlRfUlVEVkJPbHhtendZdXdsSmdva0RvT3NidFdSb3BWSmd6R1lFb1NxYXdjR0xKeVVnZWY4c3JlbHlycFhkcXlmQ1Jv?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6WDZoOFRnTjQ5WW5vMUJKeThhbUUyUTlaeXdKbUhoNE5WNDhnVjhmM080N3p3ZFJfSm9ncUZtblZDRm1YU1hYbjBZZ3ZXNkRjSmNBUmdTa0tCZw?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSVlEaEpsMXNNdTNyNTY5VzZyTDVfQkFyNTJTTTNyZkM1amhPQnZtRFpCdFU1X245b1lSUEQ4Y0Zqa0x5Nkgzb3NjX1BxX1BlcUo1LThfUDNyVXpGd08wTFJ1cE4tb19SSnlXMERDc2tMUDZfN3VjZm02QjVQMmVmelVYYnhRV3pEQ2pqSXRVUlpSRGhwemdr?oc=5",
         "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFZuQXh2LWp1d0NoNDQ2cHdrTktoZ0dIdDUyeEVrSGVyWDBzT3dsV3lhelR6RXhtYy03MTNSYVlya2hSZm1MMHVkZVFMeEt4RDFJM0Z2TW9SRlFDYTM5eGhxU2YzTWNJOU8yWWktWjU5Y0FUeDdLV0lfdnJ2SW9uZE0zOFFXZw?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 4,
         "hasPrimary": true
       },
       "trend": {
@@ -72,22 +109,50 @@
       }
     },
     {
-      "rank": 3,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
-        "Adhi Karya",
-        "ADHI",
-        "Danantara"
+        "Massachusetts"
       ],
-      "headline": "Adhi Karya divests hotels and toll-road assets as BUMN Karya restructuring moves to forced sales",
-      "whatChanged": "Bisnis.com reported on 9 September 2026 that Adhi Karya (ADHI) is selling hotels and toll-road concessions as part of the Danantara-driven BUMN Karya divestment program. This continues the danantara-bumn-karya-restructuring thread, now 19 instances deep since 19 August 2026, and represents the first concrete asset-disposal action reported for a named BUMN Karya entity.",
-      "whyItMatters": "The restructuring has crossed from policy announcement into balance-sheet execution. Forced divestment of operating assets by a listed SOE under Danantara direction signals that Danantara has sufficient administrative authority to compel asset sales, which is a materially different condition from the earlier phase when restructuring timelines were contested.",
-      "secondOrder": "Distressed-price hotel and toll-road asset sales by ADHI will set market reference prices for similar assets held by other BUMN Karya entities. If Adhi Karya sells at discounts to book, it triggers impairment review obligations at Waskita, PTPP, and other Karya firms, potentially compressing their equity cushions and complicating any subsequent Danantara-backed recapitalization.",
-      "action": "Map BUMN Karya asset portfolios against their book values now, before Adhi Karya transaction prices are disclosed. Any institution with exposure to Waskita Karya, PTPP, or Hutama Karya debt or equity should model a 20-30 percent discount scenario on comparable asset classes to stress-test covenant headroom.",
-      "strength": "material",
+      "headline": "Massachusetts mandates clean-power procurement for data centres, setting a regulatory precedent for AI infrastructure power sourcing",
+      "whatChanged": "TechCrunch reported on 9 September 2026 that Massachusetts enacted new rules requiring data centres to procure clean power, making it one of the first US states to impose a grid-sourcing obligation specifically on the data-centre sector. Malaysia's energy regulator, separately reported by Eco-Business, confirmed data centres now account for 9.28% of the country's total electricity consumption.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power thread. State-level clean-power mandates for data centres represent a qualitative shift: energy sourcing moves from a voluntary sustainability commitment to a compliance requirement with enforcement mechanisms. The Massachusetts rule will be cited in other US state proceedings and in international regulatory consultations.",
+      "secondOrder": "Data-centre operators who have structured their power procurement around spot markets or standard commercial tariffs will face retrofit costs to demonstrate compliance, either through renewable energy certificates, direct power-purchase agreements, or on-site generation. In markets like Malaysia, where data centres already consume 9.28% of national electricity, the absence of equivalent mandates creates a regulatory arbitrage window that is likely to close within two to three years as grid stress becomes politically visible.",
+      "action": "For any data-centre investment or partnership under evaluation, add a regulatory-trajectory column to the power-procurement analysis: model the cost impact of a clean-power mandate applying within three years, and compare sites in jurisdictions with and without active legislative dockets on the issue.",
+      "strength": "actionable",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnRtUVpTMElING9wREJ2LVk4T2t2S0xvTTdfek91bmNOWm14TkFzcWtFSi1fWUphLWZXYXpRdDRPQ1hVSl9xM2FWbjNkUm8zSmV0MVdCUnVJb1ZWVTdlVlBMSDZGWFJQWDcwaWZTTW13XzUxSk1PLXNJenZYSHhldklRWmRzMG9wdEt3ZVhVN3p6ZmFRaWVTR1B2aGdyaGVmNVNLd1RYcVBDd1Rob3V0TXJMa3ZINHRi?oc=5"
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRFVqSF9UMzZ2akpONjZtWXU3SG9zdHRoQl9CSVU2WUkxaVNiVWhmQzdSTHREZmVCVFIyZTUyRzZ5aHJRZ3VHZUhOcnhFNkhyMmVYMlkyRUo4TDNhN1U2aVFlbzNvaEd0bXVpLTBuR0dhQTNES2tyeVFTQ21nUnJuaThjYTZwVnNfamR1cmJBZEE1bVF2U2dyNA?oc=5",
+        "https://www.eco-business.com/news/data-centres-and-prolonged-heat-are-pushing-malaysias-power-demand-higher/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-20",
+        "spanDays": 21
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN"
+      ],
+      "headline": "Rooftop solar quota and regulatory constraints are throttling demand growth in Indonesia despite a surge in applications",
+      "whatChanged": "Kontan reported on 9 September 2026 that rooftop solar demand in Indonesia has surged but businesses are complaining about quota limitations and regulatory barriers preventing connection to the PLN grid. The report identifies quota allocation and permitting as the binding constraint, not generation cost or equipment availability.",
+      "whyItMatters": "This continues the pln-grid-investment thread, now structural at 17 archive appearances. Rooftop solar bottlenecks are a demand-side symptom of grid-connection policy design. Indonesia's 100 GWp solar programme, launched by President Prabowo in August 2026, will face a structural execution gap if the regulatory framework governing distributed generation is not reformed in parallel with utility-scale deployment.",
+      "secondOrder": "Suppressed rooftop solar uptake concentrates renewable investment into utility-scale projects where PLN and its counterparties control offtake, limiting competitive pressure on tariff design. Businesses that cannot self-generate remain exposed to PLN's fixed tariff schedule, which has held flat through September 2026, but the political economy of tariff suppression combined with rising demand from data centres and industrial users creates a fiscal stress that will eventually require either tariff adjustment or subsidy expansion.",
+      "action": "Assess whether any commercial or industrial facility in your portfolio would qualify for rooftop solar under the current PLN quota regime, and identify which ministry or PLN business unit controls quota allocation so that advocacy or regulatory engagement can be targeted precisely.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN09rZVdVVllIZ1BXN1V1c2E4a2UyZTNUQnF5eEtUd1loVVVkZVBIb2UyYkUwZGR1QXo1MVN3WEhaUzZNQ1hmOXJUcmlFck1tU3dSUzI0ZHVsMmdSUlowRFZ4VmJyZDlqWHc1WUZ4LW1DNE1KRXBWbEpSd09lVHhuRjJUNEJYeVRPdExZR1BaOGNlU2hRNVNHaUJsMXd4MFJITDFpOFl4REXSAaIBQVVfeXFMUDk5RWdkLXlfclRlUjV1bjRpeTByeFNnRGdVMnlOWjZaMnR4bHNCNUs3cTN2LURNS0NQS0tyam13NjRlS3hycldPVUtZV3JTejZuQ09pazJxWjgzdXFHM2d6TzlzS05xQWUxRTRQX0kyTXlBZDFXV1h3YWpMTWtwdnNYYmNaM0stVGExbGg2Q25leHppdXZuaEJHcTFZU3Y5eFd3?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -95,34 +160,34 @@
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
+        "themeKey": "pln-grid-investment",
         "status": "structural",
-        "occurrences": 20,
-        "firstSeen": "2026-08-19",
-        "spanDays": 22
+        "occurrences": 18,
+        "firstSeen": "2026-08-22",
+        "spanDays": 19
       }
     }
   ],
   "watchNext": [
     {
-      "item": "Adhi Karya transaction price disclosures for hotel and toll-road divestitures: will set reference prices for other BUMN Karya asset sales and trigger potential impairment reviews across the sector.",
+      "item": "Danantara's formal response to the Rp120 trillion government profit-transfer demand and any bond covenant implications",
+      "dueDate": "2026-09-20"
+    },
+    {
+      "item": "US-China AI safety talks scheduled for mid-September 2026: whether a bilateral agreement on incident disclosure or model governance emerges",
+      "dueDate": "2026-09-20"
+    },
+    {
+      "item": "Massachusetts clean-power data-centre rule: implementing regulations and enforcement timeline, and whether California or New York introduce parallel bills",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Adhi Karya asset divestiture: announced sale prices for hotels and toll roads versus book value, to benchmark BUMN Karya restructuring recovery rates",
       "dueDate": "2026-10-15"
     },
     {
-      "item": "Resolution of the Rp 120 trillion Danantara profit-remittance dispute: outcome determines Danantara's effective capital base for restructuring and affects pricing of its dollar bond program.",
+      "item": "Indonesia rooftop solar quota reform: any Kementerian ESDM or PLN regulatory revision responding to the documented demand backlog",
       "dueDate": "2026-11-01"
-    },
-    {
-      "item": "Enterprise uptake and incident reporting for GPT-6 Astra computer-use capability: first disclosed enterprise incidents will define the liability and insurance landscape for computer-use AI.",
-      "dueDate": "2026-12-31"
-    },
-    {
-      "item": "Other US state legislatures or the EU data act process adopting Massachusetts-style clean-power mandates for data center permitting: watch Virginia, Texas, and Netherlands legislative calendars.",
-      "dueDate": "2027-03-31"
-    },
-    {
-      "item": "Anthropic third-party safety audit framework: whether the fourth-incident disclosure accelerates regulatory or voluntary adoption of independent AI safety audits analogous to financial audits.",
-      "dueDate": "2026-12-01"
     }
   ],
   "sources": [
@@ -136,6 +201,15 @@
       "publishedAt": "2026-09-09T19:13:44.000Z"
     },
     {
+      "title": "Massachusetts hits data centers with new clean power rules",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRFVqSF9UMzZ2akpONjZtWXU3SG9zdHRoQl9CSVU2WUkxaVNiVWhmQzdSTHREZmVCVFIyZTUyRzZ5aHJRZ3VHZUhOcnhFNkhyMmVYMlkyRUo4TDNhN1U2aVFlbzNvaEd0bXVpLTBuR0dhQTNES2tyeVFTQ21nUnJuaThjYTZwVnNfamR1cmJBZEE1bVF2U2dyNA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T21:43:34.000Z"
+    },
+    {
       "title": "Divestasi BUMN Karya: Adhi Karya (ADHI) Obral Hotel hingga Jalan Tol - Bisnis.com",
       "publisher": "Bisnis.com - Market",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnRtUVpTMElING9wREJ2LVk4T2t2S0xvTTdfek91bmNOWm14TkFzcWtFSi1fWUphLWZXYXpRdDRPQ1hVSl9xM2FWbjNkUm8zSmV0MVdCUnVJb1ZWVTdlVlBMSDZGWFJQWDcwaWZTTW13XzUxSk1PLXNJenZYSHhldklRWmRzMG9wdEt3ZVhVN3p6ZmFRaWVTR1B2aGdyaGVmNVNLd1RYcVBDd1Rob3V0TXJMa3ZINHRi?oc=5",
@@ -145,8 +219,16 @@
       "publishedAt": "2026-09-09T12:30:26.000Z"
     },
     {
+      "title": "Data centres and prolonged heat are pushing Malaysia’s power demand higher",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/data-centres-and-prolonged-heat-are-pushing-malaysias-power-demand-higher/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-09T05:09:00.000Z"
+    },
+    {
       "title": "Anthropic discloses fourth AI hacking incident missed in earlier review",
-      "publisher": "Reuters",
+      "publisher": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaU1ZZ0ZRWnBaSnRlakoxVTU1SE9aZTEySkNZU2N2eU5XWG9remJKT29feUVoNlhhQVpfWnNFd1NKZ0xnb3lobTExTXE5dXZud0tCbGVLMzR4Y0NFRkRRUUlnWUllbjVTcXBWeHJzMDJVamFBQjJveC1PNThKSGUzNlRfUlVEVkJPbHhtendZdXdsSmdva0RvT3NidFdSb3BWSmd6R1lFb1NxYXdjR0xKeVVnZWY4c3JlbHlycFhkcXlmQ1Jv?oc=5",
       "tier": 1,
       "via": "Google News",
@@ -160,6 +242,59 @@
       "tier": 1,
       "primary": true,
       "publishedAt": "2026-09-09T11:00:00.000Z"
+    },
+    {
+      "title": "Anthropic researchers say AI could cause human extinction by 2030",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSVlEaEpsMXNNdTNyNTY5VzZyTDVfQkFyNTJTTTNyZkM1amhPQnZtRFpCdFU1X245b1lSUEQ4Y0Zqa0x5Nkgzb3NjX1BxX1BlcUo1LThfUDNyVXpGd08wTFJ1cE4tb19SSnlXMERDc2tMUDZfN3VjZm02QjVQMmVmelVYYnhRV3pEQ2pqSXRVUlpSRGhwemdr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T18:58:00.000Z"
+    },
+    {
+      "title": "Danantara Belum Bahas Setoran Rp 120 Triliun ke Kas Negara",
+      "publisher": "tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjhrQkJTbmFYbVp4N0pZSWQzajNHSjFlWW5RZEdfdXZ6TTRwcWZaTmR2VWM4b3gtNXNLRDdJRTIzTFJfN29HNWVsb0tHUmgzUUxFNGlBNHY1Z2tSR3hIVGxGM3JaVDM0RW9Sc1FiMUpYS2Y2QkpOc1U3TjY0T1FNQW41eW9LYUtXWC1ZRTNpM2J1OEZBamRjb0FTMA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T23:30:00.000Z"
+    },
+    {
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "publisher": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6WDZoOFRnTjQ5WW5vMUJKeThhbUUyUTlaeXdKbUhoNE5WNDhnVjhmM080N3p3ZFJfSm9ncUZtblZDRm1YU1hYbjBZZ3ZXNkRjSmNBUmdTa0tCZw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T15:34:09.000Z"
+    },
+    {
+      "title": "Polemik Setoran Keuntungan Rp 120 Triliun, Danantara dan Pemerintah Beda Sikap",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWlhZRWJKT2RvRFBHRVpDTFRzWmxYazVadHMzbTJXYk84a3duNlQxYml5eEw4ZWlSbUZobGlxZjB3REc0aE5yb09UcHlWcm9FeTZ6eFhxeUFUZENTTXNFdDR4UXNUV1owWXNTM0lmNzl1UTNXNThGcVY4MlBjSVNKUUZXZzJha0ZSMFZ0XzlKNmhSakh4Z3RXSzA2UmkzOWlUdFQ0MnpwUlc2b0Fuajlnb19B0gGrAUFVX3lxTFByOEMxWjJWRkJRS1dfV3VZVnU0eUkzYkU5aEZhYl9iTUVmNTlXekRYdmd4MERfRG1uZERBb0tuUkRjZ3NWZGZpS1BfeFg3MENXTG0zaUpFNG1VMzZjYm1aVVBFYkF3OHNfMENCQ3BtRXNaRU82eUxvT19Nbk1QalVyUnR4dE5vMERDeFVSTk50VWQ3RzdBalZCY0JPb0dsZ19OU0lIVkI0MDM2TQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T12:50:23.000Z"
+    },
+    {
+      "title": "Permintaan PLTS Atap Melonjak, Pelaku Usaha Keluhkan Kuota dan Regulasi",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN09rZVdVVllIZ1BXN1V1c2E4a2UyZTNUQnF5eEtUd1loVVVkZVBIb2UyYkUwZGR1QXo1MVN3WEhaUzZNQ1hmOXJUcmlFck1tU3dSUzI0ZHVsMmdSUlowRFZ4VmJyZDlqWHc1WUZ4LW1DNE1KRXBWbEpSd09lVHhuRjJUNEJYeVRPdExZR1BaOGNlU2hRNVNHaUJsMXd4MFJITDFpOFl4REXSAaIBQVVfeXFMUDk5RWdkLXlfclRlUjV1bjRpeTByeFNnRGdVMnlOWjZaMnR4bHNCNUs3cTN2LURNS0NQS0tyam13NjRlS3hycldPVUtZV3JTejZuQ09pazJxWjgzdXFHM2d6TzlzS05xQWUxRTRQX0kyTXlBZDFXV1h3YWpMTWtwdnNYYmNaM0stVGExbGg2Q25leHppdXZuaEJHcTFZU3Y5eFd3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T09:50:40.000Z"
+    },
+    {
+      "title": "Adhi Karya Buka Suara Usai Diminta Tutup Semua Anak Usaha",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8655761/adhi-karya-buka-suara-usai-diminta-tutup-semua-anak-usaha",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-09T11:00:49.000Z"
     }
   ],
   "trends": [
@@ -215,9 +350,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 376,
+    "candidateCount": 392,
     "poolSize": 110,
-    "generatedAt": "2026-09-09T23:22:08.202Z",
+    "generatedAt": "2026-09-09T23:48:30.831Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
