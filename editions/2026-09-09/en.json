@@ -2,14 +2,14 @@
   "slug": "2026-09-09",
   "date": "2026-09-09",
   "lang": "en",
-  "title": "OpenAI Claims Navier-Stokes Proof; PLN Carbon Push; Danantara-BUMN Karya Clock Ticks",
-  "dek": "A claimed millennium-prize proof tests AI's boundary with formal mathematics, while Indonesia's SOE and energy infrastructure threads reach decision points.",
+  "title": "OpenAI Claims Navier-Stokes Proof; Danantara Dividend Clash; PLN Carbon Play",
+  "dek": "A claimed Millennium Prize solution tests AI's frontier credibility, while Indonesia's fiscal and energy governance faces two simultaneous stress tests.",
   "domains": [
     "ai",
     "corporate",
     "energy"
   ],
-  "summary": "OpenAI has published an AI-generated formal proof of the Navier-Stokes Millennium Prize Problem, a claim that, if verified, would mark the first time an AI system resolved a Clay Mathematics Institute problem and would reframe expectations for AI in scientific research. Separately, PLN Indonesia Power is pursuing carbon credit monetization from the Gunung Salak geothermal plant, adding a new revenue layer to state-owned power assets. Danantara's restructuring of BUMN Karya companies remains on a year-end deadline, with Adhi Karya now publicly confirming its funding expectations from Danantara for the LRT City project. Indonesia is also expanding technology cooperation with the United States, explicitly naming AI as a priority domain. These signals collectively show AI capability claims accelerating faster than verification infrastructure, while Indonesia's SOE and energy corpus is being reshaped through asset monetization and external capital injection.",
+  "summary": "OpenAI published an AI-generated solution to the Navier-Stokes Millennium Prize Problem with a formal Lean proof, a claim that, if verified, would mark the first time AI has resolved a century-old open mathematical problem with machine-checkable evidence. Separately, a fiscal conflict has emerged between Indonesia's Finance Minister and Danantara over Rp 120 trillion in SOE dividends, a dispute that directly threatens Danantara's reinvestment capacity and the BUMN restructuring timeline Prabowo accelerated at Hambalang. On the energy side, PLN Indonesia Power is moving to monetise carbon credits from the Gunung Salak geothermal plant, a small but structurally significant step toward blended revenue models for state-owned generation assets. EU solar deployment is tracking at 68.1 GW for 2026, sustaining the supply pressure on global panel prices that affects Indonesia's 100 GWp PLTS programme costs. The UK's grid connections reform failure, documented by Ofgem, offers a direct governance warning for Indonesia's PLN transmission restructuring debate.",
   "signals": [
     {
       "rank": 1,
@@ -17,21 +17,18 @@
       "themeKey": "enterprise-ai-data-privacy-contracts",
       "entities": [
         "OpenAI",
-        "Clay Mathematics Institute",
         "Lean"
       ],
-      "headline": "OpenAI publishes AI-generated formal Lean proof of the Navier-Stokes Millennium Prize Problem",
-      "whatChanged": "OpenAI released a formal proof of the Navier-Stokes existence and smoothness problem, one of seven Clay Mathematics Institute Millennium Prize Problems, verified in the Lean theorem prover and accompanied by a written mathematical writeup. This is the first time any AI system has publicly claimed resolution of a Millennium Prize Problem.",
-      "whyItMatters": "The Navier-Stokes problem has resisted human proof for over a century. A formally verified Lean proof shifts the claim from narrative to machine-checkable, which means independent verification is now a matter of running the proof checker rather than peer review alone. This fits the pattern, already visible in Anthropic's Fermat's Last Theorem formalization work, of frontier AI systems moving from pattern completion to structured formal reasoning over hard mathematical objects.",
-      "secondOrder": "If the proof survives independent Lean verification, the Clay Institute faces a novel governance question: its prize was designed for human mathematicians, and its rules do not address AI authorship. The resolution of that question will set a precedent for how AI contributions are credited and compensated in science, with downstream implications for IP frameworks in AI-assisted research contracts and for how enterprises value AI systems used in R&D workflows.",
-      "action": "Assign a technical reviewer to check whether the Lean proof file is publicly available and machine-verifiable this week. If it is, brief legal and R&D leadership on the IP and authorship precedent question before the Clay Institute or academic journals issue their own interpretation.",
+      "headline": "OpenAI publishes AI-generated solution to Navier-Stokes Millennium Prize Problem with formal Lean proof",
+      "whatChanged": "OpenAI released a writeup and a machine-checkable formal proof in Lean purporting to solve the Navier-Stokes existence and smoothness problem, one of seven Clay Millennium Prize Problems with a $1 million award. This is the first time a major AI lab has publicly claimed resolution of a Millennium Prize Problem with a verifiable formal proof artifact.",
+      "whyItMatters": "Formal proof systems such as Lean allow independent verification without trusting the lab's narrative. If the proof passes community scrutiny, it shifts AI from a tool that assists mathematical research to one that closes open problems, changing how research institutions and governments should value AI investment in scientific computing. The earlier signal in this archive thread showed AI coding agents accelerating research throughput; this claim is an order of magnitude beyond that.",
+      "secondOrder": "A verified result would compress the timeline for AI to be treated as a primary author of scientific output, forcing journals, funding bodies, and patent offices to resolve authorship and IP questions that are currently deferred. It also raises the competitive stakes for labs such as Google DeepMind and Anthropic, which have pursued formal mathematics through AlphaProof and Claude respectively, and may accelerate their own proof publication cycles regardless of internal readiness.",
+      "action": "Route the Lean proof file to an in-house or contracted formal verification expert this week for an independent read before any institutional communications reference this result. Do not treat the claim as settled until the Lean community confirms the proof closes without axiom gaps.",
       "strength": "actionable",
       "sourceUrls": [
         "https://openai.com/index/navier-stokes-solution"
       ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyWFpGbGlCLVpoN2ZBUGs1UUZNSXJDaHNZNWZoV0g1RFVLc3BKbi1Nc2xVUWZ6SWZPR2JsanI3X1BIb25vZURqckE0Q1ltM1U3RnZXRkR1STVYei1VQ00tenotVjhNS0FfV2lIQ25WTXY5VlRPamc?oc=5"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
         "publishers": 1,
         "hasPrimary": true
@@ -49,24 +46,24 @@
       "domain": "corporate",
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "Adhi Karya",
         "Danantara",
-        "LRT City"
+        "Purbaya Yudhi Sadewa",
+        "APBN",
+        "BUMN Karya",
+        "Adhi Karya"
       ],
-      "headline": "Adhi Karya confirms Danantara funding expectation for LRT City, putting the year-end BUMN Karya deadline in public view",
-      "whatChanged": "Adhi Karya, a state-owned construction company, publicly confirmed it is expecting a capital injection from Danantara to complete the LRT City project. This statement from a primary BUMN Karya entity makes the Danantara restructuring timeline a named financial condition for at least one major infrastructure project, not merely an organizational process.",
-      "whyItMatters": "Danantara has targeted completing the BUMN Karya restructuring by end-2026, a theme that has accumulated 18 signals since August 2026 and is now a structural condition rather than news. Adhi Karya's public statement converts an internal restructuring timeline into an external commitment visible to project counterparties, lenders, and LRT City offtakers. If Danantara funding is delayed, LRT City completion risk transfers to the project schedule.",
-      "secondOrder": "Other BUMN Karya entities are likely in similar positions: restructuring uncertainty is now priced into their project completion timelines. Counterparties and lenders to any BUMN Karya-led infrastructure project should treat Danantara capital injection timing as a critical path dependency, equivalent to land clearance or government guarantee issuance.",
-      "action": "Map all active BUMN Karya-led infrastructure projects and identify which ones have named Danantara funding as a completion condition. Treat the year-end 2026 restructuring deadline as a hard trigger for project schedule review.",
+      "headline": "Finance Minister Purbaya moves to reclaim Rp 120 trillion in Danantara dividends for the state budget",
+      "whatChanged": "Katadata reports that Finance Minister Purbaya Yudhi Sadewa is pursuing a plan to redirect Rp 120 trillion in SOE profit distributions from Danantara back into the APBN state budget. This directly conflicts with Danantara's mandate to reinvest those dividends into strategic projects, and follows President Prabowo's September 5 Hambalang meeting where he pressed BUMN leadership to accelerate hilirisasi and restructuring.",
+      "whyItMatters": "This theme is now structural, appearing 18 times in the archive since August 19. The Hambalang directive assumed Danantara would retain dividend flows as reinvestment capital. A Rp 120 trillion extraction would remove the primary funding mechanism for the BUMN Karya restructuring that Danantara has committed to completing by end-2026, and for the Adhi Karya LRT City resolution flagged in a separate disclosure this week.",
+      "secondOrder": "If the Finance Ministry succeeds, Danantara's investable balance sheet shrinks before the BUMN Karya consolidation is complete, forcing individual SOEs to seek external financing at a time when their credit profiles are already stressed. This would likely stall the LRT City completion and push Danantara's offshore investment vehicle, PT DSI, toward prioritising foreign capital attraction over domestic project execution, reversing the strategic sequence Prabowo announced.",
+      "action": "Map which BUMN Karya projects have Danantara capital commitments already contracted versus merely announced. Projects without signed agreements are now at material funding risk and should be flagged for counterparty exposure review this week.",
       "strength": "actionable",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZTRtRWVVQlU4S045NVh5MU9nRVcwQkdSQW00cHJzUXNOUnAxakVib2R0UHplNzBEa2FQbFJPZnN2OXVfbTZqbGtEWlAtcDZXNE1aMHBDa1dTYTJ6YWdacHlRR3p3T0ptY05SbTh1SW9CemRCTHE3SUR3VmFaUTFmRWZ0V01IMWp2M1cySjQ2Vks2eHRPQURVVmxVN0ZYLU9TN05BZEJHUk03YzQyYTZUWW94NFZMZzM1bmk1UmNsOC1pUjZRRUE?oc=5",
-        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUt6b0R3ZHF3TkVSM05xSGJOYi1ZYjAzYWc3Z01mQlJXZjBnb25Tdms5dTZ5SWFiNnlUcnREYWdxNmJxUThVQmdUbWJndHdNalg0Z1V4aVJNdzRGZkc4MGpiU1I0ZU9uTml5MnR2TEwzZnJRRGNRNjhWSzd4NGN5OXZJTVYwTFQ1NzY4eW9mM0RJWkVmT2FON3NWc3NFN3ZWenBfSVNHLVFsQmNqT1BTRFRhQ1k?oc=5"
+        "https://katadata.co.id/finansial/keuangan/6aa0a41869b8e/menilik-tarik-menarik-dividen-bumn-rp-120-triliun-purbaya-vs-danantara",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUt6b0R3ZHF3TkVSM05xSGJOYi1ZYjAzYWc3Z01mQlJXZjBnb25Tdms5dTZ5SWFiNnlUcnREYWdxNmJxUThVQmdUbWJndHdNalg0Z1V4aVJNdzRGZkc4MGpiU1I0ZU9uTml5MnR2TEwzZnJRRGNRNjhWSzd4NGN5OXZJTVYwTFQ1NzY4eW9mM0RJWkVmT2FON3NWc3NFN3ZWenBfSVNHLVFsQmNqT1BTRFRhQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZTRtRWVVQlU4S045NVh5MU9nRVcwQkdSQW00cHJzUXNOUnAxakVib2R0UHplNzBEa2FQbFJPZnN2OXVfbTZqbGtEWlAtcDZXNE1aMHBDa1dTYTJ6YWdacHlRR3p3T0ptY05SbTh1SW9CemRCTHE3SUR3VmFaUTFmRWZ0V01IMWp2M1cySjQ2Vks2eHRPQURVVmxVN0ZYLU9TN05BZEJHUk03YzQyYTZUWW94NFZMZzM1bmk1UmNsOC1pUjZRRUE?oc=5"
       ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
         "publishers": 3,
         "hasPrimary": true
@@ -85,13 +82,13 @@
       "themeKey": "pln-grid-investment",
       "entities": [
         "PLN Indonesia Power",
-        "PLTP Gunung Salak"
+        "Kementerian ESDM"
       ],
-      "headline": "PLN Indonesia Power pursues carbon credit revenue from Gunung Salak geothermal plant alongside electricity sales",
-      "whatChanged": "PLN Indonesia Power is developing a carbon asset monetization program for the Gunung Salak geothermal power plant (PLTP Gunung Salak), targeting carbon credit revenue as an additional income stream beyond the plant's power purchase agreement. This is a named BUMN energy asset being repositioned to generate both electricity and tradeable carbon value.",
-      "whyItMatters": "PLN's core financial model has been electricity tariff revenue under regulated offtake. Adding carbon credit monetization to a geothermal plant creates a second revenue line that is priced on international voluntary or compliance carbon markets rather than domestic tariff regulation. This fits the pln-grid-investment theme, which has tracked PLN's move from supply optimization toward asset value extraction across its generation portfolio.",
-      "secondOrder": "If PLN Indonesia Power successfully monetizes Gunung Salak carbon credits at scale, it creates a template for other state geothermal assets, and potentially for PLN's coal displacement portfolio. The financial materiality of carbon revenue relative to electricity revenue at geothermal plants is currently small, but the regulatory and accounting infrastructure being built now will determine whether PLN can access green financing at lower cost in future capital raises.",
-      "action": "Request PLN Indonesia Power's carbon credit methodology and registry for Gunung Salak. Assess whether the carbon revenue assumptions are based on voluntary carbon market prices or an anticipated Indonesian compliance carbon market, as the two carry different price and liquidity risk profiles.",
+      "headline": "PLN Indonesia Power pursues carbon credit monetisation from Gunung Salak geothermal plant",
+      "whatChanged": "PLN Indonesia Power is developing a carbon asset monetisation programme for the Gunung Salak geothermal power plant (PLTP), intending to generate revenue from carbon credits in addition to electricity sales. Two separate reports from Kontan and Bisnis.com on September 8 confirm the initiative is active, not merely planned.",
+      "whyItMatters": "This continues the pln-grid-investment thread, which is now structural. Indonesian state-owned generation assets have been valued almost entirely on tariff-based electricity revenue. A carbon revenue stream introduces a second income line that can improve project economics, lower the cost of green financing, and potentially attract carbon market investors who are not electricity offtake buyers. This matters most for geothermal, where upfront drilling costs are high and tariff negotiations with PLN as both buyer and related party are structurally constrained.",
+      "secondOrder": "If Gunung Salak establishes a replicable carbon monetisation template, it creates pressure on the Kementerian ESDM to formalise carbon accounting standards for all PLN geothermal concessions, including the disputed Gunung Ungaran development. It also gives PLN IP a financial argument for retaining geothermal assets rather than divesting them, complicating any Danantara asset rationalisation that assumes generation divestiture.",
+      "action": "Request PLN IP's carbon methodology and registry choice for Gunung Salak. Verify whether the credits will be issued under a standard compatible with EUDR or ICVCM Core Carbon Principles, since that determines whether European offtakers can use them, which is the key variable for pricing.",
       "strength": "emerging",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMk0zaVViOTJ0NmtOM2hON21Cb21KcENYODdoUGNSRmh1Y1hJckU4YTlJdUNuNk5tLUFsVzVVRC1oQWJRaDM1WFNHRmRtdUl4WDh4YWwyc3I4dVlTdHdLSjVXdTgyVHdrOGk3Z1hfdG9ZQVM1ajFHbExLbWdiRzZHcHBQNUJjd0ZKaXJLajRsVDdBTVJVWFZPQmE2S20tT2ZCOUtaOVlvTU4wRk9TbVFNUzFJS0LSAa4BQVVfeXFMUE5Xd00wOExzSTUwdmtVRDgxeUlHOWVJVGRpc3lsV2xPUWkwQTNKVVZCcS1fb2xNZnVHNlpuRjZZZzFSLUsyYW1VXzNaUThOT05GZVVXclY1LXlfZmNJNEdBV0JmSXUxNWpVLU1OU1NDbDR4M2VPZnZtWEM4bjJGN3BKRm5kc0ZlTm85RnNlLWJKRWFaNkJRVUF5YXZwZ09Yc3doOV9tVVpYRzFGR0Jn?oc=5",
@@ -113,88 +110,110 @@
     {
       "rank": 4,
       "domain": "energy",
-      "themeKey": "indonesia-geothermal-concession-reform",
+      "themeKey": "pln-transmisi-investasi",
       "entities": [
-        "Telkom",
-        "NeutraDC",
-        "PLN"
+        "Ofgem",
+        "PLN",
+        "IEEFA"
       ],
-      "headline": "Telkom targets year-end 2026 binding offer evaluation for NeutraDC divestiture, with 200 MW PLN power supply already contracted",
-      "whatChanged": "Telkom has set a target of completing the binding offer evaluation for the divestiture of NeutraDC, its data center subsidiary, by end-2026. NeutraDC had already contracted a 200 MW power supply agreement with PLN for its expansion. The sale process is now on a named timeline with a specific financial milestone.",
-      "whyItMatters": "NeutraDC's divestiture combines two structural trends: Telkom's BUMN portfolio rationalization under the broader SOE reform agenda, and the rapid growth of AI and cloud data center demand in Indonesia requiring large-scale dedicated power supply. A 200 MW PLN power contract attached to the asset gives potential acquirers a de-risked power supply, which is the primary constraint on data center development in Indonesia.",
-      "secondOrder": "The acquirer of NeutraDC will inherit both a government-contracted power supply and an asset embedded in Indonesia's BUMN ecosystem. Foreign strategic buyers face a different risk profile than domestic financial investors: the PLN power contract pricing, the regulatory treatment of the asset under BUMN reform rules, and the AI infrastructure demand trajectory all interact. If the binding offer process completes on schedule, it will test whether foreign capital is willing to pay for Indonesian data center infrastructure at current AI-driven valuations.",
-      "action": "Identify the shortlisted binding offer parties for NeutraDC before year-end. Assess whether the PLN 200 MW power contract terms are transferable to a non-BUMN acquirer, and whether Danantara's SOE reform agenda creates any right of first refusal or approval requirement over the sale.",
+      "headline": "Ofgem finds UK grid connections reform missed deadlines, produced inaccurate offers, and failed on digitalisation",
+      "whatChanged": "Ofgem, the UK energy regulator, published findings that Great Britain's grid connections queue reform missed its own deadlines, issued inaccurate connection offers to developers, failed to engage developers adequately, and experienced digitalisation failures throughout the process. The reform was intended to clear a multi-year backlog of connection requests.",
+      "whyItMatters": "This theme, pln-transmisi-investasi, has been structural since August 22 and includes the IEEFA recommendations for Indonesia to create a dedicated transmission subholding. The UK case is the most detailed public post-mortem of a comparable grid reform attempt by a sophisticated regulator, and it failed on execution rather than on policy design. Indonesia's PLN transmission restructuring faces the same three failure modes: institutional coordination gaps, data system limitations, and developer communication deficits.",
+      "secondOrder": "The Ofgem failure confirms that separating transmission governance from generation operations, without simultaneously investing in digital registry infrastructure and developer-facing process management, produces worse outcomes than the status quo. For Indonesia, this implies the IEEFA subholding proposal requires a parallel investment in PLN's connection queue data systems before or concurrent with any structural separation, otherwise the reform creates a new institution with the same operational bottlenecks.",
+      "action": "When reviewing the IEEFA transmission subholding proposal, add a specific due-diligence question: what is the current state of PLN's grid connection application system, and what is the estimated cost and timeline to bring it to the standard required for a standalone transmission entity to process independent developer requests accurately?",
       "strength": "material",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZE5JQjVvczlHV2hUdVNZWDZ5eFVqaTFOVGJGbm5OdVFmdWh6SUlNVU1mUDJYWGNaTEFxSmxWalBCMnZFUUhUQVZ1VGJSQUZrSWVjQ2k1ODJfNjQwUGk0V2E2anJ6QkJTX1lSc2pfOWNCX1FROUlXOUw3WjdNY2xnSnhJT3NXdFltazBYU3BzdEFvZ3NnUG5kUUtBOFFUaWhxOHhnS3ZjV0M3MWp5UGpjRlM5Z3pPNmxYcWRjTndnZ21pQURKX1NTVTg3SQ?oc=5",
-        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+        "https://www.pv-magazine.com/2026/09/08/uk-grid-connections-reform-mishandled-regulator-finds/"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOXFQaThCV0NBcm9UemVQN21Bdmd0TXJZUXpoR0N4X0ZlY2JJcVhfenBRQ29HU0FVVlc1RmtFWVlfNFZMT01laWJtY2d5c2FuU0lrT1hJOElFUjQ4d1NsbFhicVdneFpXS1FkSnQ5YmZoSXE5Z2dPekpJVktoSElJNVE5bGFMdk5Hd3dvc2lCbDhISmFCU19tM0pSOFhKRHBuT3F2SHhnVU1qYWZJOHdj?oc=5"
+      ],
       "corroboration": {
-        "publishers": 2,
-        "hasPrimary": false
+        "publishers": 1,
+        "hasPrimary": true
       },
       "trend": {
-        "themeKey": "indonesia-geothermal-concession-reform",
+        "themeKey": "pln-transmisi-investasi",
         "status": "structural",
-        "occurrences": 9,
-        "firstSeen": "2026-08-19",
-        "spanDays": 21
+        "occurrences": 15,
+        "firstSeen": "2026-08-22",
+        "spanDays": 18
       }
     },
     {
       "rank": 5,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
       "entities": [
-        "Indonesia"
+        "SolarPower Europe",
+        "METI"
       ],
-      "headline": "Indonesia formalizes AI cooperation with the United States, naming AI development as a named priority domain",
-      "whatChanged": "Indonesia confirmed it is expanding technology cooperation with the United States, with AI development explicitly named as a priority area alongside child digital safety. The agreement signals that Indonesia is positioning AI as a bilateral trade and investment domain, not merely a domestic technology policy matter.",
-      "whyItMatters": "Indonesia's inclusion of AI in a US bilateral cooperation framework creates a formal channel for US AI companies to engage the Indonesian market under a government-to-government umbrella. This follows the pattern of Danantara and other state vehicles seeking foreign capital and technology partnerships; AI is now added to the list of domains where Indonesia is actively courting US engagement rather than managing it through domestic regulation alone.",
-      "secondOrder": "A US-Indonesia AI cooperation framework, even at an early stage, could accelerate procurement decisions by Indonesian state entities for US-origin AI platforms, and could complicate Indonesia's parallel engagement with Chinese AI infrastructure providers. The tension between US and Chinese AI ecosystems in Indonesia's public sector will become a governance and procurement question that individual ministries will need to resolve.",
-      "action": "Monitor whether this cooperation framework produces specific procurement or data-sharing agreements with named US AI vendors. Assess implications for Indonesian state entities that have existing or planned engagements with Chinese AI or data center providers.",
-      "strength": "emerging",
+      "headline": "EU on track for 68.1 GW solar in 2026, sustaining global panel price pressure relevant to Indonesia's 100 GWp target",
+      "whatChanged": "SolarPower Europe's updated forecast places 2026 EU solar installation at 68.1 GW, only 2.1 percent below the 2025 record of 69.6 GW. The H1 figure of 33.8 GW confirms the pace. The forecast improved from the December 2025 estimate, indicating demand resilience despite policy uncertainty.",
+      "whyItMatters": "Sustained European demand at near-record levels keeps global solar panel manufacturing running at high utilisation, which in normal conditions would support prices. However, Chinese manufacturing capacity is structurally oversized relative to even this demand level, so the net effect on module spot prices remains deflationary. Indonesia's Prabowo-launched 100 GWp PLTS programme, targeted over three years, depends on module cost assumptions that are sensitive to this dynamic.",
+      "secondOrder": "If EU demand holds near 68 GW annually while Chinese capacity continues to expand, Indonesian solar procurements in 2027 and 2028 will likely face lower module costs than current project financial models assume, improving project IRRs. However, this also weakens the economic case for Indonesia's domestic solar manufacturing ambitions, since locally produced modules cannot compete on cost against Chinese imports at these price levels, creating a tension between METI's industrialisation goal and the economics of the 100 GWp rollout.",
+      "action": "Update the module cost curve in Indonesia 100 GWp PLTS financial models using the current H1 2026 European spot price as a cross-reference, and run a scenario in which domestic content requirements add a 15-20 percent cost premium. Quantify the tariff or subsidy level needed to make domestic manufacturing viable alongside the programme.",
+      "strength": "material",
       "sourceUrls": [
-        "https://katadata.co.id/digital/teknologi/6aa01f2970d10/indonesia-perluas-kerja-sama-teknologi-dengan-as-ada-ai-hingga-pelindungan-anak"
+        "https://www.pv-magazine.com/2026/09/08/eu-deploys-33-8-gw-of-solar-in-h1/",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFA0d3ZORnBld2xUS1JhM2luaEEwSGVTWHBLWV9hVFFZUm5USXlybHFxS0lEcHBuVWpGdFB4ck0tR1IxdzUtSlItb0Jra1hLYU1HSHJOTUJ5QWZUb1ROaG1IV2lRRVpfM1hEQ1VJd1oya3JPcjFFYmY4c0V0UVY5SmVjYU9IMnBjNFhfYkZ3bWs2SW96MllZZGZjSmtzZHUyd3ZZREV5V0pnVGlrYV8xb0Z3?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 1,
-        "hasPrimary": false
+        "publishers": 3,
+        "hasPrimary": true
       },
       "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
+        "themeKey": "pln-transmisi-investasi",
         "status": "structural",
-        "occurrences": 19,
-        "firstSeen": "2026-08-19",
-        "spanDays": 21
+        "occurrences": 15,
+        "firstSeen": "2026-08-22",
+        "spanDays": 18
       }
     }
   ],
   "watchNext": [
     {
-      "item": "Independent Lean verification of OpenAI's Navier-Stokes proof by the formal mathematics community and any Clay Institute response on prize eligibility for AI-generated proofs",
+      "item": "Lean proof community verification of OpenAI Navier-Stokes claim: watch for formal responses from Lean4 community and Clay Mathematics Institute acknowledgment or rejection",
       "dueDate": "2026-09-30"
     },
     {
-      "item": "Danantara capital injection confirmation for Adhi Karya and other BUMN Karya entities; any restructuring announcement before the year-end 2026 deadline",
+      "item": "Danantara dividend dispute resolution: whether Finance Ministry Rp 120 trillion extraction proceeds, and which BUMN Karya projects lose committed capital as a result",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "PLN IP Gunung Salak carbon credit registry selection and first issuance: confirms whether Indonesia geothermal assets can access international carbon markets",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "NeutraDC binding offer evaluation outcome and acquirer identity; PLN power contract transferability terms",
-      "dueDate": "2026-12-31"
+      "item": "Ofgem remediation plan for UK grid connections queue: the corrective measures will signal which specific operational failures most need to be pre-empted in Indonesia's PLN transmission restructuring",
+      "dueDate": "2026-11-01"
     },
     {
-      "item": "PLN Indonesia Power carbon credit registry filing for Gunung Salak and first credit issuance or sale announcement",
-      "dueDate": "2027-03-31"
-    },
-    {
-      "item": "Specific US-Indonesia AI cooperation agreements naming vendors, procurement frameworks, or data-sharing arrangements",
+      "item": "Indonesia 100 GWp PLTS procurement tender terms: watch for domestic content requirement percentage, which determines whether the programme can achieve its cost targets",
       "dueDate": "2026-12-31"
     }
   ],
   "sources": [
+    {
+      "title": "EU deploys 33.8 GW of solar in H1",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/09/08/eu-deploys-33-8-gw-of-solar-in-h1/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-08T13:07:53.000Z"
+    },
+    {
+      "title": "UK grid connections reform mishandled, regulator finds",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/09/08/uk-grid-connections-reform-mishandled-regulator-finds/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-08T12:45:19.000Z"
+    },
     {
       "title": "Gelar Pertemuan di Hambalang, Presiden Prabowo Dorong Percepatan Hilirisasi dan Penataan BUMN",
       "publisher": "Sekretariat Kabinet Republik Indonesia",
@@ -205,21 +224,22 @@
       "publishedAt": "2026-09-05T07:00:00.000Z"
     },
     {
-      "title": "Formalizing Fermat's Last Theorem",
-      "publisher": "Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyWFpGbGlCLVpoN2ZBUGs1UUZNSXJDaHNZNWZoV0g1RFVLc3BKbi1Nc2xVUWZ6SWZPR2JsanI3X1BIb25vZURqckE0Q1ltM1U3RnZXRkR1STVYei1VQ00tenotVjhNS0FfV2lIQ25WTXY5VlRPamc?oc=5",
-      "tier": 1,
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
       "via": "Google News",
       "primary": true,
-      "publishedAt": "2026-09-04T18:35:51.000Z"
+      "publishedAt": "2026-08-25T07:00:00.000Z"
     },
     {
-      "title": "Indonesia Perluas Kerja Sama Teknologi dengan AS, Ada AI hingga Pelindungan Anak",
-      "publisher": "Katadata",
-      "url": "https://katadata.co.id/digital/teknologi/6aa01f2970d10/indonesia-perluas-kerja-sama-teknologi-dengan-as-ada-ai-hingga-pelindungan-anak",
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
       "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-09-08T23:30:00.000Z"
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
     },
     {
       "title": "PLN IP Garap Monetisasi Aset Karbon, Dorong Nilai Ekonomi dari PLTP Gunung Salak",
@@ -231,23 +251,6 @@
       "publishedAt": "2026-09-08T07:47:38.000Z"
     },
     {
-      "title": "Divestasi NeutraDC, Telkom: Evaluasi Binding Offer Ditarget Rampung Akhir 2026",
-      "publisher": "teknologi.bisnis.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZE5JQjVvczlHV2hUdVNZWDZ5eFVqaTFOVGJGbm5OdVFmdWh6SUlNVU1mUDJYWGNaTEFxSmxWalBCMnZFUUhUQVZ1VGJSQUZrSWVjQ2k1ODJfNjQwUGk0V2E2anJ6QkJTX1lSc2pfOWNCX1FROUlXOUw3WjdNY2xnSnhJT3NXdFltazBYU3BzdEFvZ3NnUG5kUUtBOFFUaWhxOHhnS3ZjV0M3MWp5UGpjRlM5Z3pPNmxYcWRjTndnZ21pQURKX1NTVTg3SQ?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-07T07:50:46.000Z"
-    },
-    {
-      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
-      "publisher": "Tempo",
-      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-14T07:04:39.000Z"
-    },
-    {
       "title": "Tak Cuma Jual Listrik, PLN IP Bidik Cuan dari Karbon PLTP Gunung Salak",
       "publisher": "Bisnis.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlhvaXZKQ1pScFQ5TDN4emxlakVGdnEybGRwcnZXZXFRdFZidFpyWHVoMFRfWjVpaGJaOW9NN2VITVc0Wm9xRWEwQ1hvelU2THdiTGQzQjhqd2cydWJUWnlVbzlyenFmWTN2bnIwZTEwZEVtZmliTXRkWHRQMWZjbDdtZGY5RThXaWx0QmY0NUgwTkxzY0Qwczc1SXVyb0hRZ3Fxd3ppM253anFuNG5TRVVaRFdqUWhOYWN1VQ?oc=5",
@@ -257,13 +260,30 @@
       "publishedAt": "2026-09-08T05:26:27.000Z"
     },
     {
-      "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
-      "publisher": "CNN Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
-      "tier": 1,
+      "title": "METI nilai PLTS 100 GWp momentum memperkuat industri surya nasional",
+      "publisher": "ANTARA News Mataram",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFA0d3ZORnBld2xUS1JhM2luaEEwSGVTWHBLWV9hVFFZUm5USXlybHFxS0lEcHBuVWpGdFB4ck0tR1IxdzUtSlItb0Jra1hLYU1HSHJOTUJ5QWZUb1ROaG1IV2lRRVpfM1hEQ1VJd1oya3JPcjFFYmY4c0V0UVY5SmVjYU9IMnBjNFhfYkZ3bWs2SW96MllZZGZjSmtzZHUyd3ZZREV5V0pnVGlrYV8xb0Z3?oc=5",
+      "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-19T07:00:00.000Z"
+      "publishedAt": "2026-09-08T21:59:05.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "Menilik Tarik-Menarik Dividen BUMN Rp 120 Triliun Purbaya vs Danantara",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/keuangan/6aa0a41869b8e/menilik-tarik-menarik-dividen-bumn-rp-120-triliun-purbaya-vs-danantara",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-09T00:11:00.000Z"
     },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
@@ -274,8 +294,8 @@
       "publishedAt": "2026-09-08T10:00:00.000Z"
     },
     {
-      "title": "Adhi Karya Buka Suara soal Kucuran Dana Danantara dan Penyelesaian LRT City",
-      "publisher": "market.bisnis.com",
+      "title": "Adhi Karya Buka Suara soal Kucuran Dana Danantara dan Penyelesaian LRT City - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZTRtRWVVQlU4S045NVh5MU9nRVcwQkdSQW00cHJzUXNOUnAxakVib2R0UHplNzBEa2FQbFJPZnN2OXVfbTZqbGtEWlAtcDZXNE1aMHBDa1dTYTJ6YWdacHlRR3p3T0ptY05SbTh1SW9CemRCTHE3SUR3VmFaUTFmRWZ0V01IMWp2M1cySjQ2Vks2eHRPQURVVmxVN0ZYLU9TN05BZEJHUk03YzQyYTZUWW94NFZMZzM1bmk1UmNsOC1pUjZRRUE?oc=5",
       "tier": 1,
       "via": "Google News",
@@ -283,13 +303,13 @@
       "publishedAt": "2026-09-08T13:45:57.000Z"
     },
     {
-      "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
-      "publisher": "Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
-      "tier": 1,
+      "title": "Restructuring PLN's transmission business could lower financing costs and align grid investment with Indonesia's energy transition needs",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOXFQaThCV0NBcm9UemVQN21Bdmd0TXJZUXpoR0N4X0ZlY2JJcVhfenBRQ29HU0FVVlc1RmtFWVlfNFZMT01laWJtY2d5c2FuU0lrT1hJOElFUjQ4d1NsbFhicVdneFpXS1FkSnQ5YmZoSXE5Z2dPekpJVktoSElJNVE5bGFMdk5Hd3dvc2lCbDhISmFCU19tM0pSOFhKRHBuT3F2SHhnVU1qYWZJOHdj?oc=5",
+      "tier": 2,
       "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-08-18T07:00:00.000Z"
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
     }
   ],
   "trends": [
@@ -347,7 +367,7 @@
     },
     "candidateCount": 390,
     "poolSize": 110,
-    "generatedAt": "2026-09-08T23:48:23.533Z",
+    "generatedAt": "2026-09-09T01:00:52.616Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
