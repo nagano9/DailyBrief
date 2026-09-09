@@ -366,6 +366,10 @@ letter-spacing:.04em;margin-top:.2rem}
 font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;
 font-weight:500;padding:.65rem 1.15rem;border:0;cursor:pointer}
 .btn:hover{background:var(--backed)}
+.edition-actions{display:flex;flex-wrap:wrap;gap:.85rem;align-items:center;margin:1.35rem 0 0}
+.edition-actions .secondary{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;
+letter-spacing:.1em;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.edition-actions .secondary:hover,.edition-actions .secondary:focus-visible{border-bottom-color:var(--ink)}
 
 ol.sources{padding-left:1.7rem;margin:0;font-size:.94rem}
 ol.sources li{margin-bottom:.7rem;padding-left:.2rem}
@@ -1202,6 +1206,7 @@ ${subscribeBlock(cfg, lang)}`,
   }
 
   const [latest, ...rest] = editions;
+  const previous = rest[0];
   // The lead signal is shown in full on the cover, spine and citations
   // included. Claiming traceability and then hiding every trace behind a
   // click was the cover's one real failure.
@@ -1247,7 +1252,11 @@ ${lead &&
 <h3 class="cover-h">${lead.headline}</h3>
 ${ladder(latest, lead, true)}
 </div>`}
-<p><a class="btn" href="${url(cfg, editionPath(latest.lang, latest.slug))}">${s.readEdition}</a></p>
+<div class="edition-actions">
+<a class="btn" href="${url(cfg, editionPath(latest.lang, latest.slug))}">${s.readEdition}</a>
+${previous && html`<a class="secondary" href="${url(cfg, editionPath(previous.lang, previous.slug))}">${s.prevEdition}</a>`}
+<a class="secondary" href="${url(cfg, archivePath(lang))}">${s.archive}</a>
+</div>
 </div>
 </div>
 ${issueRail(latest, lang)}
