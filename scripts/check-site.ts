@@ -96,12 +96,14 @@ function main(): void {
     const html = fs.readFileSync(file, "utf8");
     const where = routeOf(file);
 
-    // 1. The site ships no JavaScript. The only <script> permitted is the
-    //    JSON-LD data block, which browsers do not execute. Anything else
-    //    means markup reached a live script context — the XSS that shipped.
+    // 1. Executable script is limited to the audited first-party PWA helper.
+    //    JSON-LD remains data-only. Anything else means markup reached a live
+    //    script context — the XSS that shipped.
     const scripts = html.match(/<script\b[^>]*>/g) ?? [];
     for (const tag of scripts) {
-      if (!tag.includes('type="application/ld+json"')) {
+      const allowedJsonLd = tag.includes('type="application/ld+json"');
+      const allowedPwaHelper = tag === '<script src="/app.js" defer>';
+      if (!allowedJsonLd && !allowedPwaHelper) {
         fail("no-executable-script", `${where} contains ${tag}`);
       }
     }

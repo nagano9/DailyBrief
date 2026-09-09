@@ -226,6 +226,8 @@ function copyStaticAssets(): void {
     "favicon-512x512.png",
     "apple-touch-icon.png",
     "site.webmanifest",
+    "app.js",
+    "sw.js",
   ];
   fs.mkdirSync(OUT_DIR, { recursive: true });
   for (const asset of assets) {

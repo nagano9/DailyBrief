@@ -172,9 +172,9 @@ export function formatDate(date: string, lang: Lang): string {
 /**
  * Content Security Policy.
  *
- * The site ships zero JavaScript, so `script-src 'none'` costs nothing and
- * would have neutralised the JSON-LD injection outright rather than merely
- * escaping it. Defence in depth is cheap when there is nothing to defend.
+ * Script is limited to first-party files. The only runtime JavaScript is the
+ * PWA install affordance and service-worker registration; generated content
+ * still never enters a script block.
  *
  * `form-action` is narrowed to the configured subscribe endpoint, so an
  * injected form cannot exfiltrate anywhere else. `frame-ancestors` is
@@ -184,9 +184,10 @@ function csp(cfg: SiteConfig): string {
   const formAction = cfg.subscribeEndpoint && cfg.privacyUrl ? cfg.subscribeEndpoint : "'none'";
   return [
     "default-src 'none'",
-    "script-src 'none'",
+    "script-src 'self'",
     "style-src 'unsafe-inline'",
     "img-src 'self' data:",
+    "worker-src 'self'",
     `form-action ${formAction}`,
     "base-uri 'none'",
   ].join("; ");
@@ -249,6 +250,11 @@ nav.site a:hover,nav.site a:focus-visible{color:var(--ink);border-bottom-color:v
 letter-spacing:.12em;text-decoration:none;border:1px solid var(--rule-strong);
 padding:.38rem .62rem;color:var(--ink);white-space:nowrap}
 .premium-link:hover,.premium-link:focus-visible{border-color:var(--backed);color:var(--backed)}
+.install-app{display:none;font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.12em;border:1px solid var(--ink);background:var(--ink);color:var(--paper);
+padding:.38rem .62rem;white-space:nowrap;cursor:pointer}
+.install-app[data-ready]{display:inline-block}
+.install-app:hover,.install-app:focus-visible{background:var(--backed);border-color:var(--backed)}
 
 h1{font-family:var(--serif);font-size:2rem;font-weight:600;line-height:1.2;
 letter-spacing:-.012em;margin:0}
@@ -815,6 +821,7 @@ ${mastheadStatus(lang, o.mastheadDate, o.mastheadSignalCount, o.mastheadLatest)}
 <a href="${url(cfg, feedPath(lang))}">RSS</a>
 ${hasOther && html`<a href="${url(cfg, o.altPath ?? homePath(other))}">${s.otherLang}</a>`}
 </nav>
+<button class="install-app" type="button" data-install-app>${lang === "id" ? "Pasang app" : "Install app"}</button>
 <a class="premium-link" href="${url(cfg, premiumPath(lang))}">Premium</a>
 </div></div></header>
 <main id="main" class="${wrap}">
@@ -831,6 +838,7 @@ ${o.body}
     : ""
 }</p>
 </div></footer>
+<script src="${url(cfg, "/app.js")}" defer></script>
 </body>
 </html>`.value;
 }
