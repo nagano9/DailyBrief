@@ -7,6 +7,7 @@ import { extractJson } from "../ai/json-util";
 import { systemPrompt, userPrompt, type CandidateLine } from "./prompt";
 import { loadProfile } from "./profile";
 import { publisherTier } from "./publishers";
+import { auditProseFacts, FactAuditError } from "./fact-audit";
 import {
   classifySignal,
   loadHistory,
@@ -62,14 +63,6 @@ const REQUIRED_SIGNALS = 5;
 /** Publish with fewer than this many valid signals and the briefing is thin. */
 const MIN_SIGNALS = Number(process.env.BRIEF_MIN_SIGNALS ?? 3);
 const MAX_COMPOSE_ATTEMPTS = 2;
-
-const PROTECTED_ROLE_MISMATCHES = [
-  {
-    person: /purbaya(?:\s+yudhi\s+sadewa)?/i,
-    wrongRole: /\b(danantara\s+ceo|ceo\s+danantara|kepala\s+danantara|kepala\s+bp\s+bumn|pimpinan\s+danantara)\b/i,
-    expected: "Purbaya Yudhi Sadewa is Finance Minister, not Danantara leadership",
-  },
-];
 
 export interface ComposeResult {
   edition: Edition;
@@ -209,11 +202,7 @@ function assertCleanProse(value: string, where: string): void {
       throw new StyleViolationError(`${where} contains ${rule.name}; ${rule.fix}`);
     }
   }
-  for (const rule of PROTECTED_ROLE_MISMATCHES) {
-    if (rule.person.test(value) && rule.wrongRole.test(value)) {
-      throw new StyleViolationError(`${where} contains protected role mismatch; ${rule.expected}`);
-    }
-  }
+  auditProseFacts(value, where);
 }
 
 function assertCleanProseFields(fields: [string, string][]): void {
@@ -598,8 +587,9 @@ export async function composeEdition(
       });
     } catch (e) {
       lastError = e;
-      if (!(e instanceof StyleViolationError) || attempt === MAX_COMPOSE_ATTEMPTS) throw e;
-      console.warn(`[compose] ${lang}: style validation failed, retrying once — ${(e as Error).message}`);
+      const retryable = e instanceof StyleViolationError || e instanceof FactAuditError;
+      if (!retryable || attempt === MAX_COMPOSE_ATTEMPTS) throw e;
+      console.warn(`[compose] ${lang}: validation failed, retrying once — ${(e as Error).message}`);
     }
   }
 

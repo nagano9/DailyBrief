@@ -221,6 +221,7 @@ ATURAN LAIN:
   pejabat lembaga itu. Atribusikan jabatan hanya bila kandidat menyatakannya.
 - Bahasa Indonesia formal-eksekutif. Tanpa klise, tanpa kalimat pengisi.
 ${STYLE_ID}
+${roleAuditInstruction("id")}
 `.trim();
 
 const SCHEMA_EN = `
@@ -286,6 +287,7 @@ OTHER RULES:
   an officer of that institution. Attribute a role only when a candidate states it.
 - Professional English for an institutional reader. No clichés, no filler.
 ${STYLE_EN}
+${roleAuditInstruction("en")}
 `.trim();
 
 export function systemPrompt(lang: Lang): string {
@@ -383,3 +385,4 @@ ${lines}
 
 Pilih tepat lima dan susun briefing hari ini sebagai satu objek JSON sesuai skema.`;
 }
+import { roleAuditInstruction } from "./fact-audit";
