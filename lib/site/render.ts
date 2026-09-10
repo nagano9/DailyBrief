@@ -275,7 +275,7 @@ p{margin:0 0 1.05rem}
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
 .home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
-align-items:end;margin:.2rem 0 1.4rem;padding-bottom:1.45rem;
+align-items:end;margin:.2rem 0 1rem;padding-bottom:1.2rem;
 border-bottom:1px solid var(--rule-strong)}
 .eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
 letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
@@ -288,7 +288,8 @@ line-height:1.05;font-weight:600;color:var(--ink)}
 text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
 .home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
 border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
-padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+padding:1.25rem 0 1.45rem;margin:1.1rem 0 2.25rem}
+.home-deep{margin-top:2.4rem}
 .home-position{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);
 gap:2.4rem;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);
 padding:1.35rem 0;margin:1.45rem 0 1.8rem}
@@ -353,7 +354,7 @@ letter-spacing:.12em;color:var(--muted);white-space:nowrap}
 .tag.rule{border:1px solid var(--rule-strong);padding:.15rem .45rem}
 .audit{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;color:var(--muted);
 border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
-padding:.7rem 0;margin:1.2rem 0 1.8rem;display:flex;gap:.5rem;flex-wrap:wrap}
+padding:.7rem 0;margin:1.1rem 0 1.5rem;display:flex;gap:.5rem;flex-wrap:wrap}
 .audit b{color:var(--backed);font-weight:600;text-transform:uppercase}
 
 /* ---------------------------------------------------------------------------
@@ -401,19 +402,6 @@ ol.sources .pub{font-family:var(--mono);font-size:.7rem;color:var(--muted);lette
 .lede{border-bottom:1px solid var(--rule-strong);padding-bottom:2.25rem;margin-bottom:2.25rem}
 .home-issue .lede{border-bottom:0;padding-bottom:0;margin-bottom:0}
 
-/* The cover shows the spine. A reader who has not clicked through has no way
-   to see the one thing that separates this from a summary feed: the solid
-   rule under sourced fact, the dashed rule under our reading. So the lead
-   signal runs in full on the homepage. The ladder is flattened there: the
-   cover has no rails to hang the labels in, so the negative margin that
-   pulls them out of the column has to be cancelled or they fall off the
-   left edge. */
-.cover-signal{margin:1.7rem 0 1.4rem;padding-top:1.3rem;
-border-top:1px solid var(--rule);
-max-width:calc(var(--rail-l) + var(--rail-gap) + var(--measure))}
-.cover-h{font-family:var(--serif);font-size:1.25rem;font-weight:600;
-line-height:1.3;margin:0 0 .1rem}
-.ladder-flat .rung{margin-left:0}
 .lede h2.lead a{text-decoration:none}
 .lede h2.lead a:hover,.lede h2.lead a:focus-visible{color:var(--backed)}
 /* Twelve full-width cards ran 1,865px, 47% of the homepage, restating what
@@ -1320,15 +1308,6 @@ ${subscribeBlock(cfg, lang)}`,
 
   const [latest, ...rest] = editions;
   const previous = rest[0];
-  // The lead signal is shown in full on the cover, spine and citations
-  // included. Claiming traceability and then hiding every trace behind a
-  // click was the cover's one real failure.
-  //
-  // It replaces the edition summary rather than following it. The two said
-  // much the same thing back to back, and of the pair only the ladder shows
-  // its sources. Nothing is lost: the summary still opens the edition itself
-  // under its own heading.
-  const lead = latest.signals?.[0];
   const cards = rest.slice(0, 6).map(
     (e) => html`<div class="card">
 <div class="d">${formatDate(e.date, e.lang)}</div>
@@ -1348,9 +1327,6 @@ ${e.dek && html`<p>${e.dek}</p>`}
 </div>
 ${homeKpis(latest, lang)}
 </section>
-${auditBlock(lang)}
-${homePositioning(lang)}
-${decisionContextBlock(cfg, lang, latest.date, true)}
 
 <section class="home-issue">
 <div class="issue-main">
@@ -1361,11 +1337,6 @@ ${decisionContextBlock(cfg, lang, latest.date, true)}
 </div>
 <h2 class="lead"><a href="${url(cfg, editionPath(latest.lang, latest.slug))}">${latest.title}</a></h2>
 ${latest.dek && html`<p class="dek">${latest.dek}</p>`}
-${lead &&
-    html`<div class="cover-signal">
-<h3 class="cover-h">${lead.headline}</h3>
-${ladder(latest, lead, true)}
-</div>`}
 <div class="edition-actions">
 <a class="btn" href="${url(cfg, editionPath(latest.lang, latest.slug))}">${s.readEdition}</a>
 ${previous && html`<a class="secondary" href="${url(cfg, editionPath(previous.lang, previous.slug))}">${s.prevEdition}</a>`}
@@ -1374,6 +1345,12 @@ ${previous && html`<a class="secondary" href="${url(cfg, editionPath(previous.la
 </div>
 </div>
 ${issueRail(latest, lang)}
+</section>
+
+<section class="home-deep" aria-label="${lang === "id" ? "Tentang radar DailyBrief" : "About the DailyBrief radar"}">
+${auditBlock(lang)}
+${homePositioning(lang)}
+${decisionContextBlock(cfg, lang, latest.date, true)}
 </section>
 
 ${subscribeBlock(cfg, lang)}
