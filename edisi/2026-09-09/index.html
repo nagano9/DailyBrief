@@ -108,6 +108,19 @@ text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25re
 .home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
 border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.home-position{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);
+gap:2.4rem;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);
+padding:1.35rem 0;margin:1.45rem 0 1.8rem}
+.home-position h2{margin:0;padding:0;border:0}
+.home-position p{margin:0;color:var(--muted)}
+.home-position .lead{font-size:1.04rem;color:var(--ink)}
+.home-logic{border-top:1px solid var(--rule);margin:1.35rem 0 2.2rem}
+.logic-row{display:grid;grid-template-columns:11rem minmax(0,1fr);gap:1.25rem;
+border-bottom:1px solid var(--rule);padding:.95rem 0}
+.logic-row b{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500}
+.logic-row p{font-size:.94rem;color:var(--muted);margin:0}
+.logic-row strong{color:var(--ink);font-weight:600}
 .issue-main{min-width:0}
 .issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
 .issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
@@ -314,7 +327,7 @@ footer.site a{color:var(--ink)}
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:48rem){
-.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-hero,.home-issue,.home-position,.logic-row{grid-template-columns:1fr;gap:1.35rem}
 .home-kpis{max-width:none}
 .issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
 }
@@ -559,7 +572,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <div class="rung sourced"><dt>Yang berubah</dt><dd>OpenAI pada 8 September 2026 merilis dokumen yang mengklaim solusi terhadap Masalah Milenium Navier–Stokes, disertai bukti formal yang dikodekan dalam bahasa verifikasi Lean. Ini adalah klaim pertama dari lab AI besar atas salah satu tujuh Masalah Milenium Clay Mathematics Institute yang belum terpecahkan. <span class="cites"><a href="#s7" aria-label="Sumber 7">[7]</a></span></dd></div>
 <div class="rung"><dt>Mengapa penting</dt><dd>Navier–Stokes adalah masalah persamaan diferensial parsial yang selama lebih dari 150 tahun belum terbukti memiliki solusi mulus (smooth) atau terbukti mengalami singularitas. Bukti formal dalam Lean berarti klaim ini, jika lolos verifikasi komunitas matematika, tidak bergantung pada penilaian manusia semata, melainkan pada pemeriksaan mesin yang deterministik. Ini menggeser batas antara AI sebagai alat bantu matematikawan dan AI sebagai agen penalaran deduktif mandiri.</dd></div>
 <div class="rung"><dt>Efek lanjutan</dt><dd>Jika komunitas matematika memvalidasi bukti ini, lembaga riset dan universitas akan menghadapi tekanan untuk mengevaluasi ulang nilai kompetitif program doktoral matematika murni, karena bagian terbesar dari pekerjaan pencarian bukti berpotensi terotomasi. Perusahaan yang menggunakan simulasi komputasional fluida, termasuk di sektor kedirgantaraan, energi, dan farmasi, perlu menilai apakah ada implikasi praktis dari pemahaman baru ini terhadap solver numerik mereka.</dd></div>
-<div class="rung act"><dt>Tindakan</dt><dd>Minta tim riset atau konsultan matematika terapan untuk memverifikasi apakah bukti Lean yang dirilis OpenAI telah diajukan ke Clay Mathematics Institute atau jurnal terverifikasi. Tentukan apakah klaim ini sudah dikorroborasi oleh matematikawan independen sebelum mengkomunikasikannya sebagai fakta kepada pemangku kepentingan.</dd></div>
+<div class="rung act"><dt>Tindakan</dt><dd>Minta tim riset atau ahli matematika terapan independen untuk memverifikasi apakah bukti Lean yang dirilis OpenAI telah diajukan ke Clay Mathematics Institute atau jurnal terverifikasi. Tentukan apakah klaim ini sudah dikorroborasi oleh matematikawan independen sebelum mengkomunikasikannya sebagai fakta kepada pemangku kepentingan.</dd></div>
 </dl>
 <div class="corrob">
 <span class="backed">sumber primer</span>

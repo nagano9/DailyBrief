@@ -108,6 +108,19 @@ text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25re
 .home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
 border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.home-position{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);
+gap:2.4rem;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);
+padding:1.35rem 0;margin:1.45rem 0 1.8rem}
+.home-position h2{margin:0;padding:0;border:0}
+.home-position p{margin:0;color:var(--muted)}
+.home-position .lead{font-size:1.04rem;color:var(--ink)}
+.home-logic{border-top:1px solid var(--rule);margin:1.35rem 0 2.2rem}
+.logic-row{display:grid;grid-template-columns:11rem minmax(0,1fr);gap:1.25rem;
+border-bottom:1px solid var(--rule);padding:.95rem 0}
+.logic-row b{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500}
+.logic-row p{font-size:.94rem;color:var(--muted);margin:0}
+.logic-row strong{color:var(--ink);font-weight:600}
 .issue-main{min-width:0}
 .issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
 .issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
@@ -314,7 +327,7 @@ footer.site a{color:var(--ink)}
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:48rem){
-.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-hero,.home-issue,.home-position,.logic-row{grid-template-columns:1fr;gap:1.35rem}
 .home-kpis{max-width:none}
 .issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
 }
@@ -490,7 +503,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <p class="dek">Apa yang Anda baca, bagaimana ia disusun, dan aturan apa yang mengikat kami.</p>
 
 <h2>Apa ini</h2>
-<p>Briefing harian untuk pembaca yang perlu tahu apa yang bergerak sebelum rapat dimulai. DailyBrief bukan agregator berita; ia menyajikan sedikit sinyal yang telah dipilih, disusun, dan diberi konteks agar pembaca dapat menangkap implikasi strategisnya dengan cepat.</p>
+<p>Briefing harian untuk pembaca yang perlu memahami apa yang bergerak sebelum keputusan strategis dikunci. DailyBrief bukan agregator berita; ia menyajikan sedikit sinyal yang telah dipilih, disusun, dan diberi konteks agar pembaca dapat menangkap implikasi strategisnya dengan cepat.</p>
 
 <h2>Bagaimana ia disusun</h2>
 <ul class="tierlist">
@@ -504,7 +517,7 @@ font-family:var(--mono);font-size:8pt;color:#555;word-break:break-all}
 <p>DailyBrief adalah produk editorial yang dibantu AI. Otomasi dipakai sebagai alat bantu dalam alur kerja editorial, sementara standar akhir tetap ditentukan oleh akurasi, relevansi, kejelasan, dan akuntabilitas penerbit. Pembaca tetap dapat membuka sumber asli yang ditautkan di setiap edisi.</p>
 
 <h2>Batasnya</h2>
-<p>Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia ringkasan informasi publik untuk membantu Anda masuk ke rapat dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.</p>
+<p>Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia analisis atas informasi publik untuk membantu pembaca menilai isu dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.</p>
 
 <h2>Menghubungi kami</h2>
 <p>Untuk koreksi, pertanyaan tentang metodologi, atau permintaan liputan sektor tertentu, hubungi langsung lewat WhatsApp. Koreksi ditangani terbuka di edisi yang bersangkutan.</p>
