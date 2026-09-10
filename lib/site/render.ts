@@ -274,46 +274,15 @@ p{margin:0 0 1.05rem}
    them. It gets the weight of a statement instead. */
 .standfirst{font-size:1.32rem;line-height:1.42;letter-spacing:-.008em;
 font-weight:400;color:var(--ink);max-width:34rem;margin:.25rem 0 0}
-.home-hero{display:grid;grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem;
+.home-hero{display:grid;grid-template-columns:minmax(0,1fr);gap:1.2rem;
 align-items:end;margin:.2rem 0 1rem;padding-bottom:1.2rem;
 border-bottom:1px solid var(--rule-strong)}
 .eyebrow{font-family:var(--mono);font-size:.67rem;text-transform:uppercase;
 letter-spacing:.13em;color:var(--faint);margin:0 0 .75rem}
-.home-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;
-border-top:1px solid var(--rule);padding-top:.85rem}
-.home-kpis div{min-width:0}
-.home-kpis b{display:block;font-family:var(--serif);font-size:1.45rem;
-line-height:1.05;font-weight:600;color:var(--ink)}
-.home-kpis span{display:block;font-family:var(--mono);font-size:.62rem;
-text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25rem}
-.home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
+.home-issue{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem;
 border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1.25rem 0 1.45rem;margin:1.1rem 0 2.25rem}
-.home-deep{margin-top:2.4rem}
-.home-position{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);
-gap:2.4rem;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);
-padding:1.35rem 0;margin:1.45rem 0 1.8rem}
-.home-position h2{margin:0;padding:0;border:0}
-.home-position p{margin:0;color:var(--muted)}
-.home-position .lead{font-size:1.04rem;color:var(--ink)}
-.home-logic{border-top:1px solid var(--rule);margin:1.35rem 0 2.2rem}
-.logic-row{display:grid;grid-template-columns:11rem minmax(0,1fr);gap:1.25rem;
-border-bottom:1px solid var(--rule);padding:.95rem 0}
-.logic-row b{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
-letter-spacing:.11em;color:var(--faint);font-weight:500}
-.logic-row p{font-size:.94rem;color:var(--muted);margin:0}
-.logic-row strong{color:var(--ink);font-weight:600}
 .issue-main{min-width:0}
-.issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
-.issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
-.issue-rail ul{list-style:none;margin:0;padding:0}
-.issue-rail li{border-top:1px solid var(--rule);padding:.72rem 0}
-.issue-rail li:first-child{border-top:0;padding-top:0}
-.issue-rail b{display:block;font-family:var(--mono);font-size:.63rem;text-transform:uppercase;
-letter-spacing:.11em;color:var(--faint);font-weight:500;margin-bottom:.18rem}
-.issue-rail span{display:block;font-size:.92rem;line-height:1.35;color:var(--ink)}
-.issue-rail small{display:block;font-family:var(--mono);font-size:.62rem;
-letter-spacing:.04em;color:var(--muted);margin-top:.2rem}
 
 /* The lead edition keeps the visual weight of a headline while giving up the
    h1: a homepage heading should describe the page, and the page is the
@@ -518,11 +487,7 @@ footer.site a{color:var(--ink)}
 
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:48rem){
-.home-hero,.home-issue,.home-position,.logic-row{grid-template-columns:1fr;gap:1.35rem}
-.home-kpis{max-width:none}
-.issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
-}
+@media(max-width:48rem){.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}}
 @media(max-width:38rem){
 h1{font-size:1.65rem}
 .wrap,.wrap-wide{padding:0 1.15rem}
@@ -530,7 +495,6 @@ h1{font-size:1.65rem}
 .masthead-status{text-align:left;margin-top:.85rem;min-width:0}
 .nav-row{align-items:flex-start}
 nav.site{gap:.75rem .95rem}
-.home-kpis{grid-template-columns:1fr 1fr}
 .context-grid{grid-template-columns:1fr}
 .signal-row{grid-template-columns:1fr;gap:.25rem}
 .tracker-table{display:block;overflow-x:auto;white-space:nowrap}
@@ -891,121 +855,6 @@ ${cfg.decisionContext.map(
 </section>`;
 }
 
-function homeKpis(e: Edition, lang: Lang): Html {
-  const labels =
-    lang === "id"
-      ? { signals: "sinyal", domains: "domain", sources: "sumber" }
-      : { signals: "signals", domains: "domains", sources: "sources" };
-  return html`<div class="home-kpis" aria-label="${lang === "id" ? "Ringkasan edisi" : "Edition summary"}">
-<div><b>${e.signals.length}</b><span>${labels.signals}</span></div>
-<div><b>${e.domains.length}</b><span>${labels.domains}</span></div>
-<div><b>${e.sources.length}</b><span>${labels.sources}</span></div>
-</div>`;
-}
-
-function homePositioning(lang: Lang): Html {
-  const copy =
-    lang === "id"
-      ? {
-          audience: "Untuk siapa",
-          lead:
-            "Dibaca untuk memperkuat agenda strategis, alokasi modal, governance portofolio, dan kesiapan organisasi menghadapi perubahan yang mulai terlihat.",
-          body:
-            "DailyBrief ditujukan bagi pengambil kebijakan, CEO, CFO, COO, CHRO, CIO/CTO, dan pemimpin fungsi yang perlu membedakan sinyal material dari noise harian.",
-          logic: "Cara kerja radar",
-          rows: [
-            {
-              label: "Domain",
-              body:
-                "Lima sinyal dipilih dari tiga domain: <strong>AI dan model frontier</strong>, <strong>energi dan kelistrikan</strong>, serta <strong>strategi korporasi dan BUMN</strong>.",
-            },
-            {
-              label: "Implikasi",
-              body:
-                "Setiap sinyal dibaca sampai efek lanjutan: apa yang berubah, mengapa penting, dan konsekuensi apa yang perlu diperhatikan oleh pimpinan.",
-            },
-            {
-              label: "Akuntabilitas",
-              body:
-                "Sumber ditautkan agar pembaca dapat memeriksa dasar informasi, sementara area yang membutuhkan kehati-hatian ditandai melalui audit editorial.",
-            },
-          ],
-        }
-      : {
-          audience: "Who it is for",
-          lead:
-            "Read it to strengthen strategic agenda-setting, capital allocation, portfolio governance, and organisational readiness for change that is already visible.",
-          body:
-            "DailyBrief is built for policy leaders, CEOs, CFOs, COOs, CHROs, CIOs/CTOs, and functional executives who need to separate material signals from daily noise.",
-          logic: "How the radar works",
-          rows: [
-            {
-              label: "Domains",
-              body:
-                "Five signals are selected from three domains: <strong>AI and frontier models</strong>, <strong>energy and electricity</strong>, and <strong>corporate and SOE strategy</strong>.",
-            },
-            {
-              label: "Implication",
-              body:
-                "Each signal is read through its second-order effect: what changed, why it matters, and what consequence leaders should watch.",
-            },
-            {
-              label: "Accountability",
-              body:
-                "Sources are linked so readers can inspect the basis of the information, while areas requiring caution are handled through editorial review.",
-            },
-          ],
-        };
-
-  return html`<section class="home-position" aria-labelledby="home-audience">
-<h2 id="home-audience">${copy.audience}</h2>
-<div>
-<p class="lead">${copy.lead}</p>
-<p>${copy.body}</p>
-</div>
-</section>
-<section class="home-logic" aria-labelledby="home-logic">
-<h2 id="home-logic">${copy.logic}</h2>
-${copy.rows.map(
-  (row) => html`<div class="logic-row">
-<b>${row.label}</b>
-<p>${raw(row.body)}</p>
-</div>`,
-)}
-</section>`;
-}
-
-function issueRail(e: Edition, lang: Lang): Html {
-  const copy =
-    lang === "id"
-      ? {
-          title: "Radar hari ini",
-          focus: "Fokus",
-          depth: "Kedalaman",
-          trail: "Jejak sumber",
-          focusNote: "Domain dalam edisi terbaru",
-          depthNote: "Sinyal terpilih untuk dibaca cepat",
-          trailNote: "Tautan sumber ada di edisi penuh",
-        }
-      : {
-          title: "Today's radar",
-          focus: "Focus",
-          depth: "Depth",
-          trail: "Source trail",
-          focusNote: "Domains in the latest edition",
-          depthNote: "Selected signals for fast reading",
-          trailNote: "Source links are in the full edition",
-        };
-  return html`<aside class="issue-rail" aria-labelledby="home-rail">
-<h2 id="home-rail">${copy.title}</h2>
-<ul>
-<li><b>${copy.focus}</b><span>${e.domains.map((d) => DOMAIN_SHORT[lang][d]).join(" · ")}</span><small>${copy.focusNote}</small></li>
-<li><b>${copy.depth}</b><span>${e.signals.length} ${lang === "id" ? "sinyal" : "signals"}</span><small>${copy.depthNote}</small></li>
-<li><b>${copy.trail}</b><span>${e.sources.length} ${lang === "id" ? "sumber" : "sources"}</span><small>${copy.trailNote}</small></li>
-</ul>
-</aside>`;
-}
-
 /**
  * Sources are listed once, numbered, and each signal links into that list.
  * Printing URLs beside every signal would triple the visual weight of the
@@ -1325,7 +1174,6 @@ ${e.dek && html`<p>${e.dek}</p>`}
 <h1 class="standfirst">${s.homeIntro}</h1>
 <p class="meta" style="margin-top:1rem"><a href="${url(cfg, aboutPath(lang))}">${s.aboutTitle}</a></p>
 </div>
-${homeKpis(latest, lang)}
 </section>
 
 <section class="home-issue">
@@ -1344,16 +1192,7 @@ ${previous && html`<a class="secondary" href="${url(cfg, editionPath(previous.la
 </div>
 </div>
 </div>
-${issueRail(latest, lang)}
 </section>
-
-<section class="home-deep" aria-label="${lang === "id" ? "Tentang radar DailyBrief" : "About the DailyBrief radar"}">
-${auditBlock(lang)}
-${homePositioning(lang)}
-${decisionContextBlock(cfg, lang, latest.date, true)}
-</section>
-
-${subscribeBlock(cfg, lang)}
 
 ${cards.length > 0 && html`<h2>${s.allEditions}</h2>
 <div class="cards">${cards}</div>`}
