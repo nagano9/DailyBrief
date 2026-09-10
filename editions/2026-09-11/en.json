@@ -1,0 +1,379 @@
+{
+  "slug": "2026-09-11",
+  "date": "2026-09-11",
+  "lang": "en",
+  "title": "Microsoft 38 GW data centre plan, PP 38/2026 BUMN reform, Danantara Rp120T row",
+  "dek": "A single-week convergence of AI infrastructure scale-up, Indonesian state-enterprise governance overhaul, and an unresolved sovereign fiscal dispute at Danantara forces immediate analytical repositioning across all three domains.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "Microsoft has disclosed a target of 38 gigawatts of data centre capacity by 2032, a figure that reframes AI infrastructure from a technology capex question into a power-procurement and grid-stress problem of sovereign scale. Simultaneously, Indonesia enacted PP 38/2026, a government regulation that restructures BUMN governance frameworks, providing the legal backbone for the Danantara-led SOE consolidation that has been running as a structural theme since August. That consolidation remains contested: Tempo and CNBC Indonesia report that the government's demand for a Rp120 trillion transfer from Danantara is still unresolved, with Purbaya Yudhi Sadewa publicly at odds with Danantara over the obligation, exposing a fiscal gap that could constrain capital available for the infrastructure programmes both institutions are meant to fund. On AI safety, Anthropic published its September 2026 misuse report while Guardian reporting amplifies internal researcher concern, continuing a pattern in which frontier-lab governance is fracturing between internal dissent and external regulatory pressure. Adhi Karya's active divestiture of hotel and toll-road assets under Danantara restructuring is the most concrete operational signal yet that the BUMN Karya consolidation is moving from announcement to asset disposal.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Microsoft",
+        "Bloomberg",
+        "Reuters"
+      ],
+      "headline": "Microsoft targets 38 GW of data centre capacity by 2032, tripling current compute footprint",
+      "whatChanged": "Bloomberg and Reuters reported on 10 September 2026 that Microsoft is planning a data centre build-out targeting 38 gigawatts of total capacity by 2032, which would approximately triple its current computing footprint.",
+      "whyItMatters": "This continues the structural theme in which AI infrastructure demand is no longer an IT budget line but a grid-scale power procurement problem. Thirty-eight gigawatts is roughly equivalent to Indonesia's entire installed generation fleet; a single hyperscaler planning that capacity signals that power developers, grid operators, and regulators are the binding constraint on AI growth, not chip supply.",
+      "secondOrder": "When one hyperscaler publicly anchors at 38 GW, counterpart firms face investor pressure to match or explain the gap. That dynamic compresses the timeline for power-purchase agreement signings, grid interconnection queues, and nuclear or long-duration storage procurement globally. Developers and utilities that have not already secured land, water rights, and transmission access at candidate sites will find those inputs bid up faster than their permitting cycles allow.",
+      "action": "Reassess any data centre or AI infrastructure proposal this week by mapping it against the sponsor-offtaker-EPC-power provider-grid operator-lender chain: Microsoft's 38 GW target implies that grid capacity and power-purchase agreements, not construction financing, are the first gate to stress-test.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHBHOWMxWUFLYUt0NHZRR1c4V1RvckEzcFBfZHlhUG5POTFyeklqXzB3SW5CMVlMaUhCTGZjLXZOeno0RFduTXlkbUgwT1V2WmU0T2FPU25MM0YxRmdCdEl6V2w4SDI1a0xLOEFDTmdieWxrOTAtWlM5YWdVek9qcjdleGhFNGNCYUd4LU10YTJyY1g4Mm42Z0EtdjN6VkFiVFRDRklsU29WbG8tdTFWc3M4VnZCM2hjVzFnRUxBNjVtNWM?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXJMZWdoQWFkTHJITkVsNjYwWkFGZWk4OVlpdS1tTDNyMnNQd0Zicmx0UktIZDFxS0xwOFBlSkxOakxPZ2RjRy13UzduVWdhcUN3WVNXWWpjVEJXRFNpOFlVLUFHMEtxV0I3cWMwZWY1REVYTkhFNGZJZDJmTzRDSU9hQ3hmbGtNNzc3dFlPSzRwVjFlYnh3RDFLbW9UNUxMYWMwb2RTbldvZ3dWZHladi1TYkpnY0hZN1lN?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-20",
+        "spanDays": 22
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "PP 38/2026",
+        "Purbaya Yudhi Sadewa",
+        "Adhi Karya"
+      ],
+      "headline": "PP 38/2026 enacted, formalising BUMN governance overhaul as Danantara Rp120T fiscal dispute remains open",
+      "whatChanged": "Government Regulation PP 38/2026 entered into force, restructuring the legal framework governing Indonesian state-owned enterprises and providing formal legal grounding for Danantara-led SOE consolidation. Concurrently, Tempo.co reported on 10 September 2026 that the government's demand for a Rp120 trillion transfer from Danantara is unresolved, with Purbaya Yudhi Sadewa in public disagreement with Danantara over whether and how the obligation applies.",
+      "whyItMatters": "PP 38/2026 converts what has been an administrative restructuring into statutory form, meaning asset transfers, subsidiary mergers, and divestiture mandates now have enforceable legal standing. But the Rp120 trillion dispute is a direct test of whether the new governance architecture can resolve principal-agent conflicts between the sovereign and the holding vehicle it created, and the public nature of the disagreement signals that the conflict has not been contained internally.",
+      "secondOrder": "If the Rp120 trillion transfer is enforced, Danantara loses capital it would otherwise deploy into BUMN recapitalisation and infrastructure investment, slowing the very consolidation PP 38/2026 is designed to enable. If it is waived or deferred, the government faces a fiscal hole at a time when APBN flexibility is already strained, as a separate Katadata analysis on the 2026 disaster budget shows the state spending heavily on emergency response rather than prevention. Either outcome reshapes the capital available to BUMN Karya companies undergoing restructuring.",
+      "action": "Map the Rp120 trillion dispute against specific BUMN Karya recapitalisation schedules: determine which companies (Adhi Karya is already divesting assets) are dependent on Danantara capital injections, and flag which divestitures or project timelines are at risk if transfer proceeds are delayed or redirected.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNnl1UnhsYXBjbVpfcFJDUHlNM1cwUy1vZkpiRkdGeGRsQlYtQXFsTXRpMk9SYTV2RFhTNE1Vbm9SNHNIUFNqblJnTjVtbTJPNjVJNUJzRGo5cWFwTGdjYjd6LWN3N2w5bDBCMXVIeHA4T3FSUzF5eFYydThZM2VHY0pSLWNyR0FGa3Q3X3YzZzZCOHZRVW13S2wxaGVHNEExdmRUdjBndkRHZ3ZicmRWSUtyY1dHVnA4eHlpaS00VnFhTFF6THpjWU1fQmtqb0hKa2YyUVRGaXY?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpTERlMEJrVmJNMHE4a0VUUkFoQzFlUE05aGx1OGZRUGp4SmVxeDYwaEZGZWpkemVwWHV3VDBjNEpaS3NZQ01RcTViOTc0T1FFWTdIYjFIejdDWW1DVVpRSGJHMWNKOF8wZlVRSjBIZ19xOWd0Nnc?oc=5",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRjFFLTNDRkVPV1NXdEEwWjNBMUkyMk5wMGZ1MmdJTFBPTlk5VWRPTkp4Q1dKTTRpM1BYWE8xZ09Zclp4M3I4aHZxNVRvU1RabHRwaWEzMndjcEdaYzZKY2k5c3N4VmR6RFZDNl8tZnB2d18zbUxUNHBoRTFIS0d2SmFEZ1dkUEJtZmp6aUcxeFRDQ28?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnRtUVpTMElING9wREJ2LVk4T2t2S0xvTTdfek91bmNOWm14TkFzcWtFSi1fWUphLWZXYXpRdDRPQ1hVSl9xM2FWbjNkUm8zSmV0MVdCUnVJb1ZWVTdlVlBMSDZGWFJQWDcwaWZTTW13XzUxSk1PLXNJenZYSHhldklRWmRzMG9wdEt3ZVhVN3p6ZmFRaWVTR1B2aGdyaGVmNVNLd1RYcVBDd1Rob3V0TXJMa3ZINHRi?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://katadata.co.id/indepth/opini/6aa173522d332/rente-kedaruratan-di-balik-asap-dan-abu"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-19",
+        "spanDays": 23
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "The Guardian"
+      ],
+      "headline": "Anthropic publishes September 2026 misuse report as internal researcher warnings amplify externally",
+      "whatChanged": "Anthropic published its September 2026 misuse detection and counter-measures report on 10 September 2026. On the same date, The Guardian reported that additional Anthropic researchers are publicly warning of AI safety risks, while Elon Musk characterised those concerns as a deliberate influence operation.",
+      "whyItMatters": "The simultaneous release of an official misuse report and the emergence of internal researcher dissent in public media is a new configuration. Previously, safety concerns surfaced either through official publications or through leaks; having both channels active at once increases reputational and regulatory surface area for the lab, and demonstrates that internal governance is not fully containing disagreement.",
+      "secondOrder": "Enterprise procurement teams and government partners that rely on Anthropic models now face a more complex vendor-risk picture: the lab is both publishing its own threat data and experiencing public internal dissent, which means procurement risk assessments built solely on official disclosures are incomplete. Regulators who have been watching the US-China AI safety talks (scheduled for mid-September per archived signals) will have new primary-source material from Anthropic to cite when pressing for mandatory incident reporting.",
+      "action": "Revisit enterprise AI vendor-risk frameworks this week to include a channel for tracking primary-source safety disclosures alongside press coverage; Anthropic's report is a primary source that should feed directly into procurement and compliance reviews, not be treated as equivalent to news commentary.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeG9CTGdvNDlpZlRmYU9BeEtNNC1qQWhkWHBJZmthYzBWalBUSEN0MmRUOFM2SERjX0M2V195ZmRsTkxoVzEyVUttT2pOODhKNHlQOXVZRGdwRVBicGExZU1FNEpGVlIxWDczbll5anB1QURMbk1jdFJ3ZVlxWlRaVkVqcWFyYS1qdzZ5aUx3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 4,
+        "firstSeen": "2026-09-03",
+        "spanDays": 8
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "NeutraDC",
+        "Kementerian ESDM",
+        "IEEFA"
+      ],
+      "headline": "Malaysia data centres reach 9.28% of national electricity consumption, establishing a regional benchmark for Indonesia grid planning",
+      "whatChanged": "Eco-Business reported on 9 September 2026, citing Malaysia's energy regulator, that data centres now account for 9.28 percent of Malaysia's total electricity consumption, with El Nino-driven heat further pressuring demand.",
+      "whyItMatters": "Malaysia is the closest comparable market to Indonesia for digital infrastructure buildout, and a 9.28 percent data centre load share is a regulator-reported figure that gives Indonesian grid planners, PLN, and Kementerian ESDM a concrete near-term demand scenario to model. Indonesia's rooftop solar quota constraints and transmission underinvestment (a structural theme since August) mean the grid is already constrained before data centre load materialises at Malaysian scale.",
+      "secondOrder": "A 9.28 percent data centre share in Malaysia, combined with Microsoft's 38 GW global target and NeutraDC's 200 MW PLN-backed expansion in Indonesia, implies that Indonesian grid stress from digital infrastructure could arrive faster than the RUPTL planning cycle anticipates. Transmission subholding proposals flagged by IEEFA become more urgent: without dedicated transmission capacity, data centre demand will compete directly with industrial and residential load, forcing PLN into prioritisation decisions that carry political risk.",
+      "action": "Use the Malaysian 9.28 percent figure as a stress-test input for Indonesian grid scenarios this week: model what an equivalent share of PLN's current load would mean for peak demand, transmission requirements, and generation mix, and assess whether the 100 GWp solar programme targets are sequenced to meet that demand or will lag it.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.eco-business.com/news/data-centres-and-prolonged-heat-are-pushing-malaysias-power-demand-higher/",
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-08-22",
+        "spanDays": 20
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Adhi Karya",
+        "ADHI",
+        "Danantara"
+      ],
+      "headline": "Adhi Karya begins active asset disposal, selling hotels and toll roads under Danantara restructuring",
+      "whatChanged": "Bisnis.com reported on 9 September 2026 that Adhi Karya (ticker ADHI) is actively selling hotel and toll-road assets as part of the Danantara-mandated BUMN Karya divestiture process.",
+      "whyItMatters": "This is the first concrete operational signal that the BUMN Karya restructuring has moved from policy announcement to balance-sheet action. Previous reporting in this thread documented the difficulty of restructuring; active asset sales by a named entity with identified asset classes indicate the process is now generating real transactions.",
+      "secondOrder": "Distressed or motivated asset sales by BUMN entities into a market where private buyers know the seller is under institutional pressure typically produce below-market clearing prices, weakening the recapitalisation logic that underpins the restructuring. If multiple BUMN Karya companies sell concurrently, supply of infrastructure and hospitality assets rises while the buyer pool (domestic pension funds, foreign private equity) has finite appetite, compressing valuations further.",
+      "action": "For any party evaluating Indonesian infrastructure or hospitality assets, open a dialogue with advisers tracking the Adhi Karya sale process this week; motivated-seller dynamics create acquisition opportunities but require rapid due diligence given the institutional timeline.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnRtUVpTMElING9wREJ2LVk4T2t2S0xvTTdfek91bmNOWm14TkFzcWtFSi1fWUphLWZXYXpRdDRPQ1hVSl9xM2FWbjNkUm8zSmV0MVdCUnVJb1ZWVTdlVlBMSDZGWFJQWDcwaWZTTW13XzUxSk1PLXNJenZYSHhldklRWmRzMG9wdEt3ZVhVN3p6ZmFRaWVTR1B2aGdyaGVmNVNLd1RYcVBDd1Rob3V0TXJMa3ZINHRi?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-19",
+        "spanDays": 23
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "US-China bilateral AI safety talks: confirm whether the mid-September meeting occurs and what commitments, if any, emerge on incident reporting or model capability thresholds.",
+      "dueDate": "2026-09-20"
+    },
+    {
+      "item": "Danantara Rp120 trillion transfer dispute: watch for a formal government resolution, deferral announcement, or Danantara board statement that clarifies the fiscal position before the next APBN revision.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Adhi Karya asset sale outcomes: monitor deal announcements, buyer identities, and clearing prices to assess whether BUMN Karya divestitures are achieving recapitalisation targets or eroding book value.",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "PP 38/2026 implementing regulations: track which ministerial or Danantara-level regulations are issued to operationalise the new BUMN governance framework, particularly those governing inter-entity capital transfers.",
+      "dueDate": "2026-11-01"
+    },
+    {
+      "item": "Microsoft data centre power procurement filings: watch for PPA signings, grid interconnection applications, or nuclear offtake agreements that reveal which power sources will back the 38 GW target.",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "publisher": "anthropic.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-10T17:10:27.000Z"
+    },
+    {
+      "title": "PP 38 Tahun 2026 Resmi Berlaku, Pemerintah Reformasi Total Tata Kelola BUMN",
+      "publisher": "Kompasiana.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNnl1UnhsYXBjbVpfcFJDUHlNM1cwUy1vZkpiRkdGeGRsQlYtQXFsTXRpMk9SYTV2RFhTNE1Vbm9SNHNIUFNqblJnTjVtbTJPNjVJNUJzRGo5cWFwTGdjYjd6LWN3N2w5bDBCMXVIeHA4T3FSUzF5eFYydThZM2VHY0pSLWNyR0FGa3Q3X3YzZzZCOHZRVW13S2wxaGVHNEExdmRUdjBndkRHZ3ZicmRWSUtyY1dHVnA4eHlpaS00VnFhTFF6THpjWU1fQmtqb0hKa2YyUVRGaXY?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T02:10:15.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Rente Kedaruratan di Balik Asap dan Abu",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/indepth/opini/6aa173522d332/rente-kedaruratan-di-balik-asap-dan-abu",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-10T23:25:00.000Z"
+    },
+    {
+      "title": "Data centres and prolonged heat are pushing Malaysia’s power demand higher",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/data-centres-and-prolonged-heat-are-pushing-malaysias-power-demand-higher/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-09T05:09:00.000Z"
+    },
+    {
+      "title": "More Anthropic researchers warn of AI’s perils as Musk terms fears a ‘psyop’",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeG9CTGdvNDlpZlRmYU9BeEtNNC1qQWhkWHBJZmthYzBWalBUSEN0MmRUOFM2SERjX0M2V195ZmRsTkxoVzEyVUttT2pOODhKNHlQOXVZRGdwRVBicGExZU1FNEpGVlIxWDczbll5anB1QURMbk1jdFJ3ZVlxWlRaVkVqcWFyYS1qdzZ5aUx3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T21:51:00.000Z"
+    },
+    {
+      "title": "Microsoft plans 38 gigawatts of data center capacity by 2032, Bloomberg News reports",
+      "publisher": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHBHOWMxWUFLYUt0NHZRR1c4V1RvckEzcFBfZHlhUG5POTFyeklqXzB3SW5CMVlMaUhCTGZjLXZOeno0RFduTXlkbUgwT1V2WmU0T2FPU25MM0YxRmdCdEl6V2w4SDI1a0xLOEFDTmdieWxrOTAtWlM5YWdVek9qcjdleGhFNGNCYUd4LU10YTJyY1g4Mm42Z0EtdjN6VkFiVFRDRklsU29WbG8tdTFWc3M4VnZCM2hjVzFnRUxBNjVtNWM?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T22:24:34.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "Mengapa Pemerintah Butuh Setoran Rp 120 T dari Danantara",
+      "publisher": "Tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpTERlMEJrVmJNMHE4a0VUUkFoQzFlUE05aGx1OGZRUGp4SmVxeDYwaEZGZWpkemVwWHV3VDBjNEpaS3NZQ01RcTViOTc0T1FFWTdIYjFIejdDWW1DVVpRSGJHMWNKOF8wZlVRSjBIZ19xOWd0Nnc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T23:15:00.000Z"
+    },
+    {
+      "title": "Microsoft Plans Data Center Push to Triple Its Computing Power",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXJMZWdoQWFkTHJITkVsNjYwWkFGZWk4OVlpdS1tTDNyMnNQd0Zicmx0UktIZDFxS0xwOFBlSkxOakxPZ2RjRy13UzduVWdhcUN3WVNXWWpjVEJXRFNpOFlVLUFHMEtxV0I3cWMwZWY1REVYTkhFNGZJZDJmTzRDSU9hQ3hmbGtNNzc3dFlPSzRwVjFlYnh3RDFLbW9UNUxMYWMwb2RTbldvZ3dWZHladi1TYkpnY0hZN1lN?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T21:00:16.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "Divestasi BUMN Karya: Adhi Karya (ADHI) Obral Hotel hingga Jalan Tol - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnRtUVpTMElING9wREJ2LVk4T2t2S0xvTTdfek91bmNOWm14TkFzcWtFSi1fWUphLWZXYXpRdDRPQ1hVSl9xM2FWbjNkUm8zSmV0MVdCUnVJb1ZWVTdlVlBMSDZGWFJQWDcwaWZTTW13XzUxSk1PLXNJenZYSHhldklRWmRzMG9wdEt3ZVhVN3p6ZmFRaWVTR1B2aGdyaGVmNVNLd1RYcVBDd1Rob3V0TXJMa3ZINHRi?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T12:30:26.000Z"
+    },
+    {
+      "title": "Duduk Perkara Saling-Silang Purbaya dengan Danantara",
+      "publisher": "Tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRjFFLTNDRkVPV1NXdEEwWjNBMUkyMk5wMGZ1MmdJTFBPTlk5VWRPTkp4Q1dKTTRpM1BYWE8xZ09Zclp4M3I4aHZxNVRvU1RabHRwaWEzMndjcEdaYzZKY2k5c3N4VmR6RFZDNl8tZnB2d18zbUxUNHBoRTFIS0d2SmFEZ1dkUEJtZmp6aUcxeFRDQ28?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T23:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Polemik setoran Rp120 triliun: Danantara dan pemerintah belum satu suara soal kewajiban keuntungan",
+      "occurrences": 20,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-10",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Massachusetts mandates clean-power procurement for data centres, setting a regulatory precedent for AI infrastructure power sourcing",
+      "occurrences": 20,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-10",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI luncurkan GPT-6 Astra, model AI business dengan computer use dan reasoning lanjutan",
+      "occurrences": 18,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-10",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Rooftop solar quota and regulatory constraints are throttling demand growth in Indonesia despite a surge in applications",
+      "occurrences": 18,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-10",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "India wajibkan penyimpanan co-located untuk semua proyek surya dan angin baru",
+      "occurrences": 14,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 372,
+    "poolSize": 110,
+    "generatedAt": "2026-09-10T23:45:57.589Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

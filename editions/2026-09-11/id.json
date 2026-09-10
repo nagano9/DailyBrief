@@ -1,0 +1,408 @@
+{
+  "slug": "2026-09-11",
+  "date": "2026-09-11",
+  "lang": "id",
+  "title": "Microsoft 38 GW, PP 38/2026, dan Sengketa Danantara-Purbaya Puncaki Agenda",
+  "dek": "Tiga sinyal struktural bergerak serentak: kapasitas komputasi global melonjak, tata kelola BUMN Indonesia direset, dan polemik setoran Rp120 triliun Danantara memasuki babak baru.",
+  "domains": [
+    "ai",
+    "corporate"
+  ],
+  "summary": "Microsoft mengumumkan target 38 gigawatt kapasitas pusat data pada 2032, skala yang memaksa kalkulasi ulang atas ketersediaan daya, pembiayaan, dan rantai pasok energi global. Di Indonesia, PP 38 Tahun 2026 resmi berlaku dan mereset kerangka tata kelola BUMN secara menyeluruh, sementara Danantara dan Purbaya Yudhi Sadewa masih berselisih soal kewajiban setoran Rp120 triliun ke pemerintah, sebuah sengketa yang mempersoalkan otoritas fiskal dan struktur investasi sovereign. Di domain AI, Anthropic menerbitkan laporan deteksi dan penanggulangan penyalahgunaan per September 2026, memperdalam rekam jejak transparansi insiden yang sudah empat kali terbit. OpenAI meluncurkan ChatGPT for Financial Services berbasis GPT-6 Astra dengan akses data keuangan terintegrasi, mendorong persaingan adopsi AI di sektor perbankan dan investasi.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Microsoft",
+        "Bloomberg",
+        "Reuters",
+        "PLN"
+      ],
+      "headline": "Microsoft menargetkan 38 GW kapasitas pusat data pada 2032, setara tiga kali lipat posisi saat ini",
+      "whatChanged": "Bloomberg melaporkan, dikonfirmasi Reuters, bahwa Microsoft berencana membangun kapasitas pusat data hingga 38 gigawatt pada 2032. Angka ini menunjukkan tiga kali lipat kapasitas komputasi dibandingkan posisi saat ini.",
+      "whyItMatters": "Tema nuclear-ai-datacenter-power yang sudah berstatus struktural selama 20 hari terakhir kini mendapat data titik terbesar sejauh ini. Komitmen 38 GW dari satu hiperscaler saja melampaui total kapasitas terpasang listrik Indonesia (sekitar 90 GW untuk seluruh sistem) dalam proporsi yang bermakna, dan ia menuntut kontrak offtake listrik skala utilitas, bukan sekadar pembelian energi terbarukan biasa.",
+      "secondOrder": "Kebutuhan daya sebesar ini akan menarik pipa pembiayaan infrastruktur ke model project finance dengan sponsor-offtaker-EPC-lender yang terartikulasi, bukan model belanja modal teknologi konvensional. Operator grid di Asia Tenggara, termasuk PLN, akan menghadapi tekanan permintaan koneksi dari hiperscaler yang mencari lokasi alternatif di luar AS dan Eropa karena kendala grid domestik mereka. Indonesia, dengan program PLTS 100 GWp yang baru diluncurkan Presiden Prabowo, memiliki jendela negosiasi yang sempit untuk menarik offtake kelas hyperscale sebelum kapasitas tersebut dikunci di negara lain.",
+      "action": "Petakan apakah perjanjian jual beli tenaga listrik (PJBL) PLN saat ini memiliki klausul dan kapasitas untuk melayani permintaan hyperscale di atas 100 MW per lokasi. Tinjau apakah target PLTS 100 GWp sudah memasukkan skenario demand dari pusat data skala Microsoft dalam pemodelan beban.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHBHOWMxWUFLYUt0NHZRR1c4V1RvckEzcFBfZHlhUG5POTFyeklqXzB3SW5CMVlMaUhCTGZjLXZOeno0RFduTXlkbUgwT1V2WmU0T2FPU25MM0YxRmdCdEl6V2w4SDI1a0xLOEFDTmdieWxrOTAtWlM5YWdVek9qcjdleGhFNGNCYUd4LU10YTJyY1g4Mm42Z0EtdjN6VkFiVFRDRklsU29WbG8tdTFWc3M4VnZCM2hjVzFnRUxBNjVtNWM?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXJMZWdoQWFkTHJITkVsNjYwWkFGZWk4OVlpdS1tTDNyMnNQd0Zicmx0UktIZDFxS0xwOFBlSkxOakxPZ2RjRy13UzduVWdhcUN3WVNXWWpjVEJXRFNpOFlVLUFHMEtxV0I3cWMwZWY1REVYTkhFNGZJZDJmTzRDSU9hQ3hmbGtNNzc3dFlPSzRwVjFlYnh3RDFLbW9UNUxMYWMwb2RTbldvZ3dWZHladi1TYkpnY0hZN1lN?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-20",
+        "spanDays": 22
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "PP 38 Tahun 2026",
+        "Adhi Karya"
+      ],
+      "headline": "PP 38 Tahun 2026 berlaku, mereset tata kelola BUMN secara menyeluruh",
+      "whatChanged": "Kompasiana melaporkan bahwa PP 38 Tahun 2026 resmi berlaku dan membawa reformasi total tata kelola BUMN. Sumber ini adalah T1 tetapi bukan sumber primer regulasi; konfirmasi teks resmi PP belum tersedia dari Sekretariat Kabinet dalam kandidat hari ini, sehingga detail pasal bersifat terbatas.",
+      "whyItMatters": "Regulasi tata kelola BUMN baru yang berlaku bersamaan dengan restrukturisasi di bawah Danantara menciptakan dua lapis perubahan simultan: perubahan siapa yang mengontrol BUMN (Danantara) dan perubahan aturan main bagaimana BUMN dikelola (PP 38/2026). Dua lapis ini bisa saling memperkuat atau saling bertentangan bergantung pada pasal-pasal spesifik.",
+      "secondOrder": "BUMN Karya yang sedang mendivestasi aset, seperti Adhi Karya (ADHI) yang menjual hotel dan konsesi jalan tol, akan menghadapi ketidakpastian ganda: siapa otoritas persetujuan divestasi di bawah PP baru, dan apakah valuasi harus diulang bila mekanisme tata kelola berubah saat proses sedang berjalan.",
+      "action": "Dapatkan teks resmi PP 38 Tahun 2026 dari Sekretariat Kabinet atau Kemenkumham dan petakan pasal-pasal yang mengatur persetujuan transaksi material BUMN, khususnya divestasi aset yang sedang berjalan di Adhi Karya dan BUMN Karya lainnya.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNnl1UnhsYXBjbVpfcFJDUHlNM1cwUy1vZkpiRkdGeGRsQlYtQXFsTXRpMk9SYTV2RFhTNE1Vbm9SNHNIUFNqblJnTjVtbTJPNjVJNUJzRGo5cWFwTGdjYjd6LWN3N2w5bDBCMXVIeHA4T3FSUzF5eFYydThZM2VHY0pSLWNyR0FGa3Q3X3YzZzZCOHZRVW13S2wxaGVHNEExdmRUdjBndkRHZ3ZicmRWSUtyY1dHVnA4eHlpaS00VnFhTFF6THpjWU1fQmtqb0hKa2YyUVRGaXY?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnRtUVpTMElING9wREJ2LVk4T2t2S0xvTTdfek91bmNOWm14TkFzcWtFSi1fWUphLWZXYXpRdDRPQ1hVSl9xM2FWbjNkUm8zSmV0MVdCUnVJb1ZWVTdlVlBMSDZGWFJQWDcwaWZTTW13XzUxSk1PLXNJenZYSHhldklRWmRzMG9wdEt3ZVhVN3p6ZmFRaWVTR1B2aGdyaGVmNVNLd1RYcVBDd1Rob3V0TXJMa3ZINHRi?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMktYTFFOOUxNQ2Zhd0RrNXlvRzdsM3FhcWc2TEJITjcwT2cyR1BqVU14RWZxWDBleHA4OU44QUxjNjJTUm5DMjJFczZtbkR5UUhyQVRsOTR5NnFJQWxrN0tzM2k1RDdxMFRWNnJDQ1gzUDF2WnJiUzJfNTdlcG4tV2pjX2haeVRQNDJUTHRQNkJaV005MFpJ0gGcAUFVX3lxTE9nYm5NRXBwd1dIM1hPYW1iVkpnRy1vVlFQdmw3VWZzTjZtZ1hfQ19kMS0wdG40bGdlRjlnTG9QWVNRSkRGMUVPOWw2VDM1VzBOVTVPbXFkMXBEN2Yxcl9kaWxXSjlVd2NJVlpuV1ptOUZpRFFKel9HUEJCUUo5N21zQUo0U2dZU00xRGtuUEZyZXZLdVdVT01TZ3FSdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-19",
+        "spanDays": 23
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "The Guardian",
+        "OpenAI",
+        "Google DeepMind"
+      ],
+      "headline": "Anthropic terbitkan laporan deteksi penyalahgunaan AI edisi September 2026",
+      "whatChanged": "Anthropic menerbitkan laporan 'Detecting and countering misuse of AI: September 2026' pada 10 September 2026, merupakan sumber primer langsung dari lab. Ini melanjutkan seri laporan transparansi insiden yang sebelumnya sudah mencapai empat insiden keamanan yang terungkap.",
+      "whyItMatters": "Tema ai-model-safety-frontier yang berstatus recurring kini mendapat publikasi resmi terbaru dari Anthropic sendiri. Laporan ini muncul bersamaan dengan pemberitaan The Guardian yang mengutip lebih banyak peneliti Anthropic yang memperingatkan risiko AI, menciptakan momen di mana tekanan internal dan komunikasi eksternal lab bergerak serentak.",
+      "secondOrder": "Frekuensi dan detail laporan penyalahgunaan dari Anthropic membentuk preseden standar pelaporan yang akan menekan OpenAI, Google DeepMind, dan lab lain untuk mengikuti format serupa. Bagi regulator dan enterprise buyer, laporan ini menjadi baseline dokumentasi yang bisa digunakan dalam negosiasi kontrak dan audit kepatuhan AI, terutama di sektor keuangan yang baru saja menjadi target peluncuran ChatGPT for Financial Services.",
+      "action": "Baca laporan Anthropic September 2026 secara penuh untuk mengidentifikasi kategori penyalahgunaan baru yang belum ada di edisi sebelumnya, lalu periksa apakah kontrak enterprise AI yang sedang berjalan sudah memasukkan klausul pelaporan insiden dengan standar setara.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeG9CTGdvNDlpZlRmYU9BeEtNNC1qQWhkWHBJZmthYzBWalBUSEN0MmRUOFM2SERjX0M2V195ZmRsTkxoVzEyVUttT2pOODhKNHlQOXVZRGdwRVBicGExZU1FNEpGVlIxWDczbll5anB1QURMbk1jdFJ3ZVlxWlRaVkVqcWFyYS1qdzZ5aUx3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 4,
+        "firstSeen": "2026-09-03",
+        "spanDays": 8
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "ChatGPT for Financial Services",
+        "GPT-6 Astra",
+        "OJK"
+      ],
+      "headline": "OpenAI luncurkan ChatGPT for Financial Services dengan GPT-6 Astra dan data keuangan terintegrasi",
+      "whatChanged": "OpenAI menerbitkan pengumuman resmi pada 10 September 2026 tentang ChatGPT for Financial Services, yang menggabungkan data keuangan bawaan dengan GPT-6 Astra untuk riset, pemodelan, dan penyusunan materi klien. Produk ini menargetkan institusi keuangan secara langsung.",
+      "whyItMatters": "Tema enterprise-ai-data-privacy-contracts yang sudah berjalan 18 hari kini mendapat produk vertikal pertama dari OpenAI yang secara eksplisit menyasar lembaga keuangan dengan data terintegrasi. Ini berbeda dari model API generik karena OpenAI menanggung kurasi data keuangan, yang mengalihkan sebagian tanggung jawab data governance ke vendor.",
+      "secondOrder": "Bank dan manajer aset yang mengadopsi produk ini harus mengevaluasi ulang kebijakan data internal mereka: data klien dan model portofolio yang dimasukkan ke ChatGPT for Financial Services berpotensi menjadi data latih atau diproses di infrastruktur OpenAI, bergantung pada ketentuan kontrak enterprise. Di Indonesia, OJK perlu mempertimbangkan apakah penggunaan produk ini oleh bank domestik memenuhi ketentuan lokalisasi data.",
+      "action": "Minta tim legal dan kepatuhan untuk menelaah terms of service ChatGPT for Financial Services, khususnya klausul data residency, data retention, dan hak penggunaan data untuk pelatihan model, sebelum persetujuan uji coba di institusi yang berada di bawah regulasi OJK atau regulator sejenis.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/introducing-chatgpt-financial-services",
+        "https://openai.com/index/put-data-to-work"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-08-20",
+        "spanDays": 22
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Purbaya Yudhi Sadewa",
+        "Tempo.co",
+        "Danantara Investment Management"
+      ],
+      "headline": "Sengketa Purbaya-Danantara soal setoran Rp120 triliun memasuki babak eksplisit",
+      "whatChanged": "Tempo.co menerbitkan dua laporan terpisah pada 10 September 2026: satu menjelaskan mengapa pemerintah membutuhkan setoran Rp120 triliun dari Danantara, dan satu lagi merekonstruksi 'duduk perkara' saling-silang antara Purbaya Yudhi Sadewa dan Danantara. Keduanya menandai eskalasi dari perselisihan yang semula implisit menjadi polemik yang dikonfirmasi secara publik.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring telah berjalan 20 kali sejak 19 Agustus 2026 dan kini mencapai titik kritis: bila kewajiban setoran tidak diselesaikan, ruang fiskal APBN untuk program prioritas pemerintah menyempit, sementara Danantara kehilangan legitimasi sebagai sovereign investment vehicle yang mandiri.",
+      "secondOrder": "Perselisihan ini mempersoalkan arsitektur fundamental Danantara, yaitu apakah ia berfungsi sebagai lengan fiskal pemerintah atau sebagai entitas investasi yang mengelola portofolio untuk imbal hasil jangka panjang. Ketidakjelasan ini akan mempengaruhi rating obligasi dolar yang sudah diluncurkan Danantara Investment Management (DIM) dan terdaftar di OJK, karena investor asing akan mempertanyakan siapa yang bertanggung jawab atas arus kas dan kewajiban.",
+      "action": "Periksa struktur legal kewajiban setoran Rp120 triliun: apakah ia berbentuk dividen, pengembalian modal, atau kontribusi wajib, karena masing-masing memiliki implikasi berbeda terhadap neraca Danantara dan kapasitas DIM untuk memenuhi kewajiban obligasi dolar.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpTERlMEJrVmJNMHE4a0VUUkFoQzFlUE05aGx1OGZRUGp4SmVxeDYwaEZGZWpkemVwWHV3VDBjNEpaS3NZQ01RcTViOTc0T1FFWTdIYjFIejdDWW1DVVpRSGJHMWNKOF8wZlVRSjBIZ19xOWd0Nnc?oc=5",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRjFFLTNDRkVPV1NXdEEwWjNBMUkyMk5wMGZ1MmdJTFBPTlk5VWRPTkp4Q1dKTTRpM1BYWE8xZ09Zclp4M3I4aHZxNVRvU1RabHRwaWEzMndjcEdaYzZKY2k5c3N4VmR6RFZDNl8tZnB2d18zbUxUNHBoRTFIS0d2SmFEZ1dkUEJtZmp6aUcxeFRDQ28?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEF5WnpkOUZYQTREb0hzcjgwTXA0Y05iaThOQklNVEJnYXpOeHI1NVJLcW5UemRvUEFKZUszNk9ueXlnb1hZc1FlRVBKOWxvTWd3V1N3SWpJUGI4Y29qd1V2WFBrZG42RWpZNTdieWJTaVRyRzVCQzlQNnd3dEZ0RlpYTG1nb0xDRm5jSnRJbVlVZzBHR1FvbWVFcEtzN3IzNVJYSNIBnwFBVV95cUxQTWZBWDd4QjR0VDU0c01wWktBUFI2bjZzcjFKYUZPRmt5UWtTcDBJcXBRamRoSU5MNnpJejhqQW5DbXROQkhBSFd3eWViOXUzT0tIelUtNUR0YllXcjNUV1FCOTZYcl9IWWVJVGZUM1FVdDhYcGthWU1kUHFmRjBYZXU3aDJTTWczUFRDcXBPVTNIdHRkc3pkX3h0QkQ0X3c?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-19",
+        "spanDays": 23
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Teks resmi PP 38 Tahun 2026 dari Sekretariat Kabinet atau Kemenkumham untuk verifikasi pasal tata kelola BUMN dan implikasi divestasi aset yang sedang berjalan.",
+      "dueDate": "2026-09-18"
+    },
+    {
+      "item": "Pernyataan resmi Danantara atau Kementerian Keuangan tentang mekanisme dan jadwal penyelesaian kewajiban setoran Rp120 triliun.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Rincian kontrak offtake atau LOI antara hyperscaler (termasuk Microsoft) dan PLN atau pengembang independen di Indonesia pasca-pengumuman target 38 GW.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Publikasi laporan lengkap Anthropic 'Detecting and countering misuse of AI: September 2026' untuk identifikasi kategori insiden baru.",
+      "dueDate": "2026-09-17"
+    },
+    {
+      "item": "Respons OJK atau regulator keuangan Asia Tenggara terhadap peluncuran ChatGPT for Financial Services, khususnya ketentuan data residency untuk bank domestik.",
+      "dueDate": "2026-10-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "publisher": "anthropic.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-10T17:10:27.000Z"
+    },
+    {
+      "title": "PP 38 Tahun 2026 Resmi Berlaku, Pemerintah Reformasi Total Tata Kelola BUMN",
+      "publisher": "Kompasiana.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNnl1UnhsYXBjbVpfcFJDUHlNM1cwUy1vZkpiRkdGeGRsQlYtQXFsTXRpMk9SYTV2RFhTNE1Vbm9SNHNIUFNqblJnTjVtbTJPNjVJNUJzRGo5cWFwTGdjYjd6LWN3N2w5bDBCMXVIeHA4T3FSUzF5eFYydThZM2VHY0pSLWNyR0FGa3Q3X3YzZzZCOHZRVW13S2wxaGVHNEExdmRUdjBndkRHZ3ZicmRWSUtyY1dHVnA4eHlpaS00VnFhTFF6THpjWU1fQmtqb0hKa2YyUVRGaXY?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T02:10:15.000Z"
+    },
+    {
+      "title": "More Anthropic researchers warn of AI’s perils as Musk terms fears a ‘psyop’",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeG9CTGdvNDlpZlRmYU9BeEtNNC1qQWhkWHBJZmthYzBWalBUSEN0MmRUOFM2SERjX0M2V195ZmRsTkxoVzEyVUttT2pOODhKNHlQOXVZRGdwRVBicGExZU1FNEpGVlIxWDczbll5anB1QURMbk1jdFJ3ZVlxWlRaVkVqcWFyYS1qdzZ5aUx3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T21:51:00.000Z"
+    },
+    {
+      "title": "Now everyone can put data to work",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/put-data-to-work",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-10T15:00:00.000Z"
+    },
+    {
+      "title": "Microsoft plans 38 gigawatts of data center capacity by 2032, Bloomberg News reports",
+      "publisher": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHBHOWMxWUFLYUt0NHZRR1c4V1RvckEzcFBfZHlhUG5POTFyeklqXzB3SW5CMVlMaUhCTGZjLXZOeno0RFduTXlkbUgwT1V2WmU0T2FPU25MM0YxRmdCdEl6V2w4SDI1a0xLOEFDTmdieWxrOTAtWlM5YWdVek9qcjdleGhFNGNCYUd4LU10YTJyY1g4Mm42Z0EtdjN6VkFiVFRDRklsU29WbG8tdTFWc3M4VnZCM2hjVzFnRUxBNjVtNWM?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T22:24:34.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T07:00:00.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-10T07:00:00.000Z"
+    },
+    {
+      "title": "Mengapa Pemerintah Butuh Setoran Rp 120 T dari Danantara",
+      "publisher": "Tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpTERlMEJrVmJNMHE4a0VUUkFoQzFlUE05aGx1OGZRUGp4SmVxeDYwaEZGZWpkemVwWHV3VDBjNEpaS3NZQ01RcTViOTc0T1FFWTdIYjFIejdDWW1DVVpRSGJHMWNKOF8wZlVRSjBIZ19xOWd0Nnc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T23:15:00.000Z"
+    },
+    {
+      "title": "Microsoft Plans Data Center Push to Triple Its Computing Power",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXJMZWdoQWFkTHJITkVsNjYwWkFGZWk4OVlpdS1tTDNyMnNQd0Zicmx0UktIZDFxS0xwOFBlSkxOakxPZ2RjRy13UzduVWdhcUN3WVNXWWpjVEJXRFNpOFlVLUFHMEtxV0I3cWMwZWY1REVYTkhFNGZJZDJmTzRDSU9hQ3hmbGtNNzc3dFlPSzRwVjFlYnh3RDFLbW9UNUxMYWMwb2RTbldvZ3dWZHladi1TYkpnY0hZN1lN?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T21:00:16.000Z"
+    },
+    {
+      "title": "Indonesia cuts 250 SOEs under Danantara reform: Prabowo",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMktYTFFOOUxNQ2Zhd0RrNXlvRzdsM3FhcWc2TEJITjcwT2cyR1BqVU14RWZxWDBleHA4OU44QUxjNjJTUm5DMjJFczZtbkR5UUhyQVRsOTR5NnFJQWxrN0tzM2k1RDdxMFRWNnJDQ1gzUDF2WnJiUzJfNTdlcG4tV2pjX2haeVRQNDJUTHRQNkJaV005MFpJ0gGcAUFVX3lxTE9nYm5NRXBwd1dIM1hPYW1iVkpnRy1vVlFQdmw3VWZzTjZtZ1hfQ19kMS0wdG40bGdlRjlnTG9QWVNRSkRGMUVPOWw2VDM1VzBOVTVPbXFkMXBEN2Yxcl9kaWxXSjlVd2NJVlpuV1ptOUZpRFFKel9HUEJCUUo5N21zQUo0U2dZU00xRGtuUEZyZXZLdVdVT01TZ3FSdw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-07-20T07:00:00.000Z"
+    },
+    {
+      "title": "Divestasi BUMN Karya: Adhi Karya (ADHI) Obral Hotel hingga Jalan Tol - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObnRtUVpTMElING9wREJ2LVk4T2t2S0xvTTdfek91bmNOWm14TkFzcWtFSi1fWUphLWZXYXpRdDRPQ1hVSl9xM2FWbjNkUm8zSmV0MVdCUnVJb1ZWVTdlVlBMSDZGWFJQWDcwaWZTTW13XzUxSk1PLXNJenZYSHhldklRWmRzMG9wdEt3ZVhVN3p6ZmFRaWVTR1B2aGdyaGVmNVNLd1RYcVBDd1Rob3V0TXJMa3ZINHRi?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-09T12:30:26.000Z"
+    },
+    {
+      "title": "Kata OJK soal Penerbitan Panda Bond dan Patriot Bond",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-01T08:07:27.000Z"
+    },
+    {
+      "title": "Duduk Perkara Saling-Silang Purbaya dengan Danantara",
+      "publisher": "Tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRjFFLTNDRkVPV1NXdEEwWjNBMUkyMk5wMGZ1MmdJTFBPTlk5VWRPTkp4Q1dKTTRpM1BYWE8xZ09Zclp4M3I4aHZxNVRvU1RabHRwaWEzMndjcEdaYzZKY2k5c3N4VmR6RFZDNl8tZnB2d18zbUxUNHBoRTFIS0d2SmFEZ1dkUEJtZmp6aUcxeFRDQ28?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-10T23:00:00.000Z"
+    },
+    {
+      "title": "Danantara Sulit Restrukturisasi BUMN Karya, Ini Alasannya",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHp4V05XRDZPRU9POW9KdUJ0V21paXZSS3pRWnpyN0hVSTNsSDJWeEFVTVBXdklhdEIwU01tSlFlcWZ3WmdtX1J0NnFKUW96S2o0em1tOWNsd3BDdFlyS0l2VFJoQkR6U0tTU1AwSWw4enljRF85em1qQWZiaklaNG1aa2VzWUVXVmtVMElRT2N3REZxVnBuYWdkWnNVWUNxZWt4c2k1T29UU0otN1h3d1l3WkFHcUt1M0Zj0gHAAUFVX3lxTE9nQW1HVWxuSWdtb2Q0d2VHWmtZMWVDVllINGJYTGlHa1p2UzRCUEFoRFduWmlHVWFBNUF2c0Fzb1NuX1FrZ1RrVzdzNWpmWEJMQm9LM1Z2empiVHlWSTM5Z2FwamoxbHlzZ3AxcnFCOGl0aGJObFZKeEVLeUVmWm9aMDZuVkUwcVo4d2hwRmU0UG1WZDBiQS0zb3B0XzNvYk5DN2pMZUdoWk9pUXpZY1JRZnMxTjJJS3J0T2dScFVjNg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-19T07:00:00.000Z"
+    },
+    {
+      "title": "Indonesia's Danantara Launches Dollar Bond, Eyes $1 Billion, Sources Say",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEF5WnpkOUZYQTREb0hzcjgwTXA0Y05iaThOQklNVEJnYXpOeHI1NVJLcW5UemRvUEFKZUszNk9ueXlnb1hZc1FlRVBKOWxvTWd3V1N3SWpJUGI4Y29qd1V2WFBrZG42RWpZNTdieWJTaVRyRzVCQzlQNnd3dEZ0RlpYTG1nb0xDRm5jSnRJbVlVZzBHR1FvbWVFcEtzN3IzNVJYSNIBnwFBVV95cUxQTWZBWDd4QjR0VDU0c01wWktBUFI2bjZzcjFKYUZPRmt5UWtTcDBJcXBRamRoSU5MNnpJejhqQW5DbXROQkhBSFd3eWViOXUzT0tIelUtNUR0YllXcjNUV1FCOTZYcl9IWWVJVGZUM1FVdDhYcGthWU1kUHFmRjBYZXU3aDJTTWczUFRDcXBPVTNIdHRkc3pkX3h0QkQ0X3c?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-06-11T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Polemik setoran Rp120 triliun: Danantara dan pemerintah belum satu suara soal kewajiban keuntungan",
+      "occurrences": 20,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-10",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Massachusetts mandates clean-power procurement for data centres, setting a regulatory precedent for AI infrastructure power sourcing",
+      "occurrences": 20,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-10",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI luncurkan GPT-6 Astra, model AI business dengan computer use dan reasoning lanjutan",
+      "occurrences": 18,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-10",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Rooftop solar quota and regulatory constraints are throttling demand growth in Indonesia despite a surge in applications",
+      "occurrences": 18,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-10",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "India wajibkan penyimpanan co-located untuk semua proyek surya dan angin baru",
+      "occurrences": 14,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 372,
+    "poolSize": 110,
+    "generatedAt": "2026-09-10T23:44:46.427Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
