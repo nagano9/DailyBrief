@@ -289,6 +289,19 @@ text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:.25re
 .home-issue{display:grid;grid-template-columns:minmax(0,1fr) 14.5rem;gap:2.4rem;
 border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);
 padding:1.55rem 0 1.7rem;margin:2rem 0 2.75rem}
+.home-position{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);
+gap:2.4rem;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);
+padding:1.35rem 0;margin:1.45rem 0 1.8rem}
+.home-position h2{margin:0;padding:0;border:0}
+.home-position p{margin:0;color:var(--muted)}
+.home-position .lead{font-size:1.04rem;color:var(--ink)}
+.home-logic{border-top:1px solid var(--rule);margin:1.35rem 0 2.2rem}
+.logic-row{display:grid;grid-template-columns:11rem minmax(0,1fr);gap:1.25rem;
+border-bottom:1px solid var(--rule);padding:.95rem 0}
+.logic-row b{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;
+letter-spacing:.11em;color:var(--faint);font-weight:500}
+.logic-row p{font-size:.94rem;color:var(--muted);margin:0}
+.logic-row strong{color:var(--ink);font-weight:600}
 .issue-main{min-width:0}
 .issue-rail{border-left:1px solid var(--rule);padding-left:1.25rem;color:var(--muted)}
 .issue-rail h2{margin:0 0 .75rem;padding:0;border:0}
@@ -518,7 +531,7 @@ footer.site a{color:var(--ink)}
 @media(max-width:48rem){.cards{grid-template-columns:1fr;column-gap:0}}
 @media(max-width:48rem){.context-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:48rem){
-.home-hero,.home-issue{grid-template-columns:1fr;gap:1.35rem}
+.home-hero,.home-issue,.home-position,.logic-row{grid-template-columns:1fr;gap:1.35rem}
 .home-kpis{max-width:none}
 .issue-rail{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:1rem}
 }
@@ -902,6 +915,78 @@ function homeKpis(e: Edition, lang: Lang): Html {
 </div>`;
 }
 
+function homePositioning(lang: Lang): Html {
+  const copy =
+    lang === "id"
+      ? {
+          audience: "Untuk siapa",
+          lead:
+            "Dibaca untuk memperkuat agenda strategis, alokasi modal, governance portofolio, dan kesiapan organisasi menghadapi perubahan yang mulai terlihat.",
+          body:
+            "DailyBrief ditujukan bagi pengambil kebijakan, CEO, CFO, COO, CHRO, CIO/CTO, dan pemimpin fungsi yang perlu membedakan sinyal material dari noise harian.",
+          logic: "Cara kerja radar",
+          rows: [
+            {
+              label: "Domain",
+              body:
+                "Lima sinyal dipilih dari tiga domain: <strong>AI dan model frontier</strong>, <strong>energi dan kelistrikan</strong>, serta <strong>strategi korporasi dan BUMN</strong>.",
+            },
+            {
+              label: "Implikasi",
+              body:
+                "Setiap sinyal dibaca sampai efek lanjutan: apa yang berubah, mengapa penting, dan konsekuensi apa yang perlu diperhatikan oleh pimpinan.",
+            },
+            {
+              label: "Akuntabilitas",
+              body:
+                "Sumber ditautkan agar pembaca dapat memeriksa dasar informasi, sementara area yang membutuhkan kehati-hatian ditandai melalui audit editorial.",
+            },
+          ],
+        }
+      : {
+          audience: "Who it is for",
+          lead:
+            "Read it to strengthen strategic agenda-setting, capital allocation, portfolio governance, and organisational readiness for change that is already visible.",
+          body:
+            "DailyBrief is built for policy leaders, CEOs, CFOs, COOs, CHROs, CIOs/CTOs, and functional executives who need to separate material signals from daily noise.",
+          logic: "How the radar works",
+          rows: [
+            {
+              label: "Domains",
+              body:
+                "Five signals are selected from three domains: <strong>AI and frontier models</strong>, <strong>energy and electricity</strong>, and <strong>corporate and SOE strategy</strong>.",
+            },
+            {
+              label: "Implication",
+              body:
+                "Each signal is read through its second-order effect: what changed, why it matters, and what consequence leaders should watch.",
+            },
+            {
+              label: "Accountability",
+              body:
+                "Sources are linked so readers can inspect the basis of the information, while areas requiring caution are handled through editorial review.",
+            },
+          ],
+        };
+
+  return html`<section class="home-position" aria-labelledby="home-audience">
+<h2 id="home-audience">${copy.audience}</h2>
+<div>
+<p class="lead">${copy.lead}</p>
+<p>${copy.body}</p>
+</div>
+</section>
+<section class="home-logic" aria-labelledby="home-logic">
+<h2 id="home-logic">${copy.logic}</h2>
+${copy.rows.map(
+  (row) => html`<div class="logic-row">
+<b>${row.label}</b>
+<p>${raw(row.body)}</p>
+</div>`,
+)}
+</section>`;
+}
+
 function issueRail(e: Edition, lang: Lang): Html {
   const copy =
     lang === "id"
@@ -1264,6 +1349,7 @@ ${e.dek && html`<p>${e.dek}</p>`}
 ${homeKpis(latest, lang)}
 </section>
 ${auditBlock(lang)}
+${homePositioning(lang)}
 ${decisionContextBlock(cfg, lang, latest.date, true)}
 
 <section class="home-issue">
@@ -1299,7 +1385,10 @@ ${cards.length > 0 && html`<h2>${s.allEditions}</h2>
   return page({
     cfg,
     lang,
-    title: `${cfg.siteName} | ${s.siteTagline.slice(0, 90)}`,
+    title:
+      lang === "id"
+        ? `${cfg.siteName} | Radar keputusan strategis harian`
+        : `${cfg.siteName} | Daily strategic decision radar`,
     description: s.siteTagline,
     path: homePath(lang),
     altPath: homePath(lang === "id" ? "en" : "id"),

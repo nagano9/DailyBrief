@@ -132,11 +132,11 @@ export const STRINGS: Record<Lang, Strings> = {
     aboutTitle: "Tentang radar ini",
     aboutLede: "Apa yang Anda baca, bagaimana ia disusun, dan aturan apa yang mengikat kami.",
     homeIntro:
-      "Lima sinyal setiap pagi dari tiga domain: AI dan model frontier, energi dan kelistrikan, strategi korporasi dan BUMN. Setiap sinyal wajib mengutip sumber yang bisa Anda periksa sendiri.",
+      "Radar keputusan strategis untuk pengambil kebijakan, CEO, CFO, dan pemimpin fungsi yang perlu membaca perubahan bisnis sebelum ia menjadi risiko portofolio.",
     cadence: "Terbit setiap pagi",
     aboutWhatTitle: "Apa ini",
     aboutWhatBody:
-      "Briefing harian untuk pembaca yang perlu tahu apa yang bergerak sebelum rapat dimulai. DailyBrief bukan agregator berita; ia menyajikan sedikit sinyal yang telah dipilih, disusun, dan diberi konteks agar pembaca dapat menangkap implikasi strategisnya dengan cepat.",
+      "Briefing harian untuk pembaca yang perlu memahami apa yang bergerak sebelum keputusan strategis dikunci. DailyBrief bukan agregator berita; ia menyajikan sedikit sinyal yang telah dipilih, disusun, dan diberi konteks agar pembaca dapat menangkap implikasi strategisnya dengan cepat.",
     aboutHowTitle: "Bagaimana ia disusun",
     aboutTiers: [
       {
@@ -164,7 +164,7 @@ export const STRINGS: Record<Lang, Strings> = {
       "DailyBrief adalah produk editorial yang dibantu AI. Otomasi dipakai sebagai alat bantu dalam alur kerja editorial, sementara standar akhir tetap ditentukan oleh akurasi, relevansi, kejelasan, dan akuntabilitas penerbit. Pembaca tetap dapat membuka sumber asli yang ditautkan di setiap edisi.",
     aboutLimitsTitle: "Batasnya",
     aboutLimitsBody:
-      "Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia ringkasan informasi publik untuk membantu Anda masuk ke rapat dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.",
+      "Ini bukan nasihat investasi, hukum, perpajakan, atau teknis. Ia analisis atas informasi publik untuk membantu pembaca menilai isu dengan konteks yang lebih baik. Sebagian kutipan melewati indeks berita alih-alih tautan langsung penerbit; yang seperti itu ditandai “via”.",
     contact: "Kontak",
     contactTitle: "Menghubungi kami",
     contactBody:
@@ -235,11 +235,11 @@ export const STRINGS: Record<Lang, Strings> = {
     aboutTitle: "About this radar",
     aboutLede: "What you are reading, how it is made, and the rules that bind us.",
     homeIntro:
-      "Five signals every morning across three domains: AI and frontier models, energy and electricity, corporate strategy and state-owned enterprises. Every signal must cite a source you can check yourself.",
+      "A strategic decision radar for policy leaders, CEOs, CFOs, and functional executives who need to read business change before it becomes portfolio risk.",
     cadence: "Published every morning",
     aboutWhatTitle: "What this is",
     aboutWhatBody:
-      "A daily brief for readers who need to know what moved before a meeting starts. DailyBrief is not a news aggregator; it presents a small number of selected signals with enough context for readers to understand their implications quickly.",
+      "A daily brief for readers who need to understand what moved before strategic decisions harden. DailyBrief is not a news aggregator; it presents a small number of selected signals with enough context for readers to understand their implications quickly.",
     aboutHowTitle: "How it is made",
     aboutTiers: [
       {
@@ -267,7 +267,7 @@ export const STRINGS: Record<Lang, Strings> = {
       "DailyBrief is an AI-assisted editorial product. Automation is used as an aid inside the editorial workflow, while the final standard remains accuracy, relevance, clarity, and publisher accountability. Readers can still open the original sources linked in every edition.",
     aboutLimitsTitle: "Its limits",
     aboutLimitsBody:
-      "This is not investment, legal, tax, or technical advice. It summarises public information to help you walk into a meeting better briefed. Some citations route through a news index rather than a direct publisher link; those are marked “via”.",
+      "This is not investment, legal, tax, or technical advice. It analyses public information to help readers assess issues with better context. Some citations route through a news index rather than a direct publisher link; those are marked “via”.",
     contact: "Contact",
     contactTitle: "Getting in touch",
     contactBody:
