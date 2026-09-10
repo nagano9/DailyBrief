@@ -66,6 +66,7 @@ jobs:
         env:
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           BRIEF_HOUR: ${{ vars.BRIEF_HOUR }}
+          LLM_BACKEND: ${{ vars.LLM_BACKEND }}
           EVENT_NAME: ${{ github.event_name }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -87,6 +88,22 @@ jobs:
               -H "X-GitHub-Api-Version: 2022-11-28" \
               "$CHECK_URL" || echo "000")
             if [ "$HTTP_CODE" = "404" ]; then
+              # DeepSeek charges double during weekday peak windows
+              # (01:00-04:00 and 06:00-10:00 UTC). The normal 06:00 WIB
+              # edition is off-peak; only catch-up runs need this guard.
+              UTC_DOW=$(date -u +%u)
+              UTC_HOUR=$(date -u +%-H)
+              BACKEND="${LLM_BACKEND:-anthropic}"
+              IN_DEEPSEEK_PEAK=false
+              if [ "$UTC_DOW" -ge 1 ] && [ "$UTC_DOW" -le 5 ]; then
+                if [ "$UTC_HOUR" -ge 1 ] && [ "$UTC_HOUR" -lt 4 ]; then IN_DEEPSEEK_PEAK=true; fi
+                if [ "$UTC_HOUR" -ge 6 ] && [ "$UTC_HOUR" -lt 10 ]; then IN_DEEPSEEK_PEAK=true; fi
+              fi
+              if [ "$BACKEND" = "deepseek" ] && [ "$IN_DEEPSEEK_PEAK" = "true" ]; then
+                echo "Catch-up needed, but DeepSeek is in peak pricing now (UTC hour ${UTC_HOUR}) — deferring"
+                echo "should-run=false" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
               echo "Catch-up: editions/${TODAY}/id.json is missing after ${WANT}:00 in ${TZ_VAL}"
               echo "should-run=true" >> "$GITHUB_OUTPUT"
             else
@@ -123,6 +140,7 @@ jobs:
         env:
           LLM_BACKEND: ${{ vars.LLM_BACKEND || 'anthropic' }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_MAX_TOKENS: ${{ vars.LLM_MAX_TOKENS }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

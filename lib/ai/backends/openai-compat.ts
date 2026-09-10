@@ -81,6 +81,7 @@ export async function runOpenAICompat(
   const started = Date.now();
   const inputChars = opts.systemPrompt.length + opts.userPrompt.length;
   const timeoutMs = opts.timeoutMs ?? 180_000;
+  const maxTokens = Number(process.env.LLM_MAX_TOKENS || 8192);
 
   try {
     const resp = await client.chat.completions.create(
@@ -96,7 +97,7 @@ export async function runOpenAICompat(
         // structure, and silent truncation made it through with just 1/16
         // entries parseable. 8192 covers all observed daily batches with
         // generous headroom. Match the explicit value Anthropic SDK uses.
-        max_tokens: 8192,
+        max_tokens: maxTokens,
         // Don't force JSON mode — not all OpenAI-compat providers support
         // response_format=json_object, and our prompts + jsonrepair already
         // handle the slop.
