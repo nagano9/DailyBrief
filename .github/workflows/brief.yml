@@ -140,7 +140,7 @@ jobs:
         env:
           LLM_BACKEND: ${{ vars.LLM_BACKEND || 'anthropic' }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
-          LLM_MAX_TOKENS: ${{ vars.LLM_MAX_TOKENS }}
+          LLM_MAX_TOKENS: ${{ vars.LLM_MAX_TOKENS || '24000' }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

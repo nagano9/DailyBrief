@@ -62,17 +62,23 @@ export async function runAnthropicCompat(
   const started = Date.now();
   const inputChars = opts.systemPrompt.length + opts.userPrompt.length;
   const timeoutMs = opts.timeoutMs ?? 180_000;
+  const maxTokens = Number(process.env.LLM_MAX_TOKENS || 24000);
 
   try {
     const resp = await client.messages.create(
       {
         model,
-        max_tokens: 8192,
+        max_tokens: maxTokens,
         system: opts.systemPrompt,
         messages: [{ role: "user", content: opts.userPrompt }],
       },
       { timeout: timeoutMs },
     );
+    if (resp.stop_reason === "max_tokens") {
+      throw new Error(
+        `${cfg.backend} output incomplete: stop_reason=max_tokens. Increase LLM_MAX_TOKENS or reduce prompt size.`,
+      );
+    }
     const text = resp.content
       .filter((block): block is Anthropic.TextBlock => block.type === "text")
       .map((block) => block.text)

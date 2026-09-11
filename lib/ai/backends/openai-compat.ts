@@ -81,7 +81,7 @@ export async function runOpenAICompat(
   const started = Date.now();
   const inputChars = opts.systemPrompt.length + opts.userPrompt.length;
   const timeoutMs = opts.timeoutMs ?? 180_000;
-  const maxTokens = Number(process.env.LLM_MAX_TOKENS || 8192);
+  const maxTokens = Number(process.env.LLM_MAX_TOKENS || 24000);
 
   try {
     const resp = await client.chat.completions.create(
@@ -95,8 +95,9 @@ export async function runOpenAICompat(
         // some MiniMax variants 2048). A 16-item batch enrichment routinely
         // exceeds 4K output tokens once you count Chinese chars + JSON
         // structure, and silent truncation made it through with just 1/16
-        // entries parseable. 8192 covers all observed daily batches with
-        // generous headroom. Match the explicit value Anthropic SDK uses.
+        // entries parseable. The default is intentionally roomy because the
+        // sites are scheduled in off-peak windows and quality wins over a
+        // quiet truncation.
         max_tokens: maxTokens,
         // Don't force JSON mode — not all OpenAI-compat providers support
         // response_format=json_object, and our prompts + jsonrepair already
@@ -104,6 +105,12 @@ export async function runOpenAICompat(
       },
       { timeout: timeoutMs },
     );
+    const finishReason = resp.choices[0]?.finish_reason;
+    if (finishReason && finishReason !== "stop") {
+      throw new Error(
+        `${cfg.backend} output incomplete: finish_reason=${finishReason}. Increase LLM_MAX_TOKENS or reduce prompt size.`,
+      );
+    }
     const text = (resp.choices[0]?.message?.content ?? "").trim();
     const durationMs = Date.now() - started;
     logLlmCall({
