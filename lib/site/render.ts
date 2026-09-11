@@ -146,6 +146,10 @@ export function trackerPath(lang: Lang): string {
   return lang === "id" ? "/tracker/" : "/en/tracker/";
 }
 
+export function workspacePath(lang: Lang): string {
+  return lang === "id" ? "/workspace/" : "/en/workspace/";
+}
+
 export function aboutPath(lang: Lang): string {
   return lang === "id" ? "/tentang/" : "/en/about/";
 }
@@ -782,6 +786,7 @@ ${mastheadStatus(lang, o.mastheadDate, o.mastheadSignalCount, o.mastheadLatest)}
 <a href="${url(cfg, archivePath(lang))}">${s.archive}</a>
 <a href="${url(cfg, topicIndexPath(lang))}">${lang === "id" ? "Tema" : "Topics"}</a>
 <a href="${url(cfg, trackerPath(lang))}">Tracker</a>
+<a href="${url(cfg, workspacePath(lang))}">${lang === "id" ? "Workspace" : "Workspace"}</a>
 <a href="${url(cfg, aboutPath(lang))}">${s.about}</a>
 <a href="${url(cfg, feedPath(lang))}">RSS</a>
 ${hasOther && html`<a href="${url(cfg, o.altPath ?? homePath(other))}">${s.otherLang}</a>`}
@@ -1659,6 +1664,132 @@ ${rows.map(
   });
 }
 
+export function renderDecisionWorkspace(cfg: SiteConfig, editions: Edition[], lang: Lang): string {
+  const title = lang === "id" ? "Decision Intelligence Workspace" : "Decision Intelligence Workspace";
+  const intro =
+    lang === "id"
+      ? "Lapisan kerja untuk mengubah arsip DailyBrief menjadi radar keputusan: isu yang bergerak, entitas yang perlu dipantau, konteks makro, dan kartu aksi untuk rapat eksekutif."
+      : "A working layer that turns the DailyBrief archive into a decision radar: moving issues, entities to watch, macro context, and action cards for executive discussion.";
+  const latest = editions[0];
+  const rows = trackerRows(editions).slice(0, 12);
+  const entities = new Map<string, { count: number; latest: Edition; domain: Domain }>();
+  for (const edition of editions) {
+    for (const signal of edition.signals) {
+      for (const name of signal.entities) {
+        const key = name.trim();
+        if (!key) continue;
+        const existing = entities.get(key);
+        if (!existing) {
+          entities.set(key, { count: 1, latest: edition, domain: signal.domain });
+        } else {
+          existing.count += 1;
+          if (edition.date > existing.latest.date) {
+            existing.latest = edition;
+            existing.domain = signal.domain;
+          }
+        }
+      }
+    }
+  }
+  const entityRows = [...entities.entries()]
+    .sort((a, b) => b[1].count - a[1].count || b[1].latest.date.localeCompare(a[1].latest.date))
+    .slice(0, 18);
+
+  const copy =
+    lang === "id"
+      ? {
+          latest: "Edisi terbaru",
+          read: "Baca edisi terbaru",
+          tracker: "Buka tracker",
+          sections: [
+            ["Signal Tracker", "Tema yang berulang dipisahkan dari sinyal baru agar pembaca melihat mana isu yang sudah menjadi pola."],
+            ["Entity Watchlist", "Nama institusi, perusahaan, regulator, dan tokoh yang sering muncul dikumpulkan sebagai daftar pantau."],
+            ["Macro & Policy Board", "Suku bunga, inflasi, kurs, energi, pasar modal, dan APBN menjadi konteks tetap sebelum membaca sinyal."],
+            ["Issue Memory", "Edisi lama tidak hilang; ia menjadi memori untuk membaca apakah suatu isu berubah, menguat, atau melemah."],
+            ["Brief-to-Action Card", "Setiap sinyal diterjemahkan menjadi pertanyaan keputusan, owner, horizon, dan trigger eskalasi."],
+          ],
+          entities: "Entity Watchlist",
+          themes: "Tema prioritas",
+          board: "Kartu aksi rapat",
+          action: "Ambil satu sinyal dari edisi terbaru, tulis keputusan yang harus dibuat, siapa owner-nya, horizon waktunya, dan indikator yang membuat isu perlu dieskalasi.",
+        }
+      : {
+          latest: "Latest edition",
+          read: "Read latest edition",
+          tracker: "Open tracker",
+          sections: [
+            ["Signal Tracker", "Recurring themes are separated from new signals so readers can see which issues have become patterns."],
+            ["Entity Watchlist", "Institutions, companies, regulators, and people mentioned often are grouped as a watchlist."],
+            ["Macro & Policy Board", "Rates, inflation, FX, energy, market risk, and fiscal room frame the signal before interpretation."],
+            ["Issue Memory", "Older editions become memory for reading whether an issue has changed, strengthened, or faded."],
+            ["Brief-to-Action Card", "Each signal becomes a decision question with owner, horizon, and escalation trigger."],
+          ],
+          entities: "Entity Watchlist",
+          themes: "Priority themes",
+          board: "Meeting action card",
+          action: "Take one signal from the latest edition, write the decision required, the owner, the time horizon, and the indicator that should trigger escalation.",
+        };
+
+  const body = html`<h1>${title}</h1>
+<p class="dek">${intro}</p>
+<p class="meta">
+${latest && html`<a href="${url(cfg, editionPath(latest.lang, latest.slug))}">${copy.read}</a><span class="arrow">·</span>`}
+<a href="${url(cfg, trackerPath(lang))}">${copy.tracker}</a>
+</p>
+
+<div class="topic-grid">
+${copy.sections.map(
+  ([name, body]) => html`<section class="topic-card">
+<h2>${name}</h2>
+<p>${body}</p>
+</section>`,
+)}
+</div>
+
+${decisionContextBlock(cfg, lang, latest?.date ?? new Date().toISOString().slice(0, 10))}
+
+<h2>${copy.themes}</h2>
+<table class="tracker-table">
+<thead><tr><th>Tema</th><th>Status</th><th>Domain</th><th>Terakhir</th></tr></thead>
+<tbody>
+${rows.map(
+  (row) => html`<tr>
+<td><a href="${url(cfg, editionPath(lang, row.latestEdition.slug))}">${row.headline}</a><div class="n">${row.key}</div></td>
+<td>${STRINGS[lang].trendStatus[row.status]}</td>
+<td>${DOMAIN_SHORT[lang][row.domain]}</td>
+<td>${formatDate(row.lastSeen, lang)}</td>
+</tr>`,
+)}
+</tbody>
+</table>
+
+<h2>${copy.entities}</h2>
+<div class="signal-list">
+${entityRows.map(
+  ([name, row]) => html`<article class="signal-row">
+<div class="d">${row.count}x<br>${DOMAIN_SHORT[lang][row.domain]}</div>
+<div><h3><a href="${url(cfg, editionPath(lang, row.latest.slug))}">${name}</a></h3>
+<p>${formatDate(row.latest.date, lang)}</p></div>
+</article>`,
+)}
+</div>
+
+<section class="premium-cta">
+<h2>${copy.board}</h2>
+<p>${copy.action}</p>
+</section>`;
+
+  return page({
+    cfg,
+    lang,
+    title: `${title} | ${cfg.siteName}`,
+    description: intro,
+    path: workspacePath(lang),
+    altPath: workspacePath(lang === "id" ? "en" : "id"),
+    body,
+  });
+}
+
 export function renderFeed(cfg: SiteConfig, editions: Edition[], lang: Lang): string {
   const s = STRINGS[lang];
   const items = editions.slice(0, 30).map((e) => {
@@ -1697,6 +1828,7 @@ export function renderSitemap(cfg: SiteConfig, editions: Edition[]): string {
     entries.push({ loc: absUrl(cfg, archivePath(lang)), lastmod: newest });
     entries.push({ loc: absUrl(cfg, topicIndexPath(lang)), lastmod: newest });
     entries.push({ loc: absUrl(cfg, trackerPath(lang)), lastmod: newest });
+    entries.push({ loc: absUrl(cfg, workspacePath(lang)), lastmod: newest });
     for (const d of ARCHIVE_DOMAINS) {
       entries.push({ loc: absUrl(cfg, archivePath(lang, d)), lastmod: newest });
       entries.push({ loc: absUrl(cfg, topicPath(lang, d)), lastmod: newest });

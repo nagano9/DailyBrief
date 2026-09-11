@@ -16,6 +16,7 @@ import {
   renderEdition,
   renderFeed,
   renderHome,
+  renderDecisionWorkspace,
   renderPremium,
   renderRobots,
   renderSignalTracker,
@@ -27,6 +28,7 @@ import {
   topicIndexPath,
   topicPath,
   trackerPath,
+  workspacePath,
 } from "../lib/site/render";
 import type { Edition, Lang } from "../lib/brief/types";
 
@@ -287,6 +289,7 @@ function main() {
     write(outFile(archivePath(lang)), renderArchive(cfg, editions, lang));
     write(outFile(topicIndexPath(lang)), renderTopicIndex(cfg, editions, lang));
     write(outFile(trackerPath(lang)), renderSignalTracker(cfg, editions, lang));
+    write(outFile(workspacePath(lang)), renderDecisionWorkspace(cfg, editions, lang));
     for (const d of ARCHIVE_DOMAINS) {
       write(outFile(archivePath(lang, d)), renderArchive(cfg, editions, lang, d));
       write(outFile(topicPath(lang, d)), renderTopicHub(cfg, editions, lang, d));
