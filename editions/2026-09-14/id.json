@@ -1,0 +1,386 @@
+{
+  "slug": "2026-09-14",
+  "date": "2026-09-14",
+  "lang": "id",
+  "title": "GPT-6 Astra Kendalikan Sistem Produksi; Anthropic Blokir Bioweapon",
+  "dek": "Agen AI memasuki infrastruktur produksi kritis hari ini, sementara laporan penyalahgunaan Anthropic mengonfirmasi ancaman bioweapon bukan lagi hipotetis.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "OpenAI mengumumkan bahwa Perplexity menggunakan GPT-6 Astra untuk menulis komunikasi, mengubah perangkat lunak, dan memantau sistem produksi secara otonom, sementara Cognition menggunakan model yang sama untuk pengujian perangkat lunak mandiri. Pada saat yang sama, Anthropic menerbitkan laporan September 2026 yang mengonfirmasi pemblokiran upaya nyata penggunaan Claude untuk riset senjata biologis, serangan siber Rusia, dan penyalahgunaan oleh aktor Tiongkok. Dua sinyal ini bersama-sama menandai bahwa agen AI telah melampaui fase pilot dan kini beroperasi di lapisan infrastruktur yang kritis dan rentan. Di sisi korporasi, Danantara membiayai proyek jangka panjang lewat Dana Dasar Masa Depan (DDMF), sementara emiten FORU mengajukan rights issue Rp27,1 triliun untuk berekspansi dari media ke tambang. Krisis BBM yang disorot IESR menunjukkan bahwa kegagalan tata kelola energi domestik sedang terjadi bersamaan dengan ambisi transisi energi skala besar.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Perplexity",
+        "Cognition",
+        "GPT-6 Astra",
+        "Devin"
+      ],
+      "headline": "GPT-6 Astra digunakan Perplexity untuk memantau dan mengubah sistem produksi secara otonom",
+      "whatChanged": "OpenAI mengumumkan bahwa Perplexity menggunakan GPT-6 Astra untuk menulis komunikasi, mengubah perangkat lunak, dan memantau sistem produksi, dengan frekuensi pemeriksaan manusia yang jauh lebih rendah dibanding model sebelumnya. Cognition juga menggunakan GPT-6 Astra untuk memungkinkan Devin menguji perangkat lunaknya sendiri, dengan tujuan mengurangi jumlah kode yang perlu ditinjau oleh insinyur manusia.",
+      "whyItMatters": "Ini melanjutkan tema enterprise-ai-data-privacy-contracts yang telah tercatat 19 kali sejak 20 Agustus 2026. Akumulasi sinyalnya kini bergeser: agen AI tidak lagi diuji dalam lingkungan terkendali, melainkan diberi wewenang eksekusi atas sistem produksi nyata. Kontrak antara vendor AI dan perusahaan kini mencakup akses ke infrastruktur operasional, bukan hanya data atau antarmuka pengguna.",
+      "secondOrder": "Ketika agen AI memiliki akses tulis ke sistem produksi dengan pengawasan manusia yang lebih sedikit, pertanggungjawaban atas kesalahan eksekusi menjadi ambigu secara kontraktual dan regulatif. Insurer teknologi dan tim hukum perusahaan belum memiliki kerangka standar untuk mengalokasikan risiko antara vendor model, operator agen, dan perusahaan pengguna akhir. Ini akan mendorong tekanan regulasi baru di jurisdiksi yang memiliki rezim pertanggungjawaban produk yang kuat.",
+      "action": "Tim hukum dan pengadaan teknologi: tinjau ulang klausul pertanggungjawaban dalam kontrak AI yang aktif minggu ini, khususnya untuk akses agen ke sistem produksi. Identifikasi apakah kontrak saat ini mendefinisikan batas wewenang eksekusi agen dan siapa yang menanggung kerugian akibat tindakan agen otonom. Output: matriks eksposur kontraktual dengan rekomendasi amendemen.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "https://openai.com/index/cognition-devin-testing-with-astra"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-20",
+        "spanDays": 25
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Reuters",
+        "BBC"
+      ],
+      "headline": "Anthropic konfirmasi pemblokiran upaya nyata riset bioweapon dan serangan siber via Claude",
+      "whatChanged": "Anthropic menerbitkan laporan deteksi penyalahgunaan edisi September 2026, mengonfirmasi bahwa pihaknya memblokir upaya yang diduga terkait riset senjata biologis, operasi peretasan Rusia, dan penyalahgunaan Claude oleh aktor yang berkaitan dengan Tiongkok. Reuters dan BBC keduanya mengonfirmasi laporan ini berdasarkan pengumuman langsung Anthropic.",
+      "whyItMatters": "Ini melanjutkan tema ai-model-safety-frontier yang tercatat 4 kali sejak 3 September 2026. Laporan ini mengubah status ancaman dari teoretis menjadi terverifikasi: aktor negara dan non-negara telah mencoba menggunakan model frontier untuk senjata biologis dan operasi siber ofensif. Anthropic adalah lab AI pertama yang mempublikasikan laporan penyalahgunaan dengan atribusi spesifik pada level ancaman ini.",
+      "secondOrder": "Publikasi laporan dengan atribusi spesifik menciptakan preseden bagi regulator untuk menuntut transparansi serupa dari semua lab frontier. Bila ini menjadi standar industri, lab yang tidak mempublikasikan laporan sejenis akan menghadapi tekanan regulatif dan reputasional. Di sisi lain, detail teknis dalam laporan ini dapat dimanfaatkan aktor jahat untuk menyempurnakan serangan yang menghindari mekanisme deteksi yang terungkap.",
+      "action": "Tim keamanan siber dan kebijakan: baca laporan Anthropic September 2026 secara utuh minggu ini. Petakan vektor serangan yang diungkap terhadap permukaan risiko organisasi Anda, khususnya untuk sistem yang mengintegrasikan model AI eksternal. Buat ringkasan satu halaman untuk disampaikan ke komite risiko pada siklus rapat berikutnya.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUlpORllxa2oyR0lQcWRNaXQwTXd5LThFQTQ3bXFJdlQzUWRBZ2RYMjlmWm55R0gtd255dzltb2dEa3hlaHlJc0hNVG1GaWhkSDBXa3hRbVNiVkZ3XzZsbzY5ZE8wQ1pfR0w4TERlczNHbm5YaVI0QmN5TnJLWmVNRmsxMkxmcnFlTDg1QVdhSHJ0Vm5SUWsyWHFCU0JpdXNYcFhpWjBuQWVFTTZ2V1J1Ym82aExqdGJmVE9VNm5zR0xrUmtkSkNn?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrcXFPTUpsT2dQTWp5eWtOTE9ZQ3BycXlHc0V6cDZoelBXRUhCTmZwM0U4dGV2SGtNUFZFeDhuTTRMR0p5NG91bUdUS0t2M1E3Tzk2OTBER3A3Zw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 5,
+        "firstSeen": "2026-09-03",
+        "spanDays": 11
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "DDMF",
+        "CNBC Indonesia",
+        "OJK"
+      ],
+      "headline": "Danantara luncurkan DDMF untuk pembiayaan proyek jangka panjang di tengah target restrukturisasi akhir 2026",
+      "whatChanged": "CNBC Indonesia melaporkan bahwa Danantara membiayai proyek jangka panjang melalui Dana Dasar Masa Depan (DDMF). Ini berlangsung bersamaan dengan target restrukturisasi BUMN Karya yang ditetapkan rampung akhir 2026, sebagaimana dilaporkan Bloomberg Technoz pada Agustus 2026. Danantara Housing Expo 2026 sebelumnya mencatat nilai proyek Rp2 triliun.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring telah tercatat 21 kali sejak 19 Agustus 2026 dan berstatus struktural. DDMF menunjukkan bahwa Danantara sedang membangun mekanisme pembiayaan jangka panjang yang terpisah dari neraca BUMN individual, yang dapat mengubah cara proyek infrastruktur berskala besar distrukturisasi dan didanai. Ini membuka pertanyaan tentang hubungan DDMF dengan instrumen Patriot Bond yang sebelumnya dilaporkan terdaftar di OJK.",
+      "secondOrder": "Bila DDMF berhasil menarik komitmen modal institusional, Danantara akan memiliki jalur pembiayaan yang lebih independen dari tekanan fiskal APBN dan tidak sepenuhnya bergantung pada setoran dividen BUMN. Ini dapat mengubah dinamika negosiasi antara Danantara dan Kementerian Keuangan terkait kewajiban setoran Rp120 triliun yang sebelumnya menjadi sengketa.",
+      "action": "Analis keuangan dan tim investasi: verifikasi struktur hukum dan regulatif DDMF minggu ini, termasuk apakah DDMF terdaftar sebagai reksa dana, instrumen investasi kolektif, atau entitas lain yang diawasi OJK. Bandingkan dengan Patriot Bond untuk memetakan eksposur investor dan risiko subordinasi antar instrumen.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0tlMXlxa1FqVy1oUHRRcTc5UUdpM1VneEdrQ3E5RmVsWU5fWlRRcFk2cWxsSTBSbi0ybGNTN2Rkc3ZnNXg2NzFWVlZ6cGpyNzV3NFJnc0NDWTQ1YTRLcVNiMTkwUW9EVncxWldiZzBibHc0eV9FQzZZRDdPYV94Ml9HQncwUmZNbW9FeUg5YTNQNndBSU93b0thWE5zV0xkTzlCcFg5MmMtdjNxSXdfVVEwdllpWFFLazdwaHNZTVBTbjNyQUE?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+        "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 22,
+        "firstSeen": "2026-08-19",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "IESR",
+        "Bloomberg Technoz"
+      ],
+      "headline": "Kekeringan Kalimantan ancam suplai batu bara ke PLN; krisis BBM dikritik IESR sebagai kegagalan tata kelola",
+      "whatChanged": "Bloomberg Technoz melaporkan pada 11 September 2026 bahwa kekeringan di Kalimantan mendorong Kementerian ESDM mengantisipasi gangguan suplai batu bara ke PLN. IESR pada 13 September 2026 menyatakan bahwa krisis BBM di wilayah terdampak merupakan bukti kegagalan tata kelola dan mendesak pemerintah memulihkan pasokan dalam 7 hingga 10 hari serta mereformasi subsidi. Pembangkit Kalteng juga dilaporkan mengalami gangguan yang memicu potensi pemadaman bergilir di Kotim.",
+      "whyItMatters": "Dua gangguan suplai energi yang terjadi bersamaan, yaitu batu bara untuk listrik dan BBM untuk transportasi serta industri, mengindikasikan bahwa sistem energi Indonesia sedang menghadapi tekanan ganda dari El Nino dan kelemahan struktural tata kelola distribusi. Ini bukan anomali tunggal melainkan pola yang berulang, dan terjadi pada saat pemerintah sedang mendorong program PLTS 100 GWp yang membutuhkan kepercayaan investor atas keandalan sistem.",
+      "secondOrder": "Gangguan suplai batu bara akibat kekeringan akan memperlambat depresiasi aset pembangkit batu bara yang sudah ada karena PLN terpaksa mempertahankan kapasitas cadangan yang lebih besar. Ini akan mempersulit negosiasi early retirement pembangkit batu bara dalam kerangka transisi energi, karena argumen keandalan menjadi lebih kuat di hadapan regulator dan pemberi pinjaman.",
+      "action": "Tim perencanaan energi dan portofolio pembangkit: kaji ulang asumsi dispatch dan keandalan pasokan bahan bakar dalam model keuangan proyek pembangkit yang sedang dalam proses financial close. Tambahkan skenario stres kekeringan Kalimantan dengan durasi tiga bulan dan hitung dampaknya terhadap coverage ratio pinjaman proyek yang bersumber dari batu bara.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNEYxVXczd0pnNkNmY3M2TFZYRlBBY282OENqRW9FNzYwaUdxT1FpVU1Pa1I3X1BycF9XZ3IzZjhJNjl4ZzN3NGNrWm5ELU9mLVk3LUZWYWh6UExJWVRXVzZpWXNsTTdGSmhCU2xZVWFsSzhRRHg4bnJoOEVMdFVfdnpKVUFQQ084NTFTUTRHeXgxS28wbDdTbEpkbHNNc3ZUaEZuNFRMOHdQYUh6LWRaV25kYS1sVUk?oc=5",
+        "https://iesr.or.id/krisis-bbm-bukti-kegagalan-tata-kelola-iesr-desak-pemerintah-pulihkan-pasokan-dan-reformasi-subsidi/",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcmlxaThBQnA3elBqaGFiM2VZeGtPVjdkdTV6TWdRUnMtbFFzUnJsNDhjZkc4OXE0Q3ctX2VwSVV4MUx3VXhfSDIxSTFGeVpydFBtVTc2djczazNvVHZBblhSVnNBR0M2RnhsLTFwNmgzdURGSk9tZlpyX1lkNGRjNUp3MGtldmhWbHhONndJNXpyajBEaFBiajJRYlNGNXVTUEpZUEhSbGQ3b0pac25YZU5wcGlZRUYzOHVYYXhyVWXSAcYBQVVfeXFMTUVKbUtSS1RxanZTYmNIekpJa0ZuZnBOd3J5QlZOQ1IxZHhLOFJSa0szd2xkR2NOdExITDFweEM4TWZVemprcEFTMEJnZEE5RjFhRUxoazRxNl9wOVpqeFJEZzJ3YzVIOUpnU2FGcEsyOURoRHRoODJlUTZqd1VvbnBjTS11XzNmRFRSUXlvUzZXM2k3U2xvMHJ1am9YV2lQc1d6UHEtRzhPV1cyb3ByYmNZcXR1dUg2U3MzUUdCU1JIVnNkd3pB?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-22",
+        "spanDays": 23
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "FORU",
+        "OJK",
+        "Bloomberg Technoz",
+        "CNBC Indonesia"
+      ],
+      "headline": "FORU rights issue Rp27,1 triliun: diversifikasi dari media ke tambang menguji batas regulasi OJK",
+      "whatChanged": "Bloomberg Technoz dan CNBC Indonesia melaporkan pada 14 September 2026 bahwa emiten FORU mengajukan rights issue senilai Rp27,1 triliun dengan harga tebus Rp126 per saham, dengan rencana ekspansi dari sektor media ke tambang. Investor.id mengonfirmasi detail harga dan skala transaksi.",
+      "whyItMatters": "Rights issue sebesar Rp27,1 triliun dari entitas yang bergerak dari media ke tambang merupakan salah satu transaksi ekuitas terbesar di bursa Indonesia dalam siklus ini. Perubahan bisnis inti yang radikal melalui mekanisme rights issue menguji apakah regulator OJK akan memberlakukan standar prospektus dan keterbukaan informasi yang setara dengan Initial Public Offering untuk perubahan model bisnis fundamental.",
+      "secondOrder": "Bila OJK mengizinkan perubahan bisnis inti yang radikal melalui rights issue tanpa persyaratan keterbukaan setara IPO, maka instrumen ini dapat menjadi jalur alternatif bagi konglomerat untuk mengakuisisi izin tambang di bawah ambang pengawasan yang lebih rendah. Ini berpotensi mendistorsi pasar modal dan mengurangi perlindungan investor ritel yang berpartisipasi tanpa informasi material yang memadai.",
+      "action": "Tim riset investasi dan kepatuhan: periksa prospektus FORU minggu ini untuk memverifikasi apakah keterbukaan penggunaan dana dan analisis risiko perubahan bisnis memenuhi standar POJK yang berlaku. Identifikasi apakah ada afiliasi dengan entitas BUMN atau Danantara yang dapat menimbulkan konflik kepentingan dalam transaksi ini.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3dYdXZpRjRTZU5DU1ItbnNGczlFQWhpUVlLa3RMaXhiQkJjSUJ6RnA5b1JsUHA2WE9uanh3U3plaE5UaW9QY1lVNHhmQVhLc2JLaFhVUlo4NlkwcmhMVkRreHdadW5jUkhnanFPRW43aVJRY1ZROWJtYmJKamRqaFVhZlFINkVGdHJkLXNnaXVfcHlsVEFydmlMZEJwUjQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbEZxRWJWSXoyUUxib2tDb09ERWxianJtYkR2cEQ4QXUySW14OGNJdHZaVWdMUFEwVGxnSTRVZjdkNkhGVFg5eklYQmpqejFnMWQzaU9lOGFmY2UtVWM2aVJLcW1za3hvd1dDMS1QTF92d0JiRXZLRU9obkJVeXJWSHNtUGRNdDRIcTdSeDMzV0RWZXUxVm1wYXFXZUszV01XRy16UGRPUlNZYVBUZDJHcEVWR05DdDFDSVRSQTZpR2_SAcYBQVVfeXFMTUtqemY1N0hObUM4VVB3UTJ2aVh1X1N6VXJJME5vbmpWdWptRU9RbGdzM2FEZjJBaFcyYzdseDdHdm9QTWlmT1lCSWtPVlZVNzRvZXphWVhCTzlsekZCLUtuQU1TeTNySmNkTk5CSk14SWpWd1lPV2hGM09CLVRVS29McFJTcFA0MTBfdjdoNlhndWl6LTVvV3lTMEUwelQ5TU9USkhSN2xJOEhDVnhCY2xYMEtRWThqejVnQnk4UG9IaGIzM1Vn?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZEFFVGZWTjQ3U3c0VFlTRk5XVHJndXpIRjRXeGJOdWNLWkxrTG5tZHVXOWNJcURuTTJDNXVwMENhVjdGYnAzMzR6bWQzT2Y0cm4tM0VyR3hVWlFUdmZ6c2lySkpSS2V1cjlrYS1kTFJVbjNMNUZLRW1QblFkYi1MZGcxNm03UEtXTUhVOXBGZWJyX3Z6?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 22,
+        "firstSeen": "2026-08-19",
+        "spanDays": 26
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Publikasi detail struktur hukum dan regulatif DDMF Danantara serta hubungannya dengan Patriot Bond yang terdaftar di OJK",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Respons OJK terhadap prospektus rights issue FORU Rp27,1 triliun: apakah ada permintaan keterbukaan tambahan untuk perubahan bisnis inti dari media ke tambang",
+      "dueDate": "2026-09-28"
+    },
+    {
+      "item": "Pemulihan suplai BBM di wilayah terdampak dalam batas waktu 7-10 hari yang didesak IESR, dan apakah Kementerian ESDM menerbitkan kebijakan reformasi subsidi",
+      "dueDate": "2026-09-23"
+    },
+    {
+      "item": "Laporan penyalahgunaan AI dari OpenAI atau Google DeepMind yang setara dengan laporan Anthropic September 2026, yang akan menentukan apakah transparansi ini menjadi standar industri",
+      "dueDate": "2026-10-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Krisis BBM Bukti Kegagalan Tata Kelola: IESR Desak Pemerintah Pulihkan Pasokan dan Reformasi Subsidi",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/krisis-bbm-bukti-kegagalan-tata-kelola-iesr-desak-pemerintah-pulihkan-pasokan-dan-reformasi-subsidi/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-13T07:24:06.000Z"
+    },
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-14T00:00:00.000Z"
+    },
+    {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-10T17:10:27.000Z"
+    },
+    {
+      "title": "Pembangkit Kalteng Gangguan, Warga Kotim Siap-siap Kena Pemadaman Bergilir",
+      "publisher": "detikcom",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcmlxaThBQnA3elBqaGFiM2VZeGtPVjdkdTV6TWdRUnMtbFFzUnJsNDhjZkc4OXE0Q3ctX2VwSVV4MUx3VXhfSDIxSTFGeVpydFBtVTc2djczazNvVHZBblhSVnNBR0M2RnhsLTFwNmgzdURGSk9tZlpyX1lkNGRjNUp3MGtldmhWbHhONndJNXpyajBEaFBiajJRYlNGNXVTUEpZUEhSbGQ3b0pac25YZU5wcGlZRUYzOHVYYXhyVWXSAcYBQVVfeXFMTUVKbUtSS1RxanZTYmNIekpJa0ZuZnBOd3J5QlZOQ1IxZHhLOFJSa0szd2xkR2NOdExITDFweEM4TWZVemprcEFTMEJnZEE5RjFhRUxoazRxNl9wOVpqeFJEZzJ3YzVIOUpnU2FGcEsyOURoRHRoODJlUTZqd1VvbnBjTS11XzNmRFRSUXlvUzZXM2k3U2xvMHJ1am9YV2lQc1d6UHEtRzhPV1cyb3ByYmNZcXR1dUg2U3MzUUdCU1JIVnNkd3pB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-13T10:00:18.000Z"
+    },
+    {
+      "title": "Emiten RI Ini Mau Rights Issue Jumbo, Cari Duit Rp27,10 Triliun",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbEZxRWJWSXoyUUxib2tDb09ERWxianJtYkR2cEQ4QXUySW14OGNJdHZaVWdMUFEwVGxnSTRVZjdkNkhGVFg5eklYQmpqejFnMWQzaU9lOGFmY2UtVWM2aVJLcW1za3hvd1dDMS1QTF92d0JiRXZLRU9obkJVeXJWSHNtUGRNdDRIcTdSeDMzV0RWZXUxVm1wYXFXZUszV01XRy16UGRPUlNZYVBUZDJHcEVWR05DdDFDSVRSQTZpR2_SAcYBQVVfeXFMTUtqemY1N0hObUM4VVB3UTJ2aVh1X1N6VXJJME5vbmpWdWptRU9RbGdzM2FEZjJBaFcyYzdseDdHdm9QTWlmT1lCSWtPVlZVNzRvZXphWVhCTzlsekZCLUtuQU1TeTNySmNkTk5CSk14SWpWd1lPV2hGM09CLVRVS29McFJTcFA0MTBfdjdoNlhndWl6LTVvV3lTMEUwelQ5TU9USkhSN2xJOEhDVnhCY2xYMEtRWThqejVnQnk4UG9IaGIzM1Vn?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T03:25:52.000Z"
+    },
+    {
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-11T16:00:00.000Z"
+    },
+    {
+      "title": "Anthropic disrupts bioweapons research efforts, Russian hacking, Chinese Claude misuse",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUlpORllxa2oyR0lQcWRNaXQwTXd5LThFQTQ3bXFJdlQzUWRBZ2RYMjlmWm55R0gtd255dzltb2dEa3hlaHlJc0hNVG1GaWhkSDBXa3hRbVNiVkZ3XzZsbzY5ZE8wQ1pfR0w4TERlczNHbm5YaVI0QmN5TnJLWmVNRmsxMkxmcnFlTDg1QVdhSHJ0Vm5SUWsyWHFCU0JpdXNYcFhpWjBuQWVFTTZ2V1J1Ym82aExqdGJmVE9VNm5zR0xrUmtkSkNn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-11T11:12:12.000Z"
+    },
+    {
+      "title": "Dari Media ke Tambang, FORU Rights Issue Rp27 T",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3dYdXZpRjRTZU5DU1ItbnNGczlFQWhpUVlLa3RMaXhiQkJjSUJ6RnA5b1JsUHA2WE9uanh3U3plaE5UaW9QY1lVNHhmQVhLc2JLaFhVUlo4NlkwcmhMVkRreHdadW5jUkhnanFPRW43aVJRY1ZROWJtYmJKamRqaFVhZlFINkVGdHJkLXNnaXVfcHlsVEFydmlMZEJwUjQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T03:17:14.000Z"
+    },
+    {
+      "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
+      "publisher": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrcXFPTUpsT2dQTWp5eWtOTE9ZQ3BycXlHc0V6cDZoelBXRUhCTmZwM0U4dGV2SGtNUFZFeDhuTTRMR0p5NG91bUdUS0t2M1E3Tzk2OTBER3A3Zw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-11T08:15:25.000Z"
+    },
+    {
+      "title": "Kekeringan di Kalimantan, ESDM Antisipasi Suplai Batu Bara ke PLN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNEYxVXczd0pnNkNmY3M2TFZYRlBBY282OENqRW9FNzYwaUdxT1FpVU1Pa1I3X1BycF9XZ3IzZjhJNjl4ZzN3NGNrWm5ELU9mLVk3LUZWYWh6UExJWVRXVzZpWXNsTTdGSmhCU2xZVWFsSzhRRHg4bnJoOEVMdFVfdnpKVUFQQ084NTFTUTRHeXgxS28wbDdTbEpkbHNNc3ZUaEZuNFRMOHdQYUh6LWRaV25kYS1sVUk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-11T05:30:00.000Z"
+    },
+    {
+      "title": "Ada Rights Issue Rp 27 Triliun, Tebus per Sahamnya Rp 126",
+      "publisher": "investor.id",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZEFFVGZWTjQ3U3c0VFlTRk5XVHJndXpIRjRXeGJOdWNLWkxrTG5tZHVXOWNJcURuTTJDNXVwMENhVjdGYnAzMzR6bWQzT2Y0cm4tM0VyR3hVWlFUdmZ6c2lySkpSS2V1cjlrYS1kTFJVbjNMNUZLRW1QblFkYi1MZGcxNm03UEtXTUhVOXBGZWJyX3Z6?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T01:56:58.000Z"
+    },
+    {
+      "title": "Kata OJK soal Penerbitan Panda Bond dan Patriot Bond",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-01T08:07:27.000Z"
+    },
+    {
+      "title": "Video:Danantara Biayai Proyek Jangka Panjang Lewat DDMF, Ini Targetnya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0tlMXlxa1FqVy1oUHRRcTc5UUdpM1VneEdrQ3E5RmVsWU5fWlRRcFk2cWxsSTBSbi0ybGNTN2Rkc3ZnNXg2NzFWVlZ6cGpyNzV3NFJnc0NDWTQ1YTRLcVNiMTkwUW9EVncxWldiZzBibHc0eV9FQzZZRDdPYV94Ml9HQncwUmZNbW9FeUg5YTNQNndBSU93b0thWE5zV0xkTzlCcFg5MmMtdjNxSXdfVVEwdllpWFFLazdwaHNZTVBTbjNyQUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-13T04:00:25.000Z"
+    },
+    {
+      "title": "Danantara Kejar Restrukturisasi BUMN Karya Rampung Akhir 2026",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29BbmZYUXJ2RVNJZngxYkpVaHo1bTRUczc0ZjRyTDdpNk9QWDJ4cVlVajBiNUhpMURWcmRONUFoNlVRTmR6SngwdGhfU1Q3Yno4dGphTWtTT3A1X1JFcm9MV3R1YjZPRlR5cl9ZRE5Oa2prNlFNVG45Y1pCZU1VS0RzX0R4U0xLeXREaVlTa1RRS0tzbmRHR0dpRV9IdEppLV9ubW9YYjZmeEU1NE9wMWtEaw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-08-18T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Sengketa Purbaya-Danantara soal setoran Rp120 triliun memasuki babak eksplisit",
+      "occurrences": 21,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Microsoft menargetkan 38 GW kapasitas pusat data pada 2032, setara tiga kali lipat posisi saat ini",
+      "occurrences": 21,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI luncurkan ChatGPT for Financial Services dengan GPT-6 Astra dan data keuangan terintegrasi",
+      "occurrences": 19,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Malaysia data centres reach 9.28% of national electricity consumption, establishing a regional benchmark for Indonesia grid planning",
+      "occurrences": 19,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "India wajibkan penyimpanan co-located untuk semua proyek surya dan angin baru",
+      "occurrences": 14,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 344,
+    "poolSize": 110,
+    "generatedAt": "2026-09-14T04:37:53.492Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
