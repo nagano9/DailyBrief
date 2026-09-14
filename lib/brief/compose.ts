@@ -62,7 +62,7 @@ const MAX_UNVERIFIED = Number(process.env.BRIEF_MAX_UNVERIFIED ?? 1);
 const REQUIRED_SIGNALS = 5;
 /** Publish with fewer than this many valid signals and the briefing is thin. */
 const MIN_SIGNALS = Number(process.env.BRIEF_MIN_SIGNALS ?? 3);
-const MAX_COMPOSE_ATTEMPTS = 2;
+const MAX_COMPOSE_ATTEMPTS = 4;
 
 export interface ComposeResult {
   edition: Edition;
@@ -215,7 +215,7 @@ function styleRetryHint(lang: Lang, reason: string): string {
   if (lang === "en") {
     return `\n\nSTYLE REPAIR REQUIRED:\nThe previous draft failed validation: ${reason}.\nRewrite the entire JSON object. Do not use em dashes, arrows, generic openings, not-just/not-only frames, or boilerplate labels. Keep every field concrete and source-grounded.`;
   }
-  return `\n\nPERBAIKAN GAYA WAJIB:\nDraft sebelumnya gagal validasi: ${reason}.\nTulis ulang seluruh objek JSON. Jangan memakai em dash, tanda panah, pembuka generik, pola bukan-sekadar/tidak-hanya, atau label boilerplate. Pastikan setiap field konkret dan berbasis sumber.`;
+  return `\n\nPERBAIKAN GAYA WAJIB:\nDraft sebelumnya gagal validasi: ${reason}.\nTulis ulang seluruh objek JSON. Jangan memakai em dash, tanda panah, pembuka generik, pola bukan-sekadar/tidak-hanya, atau label boilerplate. Field action tidak boleh dibuka dengan "ke depan", "apa artinya", "mengapa penting", "implikasinya", "tindak lanjut", atau label sejenis. Langsung tulis tindakan konkret: owner, horizon, output, dan trigger. Pastikan setiap field konkret dan berbasis sumber.`;
 }
 
 const STRENGTHS = new Set<SignalStrength>(["material", "emerging", "actionable"]);
@@ -589,7 +589,7 @@ export async function composeEdition(
       lastError = e;
       const retryable = e instanceof StyleViolationError || e instanceof FactAuditError;
       if (!retryable || attempt === MAX_COMPOSE_ATTEMPTS) throw e;
-      console.warn(`[compose] ${lang}: validation failed, retrying once — ${(e as Error).message}`);
+      console.warn(`[compose] ${lang}: validation failed, retrying attempt ${attempt + 1}/${MAX_COMPOSE_ATTEMPTS} — ${(e as Error).message}`);
     }
   }
 

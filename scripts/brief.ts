@@ -172,9 +172,11 @@ async function main() {
   }
 
   if (failed.length > 0) {
-    console.warn(
-      `[brief] ${failed.length} language(s) omitted after audit failure: ` +
-        failed.map((f) => f.lang).join(", "),
+    const detail = failed
+      .map(({ lang, error }) => `${lang}: ${error instanceof Error ? error.message : String(error)}`)
+      .join("; ");
+    throw new Error(
+      `some requested languages failed audit — refusing partial publish (${detail})`,
     );
   }
 
