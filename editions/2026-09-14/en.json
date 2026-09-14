@@ -1,0 +1,348 @@
+{
+  "slug": "2026-09-14",
+  "date": "2026-09-14",
+  "lang": "en",
+  "title": "GPT-6 Astra in Production; Anthropic Blocks Bioweapons; Indonesia Fuel Crisis",
+  "dek": "Frontier AI agents are crossing from pilot to production infrastructure while Indonesia faces simultaneous fuel governance failure and coal supply stress, compressing the timeline for both AI and energy decisions.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI's GPT-6 Astra is now embedded in Perplexity's production systems and Cognition's Devin with reduced human oversight, marking a qualitative shift from assistant to autonomous operator. Anthropic's September 2026 misuse report confirms state-linked actors are actively probing Claude for bioweapons and cyberattack capability, raising the cost of deploying frontier models without enterprise-grade access controls. In Indonesia, IESR has declared the current fuel shortage a governance failure rather than a supply shock, calling for structural subsidy reform within days. Separately, El Niño-driven drought in Kalimantan is threatening coal deliveries to PLN thermal plants, adding a supply-side constraint on top of existing grid stress. Danantara's Danantara Direct Market Facility (DDMF) is emerging as the state investment vehicle's primary long-term project financing channel, a structural development for any counterparty engaging with Indonesian SOE capital.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Perplexity",
+        "GPT-6 Astra",
+        "Cognition",
+        "Devin"
+      ],
+      "headline": "Perplexity deploys GPT-6 Astra end-to-end: writes comms, edits code, monitors production with reduced human review",
+      "whatChanged": "OpenAI confirmed that Perplexity has granted GPT-6 Astra authority to write communications, modify software, and monitor production systems, with human check-in frequency materially lower than with earlier models. Cognition's Devin separately uses GPT-6 Astra to run its own software tests, with the stated goal of reducing engineer code-review load.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts thread and advances it to a new stage: the model is no longer a tool that engineers invoke but an autonomous operator with persistent access to production infrastructure. The trust boundary has moved from the prompt to the deployment contract.",
+      "secondOrder": "When an AI agent holds standing write-access to production systems, the relevant risk framework shifts from model safety to operational resilience and liability allocation. Vendors, customers, and insurers will need to define who owns an outage or data breach caused by an agent action, a contractual gap that existing enterprise software agreements do not cover. Procurement and legal teams that approved ChatGPT as a productivity tool have not approved it as a production operator.",
+      "action": "Audit any enterprise AI deployment contract this week for clauses covering agent-initiated system changes: confirm whether human-in-the-loop requirements, rollback rights, and liability caps apply specifically to agentic actions, not only to model outputs.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "https://openai.com/index/cognition-devin-testing-with-astra"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-20",
+        "spanDays": 25
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Reuters",
+        "BBC"
+      ],
+      "headline": "Anthropic's September report confirms blocked bioweapons query and Russian and Chinese state-linked Claude misuse",
+      "whatChanged": "Anthropic's September 2026 misuse detection report, corroborated by Reuters and BBC coverage, documents that Claude was used in what Anthropic describes as a possible bioweapons research attempt, as well as in Russian hacking operations and Chinese-linked misuse campaigns. Anthropic states it detected and disrupted these efforts.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread. The report shifts the public record from hypothetical misuse to confirmed, named threat categories with state-linked attribution. Anthropic is the first frontier lab to publish this level of operational detail, creating a disclosure precedent that regulators and enterprise buyers will reference.",
+      "secondOrder": "Disclosure of confirmed state-linked misuse accelerates regulatory pressure on all frontier labs to publish similar reports, whether or not they have comparable detection capability. Labs without published misuse-detection programs will face implicit questions about what they are not finding. Enterprise procurement teams will begin treating published misuse reports as a due-diligence input, advantaging labs that publish over those that do not, regardless of underlying safety quality.",
+      "action": "Request misuse-detection and incident-response documentation from any frontier AI vendor under evaluation; treat absence of such documentation as a procurement risk factor, not merely a transparency gap.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUlpORllxa2oyR0lQcWRNaXQwTXd5LThFQTQ3bXFJdlQzUWRBZ2RYMjlmWm55R0gtd255dzltb2dEa3hlaHlJc0hNVG1GaWhkSDBXa3hRbVNiVkZ3XzZsbzY5ZE8wQ1pfR0w4TERlczNHbm5YaVI0QmN5TnJLWmVNRmsxMkxmcnFlTDg1QVdhSHJ0Vm5SUWsyWHFCU0JpdXNYcFhpWjBuQWVFTTZ2V1J1Ym82aExqdGJmVE9VNm5zR0xrUmtkSkNn?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrcXFPTUpsT2dQTWp5eWtOTE9ZQ3BycXlHc0V6cDZoelBXRUhCTmZwM0U4dGV2SGtNUFZFeDhuTTRMR0p5NG91bUdUS0t2M1E3Tzk2OTBER3A3Zw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 5,
+        "firstSeen": "2026-09-03",
+        "spanDays": 11
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "Kementerian ESDM",
+        "Pertamina"
+      ],
+      "headline": "IESR declares Indonesia fuel crisis a governance failure, demands 7-10 day supply restoration and subsidy reform",
+      "whatChanged": "IESR, in a 13 September 2026 statement, characterized the ongoing fuel shortage in affected Indonesian regions as evidence of governance failure rather than an external supply shock. The institute called on the government to restore supply within 7 to 10 days and to implement structural subsidy reform, implying the current distribution and pricing architecture is the proximate cause.",
+      "whyItMatters": "A credible domestic research institution framing a fuel shortage as a governance failure rather than a logistics problem elevates political pressure on Kementerian ESDM and Pertamina simultaneously. It also signals that the post-B50 biodiesel success narrative is being challenged by a parallel distribution failure, complicating Indonesia's energy transition story for international partners.",
+      "secondOrder": "If subsidy reform is forced by a supply crisis rather than by a planned policy process, the sequencing becomes disorderly: price increases arrive before alternative energy access is in place, concentrating burden on lower-income consumers and potentially generating political backlash that slows broader energy reform, including the 100 GWp solar program that depends on the same regulatory bandwidth.",
+      "action": "Monitor Kementerian ESDM and Pertamina official responses over the next 7 to 10 days; if no supply restoration announcement is made, treat subsidy reform risk as elevated and revisit project timelines for any initiative dependent on stable domestic fuel pricing.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/krisis-bbm-bukti-kegagalan-tata-kelola-iesr-desak-pemerintah-pulihkan-pasokan-dan-reformasi-subsidi/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 10,
+        "firstSeen": "2026-08-19",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "Kotawaringin Timur"
+      ],
+      "headline": "El Nino drought in Kalimantan threatens coal supply to PLN thermal plants as Kotim faces rolling blackouts",
+      "whatChanged": "Kementerian ESDM is actively managing the risk that El Nino-driven drought in Kalimantan will disrupt coal barge transportation to PLN thermal power plants. Separately, a generator fault at a Central Kalimantan plant has already triggered scheduled rolling blackouts for residents of Kotawaringin Timur.",
+      "whyItMatters": "This continues the pln-grid-investment thread and adds a physical supply-chain constraint on top of the existing grid investment gap. Indonesia's thermal generation remains the baseload backstop for a grid that has not yet built sufficient renewable capacity or storage to absorb demand variability. Coal supply disruption during El Nino simultaneously raises spot procurement costs and exposes the absence of fuel stockpile adequacy standards.",
+      "secondOrder": "Drought-linked coal supply risk creates a compounding problem for PLN's balance sheet: spot coal prices rise at the same time that revenue is constrained by the administratively held tariff (confirmed unchanged through at least 20 September 2026). Repeated margin compression events of this type make PLN a weaker anchor offtaker for renewable project finance, increasing the cost of capital for the 100 GWp solar program and any associated storage procurement.",
+      "action": "For any renewable or storage project in Kalimantan or dependent on PLN as offtaker, request PLN's current coal stockpile days and barge logistics contingency plan; use the answer to stress-test offtake payment reliability assumptions.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNEYxVXczd0pnNkNmY3M2TFZYRlBBY282OENqRW9FNzYwaUdxT1FpVU1Pa1I3X1BycF9XZ3IzZjhJNjl4ZzN3NGNrWm5ELU9mLVk3LUZWYWh6UExJWVRXVzZpWXNsTTdGSmhCU2xZVWFsSzhRRHg4bnJoOEVMdFVfdnpKVUFQQ084NTFTUTRHeXgxS28wbDdTbEpkbHNNc3ZUaEZuNFRMOHdQYUh6LWRaV25kYS1sVUk?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcmlxaThBQnA3elBqaGFiM2VZeGtPVjdkdTV6TWdRUnMtbFFzUnJsNDhjZkc4OXE0Q3ctX2VwSVV4MUx3VXhfSDIxSTFGeVpydFBtVTc2djczazNvVHZBblhSVnNBR0M2RnhsLTFwNmgzdURGSk9tZlpyX1lkNGRjNUp3MGtldmhWbHhONndJNXpyajBEaFBiajJRYlNGNXVTUEpZUEhSbGQ3b0pac25YZU5wcGlZRUYzOHVYYXhyVWXSAcYBQVVfeXFMTUVKbUtSS1RxanZTYmNIekpJa0ZuZnBOd3J5QlZOQ1IxZHhLOFJSa0szd2xkR2NOdExITDFweEM4TWZVemprcEFTMEJnZEE5RjFhRUxoazRxNl9wOVpqeFJEZzJ3YzVIOUpnU2FGcEsyOURoRHRoODJlUTZqd1VvbnBjTS11XzNmRFRSUXlvUzZXM2k3U2xvMHJ1am9YV2lQc1d6UHEtRzhPV1cyb3ByYmNZcXR1dUg2U3MzUUdCU1JIVnNkd3pB?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRXdRM3poRTA5eUNmV2g2aUFibWxTLVhPaUM0Y3RMY01BNERqSjQtamlNejQwRVBvWVJDc2VCMUMybThZS1JBczl2STV6LV9GNl9ibXd3Yi0xVmp3SVJaMm9ic08wYUVFQ0ZTTmZiUEEyYTVZNTFiN1JDVEc2Z1lPN0pnVXRpcXMwVjgxWWliSzNGWU5YZF9Xand1dDBoOTNOVWNLdWhKOFktQlZxNmJ0OUxYendYR3p4TnVZak1mcThyd9IBwgFBVV95cUxOcVBMZ19MNE5HM3NHcmNxTUFvVF84amZYalZJZ01faTFLejZhaWpfM043Mm1xandHLTFrM0hNZk1uSmdta1E0ekllenB2MGNtM3J0OHJ5RXctYkxoQlYxYmU3cDVKSTh0ZEFwckhjc0FvWEVXUF9VdUdmVjBFVjVKcTBCQzFLc1F2RFlvWVhuUnZ1MnBYV2VaWEtoMWhfaHd4M1NJUWI2Nkd5ZEc4T0l5MEx4cGplSnZrejhmM1h0bjBVZw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-22",
+        "spanDays": 23
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "DDMF",
+        "CNBC Indonesia"
+      ],
+      "headline": "Danantara launches DDMF as dedicated long-term project finance channel for Indonesian SOE investments",
+      "whatChanged": "CNBC Indonesia reported on 13 September 2026 that Danantara is financing long-term projects through a vehicle called the Danantara Direct Market Facility (DDMF), with specific targets disclosed. This represents a named, operational financing mechanism distinct from Danantara's equity holding function.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread. A dedicated long-term financing facility signals that Danantara is building a project-finance capability, not only a portfolio management structure. For BUMN Karya and other SOEs undergoing restructuring, DDMF becomes the potential debt channel, which means its terms, governance, and eligibility criteria will shape which restructuring scenarios are financially viable.",
+      "secondOrder": "If DDMF functions as a captive long-term lender to Danantara's own portfolio companies, it creates a circular capital structure in which the sovereign investment vehicle is both equity owner and debt provider to the same entities. This concentrates refinancing risk at the state level and reduces the disciplining effect of external credit markets. Rating agencies and multilateral lenders assessing Indonesian SOE creditworthiness will need to map DDMF exposure before forming views on individual BUMN balance sheets.",
+      "action": "Obtain DDMF's published terms, eligible borrower criteria, and governance structure this week; assess whether any counterparty exposure to BUMN Karya entities is being refinanced through DDMF, and if so, reclassify that exposure from corporate credit to quasi-sovereign.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0tlMXlxa1FqVy1oUHRRcTc5UUdpM1VneEdrQ3E5RmVsWU5fWlRRcFk2cWxsSTBSbi0ybGNTN2Rkc3ZnNXg2NzFWVlZ6cGpyNzV3NFJnc0NDWTQ1YTRLcVNiMTkwUW9EVncxWldiZzBibHc0eV9FQzZZRDdPYV94Ml9HQncwUmZNbW9FeUg5YTNQNndBSU93b0thWE5zV0xkTzlCcFg5MmMtdjNxSXdfVVEwdllpWFFLazdwaHNZTVBTbjNyQUE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 22,
+        "firstSeen": "2026-08-19",
+        "spanDays": 26
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Kementerian ESDM or Pertamina official response to IESR's 7-10 day fuel supply restoration demand; failure to respond confirms governance failure framing",
+      "dueDate": "2026-09-23"
+    },
+    {
+      "item": "PLN coal stockpile status and barge logistics updates from Kalimantan as El Nino drought continues; watch for force majeure declarations or spot procurement tenders",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Danantara DDMF published terms, eligible borrower list, and first disclosed transaction; determines whether DDMF functions as external market discipline or captive state lending",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Regulatory or legislative response to Anthropic's September misuse report; watch for EU AI Act implementing rules or US executive action referencing confirmed bioweapons probe",
+      "dueDate": "2026-10-01"
+    },
+    {
+      "item": "Enterprise contract template updates from OpenAI covering agentic production access liability; watch for terms-of-service revisions or new enterprise addenda following Perplexity and Devin deployments",
+      "dueDate": "2026-10-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Krisis BBM Bukti Kegagalan Tata Kelola: IESR Desak Pemerintah Pulihkan Pasokan dan Reformasi Subsidi",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/krisis-bbm-bukti-kegagalan-tata-kelola-iesr-desak-pemerintah-pulihkan-pasokan-dan-reformasi-subsidi/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-13T07:24:06.000Z"
+    },
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-14T00:00:00.000Z"
+    },
+    {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-10T17:10:27.000Z"
+    },
+    {
+      "title": "Pembangkit Kalteng Gangguan, Warga Kotim Siap-siap Kena Pemadaman Bergilir",
+      "publisher": "detikcom",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcmlxaThBQnA3elBqaGFiM2VZeGtPVjdkdTV6TWdRUnMtbFFzUnJsNDhjZkc4OXE0Q3ctX2VwSVV4MUx3VXhfSDIxSTFGeVpydFBtVTc2djczazNvVHZBblhSVnNBR0M2RnhsLTFwNmgzdURGSk9tZlpyX1lkNGRjNUp3MGtldmhWbHhONndJNXpyajBEaFBiajJRYlNGNXVTUEpZUEhSbGQ3b0pac25YZU5wcGlZRUYzOHVYYXhyVWXSAcYBQVVfeXFMTUVKbUtSS1RxanZTYmNIekpJa0ZuZnBOd3J5QlZOQ1IxZHhLOFJSa0szd2xkR2NOdExITDFweEM4TWZVemprcEFTMEJnZEE5RjFhRUxoazRxNl9wOVpqeFJEZzJ3YzVIOUpnU2FGcEsyOURoRHRoODJlUTZqd1VvbnBjTS11XzNmRFRSUXlvUzZXM2k3U2xvMHJ1am9YV2lQc1d6UHEtRzhPV1cyb3ByYmNZcXR1dUg2U3MzUUdCU1JIVnNkd3pB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-13T10:00:18.000Z"
+    },
+    {
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-11T16:00:00.000Z"
+    },
+    {
+      "title": "Tarif Listrik PLN 14-20 September 2026 Telah Ditetapkan, Ini Rinciannya",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRXdRM3poRTA5eUNmV2g2aUFibWxTLVhPaUM0Y3RMY01BNERqSjQtamlNejQwRVBvWVJDc2VCMUMybThZS1JBczl2STV6LV9GNl9ibXd3Yi0xVmp3SVJaMm9ic08wYUVFQ0ZTTmZiUEEyYTVZNTFiN1JDVEc2Z1lPN0pnVXRpcXMwVjgxWWliSzNGWU5YZF9Xand1dDBoOTNOVWNLdWhKOFktQlZxNmJ0OUxYendYR3p4TnVZak1mcThyd9IBwgFBVV95cUxOcVBMZ19MNE5HM3NHcmNxTUFvVF84amZYalZJZ01faTFLejZhaWpfM043Mm1xandHLTFrM0hNZk1uSmdta1E0ekllenB2MGNtM3J0OHJ5RXctYkxoQlYxYmU3cDVKSTh0ZEFwckhjc0FvWEVXUF9VdUdmVjBFVjVKcTBCQzFLc1F2RFlvWVhuUnZ1MnBYV2VaWEtoMWhfaHd4M1NJUWI2Nkd5ZEc4T0l5MEx4cGplSnZrejhmM1h0bjBVZw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-13T00:00:00.000Z"
+    },
+    {
+      "title": "Anthropic disrupts bioweapons research efforts, Russian hacking, Chinese Claude misuse",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUlpORllxa2oyR0lQcWRNaXQwTXd5LThFQTQ3bXFJdlQzUWRBZ2RYMjlmWm55R0gtd255dzltb2dEa3hlaHlJc0hNVG1GaWhkSDBXa3hRbVNiVkZ3XzZsbzY5ZE8wQ1pfR0w4TERlczNHbm5YaVI0QmN5TnJLWmVNRmsxMkxmcnFlTDg1QVdhSHJ0Vm5SUWsyWHFCU0JpdXNYcFhpWjBuQWVFTTZ2V1J1Ym82aExqdGJmVE9VNm5zR0xrUmtkSkNn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-11T11:12:12.000Z"
+    },
+    {
+      "title": "Kekeringan di Kalimantan, ESDM Antisipasi Suplai Batu Bara ke PLN",
+      "publisher": "bloombergtechnoz.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNEYxVXczd0pnNkNmY3M2TFZYRlBBY282OENqRW9FNzYwaUdxT1FpVU1Pa1I3X1BycF9XZ3IzZjhJNjl4ZzN3NGNrWm5ELU9mLVk3LUZWYWh6UExJWVRXVzZpWXNsTTdGSmhCU2xZVWFsSzhRRHg4bnJoOEVMdFVfdnpKVUFQQ084NTFTUTRHeXgxS28wbDdTbEpkbHNNc3ZUaEZuNFRMOHdQYUh6LWRaV25kYS1sVUk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-11T05:30:00.000Z"
+    },
+    {
+      "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
+      "publisher": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrcXFPTUpsT2dQTWp5eWtOTE9ZQ3BycXlHc0V6cDZoelBXRUhCTmZwM0U4dGV2SGtNUFZFeDhuTTRMR0p5NG91bUdUS0t2M1E3Tzk2OTBER3A3Zw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-11T08:15:25.000Z"
+    },
+    {
+      "title": "Video:Danantara Biayai Proyek Jangka Panjang Lewat DDMF, Ini Targetnya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0tlMXlxa1FqVy1oUHRRcTc5UUdpM1VneEdrQ3E5RmVsWU5fWlRRcFk2cWxsSTBSbi0ybGNTN2Rkc3ZnNXg2NzFWVlZ6cGpyNzV3NFJnc0NDWTQ1YTRLcVNiMTkwUW9EVncxWldiZzBibHc0eV9FQzZZRDdPYV94Ml9HQncwUmZNbW9FeUg5YTNQNndBSU93b0thWE5zV0xkTzlCcFg5MmMtdjNxSXdfVVEwdllpWFFLazdwaHNZTVBTbjNyQUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-13T04:00:25.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Sengketa Purbaya-Danantara soal setoran Rp120 triliun memasuki babak eksplisit",
+      "occurrences": 21,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Microsoft menargetkan 38 GW kapasitas pusat data pada 2032, setara tiga kali lipat posisi saat ini",
+      "occurrences": 21,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI luncurkan ChatGPT for Financial Services dengan GPT-6 Astra dan data keuangan terintegrasi",
+      "occurrences": 19,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Malaysia data centres reach 9.28% of national electricity consumption, establishing a regional benchmark for Indonesia grid planning",
+      "occurrences": 19,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "India wajibkan penyimpanan co-located untuk semua proyek surya dan angin baru",
+      "occurrences": 14,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-08",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 350,
+    "poolSize": 110,
+    "generatedAt": "2026-09-14T04:14:57.801Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
