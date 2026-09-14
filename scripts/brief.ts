@@ -41,11 +41,9 @@ const CACHE_DIR = ".cache";
 /**
  * Languages to compose.
  *
- * Both, deliberately: composing only Indonesian left the English edition
- * frozen at the day it was last written, while every Indonesian page kept an
- * hreflang pointing at it. A permanently stale mirror is worse than no mirror
- * on a product that sells daily freshness, so either both languages publish
- * or neither does.
+ * Compose both by default, but the Indonesian edition is the release gate for
+ * dailybrief.id. English is useful when it passes, but it should not make the
+ * main Indonesian site miss the day.
  *
  * This default must stay in step with the workflow. When they drifted apart,
  * CI quietly composed two languages while local composed one.
@@ -55,6 +53,14 @@ function parseLangs(): Lang[] {
   const langs = raw.filter((l): l is Lang => l === "id" || l === "en");
   if (langs.length === 0) throw new Error(`BRIEF_LANGS must list "id" and/or "en"`);
   return [...new Set(langs)];
+}
+
+function parseRequiredLangs(langs: Lang[]): Lang[] {
+  const raw = (process.env.REQUIRED_BRIEF_LANGS ?? "id").split(",").map((s) => s.trim());
+  const required = raw.filter((l): l is Lang => l === "id" || l === "en");
+  const fallback: Lang[] = ["id"];
+  const unique = [...new Set<Lang>(required.length ? required : fallback)];
+  return unique.filter((lang) => langs.includes(lang));
 }
 
 function reviveItems(json: string): FeedItem[] {
@@ -73,6 +79,7 @@ async function main() {
   const argDate = process.argv[2];
   const date = argDate && /^\d{4}-\d{2}-\d{2}$/.test(argDate) ? argDate : todayKey();
   const langs = parseLangs();
+  const requiredLangs = parseRequiredLangs(langs);
   const sources = enabledSources();
   const tierCounts = countByTier(sources);
   const domainCounts = countByDomain(sources);
@@ -171,12 +178,21 @@ async function main() {
     throw new Error(`all requested languages failed audit — refusing to publish (${detail})`);
   }
 
-  if (failed.length > 0) {
-    const detail = failed
+  const failedRequired = failed.filter(({ lang }) => requiredLangs.includes(lang));
+  const missingRequired = requiredLangs.filter((lang) => !written.some((edition) => edition.lang === lang));
+  if (failedRequired.length > 0 || missingRequired.length > 0) {
+    const detail = failedRequired
       .map(({ lang, error }) => `${lang}: ${error instanceof Error ? error.message : String(error)}`)
       .join("; ");
     throw new Error(
-      `some requested languages failed audit — refusing partial publish (${detail})`,
+      `required language failed audit — refusing publish (${detail || missingRequired.join(", ")})`,
+    );
+  }
+
+  if (failed.length > 0) {
+    console.warn(
+      `[brief] ${failed.length} optional language(s) omitted after audit failure: ` +
+        failed.map((f) => f.lang).join(", "),
     );
   }
 
