@@ -1,0 +1,368 @@
+{
+  "slug": "2026-09-15",
+  "date": "2026-09-15",
+  "lang": "en",
+  "title": "PLN Grid Failures Deepen; GPT-6 Astra in Production; FORU's Rp27T Mining Pivot",
+  "dek": "Indonesia's electricity reliability crisis, autonomous AI in live production systems, and a Rp27 trillion corporate pivot each force concrete decisions this week.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "PLN has confirmed four malfunctioning power plants across Central and East Kalimantan, compounding an ongoing fuel supply crisis that IESR has characterised as a governance failure requiring urgent reform. These two developments together mark the pln-grid-investment and pln-transmisi-investasi threads as operational crises, not planning debates. On the AI side, OpenAI has published primary-source case studies confirming that GPT-6 Astra is writing communications, modifying software, and monitoring production systems at Perplexity and Cognition with reduced human oversight, a concrete step-change in autonomous AI deployment that extends the enterprise-ai-data-privacy-contracts thread. In Indonesian corporate governance, Fortune Indonesia's approved Rp27.1 trillion rights issue to pivot from media into mining continues the danantara-bumn-karya-restructuring thread and tests whether Indonesia's capital markets can absorb large-scale BUMN-adjacent sectoral shifts. Across all three domains, the week's signals share a common mechanism: pre-existing structural conditions (grid fragility, AI autonomy norms, SOE reform ambiguity) have crossed into operational or financial materiality.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "IESR",
+        "Kotawaringin Barat"
+      ],
+      "headline": "PLN confirms four broken power plants in Kalimantan as IESR declares fuel crisis a governance failure",
+      "whatChanged": "PLN publicly confirmed four power-plant faults across Central and East Kalimantan (Kalteng-Kaltim), causing recurring blackouts in the Kotawaringin Barat area as recently as 13 September 2026. On the same day, IESR issued a formal statement calling Indonesia's fuel supply crisis a governance failure and demanding the government restore BBM supply within 7-10 days and implement subsidy reform.",
+      "whyItMatters": "The simultaneous collapse of generation capacity and fuel supply in the same region is no longer an isolated operational incident. The pln-grid-investment thread has been structural for 20 editions; two primary sources published within 24 hours now confirm it has crossed into an active reliability crisis with a named regulator demanding emergency action.",
+      "secondOrder": "When a grid reliability crisis and a fuel governance failure overlap geographically, the investment risk premium for any new renewable or data-centre load in Kalimantan rises sharply. Developers and offtakers who have committed capacity based on the 100 GWp solar programme's projections may find that grid-connection risk was systematically underpriced. The IESR demand for subsidy reform, if acted upon, would also reprice industrial energy costs across the affected region before new capacity comes online.",
+      "action": "Any project finance or power purchase agreement under negotiation for Kalimantan assets should be reviewed this week for grid-reliability representations and force-majeure language. Ask counterparties how four concurrent plant failures affect their interconnection and dispatch commitments.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/krisis-bbm-bukti-kegagalan-tata-kelola-iesr-desak-pemerintah-pulihkan-pasokan-dan-reformasi-subsidi/",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcFhVOFZFaXFzRnBOejZXcXZ2SFJjQ3REUmEtaU03ZncydnN0QU5Ia0ZFQlZ4VjRPYTZwbE5jQUN4RDA0MlFrMlNieXVzZ3kxZF9JejhyOC1UMlpXOFYyRTcwXzNZdF9LWHZiRVViNnZCXzA3Q0VIUHI1SHlvNDhBNmVQeFltcHRpbVplVEx3MGZyY2RVTU4wRDVkVEZvS2dsdEg1RFpLaGp0V2hodndIMEMzbFRyUW9JOHdvZlJyYTB4R09kZzAwdE5n0gHPAUFVX3lxTE1sbXBvT3k5MEJFbThIaDE4cF82OWMzcy1TdDJoWWhUR0VCcnRHTl96VWNad2I5RElWQklLWmU5d3FZMC1jdTVtZDNkMG5OSl9FdjBEN19xUk9EcGdkWnlFQV9sVkVHMWZTYUM2Y1lYajUxRzYyY3JTWDJ3cW8zcWdicVFEVV9yRi1CUU5EVERTZkxSYXFnMDRJdWtVQktTMnRNbFI0M3VzSlVnaDFRS0x5d2RDUHlIdUY5NlFjQWZJSGtFVXo4cTJYeGpMVGJxWQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-22",
+        "spanDays": 24
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Perplexity",
+        "Cognition",
+        "GPT-6 Astra"
+      ],
+      "headline": "OpenAI confirms GPT-6 Astra modifying live software and monitoring production at Perplexity and Cognition",
+      "whatChanged": "OpenAI published two primary-source case studies on 11 and 14 September 2026 confirming that GPT-6 Astra is being used by Perplexity to write communications, change software, and monitor production systems with materially reduced human check-in frequency compared with earlier models, and by Cognition's Devin to autonomously test software with the goal of reducing engineer code-review load.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts thread, now at 20 editions. The specific new fact is that two named production deployments have crossed the threshold from AI-assisted work to AI-initiated changes in live systems. The pattern is that frontier model vendors are now publishing case studies normalising autonomous production access, which creates a reference baseline other enterprise buyers will cite in procurement and legal negotiations.",
+      "secondOrder": "Once autonomous production-system access is normalised in vendor case studies, enterprise legal and compliance teams face a shifted burden of proof: the default posture moves from 'justify why AI should have production access' to 'justify why it should not.' Insurance underwriters covering software errors and omissions, and regulators overseeing systemically important platforms, have not yet published frameworks for this liability posture. The gap between deployed practice and regulatory coverage is widening faster than the archive has tracked.",
+      "action": "Procurement and legal teams evaluating any GPT-6 Astra or equivalent deployment should this week draft an explicit production-access policy before vendor sales teams use these case studies to accelerate contract closure. Define the boundary between AI-assisted and AI-initiated actions in contract schedules now, before it becomes a disputed term post-incident.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "https://openai.com/index/cognition-devin-testing-with-astra"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-20",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Fortune Indonesia",
+        "FORU",
+        "Danantara",
+        "BP BUMN"
+      ],
+      "headline": "Fortune Indonesia wins approval for Rp27.1 trillion rights issue to exit media and enter mining",
+      "whatChanged": "Fortune Indonesia (ticker: FORU) received regulatory approval for a Rp27.1 trillion rights issue, the proceeds of which are earmarked for entry into the mining sector, representing a full sectoral pivot away from media. Multiple financial press outlets reported on 14 September 2026, corroborated across Bisnis.com, Kontan, CNBC Indonesia, and Bloomberg Technoz.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, which is now structural at 22 editions. The FORU transaction is the most concrete capital-markets test of whether large-scale BUMN-adjacent sectoral diversification can be executed via public equity. A Rp27.1 trillion rights issue is large by Indonesian market standards, and its success or failure will set a reference point for subsequent restructuring transactions in the pipeline.",
+      "secondOrder": "If the FORU rights issue is fully subscribed, it signals that Indonesian institutional and retail investors will finance BUMN-linked sectoral pivots through public markets rather than requiring state-backed guarantees. That changes the restructuring toolkit available to Danantara and BP BUMN for other BUMN Karya entities: equity recapitalisation via rights issue becomes a credible path. If it fails or is undersubscribed, the reverse signal applies and the state balance sheet remains the primary restructuring instrument.",
+      "action": "Track the rights issue subscription rate and allocation breakdown when disclosed. A high institutional take-up rate would be an early indicator that the market is pricing BUMN sectoral-pivot risk as manageable; a heavy retail or standby underwriter reliance would indicate the opposite. Use the outcome to calibrate assumptions in any BUMN restructuring scenario model being prepared for Q4.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOckN2cS0ydXZ6NVFxNHNhTzNKaDk5ZG9mdjZlOEI4T2lBSjFLRVlyN3ZHS3k5QzM3amlkdkl4dzNnb3RobXFvMDNYRVZTT1JzS2hYWXdoMnd6azNBdzVIc3NxOUx2TW5mbGF3aUdhaFlxT2VqMUpfMTBHR1BfVHNSN3BwcHZmSTNZR0pkQ1BfUFZ3WFAwYTk5SEhzZGtZS3l0bGxQVHQ2eFVSU0dJRHFkQ1NVYnJoWWdJRWlabzdoaWVyLTg?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWZaemlFMm14S05nWGk4TmJvRENuM1NLbmw5UmR0clplWkhpM1FuMDBpcnpVRzFvMkxkZ2o1czNOaGFnek83Q0JGZ0NMSWM5YWRLV1pidm04cWliQWlOLUY5T0YxZjdCMjE5ZFVrc0UyMDBxQXd2Z2k4NGFDS0RFcXc5R0Z6WW5HRFU5dVJ5ZS1VU2VQY3I3S2Z5M0xmd2lveHlHOVBraFp1LV9lSmxXQkVB0gGqAUFVX3lxTE83aTBKUkFKcmpnUlIxd2FLRDBfcE01Yk0xdVJtMERkXzNyQWx2RHpORGo3UXozQ0xmeDRsUDhhUHZWem13cFgzSnNnZTU0TUdzTVdvMS0zUUV0WGZieDdTVW51aDZ6RGFvc3l0bnFydWlpRS1BRGJ5d1BkWWNoODduQjRfMFhOVzRDOFNrSjhhOGVJNmhIdURBTDdteUJNb0w4RDZ3Ny1pLVlR?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbEZxRWJWSXoyUUxib2tDb09ERWxianJtYkR2cEQ4QXUySW14OGNJdHZaVWdMUFEwVGxnSTRVZjdkNkhGVFg5eklYQmpqejFnMWQzaU9lOGFmY2UtVWM2aVJLcW1za3hvd1dDMS1QTF92d0JiRXZLRU9obkJVeXJWSHNtUGRNdDRIcTdSeDMzV0RWZXUxVm1wYXFXZUszV01XRy16UGRPUlNZYVBUZDJHcEVWR05DdDFDSVRSQTZpR2_SAcYBQVVfeXFMTUtqemY1N0hObUM4VVB3UTJ2aVh1X1N6VXJJME5vbmpWdWptRU9RbGdzM2FEZjJBaFcyYzdseDdHdm9QTWlmT1lCSWtPVlZVNzRvZXphWVhCTzlsekZCLUtuQU1TeTNySmNkTk5CSk14SWpWd1lPV2hGM09CLVRVS29McFJTcFA0MTBfdjdoNlhndWl6LTVvV3lTMEUwelQ5TU9USkhSN2xJOEhDVnhCY2xYMEtRWThqejVnQnk4UG9IaGIzM1Vn?oc=5",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3dYdXZpRjRTZU5DU1ItbnNGczlFQWhpUVlLa3RMaXhiQkJjSUJ6RnA5b1JsUHA2WE9uanh3U3plaE5UaW9QY1lVNHhmQVhLc2JLaFhVUlo4NlkwcmhMVkRreHdadW5jUkhnanFPRW43aVJRY1ZROWJtYmJKamRqaFVhZlFINkVGdHJkLXNnaXVfcHlsVEFydmlMZEJwUjQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-08-19",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Bursa Efek Indonesia",
+        "OJK",
+        "detikFinance"
+      ],
+      "headline": "Danantara responds to reports it may acquire 40% of Indonesia Stock Exchange shares",
+      "whatChanged": "On 14 September 2026, Danantara issued a public response to media reports that it was considering acquiring up to 40% of Bursa Efek Indonesia (BEI) shares, as reported by detikFinance and Bloomberg Technoz. The response neither confirmed nor denied the scenario but acknowledged the reports, keeping the possibility in active public discussion.",
+      "whyItMatters": "A 40% stake in the national stock exchange would make Danantara a controlling or near-controlling shareholder in the infrastructure through which all its portfolio companies are listed, refinanced, or restructured. This is a qualitatively different governance posture from sectoral investment: it would give a state investment vehicle structural influence over price discovery and listing standards for the broader corporate sector.",
+      "secondOrder": "If Danantara acquires a material BEI stake, minority shareholders and foreign portfolio investors in Indonesian equities face a conflict-of-interest question that is not currently priced into the market: can a state vehicle that owns both SOEs and the exchange on which they trade be considered a neutral market infrastructure operator? Ratings agencies and foreign institutional investors evaluating Indonesian equity market access will need to revisit country-level governance risk premia.",
+      "action": "Request from Danantara's investor relations channel, or from OJK, a clarification on the regulatory pathway and governance firewall proposed for any BEI stake acquisition. The answer will determine whether this requires a sovereign risk reassessment for Indonesian equity exposure.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa0NyUFZBdzJIX1RvVXJkNTJHWWdjbVY2T3AxdHhWR3dwWHN4ZlZqdllXU2NPWGJBU1dycWR6TjJTdlVTRnlOLW1EVzFRRFRqTmFIeU83YjdhMm96US1RWFBpMS1GU0Rtek1oNEUzcXVGVmFHSVpJN28tNXc2YklERFZfcW5HNVF6YUl6Tk12Z0xibGY1UFdjNjhnekZheXB4c0JFYlB3SmVtZFV5TWhJRzhneF_SAboBQVVfeXFMTWczSk1oOTJnVnZfNThnbms5UHBuRUtQdzdzR0Qwc214dGZuT0p3OGVrSTFoY3hianQyZWJEUmRmUzFZdGxmWVh5d2w4SWJ3RVZBZHptM0ZvVmJpLXhFZ3BWOVQ5Zzl5OGZ3OTctOVFJNXlCcXExS1dRQ3VzWEN4bHR0STctNWZzaUpiRXhKc3BsQ2wzcFdYYTdvODlsLWhmaFVia1RDS0w2NGhEZ3hnZFdWYjFxaFA0YWxn?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcTJPTE9sa1k3Mk5lbHMtX18yN3FQcW8yNW5FbzJoN0E5RVdRX3p5QmE0N3hieUFKM2dENERmWVRkd3BvN2JUSTdzd3hxRHgzaE11Y3JiZ2h5RC1JRDhkZjhOVzFoV0MzbEF2OF9sRHFWVEQzdDBaVlc3S3pOZ2RXSmhfMzJqaHNkbGs4REZ6aFNHMnZNZS1qR3dZellrbUlKZWFfbGdRWDJkS2JVMjR3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-08-19",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "CNBC Indonesia",
+        "Prabowo"
+      ],
+      "headline": "CNBC Indonesia and US Deputy Energy Minister both flag structural barriers to Indonesia's 100 GWp solar target",
+      "whatChanged": "On 14 September 2026, CNBC Indonesia published a detailed enumeration of structural barriers to Indonesia's 100 GWp solar programme, and Antara News Jatim reported that the US Deputy Secretary of Energy separately commented on the 100 GWp target, highlighting implementation challenges. The programme was launched by President Prabowo on 25 August 2026 with a three-year completion target.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread, which is structural at 15 editions. The 100 GWp target requires roughly 33 GW per year of new solar installation, a rate Indonesia has never approached. The barriers enumerated include grid absorption capacity, land acquisition, financing structures, and local content requirements. Foreign government commentary from the US on implementation risk is a signal that international financing partners are already stress-testing the programme's credibility.",
+      "secondOrder": "A 100 GWp target that is publicly doubted by both domestic financial press and a foreign government partner within three weeks of announcement creates a credibility discount that will affect the cost of financing for individual projects under the programme. Developers will face higher required returns until the government publishes a credible implementation roadmap with grid connection guarantees, which PLN's current operational difficulties make harder to provide.",
+      "action": "Before committing to any project development spend under the 100 GWp programme, map which of the structural barriers (grid capacity, land, financing, local content) are project-level risks versus programme-level risks. Barriers at the programme level cannot be hedged at the project level and require a government-to-government or multilateral financing solution before they clear.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR0x6WXY5bl9JclI0UHE3ZmluckFMcVpOZWNLYS1tYnFIYU9xeUFHVk43T25pUndISW9xT1NzenFDRURlX21QVjQwbks1bGVaV3l2Vmw4Rkxtb3k5VTBpdnd1N0xmQjJnSzRoRWhqbVV3ZFBuV1NzdnlkdXdkeXNWX2doZ2FnM0ZDaVVkMzNMRDhfdF95Z3lxNWRSV2NRZ0x3bFNNa3Rn0gGrAUFVX3lxTE9kMHhQazluUTBnYXVYSlF4c0RWZ0VKWS1XZm1pWERXdDJTSzJaNHAySGlDTVVXSGktMzIxUFV2WlVHaWdsUFM0eXZsaFBsQXgxeXFPaHBJLVRMS1Y3NDdHSTFQbUNrNGVlaWJFZklabllBREdrUkg1S1FOQ0tocUdtTkZxemhUb0JUa3NBNTdEYnFXT0drbmlxXzFoR2hwaWt2bnZBUFhkcW9tYw?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNal9tVlFWOE1vc2hSQlZPM0cwaXFLN0RzeElhQ3ZBTlI1VVJaa2ItbEtxajlfR2hUaVN3bnA1bTBmMDJiOGRqR1pZQmp4ekhmejNLUmtOYUdKQTRnVG1xWDQ5X2RJYjd3djZzTU5fVnVEYVZNOUNJOHBCWjh4bUtITlZQa0s3djlEWXlHTUxyX2NlN0IzY1VJX2xET2PSAaIBQVVfeXFMTWRPd0w5VFVCSWhYX0FSOHBVYk5wYnFsYTBYYzE1Qk9pRzRQdHgxU2wwdXdZZEc4U2ljVFNvYWp4MWdRX0dZamUxdEdROF9QeWxybXI1dk5FME5VZWxsbHdoZmsxM05CcjhPNmlzRjFwbFNIaDNMWGlpTlR0Q1RYajN0cFplRFNqWUFXNTZ4RjAwcmVLMksxVmVVc0FXbUtHbjBn?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 16,
+        "firstSeen": "2026-08-22",
+        "spanDays": 24
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "FORU rights issue subscription rate and institutional versus retail allocation breakdown, as a benchmark for BUMN sectoral-pivot financing via public equity",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "OJK or Danantara formal statement on the BEI stake acquisition scenario and proposed governance firewall",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "PLN restoration timeline for the four Kalteng-Kaltim power plants and whether IESR's 7-10 day BBM restoration demand is met by the government",
+      "dueDate": "2026-09-23"
+    },
+    {
+      "item": "Government publication of a phased implementation roadmap for the 100 GWp solar programme with grid-connection capacity commitments per year",
+      "dueDate": "2026-11-01"
+    },
+    {
+      "item": "Enterprise or regulatory response to OpenAI's normalisation of GPT-6 Astra production-system access, particularly from financial regulators or insurance underwriters",
+      "dueDate": "2026-10-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Krisis BBM Bukti Kegagalan Tata Kelola: IESR Desak Pemerintah Pulihkan Pasokan dan Reformasi Subsidi",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/krisis-bbm-bukti-kegagalan-tata-kelola-iesr-desak-pemerintah-pulihkan-pasokan-dan-reformasi-subsidi/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-13T07:24:06.000Z"
+    },
+    {
+      "title": "Listrik di Kobar Byar Pet Lagi, PLN Ungkap 4 Pembangkit Kalteng-Kaltim Bermasalah",
+      "publisher": "detikcom",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcFhVOFZFaXFzRnBOejZXcXZ2SFJjQ3REUmEtaU03ZncydnN0QU5Ia0ZFQlZ4VjRPYTZwbE5jQUN4RDA0MlFrMlNieXVzZ3kxZF9JejhyOC1UMlpXOFYyRTcwXzNZdF9LWHZiRVViNnZCXzA3Q0VIUHI1SHlvNDhBNmVQeFltcHRpbVplVEx3MGZyY2RVTU4wRDVkVEZvS2dsdEg1RFpLaGp0V2hodndIMEMzbFRyUW9JOHdvZlJyYTB4R09kZzAwdE5n0gHPAUFVX3lxTE1sbXBvT3k5MEJFbThIaDE4cF82OWMzcy1TdDJoWWhUR0VCcnRHTl96VWNad2I5RElWQklLWmU5d3FZMC1jdTVtZDNkMG5OSl9FdjBEN19xUk9EcGdkWnlFQV9sVkVHMWZTYUM2Y1lYajUxRzYyY3JTWDJ3cW8zcWdicVFEVV9yRi1CUU5EVERTZkxSYXFnMDRJdWtVQktTMnRNbFI0M3VzSlVnaDFRS0x5d2RDUHlIdUY5NlFjQWZJSGtFVXo4cTJYeGpMVGJxWQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-13T05:00:52.000Z"
+    },
+    {
+      "title": "Masuk Bisnis Tambang, Fortune (FORU) Dapat Restu Rights Issue Rp27,10 Triliun - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOckN2cS0ydXZ6NVFxNHNhTzNKaDk5ZG9mdjZlOEI4T2lBSjFLRVlyN3ZHS3k5QzM3amlkdkl4dzNnb3RobXFvMDNYRVZTT1JzS2hYWXdoMnd6azNBdzVIc3NxOUx2TW5mbGF3aUdhaFlxT2VqMUpfMTBHR1BfVHNSN3BwcHZmSTNZR0pkQ1BfUFZ3WFAwYTk5SEhzZGtZS3l0bGxQVHQ2eFVSU0dJRHFkQ1NVYnJoWWdJRWlabzdoaWVyLTg?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T10:32:27.000Z"
+    },
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-14T00:00:00.000Z"
+    },
+    {
+      "title": "Sederet Hambatan RI Kejar Target PLTS 100 GW",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR0x6WXY5bl9JclI0UHE3ZmluckFMcVpOZWNLYS1tYnFIYU9xeUFHVk43T25pUndISW9xT1NzenFDRURlX21QVjQwbks1bGVaV3l2Vmw4Rkxtb3k5VTBpdnd1N0xmQjJnSzRoRWhqbVV3ZFBuV1NzdnlkdXdkeXNWX2doZ2FnM0ZDaVVkMzNMRDhfdF95Z3lxNWRSV2NRZ0x3bFNNa3Rn0gGrAUFVX3lxTE9kMHhQazluUTBnYXVYSlF4c0RWZ0VKWS1XZm1pWERXdDJTSzJaNHAySGlDTVVXSGktMzIxUFV2WlVHaWdsUFM0eXZsaFBsQXgxeXFPaHBJLVRMS1Y3NDdHSTFQbUNrNGVlaWJFZklabllBREdrUkg1S1FOQ0tocUdtTkZxemhUb0JUa3NBNTdEYnFXT0drbmlxXzFoR2hwaWt2bnZBUFhkcW9tYw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T12:35:46.000Z"
+    },
+    {
+      "title": "Fortune Indonesia (FORU) Siapkan Rights Issue Rp 27,1 Triliun, Begini Rinciannya",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWZaemlFMm14S05nWGk4TmJvRENuM1NLbmw5UmR0clplWkhpM1FuMDBpcnpVRzFvMkxkZ2o1czNOaGFnek83Q0JGZ0NMSWM5YWRLV1pidm04cWliQWlOLUY5T0YxZjdCMjE5ZFVrc0UyMDBxQXd2Z2k4NGFDS0RFcXc5R0Z6WW5HRFU5dVJ5ZS1VU2VQY3I3S2Z5M0xmd2lveHlHOVBraFp1LV9lSmxXQkVB0gGqAUFVX3lxTE83aTBKUkFKcmpnUlIxd2FLRDBfcE01Yk0xdVJtMERkXzNyQWx2RHpORGo3UXozQ0xmeDRsUDhhUHZWem13cFgzSnNnZTU0TUdzTVdvMS0zUUV0WGZieDdTVW51aDZ6RGFvc3l0bnFydWlpRS1BRGJ5d1BkWWNoODduQjRfMFhOVzRDOFNrSjhhOGVJNmhIdURBTDdteUJNb0w4RDZ3Ny1pLVlR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T05:22:33.000Z"
+    },
+    {
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-11T16:00:00.000Z"
+    },
+    {
+      "title": "Danantara Buka Suara soal Kabar Mau Pegang 40% Saham Bursa Efek",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa0NyUFZBdzJIX1RvVXJkNTJHWWdjbVY2T3AxdHhWR3dwWHN4ZlZqdllXU2NPWGJBU1dycWR6TjJTdlVTRnlOLW1EVzFRRFRqTmFIeU83YjdhMm96US1RWFBpMS1GU0Rtek1oNEUzcXVGVmFHSVpJN28tNXc2YklERFZfcW5HNVF6YUl6Tk12Z0xibGY1UFdjNjhnekZheXB4c0JFYlB3SmVtZFV5TWhJRzhneF_SAboBQVVfeXFMTWczSk1oOTJnVnZfNThnbms5UHBuRUtQdzdzR0Qwc214dGZuT0p3OGVrSTFoY3hianQyZWJEUmRmUzFZdGxmWVh5d2w4SWJ3RVZBZHptM0ZvVmJpLXhFZ3BWOVQ5Zzl5OGZ3OTctOVFJNXlCcXExS1dRQ3VzWEN4bHR0STctNWZzaUpiRXhKc3BsQ2wzcFdYYTdvODlsLWhmaFVia1RDS0w2NGhEZ3hnZFdWYjFxaFA0YWxn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T16:26:29.000Z"
+    },
+    {
+      "title": "Emiten RI Ini Mau Rights Issue Jumbo, Cari Duit Rp27,10 Triliun",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbEZxRWJWSXoyUUxib2tDb09ERWxianJtYkR2cEQ4QXUySW14OGNJdHZaVWdMUFEwVGxnSTRVZjdkNkhGVFg5eklYQmpqejFnMWQzaU9lOGFmY2UtVWM2aVJLcW1za3hvd1dDMS1QTF92d0JiRXZLRU9obkJVeXJWSHNtUGRNdDRIcTdSeDMzV0RWZXUxVm1wYXFXZUszV01XRy16UGRPUlNZYVBUZDJHcEVWR05DdDFDSVRSQTZpR2_SAcYBQVVfeXFMTUtqemY1N0hObUM4VVB3UTJ2aVh1X1N6VXJJME5vbmpWdWptRU9RbGdzM2FEZjJBaFcyYzdseDdHdm9QTWlmT1lCSWtPVlZVNzRvZXphWVhCTzlsekZCLUtuQU1TeTNySmNkTk5CSk14SWpWd1lPV2hGM09CLVRVS29McFJTcFA0MTBfdjdoNlhndWl6LTVvV3lTMEUwelQ5TU9USkhSN2xJOEhDVnhCY2xYMEtRWThqejVnQnk4UG9IaGIzM1Vn?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T03:25:52.000Z"
+    },
+    {
+      "title": "Tanggapan Danantara Soal Skenario Ambil Sebagian Saham BEI",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcTJPTE9sa1k3Mk5lbHMtX18yN3FQcW8yNW5FbzJoN0E5RVdRX3p5QmE0N3hieUFKM2dENERmWVRkd3BvN2JUSTdzd3hxRHgzaE11Y3JiZ2h5RC1JRDhkZjhOVzFoV0MzbEF2OF9sRHFWVEQzdDBaVlc3S3pOZ2RXSmhfMzJqaHNkbGs4REZ6aFNHMnZNZS1qR3dZellrbUlKZWFfbGdRWDJkS2JVMjR3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T14:00:00.000Z"
+    },
+    {
+      "title": "Wamen Energi AS soroti target PLTS 100 GWp Indonesia",
+      "publisher": "Antara News jatim",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNal9tVlFWOE1vc2hSQlZPM0cwaXFLN0RzeElhQ3ZBTlI1VVJaa2ItbEtxajlfR2hUaVN3bnA1bTBmMDJiOGRqR1pZQmp4ekhmejNLUmtOYUdKQTRnVG1xWDQ5X2RJYjd3djZzTU5fVnVEYVZNOUNJOHBCWjh4bUtITlZQa0s3djlEWXlHTUxyX2NlN0IzY1VJX2xET2PSAaIBQVVfeXFMTWRPd0w5VFVCSWhYX0FSOHBVYk5wYnFsYTBYYzE1Qk9pRzRQdHgxU2wwdXdZZEc4U2ljVFNvYWp4MWdRX0dZamUxdEdROF9QeWxybXI1dk5FME5VZWxsbHdoZmsxM05CcjhPNmlzRjFwbFNIaDNMWGlpTlR0Q1RYajN0cFplRFNqWUFXNTZ4RjAwcmVLMksxVmVVc0FXbUtHbjBn?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T09:40:00.000Z"
+    },
+    {
+      "title": "Dari Media ke Tambang, FORU Rights Issue Rp27 T",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3dYdXZpRjRTZU5DU1ItbnNGczlFQWhpUVlLa3RMaXhiQkJjSUJ6RnA5b1JsUHA2WE9uanh3U3plaE5UaW9QY1lVNHhmQVhLc2JLaFhVUlo4NlkwcmhMVkRreHdadW5jUkhnanFPRW43aVJRY1ZROWJtYmJKamRqaFVhZlFINkVGdHJkLXNnaXVfcHlsVEFydmlMZEJwUjQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-14T03:17:14.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "FORU rights issue Rp27,1 triliun: diversifikasi dari media ke tambang menguji batas regulasi OJK",
+      "occurrences": 22,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-14",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Microsoft menargetkan 38 GW kapasitas pusat data pada 2032, setara tiga kali lipat posisi saat ini",
+      "occurrences": 21,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "GPT-6 Astra digunakan Perplexity untuk memantau dan mengubah sistem produksi secara otonom",
+      "occurrences": 20,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-14",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Kekeringan Kalimantan ancam suplai batu bara ke PLN; krisis BBM dikritik IESR sebagai kegagalan tata kelola",
+      "occurrences": 20,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-14",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Kalimantan drought threatens coal supply to PLN; ESDM activates supply contingency",
+      "occurrences": 15,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-14",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 363,
+    "poolSize": 110,
+    "generatedAt": "2026-09-14T23:21:57.058Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
