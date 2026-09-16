@@ -1,0 +1,346 @@
+{
+  "slug": "2026-09-17",
+  "date": "2026-09-17",
+  "lang": "id",
+  "title": "OpenAI Disclosure Kerangka Misalignment; PLN-ESDM Mitigasi Kalteng-Sulsel",
+  "dek": "Dua sinyal memaksa keputusan minggu ini: OpenAI pertama kali menerbitkan kerangka formal pelacakan misalignment model, sementara gangguan kelistrikan Kalimantan-Sulawesi memaksa rapat darurat Bahlil-PLN yang mengonfirmasi risiko struktural pasokan batubara.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI menerbitkan kerangka formal pertama untuk melacak dan mengungkap perilaku model yang tidak selaras, disertai enam laporan insiden konkret, menandai pergeseran dari komitmen sukarela ke akuntabilitas terstruktur dalam tata kelola AI frontier. Bersamaan, Menteri Bahlil menggelar rapat dengan PLN membahas kelistrikan Kalimantan Tengah setelah pemadaman di Kalimantan dan Sulawesi, dengan PLTA Sulawesi Selatan terdampak El Nino sebagai faktor pemberat. Kementerian ESDM mengalokasikan 82 persen anggaran 2027 untuk infrastruktur energi, sinyal bahwa tekanan pasokan listrik sudah memengaruhi prioritas fiskal. Di sisi korporasi, Danantara mengonfirmasi target mulai konstruksi PSEL Kayu Manis Bogor akhir 2026, dan Rosan memastikan diskusi dividen Danantara dengan Menteri Keuangan akan dilakukan, dua perkembangan yang melanjutkan restrukturisasi BUMN sebagai kondisi struktural. Google DeepMind meluncurkan Gemini 3.8 Live dengan kemampuan extended thinking, memperluas persaingan model multimodal real-time.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "headline": "OpenAI terbitkan kerangka formal pelacoran misalignment model beserta enam laporan insiden",
+      "whatChanged": "OpenAI pada 16 September 2026 menerbitkan dokumen kerangka kerja untuk melacak, menginvestigasi, dan mengungkap perilaku model yang tidak selaras, disertai enam laporan spesifik tentang perilaku model yang tidak diharapkan atau mengkhawatirkan.",
+      "whyItMatters": "Ini adalah pertama kalinya OpenAI menetapkan proses disclosure terstruktur untuk misalignment, bukan sekadar pernyataan komitmen. Pola ini melanjutkan tema 'ai-model-safety-frontier' yang sudah 7 kali muncul sejak 3 September 2026: setelah Anthropic mengonfirmasi penyalahgunaan Claude untuk riset biosenjata, kini OpenAI bergerak ke arah akuntabilitas prosedural. Akumulasi keduanya menandai bahwa lab frontier kini memperlakukan safety disclosure sebagai kewajiban operasional, bukan pilihan reputasi.",
+      "secondOrder": "Kerangka disclosure ini akan menjadi preseden yang digunakan regulator, terutama di UE dan kemungkinan AS pasca-midterm, untuk menuntut standar pelaporan serupa dari semua penyedia model frontier. Perusahaan yang mengintegrasikan API OpenAI atau Claude ke dalam sistem produksi perlu mengevaluasi apakah kontrak mereka memuat klausul notifikasi insiden karena vendor kini secara eksplisit mendokumentasikan kategori kegagalan model.",
+      "action": "Tinjau ulang perjanjian penggunaan API dengan penyedia model frontier yang aktif digunakan: periksa apakah ada klausul yang mewajibkan penyedia memberi notifikasi saat insiden misalignment yang relevan terdeteksi, dan bandingkan dengan enam kategori insiden yang disebutkan OpenAI untuk menilai eksposur sistem produksi saat ini.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/model-misalignment-reporting-framework",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUFEd3J4dUNMcFZQWXFyZXFxdDh3eFM4T2NlYXlZZm9ldjgtMHItRXBkdU9DTk9QbzNpWHpnMzlRaDNseWtwZnozOFNKVlc5MGRUaElBajhRc0oxNE9sdXJSbkJzLURSRlZzWlJ4cElyb0toRk9jTnFrVU9xeER0cWJNQ29fRlZUeWd6ZjlIQV96QmlRRjUteXl3b0ZYZVdISUdaVVVYWEVSY2RLeG9peTRZWQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-09-03",
+        "spanDays": 14
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Bahlil"
+      ],
+      "headline": "Bahlil rapat darurat dengan PLN bahas kelistrikan Kalteng; PLTA Sulsel terdampak El Nino",
+      "whatChanged": "Menteri Bahlil pada 16 September 2026 menggelar rapat dengan PLN khusus membahas kelistrikan Kalimantan Tengah, menyusul pemadaman di Kalimantan dan Sulawesi. Laporan Bisnis.com pada hari yang sama mengonfirmasi PLTA di Sulawesi Selatan terdampak El Nino sebagai faktor pemberat gangguan pasokan. Bahlil sebelumnya menyatakan pemadaman bukan imbas RKAB batubara.",
+      "whyItMatters": "Ini melanjutkan tema 'pln-grid-investment' yang telah 22 kali muncul sejak 22 Agustus 2026. Rapat darurat setingkat menteri mengonfirmasi bahwa gangguan bukan insiden operasional biasa, melainkan kegagalan yang membutuhkan intervensi kebijakan. Kombinasi El Nino yang menekan PLTA dan keterbatasan pasokan batubara menciptakan kerentanan ganda pada grid Kalimantan dan Sulawesi yang infrastruktur interkoneksinya masih terbatas.",
+      "secondOrder": "Bila PLTA Sulsel terus beroperasi di bawah kapasitas karena El Nino, PLN kemungkinan harus meningkatkan dispatching PLTU batubara yang justru sedang menghadapi tekanan pasokan dari Kalimantan. Ketergantungan ganda ini mengekspos risiko bahwa alokasi anggaran infrastruktur ESDM 2027 sebesar 82 persen belum tentu menjawab bottleneck transmisi antarpulau yang menjadi akar kerentanan.",
+      "action": "Petakan kapasitas terpasang PLTA Sulsel versus output aktual saat ini, dan bandingkan dengan proyeksi debit sungai El Nino 2026; gunakan data ini untuk menilai apakah agenda rapat Bahlil-PLN akan menghasilkan keputusan kontrak pembelian daya darurat atau skema subsidi bahan bakar pembangkit alternatif.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWFZ3Q1FMbDRpRGxEb2REVjV4aF93ZzRXVzNiU09RTDFLQlV3RUpmakJmVTk3anFlUUhDdEVlNFRSdzI1bDY4WG16elVJVWZkU3h5R1hLcFBCdmZiMG1iMmV4SzdMQi1GNjA2TmxIS19ZWV9NbGViQ2xxeG1Za2ppZW1hejVUQUFNOXBSYm0xSU5wa0VGWl9QYmxPb2pHcXZi0gGjAUFVX3lxTE5uc0laVmZabTdqaUw5dDM0d3ZHZXNSNzFhb1NkdGdmY1pxdnprMjlTdTh0SHQyZ1NhZ3d2ZlNvVEVqa2E1eWJFUEVCZTlIbnV2QmdvLXBwa3NlTkx2S0NzV0QzWGZxRnRTelY0c3VDYVB4cWg1OTFuRTFmQ1h2VDZJbS0tUE9fWHR3VUFMOTRsY0NsbHc3empkdkRRUHY5YUlzNGM?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSTl4YXJ0UDJJeXpMbFpTbV9sRFNNc2tLUEhsWkZiZVBzRkRKUHA2WDNHNXJiUDR0cVJhMDhnVnE0Sjl4MmNCempNR01nMWwzbDVqamlxeVBCa3UtbUtORmgxa0g2Z3NnNzFyV0lpNlBveGQ0ckFhc29KekE3SFVteDhFYmt6UVRRUkdWc0l3TjZXY0l0dTFqQW9JTWtXSi1pLWNUT09GdUh6SkF4YzcwWENDYm84LTFz?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR2hDb0piZnZVOWV3TFpmSmRfNlR6Rm5ubXJQRnNIZEYtQnNPb0RJSjY5SVhXQXM4VWsyenNwRDlaam1mSmRuRHhpbnBUZzUycHdkTURSLUYzcTlDUmJGMmtKTDZZVTJNS0dwTDlRSFl1T2xVd2pNR2E4dWpOa1hRejJ4RVhiR0Q4VnZqMmdXazI4eDBsQmFPSTcxNjhseDhmUmNzUUxSdHR1X04wbVQ3OGs5ZWg3dw?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHkzR2tUamdaU2V3QkJJWktSU1BTbk13b0Mxbmt2ZHlrTng5VzlpeHFYTVBkeVJ0Q0x0MlE2M3d0YjZmRTY5NVdrb1QxMlFhNGk1M0U1eGRPakREbzNmQ21pLUQ3YVAzWlk3TU5VeEJDcFIxbUxuUFJhOWlLal9FSWJfRktkOVRSQUhJbUhKSEV1QnFwZDdrNDV2WVBWT0xQNkdYU244MHRTSmIwU1RRN3dvN2Y4VVp2MG0xb1hhTElmb2paLXczUDRCUQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-08-22",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Kementerian ESDM",
+        "PLN",
+        "IESR"
+      ],
+      "headline": "ESDM alokasikan 82 persen anggaran 2027 untuk infrastruktur energi di tengah krisis pasokan Kalteng-Sulsel",
+      "whatChanged": "Kementerian ESDM pada 16 September 2026 mengumumkan bahwa 82 persen dari total anggaran ESDM 2027 dialokasikan untuk infrastruktur energi, dengan framing pemerataan akses energi sebagai tujuan utama.",
+      "whyItMatters": "Tema 'pln-transmisi-investasi' telah 15 kali muncul sejak 22 Agustus 2026 sebagai kondisi struktural. Alokasi 82 persen untuk infrastruktur adalah sinyal bahwa pemerintah telah mengakui ketidakcukupan investasi transmisi dan distribusi selama ini. Keputusan anggaran ini bertepatan persis dengan rapat darurat Bahlil-PLN untuk Kalteng, yang menunjukkan bahwa krisis pasokan aktif mendorong reorientasi fiskal, bukan sebaliknya.",
+      "secondOrder": "Besarnya alokasi infrastruktur ESDM 2027 berpotensi mempersempit ruang anggaran untuk subsidi energi non-infrastruktur seperti BBM, yang menurut IESR sudah dalam kondisi krisis tata kelola. Tekanan ganda ini dapat mendorong reformasi subsidi lebih cepat dari jadwal politik yang semula diasumsikan.",
+      "action": "Minta rincian breakdown 82 persen anggaran infrastruktur ESDM 2027: proporsi untuk transmisi versus pembangkitan versus distribusi, dan identifikasi apakah ada alokasi untuk interkoneksi Kalimantan-Sulawesi yang menjadi titik lemah yang terekspos minggu ini.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHkzR2tUamdaU2V3QkJJWktSU1BTbk13b0Mxbmt2ZHlrTng5VzlpeHFYTVBkeVJ0Q0x0MlE2M3d0YjZmRTY5NVdrb1QxMlFhNGk1M0U1eGRPakREbzNmQ21pLUQ3YVAzWlk3TU5VeEJDcFIxbUxuUFJhOWlLal9FSWJfRktkOVRSQUhJbUhKSEV1QnFwZDdrNDV2WVBWT0xQNkdYU244MHRTSmIwU1RRN3dvN2Y4VVp2MG0xb1hhTElmb2paLXczUDRCUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWFZ3Q1FMbDRpRGxEb2REVjV4aF93ZzRXVzNiU09RTDFLQlV3RUpmakJmVTk3anFlUUhDdEVlNFRSdzI1bDY4WG16elVJVWZkU3h5R1hLcFBCdmZiMG1iMmV4SzdMQi1GNjA2TmxIS19ZWV9NbGViQ2xxeG1Za2ppZW1hejVUQUFNOXBSYm0xSU5wa0VGWl9QYmxPb2pHcXZi0gGjAUFVX3lxTE5uc0laVmZabTdqaUw5dDM0d3ZHZXNSNzFhb1NkdGdmY1pxdnprMjlTdTh0SHQyZ1NhZ3d2ZlNvVEVqa2E1eWJFUEVCZTlIbnV2QmdvLXBwa3NlTkx2S0NzV0QzWGZxRnRTelY0c3VDYVB4cWg1OTFuRTFmQ1h2VDZJbS0tUE9fWHR3VUFMOTRsY0NsbHc3empkdkRRUHY5YUlzNGM?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://iesr.or.id/krisis-bbm-bukti-kegagalan-tata-kelola-iesr-desak-pemerintah-pulihkan-pasokan-dan-reformasi-subsidi/"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 16,
+        "firstSeen": "2026-08-22",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 3.8 Live"
+      ],
+      "headline": "Google DeepMind luncurkan Gemini 3.8 Live dengan Extended Thinking untuk interaksi real-time",
+      "whatChanged": "Google DeepMind pada 15 September 2026 memperkenalkan Gemini 3.8 Live dan Gemini 3.8 Live Extended Thinking, dua varian model yang dirancang untuk interaksi multimodal real-time dengan kemampuan penalaran yang diperpanjang.",
+      "whyItMatters": "Peluncuran ini memperluas persaingan di segmen model live dan agentic, yang sebelumnya didominasi oleh mode suara dan video real-time OpenAI. Kemampuan extended thinking pada mode live menandai konvergensi antara dua kapabilitas yang sebelumnya terpisah: kecepatan respons real-time dan kedalaman penalaran multi-langkah. Ini relevan langsung bagi pengembang yang membangun agen atau antarmuka percakapan produksi.",
+      "secondOrder": "Kompetisi di segmen live-multimodal dengan extended thinking akan menekan biaya inferensi untuk kasus penggunaan ini lebih cepat dari prediksi, karena Google memiliki infrastruktur TPU yang memungkinkan optimasi biaya compute yang tidak tersedia untuk vendor lain. Dampaknya bagi enterprise adalah jendela perencanaan infrastruktur AI yang semakin pendek karena paritas kemampuan kini bisa bergeser dalam hitungan minggu.",
+      "action": "Evaluasi apakah roadmap produk internal yang bergantung pada asumsi keunggulan satu vendor model tertentu perlu diperbarui: uji Gemini 3.8 Live Extended Thinking pada use case real-time yang sudah berjalan untuk mengukur selisih latensi dan akurasi penalaran dibandingkan model yang saat ini digunakan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-09-03",
+        "spanDays": 14
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "PSEL Kayu Manis",
+        "Rosan"
+      ],
+      "headline": "Danantara targetkan konstruksi PSEL Kayu Manis Bogor mulai akhir 2026; dividen akan dikonsultasikan ke Menkeu",
+      "whatChanged": "Danantara pada 16 September 2026 menyatakan pembangunan PSEL Kayu Manis di Bogor ditargetkan dimulai akhir 2026. Pada hari yang sama, Rosan memastikan akan berdiskusi dengan Menteri Keuangan terkait kebijakan dividen Danantara.",
+      "whyItMatters": "Tema 'danantara-bumn-karya-restructuring' telah 24 kali muncul sejak 19 Agustus 2026 sebagai kondisi struktural. Target konstruksi PSEL menunjukkan Danantara bergerak dari fase restrukturisasi portofolio ke fase eksekusi proyek infrastruktur. Sementara itu, perlunya diskusi dividen dengan Menteri Keuangan mengonfirmasi bahwa hubungan fiskal antara Danantara dan APBN belum sepenuhnya terdefinisi, menciptakan ketidakpastian bagi investor yang menilai kapasitas distribusi Danantara.",
+      "secondOrder": "Bila negosiasi dividen menghasilkan komitmen setoran ke APBN yang signifikan, Danantara akan menghadapi tekanan likuiditas yang dapat memperlambat pipeline investasi infrastruktur seperti PSEL. Risiko ini diperburuk oleh fakta bahwa banyak proyek BUMN Karya masih dalam restrukturisasi sehingga arus kas konsolidasi belum dapat diandalkan sebagai basis dividen yang stabil.",
+      "action": "Pantau hasil konsultasi Rosan dengan Menteri Keuangan: identifikasi apakah dividen yang akan ditetapkan bersifat tetap atau berbasis kinerja, karena mekanisme ini menentukan apakah proyek seperti PSEL Kayu Manis akan mendapat pendanaan tepat waktu atau mengalami penundaan serupa LRT City.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSk90TjJpckhKbUxybk9rVWxnbG52Znd5aWtBTUJvdmZVTG5qdTJNSFo2dVRZbXlualhrOENjdWNfV2xiX29seGt4S3JaVlpmWWtTbWs4UjhkUlRqY2wtNWs0U09QLWpiWXhpWHFITTJIMWVqa2k5VGYxOGhOU2R3b3RuQ3RhRHd4ZHRFOVN6c09ZSnlxTGFrOV9tMFdPVnhOM09xcEJvSElHSUJSNUdPdlctLTFtbTNHcnlDVk5XbzRFUHpsZ2fSAcsBQVVfeXFMT2dwQ1k4aExzOF93WjN4d2FBUldyNzdNa0ZjdHM5SE8yaHJiejlPZ1AwV0hFaG5oUTNQRmlYMV9QYW43X2lCV2hqSXVkT2doZFVLZHRHNHFCMUlJV2doaWF4TDB4RXhiYWF5eEV4OFBtTzB6VU1zMGUtUzlpNk9LSUp0cjVzeVZRaHpaRnE3NlU5aHFacEo0SVVOR3BwWC1kZHNTVk4yeWlja0FUbDMza09taUsxdkE4Tndsb0FkQzlScEpmZ3A0ZkJhaG8?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYXE5WE9nZlNlbzhITENZSV95RzhlYUgwSmdZbGhDcVlJNG43N19tcUkzUXdzTGltRzhnWlVTNnhzRENScGNaREo2ZUNhbTdQS3hGS1M3ek5XbWJodzVjdklVQ3ZYNWlTWFpiYzB5cWtsMHNUc1Byc3JJdl84Z0pHVnNfb19tOEY2VEhvTXNidHZMeXM5UTdEMEl1NEU5MTJ3bU1GdU5Kb2NPTW1vS1R3a3NIbUbSAboBQVVfeXFMT1dPMGx1WExVTWc4LUNOTkJTTFdtN0JTdzlUU24yMThBTkJJTHN3NTZvSEJFYnFDMTdwNVF0R3ZITGNXMHN5R3prdlRHTHM0bFMzcWNuUE54S0ZZQXRva200bFZKeUYwTm1EVjllRkFBalFJSGh1QWpuWVNqRE5lQm1rOGgwMDJkQ3IzbmNnMXpJMW1LazJCNGNDSmpsUW5IWkpVbm9FSHYydThUXzh6WWNSaS1Dbm4yUDBR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-08-19",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Hasil rapat Bahlil-PLN untuk Kalimantan Tengah: apakah ada keputusan kontrak daya darurat atau penugasan khusus PLN untuk interkoneksi Kalteng",
+      "dueDate": "2026-09-24"
+    },
+    {
+      "item": "Rincian breakdown anggaran infrastruktur ESDM 2027 sebesar 82 persen: proporsi transmisi versus pembangkitan dan ada tidaknya alokasi interkoneksi antarpulau",
+      "dueDate": "2026-10-01"
+    },
+    {
+      "item": "Hasil konsultasi Rosan dengan Menteri Keuangan mengenai mekanisme dividen Danantara: tetap atau berbasis kinerja",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Adopsi kerangka disclosure OpenAI oleh regulator: apakah UE atau otoritas lain menerbitkan panduan yang merujuk atau merespons dokumen misalignment OpenAI",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Update kapasitas aktual PLTA Sulawesi Selatan versus kapasitas terpasang di tengah berlanjutnya El Nino, untuk mengukur durasi risiko pasokan listrik Sulsel",
+      "dueDate": "2026-09-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-15T17:05:57.000Z"
+    },
+    {
+      "title": "Krisis BBM Bukti Kegagalan Tata Kelola: IESR Desak Pemerintah Pulihkan Pasokan dan Reformasi Subsidi",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/krisis-bbm-bukti-kegagalan-tata-kelola-iesr-desak-pemerintah-pulihkan-pasokan-dan-reformasi-subsidi/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-13T07:24:06.000Z"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "title": "Bahlil: Pemadaman Kalimantan–Sulawesi Bukan Imbas RKAB Batu Bara",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR2hDb0piZnZVOWV3TFpmSmRfNlR6Rm5ubXJQRnNIZEYtQnNPb0RJSjY5SVhXQXM4VWsyenNwRDlaam1mSmRuRHhpbnBUZzUycHdkTURSLUYzcTlDUmJGMmtKTDZZVTJNS0dwTDlRSFl1T2xVd2pNR2E4dWpOa1hRejJ4RVhiR0Q4VnZqMmdXazI4eDBsQmFPSTcxNjhseDhmUmNzUUxSdHR1X04wbVQ3OGs5ZWg3dw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T09:10:00.000Z"
+    },
+    {
+      "title": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Process",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUFEd3J4dUNMcFZQWXFyZXFxdDh3eFM4T2NlYXlZZm9ldjgtMHItRXBkdU9DTk9QbzNpWHpnMzlRaDNseWtwZnozOFNKVlc5MGRUaElBajhRc0oxNE9sdXJSbkJzLURSRlZzWlJ4cElyb0toRk9jTnFrVU9xeER0cWJNQ29fRlZUeWd6ZjlIQV96QmlRRjUteXl3b0ZYZVdISUdaVVVYWEVSY2RLeG9peTRZWQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T22:47:29.000Z"
+    },
+    {
+      "title": "Dorong Pemerataan Akses Energi, 82 Persen Anggaran ESDM 2027 untuk Infrastruktur",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHkzR2tUamdaU2V3QkJJWktSU1BTbk13b0Mxbmt2ZHlrTng5VzlpeHFYTVBkeVJ0Q0x0MlE2M3d0YjZmRTY5NVdrb1QxMlFhNGk1M0U1eGRPakREbzNmQ21pLUQ3YVAzWlk3TU5VeEJDcFIxbUxuUFJhOWlLal9FSWJfRktkOVRSQUhJbUhKSEV1QnFwZDdrNDV2WVBWT0xQNkdYU244MHRTSmIwU1RRN3dvN2Y4VVp2MG0xb1hhTElmb2paLXczUDRCUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-16T08:01:28.000Z"
+    },
+    {
+      "title": "Danantara sebut pembangunan PSEL Kayu Manis Bogor ditargetkan mulai akhir 2026",
+      "publisher": "ANTARA News Megapolitan",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSk90TjJpckhKbUxybk9rVWxnbG52Znd5aWtBTUJvdmZVTG5qdTJNSFo2dVRZbXlualhrOENjdWNfV2xiX29seGt4S3JaVlpmWWtTbWs4UjhkUlRqY2wtNWs0U09QLWpiWXhpWHFITTJIMWVqa2k5VGYxOGhOU2R3b3RuQ3RhRHd4ZHRFOVN6c09ZSnlxTGFrOV9tMFdPVnhOM09xcEJvSElHSUJSNUdPdlctLTFtbTNHcnlDVk5XbzRFUHpsZ2fSAcsBQVVfeXFMT2dwQ1k4aExzOF93WjN4d2FBUldyNzdNa0ZjdHM5SE8yaHJiejlPZ1AwV0hFaG5oUTNQRmlYMV9QYW43X2lCV2hqSXVkT2doZFVLZHRHNHFCMUlJV2doaWF4TDB4RXhiYWF5eEV4OFBtTzB6VU1zMGUtUzlpNk9LSUp0cjVzeVZRaHpaRnE3NlU5aHFacEo0SVVOR3BwWC1kZHNTVk4yeWlja0FUbDMza09taUsxdkE4Tndsb0FkQzlScEpmZ3A0ZkJhaG8?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T16:55:00.000Z"
+    },
+    {
+      "title": "Menteri Bahlil rapat dengan PLN bahas kelistrikan Kalteng",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWFZ3Q1FMbDRpRGxEb2REVjV4aF93ZzRXVzNiU09RTDFLQlV3RUpmakJmVTk3anFlUUhDdEVlNFRSdzI1bDY4WG16elVJVWZkU3h5R1hLcFBCdmZiMG1iMmV4SzdMQi1GNjA2TmxIS19ZWV9NbGViQ2xxeG1Za2ppZW1hejVUQUFNOXBSYm0xSU5wa0VGWl9QYmxPb2pHcXZi0gGjAUFVX3lxTE5uc0laVmZabTdqaUw5dDM0d3ZHZXNSNzFhb1NkdGdmY1pxdnprMjlTdTh0SHQyZ1NhZ3d2ZlNvVEVqa2E1eWJFUEVCZTlIbnV2QmdvLXBwa3NlTkx2S0NzV0QzWGZxRnRTelY0c3VDYVB4cWg1OTFuRTFmQ1h2VDZJbS0tUE9fWHR3VUFMOTRsY0NsbHc3empkdkRRUHY5YUlzNGM?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T07:11:29.000Z"
+    },
+    {
+      "title": "Rosan pastikan akan berdiskusi dengan Menkeu terkait dividen Danantara",
+      "publisher": "Antara News jatim",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYXE5WE9nZlNlbzhITENZSV95RzhlYUgwSmdZbGhDcVlJNG43N19tcUkzUXdzTGltRzhnWlVTNnhzRENScGNaREo2ZUNhbTdQS3hGS1M3ek5XbWJodzVjdklVQ3ZYNWlTWFpiYzB5cWtsMHNUc1Byc3JJdl84Z0pHVnNfb19tOEY2VEhvTXNidHZMeXM5UTdEMEl1NEU5MTJ3bU1GdU5Kb2NPTW1vS1R3a3NIbUbSAboBQVVfeXFMT1dPMGx1WExVTWc4LUNOTkJTTFdtN0JTdzlUU24yMThBTkJJTHN3NTZvSEJFYnFDMTdwNVF0R3ZITGNXMHN5R3prdlRHTHM0bFMzcWNuUE54S0ZZQXRva200bFZKeUYwTm1EVjllRkFBalFJSGh1QWpuWVNqRE5lQm1rOGgwMDJkQ3IzbmNnMXpJMW1LazJCNGNDSmpsUW5IWkpVbm9FSHYydThUXzh6WWNSaS1Dbm4yUDBR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T15:30:00.000Z"
+    },
+    {
+      "title": "PLTA di Sulsel Terdampak El Nino, Bahlil Bahas Mitigasi dengan PLN",
+      "publisher": "ekonomi.bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSTl4YXJ0UDJJeXpMbFpTbV9sRFNNc2tLUEhsWkZiZVBzRkRKUHA2WDNHNXJiUDR0cVJhMDhnVnE0Sjl4MmNCempNR01nMWwzbDVqamlxeVBCa3UtbUtORmgxa0g2Z3NnNzFyV0lpNlBveGQ0ckFhc29KekE3SFVteDhFYmt6UVRRUkdWc0l3TjZXY0l0dTFqQW9JTWtXSi1pLWNUT09GdUh6SkF4YzcwWENDYm84LTFz?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T06:46:14.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara suntik Rp 456 miliar ke LRT City; BP BUMN dan Adhi Karya minta maaf ke konsumen",
+      "occurrences": 24,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-16",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Perplexity menggunakan GPT-6 Astra untuk mengubah dan memonitor sistem produksi secara langsung",
+      "occurrences": 22,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-16",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Carlyle executive draws structural parallel between AI data center financing and pre-crisis mortgage structures",
+      "occurrences": 22,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-16",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Dirut PLN inspeksi langsung PLTU Jeneponto untuk pastikan pasokan listrik Sulawesi Selatan",
+      "occurrences": 22,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-16",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Kalimantan drought threatens coal supply to PLN; ESDM activates supply contingency",
+      "occurrences": 15,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-14",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 378,
+    "poolSize": 110,
+    "generatedAt": "2026-09-16T23:21:31.871Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

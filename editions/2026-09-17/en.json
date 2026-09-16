@@ -1,0 +1,336 @@
+{
+  "slug": "2026-09-17",
+  "date": "2026-09-17",
+  "lang": "en",
+  "title": "OpenAI Safety Disclosure, Gemini 3.8 Live, Fed Hike Hit Markets, PLN El Niño Risk, Danantara Jakarta Push",
+  "dek": "A first-ever model-misalignment disclosure framework, a new real-time reasoning model, a surprise Fed rate rise, and concurrent power-grid and governance stress in Indonesia make today's edition unusually action-dense across all three domains.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI has published a formal misalignment-disclosure framework alongside six incident reports, converting AI safety from a principle into a documented liability surface that regulators and enterprise buyers can now cite. Google DeepMind simultaneously launched Gemini 3.8 Live and Live Extended Thinking, extending real-time multimodal reasoning to a new competitive tier. On energy, El Niño has cut hydropower output across South Sulawesi, forcing Minister Bahlil into emergency talks with PLN and compounding a coal-supply disruption that the ministry has yet to fully explain publicly. In corporate governance, President Prabowo has publicly directed Danantara to fund Jakarta's green-city programme, expanding the sovereign fund's mandate further beyond its original BUMN-restructuring remit at a moment when its dividend policy with the Finance Ministry remains unresolved. Separately, the US Federal Reserve's first rate increase in three years sent Wall Street lower, tightening the external financing environment for Indonesian infrastructure and Danantara's own capital-market plans.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI"
+      ],
+      "headline": "OpenAI publishes first formal model-misalignment disclosure framework with six live incident reports",
+      "whatChanged": "OpenAI released a structured framework for tracking, investigating, and publicly disclosing model misalignment, accompanied by six reports of unexpected or concerning model behaviour observed in its deployed systems. This is the first time OpenAI has attached a repeatable disclosure process to safety incidents rather than handling them case by case.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread, which is now structural after seven editions. The framework converts model misalignment from a reputational risk into a documented, auditable event category. Enterprise buyers, insurers, and regulators now have a named process they can reference in contracts and procurement requirements, which accelerates the creation of compliance obligations even before formal regulation arrives.",
+      "secondOrder": "Once a vendor publishes a disclosure framework with live examples, competitors face asymmetric pressure: silence is no longer neutral and looks like concealment. Anthropic, Google DeepMind, and Meta will each need to respond with comparable processes or accept a governance-gap narrative. The result is that safety disclosure is becoming a competitive dimension, not only a regulatory one, and the cadence of public incident reports will drive investor and partner perception of model trustworthiness.",
+      "action": "Review any enterprise AI deployment contracts signed before today and check whether they reference a vendor-side incident-disclosure obligation. OpenAI's framework now provides the template language; insert equivalent clauses into upcoming renewals or new vendor agreements and ask all current AI vendors whether they have, or will commit to, an equivalent process.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://openai.com/index/model-misalignment-reporting-framework",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUFEd3J4dUNMcFZQWXFyZXFxdDh3eFM4T2NlYXlZZm9ldjgtMHItRXBkdU9DTk9QbzNpWHpnMzlRaDNseWtwZnozOFNKVlc5MGRUaElBajhRc0oxNE9sdXJSbkJzLURSRlZzWlJ4cElyb0toRk9jTnFrVU9xeER0cWJNQ29fRlZUeWd6ZjlIQV96QmlRRjUteXl3b0ZYZVdISUdaVVVYWEVSY2RLeG9peTRZWQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-09-03",
+        "spanDays": 14
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind"
+      ],
+      "headline": "Google DeepMind launches Gemini 3.8 Live and Live Extended Thinking for real-time multimodal reasoning",
+      "whatChanged": "Google DeepMind released Gemini 3.8 Live and a companion Extended Thinking variant on 15 September 2026, adding real-time, low-latency multimodal reasoning to the Gemini 3.8 series. The Extended Thinking mode exposes intermediate reasoning steps during live interaction, a capability not previously available in the Gemini family at this tier.",
+      "whyItMatters": "Real-time extended thinking closes the gap between asynchronous chain-of-thought models and live agentic deployments. Enterprises that had deferred agentic pilots because latency made reasoning-transparent models impractical for interactive workflows now face a lower barrier. The release also intensifies competition with OpenAI's o-series and Anthropic Claude's extended thinking modes at precisely the moment OpenAI is drawing attention to safety incidents, giving Google DeepMind a simultaneous capability and trust-positioning opportunity.",
+      "secondOrder": "The combination of live audio-video input and visible reasoning steps creates a new audit surface for agentic systems: the reasoning trace can be logged and reviewed, making compliance and explainability requirements technically tractable for the first time in real-time settings. Regulated industries including finance and healthcare may find this lowers one of their principal objections to agentic deployment, which would accelerate enterprise licensing faster than the general-availability roadmap implies.",
+      "action": "Run a focused evaluation of Gemini 3.8 Live Extended Thinking against the enterprise use cases currently in pilot on OpenAI or Anthropic models, specifically testing latency, reasoning-trace legibility, and integration path with existing tooling. If the reasoning trace can be logged natively, assess whether it satisfies the explainability clauses in pending regulatory frameworks your organisation is tracking.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-09-03",
+        "spanDays": 14
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Bahlil"
+      ],
+      "headline": "El Niño cuts South Sulawesi hydro output; Minister Bahlil holds emergency talks with PLN on mitigation",
+      "whatChanged": "Minister Bahlil met with PLN on 16 September 2026 to discuss power supply for Central Kalimantan and South Sulawesi. Separately, Bisnis.com reported that hydroelectric plants in South Sulawesi have been directly impacted by El Niño, reducing generation capacity. The emergency meeting follows earlier reports of blackouts in Kalimantan and Sulawesi that the Ministry attributed to causes other than coal-quota restrictions.",
+      "whyItMatters": "This continues the pln-grid-investment thread, structural since 22 August. El Niño-driven hydro shortfalls on top of a coal-supply disruption that remains publicly unexplained means PLN is managing simultaneous fuel-diversity failures across two major island grids. The combination exposes the absence of adequate reserve margin and fast-response backup capacity outside Java-Bali.",
+      "secondOrder": "Emergency ministerial intervention signals that normal operational channels have been exhausted. When a system operator escalates to the minister level, the next step is typically either emergency import procurement, demand curtailment, or accelerated spinning-reserve contracting. Each of these has a tariff or subsidy implication that PLN cannot absorb at the current frozen retail rate. The fiscal pressure may force a policy decision on either electricity tariff adjustment or emergency budget transfer before year-end.",
+      "action": "Map PLN's generation portfolio in South Sulawesi and Central Kalimantan by fuel type and assess what fraction is hydro-dependent. Then quantify the reserve margin gap if hydro output falls by 20-30% for a sustained dry season. Use this to frame the question: at what reserve-margin threshold does the government face a binary choice between tariff reform and emergency fiscal transfer?",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWFZ3Q1FMbDRpRGxEb2REVjV4aF93ZzRXVzNiU09RTDFLQlV3RUpmakJmVTk3anFlUUhDdEVlNFRSdzI1bDY4WG16elVJVWZkU3h5R1hLcFBCdmZiMG1iMmV4SzdMQi1GNjA2TmxIS19ZWV9NbGViQ2xxeG1Za2ppZW1hejVUQUFNOXBSYm0xSU5wa0VGWl9QYmxPb2pHcXZi0gGjAUFVX3lxTE5uc0laVmZabTdqaUw5dDM0d3ZHZXNSNzFhb1NkdGdmY1pxdnprMjlTdTh0SHQyZ1NhZ3d2ZlNvVEVqa2E1eWJFUEVCZTlIbnV2QmdvLXBwa3NlTkx2S0NzV0QzWGZxRnRTelY0c3VDYVB4cWg1OTFuRTFmQ1h2VDZJbS0tUE9fWHR3VUFMOTRsY0NsbHc3empkdkRRUHY5YUlzNGM?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSTl4YXJ0UDJJeXpMbFpTbV9sRFNNc2tLUEhsWkZiZVBzRkRKUHA2WDNHNXJiUDR0cVJhMDhnVnE0Sjl4MmNCempNR01nMWwzbDVqamlxeVBCa3UtbUtORmgxa0g2Z3NnNzFyV0lpNlBveGQ0ckFhc29KekE3SFVteDhFYmt6UVRRUkdWc0l3TjZXY0l0dTFqQW9JTWtXSi1pLWNUT09GdUh6SkF4YzcwWENDYm84LTFz?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR2hDb0piZnZVOWV3TFpmSmRfNlR6Rm5ubXJQRnNIZEYtQnNPb0RJSjY5SVhXQXM4VWsyenNwRDlaam1mSmRuRHhpbnBUZzUycHdkTURSLUYzcTlDUmJGMmtKTDZZVTJNS0dwTDlRSFl1T2xVd2pNR2E4dWpOa1hRejJ4RVhiR0Q4VnZqMmdXazI4eDBsQmFPSTcxNjhseDhmUmNzUUxSdHR1X04wbVQ3OGs5ZWg3dw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-08-22",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Prabowo",
+        "Rosan"
+      ],
+      "headline": "Prabowo directs Danantara to fund Jakarta green-city programme while dividend policy with Finance Ministry stays unresolved",
+      "whatChanged": "President Prabowo publicly requested that Danantara support Jakarta's transition to a green city, as reported by CNN Indonesia and Epaper Media Indonesia on 16 September 2026. On the same day, Rosan, identified in ANTARA reporting as a Danantara figure, confirmed plans to discuss the dividend policy with the Finance Minister, signalling the distribution arrangement between Danantara and the state budget remains open.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, structural since 19 August at 24 editions. Each new presidential directive that assigns Danantara a fresh spending mandate, whether housing, Jakarta's green programme, or BUMN Karya restructuring, widens the gap between the fund's committed outflows and its resolved inflow structure. The dividend conversation with the Finance Ministry is the fulcrum: until the dividend policy is settled, Danantara is accumulating mandates against an unclosed funding equation.",
+      "secondOrder": "A sovereign investment fund that receives politically assigned mandates faster than it resolves its capital structure begins to resemble a quasi-fiscal vehicle rather than a commercial fund. This has credit-rating implications: if Danantara's debt instruments, including the Patriot Bond, are assessed on the assumption of commercial discipline, expanding quasi-fiscal mandates without a locked funding source degrades that assumption. Debt investors and rating agencies will eventually price this risk, potentially raising Danantara's borrowing cost precisely when it needs cheap capital to execute restructuring.",
+      "action": "Request or reconstruct Danantara's committed-mandate ledger: total capital allocated to BUMN Karya restructuring, LRT City, PSEL Kayu Manis, housing expo support, and now Jakarta green-city, against confirmed capital sources including resolved dividend flows, Patriot Bond proceeds, and asset monetisation. The gap between the two columns is the key governance risk to monitor before the next bond issuance or rating review.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUjNDVUlka0FHZjZocXhTeUNIclVEOHluNG9fNjBxdUowZ3ZkTExKSURtbmZoX3FEZlN3eUFKdE1Ub1J5Q1Rzc0haaVp0dTlJaXRHSl94LTlzQ0pFeDlneWZYV1paQVJGa3RXd20tN1dGbDRjb2R1R29IcS1BaDZCLW85YTljUVVta3pYVUZwZ1puQ0FER1J2YU5nZV9zMXRaWGNXenJrZm5aMEstbTIzSVpJZXJNdzlhZkFHaS03X1BQZw?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMUpWYUJUaXN0dTl5dXhjUEt3YXAxX1lLZVJfYVdQYkh3d256a2thMTNBY0ttaXlFQjJhaTRwci14Sy02OHk4WFlFOGxIN2tZbGdjQ0pYR3BTemtsNXBsNHB0OWlhSVR0SzJKZWctM2FPVHoyZE94X2J4U3dzcTc0ZUJ3U3A?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYXE5WE9nZlNlbzhITENZSV95RzhlYUgwSmdZbGhDcVlJNG43N19tcUkzUXdzTGltRzhnWlVTNnhzRENScGNaREo2ZUNhbTdQS3hGS1M3ek5XbWJodzVjdklVQ3ZYNWlTWFpiYzB5cWtsMHNUc1Byc3JJdl84Z0pHVnNfb19tOEY2VEhvTXNidHZMeXM5UTdEMEl1NEU5MTJ3bU1GdU5Kb2NPTW1vS1R3a3NIbUbSAboBQVVfeXFMT1dPMGx1WExVTWc4LUNOTkJTTFdtN0JTdzlUU24yMThBTkJJTHN3NTZvSEJFYnFDMTdwNVF0R3ZITGNXMHN5R3prdlRHTHM0bFMzcWNuUE54S0ZZQXRva200bFZKeUYwTm1EVjllRkFBalFJSGh1QWpuWVNqRE5lQm1rOGgwMDJkQ3IzbmNnMXpJMW1LazJCNGNDSmpsUW5IWkpVbm9FSHYydThUXzh6WWNSaS1Dbm4yUDBR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-08-19",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Federal Reserve",
+        "Danantara",
+        "PLN"
+      ],
+      "headline": "US Federal Reserve raises rates for first time in three years, tightening external financing for Indonesian infrastructure",
+      "whatChanged": "The US Federal Reserve raised interest rates, its first increase in three years, as reported by Katadata on 16 September 2026. Wall Street indices closed lower following the decision.",
+      "whyItMatters": "A Fed rate rise tightens dollar-denominated financing conditions globally. For Indonesia, this raises the cost of USD-denominated sovereign and quasi-sovereign borrowing at the moment Danantara is pursuing international capital markets and PLN is seeking financing for grid and generation investment. It also strengthens the dollar relative to the rupiah, increasing the import cost of energy equipment and pressuring PLN's USD-linked fuel procurement budget.",
+      "secondOrder": "The rate rise changes the sequencing calculus for Indonesian infrastructure projects that were priced under a declining-rate assumption. Projects where financial close has been delayed, including Danantara's BUMN Karya restructuring vehicles and any PLN generation tenders with USD debt tranches, may face covenant breaches or viability gaps that were not present three months ago. This creates a near-term window where the government must either inject equity, renegotiate debt terms, or accept project delays.",
+      "action": "Identify all infrastructure projects in the pipeline, across PLN, Danantara vehicles, and BUMN Karya entities, that have a USD debt tranche or are benchmarked to SOFR or US Treasuries. Assess the change in debt service coverage ratio under a scenario where the 10-year US Treasury yield rises a further 50 basis points. Flag any project where coverage falls below 1.2x as requiring immediate sponsor or government attention.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://katadata.co.id/finansial/bursa/6aab22a22f178/wall-street-merosot-usai-the-fed-naikkan-suku-bunga-perdana-dalam-3-tahun"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-08-19",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "OpenAI misalignment framework: watch for competitor responses from Anthropic and Google DeepMind, specifically whether they publish equivalent incident-disclosure processes or remain silent, which will define the governance benchmark for enterprise AI procurement.",
+      "dueDate": "2026-10-01"
+    },
+    {
+      "item": "PLN South Sulawesi and Kalimantan reserve-margin update: monitor whether the Bahlil-PLN emergency talks produce a public mitigation plan, emergency procurement announcement, or any signal of tariff adjustment to cover the cost of backup capacity.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Danantara dividend policy resolution: the confirmed discussion between Rosan and the Finance Minister should produce a disclosed dividend-distribution framework; absence of a public announcement by end-September 2026 is itself a signal of continued governance uncertainty.",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "item": "Fed rate trajectory and rupiah response: track Bank Indonesia's policy meeting response to the Fed hike and any revision to PLN or Ministry of Finance USD borrowing costs in Q4 2026 budget planning.",
+      "dueDate": "2026-10-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-15T17:05:57.000Z"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "title": "Prabowo Minta Danantara Bantu Jakarta",
+      "publisher": "Epaper Media Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMUpWYUJUaXN0dTl5dXhjUEt3YXAxX1lLZVJfYVdQYkh3d256a2thMTNBY0ttaXlFQjJhaTRwci14Sy02OHk4WFlFOGxIN2tZbGdjQ0pYR3BTemtsNXBsNHB0OWlhSVR0SzJKZWctM2FPVHoyZE94X2J4U3dzcTc0ZUJ3U3A?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "title": "Bahlil: Pemadaman Kalimantan–Sulawesi Bukan Imbas RKAB Batu Bara",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR2hDb0piZnZVOWV3TFpmSmRfNlR6Rm5ubXJQRnNIZEYtQnNPb0RJSjY5SVhXQXM4VWsyenNwRDlaam1mSmRuRHhpbnBUZzUycHdkTURSLUYzcTlDUmJGMmtKTDZZVTJNS0dwTDlRSFl1T2xVd2pNR2E4dWpOa1hRejJ4RVhiR0Q4VnZqMmdXazI4eDBsQmFPSTcxNjhseDhmUmNzUUxSdHR1X04wbVQ3OGs5ZWg3dw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T09:10:00.000Z"
+    },
+    {
+      "title": "Wall Street Merosot Usai The Fed Naikkan Suku Bunga Perdana dalam 3 Tahun",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/bursa/6aab22a22f178/wall-street-merosot-usai-the-fed-naikkan-suku-bunga-perdana-dalam-3-tahun",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-16T23:13:00.000Z"
+    },
+    {
+      "title": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Process",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUFEd3J4dUNMcFZQWXFyZXFxdDh3eFM4T2NlYXlZZm9ldjgtMHItRXBkdU9DTk9QbzNpWHpnMzlRaDNseWtwZnozOFNKVlc5MGRUaElBajhRc0oxNE9sdXJSbkJzLURSRlZzWlJ4cElyb0toRk9jTnFrVU9xeER0cWJNQ29fRlZUeWd6ZjlIQV96QmlRRjUteXl3b0ZYZVdISUdaVVVYWEVSY2RLeG9peTRZWQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T22:47:29.000Z"
+    },
+    {
+      "title": "Menteri Bahlil rapat dengan PLN bahas kelistrikan Kalteng",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWFZ3Q1FMbDRpRGxEb2REVjV4aF93ZzRXVzNiU09RTDFLQlV3RUpmakJmVTk3anFlUUhDdEVlNFRSdzI1bDY4WG16elVJVWZkU3h5R1hLcFBCdmZiMG1iMmV4SzdMQi1GNjA2TmxIS19ZWV9NbGViQ2xxeG1Za2ppZW1hejVUQUFNOXBSYm0xSU5wa0VGWl9QYmxPb2pHcXZi0gGjAUFVX3lxTE5uc0laVmZabTdqaUw5dDM0d3ZHZXNSNzFhb1NkdGdmY1pxdnprMjlTdTh0SHQyZ1NhZ3d2ZlNvVEVqa2E1eWJFUEVCZTlIbnV2QmdvLXBwa3NlTkx2S0NzV0QzWGZxRnRTelY0c3VDYVB4cWg1OTFuRTFmQ1h2VDZJbS0tUE9fWHR3VUFMOTRsY0NsbHc3empkdkRRUHY5YUlzNGM?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T07:11:29.000Z"
+    },
+    {
+      "title": "Rosan pastikan akan berdiskusi dengan Menkeu terkait dividen Danantara",
+      "publisher": "Antara News jatim",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYXE5WE9nZlNlbzhITENZSV95RzhlYUgwSmdZbGhDcVlJNG43N19tcUkzUXdzTGltRzhnWlVTNnhzRENScGNaREo2ZUNhbTdQS3hGS1M3ek5XbWJodzVjdklVQ3ZYNWlTWFpiYzB5cWtsMHNUc1Byc3JJdl84Z0pHVnNfb19tOEY2VEhvTXNidHZMeXM5UTdEMEl1NEU5MTJ3bU1GdU5Kb2NPTW1vS1R3a3NIbUbSAboBQVVfeXFMT1dPMGx1WExVTWc4LUNOTkJTTFdtN0JTdzlUU24yMThBTkJJTHN3NTZvSEJFYnFDMTdwNVF0R3ZITGNXMHN5R3prdlRHTHM0bFMzcWNuUE54S0ZZQXRva200bFZKeUYwTm1EVjllRkFBalFJSGh1QWpuWVNqRE5lQm1rOGgwMDJkQ3IzbmNnMXpJMW1LazJCNGNDSmpsUW5IWkpVbm9FSHYydThUXzh6WWNSaS1Dbm4yUDBR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T15:30:00.000Z"
+    },
+    {
+      "title": "PLTA di Sulsel Terdampak El Nino, Bahlil Bahas Mitigasi dengan PLN",
+      "publisher": "ekonomi.bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSTl4YXJ0UDJJeXpMbFpTbV9sRFNNc2tLUEhsWkZiZVBzRkRKUHA2WDNHNXJiUDR0cVJhMDhnVnE0Sjl4MmNCempNR01nMWwzbDVqamlxeVBCa3UtbUtORmgxa0g2Z3NnNzFyV0lpNlBveGQ0ckFhc29KekE3SFVteDhFYmt6UVRRUkdWc0l3TjZXY0l0dTFqQW9JTWtXSi1pLWNUT09GdUh6SkF4YzcwWENDYm84LTFz?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T06:46:14.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Ingin Danantara Bantu DKI Jadi Negeri Hijau",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUjNDVUlka0FHZjZocXhTeUNIclVEOHluNG9fNjBxdUowZ3ZkTExKSURtbmZoX3FEZlN3eUFKdE1Ub1J5Q1Rzc0haaVp0dTlJaXRHSl94LTlzQ0pFeDlneWZYV1paQVJGa3RXd20tN1dGbDRjb2R1R29IcS1BaDZCLW85YTljUVVta3pYVUZwZ1puQ0FER1J2YU5nZV9zMXRaWGNXenJrZm5aMEstbTIzSVpJZXJNdzlhZkFHaS03X1BQZw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T15:16:46.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara suntik Rp 456 miliar ke LRT City; BP BUMN dan Adhi Karya minta maaf ke konsumen",
+      "occurrences": 24,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-16",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Perplexity menggunakan GPT-6 Astra untuk mengubah dan memonitor sistem produksi secara langsung",
+      "occurrences": 22,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-16",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Carlyle executive draws structural parallel between AI data center financing and pre-crisis mortgage structures",
+      "occurrences": 22,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-16",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Dirut PLN inspeksi langsung PLTU Jeneponto untuk pastikan pasokan listrik Sulawesi Selatan",
+      "occurrences": 22,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-16",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Kalimantan drought threatens coal supply to PLN; ESDM activates supply contingency",
+      "occurrences": 15,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-14",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 378,
+    "poolSize": 110,
+    "generatedAt": "2026-09-16T23:22:46.082Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
