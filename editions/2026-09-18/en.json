@@ -1,0 +1,354 @@
+{
+  "slug": "2026-09-18",
+  "date": "2026-09-18",
+  "lang": "en",
+  "title": "Anthropic Measures AI Self-Use; IESR Flags Indonesia Grid Gap; PSEL Breaks Ground",
+  "dek": "Three converging pressures: AI labs turning introspective about their own development pace, Indonesia's grid remaining the binding constraint on renewables, and Danantara converting mandates into construction starts.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "Anthropic has published a framework measuring how much of its own R&D is driven by Claude, with Bloomberg reporting 26%, introducing a new self-referential feedback loop into frontier lab development that peers and regulators have not yet priced in. Separately, IESR's MENTARI Grids report, released today, makes the case that Indonesia's transmission network is the single structural barrier to meeting its renewable targets, a condition the archive has tracked for 23 editions and that now has a named programme proposal attached to it. On the corporate side, Danantara broke ground on the PSEL Bogor Raya 1 waste-to-energy facility, converting its expanding mandate from announcement to concrete infrastructure. OpenAI launched Astra for Law, the first domain-specific deployment of a frontier model with legal-grade confidentiality controls, shifting the enterprise AI contract and liability conversation. Finally, the ASEAN Power Grid faces a specific licensing bottleneck: Indonesia's five-year export licence cap and Sarawak's discretionary terms are blocking the long-term legal certainty that cross-border power projects require, adding a regulatory layer to what was previously framed as a financing problem.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Bloomberg"
+      ],
+      "headline": "Anthropic reports Claude drives 26% of its own R&D, publishing a pace-of-development measurement framework",
+      "whatChanged": "Anthropic released a formal framework for measuring the pace of AI development inside frontier labs and, per Bloomberg, disclosed that Claude is responsible for 26% of the company's own research and development output. This is the first time a leading lab has published a structured internal measurement of AI-driven self-acceleration.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread, which is now structural at 8 editions. The 26% figure is not a performance benchmark; it is a governance metric. It quantifies the degree to which a lab's safety and capability research is itself being shaped by the model under evaluation, creating a feedback loop that external auditors, regulators, and board members have no existing framework to assess.",
+      "secondOrder": "If Claude accelerates Anthropic's R&D by 26% today, the denominator for human oversight shrinks as that share grows. Safety governance structures built on human review velocity will become structurally inadequate before any policy process can respond. Peers who have not published equivalent metrics are now under implicit pressure to do so, but publishing the number also creates a liability surface.",
+      "action": "Request that any frontier AI vendor in procurement or partnership discussions disclose what share of their model's safety testing and red-teaming is itself AI-assisted. Treat the absence of that disclosure as a governance gap, not a confidentiality norm.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQW9xMjhvRnlfemhnLXh1SmppNWZ6WHFjYXlUMzVUaDRVcFBlcGVvZjNUX1c4Zy1NcTN6ZXdXc1NzSVcwcDNoTnJ6cGVlb0dEWnRkbGlHbEdPNTFYdjZLb1RSLWFBTFlnMVg1MkFxOFBXeERNR1JsZjlPTFRfZDFteVRCTFcxRG9nVjAxMW1FeEpSV2lXSlBWTXNLT1V6TVYzeHhockFpZ2wzS25qOXIxS0hVWTg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-09-03",
+        "spanDays": 15
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IESR",
+        "PLN",
+        "RUPTL"
+      ],
+      "headline": "IESR releases MENTARI Grids report naming transmission as the binding constraint on Indonesia's renewable targets",
+      "whatChanged": "IESR published the MENTARI Grids report on 17 September 2026, presenting a structured policy proposal arguing that Indonesia's transmission network is the primary structural barrier preventing the country from meeting its renewable energy capacity and mix targets as set out in the RUPTL. The report follows IEEFA's earlier fact sheets and presentations on the same bottleneck and is the most comprehensive primary-source articulation of the problem to date.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread, now structural at 16 editions. The accumulation now implies that the transmission gap is no longer a planning risk but an operational constraint: renewable capacity is being added faster than the grid can absorb or route it. MENTARI Grids gives this condition a named programme frame, which is the prerequisite for structured financing and regulatory action.",
+      "secondOrder": "A named programme proposal changes the political economy. Ministries, DPR committees, and multilateral lenders can now respond to a specific instrument rather than a general diagnosis. The risk is that the proposal becomes a talking point that delays rather than accelerates action, particularly given that 82% of ESDM's 2027 budget is already allocated to infrastructure but the transmission subholding structure remains unresolved.",
+      "action": "Map the MENTARI Grids proposal against the existing RUPTL 2025-2034 transmission capex schedule and identify which specific segments remain unfunded or untendered. That gap is where project finance, JETP funds, or multilateral credit can be positioned this quarter.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHkzR2tUamdaU2V3QkJJWktSU1BTbk13b0Mxbmt2ZHlrTng5VzlpeHFYTVBkeVJ0Q0x0MlE2M3d0YjZmRTY5NVdrb1QxMlFhNGk1M0U1eGRPakREbzNmQ21pLUQ3YVAzWlk3TU5VeEJDcFIxbUxuUFJhOWlLal9FSWJfRktkOVRSQUhJbUhKSEV1QnFwZDdrNDV2WVBWT0xQNkdYU244MHRTSmIwU1RRN3dvN2Y4VVp2MG0xb1hhTElmb2paLXczUDRCUQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 17,
+        "firstSeen": "2026-08-22",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara Indonesia",
+        "PSEL Bogor Raya 1"
+      ],
+      "headline": "Danantara breaks ground on PSEL Bogor Raya 1 waste-to-energy facility, converting mandate to construction",
+      "whatChanged": "Danantara Indonesia announced the formal commencement of construction of PSEL Bogor Raya 1, a waste-to-energy facility, on 17 September 2026. This is a primary source announcement from Danantara itself. The facility will supply green energy in addition to managing municipal solid waste, per Epaper Media Indonesia.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now structural at 25 editions. The groundbreaking is the first observable conversion of Danantara's expanded mandate into physical infrastructure. Prior coverage documented mandate expansion into LRT, PSEL, and Sarinah alongside dividend flows to the Finance Ministry; this event tests whether the mandate expansion translates into execution capacity.",
+      "secondOrder": "A construction start on a waste-to-energy project locks in a multi-year cost and revenue structure that is difficult to unwind politically. If Danantara's project pipeline accumulates more such commitments before its governance and balance sheet structures are fully resolved, the restructuring risk shifts from strategic to operational. Creditors and co-investors evaluating the PSEL Bogor Raya model will watch whether this project reaches financial close on schedule.",
+      "action": "Track the financing structure of PSEL Bogor Raya 1: identify whether it uses Danantara balance sheet, project finance with PLN as offtaker, or a blended mechanism. The answer determines whether this is a replicable template or a one-off political signal.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEh2QW83aHd0YTJWVlhZU3dhYzlNY3Z4bmIxbHhZSjlyY1ZyNWVuLXpZZE5zSDhQOThtQ1NNR2cya2xpM3dxRDd0LXNnUjlkdFQ2cWZfVXBpNG5aLTZRQXJUWWdyZU1UTmhYS09iZ0E4XzBwV3oxRU5DY1RWd3I5WmMzQm0yRlNXcTFPN1BLMUNubUcyc2RMUmF4OA?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83UjdfbkowbHV4UFlrMGpYcXlYSlZOTUdUUGRuX3d4UXRPRnZZbE5hRExCd2s1RVlXNGNHaTluWkxqTkFObTFfSm5JVUJmUGVXZFFhVmVXWWNvY3RK?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-19",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Astra for Law"
+      ],
+      "headline": "OpenAI launches Astra for Law with legal-grade confidentiality controls and custom firm workflows",
+      "whatChanged": "OpenAI introduced Astra for Law on 17 September 2026, described as frontier intelligence for legal work with custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work. This is a primary source announcement from OpenAI. It is the first domain-specific product from OpenAI that explicitly names confidentiality grade as a product feature rather than a configuration option.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts thread, structural at 23 editions. Naming confidentiality grade as a product specification shifts the contract and liability conversation: law firms and their clients can now negotiate AI access against a stated standard, and that standard becomes discoverable in litigation about data handling. Competitors without an equivalent specification are implicitly at a disadvantage in regulated-sector procurement.",
+      "secondOrder": "Legal-grade confidentiality controls, once established as a product category, will be demanded by adjacent regulated sectors: investment banking, healthcare, and government contracting. The precedent OpenAI sets in how it defines, audits, and certifies that standard will determine whether the category is credible or nominal. Bar associations and legal regulators in major jurisdictions will be compelled to respond with guidance, creating a compliance layer that did not exist a week ago.",
+      "action": "Review any existing or pending AI vendor agreements for legal, compliance, or advisory functions against the Astra for Law feature set. Identify whether current contracts specify a confidentiality grade or merely reference general data processing terms, and amend where the gap creates regulatory exposure.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/astra-for-law"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-08-20",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Singapore",
+        "Sarawak"
+      ],
+      "headline": "ASEAN Power Grid stalled by Indonesia's five-year export licence cap and Sarawak's discretionary licence terms",
+      "whatChanged": "Eco-Business reported on 17 September 2026 that Singapore's pursuit of clean power imports via the ASEAN Power Grid is blocked by two specific regulatory constraints: Indonesia's five-year cap on electricity export licences and Sarawak's discretionary, non-binding licence terms. Both prevent cross-border power projects from securing the long-term legal certainty required for project financing.",
+      "whyItMatters": "This continues the pln-grid-investment thread, structural at 23 editions. The framing shifts from grid capacity to regulatory structure: the barrier is not megawatts or cables but licence tenure. A five-year export licence is insufficient to underwrite a 20-30 year power purchase agreement, which means no rational project lender will commit capital regardless of the physical infrastructure available.",
+      "secondOrder": "If Indonesia does not extend its export licence tenure, it forecloses participation in a regional clean energy market that Chinese clean technology suppliers are already supplying at scale. ASEAN clean technology imports from China exceeded USD 20 billion, per Eco-Business on the same date. Indonesia risks being a transit gap rather than an exporter in a grid it has the renewable resource base to lead.",
+      "action": "Assess whether any current or planned renewable projects in Kalimantan or Sumatra have modelled cross-border export as a revenue stream. If so, the five-year licence cap should be treated as a hard constraint in financial models, not a regulatory risk to be mitigated, until Indonesia formally amends the export licence framework.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.eco-business.com/news/asean-power-grid-faces-licensing-hurdle-as-singapore-pursues-clean-power-imports/"
+      ],
+      "secondOrderUrls": [
+        "https://www.eco-business.com/news/southeast-asia-becomes-top-asian-market-for-chinese-clean-technology/"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-08-22",
+        "spanDays": 27
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Anthropic's pace-of-development framework: watch for peer disclosures from OpenAI, Google DeepMind, or Meta on AI-assisted R&D share, and for regulatory responses from the EU AI Office or US AISI.",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "MENTARI Grids proposal: track whether Kementerian ESDM or DPR formally responds to the transmission subholding structure recommendation in the next budget cycle discussion.",
+      "dueDate": "2026-11-01"
+    },
+    {
+      "item": "PSEL Bogor Raya 1 financial close: monitor for disclosure of the debt financing structure, offtake agreement with PLN, and any co-investor announcement.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Indonesia electricity export licence reform: watch for any DPR or Kementerian ESDM move to extend the five-year cap, triggered by ASEAN Power Grid negotiations or JETP conditionality.",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "Astra for Law regulatory response: monitor bar association guidance in Indonesia, Singapore, and the EU on AI use in confidential legal work, which will determine whether OpenAI's confidentiality standard becomes the reference or a liability.",
+      "dueDate": "2026-12-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-17T20:27:12.000Z"
+    },
+    {
+      "title": "Construction of PSEL Bogor Raya 1 Waste-to-Energy Begins",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEh2QW83aHd0YTJWVlhZU3dhYzlNY3Z4bmIxbHhZSjlyY1ZyNWVuLXpZZE5zSDhQOThtQ1NNR2cya2xpM3dxRDd0LXNnUjlkdFQ2cWZfVXBpNG5aLTZRQXJUWWdyZU1UTmhYS09iZ0E4XzBwV3oxRU5DY1RWd3I5WmMzQm0yRlNXcTFPN1BLMUNubUcyc2RMUmF4OA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-17T06:40:30.000Z"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/astra-for-law",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Asean Power Grid faces licensing hurdle as Singapore pursues clean power imports",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/asean-power-grid-faces-licensing-hurdle-as-singapore-pursues-clean-power-imports/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-17T10:00:00.000Z"
+    },
+    {
+      "title": "Tidak hanya Kelola Sampah, PSEL Bogor Raya Suplai Energi Hijau",
+      "publisher": "Epaper Media Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83UjdfbkowbHV4UFlrMGpYcXlYSlZOTUdUUGRuX3d4UXRPRnZZbE5hRExCd2s1RVlXNGNHaTluWkxqTkFObTFfSm5JVUJmUGVXZFFhVmVXWWNvY3RK?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-17T17:00:00.000Z"
+    },
+    {
+      "title": "Southeast Asia becomes top Asian market for Chinese clean technology",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/southeast-asia-becomes-top-asian-market-for-chinese-clean-technology/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-17T04:27:00.000Z"
+    },
+    {
+      "title": "Anthropic Says Claude Drives 26% of Its Research and Development",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQW9xMjhvRnlfemhnLXh1SmppNWZ6WHFjYXlUMzVUaDRVcFBlcGVvZjNUX1c4Zy1NcTN6ZXdXc1NzSVcwcDNoTnJ6cGVlb0dEWnRkbGlHbEdPNTFYdjZLb1RSLWFBTFlnMVg1MkFxOFBXeERNR1JsZjlPTFRfZDFteVRCTFcxRG9nVjAxMW1FeEpSV2lXSlBWTXNLT1V6TVYzeHhockFpZ2wzS25qOXIxS0hVWTg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-17T21:27:39.000Z"
+    },
+    {
+      "title": "Dorong Pemerataan Akses Energi, 82 Persen Anggaran ESDM 2027 untuk Infrastruktur",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHkzR2tUamdaU2V3QkJJWktSU1BTbk13b0Mxbmt2ZHlrTng5VzlpeHFYTVBkeVJ0Q0x0MlE2M3d0YjZmRTY5NVdrb1QxMlFhNGk1M0U1eGRPakREbzNmQ21pLUQ3YVAzWlk3TU5VeEJDcFIxbUxuUFJhOWlLal9FSWJfRktkOVRSQUhJbUhKSEV1QnFwZDdrNDV2WVBWT0xQNkdYU244MHRTSmIwU1RRN3dvN2Y4VVp2MG0xb1hhTElmb2paLXczUDRCUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-16T08:01:28.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara ekspansi mandat ke LRT, PSEL, dan Sarinah saat dividen Rp 120 triliun ke Kemenkeu belum jelas",
+      "occurrences": 25,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Google DeepMind releases Gemini 3.8 Live and Extended Thinking, advancing real-time multimodal and reasoning capabilities",
+      "occurrences": 23,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Emerald AI, Google, dan NVIDIA bentuk aliansi pusat data AI fleksibel",
+      "occurrences": 23,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Bahlil rapat darurat dengan PLN soal krisis listrik Kalteng dan Sulsel akibat El Nino",
+      "occurrences": 23,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Kementerian ESDM allocates 82% of its 2027 budget to energy infrastructure, prioritising access equity",
+      "occurrences": 16,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 390,
+    "poolSize": 110,
+    "generatedAt": "2026-09-17T23:47:37.080Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

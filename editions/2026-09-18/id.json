@@ -1,0 +1,361 @@
+{
+  "slug": "2026-09-18",
+  "date": "2026-09-18",
+  "lang": "id",
+  "title": "Danantara PSEL Bogor Mulai Konstruksi; Transmisi Indonesia Butuh Subholding Baru",
+  "dek": "Dua sinyal energi-korporasi Indonesia menunjukkan gap antara proyek yang sudah jalan dan kerangka regulasi yang belum siap mendanai grid.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Danantara memulai konstruksi PSEL Bogor Raya 1 pada 17 September 2026, memperluas mandatnya dari investasi portofolio ke pengelolaan infrastruktur energi langsung. Bersamaan, laporan IESR MENTARI Grids menegaskan bahwa target bauran energi terbarukan Indonesia tidak dapat tercapai tanpa reforma transmisi struktural, termasuk kemungkinan subholding transmisi PLN yang independen. Di domain AI, Anthropic merilis kerangka pengukuran kecepatan pengembangan AI frontier dan program verifikasi life sciences, dua langkah yang mempertegas posisi Anthropic sebagai lab yang paling agresif dalam membangun standar akuntabilitas eksternal. OpenAI meluncurkan Astra for Law, menandai masuknya AI frontier ke pasar jasa hukum berlisensi dengan kontrol data klien. Surat Presiden RUU Migas yang dikirim ke DPR membuka jalur pembentukan Badan Usaha Khusus migas, berpotensi menggantikan SKK Migas dan mengubah arsitektur tata kelola hulu migas Indonesia secara fundamental.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara Indonesia",
+        "PSEL Bogor Raya 1",
+        "PLN"
+      ],
+      "headline": "Danantara mulai konstruksi PSEL Bogor Raya 1, mengonfirmasi peran operator infrastruktur langsung",
+      "whatChanged": "Pada 17 September 2026, Danantara Indonesia secara resmi memulai konstruksi PSEL Bogor Raya 1, fasilitas Pengolahan Sampah menjadi Energi Listrik di Bogor. Proyek ini disebut akan menyuplai energi hijau, bukan hanya mengelola sampah. Ini melanjutkan pola yang sudah terarsip 25 kali sejak 19 Agustus 2026: Danantara memperluas mandatnya ke LRT, PSEL, dan Sarinah sambil menyalurkan dividen Rp 120 triliun ke Kementerian Keuangan.",
+      "whyItMatters": "Danantara kini beroperasi sebagai operator infrastruktur fisik, bukan semata-mata sebagai sovereign wealth fund yang memegang saham. Pola ini mengubah profil risiko lembaga: dari risiko pasar portofolio ke risiko konstruksi, operasional, dan offtake energi. Bila PSEL Bogor Raya 1 menjadi preseden, proyek-proyek serupa akan masuk neraca Danantara dengan eksposur jangka panjang yang berbeda dari struktur investasi ekuitas biasa.",
+      "secondOrder": "PLN sebagai offtaker listrik dari PSEL Bogor Raya 1 akan terikat pada tarif dan volume yang dinegosiasikan dengan Danantara, entitas yang secara struktural berada di bawah Presiden. Konfigurasi ini menciptakan potensi konflik kepentingan regulatoris: PLN harus menegosiasikan PPA dengan entitas yang memiliki otoritas politik lebih tinggi dari PLN sendiri. Preseden ini bisa mendistorsi penetapan harga listrik dari sampah di proyek-proyek PSEL berikutnya.",
+      "action": "Tim keuangan dan regulasi: petakan struktur PPA PSEL Bogor Raya 1, identifikasi siapa offtaker, mekanisme penetapan tarif, dan apakah Kementerian ESDM atau BPH Migas memiliki oversight atas harga. Output: matriks risiko offtake untuk PSEL pipeline Danantara. Deadline: sebelum rapat direksi Oktober 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEh2QW83aHd0YTJWVlhZU3dhYzlNY3Z4bmIxbHhZSjlyY1ZyNWVuLXpZZE5zSDhQOThtQ1NNR2cya2xpM3dxRDd0LXNnUjlkdFQ2cWZfVXBpNG5aLTZRQXJUWWdyZU1UTmhYS09iZ0E4XzBwV3oxRU5DY1RWd3I5WmMzQm0yRlNXcTFPN1BLMUNubUcyc2RMUmF4OA?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83UjdfbkowbHV4UFlrMGpYcXlYSlZOTUdUUGRuX3d4UXRPRnZZbE5hRExCd2s1RVlXNGNHaTluWkxqTkFObTFfSm5JVUJmUGVXZFFhVmVXWWNvY3RK?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-19",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IESR",
+        "PLN",
+        "IEEFA",
+        "RUPTL",
+        "Kementerian ESDM"
+      ],
+      "headline": "IESR: Target energi terbarukan Indonesia tidak tercapai tanpa reforma transmisi struktural",
+      "whatChanged": "IESR menerbitkan laporan MENTARI Grids pada 17 September 2026, menyatakan bahwa RUPTL dan target bauran energi terbarukan Indonesia tidak dapat direalisasikan tanpa penguatan jaringan transmisi secara sistemik. Laporan ini melanjutkan sinyal yang sudah terarsip 16 kali sejak 22 Agustus 2026, termasuk rekomendasi IEEFA tentang subholding transmisi PLN yang independen sebagai mekanisme percepatan investasi grid.",
+      "whyItMatters": "Gap antara target bauran terbarukan dan kapasitas transmisi yang tersedia bukan lagi proyeksi risiko, melainkan kondisi struktural yang sudah terkonfirmasi oleh dua lembaga riset independen dalam 30 hari terakhir. Investasi pembangkit terbarukan yang masuk tanpa grid yang memadai akan menghasilkan curtailment dan stranded asset, membebani neraca PLN dan mengurangi daya tarik investasi EBT baru.",
+      "secondOrder": "Bila subholding transmisi PLN terbentuk, ia akan membutuhkan pembiayaan proyek dengan struktur project finance yang terpisah dari neraca PLN induk. Ini membuka pasar obligasi infrastruktur baru di Indonesia, tetapi juga menuntut rating kredit yang independen dari PLN. Lender internasional akan menilai subholding ini berdasarkan kualitas aset transmisi dan kepastian tarif wheeling, bukan konsolidasi PLN Group.",
+      "action": "Analis infrastruktur: bandingkan struktur subholding transmisi PLN yang diusulkan IEEFA dengan model TransJakarta atau Jasa Marga sebagai referensi tarif dan pembiayaan. Susun pertanyaan due diligence untuk: kepastian tarif wheeling, mekanisme cost recovery, dan siapa regulator tarif transmisi pasca-pemisahan. Output: briefing satu halaman untuk diskusi dengan Kementerian ESDM atau PLN. Deadline: 25 September 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 17,
+        "firstSeen": "2026-08-22",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Life Sciences Verification Program"
+      ],
+      "headline": "Anthropic rilis kerangka pengukuran kecepatan AI dan program verifikasi life sciences",
+      "whatChanged": "Pada 17 September 2026, Anthropic menerbitkan dua dokumen sumber primer: pertama, kerangka pengukuran untuk memahami kecepatan pengembangan AI di lab frontier; kedua, Life Sciences Verification Program yang dirancang untuk memverifikasi identitas dan kelayakan peneliti sebelum mengakses kapabilitas biologi Claude. Bloomberg melaporkan bahwa Claude kini mendorong 26 persen dari kegiatan riset dan pengembangan internal Anthropic sendiri.",
+      "whyItMatters": "Dua rilis ini melanjutkan tema ai-model-safety-frontier yang sudah terarsip delapan kali sejak 3 September 2026. Anthropic membangun lapisan akuntabilitas eksternal yang terukur, bukan sekadar pernyataan kebijakan. Program verifikasi life sciences adalah respons langsung terhadap risiko dual-use: membatasi akses ke kapabilitas yang bisa disalahgunakan untuk biosintesis berbahaya, sambil tetap melayani peneliti legitim.",
+      "secondOrder": "Bila program verifikasi ini menjadi standar industri, perusahaan AI lain akan menghadapi tekanan untuk mengadopsi mekanisme serupa atau menjelaskan mengapa mereka tidak melakukannya. Regulator di UE dan AS yang sedang menyusun aturan AI biosecurity dapat menggunakan kerangka Anthropic sebagai referensi teknis, mempercepat pembentukan standar wajib yang awalnya sukarela.",
+      "action": "Tim riset AI atau compliance: baca full text kerangka pengukuran Anthropic dan identifikasi metrik spesifik yang digunakan untuk mengukur kecepatan kemampuan model. Bandingkan dengan metrik internal yang digunakan organisasi Anda untuk menilai risiko deployment model. Output: gap analysis satu halaman antara standar Anthropic dan praktik internal. Deadline: 26 September 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tdEtSOC1PRVFaSWU5TmlaMEtiZjRMdDdJLWg1bVIyUzlUTUV0UHZVa1Z3Y2JYeVVVLVEyeGZIQnVHR01tdC04X2x5Vk5LNDRKa3VyWnB2Vks0U3JpZDNNemZxczNDOFBNeGxrQnViOFNJQVU?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQW9xMjhvRnlfemhnLXh1SmppNWZ6WHFjYXlUMzVUaDRVcFBlcGVvZjNUX1c4Zy1NcTN6ZXdXc1NzSVcwcDNoTnJ6cGVlb0dEWnRkbGlHbEdPNTFYdjZLb1RSLWFBTFlnMVg1MkFxOFBXeERNR1JsZjlPTFRfZDFteVRCTFcxRG9nVjAxMW1FeEpSV2lXSlBWTXNLT1V6TVYzeHhockFpZ2wzS25qOXIxS0hVWTg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-09-03",
+        "spanDays": 15
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Astra for Law"
+      ],
+      "headline": "OpenAI luncurkan Astra for Law dengan kontrol data klien bermutu hukum",
+      "whatChanged": "Pada 17 September 2026, OpenAI meluncurkan Astra for Law, platform AI untuk industri hukum yang menyertakan workflow firma hukum yang dikustomisasi, koneksi ke sumber data hukum, dan kontrol kerahasiaan data klien dengan standar legal-grade. Ini adalah entri OpenAI ke pasar jasa profesional berlisensi yang pertama kali memiliki klaim eksplisit atas compliance dengan kewajiban kerahasiaan advokat-klien.",
+      "whyItMatters": "Pasar jasa hukum memiliki hambatan adopsi AI yang paling tinggi karena kewajiban kerahasiaan statutori. Dengan mengklaim legal-grade controls, OpenAI memindahkan risiko adopsi dari firma hukum ke dirinya sendiri sebagai vendor, sebuah pergeseran pertanggungjawaban yang akan diuji di pengadilan bila terjadi pelanggaran kerahasiaan. Ini melanjutkan pola enterprise-ai-data-privacy-contracts yang sudah 23 kali muncul sejak 20 Agustus 2026.",
+      "secondOrder": "Firma hukum yang mengadopsi Astra for Law akan menghadapi pertanyaan dari klien korporat dan regulator bar association tentang apakah penggunaan AI pihak ketiga melanggar kewajiban kerahasiaan. Jawaban atas pertanyaan ini akan membentuk preseden etika profesi hukum di yurisdiksi yang belum memiliki panduan AI khusus, termasuk Indonesia.",
+      "action": "Tim legal internal atau konsultan hukum: identifikasi apakah bar association atau Peradi di Indonesia telah menerbitkan panduan tentang penggunaan AI generatif dalam layanan hukum. Bila belum, susun pertanyaan tertulis ke Peradi tentang posisi mereka terhadap penggunaan platform seperti Astra for Law. Output: memo risiko kerahasiaan dua halaman untuk direksi. Deadline: 30 September 2026.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://openai.com/index/astra-for-law"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-08-20",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Bahlil Lahadalia",
+        "SKK Migas",
+        "DPR"
+      ],
+      "headline": "Surpres RUU Migas terbit: Bahlil pimpin tim, BUK migas berpotensi gantikan SKK Migas",
+      "whatChanged": "Pada 17 September 2026, Menteri ESDM Bahlil Lahadalia mengonfirmasi bahwa Presiden Prabowo Subianto telah mengirimkan Surat Presiden (Surpres) terkait pembahasan RUU Migas ke DPR, dengan Bahlil ditunjuk sebagai Ketua Tim. Laporan terpisah menyebut pemerintah berencana membentuk Badan Usaha Khusus (BUK) migas yang akan berada langsung di bawah Presiden, berpotensi menggantikan SKK Migas.",
+      "whyItMatters": "Surpres menandai dimulainya proses legislatif formal RUU Migas setelah bertahun-tahun mandek. Pembentukan BUK migas di bawah Presiden akan mengubah arsitektur tata kelola hulu migas secara fundamental: dari pengawasan oleh SKK Migas yang berbentuk satuan kerja khusus di bawah ESDM, ke entitas korporasi dengan kewenangan lebih luas dan jalur komando langsung ke Presiden.",
+      "secondOrder": "Kontraktor Kontrak Kerja Sama (KKKS) yang saat ini bermitra dengan SKK Migas perlu mengantisipasi perubahan mitra kontrak, mekanisme persetujuan work program and budget, dan potensi renegosiasi fiskal bila BUK menetapkan rezim bagi hasil baru. Investor migas asing akan mengawasi apakah BUK menawarkan kepastian hukum yang lebih baik atau justru menambah lapisan birokrasi.",
+      "action": "Tim legal dan government relations: petakan perbedaan kewenangan SKK Migas versus BUK berdasarkan draf RUU yang beredar. Identifikasi pasal yang mengubah mekanisme approval POD, fiskal split, dan dispute resolution. Siapkan posisi paper untuk konsultasi DPR sebelum pembahasan Panitia Khusus dimulai. Deadline: 10 Oktober 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://finance.detik.com/energi/d-8667700/surpres-prabowo-soal-ruu-migas-terbit-bahlil-jadi-ketua-tim",
+        "https://finance.detik.com/energi/d-8667590/bakal-ada-badan-usaha-khusus-langsung-di-bawah-prabowo-ganti-skk-migas"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-19",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Pembahasan Pansus RUU Migas di DPR: pantau apakah BUK migas dikonfirmasi sebagai pengganti SKK Migas dan bagaimana rezim fiskal dirancang ulang",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Struktur PPA dan tarif offtake PSEL Bogor Raya 1: konfirmasi apakah PLN atau entitas lain menjadi offtaker dan berapa tarif yang disepakati",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Respons lab AI lain terhadap Life Sciences Verification Program Anthropic: apakah Google DeepMind atau OpenAI mengumumkan mekanisme verifikasi serupa",
+      "dueDate": "2026-10-17"
+    },
+    {
+      "item": "Kemajuan legislasi atau peraturan subholding transmisi PLN: pantau apakah Kementerian ESDM menerbitkan kajian atau Perpres terkait pemisahan transmisi",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-17T20:27:12.000Z"
+    },
+    {
+      "title": "Construction of PSEL Bogor Raya 1 Waste-to-Energy Begins",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEh2QW83aHd0YTJWVlhZU3dhYzlNY3Z4bmIxbHhZSjlyY1ZyNWVuLXpZZE5zSDhQOThtQ1NNR2cya2xpM3dxRDd0LXNnUjlkdFQ2cWZfVXBpNG5aLTZRQXJUWWdyZU1UTmhYS09iZ0E4XzBwV3oxRU5DY1RWd3I5WmMzQm0yRlNXcTFPN1BLMUNubUcyc2RMUmF4OA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-17T06:40:30.000Z"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/astra-for-law",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Surpres Prabowo soal RUU Migas Terbit, Bahlil Jadi Ketua Tim",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8667700/surpres-prabowo-soal-ruu-migas-terbit-bahlil-jadi-ketua-tim",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-17T14:43:25.000Z"
+    },
+    {
+      "title": "Introducing the Life Sciences Verification Program",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tdEtSOC1PRVFaSWU5TmlaMEtiZjRMdDdJLWg1bVIyUzlUTUV0UHZVa1Z3Y2JYeVVVLVEyeGZIQnVHR01tdC04X2x5Vk5LNDRKa3VyWnB2Vks0U3JpZDNNemZxczNDOFBNeGxrQnViOFNJQVU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-17T17:34:30.000Z"
+    },
+    {
+      "title": "Tidak hanya Kelola Sampah, PSEL Bogor Raya Suplai Energi Hijau",
+      "publisher": "Epaper Media Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83UjdfbkowbHV4UFlrMGpYcXlYSlZOTUdUUGRuX3d4UXRPRnZZbE5hRExCd2s1RVlXNGNHaTluWkxqTkFObTFfSm5JVUJmUGVXZFFhVmVXWWNvY3RK?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-17T17:00:00.000Z"
+    },
+    {
+      "title": "Anthropic Says Claude Drives 26% of Its Research and Development",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQW9xMjhvRnlfemhnLXh1SmppNWZ6WHFjYXlUMzVUaDRVcFBlcGVvZjNUX1c4Zy1NcTN6ZXdXc1NzSVcwcDNoTnJ6cGVlb0dEWnRkbGlHbEdPNTFYdjZLb1RSLWFBTFlnMVg1MkFxOFBXeERNR1JsZjlPTFRfZDFteVRCTFcxRG9nVjAxMW1FeEpSV2lXSlBWTXNLT1V6TVYzeHhockFpZ2wzS25qOXIxS0hVWTg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-17T21:27:39.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "Bakal Ada Badan Usaha Khusus Langsung di Bawah Prabowo, Ganti SKK Migas?",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8667590/bakal-ada-badan-usaha-khusus-langsung-di-bawah-prabowo-ganti-skk-migas",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-17T13:03:21.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara ekspansi mandat ke LRT, PSEL, dan Sarinah saat dividen Rp 120 triliun ke Kemenkeu belum jelas",
+      "occurrences": 25,
+      "firstSeen": "2026-08-19",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Google DeepMind releases Gemini 3.8 Live and Extended Thinking, advancing real-time multimodal and reasoning capabilities",
+      "occurrences": 23,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Emerald AI, Google, dan NVIDIA bentuk aliansi pusat data AI fleksibel",
+      "occurrences": 23,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Bahlil rapat darurat dengan PLN soal krisis listrik Kalteng dan Sulsel akibat El Nino",
+      "occurrences": 23,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Kementerian ESDM allocates 82% of its 2027 budget to energy infrastructure, prioritising access equity",
+      "occurrences": 16,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 390,
+    "poolSize": 110,
+    "generatedAt": "2026-09-17T23:46:29.878Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
