@@ -1,0 +1,336 @@
+{
+  "slug": "2026-09-19",
+  "date": "2026-09-19",
+  "lang": "id",
+  "title": "BPK Audit Danantara, OJK Ambil Alih BMKS, Transmisi ET Indonesia Kritis",
+  "dek": "Tiga tekanan kelembagaan serentak: audit pertama Danantara, regulasi bursa mineral baru, dan laporan IESR yang mempertegas krisis transmisi sebagai hambatan struktural energi terbarukan.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "BPK memulai audit laporan keuangan BPI Danantara, menandai pengujian akuntabilitas pertama atas entitas investasi negara terbesar yang dibentuk sejak 2026. Bersamaan, OJK menerbitkan dua POJK mengambil alih pengawasan Bursa Mineral dan Komoditas Strategis dari Bappebti, dengan operasional bursa dimulai 1 Januari 2027, membuka rezim regulasi baru untuk komoditas nikel, bauksit, dan mineral kritis lainnya. Di sisi energi, laporan MENTARI Grids dari IESR mempertegas bahwa target bauran energi terbarukan dalam RUPTL tidak akan tercapai tanpa reforma struktural transmisi, melanjutkan sinyal yang sudah terbentuk selama sebulan terakhir. Anthropic secara diam-diam mendirikan laboratorium biologi fisik sambil menjalankan program AI untuk pengembangan obat, memperluas eksposur risikonya melampaui perangkat lunak. Kapasitas PLTA di Sulawesi Bagian Selatan turun 70 persen akibat kekeringan, memperlihatkan kerentanan sistem tenaga berbasis air terhadap perubahan hidrologi.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring-delay",
+      "entities": [
+        "BPI Danantara",
+        "BPK",
+        "DDMF"
+      ],
+      "headline": "BPK memulai audit laporan keuangan BPI Danantara untuk pertama kalinya",
+      "whatChanged": "Badan Pemeriksa Keuangan (BPK) secara resmi memulai proses audit laporan keuangan BPI Danantara, sebagaimana dilaporkan oleh CNBC Indonesia dan Bloomberg Technoz pada 18 September 2026. Ini adalah audit eksternal pertama atas entitas yang mengelola aset BUMN senilai ratusan triliun rupiah sejak pembentukannya.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring-delay telah berulang 25 kali sejak 20 Agustus 2026 sebagai kondisi struktural. Kehadiran BPK menandai transisi dari fase pembentukan kelembagaan ke fase akuntabilitas: standar pelaporan, ruang lingkup konsolidasi aset, dan kualitas tata kelola internal Danantara kini akan diuji secara formal. Hasil audit akan menjadi sinyal kuat bagi kreditur obligasi dolar (target USD 1 miliar, laporan Kontan Juni 2026) dan mitra investasi internasional.",
+      "secondOrder": "Bila audit BPK menemukan kelemahan material dalam pelaporan, tekanan akan menular ke instrumen utang Danantara yang sudah beredar dan ke proses demutualisasi BEI yang melibatkan Danantara sebagai calon pemegang saham baru. Sebaliknya, opini audit wajar tanpa pengecualian akan menjadi amunisi diplomatik bagi pemerintah dalam negosiasi pembiayaan infrastruktur jangka panjang melalui DDMF.",
+      "action": "Pantau jadwal penyerahan laporan audit BPK dan cermati apakah ruang lingkup audit mencakup anak perusahaan BUMN yang dikonsolidasikan. Tinjau ulang rating risiko counterparty Danantara dalam portofolio pembiayaan sebelum hasil audit tersedia.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZUZDRFpZdTV0angzUWl3ZGJCbHg2VlBLeFVqOWp1ZlJFTEM3a2x0Z3lJb3FOQUdWb1lsLXpGR2Vhdk1kOWUxZzhMZWdvUHQ2UWd2QVF6XzRqbDZoakdkRXBWa3ZIOEdteXJYbW9aNzRrN1EzR0RrSzcybndnOXBqSzRVaGJrS215LXZmb01iMy1HdXJwR1BQSU8yR0FwcFptR0J2RDdGeUNpWTBw0gGyAUFVX3lxTE9ONmxfYk9ydUFqZ1BNN19fOTkwRGM4RmJzRDExWE5oakhaMjcwVjdFY0oxTXF4a3dJZVdrWEY1X2VqeExWc0hKb0E4cTdSUFdUbWJMOWpVemh2YjVSekpkdVJfVm9CQ1JqR0c0c0JLV25UNm1FeXdRMGlkUENqQ0ZETkpNdWJ0eHVWbnlGTlVud2VKREJMUnoxUy1ZRHF3UUc2bHJ6bGlhRk1PZEZCQWpwclE?oc=5",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZFdtWUdHT0xabXcyczhSTFM2MTZqMHJ3NjJ0WEtPZ2tqUGh3dC11bmQ3OGZtX1pZZ0tUTWpEMEdmQmxHdGhGN3VzNURnbE9BQU5TUGhZT05VeWVReWFzVUtTbG91VXBYeHlhOFhQandheW1zajlGT0YzS3lzLXp3X0NGMF9QbnlFbzdDNjU1eU1RS3pqTl9fbWtONVMzN0E?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0tlMXlxa1FqVy1oUHRRcTc5UUdpM1VneEdrQ3E5RmVsWU5fWlRRcFk2cWxsSTBSbi0ybGNTN2Rkc3ZnNXg2NzFWVlZ6cGpyNzV3NFJnc0NDWTQ1YTRLcVNiMTkwUW9EVncxWldiZzBibHc0eV9FQzZZRDdPYV94Ml9HQncwUmZNbW9FeUg5YTNQNndBSU93b0thWE5zV0xkTzlCcFg5MmMtdjNxSXdfVVEwdllpWFFLazdwaHNZTVBTbjNyQUE?oc=5",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEF5WnpkOUZYQTREb0hzcjgwTXA0Y05iaThOQklNVEJnYXpOeHI1NVJLcW5UemRvUEFKZUszNk9ueXlnb1hZc1FlRVBKOWxvTWd3V1N3SWpJUGI4Y29qd1V2WFBrZG42RWpZNTdieWJTaVRyRzVCQzlQNnd3dEZ0RlpYTG1nb0xDRm5jSnRJbVlVZzBHR1FvbWVFcEtzN3IzNVJYSNIBnwFBVV95cUxQTWZBWDd4QjR0VDU0c01wWktBUFI2bjZzcjFKYUZPRmt5UWtTcDBJcXBRamRoSU5MNnpJejhqQW5DbXROQkhBSFd3eWViOXUzT0tIelUtNUR0YllXcjNUV1FCOTZYcl9IWWVJVGZUM1FVdDhYcGthWU1kUHFmRjBYZXU3aDJTTWczUFRDcXBPVTNIdHRkc3pkX3h0QkQ0X3c?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring-delay",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring-delay",
+      "entities": [
+        "OJK",
+        "Bappebti",
+        "BMKS"
+      ],
+      "headline": "OJK terbitkan dua POJK BMKS, ambil alih pengawasan bursa mineral dari Bappebti per 1 Januari 2027",
+      "whatChanged": "OJK menerbitkan dua Peraturan OJK (POJK) yang mengatur peralihan tugas pengawasan Bursa Mineral dan Komoditas Strategis (BMKS) dari Bappebti ke OJK, dengan bursa mineral dijadwalkan beroperasi penuh mulai 1 Januari 2027. Ini dikonfirmasi oleh ANTARA News, Bloomberg Technoz, dan detikFinance pada 18 September 2026.",
+      "whyItMatters": "Perpindahan pengawasan dari Bappebti ke OJK mengubah rezim regulasi komoditas mineral kritis, termasuk nikel dan bauksit, ke dalam kerangka pasar modal. Ini berarti standar transparansi, pelaporan, dan perlindungan investor yang berlaku untuk instrumen keuangan kini akan diberlakukan pada transaksi mineral strategis, mengubah struktur risiko bagi eksportir dan off-taker.",
+      "secondOrder": "BUMN yang memiliki posisi besar di rantai nikel dan bauksit, seperti MIND ID dan anak usahanya, akan menghadapi kewajiban pelaporan berlapis: kepada OJK sebagai regulator bursa dan kepada Kementerian ESDM sebagai regulator pertambangan. Tumpang tindih kewenangan ini berpotensi menciptakan ketidakpastian hukum sementara, terutama untuk kontrak ekspor yang ditandatangani sebelum 1 Januari 2027.",
+      "action": "Identifikasi kontrak mineral jangka panjang yang aktif dan verifikasi apakah klausul regulasi memerlukan adendum setelah pengawasan beralih ke OJK. Minta klarifikasi kepada OJK mengenai mekanisme transisi untuk transaksi yang sedang berjalan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQnFIeExpcUNPNTF0aFlncngxc3NSVkNROHBiRk5iR09aRlZjLURSMEVfTUVMQVlINUk5alhUVFBmb2VDU1ZWd21zenNLTXRBbDhsSXExOWNobmFTV09Sa0FTd0F4X29SbHk1V1JYN0JEWnhlUDJjSkRfdmtkYkVzclp2SnNHZnJNNndlVlQ3MUUtLWtnQmVTeVctU3g0N3pXME9ZcEZBZGh2bHB1X1JpdFp30gG0AUFVX3lxTE00T2pNNkhBaXJwcFdoNHZ3di1IaC1JdHlrN0hHUFpRNC13T1lfdGZSelpNQWVoT2h3MGNwTXNHb2VjSXdtMmFhblFNWElHTFRXTGxRekg2ZmdqZ1pSQ19ZZHlNVkZROHdibWVpN1psc3E0REg5ejJmbEMxTkRMU2tKVUpHcU5yRzNSSVhzYzJHbEZUN1R5dmxWd2xGVl9RUlluVkhzYnViZTY2SUVZYlV1S3VsXw?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQUNpSmhQMW11bVJsZjd0SzBJb3BSMWVmSFF2cF9VaWppd0p4cThOYUtkN1ZIVHRGbkFJZTRJdllpc2JUVnVsSVhPY0V3ak84VGdpOGFDZ3lfRUNMR2tBbEIzelBPSUJ6ZzlVZENWMXJpZmp0RW1yZTdJLTBCRWktYmRnNllBeGpOemNhVFFKWng5ZFdIdi03RFRrUU9KTGctUy11Z3U3WHU4S0U?oc=5",
+        "https://finance.detik.com/bursa-dan-valas/d-8669334/bursa-mineral-1-januari-2027-peralihan-pengawasan-dari-bappebti-dimulai"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring-delay",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IESR",
+        "PLN",
+        "RUPTL"
+      ],
+      "headline": "Laporan MENTARI Grids IESR: reforma transmisi struktural adalah syarat mutlak target energi terbarukan Indonesia",
+      "whatChanged": "IESR mempublikasikan laporan MENTARI Grids pada 17 September 2026, yang secara eksplisit menyatakan bahwa target kapasitas dan bauran energi terbarukan dalam RUPTL tidak dapat dicapai tanpa perubahan struktural pada jaringan transmisi Indonesia, termasuk perluasan kapasitas interkoneksi antarpulau dan reforma tata kelola PLN di segmen transmisi.",
+      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang telah muncul 17 kali sejak 22 Agustus 2026. Akumulasi sinyal dari IESR, IEEFA, dan laporan ASEAN Power Grid menunjukkan bahwa hambatan bukan pada ketersediaan teknologi atau pembiayaan proyek pembangkit, melainkan pada infrastruktur penyaluran yang tidak mampu mengabsorpsi kapasitas terbarukan baru. RUPTL 2025-2034 menetapkan target, tetapi tanpa reforma transmisi, target itu hanya berlaku di atas kertas.",
+      "secondOrder": "Investor proyek energi surya dan angin skala besar yang sudah menandatangani perjanjian jual beli listrik (PPA) dengan PLN menghadapi risiko curtailment jika kapasitas transmisi tidak segera diperluas. Risiko ini akan tercermin dalam pemodelan arus kas proyek dan berpotensi menaikkan biaya ekuitas yang diminta investor, terutama untuk proyek di luar Jawa.",
+      "action": "Evaluasi kembali asumsi kapasitas transmisi dalam model keuangan proyek energi terbarukan yang sedang dalam due diligence, khususnya untuk proyek di Sulawesi dan Kalimantan. Tanyakan kepada PLN kapasitas interkoneksi yang tersedia sebelum financial close.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+        "https://iesr.or.id/melahirkan-champion-energi-terbarukan-sub-nasional/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-08-22",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Reuters"
+      ],
+      "headline": "Anthropic diam-diam dirikan laboratorium biologi fisik sambil mengembangkan program AI untuk obat",
+      "whatChanged": "Reuters melaporkan secara eksklusif pada 18 September 2026 bahwa Anthropic secara diam-diam mendirikan laboratorium biologi fisik sebagai bagian dari perluasan program pengembangan obat berbasis AI. Ini dikonfirmasi sebagai fasilitas basah (wet lab), bukan hanya tim komputasi, menandai transisi Anthropic dari perusahaan model bahasa ke aktor di rantai nilai biofarmasi.",
+      "whyItMatters": "Langkah ini melanjutkan tema ai-model-safety-frontier yang telah muncul sembilan kali sejak 3 September 2026. Anthropic, yang selama ini membangun identitas berbasis keamanan AI, kini mengambil eksposur langsung ke domain biologi yang memiliki risiko dual-use tertinggi. Pendirian wet lab mengubah profil risiko Anthropic dari perusahaan perangkat lunak menjadi entitas yang memerlukan pengawasan biosafety dan biosecurity.",
+      "secondOrder": "Regulator AI dan biosafety di berbagai yurisdiksi kemungkinan akan mulai mempertanyakan apakah kerangka pengawasan yang ada cukup untuk perusahaan AI yang juga menjalankan eksperimen biologi. Ini berpotensi mempercepat pembentukan regulasi lintas sektoral yang belum ada preseden kelembagaannya, dan akan memengaruhi persyaratan lisensi untuk laboratorium AI-biologi serupa yang direncanakan kompetitor.",
+      "action": "Tinjau apakah perjanjian penggunaan model Anthropic yang ada dalam konteks riset farmasi atau biologi memerlukan pembaruan klausul setelah perubahan profil bisnis ini. Pantau respons FDA dan EMA terhadap model AI yang kini didukung laboratorium basah.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMnNocmF2MC1saXA1bW95QU5PcXUyNHZrZUdaZUFKNXVnYk1Yejg4UTlqa242RmJGMnBlZ1pkeC1KdERaazR1TGtSTHkwMFFLNTZQa3VBdHJzcWlWR0hldTYtVm5RQ3hQZDE2LXFfZ3gzeHVqQ3pNR1pEUmpHbnpUMlB1UkYtTHpfeURTVU9Kb082R3ZrbnA1VVZmcEJlcnZBUlEySmtkUQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 10,
+        "firstSeen": "2026-09-03",
+        "spanDays": 16
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Jadwal dan cakupan resmi audit BPK atas BPI Danantara: apakah mencakup konsolidasi anak BUMN dan instrumen utang yang beredar.",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Peraturan teknis OJK di bawah POJK BMKS: mekanisme transisi kontrak mineral yang ditandatangani sebelum 1 Januari 2027.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Respons PLN terhadap rekomendasi MENTARI Grids IESR: apakah ada revisi rencana transmisi atau pembentukan subholding transmisi yang dijadwalkan.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Pemulihan kapasitas PLTA Sulawesi Bagian Selatan dan aktivasi pembangkit cadangan PLN Sulselbar: dampak biaya operasi pada laporan keuangan kuartal empat.",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "Pernyataan resmi Anthropic atau respons regulator (FDA, EMA) mengenai status biosafety laboratorium biologi fisik yang baru didirikan.",
+      "dueDate": "2026-11-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "Melahirkan Champion Energi Terbarukan Sub-Nasional",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/melahirkan-champion-energi-terbarukan-sub-nasional/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T02:00:35.000Z"
+    },
+    {
+      "title": "OJK menerbitkan dua POJK terkait bursa mineral dan komoditas strategis",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQnFIeExpcUNPNTF0aFlncngxc3NSVkNROHBiRk5iR09aRlZjLURSMEVfTUVMQVlINUk5alhUVFBmb2VDU1ZWd21zenNLTXRBbDhsSXExOWNobmFTV09Sa0FTd0F4X29SbHk1V1JYN0JEWnhlUDJjSkRfdmtkYkVzclp2SnNHZnJNNndlVlQ3MUUtLWtnQmVTeVctU3g0N3pXME9ZcEZBZGh2bHB1X1JpdFp30gG0AUFVX3lxTE00T2pNNkhBaXJwcFdoNHZ3di1IaC1JdHlrN0hHUFpRNC13T1lfdGZSelpNQWVoT2h3MGNwTXNHb2VjSXdtMmFhblFNWElHTFRXTGxRekg2ZmdqZ1pSQ19ZZHlNVkZROHdibWVpN1psc3E0REg5ejJmbEMxTkRMU2tKVUpHcU5yRzNSSVhzYzJHbEZUN1R5dmxWd2xGVl9RUlluVkhzYnViZTY2SUVZYlV1S3VsXw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-18T13:53:07.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic quietly sets up biology lab as it ramps AI drug program",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMnNocmF2MC1saXA1bW95QU5PcXUyNHZrZUdaZUFKNXVnYk1Yejg4UTlqa242RmJGMnBlZ1pkeC1KdERaazR1TGtSTHkwMFFLNTZQa3VBdHJzcWlWR0hldTYtVm5RQ3hQZDE2LXFfZ3gzeHVqQ3pNR1pEUmpHbnpUMlB1UkYtTHpfeURTVU9Kb082R3ZrbnA1VVZmcEJlcnZBUlEySmtkUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-18T17:18:30.000Z"
+    },
+    {
+      "title": "BPK Mulai Proses Audit Laporan Keuangan Danantara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZUZDRFpZdTV0angzUWl3ZGJCbHg2VlBLeFVqOWp1ZlJFTEM3a2x0Z3lJb3FOQUdWb1lsLXpGR2Vhdk1kOWUxZzhMZWdvUHQ2UWd2QVF6XzRqbDZoakdkRXBWa3ZIOEdteXJYbW9aNzRrN1EzR0RrSzcybndnOXBqSzRVaGJrS215LXZmb01iMy1HdXJwR1BQSU8yR0FwcFptR0J2RDdGeUNpWTBw0gGyAUFVX3lxTE9ONmxfYk9ydUFqZ1BNN19fOTkwRGM4RmJzRDExWE5oakhaMjcwVjdFY0oxTXF4a3dJZVdrWEY1X2VqeExWc0hKb0E4cTdSUFdUbWJMOWpVemh2YjVSekpkdVJfVm9CQ1JqR0c0c0JLV25UNm1FeXdRMGlkUENqQ0ZETkpNdWJ0eHVWbnlGTlVud2VKREJMUnoxUy1ZRHF3UUc2bHJ6bGlhRk1PZEZCQWpwclE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-18T11:55:00.000Z"
+    },
+    {
+      "title": "OJK Terbitkan 2 POJK BMKS, Atur Peralihan Tugas Bappebti",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQUNpSmhQMW11bVJsZjd0SzBJb3BSMWVmSFF2cF9VaWppd0p4cThOYUtkN1ZIVHRGbkFJZTRJdllpc2JUVnVsSVhPY0V3ak84VGdpOGFDZ3lfRUNMR2tBbEIzelBPSUJ6ZzlVZENWMXJpZmp0RW1yZTdJLTBCRWktYmRnNllBeGpOemNhVFFKWng5ZFdIdi03RFRrUU9KTGctUy11Z3U3WHU4S0U?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-18T13:05:56.000Z"
+    },
+    {
+      "title": "Video:Danantara Biayai Proyek Jangka Panjang Lewat DDMF, Ini Targetnya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0tlMXlxa1FqVy1oUHRRcTc5UUdpM1VneEdrQ3E5RmVsWU5fWlRRcFk2cWxsSTBSbi0ybGNTN2Rkc3ZnNXg2NzFWVlZ6cGpyNzV3NFJnc0NDWTQ1YTRLcVNiMTkwUW9EVncxWldiZzBibHc0eV9FQzZZRDdPYV94Ml9HQncwUmZNbW9FeUg5YTNQNndBSU93b0thWE5zV0xkTzlCcFg5MmMtdjNxSXdfVVEwdllpWFFLazdwaHNZTVBTbjNyQUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-13T04:00:25.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "Bursa Mineral 1 Januari 2027, Peralihan Pengawasan dari Bappebti Dimulai",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8669334/bursa-mineral-1-januari-2027-peralihan-pengawasan-dari-bappebti-dimulai",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-18T14:18:03.000Z"
+    },
+    {
+      "title": "BPK Mulai Audit Laporan Keuangan BPI Danantara",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZFdtWUdHT0xabXcyczhSTFM2MTZqMHJ3NjJ0WEtPZ2tqUGh3dC11bmQ3OGZtX1pZZ0tUTWpEMEdmQmxHdGhGN3VzNURnbE9BQU5TUGhZT05VeWVReWFzVUtTbG91VXBYeHlhOFhQandheW1zajlGT0YzS3lzLXp3X0NGMF9QbnlFbzdDNjU1eU1RS3pqTl9fbWtONVMzN0E?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-18T11:18:01.000Z"
+    },
+    {
+      "title": "Indonesia's Danantara Launches Dollar Bond, Eyes $1 Billion, Sources Say",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEF5WnpkOUZYQTREb0hzcjgwTXA0Y05iaThOQklNVEJnYXpOeHI1NVJLcW5UemRvUEFKZUszNk9ueXlnb1hZc1FlRVBKOWxvTWd3V1N3SWpJUGI4Y29qd1V2WFBrZG42RWpZNTdieWJTaVRyRzVCQzlQNnd3dEZ0RlpYTG1nb0xDRm5jSnRJbVlVZzBHR1FvbWVFcEtzN3IzNVJYSNIBnwFBVV95cUxQTWZBWDd4QjR0VDU0c01wWktBUFI2bjZzcjFKYUZPRmt5UWtTcDBJcXBRamRoSU5MNnpJejhqQW5DbXROQkhBSFd3eWViOXUzT0tIelUtNUR0YllXcjNUV1FCOTZYcl9IWWVJVGZUM1FVdDhYcGthWU1kUHFmRjBYZXU3aDJTTWczUFRDcXBPVTNIdHRkc3pkX3h0QkQ0X3c?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-06-11T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring-delay",
+      "theme": "Surpres RUU Migas terbit: Bahlil pimpin tim, BUK migas berpotensi gantikan SKK Migas",
+      "occurrences": 25,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-18",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI luncurkan Astra for Law dengan kontrol data klien bermutu hukum",
+      "occurrences": 24,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "ASEAN Power Grid stalled by Indonesia's five-year export licence cap and Sarawak's discretionary licence terms",
+      "occurrences": 24,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-18",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Emerald AI, Google, dan NVIDIA bentuk aliansi pusat data AI fleksibel",
+      "occurrences": 23,
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "IESR: Target energi terbarukan Indonesia tidak tercapai tanpa reforma transmisi struktural",
+      "occurrences": 17,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-18",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 391,
+    "poolSize": 110,
+    "generatedAt": "2026-09-18T23:21:55.555Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
