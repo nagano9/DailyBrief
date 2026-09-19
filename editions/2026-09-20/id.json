@@ -1,0 +1,300 @@
+{
+  "slug": "2026-09-20",
+  "date": "2026-09-20",
+  "lang": "id",
+  "title": "Audit BPK-Danantara, Claude membangun AI, dan transmisi EBT Indonesia krisis",
+  "dek": "Tiga sinyal struktural bertemu hari ini: transparansi fiskal Danantara diuji audit negara, Anthropic membuktikan AI menulis AI, dan IESR mengkuantifikasi celah transmisi yang memblokir target EBT Indonesia.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "BPK memulai audit laporan keuangan BPI Danantara 2025, membuka babak baru akuntabilitas investasi BUMN yang selama ini beroperasi tanpa scrutiny publik yang memadai. Bersamaan, Anthropic mengungkap Claude kini memimpin seperempat pekerjaan pembangunan model AI generasi berikutnya, menggeser asumsi bahwa tenaga kerja manusia mendominasi frontier AI. IESR merilis MENTARI Grids yang mengkuantifikasi transmisi sebagai hambatan kritis pencapaian target EBT Indonesia, memperkuat tekanan investasi pada PLN. OpenAI meresmikan Astra for Law, memperluas penetrasi AI ke pekerjaan hukum bermutu tinggi dengan kontrol data setara standar kerahasiaan klien. Terakhir, laporan detikFinance mengungkap sengketa dividen Rp 120 triliun antara Danantara dan Kementerian Keuangan, yang berpotensi menentukan kapasitas fiskal BUMN untuk investasi infrastruktur energi.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IESR",
+        "PLN",
+        "Kementerian ESDM",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "IESR MENTARI Grids: transmisi adalah hambatan kritis yang menghalangi target EBT Indonesia",
+      "whatChanged": "IESR menerbitkan laporan MENTARI Grids pada 17 September 2026, yang mengkuantifikasi celah investasi transmisi sebagai hambatan struktural utama pencapaian target energi terbarukan Indonesia yang tercantum dalam RUPTL 2025-2034. Laporan ini menyebut bahwa kapasitas transmisi yang tidak memadai secara langsung membatasi integrasi proyek EBT baru ke jaringan PLN.",
+      "whyItMatters": "Ini adalah iterasi ke-18 tema pln-transmisi-investasi sejak 22 Agustus 2026, dan setiap iterasi mempertegas bahwa hambatan bukan pada pembangkit melainkan pada jaringan. MENTARI Grids memberikan basis analitis yang dapat dikutip dalam negosiasi pembiayaan, perencanaan RUPTL, dan komunikasi dengan investor EBT. Tanpa investasi transmisi yang terstruktur, program PLTS 100 GWp yang diluncurkan Presiden Prabowo pada Agustus 2026 berisiko menjadi kapasitas terpasang yang tidak tersalurkan.",
+      "secondOrder": "Tekanan investasi transmisi akan meningkatkan kebutuhan PLN untuk membentuk subholding transmisi atau instrumen pembiayaan khusus, sebagaimana disarankan IEEFA sejak Mei 2026. Bila PLN tidak mampu menyerap kebutuhan pembiayaan ini dari neraca sendiri, pintu terbuka untuk project finance berbasis konsesi transmisi yang melibatkan investor swasta atau lembaga multilateral, mengubah struktur kepemilikan infrastruktur kelistrikan nasional.",
+      "action": "Petakan proyek EBT dalam pipeline yang terhambat oleh koneksi transmisi. Ajukan pertanyaan kepada PLN dan Kementerian ESDM tentang mekanisme pembiayaan transmisi yang dipertimbangkan dalam revisi RUPTL. Evaluasi apakah proposal subholding transmisi sudah masuk agenda Danantara sebagai instrumen investasi.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-08-22",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "openai-enterprise-data-privacy",
+      "entities": [
+        "OpenAI",
+        "Astra for Law",
+        "Cooley",
+        "ChatGPT Work"
+      ],
+      "headline": "OpenAI resmikan Astra for Law dengan kontrol data bermutu kerahasiaan klien hukum",
+      "whatChanged": "OpenAI meluncurkan Astra for Law pada 17 September 2026, sebuah produk yang menawarkan integrasi alur kerja hukum dengan ChatGPT Work, termasuk koneksi ke sumber data hukum dan kontrol kerahasiaan yang diklaim setara standar klien hukum. Kasus pertama yang dipublikasikan adalah Cooley yang membangun GO Public untuk pekerjaan IPO.",
+      "whyItMatters": "Ini melanjutkan tema openai-enterprise-data-privacy yang sudah berlangsung 24 kali sejak 21 Agustus 2026. Penetrasi ke pekerjaan hukum IPO adalah titik masuk yang strategis: firma hukum yang mengadopsi alat ini mendapat akses ke analisis dokumen cepat pada fase due diligence, sementara OpenAI mendapat eksposur ke data transaksi korporasi bernilai tinggi yang memperkuat pelatihan model berikutnya dalam domain hukum.",
+      "secondOrder": "Kantor hukum yang belum mengadopsi alat serupa akan menghadapi tekanan kompetitif dari klien yang membandingkan kecepatan penyelesaian due diligence. Di Indonesia, firma hukum yang terlibat dalam transaksi Danantara, divestasi BUMN, atau proyek EBT bertendensi untuk mempertimbangkan adopsi lebih cepat, yang kemudian menciptakan permintaan baru terhadap infrastruktur AI enterprise lokal.",
+      "action": "Evaluasi apakah firma hukum mitra atau divisi legal internal sudah menilai Astra for Law dalam konteks transaksi IPO atau M&A yang sedang berjalan. Tanyakan kepada tim legal tentang gap analisis yang saat ini diselesaikan secara manual dan dapat diotomasi.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/astra-for-law",
+        "https://openai.com/index/cooley-gopublic"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "openai-enterprise-data-privacy",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-08-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Kementerian Keuangan",
+        "detikFinance"
+      ],
+      "headline": "Danantara belum sepakat setor dividen Rp 120 triliun, pertemuan dengan Menkeu dijadwalkan",
+      "whatChanged": "DetikFinance melaporkan pada 16 September 2026 bahwa pimpinan Danantara berencana bertemu Menteri Keuangan baru untuk membahas kewajiban setoran dividen BUMN sebesar Rp 120 triliun. Sebelumnya, Kompas.com melaporkan pada 4 September 2026 bahwa Danantara keberatan dengan target setoran tersebut.",
+      "whyItMatters": "Sengketa ini merupakan titik tegangan fiskal pertama yang terdokumentasi antara Danantara dan Kementerian Keuangan. Bila Danantara berhasil mengurangi atau menunda setoran, ruang fiskal APBN untuk program energi dan infrastruktur akan tertekan. Sebaliknya, bila Kementerian Keuangan memaksakan setoran penuh, kemampuan Danantara untuk mendanai restrukturisasi BUMN Karya atau investasi transmisi PLN akan berkurang. Kedua sinyal Danantara hari ini (audit BPK dan sengketa dividen) bergerak bersamaan, meningkatkan ketidakpastian tata kelola secara simultan.",
+      "secondOrder": "Resolusi sengketa ini akan menjadi preseden bagi hubungan fiskal antara holding investasi BUMN dan APBN. Bila Danantara berhasil menahan dividen dengan alasan kebutuhan reinvestasi, model ini dapat direplikasi oleh entitas BUMN lain, yang secara struktural mengubah cara pemerintah menghitung penerimaan non-pajak dari BUMN dalam proyeksi fiskal jangka menengah.",
+      "action": "Pantau jadwal dan hasil pertemuan Danantara dengan Kementerian Keuangan. Analisis dampak skenario setoran penuh versus setoran tereduksi terhadap kapasitas investasi Danantara di sektor energi dan infrastruktur. Pertimbangkan apakah posisi negosiasi ini akan muncul sebagai temuan material dalam audit BPK yang sedang berjalan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRlZvOUVSbHh2OFRlUERGSzY3d2ZtUDNNSlFsTUJsSDZRMExtczhxTTY4RElPUjRSeTI2M0pZQlljWXh0MDU5QWYtLXlmWHV3cUVMTFd4Y3pRaFNWb3VPVkM5aU5nOFpNY0Z2UWFtY1QzcVRxcWxZMWhGcm1yMi1nZVVVbWIxSkduRGcxUmtFRGhOTHFxTEh0TzJ3THdqajl4MDF4aFMtUkVtem93Z2pqbktLb3l2M1YwVzhUSklfckFYUHhFYnZyN0g1Z9IB0AFBVV95cUxPNnczcHFhTVpMWFRoTGpZeGZxYUlYbTlYa251Sk1MQjhZM0gzRjhlZk55UFRNQ21wREtYU28yYmJKV1ZSWkViYkpUXy1IY2p0M3NqSE0yUHFZQ0NlLVB3em9tQ09PMHVIWF8yVS1OaFhieGp2REplT0NkV2ZIejlCRTRFVm9sZWl0aDZ5SjZsMWtIa2NhR2l4QkRJSDZ1TEFkUTNzQzdIT1pfVXVaSHhRc1hFMTk1cHRtUVdIV1I1MFpNT3V5R0NDRFEtQXJ5T0k0?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSGFESlVMZ3RzaVlWQ3hTRWR5RXF0dXowZFlPX19BbGR1b0o5UjB3WVN2UzBWaXB2YjQ5M2p4SjBGV1lnMnJJWGdiQXpBUUgxNDJUbVFhbDFNTDhIQ0pFMDhFSmNrRDdBSGNfblRRZWpvc2pMMWlZUE1LbVJQRmNNRGltTWQzTFdXdVF6eFB3RHhUU3E4UnNhZmI1eGxWYlE1LWtsM2Y3cTBwMWFzQ2c?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BPK",
+        "BPI Danantara",
+        "Media Indonesia"
+      ],
+      "headline": "BPK mulai audit laporan keuangan BPI Danantara tahun 2025",
+      "whatChanged": "Badan Pemeriksa Keuangan resmi memulai audit laporan keuangan BPI Danantara untuk tahun buku 2025, sebagaimana dilaporkan Media Indonesia pada 19 September 2026. Ini adalah audit negara pertama yang secara formal menjangkau entitas Danantara sejak pembentukannya.",
+      "whyItMatters": "Danantara telah beroperasi sebagai kendaraan investasi BUMN skala besar tanpa laporan keuangan yang telah diaudit oleh otoritas negara. Audit BPK mengaktifkan standar akuntabilitas publik yang selama ini absen, dan hasilnya akan menjadi referensi wajib bagi DPR, Kementerian Keuangan, serta kreditur yang mengevaluasi eksposur ke portofolio BUMN. Konteks tren danantara-bumn-karya-restructuring yang telah berlangsung 25 kali sejak Agustus 2026 kini memasuki fase verifikasi: narasi restrukturisasi akan diuji oleh angka yang diaudit.",
+      "secondOrder": "Bila temuan audit mengungkap kewajiban tersembunyi atau aset yang dinilai terlalu tinggi, tekanan untuk merevisi struktur dividen Rp 120 triliun yang sedang disengketakan dengan Kementerian Keuangan akan meningkat tajam. Pasar obligasi BUMN, yang menjadikan kekuatan neraca induk sebagai acuan, akan menyesuaikan premi risiko sebelum hasil audit resmi dipublikasikan, karena investor akan berspekulasi pada skenario terburuk.",
+      "action": "Tinjau kembali eksposur portofolio ke obligasi BUMN yang terhubung dengan Danantara. Petakan kewajiban lintas entitas yang berpotensi muncul dalam temuan BPK. Pantau jadwal penyampaian laporan hasil audit ke DPR sebagai pemicu berikutnya.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVmY2TG5iQWxBd1BpMzVIbFc0Rk5YZXc3dWswaUhCVWhQN1dxUUJ3RTdrVGxubUpoemwyTXFFRnBVZ0pLcGtKcHdYY0FoQ29Iajc2Z1FKdFlBZlcwQVJkMjlpcjNWQzFrNzhKZkFzTEJTQ21lOTlOUHBZVVlsMHE4OUJRTFp3ak1LbkhVTEZ4NTR6M1pmbld0YjBQeHdPRUpY?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRlZvOUVSbHh2OFRlUERGSzY3d2ZtUDNNSlFsTUJsSDZRMExtczhxTTY4RElPUjRSeTI2M0pZQlljWXh0MDU5QWYtLXlmWHV3cUVMTFd4Y3pRaFNWb3VPVkM5aU5nOFpNY0Z2UWFtY1QzcVRxcWxZMWhGcm1yMi1nZVVVbWIxSkduRGcxUmtFRGhOTHFxTEh0TzJ3THdqajl4MDF4aFMtUkVtem93Z2pqbktLb3l2M1YwVzhUSklfckFYUHhFYnZyN0g1Z9IB0AFBVV95cUxPNnczcHFhTVpMWFRoTGpZeGZxYUlYbTlYa251Sk1MQjhZM0gzRjhlZk55UFRNQ21wREtYU28yYmJKV1ZSWkViYkpUXy1IY2p0M3NqSE0yUHFZQ0NlLVB3em9tQ09PMHVIWF8yVS1OaFhieGp2REplT0NkV2ZIejlCRTRFVm9sZWl0aDZ5SjZsMWtIa2NhR2l4QkRJSDZ1TEFkUTNzQzdIT1pfVXVaSHhRc1hFMTk1cHRtUVdIV1I1MFpNT3V5R0NDRFEtQXJ5T0k0?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-21",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Hasil pertemuan Danantara dengan Menteri Keuangan baru terkait setoran dividen Rp 120 triliun: resolusi akan menentukan kapasitas investasi Danantara dan preseden fiskal BUMN-APBN.",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Publikasi laporan hasil audit BPK atas laporan keuangan BPI Danantara tahun 2025: jadwal penyampaian ke DPR dan potensi temuan material.",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "Respons PLN dan Kementerian ESDM terhadap rekomendasi IESR MENTARI Grids tentang investasi transmisi, termasuk apakah subholding transmisi masuk agenda RUPTL revisi.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Pengumuman adopsi awal Astra for Law oleh firma hukum Asia Tenggara, khususnya yang terlibat dalam transaksi IPO atau M&A di Indonesia.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Laporan Anthropic berikutnya tentang proporsi pekerjaan yang dipimpin Claude dalam pengembangan model, sebagai indikator laju percepatan agentic development loop.",
+      "dueDate": "2027-03-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "BPK Mulai Audit Laporan Keuangan BPI Danantara Tahun 2025",
+      "publisher": "Media Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVmY2TG5iQWxBd1BpMzVIbFc0Rk5YZXc3dWswaUhCVWhQN1dxUUJ3RTdrVGxubUpoemwyTXFFRnBVZ0pLcGtKcHdYY0FoQ29Iajc2Z1FKdFlBZlcwQVJkMjlpcjNWQzFrNzhKZkFzTEJTQ21lOTlOUHBZVVlsMHE4OUJRTFp3ak1LbkhVTEZ4NTR6M1pmbld0YjBQeHdPRUpY?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-19T08:36:05.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "title": "Soal Setoran Dividen Rp 120 Triliun, Bos Danantara Mau Bertemu Menkeu Baru",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRlZvOUVSbHh2OFRlUERGSzY3d2ZtUDNNSlFsTUJsSDZRMExtczhxTTY4RElPUjRSeTI2M0pZQlljWXh0MDU5QWYtLXlmWHV3cUVMTFd4Y3pRaFNWb3VPVkM5aU5nOFpNY0Z2UWFtY1QzcVRxcWxZMWhGcm1yMi1nZVVVbWIxSkduRGcxUmtFRGhOTHFxTEh0TzJ3THdqajl4MDF4aFMtUkVtem93Z2pqbktLb3l2M1YwVzhUSklfckFYUHhFYnZyN0g1Z9IB0AFBVV95cUxPNnczcHFhTVpMWFRoTGpZeGZxYUlYbTlYa251Sk1MQjhZM0gzRjhlZk55UFRNQ21wREtYU28yYmJKV1ZSWkViYkpUXy1IY2p0M3NqSE0yUHFZQ0NlLVB3em9tQ09PMHVIWF8yVS1OaFhieGp2REplT0NkV2ZIejlCRTRFVm9sZWl0aDZ5SjZsMWtIa2NhR2l4QkRJSDZ1TEFkUTNzQzdIT1pfVXVaSHhRc1hFMTk1cHRtUVdIV1I1MFpNT3V5R0NDRFEtQXJ5T0k0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-16T13:58:52.000Z"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/astra-for-law",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "Purbaya: Danantara Keberatan Setor Rp 120 Triliun ke Negara",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSGFESlVMZ3RzaVlWQ3hTRWR5RXF0dXowZFlPX19BbGR1b0o5UjB3WVN2UzBWaXB2YjQ5M2p4SjBGV1lnMnJJWGdiQXpBUUgxNDJUbVFhbDFNTDhIQ0pFMDhFSmNrRDdBSGNfblRRZWpvc2pMMWlZUE1LbVJQRmNNRGltTWQzTFdXdVF6eFB3RHhUU3E4UnNhZmI1eGxWYlE1LWtsM2Y3cTBwMWFzQ2c?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-04T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "OJK rilis aturan demutualisasi BEI, buka pintu bagi Pemerintah dan Danantara sebagai pemegang saham",
+      "occurrences": 25,
+      "firstSeen": "2026-08-21",
+      "lastSeen": "2026-09-19",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR MENTARI Grids report quantifies transmission gap blocking Indonesia's renewable targets",
+      "occurrences": 25,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-19",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "openai-enterprise-data-privacy",
+      "theme": "OpenAI luncurkan Astra for Law dengan kontrol data bermutu hukum untuk firma IPO",
+      "occurrences": 24,
+      "firstSeen": "2026-08-21",
+      "lastSeen": "2026-09-19",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "Emerald AI, Google, dan NVIDIA bentuk aliansi pusat data AI fleksibel",
+      "occurrences": 22,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "IESR: MENTARI Grids tegaskan transmisi sebagai hambatan kritis pencapaian target EBT Indonesia",
+      "occurrences": 18,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-19",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 381,
+    "poolSize": 110,
+    "generatedAt": "2026-09-19T23:20:01.524Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
