@@ -2,62 +2,29 @@
   "slug": "2026-09-20",
   "date": "2026-09-20",
   "lang": "en",
-  "title": "Claude Self-Codes 25% of Anthropic's Models; BPK Audits Danantara FY2025",
-  "dek": "Frontier AI self-improvement crosses a measurable threshold, Indonesia's sovereign fund faces its first formal audit, and the MENTARI Grids report crystallises a structural transmission bottleneck that now conditions every renewable investment decision in Indonesia.",
+  "title": "BPK Audits Danantara; Anthropic's Claude Leads 25% of Its Own R&D",
+  "dek": "Two governance stress-tests converge today: Indonesia's state investment vehicle faces its first formal audit while Anthropic discloses that its own frontier model now drives a material share of the research building its successor.",
   "domains": [
-    "corporate",
     "energy",
-    "ai"
+    "ai",
+    "corporate"
   ],
-  "summary": "Anthropic disclosed that Claude now autonomously leads 25% of the work building Anthropic's next AI models, a concrete benchmark of recursive self-improvement that reframes AI capability timelines from speculation to measured fact. Separately, OpenAI published a formal misalignment-reporting framework alongside six documented cases of unexpected model behaviour, signalling that alignment governance is moving from aspiration to auditable process. On the energy side, IESR's MENTARI Grids report confirms that Indonesia's transmission deficit is the binding constraint on its renewable targets, a structural condition now 25 appearances deep in this archive. In corporate governance, Indonesia's BPK has begun auditing BPI Danantara's FY2025 financial statements, the first independent scrutiny of the sovereign fund's books, arriving as Danantara's leadership seeks a meeting with the Finance Minister over a disputed Rp 120 trillion dividend obligation. These signals converge on a common pressure point: institutions that allocate capital to AI infrastructure or Indonesian energy and state assets must now model governance risk and autonomous-capability escalation as structural variables, not tail risks.",
+  "summary": "BPK has formally opened a 2025 audit of BPI Danantara, the first independent financial scrutiny of a vehicle that controls trillions in state assets and is contesting a Rp 120 trillion dividend obligation to the Finance Ministry. Simultaneously, Anthropic reports that Claude leads roughly a quarter of the work constructing the next generation of Anthropic models, a concrete capability milestone that reframes AI safety from a policy question into an engineering dependency. On the energy side, the IESR MENTARI Grids report continues to accumulate as a structural condition: Indonesia's transmission deficit is not a future risk but a present constraint on every renewable commitment already on the books. Danantara's reported interest in acquiring up to 40 percent of the Indonesia Stock Exchange post-demutualization adds a capital-markets dimension to its restructuring posture. Together, these signals show that institutional accountability gaps in Indonesian state finance and accelerating AI self-improvement are the two fastest-moving risks this week.",
   "signals": [
     {
       "rank": 1,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
-      "entities": [
-        "BPI Danantara",
-        "BPK",
-        "Media Indonesia"
-      ],
-      "headline": "BPK begins first formal audit of BPI Danantara FY2025 financial statements",
-      "whatChanged": "Indonesia's Badan Pemeriksa Keuangan (BPK) has commenced an audit of BPI Danantara's financial statements for fiscal year 2025, according to Media Indonesia reporting on 19 September 2026. This is the first independent external audit of the sovereign investment fund since its establishment.",
-      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now 25 appearances deep and classified structural. The BPK audit introduces, for the first time, an independent evidentiary basis for assessing Danantara's financial position. Its timing coincides with Danantara's leadership seeking a meeting with the Finance Minister over a disputed Rp 120 trillion dividend obligation to the state, creating a direct tension between Danantara's reported reluctance to transfer funds and an incoming independent assessment of its balance sheet.",
-      "secondOrder": "If the BPK audit surfaces material discrepancies between Danantara's self-reported position and independently verified figures, it will directly affect the credibility of the five-year SOE transformation roadmap finalised with BP BUMN. Creditors, joint-venture partners of portfolio SOEs, and rating agencies monitoring Indonesian sovereign credit will use the audit outcome as a reference point for pricing exposure to any entity within the Danantara perimeter.",
-      "action": "Map which BUMN Karya entities and strategic projects sit within Danantara's audited perimeter, then flag the audit completion date as a decision gate for any financing or partnership commitment that depends on Danantara's balance sheet strength. Track the dividend negotiation outcome in parallel, as it determines free cash available for recapitalisation of restructured SOEs.",
-      "strength": "material",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVmY2TG5iQWxBd1BpMzVIbFc0Rk5YZXc3dWswaUhCVWhQN1dxUUJ3RTdrVGxubUpoemwyTXFFRnBVZ0pLcGtKcHdYY0FoQ29Iajc2Z1FKdFlBZlcwQVJkMjlpcjNWQzFrNzhKZkFzTEJTQ21lOTlOUHBZVVlsMHE4OUJRTFp3ak1LbkhVTEZ4NTR6M1pmbld0YjBQeHdPRUpY?oc=5",
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRlZvOUVSbHh2OFRlUERGSzY3d2ZtUDNNSlFsTUJsSDZRMExtczhxTTY4RElPUjRSeTI2M0pZQlljWXh0MDU5QWYtLXlmWHV3cUVMTFd4Y3pRaFNWb3VPVkM5aU5nOFpNY0Z2UWFtY1QzcVRxcWxZMWhGcm1yMi1nZVVVbWIxSkduRGcxUmtFRGhOTHFxTEh0TzJ3THdqajl4MDF4aFMtUkVtem93Z2pqbktLb3l2M1YwVzhUSklfckFYUHhFYnZyN0g1Z9IB0AFBVV95cUxPNnczcHFhTVpMWFRoTGpZeGZxYUlYbTlYa251Sk1MQjhZM0gzRjhlZk55UFRNQ21wREtYU28yYmJKV1ZSWkViYkpUXy1IY2p0M3NqSE0yUHFZQ0NlLVB3em9tQ09PMHVIWF8yVS1OaFhieGp2REplT0NkV2ZIejlCRTRFVm9sZWl0aDZ5SjZsMWtIa2NhR2l4QkRJSDZ1TEFkUTNzQzdIT1pfVXVaSHhRc1hFMTk1cHRtUVdIV1I1MFpNT3V5R0NDRFEtQXJ5T0k0?oc=5"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 2,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
-        "status": "structural",
-        "occurrences": 26,
-        "firstSeen": "2026-08-21",
-        "spanDays": 30
-      }
-    },
-    {
-      "rank": 2,
       "domain": "energy",
       "themeKey": "pln-grid-investment",
       "entities": [
         "IESR",
         "PLN",
-        "RUPTL 2025-2034",
-        "PLN Transmisi"
+        "RUPTL"
       ],
-      "headline": "IESR MENTARI Grids report formalises transmission deficit as Indonesia's binding renewable constraint",
-      "whatChanged": "IESR published the MENTARI Grids report on 17 September 2026, quantifying Indonesia's transmission gap as the primary structural barrier to achieving the renewable energy targets set in RUPTL 2025-2034. The report is a primary-source, full-text publication from a recognised Indonesian energy research institution.",
-      "whyItMatters": "This continues the pln-grid-investment thread at its 25th appearance, now classified structural. At this frequency, the transmission gap is no longer a risk to be monitored; it is a condition that must be designed around. Every renewable project, power purchase agreement, and BUMN energy investment in Indonesia is now operating inside a grid that IESR has formally quantified as inadequate for the capacity targets the government has publicly committed to.",
-      "secondOrder": "The structural transmission deficit creates an adverse selection dynamic in Indonesia's renewable pipeline: projects that can self-arrange grid access or collocate with industrial offtakers will advance, while grid-dependent utility-scale projects will stall regardless of their generation economics. This compresses the bankable project universe and concentrates risk in PLN's balance sheet, which must fund both generation and the missing transmission simultaneously.",
-      "action": "For any renewable project under evaluation in Indonesia, require a grid-connection opinion from PLN Transmisi that specifies the current committed capacity on the relevant corridor, and stress-test the project timeline against a 24-month transmission completion delay. Treat grid readiness as a first-order underwriting criterion, not a permitting footnote.",
+      "headline": "IESR MENTARI Grids report formalizes Indonesia's transmission deficit as a binding constraint on renewable targets",
+      "whatChanged": "IESR published the MENTARI Grids report on 17 September 2026, providing a quantified analysis of Indonesia's transmission gaps that are blocking the renewable energy targets set out in RUPTL and the government's 100 GWp solar program. The report identifies transmission as the critical bottleneck, not generation capacity.",
+      "whyItMatters": "This is the 25th entry in the pln-grid-investment thread since August 22, and at structural frequency it is no longer a news event but a condition to plan around. The MENTARI Grids report is a primary-source, independently quantified framing of a constraint that every renewable energy commitment in Indonesia, including the Prabowo administration's 100 GWp solar target, must route through. Commitments announced without transmission solutions are contingent, not firm.",
+      "secondOrder": "Developers and financiers pitching renewable generation projects to Indonesian offtakers or international lenders will increasingly face a transmission-risk question that has no near-term resolution through PLN's current capex plan. This shifts bankability risk from generation technology to grid interconnection, and it means project finance structures need to price in curtailment risk or grid-access conditionality as a first-order variable, not a footnote.",
+      "action": "For any Indonesia renewable energy project under evaluation, require the developer to present a transmission interconnection agreement or a grid-access queue position as a condition precedent to financial close assessment. Absent that, treat the generation capacity as uncontracted regardless of the power purchase agreement status.",
       "strength": "material",
       "sourceUrls": [
         "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/"
@@ -80,20 +47,24 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "domain": "ai",
       "themeKey": "openai-enterprise-data-privacy",
       "entities": [
-        "OpenAI"
+        "OpenAI",
+        "Astra for Law",
+        "Cooley",
+        "GO Public"
       ],
-      "headline": "OpenAI publishes misalignment-reporting framework with six documented cases of unexpected model behaviour",
-      "whatChanged": "OpenAI published, on 16 September 2026, a formal framework for tracking, investigating, and disclosing model misalignment, accompanied by six specific reports of unexpected or concerning model behaviour identified in its deployed systems.",
-      "whyItMatters": "This continues the openai-enterprise-data-privacy thread, now 24 appearances deep. The publication of a structured misalignment-reporting framework with accompanying case disclosures is a governance shift: it moves AI safety accountability from internal policy documents to externally auditable reporting. Enterprise customers, regulators, and procurement officers now have a published reference baseline against which future disclosures can be compared.",
-      "secondOrder": "A voluntary disclosure framework, once established, creates pressure on competing frontier labs to publish equivalent frameworks or face comparative reputational disadvantage. It also provides plaintiff attorneys and regulators with a documentary record that can be subpoenaed or cited in enforcement actions, converting voluntary transparency into a legal liability surface. Enterprises deploying OpenAI models in regulated sectors should treat these disclosures as material inputs to their own AI risk registers.",
-      "action": "Review the six disclosed misalignment cases against the use cases your organisation or clients have deployed on OpenAI infrastructure. Identify any functional overlap, then determine whether existing AI governance frameworks require supplemental controls or incident-response triggers based on OpenAI's own categorisations.",
+      "headline": "OpenAI launches Astra for Law with legal-grade data controls targeting IPO and M&A workflows",
+      "whatChanged": "OpenAI introduced Astra for Law on 17 September 2026, a product combining frontier model intelligence with firm-specific workflows, connected legal data sources, and controls designed to meet confidentiality requirements for client work. The Cooley law firm has already deployed a version called GO Public to support IPO processes.",
+      "whyItMatters": "This continues the openai-enterprise-data-privacy thread. The move takes OpenAI from general enterprise AI into a domain, legal services for capital markets transactions, where data confidentiality requirements are enforced by professional regulation, not just contract. Competing on legal-grade data controls rather than model capability alone signals that OpenAI is treating regulated-industry trust infrastructure as a product differentiator, not a compliance checkbox.",
+      "secondOrder": "Law firms and in-house legal teams at BUMN entities or companies preparing Indonesian capital market transactions now face a build-versus-buy decision on AI legal tooling where the vendor is providing the confidentiality architecture. If Astra for Law sets a market standard for what 'secure AI' means in legal contexts, firms that have built internal AI workflows on less controlled infrastructure face reputational and regulatory exposure when handling sensitive transactions.",
+      "action": "Assess whether any AI tools currently used in legal, compliance, or capital-markets work at your institution meet the data-isolation and audit-trail standards that Astra for Law is positioning as baseline. If they do not, the vendor landscape has shifted and the gap is now visible to clients and regulators.",
       "strength": "material",
       "sourceUrls": [
-        "https://openai.com/index/model-misalignment-reporting-framework"
+        "https://openai.com/index/astra-for-law",
+        "https://openai.com/index/cooley-gopublic"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -109,53 +80,59 @@
       }
     },
     {
-      "rank": 4,
-      "domain": "ai",
-      "themeKey": "ai-model-safety-frontier",
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "Anthropic",
-        "Claude",
-        "Reuters"
+        "BPK",
+        "BPI Danantara"
       ],
-      "headline": "Anthropic: Claude autonomously leads 25% of work building Anthropic's next AI models",
-      "whatChanged": "Anthropic disclosed, via Reuters on 17 September 2026, that Claude now leads a quarter of the internal engineering and research work involved in building Anthropic's next generation of AI models, making autonomous self-directed contributions rather than acting as a passive tool.",
-      "whyItMatters": "This continues the ai-model-safety-frontier thread, now 10 appearances deep, and moves it from a structural condition to an actionable threshold. A 25% autonomous-contribution figure is the first publicly cited, internally measured benchmark of recursive self-improvement at a frontier lab. It transforms the question of AI self-improvement from a theoretical risk to a reported operational fact with a named percentage.",
-      "secondOrder": "Once a lab's own models are materially authoring the next model, the pace of capability gain decouples partially from human engineering headcount. External evaluators, regulators, and counterparties negotiating multi-year AI contracts can no longer treat capability timelines as primarily a function of human research staffing. Insurance underwriters, sovereign AI policy offices, and enterprise procurement teams will need new instruments to price this rate of change.",
-      "action": "Request that any AI vendor in active procurement disclose what share of their current model's training pipeline or evaluation harness was authored or optimised by a prior model generation. Treat the absence of that disclosure as an unpriced capability-escalation risk in contract negotiations.",
+      "headline": "BPK opens first formal audit of BPI Danantara's 2025 financial statements",
+      "whatChanged": "Indonesia's Supreme Audit Board (BPK) has begun auditing BPI Danantara's financial statements for fiscal year 2025, marking the first independent external audit of the state investment vehicle since its establishment.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, which has now accumulated 25 entries since August. The audit arrives while Danantara is publicly contesting a Rp 120 trillion dividend remittance demand from the Finance Ministry, and while international media are scrutinizing 'Prabowonomics' and the SOE restructuring program. BPK findings carry legal weight: an adverse or qualified opinion would constrain Danantara's ability to raise external debt or attract co-investors into its portfolio projects.",
+      "secondOrder": "A BPK audit creates a public accountability record that did not previously exist. If the audit surfaces material weaknesses in governance or asset valuation, it could harden the Finance Ministry's position on the dividend dispute and reduce Danantara's negotiating leverage, effectively forcing a capital structure decision that management has so far deferred through political channels.",
+      "action": "Track the audit's scope: whether BPK is examining consolidation of the 250-plus SOEs absorbed under the reform, related-party transactions with BUMN Karya entities, and the basis of asset valuations. The scope defines what risks become public and when.",
       "strength": "material",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5"
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVmY2TG5iQWxBd1BpMzVIbFc0Rk5YZXc3dWswaUhCVWhQN1dxUUJ3RTdrVGxubUpoemwyTXFFRnBVZ0pLcGtKcHdYY0FoQ29Iajc2Z1FKdFlBZlcwQVJkMjlpcjNWQzFrNzhKZkFzTEJTQ21lOTlOUHBZVVlsMHE4OUJRTFp3ak1LbkhVTEZ4NTR6M1pmbld0YjBQeHdPRUpY?oc=5"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRlZvOUVSbHh2OFRlUERGSzY3d2ZtUDNNSlFsTUJsSDZRMExtczhxTTY4RElPUjRSeTI2M0pZQlljWXh0MDU5QWYtLXlmWHV3cUVMTFd4Y3pRaFNWb3VPVkM5aU5nOFpNY0Z2UWFtY1QzcVRxcWxZMWhGcm1yMi1nZVVVbWIxSkduRGcxUmtFRGhOTHFxTEh0TzJ3THdqajl4MDF4aFMtUkVtem93Z2pqbktLb3l2M1YwVzhUSklfckFYUHhFYnZyN0g1Z9IB0AFBVV95cUxPNnczcHFhTVpMWFRoTGpZeGZxYUlYbTlYa251Sk1MQjhZM0gzRjhlZk55UFRNQ21wREtYU28yYmJKV1ZSWkViYkpUXy1IY2p0M3NqSE0yUHFZQ0NlLVB3em9tQ09PMHVIWF8yVS1OaFhieGp2REplT0NkV2ZIejlCRTRFVm9sZWl0aDZ5SjZsMWtIa2NhR2l4QkRJSDZ1TEFkUTNzQzdIT1pfVXVaSHhRc1hFMTk1cHRtUVdIV1I1MFpNT3V5R0NDRFEtQXJ5T0k0?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSGFESlVMZ3RzaVlWQ3hTRWR5RXF0dXowZFlPX19BbGR1b0o5UjB3WVN2UzBWaXB2YjQ5M2p4SjBGV1lnMnJJWGdiQXpBUUgxNDJUbVFhbDFNTDhIQ0pFMDhFSmNrRDdBSGNfblRRZWpvc2pMMWlZUE1LbVJQRmNNRGltTWQzTFdXdVF6eFB3RHhUU3E4UnNhZmI1eGxWYlE1LWtsM2Y3cTBwMWFzQ2c?oc=5"
+      ],
       "corroboration": {
         "publishers": 1,
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "ai-model-safety-frontier",
+        "themeKey": "danantara-bumn-karya-restructuring",
         "status": "structural",
-        "occurrences": 11,
-        "firstSeen": "2026-09-03",
-        "spanDays": 17
+        "occurrences": 26,
+        "firstSeen": "2026-08-21",
+        "spanDays": 30
       }
     }
   ],
   "watchNext": [
     {
-      "item": "BPK audit completion date and findings for BPI Danantara FY2025; the dividend negotiation outcome between Danantara and the Finance Minister over Rp 120 trillion",
+      "item": "BPK audit findings or interim observations on BPI Danantara 2025 financials, specifically scope covering BUMN Karya consolidation and asset valuation methodology",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "Anthropic or other frontier labs publishing quantified metrics on model-led contributions to next-generation training pipelines, as a follow-on to the 25% Claude disclosure",
+      "item": "OJK ruling on maximum single-shareholder cap and governance requirements in BEI demutualization, which will determine whether a 40% Danantara stake is structurally permissible",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Danantara-Finance Ministry resolution on the Rp 120 trillion dividend remittance, which will clarify whether BPK audit findings accelerate or complicate the negotiation",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Anthropic's next capability disclosure on the share of model-led development, to establish whether the 25% figure is growing and at what rate",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "PLN Transmisi investment commitment schedule aligned with RUPTL 2025-2034 targets, following IESR MENTARI Grids report publication",
-      "dueDate": "2027-03-31"
-    },
-    {
-      "item": "Indonesian government decision on extending the five-year power export licence ceiling, as Singapore's clean energy import programme advances",
-      "dueDate": "2027-06-30"
+      "item": "PLN transmission investment plan update following IESR MENTARI Grids report, to determine whether the government's 100 GWp solar program carries a credible grid integration pathway",
+      "dueDate": "2026-12-31"
     }
   ],
   "sources": [
@@ -186,6 +163,14 @@
       "publishedAt": "2026-06-30T07:00:00.000Z"
     },
     {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T12:00:00.000Z"
+    },
+    {
       "title": "Soal Setoran Dividen Rp 120 Triliun, Bos Danantara Mau Bertemu Menkeu Baru",
       "publisher": "detikFinance",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRlZvOUVSbHh2OFRlUERGSzY3d2ZtUDNNSlFsTUJsSDZRMExtczhxTTY4RElPUjRSeTI2M0pZQlljWXh0MDU5QWYtLXlmWHV3cUVMTFd4Y3pRaFNWb3VPVkM5aU5nOFpNY0Z2UWFtY1QzcVRxcWxZMWhGcm1yMi1nZVVVbWIxSkduRGcxUmtFRGhOTHFxTEh0TzJ3THdqajl4MDF4aFMtUkVtem93Z2pqbktLb3l2M1YwVzhUSklfckFYUHhFYnZyN0g1Z9IB0AFBVV95cUxPNnczcHFhTVpMWFRoTGpZeGZxYUlYbTlYa251Sk1MQjhZM0gzRjhlZk55UFRNQ21wREtYU28yYmJKV1ZSWkViYkpUXy1IY2p0M3NqSE0yUHFZQ0NlLVB3em9tQ09PMHVIWF8yVS1OaFhieGp2REplT0NkV2ZIejlCRTRFVm9sZWl0aDZ5SjZsMWtIa2NhR2l4QkRJSDZ1TEFkUTNzQzdIT1pfVXVaSHhRc1hFMTk1cHRtUVdIV1I1MFpNT3V5R0NDRFEtQXJ5T0k0?oc=5",
@@ -204,21 +189,12 @@
       "publishedAt": "2026-05-20T07:00:00.000Z"
     },
     {
-      "title": "Anthropic says Claude now leads a quarter of work building its next AI models",
-      "publisher": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-17T23:59:43.000Z"
-    },
-    {
-      "title": "Our framework for reporting model misalignment",
+      "title": "Introducing Astra for Law",
       "publisher": "OpenAI",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "url": "https://openai.com/index/astra-for-law",
       "tier": 1,
       "primary": true,
-      "publishedAt": "2026-09-16T17:00:00.000Z"
+      "publishedAt": "2026-09-17T00:00:00.000Z"
     },
     {
       "title": "Unlocking Indonesia's transmission grid investment",
@@ -228,6 +204,15 @@
       "via": "Google News",
       "primary": true,
       "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "Purbaya: Danantara Keberatan Setor Rp 120 Triliun ke Negara",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSGFESlVMZ3RzaVlWQ3hTRWR5RXF0dXowZFlPX19BbGR1b0o5UjB3WVN2UzBWaXB2YjQ5M2p4SjBGV1lnMnJJWGdiQXpBUUgxNDJUbVFhbDFNTDhIQ0pFMDhFSmNrRDdBSGNfblRRZWpvc2pMMWlZUE1LbVJQRmNNRGltTWQzTFdXdVF6eFB3RHhUU3E4UnNhZmI1eGxWYlE1LWtsM2Y3cTBwMWFzQ2c?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-04T07:00:00.000Z"
     }
   ],
   "trends": [
@@ -283,9 +268,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 381,
+    "candidateCount": 396,
     "poolSize": 110,
-    "generatedAt": "2026-09-19T23:21:06.409Z",
+    "generatedAt": "2026-09-19T23:46:00.757Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
