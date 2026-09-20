@@ -1,0 +1,396 @@
+{
+  "slug": "2026-09-21",
+  "date": "2026-09-21",
+  "lang": "id",
+  "title": "BPK Audit Danantara, Rp120 T Mengambang, PLN Masuk Panas Bumi Ungaran",
+  "dek": "Tiga tekanan tata kelola BUMN bertemu sekaligus: audit eksternal pertama Danantara, status setoran Rp120 triliun yang belum jelas, dan Anthropic mengukur laju AI dari dalam lab.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "BPK memulai pemeriksaan laporan keuangan konsolidasian Danantara tahun buku 2025, menandai pengawasan eksternal formal pertama sejak entitas itu berdiri. Bersamaan, Kompas.com melaporkan bahwa status setoran Rp120 triliun ke Danantara masih dibahas antara pimpinan Danantara dan Menkeu Suahasil, menciptakan ketidakpastian arus kas yang material. Di sisi energi, PLN resmi ditugaskan mengembangkan WKP Panas Bumi Ungaran 55 MW, yang melanjutkan tren penugasan langsung ke PLN sebagai instrumen transisi energi. Anthropic menerbitkan kerangka pengukuran laju pengembangan AI dari dalam lab frontier, memberikan sinyal bahwa kompetisi model sedang bergerak ke fase baru yang terukur dan transparan. Keempat perkembangan ini secara kolektif mempertegas bahwa risiko tata kelola dan risiko pengukuran kapabilitas AI kini bergerak paralel dengan agenda investasi infrastruktur energi Indonesia.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BPK",
+        "BPI Danantara",
+        "Menkeu Suahasil"
+      ],
+      "headline": "BPK mulai audit Danantara 2025 sementara setoran Rp120 triliun belum jelas statusnya",
+      "whatChanged": "BPK secara resmi memulai pemeriksaan Laporan Keuangan Konsolidasian BPI Danantara tahun buku 2025, sebagaimana dilaporkan Bisnis.com dan dikonfirmasi detikFinance per 20 September 2026. Pada hari yang sama, Kompas.com melaporkan bahwa pimpinan Danantara masih membahas nasib setoran Rp120 triliun bersama Menkeu Suahasil, tanpa kepastian jadwal atau mekanisme pencairan.",
+      "whyItMatters": "Ini adalah pengawasan eksternal formal pertama atas Danantara sejak entitas tersebut berdiri. Audit BPK akan menghasilkan opini publik atas struktur konsolidasi aset BUMN senilai ratusan triliun rupiah. Ketidakjelasan Rp120 triliun secara bersamaan menunjukkan bahwa arsitektur keuangan internal Danantara belum tuntas, tepat saat auditor eksternal masuk.",
+      "secondOrder": "Opini BPK yang disclaimer atau adverse akan mempersulit Danantara menerbitkan instrumen utang berikutnya di pasar internasional, karena investor institusional mensyaratkan laporan keuangan yang sudah diaudit dengan opini wajar. Bila setoran Rp120 triliun dicatat dengan cara yang berbeda antara Danantara dan Kementerian Keuangan, perbedaan itu akan muncul sebagai temuan material dalam laporan BPK dan memaksa restatement yang dapat menunda seluruh rencana pembiayaan infrastruktur yang bergantung pada neraca Danantara.",
+      "action": "Tim risiko korporasi dan analis kredit yang memiliki eksposur ke obligasi atau proyek yang dijamin Danantara perlu memetakan tiga skenario opini BPK (wajar tanpa pengecualian, wajar dengan pengecualian, disclaimer) terhadap covenant instrumen utang yang sudah beredar. Lakukan pemetaan ini sebelum akhir Oktober 2026, saat tahap pertama pemeriksaan BPK kemungkinan menghasilkan temuan awal.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLVVIQkNZUEpZaUVwNUw0NlZBWkF3dXF3SjFqa1IxZ2xQWWltVlh2YlJzSGhJOWo3Zkw2ZmthWTRPS1V4NFJTbXNCQW05OUdYc0JrUHpmVFljbTJEdWhHTzBMSHFrcFh6c1RpTWxSQTdhaGc4dkthNWxmcUIzcm1DQkFuYlRMNTAzUk9GWnNmdWI4NGVZMHNhb1hNQUptM2o1NUp3cXBjUWJrLXAwV0Z5VA?oc=5",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8670765/laporan-keuangan-danantara-mulai-diperiksa-bpk",
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc25DMkVYSThMR092bDBza24yREVoZFVVSmZMQjVndWZLOUgtRldIQUgzbXRKVHU5TUFiTlhDUGxKREUzOHVQSkJFRVBjdFcxcVRaWVJBeWhDT0VGb1pPaTR3WDRJZXhTX2lwMjF1akJQLV9Hc0JhaGJadjMtWFVXdlMyM2hkRXZHMlNkOE5Gb3dQdFhBMnBQVFd5WmNfNFcwbVl6U0JOQTRMeVlyT0haSTFzdzZuUGU0LVBoUllXVkk0VkE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "headline": "Anthropic terbitkan kerangka pengukuran laju pengembangan AI dari dalam lab frontier",
+      "whatChanged": "Anthropic menerbitkan dokumen berjudul 'Measurements for understanding the pace of AI development inside frontier labs' pada 20 September 2026. Dokumen ini memaparkan metodologi internal untuk mengukur seberapa cepat kapabilitas AI berkembang di dalam laboratorium, termasuk indikator yang sebelumnya hanya digunakan secara internal.",
+      "whyItMatters": "Ini melanjutkan sinyal dari arsip (Claude memimpin seperempat pekerjaan pembangunan model AI berikutnya) ke tahap berikutnya: Anthropic kini membakukan cara mengukur laju tersebut secara transparan. Langkah ini mengubah kompetisi model dari narasi kualitatif menjadi kompetisi metrik terverifikasi, yang memaksa lab lain untuk merespons dengan kerangka pengukuran setara atau tertinggal dalam standar industri.",
+      "secondOrder": "Regulator di Uni Eropa dan Amerika Serikat yang sedang menyusun persyaratan pelaporan kapabilitas AI (AI Act Annex III, Executive Order 14110 successors) akan menggunakan kerangka seperti ini sebagai referensi de facto. Perusahaan Indonesia yang berencana mengadopsi model frontier untuk aplikasi sensitif, termasuk sektor keuangan dan layanan publik, perlu mempertimbangkan bahwa standar due diligence vendor AI akan segera mencakup pengungkapan laju pengembangan kapabilitas, bukan hanya benchmark akurasi statis.",
+      "action": "Tim pengadaan teknologi dan tim kepatuhan yang sedang mengevaluasi kontrak model AI frontier perlu menambahkan klausul pengungkapan laju pengembangan kapabilitas ke dalam RFP dan perjanjian layanan. Jadikan dokumen Anthropic ini sebagai template checklist vendor assessment yang diselesaikan sebelum negosiasi kontrak Q4 2026.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-09-03",
+        "spanDays": 18
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "WKP Panas Bumi Ungaran"
+      ],
+      "headline": "PLN ditugaskan kembangkan WKP Panas Bumi Ungaran 55 MW melalui penugasan langsung ESDM",
+      "whatChanged": "Kementerian ESDM menugaskan PT PLN (Persero) untuk mengembangkan Wilayah Kerja Panas Bumi Ungaran dengan kapasitas 55 MW, sebagaimana dilaporkan Bisnis.com Semarang dan dikonfirmasi detikFinance per 20 September 2026. Penugasan ini menggunakan mekanisme langsung tanpa lelang kompetitif.",
+      "whyItMatters": "Pola penugasan langsung ke PLN untuk WKP panas bumi melanjutkan tren yang sudah terbentuk: pemerintah menggunakan PLN sebagai kendaraan pengembangan panas bumi ketika lelang kompetitif dianggap lambat atau berisiko tidak laku. Ini konsisten dengan alokasi 82 persen anggaran ESDM 2027 untuk infrastruktur energi yang dilaporkan sebelumnya.",
+      "secondOrder": "Penugasan langsung ke PLN tanpa kompetisi menekan insentif efisiensi biaya dan menambah beban neraca PLN tanpa kepastian tarif jual yang kompetitif. Bila PLN mengembangkan Ungaran dengan skema captive tanpa power purchase agreement (PPA) yang bankable, proyek ini akan sulit menarik pembiayaan dari lender internasional yang mensyaratkan offtaker independen. Pola ini, jika direplikasi di puluhan WKP lain, akan menumpuk risiko kontingen di neraca PLN dan mempersulit Danantara jika berniat memonetasi aset panas bumi melalui spin-off atau sekuritisasi.",
+      "action": "Investor dan lender yang sedang menilai portofolio panas bumi Indonesia perlu memverifikasi apakah setiap WKP dalam pipeline memiliki PPA terpisah dari PLN atau apakah PLN bertindak sekaligus sebagai pengembang dan offtaker. Siapkan analisis struktur kepemilikan dan PPA untuk minimal lima WKP penugasan langsung sebelum akhir November 2026 sebagai dasar keputusan pembiayaan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUxwenNlTEg2eS1KWWVCOTY0SW1PbWtlaDZ6cUdSVmhrZ056RTNYVFd6Uk1vbzRUQkQxRFhWZmNvQm94ODZoM005LXgwNnJGeDhZNDZRaHNRVXhIRTJTbW5GbXZ6bzJFTElRQnRkdVM2Vk9CVTFFY3h4Wm5mWGRCTkY5N2tLNVdFaDRHYTQtN2U0NHJlR3U5SExWeHhHQzZq?oc=5",
+        "https://finance.detik.com/energi/d-8671386/pltp-gunung-ungaran-mau-dibangun-begini-tahapannya",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHkzR2tUamdaU2V3QkJJWktSU1BTbk13b0Mxbmt2ZHlrTng5VzlpeHFYTVBkeVJ0Q0x0MlE2M3d0YjZmRTY5NVdrb1QxMlFhNGk1M0U1eGRPakREbzNmQ21pLUQ3YVAzWlk3TU5VeEJDcFIxbUxuUFJhOWlLal9FSWJfRktkOVRSQUhJbUhKSEV1QnFwZDdrNDV2WVBWT0xQNkdYU244MHRTSmIwU1RRN3dvN2Y4VVp2MG0xb1hhTElmb2paLXczUDRCUQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 10,
+        "firstSeen": "2026-08-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IESR",
+        "PLN",
+        "RUPTL",
+        "IEEFA"
+      ],
+      "headline": "IESR MENTARI Grids kuantifikasi hambatan transmisi sebagai kendala mengikat target EBT Indonesia",
+      "whatChanged": "IESR menerbitkan laporan MENTARI Grids pada 17 September 2026, yang secara eksplisit mengukur kesenjangan transmisi Indonesia sebagai hambatan mengikat (binding constraint) terhadap pencapaian target energi terbarukan dalam RUPTL. Laporan ini melanjutkan tren struktural yang telah terdokumentasi 19 kali dalam arsip sejak 22 Agustus 2026.",
+      "whyItMatters": "Akumulasi laporan IESR, IEEFA, dan data RUPTL kini membentuk konsensus analitis bahwa masalah utama transisi energi Indonesia bukan kapasitas pembangkit, melainkan kapasitas transmisi. Setiap proyek EBT baru yang terhubung ke grid tanpa penguatan transmisi akan menghasilkan curtailment, bukan penurunan emisi. Pola yang sama sudah terjadi di Brasil, di mana impor modul surya turun 48 persen semester pertama 2026 akibat curtailment massal.",
+      "secondOrder": "Bila kesenjangan transmisi tidak diatasi sebelum kapasitas EBT baru beroperasi, pengembang EBT akan menanggung biaya curtailment yang tidak terantisipasi dalam model keuangan mereka. Ini akan menaikkan persepsi risiko proyek EBT Indonesia di mata lender internasional, menaikkan cost of debt, dan pada akhirnya memperlambat laju investasi baru tepat saat pemerintah berharap swasta mengisi gap yang tidak bisa dibiayai APBN.",
+      "action": "Pengembang EBT dan lender yang sedang melakukan financial close untuk proyek di luar Jawa-Bali perlu meminta PLN menyertakan peta kapasitas transmisi eksisting dan rencana penguatan sebagai dokumen wajib dalam PPA. Jadikan ketersediaan kapasitas transmisi terverifikasi sebagai kondisi preseden pencairan, bukan sekadar representasi dalam dokumen proyek.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://www.pv-magazine.com/2026/09/19/solar-module-imports-drop-48-in-brazil-in-h1/"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BEI",
+        "OJK",
+        "Kontan"
+      ],
+      "headline": "Danantara berpotensi kuasai saham BEI pasca demutualisasi, memunculkan konflik kepentingan tata kelola pasar modal",
+      "whatChanged": "Kontan dan kontan.co.id melaporkan pada 20 September 2026 bahwa demutualisasi Bursa Efek Indonesia membuka peluang Danantara menguasai saham BEI, mengingat struktur kepemilikan BUMN yang saat ini dominan di antara pemegang saham bursa.",
+      "whyItMatters": "Demutualisasi bursa dirancang untuk memisahkan kepentingan komersial dari fungsi pengaturan diri (self-regulatory organization). Jika Danantara, sebagai induk investasi BUMN, sekaligus menjadi pemegang saham dominan BEI, maka emiten BUMN yang diawasi bursa akan berada dalam struktur di mana pengawas dan pemilik perusahaan yang diawasi adalah entitas yang sama. Ini menciptakan konflik kepentingan struktural yang berpotensi melemahkan kepercayaan investor asing terhadap integritas pasar modal Indonesia.",
+      "secondOrder": "Investor institusional asing yang menggunakan standar OECD Corporate Governance untuk menilai pasar berkembang akan mencatat konflik kepentingan ini sebagai faktor risiko pasar, bukan sekadar risiko perusahaan individual. Bila persepsi ini menguat, biaya modal seluruh emiten Indonesia bisa naik melalui peningkatan country risk premium, bahkan untuk emiten swasta yang tidak ada hubungannya dengan Danantara.",
+      "action": "Tim investor relations dan tim kepatuhan emiten Indonesia yang berencana roadshow ke investor institusional Eropa dan Amerika pada Q4 2026 perlu menyiapkan penjelasan eksplisit tentang struktur pemisahan antara Danantara sebagai pemegang saham BEI dan fungsi pengawasan OJK atas pasar modal. Siapkan posisi ini sebelum roadshow dimulai agar tidak kehilangan momentum di tengah sesi tanya jawab.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLXE2bVI5dXFyVDdwcnhSV2R2RDFTMTNzQWlKSXF1TnVwRkNwZTMxcjIyWU5Od1ZZbHR5WDRER3NWdUJyU1R6QkJ1WEIwSzBnRjB0X1lPd0lSaVpLR0o5dlc1emNxYW9WSWdFSDkzQzRIMG80dkpKSUhYUTR4MDk2VlYwcHItY2ZpWnI3NkM3TzNrYVZwNFI2V0YwVTlDRXBJZUNB0gGbAUFVX3lxTE5LVlBmSlR2VjNjNEtZMVFzN0JlMXpDU0N0TFRYSFZZSTNCZzBlVnhueUg0TlQtZHZKYmJqVHBHV3picjVmaG9DQzVBT1UtLWM1MWRpQmEwMDRHVXR0SHpSTjhsUmNsOGJXNWlCNFRWQmJxZWUwSTdzN29DbnZyRDg1QURKLXFwc0EzaUQ2ZmdsM1ZORkpzYnJKcDVF?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNW9ncW50THNzTXNJOVVldzhhMWYxaUV1RnpicUh3bjRTUXFtb25UTk5OcWxTcjBPanlkWldkdE5tY0h0czhEQWI1OFdkeEpPNDgzblVidEFLLWdaSHZ0cDA5UTRBUGNWX0QycHlkeVNCbTgyQlFIdW05N05UQWU5YTdrUkQweURhbHA3aU54U05mSUNXU3ZQN1dMcGlzOGdQenlaSS1xWDBpQnNWN2s5aVN3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-22",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Opini awal BPK atas laporan keuangan Danantara 2025 dan respons pimpinan Danantara terhadap temuan sementara",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Kejelasan mekanisme dan jadwal pencairan setoran Rp120 triliun dari Kementerian Keuangan ke Danantara",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Struktur PPA dan skema pembiayaan WKP Panas Bumi Ungaran 55 MW yang dikembangkan PLN",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Respons lab AI lain (Google DeepMind, OpenAI) terhadap kerangka pengukuran laju pengembangan yang diterbitkan Anthropic",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Keputusan OJK dan DPR tentang struktur kepemilikan saham BEI pasca demutualisasi dan posisi Danantara di dalamnya",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "Solar module imports drop 48% in Brazil in H1",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/09/19/solar-module-imports-drop-48-in-brazil-in-h1/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-19T07:30:00.000Z"
+    },
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-20T21:08:10.000Z"
+    },
+    {
+      "title": "BPK Mulai Periksa Laporan Keuangan Danantara Tahun Buku 2025 - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLVVIQkNZUEpZaUVwNUw0NlZBWkF3dXF3SjFqa1IxZ2xQWWltVlh2YlJzSGhJOWo3Zkw2ZmthWTRPS1V4NFJTbXNCQW05OUdYc0JrUHpmVFljbTJEdWhHTzBMSHFrcFh6c1RpTWxSQTdhaGc4dkthNWxmcUIzcm1DQkFuYlRMNTAzUk9GWnNmdWI4NGVZMHNhb1hNQUptM2o1NUp3cXBjUWJrLXAwV0Z5VA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T17:25:24.000Z"
+    },
+    {
+      "title": "Demutualisasi Bursa, Momentum Mereformasi Tata Kelola Bursa",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNW9ncW50THNzTXNJOVVldzhhMWYxaUV1RnpicUh3bjRTUXFtb25UTk5OcWxTcjBPanlkWldkdE5tY0h0czhEQWI1OFdkeEpPNDgzblVidEFLLWdaSHZ0cDA5UTRBUGNWX0QycHlkeVNCbTgyQlFIdW05N05UQWU5YTdrUkQweURhbHA3aU54U05mSUNXU3ZQN1dMcGlzOGdQenlaSS1xWDBpQnNWN2s5aVN3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T13:00:16.000Z"
+    },
+    {
+      "title": "PLN Mulai Kembangkan Panas Bumi Ungaran 55 MW - Bisnis.com",
+      "publisher": "Bisnis.com - Semarang",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUxwenNlTEg2eS1KWWVCOTY0SW1PbWtlaDZ6cUdSVmhrZ056RTNYVFd6Uk1vbzRUQkQxRFhWZmNvQm94ODZoM005LXgwNnJGeDhZNDZRaHNRVXhIRTJTbW5GbXZ6bzJFTElRQnRkdVM2Vk9CVTFFY3h4Wm5mWGRCTkY5N2tLNVdFaDRHYTQtN2U0NHJlR3U5SExWeHhHQzZq?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T08:36:03.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "PLTP Gunung Ungaran Mau Dibangun, Begini Tahapannya",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8671386/pltp-gunung-ungaran-mau-dibangun-begini-tahapannya",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-20T14:30:01.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "Laporan Keuangan Danantara Mulai Diperiksa BPK",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8670765/laporan-keuangan-danantara-mulai-diperiksa-bpk",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-20T03:30:05.000Z"
+    },
+    {
+      "title": "Dorong Pemerataan Akses Energi, 82 Persen Anggaran ESDM 2027 untuk Infrastruktur",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHkzR2tUamdaU2V3QkJJWktSU1BTbk13b0Mxbmt2ZHlrTng5VzlpeHFYTVBkeVJ0Q0x0MlE2M3d0YjZmRTY5NVdrb1QxMlFhNGk1M0U1eGRPakREbzNmQ21pLUQ3YVAzWlk3TU5VeEJDcFIxbUxuUFJhOWlLal9FSWJfRktkOVRSQUhJbUhKSEV1QnFwZDdrNDV2WVBWT0xQNkdYU244MHRTSmIwU1RRN3dvN2Y4VVp2MG0xb1hhTElmb2paLXczUDRCUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-16T08:01:28.000Z"
+    },
+    {
+      "title": "Danantara Berpotensi Kuasai Saham BEI, Ini Tantangan Demutualisasi",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLXE2bVI5dXFyVDdwcnhSV2R2RDFTMTNzQWlKSXF1TnVwRkNwZTMxcjIyWU5Od1ZZbHR5WDRER3NWdUJyU1R6QkJ1WEIwSzBnRjB0X1lPd0lSaVpLR0o5dlc1emNxYW9WSWdFSDkzQzRIMG80dkpKSUhYUTR4MDk2VlYwcHItY2ZpWnI3NkM3TzNrYVZwNFI2V0YwVTlDRXBJZUNB0gGbAUFVX3lxTE5LVlBmSlR2VjNjNEtZMVFzN0JlMXpDU0N0TFRYSFZZSTNCZzBlVnhueUg0TlQtZHZKYmJqVHBHV3picjVmaG9DQzVBT1UtLWM1MWRpQmEwMDRHVXR0SHpSTjhsUmNsOGJXNWlCNFRWQmJxZWUwSTdzN29DbnZyRDg1QURKLXFwc0EzaUQ2ZmdsM1ZORkpzYnJKcDVF?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T13:14:21.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "Anthropic says Claude now leads a quarter of work building its next AI models",
+      "publisher": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-17T23:59:43.000Z"
+    },
+    {
+      "title": "Nasib Setoran Rp 120 Triliun Belum Jelas, Bos Danantara Bahas dengan Menkeu Suahasil",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc25DMkVYSThMR092bDBza24yREVoZFVVSmZMQjVndWZLOUgtRldIQUgzbXRKVHU5TUFiTlhDUGxKREUzOHVQSkJFRVBjdFcxcVRaWVJBeWhDT0VGb1pPaTR3WDRJZXhTX2lwMjF1akJQLV9Hc0JhaGJadjMtWFVXdlMyM2hkRXZHMlNkOE5Gb3dQdFhBMnBQVFd5WmNfNFcwbVl6U0JOQTRMeVlyT0haSTFzdzZuUGU0LVBoUllXVkk0VkE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T12:16:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR MENTARI Grids report formalizes Indonesia's transmission deficit as a binding constraint on renewable targets",
+      "occurrences": 26,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BPK mulai audit laporan keuangan BPI Danantara 2025, pengawasan eksternal formal pertama",
+      "occurrences": 25,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI luncurkan Astra for Law dengan kontrol data bermutu hukum untuk firma IPO",
+      "occurrences": 24,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "Emerald AI, Google, dan NVIDIA bentuk aliansi pusat data AI fleksibel",
+      "occurrences": 22,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "IESR MENTARI Grids kuantifikasi kesenjangan transmisi sebagai hambatan kritis target EBT Indonesia",
+      "occurrences": 19,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 388,
+    "poolSize": 110,
+    "generatedAt": "2026-09-20T23:23:43.446Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

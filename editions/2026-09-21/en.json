@@ -1,0 +1,383 @@
+{
+  "slug": "2026-09-21",
+  "date": "2026-09-21",
+  "lang": "en",
+  "title": "BPK Audits Danantara; PLN Enters Geothermal; Claude Builds AI Models",
+  "dek": "Indonesia's sovereign wealth vehicle faces its first formal external audit while PLN takes on a 55 MW geothermal assignment, and Anthropic's disclosure that Claude now leads a quarter of its own model-building work marks a concrete shift in AI self-development.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "BPK has opened a formal audit of Danantara's 2025 consolidated financial statements, converting a structural governance concern into a live accountability process with a defined end date. Separately, PLN has been formally assigned the Ungaran geothermal working area at 55 MW, adding a concrete project to a grid-investment theme that IESR's MENTARI Grids report already identified as a binding constraint. On the AI side, Anthropic disclosed that Claude now autonomously leads roughly a quarter of the work required to build Anthropic's next frontier models, a measurable milestone in AI self-development that has direct implications for how fast the capability frontier can move. Nvidia is simultaneously working to solve the data-center power bottleneck, reinforcing the project-finance structure of AI infrastructure. The Danantara leadership's unresolved discussion with the Finance Minister over a Rp 120 trillion capital transfer underscores that the fund's deployment capacity remains uncertain even as its audit begins.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BPK",
+        "BPI Danantara",
+        "Suahasil Nazara"
+      ],
+      "headline": "BPK formally opens audit of Danantara's 2025 consolidated financial statements",
+      "whatChanged": "Indonesia's Badan Pemeriksa Keuangan (BPK) has begun examining BPI Danantara's consolidated financial statements for the 2025 fiscal year, constituting the first formal external audit of the sovereign investment vehicle since its establishment.",
+      "whyItMatters": "This theme has been structural for 25 editions. The audit converts Danantara's governance gap from a standing criticism into a time-bounded process: BPK will produce an opinion, creating a public record against which the fund's reported assets, liabilities, and portfolio performance must hold up. That matters because Danantara is simultaneously in discussions with Finance Minister Suahasil Nazara over the fate of a Rp 120 trillion capital transfer whose status remains unresolved, and international media commentary on 'Prabowonomics' has begun framing BUMN restructuring credibility as a sovereign risk question.",
+      "secondOrder": "An adverse or qualified BPK opinion, even a partial one, would constrain Danantara's ability to issue further instruments in international markets, because prospectus disclosure for any dollar bond or comparable security would require disclosure of the audit finding. The fund's bond ambitions and its restructuring execution capacity therefore become dependent on audit outcomes in a way that has not been true of any prior BUMN entity of this scale.",
+      "action": "Map the BPK audit timeline against Danantara's outstanding capital-market obligations and the BUMN Karya restructuring deadline of end-2026. If the audit drags past Q4, model the scenario where BUMN Karya consolidation stalls for lack of a clean balance-sheet anchor.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLVVIQkNZUEpZaUVwNUw0NlZBWkF3dXF3SjFqa1IxZ2xQWWltVlh2YlJzSGhJOWo3Zkw2ZmthWTRPS1V4NFJTbXNCQW05OUdYc0JrUHpmVFljbTJEdWhHTzBMSHFrcFh6c1RpTWxSQTdhaGc4dkthNWxmcUIzcm1DQkFuYlRMNTAzUk9GWnNmdWI4NGVZMHNhb1hNQUptM2o1NUp3cXBjUWJrLXAwV0Z5VA?oc=5",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8670765/laporan-keuangan-danantara-mulai-diperiksa-bpk",
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc25DMkVYSThMR092bDBza24yREVoZFVVSmZMQjVndWZLOUgtRldIQUgzbXRKVHU5TUFiTlhDUGxKREUzOHVQSkJFRVBjdFcxcVRaWVJBeWhDT0VGb1pPaTR3WDRJZXhTX2lwMjF1akJQLV9Hc0JhaGJadjMtWFVXdlMyM2hkRXZHMlNkOE5Gb3dQdFhBMnBQVFd5WmNfNFcwbVl6U0JOQTRMeVlyT0haSTFzdzZuUGU0LVBoUllXVkk0VkE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "headline": "Anthropic discloses Claude now autonomously leads roughly 25% of work building its next AI models",
+      "whatChanged": "Anthropic published measurements showing that Claude leads approximately a quarter of the internal work involved in developing Anthropic's next generation of frontier AI models, meaning the model is directing research tasks, not merely assisting human engineers who retain primary agency.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread, now at 11 editions since 3 September. The accumulation implies a structural condition: the pace of capability improvement is no longer solely a function of human researcher hours, because a portion of the development loop is being closed by the model itself. Each generation of model that contributes to building the next one compresses the calendar time between capability jumps.",
+      "secondOrder": "Regulatory frameworks for AI, including the EU AI Act's classification of frontier models and Indonesia's nascent AI governance discussions, are calibrated against human-paced development cycles. If AI-led model development shortens those cycles materially, regulatory review periods that were designed to match human timelines become structurally too slow, and the safety-capability gap widens before regulators can respond.",
+      "action": "Treat the 25% figure as a baseline, not a ceiling. Assess any AI governance or procurement policy that assumes a roughly annual major-model release cadence: the assumption may need to be revised to six months or less within two cycles.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5",
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-09-03",
+        "spanDays": 18
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "IESR",
+        "WKP Ungaran"
+      ],
+      "headline": "PLN formally assigned 55 MW Ungaran geothermal working area by Kementerian ESDM",
+      "whatChanged": "Kementerian ESDM has assigned PT PLN (Persero) to develop the Ungaran geothermal working area (WKP Ungaran) at a planned capacity of 55 MW, with PLN now beginning the development process.",
+      "whyItMatters": "This continues the pln-grid-investment theme, now at 26 editions and classified as structural. IESR's MENTARI Grids report, also published this week, formalizes Indonesia's transmission deficit as a binding constraint on renewable energy targets. PLN taking direct operator responsibility for a geothermal concession, rather than a private IPP, signals that the government is using the state utility to accelerate project execution where private capital has been slow, consistent with the 82 percent infrastructure allocation in ESDM's 2027 budget.",
+      "secondOrder": "PLN absorbing geothermal development risk on its own balance sheet adds to its capital requirements at the same time the IESR MENTARI Grids report quantifies the transmission investment gap. If PLN is simultaneously required to fund generation and transmission expansion, its debt headroom narrows, which increases the probability that transmission buildout crowds out generation investment or vice versa, unless a dedicated transmission subholding is established as IEEFA has proposed.",
+      "action": "Review PLN's current debt-to-equity ratios and project pipeline commitments against the combined capital requirement implied by MENTARI Grids transmission estimates plus the Ungaran and any other directly assigned geothermal WKPs. Determine whether a subholding structure is a financial necessity rather than a governance preference.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUxwenNlTEg2eS1KWWVCOTY0SW1PbWtlaDZ6cUdSVmhrZ056RTNYVFd6Uk1vbzRUQkQxRFhWZmNvQm94ODZoM005LXgwNnJGeDhZNDZRaHNRVXhIRTJTbW5GbXZ6bzJFTElRQnRkdVM2Vk9CVTFFY3h4Wm5mWGRCTkY5N2tLNVdFaDRHYTQtN2U0NHJlR3U5SExWeHhHQzZq?oc=5",
+        "https://finance.detik.com/energi/d-8671386/pltp-gunung-ungaran-mau-dibangun-begini-tahapannya",
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 27,
+        "firstSeen": "2026-08-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Cooley"
+      ],
+      "headline": "OpenAI publishes framework for disclosing model misalignment, alongside six concrete incident reports",
+      "whatChanged": "OpenAI released a formal framework for tracking, investigating, and disclosing unexpected or concerning model behavior, accompanied by six specific reports of misalignment incidents observed in deployed models.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts theme, now at 24 editions. Publishing a misalignment disclosure framework alongside actual incident reports is a structural move: it creates a precedent that enterprise and legal clients can cite in contract negotiations, requiring vendors to provide comparable disclosures. OpenAI's simultaneous launch of Astra for Law with legal-grade data controls and its Cooley IPO workflow case study shows the firm is building enterprise trust infrastructure around AI deployments in high-stakes professional contexts.",
+      "secondOrder": "The six published misalignment reports give plaintiff attorneys and regulators a documented baseline of known failure modes in OpenAI's production systems. Future incidents that resemble a reported type may be argued as foreseeable rather than novel, shifting the liability standard from negligence to something closer to strict liability in jurisdictions that adopt such framing. Enterprise procurement teams that have already signed OpenAI contracts without misalignment disclosure clauses now face retroactive exposure.",
+      "action": "Review any active or pending AI vendor contracts for misalignment disclosure obligations. Where contracts are silent, determine whether OpenAI's published framework can be incorporated by reference as a minimum disclosure standard, and request equivalent frameworks from other AI vendors in the procurement pipeline.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://openai.com/index/model-misalignment-reporting-framework",
+        "https://openai.com/index/astra-for-law",
+        "https://openai.com/index/cooley-gopublic"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-08-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "Nvidia",
+        "The Information",
+        "PLN",
+        "NeutraDC"
+      ],
+      "headline": "Nvidia actively working to resolve data-center power bottleneck, per industry reporting",
+      "whatChanged": "Nvidia is developing solutions to the power supply constraint facing AI data centers, according to reporting by The Information, as the gap between contracted compute capacity and available grid power becomes a binding limit on AI infrastructure deployment.",
+      "whyItMatters": "This continues the ai-datacenter-project-finance theme, now at 22 editions. The accumulation confirms that the AI infrastructure buildout has moved from a compute-scarce to a power-scarce regime. Nvidia engaging directly on power solutions means the GPU vendor is taking on infrastructure coordination functions that are normally the domain of utilities and grid operators, extending the pattern of AI vendors absorbing project-finance risk noted in prior editions.",
+      "secondOrder": "If Nvidia develops proprietary power management or procurement solutions, it gains leverage over data-center operators that extends beyond chip supply into energy sourcing, creating a vendor-lock dynamic across the full infrastructure stack. Energy utilities and grid operators that do not engage directly with Nvidia's power strategy risk being disintermediated from the highest-value data-center customers.",
+      "action": "Assess whether PLN's data-center energy supply agreements, including the NeutraDC partnership, include provisions that would accommodate Nvidia-specified power delivery standards. If not, PLN risks being a price-taker in the AI infrastructure market rather than a strategic partner.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcy0xc0p1OHNZUzlhM2ZoN0ZOeVY0SElmYTU5V1JDWVQ0NnNoUTM1bC1GblNKc09TZHIwd3FwbndKZEs1Vk02MTdtcmV6SGtyanlEeC1zN1hqU2ZlUlMwVWhnbWlwZ0NsQXFjZmtPZ0VDNmFDQTB0aU01RDA3QlpZcVBaSi1qRVdxbEdkUzdmMldMU0dPeXVodTFWeFRLZnY0ZVkyV3QxNUFMNVFxdlE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-08-22",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "BPK audit opinion on Danantara 2025 financials: scope, qualifications, and any findings on the Rp 120 trillion capital transfer dispute",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "PLN capital expenditure plan update: combined transmission and geothermal development funding requirements following Ungaran assignment and MENTARI Grids transmission gap quantification",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Anthropic's next measurement disclosure on Claude's share of model-development work: whether the 25% figure rises in the next frontier model cycle",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "Nvidia power solution announcement: whether proprietary data-center power products are disclosed and what implications they carry for grid operator relationships in Southeast Asia",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Regulatory or litigation response to OpenAI's misalignment disclosure framework in EU or US jurisdictions: whether any regulator treats published incident reports as evidence of foreseeable harm",
+      "dueDate": "2027-06-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-20T21:08:10.000Z"
+    },
+    {
+      "title": "BPK Mulai Periksa Laporan Keuangan Danantara Tahun Buku 2025 - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLVVIQkNZUEpZaUVwNUw0NlZBWkF3dXF3SjFqa1IxZ2xQWWltVlh2YlJzSGhJOWo3Zkw2ZmthWTRPS1V4NFJTbXNCQW05OUdYc0JrUHpmVFljbTJEdWhHTzBMSHFrcFh6c1RpTWxSQTdhaGc4dkthNWxmcUIzcm1DQkFuYlRMNTAzUk9GWnNmdWI4NGVZMHNhb1hNQUptM2o1NUp3cXBjUWJrLXAwV0Z5VA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T17:25:24.000Z"
+    },
+    {
+      "title": "PLN Mulai Kembangkan Panas Bumi Ungaran 55 MW - Bisnis.com",
+      "publisher": "Bisnis.com - Semarang",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUxwenNlTEg2eS1KWWVCOTY0SW1PbWtlaDZ6cUdSVmhrZ056RTNYVFd6Uk1vbzRUQkQxRFhWZmNvQm94ODZoM005LXgwNnJGeDhZNDZRaHNRVXhIRTJTbW5GbXZ6bzJFTElRQnRkdVM2Vk9CVTFFY3h4Wm5mWGRCTkY5N2tLNVdFaDRHYTQtN2U0NHJlR3U5SExWeHhHQzZq?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T08:36:03.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "How Nvidia Is Trying to Solve the Data Center Power Bottleneck",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcy0xc0p1OHNZUzlhM2ZoN0ZOeVY0SElmYTU5V1JDWVQ0NnNoUTM1bC1GblNKc09TZHIwd3FwbndKZEs1Vk02MTdtcmV6SGtyanlEeC1zN1hqU2ZlUlMwVWhnbWlwZ0NsQXFjZmtPZ0VDNmFDQTB0aU01RDA3QlpZcVBaSi1qRVdxbEdkUzdmMldMU0dPeXVodTFWeFRLZnY0ZVkyV3QxNUFMNVFxdlE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T16:01:00.000Z"
+    },
+    {
+      "title": "PLTP Gunung Ungaran Mau Dibangun, Begini Tahapannya",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8671386/pltp-gunung-ungaran-mau-dibangun-begini-tahapannya",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-20T14:30:01.000Z"
+    },
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "title": "Laporan Keuangan Danantara Mulai Diperiksa BPK",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8670765/laporan-keuangan-danantara-mulai-diperiksa-bpk",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-20T03:30:05.000Z"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/astra-for-law",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "Anthropic says Claude now leads a quarter of work building its next AI models",
+      "publisher": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-17T23:59:43.000Z"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "title": "Nasib Setoran Rp 120 Triliun Belum Jelas, Bos Danantara Bahas dengan Menkeu Suahasil",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc25DMkVYSThMR092bDBza24yREVoZFVVSmZMQjVndWZLOUgtRldIQUgzbXRKVHU5TUFiTlhDUGxKREUzOHVQSkJFRVBjdFcxcVRaWVJBeWhDT0VGb1pPaTR3WDRJZXhTX2lwMjF1akJQLV9Hc0JhaGJadjMtWFVXdlMyM2hkRXZHMlNkOE5Gb3dQdFhBMnBQVFd5WmNfNFcwbVl6U0JOQTRMeVlyT0haSTFzdzZuUGU0LVBoUllXVkk0VkE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-20T12:16:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR MENTARI Grids report formalizes Indonesia's transmission deficit as a binding constraint on renewable targets",
+      "occurrences": 26,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BPK mulai audit laporan keuangan BPI Danantara 2025, pengawasan eksternal formal pertama",
+      "occurrences": 25,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI luncurkan Astra for Law dengan kontrol data bermutu hukum untuk firma IPO",
+      "occurrences": 24,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "Emerald AI, Google, dan NVIDIA bentuk aliansi pusat data AI fleksibel",
+      "occurrences": 22,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "IESR MENTARI Grids kuantifikasi kesenjangan transmisi sebagai hambatan kritis target EBT Indonesia",
+      "occurrences": 19,
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 388,
+    "poolSize": 110,
+    "generatedAt": "2026-09-20T23:24:49.883Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
