@@ -1,0 +1,418 @@
+{
+  "slug": "2026-09-23",
+  "date": "2026-09-23",
+  "lang": "en",
+  "title": "GPT-6 and Claude Opus 5.5 land as Indonesia's 100 GW solar target strains the grid",
+  "dek": "Two frontier model launches and a Pentagon AI-strike admission collide with Indonesia's El Niño power shortfall and a stalled RUPTL revision, forcing decisions across all three domains today.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI released GPT-6 Sol and Luna alongside GPT-6 Astra, while Anthropic released Claude Opus 5.5, marking the densest simultaneous frontier-model launch in recent memory and compressing the competitive window for enterprise AI procurement decisions. Separately, the Pentagon confirmed that AI overreliance contributed to a missile strike on an Iranian school, elevating AI governance from theoretical risk to documented operational liability. In Indonesia, El Niño has cut 650 MW of hydro capacity in South Sulawesi, forcing PLN to substitute solar and BESS; this compounds the structural transmission deficit that IESR and IEEFA have flagged for months. The RUPTL revision covering the 100 GW solar target remains incomplete, and the Energy Minister announced procurement-process cuts to accelerate delivery, but no structural transmission reform has been announced. Danantara is simultaneously fielding a request to finance LRT Jakarta expansion, testing whether the sovereign fund can act as a credible urban-infrastructure financier under its BUMN-karya restructuring mandate.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "GPT-6 Astra",
+        "Claude Opus 5.5"
+      ],
+      "headline": "OpenAI launches GPT-6 Sol, Luna, and Astra; Anthropic releases Claude Opus 5.5 on the same day",
+      "whatChanged": "OpenAI released GPT-6 Sol and Luna, described as two models balancing frontier capability against cost, and separately published GPT-6 Astra with documented evidence that it cut a customer's research time and cost by half relative to prior models. Anthropic released Claude Opus 5.5 on the same calendar day. This is the first instance of two leading frontier labs shipping named major releases simultaneously.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread: the archive has tracked 13 entries since 3 September, and what was a cadence of incremental releases has become a simultaneous multi-model event. Enterprise procurement teams that had deferred model selection pending a clearer performance leader now face a forced choice across multiple capable options at once, with cost-per-task benchmarks (Astra's 50% reduction claim) entering commercial conversations as a procurement metric.",
+      "secondOrder": "Simultaneous releases from rival labs compress the time a buyer has to test one model before the competitive baseline shifts. This creates a structural advantage for vendors, such as inference platforms and API aggregators, that abstract model selection away from the enterprise buyer. Procurement decisions that lock to a single model provider for 12-plus months now carry meaningful obsolescence risk within the contract period.",
+      "action": "Audit any in-flight enterprise AI contracts for model-lock clauses. Where a contract names a specific model version rather than a capability tier, assess renegotiation options before the next billing cycle. Use Astra's 50% cost-reduction claim as a benchmark to pressure-test current model spend.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 14,
+        "firstSeen": "2026-09-03",
+        "spanDays": 20
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "IESR"
+      ],
+      "headline": "El Niño removes 650 MW of hydro in South Sulawesi; PLN substitutes solar and BESS",
+      "whatChanged": "El Niño conditions have reduced hydro output in South Sulawesi by 650 MW, according to statements attributed to Energy Minister Bahlil and confirmed by PLN operational reporting. PLN is compensating with solar generation and battery energy storage systems (BESS). This is the largest single-province generation shortfall reported in the current El Niño cycle.",
+      "whyItMatters": "This continues the pln-grid-investment thread, now at 26 archive entries since 25 August. The pattern has escalated from a structural transmission-investment gap to an active supply-adequacy event. A 650 MW shortfall in one province is material: South Sulawesi hosts nickel smelting and industrial loads that are sensitive to supply interruption. The BESS and solar substitution is a short-cycle fix; it does not address the transmission reinforcement that IESR and IEEFA have identified as the prerequisite for renewable scale-up.",
+      "secondOrder": "Each El Niño-driven shortfall that PLN patches with BESS and solar without concurrent transmission investment embeds a pattern where generation assets are added faster than the grid can evacuate them. When El Niño subsides and hydro returns, the system will have excess generation in some nodes and persistent congestion in others, worsening curtailment and reducing the economics of the 100 GW solar pipeline.",
+      "action": "For any project financing or offtake agreement in Sulawesi, stress-test the generation dispatch model against a 650 MW hydro reduction scenario. Verify that BESS capacity is sized for multi-day, not single-day, backup, given that El Niño conditions are recorded as reaching all-time highs this cycle.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://finance.detik.com/energi/d-8674607/efek-el-nino-kapasitas-plta-di-sulawesi-berkurang-hingga-650-mw",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTmVjSTZjaWpUQUprelVwNlRBVXRsdlA4aGFkRG84WVRObHdMX2tVeTdIUE1ZS1JtVHYtaGVFZXR6VXM0VUdfcTdsQk1KSGt0dl9qR0hMZHZRMGtGTWY5THJ1Qk9BMjNBQXNjYXhuV3BhN0pIcmk3a0trdWxteVZxSW11NUFTaThqUlhRVzlhVFZ0WkpxYm5JdFJoUVU3d0cyTVpRZm16OVpyQmI3RTIyYUlHOW13QQ?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTBRVlZjV2xCUVJPTHkyTk1Cc3llRS1uVGdtV2R6bHZjSVkxMEU5VUhocXlYZ1lWLTdDMlpKOUhWN1N4Nm9aRHpRYWl4VnZaZGRzOTZlTlNNOGZYbUQ1MkFuUkpHdUE1Y1cyUm1qZjNQcmJxR0dqdTdxSWlBZ1dQQXIzam1TV1luaVNyYXN0b29obktJNTM0TWI1ckxDeS1fZFNvejRkWQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 27,
+        "firstSeen": "2026-08-25",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "IESR"
+      ],
+      "headline": "RUPTL revision for 100 GW solar still incomplete; ESDM announces procurement-process cuts",
+      "whatChanged": "As of 22 September 2026, the Indonesian government has not completed the RUPTL revision needed to formally incorporate the 100 GW solar target. Energy Minister Bahlil announced plans to cut procurement bureaucracy to accelerate solar build-out, but no revised RUPTL has been published. IESR previously stated that the 100 GW target is unachievable without structural transmission reform.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread (19 archive entries since 24 August). Procurement simplification addresses project-entry friction but not the transmission evacuation constraint that IESR and IEEFA have identified as the binding limit. Cutting tender bureaucracy without resolving the transmission subholding question will accelerate solar connection requests that the grid cannot absorb.",
+      "secondOrder": "A faster tender process with an unchanged transmission structure will generate a larger queue of stranded or curtailed projects. Developers who enter the queue quickly may face worse economics than slower entrants who wait for transmission clarity, inverting the usual first-mover advantage in renewable project development. This creates a selection-bias risk where less-sophisticated developers commit first.",
+      "action": "Before committing to any Indonesian solar project in the 100 GW pipeline, map the evacuation path to the grid and confirm whether a transmission upgrade commitment is attached. Procurement simplification is not a substitute for that confirmation.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTk5pa295WW5xb2lXNlppamd2R1g0NFB1bXM1Mi1xUHZPMDZMOTRrMTJzclNxOWN3Q0txWlZaNjVpYUppU0o4R0tEd1JkZExCSXh4WnNhY0xjdVBfZGgzS3FlMkdVRW1tUXN4SV9leWpBTEpfT3J6VF9sc2Zja3B3OVFsemZSNGFzcGJ3UC10Z3M3OGJrMlctUF9iQnAwNEo1Z3hwatIBpwFBVV95cUxPdzlERWlXMFBWcWpMVzJBR2hwQ1poc3hXa3dMWFdNSzhIU1NKcHVRbHhRcXBad1FCcGlFYnBkRkNWUU8xOEtaamRsalZ4YzhOOHY3eVEtOTZSSElrVDFnOEpQeFRJYnpRSlRuU0t5VHVfMVJYZkIyb0JqM0ZwNkFpazFydm9JQTdXclR6V04wSkJ4allmQ2U4bU5vS0JNVEJsZUhobWdNQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcUNqamNsYkZINXlUZUxyRmhlSlhoa3ZITkhKVkNlRDdNR1RYTUpxVW5DNGlkVXZSUUV6YzN0VW5pT09xbnhyZWhkMHFadUhqTUlnbjJ5eHgwRzdwZTBEMVRxamlXN2FIMG40eUl2cVpCbENRSXJCeGdYSElvMzNwLWVubEkzQVI3OURaM1JKUl9TbURSRGItY2VFaUhiSTJrTHFLcXNXUUVzMFRtWGtkdkFUOFlESWk4VmFNOEV1RnU2d9IBxwFBVV95cUxNVFpzcFBLTXJSYU5NWVI0d2dNbEIxMWwxeXVDUHd4a1Jpc3lVRHA5RnhZODhFY3JJMUtMcTB6RE0xa21sT1lLWFctYzNPTG5JWWQ4Q1hHUFRFdDlmTVQ3VVJ2bm9YOWh4dVB3N2diZGhZOHBBMmV4VHhVYnQtdy10TThXU0V1bW96Wmc3RFdKWnZJSzlyLVJPNVUzUHJmUzdwRWhYMWpLZDRLVGdZbEg1NXZac1lGME93VzQ2aU1KQ2RXdFJuck1v?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd0I3N292d0dfYmo1QzZwV1dCRC1Xa2hwQmpVaU5majhWNnRxbHMzdnpWc3VzQVJfNURFTHZBM3J2RC1nTjZFRXRIczI1STRoeEtXdVBHMGJkQjBDQndYbWpXSGs0VFRyRzRSYU5QY0xpdi1NMkNOOXZUOTZkY21KdVNPcGFiWjJDb2dxNGZfdWYwVGozZ25FTnVpZFNhLXFaV3RpODZIcW9CVGJIX1JZT2w0aS1TeHPSAbwBQVVfeXFMTVJFNnppQWc1dTF4d3BYN3d0MjVPNjh1ZjE3Q0hkMVhBc2M1VzRNbUdwQzJGWDNrc19zbHctRy1RWmpadkFjTEVodF9aVFNUWjdsSy1JRUg1UVEwQk5mOG5oTERDM0llUDhzNHRldVl5dUU2N1NxeEFiV0tNZEFFSXd3V2tidmZMUVQ4WV9yQ1M5U3dIWEV4eEszYmFRclhTb2lLcmZPUzdmLVZJOGd2T0VLN196U2xDRDhROG4?oc=5",
+        "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/"
+      ],
+      "secondOrderUrls": [
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Rosan Roeslani",
+        "LRT Jakarta"
+      ],
+      "headline": "Danantara asked to finance LRT Jakarta expansion; confirms it is under review",
+      "whatChanged": "Jakarta Governor Pramono has asked Danantara to finance additional LRT Jakarta routes. Danantara confirmed publicly that the request is under review. Separately, Danantara's CEO Rosan Roeslani indicated the government is considering tax holiday incentives for the textile sector, and Danantara is preparing to form a new state enterprise integrating the textile value chain.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread (25 archive entries since 24 August). Danantara is simultaneously handling BUMN-karya consolidation, a textile sector intervention, and now an urban-transport financing request. Each new mandate added before the BUMN-karya restructuring is complete increases execution risk and dilutes the governance clarity that external observers and rating agencies have flagged as the precondition for Danantara's credibility as an investment vehicle.",
+      "secondOrder": "If Danantara finances LRT Jakarta, it takes on a project with a history of cost overruns and demand shortfalls. The precedent matters beyond this project: it signals that Danantara is willing to accept urban-infrastructure fiscal risk at the request of regional governments, which will generate further requests from other governors. This expands Danantara's contingent liability profile at a time when its balance sheet consolidation is still incomplete.",
+      "action": "Track whether Danantara publishes a formal investment framework or criteria document before approving the LRT financing. The absence of published criteria for project acceptance is a governance signal that should affect how counterparties price Danantara exposure in any co-investment or offtake negotiation.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVQ3VVRkOTc2TXRPRjhKUjc2OWxTLTNoRzBsUUNqODlUcFJ5bG12S214SVd6YVJSUEFBQ2tMZmJIS0dVemV5ZFFoLWJHN2ZSZG5nS0VfZElRb0lEeDg0ejd0UHROZjlCQTRxSXNqc0plQ2IzTVluM2dEdTZid0tGcXMyUUo2Q2dOZHF5NVZyVGRvNlhicHhjdnNOZl94Rk5nWTdLYmJOYmxFWDk2ajdKRjFlallLb2pSenN3amk2aw?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU2t0clVyT09ZcTZMdHpEX2VSd0hWYUhoNXoydG9RMm1aeThEVmFtLW42emdRV1o0LUlJNVZRTVJ2eHlqTDVzUEZBVlNCWlRHdGxKRWIwUUYzaWItWjVWSkJrREFlX2I4aFpWejJXYXNfTnhXdFNNU2QybTRnQy1Gd1JhQ0tJUkVhQ2puWS1tVllmOU5sZDJ6MHVKNXI0SUZNTG1SZExwZFJzQ3J0UHA0dFZR0gG3AUFVX3lxTFBma3BxWHF1Y0hQa3dmZ0hUd0UtdUw4dW4wV3Z6OV9nVEw3MUNJRG1rSGtMUGhUdW9BZGc1dGV5WWRJRGN6ZG1zUXFXN2dWREtqTENqekMtX1I5XzBxZzhNSEswb2ZlR0kyRFdYdlI0Smk4dnI3WG5RR1BMc2tZcU15U1E4eUZ4MUdxRVowYzVoaFFqQThlaWNTS1U0bjc0NWJtVThjejFDRnBuejBrRnZ4bVZCMDBtaw?oc=5",
+        "https://katadata.co.id/berita/industri/6ab27fe2ee867/danantara-siapkan-bumn-baru-sektor-tekstil-integrasikan-hulu-ke-hilir",
+        "https://finance.detik.com/industri/d-8674761/industri-tekstil-bakal-dapat-tax-holiday"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Pentagon"
+      ],
+      "headline": "Pentagon confirms AI overreliance contributed to a missile strike on an Iranian school",
+      "whatChanged": "The Pentagon issued a statement confirming that overreliance on AI systems contributed to a missile strike that hit an Iranian school. The statement is a primary admission by the U.S. Department of Defense, not a third-party allegation.",
+      "whyItMatters": "This is the first confirmed case where a state military actor has officially attributed a lethal targeting error to AI system overreliance. It moves AI governance risk from a compliance discussion to an established operational-liability precedent. Regulators and institutional investors who have treated AI safety as a reputational issue now have a documented fatality-linked failure to cite.",
+      "secondOrder": "Defense and dual-use AI vendors face the strongest pressure, but the precedent will migrate to civilian high-stakes domains including autonomous logistics, medical diagnosis, and financial trading. Liability frameworks that treated AI error as a product-defect question will need to accommodate an operator-reliance theory of negligence, which shifts legal exposure toward system deployers rather than model developers.",
+      "action": "If your organization deploys AI in any decision chain with physical or financial consequence, schedule a review this week of human-override requirements and audit-log completeness. The Pentagon admission will be cited in litigation; document the governance posture before it becomes a discovery question.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.bloomberg.com/graphics/2026-iran-school-attack/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 14,
+        "firstSeen": "2026-09-03",
+        "spanDays": 20
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "RUPTL revision publication: monitor for formal release of the revised PLN RUPTL incorporating the 100 GW solar target and any transmission subholding decision",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Danantara LRT Jakarta financing decision: watch for a formal approval or rejection, and whether published investment criteria accompany any decision",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "GPT-6 and Claude Opus 5.5 enterprise benchmark publication: third-party reproducible evaluations that confirm or contest the cost and performance claims made at launch",
+      "dueDate": "2026-10-07"
+    },
+    {
+      "item": "Pentagon AI-strike inquiry outcome: formal investigation report or policy change on autonomous targeting decision support, which will set a regulatory precedent for dual-use AI liability",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "South Sulawesi supply adequacy: monitor PLN operational data on BESS and solar substitution performance against the 650 MW hydro shortfall through the El Niño peak period",
+      "dueDate": "2026-11-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PV Magazine | Indonesia menargetkan kapasitas tenaga surya sebesar 100 GW pada tahun 2029",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-21T02:52:18.000Z"
+    },
+    {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-21T15:41:10.000Z"
+    },
+    {
+      "title": "Pemerintah masih lakukan revisi RUPTL PLN untuk PLTS 100 GWp",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTk5pa295WW5xb2lXNlppamd2R1g0NFB1bXM1Mi1xUHZPMDZMOTRrMTJzclNxOWN3Q0txWlZaNjVpYUppU0o4R0tEd1JkZExCSXh4WnNhY0xjdVBfZGgzS3FlMkdVRW1tUXN4SV9leWpBTEpfT3J6VF9sc2Zja3B3OVFsemZSNGFzcGJ3UC10Z3M3OGJrMlctUF9iQnAwNEo1Z3hwatIBpwFBVV95cUxPdzlERWlXMFBWcWpMVzJBR2hwQ1poc3hXa3dMWFdNSzhIU1NKcHVRbHhRcXBad1FCcGlFYnBkRkNWUU8xOEtaamRsalZ4YzhOOHY3eVEtOTZSSElrVDFnOEpQeFRJYnpRSlRuU0t5VHVfMVJYZkIyb0JqM0ZwNkFpazFydm9JQTdXclR6V04wSkJ4allmQ2U4bU5vS0JNVEJsZUhobWdNQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T12:10:53.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Efek El Nino, Kapasitas PLTA di Sulawesi Berkurang hingga 650 MW",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8674607/efek-el-nino-kapasitas-plta-di-sulawesi-berkurang-hingga-650-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-22T15:30:00.000Z"
+    },
+    {
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "publisher": "Hacker News",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-09-22T19:03:38.000Z"
+    },
+    {
+      "title": "Introducing Claude Opus 5.5",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-22T20:03:34.000Z"
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-22T18:00:00.000Z"
+    },
+    {
+      "title": "Industri Tekstil Bakal Dapat Tax Holiday",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/industri/d-8674761/industri-tekstil-bakal-dapat-tax-holiday",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-22T14:48:32.000Z"
+    },
+    {
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "title": "Danantara Jawab Permintaan Pramono untuk Bantu Pembiayaan LRT Jakarta",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVQ3VVRkOTc2TXRPRjhKUjc2OWxTLTNoRzBsUUNqODlUcFJ5bG12S214SVd6YVJSUEFBQ2tMZmJIS0dVemV5ZFFoLWJHN2ZSZG5nS0VfZElRb0lEeDg0ejd0UHROZjlCQTRxSXNqc0plQ2IzTVluM2dEdTZid0tGcXMyUUo2Q2dOZHF5NVZyVGRvNlhicHhjdnNOZl94Rk5nWTdLYmJOYmxFWDk2ajdKRjFlallLb2pSenN3amk2aw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T12:34:00.000Z"
+    },
+    {
+      "title": "Listrik PLTA Sulsel Berkurang 650 MW, PLN Tambah Daya Lewat PLTS - Green",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTmVjSTZjaWpUQUprelVwNlRBVXRsdlA4aGFkRG84WVRObHdMX2tVeTdIUE1ZS1JtVHYtaGVFZXR6VXM0VUdfcTdsQk1KSGt0dl9qR0hMZHZRMGtGTWY5THJ1Qk9BMjNBQXNjYXhuV3BhN0pIcmk3a0trdWxteVZxSW11NUFTaThqUlhRVzlhVFZ0WkpxYm5JdFJoUVU3d0cyTVpRZm16OVpyQmI3RTIyYUlHOW13QQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T11:40:00.000Z"
+    },
+    {
+      "title": "Bahlil Targetkan PLTS 100 Giga Watt Bakal Terbangun dalam 3 Tahun",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcUNqamNsYkZINXlUZUxyRmhlSlhoa3ZITkhKVkNlRDdNR1RYTUpxVW5DNGlkVXZSUUV6YzN0VW5pT09xbnhyZWhkMHFadUhqTUlnbjJ5eHgwRzdwZTBEMVRxamlXN2FIMG40eUl2cVpCbENRSXJCeGdYSElvMzNwLWVubEkzQVI3OURaM1JKUl9TbURSRGItY2VFaUhiSTJrTHFLcXNXUUVzMFRtWGtkdkFUOFlESWk4VmFNOEV1RnU2d9IBxwFBVV95cUxNVFpzcFBLTXJSYU5NWVI0d2dNbEIxMWwxeXVDUHd4a1Jpc3lVRHA5RnhZODhFY3JJMUtMcTB6RE0xa21sT1lLWFctYzNPTG5JWWQ4Q1hHUFRFdDlmTVQ3VVJ2bm9YOWh4dVB3N2diZGhZOHBBMmV4VHhVYnQtdy10TThXU0V1bW96Wmc3RFdKWnZJSzlyLVJPNVUzUHJmUzdwRWhYMWpLZDRLVGdZbEg1NXZac1lGME93VzQ2aU1KQ2RXdFJuck1v?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T13:40:05.000Z"
+    },
+    {
+      "title": "Diminta Prabowo Bantu Tambah Rute LRT Jakarta, Danantara: Sedang Kami Kaji",
+      "publisher": "detikNews",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU2t0clVyT09ZcTZMdHpEX2VSd0hWYUhoNXoydG9RMm1aeThEVmFtLW42emdRV1o0LUlJNVZRTVJ2eHlqTDVzUEZBVlNCWlRHdGxKRWIwUUYzaWItWjVWSkJrREFlX2I4aFpWejJXYXNfTnhXdFNNU2QybTRnQy1Gd1JhQ0tJUkVhQ2puWS1tVllmOU5sZDJ6MHVKNXI0SUZNTG1SZExwZFJzQ3J0UHA0dFZR0gG3AUFVX3lxTFBma3BxWHF1Y0hQa3dmZ0hUd0UtdUw4dW4wV3Z6OV9nVEw3MUNJRG1rSGtMUGhUdW9BZGc1dGV5WWRJRGN6ZG1zUXFXN2dWREtqTENqekMtX1I5XzBxZzhNSEswb2ZlR0kyRFdYdlI0Smk4dnI3WG5RR1BMc2tZcU15U1E4eUZ4MUdxRVowYzVoaFFqQThlaWNTS1U0bjc0NWJtVThjejFDRnBuejBrRnZ4bVZCMDBtaw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T12:23:02.000Z"
+    },
+    {
+      "title": "PLN perkuat sistem kelistrikan jangka panjang di Sulbagsel",
+      "publisher": "ANTARA News Makassar",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTBRVlZjV2xCUVJPTHkyTk1Cc3llRS1uVGdtV2R6bHZjSVkxMEU5VUhocXlYZ1lWLTdDMlpKOUhWN1N4Nm9aRHpRYWl4VnZaZGRzOTZlTlNNOGZYbUQ1MkFuUkpHdUE1Y1cyUm1qZjNQcmJxR0dqdTdxSWlBZ1dQQXIzam1TV1luaVNyYXN0b29obktJNTM0TWI1ckxDeS1fZFNvejRkWQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T10:48:02.000Z"
+    },
+    {
+      "title": "Danantara Siapkan BUMN Baru Sektor Tekstil, Integrasikan Hulu ke Hilir",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/berita/industri/6ab27fe2ee867/danantara-siapkan-bumn-baru-sektor-tekstil-integrasikan-hulu-ke-hilir",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-22T13:17:00.000Z"
+    },
+    {
+      "title": "Menteri ESDM akan pangkas birokrasi tender untuk percepat PLTS 100 GW",
+      "publisher": "gorontalo.antaranews.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd0I3N292d0dfYmo1QzZwV1dCRC1Xa2hwQmpVaU5majhWNnRxbHMzdnpWc3VzQVJfNURFTHZBM3J2RC1nTjZFRXRIczI1STRoeEtXdVBHMGJkQjBDQndYbWpXSGs0VFRyRzRSYU5QY0xpdi1NMkNOOXZUOTZkY21KdVNPcGFiWjJDb2dxNGZfdWYwVGozZ25FTnVpZFNhLXFaV3RpODZIcW9CVGJIX1JZT2w0aS1TeHPSAbwBQVVfeXFMTVJFNnppQWc1dTF4d3BYN3d0MjVPNjh1ZjE3Q0hkMVhBc2M1VzRNbUdwQzJGWDNrc19zbHctRy1RWmpadkFjTEVodF9aVFNUWjdsSy1JRUg1UVEwQk5mOG5oTERDM0llUDhzNHRldVl5dUU2N1NxeEFiV0tNZEFFSXd3V2tidmZMUVQ4WV9yQ1M5U3dIWEV4eEszYmFRclhTb2lLcmZPUzdmLVZJOGd2T0VLN196U2xDRDhROG4?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T13:06:14.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN turunkan beban pembangkit akibat ancaman penurunan daya PLTA karena El Niño",
+      "occurrences": 26,
+      "firstSeen": "2026-08-25",
+      "lastSeen": "2026-09-22",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "OJK terbitkan aturan demutualisasi BEI dengan pembatasan kepemilikan saham",
+      "occurrences": 25,
+      "firstSeen": "2026-08-24",
+      "lastSeen": "2026-09-22",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI usulkan standar global AI mencakup evaluasi bersama dan pelaporan tata kelola",
+      "occurrences": 23,
+      "firstSeen": "2026-08-24",
+      "lastSeen": "2026-09-22",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Nvidia actively developing solutions to the datacenter power bottleneck, extending its position into infrastructure",
+      "occurrences": 21,
+      "firstSeen": "2026-08-24",
+      "lastSeen": "2026-09-21",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "IESR: target 100 GW PLTS 2029 tidak tercapai tanpa reformasi transmisi struktural",
+      "occurrences": 19,
+      "firstSeen": "2026-08-24",
+      "lastSeen": "2026-09-22",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 407,
+    "poolSize": 110,
+    "generatedAt": "2026-09-22T23:23:56.203Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
