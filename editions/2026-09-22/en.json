@@ -1,0 +1,386 @@
+{
+  "slug": "2026-09-22",
+  "date": "2026-09-22",
+  "lang": "en",
+  "title": "Anthropic Measures AI Self-Development; OJK Caps BEI Ownership; Indonesia Faces 100 GW Solar Test",
+  "dek": "Three structural threads accelerate simultaneously: AI labs quantify recursive self-improvement, Indonesia's exchange demutualization sets governance rules, and the 100 GW solar target confronts grid and El Niño constraints.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "Anthropic has published internal measurements showing Claude leading roughly 25% of the work building the next generation of frontier models, making recursive AI self-development a quantified operational fact rather than a theoretical risk. Separately, OJK has issued demutualization rules for the Indonesia Stock Exchange that cap individual shareholding, directly constraining Danantara's previously flagged ambition to acquire a controlling stake in BEI. On the energy side, Indonesia's 100 GW solar program faces a compound stress test: IESR confirms the three-year timeline is technically borderline, a super El Niño is reducing hydropower output and forcing PLN to rebalance dispatch, and the IESR MENTARI Grids report reconfirms that transmission deficits will prevent renewable capacity from reaching load centers regardless of how fast generation is built. Together these signals show that Indonesia's energy transition is now constrained more by grid infrastructure and climate variability than by generation ambition, while globally the pace of AI self-improvement is entering a regime that demands new measurement and governance frameworks.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "headline": "Anthropic publishes internal measurements showing Claude leads ~25% of frontier model development work",
+      "whatChanged": "Anthropic released a primary-source document titled 'Measurements for understanding the pace of AI development inside frontier labs,' disclosing that Claude now autonomously leads approximately 25% of the work involved in building Anthropic's next frontier models. This is a formal internal measurement, not an estimate from outside observers.",
+      "whyItMatters": "Recursive self-improvement, in which a frontier model materially accelerates the construction of its successor, has moved from a theoretical concern to a measured operational condition inside at least one leading lab. The 25% figure is a threshold: at that level, the development timeline of future models is partly endogenous to the current model's capability trajectory rather than solely to human engineering capacity.",
+      "secondOrder": "If the 25% share grows with each generation, the external signals that regulators, investors, and competitors use to track AI progress will increasingly lag the internal rate of change. Evaluation frameworks, safety audits, and investment theses built on externally observable model releases will underestimate the pace of capability accumulation. This makes the cadence of public releases a less reliable proxy for the actual development frontier.",
+      "action": "Revisit any governance or investment framework that treats model-release cadence as the primary pacing signal for AI capability. Ask Anthropic and peer labs whether equivalent measurements exist for other task categories, and request that the share be disclosed in future safety reports as a standard metric.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 13,
+        "firstSeen": "2026-09-03",
+        "spanDays": 19
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "OJK",
+        "Bursa Efek Indonesia",
+        "Danantara"
+      ],
+      "headline": "OJK issues BEI demutualization rules capping individual shareholding, constraining Danantara's exchange ambitions",
+      "whatChanged": "OJK released formal regulations governing the demutualization of Bursa Efek Indonesia, including explicit caps on share ownership per entity. The rules were published on 2026-09-21 and directly limit the concentration of BEI equity that any single party, including a state vehicle such as Danantara, may hold.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread: earlier signals flagged that Danantara's potential acquisition of a controlling BEI stake after demutualization would create a conflict of interest between the exchange operator and the dominant state investor. OJK's ownership cap is a regulator-imposed ceiling that partially resolves that tension by rule rather than by Danantara's voluntary restraint.",
+      "secondOrder": "An ownership cap does not eliminate influence; it redirects it. Danantara could still accumulate a significant minority position and exercise governance influence through board representation, shareholder agreements, or cross-shareholdings in listed BUMN entities. The cap may create a false sense of regulatory closure while leaving the conflict-of-interest problem structurally intact. Analysts should examine whether the cap applies per legal entity or per beneficial owner, and whether BUMN affiliates are consolidated.",
+      "action": "Obtain the OJK regulation text and check whether the ownership cap consolidates affiliated state entities or applies only at the direct legal-entity level. If consolidation is absent, model the realistic Danantara-plus-affiliates stake under demutualization scenarios and assess residual governance risk.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxOblY3Z0xGWmluNGgwSHluektpTWRfazBSelNWNVp0VTdqUUk1LUR4Rk9fektXdldaazlWc2NKSzRUbDNvRHYzeTBLM3Y5X1k1RGlJWjlUV193MmttRHBOSzFMOXJ6OUVtbDVHWU0xS3p6LVZUNWhiVk5RTzRFNTExc1dNWWdrLVlVT2NhZ2ZsaldYbEk?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1V4X01YTWFzd3NTVmxPVXNYVTVKN3pma2ZYLTdaV25vZzlXM1ppUWZWVWhCNWZzZlNGWkdOSG5lVXRjbHAtYVQ0QnZ2b2NkTjdQVmF6UGcxNmFoc2dYNk1SZHIwQ3hJMTJGR3ppMXYtcWc2ZkNKZ05GMzVub3gxYzAtVGwzMEhVWDV3bTNvbGpRbVNoSG4xWXZkRl9WRGhCZ200T01yZWfSAaABQVVfeXFMTzlCX2JCeFJKVXRKT2k5NHNiQXNjVFpxMWpZTWdVNWZQNGV0RTluVTVLV2lJWEtPZmMweGh4dVZzU2gyeGNlc2M3U2VPMmpKUVM5SnRHWU8xeTZ1UXJsWVlCeTN3V0c0T3h1VGp3YzBxeUYtRFdqVjJDUTF4Tm1OQjJDNV9HUlg2Vi1LNXMza18yeENQTXpTZ0ZMREt2OHpZMg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "IESR",
+        "Kementerian ESDM",
+        "Carbon Brief"
+      ],
+      "headline": "El Niño cuts Indonesian hydropower output; PLN reduces plant load as IESR confirms grid bottleneck threatens 100 GW solar target",
+      "whatChanged": "Kontan reported on 2026-09-21 that PLN has reduced hydropower plant dispatch loads because El Niño-driven drought is cutting reservoir levels across Java and other islands. Carbon Brief's concurrent analysis confirms the current super El Niño is reaching all-time record sea surface temperatures. Separately, IESR's MENTARI Grids report, published 2026-09-17, states that Indonesia's transmission deficit is the binding constraint on renewable energy targets, not generation capacity. Indonesia's 100 GW solar target by 2029 was announced by President Prabowo in August 2026.",
+      "whyItMatters": "Three stressors are converging on the same system simultaneously: an accelerating El Niño reducing existing baseload output, an announced generation build-out that requires grid capacity that does not yet exist, and a structural transmission investment shortfall documented by both IESR and IEEFA. The 100 GW solar target cannot be absorbed by the grid even if modules are procured and installed on schedule.",
+      "secondOrder": "PLN's dispatch reduction to compensate for hydro shortfalls means that any new solar capacity added in the near term will be curtailed at higher rates than planning models assumed, because the grid cannot move power from generation points to load centers and because the system operator is already managing a supply-demand imbalance. Curtailment risk directly undermines the economics of independent power producer contracts signed under the 100 GW program, potentially triggering renegotiation or financing defaults before the first tranche is completed.",
+      "action": "Model 100 GW solar project economics under three curtailment scenarios: current transmission capacity, MENTARI Grids recommended investment completed by 2028, and MENTARI Grids investment delayed to 2030. Present the IRR sensitivity to offtakers, lenders, and the Kementerian ESDM before any further power purchase agreements are signed.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWldyQS1zUmhOZFVnaUozeDRRNDJoTUw4Y3Z3eTJ6SlpxaG5HMndqZ1lmbkFxR0lPZFE3TlZDd0pFSGpKQmVWdXNzaWxiVXV6MUZtR0pFX2hDZGNzZk1qVV84T0E0MHRucy1UaDVzMkNkVUxoeHJWNGpFMEJQWjZhTGFPekhDNXdUajFKU01nS1pPNllKMzVTYXoxbG1rUGxwc1BuNGg0a9IBoAFBVV95cUxORTJLbDVFYlJDYlFQMFdmSlBIM252S0Zaa1JKX2p3azBvVFBxbFQzVllpR2pNVXd6SWNBcF9BQTZDSlI3c2dIbEx4M2R3bDV4b0l1ekl3T0NaLVMyVEx1SXAzQjVEZ3dEN3VlOTJEaExGNGRTeG82SEZua21SS2NNV0xhWkNvOFByTjJ1dkxrYUFMeXgtNGlJcnpMNzV0WGpM?oc=5",
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+        "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
+        "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 27,
+        "firstSeen": "2026-08-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "NIST"
+      ],
+      "headline": "OpenAI publishes global AI standards framework calling for coordinated evaluation, reporting, and governance",
+      "whatChanged": "OpenAI published 'Building standards for the next phase of AI' on 2026-09-21, outlining a proposed path to shared international AI standards that includes coordinated evaluation protocols, mandatory reporting obligations, and governance structures across jurisdictions. This is a primary-source policy document, not a press release.",
+      "whyItMatters": "A major frontier lab proposing its own standards framework is a classic pre-regulatory maneuver: by defining the metrics and evaluation protocols, the proposer shapes which capabilities appear safe and which appear risky. The document's emphasis on 'coordinated evaluation' across labs and governments is consistent with OpenAI's interest in legitimizing its own internal safety processes as the reference standard before external regulators impose their own.",
+      "secondOrder": "If governments adopt OpenAI's proposed framework as the basis for national or multilateral AI regulation, the evaluation benchmarks embedded in that framework will determine which competitors can demonstrate compliance at reasonable cost. Labs with different architectures, training regimes, or disclosure cultures may find compliance costly in ways that have nothing to do with actual safety. The standards document is therefore a competitive instrument as much as a safety one, and should be read alongside the parallel US-China AI safety dialogue Reuters reported is resuming in Shenzhen within two months.",
+      "action": "Map OpenAI's proposed evaluation and reporting requirements against those of the EU AI Act, the US NIST AI RMF, and the emerging US-China bilateral framework. Identify where OpenAI's proposals would be more permissive than existing or proposed regulation, and flag those gaps for any enterprise procurement or policy engagement team.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://openai.com/index/building-standards-next-phase-ai",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaE0zM1lEOGFEZFo4SGVMNU9xc1BHWE1xYmtES0ZjcE5uanRwZlRGbzJxOWY5VHBtd2xUNjVrM2tFV3N5dnh4MjA2NHNsSFppN1pCNHg3UVg0d3F5WmlCWFkwM1BaalhBNUhKQUhTNmxWaVY4cWMycjQ0YkpQM1lsQjBiNTh5UjRKR2l1aFVaUEVhd0RDM2NWX2xSc1UxY3ZkRWJhek9NOXJkQ01WdzNzY0NSMWtscEJM?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-08-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IESR",
+        "PLN",
+        "IEEFA",
+        "RUPTL 2025-2034",
+        "Kementerian ESDM"
+      ],
+      "headline": "IESR MENTARI Grids report: Indonesia's transmission deficit is structural, not incremental, requiring a dedicated investment vehicle",
+      "whatChanged": "IESR published the full MENTARI Grids report on 2026-09-17, documenting that Indonesia's transmission network lacks the capacity to carry renewable energy from generation sites to load centers at the volumes implied by RUPTL targets. The report explicitly frames the deficit as structural and recommends a dedicated transmission subholding or investment vehicle to unlock the required capital, consistent with the earlier IEEFA fact sheet on the same topic.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread, now at structural status after 19 appearances since August. The accumulation of IESR, IEEFA, and regulatory signals now establishes that the transmission constraint is not a gap that PLN's current balance sheet can close within the RUPTL timeline. The recommendation for a dedicated subholding has appeared in both IESR and IEEFA analysis, indicating analytical consensus outside government.",
+      "secondOrder": "A dedicated transmission subholding would need to attract private and multilateral capital on terms that PLN's consolidated credit profile currently cannot offer. Establishing such a vehicle requires ring-fencing transmission revenues, setting regulated tariffs, and potentially separating the asset from PLN's generation and distribution businesses. That separation is a structural reform that the Danantara-BUMN restructuring process has not yet addressed, meaning the transmission solution and the SOE reform agenda must be coordinated or the financing gap persists regardless of which vehicle is created.",
+      "action": "Request from PLN and Kementerian ESDM whether the RUPTL 2025-2034 capital allocation for transmission has been revised in response to MENTARI Grids findings, and whether the dedicated subholding model has been evaluated within the ongoing Danantara SOE restructuring review. If no revision has occurred, flag the misalignment between generation targets and transmission funding as a material risk in any infrastructure financing review.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-23",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Anthropic next disclosure: whether the 25% Claude-led development share is updated in the next safety report, and whether other labs publish equivalent measurements",
+      "dueDate": "2026-12-22"
+    },
+    {
+      "item": "OJK BEI demutualization regulation text: confirm whether ownership cap consolidates affiliated state entities or applies only at direct legal-entity level",
+      "dueDate": "2026-10-05"
+    },
+    {
+      "item": "PLN dispatch and curtailment data for Q3 2026: quantify the operational impact of El Niño hydro reduction and early curtailment rates on new solar capacity",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "US-China AI safety meeting in Shenzhen: outcomes of bilateral evaluation and reporting discussions, and whether a joint framework document is produced",
+      "dueDate": "2026-11-22"
+    },
+    {
+      "item": "RUPTL 2025-2034 revision: whether Kementerian ESDM updates transmission investment allocations in response to MENTARI Grids findings before year-end",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-21T15:41:10.000Z"
+    },
+    {
+      "title": "PV Magazine | Indonesia menargetkan kapasitas tenaga surya sebesar 100 GW pada tahun 2029",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-21T02:52:18.000Z"
+    },
+    {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-22T00:25:42.000Z"
+    },
+    {
+      "title": "Daya PLTA Terancam Anjlok Imbas El Nino, PLN Turunkan Beban Pembangkit",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWldyQS1zUmhOZFVnaUozeDRRNDJoTUw4Y3Z3eTJ6SlpxaG5HMndqZ1lmbkFxR0lPZFE3TlZDd0pFSGpKQmVWdXNzaWxiVXV6MUZtR0pFX2hDZGNzZk1qVV84T0E0MHRucy1UaDVzMkNkVUxoeHJWNGpFMEJQWjZhTGFPekhDNXdUajFKU01nS1pPNllKMzVTYXoxbG1rUGxwc1BuNGg0a9IBoAFBVV95cUxORTJLbDVFYlJDYlFQMFdmSlBIM252S0Zaa1JKX2p3azBvVFBxbFQzVllpR2pNVXd6SWNBcF9BQTZDSlI3c2dIbEx4M2R3bDV4b0l1ekl3T0NaLVMyVEx1SXAzQjVEZ3dEN3VlOTJEaExGNGRTeG82SEZua21SS2NNV0xhWkNvOFByTjJ1dkxrYUFMeXgtNGlJcnpMNzV0WGpM?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-21T08:00:02.000Z"
+    },
+    {
+      "title": "Presiden Prabowo Luncurkan Program PLTS 100 GWp, Targetkan Pembangunan dalam Tiga Tahun",
+      "publisher": "Sekretariat Kabinet Republik Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWljY3V3ODRZWTZobkd4dW5qSDZVZDNpZGVMNlNJZ1ZEeV9jaVp0WEdQX0EtTURUMDY0eFNOaTNRSTBNZDl3N0RiMUlaMFZ3aGNtTTlRRDBzLVdxVlF0OXY0OXg5bS1Wa05fbkZ0ZVM2cTQ5WHc0SjFfNjVyYkNqS0x1Ti1QYmhDN1NXY2EtSzFjTXEzcjktSW5SN05aNGlYYzdHVXJhUndPVE44?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-08-25T07:00:00.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "US, China to meet again on AI safety in two months in Shenzhen, Bessent says",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaE0zM1lEOGFEZFo4SGVMNU9xc1BHWE1xYmtES0ZjcE5uanRwZlRGbzJxOWY5VHBtd2xUNjVrM2tFV3N5dnh4MjA2NHNsSFppN1pCNHg3UVg0d3F5WmlCWFkwM1BaalhBNUhKQUhTNmxWaVY4cWMycjQ0YkpQM1lsQjBiNTh5UjRKR2l1aFVaUEVhd0RDM2NWX2xSc1UxY3ZkRWJhek9NOXJkQ01WdzNzY0NSMWtscEJM?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-21T21:21:09.000Z"
+    },
+    {
+      "title": "OJK Keluarkan Aturan Demutualisasi Bursa, Kepemilikan Saham Dibatasi",
+      "publisher": "Kompas.id",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOblY3Z0xGWmluNGgwSHluektpTWRfazBSelNWNVp0VTdqUUk1LUR4Rk9fektXdldaazlWc2NKSzRUbDNvRHYzeTBLM3Y5X1k1RGlJWjlUV193MmttRHBOSzFMOXJ6OUVtbDVHWU0xS3p6LVZUNWhiVk5RTzRFNTExc1dNWWdrLVlVT2NhZ2ZsaldYbEk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-21T11:29:42.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "Building standards for the next phase of AI",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-21T10:00:00.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "Anthropic says Claude now leads a quarter of work building its next AI models",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTlkTk8zR3FVNjBtYTRfeEZQWU9zWHhWUE00dUhyMDhMUHZDRF90dlhuUDhYS3QweW9ZejB1U0tNQ0dFQjIxZ1lFLXhfdEliaHN3MzJZV0JYRnJMc0pyU2k4dmdyX2tPR1VOX0RRdmVJUkZ1bWZCcVJ5czg4XzlXQmRXaXpVYzB1a0QwRGdzUkFVbGtVY3ZJVEpKSEwzUXdMT0NaV0F1cTVQOEFhSzRTR0ZURUlzM3NL?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-17T23:59:43.000Z"
+    },
+    {
+      "title": "BEI Bakal Terbitkan Saham Baru Lewat Rights Issue untuk Demutualisasi",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1V4X01YTWFzd3NTVmxPVXNYVTVKN3pma2ZYLTdaV25vZzlXM1ppUWZWVWhCNWZzZlNGWkdOSG5lVXRjbHAtYVQ0QnZ2b2NkTjdQVmF6UGcxNmFoc2dYNk1SZHIwQ3hJMTJGR3ppMXYtcWc2ZkNKZ05GMzVub3gxYzAtVGwzMEhVWDV3bTNvbGpRbVNoSG4xWXZkRl9WRGhCZ200T01yZWfSAaABQVVfeXFMTzlCX2JCeFJKVXRKT2k5NHNiQXNjVFpxMWpZTWdVNWZQNGV0RTluVTVLV2lJWEtPZmMweGh4dVZzU2gyeGNlc2M3U2VPMmpKUVM5SnRHWU8xeTZ1UXJsWVlCeTN3V0c0T3h1VGp3YzBxeUYtRFdqVjJDUTF4Tm1OQjJDNV9HUlg2Vi1LNXMza18yeENQTXpTZ0ZMREt2OHpZMg?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-18T06:01:39.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN mulai kembangkan Panas Bumi Ungaran 55 MW, memperluas eksposur ke aset baseload Jawa Tengah",
+      "occurrences": 26,
+      "firstSeen": "2026-08-23",
+      "lastSeen": "2026-09-21",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara berpotensi kuasai saham BEI pasca demutualisasi, memunculkan konflik kepentingan struktural",
+      "occurrences": 25,
+      "firstSeen": "2026-08-23",
+      "lastSeen": "2026-09-21",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "OpenAI luncurkan Astra for Law dengan kontrol data bermutu hukum untuk firma IPO",
+      "occurrences": 23,
+      "firstSeen": "2026-08-23",
+      "lastSeen": "2026-09-20",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Nvidia actively developing solutions to the datacenter power bottleneck, extending its position into infrastructure",
+      "occurrences": 22,
+      "firstSeen": "2026-08-23",
+      "lastSeen": "2026-09-21",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "IESR MENTARI Grids: defisit transmisi Indonesia menghalangi target EBT, bukan hanya memperlambatnya",
+      "occurrences": 19,
+      "firstSeen": "2026-08-23",
+      "lastSeen": "2026-09-21",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 387,
+    "poolSize": 110,
+    "generatedAt": "2026-09-22T01:00:37.708Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
