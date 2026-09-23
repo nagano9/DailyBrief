@@ -2,37 +2,39 @@
   "slug": "2026-09-24",
   "date": "2026-09-24",
   "lang": "id",
-  "title": "Altman-Amodei di PBB, Claude Temukan Enzim, RUPTL 100 GWp Masih Buntu",
-  "dek": "Dua CEO AI frontier meminta tata kelola global di Dewan Keamanan PBB pada hari yang sama Claude mengklaim penemuan biologi baru, sementara target PLTS 100 GWp Indonesia tersandung revisi RUPTL yang belum selesai.",
+  "title": "Claude Temukan Enzim Baru; Altman ke DK PBB; RUPTL-PLTS Masih Buntu",
+  "dek": "Tiga sinyal hari ini menggeser batas: AI masuk biologi sintesis, kerangka keamanan AI mencari legitimasi global, dan Indonesia belum punya instrumen hukum untuk mengejar 100 GWp solar.",
   "domains": [
     "ai",
     "energy",
     "corporate"
   ],
-  "summary": "Sam Altman (OpenAI) dan Dario Amodei (Anthropic) secara bersamaan menyerukan kerja sama internasional untuk keamanan AI di forum PBB, sinyal bahwa industri frontier kini aktif membentuk arsitektur regulasi global sebelum regulasi itu terbentuk sendiri. Pada hari yang sama, Anthropic mengumumkan Claude membantu menemukan sistem enzim baru dengan struktur mirip CRISPR, preseden konkret AI sebagai alat riset sains yang mengubah waktu penemuan. Di Indonesia, revisi RUPTL PLN 2025-2034 untuk mengakomodasi target 100 GWp PLTS belum final per September 2026, meskipun PLN dan DEN sudah membahas implementasi di Papua, menunjukkan kesenjangan antara target politik dan kapasitas perencanaan teknis. Danantara diminta Gubernur DKI untuk membiayai LRT Jakarta, memperluas eksposur lembaga itu ke infrastruktur kota yang sebelumnya bukan mandat utamanya. Italia memilih kembali ke tenaga nuklir melalui parlemen, memperkuat tren negara-negara yang menghitung ulang pilihan baseload mereka untuk memasok beban AI dan elektrifikasi.",
+  "summary": "Anthropic mengumumkan Claude menemukan sistem enzim baru dengan struktur mirip CRISPR, preseden pertama AI generatif yang menghasilkan penemuan enzim orisinal di laboratorium biologi. Bersamaan, Sam Altman berbicara di Dewan Keamanan PBB tentang keselamatan AI dan kerja sama internasional, sementara Microsoft mendukung penyebaran evaluator keamanan AI secara global. Di sisi energi Indonesia, revisi RUPTL PLN untuk target 100 GWp PLTS belum final dan RUU EBET belum disahkan, dua kekosongan regulasi yang secara bersamaan memblokir percepatan investasi surya. Danantara muncul dalam dua percakapan kebijakan berbeda: pembangunan LRT Jakarta dan pendidikan tinggi gratis, menandai ekspansi mandatnya ke infrastruktur publik yang sebelumnya murni APBN.",
   "signals": [
     {
       "rank": 1,
       "domain": "ai",
       "themeKey": "ai-model-safety-frontier",
       "entities": [
-        "OpenAI",
         "Anthropic",
-        "Dewan Keamanan PBB"
+        "Claude",
+        "Reuters",
+        "TechCrunch"
       ],
-      "headline": "Altman dan Amodei serukan kerja sama AI global di Dewan Keamanan PBB",
-      "whatChanged": "Sam Altman (CEO OpenAI) menyampaikan pidato di Dewan Keamanan PBB pada 23 September 2026 yang menyerukan kontrol manusia atas AI dan kerja sama internasional untuk keamanan. Dario Amodei (CEO Anthropic) pada hari yang sama mempublikasikan seruan senada untuk kooperasi global. Kedua CEO lab frontier terbesar tampil di forum diplomatik tertinggi dalam satu hari.",
-      "whyItMatters": "Tema ini melanjutkan tren struktural ai-model-safety-frontier yang telah tercatat 14 kali sejak 3 September. Akumulasinya menunjukkan bahwa lab-lab frontier tidak menunggu regulasi eksternal, melainkan secara aktif menawarkan kerangka tata kelola mereka sendiri kepada pembuat keputusan pemerintah. Tampil di Dewan Keamanan PBB mengangkat isu ini dari domain teknis ke domain geopolitik, di mana keputusan soal standar dan akses akan dibuat oleh aktor yang tidak terbiasa dengan nuansa teknis AI.",
-      "secondOrder": "Bila framing keamanan AI ditetapkan melalui Dewan Keamanan PBB, negara-negara non-anggota tetap (termasuk Indonesia) akan menjadi penerima standar yang dibentuk oleh lima pemegang veto ditambah lobi industri Amerika. Regulator domestik yang tidak segera membangun kapasitas teknis akan kehilangan posisi tawar ketika standar internasional itu ditranslasikan ke dalam persyaratan pengadaan, akses model, dan kewajiban audit.",
-      "action": "Tinjau apakah Kominfo, BSSN, atau lembaga terkait memiliki perwakilan teknis yang cukup untuk merespons draft standar internasional AI yang mungkin muncul dari proses PBB ini. Identifikasi forum mana (ASEAN Digital Ministers, G20 AI, OECD AI Policy Observatory) yang bisa digunakan Indonesia untuk mempengaruhi kerangka sebelum ia final.",
+      "headline": "Claude menemukan sistem enzim baru mirip CRISPR, pertama dari lab AI generatif",
+      "whatChanged": "Anthropic melaporkan bahwa Claude, dalam konteks operasional laboratorium biologi Anthropic, mengidentifikasi sistem enzim baru dengan pola repeat mirip CRISPR yang sebelumnya tidak diketahui. Reuters dan TechCrunch mengonfirmasi laporan ini pada 23 September 2026, dengan Anthropic menyebut ini sebagai temuan biologis orisinal, bukan verifikasi literatur.",
+      "whyItMatters": "Selama ini klaim AI dalam sains terbatas pada akselerasi hipotesis atau analisis data yang ada. Temuan enzim orisinal menempatkan model generatif sebagai agen penemuan aktif, menggeser posisi AI dari alat bantu peneliti ke ko-investigator. Ini mempersingkat siklus dari pelatihan model ke dampak domain sains terapan.",
+      "secondOrder": "Jika temuan ini direplikasi dan dipublikasikan dalam jurnal peer-review, tekanan akan jatuh pada lembaga riset dan regulator biosafety untuk menetapkan protokol audit atas penemuan yang dihasilkan AI, khususnya untuk enzim yang berpotensi digunakan dalam rekayasa genetika. Paten dan kepemilikan intelektual atas penemuan yang dikreditkan ke model AI belum memiliki kerangka hukum yang jelas di sebagian besar yurisdiksi.",
+      "action": "Nilai apakah kontrak lisensi teknologi biologi yang sedang berjalan atau sedang dinegosiasi sudah mengantisipasi klaim kepemilikan dari penemuan yang dihasilkan model AI. Tinjau apakah klausul IP dalam perjanjian riset kolaboratif dengan pihak yang menggunakan model generatif sudah mencakup skenario ini.",
       "strength": "material",
       "sourceUrls": [
-        "https://openai.com/index/sam-altman-un-security-council-remarks",
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHZFN0h0Wkx1a2ZTSWRfX2g2LS03TG82QWo2YzRDU3lqOTliM3FlTlphdlFMLVU1WkFIM0lkYmE5XzFLRjFENFJPS2NPd3d1WjVJMnhRLVJWckRPQV94SExCNEJ6TGRtTmpjQmszclM4OUYtVkYxcF83aG5LaWRaSDZOdFBhbVZqdEN0V0FlaTNvQkR4SnJnWkFiTnNlV1Z5NW01M0t6X1JXb3QzczZmbWVnbkY?oc=5"
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 3,
         "hasPrimary": true
       },
       "trend": {
@@ -46,33 +48,36 @@
     {
       "rank": 2,
       "domain": "ai",
-      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "themeKey": "ai-model-safety-frontier",
       "entities": [
-        "Anthropic",
-        "Claude",
-        "Reuters"
+        "OpenAI",
+        "Sam Altman",
+        "Microsoft",
+        "Dewan Keamanan PBB"
       ],
-      "headline": "Claude diklaim bantu temukan sistem enzim baru berstruktur mirip CRISPR",
-      "whatChanged": "Anthropic mengumumkan pada 23 September 2026 bahwa Claude membantu peneliti menemukan sistem enzim baru dengan repeat mirip CRISPR. Reuters mengkonfirmasi laporan ini secara independen. Ini adalah klaim penemuan biologis konkret yang dipublikasikan langsung oleh lab pengembang model, bukan klaim kapabilitas abstrak.",
-      "whyItMatters": "Klaim ini berbeda dari demonstrasi benchmark karena menyentuh proses penemuan ilmiah yang terverifikasi secara eksternal. Bila substansinya terkonfirmasi melalui peer review, ia menetapkan preseden bahwa model frontier dapat mempersingkat siklus hipotesis-penemuan dalam biologi molekular. Perusahaan farmasi dan lembaga riset yang belum mengintegrasikan AI ke pipeline penemuan mereka menghadapi risiko kecepatan kompetitif yang nyata.",
-      "secondOrder": "Implikasi yang lebih jauh adalah pergeseran pada siapa yang memiliki kredit intelektual atas penemuan: bila AI adalah ko-penemuan, pertanyaan tentang hak paten, atribusi publikasi, dan tanggung jawab keamanan biosekuriti akan membutuhkan kerangka hukum baru. Regulator biosekuriti di berbagai yurisdiksi belum memiliki mekanisme untuk mengaudit apakah model AI yang digunakan dalam riset enzim/CRISPR telah melewati penilaian risiko dual-use.",
-      "action": "Lembaga riset dan farmasi yang menggunakan atau mempertimbangkan penggunaan model frontier untuk riset biologis perlu memeriksa apakah kontrak enterprise mereka dengan penyedia AI mencakup klausa kepemilikan IP atas output penemuan, dan apakah ada kewajiban pelaporan biosekuriti yang berlaku.",
+      "headline": "Altman bicara di DK PBB; Microsoft dukung evaluator keamanan AI global",
+      "whatChanged": "Sam Altman, CEO OpenAI, menyampaikan pernyataan di Dewan Keamanan PBB pada 23 September 2026 tentang keselamatan AI, kontrol manusia, dan kerja sama internasional. Pada hari yang sama, Bloomberg melaporkan Microsoft President mendukung penerapan evaluator keamanan AI secara global. Ars Technica mencatat China tidak merespons rencana AS untuk sistem peringatan keamanan AI yang mengecualikan pakar teknologi.",
+      "whyItMatters": "Forum DK PBB memberikan bobot geopolitik pada agenda keamanan AI yang sebelumnya berjalan di jalur industri dan akademik. Dukungan Microsoft menambah tekanan pada pemerintah dan operator infrastruktur kritis untuk mengadopsi standar evaluasi pihak ketiga. Absennya China menciptakan celah dalam arsitektur koordinasi global yang sedang coba dibangun.",
+      "secondOrder": "Negara-negara yang tidak mengadopsi kerangka evaluator yang didorong blok Barat berisiko mengalami hambatan akses ke model frontier dan ekosistem API-nya, karena vendor dapat menggunakan kepatuhan evaluasi sebagai syarat penggunaan. Untuk Indonesia, posisi ini relevan: adopsi AI di sektor publik tanpa kerangka evaluasi independen dapat menimbulkan kondisionalitas dari mitra teknologi.",
+      "action": "Periksa apakah pengadaan AI di lembaga pemerintah atau BUMN saat ini mensyaratkan audit keamanan pihak ketiga. Jika belum, dorong penambahan klausul evaluasi independen sebelum kontrak baru ditandatangani, mengingat tekanan regulasi global akan meningkat.",
       "strength": "material",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
-        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5"
+        "https://openai.com/index/sam-altman-un-security-council-remarks",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYWJnWGVLRmwwakVvV2pOMTViWVFmXy00b2N5eFhscnhOM1RxUzNVZEtKY3lYa2U0NHJTSEpxc083VFZSMjVoLW1DVzFjZk9BNDZyUFFMWnJ0M003d3dtZ2oydTNIRGtGLTMxdlhnNjZNOTV0TmRuUnZRMldHOE1pbHBLbDhSY0p6ZUR6UDBQbFRodDc1TzhCUGtlRHJEeFYxZjJaRzNEMkFHOFNheThHRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR1NZWnNlRkU5OGRxeF9aWXlyUTJrdm5UUkRFZkVib0pSazJoWkdWUUlNX3U5YnNZWXFRRl9mZGZ2ODRnOFpkeWxwOWs5V0pMZVk0S1BDd1JWNF9hZHJ1eUZBc0xsOU5BRjkydzkyS0hneE5uaU4tMDg1SElRVnNUbGdNam5FQndnTWcteWR5NnFYd0w2eGd1czFWclJPYkJhTmJETl93MWNCRWZrOXhCSlpDX0RrelpHRnE0?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHZFN0h0Wkx1a2ZTSWRfX2g2LS03TG82QWo2YzRDU3lqOTliM3FlTlphdlFMLVU1WkFIM0lkYmE5XzFLRjFENFJPS2NPd3d1WjVJMnhRLVJWckRPQV94SExCNEJ6TGRtTmpjQmszclM4OUYtVkYxcF83aG5LaWRaSDZOdFBhbVZqdEN0V0FlaTNvQkR4SnJnWkFiTnNlV1Z5NW01M0t6X1JXb3QzczZmbWVnbkY?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 3,
         "hasPrimary": true
       },
       "trend": {
-        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "themeKey": "ai-model-safety-frontier",
         "status": "structural",
-        "occurrences": 24,
-        "firstSeen": "2026-08-25",
-        "spanDays": 30
+        "occurrences": 15,
+        "firstSeen": "2026-09-03",
+        "spanDays": 21
       }
     },
     {
@@ -81,21 +86,21 @@
       "themeKey": "pln-transmisi-investasi",
       "entities": [
         "PLN",
-        "Dewan Energi Nasional",
-        "Kementerian ESDM",
-        "IESR"
+        "IESR",
+        "RUU EBET"
       ],
-      "headline": "Revisi RUPTL untuk 100 GWp PLTS belum final; PLN-DEN bahas Papua sambil target tetap 2029",
-      "whatChanged": "Per 22-23 September 2026, pemerintah masih dalam proses revisi RUPTL PLN untuk mengakomodasi target 100 GWp PLTS. ANTARA mengkonfirmasi status revisi yang belum selesai. Secara terpisah, PLN dan Dewan Energi Nasional (DEN) membahas implementasi 100 GW PLTS di Papua. IESR menyatakan target 100 GW dalam waktu tiga tahun adalah sangat ambisius.",
-      "whyItMatters": "Sinyal ini melanjutkan tema struktural pln-transmisi-investasi (19 kali sejak 25 Agustus) dan pln-grid-investment (27 kali sejak 25 Agustus). Akumulasi kedua tema ini menunjukkan pola yang konsisten: target kapasitas ditetapkan secara politis, tetapi instrumen perencanaan teknis (RUPTL) dan infrastruktur transmisi pendukungnya belum tersinkronisasi. Revisi RUPTL yang belum final berarti tidak ada kepastian offtake bagi calon pengembang PLTS, sehingga pembiayaan proyek swasta terhambat.",
-      "secondOrder": "Keterlambatan finalisasi RUPTL menciptakan risiko yang tidak simetris: pengembang yang sudah berkomitmen pada rantai pasok panel surya (termasuk kontrak impor jangka panjang) menanggung biaya ketidakpastian, sementara PLN sebagai offtaker tunggal belum terikat jadwal. Bila revisi RUPTL tidak selesai sebelum akhir 2026, pipeline proyek 2027-2028 akan mengalami penundaan yang memperpauh kesenjangan antara target 2029 dan kapasitas yang realistis dapat dibangun.",
-      "action": "Pengembang dan investor PLTS perlu meminta konfirmasi eksplisit dari Kementerian ESDM tentang target tanggal finalisasi revisi RUPTL sebelum mengunci komitmen rantai pasok atau finansial. Pertimbangkan skenario sensitivitas di mana RUPTL baru tersedia pertengahan 2027.",
+      "headline": "Revisi RUPTL dan RUU EBET belum selesai, memblokir target 100 GWp PLTS Indonesia",
+      "whatChanged": "Per 23 September 2026, revisi RUPTL PLN 2025-2034 untuk mengakomodasi target 100 GWp PLTS belum final, dikonfirmasi ANTARA dan Kontan. KONTAN secara terpisah memuat analisis tentang urgensi RUU EBET yang juga belum disahkan. IESR dalam laporan MENTARI Grids (17 September 2026) menyebut fleksibilitas jaringan transmisi sebagai hambatan struktural utama pencapaian target.",
+      "whyItMatters": "Ini melanjutkan tema struktural pln-transmisi-investasi yang telah tercatat 19 kali sejak Agustus 2026. Akumulasinya menunjukkan bukan keterlambatan administratif biasa, melainkan ketidakselarasan antara target kapasitas yang ditetapkan politik (100 GWp pada 2029 menurut IESR) dan instrumen hukum serta rencana sistem yang diperlukan untuk merealisasikannya. Tanpa RUPTL yang direvisi, kontrak jual beli listrik PLTS baru tidak bisa ditandatangani secara sah.",
+      "secondOrder": "Investor PLTS skala utilitas yang sedang dalam due diligence proyek Indonesia menghadapi risiko ketidakpastian regulasi yang tidak dapat diharga-kan karena batas waktu revisi tidak diumumkan. Setiap bulan keterlambatan pengesahan RUPTL memundurkan pipeline proyek yang bergantung pada kepastian offtake PLN, terutama untuk proyek yang memerlukan financial close sebelum akhir 2026.",
+      "action": "Pantau jadwal pengesahan RUPTL revisi dan progres legislasi RUU EBET di DPR minggu ini. Untuk proyek yang sedang dalam tahap PPA, identifikasi apakah klausul force majeure atau longstop date kontrak sudah memperhitungkan skenario keterlambatan regulasi lebih dari satu kuartal.",
       "strength": "actionable",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ3dWaGdKY0ZRZm5QR3pPX3FCaHBmZVlvaWxFNEtNS2FOMkh3eVVJckZDLWRNVWs3bmc2NnFGaWFaMGxhcmdtbFhYYTZCdDlfMkxHZGJxbW5RUFVlMGljd0VfcG1OYU1mQzdpREJLV1VDRFhnZmZSMnhVZFVtVGZudElRek9uUUt1VjhDZ3c0NWF1dU5xYzNGZll3M1VrME9MWXNaVENYaw?oc=5",
         "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYzRXX1MzajA3WGNCOGNCYm81WVpjeTg2MTVhQ3RIbnJyQlpZVm12SUZvSFB3YTU4Y2Y3TmRxZkxGaVVZYXh3aGkyMmZic0tHMlJOekw5NlpUVWt4NnZHTFpoZjVOVUNZUzUtazBuUDVzbVE3WUFpWmtQWjZlZ21WOHptRHNpR3FPWDQ5RDNJZ2E5N0puTklDWXBIZXJyeDRzUFU1aGdHMNIBoAFBVV95cUxON19RNHdCREZOcmFuQWhQU253clpnTlFCTEtlVHpxcEFibVZSb1MtdFA3NVpGYTJCTXg3ZVlEV0ktMm9tV25rZUxZZDVBQmkwZmdIdzNncG4wVFV5YUkzQTdtUXlHV2FqUVJqVEtlXzF1LVJidzJiMWhMZnQyWFZQczFkRzVGXy1hamgtdVhKcmM2SjFJbjdlNDNTY1kzQk8y?oc=5",
-        "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd1VmZXdnZDhqTHVObE4tRGpqenVmZXdIeGJuQzEweVpQV2VYYVMtMFhXbTNsV1diMUM4OHBROWlDclo0ZFV0bHBxaFBzUks0UUJLMU1XVVN3UXZIN3NZOUJERVlwaHpKcjdjOU5nNnFiVWdGLW8xUE1yNk1fV0NLTHlmb2hoT2xibF9FQ3NFbnlvZUNMc3hfYlBZcGdsX1Y2RFdFY3BIMA?oc=5"
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rV2ZLekFGNXA3STV3Y3lrMXZnaDZXM3JSLXZMU2JHU0pHYVlBQWpvd0NUdkdpaFA0enJvT3Jta3d2UXZuRTlKMGllbDFINXdCdFZoblcyOUFGdGstVGFN?oc=5",
+        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+        "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -112,25 +117,58 @@
     },
     {
       "rank": 4,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
       "entities": [
-        "Danantara",
-        "LRT Jakarta",
-        "CNBC Indonesia"
+        "Google DeepMind",
+        "Private AI Compute"
       ],
-      "headline": "Danantara diminta Gubernur DKI biayai LRT Jakarta, memperluas eksposur ke infrastruktur kota",
-      "whatChanged": "CNBC Indonesia melaporkan pada 23 September 2026 bahwa Gubernur DKI Jakarta Pramono meminta Danantara membantu membangun LRT Jakarta. Laporan mengutip respons dari pimpinan Danantara atas permintaan tersebut. Ini adalah pertama kalinya permintaan pembiayaan infrastruktur urban secara eksplisit diarahkan kepada Danantara oleh kepala daerah.",
-      "whyItMatters": "Sinyal ini melanjutkan tema struktural danantara-bumn-karya-restructuring (25 kali sejak 25 Agustus). Permintaan gubernur terhadap Danantara untuk LRT menandai ekspansi de facto mandat lembaga ini di luar restrukturisasi BUMN Karya dan portofolio investasi strategis nasional, ke dalam pembiayaan infrastruktur kota yang secara tradisional ditangani melalui APBD, APBN, atau pinjaman bilateral. Bila Danantara menerima, preseden ini membuka pintu bagi kepala daerah lain untuk mengajukan permintaan serupa.",
-      "secondOrder": "Ekspansi mandat yang tidak disertai kejelasan tata kelola akan mempersulit audit dan akuntabilitas Danantara. Setiap penambahan proyek infrastruktur urban yang berbasis permintaan politik (bukan seleksi portofolio berbasis risiko-imbal hasil) berpotensi mendilusi fokus lembaga dan memperlemah kredibilitasnya di mata mitra investasi internasional yang sedang mengevaluasi struktur Danantara.",
-      "action": "Pantau apakah Danantara menerbitkan respons resmi tertulis atas permintaan LRT Jakarta ini dan apakah ada mekanisme formal untuk mengevaluasi permintaan serupa dari kepala daerah lain. Ini adalah indikator kunci apakah lembaga akan mempertahankan disiplin portofolio atau beralih ke mode pembiayaan infrastruktur reaktif.",
+      "headline": "Google DeepMind perkenalkan memori server-side privat untuk Private AI Compute",
+      "whatChanged": "Google DeepMind pada 23 September 2026 mengumumkan penambahan memori server-side yang bersifat privat ke dalam infrastruktur Private AI Compute. Fitur ini memungkinkan AI personal menyimpan konteks di sisi server tanpa mengekspos data ke operator infrastruktur, menggunakan pendekatan secure enclave atau mekanisme setara.",
+      "whyItMatters": "Ini melanjutkan tema enterprise-ai-data-privacy-contracts. Langkah Google DeepMind memindahkan memori dari perangkat ke server dengan jaminan privasi adalah pergeseran arsitektural: model AI berbasis cloud kini dapat menawarkan persistensi konteks jangka panjang tanpa mengorbankan klaim privasi pengguna. Ini membuka segmen enterprise yang sebelumnya menolak cloud AI karena kekhawatiran data residency.",
+      "secondOrder": "Vendor AI enterprise yang membangun di atas API publik perlu mengevaluasi ulang proposisi privasi mereka, karena infrastruktur Google DeepMind kini menawarkan jaminan yang sebelumnya hanya bisa diberikan oleh deployment on-premise. Regulator perlindungan data seperti OJK dan Kominfo perlu memperjelas apakah memori server-side privat memenuhi syarat lokalisasi data dalam PP No. 71 Tahun 2019.",
+      "action": "Tinjau perjanjian pemrosesan data (DPA) dengan vendor AI yang menggunakan infrastruktur Google DeepMind. Konfirmasi apakah arsitektur memori server-side baru memenuhi persyaratan lokalisasi data yang berlaku di Indonesia sebelum mengaktifkan fitur ini untuk pengguna korporat.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTFGeEVXcmRBZk9DV00xOTgyZF9nRERXdVlHUHZUUXJvbzdJYzliZ2dYaUdzbU1tSTh1S2NlWVRBTDllWWt3aHd2OEwyaFNYdkVtM3NLMXZEVFl3MTkxZTdTd1gxZHEwc0R5N1FPSTF6M0t4a01YTWRBLXo4cjA5ZGJlS0tYZUdBNmZCU3BzTGwtSUs0TzZCTEp1ZWM3OHRxckhsLVhHbkp2UVBKZ2Ntb3M0ME9XUWdsZktrRWh5WS14LW9UTVIw0gHMAUFVX3lxTFBkM0lTcHhRQmxqdGNncXptQXJfTF9XU2lVbmNnNVFaM19ybERjek9FWHBYUldBZmtEZF90cjAwbWNMX1YyWDhRR0EtMmJCa2o0ZlhEX2NSa1FHVjdsSHRqaF9ZZ0xLaXUzd3huR3RiMnJHd3ZQTks1QnJuVmpVTUpjZEY3d1c3TldQRUVQUFpFUDV4VUFaQmwzNm1mS0dqZmNaRTdzUXlhVl9acFBwYms0WUZHdUlWUkNGVVk0Y1owcWJtYUJrbmVyemFSdA?oc=5"
+        "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
       ],
       "secondOrderUrls": [],
       "corroboration": {
         "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-08-25",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Pramono",
+        "LRT Jakarta",
+        "Mendiktisaintek"
+      ],
+      "headline": "Danantara diminta bantu LRT Jakarta; Mendiktisaintek bahas PTN gratis dengan Danantara",
+      "whatChanged": "Gubernur Jakarta Pramono meminta Danantara membantu pembangunan LRT Jakarta, dan pimpinan Danantara merespons secara publik per laporan CNBC Indonesia 23 September 2026. Pada hari yang sama, Bloomberg Technoz melaporkan Mendiktisaintek membahas program pendidikan tinggi negeri gratis dengan Presiden dan Danantara, meskipun pernyataan resmi menegaskan pendanaan tetap dari APBN bukan Danantara.",
+      "whyItMatters": "Ini melanjutkan tema struktural danantara-bumn-karya-restructuring. Dua permintaan dalam satu hari dari dua kementerian/daerah berbeda menunjukkan Danantara kini dipersepsikan sebagai sumber pendanaan infrastruktur publik alternatif APBN, meskipun mandatnya secara formal adalah pengelolaan portofolio BUMN. Persepsi ini menciptakan tekanan politik yang dapat mendorong perluasan mandat secara de facto.",
+      "secondOrder": "Jika Danantara menerima permintaan infrastruktur publik di luar mandat portofolio BUMN, struktur governance dan accountability-nya akan mendapat tekanan karena instrumen pengawasan yang ada (DPR, BPK) belum sepenuhnya diadaptasi untuk entitas hybrid semacam ini. Risiko konflik kepentingan meningkat bila Danantara sekaligus menjadi investor dan penyandang dana proyek yang melibatkan BUMN Karya yang sedang direstrukturisasi.",
+      "action": "Periksa batas-batas formal mandat Danantara dalam PP dan Perpres yang mengaturnya. Identifikasi apakah keterlibatan dalam LRT Jakarta atau PTN gratis memerlukan perubahan regulasi atau cukup keputusan direksi. Ini penting untuk penilaian risiko governance bagi kreditur dan mitra investasi Danantara.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTFGeEVXcmRBZk9DV00xOTgyZF9nRERXdVlHUHZUUXJvbzdJYzliZ2dYaUdzbU1tSTh1S2NlWVRBTDllWWt3aHd2OEwyaFNYdkVtM3NLMXZEVFl3MTkxZTdTd1gxZHEwc0R5N1FPSTF6M0t4a01YTWRBLXo4cjA5ZGJlS0tYZUdBNmZCU3BzTGwtSUs0TzZCTEp1ZWM3OHRxckhsLVhHbkp2UVBKZ2Ntb3M0ME9XUWdsZktrRWh5WS14LW9UTVIw0gHMAUFVX3lxTFBkM0lTcHhRQmxqdGNncXptQXJfTF9XU2lVbmNnNVFaM19ybERjek9FWHBYUldBZmtEZF90cjAwbWNMX1YyWDhRR0EtMmJCa2o0ZlhEX2NSa1FHVjdsSHRqaF9ZZ0xLaXUzd3huR3RiMnJHd3ZQTks1QnJuVmpVTUpjZEY3d1c3TldQRUVQUFpFUDV4VUFaQmwzNm1mS0dqZmNaRTdzUXlhVl9acFBwYms0WUZHdUlWUkNGVVk0Y1owcWJtYUJrbmVyemFSdA?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzkzLVBUcUVzcnpHUmd1MXJST2V1VXhwWjM2Q21lWF9QeEtTckNCem5UTl95cEhKRUZLSWlsRHJsSnBhWHRNc3NXd2lzMGJSbndmR0tjc09OQWJsUDRnclJBdHZGSEY2RHdVNUZJUlpHS042dEtUbUoxZDVKRDN5WUx3cEtkSU5taEZIemFjc2dDUUZ2RkJ6YlQ5eXVQMzVuRmIxbXZ5OVA5c0VMcWhaN0d6T0c?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUViUmJ3VmthREVqM2V2aGpmZDh5dlJXYlU0MEtoX1B3RTdNaXRlRERJQ2M5djdvMDlWcDItN01RNUwzS25ZWnp5Qjg4U0IybGlTRVNnanNJZ2dkOTBtaVdmeUoxd0NucmxqRHlPSmZxTWk2dnBMUE44cEMtTWNnaHJjcEUxeGRGVTRGMlNmY0RiN3dFbFJIZDhWM3ZseXIwcVJKOXljM1g3a21FTlpJWTNBU2lUM29teHJ0NnpsMA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
         "hasPrimary": false
       },
       "trend": {
@@ -144,27 +182,35 @@
   ],
   "watchNext": [
     {
-      "item": "Tanggal finalisasi revisi RUPTL PLN 2025-2034 untuk 100 GWp PLTS: Kementerian ESDM belum mengumumkan target waktu resmi",
+      "item": "Pengesahan revisi RUPTL PLN 2025-2034 untuk 100 GWp PLTS: pantau pengumuman resmi Kementerian ESDM atau PLN",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "Respons resmi Danantara atas permintaan pembiayaan LRT Jakarta dan apakah mekanisme seleksi proyek daerah akan diterbitkan",
+      "item": "Publikasi peer-review atas temuan enzim Claude dari Anthropic: konfirmasi validitas ilmiah dan implikasi IP",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "Progres legislasi RUU EBET di DPR: jadwal pembahasan dan kemungkinan pengesahan sebelum akhir masa sidang",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Respons resmi China terhadap kerangka peringatan keamanan AI yang diusulkan AS pasca sidang DK PBB",
       "dueDate": "2026-10-15"
     },
     {
-      "item": "Konfirmasi peer review independen atas klaim penemuan enzim mirip CRISPR oleh Claude (Anthropic)",
-      "dueDate": "2027-03-01"
-    },
-    {
-      "item": "Perkembangan proses legislasi nuklir Italia: dari keputusan parlemen ke regulasi teknis dan pemilihan lokasi reaktor",
-      "dueDate": "2027-06-01"
-    },
-    {
-      "item": "Posisi Indonesia dalam proses PBB/forum multilateral terkait kerangka tata kelola AI yang diprakarsai oleh Altman dan Amodei",
-      "dueDate": "2026-12-01"
+      "item": "Kejelasan mandat Danantara atas permintaan LRT Jakarta: keputusan direksi atau revisi regulasi",
+      "dueDate": "2026-10-31"
     }
   ],
   "sources": [
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-23T16:00:57.000Z"
+    },
     {
       "title": "PV Magazine | Indonesia menargetkan kapasitas tenaga surya sebesar 100 GW pada tahun 2029",
       "publisher": "IESR",
@@ -174,8 +220,25 @@
       "publishedAt": "2026-09-21T02:52:18.000Z"
     },
     {
+      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-17T05:28:35.000Z"
+    },
+    {
+      "title": "Mendikti Saintek Tegaskan Pendidikan Gratis Pakai APBN Bukan Danantara",
+      "publisher": "kabar24.bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUViUmJ3VmthREVqM2V2aGpmZDh5dlJXYlU0MEtoX1B3RTdNaXRlRERJQ2M5djdvMDlWcDItN01RNUwzS25ZWnp5Qjg4U0IybGlTRVNnanNJZ2dkOTBtaVdmeUoxd0NucmxqRHlPSmZxTWk2dnBMUE44cEMtTWNnaHJjcEUxeGRGVTRGMlNmY0RiN3dFbFJIZDhWM3ZseXIwcVJKOXljM1g3a21FTlpJWTNBU2lUM29teHJ0NnpsMA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T12:48:56.000Z"
+    },
+    {
       "title": "Pemerintah masih lakukan revisi RUPTL PLN untuk PLTS 100 GWp",
-      "publisher": "ANTARA News Sumbar",
+      "publisher": "sumbar.antaranews.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ3dWaGdKY0ZRZm5QR3pPX3FCaHBmZVlvaWxFNEtNS2FOMkh3eVVJckZDLWRNVWs3bmc2NnFGaWFaMGxhcmdtbFhYYTZCdDlfMkxHZGJxbW5RUFVlMGljd0VfcG1OYU1mQzdpREJLV1VDRFhnZmZSMnhVZFVtVGZudElRek9uUUt1VjhDZ3c0NWF1dU5xYzNGZll3M1VrME9MWXNaVENYaw?oc=5",
       "tier": 1,
       "via": "Google News",
@@ -183,13 +246,22 @@
       "publishedAt": "2026-09-22T21:09:47.000Z"
     },
     {
-      "title": "Altman, Amodei Call for Global Cooperation on AI to Boost Safety",
-      "publisher": "bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHZFN0h0Wkx1a2ZTSWRfX2g2LS03TG82QWo2YzRDU3lqOTliM3FlTlphdlFMLVU1WkFIM0lkYmE5XzFLRjFENFJPS2NPd3d1WjVJMnhRLVJWckRPQV94SExCNEJ6TGRtTmpjQmszclM4OUYtVkYxcF83aG5LaWRaSDZOdFBhbVZqdEN0V0FlaTNvQkR4SnJnWkFiTnNlV1Z5NW01M0t6X1JXb3QzczZmbWVnbkY?oc=5",
+      "title": "Urgensi RUU EBET - KONTAN",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rV2ZLekFGNXA3STV3Y3lrMXZnaDZXM3JSLXZMU2JHU0pHYVlBQWpvd0NUdkdpaFA0enJvT3Jta3d2UXZuRTlKMGllbDFINXdCdFZoblcyOUFGdGstVGFN?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-23T19:56:04.000Z"
+      "publishedAt": "2026-09-23T23:19:49.000Z"
+    },
+    {
+      "title": "China silent as US touts plan for AI safety alerts that omits tech experts",
+      "publisher": "Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR1NZWnNlRkU5OGRxeF9aWXlyUTJrdm5UUkRFZkVib0pSazJoWkdWUUlNX3U5YnNZWXFRRl9mZGZ2ODRnOFpkeWxwOWs5V0pMZVk0S1BDd1JWNF9hZHJ1eUZBc0xsOU5BRjkydzkyS0hneE5uaU4tMDg1SElRVnNUbGdNam5FQndnTWcteWR5NnFYd0w2eGd1czFWclJPYkJhTmJETl93MWNCRWZrOXhCSlpDX0RrelpHRnE0?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T20:52:28.000Z"
     },
     {
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
@@ -210,13 +282,22 @@
       "publishedAt": "2026-09-22T09:04:03.000Z"
     },
     {
-      "title": "Anthropic says Claude AI helped discover novel enzyme system",
-      "publisher": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
+      "title": "Altman, Amodei Call for Global Cooperation on AI to Boost Safety",
+      "publisher": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHZFN0h0Wkx1a2ZTSWRfX2g2LS03TG82QWo2YzRDU3lqOTliM3FlTlphdlFMLVU1WkFIM0lkYmE5XzFLRjFENFJPS2NPd3d1WjVJMnhRLVJWckRPQV94SExCNEJ6TGRtTmpjQmszclM4OUYtVkYxcF83aG5LaWRaSDZOdFBhbVZqdEN0V0FlaTNvQkR4SnJnWkFiTnNlV1Z5NW01M0t6X1JXb3QzczZmbWVnbkY?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T19:56:04.000Z"
+    },
+    {
+      "title": "Anthropic says its biology lab has already found something big",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-23T21:12:38.000Z"
+      "publishedAt": "2026-09-23T22:17:39.000Z"
     },
     {
       "title": "Sam Altman’s remarks at the United Nations Security Council",
@@ -227,6 +308,33 @@
       "publishedAt": "2026-09-23T12:00:00.000Z"
     },
     {
+      "title": "Mendiktisaintek Bahas PTN Gratis dengan Presiden dan Danantara",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzkzLVBUcUVzcnpHUmd1MXJST2V1VXhwWjM2Q21lWF9QeEtTckNCem5UTl95cEhKRUZLSWlsRHJsSnBhWHRNc3NXd2lzMGJSbndmR0tjc09OQWJsUDRnclJBdHZGSEY2RHdVNUZJUlpHS042dEtUbUoxZDVKRDN5WUx3cEtkSU5taEZIemFjc2dDUUZ2RkJ6YlQ5eXVQMzVuRmIxbXZ5OVA5c0VMcWhaN0d6T0c?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T08:25:00.000Z"
+    },
+    {
+      "title": "Microsoft President Backs Deployment of AI Safety Evaluators",
+      "publisher": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYWJnWGVLRmwwakVvV2pOMTViWVFmXy00b2N5eFhscnhOM1RxUzNVZEtKY3lYa2U0NHJTSEpxc083VFZSMjVoLW1DVzFjZk9BNDZyUFFMWnJ0M003d3dtZ2oydTNIRGtGLTMxdlhnNjZNOTV0TmRuUnZRMldHOE1pbHBLbDhSY0p6ZUR6UDBQbFRodDc1TzhCUGtlRHJEeFYxZjJaRzNEMkFHOFNheThHRQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T18:40:26.000Z"
+    },
+    {
+      "title": "Anthropic says Claude AI helped discover novel enzyme system",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T21:12:38.000Z"
+    },
+    {
       "title": "Diminta Pramono Bantu Bangun LRT Jakarta, Bos Danantara Bilang Gini",
       "publisher": "CNBC Indonesia",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTFGeEVXcmRBZk9DV00xOTgyZF9nRERXdVlHUHZUUXJvbzdJYzliZ2dYaUdzbU1tSTh1S2NlWVRBTDllWWt3aHd2OEwyaFNYdkVtM3NLMXZEVFl3MTkxZTdTd1gxZHEwc0R5N1FPSTF6M0t4a01YTWRBLXo4cjA5ZGJlS0tYZUdBNmZCU3BzTGwtSUs0TzZCTEp1ZWM3OHRxckhsLVhHbkp2UVBKZ2Ntb3M0ME9XUWdsZktrRWh5WS14LW9UTVIw0gHMAUFVX3lxTFBkM0lTcHhRQmxqdGNncXptQXJfTF9XU2lVbmNnNVFaM19ybERjek9FWHBYUldBZmtEZF90cjAwbWNMX1YyWDhRR0EtMmJCa2o0ZlhEX2NSa1FHVjdsSHRqaF9ZZ0xLaXUzd3huR3RiMnJHd3ZQTks1QnJuVmpVTUpjZEY3d1c3TldQRUVQUFpFUDV4VUFaQmwzNm1mS0dqZmNaRTdzUXlhVl9acFBwYms0WUZHdUlWUkNGVVk0Y1owcWJtYUJrbmVyemFSdA?oc=5",
@@ -234,15 +342,6 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-09-23T03:40:21.000Z"
-    },
-    {
-      "title": "PLN bersama DEN bahas implementasi PLTS 100 GW di Tanah Papua",
-      "publisher": "ANTARA News Papua",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd1VmZXdnZDhqTHVObE4tRGpqenVmZXdIeGJuQzEweVpQV2VYYVMtMFhXbTNsV1diMUM4OHBROWlDclo0ZFV0bHBxaFBzUks0UUJLMU1XVVN3UXZIN3NZOUJERVlwaHpKcjdjOU5nNnFiVWdGLW8xUE1yNk1fV0NLTHlmb2hoT2xibF9FQ3NFbnlvZUNMc3hfYlBZcGdsX1Y2RFdFY3BIMA?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-23T08:43:00.000Z"
     }
   ],
   "trends": [
@@ -298,9 +397,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 384,
+    "candidateCount": 380,
     "poolSize": 110,
-    "generatedAt": "2026-09-23T23:19:53.691Z",
+    "generatedAt": "2026-09-23T23:44:35.854Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
