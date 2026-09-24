@@ -1,0 +1,397 @@
+{
+  "slug": "2026-09-25",
+  "date": "2026-09-25",
+  "lang": "en",
+  "title": "Oracle Force Majeure, Danantara-Thales Deal, and AI Safety Convergence",
+  "dek": "A power-delay crisis in AI infrastructure financing, a defense-tech partnership for Indonesia's sovereign fund, and cross-lab AI safety coordination each force concrete decisions this week.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Oracle has invoked force majeure on a data center project citing power delivery failure, sending credit and structuring ripples through AI infrastructure finance and confirming that grid access is now the binding constraint on AI buildout. Danantara has signed a strategic technology partnership with Thales, its first major defense and dual-use technology deal, while industry is simultaneously pressing Danantara to anchor a textile industrial zone, signaling that the fund is being pulled in multiple sectoral directions at once. On AI governance, Google, OpenAI, and Anthropic are coalescing into a joint safety evaluation group, while Anthropic has separately published internal measurements of AI development pace, providing the first primary-source data on frontier lab self-assessment cadence. Indonesia's 100 GWp solar target remains blocked by an unrevised RUPTL and unfinished RUU EBET legislation, a structural condition that now shapes every energy investment timeline in the country.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara Indonesia",
+        "Thales",
+        "OJK",
+        "Bank Indonesia"
+      ],
+      "headline": "Danantara signs strategic technology partnership with Thales",
+      "whatChanged": "Danantara Indonesia published a primary announcement confirming a strategic technology partnership with Thales, the French defense and aerospace technology group. On the same day, industry representatives called on Danantara to act as aggregator for an integrated textile industrial zone, according to Bisnis.com. Separately, a meeting at the DPR brought together the Finance Minister, Bank Indonesia, OJK, and Danantara to discuss unspecified coordination matters, reported by both Bloomberg Technoz and CNBC Indonesia.",
+      "whyItMatters": "The Thales deal is Danantara's first publicly confirmed partnership with a major defense and dual-use technology firm, extending the fund's portfolio mandate beyond infrastructure and construction into technology with strategic and security dimensions. The simultaneous textile-zone lobbying illustrates the breadth of sectoral demands being directed at Danantara, creating portfolio concentration and governance risks as the fund has not disclosed a public sector prioritization framework.",
+      "secondOrder": "A sovereign wealth vehicle taking on defense-adjacent technology partnerships while simultaneously being lobbied for industrial zone anchor roles and participating in legislative-financial coordination meetings is accumulating mandates faster than its governance architecture is publicly documented. The risk is not overextension in capital terms but in institutional coherence: each new mandate type requires different risk, compliance, and counterparty frameworks, and conflation produces accountability gaps that regulators and partners will eventually price.",
+      "action": "Map the current Danantara mandate stack: infrastructure restructuring, housing, defense technology, industrial zones, and financial market coordination. Assess whether each mandate type has a distinct governance and risk framework, and flag which combinations create conflicts of interest or regulatory overlap with OJK, Bank Indonesia, or the Ministry of Defense.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGlZSjRHWjJpcnVsVlNvTHJTRzVOcE1qTHVpS3F0RnUxVTZFVXFxT0dlcWpyZjQzcWZ6d3pnQnNJVjV4SWpFM0k2UF9pSnJkdkNXN1BsV09QSzZfWHdWUjkzNmM0eUNhSFE1MFNpaUFDeDlITVFxTFNVelhXT01GYUdoWmZCWGFuTFFRa2VSZm9GWVlhQnlOZnIzck4xSTFnSlpDZ1hBY24?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNnRhVk95NXlfSXlYd2NJZFJXVVBMTzluUzRjclNHcTVyZy1UWWdFck9EaUVUSzRxVHdUZDJWSUdLYlJQNFN3YWRTOWlIeHV3eHBqeWdkT3pYOG1jX0RMcUFfcER3eWJTMXZ1bWFQQVltS1E3V0Z3YXVSVXRBMHc1X2JwM2c1Rm90blpSYUVWMDBudUh0ZS1XSno2Z0E2bkxYRlAzbzJiQTRNWGJoeDFaMlR1emJaMkVwR3VDTnREUm8?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPd1EtZDA1REJWek8xQnFCQWVTck5NMHpZdEp4SGRaMkhoYlIwWTZVbHI1Y2NSTHJHWC1RVnZrcnI1eDBob1ZnNjh0LW9TMk5HWktvTjczai1sOC1JVFFnY3R6Y3pWODRLMnh2cVJWREtxREtNSlNwRnZ4NTlNMGVwUTdxNFhRTV9WVkdsYTJteGV6Mm1DMWpIY0Y4QzV2OG9JSm5qZ0twSld1cFJIaDlvSGM5NXRMeTTSAbwBQVVfeXFMTUpsb1hoaUxJMUpkUkMyUUw3bHZxalFHcDhTSlh4M3RTZDlreTZXWXZibjgzV1pEck9oRXRpQ2ZqQURJenlZSWFLU1dJWjNieTk0NFlUZ3FyT0hWSmxyaGhnOFVHc0hzUV9LUnVNNU1YbVlqdkdXdnNvejRPN3c4TkpEdHFJTG45Z3ZNREc4dExHZ2l5c2t2VHNXRThmZkdrRXBydHJhdGJkTGxvWjVNWUhGUm4tM3ZoeDRWemo?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzRnNHp2Q1ZEcTZ2WjduZWp4RkQyMHVmeGxKOTdDMVMtOTk4enBDVVJSNUt1MW01TTVxNUszc0NZZDJmQTc3bmRmcmpfSTFJWU9qR2NtYUdNSDdZQ1BLR1BYMjRod29Zek1tZzJqNnQyeXltVHlnd3FBTWswZmNLX1VpTVZSYWRndWpWTGtJdjdXZldaMGNycTY5cTJINzZmNWhfVXA1NnZCWDEzTEoxTg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google",
+        "OpenAI",
+        "Anthropic",
+        "The Information"
+      ],
+      "headline": "Google, OpenAI, and Anthropic form joint AI safety evaluation group; Anthropic publishes internal development-pace measurements",
+      "whatChanged": "Google, OpenAI, and Anthropic are forming a joint AI safety evaluation group, according to The Information. Separately, Anthropic published a primary-source paper titled 'Measurements for understanding the pace of AI development inside frontier labs', providing the first disclosed framework for how a frontier lab internally tracks its own development velocity.",
+      "whyItMatters": "Three competing frontier labs coordinating on safety evaluation is a structural shift from competitive differentiation on safety to shared baseline standards, likely driven by regulatory pressure following Sam Altman's UN Security Council appearance. The Anthropic measurement paper matters separately: it is a primary-source disclosure of how a lab operationalizes self-assessment, which regulators and evaluators have lacked until now.",
+      "secondOrder": "A joint safety group among competing labs creates an implicit evaluation cartel, where the three largest developers jointly set the benchmarks by which all developers, including themselves, are measured. This gives incumbents disproportionate influence over what counts as 'safe', which may disadvantage open-source and non-member developers in future regulatory frameworks that defer to the group's standards.",
+      "action": "Read the Anthropic measurement paper as a primary source to understand what metrics a frontier lab uses to assess its own pace. Then assess whether any regulatory framework or procurement standard your institution applies to AI systems references or will reference this group's evaluation outputs, and determine whether your exposure to that standard requires engagement with the group's process.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmgyX1dTWG0yMEZFb2RRTmNReFM1aVFxa3Vid2hqWmMzU1hQQTNBR0p3MXlJWWZadUEtZHpvWUtiUnluMHRkNHNsZjViU1Y2MUZKdExNdjg0cDlIbFltWEc5bHdySEMyakJvQUhfSTFGSXQ2Wk1EaVJIOTNCRWNZZzhhZUJ2SEdlM2luUmh2ekxhRlBjMkE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 16,
+        "firstSeen": "2026-09-03",
+        "spanDays": 22
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "IESR",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "Indonesia's RUPTL revision and RUU EBET remain unfinished, blocking 100 GWp solar target with less than three years to the 2029 deadline",
+      "whatChanged": "The government confirmed it is still revising the PLN RUPTL 2025-2034 to accommodate the 100 GWp solar target, according to ANTARA News Sumbar. Observers cited by Kontan.co.id stated the revision is necessary but not yet complete. The Deputy Speaker of the MPR separately called for accelerating the 100 GW solar program, according to detikNews. IESR has modeled that an ambitious energy transition scenario could reduce ASEAN energy costs by 2050, but explicitly noted the Indonesian target is at risk given regulatory incompleteness.",
+      "whyItMatters": "The 100 GWp target has a 2029 deadline, meaning approximately 33 months remain. Without a revised RUPTL, PLN cannot execute the procurement pipeline, and without RUU EBET, the legal framework for renewable energy business entities is absent. Both are now structural blockers, not policy aspirations. This theme has appeared 19 times in the archive since August 26 and is no longer a warning; it is the operating condition for every solar investment decision in Indonesia.",
+      "secondOrder": "The longer the RUPTL revision stalls, the more the 100 GWp target functions as a demand signal without a procurement mechanism, pulling in project developers and EPC firms that will then face contract delays or cancellations when timelines slip. Developers who begin land acquisition, permitting, and supply chain commitments based on the political target rather than the legal instrument are exposed to stranded-cost risk at scale.",
+      "action": "Do not underwrite or commit to Indonesian solar projects against the 100 GWp target without a verified RUPTL revision timeline and a confirmed RUU EBET legislative calendar. Request from counterparties a written position on how their project survives a 12-month additional regulatory delay before committing capital.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ3dWaGdKY0ZRZm5QR3pPX3FCaHBmZVlvaWxFNEtNS2FOMkh3eVVJckZDLWRNVWs3bmc2NnFGaWFaMGxhcmdtbFhYYTZCdDlfMkxHZGJxbW5RUFVlMGljd0VfcG1OYU1mQzdpREJLV1VDRFhnZmZSMnhVZFVtVGZudElRek9uUUt1VjhDZ3c0NWF1dU5xYzNGZll3M1VrME9MWXNaVENYaw?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQnBEZzl2cGVKbjNxOWpVTFBDckQ4UUg5a3ZOdzNSQ3ZFQUw5S3F6Q01ERDhRWk1sLUFiZTNXNkZVTUMwSmdxbWFTZ19KX3Z6cXlaMGJWcW5TTHViM3RoSkNsSlBTalpGWEMxOTI2MHY0YmlrcWQ5UmowRlNDYTFfWW9KNlVrWFB5TWU2ejR1TFJVaF9veDk0eG9LOTlGRUIwN3FqWmt1NlpWMmlXZUJ30gG0AUFVX3lxTE9JOUQ3MjNEUkVXVEJkOFZBbGdINzlVSmxqRE1wOGVDYnlIaHMzSEhUSktzdHdibjJ0SHJNYWRaNi1zbndfQzNLR05yZTZlSXJsZW5sQUdoT1UxX2JDSEFpdUY5VlIwdkpJV1pheDZSLUdFTkVRSVQySjZJTUI5ODdsVzhWdVBrWVlyZTJ2R0FRSTlxdjBLVnd6TURReEVIaUtSZzVUUS01VmllQzIzcm9WTzVwaQ?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYzRXX1MzajA3WGNCOGNCYm81WVpjeTg2MTVhQ3RIbnJyQlpZVm12SUZvSFB3YTU4Y2Y3TmRxZkxGaVVZYXh3aGkyMmZic0tHMlJOekw5NlpUVWt4NnZHTFpoZjVOVUNZUzUtazBuUDVzbVE3WUFpWmtQWjZlZ21WOHptRHNpR3FPWDQ5RDNJZ2E5N0puTklDWXBIZXJyeDRzUFU1aGdHMNIBoAFBVV95cUxON19RNHdCREZOcmFuQWhQU253clpnTlFCTEtlVHpxcEFibVZSb1MtdFA3NVpGYTJCTXg3ZVlEV0ktMm9tV25rZUxZZDVBQmkwZmdIdzNncG4wVFV5YUkzQTdtUXlHV2FqUVJqVEtlXzF1LVJidzJiMWhMZnQyWFZQczFkRzVGXy1hamgtdVhKcmM2SjFJbjdlNDNTY1kzQk8y?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://iesr.or.id/skenario-transisi-energi-ambisius-berpotensi-tekan-biaya-energi-asean-pada-2050/"
+      ],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "DPR"
+      ],
+      "headline": "Indonesia energy subsidy for 2027 cut by Rp 11.4 trillion as DMO coal penalty risks tightening PLN supply",
+      "whatChanged": "The chair of the DPR Budget Committee announced that energy subsidies in the 2027 RAPBN will be Rp 261.50 trillion, reduced from the government's original proposal by Rp 11.4 trillion, with cuts affecting fuel and 3-kilogram LPG allocations, according to detikFinance. Separately, Bloomberg Technoz reported that domestic market obligation sanctions on coal producers risk complicating PLN's ability to fulfill coal supply requirements, with DMO penalties potentially reducing the incentive for producers to meet PLN's below-market-price coal quota.",
+      "whyItMatters": "A simultaneous subsidy cut and coal supply risk creates a dual fiscal and operational pressure on PLN. The subsidy reduction limits the government's ability to compensate PLN for below-cost tariffs, while DMO enforcement friction reduces coal availability, pressuring generation costs upward. PLN's grid investment capacity, already a structural theme in this archive at 26 appearances since August 26, depends on its financial headroom.",
+      "secondOrder": "If DMO penalties reduce coal supply to PLN at the same time subsidies are cut, PLN faces a choice between requesting emergency tariff adjustments, reducing generation, or absorbing losses that crowd out capital expenditure. Each outcome directly affects the grid investment pipeline that the 100 GWp solar program depends on for interconnection capacity, creating a compounding effect between the coal and renewable tracks.",
+      "action": "Model PLN's 2027 financial position under three scenarios: subsidy cut with full DMO coal delivery, subsidy cut with 15 percent DMO shortfall, and subsidy cut with 30 percent DMO shortfall. Identify the threshold at which PLN's grid capex budget is materially reduced, and assess which transmission projects in the RUPTL pipeline are first to be deferred.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdnBkbTQ5dV9VaTgtWTY0RU5JdEZvc1kyd0JRTklhQXV3VXQyZWU0V1BIeEZ2dkcxZDVaUC1VQlRsdnlCVmFTMWZOeWs2RFQ0Sm1ybFFlUzRJWG5QOXJVVkozVGdraUhwV2FXTmNYd1pqVXptZ2t1YzNnd0NWUDFJdFNkeXU0cjMtcWtmM25Id2owWGQ2ZVhoWHRyWGF4S0tKM0lCYThhZkNQbEFyOUMwcmpB?oc=5",
+        "https://finance.detik.com/energi/d-8677131/subsidi-energi-2027-dipangkas-rp-11-4-t-jatah-bbm-lpg-3-kg-menyusut"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 27,
+        "firstSeen": "2026-08-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Oracle",
+        "Blue Owl",
+        "Reuters"
+      ],
+      "headline": "Oracle triggers force majeure on data center project over power delivery failure",
+      "whatChanged": "Oracle invoked a force majeure clause on a data center project, citing delays in power delivery from the grid, according to Reuters. A separate Reuters report states the delay on the Oracle and Blue Owl project is sending ripples through AI infrastructure financing, as lenders and equity partners reassess underwriting assumptions for projects where power availability was treated as a given.",
+      "whyItMatters": "This is the first publicly reported instance of a hyperscale operator using a contract force majeure mechanism specifically because grid power was not delivered on schedule. It converts what was previously a theoretical risk in AI infrastructure underwriting into a live contractual and credit event. The pattern this fits is the one already accumulating in this archive: power access, not compute or capital, is the hard constraint on AI data center deployment.",
+      "secondOrder": "Force majeure invocation resets the financing model for the entire asset class. Lenders who priced AI data center debt assuming utility power as a reliable input now face a precedent that grid delay is a recognized project risk, not operator fault. This will push future project finance structures toward requiring either dedicated generation capacity, utility performance bonds, or explicit grid-availability representations from system operators before financial close, adding cost and complexity that smaller developers cannot absorb.",
+      "action": "Any institution financing or evaluating AI data center projects should immediately audit whether existing or pipeline deals include power-availability representations from the utility or grid operator, and whether force majeure clauses allocate grid-delay risk to the borrower, the lender, or the offtaker. Reprice deals accordingly before the Oracle precedent hardens into a market standard.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRGxJcWpfYlZSczJLRGhOQmMxNnU2NXFhUzVDSmwtTlhJRW1CNjd2MTZWOXkwcWdQZzVqNnJSdnBDU0RoWEVFYzIxbVRtNlpwWElaVENIUm9GYXJSOUFIZGJLbFNHb1lydlVWX2ZHb1ZjVXo4MURMT3BfelREVWY2TTljZ0cxRHd6TlZ5eEJhMHgycEN4MjdlbjZISDVzNktvVkQydmx3bVdoOHdmbkpBRUpLX01YMWxwWHgzcWE5ZURnbEZhSGYw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-26",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "RUPTL PLN 2025-2034 revision: monitor for gazetting or official publication of the revised plan, which unlocks the 100 GWp procurement pipeline",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "RUU EBET legislative calendar: track DPR plenary schedule for renewable energy business entity law passage, the second legal prerequisite for 100 GWp execution",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Oracle force majeure resolution: monitor for court filings, settlement disclosure, or utility response that sets a legal precedent on grid-delay liability in AI data center contracts",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Danantara-Thales partnership scope disclosure: watch for announcement of specific projects, technology areas, or capital commitments under the strategic partnership",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Google-OpenAI-Anthropic joint safety group: monitor for formal charter, membership criteria, and whether group outputs are referenced in any national AI regulatory framework",
+      "dueDate": "2027-03-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Skenario Transisi Energi Ambisius Berpotensi Tekan Biaya Energi ASEAN pada 2050",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/skenario-transisi-energi-ambisius-berpotensi-tekan-biaya-energi-asean-pada-2050/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-24T10:42:27.000Z"
+    },
+    {
+      "title": "PV Magazine | Indonesia menargetkan kapasitas tenaga surya sebesar 100 GW pada tahun 2029",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-21T02:52:18.000Z"
+    },
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-24T22:16:32.000Z"
+    },
+    {
+      "title": "Thales dan Danantara Jalin Kemitraan Teknologi Strategis",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGlZSjRHWjJpcnVsVlNvTHJTRzVOcE1qTHVpS3F0RnUxVTZFVXFxT0dlcWpyZjQzcWZ6d3pnQnNJVjV4SWpFM0k2UF9pSnJkdkNXN1BsV09QSzZfWHdWUjkzNmM0eUNhSFE1MFNpaUFDeDlITVFxTFNVelhXT01GYUdoWmZCWGFuTFFRa2VSZm9GWVlhQnlOZnIzck4xSTFnSlpDZ1hBY24?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-24T06:39:10.000Z"
+    },
+    {
+      "title": "Sanksi DMO Berisiko Perberat Pemenuhan Pasokan Batu Bara PLN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdnBkbTQ5dV9VaTgtWTY0RU5JdEZvc1kyd0JRTklhQXV3VXQyZWU0V1BIeEZ2dkcxZDVaUC1VQlRsdnlCVmFTMWZOeWs2RFQ0Sm1ybFFlUzRJWG5QOXJVVkozVGdraUhwV2FXTmNYd1pqVXptZ2t1YzNnd0NWUDFJdFNkeXU0cjMtcWtmM25Id2owWGQ2ZVhoWHRyWGF4S0tKM0lCYThhZkNQbEFyOUMwcmpB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-24T05:00:00.000Z"
+    },
+    {
+      "title": "Oracle triggers 'force majeure' on data center project over power delays, source says",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-24T23:00:36.000Z"
+    },
+    {
+      "title": "Google, OpenAI and Anthropic AI Safety Group Takes Shape",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmgyX1dTWG0yMEZFb2RRTmNReFM1aVFxa3Vid2hqWmMzU1hQQTNBR0p3MXlJWWZadUEtZHpvWUtiUnluMHRkNHNsZjViU1Y2MUZKdExNdjg0cDlIbFltWEc5bHdySEMyakJvQUhfSTFGSXQ2Wk1EaVJIOTNCRWNZZzhhZUJ2SEdlM2luUmh2ekxhRlBjMkE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-24T13:00:00.000Z"
+    },
+    {
+      "title": "Pengusaha Dorong Danantara Jadi Agregator Kawasan Tekstil Terintegrasi - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNnRhVk95NXlfSXlYd2NJZFJXVVBMTzluUzRjclNHcTVyZy1UWWdFck9EaUVUSzRxVHdUZDJWSUdLYlJQNFN3YWRTOWlIeHV3eHBqeWdkT3pYOG1jX0RMcUFfcER3eWJTMXZ1bWFQQVltS1E3V0Z3YXVSVXRBMHc1X2JwM2c1Rm90blpSYUVWMDBudUh0ZS1XSno2Z0E2bkxYRlAzbzJiQTRNWGJoeDFaMlR1emJaMkVwR3VDTnREUm8?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-24T10:45:00.000Z"
+    },
+    {
+      "title": "Pemerintah masih lakukan revisi RUPTL PLN untuk PLTS 100 GWp",
+      "publisher": "ANTARA News Sumbar",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ3dWaGdKY0ZRZm5QR3pPX3FCaHBmZVlvaWxFNEtNS2FOMkh3eVVJckZDLWRNVWs3bmc2NnFGaWFaMGxhcmdtbFhYYTZCdDlfMkxHZGJxbW5RUFVlMGljd0VfcG1OYU1mQzdpREJLV1VDRFhnZmZSMnhVZFVtVGZudElRek9uUUt1VjhDZ3c0NWF1dU5xYzNGZll3M1VrME9MWXNaVENYaw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T21:09:47.000Z"
+    },
+    {
+      "title": "Waka MPR Tekankan Pentingnya Percepat Realisasi Program PLTS 100 GW RI",
+      "publisher": "detikNews",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQnBEZzl2cGVKbjNxOWpVTFBDckQ4UUg5a3ZOdzNSQ3ZFQUw5S3F6Q01ERDhRWk1sLUFiZTNXNkZVTUMwSmdxbWFTZ19KX3Z6cXlaMGJWcW5TTHViM3RoSkNsSlBTalpGWEMxOTI2MHY0YmlrcWQ5UmowRlNDYTFfWW9KNlVrWFB5TWU2ejR1TFJVaF9veDk0eG9LOTlGRUIwN3FqWmt1NlpWMmlXZUJ30gG0AUFVX3lxTE9JOUQ3MjNEUkVXVEJkOFZBbGdINzlVSmxqRE1wOGVDYnlIaHMzSEhUSktzdHdibjJ0SHJNYWRaNi1zbndfQzNLR05yZTZlSXJsZW5sQUdoT1UxX2JDSEFpdUY5VlIwdkpJV1pheDZSLUdFTkVRSVQySjZJTUI5ODdsVzhWdVBrWVlyZTJ2R0FRSTlxdjBLVnd6TURReEVIaUtSZzVUUS01VmllQzIzcm9WTzVwaQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-24T13:57:49.000Z"
+    },
+    {
+      "title": "Oracle, Blue Owl project delay sends ripples through AI financing, sources say",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRGxJcWpfYlZSczJLRGhOQmMxNnU2NXFhUzVDSmwtTlhJRW1CNjd2MTZWOXkwcWdQZzVqNnJSdnBDU0RoWEVFYzIxbVRtNlpwWElaVENIUm9GYXJSOUFIZGJLbFNHb1lydlVWX2ZHb1ZjVXo4MURMT3BfelREVWY2TTljZ0cxRHd6TlZ5eEJhMHgycEN4MjdlbjZISDVzNktvVkQydmx3bVdoOHdmbkpBRUpLX01YMWxwWHgzcWE5ZURnbEZhSGYw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-24T22:59:51.000Z"
+    },
+    {
+      "title": "Ternyata! Ini Isi Pertemuan DPR, Menkeu, BI, OJK & Danantara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPd1EtZDA1REJWek8xQnFCQWVTck5NMHpZdEp4SGRaMkhoYlIwWTZVbHI1Y2NSTHJHWC1RVnZrcnI1eDBob1ZnNjh0LW9TMk5HWktvTjczai1sOC1JVFFnY3R6Y3pWODRLMnh2cVJWREtxREtNSlNwRnZ4NTlNMGVwUTdxNFhRTV9WVkdsYTJteGV6Mm1DMWpIY0Y4QzV2OG9JSm5qZ0twSld1cFJIaDlvSGM5NXRMeTTSAbwBQVVfeXFMTUpsb1hoaUxJMUpkUkMyUUw3bHZxalFHcDhTSlh4M3RTZDlreTZXWXZibjgzV1pEck9oRXRpQ2ZqQURJenlZSWFLU1dJWjNieTk0NFlUZ3FyT0hWSmxyaGhnOFVHc0hzUV9LUnVNNU1YbVlqdkdXdnNvejRPN3c4TkpEdHFJTG45Z3ZNREc4dExHZ2l5c2t2VHNXRThmZkdrRXBydHJhdGJkTGxvWjVNWUhGUm4tM3ZoeDRWemo?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-24T09:45:37.000Z"
+    },
+    {
+      "title": "Target PLTS 100 GWp, Pengamat Minta RUPTL PLN 2025-2034 Perlu Direvisi",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYzRXX1MzajA3WGNCOGNCYm81WVpjeTg2MTVhQ3RIbnJyQlpZVm12SUZvSFB3YTU4Y2Y3TmRxZkxGaVVZYXh3aGkyMmZic0tHMlJOekw5NlpUVWt4NnZHTFpoZjVOVUNZUzUtazBuUDVzbVE3WUFpWmtQWjZlZ21WOHptRHNpR3FPWDQ5RDNJZ2E5N0puTklDWXBIZXJyeDRzUFU1aGdHMNIBoAFBVV95cUxON19RNHdCREZOcmFuQWhQU253clpnTlFCTEtlVHpxcEFibVZSb1MtdFA3NVpGYTJCTXg3ZVlEV0ktMm9tV25rZUxZZDVBQmkwZmdIdzNncG4wVFV5YUkzQTdtUXlHV2FqUVJqVEtlXzF1LVJidzJiMWhMZnQyWFZQczFkRzVGXy1hamgtdVhKcmM2SjFJbjdlNDNTY1kzQk8y?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T09:04:03.000Z"
+    },
+    {
+      "title": "Dasco Temui Menkeu, BI, OJK, Danantara di DPR, Ini yang Dibahas",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzRnNHp2Q1ZEcTZ2WjduZWp4RkQyMHVmeGxKOTdDMVMtOTk4enBDVVJSNUt1MW01TTVxNUszc0NZZDJmQTc3bmRmcmpfSTFJWU9qR2NtYUdNSDdZQ1BLR1BYMjRod29Zek1tZzJqNnQyeXltVHlnd3FBTWswZmNLX1VpTVZSYWRndWpWTGtJdjdXZldaMGNycTY5cTJINzZmNWhfVXA1NnZCWDEzTEoxTg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-24T08:40:00.000Z"
+    },
+    {
+      "title": "Subsidi Energi 2027 Dipangkas Rp 11,4 T, Jatah BBM-LPG 3 Kg Menyusut",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8677131/subsidi-energi-2027-dipangkas-rp-11-4-t-jatah-bbm-lpg-3-kg-menyusut",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-24T06:41:16.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "El Niño pangkas 650 MW PLTA Sulawesi Selatan; PLN beralih ke PLTS dan BESS",
+      "occurrences": 26,
+      "firstSeen": "2026-08-26",
+      "lastSeen": "2026-09-23",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara diminta bantu LRT Jakarta; Mendiktisaintek bahas PTN gratis dengan Danantara",
+      "occurrences": 25,
+      "firstSeen": "2026-08-26",
+      "lastSeen": "2026-09-24",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Google DeepMind perkenalkan memori server-side privat untuk Private AI Compute",
+      "occurrences": 23,
+      "firstSeen": "2026-08-29",
+      "lastSeen": "2026-09-24",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Italy's parliament votes to re-enter nuclear energy, 37 years after its 1987 referendum ban",
+      "occurrences": 20,
+      "firstSeen": "2026-08-26",
+      "lastSeen": "2026-09-24",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Revisi RUPTL dan RUU EBET belum selesai, memblokir target 100 GWp PLTS Indonesia",
+      "occurrences": 19,
+      "firstSeen": "2026-08-26",
+      "lastSeen": "2026-09-24",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 380,
+    "poolSize": 110,
+    "generatedAt": "2026-09-24T23:48:40.375Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
