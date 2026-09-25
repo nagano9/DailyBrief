@@ -1,0 +1,321 @@
+{
+  "slug": "2026-09-26",
+  "date": "2026-09-26",
+  "lang": "en",
+  "title": "Anthropic Bio Discovery, GPU Collateral Finance, and Indonesia's Stalled RUPTL",
+  "dek": "Three structural shifts converge today: AI moving into wet-lab science, data-center debt markets adopting novel collateral, and Indonesia's 100 GW solar target blocked by a revision process with no end date.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "Anthropic's biology lab has produced a reported novel enzyme discovery using Claude, confirming that frontier AI is now generating scientific outputs rather than merely accelerating literature review. Separately, Nikkei Asia reports that AI data centers are being financed against GPU collateral, a structural change in how compute infrastructure is underwritten that connects to the nuclear-ai-datacenter-power thread. In Indonesia, the RUPTL revision for 100 GW solar remains incomplete as of 22 September, while PLN simultaneously targets 60 million tonnes of biomass as a bridging fuel, revealing a planning gap between capacity targets and grid readiness. Danantara has signed a strategic technology partnership with Thales, the first named technology firm to formalize ties with the sovereign investment vehicle, extending the danantara-bumn-karya-restructuring thread into technology procurement. Anthropic's internal measurements framework for frontier model development pace, published 25 September, adds a new observable instrument for tracking AI capability acceleration that safety and regulatory teams can act on now.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic"
+      ],
+      "headline": "Anthropic publishes internal measurement framework for tracking frontier AI development pace",
+      "whatChanged": "Anthropic published on 25 September 2026 a framework titled 'Measurements for understanding the pace of AI development inside frontier labs,' making its internal methodology for tracking capability acceleration available as a primary document.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread. Publishing a measurement framework is a structural act: it creates an externally observable instrument that regulators, auditors, and competitors can reference when assessing whether a lab is accelerating within or outside safety commitments. It also implicitly sets a precedent for what responsible self-disclosure looks like, which other frontier labs will be compared against.",
+      "secondOrder": "The existence of a published measurement framework gives regulators a concrete artefact to mandate as a compliance baseline, shortening the distance between voluntary disclosure and regulatory requirement. Labs that have not published equivalent frameworks are now comparatively exposed, which is likely to trigger defensive publication from competitors or regulatory requests for equivalent data.",
+      "action": "Review the Anthropic framework this week to identify which metrics it tracks and which it omits; gaps in the framework are as informative as its content for assessing what the lab considers outside scope for disclosure.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 17,
+        "firstSeen": "2026-09-03",
+        "spanDays": 23
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Reuters"
+      ],
+      "headline": "Anthropic's biology lab reports novel enzyme discovery using Claude, marking a shift from tool to scientific agent",
+      "whatChanged": "Anthropic stated, with Reuters corroboration on 23 September 2026, that Claude assisted in discovering a novel enzyme system inside Anthropic's biology lab, described as a significant finding.",
+      "whyItMatters": "This is the first publicly reported case of a frontier lab's own model generating a claimed scientific discovery within an in-house wet-lab setting, rather than accelerating analysis of existing literature. It shifts Claude's role from a reasoning assistant to a scientific agent operating inside an experimental loop.",
+      "secondOrder": "If the discovery withstands peer scrutiny, it will accelerate enterprise and institutional investment in AI-integrated research pipelines, because the value proposition moves from cost reduction to net-new discovery generation. This raises the competitive barrier for pharmaceutical and biotech firms that have not yet integrated frontier models into laboratory workflows, and it positions Anthropic as a scientific-output generator rather than only an API provider.",
+      "action": "Identify whether any portfolio companies or partners in pharma, materials science, or industrial chemistry have active evaluations of frontier AI in laboratory settings; the Anthropic announcement is a concrete reference case to use in accelerating those evaluations.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 17,
+        "firstSeen": "2026-09-03",
+        "spanDays": 23
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Arup"
+      ],
+      "headline": "Indonesia RUPTL revision still incomplete as PLN targets 60 million tonnes biomass, exposing 100 GW solar gap",
+      "whatChanged": "As of 22 September 2026, the government confirmed the RUPTL revision incorporating the 100 GWp solar target remains unfinished. Simultaneously, PLN disclosed on 25 September a target to source 60 million tonnes of biomass annually as a transitional fuel, and Arup told ANTARA that solar plants can be built in one to three years once permitting is resolved.",
+      "whyItMatters": "This continues the pln-grid-investment thread, now structural. The RUPTL revision is the legal instrument that authorizes procurement; without it, IPP contracts, financing, and grid interconnection planning cannot proceed. PLN's biomass target signals that the utility is actively planning for a scenario in which the solar ramp is delayed, using biomass co-firing as a bridge fuel at scale.",
+      "secondOrder": "A 60-million-tonne biomass procurement program of that scale would require dedicated supply chains, port infrastructure, and forestry or agricultural land allocation that do not currently exist in Indonesia at that volume. If PLN pursues this seriously, it creates a competing land-use and logistics demand that could crowd out the agricultural and forestry sector, and it exposes PLN to international sustainability certification risk on biomass sourcing.",
+      "action": "Track the RUPTL revision publication date as the single rate-limiting variable for Indonesia's renewable energy investment pipeline; until it is published, treat any solar project announcement as contingent rather than committed.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTk5pa295WW5xb2lXNlppamd2R1g0NFB1bXM1Mi1xUHZPMDZMOTRrMTJzclNxOWN3Q0txWlZaNjVpYUppU0o4R0tEd1JkZExCSXh4WnNhY0xjdVBfZGgzS3FlMkdVRW1tUXN4SV9leWpBTEpfT3J6VF9sc2Zja3B3OVFsemZSNGFzcGJ3UC10Z3M3OGJrMlctUF9iQnAwNEo1Z3hwatIBpwFBVV95cUxPdzlERWlXMFBWcWpMVzJBR2hwQ1poc3hXa3dMWFdNSzhIU1NKcHVRbHhRcXBad1FCcGlFYnBkRkNWUU8xOEtaamRsalZ4YzhOOHY3eVEtOTZSSElrVDFnOEpQeFRJYnpRSlRuU0t5VHVfMVJYZkIyb0JqM0ZwNkFpazFydm9JQTdXclR6V04wSkJ4allmQ2U4bU5vS0JNVEJsZUhobWdNQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfR1J4QlJlWWIzRkM1cWlBRjhmRnVTYldpTGlJTTFuUmoxZ2ptWS1IVHE4X2tuT1dYTmphLVF5dmgyYXZIM25NNGwyVXRKQ01fZmNTQVEwWVZTcWNsTFdyUUJYTjFWWjRVUEVyRFQ2RmhXOHVnWTVn?oc=5",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxONHJaZHVPc1AycjRXMlRhVkdfUkFlNUFva3R5UTRoX0dGYU9GVWNLdlBfbGI4cWE2emFzOEJpTHpaQ2E3RDlFaFM1VW1Ic2hfSlRKVS1ENF8ybENVS1RZU2JMWVR3cXRiT0ttMkZkSHpNZFMwbnY2ZUM5U01zaTJoa1NnUHlvbDhDVEMyZmRfOWFvMDFtMGlOZGhXaG14OW1iQTBIY9IBpwFBVV95cUxQZjhDSFJZQmlEbEQ2U3NsOUJlUXBTVjF2cDQtZ3BrLU9Nc21xNFgzcDBCUjdZVml4SGZ4NG9oOVNCWnlKV0sxZlZLNHpHb0Jvc0VkRUl5UHBhb3dpX2hVYzNRdHJ0M25lSmZwWDlIOGRTQVl6cUZ0MWM1cmoxMTFub3dLUTJ4Y0dmZ0ZYSDJfZ1RKSURMUmlKSkwyY0NjUi02bTY3QUVwYw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 27,
+        "firstSeen": "2026-08-27",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara Indonesia",
+        "Thales"
+      ],
+      "headline": "Danantara formalizes strategic technology partnership with Thales, its first named technology-sector alliance",
+      "whatChanged": "Danantara Indonesia published on 24 September 2026 that it has signed a strategic technology partnership with Thales, the French defense and aerospace technology group.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread. Previous reporting on Danantara focused on BUMN Karya consolidation and financial restructuring; the Thales partnership is the first named technology-sector alliance published by Danantara directly. It indicates the vehicle is moving from passive asset consolidation toward active technology procurement and co-investment, consistent with the DTIIF 2026 forum positioning.",
+      "secondOrder": "A partnership with a defense and dual-use technology firm such as Thales positions Danantara in sectors with export-control and security-clearance implications. If Danantara proceeds to co-invest in defense-adjacent technology through Thales, it will need to manage foreign investment screening risk in third countries and may complicate Danantara's ability to attract US or Five Eyes-aligned capital co-investors in future rounds.",
+      "action": "Determine the scope of the Thales partnership: whether it covers defense electronics, civil aviation, cybersecurity, or digital infrastructure, because each carries distinct regulatory and co-investment implications for institutional partners evaluating Danantara exposure.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGlZSjRHWjJpcnVsVlNvTHJTRzVOcE1qTHVpS3F0RnUxVTZFVXFxT0dlcWpyZjQzcWZ6d3pnQnNJVjV4SWpFM0k2UF9pSnJkdkNXN1BsV09QSzZfWHdWUjkzNmM0eUNhSFE1MFNpaUFDeDlITVFxTFNVelhXT01GYUdoWmZCWGFuTFFRa2VSZm9GWVlhQnlOZnIzck4xSTFnSlpDZ1hBY24?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-27",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Nikkei Asia"
+      ],
+      "headline": "AI data centers now financed against GPU collateral, restructuring infrastructure credit analysis",
+      "whatChanged": "Nikkei Asia reported on 25 September 2026 that AI data center projects are being structured with GPU assets as collateral, representing a novel financing mechanism distinct from traditional real-estate or utility-backed infrastructure debt.",
+      "whyItMatters": "Data center finance is migrating from asset-backed lending against land and buildings toward equipment-backed lending against depreciating compute hardware. This continues the nuclear-ai-datacenter-power thread, which has tracked how power-delivery risk and financing structures are co-evolving with AI build-out. GPU collateral introduces rapid depreciation and technology-obsolescence risk into what lenders previously treated as long-duration infrastructure.",
+      "secondOrder": "If GPU collateral becomes a standard credit instrument, lenders will need to price hardware depreciation cycles, model-generation refresh rates, and vendor concentration risk as credit variables. This makes AI infrastructure underwriting resemble semiconductor leasing more than project finance, which will push interest costs higher and shorten debt tenors, squeezing the economics of data center operators who assumed 15-to-20-year infrastructure returns.",
+      "action": "Map any data center investment or offtake exposure against the collateral structure: determine whether debt is backed by real property, power contracts, or compute hardware, because the risk profile and refinancing timeline differ materially across the three.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSG9MbFVkZER3ZE92cjU0MmJESDFFSUxOWHRab3dnRUZVUVVkSGhibEtsYmNSWFVTNE5JLURNYnFpSWlkM1loSDFaTUg3Yy00OFMwengxUFRaS1NEMnoyYWV5dnl1QllkV2g3a0JxbjFubzQxQTFOM3RTT1AwU0JncmdWeFFjT2dWUy1zZTVSQ256anFjQzU0NWJYX3d3R3lyQzl4bVlxVklWbXlLemtnOURReUUtdVlkdEwxSjRlUGQwZl9ZRUtNUjFobTRMX00zUnNIWTlVaTA0dw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-08-27",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Indonesia RUPTL revision publication: the legal unlock for 100 GW solar procurement, IPP contracting, and grid investment authorization",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Anthropic enzyme discovery peer review or pre-print publication: determines whether the Claude biology-lab claim is replicable and how fast institutional science adopts AI-integrated lab pipelines",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "GPU-collateral data center financing terms disclosure: watch for loan-to-value ratios, tenor, and lender identity to assess whether this is a broad market shift or isolated deal structuring",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Danantara-Thales partnership scope announcement: civil versus defense technology designation will determine regulatory and co-investor risk",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Anthropic measurements framework regulatory uptake: watch for EU AI Office, UK DSIT, or US AISI referencing the framework in compliance guidance",
+      "dueDate": "2027-03-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-25T19:25:19.000Z"
+    },
+    {
+      "title": "Thales dan Danantara Jalin Kemitraan Teknologi Strategis",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGlZSjRHWjJpcnVsVlNvTHJTRzVOcE1qTHVpS3F0RnUxVTZFVXFxT0dlcWpyZjQzcWZ6d3pnQnNJVjV4SWpFM0k2UF9pSnJkdkNXN1BsV09QSzZfWHdWUjkzNmM0eUNhSFE1MFNpaUFDeDlITVFxTFNVelhXT01GYUdoWmZCWGFuTFFRa2VSZm9GWVlhQnlOZnIzck4xSTFnSlpDZ1hBY24?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-24T06:39:10.000Z"
+    },
+    {
+      "title": "PLN Incar 60 Juta Ton Biomassa Jadi Sumber Energi",
+      "publisher": "Tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfR1J4QlJlWWIzRkM1cWlBRjhmRnVTYldpTGlJTTFuUmoxZ2ptWS1IVHE4X2tuT1dYTmphLVF5dmgyYXZIM25NNGwyVXRKQ01fZmNTQVEwWVZTcWNsTFdyUUJYTjFWWjRVUEVyRFQ2RmhXOHVnWTVn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-25T11:28:00.000Z"
+    },
+    {
+      "title": "AI data centers increasingly built on GPU collateral, other novel financing",
+      "publisher": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSG9MbFVkZER3ZE92cjU0MmJESDFFSUxOWHRab3dnRUZVUVVkSGhibEtsYmNSWFVTNE5JLURNYnFpSWlkM1loSDFaTUg3Yy00OFMwengxUFRaS1NEMnoyYWV5dnl1QllkV2g3a0JxbjFubzQxQTFOM3RTT1AwU0JncmdWeFFjT2dWUy1zZTVSQ256anFjQzU0NWJYX3d3R3lyQzl4bVlxVklWbXlLemtnOURReUUtdVlkdEwxSjRlUGQwZl9ZRUtNUjFobTRMX00zUnNIWTlVaTA0dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-25T12:25:00.000Z"
+    },
+    {
+      "title": "Arup: PLTS bisa dibangun 1-3 tahun untuk dukung target 100 GW",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONHJaZHVPc1AycjRXMlRhVkdfUkFlNUFva3R5UTRoX0dGYU9GVWNLdlBfbGI4cWE2emFzOEJpTHpaQ2E3RDlFaFM1VW1Ic2hfSlRKVS1ENF8ybENVS1RZU2JMWVR3cXRiT0ttMkZkSHpNZFMwbnY2ZUM5U01zaTJoa1NnUHlvbDhDVEMyZmRfOWFvMDFtMGlOZGhXaG14OW1iQTBIY9IBpwFBVV95cUxQZjhDSFJZQmlEbEQ2U3NsOUJlUXBTVjF2cDQtZ3BrLU9Nc21xNFgzcDBCUjdZVml4SGZ4NG9oOVNCWnlKV0sxZlZLNHpHb0Jvc0VkRUl5UHBhb3dpX2hVYzNRdHJ0M25lSmZwWDlIOGRTQVl6cUZ0MWM1cmoxMTFub3dLUTJ4Y0dmZ0ZYSDJfZ1RKSURMUmlKSkwyY0NjUi02bTY3QUVwYw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-25T11:32:17.000Z"
+    },
+    {
+      "title": "Anthropic says its biology lab has already found something big",
+      "publisher": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T22:17:39.000Z"
+    },
+    {
+      "title": "Pemerintah masih lakukan revisi RUPTL PLN untuk PLTS 100 GWp",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTk5pa295WW5xb2lXNlppamd2R1g0NFB1bXM1Mi1xUHZPMDZMOTRrMTJzclNxOWN3Q0txWlZaNjVpYUppU0o4R0tEd1JkZExCSXh4WnNhY0xjdVBfZGgzS3FlMkdVRW1tUXN4SV9leWpBTEpfT3J6VF9sc2Zja3B3OVFsemZSNGFzcGJ3UC10Z3M3OGJrMlctUF9iQnAwNEo1Z3hwatIBpwFBVV95cUxPdzlERWlXMFBWcWpMVzJBR2hwQ1poc3hXa3dMWFdNSzhIU1NKcHVRbHhRcXBad1FCcGlFYnBkRkNWUU8xOEtaamRsalZ4YzhOOHY3eVEtOTZSSElrVDFnOEpQeFRJYnpRSlRuU0t5VHVfMVJYZkIyb0JqM0ZwNkFpazFydm9JQTdXclR6V04wSkJ4allmQ2U4bU5vS0JNVEJsZUhobWdNQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-22T12:10:53.000Z"
+    },
+    {
+      "title": "Anthropic says Claude AI helped discover novel enzyme system",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T21:12:38.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Indonesia energy subsidy for 2027 cut by Rp 11.4 trillion as DMO coal penalty risks tightening PLN supply",
+      "occurrences": 26,
+      "firstSeen": "2026-08-27",
+      "lastSeen": "2026-09-25",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "DPR pertemukan Menkeu, BI, OJK, dan Danantara; subsidi energi 2027 dipangkas Rp 11,4 T",
+      "occurrences": 25,
+      "firstSeen": "2026-08-27",
+      "lastSeen": "2026-09-25",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Google DeepMind perkenalkan memori server-side privat untuk Private AI Compute",
+      "occurrences": 23,
+      "firstSeen": "2026-08-29",
+      "lastSeen": "2026-09-24",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Oracle picu force majeure pada proyek pusat data AI akibat penundaan listrik, riak ke pembiayaan AI",
+      "occurrences": 20,
+      "firstSeen": "2026-08-27",
+      "lastSeen": "2026-09-25",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Revisi RUPTL PLN belum selesai, sanksi DMO ancam pasokan batu bara PLN secara bersamaan",
+      "occurrences": 19,
+      "firstSeen": "2026-08-27",
+      "lastSeen": "2026-09-25",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 369,
+    "poolSize": 110,
+    "generatedAt": "2026-09-25T23:23:55.908Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
