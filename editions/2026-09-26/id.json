@@ -2,35 +2,39 @@
   "slug": "2026-09-26",
   "date": "2026-09-26",
   "lang": "id",
-  "title": "Anthropic Ukur Laju Frontier, Danantara-Thales, dan Risiko Data Center Indonesia",
-  "dek": "Tiga sinyal bersamaan mempertemukan pengukuran kapasitas AI frontier, pembiayaan data center berbasis GPU collateral, dan kemitraan teknologi Danantara dengan momen ketika Indonesia belum menyelesaikan RUPTL-nya.",
+  "title": "Claude Temukan Enzim Baru; Danantara-Thales; Revisi RUPTL Masih Tertunda",
+  "dek": "Tiga domain bergerak bersamaan: AI frontier melampaui benchmark menuju penemuan ilmiah nyata, kemitraan teknologi Danantara membentuk pola baru, dan hambatan struktural RUPTL mengancam target 100 GW surya Indonesia.",
   "domains": [
     "ai",
     "corporate",
     "energy"
   ],
-  "summary": "Anthropic menerbitkan kerangka pengukuran laju pengembangan model frontier yang dapat diaudit secara eksternal, memperkuat tekanan regulasi pada lab AI global. Bersamaan, pembiayaan data center berbasis GPU collateral yang dilaporkan Nikkei Asia mengubah struktur risiko infrastruktur AI dari belanja modal teknologi menjadi project finance. Di Indonesia, Danantara menandatangani kemitraan teknologi strategis dengan Thales tepat ketika Kontan melaporkan risiko krisis air dan listrik dari ekspansi data center domestik. Sementara itu, revisi RUPTL PLN untuk target 100 GWp PLTS masih belum rampung, menciptakan ketidakpastian pasokan listrik yang langsung memengaruhi kelayakan proyek data center skala besar. Kelima sinyal ini menunjukkan bahwa kesenjangan antara ambisi digital dan kapasitas infrastruktur energi Indonesia semakin membutuhkan keputusan eksplisit.",
+  "summary": "Anthropic mengonfirmasi Claude membantu menemukan sistem enzim baru, menandai AI frontier yang melampaui penguatan produktivitas ke penemuan ilmiah orisinal. Bersamaan, Nikkei Asia melaporkan pusat data AI kini dibiayai dengan agunan GPU, mengubah struktur risiko proyek infrastruktur digital. Di sisi korporasi, Danantara menandatangani kemitraan teknologi strategis dengan Thales, melanjutkan pola akumulasi kemitraan internasional pasca-restrukturisasi BUMN. Pada domain energi, revisi RUPTL PLN belum selesai per 22 September 2026 sementara target 100 GW PLTS 2029 tetap dipertahankan pemerintah, dan analisis The Conversation menegaskan bahwa ambisi tersebut tidak dapat terlaksana tanpa perombakan kontrak batu bara yang masih mengikat. PLN secara terpisah menargetkan 60 juta ton biomassa sebagai sumber energi, sinyal diversifikasi bahan bakar yang melampaui kapasitas pasokan domestik yang ada.",
   "signals": [
     {
       "rank": 1,
       "domain": "ai",
       "themeKey": "ai-model-safety-frontier",
       "entities": [
-        "Anthropic"
+        "Anthropic",
+        "Claude",
+        "Reuters",
+        "TechCrunch"
       ],
-      "headline": "Anthropic terbitkan kerangka pengukuran laju pengembangan model frontier yang dapat diaudit eksternal",
-      "whatChanged": "Anthropic menerbitkan dokumen 'Measurements for understanding the pace of AI development inside frontier labs' pada 25 September 2026. Dokumen ini menawarkan metodologi konkret untuk mengukur kecepatan kemajuan kapabilitas di dalam laboratorium frontier, dirancang agar pihak eksternal, termasuk regulator, dapat memverifikasinya.",
-      "whyItMatters": "Ini melanjutkan tema ai-model-safety-frontier yang telah tercatat 16 kali sejak 3 September 2026. Akumulasinya menunjukkan pola: Anthropic secara konsisten membangun infrastruktur transparansi yang dapat dijadikan standar industri atau acuan regulasi. Publikasi kerangka pengukuran ini menggeser perdebatan dari 'apakah AI aman' ke 'bagaimana kita tahu seberapa cepat AI berkembang', pertanyaan yang jauh lebih dapat ditindaklanjuti oleh pembuat kebijakan.",
-      "secondOrder": "Bila kerangka ini diadopsi oleh regulator di Uni Eropa atau Amerika Serikat sebagai standar pelaporan wajib, lab AI yang tidak memiliki sistem pengukuran internal yang setara akan menghadapi hambatan kepatuhan yang signifikan. Perusahaan yang sudah menggunakan model dari lab tanpa infrastruktur transparansi serupa perlu mengevaluasi risiko kepatuhan jangka menengah mereka.",
-      "action": "Tim kebijakan dan kepatuhan: baca dokumen Anthropic ini minggu ini dan petakan apakah vendor model AI yang digunakan organisasi Anda memiliki mekanisme pengukuran setara. Siapkan pertanyaan spesifik untuk vendor sebelum kontrak berikutnya diperbarui.",
+      "headline": "Claude bantu temukan sistem enzim baru, Anthropic umumkan hasil lab biologi",
+      "whatChanged": "Anthropic mengonfirmasi bahwa Claude, melalui lab biologi internalnya, telah membantu mengidentifikasi sistem enzim baru yang belum pernah dideskripsikan sebelumnya. Reuters melaporkan pengumuman ini pada 23 September 2026, dan TechCrunch mengonfirmasi bahwa Anthropic menyebut temuan itu sebagai 'something big'.",
+      "whyItMatters": "Ini melanjutkan tema ai-model-safety-frontier dengan dimensi baru: model frontier tidak lagi hanya mempercepat pekerjaan manusia, melainkan menghasilkan penemuan ilmiah yang berdiri sendiri. Implikasi akumulatifnya adalah bahwa tolok ukur kemampuan AI perlu memasukkan kontribusi saintifik terverifikasi, bukan hanya skor benchmark standar.",
+      "secondOrder": "Jika penemuan enzim ini dapat direplikasi dan dipublikasikan dalam jurnal peer-reviewed, lembaga penelitian dan farmasi akan menghadapi tekanan untuk mengintegrasikan model AI ke dalam pipeline riset inti, bukan hanya sebagai alat bantu literatur. Ini akan memindahkan anggaran riset dari tenaga manusia ke biaya komputasi, dan memunculkan pertanyaan baru tentang kepemilikan intelektual atas penemuan yang dihasilkan sebagian oleh sistem AI.",
+      "action": "Tinjau apakah pipeline riset sains-kehidupan yang relevan sudah memasukkan skenario di mana AI bertindak sebagai ko-penemu, bukan asisten. Periksa klausul kepemilikan IP dalam kontrak kolaborasi riset yang melibatkan alat AI generatif.",
       "strength": "material",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5"
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 1,
-        "hasPrimary": true
+        "publishers": 2,
+        "hasPrimary": false
       },
       "trend": {
         "themeKey": "ai-model-safety-frontier",
@@ -42,26 +46,86 @@
     },
     {
       "rank": 2,
-      "domain": "ai",
-      "themeKey": "nuclear-ai-datacenter-power",
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "Nikkei Asia",
-        "NeutraDC",
-        "PLN"
+        "Danantara Indonesia",
+        "Thales"
       ],
-      "headline": "Nikkei Asia: data center AI kini dibiayai dengan GPU sebagai agunan, mengubah struktur risiko infrastruktur",
-      "whatChanged": "Nikkei Asia melaporkan pada 25 September 2026 bahwa data center AI semakin banyak dibangun menggunakan GPU sebagai agunan pinjaman dan skema pembiayaan novel lainnya, menggeser model pembiayaan dari belanja modal teknologi murni.",
-      "whyItMatters": "Ini melanjutkan tema nuclear-ai-datacenter-power. Pembiayaan berbasis GPU collateral menciptakan eksposur baru: nilai agunan terikat pada harga GPU di pasar sekunder, yang berfluktuasi dengan siklus model AI. Bila generasi GPU berikutnya membuat GPU lama kehilangan nilai cepat, portofolio pinjaman yang dijamin GPU dapat mengalami tekanan valuasi serentak.",
-      "secondOrder": "Lembaga keuangan yang membiayai data center dengan struktur ini perlu memiliki metodologi penilaian GPU yang terus diperbarui, serupa dengan penilaian aset dalam project finance energi. Di Indonesia, bank yang mulai membiayai ekspansi data center seperti yang dilaporkan dalam kemitraan NeutraDC-PLN perlu meninjau apakah eksposur mereka sudah menggunakan struktur sponsor-offtaker-EPC atau masih menggunakan pendekatan pinjaman korporasi biasa.",
-      "action": "Divisi kredit atau manajemen risiko: identifikasi seluruh eksposur pembiayaan data center dalam portofolio. Tanyakan kepada peminjam apakah struktur pembiayaan mereka menggunakan GPU collateral, dan minta laporan valuasi aset yang diperbarui setiap kuartal.",
+      "headline": "Danantara dan Thales tanda tangani kemitraan teknologi strategis",
+      "whatChanged": "Danantara Indonesia mengumumkan secara resmi pada 24 September 2026 bahwa Thales dan Danantara telah menjalin kemitraan teknologi strategis, tanpa merinci nilai kontrak atau lingkup proyek spesifik dalam judul pengumuman.",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring: Danantara secara konsisten membangun portofolio kemitraan teknologi internasional, dari forum DTIIF hingga kemitraan bilateral seperti dengan Thales. Thales adalah konglomerat teknologi pertahanan dan digital Prancis, sehingga kemitraan ini menyentuh domain keamanan siber, avionik, atau infrastruktur kritis, bukan sekadar investasi portofolio biasa.",
+      "secondOrder": "Pola kemitraan teknologi pertahanan-digital yang melibatkan kendaraan investasi negara seperti Danantara akan menarik perhatian regulasi dari sisi transfer teknologi dan keamanan nasional, baik dari Indonesia maupun dari otoritas ekspor Prancis dan Uni Eropa. Jika lingkup mencakup teknologi dual-use, proses persetujuan bisa memperlambat implementasi dan membuka celah renegosiasi.",
+      "action": "Cari konfirmasi lingkup teknis kemitraan Thales-Danantara: apakah mencakup pertahanan, infrastruktur kritis digital, atau teknologi sipil murni. Perbedaan ini menentukan jalur regulasi yang akan dilalui dan risiko eksekusi yang relevan.",
       "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSG9MbFVkZER3ZE92cjU0MmJESDFFSUxOWHRab3dnRUZVUVVkSGhibEtsYmNSWFVTNE5JLURNYnFpSWlkM1loSDFaTUg3Yy00OFMwengxUFRaS1NEMnoyYWV5dnl1QllkV2g3a0JxbjFubzQxQTFOM3RTT1AwU0JncmdWeFFjT2dWUy1zZTVSQ256anFjQzU0NWJYX3d3R3lyQzl4bVlxVklWbXlLemtnOURReUUtdVlkdEwxSjRlUGQwZl9ZRUtNUjFobTRMX00zUnNIWTlVaTA0dw?oc=5",
-        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGlZSjRHWjJpcnVsVlNvTHJTRzVOcE1qTHVpS3F0RnUxVTZFVXFxT0dlcWpyZjQzcWZ6d3pnQnNJVjV4SWpFM0k2UF9pSnJkdkNXN1BsV09QSzZfWHdWUjkzNmM0eUNhSFE1MFNpaUFDeDlITVFxTFNVelhXT01GYUdoWmZCWGFuTFFRa2VSZm9GWVlhQnlOZnIzck4xSTFnSlpDZ1hBY24?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-08-27",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "IESR",
+        "RUPTL"
+      ],
+      "headline": "Revisi RUPTL PLN belum selesai per September 2026, target 100 GW PLTS terancam struktural",
+      "whatChanged": "ANTARA News mengonfirmasi pada 22 September 2026 bahwa pemerintah masih melakukan revisi RUPTL PLN untuk mengakomodasi target PLTS 100 GWp. The Conversation menerbitkan analisis pada 25 September 2026 yang menyatakan bahwa ambisi 100 GW tidak dapat terlaksana tanpa memutus ketergantungan kontrak batu bara yang masih mengikat. IESR sebelumnya menyebut target 100 GW dalam waktu tiga tahun sebagai 'sangat ambisius'.",
+      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang telah muncul 19 kali sejak 27 Agustus. Keterlambatan revisi RUPTL berarti sinyal harga dan alokasi kapasitas bagi pengembang PLTS swasta tetap tidak pasti, sehingga investasi private sector tertahan. Kontrak batu bara jangka panjang yang belum diselesaikan menciptakan biaya stranded asset yang akan ditanggung PLN atau pemerintah bila transisi dipaksa dipercepat.",
+      "secondOrder": "Pengembang PLTS yang sudah memesan panel dan peralatan berdasarkan ekspektasi target 100 GW akan menghadapi risiko keterlambatan off-take agreement, yang meningkatkan biaya bridging finance mereka. Bila revisi RUPTL baru selesai mendekati akhir 2026 atau awal 2027, pipeline proyek yang dijadwalkan mulai konstruksi 2027 akan mengalami geser jadwal, dan potensi target 2029 semakin sulit dicapai.",
+      "action": "Pantau tanggal penyelesaian revisi RUPTL sebagai pemicu utama. Bila tidak ada pengesahan sebelum kuartal pertama 2027, tinjau ulang proyeksi pipeline PLTS dan eksposur off-take bagi proyek yang bergantung pada kapasitas yang belum dialokasikan RUPTL.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTk5pa295WW5xb2lXNlppamd2R1g0NFB1bXM1Mi1xUHZPMDZMOTRrMTJzclNxOWN3Q0txWlZaNjVpYUppU0o4R0tEd1JkZExCSXh4WnNhY0xjdVBfZGgzS3FlMkdVRW1tUXN4SV9leWpBTEpfT3J6VF9sc2Zja3B3OVFsemZSNGFzcGJ3UC10Z3M3OGJrMlctUF9iQnAwNEo1Z3hwatIBpwFBVV95cUxPdzlERWlXMFBWcWpMVzJBR2hwQ1poc3hXa3dMWFdNSzhIU1NKcHVRbHhRcXBad1FCcGlFYnBkRkNWUU8xOEtaamRsalZ4YzhOOHY3eVEtOTZSSElrVDFnOEpQeFRJYnpRSlRuU0t5VHVfMVJYZkIyb0JqM0ZwNkFpazFydm9JQTdXclR6V04wSkJ4allmQ2U4bU5vS0JNVEJsZUhobWdNQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW5YMUhISHpPRnpITXM0Y3VRdHU4VEUxNW1STzVJbGtVM1BjTTI3WkJwXzEwV2o5NjhXTGZiZTF1NGpSZm0wVmNoVXJXbHF4TDRnVXZPQnQyMW51alNqd0ZVQVVzNkhaUnVjNEtpdXFnSkdEZDh0LWhjcTBXM1UwV3lzM3pDUGhxWTM5VXJJWnRHTlE3cEV3SUsySDFSWnVwY0RYX2V0azJ3TU1w?oc=5",
+        "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-08-27",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Nikkei Asia"
+      ],
+      "headline": "Pusat data AI kini dibiayai dengan agunan GPU, mengubah profil risiko proyek",
+      "whatChanged": "Nikkei Asia melaporkan pada 25 September 2026 bahwa pusat data AI semakin banyak dibangun menggunakan pembiayaan berbasis agunan GPU dan skema pembiayaan novel lain, melampaui model project finance konvensional berbasis aset tetap.",
+      "whyItMatters": "Ini melanjutkan tema nuclear-ai-datacenter-power dengan lapisan baru: ketika agunan bergeser dari aset tetap ke perangkat keras komputasi yang terdepresiasi cepat, struktur risiko kredit berubah mendasar. GPU kehilangan nilai lebih cepat dari aset infrastruktur tradisional, sehingga nilai agunan dapat jatuh jauh sebelum utang dilunasi.",
+      "secondOrder": "Lembaga keuangan yang menerima GPU sebagai agunan primer akan menghadapi risiko mark-to-market yang tajam ketika generasi chip baru diluncurkan, karena harga GPU lama anjlok dalam hitungan kuartal. Ini berpotensi memunculkan gelombang restrukturisasi kredit pusat data yang mirip dengan krisis leasing pesawat terbang pasca-pandemi, namun dengan siklus depresiasi yang jauh lebih pendek.",
+      "action": "Jika mengevaluasi proposal pembiayaan pusat data, minta rincian struktur agunan: apakah GPU dihitung sebagai aset primer atau sekunder, dan apakah ada mekanisme margin call bila nilai GPU turun di bawah threshold tertentu.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSG9MbFVkZER3ZE92cjU0MmJESDFFSUxOWHRab3dnRUZVUVVkSGhibEtsYmNSWFVTNE5JLURNYnFpSWlkM1loSDFaTUg3Yy00OFMwengxUFRaS1NEMnoyYWV5dnl1QllkV2g3a0JxbjFubzQxQTFOM3RTT1AwU0JncmdWeFFjT2dWUy1zZTVSQ256anFjQzU0NWJYX3d3R3lyQzl4bVlxVklWbXlLemtnOURReUUtdVlkdEwxSjRlUGQwZl9ZRUtNUjFobTRMX00zUnNIWTlVaTA0dw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
         "hasPrimary": false
       },
       "trend": {
@@ -71,142 +135,38 @@
         "firstSeen": "2026-08-27",
         "spanDays": 30
       }
-    },
-    {
-      "rank": 3,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
-      "entities": [
-        "Danantara Indonesia",
-        "Thales",
-        "OJK",
-        "BSSN"
-      ],
-      "headline": "Danantara dan Thales tanda tangani kemitraan teknologi strategis",
-      "whatChanged": "Danantara Indonesia mengumumkan kemitraan teknologi strategis dengan Thales pada 24 September 2026. Detail nilai investasi dan ruang lingkup teknis tidak disebutkan dalam pengumuman resmi Danantara.",
-      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring yang telah tercatat 25 kali sejak 27 Agustus 2026. Kemitraan dengan Thales, perusahaan teknologi pertahanan dan keamanan digital asal Prancis, menunjukkan bahwa Danantara sedang membangun portofolio kemitraan teknologi lintas sektor di luar restrukturisasi BUMN Karya. Pola ini penting karena menandai pergeseran dari mandat restrukturisasi defensif ke pembangunan portofolio ofensif.",
-      "secondOrder": "Thales beroperasi di segmen keamanan siber, avionik, dan sistem pertahanan. Kemitraan ini, bila mencakup infrastruktur kritis atau data center pemerintah, dapat memiliki implikasi tata kelola data yang memerlukan pengawasan OJK atau BSSN. Tanpa detail kontrak yang dipublikasikan, risiko pengawasan publik terhadap kemitraan semacam ini tetap tinggi.",
-      "action": "Analis tata kelola BUMN: ajukan permintaan keterbukaan informasi atau pantau pengumuman RUPS Danantara untuk memperoleh detail nilai dan ruang lingkup kemitraan Thales. Bandingkan dengan kemitraan teknologi Danantara lainnya yang diumumkan sejak DTIIF 2026 untuk memetakan pola alokasi modal.",
-      "strength": "emerging",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGlZSjRHWjJpcnVsVlNvTHJTRzVOcE1qTHVpS3F0RnUxVTZFVXFxT0dlcWpyZjQzcWZ6d3pnQnNJVjV4SWpFM0k2UF9pSnJkdkNXN1BsV09QSzZfWHdWUjkzNmM0eUNhSFE1MFNpaUFDeDlITVFxTFNVelhXT01GYUdoWmZCWGFuTFFRa2VSZm9GWVlhQnlOZnIzck4xSTFnSlpDZ1hBY24?oc=5",
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLWN5S01JV2g3ejdXN01pVlVqREktUnpPMThTcXdNMWNXa3I4bDlrNUxxeEZWTVZ6WWJickNsN3JpdnAyUjBMSHVnWnBsUEdZa1lHV0RZVmU3S1BVbzNLZEFXY3hBSmFXb3R2LWZLd3A1Wlg3bnZoblkwTnVmWDZzZGJ3?oc=5"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 1,
-        "hasPrimary": true
-      },
-      "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
-        "status": "structural",
-        "occurrences": 26,
-        "firstSeen": "2026-08-27",
-        "spanDays": 30
-      }
-    },
-    {
-      "rank": 4,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
-      "entities": [
-        "OJK",
-        "POJK Nomor 13 Tahun 2026"
-      ],
-      "headline": "BEI dan OJK sosialisasikan POJK Nomor 13 Tahun 2026 tentang demutualisasi bursa",
-      "whatChanged": "Bursa Efek Indonesia mengumumkan dukungan terhadap sosialisasi POJK Nomor 13 Tahun 2026 oleh OJK pada 25 September 2026. Regulasi ini memperkuat kerangka demutualisasi BEI dan transformasi kelembagaan bursa.",
-      "whyItMatters": "POJK Nomor 13 Tahun 2026 menetapkan kerangka hukum untuk demutualisasi BEI, sebuah perubahan struktural yang memisahkan kepemilikan dari hak anggota perdagangan. Demutualisasi membuka kemungkinan BEI menerbitkan saham kepada publik, yang akan mengubah struktur insentif manajemen bursa dan membuka sumber modal baru untuk pengembangan infrastruktur pasar.",
-      "secondOrder": "Bila BEI akhirnya melakukan IPO pasca-demutualisasi, lembaga keuangan yang saat ini menjadi pemegang saham BEI, termasuk BUMN sekuritas di bawah pengawasan Danantara, perlu menilai ulang nilai wajar kepemilikan mereka. Perubahan struktur kepemilikan BEI juga dapat memengaruhi kebijakan biaya transaksi dan akses pasar bagi broker, dengan dampak langsung pada profitabilitas sekuritas ritel.",
-      "action": "Manajemen lembaga keuangan yang memiliki saham BEI: minta tim legal membaca POJK Nomor 13 Tahun 2026 secara lengkap minggu ini. Identifikasi implikasi pada valuasi kepemilikan dan siapkan posisi negosiasi sebelum proses demutualisasi formal dimulai.",
-      "strength": "material",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWDNuTnZHZ1d0eE1WNnNJV1RQWGRJdWtuanFIZUJMMGYzQzFKOTVfR2pNMkdMTzdXOHFYS015WWNrM3kxellqaS1PQm81VXgwME1meUEzSmcxU2N0SEtiRDlKeFJpSGRfb2NKLVQtZ20wWHhWWXdZT3VEd24yY21YS1pDNUdnbEk?oc=5"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 1,
-        "hasPrimary": true
-      },
-      "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
-        "status": "structural",
-        "occurrences": 26,
-        "firstSeen": "2026-08-27",
-        "spanDays": 30
-      }
-    },
-    {
-      "rank": 5,
-      "domain": "energy",
-      "themeKey": "pln-transmisi-investasi",
-      "entities": [
-        "PLN",
-        "Kementerian ESDM",
-        "Arup",
-        "RUPTL"
-      ],
-      "headline": "Revisi RUPTL PLN untuk PLTS 100 GWp masih belum selesai per September 2026",
-      "whatChanged": "ANTARA News melaporkan pada 22 September 2026 bahwa pemerintah masih dalam proses merevisi RUPTL PLN untuk mengakomodasi target PLTS 100 GWp. Arup menyatakan kepada ANTARA pada 25 September 2026 bahwa PLTS dapat dibangun dalam satu hingga tiga tahun, menyiratkan bahwa keterlambatan perencanaan regulatori, bukan keterbatasan teknis, menjadi hambatan utama.",
-      "whyItMatters": "Ini melanjutkan tema pln-transmisi-investasi yang telah tercatat 19 kali sejak 27 Agustus 2026. RUPTL yang belum selesai berarti investor swasta tidak memiliki kepastian hukum mengenai alokasi kapasitas jaringan, skema tarif, dan mekanisme offtake. Ketidakpastian ini menghambat financial close proyek PLTS skala utilitas yang seharusnya bisa dikonstruksi dalam waktu singkat.",
-      "secondOrder": "Keterlambatan RUPTL secara langsung memperburuk risiko pasokan listrik untuk data center yang sedang direncanakan di Indonesia, termasuk ekspansi NeutraDC 200 MW yang bermitra dengan PLN. Bila RUPTL tidak selesai sebelum akhir 2026, proyek data center yang mengandalkan pasokan listrik baru dari PLTS akan menghadapi penundaan financial close, memperpanjang paparan risiko yang sudah diidentifikasi dalam tema nuclear-ai-datacenter-power.",
-      "action": "Investor dan pengembang proyek energi terbarukan: tetapkan tenggat internal untuk keputusan investasi berdasarkan dua skenario, yaitu RUPTL selesai sebelum Desember 2026 atau melewati kuartal pertama 2027. Siapkan analisis sensitivitas IRR untuk masing-masing skenario dan jadwalkan pertemuan dengan Kementerian ESDM untuk mendapatkan kepastian jadwal.",
-      "strength": "material",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTk5pa295WW5xb2lXNlppamd2R1g0NFB1bXM1Mi1xUHZPMDZMOTRrMTJzclNxOWN3Q0txWlZaNjVpYUppU0o4R0tEd1JkZExCSXh4WnNhY0xjdVBfZGgzS3FlMkdVRW1tUXN4SV9leWpBTEpfT3J6VF9sc2Zja3B3OVFsemZSNGFzcGJ3UC10Z3M3OGJrMlctUF9iQnAwNEo1Z3hwatIBpwFBVV95cUxPdzlERWlXMFBWcWpMVzJBR2hwQ1poc3hXa3dMWFdNSzhIU1NKcHVRbHhRcXBad1FCcGlFYnBkRkNWUU8xOEtaamRsalZ4YzhOOHY3eVEtOTZSSElrVDFnOEpQeFRJYnpRSlRuU0t5VHVfMVJYZkIyb0JqM0ZwNkFpazFydm9JQTdXclR6V04wSkJ4allmQ2U4bU5vS0JNVEJsZUhobWdNQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMipAFBVV95cUxONHJaZHVPc1AycjRXMlRhVkdfUkFlNUFva3R5UTRoX0dGYU9GVWNLdlBfbGI4cWE2emFzOEJpTHpaQ2E3RDlFaFM1VW1Ic2hfSlRKVS1ENF8ybENVS1RZU2JMWVR3cXRiT0ttMkZkSHpNZFMwbnY2ZUM5U01zaTJoa1NnUHlvbDhDVEMyZmRfOWFvMDFtMGlOZGhXaG14OW1iQTBIY9IBpwFBVV95cUxQZjhDSFJZQmlEbEQ2U3NsOUJlUXBTVjF2cDQtZ3BrLU9Nc21xNFgzcDBCUjdZVml4SGZ4NG9oOVNCWnlKV0sxZlZLNHpHb0Jvc0VkRUl5UHBhb3dpX2hVYzNRdHJ0M25lSmZwWDlIOGRTQVl6cUZ0MWM1cmoxMTFub3dLUTJ4Y0dmZ0ZYSDJfZ1RKSURMUmlKSkwyY0NjUi02bTY3QUVwYw?oc=5"
-      ],
-      "secondOrderUrls": [
-        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
-      ],
-      "corroboration": {
-        "publishers": 1,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "pln-transmisi-investasi",
-        "status": "structural",
-        "occurrences": 20,
-        "firstSeen": "2026-08-27",
-        "spanDays": 30
-      }
     }
   ],
   "watchNext": [
     {
-      "item": "Jadwal penyelesaian revisi RUPTL PLN untuk target PLTS 100 GWp: Kementerian ESDM belum menetapkan tanggal final, pantau pengumuman resmi sebelum akhir kuartal empat 2026.",
+      "item": "Pengesahan revisi RUPTL PLN untuk alokasi PLTS 100 GWp: apakah selesai sebelum akhir 2026 atau tergeser ke 2027",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "Detail nilai dan ruang lingkup kemitraan Danantara dengan Thales: belum dipublikasikan, pantau pengumuman resmi Danantara atau dokumen keterbukaan informasi.",
-      "dueDate": "2026-10-31"
+      "item": "Publikasi peer-reviewed atau preprint atas temuan sistem enzim Claude-Anthropic untuk mengonfirmasi validitas klaim ilmiah",
+      "dueDate": "2026-12-31"
     },
     {
-      "item": "Adopsi kerangka pengukuran Anthropic oleh regulator AI di Uni Eropa atau Amerika Serikat sebagai standar pelaporan wajib: pantau konsultasi publik AI Act dan NIST AI RMF.",
+      "item": "Pengungkapan lingkup teknis kemitraan Thales-Danantara: pertahanan, infrastruktur kritis, atau teknologi sipil",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Perkembangan regulasi agunan GPU dari otoritas perbankan atau lembaga rating terkait pembiayaan pusat data AI",
       "dueDate": "2027-03-31"
     },
     {
-      "item": "Proses demutualisasi BEI pasca-sosialisasi POJK Nomor 13 Tahun 2026: pantau jadwal resmi OJK untuk tahapan berikutnya.",
+      "item": "Rincian rantai pasokan biomassa PLN untuk target 60 juta ton: kontrak pasokan domestik versus impor",
       "dueDate": "2026-12-31"
     }
   ],
   "sources": [
     {
-      "title": "Measurements for understanding the pace of AI development inside frontier labs",
-      "publisher": "Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "title": "PV Magazine | Indonesia menargetkan kapasitas tenaga surya sebesar 100 GW pada tahun 2029",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
       "tier": 1,
-      "via": "Google News",
       "primary": true,
-      "publishedAt": "2026-09-25T19:25:19.000Z"
-    },
-    {
-      "title": "BEI Dukung OJK Gelar Sosialisasi POJK Nomor 13 Tahun 2026, Perkuat Tonggak Demutualisasi dan Transformasi Bursa",
-      "publisher": "PT Bursa Efek Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWDNuTnZHZ1d0eE1WNnNJV1RQWGRJdWtuanFIZUJMMGYzQzFKOTVfR2pNMkdMTzdXOHFYS015WWNrM3kxellqaS1PQm81VXgwME1meUEzSmcxU2N0SEtiRDlKeFJpSGRfb2NKLVQtZ20wWHhWWXdZT3VEd24yY21YS1pDNUdnbEk?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-09-25T11:20:54.000Z"
+      "publishedAt": "2026-09-21T02:52:18.000Z"
     },
     {
       "title": "Thales dan Danantara Jalin Kemitraan Teknologi Strategis",
@@ -218,15 +178,6 @@
       "publishedAt": "2026-09-24T06:39:10.000Z"
     },
     {
-      "title": "Danantara Technology Innovation Investment Forum (DTIIF) 2026",
-      "publisher": "Danantara Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLWN5S01JV2g3ejdXN01pVlVqREktUnpPMThTcXdNMWNXa3I4bDlrNUxxeEZWTVZ6WWJickNsN3JpdnAyUjBMSHVnWnBsUEdZa1lHV0RZVmU3S1BVbzNLZEFXY3hBSmFXb3R2LWZLd3A1Wlg3bnZoblkwTnVmWDZzZGJ3?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": true,
-      "publishedAt": "2026-09-11T07:00:00.000Z"
-    },
-    {
       "title": "AI data centers increasingly built on GPU collateral, other novel financing",
       "publisher": "Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSG9MbFVkZER3ZE92cjU0MmJESDFFSUxOWHRab3dnRUZVUVVkSGhibEtsYmNSWFVTNE5JLURNYnFpSWlkM1loSDFaTUg3Yy00OFMwengxUFRaS1NEMnoyYWV5dnl1QllkV2g3a0JxbjFubzQxQTFOM3RTT1AwU0JncmdWeFFjT2dWUy1zZTVSQ256anFjQzU0NWJYX3d3R3lyQzl4bVlxVklWbXlLemtnOURReUUtdVlkdEwxSjRlUGQwZl9ZRUtNUjFobTRMX00zUnNIWTlVaTA0dw?oc=5",
@@ -236,21 +187,13 @@
       "publishedAt": "2026-09-25T12:25:00.000Z"
     },
     {
-      "title": "Arup: PLTS bisa dibangun 1-3 tahun untuk dukung target 100 GW",
-      "publisher": "ANTARA News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONHJaZHVPc1AycjRXMlRhVkdfUkFlNUFva3R5UTRoX0dGYU9GVWNLdlBfbGI4cWE2emFzOEJpTHpaQ2E3RDlFaFM1VW1Ic2hfSlRKVS1ENF8ybENVS1RZU2JMWVR3cXRiT0ttMkZkSHpNZFMwbnY2ZUM5U01zaTJoa1NnUHlvbDhDVEMyZmRfOWFvMDFtMGlOZGhXaG14OW1iQTBIY9IBpwFBVV95cUxQZjhDSFJZQmlEbEQ2U3NsOUJlUXBTVjF2cDQtZ3BrLU9Nc21xNFgzcDBCUjdZVml4SGZ4NG9oOVNCWnlKV0sxZlZLNHpHb0Jvc0VkRUl5UHBhb3dpX2hVYzNRdHJ0M25lSmZwWDlIOGRTQVl6cUZ0MWM1cmoxMTFub3dLUTJ4Y0dmZ0ZYSDJfZ1RKSURMUmlKSkwyY0NjUi02bTY3QUVwYw?oc=5",
-      "tier": 2,
+      "title": "Anthropic says its biology lab has already found something big",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
+      "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-25T11:32:17.000Z"
-    },
-    {
-      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
-      "publisher": "Tempo",
-      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-14T07:04:39.000Z"
+      "publishedAt": "2026-09-23T22:17:39.000Z"
     },
     {
       "title": "Pemerintah masih lakukan revisi RUPTL PLN untuk PLTS 100 GWp",
@@ -260,6 +203,24 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-09-22T12:10:53.000Z"
+    },
+    {
+      "title": "Anthropic says Claude AI helped discover novel enzyme system",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T21:12:38.000Z"
+    },
+    {
+      "title": "Ambisi PLTS 100 GW sulit terlaksana tanpa memutus jerat listrik batu bara",
+      "publisher": "The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW5YMUhISHpPRnpITXM0Y3VRdHU4VEUxNW1STzVJbGtVM1BjTTI3WkJwXzEwV2o5NjhXTGZiZTF1NGpSZm0wVmNoVXJXbHF4TDRnVXZPQnQyMW51alNqd0ZVQVVzNkhaUnVjNEtpdXFnSkdEZDh0LWhjcTBXM1UwV3lzM3pDUGhxWTM5VXJJWnRHTlE3cEV3SUsySDFSWnVwY0RYX2V0azJ3TU1w?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-25T02:08:00.000Z"
     }
   ],
   "trends": [
@@ -315,9 +276,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 369,
+    "candidateCount": 390,
     "poolSize": 110,
-    "generatedAt": "2026-09-25T23:22:56.478Z",
+    "generatedAt": "2026-09-25T23:44:36.338Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
