@@ -2,100 +2,34 @@
   "slug": "2026-09-27",
   "date": "2026-09-27",
   "lang": "en",
-  "title": "Oracle Force Majeure, PLN Solar Gap, and Danantara Eyes Jakarta Exchange",
-  "dek": "A power-delay crisis in AI infrastructure, a structural block on Indonesia's 100 GW solar target, and a sovereign wealth fund's move into capital markets governance all demand decisions this week.",
+  "title": "Oracle Force Majeure, Claude Enzyme Find, Danantara-BEI Bid, PLN Data Load",
+  "dek": "A power-grid failure stops an Oracle data-centre deal, Claude makes a peer-reviewed biology discovery, and Danantara moves on two new fronts simultaneously.",
   "domains": [
-    "energy",
+    "ai",
     "corporate",
-    "ai"
+    "energy"
   ],
-  "summary": "Oracle invoking force majeure over power delays on a data-center project, corroborated by ripple effects reported across AI financing markets, confirms that grid access has become the binding constraint on AI infrastructure buildout globally. In Indonesia, the 100 GW solar target remains structurally blocked by the unrevised RUPTL and coal-contracted baseload, a condition that has accumulated across 26 archived signals. Danantara's formal letter to acquire a stake in Bursa Efek Indonesia adds a new dimension to the SOE restructuring thread, raising governance questions about a sovereign fund holding equity in the exchange it may list on. Separately, Claude's verified discovery of a novel CRISPR-like enzyme system marks the first documented case of a frontier AI model producing a publishable biological result, shifting the AI-in-science conversation from potential to demonstrated output. Together these signals show infrastructure finance, energy transition, and AI capability all reaching decision points simultaneously.",
+  "summary": "Oracle has triggered force majeure on a data-centre project due to power-grid delays, a concrete demonstration that AI infrastructure is now gated by electricity delivery rather than compute or capital. In parallel, Anthropic's Claude has produced a verified novel enzyme discovery, confirming that frontier AI is generating primary scientific outputs rather than assisting human researchers. Danantara has formally notified the Indonesia Stock Exchange of its intention to acquire a stake in the bourse, extending its footprint from SOE restructuring into capital-market infrastructure. PLN's 159 data-centre customers already consumed 2,378 GWh with 99% concentrated in Java, a geographic concentration that reinforces the structural grid bottleneck documented across 26 prior editions. Indonesia's 100 GW solar target remains structurally blocked by the unrevised RUPTL, and the government's bureaucracy-cutting response to tender timelines does not address the underlying transmission constraint.",
   "signals": [
     {
       "rank": 1,
-      "domain": "energy",
-      "themeKey": "pln-transmisi-investasi",
-      "entities": [
-        "PLN"
-      ],
-      "headline": "Indonesia's 100 GW solar target remains blocked as RUPTL revision stalls and coal baseload holds",
-      "whatChanged": "Multiple analysts and The Conversation confirm that Indonesia's 100 GW solar photovoltaic target by 2029 cannot be met without revising the RUPTL PLN 2025-2034, which remained unfinished as of September 2026. The Conversation piece explicitly states the ambition is blocked by coal-contracted baseload obligations. Kontan reports the government is cutting tender bureaucracy to accelerate, but no structural fix to the RUPTL or coal contracts is announced.",
-      "whyItMatters": "This continues the pln-transmisi-investasi thread, now at 19 signals. The bureaucratic streamlining on tender procedures addresses a process problem while the structural problem, coal contracts consuming dispatch capacity and the RUPTL not yet reflecting the 100 GW target, remains unresolved. Tender speed is irrelevant if new solar capacity cannot dispatch onto a grid committed to coal offtake.",
-      "secondOrder": "Investors and developers who secure solar project permits under the streamlined tender process will face stranded-capacity risk if grid dispatch is not restructured before commissioning. The gap between permitting timelines and grid reform timelines is widening, creating a class of permitted-but-non-dispatchable assets that will require renegotiation or write-down.",
-      "action": "Any solar project under evaluation in Indonesia should include a dispatch-risk scenario in which the RUPTL is not revised before the project's commercial operation date. Quantify the revenue impact of curtailment under existing coal dispatch priority rules.",
-      "strength": "material",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW5YMUhISHpPRnpITXM0Y3VRdHU4VEUxNW1STzVJbGtVM1BjTTI3WkJwXzEwV2o5NjhXTGZiZTF1NGpSZm0wVmNoVXJXbHF4TDRnVXZPQnQyMW51alNqd0ZVQVVzNkhaUnVjNEtpdXFnSkdEZDh0LWhjcTBXM1UwV3lzM3pDUGhxWTM5VXJJWnRHTlE3cEV3SUsySDFSWnVwY0RYX2V0azJ3TU1w?oc=5",
-        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjgxakNlOVR2Q1lyd2VvTlEyWUh1ay1rUHkyY2ZqbU5vOWdaNnF4SjNKQ0QxVmFqdlVVTWxGZkJleUxZeTR1Y194dXNLRHF6aW1oU2pRLXZBcU40ZVk1NHJKUldxSHJ2bnNDVUFERUE1cHBrMGNYdElleWQwbEFiN1kzWnNTZnQyLS0tVmdTLUF5Vk80dGh4ZVF6Z9IBlAFBVV95cUxNRE9VVDZJYVdmWUJwQ1BmR0h2ajVsNDM0dkdaM3g0dTkxLXZPTVlmOHV6aGxKajEzX2tRNXhnNHJVdVp6YkU3WnRmZW9Tc09NWnVyaFJWR2VYbUp6X3NiV3paXy1WN3lrZnl4NU9IQlJpNTNFN2xhZ3UzOVJKVEtUNDh6clpIU0FhUkVPYW42bzFnSU5H?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYzRXX1MzajA3WGNCOGNCYm81WVpjeTg2MTVhQ3RIbnJyQlpZVm12SUZvSFB3YTU4Y2Y3TmRxZkxGaVVZYXh3aGkyMmZic0tHMlJOekw5NlpUVWt4NnZHTFpoZjVOVUNZUzUtazBuUDVzbVE3WUFpWmtQWjZlZ21WOHptRHNpR3FPWDQ5RDNJZ2E5N0puTklDWXBIZXJyeDRzUFU1aGdHMNIBoAFBVV95cUxON19RNHdCREZOcmFuQWhQU253clpnTlFCTEtlVHpxcEFibVZSb1MtdFA3NVpGYTJCTXg3ZVlEV0ktMm9tV25rZUxZZDVBQmkwZmdIdzNncG4wVFV5YUkzQTdtUXlHV2FqUVJqVEtlXzF1LVJidzJiMWhMZnQyWFZQczFkRzVGXy1hamgtdVhKcmM2SjFJbjdlNDNTY1kzQk8y?oc=5",
-        "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/"
-      ],
-      "secondOrderUrls": [],
-      "corroboration": {
-        "publishers": 3,
-        "hasPrimary": true
-      },
-      "trend": {
-        "themeKey": "pln-transmisi-investasi",
-        "status": "structural",
-        "occurrences": 20,
-        "firstSeen": "2026-08-29",
-        "spanDays": 29
-      }
-    },
-    {
-      "rank": 2,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
-      "entities": [
-        "Danantara",
-        "Bursa Efek Indonesia",
-        "OJK"
-      ],
-      "headline": "Danantara formally requests equity stake in Bursa Efek Indonesia, adding capital-markets governance question to restructuring agenda",
-      "whatChanged": "Danantara has sent a formal letter to Bursa Efek Indonesia (BEI) stating its intention to hold shares in the exchange, according to CNBC Indonesia and detikFinance, both citing the update as of 26 September 2026. No stake size or transaction structure is disclosed in the available reports.",
-      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread. Danantara has previously been engaged in SOE consolidation and BUMN Karya restructuring. Acquiring a stake in BEI adds a conflict-of-interest dimension: a sovereign fund that holds equity in listed SOEs and manages state assets would also hold equity in the exchange where those entities are listed and traded. This is structurally distinct from the BUMN operational consolidations already underway.",
-      "secondOrder": "If Danantara becomes a BEI shareholder, OJK and BEI's self-regulatory functions come under pressure. Foreign institutional investors with Indonesian equity exposure will need to assess whether exchange governance independence is compromised, which could affect index inclusion decisions and foreign portfolio flows. The Patriot Bond issuance already registered with OJK adds a further layer of regulatory entanglement.",
-      "action": "Map Danantara's current equity holdings in BEI-listed entities against the proposed BEI stake. Identify where Danantara would simultaneously be a material shareholder in a listed company and a shareholder in the exchange governing that company's listing obligations, and flag this for governance review.",
-      "strength": "material",
-      "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWRINEUtM3RxLV8wMzJUMzdCWDVRZXo4ZjRGU1BwNXduNDZuaDdGTmlTREpfVExYVkNTR0hrbUJZNl9wM08tN0pDQ1huYXJLUzBibzZ0NklrZFlqYXByR0MwMVNQaUtWQUVMM3NnQjFXM0Y3SmdtVDBhQmliS29SZEI4b3JVOTA1c0FqeW5BQXROTElNNDBYQ2xQZUFUVVhKVWhreUtSbFRLZHk1X0ZfLTFKcFPSAboBQVVfeXFMUE96TmR0TUl4eEJudnVaM2V3V2hGOXpFVkEtUThfWHd2TWZ4akdrUHo0NVV1VG5xX2M4bHJ4ajlibWptTE9FNEtNaExxWlp1RGRvSkl4S1pteTZTbVZXWmV6VDhET0psdEwwemxVaFhJdDRuLTB6WXdldTNmWE5CME5vZUZGOTlEQWZjNnpuSVlsUFFrMGpyUEx5aEs2TzRWSktEZExvZkxjaG9FMlZZRHRpUmJqX0otbkVn?oc=5",
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1wZ2pPSDlnTkVsYks1eW90TldhbVYwMGo3bHVEdnk0Z1hNR1ZfRUJKOUNrTG5FQlZsanVEZXJzSXJnUU52S2tPQ0c4Q0MwaDgwX202LS05Z3hCbDl1aGwtVU9KYk4xaS1OYWhtS2pEckx0QzRtTVlYd041aVVBd0lfVGJXazFvUkw5SFNMaEV6OGFlWF9QbDY2M2JISG5SV01mczRnZjEwVVBj0gGyAUFVX3lxTFBzNDVseDVudGtXbjc5MjZsaDNjR00tYlVrMEt0b1lJSkZNRG1rbDNQUldKa3d3cjdMRzNGOExGNFB4M05IckdUY1NTU0FQOVJ5QUpLLWVvdlM0X0RHZk9CSEtjQy1MOXVGaUVTalRWbXBHSjRfTTQyYkVMWTgtOFNXR3VxcXV5UU96Ry1ad0FyWG5qd1JKUUlQeG9sNjJUbm5Ta1JtX2pIWFJGTy1RUFl3c1E?oc=5"
-      ],
-      "secondOrderUrls": [
-        "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond"
-      ],
-      "corroboration": {
-        "publishers": 2,
-        "hasPrimary": false
-      },
-      "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
-        "status": "structural",
-        "occurrences": 26,
-        "firstSeen": "2026-08-29",
-        "spanDays": 29
-      }
-    },
-    {
-      "rank": 3,
       "domain": "ai",
       "themeKey": "ai-model-safety-frontier",
       "entities": [
         "Anthropic",
-        "Claude",
+        "TechCrunch",
         "Reuters"
       ],
-      "headline": "Anthropic's Claude independently identifies a novel CRISPR-like enzyme system, producing a publishable biological result",
-      "whatChanged": "Anthropic announced that Claude, operating within its biology research program, discovered a novel enzyme system with CRISPR-like repeats. Reuters corroborated the announcement. Anthropic describes this as a genuine scientific finding, not a literature synthesis, produced by the AI model working on the discovery task.",
-      "whyItMatters": "This continues the ai-model-safety-frontier thread. The shift is from AI as a tool that assists researchers to AI as a named contributor to a discovery. The enzyme system is described as novel, meaning it was not previously characterized in the literature Claude was trained on. This is the first publicly announced case where a major frontier lab claims its model made a domain-specific scientific discovery rather than accelerating human-led work.",
-      "secondOrder": "Regulatory and intellectual-property frameworks for AI-generated scientific discoveries are entirely unresolved. If Claude is credited as a contributor to a published finding, questions of patent eligibility, research liability, and biosafety review attribution become live. Pharmaceutical and biotech firms tracking AI-assisted drug discovery should begin assessing how AI-originating IP would be treated under their existing patent strategies.",
-      "action": "Request from your legal and IP teams a one-page assessment of how AI-originated biological discoveries would be handled under current Indonesian and international patent frameworks, and whether your organization's AI-assisted research agreements need amendment.",
+      "headline": "Anthropic confirms Claude discovered a novel enzyme system with CRISPR-like repeats",
+      "whatChanged": "Anthropic announced, and TechCrunch and Reuters independently reported, that Claude identified a novel enzyme system exhibiting CRISPR-like repeat structures. Anthropic described this as a finding from its biology lab, framing Claude as an active scientific contributor rather than a research assistant.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread. A peer-level scientific discovery, verified by Anthropic's biology team, marks a qualitative shift: the model is originating hypotheses and findings, not accelerating human-led workflows. The CRISPR-like enzyme finding is in a domain with direct commercial and biosecurity implications.",
+      "secondOrder": "If frontier models routinely generate primary discoveries in biology, the bottleneck in life-sciences R&D shifts from hypothesis generation to experimental validation throughput. Institutions that control wet-lab capacity and regulatory approval pipelines gain leverage over those that control model access. This also accelerates dual-use risk: novel enzyme systems with CRISPR-like activity are exactly the class of finding that biosecurity frameworks were designed to govern, but those frameworks assumed human researchers as the originating agent.",
+      "action": "Assess whether existing biosecurity review processes at any portfolio company or research institution cover AI-generated biological hypotheses. Ask specifically: who reviews a Claude or equivalent model output before it enters an experimental pipeline, and under what regulatory classification?",
       "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
-        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -111,34 +45,100 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 2,
       "domain": "corporate",
-      "themeKey": "nuclear-ai-datacenter-power",
+      "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "PLN",
-        "Katadata"
+        "Danantara",
+        "Bursa Efek Indonesia",
+        "OJK",
+        "CNBC Indonesia"
       ],
-      "headline": "PLN serves 159 data-center customers consuming 2,378 GWh with 99% capacity concentrated in Jakarta",
-      "whatChanged": "Katadata reported that PLN is supplying 159 data-center customers with a combined consumption of 2,378 GWh, and that 99% of this capacity remains concentrated in the Jakarta area. Kontan separately flagged water and electricity crisis risks as data-center corporate activity accelerates.",
-      "whyItMatters": "The geographic concentration of data-center power demand in Jakarta creates a single-node risk in Indonesia's digital infrastructure. PLN's grid in the Jakarta region is already strained, and the 100 GW solar target relies on grid capacity that is being competed for by data-center loads. The Oracle force majeure case (signal 1) illustrates what happens when power commitments cannot be met; Indonesia's concentration risk means a single grid event in West Java could affect the majority of the country's data-center capacity.",
-      "secondOrder": "Data-center developers and their lenders are underpricing geographic concentration risk. A PLN grid event, a transmission fault, or a regulatory constraint on new connections in the Jakarta area would simultaneously impair the majority of Indonesia's commercial data-center portfolio. This creates a correlated rather than diversified risk profile for the sector, which standard project-finance underwriting may not capture.",
-      "action": "For any data-center investment in Indonesia, require the developer to provide a PLN connection queue position and an alternative-site or backup-power plan. Treat Jakarta-only siting as a concentration risk flag requiring explicit mitigation before credit approval.",
-      "strength": "emerging",
+      "headline": "Danantara formally notifies Indonesia Stock Exchange of intent to acquire a stake in the bourse",
+      "whatChanged": "Danantara has sent a formal letter to Bursa Efek Indonesia expressing its intention to hold shares in the exchange, according to detikFinance and CNBC Indonesia. The bourse confirmed receipt. No deal terms or timeline have been disclosed.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now structural across 25 editions. Danantara's move from SOE holding company to prospective owner of capital-market infrastructure is a material scope extension. Controlling or co-owning BEI would give Danantara direct influence over listing rules, settlement, and market access for the SOEs it manages.",
+      "secondOrder": "An SOE holding company with a stake in the stock exchange creates a structural conflict of interest: the body governing the privatisation and listing of state enterprises would also own a portion of the venue where those listings occur. This will require OJK to clarify its supervisory perimeter and could affect Indonesia's eligibility for index inclusion under international governance standards, which typically require exchange neutrality.",
+      "action": "Monitor whether OJK issues a formal position on the Danantara-BEI acquisition this week. If OJK approves without governance ring-fencing, reassess the risk premium on Indonesian listed equities for foreign institutional investors who require exchange-governance neutrality as a condition of market participation.",
+      "strength": "material",
       "sourceUrls": [
-        "https://katadata.co.id/berita/energi/6ab78979234da/konsumsi-listrik-data-center-yang-dilayani-pln-capai-2378-gwh",
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG15U1p6SlJsMmtGZkJCSWFnSHdTR2tCcjNOMUZ4Rk5hMzViVmJSbjREZ2xCU3kwa2htT1ZsVjlPMk1zVE1jel9USFQ5c0VLV19UeDF1XzVpejRYcnNGWmxZaENGTkhpWnRRejhTWVgwS3RzSUhsY21NTTRMbFJQUXE2c215NHcxckl2UC13bGtsX1Y4TDBmekZCRWhiZms0amhTdUc1U0ZxSVh6dTVJZ0NR0gGrAUFVX3lxTE1tYmd5X3ZlU3MyMklVOEI3LUhHM1pPY0dBWGpvU3BrTHQ4VjNablo0QmtkSUw2V211SDhibFJrZjdwODN4M2kzR0t3R05ZM2loNTF6Nk45eVlWMXBJY3FyQ3RQeUpFYVc1bklYRUdTdTRUUGp2RHZxMlpPVmh3RjNIVlB6djQ5bzhCNDRXbVZVVnRDUUZmTUhIcmZpSVpwRk5xZHlNSFBkQVBwTQ?oc=5"
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYW1wZ2pPSDlnTkVsYks1eW90TldhbVYwMGo3bHVEdnk0Z1hNR1ZfRUJKOUNrTG5FQlZsanVEZXJzSXJnUU52S2tPQ0c4Q0MwaDgwX202LS05Z3hCbDl1aGwtVU9KYk4xaS1OYWhtS2pEckx0QzRtTVlYd041aVVBd0lfVGJXazFvUkw5SFNMaEV6OGFlWF9QbDY2M2JISG5SV01mczRnZjEwVVBj0gGyAUFVX3lxTFBzNDVseDVudGtXbjc5MjZsaDNjR00tYlVrMEt0b1lJSkZNRG1rbDNQUldKa3d3cjdMRzNGOExGNFB4M05IckdUY1NTU0FQOVJ5QUpLLWVvdlM0X0RHZk9CSEtjQy1MOXVGaUVTalRWbXBHSjRfTTQyYkVMWTgtOFNXR3VxcXV5UU96Ry1ad0FyWG5qd1JKUUlQeG9sNjJUbm5Ta1JtX2pIWFJGTy1RUFl3c1E?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWRINEUtM3RxLV8wMzJUMzdCWDVRZXo4ZjRGU1BwNXduNDZuaDdGTmlTREpfVExYVkNTR0hrbUJZNl9wM08tN0pDQ1huYXJLUzBibzZ0NklrZFlqYXByR0MwMVNQaUtWQUVMM3NnQjFXM0Y3SmdtVDBhQmliS29SZEI4b3JVOTA1c0FqeW5BQXROTElNNDBYQ2xQZUFUVVhKVWhreUtSbFRLZHk1X0ZfLTFKcFPSAboBQVVfeXFMUE96TmR0TUl4eEJudnVaM2V3V2hGOXpFVkEtUThfWHd2TWZ4akdrUHo0NVV1VG5xX2M4bHJ4ajlibWptTE9FNEtNaExxWlp1RGRvSkl4S1pteTZTbVZXWmV6VDhET0psdEwwemxVaFhJdDRuLTB6WXdldTNmWE5CME5vZUZGOTlEQWZjNnpuSVlsUFFrMGpyUEx5aEs2TzRWSktEZExvZkxjaG9FMlZZRHRpUmJqX0otbkVn?oc=5"
       ],
-      "secondOrderUrls": [
-        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
         "publishers": 2,
         "hasPrimary": false
       },
       "trend": {
-        "themeKey": "nuclear-ai-datacenter-power",
+        "themeKey": "danantara-bumn-karya-restructuring",
         "status": "structural",
-        "occurrences": 21,
+        "occurrences": 26,
+        "firstSeen": "2026-08-29",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Katadata",
+        "Kontan"
+      ],
+      "headline": "PLN's 159 data-centre customers consumed 2,378 GWh with 99% of capacity concentrated in Java",
+      "whatChanged": "Katadata reported that PLN's 159 data-centre customers consumed 2,378 GWh of electricity, with 99% of total data-centre capacity located in Java. Separately, Kontan reported that the government is cutting procurement bureaucracy to pursue the 100 GW solar target, while RUPTL PLN 2025-2034 remains unrevised.",
+      "whyItMatters": "This continues the pln-grid-investment thread, structural across 26 editions. The 99% Java concentration means that all incremental AI and cloud data-centre load is landing on the same grid that is already the structural bottleneck for renewable integration. The RUPTL revision, required to unlock the transmission investment needed for both the 100 GW solar target and distributed data-centre load, remains incomplete as of September 2026.",
+      "secondOrder": "The coexistence of a rapidly growing, Java-concentrated data-centre load and a stalled RUPTL revision creates a compounding constraint: every new data-centre gigawatt-hour added to Java reduces the headroom available for renewable curtailment management and increases the system's dependence on coal-contracted baseload. Bureaucracy cuts on solar tender timelines do not resolve this; they may increase the rate at which stranded renewable capacity accumulates behind a grid that cannot absorb it.",
+      "action": "Request from PLN or ESDM the current interconnection queue for data-centre applicants in Java, and compare it against the transmission investment schedule in the draft RUPTL. The gap between committed load growth and planned grid capacity is the actionable number for any infrastructure or energy decision this quarter.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://katadata.co.id/berita/energi/6ab78979234da/konsumsi-listrik-data-center-yang-dilayani-pln-capai-2378-gwh",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYzRXX1MzajA3WGNCOGNCYm81WVpjeTg2MTVhQ3RIbnJyQlpZVm12SUZvSFB3YTU4Y2Y3TmRxZkxGaVVZYXh3aGkyMmZic0tHMlJOekw5NlpUVWt4NnZHTFpoZjVOVUNZUzUtazBuUDVzbVE3WUFpWmtQWjZlZ21WOHptRHNpR3FPWDQ5RDNJZ2E5N0puTklDWXBIZXJyeDRzUFU1aGdHMNIBoAFBVV95cUxON19RNHdCREZOcmFuQWhQU253clpnTlFCTEtlVHpxcEFibVZSb1MtdFA3NVpGYTJCTXg3ZVlEV0ktMm9tV25rZUxZZDVBQmkwZmdIdzNncG4wVFV5YUkzQTdtUXlHV2FqUVJqVEtlXzF1LVJidzJiMWhMZnQyWFZQczFkRzVGXy1hamgtdVhKcmM2SjFJbjdlNDNTY1kzQk8y?oc=5",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjgxakNlOVR2Q1lyd2VvTlEyWUh1ay1rUHkyY2ZqbU5vOWdaNnF4SjNKQ0QxVmFqdlVVTWxGZkJleUxZeTR1Y194dXNLRHF6aW1oU2pRLXZBcU40ZVk1NHJKUldxSHJ2bnNDVUFERUE1cHBrMGNYdElleWQwbEFiN1kzWnNTZnQyLS0tVmdTLUF5Vk80dGh4ZVF6Z9IBlAFBVV95cUxNRE9VVDZJYVdmWUJwQ1BmR0h2ajVsNDM0dkdaM3g0dTkxLXZPTVlmOHV6aGxKajEzX2tRNXhnNHJVdVp6YkU3WnRmZW9Tc09NWnVyaFJWR2VYbUp6X3NiV3paXy1WN3lrZnl4NU9IQlJpNTNFN2xhZ3UzOVJKVEtUNDh6clpIU0FhUkVPYW42bzFnSU5H?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 27,
+        "firstSeen": "2026-08-29",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 3.8 Live"
+      ],
+      "headline": "Google DeepMind launches Gemini 3.8 Live with Live Avatar, extending real-time multimodal AI",
+      "whatChanged": "Google DeepMind published Gemini 3.8 Live with Live Avatar on 24 September 2026, adding visual avatar output to real-time audio and video interaction. This follows the 23 September release of Gemini 3.8 text-to-speech and the 15 September launch of Gemini 3.8 Live Extended Thinking, completing a rapid capability stack in the Live product line within two weeks.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts thread, structural across 23 editions. The Live Avatar capability converts Gemini from a text and audio interface into a real-time embodied agent, directly competing with video-based enterprise communication and customer-service platforms. Combined with the private server-side memory announced on 23 September, Google DeepMind is assembling a persistent, embodied, real-time AI presence intended for enterprise deployment.",
+      "secondOrder": "A persistent, avatar-equipped, real-time AI agent with server-side memory creates a new data-residency question: the agent now holds conversation history, visual context, and user-preference data on Google infrastructure. Enterprise procurement teams that have already negotiated data-processing agreements for text-based AI will need to revisit those agreements to cover live video and avatar interaction, which carry different regulatory classifications in the EU AI Act and Indonesia's PDP Law.",
+      "action": "If any enterprise agreement or vendor due diligence involves Google Gemini products, verify this week whether the existing data-processing addendum covers real-time video, avatar rendering, and server-side memory retention. These three capabilities were not available when most current agreements were drafted.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+        "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+        "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+        "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 24,
         "firstSeen": "2026-08-29",
         "spanDays": 29
       }
@@ -152,19 +152,17 @@
         "Blue Owl",
         "Reuters"
       ],
-      "headline": "Oracle triggers force majeure on data-center project, citing power delays; AI financing markets feel ripple effects",
-      "whatChanged": "Oracle invoked a force majeure clause on at least one data-center project because the required power supply was not delivered on schedule. Reuters separately reported that the delay is sending ripples through AI project financing markets, with Blue Owl named as an affected financing party.",
-      "whyItMatters": "This continues the archived theme that AI data-center projects are now governed by project-finance logic rather than technology-capex logic. Force majeure on a power-delivery obligation is a project-finance mechanism, not a vendor contract remedy. Its use by Oracle signals that power availability has become the governing constraint in AI infrastructure contracts, and that lenders and equity providers are now exposed to grid-timeline risk they may not have priced.",
-      "secondOrder": "As force majeure clauses become standard in AI data-center agreements, grid operators and utilities gain effective veto power over AI deployment timelines. This shifts negotiating leverage toward power providers and away from hyperscalers, which means utilities and grid operators can extract better contract terms. Indonesian data-center developers, including NeutraDC and PLN, should expect counterparties to demand explicit power-delivery guarantees with force majeure carve-outs before financing closes.",
-      "action": "Review any data-center or AI infrastructure financing term sheets in your portfolio this week for power-delivery representations and force majeure definitions. If power availability is warranted by an offtaker rather than a grid operator, reassess the counterparty risk layer.",
+      "headline": "Oracle invokes force majeure on a data-centre project, citing power-grid delays",
+      "whatChanged": "Oracle triggered a force majeure clause on at least one data-centre project because the power required for operations could not be delivered on schedule, according to Reuters citing a source familiar with the matter. A separate Reuters report says the delay is sending ripples through AI project financing, with Blue Owl among parties affected.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power thread, which is now structural across 20 editions. The force majeure event converts what was a financial and technical risk into a legal and contractual one: power-grid timing is no longer a background assumption but a contractual condition that can void or suspend obligations.",
+      "secondOrder": "Once force majeure clauses in data-centre contracts begin to be exercised on grid-delay grounds, lenders and equity sponsors will need to price grid-delivery risk explicitly into project underwriting. Insurance and hedging products covering interconnection-queue delay are nascent; the Oracle precedent may accelerate their creation and raise the cost of AI infrastructure finance in jurisdictions where grid capacity is constrained, including Indonesia.",
+      "action": "Review any data-centre or AI infrastructure investment thesis this week to confirm whether the power-delivery timeline carries contractual backstops. Specifically, verify whether offtake or debt agreements contain force majeure provisions tied to grid connection, and whether those provisions allocate delay risk to the developer, the utility, or the grid operator.",
       "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRGxJcWpfYlZSczJLRGhOQmMxNnU2NXFhUzVDSmwtTlhJRW1CNjd2MTZWOXkwcWdQZzVqNnJSdnBDU0RoWEVFYzIxbVRtNlpwWElaVENIUm9GYXJSOUFIZGJLbFNHb1lydlVWX2ZHb1ZjVXo4MURMT3BfelREVWY2TTljZ0cxRHd6TlZ5eEJhMHgycEN4MjdlbjZISDVzNktvVkQydmx3bVdoOHdmbkpBRUpLX01YMWxwWHgzcWE5ZURnbEZhSGYw?oc=5"
       ],
-      "secondOrderUrls": [
-        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
         "publishers": 1,
         "hasPrimary": false
@@ -180,52 +178,64 @@
   ],
   "watchNext": [
     {
-      "item": "RUPTL PLN 2025-2034 revision: whether the Ministry of ESDM publishes a revised plan before end of 2026, and whether it reflects the 100 GW solar target with dispatch priority reform.",
+      "item": "OJK formal response to Danantara's letter of intent to acquire a stake in Bursa Efek Indonesia; watch for any governance ring-fencing conditions or rejection.",
+      "dueDate": "2026-10-10"
+    },
+    {
+      "item": "RUPTL PLN 2025-2034 revision status: Kementerian ESDM has not published a revised plan as of September 2026; any publication or further delay extends the structural grid block.",
       "dueDate": "2026-12-31"
     },
     {
-      "item": "Oracle force majeure resolution: whether the project resumes, which grid operator or utility is named, and whether the dispute produces a disclosed settlement structure that other AI infrastructure lenders can use as a precedent.",
-      "dueDate": "2026-11-30"
+      "item": "Oracle force majeure outcome: whether the project is terminated, restructured, or resolved through alternative power arrangements, which will set a precedent for AI infrastructure contracts globally.",
+      "dueDate": "2026-11-01"
     },
     {
-      "item": "Danantara BEI stake: OJK's formal response to the acquisition letter, disclosed stake size, and any independence safeguards BEI imposes as a condition.",
-      "dueDate": "2026-11-15"
-    },
-    {
-      "item": "Anthropic Claude enzyme discovery: peer-review publication status, patent filing, and any regulatory or biosafety review triggered by AI-originated biological findings.",
-      "dueDate": "2027-03-31"
-    },
-    {
-      "item": "PLN data-center connection queue for Jakarta: any published moratorium, queue length disclosure, or policy on geographic diversification of data-center connections.",
-      "dueDate": "2026-12-31"
+      "item": "Anthropic biology lab follow-up publications on the CRISPR-like enzyme system: peer review status and any biosecurity review triggered by the finding.",
+      "dueDate": "2027-03-01"
     }
   ],
   "sources": [
     {
-      "title": "PV Magazine | Indonesia menargetkan kapasitas tenaga surya sebesar 100 GW pada tahun 2029",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "tier": 1,
       "primary": true,
-      "publishedAt": "2026-09-21T02:52:18.000Z"
+      "publishedAt": "2026-09-24T16:20:39.000Z"
     },
     {
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "publisher": "anthropic.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "tier": 1,
-      "via": "Google News",
       "primary": true,
-      "publishedAt": "2026-09-23T18:14:17.000Z"
+      "publishedAt": "2026-09-23T16:00:57.000Z"
+    },
+    {
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-23T15:25:14.000Z"
     },
     {
       "title": "Oracle triggers 'force majeure' on data center project over power delays, source says",
-      "publisher": "Reuters",
+      "publisher": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-09-24T23:00:36.000Z"
+    },
+    {
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-23T18:14:17.000Z"
     },
     {
       "title": "Danantara Mau Pegang Saham BEI, Ini Update Terbarunya",
@@ -237,24 +247,6 @@
       "publishedAt": "2026-09-26T03:00:03.000Z"
     },
     {
-      "title": "Anthropic says its biology lab has already found something big",
-      "publisher": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-23T22:17:39.000Z"
-    },
-    {
-      "title": "Kejar Target PLTS 100 GW, Pemerintah Pangkas Birokrasi Tender",
-      "publisher": "kontan.co.id",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjgxakNlOVR2Q1lyd2VvTlEyWUh1ay1rUHkyY2ZqbU5vOWdaNnF4SjNKQ0QxVmFqdlVVTWxGZkJleUxZeTR1Y194dXNLRHF6aW1oU2pRLXZBcU40ZVk1NHJKUldxSHJ2bnNDVUFERUE1cHBrMGNYdElleWQwbEFiN1kzWnNTZnQyLS0tVmdTLUF5Vk80dGh4ZVF6Z9IBlAFBVV95cUxNRE9VVDZJYVdmWUJwQ1BmR0h2ajVsNDM0dkdaM3g0dTkxLXZPTVlmOHV6aGxKajEzX2tRNXhnNHJVdVp6YkU3WnRmZW9Tc09NWnVyaFJWR2VYbUp6X3NiV3paXy1WN3lrZnl4NU9IQlJpNTNFN2xhZ3UzOVJKVEtUNDh6clpIU0FhUkVPYW42bzFnSU5H?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-26T13:00:05.000Z"
-    },
-    {
       "title": "Konsumsi Listrik Data Center yang Dilayani PLN Capai 2.378 GWh",
       "publisher": "Katadata",
       "url": "https://katadata.co.id/berita/energi/6ab78979234da/konsumsi-listrik-data-center-yang-dilayani-pln-capai-2378-gwh",
@@ -263,17 +255,8 @@
       "publishedAt": "2026-09-26T08:59:00.000Z"
     },
     {
-      "title": "Aksi Korporasi Data Center Makin Marak, Waspadai Risiko Krisis Air dan Listrik",
-      "publisher": "kontan.co.id",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG15U1p6SlJsMmtGZkJCSWFnSHdTR2tCcjNOMUZ4Rk5hMzViVmJSbjREZ2xCU3kwa2htT1ZsVjlPMk1zVE1jel9USFQ5c0VLV19UeDF1XzVpejRYcnNGWmxZaENGTkhpWnRRejhTWVgwS3RzSUhsY21NTTRMbFJQUXE2c215NHcxckl2UC13bGtsX1Y4TDBmekZCRWhiZms0amhTdUc1U0ZxSVh6dTVJZ0NR0gGrAUFVX3lxTE1tYmd5X3ZlU3MyMklVOEI3LUhHM1pPY0dBWGpvU3BrTHQ4VjNablo0QmtkSUw2V211SDhibFJrZjdwODN4M2kzR0t3R05ZM2loNTF6Nk45eVlWMXBJY3FyQ3RQeUpFYVc1bklYRUdTdTRUUGp2RHZxMlpPVmh3RjNIVlB6djQ5bzhCNDRXbVZVVnRDUUZmTUhIcmZpSVpwRk5xZHlNSFBkQVBwTQ?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-25T07:22:31.000Z"
-    },
-    {
       "title": "Oracle, Blue Owl project delay sends ripples through AI financing, sources say",
-      "publisher": "Reuters",
+      "publisher": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRGxJcWpfYlZSczJLRGhOQmMxNnU2NXFhUzVDSmwtTlhJRW1CNjd2MTZWOXkwcWdQZzVqNnJSdnBDU0RoWEVFYzIxbVRtNlpwWElaVENIUm9GYXJSOUFIZGJLbFNHb1lydlVWX2ZHb1ZjVXo4MURMT3BfelREVWY2TTljZ0cxRHd6TlZ5eEJhMHgycEN4MjdlbjZISDVzNktvVkQydmx3bVdoOHdmbkpBRUpLX01YMWxwWHgzcWE5ZURnbEZhSGYw?oc=5",
       "tier": 2,
       "via": "Google News",
@@ -281,12 +264,13 @@
       "publishedAt": "2026-09-24T22:55:00.000Z"
     },
     {
-      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
-      "publisher": "Tempo",
-      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
-      "tier": 2,
+      "title": "Anthropic says its biology lab has already found something big",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-08-14T07:04:39.000Z"
+      "publishedAt": "2026-09-23T22:17:39.000Z"
     },
     {
       "title": "Danantara Sudah Kirim Surat Mau Genggam Saham Bursa Efek - detikFinance",
@@ -298,15 +282,6 @@
       "publishedAt": "2026-09-26T00:25:00.000Z"
     },
     {
-      "title": "Anthropic says Claude AI helped discover novel enzyme system",
-      "publisher": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-23T21:12:38.000Z"
-    },
-    {
       "title": "Target PLTS 100 GWp, Pengamat Minta RUPTL PLN 2025-2034 Perlu Direvisi",
       "publisher": "kontan.co.id",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYzRXX1MzajA3WGNCOGNCYm81WVpjeTg2MTVhQ3RIbnJyQlpZVm12SUZvSFB3YTU4Y2Y3TmRxZkxGaVVZYXh3aGkyMmZic0tHMlJOekw5NlpUVWt4NnZHTFpoZjVOVUNZUzUtazBuUDVzbVE3WUFpWmtQWjZlZ21WOHptRHNpR3FPWDQ5RDNJZ2E5N0puTklDWXBIZXJyeDRzUFU1aGdHMNIBoAFBVV95cUxON19RNHdCREZOcmFuQWhQU253clpnTlFCTEtlVHpxcEFibVZSb1MtdFA3NVpGYTJCTXg3ZVlEV0ktMm9tV25rZUxZZDVBQmkwZmdIdzNncG4wVFV5YUkzQTdtUXlHV2FqUVJqVEtlXzF1LVJidzJiMWhMZnQyWFZQczFkRzVGXy1hamgtdVhKcmM2SjFJbjdlNDNTY1kzQk8y?oc=5",
@@ -316,21 +291,30 @@
       "publishedAt": "2026-09-22T09:04:03.000Z"
     },
     {
-      "title": "Kata OJK soal Penerbitan Panda Bond dan Patriot Bond",
-      "publisher": "Tempo",
-      "url": "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-01T08:07:27.000Z"
-    },
-    {
-      "title": "Ambisi PLTS 100 GW sulit terlaksana tanpa memutus jerat listrik batu bara",
-      "publisher": "The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW5YMUhISHpPRnpITXM0Y3VRdHU4VEUxNW1STzVJbGtVM1BjTTI3WkJwXzEwV2o5NjhXTGZiZTF1NGpSZm0wVmNoVXJXbHF4TDRnVXZPQnQyMW51alNqd0ZVQVVzNkhaUnVjNEtpdXFnSkdEZDh0LWhjcTBXM1UwV3lzM3pDUGhxWTM5VXJJWnRHTlE3cEV3SUsySDFSWnVwY0RYX2V0azJ3TU1w?oc=5",
+      "title": "Kejar Target PLTS 100 GW, Pemerintah Pangkas Birokrasi Tender",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjgxakNlOVR2Q1lyd2VvTlEyWUh1ay1rUHkyY2ZqbU5vOWdaNnF4SjNKQ0QxVmFqdlVVTWxGZkJleUxZeTR1Y194dXNLRHF6aW1oU2pRLXZBcU40ZVk1NHJKUldxSHJ2bnNDVUFERUE1cHBrMGNYdElleWQwbEFiN1kzWnNTZnQyLS0tVmdTLUF5Vk80dGh4ZVF6Z9IBlAFBVV95cUxNRE9VVDZJYVdmWUJwQ1BmR0h2ajVsNDM0dkdaM3g0dTkxLXZPTVlmOHV6aGxKajEzX2tRNXhnNHJVdVp6YkU3WnRmZW9Tc09NWnVyaFJWR2VYbUp6X3NiV3paXy1WN3lrZnl4NU9IQlJpNTNFN2xhZ3UzOVJKVEtUNDh6clpIU0FhUkVPYW42bzFnSU5H?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-25T02:08:00.000Z"
+      "publishedAt": "2026-09-26T13:00:05.000Z"
+    },
+    {
+      "title": "Anthropic says Claude AI helped discover novel enzyme system",
+      "publisher": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T21:12:38.000Z"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-15T17:05:57.000Z"
     }
   ],
   "trends": [
@@ -386,9 +370,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 390,
+    "candidateCount": 395,
     "poolSize": 110,
-    "generatedAt": "2026-09-26T23:23:36.693Z",
+    "generatedAt": "2026-09-26T23:48:14.234Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }

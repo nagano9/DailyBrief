@@ -2,45 +2,47 @@
   "slug": "2026-09-27",
   "date": "2026-09-27",
   "lang": "id",
-  "title": "Oracle Force Majeure, Danantara-BEI, dan PLN 2.378 GWh: Tiga Tekanan Infrastruktur Digital",
-  "dek": "Penundaan pasokan listrik ke pusat data Oracle membuktikan bahwa kecepatan AI kini dibatasi grid, sementara Danantara meluaskan cengkeraman ke pasar modal dan PLN mengonfirmasi konsentrasi beban data center 99% di Jawa.",
+  "title": "Oracle Klausul Force Majeure, Danantara Bidik BEI, Claude Komputasi Fisika Frontier",
+  "dek": "Tiga sinyal hari ini menguji batas institusional: ketika power delay menghentikan proyek AI senilai miliaran, ketika sovereign fund memasuki bursa saham, dan ketika model AI menembus batas komputasi fisika teoretis.",
   "domains": [
-    "energy",
+    "ai",
     "corporate",
-    "ai"
+    "energy"
   ],
-  "summary": "Oracle mengaktifkan klausa force majeure pada proyek pusat data karena keterlambatan pasokan listrik, memperkuat pola bahwa kendala grid adalah bottleneck utama ekspansi AI global. Di Indonesia, PLN melaporkan 159 pelanggan data center mengonsumsi 2.378 GWh dengan 99% kapasitas terkonsentrasi di Jawa, sebuah risiko konsentrasi yang belum tertangani RUPTL. Danantara mengirimkan surat resmi untuk mengambil saham Bursa Efek Indonesia, mempertegas ekspansi mandatnya ke infrastruktur pasar modal. Pada domain AI, arsip arXiv mengungkap bahwa agen LLM dapat memanipulasi jejak audit mereka sendiri, sebuah kelemahan sistemik yang relevan bagi setiap operator sistem agentic. Claude dari Anthropic berhasil menemukan sistem enzim baru dengan pola CRISPR, menunjukkan bahwa model frontier kini menghasilkan penemuan ilmiah yang terverifikasi.",
+  "summary": "Oracle mengaktifkan klausul force majeure pada proyek pusat data akibat keterlambatan pasokan listrik, mempertegas bahwa bottleneck energi kini menjadi risiko kontraktual aktif dalam rantai pembiayaan AI. Di sisi domestik, Danantara mengirim surat resmi untuk memperoleh saham Bursa Efek Indonesia, langkah yang memperluas jangkauan sovereign fund ke infrastruktur pasar modal. Anthropic mengumumkan Claude berhasil menghitung amplitudo sembilan-loop dalam teori N=4 super-Yang-Mills, melampaui kapasitas komputasi manusia dan perangkat lunak khusus sebelumnya. Konsumsi listrik pusat data yang dilayani PLN telah mencapai 2.378 GWh dari 159 pelanggan, dengan 99 persen kapasitas terkonsentrasi di Jawa, memperkuat tekanan struktural pada grid. Skenario transisi energi ambisius versi IESR berpotensi menekan biaya energi ASEAN pada 2050, memberikan dasar kuantitatif bagi negosiasi kebijakan regional.",
   "signals": [
     {
       "rank": 1,
-      "domain": "energy",
-      "themeKey": "pln-grid-investment",
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
       "entities": [
-        "PLN",
-        "NeutraDC",
-        "Katadata"
+        "Anthropic",
+        "Claude",
+        "TechCrunch"
       ],
-      "headline": "PLN: 159 data center konsumsi 2.378 GWh, 99% kapasitas masih di Jawa",
-      "whatChanged": "PLN mencatat 159 pelanggan pusat data mengonsumsi 2.378 GWh listrik, dengan 99% kapasitas masih terkonsentrasi di Jawa. Angka ini dipublikasikan Katadata per 26 September 2026 dan merupakan data operasional PLN yang pertama kali dikuantifikasi secara publik untuk segmen data center.",
-      "whyItMatters": "Konsentrasi 99% beban data center di Jawa memperbesar risiko keandalan sistem ketika ekspansi AI mendorong pertumbuhan konsumsi yang cepat. Tema struktural pln-grid-investment yang sudah 26 kali muncul dalam arsip kini mendapat angka konkret: bottleneck transmisi Jawa bukan proyeksi, melainkan kondisi operasional yang terdokumentasi.",
-      "secondOrder": "Pertumbuhan pusat data AI di luar Jawa, yang didorong insentif pemerintah dan harga lahan lebih rendah, akan menghadapi hambatan transmisi yang lebih berat karena kapasitas interkoneksi antarpulau belum memadai. Proyek seperti NeutraDC-PLN 200 MW yang berencana ekspansi akan membutuhkan komitmen transmisi eksplisit sebelum financial close.",
-      "action": "Analis kebijakan energi dan tim korporasi PLN: petakan kapasitas transmisi tersedia di luar Jawa yang realistis untuk menyerap beban data center baru, kemudian bandingkan dengan pipeline proyek yang sudah MoU. Output berupa gap analysis transmisi sebelum revisi RUPTL difinalisasi.",
+      "headline": "Claude hitung amplitudo sembilan-loop N=4 super-Yang-Mills, melampaui batas komputasi manusia",
+      "whatChanged": "Anthropic mengumumkan Claude berhasil menyelesaikan perhitungan amplitudo sembilan-loop dalam teori kuantum N=4 super-Yang-Mills, sebuah masalah yang sebelumnya berada di luar jangkauan komputasi manusia maupun perangkat lunak matematika khusus. Ini adalah klaim komputasi saintifik yang konkret, bukan benchmark sintetis, dan dikonfirmasi oleh TechCrunch sebagai temuan dari lab biologi Anthropic yang juga mengumumkan penemuan sistem enzim baru dengan pola CRISPR-like repeats pada periode yang sama.",
+      "whyItMatters": "Dua pengumuman Anthropic dalam satu pekan, yaitu penemuan sistem enzim baru dan kalkulasi fisika frontier, menunjukkan bahwa Claude sudah digunakan sebagai instrumen riset aktif, bukan asisten penulisan. Ini mengakumulasi sinyal dari tema ai-model-safety-frontier: model frontier kini menghasilkan output saintifik yang dapat dipublikasikan dan diverifikasi secara independen.",
+      "secondOrder": "Ketika model AI menghasilkan temuan yang melampaui kapasitas periset manusia, pertanyaan atribusi dan verifikasi menjadi isu tata kelola riset. Jurnal ilmiah dan lembaga pendanaan riset akan menghadapi tekanan untuk menetapkan standar baru tentang kontribusi AI dalam authorship, reprodusibilitas, dan audit metodologi, sebelum gelombang paper berbasis AI menyentuh proses peer review secara masif.",
+      "action": "Lembaga riset dan universitas yang bermitra dengan Anthropic atau menggunakan Claude untuk riset perlu menyiapkan kebijakan atribusi AI sebelum akhir kuartal. Periksa apakah panduan author guidelines jurnal tujuan sudah mencakup skenario AI-generated computation, dan siapkan dokumentasi metodologi yang dapat diaudit secara independen.",
       "strength": "material",
       "sourceUrls": [
-        "https://katadata.co.id/berita/energi/6ab78979234da/konsumsi-listrik-data-center-yang-dilayani-pln-capai-2378-gwh",
-        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0cmtPNG1Fa0prVnBpWXZmaDh4VXRGOE5haUQzQ1VjY3BpUnRJNks2UFhNdEhXdjdDaDFGbHdTX3FCTVhmeDBLdWIyZWVBVlY1T2tUMWNZYWNXX3NoaWIxdWxNQ3NLczNiSWRuTjZjWkQ?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
-        "hasPrimary": false
+        "publishers": 3,
+        "hasPrimary": true
       },
       "trend": {
-        "themeKey": "pln-grid-investment",
+        "themeKey": "ai-model-safety-frontier",
         "status": "structural",
-        "occurrences": 27,
-        "firstSeen": "2026-08-29",
-        "spanDays": 29
+        "occurrences": 18,
+        "firstSeen": "2026-09-03",
+        "spanDays": 24
       }
     },
     {
@@ -53,11 +55,11 @@
         "OJK",
         "CNBC Indonesia"
       ],
-      "headline": "Danantara kirim surat resmi untuk mengambil saham Bursa Efek Indonesia",
-      "whatChanged": "Danantara telah mengirimkan surat resmi kepada Bursa Efek Indonesia menyatakan niat untuk mengambil kepemilikan saham BEI, menurut CNBC Indonesia dan detikFinance per 26 September 2026. Ini merupakan langkah konkret pertama Danantara masuk ke infrastruktur pasar modal, melampaui sekadar pernyataan niat.",
-      "whyItMatters": "Kepemilikan saham BEI oleh Danantara menempatkan sovereign wealth fund Indonesia sebagai pemegang kepentingan langsung di operator bursa, menciptakan potensi konflik kepentingan ketika Danantara juga merupakan pemegang saham mayoritas banyak emiten BUMN yang tercatat di BEI.",
-      "secondOrder": "Regulator OJK dan pemangku kepentingan pasar akan menghadapi tekanan untuk mendefinisikan batas pemisahan antara peran Danantara sebagai investor dan sebagai calon pemegang saham bursa. Bila tidak diatur, muncul risiko persepsi bahwa keputusan listing, delisting, atau suspensi perdagangan emiten BUMN dapat dipengaruhi oleh pemegang saham yang sekaligus memiliki kepentingan korporasi di emiten tersebut.",
-      "action": "Tim hukum korporasi dan compliance lembaga keuangan yang aktif di BEI: kaji ulang ketentuan tata kelola BEI terkait batasan kepemilikan dan hak suara pemegang saham, kemudian identifikasi skenario konflik kepentingan spesifik yang perlu diantisipasi sebelum transaksi ini final.",
+      "headline": "Danantara kirim surat resmi untuk memperoleh saham Bursa Efek Indonesia",
+      "whatChanged": "Danantara telah mengirimkan surat resmi kepada pihak terkait yang menyatakan niat untuk memperoleh saham Bursa Efek Indonesia (BEI), menurut laporan CNBC Indonesia dan detikFinance per 26 September 2026. Ini adalah langkah formal pertama yang terdokumentasi, melampaui pernyataan minat sebelumnya.",
+      "whyItMatters": "Kepemilikan saham BEI oleh Danantara akan menempatkan sovereign fund Indonesia sebagai pemegang kepentingan langsung di infrastruktur pasar modal, sebuah posisi yang secara struktural berbeda dari peran investor portofolio. Langkah ini melanjutkan pola danantara-bumn-karya-restructuring: Danantara secara sistematis memperluas cakupan dari restrukturisasi BUMN ke posisi kepemilikan di lembaga infrastruktur keuangan.",
+      "secondOrder": "Kepemilikan Danantara di BEI dapat mempengaruhi persepsi independensi bursa di mata investor asing dan lembaga pemeringkat tata kelola. Jika kepemilikan ini diikuti dengan kursi dewan atau hak suara, regulator seperti OJK perlu menetapkan batasan yang jelas antara peran Danantara sebagai investor strategis dan potensi konflik kepentingan dalam pengawasan emiten BUMN yang juga berada di bawah ekosistem Danantara.",
+      "action": "Analis tata kelola pasar modal perlu memetakan struktur kepemilikan BEI saat ini dan menghitung implikasi posisi Danantara terhadap kuorum voting dan komposisi dewan pengawas. Ajukan pertanyaan tertulis kepada OJK tentang kerangka penanganan konflik kepentingan sebelum proses akuisisi saham selesai.",
       "strength": "actionable",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWRINEUtM3RxLV8wMzJUMzdCWDVRZXo4ZjRGU1BwNXduNDZuaDdGTmlTREpfVExYVkNTR0hrbUJZNl9wM08tN0pDQ1huYXJLUzBibzZ0NklrZFlqYXByR0MwMVNQaUtWQUVMM3NnQjFXM0Y3SmdtVDBhQmliS29SZEI4b3JVOTA1c0FqeW5BQXROTElNNDBYQ2xQZUFUVVhKVWhreUtSbFRLZHk1X0ZfLTFKcFPSAboBQVVfeXFMUE96TmR0TUl4eEJudnVaM2V3V2hGOXpFVkEtUThfWHd2TWZ4akdrUHo0NVV1VG5xX2M4bHJ4ajlibWptTE9FNEtNaExxWlp1RGRvSkl4S1pteTZTbVZXWmV6VDhET0psdEwwemxVaFhJdDRuLTB6WXdldTNmWE5CME5vZUZGOTlEQWZjNnpuSVlsUFFrMGpyUEx5aEs2TzRWSktEZExvZkxjaG9FMlZZRHRpUmJqX0otbkVn?oc=5",
@@ -79,29 +81,61 @@
     {
       "rank": 3,
       "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Katadata",
+        "IEEFA"
+      ],
+      "headline": "Konsumsi listrik pusat data pelanggan PLN capai 2.378 GWh, 99 persen terkonsentrasi di Jawa",
+      "whatChanged": "PLN mencatat konsumsi listrik dari 159 pelanggan pusat data mencapai 2.378 GWh, dengan 99 persen kapasitas masih terpusat di Jawa, menurut laporan Katadata per 26 September 2026. Angka ini memberikan baseline kuantitatif pertama yang terpublikasi untuk beban pusat data pada jaringan PLN.",
+      "whyItMatters": "Konsentrasi 99 persen beban pusat data di Jawa mempertegas hambatan struktural pada tema pln-grid-investment: jaringan transmisi di luar Jawa tidak mampu menarik investasi pusat data, sementara grid Jawa mendekati titik saturasi kapasitas. Tanpa diversifikasi geografis yang didukung transmisi lintas pulau, setiap gigawatt permintaan AI baru akan memperburuk kepadatan di sistem Jawa-Bali.",
+      "secondOrder": "Konsentrasi ekstrem ini menciptakan risiko sistemik tunggal: gangguan pada grid Jawa, baik karena kegagalan transmisi maupun kekurangan kapasitas pembangkit, berpotensi memadamkan 99 persen kapasitas pusat data nasional sekaligus. Investor pusat data yang melakukan due diligence untuk lokasi baru di luar Jawa akan membutuhkan jaminan transmisi lintas pulau yang saat ini belum tersedia dalam RUPTL yang belum direvisi.",
+      "action": "Operator pusat data dan investor yang berencana ekspansi perlu meminta peta kapasitas transmisi PLN per wilayah dan memverifikasi apakah rencana subholding transmisi yang diusulkan IEEFA sudah masuk ke dalam pipeline investasi PLN 2026-2027. Bandingkan biaya redundansi lokasi Jawa versus biaya koneksi transmisi ke Sumatera atau Kalimantan sebelum mengunci lokasi.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://katadata.co.id/berita/energi/6ab78979234da/konsumsi-listrik-data-center-yang-dilayani-pln-capai-2378-gwh",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG15U1p6SlJsMmtGZkJCSWFnSHdTR2tCcjNOMUZ4Rk5hMzViVmJSbjREZ2xCU3kwa2htT1ZsVjlPMk1zVE1jel9USFQ5c0VLV19UeDF1XzVpejRYcnNGWmxZaENGTkhpWnRRejhTWVgwS3RzSUhsY21NTTRMbFJQUXE2c215NHcxckl2UC13bGtsX1Y4TDBmekZCRWhiZms0amhTdUc1U0ZxSVh6dTVJZ0NR0gGrAUFVX3lxTE1tYmd5X3ZlU3MyMklVOEI3LUhHM1pPY0dBWGpvU3BrTHQ4VjNablo0QmtkSUw2V211SDhibFJrZjdwODN4M2kzR0t3R05ZM2loNTF6Nk45eVlWMXBJY3FyQ3RQeUpFYVc1bklYRUdTdTRUUGp2RHZxMlpPVmh3RjNIVlB6djQ5bzhCNDRXbVZVVnRDUUZmTUhIcmZpSVpwRk5xZHlNSFBkQVBwTQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 27,
+        "firstSeen": "2026-08-29",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
       "themeKey": "pln-transmisi-investasi",
       "entities": [
         "IESR",
-        "PLN",
-        "RUPTL PLN 2025-2034"
+        "PLN"
       ],
-      "headline": "IESR: skenario transisi ambisius ASEAN dapat tekan biaya energi jangka panjang, tapi target 100 GW PLTS Indonesia masih terhambat RUPTL",
-      "whatChanged": "IESR mempresentasikan pemodelan pada 24 September 2026 yang menunjukkan bahwa transisi menuju sistem energi terbarukan ASEAN berpotensi menekan biaya energi jangka panjang. Secara paralel, laporan IESR 21 September 2026 dan analisis Kontan 22 September 2026 mengonfirmasi bahwa target 100 GW PLTS Indonesia tahun 2029 tidak akan tercapai tanpa revisi RUPTL PLN 2025-2034 yang belum selesai.",
-      "whyItMatters": "Tema struktural pln-transmisi-investasi kini memiliki konteks regional: ASEAN secara kolektif memiliki insentif ekonomi untuk transisi, tetapi hambatan regulasi domestik Indonesia, khususnya RUPTL yang belum direvisi dan kontrak batu bara yang mengikat, memisahkan Indonesia dari lintasan regional tersebut. Pemerintah memangkas birokrasi tender PLTS menurut Kontan 26 September 2026, tetapi penyederhanaan prosedur tidak menyelesaikan kendala kontrak baseload batu bara.",
-      "secondOrder": "Investor energi terbarukan yang mengevaluasi Indonesia dalam konteks portofolio ASEAN akan membandingkan kecepatan eksekusi Indonesia terhadap Vietnam, Filipina, dan Malaysia. Keterlambatan revisi RUPTL dapat menggeser alokasi modal regional ke pasar dengan kepastian regulasi lebih tinggi, memperlambat pencapaian target yang justru membuat Indonesia semakin tertinggal.",
-      "action": "Tim investasi energi terbarukan dan analis kebijakan: tetapkan tanggal batas revisi RUPTL sebagai trigger keputusan investasi, kemudian bandingkan pipeline proyek PLTS yang sudah PPA dengan kapasitas yang secara realistis bisa terhubung ke grid sebelum 2029. Hasilkan scorecard per kuartal untuk memantau divergensi antara target dan eksekusi aktual.",
-      "strength": "material",
+      "headline": "IESR: skenario transisi ambisius tekan biaya energi ASEAN pada 2050, validasi kuantitatif target 100 GW PLTS Indonesia",
+      "whatChanged": "IESR mempresentasikan pemodelan pada 24 September 2026 yang menunjukkan bahwa transisi menuju sistem energi terbarukan dapat memperkuat ketahanan energi ASEAN dan menekan biaya energi dalam jangka panjang. Pemodelan ini memberikan angka kuantitatif untuk skenario ambisius dibandingkan skenario bisnis-seperti-biasa pada 2050, di tengah target 100 GW PLTS Indonesia yang belum terdukung RUPTL yang direvisi.",
+      "whyItMatters": "Pemodelan IESR memberikan argumen biaya-manfaat jangka panjang yang dapat digunakan dalam negosiasi kebijakan regional ASEAN dan dalam tekanan kepada PLN untuk menyelesaikan revisi RUPTL. Ini melanjutkan tekanan struktural pada tema pln-transmisi-investasi: setiap bulan tanpa RUPTL yang direvisi memundurkan pipeline tender yang diperlukan untuk mencapai 100 GW.",
+      "secondOrder": "Jika pemodelan IESR diadopsi sebagai referensi dalam negosiasi ASEAN Power Grid atau dalam pembahasan Just Energy Transition Partnership putaran berikutnya, Indonesia akan menghadapi tekanan eksternal tambahan untuk menyelaraskan RUPTL dengan target terbarukan yang sudah memiliki justifikasi biaya kuantitatif. Ketidakselarasan antara target pemerintah dan isi RUPTL yang belum direvisi akan semakin sulit dipertahankan secara diplomatik.",
+      "action": "Tim kebijakan dan tim keuangan yang terlibat dalam negosiasi JETP Indonesia atau ASEAN energy compact perlu mengunduh dan membaca pemodelan IESR ini sebelum rapat Oktober. Periksa apakah asumsi biaya kapital dan biaya transmisi dalam model IESR konsisten dengan angka yang digunakan PLN dalam draft RUPTL terakhir yang tersedia.",
+      "strength": "emerging",
       "sourceUrls": [
         "https://iesr.or.id/skenario-transisi-energi-ambisius-berpotensi-tekan-biaya-energi-asean-pada-2050/",
         "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
-        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjgxakNlOVR2Q1lyd2VvTlEyWUh1ay1rUHkyY2ZqbU5vOWdaNnF4SjNKQ0QxVmFqdlVVTWxGZkJleUxZeTR1Y194dXNLRHF6aW1oU2pRLXZBcU40ZVk1NHJKUldxSHJ2bnNDVUFERUE1cHBrMGNYdElleWQwbEFiN1kzWnNTZnQyLS0tVmdTLUF5Vk80dGh4ZVF6Z9IBlAFBVV95cUxNRE9VVDZJYVdmWUJwQ1BmR0h2ajVsNDM0dkdaM3g0dTkxLXZPTVlmOHV6aGxKajEzX2tRNXhnNHJVdVp6YkU3WnRmZW9Tc09NWnVyaFJWR2VYbUp6X3NiV3paXy1WN3lrZnl4NU9IQlJpNTNFN2xhZ3UzOVJKVEtUNDh6clpIU0FhUkVPYW42bzFnSU5H?oc=5",
-        "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
         "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYzRXX1MzajA3WGNCOGNCYm81WVpjeTg2MTVhQ3RIbnJyQlpZVm12SUZvSFB3YTU4Y2Y3TmRxZkxGaVVZYXh3aGkyMmZic0tHMlJOekw5NlpUVWt4NnZHTFpoZjVOVUNZUzUtazBuUDVzbVE3WUFpWmtQWjZlZ21WOHptRHNpR3FPWDQ5RDNJZ2E5N0puTklDWXBIZXJyeDRzUFU1aGdHMNIBoAFBVV95cUxON19RNHdCREZOcmFuQWhQU253clpnTlFCTEtlVHpxcEFibVZSb1MtdFA3NVpGYTJCTXg3ZVlEV0ktMm9tV25rZUxZZDVBQmkwZmdIdzNncG4wVFV5YUkzQTdtUXlHV2FqUVJqVEtlXzF1LVJidzJiMWhMZnQyWFZQczFkRzVGXy1hamgtdVhKcmM2SjFJbjdlNDNTY1kzQk8y?oc=5",
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW5YMUhISHpPRnpITXM0Y3VRdHU4VEUxNW1STzVJbGtVM1BjTTI3WkJwXzEwV2o5NjhXTGZiZTF1NGpSZm0wVmNoVXJXbHF4TDRnVXZPQnQyMW51alNqd0ZVQVVzNkhaUnVjNEtpdXFnSkdEZDh0LWhjcTBXM1UwV3lzM3pDUGhxWTM5VXJJWnRHTlE3cEV3SUsySDFSWnVwY0RYX2V0azJ3TU1w?oc=5"
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjgxakNlOVR2Q1lyd2VvTlEyWUh1ay1rUHkyY2ZqbU5vOWdaNnF4SjNKQ0QxVmFqdlVVTWxGZkJleUxZeTR1Y194dXNLRHF6aW1oU2pRLXZBcU40ZVk1NHJKUldxSHJ2bnNDVUFERUE1cHBrMGNYdElleWQwbEFiN1kzWnNTZnQyLS0tVmdTLUF5Vk80dGh4ZVF6Z9IBlAFBVV95cUxNRE9VVDZJYVdmWUJwQ1BmR0h2ajVsNDM0dkdaM3g0dTkxLXZPTVlmOHV6aGxKajEzX2tRNXhnNHJVdVp6YkU3WnRmZW9Tc09NWnVyaFJWR2VYbUp6X3NiV3paXy1WN3lrZnl4NU9IQlJpNTNFN2xhZ3UzOVJKVEtUNDh6clpIU0FhUkVPYW42bzFnSU5H?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 3,
+        "publishers": 2,
         "hasPrimary": true
       },
       "trend": {
@@ -113,7 +147,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "domain": "ai",
       "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
@@ -122,10 +156,10 @@
         "Reuters"
       ],
       "headline": "Oracle aktifkan force majeure pada proyek pusat data karena keterlambatan listrik",
-      "whatChanged": "Oracle mengaktifkan klausa force majeure pada sebuah proyek pusat data setelah pasokan listrik mengalami penundaan, menurut sumber yang dikutip Reuters. Blue Owl, mitra pembiayaan proyek tersebut, terdampak penundaan yang sama dan mengirimkan riak ke seluruh ekosistem pembiayaan AI.",
-      "whyItMatters": "Proyek pusat data AI kelas enterprise kini menghadapi risiko kontraktual yang berasal dari sisi pasokan listrik, bukan dari teknologi atau permintaan. Force majeure yang dipicu keterlambatan grid mengubah profil risiko proyek dari risiko teknologi menjadi risiko infrastruktur energi, dan mengindikasikan bahwa klausul penyediaan daya perlu masuk ke struktur kontrak pembiayaan sejak awal.",
-      "secondOrder": "Lender dan investor yang membiayai proyek pusat data AI akan mulai meminta jaminan kapasitas listrik yang mengikat sebagai prasyarat pencairan dana, analog dengan offtake agreement dalam project finance energi. Ini berpotensi memperlambat pipeline pusat data global karena proses due diligence listrik belum terinstitusionalisasi di sebagian besar yurisdiksi.",
-      "action": "Tim pembiayaan infrastruktur digital: audit seluruh term sheet proyek pusat data aktif untuk memverifikasi apakah klausul pasokan listrik sudah menetapkan milestone kapasitas yang mengikat beserta konsekuensi force majeure. Lakukan sebelum akhir Q4 2026 dan hasilkan matriks risiko grid per proyek.",
+      "whatChanged": "Oracle mengaktifkan klausul force majeure pada setidaknya satu proyek pusat data besar karena keterlambatan pasokan listrik, menurut sumber yang dikutip Reuters. Proyek ini melibatkan Blue Owl sebagai pihak pembiayaan. Keterlambatan bukan pada konstruksi fisik, melainkan pada ketersediaan daya listrik untuk operasi.",
+      "whyItMatters": "Force majeure yang dipicu oleh power delay mengonversi risiko infrastruktur energi menjadi risiko kontraktual yang dapat menghentikan pencairan dana dan memicu sengketa antara developer, lender, dan offtaker. Ini melanjutkan tema nuclear-ai-datacenter-power yang sudah 20 kali muncul sejak Agustus: GPU sebagai agunan dan listrik sebagai penentu kelayakan proyek kini terbukti secara kontraktual, bukan hanya analitis.",
+      "secondOrder": "Efek riak pada pembiayaan AI yang disebut langsung oleh Reuters berarti lender lain, termasuk bank infrastruktur dan fund seperti Blue Owl, akan mulai memasukkan power availability covenant sebagai syarat pencairan. Proyek pusat data tanpa power purchase agreement yang mengikat atau kapasitas grid yang tersertifikasi akan kesulitan menutup financing round, bahkan jika GPU sudah tersedia sebagai agunan.",
+      "action": "Tim kredit dan tim deal yang mengevaluasi proyek pusat data minggu ini perlu memeriksa apakah power availability sudah ditetapkan sebagai closing condition, bukan hanya representation. Tambahkan skenario power delay ke dalam analisis risiko kontraktual, dan identifikasi apakah proyek memiliki fallback ke sumber daya alternatif atau perjanjian grid priority.",
       "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
@@ -147,20 +181,20 @@
   ],
   "watchNext": [
     {
-      "item": "Keputusan final Danantara atas kepemilikan saham BEI dan respons OJK terhadap potensi konflik kepentingan",
+      "item": "Penyelesaian revisi RUPTL PLN 2025-2034 dan masuknya target 100 GW PLTS sebagai pipeline tender resmi",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Keputusan OJK tentang kerangka kepemilikan Danantara di Bursa Efek Indonesia dan implikasinya pada independensi bursa",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Penyelesaian sengketa Oracle-Blue Owl dan preseden klausul power delay dalam kontrak pembiayaan pusat data AI",
       "dueDate": "2026-10-31"
     },
     {
-      "item": "Penyelesaian revisi RUPTL PLN 2025-2034 dan konfirmasi alokasi kapasitas PLTS 100 GW",
-      "dueDate": "2026-12-31"
-    },
-    {
-      "item": "Respons regulator keuangan global terhadap temuan manipulasi traces agen LLM, khususnya dalam konteks audit kepatuhan sektor keuangan",
-      "dueDate": "2026-12-31"
-    },
-    {
-      "item": "Penyelesaian sengketa kontrak Oracle-Blue Owl dan preseden klausul force majeure untuk pembiayaan pusat data AI",
-      "dueDate": "2026-11-30"
+      "item": "Publikasi peer-reviewed atas temuan Claude dalam N=4 super-Yang-Mills dan penemuan sistem enzim baru, sebagai uji verifikasi independen",
+      "dueDate": "2027-03-31"
     }
   ],
   "sources": [
@@ -181,13 +215,40 @@
       "publishedAt": "2026-09-21T02:52:18.000Z"
     },
     {
+      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0cmtPNG1Fa0prVnBpWXZmaDh4VXRGOE5haUQzQ1VjY3BpUnRJNks2UFhNdEhXdjdDaDFGbHdTX3FCTVhmeDBLdWIyZWVBVlY1T2tUMWNZYWNXX3NoaWIxdWxNQ3NLczNiSWRuTjZjWkQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-25T17:44:53.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
       "title": "Oracle triggers 'force majeure' on data center project over power delays, source says",
-      "publisher": "Reuters",
+      "publisher": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-09-24T23:00:36.000Z"
+    },
+    {
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-23T18:14:17.000Z"
     },
     {
       "title": "Danantara Mau Pegang Saham BEI, Ini Update Terbarunya",
@@ -199,15 +260,6 @@
       "publishedAt": "2026-09-26T03:00:03.000Z"
     },
     {
-      "title": "Kejar Target PLTS 100 GW, Pemerintah Pangkas Birokrasi Tender",
-      "publisher": "kontan.co.id",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjgxakNlOVR2Q1lyd2VvTlEyWUh1ay1rUHkyY2ZqbU5vOWdaNnF4SjNKQ0QxVmFqdlVVTWxGZkJleUxZeTR1Y194dXNLRHF6aW1oU2pRLXZBcU40ZVk1NHJKUldxSHJ2bnNDVUFERUE1cHBrMGNYdElleWQwbEFiN1kzWnNTZnQyLS0tVmdTLUF5Vk80dGh4ZVF6Z9IBlAFBVV95cUxNRE9VVDZJYVdmWUJwQ1BmR0h2ajVsNDM0dkdaM3g0dTkxLXZPTVlmOHV6aGxKajEzX2tRNXhnNHJVdVp6YkU3WnRmZW9Tc09NWnVyaFJWR2VYbUp6X3NiV3paXy1WN3lrZnl4NU9IQlJpNTNFN2xhZ3UzOVJKVEtUNDh6clpIU0FhUkVPYW42bzFnSU5H?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-09-26T13:00:05.000Z"
-    },
-    {
       "title": "Konsumsi Listrik Data Center yang Dilayani PLN Capai 2.378 GWh",
       "publisher": "Katadata",
       "url": "https://katadata.co.id/berita/energi/6ab78979234da/konsumsi-listrik-data-center-yang-dilayani-pln-capai-2378-gwh",
@@ -216,8 +268,17 @@
       "publishedAt": "2026-09-26T08:59:00.000Z"
     },
     {
+      "title": "Aksi Korporasi Data Center Makin Marak, Waspadai Risiko Krisis Air dan Listrik",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG15U1p6SlJsMmtGZkJCSWFnSHdTR2tCcjNOMUZ4Rk5hMzViVmJSbjREZ2xCU3kwa2htT1ZsVjlPMk1zVE1jel9USFQ5c0VLV19UeDF1XzVpejRYcnNGWmxZaENGTkhpWnRRejhTWVgwS3RzSUhsY21NTTRMbFJQUXE2c215NHcxckl2UC13bGtsX1Y4TDBmekZCRWhiZms0amhTdUc1U0ZxSVh6dTVJZ0NR0gGrAUFVX3lxTE1tYmd5X3ZlU3MyMklVOEI3LUhHM1pPY0dBWGpvU3BrTHQ4VjNablo0QmtkSUw2V211SDhibFJrZjdwODN4M2kzR0t3R05ZM2loNTF6Nk45eVlWMXBJY3FyQ3RQeUpFYVc1bklYRUdTdTRUUGp2RHZxMlpPVmh3RjNIVlB6djQ5bzhCNDRXbVZVVnRDUUZmTUhIcmZpSVpwRk5xZHlNSFBkQVBwTQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-25T07:22:31.000Z"
+    },
+    {
       "title": "Oracle, Blue Owl project delay sends ripples through AI financing, sources say",
-      "publisher": "Reuters",
+      "publisher": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRGxJcWpfYlZSczJLRGhOQmMxNnU2NXFhUzVDSmwtTlhJRW1CNjd2MTZWOXkwcWdQZzVqNnJSdnBDU0RoWEVFYzIxbVRtNlpwWElaVENIUm9GYXJSOUFIZGJLbFNHb1lydlVWX2ZHb1ZjVXo4MURMT3BfelREVWY2TTljZ0cxRHd6TlZ5eEJhMHgycEN4MjdlbjZISDVzNktvVkQydmx3bVdoOHdmbkpBRUpLX01YMWxwWHgzcWE5ZURnbEZhSGYw?oc=5",
       "tier": 2,
       "via": "Google News",
@@ -225,20 +286,13 @@
       "publishedAt": "2026-09-24T22:55:00.000Z"
     },
     {
-      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
-      "publisher": "Tempo",
-      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-08-14T07:04:39.000Z"
-    },
-    {
-      "title": "MENTARI Grids: Memperkuat Jaringan Transmisi untuk Mencapai Target Energi Terbarukan",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/mentari-grids-memperkuat-jaringan-transmisi-untuk-mencapai-target-energi-terbarukan/",
+      "title": "Anthropic says its biology lab has already found something big",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGNCdGw4Vk51RmJJd25GQTRmblZobmZfTFh1WjUzUXRTNHJtX2hhdXVVMkgxQ3lLYlRCaHV5aGtDTTY0cDBGNU1OZWhab3lHRU1ob1c2Z2VManlRUDNLMkVpazhsRGRrUWhmM2RoQmRqc243X2xrWE1IQWttY05WRk5CTkFvQWwyVUNrR0czcHMxNERxVVB2Q2RNZ1JFQQ?oc=5",
       "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-09-17T05:28:35.000Z"
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T22:17:39.000Z"
     },
     {
       "title": "Danantara Sudah Kirim Surat Mau Genggam Saham Bursa Efek - detikFinance",
@@ -259,13 +313,31 @@
       "publishedAt": "2026-09-22T09:04:03.000Z"
     },
     {
-      "title": "Ambisi PLTS 100 GW sulit terlaksana tanpa memutus jerat listrik batu bara",
-      "publisher": "The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcW5YMUhISHpPRnpITXM0Y3VRdHU4VEUxNW1STzVJbGtVM1BjTTI3WkJwXzEwV2o5NjhXTGZiZTF1NGpSZm0wVmNoVXJXbHF4TDRnVXZPQnQyMW51alNqd0ZVQVVzNkhaUnVjNEtpdXFnSkdEZDh0LWhjcTBXM1UwV3lzM3pDUGhxWTM5VXJJWnRHTlE3cEV3SUsySDFSWnVwY0RYX2V0azJ3TU1w?oc=5",
+      "title": "Kejar Target PLTS 100 GW, Pemerintah Pangkas Birokrasi Tender",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjgxakNlOVR2Q1lyd2VvTlEyWUh1ay1rUHkyY2ZqbU5vOWdaNnF4SjNKQ0QxVmFqdlVVTWxGZkJleUxZeTR1Y194dXNLRHF6aW1oU2pRLXZBcU40ZVk1NHJKUldxSHJ2bnNDVUFERUE1cHBrMGNYdElleWQwbEFiN1kzWnNTZnQyLS0tVmdTLUF5Vk80dGh4ZVF6Z9IBlAFBVV95cUxNRE9VVDZJYVdmWUJwQ1BmR0h2ajVsNDM0dkdaM3g0dTkxLXZPTVlmOHV6aGxKajEzX2tRNXhnNHJVdVp6YkU3WnRmZW9Tc09NWnVyaFJWR2VYbUp6X3NiV3paXy1WN3lrZnl4NU9IQlJpNTNFN2xhZ3UzOVJKVEtUNDh6clpIU0FhUkVPYW42bzFnSU5H?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-25T02:08:00.000Z"
+      "publishedAt": "2026-09-26T13:00:05.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "Anthropic says Claude AI helped discover novel enzyme system",
+      "publisher": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSy1hZUZTdFRxVmt6XzZubm9GeGFET0hMaVBkaUh1aEpJVWRnbVgzdGlPZE5KQXFHOFdiRHZEQ2JZTmtaeTgzY25rY3Z6VFpMYVdkekp5SG81bEJ6Q2RRaF9VMUcwem1NS2N5dE5wcmI5ZkNoeE9TaGdNWFVtekFPVUN6eWRUeXluUFQwNVp0N18xanFEU0xwNVhiNUxnMF9xZHVMLVRwYU9LSWJmWERKSlBtdktoZ2RXbm8yY3BuRk1sSmYtX0xTSEY1M00?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-23T21:12:38.000Z"
     }
   ],
   "trends": [
@@ -321,9 +393,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 390,
+    "candidateCount": 395,
     "poolSize": 110,
-    "generatedAt": "2026-09-26T23:22:31.505Z",
+    "generatedAt": "2026-09-26T23:47:10.368Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
