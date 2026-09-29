@@ -1,0 +1,370 @@
+{
+  "slug": "2026-09-30",
+  "date": "2026-09-30",
+  "lang": "id",
+  "title": "OpenAI DevDay & GPT-6.1 Sol, IESR Grid Warning, Danantara LRT City",
+  "dek": "Tiga gerakan simultan hari ini: OpenAI mendorong batas harga-kinerja model frontier, IESR mempertegas krisis ketahanan jaringan listrik Indonesia pasca-pemadaman Sumatra, dan Danantara mengikat komitmen publik atas proyek LRT City mulai 1 Oktober.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI DevDay 2026 mengumumkan lebih dari 20 produk sekaligus, termasuk GPT-6.1 Sol dengan harga seperlima Astra dan agen proaktif Dots, mempercepat komoditisasi kemampuan frontier. IESR pada 28 September menegaskan bahwa pemadaman Sumatra adalah bukti sistemik bahwa jaringan listrik Indonesia belum tahan iklim, melanjutkan tema struktural pln-grid-investment yang telah berlangsung 30 hari. Danantara secara publik menjamin LRT City beroperasi kembali mulai 1 Oktober, sinyal bahwa tekanan penyelesaian proyek BUMN Karya kini memasuki tenggat konkret. Anthropic menerbitkan penilaian GLM-5.3 yang menunjukkan peningkatan kapabilitas siber model pihak ketiga, memperluas cakupan risiko keamanan melampaui model Anthropic sendiri. Investor swasta mulai membiayai pembangkit listrik on-site untuk pusat data AI, menggeser bottleneck energi dari grid publik ke project finance privat.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "GPT-6.1 Sol",
+        "Dots",
+        "Astra"
+      ],
+      "headline": "OpenAI DevDay 2026: GPT-6.1 Sol dirilis dengan harga seperlima Astra, plus agen proaktif Dots",
+      "whatChanged": "OpenAI mengumumkan lebih dari 20 produk di DevDay 2026, termasuk GPT-6.1 Sol yang diklaim mendekati kemampuan Astra untuk coding, computer use, dan kerja profesional dengan harga input-output API seperlima Astra. Produk kedua, Dots, adalah agen proaktif yang bekerja lintas proyek kompleks tanpa intervensi pengguna konstan.",
+      "whyItMatters": "Penurunan harga drastis ke model berkemampuan near-frontier mempercepat komoditisasi lapisan model. Perusahaan yang saat ini membayar harga Astra untuk use case coding dan otomasi kerja akan menghadapi tekanan untuk merevisi kontrak vendor dan arsitektur sistem dalam hitungan minggu. Dots menandai pergeseran dari model reaktif ke agen yang menginisiasi tindakan secara mandiri, mengubah asumsi desain produk enterprise.",
+      "secondOrder": "Ketika harga frontier turun seperlima dalam satu siklus rilis, margin diferensiasi bagi model pesaing di segmen yang sama menyempit tajam. Penyedia model yang bermain di antara harga tinggi dan kemampuan menengah kehilangan ruang posisi. Untuk enterprise Indonesia yang sedang mengevaluasi kontrak AI, jendela negosiasi ulang harga terbuka sekarang, tetapi vendor lokal yang menumpang model mahal berisiko kehilangan proposisi nilai sebelum kontrak berakhir.",
+      "action": "Tinjau ulang kontrak penggunaan API AI yang sedang berjalan di organisasi: bandingkan total biaya GPT-6.1 Sol terhadap model yang saat ini digunakan untuk coding dan otomasi dokumen. Petakan use case mana yang bisa bermigrasi dalam 30 hari tanpa perubahan arsitektur signifikan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/devday-2026-recap",
+        "https://openai.com/index/introducing-gpt-6-1-sol",
+        "https://openai.com/index/introducing-dots"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-03",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "PLN",
+        "Sulbagsel",
+        "Sumatra"
+      ],
+      "headline": "IESR: Pemadaman Sumatra buktikan jaringan listrik Indonesia belum tahan iklim, perlu transformasi mendesak",
+      "whatChanged": "IESR pada 28 September 2026 menerbitkan pernyataan resmi bahwa pemadaman listrik yang terjadi di Sumatra adalah indikasi sistemik, bukan insiden teknis terisolasi. IESR menyerukan penguatan atau transformasi jaringan listrik, bukan sekadar pemeliharaan. Pernyataan ini melanjutkan tema struktural pln-grid-investment yang telah muncul 27 kali sejak 31 Agustus 2026.",
+      "whyItMatters": "Akumulasi sinyal 30 hari terakhir dari IESR, IEEFA, dan data PLN membentuk pola tunggal: ketahanan grid Indonesia terhadap gangguan iklim (kemarau, El Nino, beban puncak) tidak dapat diselesaikan dengan belanja pemeliharaan inkremental. Kandidat [59] menambahkan data konkret: kapasitas pembangkit Sulbagsel turun 650 MW akibat penyusutan debit PLTA karena kemarau dan El Nino, mengonfirmasi bahwa kerentanan bukan hanya di Sumatra.",
+      "secondOrder": "Jika pemadaman berulang terjadi di lebih dari satu sistem kelistrikan regional secara bersamaan (Sumatra, Sulbagsel), risiko reputasi investasi infrastruktur digital Indonesia meningkat. Pusat data dan kawasan industri yang mengandalkan grid PLN tanpa backup memadai akan dipaksa membangun pembangkit captive, yang mengalihkan investasi energi dari grid publik ke aset privat dan memperlemah utilitas skala nasional.",
+      "action": "Petakan eksposur operasional terhadap sistem kelistrikan Sumatra dan Sulbagsel: identifikasi fasilitas mana yang bergantung pada grid PLN tanpa redundansi, dan estimasi biaya backup captive dibanding risiko downtime. Gunakan angka penurunan 650 MW Sulbagsel sebagai skenario stres untuk rencana kelangsungan bisnis.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/indonesia-perlu-memperkuat-jaringan-listrik-untuk-sistem-ketenagalistrikan-yang-lebih-tangguh-terhadap-iklim/",
+        "https://iesr.or.id/iesr-swasembada-energi-perlu-strategi-yang-berkelanjutan/",
+        "https://finance.detik.com/foto-bisnis/d-8683847/kemarau-dan-el-nino-tekan-pasokan-listrik-sulbagsel-kapasitas-turun-650-mw"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-08-31",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "LRT City",
+        "PT Kereta Api Indonesia",
+        "INKA",
+        "BP BUMN"
+      ],
+      "headline": "Danantara jamin LRT City beroperasi kembali 1 Oktober, Dony Oskaria konfirmasi merger INKA-KAI sedang berproses",
+      "whatChanged": "Danantara secara publik menjaminkan bahwa proyek LRT City akan berjalan kembali mulai 1 Oktober 2026. Terpisah, laporan detikFinance menyebut Dony Oskaria selaku COO Danantara sekaligus Kepala BP BUMN memastikan rencana merger INKA ke dalam PT Kereta Api Indonesia sedang berproses, dengan catatan INKA masih membawa utang Rp 4,7 triliun. Ini melanjutkan tema struktural danantara-bumn-karya-restructuring.",
+      "whyItMatters": "Komitmen publik dengan tanggal konkret (1 Oktober) mengubah dinamika akuntabilitas: jika LRT City tidak bergerak, Danantara menghadapi risiko kredibilitas langsung di depan publik dan pasar. Utang INKA Rp 4,7 triliun yang ikut dalam proses merger berarti KAI mewarisi kewajiban ini, memperumit neraca BUMN yang selama ini relatif sehat.",
+      "secondOrder": "Pola penetapan tenggat publik oleh Danantara untuk proyek BUMN Karya menciptakan preseden: pasar dan kontraktor akan mulai mengukur kredibilitas Danantara dari pemenuhan tenggat ini. Jika 1 Oktober terlewat, biaya pembiayaan proyek BUMN berikutnya bisa naik karena investor memperhitungkan risiko eksekusi lebih tinggi. Konsolidasi INKA-KAI dengan utang Rp 4,7 triliun juga berpotensi memerlukan restrukturisasi utang perbankan yang melibatkan bank BUMN.",
+      "action": "Pantau pengumuman resmi dari KAI dan Danantara pada atau setelah 1 Oktober untuk memverifikasi apakah LRT City benar-benar beroperasi. Evaluasi posisi bank BUMN (terutama kreditur INKA) terhadap kemungkinan restrukturisasi utang dalam proses merger.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMkVURzJqelV4cnlaaTJMczRTVXd0Z096LWI1b1lEMVdVMTRwNFhNakhPQTlLTFlqMlJzZ3h1OUg5SmRnUUJpcVI2c0xING5JellQVnJZdTFrdnZhZEZyc3dmWms1dnRzdjNGeVhVUlpENDJsUnYtTEQ1aTJKclNKallTMkFVZUszX25mQmc5ZUJPbjd3ejFkVtIBmwFBVV95cUxNSDdGLWMtNUxqWUhfTmFDYzRQM2U5Nm5yOFNBNkZ5dGh1ekU5YjhiVG13V2Z6OTl2R2dScXZsUkRBUU12bFZUb0tOOHVzT3J0RjdZc2h3NldfUFNnZXZRZFM4YkFWQV83dmZhSEJaN3U3bW40Wkk4Nmd4OWFhR1B4c3k3cGZmQkR2TG96YmFzYVZYdUlvVVRVYWxORQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRlk5SV95UFcxT21Ia2tWOF9XN3FyN0tDcW1XYUJINlV1cTdvTmN2a2FiNTBWbFQ5ZGl4aXZvekR2ay1ZS1Racm5tYmhWbHBONnVFMnhjYkVXcDBVWjdjM2J2SGZLVmttWUhuMmNKNFZZTzBRZk1OUHlULWRhZE1ETFJybl9pZ0FkUC10Smw1aktOb3loWjRqVDhiV2k0MWNKNUx1SVdkOXJNZ9IBrwFBVV95cUxPTmhMQy05VTFINlR0bzBuYXVfQng4WHo3a0kwMmNOV21rTmM2RUdRbTRTTXNmUHd3WjZYdkhCM184anU4dWlQaDFxRlZBREZQaDlTUGp3VEhMbTZUajJsMVM2SEtkdjJIOUM2aXVuRmNhMkJaNWUwUUVHVEtqMHlQNE5pXzUyWC1VekJZS0Z1NUg5RlNtSl9NdkN3azNvQUNsd2gyUzQxN2N4Q1RHNkRJ?oc=5",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8684992/bakal-jadi-anak-usaha-kai-inka-masih-punya-utang-rp-4-7-triliun"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-08-31",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "GLM-5.3"
+      ],
+      "headline": "Anthropic: GLM-5.3 menunjukkan peningkatan kapabilitas siber yang melampaui ambang batas peringatan",
+      "whatChanged": "Anthropic menerbitkan penilaian keamanan terhadap GLM-5.3 (model dari pihak ketiga) yang menemukan peningkatan kapabilitas siber ofensif melampaui level yang ditetapkan sebagai ambang peringatan internal Anthropic. Laporan ini berdiri terpisah dari model Anthropic sendiri dan merupakan evaluasi eksternal yang dipublikasikan.",
+      "whyItMatters": "Precedent ini menandai perluasan tanggung jawab evaluasi keamanan: Anthropic kini menilai model kompetitor sebagai bagian dari pemantauan ekosistem, bukan hanya model sendiri. Ini membentuk norma baru di mana lab frontier saling mengevaluasi risiko siber model lain, sebuah praktik yang belum ada kerangka tata kelolanya.",
+      "secondOrder": "Jika hasil penilaian Anthropic terhadap GLM-5.3 menjadi preseden, regulator di berbagai yurisdiksi akan menghadapi tekanan untuk mewajibkan evaluasi lintas-lab sebelum rilis model frontier. Perusahaan yang menggunakan GLM-5.3 dalam infrastruktur siber sensitif perlu meninjau ulang postur risiko mereka sebelum regulator menetapkan kewajiban formal.",
+      "action": "Periksa apakah organisasi menggunakan atau berencana menggunakan GLM-5.3 dalam sistem yang menangani infrastruktur siber atau data sensitif. Tinjau laporan penilaian Anthropic untuk mengidentifikasi vektor risiko spesifik yang disebutkan, dan jadikan bahan pertimbangan dalam tinjauan vendor AI berikutnya.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX212WWhHNWgzWkdtSlZTV3hiU3ZVdmJoUnJPMl92MVlMd1VadHJrbXJ3RjFvdXJib3dueWk0eUFwY25DallZUTJGd1J2MWRTRkFZcWNoa1g3YVBzaEdKbmF5TE1HakN0cnI5emUwdVlKeTZPY2o5R3RheG54R0E2ODVVZXpVUGZ3MDFVQ0h3bDh0UQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-03",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "The Information",
+        "NeutraDC",
+        "PLN",
+        "RUPTL"
+      ],
+      "headline": "Investor swasta biayai pembangkit on-site untuk pusat data AI, menggeser ketergantungan dari grid publik",
+      "whatChanged": "The Information melaporkan bahwa investor swasta kini secara aktif membiayai pembangkit listrik on-site sebagai solusi atas bottleneck koneksi grid untuk pusat data AI. Ini melanjutkan tren yang dilaporkan sebelumnya soal restrukturisasi pembiayaan buildout pusat data AI senilai USD 15 triliun secara global.",
+      "whyItMatters": "Ketika pembangkit captive untuk pusat data AI dibiayai secara privat di luar struktur utilitas publik, model bisnis PLN dan operator grid nasional kehilangan segmen pelanggan besar voltage tinggi yang selama ini menjadi anchor pendapatan. Di Indonesia, NeutraDC telah menandatangani kesepakatan dengan PLN untuk ekspansi 200 MW, tetapi tren global ini menunjukkan bahwa model ketergantungan penuh pada grid publik mungkin tidak akan berlanjut untuk generasi pusat data berikutnya.",
+      "secondOrder": "Jika pusat data AI berskala besar membangun pembangkit captive, permintaan tambahan terhadap grid PLN yang semula diproyeksikan dalam RUPTL bisa tidak terwujud, membuat asumsi beban puncak perencanaan grid menjadi terlalu optimistis. Pada saat yang sama, pusat data captive yang menggunakan gas atau diesel mengunci emisi jangka panjang, bertentangan dengan target dekarbonisasi nasional.",
+      "action": "Tinjau ulang asumsi pertumbuhan beban dalam RUPTL yang bersumber dari proyeksi permintaan pusat data: jika sebagian besar pusat data AI baru memilih pembangkit captive, proyeksi tersebut perlu direvisi. Petakan pusat data yang sudah mengajukan izin pembangkit captive di Indonesia sebagai indikator awal pergeseran ini.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYy0tcF9XTm9xQ05QdzJHbWF2YTBxWG5aMHhGRVhyT3NuWkFYX1dEZVM1QW9jLVBsR3FyU044LWVzODdLZmtTeEotaGdReGl1Y09mN2hJU0IwWS1ablB6WWRBTXAwTG80VktHM1FNc1NEa05BdVJCcDl5ZmpWOEJtaGVsbFdldGoxSzAzODA2U0hNVHd5emIyWlI1NEJ5NXphSVFfaXllbGNPUlBEODZyZ0xZV3ZOM21IVnNuLXlKV0pCYlBYRGNr?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3lZb3lfUUs3aGpZaEs3WmtUOWhlWXV0VElJX3hGSGxIRlBjaWxpMlpiVmNBeTFyYnNrVzdqcGpqWVYzcG0yeWFJY3QzZk1PUmtrc2paV2M3RWVwQkFUTmFUNG15ZjVWUVhzblYzdldsUWN0a0RCb3dZalgwcXpwVFhiaHowZnNxRGpxMEZMRHN3QUJnbVg1eVpzbkE4UV9LamxiNXJ4N2RZTF93T1QzOU1rYWc2dURUYjhYNGFCZ1I?oc=5",
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 22,
+        "firstSeen": "2026-08-31",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Verifikasi apakah LRT City benar-benar beroperasi kembali pada 1 Oktober 2026 sesuai jaminan publik Danantara; pantau pengumuman resmi KAI dan Danantara.",
+      "dueDate": "2026-10-03"
+    },
+    {
+      "item": "Pantau respons PLN dan Kementerian ESDM terhadap laporan IESR soal pemadaman Sumatra: apakah ada rencana investasi grid darurat atau revisi RUPTL yang diumumkan.",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Ikuti rilis laporan lengkap Anthropic tentang GLM-5.3 dan respons pengembang GLM (Zhipu AI): apakah ada perbaikan atau klarifikasi kapabilitas yang diterbitkan.",
+      "dueDate": "2026-10-10"
+    },
+    {
+      "item": "Pantau pengumuman resmi proses merger INKA-KAI dari Danantara dan BP BUMN, termasuk rencana restrukturisasi utang Rp 4,7 triliun yang melibatkan kreditur perbankan.",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indonesia Perlu Memperkuat Jaringan Listrik untuk Sistem Ketenagalistrikan yang Lebih Tangguh terhadap Iklim",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/indonesia-perlu-memperkuat-jaringan-listrik-untuk-sistem-ketenagalistrikan-yang-lebih-tangguh-terhadap-iklim/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-29T09:22:41.000Z"
+    },
+    {
+      "title": "IESR: Swasembada Energi Perlu Strategi yang Berkelanjutan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-swasembada-energi-perlu-strategi-yang-berkelanjutan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-25T02:29:33.000Z"
+    },
+    {
+      "title": "Introducing GPT-6.1 Sol",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "title": "How Investors Are Financing On-Site Power to Break AI Bottlenecks",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYy0tcF9XTm9xQ05QdzJHbWF2YTBxWG5aMHhGRVhyT3NuWkFYX1dEZVM1QW9jLVBsR3FyU044LWVzODdLZmtTeEotaGdReGl1Y09mN2hJU0IwWS1ablB6WWRBTXAwTG80VktHM1FNc1NEa05BdVJCcDl5ZmpWOEJtaGVsbFdldGoxSzAzODA2U0hNVHd5emIyWlI1NEJ5NXphSVFfaXllbGNPUlBEODZyZ0xZV3ZOM21IVnNuLXlKV0pCYlBYRGNr?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-29T18:15:00.000Z"
+    },
+    {
+      "title": "Bakal Jadi Anak Usaha KAI, INKA Masih Punya Utang Rp 4,7 Triliun",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8684992/bakal-jadi-anak-usaha-kai-inka-masih-punya-utang-rp-4-7-triliun",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-29T13:02:49.000Z"
+    },
+    {
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX212WWhHNWgzWkdtSlZTV3hiU3ZVdmJoUnJPMl92MVlMd1VadHJrbXJ3RjFvdXJib3dueWk0eUFwY25DallZUTJGd1J2MWRTRkFZcWNoa1g3YVBzaEdKbmF5TE1HakN0cnI5emUwdVlKeTZPY2o5R3RheG54R0E2ODVVZXpVUGZ3MDFVQ0h3bDh0UQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-09-29T15:46:00.000Z"
+    },
+    {
+      "title": "DevDay 2026 Recap",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "title": "Danantara pastikan proyek LRT City akan dilanjutkan",
+      "publisher": "antaranews.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMkVURzJqelV4cnlaaTJMczRTVXd0Z096LWI1b1lEMVdVMTRwNFhNakhPQTlLTFlqMlJzZ3h1OUg5SmRnUUJpcVI2c0xING5JellQVnJZdTFrdnZhZEZyc3dmWms1dnRzdjNGeVhVUlpENDJsUnYtTEQ1aTJKclNKallTMkFVZUszX25mQmc5ZUJPbjd3ejFkVtIBmwFBVV95cUxNSDdGLWMtNUxqWUhfTmFDYzRQM2U5Nm5yOFNBNkZ5dGh1ekU5YjhiVG13V2Z6OTl2R2dScXZsUkRBUU12bFZUb0tOOHVzT3J0RjdZc2h3NldfUFNnZXZRZFM4YkFWQV83dmZhSEJaN3U3bW40Wkk4Nmd4OWFhR1B4c3k3cGZmQkR2TG96YmFzYVZYdUlvVVRVYWxORQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-29T13:46:30.000Z"
+    },
+    {
+      "title": "Why AI's $15 Trillion Buildout Is Rewriting the Rules of Data Center Financing",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3lZb3lfUUs3aGpZaEs3WmtUOWhlWXV0VElJX3hGSGxIRlBjaWxpMlpiVmNBeTFyYnNrVzdqcGpqWVYzcG0yeWFJY3QzZk1PUmtrc2paV2M3RWVwQkFUTmFUNG15ZjVWUVhzblYzdldsUWN0a0RCb3dZalgwcXpwVFhiaHowZnNxRGpxMEZMRHN3QUJnbVg1eVpzbkE4UV9LamxiNXJ4N2RZTF93T1QzOU1rYWc2dURUYjhYNGFCZ1I?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-28T15:01:00.000Z"
+    },
+    {
+      "title": "Kemarau dan El Nino Tekan Pasokan Listrik Sulbagsel, Kapasitas Turun 650 MW",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/foto-bisnis/d-8683847/kemarau-dan-el-nino-tekan-pasokan-listrik-sulbagsel-kapasitas-turun-650-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-09-29T13:00:45.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "Introducing dots",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-dots",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "title": "Bos Danantara Jamin Proyek LRT City Jalan Lagi 1 Oktober - detikFinance",
+      "publisher": "detikFinance - Berita Ekonomi Bisnis, dan Investasi Hari Ini",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRlk5SV95UFcxT21Ia2tWOF9XN3FyN0tDcW1XYUJINlV1cTdvTmN2a2FiNTBWbFQ5ZGl4aXZvekR2ay1ZS1Racm5tYmhWbHBONnVFMnhjYkVXcDBVWjdjM2J2SGZLVmttWUhuMmNKNFZZTzBRZk1OUHlULWRhZE1ETFJybl9pZ0FkUC10Smw1aktOb3loWjRqVDhiV2k0MWNKNUx1SVdkOXJNZ9IBrwFBVV95cUxPTmhMQy05VTFINlR0bzBuYXVfQng4WHo3a0kwMmNOV21rTmM2RUdRbTRTTXNmUHd3WjZYdkhCM184anU4dWlQaDFxRlZBREZQaDlTUGp3VEhMbTZUajJsMVM2SEtkdjJIOUM2aXVuRmNhMkJaNWUwUUVHVEtqMHlQNE5pXzUyWC1VekJZS0Z1NUg5RlNtSl9NdkN3azNvQUNsd2gyUzQxN2N4Q1RHNkRJ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-29T13:34:42.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: target swasembada energi Indonesia butuh strategi terukur, RUPTL belum memadai",
+      "occurrences": 27,
+      "firstSeen": "2026-08-31",
+      "lastSeen": "2026-09-29",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara kirim surat resmi untuk mengambil saham Bursa Efek Indonesia",
+      "occurrences": 27,
+      "firstSeen": "2026-08-31",
+      "lastSeen": "2026-09-29",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Google DeepMind launches Gemini 3.8 Live with Live Avatar, extending real-time multimodal AI",
+      "occurrences": 22,
+      "firstSeen": "2026-08-31",
+      "lastSeen": "2026-09-27",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Buildout pusat data AI USD 15 triliun global bergeser ke struktur project finance",
+      "occurrences": 21,
+      "firstSeen": "2026-08-31",
+      "lastSeen": "2026-09-29",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI hentikan rilis model frontier setelah uji keamanan deteksi misalignment agen",
+      "occurrences": 20,
+      "firstSeen": "2026-09-03",
+      "lastSeen": "2026-09-29",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 383,
+    "poolSize": 110,
+    "generatedAt": "2026-09-29T23:23:11.728Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
