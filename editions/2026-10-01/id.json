@@ -1,0 +1,360 @@
+{
+  "slug": "2026-10-01",
+  "date": "2026-10-01",
+  "lang": "id",
+  "title": "Gemini 4 Argon, GPT-6.1 Sol, dan Meta Debt Market Uji Batas Frontier AI",
+  "dek": "Dua rilis model frontier dalam 24 jam bertemu dengan sinyal tekanan pembiayaan pusat data AI, sementara Danantara menggenggam saham bursa dan merestrukturisasi gas.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "Google DeepMind merilis Gemini 4 Argon dan OpenAI meluncurkan GPT-6.1 Sol pada 29-30 September 2026, memperketat persaingan model frontier tepat saat pasar utang untuk pusat data AI dilaporkan mendekati batas kapasitasnya melalui transaksi Meta. Di sisi energi, IESR mengonfirmasi pemadaman Sumatra sebagai bukti empiris lemahnya grid Indonesia, memperkuat tema struktural pln-grid-investment yang telah berlangsung 27 kali sejak September. Di domain korporasi, Danantara mengkaji restrukturisasi Pertagas dan PGN sekaligus bersiap menggenggam 5-10 persen saham Bursa Efek Indonesia, dua langkah yang mempertegas jalur konsolidasi BUMN di bawah satu atap sovereign wealth fund.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "OpenAI",
+        "GPT-6.1 Sol",
+        "Gemini 4 Argon"
+      ],
+      "headline": "Google DeepMind rilis Gemini 4 Argon, OpenAI ikuti dengan GPT-6.1 Sol dalam 24 jam",
+      "whatChanged": "Google DeepMind menerbitkan Gemini 4 Argon pada 30 September 2026 sebagai generasi frontier berikutnya. Sehari sebelumnya, OpenAI memperkenalkan GPT-6.1 Sol, diposisikan sebagai model berkemampuan mendekati GPT-6 Astra untuk coding dan computer use dengan harga API seperlima Astra.",
+      "whyItMatters": "Dua rilis frontier dalam jendela 24 jam dari dua lab terbesar memperlihatkan bahwa siklus peluncuran model telah mempersingkat jarak kompetitif menjadi hitungan hari, bukan kuartal. Penetapan harga GPT-6.1 Sol secara eksplisit menyasar segmen enterprise yang sensitif biaya, menunjukkan OpenAI membuka front persaingan harga setelah front kemampuan.",
+      "secondOrder": "Kompresi harga di lapisan model frontier memindahkan tekanan margin ke lapisan infrastruktur dan deployment. Penyedia cloud dan operator pusat data yang mengunci kontrak compute jangka panjang pada asumsi harga model lama akan menghadapi repricing risiko lebih cepat dari jadwal; ini berkaitan langsung dengan tekanan pasar utang pusat data yang muncul di sinyal berikutnya.",
+      "action": "Tim procurement teknologi perlu membandingkan total biaya kepemilikan kontrak compute yang sedang berjalan dengan tarif GPT-6.1 Sol dan Gemini 4 Argon minggu ini; identifikasi klausul renegosiasi dan siapkan analisis sensitivitas harga model untuk disampaikan ke komite investasi sebelum akhir Oktober 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://openai.com/index/introducing-gpt-6-1-sol",
+        "https://openai.com/index/devday-2026-recap"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 22,
+        "firstSeen": "2026-09-03",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "PLN",
+        "IEEFA"
+      ],
+      "headline": "IESR pakai pemadaman Sumatra sebagai bukti empiris urgensi penguatan grid Indonesia",
+      "whatChanged": "IESR menerbitkan pernyataan pada 28 September 2026 yang secara eksplisit menggunakan pemadaman listrik di Sumatra sebagai bukti empiris bahwa Indonesia perlu memperkuat atau mentransformasi jaringan listrik agar lebih tangguh terhadap iklim. Ini melanjutkan tema pln-grid-investment yang telah muncul 27 kali sejak 1 September 2026.",
+      "whyItMatters": "Akumulasi 27 sinyal dalam satu bulan mengubah status tema ini dari berita menjadi kondisi struktural yang terverifikasi secara empiris. Pemadaman Sumatra memberikan IESR preseden konkret untuk menekan percepatan investasi transmisi, sebuah posisi yang memperkuat argumen IEEFA tentang perlunya subholding transmisi khusus.",
+      "secondOrder": "Semakin kuat bukti empiris kerentanan grid, semakin sulit PLN dan pemerintah menunda keputusan investasi transmisi berskala besar. Tekanan ini bisa mempercepat realisasi skema subholding transmisi yang dirancang IEEFA, yang pada gilirannya akan menarik minat investor infrastruktur dan lender multilateral yang selama ini menunggu kejelasan struktur hukum.",
+      "action": "Pekan ini, tinjau ulang posisi PLN dalam RUPTL terhadap rencana investasi transmisi Sumatra; bandingkan dengan rekomendasi subholding IEEFA dan identifikasi apakah pemadaman September 2026 telah dimasukkan sebagai pemicu revisi rencana investasi dalam dokumen internal PLN atau ESDM.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/indonesia-perlu-memperkuat-jaringan-listrik-untuk-sistem-ketenagalistrikan-yang-lebih-tangguh-terhadap-iklim/",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-01",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Pertagas",
+        "PGN",
+        "Bursa Efek Indonesia",
+        "POJK 13/2026",
+        "OJK"
+      ],
+      "headline": "Danantara kaji restrukturisasi Pertagas-PGN dan siapkan kepemilikan 5-10% saham BEI",
+      "whatChanged": "ANTARA melaporkan pada 30 September 2026 bahwa Danantara sedang mengkaji struktur baru untuk Pertagas dan PGN. Pada hari yang sama, CNN Indonesia dan detikFinance mengutip bocoran Rosan bahwa Danantara berencana menggenggam 5-10 persen saham Bursa Efek Indonesia, sementara kandidat [21] mengonfirmasi belum ada keputusan soal dividen Danantara yang diserahkan ke pemerintah.",
+      "whyItMatters": "Dua langkah ini menunjukkan Danantara sedang memperluas mandatnya secara bersamaan ke sektor infrastruktur gas dan infrastruktur pasar modal. Mengkaji ulang struktur Pertagas dan PGN berarti rantai distribusi gas nasional berada dalam potensi konsolidasi yang bisa mengubah struktur tarif dan kepemilikan aset.",
+      "secondOrder": "Kepemilikan Danantara di BEI akan menciptakan hubungan kepentingan antara regulator pasar modal, operator bursa, dan sovereign wealth fund dalam satu ekosistem. Ini menimbulkan pertanyaan tata kelola yang belum terjawab: bagaimana OJK mengawasi bursa yang sebagian dimiliki entitas yang juga berinvestasi di emiten yang tercatat di bursa yang sama. Risiko ini relevan terhadap POJK 13/2026 yang sedang disosialisasikan.",
+      "action": "Tim tata kelola perlu merumuskan analisis konflik kepentingan dari skenario kepemilikan Danantara di BEI sebesar 5-10 persen, dengan mengacu pada ketentuan POJK 13/2026; sampaikan analisis tersebut kepada dewan komisaris atau komite audit sebelum RUPS berikutnya untuk memastikan posisi perusahaan terdokumentasi sebelum struktur kepemilikan final diumumkan.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZWl4QmFyaDR0WVNEcHpjeGJIXzNLX3c5Ym5xMm13WTVTdGh4cEttR0Y3Q284R0R5ZFlrTTFyVWJrS3hRYUVVZGNrRWtoRWE0WDdUZkk2Y0Z2SE96WXJ2YkRFV3RUWjhfMG02N2Z3bC04dHhHNXJ1RDlreDU2OVh0dzlZbWNrYXoxRXZQYjlBZXdUUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN1YwaS1vVnZDRzBQTU5Ra0dyUUx5N3E0TGtMV3llazVrTGUyU1RsdS1NZHRsZHZLbWxQTW9EbzZadDF4RUF6R2FkUHpKeWxxTmgtMEZMMXdPTTFRX1pNMjI5Mmo3ckt0eEtYazJzc0JDUWg0VVo4a3dQc3NaNmppLVo3SnU4MWc5MlFxaDRiaUJmQWhIdGthMEhJeVQ0Ti0weW1JeG9NZnF5N05LVWoxd3JZTlhOdDjSAbwBQVVfeXFMTjEzR05ZYWZMMEFRXzIzYmNweWRiUEZmNzZqMXlmVlduN3l3aXdWR3hTbGhId0paUEFLWUtOSnhTb3pZYmlZcXRfYWtzUVFpWmxoclFvRGZab3EzUUpiMFB2RTBnSVU2OVlBbldqTVBnUFAtdVE2RXJKRWtEemNIUkFzXzg3VnVDYUh4cGh5dWJodlJJbnV2U1o4Vm5zRVRmaTBhY05KSDhfbDZaUTNJamxva1VDQVVCbnI4NXo?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMXZUNjk2M2dRdE9rQTRJcm43ZDA0NUlnSl92NGRsRDFzczVmWE5tUXNaVFRrZ2p5U1ZBcTgzRXpMZHkzTmZ3eEdjVjJUdG5nbFBLUkFpdWlxYkZMNHVEWXByNXhYa1JlX19FWHdURlVmM3hvS0d3N3ByR3RLeDFJNVVIVTFfWHByemV4LTJWaDFfclFtVFlidWUybk_SAaIBQVVfeXFMTmZnSy1qRjBiMTEyRnI5XzNkUHV4TXJOdmxsVTJOMFdFUmdjMWp6NzlzODBkQzNKc29WY3ZjZG5ubGhlTVo1b0l6WFJaQWRzOXRBczNQQXk5LXhBNDEyTTFTOEFVTl9vVGlVVjZsdTN2NnROZFJrUDE4TmYxdlJIYUdsZmd2b0Y1MmRxUnREMXR3NjJOODVldy12TTJDT2FobnF3?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmZ5aXNrWVlzNnV5QW8wRTBBY09ZWmozd0VMMjdKSnR5alNRTzl0T25BaWVxME9GZG4zWWpLMFZqMmlTZ1lMVFZyek44UnpvNzZOV1lMYzJxR2pGeVdDdmNvaDNFVXZEdXUtMEVXWU9RSDRJRDBXZTFUYmJRS1d5YV9RQVViVzdaeTNNZy02ZkM3UzRZZEJiYW9NcTZOa3FqX28wLTQzM2VkUEktaTJpZ0MtdW5fNFg2OHdhQTdFMUE1RVVY?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-01",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI"
+      ],
+      "headline": "OpenAI disrupts coordinated model-distillation campaign yang mengekstrak reasoning terproteksi",
+      "whatChanged": "OpenAI menerbitkan laporan pada 30 September 2026 bahwa mereka menghentikan kampanye terkoordinasi yang berupaya mengekstrak model reasoning terproteksi melalui adversarial distillation, dan memperkuat pertahanan terhadap metode serangan ini.",
+      "whyItMatters": "Ini adalah konfirmasi sumber primer pertama dari OpenAI bahwa adversarial distillation telah mencapai skala kampanye terkoordinasi, bukan sekadar eksperimen akademis. Model reasoning adalah aset kompetitif utama; apabila dapat diekstrak melalui API, nilai diferensiasi model frontier menciut dan biaya pengembangan lab yang ditanggung investor menjadi pertanyaan.",
+      "secondOrder": "Pengungkapan ini akan mendorong perubahan kontraktual dalam perjanjian penggunaan API enterprise, termasuk klausul penggunaan output untuk pelatihan ulang dan pembatasan volume query mencurigakan. Perusahaan yang mengintegrasikan model OpenAI ke dalam produk mereka perlu memeriksa apakah pola penggunaan mereka berpotensi dikualifikasikan sebagai distillation oleh sistem deteksi OpenAI, karena penangguhan akses API adalah risiko operasional nyata.",
+      "action": "Tim keamanan dan legal yang mengelola kontrak API OpenAI perlu memeriksa pola query produksi minggu ini terhadap definisi adversarial distillation yang diungkap dalam laporan ini; dokumentasikan temuan dan perbarui kebijakan penggunaan internal sebelum perpanjangan kontrak API berikutnya.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 22,
+        "firstSeen": "2026-09-01",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Meta",
+        "The Information"
+      ],
+      "headline": "Pasar utang pusat data AI mendekati batas kapasitas lewat transaksi Meta",
+      "whatChanged": "The Information melaporkan pada 30 September 2026 bahwa transaksi pusat data Meta sedang menguji batas pasar utang AI, mengindikasikan kapasitas penyerapan kredit untuk infrastruktur komputasi skala hiper mulai tertekan.",
+      "whyItMatters": "Tema nuclear-ai-datacenter-power yang tercatat 20 kali sejak September 2026 kini memasuki fase baru: bukan lagi kekurangan daya atau lokasi, melainkan kapasitas pasar modal. Ketika satu transaksi Meta sudah cukup untuk menggerakkan batas pasar, itu berarti pipeline proyek senilai triliunan dolar global yang disebutkan dalam arsip tema ini akan bersaing memperebutkan ceruk utang yang sama.",
+      "secondOrder": "Tekanan di pasar utang pusat data AI akan mendorong sponsor mencari struktur alternatif seperti jaminan vendor, export credit agency, atau skema project finance dengan dukungan pemerintah. Ini membuka celang bagi sovereign wealth fund dan lembaga pembiayaan pembangunan untuk masuk sebagai penyedia likuiditas dengan syarat strategis, termasuk klausul lokasi atau transfer teknologi.",
+      "action": "Analis pembiayaan infrastruktur perlu memetakan pipeline proyek pusat data Indonesia yang sedang mencari pendanaan, lalu mencocokkan struktur masing-masing dengan kapasitas pasar utang global saat ini; hasilkan matriks risiko refinancing untuk tiga proyek terbesar dan sampaikan ke tim investasi Danantara atau mitra perbankan sebelum 15 Oktober 2026.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSTN1a082d3FHQjJDTFBvMG1pMHBTa0dXRWlDaHBxa1IyNWpLdlJ6SW5zS2NmcGNCRGgzUHplUXA0aUxkeDFNVWRsdGVhRDRNU2lBbS1MaVVVcTF6SDhGZEo0TkxoWjZLSEVwNWpsc2VzRTBEMFJyTU11NjV3S25tRUhYN2xScDlnRElXcVJCLS1ueVlleDJR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-01",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Keputusan final struktur Pertagas dan PGN di bawah Danantara, termasuk implikasi tarif distribusi gas nasional",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Perincian teknis Gemini 4 Argon dari Google DeepMind, termasuk benchmark perbandingan dengan GPT-6 Astra dan posisi harga API",
+      "dueDate": "2026-10-14"
+    },
+    {
+      "item": "Respons PLN dan Kementerian ESDM terhadap laporan IESR tentang pemadaman Sumatra, khususnya apakah ada revisi rencana investasi transmisi",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Finalisasi kepemilikan Danantara di BEI dan penjelasan OJK tentang mekanisme pengawasan konflik kepentingan di bawah POJK 13/2026",
+      "dueDate": "2026-11-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-30T20:01:45.000Z"
+    },
+    {
+      "title": "Indonesia Perlu Memperkuat Jaringan Listrik untuk Sistem Ketenagalistrikan yang Lebih Tangguh terhadap Iklim",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/indonesia-perlu-memperkuat-jaringan-listrik-untuk-sistem-ketenagalistrikan-yang-lebih-tangguh-terhadap-iklim/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-29T09:22:41.000Z"
+    },
+    {
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-30T10:30:00.000Z"
+    },
+    {
+      "title": "Dony Oskaria: Belum Ada Keputusan Dividen Danantara Diserahkan ke Pemerintah - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmZ5aXNrWVlzNnV5QW8wRTBBY09ZWmozd0VMMjdKSnR5alNRTzl0T25BaWVxME9GZG4zWWpLMFZqMmlTZ1lMVFZyek44UnpvNzZOV1lMYzJxR2pGeVdDdmNvaDNFVXZEdXUtMEVXWU9RSDRJRDBXZTFUYmJRS1d5YV9RQVViVzdaeTNNZy02ZkM3UzRZZEJiYW9NcTZOa3FqX28wLTQzM2VkUEktaTJpZ0MtdW5fNFg2OHdhQTdFMUE1RVVY?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T16:00:53.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "ieefa.org",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Meta Data Center Deal Tests Limits of AI Debt Markets",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSTN1a082d3FHQjJDTFBvMG1pMHBTa0dXRWlDaHBxa1IyNWpLdlJ6SW5zS2NmcGNCRGgzUHplUXA0aUxkeDFNVWRsdGVhRDRNU2lBbS1MaVVVcTF6SDhGZEo0TkxoWjZLSEVwNWpsc2VzRTBEMFJyTU11NjV3S25tRUhYN2xScDlnRElXcVJCLS1ueVlleDJR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T18:53:00.000Z"
+    },
+    {
+      "title": "Danantara kaji struktur baru Pertagas dan PGN",
+      "publisher": "ANTARA News Yogyakarta",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZWl4QmFyaDR0WVNEcHpjeGJIXzNLX3c5Ym5xMm13WTVTdGh4cEttR0Y3Q284R0R5ZFlrTTFyVWJrS3hRYUVVZGNrRWtoRWE0WDdUZkk2Y0Z2SE96WXJ2YkRFV3RUWjhfMG02N2Z3bC04dHhHNXJ1RDlreDU2OVh0dzlZbWNrYXoxRXZQYjlBZXdUUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T15:41:27.000Z"
+    },
+    {
+      "title": "Introducing GPT-6.1 Sol",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "title": "Bocoran Rosan soal Porsi Kepemilikan Danantara di BEI",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN1YwaS1vVnZDRzBQTU5Ra0dyUUx5N3E0TGtMV3llazVrTGUyU1RsdS1NZHRsZHZLbWxQTW9EbzZadDF4RUF6R2FkUHpKeWxxTmgtMEZMMXdPTTFRX1pNMjI5Mmo3ckt0eEtYazJzc0JDUWg0VVo4a3dQc3NaNmppLVo3SnU4MWc5MlFxaDRiaUJmQWhIdGthMEhJeVQ0Ti0weW1JeG9NZnF5N05LVWoxd3JZTlhOdDjSAbwBQVVfeXFMTjEzR05ZYWZMMEFRXzIzYmNweWRiUEZmNzZqMXlmVlduN3l3aXdWR3hTbGhId0paUEFLWUtOSnhTb3pZYmlZcXRfYWtzUVFpWmxoclFvRGZab3EzUUpiMFB2RTBnSVU2OVlBbldqTVBnUFAtdVE2RXJKRWtEemNIUkFzXzg3VnVDYUh4cGh5dWJodlJJbnV2U1o4Vm5zRVRmaTBhY05KSDhfbDZaUTNJamxva1VDQVVCbnI4NXo?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T14:00:50.000Z"
+    },
+    {
+      "title": "DevDay 2026 Recap",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "title": "Danantara Bakal Kempit Saham Bursa Efek 5-10% - detikFinance",
+      "publisher": "detikFinance - Berita Ekonomi Bisnis, dan Investasi Hari Ini",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMXZUNjk2M2dRdE9rQTRJcm43ZDA0NUlnSl92NGRsRDFzczVmWE5tUXNaVFRrZ2p5U1ZBcTgzRXpMZHkzTmZ3eEdjVjJUdG5nbFBLUkFpdWlxYkZMNHVEWXByNXhYa1JlX19FWHdURlVmM3hvS0d3N3ByR3RLeDFJNVVIVTFfWHByemV4LTJWaDFfclFtVFlidWUybk_SAaIBQVVfeXFMTmZnSy1qRjBiMTEyRnI5XzNkUHV4TXJOdmxsVTJOMFdFUmdjMWp6NzlzODBkQzNKc29WY3ZjZG5ubGhlTVo1b0l6WFJaQWRzOXRBczNQQXk5LXhBNDEyTTFTOEFVTl9vVGlVVjZsdTN2NnROZFJrUDE4TmYxdlJIYUdsZmd2b0Y1MmRxUnREMXR3NjJOODVldy12TTJDT2FobnF3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T13:19:46.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "ieefa.org",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR gunakan pemadaman Sumatra sebagai bukti empiris urgensi penguatan grid Indonesia",
+      "occurrences": 27,
+      "firstSeen": "2026-09-01",
+      "lastSeen": "2026-09-30",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BEI dan OJK sosialisasi POJK 13/2026 sebagai tonggak demutualisasi bursa",
+      "occurrences": 27,
+      "firstSeen": "2026-09-01",
+      "lastSeen": "2026-09-30",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic terbitkan panduan safety case frontier AI; Trump tolak regulasi keamanan AI federal",
+      "occurrences": 21,
+      "firstSeen": "2026-09-03",
+      "lastSeen": "2026-09-30",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Google DeepMind launches Gemini 3.8 Live with Live Avatar, extending real-time multimodal AI",
+      "occurrences": 21,
+      "firstSeen": "2026-09-01",
+      "lastSeen": "2026-09-27",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Buildout pusat data AI USD 15 triliun global bergeser ke struktur project finance",
+      "occurrences": 20,
+      "firstSeen": "2026-09-01",
+      "lastSeen": "2026-09-29",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 353,
+    "poolSize": 110,
+    "generatedAt": "2026-09-30T23:26:29.186Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
