@@ -2,13 +2,14 @@
   "slug": "2026-10-01",
   "date": "2026-10-01",
   "lang": "en",
-  "title": "Gemini 4 Argon, GPT-6.1 Sol land same day; PJD grid, Danantara gas restructuring move",
-  "dek": "Two frontier model drops reorder the enterprise AI price curve on the same day PJM suspends a data-centre power auction, while Danantara's review of Pertagas and PGN structures signals the next phase of Indonesian SOE consolidation.",
+  "title": "Gemini 4 Argon, GPT-6.1 Sol, and Indonesia's 100 GW Solar Bet Reshape Three Domains",
+  "dek": "A frontier model race, a stressed AI debt market, and Indonesia's grid and SOE governance decisions converge on the same week.",
   "domains": [
     "ai",
-    "energy"
+    "energy",
+    "corporate"
   ],
-  "summary": "Google DeepMind and OpenAI each released new frontier-tier models on 30 September, compressing the performance-to-price gap and accelerating the commoditisation of top-tier inference. Simultaneously, PJM, the largest US grid operator, suspended its planned data-centre power auction, revealing a structural constraint that model proliferation alone cannot solve: power allocation. In Indonesia, Danantara's review of a new ownership structure for Pertagas and PGN continues the SOE gas-sector consolidation thread, with capital implications for both entities. IESR's grid-resilience report, citing the Sumatra blackout as empirical evidence, reinforces the pln-grid-investment theme now at structural status: Indonesia's transmission deficit is a planning condition, not a news event. The five signals together describe a world where AI capability supply is outpacing both power infrastructure and governance frameworks, forcing institutional actors to make structural decisions on energy, corporate architecture, and model procurement this quarter.",
+  "summary": "Google DeepMind released Gemini 4 Argon on 30 September, one day after OpenAI released GPT-6.1 Sol, compressing the frontier model cycle to a cadence that forces enterprise buyers to reassess lock-in and procurement timelines continuously. Separately, The Information reports that Meta's data-centre debt deal is testing the structural limits of AI infrastructure financing, a signal that the project-finance model now governing AI buildout is hitting its first stress points. On Indonesia's energy side, an IESR-flagged 100 GW solar target carries a Rp 1,140 trillion price tag and a 2029 deadline that IESR itself considers very challenging, while the industrial metal sector's dependence on captive coal plants exposes how slowly PLN's grid buildout is proceeding. In corporate governance, Danantara's leadership has publicly stated there is no obligation yet to transfer Rp 120 trillion in dividends to the state, a disclosure that clarifies the fund's fiscal relationship with the government and matters for SOE capital planning.",
   "signals": [
     {
       "rank": 1,
@@ -17,14 +18,14 @@
       "entities": [
         "Google DeepMind",
         "OpenAI",
-        "GPT-6.1 Sol",
-        "Gemini 4 Argon"
+        "Gemini 4 Argon",
+        "GPT-6.1 Sol"
       ],
-      "headline": "Google DeepMind releases Gemini 4 Argon; OpenAI ships GPT-6.1 Sol at one-fifth of Astra pricing on the same day",
-      "whatChanged": "Google DeepMind published Gemini 4 Argon on 30 September 2026, positioning it as the next frontier intelligence tier. OpenAI on 29 September released GPT-6.1 Sol, described as near-Astra intelligence for coding, computer use, and professional work, priced at one-fifth of GPT-6 Astra's standard API input and output token rates.",
-      "whyItMatters": "Two frontier-tier releases within 24 hours from the two largest AI labs compress the performance-to-price curve at the top of the market simultaneously. This continues the enterprise-ai-data-privacy-contracts theme, now structural after 21 archive entries: enterprise procurement teams can no longer treat model capability as a differentiator because capability parity is now achievable at a fraction of prior cost.",
-      "secondOrder": "Simultaneous top-tier releases create a race to the bottom on inference pricing, which shifts competitive differentiation to data integration, fine-tuning pipelines, and contractual terms around privacy and output ownership. For enterprise buyers, the implication is that model selection decisions made in Q2 2026 against a single vendor are now financially and technically sub-optimal. Vendors with proprietary data moats gain relative to those competing on raw model performance.",
-      "action": "Revisit any enterprise AI contracts signed before 30 September that include committed spend against a single model tier. Benchmark Gemini 4 Argon and GPT-6.1 Sol on your specific workload mix this week; the one-fifth price reduction on Sol alone may justify renegotiating volume commitments.",
+      "headline": "Google DeepMind releases Gemini 4 Argon one day after OpenAI ships GPT-6.1 Sol, compressing the frontier release cycle to days",
+      "whatChanged": "Google DeepMind published Gemini 4 Argon on 30 September 2026, positioning it as the company's next frontier intelligence tier. OpenAI had released GPT-6.1 Sol on 29 September, priced at one-fifth of GPT-6 Astra's standard API token rates. Two top-tier frontier releases landed within 24 hours of each other.",
+      "whyItMatters": "The frontier model cycle, already tracking this theme across 21 archive entries, has compressed from quarters to days. Enterprise buyers negotiating multi-year API contracts or fine-tuning investments now face model obsolescence risk inside a single procurement cycle. The price cut embedded in GPT-6.1 Sol also signals that OpenAI is using cost as a competitive lever against Google, not just capability.",
+      "secondOrder": "Rapid successive releases create a selection-paralysis problem for enterprise procurement teams: the evaluation window is shorter than the contracting window. This structurally advantages hyperscalers who can bundle model access with compute and storage, because the bundled relationship survives model turnover even when individual model choices do not. Vendors without a compute layer lose negotiating position with each new release.",
+      "action": "Audit any AI vendor contracts signed in Q2 or Q3 2026 for model-version lock-in clauses. If contracts reference specific model versions rather than capability tiers, renegotiate to performance benchmarks before Q4 renewals. Separately, compare Gemini 4 Argon and GPT-6.1 Sol on coding and professional work benchmarks this week, since OpenAI explicitly positions Sol on those verticals.",
       "strength": "material",
       "sourceUrls": [
         "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -50,20 +51,25 @@
       "entities": [
         "IESR",
         "PLN",
+        "Bloomberg Technoz",
         "RUPTL 2025-2034"
       ],
-      "headline": "IESR cites Sumatra blackout as empirical proof of Indonesia's grid vulnerability, calls for immediate reinforcement",
-      "whatChanged": "IESR, in a statement dated 28 September 2026, used the Sumatra blackout as empirical evidence that Indonesia's electricity network requires structural reinforcement or transformation. The institute specified that the outage demonstrated systemic fragility rather than an isolated operational failure.",
-      "whyItMatters": "This continues the pln-grid-investment theme, now at structural status with 27 archive entries since 1 September. IESR's framing of the Sumatra event as a data point rather than an anomaly is analytically significant: it converts a discrete incident into evidence for a policy argument, raising the political cost of inaction and the probability that grid investment appears in the next RUPTL revision.",
-      "secondOrder": "A credible research institution anchoring grid investment advocacy to a visible public event increases the likelihood that grid reinforcement spending is treated as a sovereign priority rather than a PLN balance-sheet decision. This matters for project finance: if grid hardening is reclassified as national infrastructure rather than utility capex, it opens access to sovereign-backed instruments and multilateral lending that PLN's standalone credit cannot attract.",
-      "action": "Track whether IESR's framing appears in the next RUPTL 2025-2034 revision draft or in ESDM ministerial statements. If grid investment is re-categorised as national infrastructure in the next policy cycle, underwrite transmission projects against a different risk profile than utility tariff-backed assets.",
+      "headline": "IESR flags Indonesia's 100 GW solar target as very challenging by 2029, while captive PLTU proliferation in metal industry exposes PLN grid lag",
+      "whatChanged": "A 100 GW solar target valued at Rp 1,140 trillion with a projected annual state saving of Rp 73.9 trillion has been reported, with IESR stating the 2029 deadline is very challenging. Separately, Bloomberg Technoz reports on 30 September that captive coal-fired power plants are multiplying inside Indonesia's metal industry specifically because PLN grid supply is too slow to meet industrial demand.",
+      "whyItMatters": "These two data points describe the same structural failure from opposite directions. The grid investment gap documented across 27 archive entries is now producing a measurable workaround: industrial users are self-supplying with coal rather than waiting for PLN. This locks in emissions and sunk-cost opposition to grid connection at precisely the moment Indonesia is trying to mobilise Rp 1,140 trillion in solar investment that depends on the same grid.",
+      "secondOrder": "Each captive PLTU installed in a nickel or aluminium smelter represents a 15-to-25-year stranded-asset risk for that facility and a demand anchor that will resist grid connection even after PLN builds transmission capacity. The economic case for grid connection weakens once a captive plant is depreciated. Indonesia's solar targets therefore face a demand-side problem, not only a supply-side financing and permitting problem.",
+      "action": "Map the vintage and capacity of captive PLTU installations in Sulawesi and Kalimantan industrial zones against the PLN transmission expansion schedule in RUPTL 2025-2034. Where captive plants are less than five years old, grid connection incentives will need to be punitive on carbon or preferential on tariff to be effective. Flag this gap for any renewable investment thesis that assumes industrial offtake.",
       "strength": "material",
       "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVk9iMzYxOXFpcjFZdUpyR0JfbV84Y3I4d2VhejhGazYwSjZMNjR6Ykd1SDVpaWFFeUhSLXRFSVRocVR1WUhPS0FrU0VCWG1OTzlvZExXZS1XRVRIdG1FZUlpSlp5anplajdlZjNNckkwZE9ZSjlRSHFOdDZ2bnRYbmFMMHdkMThIMWIzRDd3bG1YQndXbzNTazN5cGN4OURXdVJONFZESVNobi1FN0hUQVA0RTJOZkl6MWpIVEVXOUJtdGU3VEw1aHg0T1RrZWZkMmlV?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZUlEbjlRaV8xVTF1TVU1ZkYwMU1pa3pteG4wU1c5SHBTYTNtYjlJcHdKN0x0d3NRWXdCSGRJU1lGR1pOUUV0WGgtYjdyOE5LdGttN2w5OWV5MTUxU3BSNkpRYjNyS1Zwb2tuVE5SdV9PeDdJRklEWUxqMlRrV0MyQm0xZHVQX25EampDQS14V2dTbk9pX2F2cGgtZTg1UjRNajktT25GbTNVc2RzTWh4Rw?oc=5",
+        "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/"
+      ],
+      "secondOrderUrls": [
         "https://iesr.or.id/indonesia-perlu-memperkuat-jaringan-listrik-untuk-sistem-ketenagalistrikan-yang-lebih-tangguh-terhadap-iklim/"
       ],
-      "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 1,
+        "publishers": 3,
         "hasPrimary": true
       },
       "trend": {
@@ -76,29 +82,33 @@
     },
     {
       "rank": 3,
-      "domain": "energy",
-      "themeKey": "pln-grid-investment",
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
-        "Carbon Brief",
-        "IESR",
-        "PLN"
+        "Danantara",
+        "Kompas.com",
+        "Bisnis.com",
+        "Pertagas",
+        "PGN"
       ],
-      "headline": "Carbon Brief: UK wind and solar avoided GBP 5.9 billion in gas imports during the Hormuz crisis",
-      "whatChanged": "Carbon Brief published an analysis on 30 September 2026 finding that UK wind and solar generation avoided the need for gas imports worth GBP 5.9 billion since the start of the Hormuz crisis, providing a quantified measure of renewable energy's import-substitution value under a supply shock.",
-      "whyItMatters": "The GBP 5.9 billion figure is the first large-scale empirical quantification of renewables as a geopolitical hedge under an active supply disruption, not a modelled projection. It provides a template for calculating avoided-import value that can be applied to other grid systems, including Indonesia, where gas import exposure and grid fragility intersect.",
-      "secondOrder": "A credible quantified case from a G7 economy that renewables provided measurable fiscal savings during a real supply shock changes the framing of energy-transition cost-benefit analysis from long-run levelised cost comparisons to short-run balance-of-payments resilience. For Indonesian policymakers and IESR, this is directly applicable: the Sumatra blackout and PLN's continued reliance on gas-fired capacity make an equivalent calculation both feasible and politically useful as a budget argument for accelerating renewable grid investment.",
-      "action": "Commission or request an equivalent avoided-import calculation for Indonesia's gas-dependent eastern grid segments, using the Hormuz crisis period as a counterfactual stress scenario. The UK methodology, now published by Carbon Brief, provides a replicable framework.",
+      "headline": "Danantara leadership states publicly there is no obligation yet to transfer Rp 120 trillion in dividends to the state",
+      "whatChanged": "Danantara's leadership, cited by Kompas.com and Bisnis.com on 30 September 2026, stated there is currently no obligation for Danantara to transfer Rp 120 trillion in dividends to the state budget. The statement follows earlier reports that Danantara is also reviewing a new corporate structure for Pertagas and PGN.",
+      "whyItMatters": "The Rp 120 trillion figure had circulated as an expected fiscal transfer. The public denial of any current obligation clarifies the legal and contractual boundary between Danantara's investment mandate and the state's fiscal claims on SOE dividends. This is not a minor accounting point: it determines whether Danantara retains capital for reinvestment or becomes a pass-through dividend conduit, which directly affects the leverage available for the BUMN Karya restructuring and any new capital structure for Pertagas and PGN.",
+      "secondOrder": "If Danantara retains dividend capital rather than passing it to the state budget, the fund accumulates investable assets faster but the Ministry of Finance loses a predictable fiscal inflow. This creates a latent tension between Danantara's investment mandate and budget consolidation targets, which will surface when the government faces a revenue shortfall. The Pertagas-PGN structural review, reported the same day, is likely being designed in part to generate a capital event that resolves this tension without triggering the dividend obligation.",
+      "action": "Review the legal basis for the Rp 120 trillion dividend expectation: is it embedded in Danantara's founding regulation, in a government regulation on state equity participation, or only in political statements? The answer determines how binding the obligation is and when it could be enforced. Any credit or equity analysis of Danantara-linked entities should treat the dividend obligation status as an open variable until the legal text is confirmed.",
       "strength": "material",
       "sourceUrls": [
-        "https://www.carbonbrief.org/analysis-wind-and-solar-save-uk-from-gas-imports-worth-5-9bn-during-hormuz-crisis"
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTTRHSGVZSTJkQUk2SF9jb2x2R2hONUNFMWJRTFpnb1p4S1V0R1hVSjZNYVRiVGV1WUgwUmhrLThpNldmVy04RTFvUFNQM3BrZjJ3VFpGQy0tNUJ3ZkNRRk9yY3FhbnhLT0twSUY2ZjM3WnZqYUcwbjJWY21IV1hHV0pLSERJQUpNdk9tY0NTeVJJMlQxTjRmeG43ekdNNEtXekVpOU12UGtMWVJFUXQyc3Ezb2E2U1hFSEhaRjIzLVBFdFBD?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmZ5aXNrWVlzNnV5QW8wRTBBY09ZWmozd0VMMjdKSnR5alNRTzl0T25BaWVxME9GZG4zWWpLMFZqMmlTZ1lMVFZyek44UnpvNzZOV1lMYzJxR2pGeVdDdmNvaDNFVXZEdXUtMEVXWU9RSDRJRDBXZTFUYmJRS1d5YV9RQVViVzdaeTNNZy02ZkM3UzRZZEJiYW9NcTZOa3FqX28wLTQzM2VkUEktaTJpZ0MtdW5fNFg2OHdhQTdFMUE1RVVY?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZWl4QmFyaDR0WVNEcHpjeGJIXzNLX3c5Ym5xMm13WTVTdGh4cEttR0Y3Q284R0R5ZFlrTTFyVWJrS3hRYUVVZGNrRWtoRWE0WDdUZkk2Y0Z2SE96WXJ2YkRFV3RUWjhfMG02N2Z3bC04dHhHNXJ1RDlreDU2OVh0dzlZbWNrYXoxRXZQYjlBZXdUUQ?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 1,
-        "hasPrimary": true
+        "publishers": 3,
+        "hasPrimary": false
       },
       "trend": {
-        "themeKey": "pln-grid-investment",
+        "themeKey": "danantara-bumn-karya-restructuring",
         "status": "structural",
         "occurrences": 28,
         "firstSeen": "2026-09-01",
@@ -108,19 +118,48 @@
     {
       "rank": 4,
       "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI"
+      ],
+      "headline": "OpenAI disrupts a coordinated adversarial model-distillation campaign targeting protected reasoning outputs",
+      "whatChanged": "OpenAI published a report on 30 September 2026 describing its disruption of a coordinated campaign to extract protected model reasoning through adversarial distillation, and announced it is strengthening defences against this attack class.",
+      "whyItMatters": "Model distillation has previously been understood as a technical capability transfer problem. OpenAI's characterisation of this as a coordinated campaign, rather than opportunistic scraping, indicates that adversarial distillation has matured into an organised threat with economic motivation, likely to replicate frontier reasoning capabilities at a fraction of training cost. This continues the ai-model-safety-frontier thread, which now has 21 archive entries and is a condition to plan around.",
+      "secondOrder": "If adversarial distillation is economically viable and organisationally coordinated, the effective IP protection window for a frontier reasoning model is shorter than the training and deployment investment implies. This compresses the return-on-training timeline for labs and raises the strategic value of non-distillable capabilities, specifically those tied to proprietary data, compute infrastructure, or human feedback loops that cannot be replicated from API outputs alone. Labs without those moats face accelerated commoditisation.",
+      "action": "For any enterprise deployment using frontier model APIs, audit whether query patterns or output logging could inadvertently generate training data useful to a distillation attacker. Review API terms of service for OpenAI and peer labs on output re-use restrictions, and confirm that internal AI projects are not inadvertently creating distillation-ready datasets from production model outputs.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 22,
+        "firstSeen": "2026-09-03",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
       "themeKey": "nuclear-ai-datacenter-power",
       "entities": [
-        "PJM",
-        "Bloomberg"
+        "Meta",
+        "The Information"
       ],
-      "headline": "PJM suspends data-centre power auction as grid capacity limits bite",
-      "whatChanged": "PJM, the largest US grid operator covering 13 states, suspended its planned dedicated power auction for data-centre loads. The suspension was reported by Bloomberg on 30 September 2026, with no replacement mechanism announced.",
-      "whyItMatters": "PJM's auction was the most concrete US mechanism for matching new hyperscale AI load to available generation capacity. Its suspension means data-centre developers can no longer rely on a market-clearing process to secure power; instead they face bilateral negotiation with utilities and generators under congested interconnection queues. This fits the pattern, already tracked across 20 archive entries, of AI infrastructure buildout colliding with grid physics.",
-      "secondOrder": "Suspension of the auction shifts pricing power to generators and transmission owners who hold scarce interconnection rights. It also raises the probability that large AI developers accelerate captive generation strategies, including on-site gas, nuclear offtake agreements, or direct grid bypasses, which are each subject to a different regulatory and financing structure than a standard utility tariff. Developers who assumed auction-derived power would be available must now revise project timelines and capital structures.",
-      "action": "Any data-centre project underwritten against PJM auction power should be repriced this week using bilateral contract assumptions. Ask the power provider whether its interconnection queue position survives the auction suspension, and model the cost difference between tariff power and captive generation for each site.",
-      "strength": "actionable",
+      "headline": "Meta's data-centre debt deal tests the structural ceiling of AI infrastructure financing, per The Information",
+      "whatChanged": "The Information reports on 30 September 2026 that Meta's data-centre financing arrangement is testing the limits of AI debt markets, indicating that lenders and capital markets are reaching capacity or pricing constraints on the scale of AI infrastructure debt being placed.",
+      "whyItMatters": "The AI data-centre buildout has already been tracked in this archive as shifting to a project-finance structure. The Meta deal is the first reported instance where that structure is visibly straining, meaning the sponsor-offtaker-lender chain is hitting either underwriting limits, pricing floors, or covenant structures that cannot absorb the next increment of scale.",
+      "secondOrder": "If debt market capacity is the binding constraint rather than land, power, or permits, the competitive dynamic shifts toward entities with balance-sheet strength or sovereign backing, specifically hyperscalers with investment-grade ratings and sovereign wealth funds. Smaller or unrated data-centre developers who were counting on project finance to close the gap will face either higher costs of capital or delayed construction timelines, which tightens supply and raises prices for compute buyers.",
+      "action": "Request from any data-centre project counterparty the current debt coverage ratio and lender syndicate composition before committing to long-term power or colocation agreements. If the financing stack relies on a single anchor lender or a thin syndicate, treat that as a project risk equivalent to permitting or grid interconnection risk.",
+      "strength": "emerging",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRjNNdkZaLVY0em9SN1lUOGoyUy1zakVjQi14Z29OZkpqS2pSM25xeFV3djFlZDR0UFJxd2VJMW9STmY2TXJuamlVcTVFQmJ4WnFNbE83SzJmLTd2NWdnVjdmZVNiZVZnbXQ2Uk56bG1WN2JvWUo5VEltVFpsX2x4Zmsxb3kybXhySG9KRWtPUERzaDc1Q2hZMkxGLUo4a016bEZXdUNiVC1ZUkQ0RXBCRG50YVk?oc=5"
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSTN1a082d3FHQjJDTFBvMG1pMHBTa0dXRWlDaHBxa1IyNWpLdlJ6SW5zS2NmcGNCRGgzUHplUXA0aUxkeDFNVWRsdGVhRDRNU2lBbS1MaVVVcTF6SDhGZEo0TkxoWjZLSEVwNWpsc2VzRTBEMFJyTU11NjV3S25tRUhYN2xScDlnRElXcVJCLS1ueVlleDJR?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
@@ -138,20 +177,24 @@
   ],
   "watchNext": [
     {
-      "item": "PJM announcement of a replacement data-centre power allocation mechanism or formal abandonment of the auction framework",
+      "item": "Gemini 4 Argon independent benchmark results versus GPT-6.1 Sol on coding, reasoning, and professional work tasks",
+      "dueDate": "2026-10-07"
+    },
+    {
+      "item": "Meta data-centre debt deal terms and lender syndicate composition, to assess whether AI infrastructure financing stress is isolated or systemic",
+      "dueDate": "2026-10-14"
+    },
+    {
+      "item": "Danantara legal basis for the Rp 120 trillion dividend obligation: government regulation text or founding statute confirmation",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "PLN RUPTL 2025-2034 transmission schedule versus captive PLTU installation rate in Sulawesi and Kalimantan industrial zones",
       "dueDate": "2026-10-31"
     },
     {
-      "item": "Danantara announcement of final Pertagas-PGN structure and whether PGN's listed status is preserved",
+      "item": "Danantara announcement on new corporate structure for Pertagas and PGN, expected before end of 2026",
       "dueDate": "2026-12-31"
-    },
-    {
-      "item": "RUPTL 2025-2034 revision draft incorporating grid reinforcement investment following IESR Sumatra blackout advocacy",
-      "dueDate": "2027-03-31"
-    },
-    {
-      "item": "Google DeepMind and OpenAI enterprise pricing responses as Gemini 4 Argon and GPT-6.1 Sol drive further compression",
-      "dueDate": "2026-11-30"
     }
   ],
   "sources": [
@@ -164,14 +207,6 @@
       "publishedAt": "2026-09-30T20:01:45.000Z"
     },
     {
-      "title": "Analysis: Wind and solar save UK from gas imports worth £5.9bn during Hormuz crisis",
-      "publisher": "Carbon Brief",
-      "url": "https://www.carbonbrief.org/analysis-wind-and-solar-save-uk-from-gas-imports-worth-5-9bn-during-hormuz-crisis",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-09-30T14:12:01.000Z"
-    },
-    {
       "title": "Indonesia Perlu Memperkuat Jaringan Listrik untuk Sistem Ketenagalistrikan yang Lebih Tangguh terhadap Iklim",
       "publisher": "IESR",
       "url": "https://iesr.or.id/indonesia-perlu-memperkuat-jaringan-listrik-untuk-sistem-ketenagalistrikan-yang-lebih-tangguh-terhadap-iklim/",
@@ -180,13 +215,39 @@
       "publishedAt": "2026-09-29T09:22:41.000Z"
     },
     {
-      "title": "Biggest US Grid Suspends Plan for Data Center Power Auction",
-      "publisher": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRjNNdkZaLVY0em9SN1lUOGoyUy1zakVjQi14Z29OZkpqS2pSM25xeFV3djFlZDR0UFJxd2VJMW9STmY2TXJuamlVcTVFQmJ4WnFNbE83SzJmLTd2NWdnVjdmZVNiZVZnbXQ2Uk56bG1WN2JvWUo5VEltVFpsX2x4Zmsxb3kybXhySG9KRWtPUERzaDc1Q2hZMkxGLUo4a016bEZXdUNiVC1ZUkQ0RXBCRG50YVk?oc=5",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-30T10:30:00.000Z"
+    },
+    {
+      "title": "Dony Oskaria: Belum Ada Keputusan Dividen Danantara Diserahkan ke Pemerintah - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmZ5aXNrWVlzNnV5QW8wRTBBY09ZWmozd0VMMjdKSnR5alNRTzl0T25BaWVxME9GZG4zWWpLMFZqMmlTZ1lMVFZyek44UnpvNzZOV1lMYzJxR2pGeVdDdmNvaDNFVXZEdXUtMEVXWU9RSDRJRDBXZTFUYmJRS1d5YV9RQVViVzdaeTNNZy02ZkM3UzRZZEJiYW9NcTZOa3FqX28wLTQzM2VkUEktaTJpZ0MtdW5fNFg2OHdhQTdFMUE1RVVY?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T16:00:53.000Z"
+    },
+    {
+      "title": "Meta Data Center Deal Tests Limits of AI Debt Markets",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSTN1a082d3FHQjJDTFBvMG1pMHBTa0dXRWlDaHBxa1IyNWpLdlJ6SW5zS2NmcGNCRGgzUHplUXA0aUxkeDFNVWRsdGVhRDRNU2lBbS1MaVVVcTF6SDhGZEo0TkxoWjZLSEVwNWpsc2VzRTBEMFJyTU11NjV3S25tRUhYN2xScDlnRElXcVJCLS1ueVlleDJR?oc=5",
       "tier": 2,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-09-30T18:45:47.000Z"
+      "publishedAt": "2026-09-30T18:53:00.000Z"
+    },
+    {
+      "title": "Danantara kaji struktur baru Pertagas dan PGN",
+      "publisher": "ANTARA News Yogyakarta",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZWl4QmFyaDR0WVNEcHpjeGJIXzNLX3c5Ym5xMm13WTVTdGh4cEttR0Y3Q284R0R5ZFlrTTFyVWJrS3hRYUVVZGNrRWtoRWE0WDdUZkk2Y0Z2SE96WXJ2YkRFV3RUWjhfMG02N2Z3bC04dHhHNXJ1RDlreDU2OVh0dzlZbWNrYXoxRXZQYjlBZXdUUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T15:41:27.000Z"
     },
     {
       "title": "Introducing GPT-6.1 Sol",
@@ -195,6 +256,41 @@
       "tier": 1,
       "primary": true,
       "publishedAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "title": "PLTU Jamak di Industri Logam, Efek Lambatnya Pembangunan PLN?",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZUlEbjlRaV8xVTF1TVU1ZkYwMU1pa3pteG4wU1c5SHBTYTNtYjlJcHdKN0x0d3NRWXdCSGRJU1lGR1pOUUV0WGgtYjdyOE5LdGttN2w5OWV5MTUxU3BSNkpRYjNyS1Zwb2tuVE5SdV9PeDdJRklEWUxqMlRrV0MyQm0xZHVQX25EampDQS14V2dTbk9pX2F2cGgtZTg1UjRNajktT25GbTNVc2RzTWh4Rw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T05:10:00.000Z"
+    },
+    {
+      "title": "Proyek PLTS 100 GWp Bernilai Rp1.140 Triliun, Negara Bisa Hemat Rp73,9 Triliun per Tahun - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVk9iMzYxOXFpcjFZdUpyR0JfbV84Y3I4d2VhejhGazYwSjZMNjR6Ykd1SDVpaWFFeUhSLXRFSVRocVR1WUhPS0FrU0VCWG1OTzlvZExXZS1XRVRIdG1FZUlpSlp5anplajdlZjNNckkwZE9ZSjlRSHFOdDZ2bnRYbmFMMHdkMThIMWIzRDd3bG1YQndXbzNTazN5cGN4OURXdVJONFZESVNobi1FN0hUQVA0RTJOZkl6MWpIVEVXOUJtdGU3VEw1aHg0T1RrZWZkMmlV?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T13:07:08.000Z"
+    },
+    {
+      "title": "PV Magazine | Indonesia menargetkan kapasitas tenaga surya sebesar 100 GW pada tahun 2029",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/pv-magazine-indonesia-menargetkan-kapasitas-tenaga-surya-sebesar-100-gw-pada-tahun-2029/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-21T02:52:18.000Z"
+    },
+    {
+      "title": "Bos Danantara Sebut Belum Ada Kewajiban Setor Dividen Rp 120 Triliun ke Kas Negara",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTTRHSGVZSTJkQUk2SF9jb2x2R2hONUNFMWJRTFpnb1p4S1V0R1hVSjZNYVRiVGV1WUgwUmhrLThpNldmVy04RTFvUFNQM3BrZjJ3VFpGQy0tNUJ3ZkNRRk9yY3FhbnhLT0twSUY2ZjM3WnZqYUcwbjJWY21IV1hHV0pLSERJQUpNdk9tY0NTeVJJMlQxTjRmeG43ekdNNEtXekVpOU12UGtMWVJFUXQyc3Ezb2E2U1hFSEhaRjIzLVBFdFBD?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T13:40:00.000Z"
     }
   ],
   "trends": [
@@ -252,7 +348,7 @@
     },
     "candidateCount": 353,
     "poolSize": 110,
-    "generatedAt": "2026-09-30T23:27:32.540Z",
+    "generatedAt": "2026-09-30T23:50:57.777Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
