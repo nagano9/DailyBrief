@@ -1,0 +1,386 @@
+{
+  "slug": "2026-10-02",
+  "date": "2026-10-02",
+  "lang": "en",
+  "title": "Bahlil's Kemenko, BDx Halt, Danantara-BEI, Japan $140bn AI Push, South Korea Grid",
+  "dek": "Indonesia reshapes its energy governance chain and tests state-capital deployment while global AI infrastructure spending accelerates and grid reform pressures mount.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "Indonesia's energy policy architecture shifted on 1 October as Bahlil Lahadalia was inaugurated as Coordinating Minister for Downstream Industries and Energy Transition, consolidating command over two domains that previously ran through separate ministries; the structural implication for PLN, Kementerian ESDM, and renewable investors is a single political gatekeeper with direct executive access. On the same day, IESR called for a halt to the BDx data centre at Jatiluhur and demanded public disclosure of AMDAL and grid-impact studies before construction resumes, surfacing a direct conflict between AI infrastructure demand and PLN's existing supply obligations. Danantara's reported plan to acquire up to 10 percent of Bursa Efek Indonesia equity signals a shift from portfolio restructuring toward capital-market infrastructure ownership. Internationally, Japan announced a $140 billion AI data-centre programme involving Dell and Jera, reinforcing that AI infrastructure is now treated as national industrial policy rather than private capex. South Korea's grid overhaul, replacing hard connection limits with curtailable access and competitive allocation, offers a regulatory template that Indonesia's own grid-investment bottleneck debate has not yet reached.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "Bahlil Lahadalia",
+        "Kementerian Koordinator Bidang Hilirisasi dan Transisi Energi",
+        "Kementerian ESDM",
+        "PLN"
+      ],
+      "headline": "Bahlil inaugurated as Coordinating Minister for Downstream Industries and Energy Transition, consolidating energy-policy command",
+      "whatChanged": "On 1 October 2026, Bahlil Lahadalia was inaugurated as head of the newly created Kementerian Koordinator Bidang Hilirisasi dan Transisi Energi, combining downstream industrial policy and energy transition under a single coordinating minister with direct access to President Prabowo. Bahlil publicly stated the ministry exists to execute energy transition, not merely coordinate it.",
+      "whyItMatters": "This continues the pln-grid-investment thread: grid investment has stalled partly because PLN, Kementerian ESDM, and upstream industrial policy operated without unified executive direction. A single coordinating minister who previously ran ESDM now controls the political pipeline through which PLN's capital programmes, renewable concessions, and downstream energy-intensive industries must pass. This is no longer a bureaucratic reshuffle; it is a structural change in who approves and sequences energy investment.",
+      "secondOrder": "Centralising energy-transition authority in one minister who also governs downstream industry creates a latent conflict: smelting and nickel processing are the largest captive-PLTU users and the biggest obstacles to PLN's clean-grid targets. If Bahlil prioritises hilirisasi output over decarbonisation timelines, the renewable procurement pipeline slows even as it reports to the same desk. Investors pricing Indonesia's energy-transition risk must now model one decision-maker's incentives rather than inter-ministry balance.",
+      "action": "Map every pending PLN grid project and renewable tender against the new Kemenko's approval chain. Identify which transactions require Kemenko sign-off versus Kementerian ESDM alone, and reassess timelines for projects that previously depended on ESDM acting independently.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVGg2cWZTVGZVbi1IQVlKcE5rOTlxcUJ3bUFOcU5mNzNZY0pyZTRDcFdTVFd1Q21DSjd0bFdqQS1pS3VQejBWTW0tUkFXYUtXd1dtSnRxNVprajhaZm9kM0puQ0xob0FLRzEyWHhkNmNJa0VuUEMybEJkZklMZXdJTGd3MTVvVmtVQjR2cURLN21wd3B0Wm9lWWJtbWtCWFVYT2xiT0N4RktWcHlSd2hwMGxwN3czbEhPX0czMEtUY2Z4RnlMZVpLYWw1WVJfVWVXclFRY2VGNA?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUDJZb2g1enNpRkhtZ0Zkc0I3Rk5Jcl9sOVpCMDktczRsX1BhamYwVUVud2ZKWmJBRHpVb29US2NCSDZoWEFfT1k1cGhyR2lUZFljaGlfOGF2ZGZ0NTVwWWxuUUZOdURHekpXbDN0cmFaWTMwQklVT2phTENEMHRxSDl4TVJpcjF4a1ptTm80b1VaSmlDSXJCQ3M4RjB0SE8xcmppSEVET04wMmhLdjg1dzl3?oc=5",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVl5Z0RQazhWVXZyVW9NQ1dTdWlKd2xvWjNMVHhHTEdyYW85SzRHZU5jT1IwX1d6UlJVcG9hR09GS3drRTRiMGU1LXRnal9mZm1ydVJqTlJvU1ozMHFCWnZtTVpmVEVXNk0wTmJJdnhhYjBCRkE1OUwwUnFfUzI0cnVPSmg2eHo0RjFPMTh4ZEo5YXVrNjRGYmVYZw?oc=5",
+        "https://finance.detik.com/energi/d-8688265/bahlil-ungkap-alasan-prabowo-bentuk-kemenko-hilirisasi-dan-transisi-energi",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMThoS0lJRTJvQUYxT3NGSzdNbDZiOFhuWkg0S3g4bmdfTVpUVldBZHowZklnaWh0cmY3YWdVQ2FqeWtITmZBOWVrR04xNDJZYmxjWFAyZndFNU5jRVBJYThRVXlhekhmMmJFNXlucGdOR0V4M25KS3RyVDlHMm9uWnItN2tfYmswVEJEUURzUnl0U3hNN1Azc3kxaGxOellWcFg3UU0teVJTTlRwd01vX3NyVjdacFhMUVh0blJTUQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 5,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-02",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "BDx",
+        "PLN",
+        "NeutraDC"
+      ],
+      "headline": "IESR demands halt to BDx data centre at Jatiluhur, cites undisclosed grid-impact and AMDAL studies",
+      "whatChanged": "IESR published a statement on 1 October 2026 supporting a temporary suspension of the BDx data centre project at Jatiluhur and calling on the government to require that AMDAL documents, social-environmental assessments, and studies on grid reliability and PLN customer access be made public before construction resumes. IESR also demanded the government issue AI infrastructure safeguard regulations and green data-centre standards.",
+      "whyItMatters": "This is the first formal institutional demand for a regulatory framework governing AI data-centre power consumption in Indonesia. BDx is a large-scale facility; the core objection is that its load would draw from the same PLN grid that serves residential and commercial customers in West Java, where supply reliability is already under scrutiny. The demand for public AMDAL disclosure introduces a legal-process step that could delay or restructure the project's power offtake arrangement.",
+      "secondOrder": "If the government responds by issuing safeguard regulations, every subsequent data-centre project in Indonesia will face a new permitting layer tied to grid-impact disclosure. This would increase development timelines and shift negotiating power from data-centre developers toward PLN and local regulators. NeutraDC, which signed a 200 MW PLN partnership, would be among the first to navigate any new framework. The absence of regulation today is itself a risk: developers are pricing Indonesian power supply assumptions that a future framework could invalidate.",
+      "action": "Review any data-centre investment thesis that assumes Indonesian grid offtake without accounting for an emerging safeguard-regulation regime. Assess BDx project status and PLN's published position on the Jatiluhur connection before committing to any downstream assumption about West Java grid capacity.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-dukung-penghentian-sementara-bdx-data-center-di-jatiluhur-desak-pemerintah-segera-terbitkan-regulasi-safeguard-ai-dan-standar-data-center-hijau/"
+      ],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-02",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Bursa Efek Indonesia",
+        "OJK"
+      ],
+      "headline": "Danantara plans to acquire up to 10 percent of Bursa Efek Indonesia equity",
+      "whatChanged": "Kompas.id and detikFinance reported on 1 October 2026 that Danantara is planning to purchase up to 10 percent of shares in Bursa Efek Indonesia. The BEI chief responded publicly without ruling out the transaction.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread and represents a strategic escalation: Danantara is moving from restructuring SOE operating companies toward acquiring equity in the market infrastructure that prices and trades all Indonesian listed securities. Ownership of a 10 percent stake in BEI would give Danantara a governance seat and economic interest in the exchange's fee income, listing decisions, and product approvals.",
+      "secondOrder": "A state investment vehicle holding exchange equity creates a structural tension for capital-market governance. Foreign institutional investors and index providers assess exchange neutrality as a precondition for market classification. If Danantara's BEI stake is perceived as state influence over listing or index inclusion decisions, it could affect MSCI or FTSE Russell's assessment of Indonesian market accessibility, with portfolio-flow consequences that dwarf the transaction value itself.",
+      "action": "Assess the governance implications: identify who would hold the BEI board seat attached to a Danantara stake, what decisions require shareholder approval at BEI, and whether the acquisition triggers any OJK change-of-control review. Flag the index-provider risk to any Indonesia equity allocation decision made this quarter.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd29HV0F5dHl2dkYzWUtMdDFJcEFlLTAzS0dpLXh2UFc1cmtkQUdKZWRhMVgxVy15bW9EQUUyakRSbTFNVGpYemRRTmx4X2ZfQmVwV1pIVjN2djJfVU5sRjB1QU16T0ZMT3NfTFNJNnUyUjRuMVBPVVRBUnE5aUJtSUNYSGg5enJ4MXZKc09pV1lORWFyY251VlEyVndGMVRPMlVxY2Qwd2tPLTM0WXRCT056UzRWR21HVkNNdldCb0djVkswdmpVS2x3?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMFRBVVpBVnZYakd1SmkzMGFzSUd2OG41VEhZc2JOZ0cyUW5WZVJjQ0hENWR1bTFTUER5OE1oYnhjTDBjcWEyMXZ3M0Rhb2VTMWZISTJXeUVMdU9pTHFXUjNOa2ZPTGdQY3hWMndwakpoVXplZGNMaVphb3hZd3BxNzAtN0liOE1HeXBHdkFpdWF0SW1sTXg5QXZEQnVlN0ZWVUVsbXhvX2hxbmdFVHfSAbMBQVVfeXFMTVpnWjkwMm5abnN6Z1JsdldoOWl6NjBvRlBOQk4zOVVqMHBWa2pmdWlJMDBqbC0yall1TDN2bjktbDNfZ2JlNEJpRG1yUWN1UVRlaFpmQVNqMklLTkdqVU5CUFhwdHA0R0pGdXgtb0lqRmk2TjZrUVJndE1RYlhWdmtGOWcxQ1BfS1ViemZWelFnQklLUDFQUHRrUlpKN0Z4d0Vuck1NQmpMYWptZC1zLXFiZTA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-02",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "South Korea",
+        "PLN",
+        "Kementerian ESDM",
+        "IEEFA"
+      ],
+      "headline": "South Korea replaces hard grid-connection limits with curtailable access and competitive allocation to absorb 100 GW of renewables",
+      "whatChanged": "pv magazine reported on 1 October 2026 that South Korea is overhauling its grid-connection framework, replacing rigid hard limits with curtailable access rights, battery storage requirements, and competitive allocation of connection capacity, with the stated aim of accommodating more than 100 GW of renewables.",
+      "whyItMatters": "South Korea's reform directly addresses the same grid-access bottleneck that has stalled renewable deployment in Indonesia and the Philippines. The shift from hard limits to curtailable access is a regulatory technology: it allows the grid to host more renewable capacity by accepting temporary output curtailment rather than refusing connection. Competitive allocation of connection rights introduces price signals that can direct investment toward grid-friendly locations.",
+      "secondOrder": "Indonesia's grid-investment debate, documented across 17 editions in this archive, has focused on transmission financing and PLN's capital constraints. South Korea's model shows that regulatory design changes, not only capital, can expand hosting capacity. If Indonesian regulators or IEEFA-engaged policymakers adopt the curtailable-access framework, it would reduce the headline capital requirement for grid expansion while shifting curtailment risk to renewable developers, changing the risk-return profile of Indonesian solar and wind assets.",
+      "action": "Use South Korea's framework as a concrete policy alternative to present in any engagement with Kementerian ESDM or the new Kemenko on grid-access rules. Specifically, assess whether Indonesia's existing PLN connection-agreement templates could accommodate curtailability clauses without primary legislation, which would shorten the implementation path.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/10/01/south-korea-grid-overhaul-to-connect-more-than-100-gw-of-renewables/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-09-02",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Japan",
+        "Dell",
+        "Jera",
+        "PLN"
+      ],
+      "headline": "Japan announces $140bn AI data-centre programme with Dell and Jera, framing compute as national infrastructure",
+      "whatChanged": "The Financial Times reported on 1 October 2026 that Japan plans a $140 billion AI data-centre programme involving Dell and Jera, positioning the investment as national industrial policy rather than private-sector capex.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power thread. The scale ($140 billion) and the inclusion of Jera, Japan's largest power generator, confirm that AI data-centre programmes at the sovereign level now require power-sector partners as co-principals, not just utility suppliers. Japan's model pairs a hardware vendor (Dell) with a generation company (Jera), treating power availability as the binding constraint that determines where compute can be deployed.",
+      "secondOrder": "The Japan announcement raises the competitive benchmark for Southeast Asian AI infrastructure programmes. Indonesia, which is debating safeguard regulations for a single data-centre project, is now positioned against a neighbour committing state-level capital at two orders of magnitude greater scale. Regional hyperscalers selecting their next major deployment site will compare Japanese sovereign commitments, including guaranteed power, against Indonesian permitting uncertainty. This could divert AI-infrastructure investment from Indonesia toward Japan or other markets with clearer power-offtake frameworks.",
+      "action": "Compare Indonesia's current AI data-centre policy posture (reactive, permit-based) against Japan's proactive sovereign-investment model. Quantify the power-capacity gap between what PLN can reliably offer to data-centre customers and what Japan's Jera partnership can guarantee, and use that gap as an input to Indonesia's competitiveness assessment for AI infrastructure FDI.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxQemNTTmxOeGxwbmRmbjlnOVZHYjl2QV9qZXp4aWhhQUpDdW1IMVo1WTl0LXFWcnFHZ0VwT3U1Ml9aaHRBR2ljTjliOEljc1UzOHYxa1p6YnIxS0piUWl6d0t6aFFJdEpNQmxReURrREU4UEVBaUprQkN1eDBMNzVwdFBvTlY?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-02",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Government response to IESR's BDx halt demand: watch for Kementerian ESDM or the new Kemenko to issue or decline AI data-centre safeguard regulations, which would set the permitting baseline for all subsequent projects.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Danantara's formal filing or withdrawal of its BEI share-acquisition plan, and OJK's public position on whether a change-of-control review applies.",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Bahlil's first substantive policy output as Coordinating Minister: watch for any directive affecting PLN's renewable procurement calendar or PLTU captive-power licensing in the metals sector.",
+      "dueDate": "2026-11-01"
+    },
+    {
+      "item": "Japan's $140bn data-centre programme: watch for formal government budget allocation and Jera's announced power-capacity commitment, which will confirm whether the programme has binding commitments or remains aspirational.",
+      "dueDate": "2027-03-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR Dukung Penghentian Sementara BDx Data Center di Jatiluhur, Desak Pemerintah Segera Terbitkan Regulasi Safeguard AI dan Standar Data Center Hijau",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-dukung-penghentian-sementara-bdx-data-center-di-jatiluhur-desak-pemerintah-segera-terbitkan-regulasi-safeguard-ai-dan-standar-data-center-hijau/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-01T04:02:15.000Z"
+    },
+    {
+      "title": "Hilirisasi dan Transisi Energi Dikoordinasikan Satu Pintu, Bahlil Dilantik sebagai Menko",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVGg2cWZTVGZVbi1IQVlKcE5rOTlxcUJ3bUFOcU5mNzNZY0pyZTRDcFdTVFd1Q21DSjd0bFdqQS1pS3VQejBWTW0tUkFXYUtXd1dtSnRxNVprajhaZm9kM0puQ0xob0FLRzEyWHhkNmNJa0VuUEMybEJkZklMZXdJTGd3MTVvVmtVQjR2cURLN21wd3B0Wm9lWWJtbWtCWFVYT2xiT0N4RktWcHlSd2hwMGxwN3czbEhPX0czMEtUY2Z4RnlMZVpLYWw1WVJfVWVXclFRY2VGNA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-01T13:35:09.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Bahlil paparkan tugas signifikan Menko Hilirisasi dan Transisi Energi",
+      "publisher": "ANTARA News Jambi",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUDJZb2g1enNpRkhtZ0Zkc0I3Rk5Jcl9sOVpCMDktczRsX1BhamYwVUVud2ZKWmJBRHpVb29US2NCSDZoWEFfT1k1cGhyR2lUZFljaGlfOGF2ZGZ0NTVwWWxuUUZOdURHekpXbDN0cmFaWTMwQklVT2phTENEMHRxSDl4TVJpcjF4a1ptTm80b1VaSmlDSXJCQ3M4RjB0SE8xcmppSEVET04wMmhLdjg1dzl3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-01T15:35:53.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "Menko Bahlil: Kemenko baru untuk eksekusi transisi energi",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVl5Z0RQazhWVXZyVW9NQ1dTdWlKd2xvWjNMVHhHTEdyYW85SzRHZU5jT1IwX1d6UlJVcG9hR09GS3drRTRiMGU1LXRnal9mZm1ydVJqTlJvU1ozMHFCWnZtTVpmVEVXNk0wTmJJdnhhYjBCRkE1OUwwUnFfUzI0cnVPSmg2eHo0RjFPMTh4ZEo5YXVrNjRGYmVYZw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-01T13:53:53.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "Danantara Berencana Beli hingga 10 Persen Saham BEI",
+      "publisher": "Kompas.id",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd29HV0F5dHl2dkYzWUtMdDFJcEFlLTAzS0dpLXh2UFc1cmtkQUdKZWRhMVgxVy15bW9EQUUyakRSbTFNVGpYemRRTmx4X2ZfQmVwV1pIVjN2djJfVU5sRjB1QU16T0ZMT3NfTFNJNnUyUjRuMVBPVVRBUnE5aUJtSUNYSGg5enJ4MXZKc09pV1lORWFyY251VlEyVndGMVRPMlVxY2Qwd2tPLTM0WXRCT056UzRWR21HVkNNdldCb0djVkswdmpVS2x3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-01T11:28:52.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "Bahlil Ungkap Alasan Prabowo Bentuk Kemenko Hilirisasi dan Transisi Energi",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8688265/bahlil-ungkap-alasan-prabowo-bentuk-kemenko-hilirisasi-dan-transisi-energi",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-01T11:13:35.000Z"
+    },
+    {
+      "title": "Bahlil Ungkap Alasan Ditunjuk Jadi Menko Hilirisasi dan Transisi Energi",
+      "publisher": "Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMThoS0lJRTJvQUYxT3NGSzdNbDZiOFhuWkg0S3g4bmdfTVpUVldBZHowZklnaWh0cmY3YWdVQ2FqeWtITmZBOWVrR04xNDJZYmxjWFAyZndFNU5jRVBJYThRVXlhekhmMmJFNXlucGdOR0V4M25KS3RyVDlHMm9uWnItN2tfYmswVEJEUURzUnl0U3hNN1Azc3kxaGxOellWcFg3UU0teVJTTlRwd01vX3NyVjdacFhMUVh0blJTUQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-01T12:21:57.000Z"
+    },
+    {
+      "title": "Japan plans $140bn AI data centre push with Dell and Jera",
+      "publisher": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQemNTTmxOeGxwbmRmbjlnOVZHYjl2QV9qZXp4aWhhQUpDdW1IMVo1WTl0LXFWcnFHZ0VwT3U1Ml9aaHRBR2ljTjliOEljc1UzOHYxa1p6YnIxS0piUWl6d0t6aFFJdEpNQmxReURrREU4UEVBaUprQkN1eDBMNzVwdFBvTlY?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-01T08:05:31.000Z"
+    },
+    {
+      "title": "South Korea grid overhaul to connect more than 100 GW of renewables",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/10/01/south-korea-grid-overhaul-to-connect-more-than-100-gw-of-renewables/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-01T12:30:00.000Z"
+    },
+    {
+      "title": "Danantara Mau Kempit 10% Saham Bursa, Bos BEI Bilang Begini - detikFinance",
+      "publisher": "detikFinance - Berita Ekonomi Bisnis, dan Investasi Hari Ini",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMFRBVVpBVnZYakd1SmkzMGFzSUd2OG41VEhZc2JOZ0cyUW5WZVJjQ0hENWR1bTFTUER5OE1oYnhjTDBjcWEyMXZ3M0Rhb2VTMWZISTJXeUVMdU9pTHFXUjNOa2ZPTGdQY3hWMndwakpoVXplZGNMaVphb3hZd3BxNzAtN0liOE1HeXBHdkFpdWF0SW1sTXg5QXZEQnVlN0ZWVUVsbXhvX2hxbmdFVHfSAbMBQVVfeXFMTVpnWjkwMm5abnN6Z1JsdldoOWl6NjBvRlBOQk4zOVVqMHBWa2pmdWlJMDBqbC0yall1TDN2bjktbDNfZ2JlNEJpRG1yUWN1UVRlaFpmQVNqMklLTkdqVU5CUFhwdHA0R0pGdXgtb0lqRmk2TjZrUVJndE1RYlhWdmtGOWcxQ1BfS1ViemZWelFnQklLUDFQUHRrUlpKN0Z4d0Vuck1NQmpMYWptZC1zLXFiZTA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-01T09:20:05.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara tegaskan belum ada kewajiban setor dividen Rp 120 triliun; kaji restrukturisasi Pertagas dan PGN",
+      "occurrences": 27,
+      "firstSeen": "2026-09-02",
+      "lastSeen": "2026-10-01",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLTU captive marak di industri logam karena lambatnya pembangunan PLN",
+      "occurrences": 27,
+      "firstSeen": "2026-09-02",
+      "lastSeen": "2026-10-01",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI bongkar kampanye distilasi model adversarial yang terkoordinasi",
+      "occurrences": 22,
+      "firstSeen": "2026-09-03",
+      "lastSeen": "2026-10-01",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Google DeepMind releases Gemini 4 Argon one day after OpenAI ships GPT-6.1 Sol, compressing the frontier release cycle to days",
+      "occurrences": 21,
+      "firstSeen": "2026-09-03",
+      "lastSeen": "2026-10-01",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Meta's data-centre debt deal tests the structural ceiling of AI infrastructure financing, per The Information",
+      "occurrences": 20,
+      "firstSeen": "2026-09-02",
+      "lastSeen": "2026-10-01",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 390,
+    "poolSize": 110,
+    "generatedAt": "2026-10-01T23:13:49.755Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
