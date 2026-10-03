@@ -1,0 +1,345 @@
+{
+  "slug": "2026-10-03",
+  "date": "2026-10-03",
+  "lang": "id",
+  "title": "Danantara-OJK, BDx Jatiluhur, dan Merger Asuransi BUMN Mendominasi Agenda Oktober",
+  "dek": "Tiga perkembangan korporasi-energi Indonesia hari ini menuntut keputusan regulasi dan investasi dalam hitungan minggu, bukan kuartal.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Danantara bergerak pada tiga front sekaligus: OJK belum menerima pengajuan formal akuisisi 10 persen saham Bursa Efek Indonesia, COO Danantara mengonfirmasi merger asuransi BUMN sedang berjalan, dan pimpinan Danantara bertemu Menkeu Suahasil membahas agenda yang belum diumumkan penuh. Di sisi energi, IESR memperbarui desakan penghentian sementara BDx Jatiluhur sambil menuntut AMDAL dan kajian dampak keandalan PLN dibuka ke publik, melanjutkan tekanan struktural pada nexus antara konsumsi listrik pusat data AI dan infrastruktur transmisi yang sudah lemah. Di domain AI, prospektus IPO Anthropic yang bocor ke Reuters mengungkap biaya operasional yang melonjak tajam, memperkuat sinyal bahwa model bisnis frontier AI belum berkelanjutan tanpa modal eksternal skala besar.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "OJK",
+        "Bursa Efek Indonesia",
+        "Dony Oskaria",
+        "Suahasil Nazara"
+      ],
+      "headline": "OJK belum terima pengajuan Danantara soal akuisisi 10% saham BEI, sementara merger asuransi BUMN dikonfirmasi berjalan",
+      "whatChanged": "Per 2 Oktober 2026, OJK secara eksplisit menyatakan belum menerima pengajuan formal dari Danantara terkait rencana kepemilikan 10 persen saham Bursa Efek Indonesia. Pada hari yang sama, COO Danantara Dony Oskaria mengonfirmasi bahwa proses merger perusahaan asuransi BUMN sedang berjalan. Pimpinan Danantara juga bertemu Menkeu Suahasil Nazara pada 2 Oktober 2026.",
+      "whyItMatters": "Danantara melanjutkan ekspansi mandatnya secara bersamaan di tiga jalur, yaitu kepemilikan infrastruktur pasar modal, konsolidasi asuransi BUMN, dan koordinasi fiskal langsung dengan Kementerian Keuangan, tanpa satu pun dari tiga jalur tersebut memiliki kerangka regulasi yang selesai. Ini adalah pola yang sama dari restrukturisasi BUMN Karya: gerak korporasi mendahului regulasi.",
+      "secondOrder": "Ketidakhadiran pengajuan formal ke OJK untuk akuisisi saham BEI berarti regulator pasar modal belum memiliki visibilitas atas struktur kepemilikan yang diusulkan, termasuk mekanisme voting, konflik kepentingan dengan portofolio BUMN yang sudah terdaftar di bursa, dan implikasi terhadap independensi penyelenggara pasar. Bila merger asuransi BUMN selesai sebelum akuisisi BEI diajukan, Danantara berpotensi menjadi pemegang saham bursa yang juga mengontrol lembaga keuangan yang bertransaksi di bursa tersebut.",
+      "action": "Petakan struktur kepemilikan silang: identifikasi BUMN asuransi mana yang sudah terdaftar di BEI, hitung potensi konflik suara antara Danantara sebagai calon pemegang 10 persen BEI dan sebagai pengendali emiten asuransi, lalu ajukan pertanyaan tertulis ke OJK tentang jadwal pengajuan dan kerangka persetujuan yang akan digunakan. Batas waktu relevan adalah sebelum merger asuransi dideklarasikan selesai.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbHUybnFoVDlBeGNMRUt2VTJwcFh2NUxFaEJXZ3p2c1ZUUHR3WGdJTHIta1JqN1NtWjl3X1h6clppT3NleThocXViT2pfTkxQY1V5ZjZXbm5UUEVuNW5aMHEyRW56NXJadW5IR3N2WUNWTXJlTDBfWEpiZ3lKeThudmUxdXFsSHZDMlVNN3NmYWJpVV94UzM0OFhoeThWV0lPQXhmMDQzaERGOGtmZW5EUjJVT2Zad9IBuwFBVV95cUxPZW80ZWhNSTZMRHFSdjBWNUJ6S1dkanlSa0VydTkwMHB4VHEzblBDYUhGX2ZFNzFDdUF0WmFjak9aeVdXZUdzWWdkSjh2aXJuUDJWZk5HeGM2RF90c0dZOXA2VU5RWGkzTFJNX2FZU01sSW41cVhMM2Rid3FHYlJOZDhOejJrTEd4eGhPQ1FFTVQ4NkVEQy14WW95dG5uSnhuVC03LVIyd3JsNHdHUGZ2eFNITDl4eENWdUM0?oc=5",
+        "https://finance.detik.com/moneter/d-8689961/merger-bumn-asuransi-mulai-digodok",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa3BCVG9FZmM3T1d2NWN1SE11RGlKc0ZsbktzRk5Qbm9RWnhiNDJ4Zkp0N2hoU0pKWV8zQ1U2NWd5bk1sWmRJNlUydFpVT0pPaHVYb2xvZDUxYjlpb2tqclRSVTNRZElVNkNDODEtZXRoaEpfZFhuNU8xbGw1T08yUWVyeFhTbVFNc2NRNmFwenViNms2eV94Sy1uY0RVbDNGRVdTSTQtZHBtMkt6X3NxdtIBtgFBVV95cUxQTFVWZ2R6MU9Lajl2aVo5SGRLOGYydTFMaDVTMVlSWldNQUJWUjZwUGhqNGdsQVFvejNXSVVSV3hRWGxydGRHTWFEdU1DWC0wcnBjeGJJZ1ZGc1lBU3gzaTBqUmNxZTJuVGh6bGUwcmNmYkVWaktDalVuYVpDTkRIQlN6SkVjbkQ4X0pwOFVyb1VJNWtrdlBmamRMd3RfclB3bUdWbEdiN2k1QnJGcUNURW5TbmFRUQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-04",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "IESR",
+        "BDx Data Center",
+        "PLN",
+        "Jatiluhur"
+      ],
+      "headline": "IESR perbarui desakan penghentian sementara BDx Jatiluhur dan tuntut AMDAL serta kajian PLN dibuka publik",
+      "whatChanged": "IESR per 1 Oktober 2026 menerbitkan pernyataan resmi mendukung penghentian sementara BDx Data Center di Jatiluhur. IESR secara eksplisit menuntut AMDAL, kajian sosial-lingkungan, dan kajian dampak terhadap keandalan pasokan serta akses listrik pelanggan PLN dibuka ke publik sebelum pembangunan dilanjutkan. Ini adalah eskalasi dari posisi sebelumnya yang hanya meminta kajian.",
+      "whyItMatters": "Tekanan publik dari lembaga riset energi terkemuka Indonesia terhadap proyek pusat data skala besar menciptakan preseden regulasi: setiap pusat data AI berdaya besar yang menggunakan jaringan PLN kini berpotensi menghadapi persyaratan transparansi AMDAL dan kajian keandalan jaringan sebagai kondisi kelanjutan konstruksi. Ini melanjutkan kondisi struktural yang sudah 20 kali muncul dalam 30 hari terakhir.",
+      "secondOrder": "Bila pemerintah mengakomodasi tuntutan IESR sebagian saja, misalnya dengan mewajibkan kajian keandalan tanpa menghentikan konstruksi, hasilnya adalah kerangka regulasi baru yang akan berlaku retroaktif pada proyek pusat data lain yang sudah dalam pipeline. NeutraDC yang bermitra dengan PLN untuk ekspansi 200 MW dan proyek serupa akan menghadapi persyaratan kajian tambahan yang belum diperhitungkan dalam jadwal dan biaya awal.",
+      "action": "Tinjau ulang pipeline proyek pusat data yang mengandalkan pasokan PLN: minta konfirmasi tertulis dari pengembang apakah AMDAL dan kajian keandalan sudah selesai atau masih dalam proses, dan evaluasi apakah jadwal konstruksi sudah memasukkan skenario penghentian sementara regulasi. Lakukan ini sebelum akhir Oktober 2026 ketika tekanan publik IESR masih aktif mendorong respons pemerintah.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-dukung-penghentian-sementara-bdx-data-center-di-jatiluhur-desak-pemerintah-segera-terbitkan-regulasi-safeguard-ai-dan-standar-data-center-hijau/"
+      ],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-03",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "PLN UPP KLB 3",
+        "UPT Palangka Raya",
+        "Bahlil",
+        "Kementerian ESDM"
+      ],
+      "headline": "PLN UPP KLB 3 dan UPT Palangka Raya selaraskan pembangunan transmisi Kalimantan, Bahlil resmi koordinasi hilirisasi dan transisi energi satu pintu",
+      "whatChanged": "Per 2 Oktober 2026, PLN UPP KLB 3 bersama UPT Palangka Raya menyelaraskan pembangunan dan pengelolaan infrastruktur transmisi Kalimantan. Pada 1 Oktober 2026, Kementerian ESDM mengonfirmasi Bahlil dilantik sebagai Menko Hilirisasi dan Transisi Energi, menyatukan koordinasi dua agenda di satu pintu.",
+      "whyItMatters": "Sinkronisasi transmisi Kalimantan terjadi tepat ketika koordinasi kebijakan energi dipusatkan pada satu Menko. Ini mengurangi friksi birokrasi antara rencana transmisi PLN dan izin hilirisasi, tetapi juga mengkonsentrasikan risiko: satu titik keputusan berarti satu titik kegagalan koordinasi. Ini melanjutkan tema struktural pln-transmisi-investasi yang sudah 17 kali muncul dalam 30 hari terakhir.",
+      "secondOrder": "Konsentrasi koordinasi hilirisasi dan transisi energi pada satu Menko menciptakan hierarki prioritas yang belum eksplisit: ketika proyek hilirisasi (misalnya smelter nikel) dan proyek energi terbarukan bersaing untuk kapasitas transmisi yang sama di Kalimantan, keputusan ada pada satu tangan. Pengembang energi terbarukan dan operator kawasan industri perlu memahami urutan prioritas ini sebelum mengunci komitmen capex.",
+      "action": "Konfirmasi dengan PLN UPP KLB 3 jadwal commissioning segmen transmisi Kalimantan yang sedang diselaraskan, dan petakan proyek hilirisasi mana yang dijadwalkan menggunakan kapasitas yang sama. Bawa pertanyaan ini ke satu titik, yaitu koordinasi Menko Bahlil, sebelum akhir Q4 2026 ketika alokasi kapasitas transmisi 2027 kemungkinan akan dikunci.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQckV3V0RDd1I3bmZSMVJFc0xnNmRfdjF2c0ZUMnB3UG1ra3pvQVJiZUsxLUl2Q1AwMWZ6OThQUVVjYlNNSEZwVldQem9TQm9xb0ExXzVjbzByWEZRcTlQSWJKSDYxRHlvbG95N2l4NkotcHFBal9vRzdxN2txb0ItVlJ5M0t6czBBSzFiZTdQZDh6TXVNbnlFb3pnYmNhbXRhQ1BYcThoOE05LVREWmpnWTVjWDVrSVNzdkQ0dExMR1k1QnZrS1ppMXJXX1Q0ZWRSQnZWU0Z4R2N6WVJGRmg0Wg?oc=5",
+        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQVFfcmhDTGhHUl96ZlNVY21yWnRBMkl5OXFBRjJ6ODlZS0hENUxQLTJfRmxleXJqZ28zQUFyZmYzdHNHSnZrY1JOTHpVZE9FOHREOFhzc0ZJUWJ5TnlNUkNrUVZvQlRkRW5GQlRpci1JdnNyU2FRRXYxM3VEZm9abFAwZ3NWN00xQlVNMlI3ck9zTTh4aTFTOFY0LUpKYW9nZVBiTTREODJDeXVFcTRtUXA0aG8wbXlHV3NKcmhUcmVtR3RwN01zVU82WDV6NzA0T0xvVWR3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-09-03",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "Geo Dipa Energi",
+        "Kementerian ESDM",
+        "Kementerian Keuangan"
+      ],
+      "headline": "Geo Dipa bidik 1 GW panas bumi dalam 10 tahun dengan kebutuhan Rp 102 triliun, beban fiskal sektor capai 40%",
+      "whatChanged": "Per 2 Oktober 2026, Katadata melaporkan PT Geo Dipa Energi menargetkan 1 GW kapasitas PLTP dalam satu dekade dengan kebutuhan investasi US$ 5,75 miliar (sekitar Rp 102 triliun). Bloomberg Technoz pada tanggal yang sama melaporkan beban fiskal panas bumi mencapai 40 persen, dengan Geo Dipa mendorong netralisasi beban tersebut.",
+      "whyItMatters": "Kesenjangan antara target kapasitas ambisius dan beban fiskal 40 persen yang belum diselesaikan adalah hambatan struktural yang konkret. Bila netralisasi fiskal tidak terealisasi, target 1 GW tidak bisa dibiayai pada tingkat pengembalian yang menarik bagi investor swasta, sehingga seluruh beban jatuh pada neraca BUMN atau APBN.",
+      "secondOrder": "Geo Dipa adalah BUMN di bawah portofolio yang bersinggungan dengan Danantara. Bila Danantara mendorong restrukturisasi BUMN energi sambil beban fiskal panas bumi belum dineutralkan, valuasi aset panas bumi BUMN akan tertekan pada saat yang sama ketika kebutuhan capex-nya paling besar. Ini menciptakan risiko bahwa restrukturisasi menghasilkan entitas baru dengan neraca lebih lemah, bukan lebih kuat.",
+      "action": "Minta kepastian dari Kementerian ESDM dan Kementerian Keuangan tentang status negosiasi netralisasi fiskal panas bumi: apakah ada keputusan yang dijadwalkan sebelum APBN 2027 dikunci, dan apakah insentif fiskal tersebut sudah masuk dalam asumsi pembiayaan target 1 GW Geo Dipa. Tanpa kepastian ini, angka US$ 5,75 miliar tidak bisa divalidasi sebagai rencana investasi yang dapat dieksekusi.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://katadata.co.id/ekonomi-hijau/energi-baru/6abfc5b18ab11/geo-dipa-bidik-1-gw-pembangkit-panas-bumi-dalam-10-tahun-butuh-rp-102-triliun",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlAzeFZHajAwX1FBWGtjSFB6WjkwQTZGNlFJeEVEVHlwT3R5TjN6NUpKYTdsN1RLSU05MDRVSEw3UFRqSE05VnJJbEdVR01MMVZ3cEU2SkhYakVwM3A2ZDR5V1czc0ctcXlHY25xXy00SWI5Yk9PY2JWd1A1MDdRWGlWU3M0Z0VKYWtRdXRrUVloMXlfSEttUHc2STN6N0RWQktEOFJ5cEpDU2ZibzVfckdR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-09-03",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Reuters"
+      ],
+      "headline": "Prospektus IPO Anthropic bocor ke Reuters: biaya melonjak, visi AI sweeping, ketergantungan modal eksternal terkonfirmasi",
+      "whatChanged": "Reuters per 30 September 2026 melaporkan secara eksklusif bahwa prospektus IPO Anthropic menunjukkan biaya operasional yang melonjak tajam bersamaan dengan visi AI yang disebut sebagai 'sweeping'. Dokumen ini adalah sumber primer yang mengonfirmasi bahwa Anthropic memasuki pasar modal publik dengan struktur keuangan yang defisit besar.",
+      "whyItMatters": "Prospektus IPO adalah dokumen hukum bersertifikasi, bukan presentasi investor. Data biaya di dalamnya mengikat secara hukum dan menunjukkan bahwa model bisnis frontier AI, bahkan di perusahaan paling terdepan dalam keamanan AI, bergantung pada modal eksternal dalam skala yang belum pernah terjadi di industri teknologi sebelumnya. Ini membentuk pola: frontier AI adalah bisnis infrastruktur, bukan bisnis perangkat lunak.",
+      "secondOrder": "IPO Anthropic akan menetapkan valuasi pasar publik pertama untuk perusahaan frontier AI yang secara eksplisit menempatkan keamanan sebagai diferensiasi produk. Hasilnya akan menjadi referensi valuasi bagi OpenAI, Google DeepMind dalam konteks kompetisi, dan investor institusi yang mengevaluasi taruhan AI. Bila pasar menghukum defisit biaya dengan diskon valuasi besar, putaran pendanaan frontier AI berikutnya akan lebih mahal.",
+      "action": "Baca prospektus Anthropic lengkap ketika tersedia secara resmi: catat rasio biaya komputasi terhadap pendapatan, jadwal proyeksi menuju profitabilitas, dan klausul penggunaan dana IPO. Bandingkan angka ini dengan klaim serupa dari OpenAI dan Google DeepMind untuk menetapkan benchmark biaya per kapabilitas yang realistis sebelum mengevaluasi investasi atau kemitraan AI apa pun.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbVlPeVROc0FBWTl6a0ZCZXdPVF93WjdPT1BFV2xkQmlyRE9oYS1wRF9yWk0zV1EwSlJ5Vmt0UkpucHdQWUpSbGdzUmdVeC1EWm5sMzBkTUNQMkg3ekVYMkMtemVySUxhWnRCTWRNLTA1Vl8tZVZkRU80ZVk4TjdZbE5LdjJ5VzJXbUlmM1FvMnJqTFE4TkZVeEJFVndEMmpIbGN5WDRxclhHX0JZdHp6LWlad3JTakZr?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-09-03",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Pengajuan formal Danantara ke OJK untuk akuisisi 10% saham BEI: apakah dokumen masuk sebelum merger asuransi BUMN dideklarasikan selesai.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Respons pemerintah terhadap tuntutan IESR soal BDx Jatiluhur: apakah AMDAL dan kajian keandalan PLN diwajibkan dibuka atau konstruksi dilanjutkan tanpa syarat tambahan.",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Publikasi resmi prospektus IPO Anthropic di bursa AS: konfirmasi angka biaya komputasi, rasio defisit, dan timeline menuju profitabilitas.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Keputusan netralisasi beban fiskal panas bumi 40% dalam APBN 2027: apakah Geo Dipa mendapat insentif yang memungkinkan target 1 GW dibiayai secara komersial.",
+      "dueDate": "2026-11-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR Dukung Penghentian Sementara BDx Data Center di Jatiluhur, Desak Pemerintah Segera Terbitkan Regulasi Safeguard AI dan Standar Data Center Hijau",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-dukung-penghentian-sementara-bdx-data-center-di-jatiluhur-desak-pemerintah-segera-terbitkan-regulasi-safeguard-ai-dan-standar-data-center-hijau/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-01T04:02:15.000Z"
+    },
+    {
+      "title": "PLN UPP KLB 3 bersama UPT Palangka Raya selaraskan pembangunan dan pengelolaan infrastruktur transmisi",
+      "publisher": "ANTARA News Kalteng",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQckV3V0RDd1I3bmZSMVJFc0xnNmRfdjF2c0ZUMnB3UG1ra3pvQVJiZUsxLUl2Q1AwMWZ6OThQUVVjYlNNSEZwVldQem9TQm9xb0ExXzVjbzByWEZRcTlQSWJKSDYxRHlvbG95N2l4NkotcHFBal9vRzdxN2txb0ItVlJ5M0t6czBBSzFiZTdQZDh6TXVNbnlFb3pnYmNhbXRhQ1BYcThoOE05LVREWmpnWTVjWDVrSVNzdkQ0dExMR1k1QnZrS1ppMXJXX1Q0ZWRSQnZWU0Z4R2N6WVJGRmg0Wg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-02T09:13:53.000Z"
+    },
+    {
+      "title": "Merger BUMN Asuransi Mulai Digodok",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/moneter/d-8689961/merger-bumn-asuransi-mulai-digodok",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-03T00:00:04.000Z"
+    },
+    {
+      "title": "Hilirisasi dan Transisi Energi Dikoordinasikan Satu Pintu, Bahlil Dilantik sebagai Menko",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQVFfcmhDTGhHUl96ZlNVY21yWnRBMkl5OXFBRjJ6ODlZS0hENUxQLTJfRmxleXJqZ28zQUFyZmYzdHNHSnZrY1JOTHpVZE9FOHREOFhzc0ZJUWJ5TnlNUkNrUVZvQlRkRW5GQlRpci1JdnNyU2FRRXYxM3VEZm9abFAwZ3NWN00xQlVNMlI3ck9zTTh4aTFTOFY0LUpKYW9nZVBiTTREODJDeXVFcTRtUXA0aG8wbXlHV3NKcmhUcmVtR3RwN01zVU82WDV6NzA0T0xvVWR3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-01T13:31:08.000Z"
+    },
+    {
+      "title": "Beban Fiskal Panas Bumi Capai 40%, Geo Dipa Dorong Netralisasi",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlAzeFZHajAwX1FBWGtjSFB6WjkwQTZGNlFJeEVEVHlwT3R5TjN6NUpKYTdsN1RLSU05MDRVSEw3UFRqSE05VnJJbEdVR01MMVZ3cEU2SkhYakVwM3A2ZDR5V1czc0ctcXlHY25xXy00SWI5Yk9PY2JWd1A1MDdRWGlWU3M0Z0VKYWtRdXRrUVloMXlfSEttUHc2STN6N0RWQktEOFJ5cEpDU2ZibzVfckdR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-02T13:40:00.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic's IPO prospectus shows sweeping AI vision, surging costs",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbVlPeVROc0FBWTl6a0ZCZXdPVF93WjdPT1BFV2xkQmlyRE9oYS1wRF9yWk0zV1EwSlJ5Vmt0UkpucHdQWUpSbGdzUmdVeC1EWm5sMzBkTUNQMkg3ekVYMkMtemVySUxhWnRCTWRNLTA1Vl8tZVZkRU80ZVk4TjdZbE5LdjJ5VzJXbUlmM1FvMnJqTFE4TkZVeEJFVndEMmpIbGN5WDRxclhHX0JZdHp6LWlad3JTakZr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T01:16:47.000Z"
+    },
+    {
+      "title": "Bos Danantara Temui Menkeu Suahasil, Ini yang Dibahas",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa3BCVG9FZmM3T1d2NWN1SE11RGlKc0ZsbktzRk5Qbm9RWnhiNDJ4Zkp0N2hoU0pKWV8zQ1U2NWd5bk1sWmRJNlUydFpVT0pPaHVYb2xvZDUxYjlpb2tqclRSVTNRZElVNkNDODEtZXRoaEpfZFhuNU8xbGw1T08yUWVyeFhTbVFNc2NRNmFwenViNms2eV94Sy1uY0RVbDNGRVdTSTQtZHBtMkt6X3NxdtIBtgFBVV95cUxQTFVWZ2R6MU9Lajl2aVo5SGRLOGYydTFMaDVTMVlSWldNQUJWUjZwUGhqNGdsQVFvejNXSVVSV3hRWGxydGRHTWFEdU1DWC0wcnBjeGJJZ1ZGc1lBU3gzaTBqUmNxZTJuVGh6bGUwcmNmYkVWaktDalVuYVpDTkRIQlN6SkVjbkQ4X0pwOFVyb1VJNWtrdlBmamRMd3RfclB3bUdWbEdiN2k1QnJGcUNURW5TbmFRUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-02T13:33:40.000Z"
+    },
+    {
+      "title": "Geo Dipa Bidik 1 GW Pembangkit Panas Bumi dalam 10 Tahun, Butuh Rp 102 Triliun",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/ekonomi-hijau/energi-baru/6abfc5b18ab11/geo-dipa-bidik-1-gw-pembangkit-panas-bumi-dalam-10-tahun-butuh-rp-102-triliun",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-02T14:54:00.000Z"
+    },
+    {
+      "title": "OJK Belum Terima Pengajuan Danantara soal Kempit 10% Saham Bursa - detikFinance",
+      "publisher": "detikFinance - Berita Ekonomi Bisnis, dan Investasi Hari Ini",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbHUybnFoVDlBeGNMRUt2VTJwcFh2NUxFaEJXZ3p2c1ZUUHR3WGdJTHIta1JqN1NtWjl3X1h6clppT3NleThocXViT2pfTkxQY1V5ZjZXbm5UUEVuNW5aMHEyRW56NXJadW5IR3N2WUNWTXJlTDBfWEpiZ3lKeThudmUxdXFsSHZDMlVNN3NmYWJpVV94UzM0OFhoeThWV0lPQXhmMDQzaERGOGtmZW5EUjJVT2Zad9IBuwFBVV95cUxPZW80ZWhNSTZMRHFSdjBWNUJ6S1dkanlSa0VydTkwMHB4VHEzblBDYUhGX2ZFNzFDdUF0WmFjak9aeVdXZUdzWWdkSjh2aXJuUDJWZk5HeGM2RF90c0dZOXA2VU5RWGkzTFJNX2FZU01sSW41cVhMM2Rid3FHYlJOZDhOejJrTEd4eGhPQ1FFTVQ4NkVEQy14WW95dG5uSnhuVC03LVIyd3JsNHdHUGZ2eFNITDl4eENWdUM0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-02T13:02:54.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: jaringan listrik Indonesia perlu penguatan struktural setelah pemadaman Sumatra",
+      "occurrences": 27,
+      "firstSeen": "2026-09-03",
+      "lastSeen": "2026-10-02",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara berencana akuisisi hingga 10 persen saham Bursa Efek Indonesia",
+      "occurrences": 27,
+      "firstSeen": "2026-09-04",
+      "lastSeen": "2026-10-02",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic publikasi analisis GLM-5.3 sebagai vektor penyebaran kapabilitas siber lanjutan",
+      "occurrences": 23,
+      "firstSeen": "2026-09-03",
+      "lastSeen": "2026-10-02",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Google DeepMind releases Gemini 4 Argon one day after OpenAI ships GPT-6.1 Sol, compressing the frontier release cycle to days",
+      "occurrences": 21,
+      "firstSeen": "2026-09-03",
+      "lastSeen": "2026-10-01",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "IESR desak penghentian sementara BDx Jatiluhur, tuntut AMDAL dan kajian pasokan PLN dibuka",
+      "occurrences": 20,
+      "firstSeen": "2026-09-03",
+      "lastSeen": "2026-10-02",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 403,
+    "poolSize": 110,
+    "generatedAt": "2026-10-03T00:27:39.125Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
