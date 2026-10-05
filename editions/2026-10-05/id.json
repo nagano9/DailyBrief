@@ -1,0 +1,345 @@
+{
+  "slug": "2026-10-05",
+  "date": "2026-10-05",
+  "lang": "id",
+  "title": "Danantara Tahan Dividen Rp120T; BDx Jatiluhur Diblokir IESR; IPO Anthropic Bocor",
+  "dek": "Tiga sinyal hari ini memperlihatkan tekanan fiskal BUMN, hambatan regulasi data center AI, dan eskalasi biaya frontier model yang bergerak secara bersamaan.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "Danantara memberi sinyal bahwa dividen BUMN senilai Rp120 triliun tidak akan disetor ke APBN, mempertegas pola retensi modal yang mengubah postur fiskal negara. Bersamaan, IESR mendesak penghentian proyek data center BDx di Jatiluhur hingga dokumen AMDAL dan kajian dampak kelistrikan dibuka ke publik, menegaskan bahwa pertumbuhan beban AI kini menjadi risiko grid nyata di Indonesia. Prospektus IPO Anthropic yang bocor ke Reuters memperlihatkan biaya operasional yang melampaui pendapatan secara signifikan, mengonfirmasi pola stres keuangan frontier model yang sudah terpantau dalam tema nuclear-ai-datacenter-power. Sementara itu, pelantikan Bahlil sebagai Menko yang mengintegrasikan hilirisasi dan transisi energi dalam satu koordinasi membuka ulang pertanyaan tentang konsistensi kebijakan ESDM. Kelima sinyal ini membentuk gambaran di mana pembiayaan, regulasi, dan tata kelola energi-AI bergerak menuju titik keputusan dalam hitungan minggu.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "IESR",
+        "BDx",
+        "PLN",
+        "Kementerian ESDM"
+      ],
+      "headline": "IESR desak moratorium BDx Jatiluhur sampai AMDAL dan kajian grid dibuka publik",
+      "whatChanged": "IESR pada 1 Oktober 2026 menerbitkan pernyataan resmi yang mendesak penghentian sementara proyek data center BDx di Jatiluhur. IESR menyebut tiga dokumen yang wajib dibuka ke publik sebelum pembangunan dilanjutkan: AMDAL, kajian sosial-lingkungan, dan kajian dampak terhadap keandalan pasokan serta akses listrik pelanggan PLN.",
+      "whyItMatters": "Ini adalah pertama kalinya lembaga riset energi dengan rekam jejak advokasi kebijakan secara eksplisit menghubungkan pertumbuhan beban data center AI dengan risiko keandalan grid PLN di Indonesia. Pernyataan ini memperkuat tema nuclear-ai-datacenter-power yang sudah 20 kali muncul dalam arsip: stres kelistrikan dari infrastruktur AI kini menjadi konflik regulasi terbuka, bukan spekulasi.",
+      "secondOrder": "Tekanan publik melalui IESR memberi amunisi bagi regulator, termasuk Kementerian ESDM dan BPKH, untuk menerapkan safeguard lingkungan dan kelistrikan sebagai prasyarat izin data center besar. Jika mekanisme ini dikodifikasi, seluruh pipeline proyek data center di Indonesia, termasuk rencana NeutraDC 200 MW, harus menyertakan kajian dampak grid sebagai dokumen wajib sebelum groundbreaking.",
+      "action": "Developer data center dan tim perizinan: audit segera apakah dokumen AMDAL dan kajian dampak kelistrikan sudah masuk dalam paket pengajuan izin untuk proyek yang sedang berjalan. Tanyakan kepada Kementerian ESDM apakah regulasi safeguard AI yang diminta IESR sedang dalam proses drafting, dan minta timeline tertulis.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-dukung-penghentian-sementara-bdx-data-center-di-jatiluhur-desak-pemerintah-segera-terbitkan-regulasi-safeguard-ai-dan-standar-data-center-hijau/"
+      ],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-05",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "frontier-model-scientific-reasoning",
+      "entities": [
+        "Anthropic",
+        "Reuters",
+        "Claude Frontier Academy"
+      ],
+      "headline": "Prospektus IPO Anthropic bocor: biaya melampaui pendapatan, visi AI sweeping",
+      "whatChanged": "Reuters pada 30 September 2026 melaporkan secara eksklusif bahwa prospektus IPO Anthropic memperlihatkan biaya operasional yang melampaui pendapatan secara signifikan, disertai deskripsi visi AI yang luas. Ini adalah pertama kalinya dokumen keuangan internal Anthropic tersedia untuk analisis publik.",
+      "whyItMatters": "Prospektus IPO adalah sumber primer yang tunduk pada kewajiban hukum akurasi, sehingga angka di dalamnya jauh lebih andal daripada klaim pemasaran. Defisit operasional yang terkonfirmasi dari dokumen ini mengonfirmasi pola yang sudah terpantau dalam tema nuclear-ai-datacenter-power: biaya infrastruktur frontier model membebani neraca secara struktural, bukan sementara.",
+      "secondOrder": "Investor institusional yang mempertimbangkan partisipasi IPO Anthropic perlu menilai apakah model pendapatan Claude Frontier Academy (100 juta dolar untuk 10.000 insinyur, kandidat 16) cukup untuk mengubah trajektori defisit. Jika tidak, tekanan IPO Anthropic akan menekan valuasi seluruh segmen frontier AI, termasuk perusahaan yang belum IPO.",
+      "action": "Analis ekuitas dan investor: ekstrak rasio biaya-pendapatan dari prospektus Reuters begitu dokumen lengkap tersedia. Bandingkan dengan struktur biaya OpenAI yang tersirat dari kandidat 17 dan 44 untuk membangun matriks komparatif valuasi frontier lab sebelum window IPO terbuka.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbVlPeVROc0FBWTl6a0ZCZXdPVF93WjdPT1BFV2xkQmlyRE9oYS1wRF9yWk0zV1EwSlJ5Vmt0UkpucHdQWUpSbGdzUmdVeC1EWm5sMzBkTUNQMkg3ekVYMkMtemVySUxhWnRCTWRNLTA1Vl8tZVZkRU80ZVk4TjdZbE5LdjJ5VzJXbUlmM1FvMnJqTFE4TkZVeEJFVndEMmpIbGN5WDRxclhHX0JZdHp6LWlad3JTakZr?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "frontier-model-scientific-reasoning",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-09-09",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Bahlil",
+        "Kementerian ESDM",
+        "PLN"
+      ],
+      "headline": "Bahlil dilantik sebagai Menko, koordinasi hilirisasi dan transisi energi disatukan",
+      "whatChanged": "Kementerian ESDM mengumumkan pada 1 Oktober 2026 bahwa Bahlil dilantik sebagai Menteri Koordinator yang menyatukan koordinasi hilirisasi dan transisi energi dalam satu pintu. Sebelumnya dua agenda ini berada di bawah koordinasi kementerian yang berbeda.",
+      "whyItMatters": "Penyatuan koordinasi ini mengubah siapa yang memiliki otoritas akhir atas keputusan investasi energi terbarukan yang bersinggungan dengan kebijakan hilirisasi mineral, termasuk nikel untuk baterai dan tembaga untuk transmisi. Tema pln-transmisi-investasi yang sudah 17 kali muncul dalam arsip kini memiliki satu titik koordinasi tunggal, yang bisa mempercepat atau memperumit keputusan tergantung kapasitas kantor Menko baru.",
+      "secondOrder": "Investor proyek PLTS 100 GWp (kandidat 52) dan pengembang transmisi yang sedang bernegosiasi dengan PLN perlu mengidentifikasi ulang counterpart kebijakan mereka: apakah keputusan final tetap di Kementerian ESDM atau naik ke Menko. Ketidakjelasan ini biasanya menunda pengajuan izin selama masa transisi 3-6 bulan pertama.",
+      "action": "Tim government relations perusahaan energi terbarukan: peta ulang rantai persetujuan proyek dengan asumsi Menko sebagai titik koordinasi baru. Jadwalkan pertemuan klarifikasi dengan Dirjen EBTKE untuk memastikan alur dokumen perizinan PLTS tidak tertahan di ambiguitas yurisdiksi antara ESDM dan kantor Menko.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQVFfcmhDTGhHUl96ZlNVY21yWnRBMkl5OXFBRjJ6ODlZS0hENUxQLTJfRmxleXJqZ28zQUFyZmYzdHNHSnZrY1JOTHpVZE9FOHREOFhzc0ZJUWJ5TnlNUkNrUVZvQlRkRW5GQlRpci1JdnNyU2FRRXYxM3VEZm9abFAwZ3NWN00xQlVNMlI3ck9zTTh4aTFTOFY0LUpKYW9nZVBiTTREODJDeXVFcTRtUXA0aG8wbXlHV3NKcmhUcmVtR3RwN01zVU82WDV6NzA0T0xvVWR3?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaXN1VHdCemRCa05aSy1XVEwxVk1yUUZEZDhxR3BIRG9GUnZFNHEtNGlvOXJVSGxyOVJqYldTVHlfZ3lZdjNEOW1tWk1ESklvci1hVjdnZ3V2RWpSVXppVUIxZUMtNUh1anNGcHAtNG1EX1BhY2ZqZ2xOWW8yUVNaY1NXOVQ3bWl2YkE?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 18,
+        "firstSeen": "2026-09-06",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "PLN",
+        "IEEFA"
+      ],
+      "headline": "IESR: pemadaman Sumatra bukti Indonesia perlu transformasi jaringan listrik segera",
+      "whatChanged": "IESR pada 28 September 2026 menerbitkan laporan yang menggunakan pemadaman listrik di Sumatra sebagai bukti empiris bahwa penguatan jaringan transmisi Indonesia bukan proyek jangka panjang, melainkan kebutuhan mendesak saat ini. Laporan menyebut perlunya transformasi struktural grid, bukan sekadar penambahan kapasitas.",
+      "whyItMatters": "Pemadaman Sumatra yang dikutip IESR merupakan kejadian konkret yang memberi konteks operasional pada debat investasi transmisi yang selama ini bersifat proyektual. Tema pln-grid-investment telah muncul 27 kali sejak 5 September 2026 sebagai kondisi struktural: laporan ini menambahkan bukti keandalan aktual yang memperkuat urgensi rekomendasi IEEFA tentang subholding transmisi.",
+      "secondOrder": "Jika pemadaman Sumatra dikategorikan sebagai kegagalan infrastruktur yang dapat dicegah melalui investasi transmisi yang tertunda, maka PLN menghadapi risiko reputasi dan potensi tekanan regulasi untuk mempercepat belanja capex transmisi di luar RUPTL yang sudah ada. Ini membuka ruang bagi instrumen pembiayaan alternatif, termasuk green bond dan project finance yang disponsori IFC atau ADB.",
+      "action": "Analis infrastruktur dan lender multilateral: gunakan data pemadaman Sumatra sebagai studi kasus untuk menghitung biaya ekonomi ketidakandalan grid per jam, lalu bandingkan dengan biaya capex penguatan transmisi yang diestimasi IEEFA. Output ini menjadi argumen kuantitatif untuk mempercepat persetujuan pembiayaan transmisi di rapat dewan PLN kuartal ini.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/indonesia-perlu-memperkuat-jaringan-listrik-untuk-sistem-ketenagalistrikan-yang-lebih-tangguh-terhadap-iklim/",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-05",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "APBN",
+        "detikFinance"
+      ],
+      "headline": "Danantara beri sinyal dividen Rp120 triliun tidak disetor ke APBN",
+      "whatChanged": "Pimpinan Danantara menyatakan bahwa dividen BUMN senilai Rp120 triliun yang seharusnya menjadi penerimaan APBN akan ditahan dan dikelola langsung oleh Danantara, bukan diserahkan ke kas negara. Laporan detikFinance per 30 September 2026 mengutip sinyal eksplisit dari pejabat Danantara.",
+      "whyItMatters": "Keputusan ini mengubah struktur penerimaan negara secara material: selama ini dividen BUMN merupakan salah satu komponen penerimaan non-pajak yang digunakan untuk membiayai belanja publik. Retensi Rp120 triliun di luar APBN berarti ruang fiskal pemerintah menyempit tanpa perubahan formal pada postur anggaran.",
+      "secondOrder": "Jika preseden ini berlaku untuk siklus dividen berikutnya, investor surat utang negara perlu merevisi asumsi kapasitas fiskal Indonesia, karena sumber penerimaan non-pajak yang selama ini dianggap stabil kini bersifat kondisional pada prioritas Danantara. Lembaga pemeringkat yang sedang meninjau sovereign rating Indonesia akan mempertanyakan transparansi alur kas antara Danantara dan APBN.",
+      "action": "Tim fiskal dan analis sovereign: petakan ulang proyeksi penerimaan negara bukan pajak untuk 2026-2027 dengan skenario dividen BUMN tertahan. Siapkan pertanyaan spesifik untuk manajemen Danantara mengenai mekanisme akuntansi antara entitas Danantara dan rekening kas umum negara sebelum rapat pembahasan APBN perubahan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQlpVUUh6bHk1VEN0OGlXVndyQnF1SjRrMS1jeFAtU25pSzM2U21YM1lSYTJzeEhtbV9Dd2ktWTFRZ2hzNW1QSDhaLUN1RFB5Uy1JWHVCdlVkMmt6NzhqTzh6U2g1cFY4N25pVTVXN1Vmd1ZFb0V1WnBFQmdDdHI4YUZucG1yV0RQSzNPRVZkMmxpNXRDNndHMmJtZGlwU3Y4QXdQSXctbHRxbkthWXdJRzRjc3hSNkVNUk1nSFd5bU81ZktPaHlV0gHMAUFVX3lxTE1Hc25ITDNTVFlrRnhPekd5UERlRy1YdTVnbDVFNWx2T1Y5MXRJeU5fZFI5dXhoN2NjY0JCZnRpTWVUMG1WeEhQaE9MY1hyUVRIREZyV3E2S3pHUHJEaDhsdVp1ZUJ2VXFRT3FBYk9iRnZ0Y1llcHE3d1paSl96T1dFQ0FRc1l5NzZsb3FORF9mUzZYQ3FsR0tCdVBVWXBUUVQ3anFudk0xMmdfa2c1M21mNDl6QnV2bF9BQl9uaF9VQk5zbF9sbGROYUxhLQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-05",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Dokumen lengkap prospektus IPO Anthropic: pantau apakah SEC filing memuat rasio biaya-pendapatan yang memungkinkan perbandingan valuasi antar frontier lab.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Respons Kementerian ESDM terhadap tuntutan IESR soal regulasi safeguard AI dan standar data center hijau: apakah ada draf regulasi yang masuk ke konsultasi publik.",
+      "dueDate": "2026-11-01"
+    },
+    {
+      "item": "Klarifikasi mekanisme akuntansi dividen Danantara versus APBN: apakah ada pernyataan resmi Kemenkeu atau perubahan pada postur APBN 2026.",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Peta yurisdiksi Menko Bahlil versus Kementerian ESDM untuk persetujuan proyek PLTS 100 GWp: apakah Perpres atau Permen baru mengklarifikasi alur perizinan.",
+      "dueDate": "2026-11-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR Dukung Penghentian Sementara BDx Data Center di Jatiluhur, Desak Pemerintah Segera Terbitkan Regulasi Safeguard AI dan Standar Data Center Hijau",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-dukung-penghentian-sementara-bdx-data-center-di-jatiluhur-desak-pemerintah-segera-terbitkan-regulasi-safeguard-ai-dan-standar-data-center-hijau/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-01T04:02:15.000Z"
+    },
+    {
+      "title": "Indonesia Perlu Memperkuat Jaringan Listrik untuk Sistem Ketenagalistrikan yang Lebih Tangguh terhadap Iklim",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/indonesia-perlu-memperkuat-jaringan-listrik-untuk-sistem-ketenagalistrikan-yang-lebih-tangguh-terhadap-iklim/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-29T09:22:41.000Z"
+    },
+    {
+      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-02T23:01:00.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Hilirisasi dan Transisi Energi Dikoordinasikan Satu Pintu, Bahlil Dilantik sebagai Menko",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQVFfcmhDTGhHUl96ZlNVY21yWnRBMkl5OXFBRjJ6ODlZS0hENUxQLTJfRmxleXJqZ28zQUFyZmYzdHNHSnZrY1JOTHpVZE9FOHREOFhzc0ZJUWJ5TnlNUkNrUVZvQlRkRW5GQlRpci1JdnNyU2FRRXYxM3VEZm9abFAwZ3NWN00xQlVNMlI3ck9zTTh4aTFTOFY0LUpKYW9nZVBiTTREODJDeXVFcTRtUXA0aG8wbXlHV3NKcmhUcmVtR3RwN01zVU82WDV6NzA0T0xvVWR3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-01T13:31:08.000Z"
+    },
+    {
+      "title": "Berbondong-Bondong Mengincar Proyek PLTS 100 GWp",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaXN1VHdCemRCa05aSy1XVEwxVk1yUUZEZDhxR3BIRG9GUnZFNHEtNGlvOXJVSGxyOVJqYldTVHlfZ3lZdjNEOW1tWk1ESklvci1hVjdnZ3V2RWpSVXppVUIxZUMtNUh1anNGcHAtNG1EX1BhY2ZqZ2xOWW8yUVNaY1NXOVQ3bWl2YkE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-04T22:15:42.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic's IPO prospectus shows sweeping AI vision, surging costs",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbVlPeVROc0FBWTl6a0ZCZXdPVF93WjdPT1BFV2xkQmlyRE9oYS1wRF9yWk0zV1EwSlJ5Vmt0UkpucHdQWUpSbGdzUmdVeC1EWm5sMzBkTUNQMkg3ekVYMkMtemVySUxhWnRCTWRNLTA1Vl8tZVZkRU80ZVk4TjdZbE5LdjJ5VzJXbUlmM1FvMnJqTFE4TkZVeEJFVndEMmpIbGN5WDRxclhHX0JZdHp6LWlad3JTakZr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T01:16:47.000Z"
+    },
+    {
+      "title": "Bos Danantara Beri Sinyal Dividen Rp 120 Triliun Tidak Disetor ke APBN - detikFinance",
+      "publisher": "detikFinance - Berita Ekonomi Bisnis, dan Investasi Hari Ini",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQlpVUUh6bHk1VEN0OGlXVndyQnF1SjRrMS1jeFAtU25pSzM2U21YM1lSYTJzeEhtbV9Dd2ktWTFRZ2hzNW1QSDhaLUN1RFB5Uy1JWHVCdlVkMmt6NzhqTzh6U2g1cFY4N25pVTVXN1Vmd1ZFb0V1WnBFQmdDdHI4YUZucG1yV0RQSzNPRVZkMmxpNXRDNndHMmJtZGlwU3Y4QXdQSXctbHRxbkthWXdJRzRjc3hSNkVNUk1nSFd5bU81ZktPaHlV0gHMAUFVX3lxTE1Hc25ITDNTVFlrRnhPekd5UERlRy1YdTVnbDVFNWx2T1Y5MXRJeU5fZFI5dXhoN2NjY0JCZnRpTWVUMG1WeEhQaE9MY1hyUVRIREZyV3E2S3pHUHJEaDhsdVp1ZUJ2VXFRT3FBYk9iRnZ0Y1llcHE3d1paSl96T1dFQ0FRc1l5NzZsb3FORF9mUzZYQ3FsR0tCdVBVWXBUUVQ3anFudk0xMmdfa2c1M21mNDl6QnV2bF9BQl9uaF9VQk5zbF9sbGROYUxhLQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-09-30T12:47:44.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Target PLTS 100 GWp Indonesia: pemerintah pangkas birokrasi tender, transparansi perencanaan masih dipertanyakan",
+      "occurrences": 27,
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-10-04",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "OJK belum terima pengajuan Danantara soal akuisisi 10% saham BEI, sementara merger asuransi BUMN dikonfirmasi berjalan",
+      "occurrences": 27,
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-10-03",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "Google DeepMind releases Gemini 4 Argon, declaring a new era of frontier intelligence",
+      "occurrences": 24,
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-10-04",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "The Information: stres utang data center AI muncul di berbagai neraca secara bersamaan",
+      "occurrences": 20,
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-10-04",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "The Information reports AI datacenter debt stress is appearing across balance sheets simultaneously",
+      "occurrences": 20,
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-10-03",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 370,
+    "poolSize": 110,
+    "generatedAt": "2026-10-05T00:53:19.720Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
