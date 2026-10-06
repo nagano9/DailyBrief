@@ -1,0 +1,363 @@
+{
+  "slug": "2026-10-06",
+  "date": "2026-10-06",
+  "lang": "id",
+  "title": "Danantara Pangkas 354 BUMN; Gemini 4 Argon dan CAES 700 MW China Ubah Peta",
+  "dek": "Tiga sinyal struktural mengeras bersamaan: restrukturisasi BUMN memasuki fase eksekusi angka, frontier model baru memperketat persaingan AI, dan penyimpanan energi skala gigawatt melampaui fase uji.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Danantara mengumumkan pemangkasan 354 dari 1.074 BUMN dengan fokus pada entitas bermasalah, memperkuat pola restrukturisasi yang sudah berjalan 27 kali dalam arsip. Google DeepMind merilis Gemini 4 Argon sebagai frontier model generasi baru, menggeser posisi kompetitif di saat Anthropic mengalokasikan USD 100 juta untuk pelatihan 10.000 insinyur lewat Claude Frontier Academy. Di sisi energi, China menyelesaikan startup penuh proyek CAES garam-gua 700 MW Jintan, menjadikannya referensi teknis penyimpanan non-bahan-bakar terbesar dunia. Bersamaan, Kemenko Hilirisasi beroperasi dengan anggaran yang dipinjam dari alokasi Kementerian ESDM, menciptakan ambiguitas fiskal yang mempengaruhi koordinasi transisi energi. OpenAI meluncurkan format iklan visual di ChatGPT, menandai pergeseran model bisnis AI dari langganan murni ke pendapatan periklanan.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Presiden Prabowo"
+      ],
+      "headline": "Danantara konfirmasi 354 BUMN dipangkas dari total 1.074, fokus pada entitas bermasalah",
+      "whatChanged": "Pimpinan Danantara secara publik menyebut angka 354 BUMN yang akan dipangkas dari portofolio 1.074 entitas, dengan prioritas pada BUMN yang mengalami masalah keuangan atau operasional. Pernyataan ini muncul bersamaan dengan instruksi Presiden Prabowo agar optimalisasi aset BUMN dilanjutkan tahun depan.",
+      "whyItMatters": "Angka 354 adalah pertama kalinya target pemangkasan disebutkan secara eksplisit dan terbuka oleh Danantara, mengubah wacana restrukturisasi menjadi komitmen yang dapat diverifikasi. Pola ini melanjutkan tema danantara-bumn-karya-restructuring yang sudah tercatat 27 kali; akumulasinya menunjukkan bahwa fase perencanaan sudah berakhir dan fase eksekusi dimulai dengan parameter yang konkret.",
+      "secondOrder": "Pemangkasan 354 entitas akan memaksa keputusan tentang siapa yang menanggung liabilitas warisan, termasuk utang Kereta Cepat yang disebut terpisah oleh pimpinan Danantara pada hari yang sama. BUMN yang tidak masuk kategori 'bermasalah' tetapi operasinya bergantung pada silang-subsidi dari entitas yang dipangkas akan menghadapi tekanan likuiditas tanpa payung hukum yang jelas sebelum restrukturisasi selesai.",
+      "action": "Identifikasi BUMN dalam portofolio yang memiliki eksposur silang-subsidi atau jaminan antar-entitas dengan kandidat pangkas; susun matriks liabilitas kontinjen per entitas sebelum akhir Oktober 2026 sebagai dasar keputusan lindung nilai atau restrukturisasi utang.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYU1PcUd1MkliLTVYeG1ZQVdkakVKZzJnY2tqLTdxZWFLS01xYjhLNTFTRnNDQmtHRDc4MlBpT1FpdElYTnBDVnJhVHgxVF9uZFlfQzJ2Y1d6UUpjZkVXbndaSVB3OHRzaml5a1VVMFdDT1ZhRzlJSUIzQ2tEaFRRNHI3MUl6ZlpQSml0WmdsUTVfWUdCblJka1lyTW5pY01nSi1iYUdTZXFodE0yWHFuTlFoTjFzNUtqQkVqZVNXeEhuOFJN0gHKAUFVX3lxTE9fZ3JYX2RyVjk0RENQVG5heVU2aVF1Tk4yUkkxWk1BMUNxZHAxTnFQMXZLUndyODJKQ0dwd1VtQUI1S3JXallSQWdIOVJqZTJVQzN2OE1PUnRzODlIWjdpT3R5aGJhX21BSGRlYXhzNGFJb3dLZ3hsZi1xWXFDSWNoVVZ6WnJsV3JvVG12NHFuMF9Rd014d0ZVTTRqV01nV19Sbmw1OTJ2eEtvd1U4Xy1HaUJDOFRrSkhhZW0tZTVoMktUY18waEVoMXc?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3djc1RxdGVyamkwRkNwM3FkRzVid3ZEOTkyVWNIV25PNHRpaGc1ZE9RX2pkN3FDYldJQjl5QUJTcFpyVWdaNGtzaXhUek93SWtPM3BkVWV2VUZLbmxIc1g2TUJGS20wVEZYVHl1SDZiVnRWSThYcXhJdWtSNTA3YzBxQ04xVXFNMGRKdHdDazRPTVZaNUwxT0RjeG5pODNtZ09zQWhhbkpSMmZybmYzcnFmd2dUUFJZQ0E?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNDdjQklFblhRMWRMLWRHelZ4d2wwYXllbkRRR0dFWXJfNGc1dTJQdmpoOUd1d0FITnd6UnlHZndYc3ZNQlV1b2hNWld3N2MwOXRkV3RiNEQ1TUpMekRSSUg0MXk0RldIRlJRTjlwUkUwRHNaOUZTN0VGcVNjeU5fc25mRnA2Zm95dkxFbDhYYzhDTV9USFZVUGZIQ2ZIV1M0MDRmWFQzOU9XcGxkNmEtUTJCSURxeDQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd2hJcGI0YmVtSG5tcm5XTDJVbkk0VG16bEw1eUpBM1R1dlpCNS05cE9tX3lXZDRqd0ZDYVVjRUNQTXB0dlBsMnlmdWR3eDFlYmt0S29pY2Fua3AxdUIwbk5vbmt6YmlPd1ZvYXZNRENLdHJSMWZrUVNvWWRRWmJzWXRGSFRLMV9SZmJNTVV5NE9PZmxRWkU5T0h1TjNEN3VtRU4wbUVaME5xOUo5bHJhSTlR0gG3AUFVX3lxTE1IeGoxb3YxLXJMLTUzRWt4ZjU3Umg5MldDZ0stSVFGLW9Wd3NPQUtEa3lUWXhNV2Jib0lld2NNOTFzSXBsTUhkQnhrMXBDaDExMV9LRnNPa3JVU1BpWUc2U0d2ZGM1Q3VMTi1jTnlSaWJfekhkV2lsQjV4LWRfQ0ZwZVFlcnBjLS1ydURYUjFraGotM1lHVF9fVTdSZXhVR3A3NklRSUJieTJ3Z3Jxa1IyRXdoaFNNVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-06",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "frontier-model-scientific-reasoning",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 4 Argon"
+      ],
+      "headline": "Google DeepMind rilis Gemini 4 Argon sebagai frontier model era berikutnya",
+      "whatChanged": "Google DeepMind mempublikasikan Gemini 4 Argon pada 30 September 2026, menyebutnya sebagai 'era berikutnya kecerdasan frontier'. Peluncuran ini terjadi tiga hari setelah Gemini 3.8 Live with Live Avatar, menunjukkan laju rilis yang menguat.",
+      "whyItMatters": "Dua rilis dalam satu pekan dari Google DeepMind memperpendek siklus pembaruan frontier model secara signifikan. Ini melanjutkan pola frontier-model-scientific-reasoning yang sudah tercatat 25 kali: setiap rilis baru memaksa enterprise dan pemerintah mengevaluasi ulang kontrak dan arsitektur yang baru saja ditetapkan.",
+      "secondOrder": "Laju rilis yang dipercepat membuat evaluasi model untuk kontrak multi-tahun menjadi tidak relevan sebelum tinta kering. Organisasi yang mengunci vendor tunggal dalam perjanjian jangka panjang akan menanggung biaya oportunitas dari model yang lebih baru, sementara organisasi yang mempertahankan arsitektur multi-model menghadapi biaya integrasi berulang.",
+      "action": "Tinjau klausul pembaruan model dalam kontrak AI aktif: verifikasi apakah vendor wajib menyediakan akses ke versi terbaru tanpa biaya tambahan, dan tentukan ambang batas performa yang memicu renegosiasi sebelum siklus anggaran 2027 dibuka.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "frontier-model-scientific-reasoning",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-09-09",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "PLN",
+        "IESR",
+        "BDx Jatiluhur"
+      ],
+      "headline": "China selesaikan startup penuh CAES 700 MW Jintan, proyek penyimpanan non-bahan-bakar terbesar dunia",
+      "whatChanged": "Proyek compressed air energy storage (CAES) garam-gua dua unit di Jintan, China, berkapasitas 700 MW menyelesaikan full-system startup dan bergerak menuju uji koneksi grid serta commissioning sistem, sebagaimana dilaporkan pv magazine pada 5 Oktober 2026.",
+      "whyItMatters": "700 MW dalam satu lokasi penyimpanan non-bahan-bakar melampaui semua proyek CAES operasional sebelumnya dan menetapkan referensi teknis baru untuk penyimpanan energi skala transmisi. Ini relevan langsung dengan debat penyimpanan untuk pusat data AI dan beban industri berat yang memerlukan pasokan stabil tanpa bahan bakar fosil.",
+      "secondOrder": "Keberhasilan Jintan akan mempercepat proposal CAES di negara-negara yang memiliki formasi geologi serupa, termasuk cekungan sedimen Indonesia. Bagi PLN dan investor pusat data di Indonesia, ini membuka jalur penyimpanan alternatif yang tidak bergantung pada baterai litium, berpotensi mengubah kalkulasi biaya dan ketergantungan rantai pasok untuk proyek seperti BDx Jatiluhur yang sedang dimoratorium IESR.",
+      "action": "Minta tim teknis memetakan formasi garam atau batuan berpori di Indonesia yang memenuhi syarat geologi CAES skala besar; bandingkan biaya levelized storage dengan baterai litium pada skala 100 MW ke atas sebagai masukan untuk RUPTL 2025-2034 sebelum konsultasi publik berikutnya.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/10/05/chinas-700-mw-jintan-salt-cavern-caes-project-completes-full-system-startup/"
+      ],
+      "secondOrderUrls": [
+        "https://huggingface.co/blog/allenai/astabrief"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-06",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Kemenko Hilirisasi",
+        "Kementerian ESDM",
+        "Bahlil Lahadalia",
+        "PLN"
+      ],
+      "headline": "Kemenko Hilirisasi beroperasi dengan anggaran dari alokasi Kementerian ESDM, bukan pos baru",
+      "whatChanged": "Menteri Keuangan Suahasil Nazara dan Media Indonesia mengonfirmasi bahwa anggaran Kemenko Hilirisasi diambil dari alokasi Kementerian ESDM yang ada, bukan dari pagu anggaran baru. Bahlil Lahadalia dilantik sebagai Menko mengkoordinasikan hilirisasi dan transisi energi dalam satu pintu.",
+      "whyItMatters": "Penyatuan koordinasi hilirisasi dan transisi energi di bawah satu menko adalah perubahan struktural, tetapi sumber anggaran yang sama berarti Kementerian ESDM kehilangan kapasitas fiskal tanpa kompensasi. Ini melanjutkan tema pln-transmisi-investasi: setiap penambahan beban koordinasi pada anggaran ESDM yang tidak bertambah memperlambat program investasi transmisi dan grid yang sudah tertunda.",
+      "secondOrder": "Program RUPTL dan proyek transmisi PLN yang mengandalkan koordinasi Kementerian ESDM akan bersaing secara internal dengan agenda hilirisasi untuk sumber daya staf dan anggaran koordinasi. Investor asing dalam proyek energi terbarukan yang memerlukan izin lintas-kementerian akan menghadapi waktu proses yang lebih panjang selama masa penyesuaian kelembagaan.",
+      "action": "Periksa apakah izin dan koordinasi proyek transmisi atau energi terbarukan yang sedang berjalan melewati jalur Kementerian ESDM terdampak oleh realokasi anggaran ini; konfirmasi kepada counterpart di ESDM apakah fungsi teknis seperti penetapan tarif dan evaluasi RUPTL tetap berjalan dengan kapasitas penuh.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQVFfcmhDTGhHUl96ZlNVY21yWnRBMkl5OXFBRjJ6ODlZS0hENUxQLTJfRmxleXJqZ28zQUFyZmYzdHNHSnZrY1JOTHpVZE9FOHREOFhzc0ZJUWJ5TnlNUkNrUVZvQlRkRW5GQlRpci1JdnNyU2FRRXYxM3VEZm9abFAwZ3NWN00xQlVNMlI3ck9zTTh4aTFTOFY0LUpKYW9nZVBiTTREODJDeXVFcTRtUXA0aG8wbXlHV3NKcmhUcmVtR3RwN01zVU82WDV6NzA0T0xvVWR3?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeGJrWXpNb3JIZEtEeGs1ZjJDSFNzREtpUkNKVWNYQ1JkVVVxZDRRS2VXLW01TWJveVJRczdzWGhyeU5TTWcwMXBFazdKd05wYkN6eWViR0pjZmswMzRIOThFMk9FcjM2MUpXMmkycTRhY19wM0JWd2xYNm9TU2xwWFdhRzhMRFJCaU5PeUc3TTVZbjZkaHI3VUtOR3FwNTdvUFNwc1JpSS1DeFU?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMWd5dzFWYllfTDY3ZXVDRnRrUHg2TTZxbzZrelRBQmlRbXN5bGhRcVFOS3I2bGM4LUVsZl9nRllLczJjQ2lhY19IeXVkeTNNZ2JIMHNHTW9ZVHNkTnd4aWdueGNiTFZrYXBaU01PQXIyMlN5bFd0a2pyajRrdHY5VjdMd3lGUFk1dFBTWXIyNER3aE5ZazBUemdNb3hnY0k1QlRpV0FyR1UtWnMycTNOQ2R4YUhYQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-09-06",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "headline": "OpenAI luncurkan format iklan visual di ChatGPT, tandai pergeseran model bisnis AI ke pendapatan periklanan",
+      "whatChanged": "OpenAI mengumumkan format iklan visual baru di dalam ChatGPT beserta perluasan alat pengukuran, kemitraan atribusi, dan kontrol brand suitability untuk pengiklan, sebagaimana dipublikasikan langsung oleh OpenAI pada 5 Oktober 2026.",
+      "whyItMatters": "Masuknya pendapatan periklanan mengubah insentif OpenAI secara fundamental: model bisnis yang semula bergantung pada biaya API dan langganan kini memiliki kepentingan dalam memaksimalkan keterlibatan pengguna, bukan hanya akurasi respons. Ini melanjutkan tema enterprise-ai-data-privacy-contracts karena pengiklan mendapatkan data perilaku pengguna yang sebelumnya tidak tersedia.",
+      "secondOrder": "Enterprise yang menggunakan ChatGPT untuk workflow internal perlu memverifikasi apakah percakapan karyawan dapat digunakan sebagai sinyal penargetan iklan. Kontrak enterprise yang dinegosiasikan sebelum pengumuman ini mungkin tidak memiliki klausul eksplisit yang melarang penggunaan data untuk penargetan iklan pihak ketiga.",
+      "action": "Tinjau perjanjian layanan ChatGPT enterprise yang aktif; kirim permintaan klarifikasi tertulis kepada OpenAI tentang apakah data percakapan dalam tier enterprise digunakan untuk pelatihan model iklan atau penargetan, dan tetapkan batas waktu respons 14 hari sebelum memperbarui kebijakan penggunaan internal.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-09-06",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Konfirmasi daftar resmi 354 BUMN yang masuk kategori pangkas dari Danantara, termasuk mekanisme penanganan liabilitas warisan dan jadwal eksekusi.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Hasil uji koneksi grid proyek CAES Jintan 700 MW dan angka efisiensi round-trip yang dirilis secara resmi oleh operator.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Publikasi AMDAL dan kajian dampak grid BDx Jatiluhur sebagaimana didesak IESR, sebagai prasyarat kelanjutan pembangunan pusat data.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Pembaruan terms of service ChatGPT enterprise terkait penggunaan data percakapan untuk sistem iklan yang baru diluncurkan OpenAI.",
+      "dueDate": "2026-10-20"
+    },
+    {
+      "item": "Kejelasan pagu anggaran Kemenko Hilirisasi setelah pemisahan dari alokasi Kementerian ESDM dalam APBN 2027.",
+      "dueDate": "2026-11-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-30T20:01:45.000Z"
+    },
+    {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "publisher": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-02T15:19:50.000Z"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-09-24T16:20:39.000Z"
+    },
+    {
+      "title": "Prabowo Minta Danantara Lanjut Optimalisasi Aset BUMN Tahun Depan - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNDdjQklFblhRMWRMLWRHelZ4d2wwYXllbkRRR0dFWXJfNGc1dTJQdmpoOUd1d0FITnd6UnlHZndYc3ZNQlV1b2hNWld3N2MwOXRkV3RiNEQ1TUpMekRSSUg0MXk0RldIRlJRTjlwUkUwRHNaOUZTN0VGcVNjeU5fc25mRnA2Zm95dkxFbDhYYzhDTV9USFZVUGZIQ2ZIV1M0MDRmWFQzOU9XcGxkNmEtUTJCSURxeDQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-05T23:11:14.000Z"
+    },
+    {
+      "title": "Building advertising for the way people use AI",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-05T10:00:00.000Z"
+    },
+    {
+      "title": "Hilirisasi dan Transisi Energi Dikoordinasikan Satu Pintu, Bahlil Dilantik sebagai Menko",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQVFfcmhDTGhHUl96ZlNVY21yWnRBMkl5OXFBRjJ6ODlZS0hENUxQLTJfRmxleXJqZ28zQUFyZmYzdHNHSnZrY1JOTHpVZE9FOHREOFhzc0ZJUWJ5TnlNUkNrUVZvQlRkRW5GQlRpci1JdnNyU2FRRXYxM3VEZm9abFAwZ3NWN00xQlVNMlI3ck9zTTh4aTFTOFY0LUpKYW9nZVBiTTREODJDeXVFcTRtUXA0aG8wbXlHV3NKcmhUcmVtR3RwN01zVU82WDV6NzA0T0xvVWR3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-01T13:31:08.000Z"
+    },
+    {
+      "title": "Bos Danantara Ungkap 354 BUMN Dipangkas Demi Tekan Beban Negara",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYU1PcUd1MkliLTVYeG1ZQVdkakVKZzJnY2tqLTdxZWFLS01xYjhLNTFTRnNDQmtHRDc4MlBpT1FpdElYTnBDVnJhVHgxVF9uZFlfQzJ2Y1d6UUpjZkVXbndaSVB3OHRzaml5a1VVMFdDT1ZhRzlJSUIzQ2tEaFRRNHI3MUl6ZlpQSml0WmdsUTVfWUdCblJka1lyTW5pY01nSi1iYUdTZXFodE0yWHFuTlFoTjFzNUtqQkVqZVNXeEhuOFJN0gHKAUFVX3lxTE9fZ3JYX2RyVjk0RENQVG5heVU2aVF1Tk4yUkkxWk1BMUNxZHAxTnFQMXZLUndyODJKQ0dwd1VtQUI1S3JXallSQWdIOVJqZTJVQzN2OE1PUnRzODlIWjdpT3R5aGJhX21BSGRlYXhzNGFJb3dLZ3hsZi1xWXFDSWNoVVZ6WnJsV3JvVG12NHFuMF9Rd014d0ZVTTRqV01nV19Sbmw1OTJ2eEtvd1U4Xy1HaUJDOFRrSkhhZW0tZTVoMktUY18waEVoMXc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-05T14:45:39.000Z"
+    },
+    {
+      "title": "Anggaran Kemenko Hilirisasi Diambil dari Alokasi Kementerian ESDM",
+      "publisher": "Media Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeGJrWXpNb3JIZEtEeGs1ZjJDSFNzREtpUkNKVWNYQ1JkVVVxZDRRS2VXLW01TWJveVJRczdzWGhyeU5TTWcwMXBFazdKd05wYkN6eWViR0pjZmswMzRIOThFMk9FcjM2MUpXMmkycTRhY19wM0JWd2xYNm9TU2xwWFdhRzhMRFJCaU5PeUc3TTVZbjZkaHI3VUtOR3FwNTdvUFNwc1JpSS1DeFU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-05T14:15:26.000Z"
+    },
+    {
+      "title": "Bos Danantara Buka Suara soal Nasib Utang Kereta Cepat - detikFinance",
+      "publisher": "detikFinance - Berita Ekonomi Bisnis, dan Investasi Hari Ini",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd2hJcGI0YmVtSG5tcm5XTDJVbkk0VG16bEw1eUpBM1R1dlpCNS05cE9tX3lXZDRqd0ZDYVVjRUNQTXB0dlBsMnlmdWR3eDFlYmt0S29pY2Fua3AxdUIwbk5vbmt6YmlPd1ZvYXZNRENLdHJSMWZrUVNvWWRRWmJzWXRGSFRLMV9SZmJNTVV5NE9PZmxRWkU5T0h1TjNEN3VtRU4wbUVaME5xOUo5bHJhSTlR0gG3AUFVX3lxTE1IeGoxb3YxLXJMLTUzRWt4ZjU3Umg5MldDZ0stSVFGLW9Wd3NPQUtEa3lUWXhNV2Jib0lld2NNOTFzSXBsTUhkQnhrMXBDaDExMV9LRnNPa3JVU1BpWUc2U0d2ZGM1Q3VMTi1jTnlSaWJfekhkV2lsQjV4LWRfQ0ZwZVFlcnBjLS1ydURYUjFraGotM1lHVF9fVTdSZXhVR3A3NklRSUJieTJ3Z3Jxa1IyRXdoaFNNVQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-05T13:27:45.000Z"
+    },
+    {
+      "title": "China’s 700 MW Jintan salt-cavern CAES project completes full-system startup",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/10/05/chinas-700-mw-jintan-salt-cavern-caes-project-completes-full-system-startup/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-05T12:39:09.000Z"
+    },
+    {
+      "title": "Menkeu Suahasil: Kemenko Hilirisasi Pakai Anggaran Kementerian ESDM",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMWd5dzFWYllfTDY3ZXVDRnRrUHg2TTZxbzZrelRBQmlRbXN5bGhRcVFOS3I2bGM4LUVsZl9nRllLczJjQ2lhY19IeXVkeTNNZ2JIMHNHTW9ZVHNkTnd4aWdueGNiTFZrYXBaU01PQXIyMlN5bFd0a2pyajRrdHY5VjdMd3lGUFk1dFBTWXIyNER3aE5ZazBUemdNb3hnY0k1QlRpV0FyR1UtWnMycTNOQ2R4YUhYQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-05T13:36:21.000Z"
+    },
+    {
+      "title": "Danantara Bakal Rampingkan 1.074 BUMN, Fokus Tangani yang Bermasalah - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3djc1RxdGVyamkwRkNwM3FkRzVid3ZEOTkyVWNIV25PNHRpaGc1ZE9RX2pkN3FDYldJQjl5QUJTcFpyVWdaNGtzaXhUek93SWtPM3BkVWV2VUZLbmxIc1g2TUJGS20wVEZYVHl1SDZiVnRWSThYcXhJdWtSNTA3YzBxQ04xVXFNMGRKdHdDazRPTVZaNUwxT0RjeG5pODNtZ09zQWhhbkpSMmZybmYzcnFmd2dUUFJZQ0E?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-05T13:18:56.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: pemadaman Sumatra bukti Indonesia perlu transformasi jaringan listrik segera",
+      "occurrences": 27,
+      "firstSeen": "2026-09-06",
+      "lastSeen": "2026-10-05",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara beri sinyal dividen Rp120 triliun tidak disetor ke APBN",
+      "occurrences": 27,
+      "firstSeen": "2026-09-06",
+      "lastSeen": "2026-10-05",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "Prospektus IPO Anthropic bocor: biaya melampaui pendapatan, visi AI sweeping",
+      "occurrences": 25,
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-10-05",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "IESR desak moratorium BDx Jatiluhur sampai AMDAL dan kajian grid dibuka publik",
+      "occurrences": 20,
+      "firstSeen": "2026-09-06",
+      "lastSeen": "2026-10-05",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "The Information reports AI datacenter debt stress is appearing across balance sheets simultaneously",
+      "occurrences": 19,
+      "firstSeen": "2026-09-06",
+      "lastSeen": "2026-10-03",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 396,
+    "poolSize": 110,
+    "generatedAt": "2026-10-06T02:57:12.316Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
