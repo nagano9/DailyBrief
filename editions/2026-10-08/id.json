@@ -1,0 +1,304 @@
+{
+  "slug": "2026-10-08",
+  "date": "2026-10-08",
+  "lang": "id",
+  "title": "GPT-6 Global, Danantara Data Center, dan PLTS 100 GW: Tiga Keputusan Infrastruktur",
+  "dek": "Hari ini tiga jalur konvergen: model frontier meluas ke korporasi, Danantara membuka skema co-investment data center, dan target 100 GW PLTS memunculkan angka penghematan subsidi yang menuntut verifikasi fiskal.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI meluncurkan GPT-6 secara global dengan antarmuka Intelligent UI, mempercepat adopsi enterprise tepat saat Danantara menyiapkan skema co-investment data center yang membutuhkan model pembiayaan baru. Di sisi energi, klaim PLTS 100 GW dapat menghemat subsidi listrik Rp73 triliun muncul dari Menko Bahlil, melanjutkan tekanan pada PLN untuk menetapkan target geothermal 5,2 GW hingga 2034. IESR secara terpisah menerbitkan analisis bahwa target 100 GW PLTS dalam tiga tahun hanya bisa dicapai bila hambatan perizinan dan transmisi diselesaikan serentak. Kelima sinyal ini membentuk satu pertanyaan tata kelola: siapa yang menanggung risiko investasi ketika ambisi kapasitas, kebutuhan daya AI, dan defisit transmisi bertemu dalam satu dekade.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "frontier-model-scientific-reasoning",
+      "entities": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT-6"
+      ],
+      "headline": "OpenAI meluncurkan GPT-6 secara global dengan Intelligent UI interaktif",
+      "whatChanged": "OpenAI merilis GPT-6 ke seluruh pengguna ChatGPT pada 7 Oktober 2026, disertai fitur Intelligent UI yang menghasilkan respons visual dan elemen interaktif secara langsung di dalam antarmuka percakapan.",
+      "whyItMatters": "Peluncuran global serentak, bukan bertahap, menandai pergeseran strategi distribusi OpenAI: model frontier kini diperlakukan sebagai produk konsumen massal, bukan akses terbatas. Ini melanjutkan tren frontier-model-scientific-reasoning yang sudah 26 kali muncul di arsip, dengan GPT-6 menambah tekanan kompetitif pada Google Gemini 4 Argon yang dirilis sebelumnya.",
+      "secondOrder": "Intelligent UI menggeser titik persaingan dari kemampuan model ke kemampuan integrasi antarmuka. Vendor yang membangun di atas API OpenAI kini bersaing dengan antarmuka bawaan OpenAI sendiri, sehingga lapisan aplikasi di atas model frontier terancam komoditisasi lebih cepat dari yang diantisipasi roadmap enterprise 2026.",
+      "action": "Tinjau ulang roadmap produk yang menggunakan API OpenAI sebagai diferensiator UI: identifikasi fitur mana yang kini direplikasi oleh Intelligent UI native, dan putuskan dalam minggu ini apakah diferensiasi harus bergeser ke data proprietary atau integrasi workflow.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/gpt-6-for-everyone"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "frontier-model-scientific-reasoning",
+        "status": "structural",
+        "occurrences": 27,
+        "firstSeen": "2026-09-09",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Bahlil Lahadalia",
+        "IESR",
+        "PLN"
+      ],
+      "headline": "Bahlil klaim PLTS 100 GW hemat subsidi Rp73 triliun; IESR terbitkan analisis hambatan strukturalnya",
+      "whatChanged": "Bloomberg Technoz melaporkan Menko Bahlil Lahadalia menyebut angka penghematan subsidi listrik Rp73 triliun dari target 100 GW PLTS. Pada hari yang sama, IESR menerbitkan analisis bertanggal 7 Oktober 2026 yang memetakan hambatan perizinan dan transmisi sebagai kendala utama pencapaian 100 GW dalam tiga tahun.",
+      "whyItMatters": "Angka Rp73 triliun adalah klaim fiskal pertama yang dikuantifikasi secara publik oleh pejabat setingkat menteri koordinator untuk program PLTS skala ini. Klaim ini melanjutkan tema pln-transmisi-investasi yang sudah 19 kali muncul, dan kini memiliki dimensi anggaran negara yang dapat diuji secara fiskal: apakah penghematan subsidi memperhitungkan biaya transmisi tambahan yang dibutuhkan untuk mengintegrasikan 100 GW intermiten.",
+      "secondOrder": "Bila angka Rp73 triliun tidak memasukkan biaya ekspansi transmisi dan penyimpanan, klaim ini dapat digunakan untuk menjustifikasi percepatan perizinan PLTS tanpa penyelesaian defisit grid yang sudah diidentifikasi IESR sejak pemadaman Sumatra. Akibatnya, utilitas skala kecil dan pelanggan industri menanggung biaya ketidakandalan yang tidak terhitung dalam proyeksi fiskal pemerintah.",
+      "action": "Minta verifikasi metodologi penghematan Rp73 triliun: apakah berbasis avoided cost BBM, penggantian impor LNG, atau pengurangan subsidi tarif? Bandingkan dengan proyeksi biaya transmisi IEEFA untuk 100 GW intermiten sebelum angka ini digunakan dalam pemodelan fiskal internal.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS20zWWhUNlF4YTg1NVY1RWdtSWZ0MXFIQWl3cS01ZUFvWkhLVjFaMkk3amNHMllZbU8wblpyaUNSVTNFX2E3dHNETk9NdjFsaEcyU3hZeEg4WGZaWGpsT0ZKYXpTb09kcGRxU3E1SFhNUXF1RUZqR2dWMndTVzJvN3RkWmpwSDRnZjJ3eXh4WkpTSkNWMkVab18zRUVzX3FESjNQbVgtTEY5Ui1pLWZ5RFB0ZldoOFk?oc=5",
+        "https://iesr.or.id/mengejar-100-gw-plts-dalam-tiga-tahun/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-09-08",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Pertamina",
+        "HighPeak Energy",
+        "Grup Bakrie"
+      ],
+      "headline": "Bahlil konfirmasi keterlibatan Pertamina dalam investasi Danantara di Permian Basin",
+      "whatChanged": "Bloomberg Technoz melaporkan pada 7 Oktober 2026 bahwa Menko Bahlil menyebut Pertamina terlibat dalam investasi Danantara di HighPeak Energy, Permian Basin AS. Bisnis Indonesia Premium pada hari yang sama melaporkan bahwa investasi ini juga melibatkan Grup Bakrie dengan target return finansial dan transfer teknologi.",
+      "whyItMatters": "Konfirmasi keterlibatan Pertamina mengubah karakter investasi HighPeak dari penempatan modal Danantara murni menjadi operasi korporasi BUMN yang melibatkan entitas dengan kewajiban regulatoris berbeda. Pertamina sebagai BUMN energi nasional memiliki kewajiban pelaporan kepada Kementerian ESDM dan DPR, yang berarti detail investasi ini seharusnya dapat diakses publik melalui mekanisme keterbukaan BUMN.",
+      "secondOrder": "Kombinasi Danantara, Pertamina, dan Grup Bakrie dalam satu struktur investasi offshore menciptakan pertanyaan tata kelola berlapis: siapa beneficial owner, bagaimana keputusan operasional dibagi, dan apakah transfer teknologi yang disebut Bisnis Indonesia dapat diperhitungkan sebagai manfaat publik dalam laporan pertanggungjawaban BUMN. Struktur ini berpotensi menjadi preseden untuk investasi BUMN offshore berikutnya tanpa kerangka governance yang memadai.",
+      "action": "Ajukan permintaan informasi kepada Pertamina berdasarkan UU Keterbukaan Informasi Publik untuk mengonfirmasi bentuk partisipasi, nilai eksposur, dan mekanisme exit dari investasi HighPeak; bandingkan dengan pengungkapan yang diwajibkan untuk investasi luar negeri BUMN oleh Kementerian BUMN.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYmc2Y3RacFIwUHZqdW8xS2dsN0lrekp5UVFJeVNKNkN5cEgzWVNreWNsU1h4akNidEJRVlJyOENmSG8zc3B3MEs3UXp4OXpTUzVsTnk3UVNQQmk4RUp2T0tETDdnTUFLU1dYa2V3bUF2S0o0dlc3a3pFRlBOQ2hJVzZUM0tHeTVrckJra3c4VlNZSFB5OExUeEpuV3RHREEza3kzWmRUT2tXWGtUUTRmMlpaQWRyN2dT?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSzducnZPZ3hCa08yRmVsVGVnY3N1N1pJcFNsWXQtY1dUVVdlUUprZi1ZR0w1ZU05a2xRWXVKMVpGNWNkTnBFdHgxSFZHU3c5em8yQ2E2MVc2azJBWjkwZmphaUllQkRpSnVOaXk1SzMyVjFSWXE4bGwwamlnWkd4Y01xYnBaWG90WjY2Y0h6LWtxcW9NQzJHYWJKY1Juc1NUS1Fuc2d0Q2h4VVZPM2MwVUZMd3NMc3pTLUc3LTR5U1F2bEN2QWlOVnd3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-08",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "PLN",
+        "BDx"
+      ],
+      "headline": "Danantara siapkan skema co-investment data center, posisikan diri sebagai agregator modal digital",
+      "whatChanged": "Kompas.com melaporkan pada 8 Oktober 2026 bahwa Danantara sedang menyiapkan skema co-investment untuk investasi data center, tanpa menyebut nilai komitmen atau mitra spesifik dalam laporan yang tersedia.",
+      "whyItMatters": "Langkah ini melanjutkan tema danantara-bumn-karya-restructuring yang sudah 27 kali muncul di arsip. Setelah investasi USD 250 juta di HighPeak Energy dan peran sebagai jembatan investasi Perancis, skema co-investment data center menunjukkan Danantara bergerak dari investor aset riil ke agregator modal infrastruktur digital, sebuah perluasan mandat yang belum punya preseden regulatoris jelas.",
+      "secondOrder": "Co-investment data center oleh Danantara akan menarik PLN sebagai pemasok listrik, sehingga kontrak offtake energi untuk fasilitas ini berpotensi melewati mekanisme PJBL reguler dan masuk ke negosiasi antar-BUMN yang tidak transparan. Preseden ini dapat mempersulit upaya IESR dan IEEFA mendorong tarif listrik transparan untuk beban AI.",
+      "action": "Verifikasi apakah skema co-investment Danantara mengharuskan persetujuan RUPS PLN atau hanya keputusan direksi; identifikasi apakah ada kewajiban AMDAL dan kajian dampak keandalan listrik serupa yang dimandatkan IESR untuk proyek BDx Jatiluhur.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT0hZdE5aX2NEdXlRNFhlTW9vUkVlN3ZGMzFuYWh3MDdwR2VpdUpXN2pFcG41RDVINUZwc2s4OEt4bkpHVWoxUDZfNlBzeV9JdUtfV3o3eWlTZlo5Y2tUMy04RlZKTUZzZEpJVXBPR2ptNjM5aUZjWDdPbmVteDBTNUV6RG9FUVdqNXRLU0xhZ0U3bUdTX0N5YlJwcTN1SFZndU1vRG9yeW1aTWJDcWI1aWoyeUpTMVMz?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://iesr.or.id/iesr-dukung-penghentian-sementara-bdx-data-center-di-jatiluhur-desak-pemerintah-segera-terbitkan-regulasi-safeguard-ai-dan-standar-data-center-hijau/"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-08",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Rincian skema co-investment data center Danantara: nilai komitmen, mitra, dan mekanisme offtake listrik dari PLN",
+      "dueDate": "2026-10-15"
+    },
+    {
+      "item": "Verifikasi metodologi penghematan subsidi Rp73 triliun dari target PLTS 100 GW: apakah sudah memasukkan biaya transmisi dan penyimpanan",
+      "dueDate": "2026-10-22"
+    },
+    {
+      "item": "Keterbukaan informasi Pertamina terkait bentuk partisipasi dan nilai eksposur investasi HighPeak Energy di Permian Basin",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Publikasi RUPTL 2025-2034 final dan konfirmasi jalur pembiayaan target geothermal PLN 5,2 GW",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mengejar 100 GW PLTS dalam Tiga Tahun",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/mengejar-100-gw-plts-dalam-tiga-tahun/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-07T08:50:29.000Z"
+    },
+    {
+      "title": "Danantara Dorong Investasi Data Center, Siapkan Skema Co-Investment",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT0hZdE5aX2NEdXlRNFhlTW9vUkVlN3ZGMzFuYWh3MDdwR2VpdUpXN2pFcG41RDVINUZwc2s4OEt4bkpHVWoxUDZfNlBzeV9JdUtfV3o3eWlTZlo5Y2tUMy04RlZKTUZzZEpJVXBPR2ptNjM5aUZjWDdPbmVteDBTNUV6RG9FUVdqNXRLU0xhZ0U3bUdTX0N5YlJwcTN1SFZndU1vRG9yeW1aTWJDcWI1aWoyeUpTMVMz?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-08T01:37:00.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Duet Danantara-Grup Bakrie di HighPeak, Incar Return hingga Transfer Teknologi",
+      "publisher": "Bisnis Indonesia Premium",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSzducnZPZ3hCa08yRmVsVGVnY3N1N1pJcFNsWXQtY1dUVVdlUUprZi1ZR0w1ZU05a2xRWXVKMVpGNWNkTnBFdHgxSFZHU3c5em8yQ2E2MVc2azJBWjkwZmphaUllQkRpSnVOaXk1SzMyVjFSWXE4bGwwamlnWkd4Y01xYnBaWG90WjY2Y0h6LWtxcW9NQzJHYWJKY1Juc1NUS1Fuc2d0Q2h4VVZPM2MwVUZMd3NMc3pTLUc3LTR5U1F2bEN2QWlOVnd3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-07T23:00:00.000Z"
+    },
+    {
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "title": "Bahlil Sebut Pertamina Terlibat Investasi Danantara di Permian AS",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYmc2Y3RacFIwUHZqdW8xS2dsN0lrekp5UVFJeVNKNkN5cEgzWVNreWNsU1h4akNidEJRVlJyOENmSG8zc3B3MEs3UXp4OXpTUzVsTnk3UVNQQmk4RUp2T0tETDdnTUFLU1dYa2V3bUF2S0o0dlc3a3pFRlBOQ2hJVzZUM0tHeTVrckJra3c4VlNZSFB5OExUeEpuV3RHREEza3kzWmRUT2tXWGtUUTRmMlpaQWRyN2dT?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-07T08:30:00.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "IESR Dukung Penghentian Sementara BDx Data Center di Jatiluhur, Desak Pemerintah Segera Terbitkan Regulasi Safeguard AI dan Standar Data Center Hijau",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-dukung-penghentian-sementara-bdx-data-center-di-jatiluhur-desak-pemerintah-segera-terbitkan-regulasi-safeguard-ai-dan-standar-data-center-hijau/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-01T04:02:15.000Z"
+    },
+    {
+      "title": "Bahlil Sebut PLTS 100 GW Bisa Bantu Hemat Subsidi Listrik Rp73 T - Green",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS20zWWhUNlF4YTg1NVY1RWdtSWZ0MXFIQWl3cS01ZUFvWkhLVjFaMkk3amNHMllZbU8wblpyaUNSVTNFX2E3dHNETk9NdjFsaEcyU3hZeEg4WGZaWGpsT0ZKYXpTb09kcGRxU3E1SFhNUXF1RUZqR2dWMndTVzJvN3RkWmpwSDRnZjJ3eXh4WkpTSkNWMkVab18zRUVzX3FESjNQbVgtTEY5Ui1pLWZ5RFB0ZldoOFk?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-07T11:40:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara investasi USD 250 juta di HighPeak Energy, produsen migas Permian Basin AS",
+      "occurrences": 27,
+      "firstSeen": "2026-09-08",
+      "lastSeen": "2026-10-07",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: Pemadaman Sumatra buktikan defisit transmisi struktural, bukan gangguan insidental",
+      "occurrences": 27,
+      "firstSeen": "2026-09-08",
+      "lastSeen": "2026-10-07",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "Google DeepMind rilis Gemini 4 Argon sebagai frontier model era berikutnya",
+      "occurrences": 26,
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-10-06",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "ESDM kaji tarif listrik real-time transparan mengikuti model Eropa",
+      "occurrences": 19,
+      "firstSeen": "2026-09-08",
+      "lastSeen": "2026-10-07",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Pentagon hentikan penggunaan alat Anthropic setelah pemblokiran resmi, BBC konfirmasi",
+      "occurrences": 19,
+      "firstSeen": "2026-09-08",
+      "lastSeen": "2026-10-07",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 371,
+    "poolSize": 110,
+    "generatedAt": "2026-10-08T01:52:15.401Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
