@@ -1,0 +1,301 @@
+{
+  "slug": "2026-10-09",
+  "date": "2026-10-09",
+  "lang": "id",
+  "title": "Danantara Kejar Merger BUMN Karya & BEI; PLTU Kaku Blokir Tarif Real-Time",
+  "dek": "Dua keputusan korporasi Danantara dan satu hambatan struktural kelistrikan mendefinisikan risiko eksekusi terbesar Indonesia pekan ini",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Danantara menetapkan tenggat akhir November untuk merger empat BUMN Karya sekaligus mengkaji akuisisi saham BEI di atas 5%, sementara OJK menyatakan infrastruktur pasar belum siap menerima kepemilikan sebesar itu. Di sisi kelistrikan, kekakuan operasional PLTU membuat tarif listrik real-time sulit diadopsi secara luas, mengunci PLN dalam rezim tarif seragam yang tidak kompatibel dengan penetrasi energi terbarukan skala besar. Konsolidasi 16 perusahaan asuransi BUMN oleh Danantara menambah tekanan tata kelola pada satu entitas yang kini memegang eksposur keuangan lintas sektor. Sementara itu, Anthropic dan OpenAI secara bersamaan merilis kebijakan penggunaan baru yang melarang manipulasi model dan operasi pengaruh, menandai pergeseran dari pedoman sukarela ke penegakan berbasis kontrak.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BEI",
+        "OJK",
+        "Dony Oskaria"
+      ],
+      "headline": "OJK tolak rencana Danantara kuasai saham BEI lebih dari 5%; konsolidasi 16 asuransi BUMN berjalan paralel",
+      "whatChanged": "OJK menyatakan infrastruktur pasar modal belum siap menerima kepemilikan Danantara di BEI melebihi 5%. Secara terpisah, laporan investor.id menyebutkan Danantara akan segera mengkonsolidasikan 16 perusahaan asuransi BUMN. Dony Oskaria dari Danantara menyatakan keputusan masuk BEI masih dipertimbangkan.",
+      "whyItMatters": "Kombinasi dua langkah ini menempatkan Danantara sebagai pemegang eksposur keuangan lintas asuransi dan infrastruktur pasar modal secara bersamaan. Penolakan OJK menunjukkan batas regulasi pertama yang secara eksplisit membendung ekspansi Danantara, menciptakan preseden bahwa otoritas sektoral memiliki veto atas ambisi akuisisi dana kelola negara ini.",
+      "secondOrder": "Jika Danantara tetap mengejar kepemilikan BEI melalui jalur alternatif seperti pembelian bertahap atau restrukturisasi pemegang saham yang ada, hal itu akan menarik pengawasan OJK lebih intensif pada seluruh portofolio Danantara, termasuk rencana penerbitan instrumen pasar modal oleh entitas-entitas di bawahnya. Proses konsolidasi 16 asuransi BUMN juga berpotensi mengganggu penempatan premi dan investasi yang selama ini tersebar, yang berdampak pada likuiditas pasar obligasi domestik.",
+      "action": "Periksa struktur kepemilikan BEI saat ini dan identifikasi pemegang saham yang dapat menjadi jalur akuisisi tidak langsung bagi Danantara; paralel dengan itu, petakan portofolio investasi ke-16 perusahaan asuransi BUMN untuk menilai konsentrasi eksposur setelah konsolidasi.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSXNQTWdCbVJfYTJzaVZSYnZlakxldzQwZXBmbFozUmJiVGpxQWREbGxCaXJJXzRaNzB6eXhrMENPZXpfbTVnQVlCT0FNaVdhLWZPemVKalBMNU1tcXM2ZWE0bjd4aVM2TWhUZnFUQnFhUmZzempSNm9ETE1jSk00ZkMyVlNLdDM2d3NsRUlpdzI1SFVyLUd0Wl8wN1Y3MGZSNG1GY19LbktsZ1B2aGw4Q2pZa2JXZ0J2a1pGcnNPLTdRVnRLbVRN0gHMAUFVX3lxTE9fMDRQSTFQTXUwMG5CQnQ2QmhTMzJXY3ZJNlZxaEhNNldFTnI4N3hDNWxyeTl4bUI2N0JtbXdnRTVHbE5iU2wwLUhtbWt2VEFLeEg4YXlnTXBpMWpPZ0VQLWVfdjg0TzlteWs0RUkzWVRNSXlpUlphWTdtTUM2aVBhMmdxaE1nVzh1eVlaaV9aNmhFMXFIMG50VU5RdjlURUctQ2k5SjdTVEVtaWVBSnJmN3dMMEl1Z3M4ZG9nRFJSZHVDY2xiVFNINVBpcQ?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRXdIWHlTWlpwd0gybFk3SldycVUxeUFPVHd3aWhpazlBcEJqb2Y0M0JvNGpGa2puZUo2T0hmaVp6Xy1OVEItMHhHMXhOLXZMLTRFamVNdGwxbEJkWnNuVGsxTDRNUmJCTDVuZEFXXzYzZ2NJWks5ZU4yQTlodmJ0XzU5M1paWC00X1hQWEhRRkJWSG5Gdl9ibFZUdUY?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYXJVd0VzYmV0Wmp1SEt4LU50NTFKMjNaN1RSbzJHUVNJUXN6cE9BYmZJYVZFZk1iLWNUcXVyM2gzVXVFTUJxdS00VTZVZGozWkM2T2pzeFhuNEMwWGtNVGRDY3BqZWotSjRmcnZfbnpuY1RQdEk4QV9OSXFXSzRPTDhPNkxjWVpJeFNaZmNoZVZsUGxWTDRoV25B?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-09",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IESR",
+        "Menko Bahlil"
+      ],
+      "headline": "IESR: dekarbonisasi industri harus jadi strategi nasional atau daya saing ekspor Indonesia terancam",
+      "whatChanged": "IESR menerbitkan laporan pada 8 Oktober 2026 yang menyatakan dekarbonisasi industri mendesak sebagai strategi pembangunan nasional, dengan argumen bahwa tanpa transisi ini, produk ekspor Indonesia akan kehilangan akses pasar akibat mekanisme penyesuaian karbon di pasar tujuan ekspor utama.",
+      "whyItMatters": "Laporan ini memperluas tekanan transisi energi dari domain pembangkitan listrik ke sektor industri, tepat ketika ekspor perdana baterai listrik Indonesia baru saja dilepas dengan pendampingan Menko Bahlil. Dua sinyal ini, pelepasan ekspor baterai dan peringatan IESR, menggambarkan kesenjangan antara narasi hilirisasi pemerintah dan kesiapan dekarbonisasi proses industri yang mendukungnya.",
+      "secondOrder": "Jika industri smelter dan manufaktur baterai Indonesia tidak mendapatkan pasokan listrik hijau yang terverifikasi, sertifikasi kandungan karbon produk ekspor akan dipertanyakan oleh pembeli di Uni Eropa dan pasar lain yang menerapkan carbon border adjustment. Ini berarti nilai tambah hilirisasi yang diklaim pemerintah dapat terkikis oleh biaya karbon yang dibebankan di titik masuk pasar tujuan.",
+      "action": "Verifikasi apakah fasilitas produksi baterai yang baru mengekspor perdana telah mengamankan kontrak pasokan listrik terbarukan yang memenuhi syarat untuk sertifikasi scope-2 emission; jika belum, hitung potensi tarif karbon yang akan dikenakan oleh mitra dagang utama mulai 2027.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-dekarbonisasi-industri-mendesak-untuk-menjaga-daya-saing-ekspor-indonesia/",
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2xjeXoyVUhRYXFiX1ZWTlZyNzk4MmkxMklUak9fUEx0RVdzZWpoU0VUaGFGTWplcUdtaGwzVENxRHFUVW9GVkZJbXJscjVYaFpOcVNXODhYUHRIcVV2SnZkajlTVkZObE5oQWJERkVMRkhfNWR4cFp3YWlUem1WRTJLZ3ZwTUlmUFBONzAwdHNCQlZLLUFSa3FZd01EXzdfMTliZnhSWEJaNi1GQUVBWDZMeEpUZGdKZWF6b1JKR3RqLXVIQjhyY09SSkF5dmJLQVNQVnpXRXA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-09-14",
+        "spanDays": 25
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Anthropic",
+        "OpenAI",
+        "Claude"
+      ],
+      "headline": "Anthropic dan OpenAI rilis kebijakan penggunaan baru: larangan manipulasi model dan operasi pengaruh berbasis AI",
+      "whatChanged": "Anthropic memperbarui kebijakan penggunaan untuk melarang perilaku kasar terhadap Claude dan penyalahgunaan model, serta melarang interferensi pemilu. OpenAI secara terpisah mengumumkan pembongkaran dua operasi pengaruh yang menggunakan jurnalis palsu dan think tank fiktif berbasis AI untuk menyebarkan pesan geopolitik.",
+      "whyItMatters": "Kedua langkah ini terjadi dalam satu hari, menandai pergeseran dari pedoman etika sukarela ke penegakan berbasis kontrak dan tindakan operasional. Bagi pengguna enterprise, ini berarti klausul acceptable use dalam perjanjian API kini memiliki preseden penegakan yang nyata, bukan sekadar pernyataan kebijakan.",
+      "secondOrder": "Organisasi yang menggunakan model Anthropic atau OpenAI untuk kampanye komunikasi, pembuatan konten skala besar, atau personalisasi pesan politik perlu mengaudit pipeline mereka terhadap definisi baru yang lebih ketat ini. Vendor pemasaran dan konsultan komunikasi yang menjual layanan berbasis LLM kepada klien pemerintah atau partai politik menghadapi risiko pemutusan akses API jika aktivitas klien mereka dikategorikan sebagai operasi pengaruh.",
+      "action": "Tinjau klausul acceptable use dalam kontrak API Anthropic dan OpenAI yang aktif; identifikasi use case yang bersinggungan dengan komunikasi massa, pembuatan profil pemilih, atau konten beridentitas palsu, dan konsultasikan dengan tim legal apakah aktivitas tersebut masih memenuhi syarat di bawah definisi kebijakan yang diperbarui.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2twUlZwTmdvdVBobFlHazd4UnRGZ0Rqam1GQm15S184aDJ2ZzVUaWJXSElGNHFzSGFGU1R3X0d2T0ZmV0V0UXdlTUVwb28zeldaYzVNeWoxT19GTnpmUEl4eXB4UWlETElkNDZ5dGJqTWJSMWZIbHFwZ2FzMzBBTy1qcUIxZ2lGNFJ4NFo5c19HRDRUWXk0X2YyRUJXeHU5Z0Y0QXczY0plaUdtT0NF?oc=5",
+        "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHp1a0RodHB0TloxZW1vN3pSUFl6VkJyLWFvUXk3RHp5ZWVadUFJWlotZTk2SG5oanR6V3JRMGRMVDB5YThFUVBWaVYyZWFfalBneDl0THFXb0U0NmZHUVQzN1RZS1dGNmZ6X01rMlBoeWNpZEhrYmQzalItcVpyS2p1WFJDMUFMMHBFREZWeHJaNlh1Q0Vka0lHQWxHNy1S?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-09-09",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BUMN Karya"
+      ],
+      "headline": "Danantara targetkan merger empat BUMN Karya rampung akhir November 2026",
+      "whatChanged": "Pimpinan Danantara menyatakan secara publik bahwa merger empat BUMN Karya ditargetkan selesai pada akhir November 2026, mempersempit jendela eksekusi menjadi kurang dari tujuh pekan.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring telah berlangsung 27 kali sejak September; kini ada tenggat konkret yang mengubahnya dari rencana menjadi komitmen terukur. Gagal memenuhi tenggat ini akan mengekspos Danantara pada pertanyaan kapasitas eksekusi, mengingat merger lintas BUMN melibatkan harmonisasi utang, kontrak EPC aktif, dan personalia di empat entitas sekaligus.",
+      "secondOrder": "Jika merger dipaksakan sebelum due diligence utang selesai, kontraktor dan kreditur BUMN Karya yang tengah dalam restrukturisasi proyek infrastruktur akan menghadapi ketidakpastian counterparty. Proyek-proyek dengan jadwal financial close kuartal pertama 2027 berpotensi tertunda karena entitas gabungan belum memiliki struktur hukum yang final sebagai penandatangan kontrak.",
+      "action": "Identifikasi proyek infrastruktur aktif keempat BUMN Karya yang memiliki financial close atau milestones kontrak antara November 2026 dan Februari 2027; nilai apakah perubahan badan hukum akibat merger akan memicu klausul change-of-control di perjanjian pinjaman atau kontrak EPC.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUE93dkx2UV9BMTJ6WjQ0emdzbW5QeU9BTzFCV1ZhNjQyZmxUQmZVSENLa0diZE4zSlNOUzlBMlNtYi1fRk9ZMldwM1NPOVFrbUt0SG9lNGtfTUFycmVmYzk4alVYQ2xBTFpCY1lzWXhsWkRQMWk5dHJkaUJMN2pUSE9HQjBoRUFvTXFFbEV6YlBkQXMzOVFESDFFdC10RHBab0JqQ3V0bG41NF9KRlpZRnRuajFURWxpYzE0OHhRYUlLbXFwTTBvSdIBzgFBVV95cUxPVFpGendXTkpJWkJKbDZ6c1RDNjVBMjhLOTgybGNvQ3VLd1A2T0JGUTdMMjE2bWQySWlNVkRvOFBROFFWVWNsVVpGV1JFT2k3OVVSblZlLU52MVM0OGl2aTFxS0RnY0V4VHd6WjZ0SktfcWQ1WExGREhfTldVQUExVE1uM0E3d0NNN0FEUHNpaXg1RVZtdjhEZ1BFZmJNWUQxR3R6Y1drcXJZRnBUVkF2VmlZQndvRkJEazZkN0hvRlNWU3JLdXFLdnBoYlVnQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-09",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Progres legal merger empat BUMN Karya: pantau pengumuman resmi akta penggabungan atau persetujuan RUPS luar biasa sebagai indikator apakah tenggat akhir November realistis",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Keputusan final Danantara soal kepemilikan saham BEI: OJK telah menyatakan infrastruktur belum siap; pantau respons Danantara dan kemungkinan permohonan pengecualian regulasi",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Hasil seleksi penyedia lahan PLTS dan BESS oleh PLN: struktur kontrak yang muncul akan mengonfirmasi apakah revenue model BESS bertumpu pada ancillary services atau arbitrase harga",
+      "dueDate": "2026-12-01"
+    },
+    {
+      "item": "Penerbitan regulasi safeguard AI dan standar data center hijau oleh pemerintah Indonesia: IESR telah mendesak regulasi ini sejak Oktober 2026 terkait moratorium data center Jatiluhur",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR: Dekarbonisasi Industri Mendesak untuk Menjaga Daya Saing Ekspor Indonesia",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-dekarbonisasi-industri-mendesak-untuk-menjaga-daya-saing-ekspor-indonesia/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-08T09:27:31.000Z"
+    },
+    {
+      "title": "Hilirisasi Kian Nyata, Menko Bahlil Dampingi Presiden Lepas Ekspor Perdana Baterai Listrik",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2xjeXoyVUhRYXFiX1ZWTlZyNzk4MmkxMklUak9fUEx0RVdzZWpoU0VUaGFGTWplcUdtaGwzVENxRHFUVW9GVkZJbXJscjVYaFpOcVNXODhYUHRIcVV2SnZkajlTVkZObE5oQWJERkVMRkhfNWR4cFp3YWlUem1WRTJLZ3ZwTUlmUFBONzAwdHNCQlZLLUFSa3FZd01EXzdfMTliZnhSWEJaNi1GQUVBWDZMeEpUZGdKZWF6b1JKR3RqLXVIQjhyY09SSkF5dmJLQVNQVnpXRXA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-08T14:38:53.000Z"
+    },
+    {
+      "title": "Danantara Segera Konsolidasikan 16 Perusahaan Asuransi BUMN",
+      "publisher": "investor.id",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYXJVd0VzYmV0Wmp1SEt4LU50NTFKMjNaN1RSbzJHUVNJUXN6cE9BYmZJYVZFZk1iLWNUcXVyM2gzVXVFTUJxdS00VTZVZGozWkM2T2pzeFhuNEMwWGtNVGRDY3BqZWotSjRmcnZfbnpuY1RQdEk4QV9OSXFXSzRPTDhPNkxjWVpJeFNaZmNoZVZsUGxWTDRoV25B?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T00:45:00.000Z"
+    },
+    {
+      "title": "Danantara Mau Ambil Saham BEI 5% Lebih, OJK: Infrastruktur Belum Siap",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSXNQTWdCbVJfYTJzaVZSYnZlakxldzQwZXBmbFozUmJiVGpxQWREbGxCaXJJXzRaNzB6eXhrMENPZXpfbTVnQVlCT0FNaVdhLWZPemVKalBMNU1tcXM2ZWE0bjd4aVM2TWhUZnFUQnFhUmZzempSNm9ETE1jSk00ZkMyVlNLdDM2d3NsRUlpdzI1SFVyLUd0Wl8wN1Y3MGZSNG1GY19LbktsZ1B2aGw4Q2pZa2JXZ0J2a1pGcnNPLTdRVnRLbVRN0gHMAUFVX3lxTE9fMDRQSTFQTXUwMG5CQnQ2QmhTMzJXY3ZJNlZxaEhNNldFTnI4N3hDNWxyeTl4bUI2N0JtbXdnRTVHbE5iU2wwLUhtbWt2VEFLeEg4YXlnTXBpMWpPZ0VQLWVfdjg0TzlteWs0RUkzWVRNSXlpUlphWTdtTUM2aVBhMmdxaE1nVzh1eVlaaV9aNmhFMXFIMG50VU5RdjlURUctQ2k5SjdTVEVtaWVBSnJmN3dMMEl1Z3M4ZG9nRFJSZHVDY2xiVFNINVBpcQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T00:30:01.000Z"
+    },
+    {
+      "title": "Anthropic changes usage policy to ban model abuse and election interference",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2twUlZwTmdvdVBobFlHazd4UnRGZ0Rqam1GQm15S184aDJ2ZzVUaWJXSElGNHFzSGFGU1R3X0d2T0ZmV0V0UXdlTUVwb28zeldaYzVNeWoxT19GTnpmUEl4eXB4UWlETElkNDZ5dGJqTWJSMWZIbHFwZ2FzMzBBTy1qcUIxZ2lGNFJ4NFo5c19HRDRUWXk0X2YyRUJXeHU5Z0Y0QXczY0plaUdtT0NF?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-08T18:16:24.000Z"
+    },
+    {
+      "title": "Disrupting AI-enabled “false front” operations",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "title": "Dony Oskaria: Danantara Masih Pertimbangkan Keputusan Masuk BEI",
+      "publisher": "investor.id",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRXdIWHlTWlpwd0gybFk3SldycVUxeUFPVHd3aWhpazlBcEJqb2Y0M0JvNGpGa2puZUo2T0hmaVp6Xy1OVEItMHhHMXhOLXZMLTRFamVNdGwxbEJkWnNuVGsxTDRNUmJCTDVuZEFXXzYzZ2NJWks5ZU4yQTlodmJ0XzU5M1paWC00X1hQWEhRRkJWSG5Gdl9ibFZUdUY?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T00:27:25.000Z"
+    },
+    {
+      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+      "publisher": "The Verge",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHp1a0RodHB0TloxZW1vN3pSUFl6VkJyLWFvUXk3RHp5ZWVadUFJWlotZTk2SG5oanR6V3JRMGRMVDB5YThFUVBWaVYyZWFfalBneDl0THFXb0U0NmZHUVQzN1RZS1dGNmZ6X01rMlBoeWNpZEhrYmQzalItcVpyS2p1WFJDMUFMMHBFREZWeHJaNlh1Q0Vka0lHQWxHNy1S?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-08T17:00:00.000Z"
+    },
+    {
+      "title": "Bos Danantara Targetkan Merger 4 BUMN Karya Rampung Akhir November",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUE93dkx2UV9BMTJ6WjQ0emdzbW5QeU9BTzFCV1ZhNjQyZmxUQmZVSENLa0diZE4zSlNOUzlBMlNtYi1fRk9ZMldwM1NPOVFrbUt0SG9lNGtfTUFycmVmYzk4alVYQ2xBTFpCY1lzWXhsWkRQMWk5dHJkaUJMN2pUSE9HQjBoRUFvTXFFbEV6YlBkQXMzOVFESDFFdC10RHBab0JqQ3V0bG41NF9KRlpZRnRuajFURWxpYzE0OHhRYUlLbXFwTTBvSdIBzgFBVV95cUxPVFpGendXTkpJWkJKbDZ6c1RDNjVBMjhLOTgybGNvQ3VLd1A2T0JGUTdMMjE2bWQySWlNVkRvOFBROFFWVWNsVVpGV1JFT2k3OVVSblZlLU52MVM0OGl2aTFxS0RnY0V4VHd6WjZ0SktfcWQ1WExGREhfTldVQUExVE1uM0E3d0NNN0FEUHNpaXg1RVZtdjhEZ1BFZmJNWUQxR3R6Y1drcXJZRnBUVkF2VmlZQndvRkJEazZkN0hvRlNWU3JLdXFLdnBoYlVnQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T00:05:07.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "OpenAI meluncurkan GPT-6 secara global dengan Intelligent UI interaktif",
+      "occurrences": 27,
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-10-08",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara siapkan skema co-investment data center, posisikan diri sebagai agregator modal digital",
+      "occurrences": 27,
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-10-08",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: Indonesia cannot reach 100 GW solar in three years without resolving grid and financing gaps",
+      "occurrences": 27,
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-10-08",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Meta and Microsoft restrict internal Claude usage, concentrating enterprise AI vendor risk",
+      "occurrences": 19,
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-10-08",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Bahlil klaim PLTS 100 GW hemat subsidi Rp73 triliun; IESR terbitkan analisis hambatan strukturalnya",
+      "occurrences": 19,
+      "firstSeen": "2026-09-14",
+      "lastSeen": "2026-10-08",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 362,
+    "poolSize": 110,
+    "generatedAt": "2026-10-09T02:05:00.569Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
