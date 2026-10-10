@@ -1,0 +1,299 @@
+{
+  "slug": "2026-10-10",
+  "date": "2026-10-10",
+  "lang": "en",
+  "title": "Danantara Divests 100+ SOEs; PLN Real-Time Tariff Blocked by PLTU Rigidity",
+  "dek": "Indonesia's sovereign holding accelerates SOE shedding while its grid's structural inflexibility forecloses a key power-market reform, and Anthropic tightens AI conduct rules across the same week.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "Danantara has confirmed it will transfer more than 100 non-core state enterprises to private parties, a concrete step in the BUMN restructuring that President Prabowo set as a year-end deadline. Separately, three Bloomberg Technoz analyses published on the same day converge on a single structural finding: Indonesia's coal-heavy, inflexible PLTU fleet and the absence of smart meters make real-time electricity pricing technically and commercially unworkable in the near term, cementing the pln-grid-investment theme as a planning condition rather than a live debate. On the energy supply side, PLTA Batang Toru's reservoir has begun filling, adding firm hydro capacity to the Sumatra North grid ahead of the year-end demand peak. In AI governance, Anthropic updated its usage policy to prohibit user cruelty toward Claude, a signal that AI conduct rules are moving from internal safety documents into enforceable user agreements. Indonesia's first electric-vehicle battery export, ceremonially released by President Prabowo alongside Coordinating Minister Bahlil, marks the first revenue-generating step in the downstream battery value chain that underpins multiple BUMN and energy-transition strategies.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLTA Batang Toru",
+        "PLN",
+        "Kementerian ESDM",
+        "ANTARA News"
+      ],
+      "headline": "PLTA Batang Toru reservoir filling begins, adding firm hydro to Sumatra North grid before year-end demand peak",
+      "whatChanged": "Kementerian ESDM announced on 10 October 2026 that the PLTA Batang Toru reservoir has begun inundation. ANTARA News reported PLN describing the plant as crucial for supporting the Sumatra North system, with commercial readiness timed ahead of the Natal-Tahun Baru demand period.",
+      "whyItMatters": "Batang Toru is firm, dispatchable hydro in a system where coal dominates baseload and intermittent solar is growing. Its commissioning into the Sumatra North interconnection adds controllable capacity that can balance load swings, reducing the system's dependence on expensive diesel peakers during peak seasons. This is a concrete grid-reliability gain, not a policy announcement.",
+      "secondOrder": "Dispatchable hydro in Sumatra North changes the least-cost dispatch order for the regional grid, potentially displacing some PLTU run-hours. If the PLTU contracts contain minimum-take or capacity-payment clauses, PLN absorbs stranded-cost exposure even as Batang Toru improves system adequacy. The net fiscal and reliability picture depends on contract structures that have not been publicly disclosed.",
+      "action": "Request PLN's dispatch modeling for the Sumatra North system post-Batang Toru to determine whether existing PLTU take-or-pay obligations create a cost-recovery gap that the current flat tariff cannot cover.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOblVQVmNEM2IxZTFGYlpac0tRWWFTYnIxQTBlSGtwNHNZMXpSWjFlMU9ybk9TbC1sYkJzbWZjeF9NOGVLNGlqTDBrVjA3OXYyZ2pHXzZCTzFlVzdzZkVvd29OUHNGUGVRdzQxU25pNDFwbXhKVVl5dzVDd1dxRTE4NjIwWE9OZ0REMC1HcEFoajFhUnV1NmRkV1JHdURfV1QtWW83WlYyb3RYUFhqSmVUSEU5RFNLRUhXcGZfUG5leTB1YWdCS1ZOLU94UDNSWl80YzAwVzhLYWo1cGxmbXBN?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTlPVDBlR1BRcFNZUk8xN3dpSXg0anVNYk9uR1RYa0NoVVR3VVN6dWZtaHhsRklnUHRQUkZjMnZ5QTRWWmJ3cFEtQnAxZnFfajZ0Rm9rVFFYcS1kREdSc1JQS2JnTFk2djNBZHRiQ2pkeklHbk5Nc3lvemhBa05YU2xBVTBpYm8yMU9ZeGlVUlcxV2h4QUVVYmhaQ2owcFJ1bVpMcnQwTdIBqgFBVV95cUxNemlXLUV6TE56RXlFRlBNcTFkV0IwOXp1LU5wbHNHYVVTb0lzdzhGRE1GMnJKNUFCNFhBM2lNOUdveFVQT0xDNmZvMlJwWXNsVzNDWUdNS2hXNVg2bF9FNUNDMTJmVTh1cmNHUGZ5QUd2UExxTUs4X2k3LWc1WDZFWEdsd1BBVWVTSlZhTUFQNy1vX3hHV2ViWlNybzVHOExBbUtNektfcWxSdw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-10",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Kementerian ESDM",
+        "Bahlil"
+      ],
+      "headline": "Indonesia's first EV battery export ceremonially launched, marking revenue entry into the downstream battery value chain",
+      "whatChanged": "Kementerian ESDM reported on 8 October 2026 that President Prabowo, accompanied by Coordinating Minister Bahlil, formally released the first export shipment of domestically produced electric-vehicle batteries, framed under the government's hilirisasi (downstream industrialization) program.",
+      "whyItMatters": "Previous hilirisasi milestones were upstream: nickel ore export bans, smelter investments, and battery precursor production. A first battery export converts the policy chain into a commercial transaction. It provides the first market-price signal for Indonesian-manufactured battery cells, which is the input variable missing from most feasibility analyses of the domestic EV supply chain.",
+      "secondOrder": "The export price achieved on the first shipment will set a reference that downstream buyers, BUMN equity investors, and project finance lenders will use to stress-test battery manufacturing economics. If the realized price undercuts the cost assumptions in existing investment proposals, capital commitments to battery gigafactories could be revised downward precisely when the government is trying to attract foreign anchor investors under Danantara's mandate.",
+      "action": "Obtain or estimate the export unit price from customs or buyer disclosures and compare it against the production-cost assumptions in publicly available feasibility studies for Indonesian battery manufacturing. A gap of more than 15 percent in either direction materially changes the investment case.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2xjeXoyVUhRYXFiX1ZWTlZyNzk4MmkxMklUak9fUEx0RVdzZWpoU0VUaGFGTWplcUdtaGwzVENxRHFUVW9GVkZJbXJscjVYaFpOcVNXODhYUHRIcVV2SnZkajlTVkZObE5oQWJERkVMRkhfNWR4cFp3YWlUem1WRTJLZ3ZwTUlmUFBONzAwdHNCQlZLLUFSa3FZd01EXzdfMTliZnhSWEJaNi1GQUVBWDZMeEpUZGdKZWF6b1JKR3RqLXVIQjhyY09SSkF5dmJLQVNQVnpXRXA?oc=5",
+        "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOenRiVFJjdFJ5YkxRVFZYbFpaZlpqaVcwS1JwTXdyRE9mTEpfOF9LZFF3NHI3REFjemJLV2k1cUFiUER6bXJ1S0Y4dFBqel9OZjIyY3c4bTdLZGllU3JucmxYalJyYkRNQVdySDBVaVlKTDNxbTJqYnhyMWQ5eEZhRFRYX3NZSmU1Y25iem91bVpackNlX2RvcXFaNzk2dGJNWHVUNG5MS194Mm9PLURZUU9uN2ZSTERnZXNTdEZqcFFwemZDTXRNR29HS3ZIMVk0eFE2bGY4RklHb3g4bmxTOHdoRXdobC1nTlF2Mg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-10",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "BBC",
+        "The Guardian",
+        "The Verge"
+      ],
+      "headline": "Anthropic updates usage policy to prohibit user cruelty toward Claude, extending conduct rules from safety documents into enforceable terms",
+      "whatChanged": "Anthropic published a revised usage policy banning users from needlessly abusive or cruel behavior directed at Claude. The BBC, The Guardian, and The Verge each reported on the change on 9 October 2026, drawing on Anthropic's own publication as the primary source.",
+      "whyItMatters": "Until now, AI conduct rules in published policies focused on what models must not do to users, or what users must not instruct models to do in harmful domains. Extending prohibitions to how users treat the model itself is a new category of enforceable term. It signals that Anthropic is positioning Claude's psychological consistency as a product-quality and brand attribute, not merely a safety property.",
+      "secondOrder": "Enterprise customers deploying Claude through API or operator agreements inherit the obligation to enforce these terms downstream, because Anthropic's policy binds operators who in turn bind their end users. Legal and compliance teams at enterprises using Claude have not generally built workflows to monitor or enforce conduct norms toward AI systems. This creates a gap between Anthropic's terms and operator capacity to comply, which could surface as a contract liability issue if a documented breach occurs.",
+      "action": "Review Claude API operator agreements to determine whether the new conduct prohibition is incorporated by reference into existing enterprise contracts, and assess whether current user-monitoring or logging practices would detect a material breach.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ramZhSWMyQlZTRHhlTjVYOXNuNkw0Ty1RYkF4dTQ5aVZtSUgtRjQ5SWpkTllONG5VYlVHaS1Mb1VsRXpTT2dvUUZ0RmxYczVWT0E0c0VvN3h3WW8?oc=5",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb2lja2Y3b2J4SGw2TDhuWUNxNmxablZvTlcwSVg4eHhuSUFwNUEzQTd0WFhOTlJMd0F5UHBDSnhxTl9nVXJlNjFrZVBSc1Zic01sZ1RuZ2tTTlQ3RVVLUEw5OFI2NDcwNzNPSVpYTUJmR1pVdmd2NWkyOUtxcTg5bC05ckRhX1pnSVRZdVhLSlQ0ckU?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHp1a0RodHB0TloxZW1vN3pSUFl6VkJyLWFvUXk3RHp5ZWVadUFJWlotZTk2SG5oanR6V3JRMGRMVDB5YThFUVBWaVYyZWFfalBneDl0THFXb0U0NmZHUVQzN1RZS1dGNmZ6X01rMlBoeWNpZEhrYmQzalItcVpyS2p1WFJDMUFMMHBFREZWeHJaNlh1Q0Vka0lHQWxHNy1S?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-09-10",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "CNBC Indonesia"
+      ],
+      "headline": "Danantara confirms divestiture of more than 100 non-core SOEs to private parties",
+      "whatChanged": "Danantara publicly confirmed it will release more than 100 state-owned enterprises classified as non-core to private ownership. The announcement was reported by CNBC Indonesia on 9 October 2026, continuing the restructuring thread that President Prabowo set as a year-end target in the Sekretariat Kabinet directive.",
+      "whyItMatters": "This is the largest single disclosure of the divestiture scope to date. Previous communications named the BUMN Karya merger as the headline restructuring action; releasing 100-plus entities to private parties simultaneously reveals a parallel, broader rationalization that reduces the state portfolio far beyond the four construction SOEs. The structural theme has accumulated 27 entries since September; this entry adds a concrete quantity and mechanism.",
+      "secondOrder": "Private buyers absorbing 100-plus SOEs within a compressed timeline will face thin due-diligence windows and uncertain liability stacks, particularly for entities with contingent state guarantees or pension obligations. This creates a selection effect: only buyers with existing sector knowledge and balance-sheet capacity will transact quickly, concentrating divested assets in a small number of conglomerates and potentially replacing one form of state concentration with another.",
+      "action": "Map the 100-plus entities against sectors where existing private conglomerates have declared acquisition appetite. Identify which carry contingent liabilities or cross-guarantees with remaining BUMN, and flag those for credit-risk review before any transaction closes.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMlVFWjRWZkRlc2dtMjVPWHFNaXhsdGF2ZGR0MlBRVXJnY3p3eUhaSHZtYy1kd1VrRnM4Q24zYy04Zkdnbko2Y0NNbFg4LWhmNHFyMmd1SWtOOHBYLUVSbk9OT1MzY2ljeVhRQy1MZnBCNnAtTzROd0ZGcEhtb0JYRjRlRnZHT1BxelNtck9uRUUxaEV1ZkxVUFUzTWoyZG5sc2VtbXU1QVB0Q3M2MVZXdURQdlpfUFhGcmExRWJYNHpLTUlPY3pR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-10",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Danantara divestiture timeline: identify which of the 100-plus non-core SOEs are formally transferred versus still in transition, and whether any carry state guarantees requiring Ministry of Finance approval.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "PLTA Batang Toru commercial operation date and first-year dispatch data to assess PLTU displacement and any resulting take-or-pay cost exposure for PLN in the Sumatra North system.",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "Indonesian EV battery export unit price from first shipment, for comparison against gigafactory feasibility cost assumptions circulating among potential investors.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Perpres for Kemenko Hilirisasi dan Transisi Energi: Kompas.id reported on 9 October that the new coordinating ministry still lacks a presidential regulation ten days after its minister was sworn in, leaving its authority over ESDM and related agencies legally ambiguous.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Anthropic operator agreement revisions: monitor whether Anthropic issues updated API terms incorporating the new user-conduct prohibition and what compliance certification it requires of operators.",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Waduk PLTA Batang Toru Mulai Digenangi, Pasokan Listrik Sumatera Utara Kian Andal Jelang Nataru",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOblVQVmNEM2IxZTFGYlpac0tRWWFTYnIxQTBlSGtwNHNZMXpSWjFlMU9ybk9TbC1sYkJzbWZjeF9NOGVLNGlqTDBrVjA3OXYyZ2pHXzZCTzFlVzdzZkVvd29OUHNGUGVRdzQxU25pNDFwbXhKVVl5dzVDd1dxRTE4NjIwWE9OZ0REMC1HcEFoajFhUnV1NmRkV1JHdURfV1QtWW83WlYyb3RYUFhqSmVUSEU5RFNLRUhXcGZfUG5leTB1YWdCS1ZOLU94UDNSWl80YzAwVzhLYWo1cGxmbXBN?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-10T00:09:32.000Z"
+    },
+    {
+      "title": "PLN: PLTA Batang Toru krusial untuk topang kelistrikan Sumbagut",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTlPVDBlR1BRcFNZUk8xN3dpSXg0anVNYk9uR1RYa0NoVVR3VVN6dWZtaHhsRklnUHRQUkZjMnZ5QTRWWmJ3cFEtQnAxZnFfajZ0Rm9rVFFYcS1kREdSc1JQS2JnTFk2djNBZHRiQ2pkeklHbk5Nc3lvemhBa05YU2xBVTBpYm8yMU9ZeGlVUlcxV2h4QUVVYmhaQ2owcFJ1bVpMcnQwTdIBqgFBVV95cUxNemlXLUV6TE56RXlFRlBNcTFkV0IwOXp1LU5wbHNHYVVTb0lzdzhGRE1GMnJKNUFCNFhBM2lNOUdveFVQT0xDNmZvMlJwWXNsVzNDWUdNS2hXNVg2bF9FNUNDMTJmVTh1cmNHUGZ5QUd2UExxTUs4X2k3LWc1WDZFWEdsd1BBVWVTSlZhTUFQNy1vX3hHV2ViWlNybzVHOExBbUtNektfcWxSdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T16:43:00.000Z"
+    },
+    {
+      "title": "Hilirisasi Kian Nyata, Menko Bahlil Dampingi Presiden Lepas Ekspor Perdana Baterai Listrik",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2xjeXoyVUhRYXFiX1ZWTlZyNzk4MmkxMklUak9fUEx0RVdzZWpoU0VUaGFGTWplcUdtaGwzVENxRHFUVW9GVkZJbXJscjVYaFpOcVNXODhYUHRIcVV2SnZkajlTVkZObE5oQWJERkVMRkhfNWR4cFp3YWlUem1WRTJLZ3ZwTUlmUFBONzAwdHNCQlZLLUFSa3FZd01EXzdfMTliZnhSWEJaNi1GQUVBWDZMeEpUZGdKZWF6b1JKR3RqLXVIQjhyY09SSkF5dmJLQVNQVnpXRXA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-08T14:38:53.000Z"
+    },
+    {
+      "title": "Anthropic bans users from being 'cruel' to its AI systems",
+      "publisher": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ramZhSWMyQlZTRHhlTjVYOXNuNkw0Ty1RYkF4dTQ5aVZtSUgtRjQ5SWpkTllONG5VYlVHaS1Mb1VsRXpTT2dvUUZ0RmxYczVWT0E0c0VvN3h3WW8?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T12:34:27.000Z"
+    },
+    {
+      "title": "Video:Danantara Lepas 100 Lebih BUMN yang Berstatus Non-inti ke Swasta",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMlVFWjRWZkRlc2dtMjVPWHFNaXhsdGF2ZGR0MlBRVXJnY3p3eUhaSHZtYy1kd1VrRnM4Q24zYy04Zkdnbko2Y0NNbFg4LWhmNHFyMmd1SWtOOHBYLUVSbk9OT1MzY2ljeVhRQy1MZnBCNnAtTzROd0ZGcEhtb0JYRjRlRnZHT1BxelNtck9uRUUxaEV1ZkxVUFUzTWoyZG5sc2VtbXU1QVB0Q3M2MVZXdURQdlpfUFhGcmExRWJYNHpLTUlPY3pR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T03:32:52.000Z"
+    },
+    {
+      "title": "Pidato Perdana, Menko Bahlil Petakan Peran Kemenko Hilirisasi: Sinkronkan Kebijakan hingga Kaji Moratorium",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOenRiVFJjdFJ5YkxRVFZYbFpaZlpqaVcwS1JwTXdyRE9mTEpfOF9LZFF3NHI3REFjemJLV2k1cUFiUER6bXJ1S0Y4dFBqel9OZjIyY3c4bTdLZGllU3JucmxYalJyYkRNQVdySDBVaVlKTDNxbTJqYnhyMWQ5eEZhRFRYX3NZSmU1Y25iem91bVpackNlX2RvcXFaNzk2dGJNWHVUNG5MS194Mm9PLURZUU9uN2ZSTERnZXNTdEZqcFFwemZDTXRNR29HS3ZIMVk0eFE2bGY4RklHb3g4bmxTOHdoRXdobC1nTlF2Mg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-08T01:16:04.000Z"
+    },
+    {
+      "title": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb2lja2Y3b2J4SGw2TDhuWUNxNmxablZvTlcwSVg4eHhuSUFwNUEzQTd0WFhOTlJMd0F5UHBDSnhxTl9nVXJlNjFrZVBSc1Zic01sZ1RuZ2tTTlQ3RVVLUEw5OFI2NDcwNzNPSVpYTUJmR1pVdmd2NWkyOUtxcTg5bC05ckRhX1pnSVRZdVhLSlQ0ckU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T01:25:00.000Z"
+    },
+    {
+      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+      "publisher": "The Verge",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHp1a0RodHB0TloxZW1vN3pSUFl6VkJyLWFvUXk3RHp5ZWVadUFJWlotZTk2SG5oanR6V3JRMGRMVDB5YThFUVBWaVYyZWFfalBneDl0THFXb0U0NmZHUVQzN1RZS1dGNmZ6X01rMlBoeWNpZEhrYmQzalItcVpyS2p1WFJDMUFMMHBFREZWeHJaNlh1Q0Vka0lHQWxHNy1S?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-08T17:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara targetkan merger empat BUMN Karya rampung akhir November 2026",
+      "occurrences": 27,
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic's Claude Science produces the first complete ultraviolet sky map, a primary-source scientific milestone",
+      "occurrences": 27,
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Indonesia's PLTU fleet rigidity makes system-wide real-time electricity pricing structurally unworkable, analysis finds",
+      "occurrences": 27,
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "IESR: dekarbonisasi industri harus jadi strategi nasional atau daya saing ekspor Indonesia terancam",
+      "occurrences": 20,
+      "firstSeen": "2026-09-14",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Anthropic dan OpenAI rilis kebijakan penggunaan baru: larangan manipulasi model dan operasi pengaruh berbasis AI",
+      "occurrences": 19,
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 387,
+    "poolSize": 110,
+    "generatedAt": "2026-10-10T00:46:39.761Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

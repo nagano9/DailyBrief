@@ -1,0 +1,345 @@
+{
+  "slug": "2026-10-10",
+  "date": "2026-10-10",
+  "lang": "id",
+  "title": "PLTU Kaku Blokir Tarif Real-Time; Danantara Lepas 100+ BUMN Non-Inti",
+  "dek": "Dua hambatan struktural mencuat bersamaan: rigiditas PLTU mengunci reformasi tarif listrik, sementara Danantara mempercepat divestasi BUMN non-inti yang melampaui target yang pernah diumumkan.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Bloomberg Technoz melaporkan bahwa sistem PLTU yang kaku secara teknis dan keterbatasan meteran pintar membuat skema tarif listrik real-time sulit diterapkan di Indonesia, memperkuat kondisi struktural pln-grid-investment yang telah tercatat 27 kali dalam 30 hari terakhir. Bersamaan, Danantara mengonfirmasi rencana melepas lebih dari 100 BUMN berstatus non-inti ke swasta, memperluas cakupan restrukturisasi yang sebelumnya hanya menyebut merger empat BUMN Karya. Di sisi energi, PLTA Batang Toru mulai proses penggenangan waduk, menambah kapasitas andal untuk Sumatera Utara menjelang Nataru. OpenAI merilis data kasus Sophos yang memotong waktu investigasi ancaman siber 96 persen menggunakan Daybreak, sinyal bahwa ROI agen AI di keamanan kini terdokumentasi dengan angka konkret. Ekspor perdana baterai listrik Indonesia yang dilepas Presiden Prabowo menandai titik awal hilirisasi mineral baterai yang keluar dari fase retorika.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "CNBC Indonesia",
+        "Kompas.id",
+        "Grup Bakrie"
+      ],
+      "headline": "Danantara konfirmasi lepas lebih dari 100 BUMN non-inti ke swasta",
+      "whatChanged": "CNBC Indonesia melaporkan pada 9 Oktober 2026 bahwa Danantara membuka peluang melepas lebih dari 100 BUMN yang dikategorikan non-inti kepada pihak swasta. Angka ini jauh melampaui narasi sebelumnya yang berfokus pada merger empat BUMN Karya. Kompas.id pada tanggal yang sama juga melaporkan investasi Danantara dan Grup Bakrie di emiten migas AS, menunjukkan bahwa alokasi modal Danantara kini bergerak simultan ke luar negeri sambil mendivestasi aset domestik.",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring yang telah tercatat 27 kali sejak 10 September 2026, tetapi hari ini menambahkan dimensi baru: skala divestasi yang diumumkan (100-plus entitas) mengindikasikan bahwa Danantara bergerak dari restrukturisasi sektoral menjadi rasionalisasi portofolio menyeluruh. Perbedaan ini kritis karena memerlukan kapasitas valuasi, proses lelang, dan perlindungan hukum yang berbeda dari sekadar merger antarperusahaan.",
+      "secondOrder": "Pasar swasta Indonesia belum pernah menyerap transaksi divestasi BUMN dalam skala dan kecepatan ini secara bersamaan. Jika proses tidak terstruktur dengan baik, risiko undervaluation sistemik tinggi, dan konsentrasi kepemilikan aset strategis di tangan segelintir konglomerat domestik bisa meningkat. Di sisi lain, investasi Danantara di emiten migas AS yang berjalan paralel menimbulkan pertanyaan tata kelola: siapa yang memiliki mandat pengawasan atas keputusan alokasi modal lintas batas ini, dan apakah DPR atau BPK memiliki visibilitas yang memadai.",
+      "action": "Petakan 100-plus BUMN non-inti yang dimaksud berdasarkan sektor, aset, dan kewajiban. Prioritaskan analisis pada entitas yang memiliki konsesi, hak penggunaan lahan, atau lisensi strategis yang nilainya tidak tercermin di neraca historis. Verifikasi apakah Perpres atau peraturan Danantara sudah mengatur mekanisme valuasi independen dan hak penolakan BUMN pembina sebelum setiap transaksi divestasi.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMlVFWjRWZkRlc2dtMjVPWHFNaXhsdGF2ZGR0MlBRVXJnY3p3eUhaSHZtYy1kd1VrRnM4Q24zYy04Zkdnbko2Y0NNbFg4LWhmNHFyMmd1SWtOOHBYLUVSbk9OT1MzY2ljeVhRQy1MZnBCNnAtTzROd0ZGcEhtb0JYRjRlRnZHT1BxelNtck9uRUUxaEV1ZkxVUFUzTWoyZG5sc2VtbXU1QVB0Q3M2MVZXdURQdlpfUFhGcmExRWJYNHpLTUlPY3pR?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWEEyZjB1Qll6ZzctUG5qMjFGUFF4eDBKY1VHdGR5UHo2SDl5akpYc1UxeE50WVNtaXV0NzNXOHM5NU8wMjEtWDlLU09CVHREN0NBUlN0WnMyV3kyX2FEcUZkWVNFYldkbDhwQ1pmQXNuMEdMVTF0TWlFWWxwZS1RS0gyQThSclhYY2xpTGlfWjBOWVczWkFkNXc0aXNzaW9iSkd3c2Fqc3BZQTJaQXBXQ25iWGFKeDlBQzBF?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-10",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "PLTA Batang Toru"
+      ],
+      "headline": "PLTA Batang Toru mulai penggenangan waduk, tambah kapasitas andal Sumatera Utara",
+      "whatChanged": "Kementerian ESDM dan PLN mengumumkan pada 9-10 Oktober 2026 bahwa waduk PLTA Batang Toru telah memasuki fase penggenangan (impoundment), tahap yang menandai proyek beralih dari konstruksi ke commissioning operasional. PLN menyebut proyek ini krusial untuk menopang kelistrikan Sumatera bagian utara (Sumbagut), khususnya menjelang periode Natal dan Tahun Baru (Nataru).",
+      "whyItMatters": "Melanjutkan tema pln-transmisi-investasi yang aktif sejak 14 September 2026. PLTA berbasis waduk memiliki karakteristik dispatchable yang tidak dimiliki PLTS atau angin: ia dapat dioperasikan sesuai permintaan dan berfungsi sebagai cadangan sistem. Penambahan kapasitas PLTA dispatchable di Sumbagut secara langsung mengurangi ketergantungan pada PLTD berbahan bakar fosil yang biaya operasionalnya tinggi dan menjadi beban subsidi.",
+      "secondOrder": "Keberhasilan operasional PLTA Batang Toru akan memperkuat argumen teknis untuk pengembangan PLTA lanjutan di Sumatera, termasuk proyek-proyek yang saat ini terhambat oleh sengketa izin lingkungan. Namun, preseden ini juga berarti bahwa tekanan dari kelompok konservasi terhadap PLTA berikutnya akan meningkat, karena setiap proyek baru akan dibandingkan langsung dengan standar proses Batang Toru. Kalkulasi risiko proyek PLTA di Indonesia perlu memasukkan variabel ini secara eksplisit.",
+      "action": "Verifikasi jadwal sinkronisasi grid PLTA Batang Toru dan kapasitas terpasangnya terhadap proyeksi beban puncak Sumbagut periode Nataru. Gunakan momentum ini untuk memetakan pipeline PLTA dispatchable berikutnya di Sumatera dalam RUPTL 2025-2034 dan identifikasi mana yang masih terblokir oleh izin.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOblVQVmNEM2IxZTFGYlpac0tRWWFTYnIxQTBlSGtwNHNZMXpSWjFlMU9ybk9TbC1sYkJzbWZjeF9NOGVLNGlqTDBrVjA3OXYyZ2pHXzZCTzFlVzdzZkVvd29OUHNGUGVRdzQxU25pNDFwbXhKVVl5dzVDd1dxRTE4NjIwWE9OZ0REMC1HcEFoajFhUnV1NmRkV1JHdURfV1QtWW83WlYyb3RYUFhqSmVUSEU5RFNLRUhXcGZfUG5leTB1YWdCS1ZOLU94UDNSWl80YzAwVzhLYWo1cGxmbXBN?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTlPVDBlR1BRcFNZUk8xN3dpSXg0anVNYk9uR1RYa0NoVVR3VVN6dWZtaHhsRklnUHRQUkZjMnZ5QTRWWmJ3cFEtQnAxZnFfajZ0Rm9rVFFYcS1kREdSc1JQS2JnTFk2djNBZHRiQ2pkeklHbk5Nc3lvemhBa05YU2xBVTBpYm8yMU9ZeGlVUlcxV2h4QUVVYmhaQ2owcFJ1bVpMcnQwTdIBqgFBVV95cUxNemlXLUV6TE56RXlFRlBNcTFkV0IwOXp1LU5wbHNHYVVTb0lzdzhGRE1GMnJKNUFCNFhBM2lNOUdveFVQT0xDNmZvMlJwWXNsVzNDWUdNS2hXNVg2bF9FNUNDMTJmVTh1cmNHUGZ5QUd2UExxTUs4X2k3LWc1WDZFWEdsd1BBVWVTSlZhTUFQNy1vX3hHV2ViWlNybzVHOExBbUtNektfcWxSdw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-14",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Sophos",
+        "Daybreak"
+      ],
+      "headline": "Sophos potong waktu investigasi ancaman siber 96% dengan OpenAI Daybreak, 52% kasus MDR terotomasi",
+      "whatChanged": "OpenAI mempublikasikan studi kasus pada 9 Oktober 2026 yang mendokumentasikan hasil terukur dari penerapan Daybreak oleh Sophos: waktu investigasi ancaman turun 96 persen, dan 52 persen kasus Managed Detection and Response (MDR) diselesaikan secara otomatis tanpa intervensi analis manusia. Ini adalah klaim ROI agen AI di domain keamanan siber dengan angka spesifik yang dipublikasikan langsung oleh OpenAI sebagai sumber primer.",
+      "whyItMatters": "Melanjutkan tema enterprise-ai-data-privacy-contracts yang telah tercatat 19 kali sejak 10 September 2026. Angka 96 persen dan 52 persen merupakan benchmark konkret yang akan digunakan CISO dan dewan direksi sebagai titik referensi dalam keputusan pengadaan. Ini menggeser percakapan dari \"apakah agen AI bermanfaat\" ke \"berapa baseline yang harus kami tuntut dari vendor\", yang mengubah dinamika negosiasi kontrak secara struktural.",
+      "secondOrder": "Vendor MDR tradisional yang belum mengintegrasikan agen AI akan menghadapi tekanan harga dan retensi pelanggan yang meningkat, karena klien kini memiliki angka pembanding yang dipublikasikan. Di sisi regulasi, otomasi 52 persen kasus MDR tanpa pengawasan manusia akan mendorong pertanyaan dari regulator keamanan siber mengenai audit trail dan akuntabilitas keputusan otomatis, terutama di jurisdiksi dengan kewajiban pelaporan insiden seperti UE dan Singapura.",
+      "action": "Gunakan angka Sophos (96% pengurangan waktu investigasi, 52% otomasi) sebagai benchmark dalam evaluasi vendor keamanan siber minggu ini. Tanyakan kepada setiap calon vendor MDR: berapa persentase kasus yang diselesaikan tanpa analis manusia, dan bagaimana audit trail untuk kasus-kasus tersebut didokumentasikan untuk keperluan kepatuhan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/sophos"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-09-10",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "Kementerian ESDM",
+        "Menko Bahlil",
+        "Presiden Prabowo"
+      ],
+      "headline": "Indonesia ekspor perdana baterai listrik, hilirisasi mineral baterai keluar dari fase retorika",
+      "whatChanged": "Kementerian ESDM melaporkan pada 8 Oktober 2026 bahwa Presiden Prabowo melepas ekspor perdana baterai listrik, didampingi Menko Bahlil. Ini menandai produk hilir rantai nilai mineral baterai Indonesia pertama kali mencapai pasar ekspor secara resmi, setelah bertahun-tahun kebijakan hilirisasi terfokus pada larangan ekspor bijih mentah.",
+      "whyItMatters": "Ekspor baterai jadi berbeda secara struktural dari ekspor nikel olahan: baterai adalah produk berteknologi tinggi dengan kandungan nilai tambah yang jauh lebih besar dan terikat pada standar kualitas internasional (IEC, UL, GB/T). Keberhasilan ekspor pertama ini membuka jalur negosiasi perdagangan baru, terutama dengan negara-negara yang sedang membangun rantai pasokan kendaraan listrik domestik dan membutuhkan diversifikasi dari pemasok Tiongkok.",
+      "secondOrder": "Preseden ekspor baterai jadi akan memperkuat posisi tawar Indonesia dalam negosiasi Critical Minerals Agreement dengan Amerika Serikat dan Uni Eropa, karena Indonesia kini dapat menunjukkan kapabilitas produksi hilir yang nyata. Namun, skala dan keberlanjutan ekspor pertama ini belum terdokumentasi dalam kandidat yang tersedia; jika volumenya masih simbolis, klaim kapabilitas industri akan diuji oleh pembeli internasional dalam siklus pengadaan berikutnya.",
+      "action": "Verifikasi volume, spesifikasi teknis, dan pembeli dari ekspor baterai perdana ini melalui data kepabeanan atau konfirmasi Kementerian ESDM. Petakan apakah produsen baterai yang terlibat telah memenuhi standar sertifikasi internasional yang dipersyaratkan oleh pasar tujuan, karena ini menentukan apakah ekspor ini bisa diulang dalam skala komersial.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2xjeXoyVUhRYXFiX1ZWTlZyNzk4MmkxMklUak9fUEx0RVdzZWpoU0VUaGFGTWplcUdtaGwzVENxRHFUVW9GVkZJbXJscjVYaFpOcVNXODhYUHRIcVV2SnZkajlTVkZObE5oQWJERkVMRkhfNWR4cFp3YWlUem1WRTJLZ3ZwTUlmUFBONzAwdHNCQlZLLUFSa3FZd01EXzdfMTliZnhSWEJaNi1GQUVBWDZMeEpUZGdKZWF6b1JKR3RqLXVIQjhyY09SSkF5dmJLQVNQVnpXRXA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 7,
+        "firstSeen": "2026-09-16",
+        "spanDays": 24
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Bloomberg Technoz",
+        "Kementerian ESDM",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "PLTU kaku dan minimnya meteran pintar blokir tarif listrik real-time di Indonesia",
+      "whatChanged": "Bloomberg Technoz menerbitkan dua laporan pada 9 Oktober 2026 yang merinci dua hambatan teknis konkret terhadap rencana tarif listrik real-time Indonesia: (1) PLTU beroperasi dalam mode baseload kaku sehingga tidak dapat merespons sinyal harga dinamis secara cepat, dan (2) penetrasi meteran pintar yang diperlukan untuk mengukur konsumsi per interval waktu masih sangat rendah. Laporan menyebut bahwa tanpa kedua prasyarat ini, skema real-time pricing secara teknis tidak dapat dieksekusi dalam jangka menengah.",
+      "whyItMatters": "Ini melanjutkan kondisi struktural pln-grid-investment yang telah tercatat 27 kali sejak 10 September 2026. Akumulasi sinyal menunjukkan bahwa hambatan bukan pada desain kebijakan tarif, melainkan pada arsitektur fisik sistem kelistrikan: campuran pembangkit yang didominasi PLTU baseload membuat fleksibilitas sisi pasokan tidak tersedia, sementara sisi permintaan tidak terukur dengan resolusi yang memadai. Reformasi tarif yang direncanakan pemerintah kehilangan fondasi operasionalnya.",
+      "secondOrder": "Kegagalan menerapkan tarif real-time mempertahankan subsidi implisit terhadap konsumen industri besar yang mengonsumsi listrik pada jam puncak, sehingga sinyal investasi untuk penyimpanan energi dan respons permintaan tidak terbentuk. Investor baterai, agregator demand-response, dan penyedia PLTS atap yang mengandalkan arbitrase harga akan menunda keputusan masuk pasar Indonesia selama arsitektur ini tidak berubah. Tekanan fiskal dari subsidi dan kompensasi energi yang sudah mencapai Rp 376,8 triliun per akhir September 2026 akan terus naik tanpa mekanisme harga yang mengalokasikan beban secara efisien.",
+      "action": "Tinjau ulang roadmap investasi penyimpanan energi dan demand-response dengan mempertimbangkan dua prasyarat teknis ini sebagai gating factor: jadwal rollout meteran pintar PLN dan jadwal pensiun atau dispatch-fleksibilisasi PLTU. Ajukan pertanyaan kepada PLN dan Kementerian ESDM mengenai target penetrasi AMI (Advanced Metering Infrastructure) dan anggaran yang dialokasikan dalam RUPTL 2025-2034.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZlN3SU11YmZ5Z3RhYlktY1pRRkVzV1J1VXpZaGsxNmJMYUF2djE2OVhrU1hCdjRpRElSUk9BelhFMTBQY1p6bEJtd3FOeW9YcFNFVTVmZTNoRVlhMEZ1eFliN3ZmNHJFancwaEVvOWR4Y1VKM1JUMnBtRHRvTENRbjNCU3pOaEhEUUY1dXFFS0Z3UkJ4UFh5Z1FJcFZ3XzRlWEh4SXFRY3pnSGJTRmR2dlFxSmh5UQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNczI3OFhyWlNVS1lWTEhPS2pUdGJrTlRmbjZQSUp0X2lKcnV3TXpYa3lGTDZDaHBQQW44TWNJbk5nTzhPd2pyeWtKUUFGQnBFSnpNMXVpVXlWWFpXelM1N1RMeW9yOE1YOXVSNE1La295eFhvRWFCRzFBT1pQNjZuUFVCb0VnNjRXZjZHbUxZenBTaEhVWGRoRUhRcXB0djV6RTdhekM5cGdTNndNYnE1Q1poYkNHYVk?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZnFhZFdvUjVLMDlHNkFiNVh2ZHk0ejlZdXRXZHlfSHNwRlR1bmxXT0NuRWtLREVBWDZvemNOcDctNkZpNkdoNEJwaG1ZeVFadWFySWs1MTJLc2Z6aW9BWkJvM0Vjd3V2OGxGcjJleHRYbVVZb3B4R1hPd3F5X1h3T3c4bDNnamhENmM3MXh3dVJqM1N4WG9xNzBhdzlkdnVSLTlqUkxDX2hGQjA2RFB0Q3ZBOEpERUU?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8699349/realisasi-subsidi-kompensasi-melonjak-54-jadi-rp-376-8-t"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-09-10",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Jadwal sinkronisasi grid PLTA Batang Toru dan kapasitas operasional penuh: konfirmasi dari PLN atau Kementerian ESDM apakah proyek siap sebelum beban puncak Nataru Desember 2026.",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Perpres atau regulasi Danantara yang mengatur mekanisme divestasi 100-plus BUMN non-inti: apakah sudah ada kerangka valuasi independen dan pengawasan parlemen.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Rincian volume dan pembeli ekspor perdana baterai listrik Indonesia: data kepabeanan atau pengumuman resmi Kementerian ESDM untuk memverifikasi skala komersial.",
+      "dueDate": "2026-10-24"
+    },
+    {
+      "item": "Target penetrasi AMI (meteran pintar) PLN dalam RUPTL 2025-2034 dan anggaran yang dialokasikan: prasyarat teknis untuk tarif listrik real-time.",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Waduk PLTA Batang Toru Mulai Digenangi, Pasokan Listrik Sumatera Utara Kian Andal Jelang Nataru",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOblVQVmNEM2IxZTFGYlpac0tRWWFTYnIxQTBlSGtwNHNZMXpSWjFlMU9ybk9TbC1sYkJzbWZjeF9NOGVLNGlqTDBrVjA3OXYyZ2pHXzZCTzFlVzdzZkVvd29OUHNGUGVRdzQxU25pNDFwbXhKVVl5dzVDd1dxRTE4NjIwWE9OZ0REMC1HcEFoajFhUnV1NmRkV1JHdURfV1QtWW83WlYyb3RYUFhqSmVUSEU5RFNLRUhXcGZfUG5leTB1YWdCS1ZOLU94UDNSWl80YzAwVzhLYWo1cGxmbXBN?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-10T00:09:32.000Z"
+    },
+    {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/sophos",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-09T07:00:00.000Z"
+    },
+    {
+      "title": "PLN: PLTA Batang Toru krusial untuk topang kelistrikan Sumbagut",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTlPVDBlR1BRcFNZUk8xN3dpSXg0anVNYk9uR1RYa0NoVVR3VVN6dWZtaHhsRklnUHRQUkZjMnZ5QTRWWmJ3cFEtQnAxZnFfajZ0Rm9rVFFYcS1kREdSc1JQS2JnTFk2djNBZHRiQ2pkeklHbk5Nc3lvemhBa05YU2xBVTBpYm8yMU9ZeGlVUlcxV2h4QUVVYmhaQ2owcFJ1bVpMcnQwTdIBqgFBVV95cUxNemlXLUV6TE56RXlFRlBNcTFkV0IwOXp1LU5wbHNHYVVTb0lzdzhGRE1GMnJKNUFCNFhBM2lNOUdveFVQT0xDNmZvMlJwWXNsVzNDWUdNS2hXNVg2bF9FNUNDMTJmVTh1cmNHUGZ5QUd2UExxTUs4X2k3LWc1WDZFWEdsd1BBVWVTSlZhTUFQNy1vX3hHV2ViWlNybzVHOExBbUtNektfcWxSdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T16:43:00.000Z"
+    },
+    {
+      "title": "Hilirisasi Kian Nyata, Menko Bahlil Dampingi Presiden Lepas Ekspor Perdana Baterai Listrik",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2xjeXoyVUhRYXFiX1ZWTlZyNzk4MmkxMklUak9fUEx0RVdzZWpoU0VUaGFGTWplcUdtaGwzVENxRHFUVW9GVkZJbXJscjVYaFpOcVNXODhYUHRIcVV2SnZkajlTVkZObE5oQWJERkVMRkhfNWR4cFp3YWlUem1WRTJLZ3ZwTUlmUFBONzAwdHNCQlZLLUFSa3FZd01EXzdfMTliZnhSWEJaNi1GQUVBWDZMeEpUZGdKZWF6b1JKR3RqLXVIQjhyY09SSkF5dmJLQVNQVnpXRXA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-08T14:38:53.000Z"
+    },
+    {
+      "title": "Video:Danantara Lepas 100 Lebih BUMN yang Berstatus Non-inti ke Swasta",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMlVFWjRWZkRlc2dtMjVPWHFNaXhsdGF2ZGR0MlBRVXJnY3p3eUhaSHZtYy1kd1VrRnM4Q24zYy04Zkdnbko2Y0NNbFg4LWhmNHFyMmd1SWtOOHBYLUVSbk9OT1MzY2ljeVhRQy1MZnBCNnAtTzROd0ZGcEhtb0JYRjRlRnZHT1BxelNtck9uRUUxaEV1ZkxVUFUzTWoyZG5sc2VtbXU1QVB0Q3M2MVZXdURQdlpfUFhGcmExRWJYNHpLTUlPY3pR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T03:32:52.000Z"
+    },
+    {
+      "title": "Meteran & PLTU Bisa Jegal Rencana RI Buat Tarif Listrik Real Time",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZlN3SU11YmZ5Z3RhYlktY1pRRkVzV1J1VXpZaGsxNmJMYUF2djE2OVhrU1hCdjRpRElSUk9BelhFMTBQY1p6bEJtd3FOeW9YcFNFVTVmZTNoRVlhMEZ1eFliN3ZmNHJFancwaEVvOWR4Y1VKM1JUMnBtRHRvTENRbjNCU3pOaEhEUUY1dXFFS0Z3UkJ4UFh5Z1FJcFZ3XzRlWEh4SXFRY3pnSGJTRmR2dlFxSmh5UQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T04:40:00.000Z"
+    },
+    {
+      "title": "Tarif Listrik RI Rawan Lebih Mahal Jika Skema Real Time Diadopsi",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNczI3OFhyWlNVS1lWTEhPS2pUdGJrTlRmbjZQSUp0X2lKcnV3TXpYa3lGTDZDaHBQQW44TWNJbk5nTzhPd2pyeWtKUUFGQnBFSnpNMXVpVXlWWFpXelM1N1RMeW9yOE1YOXVSNE1La295eFhvRWFCRzFBT1pQNjZuUFVCb0VnNjRXZjZHbUxZenBTaEhVWGRoRUhRcXB0djV6RTdhekM5cGdTNndNYnE1Q1poYkNHYVk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T03:00:00.000Z"
+    },
+    {
+      "title": "Realisasi Subsidi &amp; Kompensasi Melonjak 54% Jadi Rp 376,8 T",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8699349/realisasi-subsidi-kompensasi-melonjak-54-jadi-rp-376-8-t",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-09T05:51:11.000Z"
+    },
+    {
+      "title": "Sistem PLTU Kaku, Tarif Listrik Real Time Bakal Sulit Diadopsi RI",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZnFhZFdvUjVLMDlHNkFiNVh2ZHk0ejlZdXRXZHlfSHNwRlR1bmxXT0NuRWtLREVBWDZvemNOcDctNkZpNkdoNEJwaG1ZeVFadWFySWs1MTJLc2Z6aW9BWkJvM0Vjd3V2OGxGcjJleHRYbVVZb3B4R1hPd3F5X1h3T3c4bDNnamhENmM3MXh3dVJqM1N4WG9xNzBhdzlkdnVSLTlqUkxDX2hGQjA2RFB0Q3ZBOEpERUU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T02:00:00.000Z"
+    },
+    {
+      "title": "Mengulik Investasi Danantara dan Grup Bakrie di Emiten Migas AS",
+      "publisher": "Kompas.id",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWEEyZjB1Qll6ZzctUG5qMjFGUFF4eDBKY1VHdGR5UHo2SDl5akpYc1UxeE50WVNtaXV0NzNXOHM5NU8wMjEtWDlLU09CVHREN0NBUlN0WnMyV3kyX2FEcUZkWVNFYldkbDhwQ1pmQXNuMEdMVTF0TWlFWWxwZS1RS0gyQThSclhYY2xpTGlfWjBOWVczWkFkNXc0aXNzaW9iSkd3c2Fqc3BZQTJaQXBXQ25iWGFKeDlBQzBF?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-09T11:07:19.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara targetkan merger empat BUMN Karya rampung akhir November 2026",
+      "occurrences": 27,
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic's Claude Science produces the first complete ultraviolet sky map, a primary-source scientific milestone",
+      "occurrences": 27,
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Indonesia's PLTU fleet rigidity makes system-wide real-time electricity pricing structurally unworkable, analysis finds",
+      "occurrences": 27,
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "IESR: dekarbonisasi industri harus jadi strategi nasional atau daya saing ekspor Indonesia terancam",
+      "occurrences": 20,
+      "firstSeen": "2026-09-14",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "theme": "Anthropic dan OpenAI rilis kebijakan penggunaan baru: larangan manipulasi model dan operasi pengaruh berbasis AI",
+      "occurrences": 19,
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-10-09",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 387,
+    "poolSize": 110,
+    "generatedAt": "2026-10-10T00:45:30.776Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
