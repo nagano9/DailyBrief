@@ -1,0 +1,414 @@
+{
+  "slug": "2026-10-16",
+  "date": "2026-10-16",
+  "lang": "id",
+  "title": "PLN Dirut Baru, Obligasi Pusat Data AI Rontok, PPh BUMN Masih Buram",
+  "dek": "Tiga keputusan struktural bergerak serentak: kepemimpinan PLN berganti di tengah agenda transisi energi, pasar obligasi pusat data AI mulai menolak risiko, dan insentif pajak restrukturisasi BUMN belum berkekuatan hukum.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "Suroso Isnandar resmi menggantikan Darmawan Prasodjo sebagai Direktur Utama PLN per 14 Oktober 2026, tepat ketika IESR dan pakar energi menetapkan tiga agenda mendesak: penguatan jaringan transmisi, percepatan kontrak EBT, dan pembenahan pasokan batu bara. Bersamaan, pasar obligasi pusat data AI global mengalami tekanan jual, dengan investor mempersoalkan kelayakan kredit proyek tanpa offtaker jangka panjang yang solid, melanjutkan sinyal nuclear-ai-datacenter-power yang telah 19 kali muncul dalam 30 hari terakhir. Di sisi tata kelola, Direktorat Jenderal Pajak mengonfirmasi bahwa aturan PPh final 0 persen untuk restrukturisasi BUMN belum final, menciptakan ketidakpastian bagi Danantara yang tengah merestrukturisasi ratusan BUMN. Meta merilis Muse Spark Open, model multimodal mixture-of-experts 816 miliar parameter dengan bobot terbuka, yang menggeser standar kemampuan model frontier tersedia publik. Kelima sinyal ini bertemu pada satu titik: keputusan investasi infrastruktur berskala besar, baik di sektor kelistrikan, komputasi AI, maupun portofolio BUMN, sedang diuji oleh ketidakpastian regulasi, risiko kredit, dan transisi kepemimpinan secara bersamaan.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Suroso Isnandar",
+        "Darmawan Prasodjo",
+        "IESR"
+      ],
+      "headline": "Suroso Isnandar jadi Dirut PLN; IESR tetapkan tiga agenda mendesak yang harus diselesaikan",
+      "whatChanged": "Suroso Isnandar ditetapkan sebagai Direktur Utama PT PLN (Persero) pada 14 Oktober 2026, menggantikan Darmawan Prasodjo. IESR pada tanggal yang sama menerbitkan penilaian bahwa pergantian ini harus membawa transformasi bisnis nyata, bukan kelanjutan program lama. Tiga prioritas yang disebut secara eksplisit: penguatan jaringan transmisi, percepatan penandatanganan kontrak energi baru terbarukan, dan pembenahan celah aturan DMO batu bara yang menyebabkan pasokan pembangkit PLN seret.",
+      "whyItMatters": "Pergantian Dirut terjadi di tengah kondisi struktural yang telah terdokumentasi 29 kali dalam 30 hari terakhir: PLN membutuhkan investasi transmisi besar-besaran untuk menyerap kapasitas EBT baru, namun model pembiayaan jaringan belum terpecahkan. Kepemimpinan baru menentukan apakah PLN akan mendorong model subholding transmisi independen yang diusulkan IEEFA, atau mempertahankan struktur yang ada. Bisnis.com mengidentifikasi tiga pekerjaan rumah yang sama: pasokan listrik, transisi energi, dan jaringan.",
+      "secondOrder": "Dirut baru menghadapi jendela keputusan sempit: RUPTL dan kontrak EBT yang tertunda memiliki implikasi langsung terhadap kemampuan Indonesia memenuhi komitmen transisi energi internasional. Jika pergantian kepemimpinan menyebabkan jeda pengambilan keputusan selama bahkan satu kuartal, proyek EBT yang menunggu persetujuan offtake PLN akan mengalami penundaan finansial karena lender memerlukan kepastian kontraktual sebelum mencairkan dana. Risiko ini terkonsentrasi pada proyek-proyek yang saat ini dalam fase financial close.",
+      "action": "Petakan portofolio proyek EBT yang saat ini menunggu penandatanganan PJBL atau persetujuan PLN, identifikasi mana yang mendekati financial close, dan pantau apakah Dirut baru menunjuk tim energi terbarukan dalam 30 hari pertama sebagai sinyal prioritas.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+        "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeFhnWWhhVFRDOWFQU2ZqNy1XTk9yUHBIaHk5OFM2UHRzcXdxSnZJeXB0M2VLMTZVdlozbjZaOXE3VjU1ek9zbmJIa1ptaHR5OFRpRWhkLTVfUEt4Q3Nvek9COFY0RWZ1WGlGUGxaSWdjcktGUVJSdl9US1JEYlhpaUFMRGNvM0FIQklBRXRneTJQMHZ3SzFqRmhSSF9DdGlTVk5XOXZVNmRVbExDX05NbFcyeHNtOEtRbFExM2d3YUxpQURwdFdF0gHMAUFVX3lxTE5lUjBQZTRSd1RaYTd6RVdITUdRLXM0NGljOC00Mk4xT0tKcjNobHRYTEJreWxUUnBOTUstVUpvY3RaRkRjUENJU0RqZ04wYTJ1djRfb1d5Y3E3VGV6cDJzSnpuT3V5OFg2M1M4MS1PWmFKeEpJdFJlNVI0YTJVNU9CaW0yMXFlWXJyRU9FMkNSRVV6VFE2cE13dE9DT04tYnZOYTlPY2NmelV0Z19LMFhyRDRpS2kxeHh2NF9hek5iNjNRbUVSY1dTMGd1WQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVlZLZXJyZ04yR1oyREVMTGxqZmlUVTJreFZ6ZWFtQ0ltVEx5Ykk3TVk0LUxmTTF3MUdNcDREb1hDaXZQcEU4YWQ4Y1RIS3RSb190US1RR0g3WUtUdTgxcE5NbjBWYmJjN1ZTc1BVVkQ4OU9TTmVfQ0dNVDdIT3NiN3hNNnZyN1BGRXp2bmh3MUJFelBLeG11aFBCYW13WkFBd0RqMFdmVm5LdEYzbG1qc0ZWZVlqV0U?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVzJJT1B5SHpWTkl1RTJsRTZhTFVZVWNHRXp6OEhCU3RzSGZIOTBaTjg5VEVWS3BIRDRpd2c3aHBPRFBWUzJvWGZ3YXRBUDVDMGlPcHptbU00cGNzVlRLUVVTU2RVTG5VZjZzdEcwdExXMDVKa043N0tzVnVHTjZEUzBoeE05bGdaMW1GUmVhUHFzMFhmWWJpeXpmUzFjZjB0YUpNdW5mOS0zdXhnOHFCU1RzbFgxdkRmWWc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 5,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-16",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Financial Times",
+        "Reuters"
+      ],
+      "headline": "Investor buang obligasi pusat data AI saat pasar uji kelayakan kredit proyek tanpa offtaker solid",
+      "whatChanged": "Financial Times melaporkan investor membuang obligasi pusat data AI, dengan peminjam menghadapi apa yang disebut sebagai 'Darwin moment'. Reuters pada tanggal yang sama mengonfirmasi bahwa kenaikan suku bunga dan koreksi pasar sedang menguji ledakan kesepakatan pusat data AI. Ini melanjutkan sinyal nuclear-ai-datacenter-power yang telah muncul 19 kali sejak 16 September 2026, kali ini dengan bukti pergerakan harga obligasi aktual, bukan sekadar kekhawatiran analis.",
+      "whyItMatters": "Pasar kredit mulai membedakan proyek pusat data AI berdasarkan kualitas offtaker dan struktur kontrak, bukan sekadar narasi pertumbuhan AI. Proyek yang tidak memiliki perjanjian pembelian daya jangka panjang dengan penyewa kelas investasi menghadapi repricing risiko yang nyata. Ini adalah pergeseran dari fase 'semua proyek AI mendapat pembiayaan' ke fase seleksi berbasis fundamental project finance.",
+      "secondOrder": "Repricing obligasi pusat data AI akan mempengaruhi biaya modal proyek di Asia Tenggara, termasuk Indonesia. Developer pusat data yang berencana membiayai ekspansi lewat pasar obligasi internasional, seperti yang dilakukan beberapa mitra PLN untuk pusat data berdaya besar, kini menghadapi spread yang lebih tinggi. Ini dapat mendorong konsolidasi: hanya operator dengan anchor tenant hiperscaler (Google, Microsoft, AWS) yang mampu mengakses modal berbiaya wajar.",
+      "action": "Tinjau ulang struktur pembiayaan proyek pusat data yang sedang dalam pipeline: periksa apakah offtake agreement sudah tanda tangan atau masih letter of intent, dan nilai ulang asumsi biaya modal dalam model finansial jika menggunakan referensi spread obligasi dari 6-12 bulan lalu.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHNjZE1aMG8wWVBHLW9UeG15T3RSZzdSOFR4WGN5SEtyWTI2Y1g1MWtSUFZkYUFKc2QtS01JN2lHSW82bjdqVWNjV0w1WVNMU1B2U1BLZlB6QkpLc1ZSTUE4Ry1EMzVRa3RUT1J3azFYRjZnNVpTY0c5WERPV2thSlp4MkE?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVzg2Ylo3QXRIeG9mV2o2OEJBX0U4RmhVWWtyczlpMzBmMm5RaWoyME40OGdORTRsRW9oLUczTmhSUllwdFg1WW9aRUdDXzEzbTdiTlo1VFlvV2ViY28zVHFOSFRmYmFVVlpFb3BsSHVwUXpNTEQ2NC1mTmFBYTJ3MzZrd3hqVFllZ2ZIdXdqelBLcUNYOWRXYTU4cWlTWEROcnJUUG9Fd0tBcFUtZWdLZ2J4YUNHTXNDSkRTV1hucGtyRTg?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-09-16",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "DJP",
+        "ANTARA News",
+        "CNBC Indonesia"
+      ],
+      "headline": "DJP konfirmasi PPh final 0% untuk restrukturisasi BUMN belum berkekuatan hukum",
+      "whatChanged": "Direktorat Jenderal Pajak (DJP) menyatakan kepada publik bahwa aturan PPh final 0 persen untuk restrukturisasi BUMN belum final per 15 Oktober 2026, sebagaimana dilaporkan ANTARA News dan dikonfirmasi CNBC Indonesia. Insentif ini sebelumnya disebut-sebut sebagai salah satu pendorong utama kelayakan ekonomi konsolidasi BUMN di bawah Danantara, karena transfer aset antar-entitas BUMN dalam restrukturisasi normalnya memicu kewajiban pajak.",
+      "whyItMatters": "Ketidakpastian status hukum insentif pajak ini menciptakan risiko transaksi nyata bagi BUMN yang sedang atau akan menjalani restrukturisasi. Jika aturan berubah atau tidak diterbitkan, biaya pajak yang tidak diantisipasi dapat mengubah kelayakan finansial merger atau pemisahan aset yang sudah direncanakan. Ini melanjutkan tema danantara-bumn-karya-restructuring yang telah muncul 29 kali, namun kali ini dengan implikasi fiskal konkret yang sebelumnya tidak eksplisit.",
+      "secondOrder": "BUMN yang sudah memulai proses due diligence atau negosiasi restrukturisasi berdasarkan asumsi insentif PPh final 0 persen perlu menghitung ulang struktur transaksi. Ketidakpastian ini juga dapat memperlambat timeline restrukturisasi secara keseluruhan, karena lender dan investor memerlukan kepastian pajak sebelum berkomitmen. Dalam konteks Danantara yang menargetkan konsolidasi ratusan BUMN, penundaan satu regulasi pajak berpotensi menciptakan kemacetan di seluruh pipeline restrukturisasi.",
+      "action": "Untuk setiap transaksi restrukturisasi BUMN yang sedang berjalan, konfirmasi secara tertulis kepada DJP atau konsultan pajak terdaftar apakah insentif PPh final 0 persen sudah berlaku dan dalam bentuk apa regulasinya, sebelum menyelesaikan struktur transaksi atau mengajukan persetujuan dewan.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxORjl0RHY2MEF5OGM1bTJXODhuT2x4UmVSdXBnVlIyU2JRYm9sUTd6N2lPQTJZUWlrZE5tNTRFLUxsSHpVamREU0RfcklsN2plTDRGZ25JdzZ3d2l2NGJZNU44VVpWNEc3d2h3QU00cl9CRFprcmNnMnV2TnpvTF9WRUVFVjRjclVMdUNNY1VBeXJhR2RtYkhBZFFmZDFRb2lUWVF3YndjdzBhM0lLdVYyd1p2ZHVVcG5VYXfSAb8BQVVfeXFMTmpNaEh5ckNacTNOakFlMXN5aGozNS1QdDEySXlOQmZXckk2Yy1FQ2ZuS3k2MUkwd0RUV2FrTWp6enZjNkpzMTVoQ2JaMXlhYi01TGk1THE5blRLRWcxTFJJYndaLUFoOE1Nd21VV2dKRzh1UDdRWEFKR3hvZkZySFdKdzYxNmFGcGROUS1INUItMndsNkwzVEN0a19tWEIzcGplS25TSkNsRzAxOUFEWkZ3c2dSR1g4QjBtNFdqN0E?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-16",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Meta",
+        "Hugging Face",
+        "Muse Spark Open"
+      ],
+      "headline": "Meta rilis Muse Spark Open 816B parameter dengan bobot terbuka, standar model multimodal bergeser",
+      "whatChanged": "Meta merilis Muse Spark Open, model multimodal mixture-of-experts dengan 816 miliar total parameter dan 42 miliar parameter aktif per token, tersedia sebagai open-weight di Hugging Face (meta-models/Muse-Spark-Open-816B-A42B). Model ini menerima input teks, gambar, audio, dan video. Hugging Face mengonfirmasi ketersediaan bobot pada 15 Oktober 2026, dan release notes Transformers v5.20.0 mengonfirmasi integrasi framework.",
+      "whyItMatters": "Perilisan model frontier multimodal dengan bobot terbuka pada skala 816 miliar parameter mengubah asumsi biaya akses kapabilitas AI tingkat lanjut. Organisasi yang sebelumnya bergantung pada API tertutup untuk kemampuan multimodal kini dapat menjalankan model setara secara lokal atau di infrastruktur privat, dengan implikasi langsung pada kontrol data dan biaya per token untuk volume tinggi.",
+      "secondOrder": "Model open-weight berskala ini akan mempercepat fine-tuning spesifik domain di sektor yang sebelumnya ragu menggunakan API cloud karena sensitivitas data, termasuk perbankan, hukum, dan infrastruktur kritis. Dalam konteks Indonesia, ini membuka jalur bagi BUMN teknologi dan lembaga pemerintah untuk membangun kapabilitas AI internal tanpa ketergantungan kontraktual pada vendor API asing, meski biaya komputasi inferensi tetap substansial.",
+      "action": "Evaluasi apakah kasus penggunaan AI internal yang saat ini bergantung pada API tertutup dapat dimigrasikan ke Muse Spark Open untuk mendapatkan kontrol data lebih besar; hitung perbandingan biaya antara biaya API bulanan versus biaya infrastruktur inferensi lokal untuk volume transaksi aktual.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://huggingface.co/blog/meta-muse-spark-open",
+        "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
+        "https://research.meta.ai/blog/muse-spark-open"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-16",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BSI",
+        "BRIS",
+        "OJK"
+      ],
+      "headline": "BSI siapkan rights issue Rp 3,4 triliun untuk penuhi free float 15% dan perkuat pembiayaan",
+      "whatChanged": "PT Bank Syariah Indonesia Tbk (BSI/BRIS) mengumumkan rencana rights issue senilai Rp 3,4 triliun dalam Rapat Umum Pemegang Saham Luar Biasa (RUPSLB) yang akan datang. Manajemen BSI menyatakan dua tujuan eksplisit: memenuhi ketentuan free float saham minimal 15 persen dan mendukung target pertumbuhan pembiayaan 16 persen. Laporan Kontan, CNBC Indonesia, dan Kompas.com mengonfirmasi angka dan tujuan yang sama.",
+      "whyItMatters": "BSI adalah BUMN perbankan syariah terbesar Indonesia, dan rights issue ini adalah tindakan korporasi material pertama yang dilaporkan dalam konteks pemenuhan regulasi pasar modal sekaligus ekspansi pembiayaan. Pemenuhan free float 15 persen merupakan kewajiban regulasi OJK yang jika tidak dipenuhi dapat berujung pada sanksi perdagangan. Target pertumbuhan pembiayaan 16 persen dengan basis modal baru akan memperluas eksposur BSI ke segmen yang saat ini underserved.",
+      "secondOrder": "Rights issue BSI akan menguji kapasitas penyerapan pasar modal Indonesia untuk emisi BUMN berskala triliunan dalam satu kuartal, terutama jika bersamaan dengan aksi korporasi BUMN lain dalam pipeline restrukturisasi Danantara. Jika penyerapan lemah, ini memberikan sinyal kepada BUMN lain yang mempertimbangkan rights issue bahwa likuiditas investor untuk emisi BUMN perlu dikelola secara sekuensial, bukan paralel.",
+      "action": "Pantau perkembangan RUPSLB BSI untuk mendapatkan harga pelaksanaan dan rasio rights; gunakan tingkat penyerapan sebagai indikator awal kapasitas pasar modal Indonesia menyerap emisi BUMN besar lainnya yang mungkin muncul dari proses restrukturisasi Danantara.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckZZMmo0a0x5dnU1TjF3LXVYNUtNV2NpMXFqRWtsRkhCVzNta2xVcVF0VlhISWowd1lGNkdyQlZLNDMxcWM5TTZYRmFYRUR6TVp0WmlmVkxhVVl2R0loX2VjV2hobVFuOEpTUXY0bzFabmt0N1ozcTA1b1U4a0FwaXJPSmFxUkNfSldfeWhYRTFKbjRodUdSaWVzQ3ZlT0l1WGJLVFE4c23SAasBQVVfeXFMTWF2djRod19WUzREX2xBUDVBbXdXRHZra3ZDclhGeXhKRHJ4V2ZRR2JFdGFDSFdhQzJtQUdUclBhYkJydjZCcWMxOWVRZkF2OTFVd2FodUdxdnQ2cFEyTEdwY0pvRkF0SUVLRzItWUZuLXF1by1oazZjeUw2WWhlMmkwb0pOMGFVM1hUamJ5U3JNbVpQeUwwNUg0Ny0wWUNHSjU3LTRUYUhMUFdv?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZkNmMFNtRlhMRlJZaFhwcVJTTWpTMUsxenhnT1BoME0tanJ4NU1GWVV2aVVxbHVwMGVaak9vR1h1R3N5eFpfcXNJZmhMaFNuVkNVSW51SWs1X3JZclJlTnl6dnVNbkFoWXdEM1ZITTh0MkExbHBSaWY3VUY5WWw5dnkxS3JESlV0SzJ1UTZTUWNQcXVlMnVpMWxCYVZNVTJWY28yYVVwVld6akRmc1hfUGh6VWFhZ9IBrwFBVV95cUxObUd5aWFWblJUZnF1SjRESDYtcTVHcUllRGUydVl5Nzd6SDhUNWE5dEQwS0ZEVUdWRWpXQTlNU25aZWxUMjFSMmUxWTl2T3JyNFkzRUhOeWV6ZDBqU2gxby1zYmN5Ymc4dm1BeWFQRVB2NEV3MXMzM0hfa1BETEpLTUZ6SnBKMGFhNE96UU5tcHJpNjlrR3lQMzFiU3g3Y0tGVG1sNzJQYUc0bVozVmJB?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTmExTk9FNXo1d2c5d2syak9nVzc2UEd3TloxbG1kNXd5QnQzYVdTSHU5WFRTanBaQzNaLW1jN2NnZjNJUHE5WlRCSDM2bFFBV0RxTWNvYmhQRG5YZ05JLVB6SXo1Sk81TzNzc09tYnZvakZhLVR2Mk9kb19pM2FsWDlMeHdiOWdFV2NIZlJmem1nc0diREt4STJSSEROU3kzRC1GSFhBcVNkTXQ1MWRoSVROb1ozd2FSTnB5M2tsckFKS2pmblHSAcsBQVVfeXFMTzZVMzhncS1FN1pNWGV2SkY3WWFzbUQ2Q21nVHFWenpxekNYaTU4MFhPRFQyRnZVbnZhUDdDNkFUS2lSc294UlJ1cm92LVdxc0VWN09YeDNyYnpwNWFuaHk2MTZBT0pNWTN0VHc0Y0dnOEtQUklabUduVlpncmtJN3BJUGZCX0Z6X29Ibk5tQVhMTFc1Zzc2VGw4VXF0bG1TQUtOdWNfdy14RDVKLWdPMm5xRUFHVlZuRE1LNUM5YWE5aHNGLXRBanFUbFk?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTEczVHZZNFV2aE43WXp6T3hxLXNyRXdBd3V2VVI0ZWk2X29JOGxCUUJyYXJFOFZkUkpEVFJJTjhDM1pJWE16RlYteDRfb2tFaWZHT0N3VEF3X204aHZXeWU1SGtaSjdFTE1IOVZXSnRtMUNEYlFHMS14WWRlU3EyLVdhRWdJWXJJS3A2ek1WM01UYVMwR0F6Um5QTFZPX3F6ejNoWGtIeXZFX0s5V2U2T3BuT2R0SGoyQnc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-16",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Terbitnya regulasi PPh final 0 persen untuk restrukturisasi BUMN: pantau pengumuman resmi DJP atau PMK dari Kementerian Keuangan yang memberikan kepastian hukum insentif ini.",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Kebijakan pertama Suroso Isnandar sebagai Dirut PLN terkait percepatan kontrak EBT dan investasi transmisi, termasuk apakah ia mendukung model subholding transmisi independen.",
+      "dueDate": "2026-11-14"
+    },
+    {
+      "item": "Hasil RUPSLB BSI: harga pelaksanaan rights issue, rasio, dan tingkat penyerapan sebagai indikator kapasitas pasar modal untuk emisi BUMN berskala besar.",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Perkembangan spread obligasi pusat data AI di pasar sekunder setelah laporan Financial Times dan Reuters: apakah tren jual berlanjut atau stabil setelah repricing awal.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Adopsi dan benchmark independen Muse Spark Open 816B: apakah model ini mencapai paritas dengan model tertutup setara pada tugas multimodal, yang akan menjadi penentu migrasi enterprise.",
+      "dueDate": "2026-11-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "publisher": "Hugging Face",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "title": "DJP sebut aturan PPh final 0 persen restrukturisasi BUMN belum final",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T15:48:06.000Z"
+    },
+    {
+      "title": "Market selloff, rising rates test AI data centre deal boom",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T16:12:49.000Z"
+    },
+    {
+      "title": "BSI: Rights issue untuk perkuat pembiayaan dan penuhi free float",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckZZMmo0a0x5dnU1TjF3LXVYNUtNV2NpMXFqRWtsRkhCVzNta2xVcVF0VlhISWowd1lGNkdyQlZLNDMxcWM5TTZYRmFYRUR6TVp0WmlmVkxhVVl2R0loX2VjV2hobVFuOEpTUXY0bzFabmt0N1ozcTA1b1U4a0FwaXJPSmFxUkNfSldfeWhYRTFKbjRodUdSaWVzQ3ZlT0l1WGJLVFE4c23SAasBQVVfeXFMTWF2djRod19WUzREX2xBUDVBbXdXRHZra3ZDclhGeXhKRHJ4V2ZRR2JFdGFDSFdhQzJtQUdUclBhYkJydjZCcWMxOWVRZkF2OTFVd2FodUdxdnQ2cFEyTEdwY0pvRkF0SUVLRzItWUZuLXF1by1oazZjeUw2WWhlMmkwb0pOMGFVM1hUamJ5U3JNbVpQeUwwNUg0Ny0wWUNHSjU3LTRUYUhMUFdv?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T13:48:10.000Z"
+    },
+    {
+      "title": "Pendidikan dan karier Suroso Isnandar, Dirut baru PLN",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T11:11:47.000Z"
+    },
+    {
+      "title": "Release v5.20.0",
+      "publisher": "Transformers",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-10-15T18:05:36.000Z"
+    },
+    {
+      "title": "Muse Spark Open",
+      "publisher": "Hacker News",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-10-15T17:47:39.000Z"
+    },
+    {
+      "title": "PPh Final 0% untuk Restrukturisasi BUMN, Bos Pajak Buka Suara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORjl0RHY2MEF5OGM1bTJXODhuT2x4UmVSdXBnVlIyU2JRYm9sUTd6N2lPQTJZUWlrZE5tNTRFLUxsSHpVamREU0RfcklsN2plTDRGZ25JdzZ3d2l2NGJZNU44VVpWNEc3d2h3QU00cl9CRFprcmNnMnV2TnpvTF9WRUVFVjRjclVMdUNNY1VBeXJhR2RtYkhBZFFmZDFRb2lUWVF3YndjdzBhM0lLdVYyd1p2ZHVVcG5VYXfSAb8BQVVfeXFMTmpNaEh5ckNacTNOakFlMXN5aGozNS1QdDEySXlOQmZXckk2Yy1FQ2ZuS3k2MUkwd0RUV2FrTWp6enZjNkpzMTVoQ2JaMXlhYi01TGk1THE5blRLRWcxTFJJYndaLUFoOE1Nd21VV2dKRzh1UDdRWEFKR3hvZkZySFdKdzYxNmFGcGROUS1INUItMndsNkwzVEN0a19tWEIzcGplS25TSkNsRzAxOUFEWkZ3c2dSR1g4QjBtNFdqN0E?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T13:17:12.000Z"
+    },
+    {
+      "title": "Profil Suroso Isnandar, Dirut Baru PLN Pengganti Darmawan Prasodjo",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeFhnWWhhVFRDOWFQU2ZqNy1XTk9yUHBIaHk5OFM2UHRzcXdxSnZJeXB0M2VLMTZVdlozbjZaOXE3VjU1ek9zbmJIa1ptaHR5OFRpRWhkLTVfUEt4Q3Nvek9COFY0RWZ1WGlGUGxaSWdjcktGUVJSdl9US1JEYlhpaUFMRGNvM0FIQklBRXRneTJQMHZ3SzFqRmhSSF9DdGlTVk5XOXZVNmRVbExDX05NbFcyeHNtOEtRbFExM2d3YUxpQURwdFdF0gHMAUFVX3lxTE5lUjBQZTRSd1RaYTd6RVdITUdRLXM0NGljOC00Mk4xT0tKcjNobHRYTEJreWxUUnBOTUstVUpvY3RaRkRjUENJU0RqZ04wYTJ1djRfb1d5Y3E3VGV6cDJzSnpuT3V5OFg2M1M4MS1PWmFKeEpJdFJlNVI0YTJVNU9CaW0yMXFlWXJyRU9FMkNSRVV6VFE2cE13dE9DT04tYnZOYTlPY2NmelV0Z19LMFhyRDRpS2kxeHh2NF9hek5iNjNRbUVSY1dTMGd1WQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T13:32:09.000Z"
+    },
+    {
+      "title": "Blackstone’s Jon Gray Plots Once-in-a-Century Bet on the AI Boom",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVzg2Ylo3QXRIeG9mV2o2OEJBX0U4RmhVWWtyczlpMzBmMm5RaWoyME40OGdORTRsRW9oLUczTmhSUllwdFg1WW9aRUdDXzEzbTdiTlo1VFlvV2ViY28zVHFOSFRmYmFVVlpFb3BsSHVwUXpNTEQ2NC1mTmFBYTJ3MzZrd3hqVFllZ2ZIdXdqelBLcUNYOWRXYTU4cWlTWEROcnJUUG9Fd0tBcFUtZWdLZ2J4YUNHTXNDSkRTV1hucGtyRTg?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T15:25:59.000Z"
+    },
+    {
+      "title": "3 PR untuk Dirut Baru PLN, Pasokan Listrik hingga Transisi Energi - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVlZLZXJyZ04yR1oyREVMTGxqZmlUVTJreFZ6ZWFtQ0ltVEx5Ykk3TVk0LUxmTTF3MUdNcDREb1hDaXZQcEU4YWQ4Y1RIS3RSb190US1RR0g3WUtUdTgxcE5NbjBWYmJjN1ZTc1BVVkQ4OU9TTmVfQ0dNVDdIT3NiN3hNNnZyN1BGRXp2bmh3MUJFelBLeG11aFBCYW13WkFBd0RqMFdmVm5LdEYzbG1qc0ZWZVlqV0U?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T12:42:01.000Z"
+    },
+    {
+      "title": "BSI (BRIS) Bakal Rights Issue Rp 3,4 Triliun, Simak Jadwal RUPSLB dan Potensi Dilusi",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZkNmMFNtRlhMRlJZaFhwcVJTTWpTMUsxenhnT1BoME0tanJ4NU1GWVV2aVVxbHVwMGVaak9vR1h1R3N5eFpfcXNJZmhMaFNuVkNVSW51SWs1X3JZclJlTnl6dnVNbkFoWXdEM1ZITTh0MkExbHBSaWY3VUY5WWw5dnkxS3JESlV0SzJ1UTZTUWNQcXVlMnVpMWxCYVZNVTJWY28yYVVwVld6akRmc1hfUGh6VWFhZ9IBrwFBVV95cUxObUd5aWFWblJUZnF1SjRESDYtcTVHcUllRGUydVl5Nzd6SDhUNWE5dEQwS0ZEVUdWRWpXQTlNU25aZWxUMjFSMmUxWTl2T3JyNFkzRUhOeWV6ZDBqU2gxby1zYmN5Ymc4dm1BeWFQRVB2NEV3MXMzM0hfa1BETEpLTUZ6SnBKMGFhNE96UU5tcHJpNjlrR3lQMzFiU3g3Y0tGVG1sNzJQYUc0bVozVmJB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T12:54:57.000Z"
+    },
+    {
+      "title": "Pakar: PLN Perlu Perkuat Jaringan Listrik untuk Dukung Transisi Energi",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVzJJT1B5SHpWTkl1RTJsRTZhTFVZVWNHRXp6OEhCU3RzSGZIOTBaTjg5VEVWS3BIRDRpd2c3aHBPRFBWUzJvWGZ3YXRBUDVDMGlPcHptbU00cGNzVlRLUVVTU2RVTG5VZjZzdEcwdExXMDVKa043N0tzVnVHTjZEUzBoeE05bGdaMW1GUmVhUHFzMFhmWWJpeXpmUzFjZjB0YUpNdW5mOS0zdXhnOHFCU1RzbFgxdkRmWWc?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T07:58:48.000Z"
+    },
+    {
+      "title": "Bos BSI Blak-Blakan Tujuan Rights Issue, Kejar Free Float Saham 15%",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTmExTk9FNXo1d2c5d2syak9nVzc2UEd3TloxbG1kNXd5QnQzYVdTSHU5WFRTanBaQzNaLW1jN2NnZjNJUHE5WlRCSDM2bFFBV0RxTWNvYmhQRG5YZ05JLVB6SXo1Sk81TzNzc09tYnZvakZhLVR2Mk9kb19pM2FsWDlMeHdiOWdFV2NIZlJmem1nc0diREt4STJSSEROU3kzRC1GSFhBcVNkTXQ1MWRoSVROb1ozd2FSTnB5M2tsckFKS2pmblHSAcsBQVVfeXFMTzZVMzhncS1FN1pNWGV2SkY3WWFzbUQ2Q21nVHFWenpxekNYaTU4MFhPRFQyRnZVbnZhUDdDNkFUS2lSc294UlJ1cm92LVdxc0VWN09YeDNyYnpwNWFuaHk2MTZBT0pNWTN0VHc0Y0dnOEtQUklabUduVlpncmtJN3BJUGZCX0Z6X29Ibk5tQVhMTFc1Zzc2VGw4VXF0bG1TQUtOdWNfdy14RDVKLWdPMm5xRUFHVlZuRE1LNUM5YWE5aHNGLXRBanFUbFk?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T11:50:14.000Z"
+    },
+    {
+      "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
+      "publisher": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHNjZE1aMG8wWVBHLW9UeG15T3RSZzdSOFR4WGN5SEtyWTI2Y1g1MWtSUFZkYUFKc2QtS01JN2lHSW82bjdqVWNjV0w1WVNMU1B2U1BLZlB6QkpLc1ZSTUE4Ry1EMzVRa3RUT1J3azFYRjZnNVpTY0c5WERPV2thSlp4MkE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T13:26:08.000Z"
+    },
+    {
+      "title": "Siapkan Rights Issue Tahap II, BSI Bidik Pembiayaan Tumbuh 16 Persen",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTEczVHZZNFV2aE43WXp6T3hxLXNyRXdBd3V2VVI0ZWk2X29JOGxCUUJyYXJFOFZkUkpEVFJJTjhDM1pJWE16RlYteDRfb2tFaWZHT0N3VEF3X204aHZXeWU1SGtaSjdFTE1IOVZXSnRtMUNEYlFHMS14WWRlU3EyLVdhRWdJWXJJS3A2ek1WM01UYVMwR0F6Um5QTFZPX3F6ejNoWGtIeXZFX0s5V2U2T3BuT2R0SGoyQnc?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T11:44:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara hosts Nobel laureates and global tech CEOs at DTIIF 2026 while CX100 award names top 100 SOEs",
+      "occurrences": 29,
+      "firstSeen": "2026-09-16",
+      "lastSeen": "2026-10-15",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: Elektrifikasi terbarukan berpotensi tekan biaya listrik dan dukung pertumbuhan ekonomi 8 persen Indonesia",
+      "occurrences": 29,
+      "firstSeen": "2026-09-16",
+      "lastSeen": "2026-10-15",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Nvidia pledges USD 250 juta ke riset keamanan AI di Inggris; OpenAI CFO ungkap rincian pengeluaran safety",
+      "occurrences": 28,
+      "firstSeen": "2026-09-16",
+      "lastSeen": "2026-10-15",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "CPI perkenalkan model perusahaan transmisi independen sebagai solusi pembiayaan jaringan listrik konstitusional",
+      "occurrences": 24,
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-10-15",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Bank penjamin utang pusat data AI mulai melepas posisi ke pasar sekunder setelah Blackstone bermasalah",
+      "occurrences": 19,
+      "firstSeen": "2026-09-16",
+      "lastSeen": "2026-10-15",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 362,
+    "poolSize": 110,
+    "generatedAt": "2026-10-15T23:17:43.549Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
