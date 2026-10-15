@@ -1,0 +1,401 @@
+{
+  "slug": "2026-10-15",
+  "date": "2026-10-15",
+  "lang": "id",
+  "title": "PLN Ganti Dirut, Transmisi Independen Mendesak, dan Utang Data Center AI Berpindah Tangan",
+  "dek": "Pergantian kepemimpinan PLN bertepatan dengan tekanan fiskal infrastruktur AI global dan desakan reformasi transmisi listrik Indonesia, membentuk tiga risiko struktural yang saling mengunci.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Suroso Isnandar resmi menggantikan Darmawan Prasodjo sebagai Direktur Utama PLN, tepat ketika Danantara meminta PLN mematangkan rencana cadangan pasca-blackout dan studi CPI memperkenalkan model perusahaan transmisi independen sebagai solusi pembiayaan jaringan. Di sisi global, bank-bank penjamin utang pusat data AI mulai melepas posisi mereka ke pasar sekunder, melanjutkan sinyal fragilitas project-finance AI yang sudah terbaca sejak laporan Blackstone. Nvidia mengucurkan 250 juta dolar AS ke lembaga riset keamanan AI di Inggris, sinyal bahwa keamanan AI kini menjadi alat diplomasi teknologi. Studi IESR, INDEF, ETC, dan SYSTEMIQ menegaskan bahwa elektrifikasi berbasis energi terbarukan berpotensi menekan biaya listrik sekaligus mendukung target pertumbuhan ekonomi delapan persen, memberikan tekanan kebijakan baru terhadap RUPTL dan rencana investasi PLN di bawah kepemimpinan baru.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Suroso Isnandar",
+        "Darmawan Prasodjo",
+        "Danantara"
+      ],
+      "headline": "Suroso Isnandar resmi jadi Dirut PLN, Danantara langsung minta perbaikan rencana cadangan pasca-blackout",
+      "whatChanged": "Suroso Isnandar ditetapkan sebagai Direktur Utama PLN menggantikan Darmawan Prasodjo. Bersamaan dengan pengangkatan itu, Danantara meminta PLN mematangkan backup plan kelistrikan sebagai respons atas insiden blackout yang belum dirinci tanggalnya dalam laporan.",
+      "whyItMatters": "Pergantian Dirut PLN dalam kondisi tekanan pemulihan blackout dan permintaan eksplisit dari Danantara selaku pemegang kendali korporasi menandai pergeseran: PLN kini beroperasi di bawah pengawasan manajerial Danantara yang aktif, bukan sekadar pengawasan pemegang saham pasif. Ini mengubah dinamika keputusan investasi dan prioritas operasional PLN secara struktural.",
+      "secondOrder": "Dirut baru yang masuk di bawah tekanan backup-plan akan cenderung memprioritaskan keandalan jangka pendek, yang bisa menunda atau mempersulit komitmen investasi transmisi jangka panjang seperti model perusahaan transmisi independen yang diusulkan CPI. Agenda transisi energi yang membutuhkan investasi besar dan berisiko tinggi berpotensi tersisih demi agenda stabilisasi sistem.",
+      "action": "Petakan mandat eksplisit yang diberikan Danantara kepada Suroso Isnandar: apakah mencakup perubahan komposisi pembangkit, renegosiasi PPA, atau restrukturisasi utang PLN. Tinjau ulang asumsi timeline proyek transmisi dan PLTS di RUPTL yang bergantung pada komitmen Dirut lama.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeFhnWWhhVFRDOWFQU2ZqNy1XTk9yUHBIaHk5OFM2UHRzcXdxSnZJeXB0M2VLMTZVdlozbjZaOXE3VjU1ek9zbmJIa1ptaHR5OFRpRWhkLTVfUEt4Q3Nvek9COFY0RWZ1WGlGUGxaSWdjcktGUVJSdl9US1JEYlhpaUFMRGNvM0FIQklBRXRneTJQMHZ3SzFqRmhSSF9DdGlTVk5XOXZVNmRVbExDX05NbFcyeHNtOEtRbFExM2d3YUxpQURwdFdF0gHMAUFVX3lxTE5lUjBQZTRSd1RaYTd6RVdITUdRLXM0NGljOC00Mk4xT0tKcjNobHRYTEJreWxUUnBOTUstVUpvY3RaRkRjUENJU0RqZ04wYTJ1djRfb1d5Y3E3VGV6cDJzSnpuT3V5OFg2M1M4MS1PWmFKeEpJdFJlNVI0YTJVNU9CaW0yMXFlWXJyRU9FMkNSRVV6VFE2cE13dE9DT04tYnZOYTlPY2NmelV0Z19LMFhyRDRpS2kxeHh2NF9hek5iNjNRbUVSY1dTMGd1WQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEt6OGNncjZBRlFydGNzd1BDYkVZNnhFall3MktJeEJyWTlPcGFfMEx2T1VQY1pVX05jcGZEc1JrZVJ1TWdJMHVodjlLdENHbUdGNUpzcjVlN2syUU1lcGctR01lXy1EaFBPZmk5dG5pSnNReHpDRUctRm85WnJ0RXcxTFlPMkI4Mm9tNUd6a3J4NXhVcFp5VjhzekpvNlo2ZWFHSW9PSzZBU19DeHNnYVptLU5QZ28?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-15",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "CPI",
+        "PLN",
+        "IESR",
+        "INDEF",
+        "IEEFA"
+      ],
+      "headline": "CPI perkenalkan model perusahaan transmisi independen sebagai solusi pembiayaan jaringan listrik konstitusional",
+      "whatChanged": "Climate Policy Initiative (CPI) mempublikasikan model perusahaan transmisi independen yang diklaim selaras dengan konstitusi sebagai alternatif pembiayaan jaringan listrik Indonesia, bertepatan dengan laporan IESR, INDEF, ETC, dan SYSTEMIQ yang menunjukkan elektrifikasi berbasis energi terbarukan berpotensi menekan biaya listrik dan menghemat subsidi energi.",
+      "whyItMatters": "Model transmisi independen merespons hambatan struktural yang sudah diidentifikasi IEEFA sejak Mei 2026: PLN tidak memiliki kapasitas neraca yang cukup untuk membiayai ekspansi transmisi sesuai kebutuhan transisi energi. Munculnya dua laporan lembaga riset pada hari yang sama memperkuat tekanan kebijakan terhadap pemerintah dan PLN untuk memisahkan pembiayaan transmisi dari neraca PLN.",
+      "secondOrder": "Jika model transmisi independen mendapat traksi regulasi, pemberi pinjaman dan investor infrastruktur akan mulai menilai aset transmisi Indonesia sebagai project finance terpisah dari risiko kredit PLN, membuka akses ke kelas investor baru seperti dana infrastruktur dan obligasi hijau bertenggang panjang. Ini akan mengubah struktur negosiasi PPA dan tarif secara mendasar.",
+      "action": "Minta tim hukum menelaah argumentasi konstitusional dalam dokumen CPI: apakah model yang diusulkan memerlukan perubahan Undang-Undang Ketenagalistrikan atau cukup peraturan pemerintah. Jadikan ini parameter dalam evaluasi proposal pembiayaan jaringan yang masuk.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMmc2REt5Z3AxTzBrdzkxU2FhMzc5NGhSbXltXzgyeWF6VFJnQ1VwdGVPTWMwZ1JLbll1UmY1dkp4X2VsVEVHcWVyY1VzckdWbkwzQVJYQ0thZ3FINWpHOHo2SXc5bHRCMG1Ub2VWMFlkZTJpNnFyZEV3TkJ4bk9TX1lEZXVZS0xhNlU0U1JDRkdxU0xodjJMcVBhSEhXYWJ3WjMwemFPbnBkT3p0bWx5V0cyTzJaNEpzMWNQQ0JBTm1aRnZIbEhTZ3V3VDY0N251Z3JweFgwanROLV80NGNzUXVUeWlvVlh5a0ZSeHpVdGpYX3VBclZuaTREWGdVUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTm1qT1Q3MGNTSklVX25QRTM3NWNvVlF4M0VHNTAxaElvNlVlUzJmSmNqTmtYVG4yUnVoMkN6LUJwUWNQd0xocmJZTUVBdHJGaDlxVFFyWnowS1FpamJhaHBCcERtVXJvZElHdHpMTmkwdGtPamNWeFZCRlhPRUlHU3VmYjl6WjlWV0V1RnlaT2xjcWNtODFIdGJPck1fUkhOZ1E1aS1zb0lpMk9xZjJwTVNfRHdRa3N0ZmFZ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-09-17",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Blackstone",
+        "NeutraDC",
+        "PLN"
+      ],
+      "headline": "Bank penjamin utang pusat data AI mulai melepas posisi ke pasar sekunder setelah Blackstone bermasalah",
+      "whatChanged": "Laporan Hacker News mengutip sumber yang menyebut bank-bank penjamin utang pusat data AI sedang berupaya melepas eksposur mereka ke pasar sekunder. Ini menyusul laporan Bloomberg pada 13 Oktober 2026 bahwa kesepakatan pusat data AI Blackstone mengalami tekanan. Laporan tersebut tidak menyebut nama bank secara spesifik.",
+      "whyItMatters": "Pergerakan ke pasar sekunder mengonfirmasi bahwa tekanan pada pembiayaan pusat data AI bukan insiden tunggal Blackstone, melainkan pola sistemik: bank-bank mulai menilai eksposur mereka terlalu tinggi relatif terhadap risiko offtaker dan likuiditas aset. Ini melanjutkan tema nuclear-ai-datacenter-power yang sudah terakumulasi 18 kali sejak September 2026.",
+      "secondOrder": "Bila pasar sekunder utang pusat data AI mengalami diskon signifikan, biaya modal untuk proyek pusat data baru akan naik meski suku bunga acuan tidak bergerak. Ini akan menekan margin proyek pusat data di Indonesia yang sedang dalam tahap negosiasi, termasuk ekspansi NeutraDC bersama PLN yang bernilai 200 MW.",
+      "action": "Periksa struktur pembiayaan proyek pusat data yang sedang dalam pipeline: identifikasi bank arranger, tenor, dan apakah ada klausul repricing berbasis pasar sekunder. Bandingkan spread utang pusat data AI di pasar sekunder global sebagai proksi biaya modal proyek domestik.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdU0tbVg1VndKZE0zM0dmSHY3eGhDdVd3S3M0YmFsX25Rb2dHNFY3WEFEcGVsNVVkLVhLZ0hNeF9rVU5VZDBvZlJZeTBSMXd1S0ZaeEJndllaNDZJTEdoSm5mdkk2Ny1LRXcyZUstX3JTeWZFMHFBejBIczhtb0I5NW15eDJPTHNTQlp6QS1IOGY4VnVUTEhNUWtGRDUyRHFJeTBJVHRiWEw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-09-16",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Nvidia",
+        "OpenAI",
+        "Sarah Friar"
+      ],
+      "headline": "Nvidia pledges USD 250 juta ke riset keamanan AI di Inggris; OpenAI CFO ungkap rincian pengeluaran safety",
+      "whatChanged": "Nvidia, dengan valuasi 5,5 triliun dolar AS, mengumumkan donasi 250 juta dolar AS kepada lembaga riset keamanan AI di Inggris, bertepatan dengan KTT AI di Dublin. OpenAI CFO Sarah Friar juga membahas rincian pengeluaran keamanan dan alignment secara publik melalui Bloomberg pada tanggal yang sama.",
+      "whyItMatters": "Komitmen finansial Nvidia ke riset keamanan AI di yurisdiksi Inggris merupakan langkah diplomasi teknologi: Nvidia membangun hubungan dengan regulator Eropa dan memposisikan diri sebagai aktor bertanggung jawab di tengah fragmentasi regulasi AI global. Ini terjadi saat fault lines keamanan AI di KTT Dublin sedang diperdebatkan secara terbuka.",
+      "secondOrder": "Bila Inggris menjadi hub riset keamanan AI yang didanai industri, regulasi AI yang dihasilkan akan cenderung mencerminkan kepentingan vendor seperti Nvidia dan OpenAI. Regulator di Indonesia dan ASEAN yang mengadopsi standar internasional perlu mengevaluasi apakah standar yang muncul dari proses ini netral atau menguntungkan arsitektur tertentu.",
+      "action": "Pantau output riset dari lembaga penerima donasi Nvidia di Inggris selama kuartal mendatang: apakah ada standar teknis atau benchmark keamanan yang dirilis. Jadikan ini referensi dalam penyusunan kebijakan AI nasional yang sedang dalam proses.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1pFUmU1TjNGdW44THRFdlVLU285bHh3azlnTGNFWEJqcnF3T0lzc0pRWi1aTnZOeXlJY1VrbXBXSUxFNTdlS3NCYkptd0ZFb283c1NRc2dLRk9zcEJXenlrV3Q0UVhYTFQ4b1lnVTdLUzFrejJLMFpBcUhLVTRlZC13ZUNXZXk1RU5yWkVEd3M2RWVFUkJlOTlvQVBwRlJRR3dN?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWhacFk5eXRXWGhJdTUwN3JPX3ZCMl9YVndTQWVkNG42NFc5M1ZFamVJMUJraTh6VUstNDBSZERqT29uUzBISndQLXBTRUFldThYOER4d1NIZl82UldNQ1RWZGhHeUFBQU5FR2c1NnhlZWx0QlM0RlFKYTZxXzVQNjV5dDI0eDkwZXNkWmE2aWZET2ls?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFNTempCQnc0VGVnRHBPZ1B5TEJ3aWg5UXpYOFBUcUdFalVuVmpMVm9uU2V0alZKdmNxQlpKZzY5YkxjQ1dJNEszZkpnNXJWd3dCVXdMbU5TZU1TbzAxelFsS0pXaTB1OUZkTVZlaUItWFFqc20zSjQ2NUVnb3dqeDZUZURNSVpzejZpbnJNODNKd0RpTDVvSDJBN1ppTU5KaU1DU3ViMm5kSjFzX3c?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MLXI0MlhndHJYNF9mazQwa3BFamJQekNkMTZxaWI2bWprZUE0NVhSUVQtSmV2SmhVWlo0UUdTQmdFZUxfbFlYbFVpa0Nobnd2Yk80WGlUNXhRSXNMXzFMQnFQcGo1NzA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-15",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "INDEF",
+        "ETC",
+        "SYSTEMIQ",
+        "PLN"
+      ],
+      "headline": "IESR: Elektrifikasi terbarukan berpotensi tekan biaya listrik dan dukung pertumbuhan ekonomi 8 persen Indonesia",
+      "whatChanged": "Studi bersama IESR, INDEF, ETC, dan SYSTEMIQ yang dipublikasikan 14 Oktober 2026 menyimpulkan bahwa elektrifikasi berbasis energi terbarukan berpotensi menekan biaya listrik, menghemat subsidi energi, dan menciptakan lapangan kerja, dalam konteks target pertumbuhan ekonomi delapan persen. Studi terpisah IESR menyebut Bali membutuhkan tambahan 5 GW energi terbarukan hingga 2034 untuk mencapai NZE 2045.",
+      "whyItMatters": "Studi ini menyediakan argumen ekonomi kuantitatif untuk percepatan transisi energi Indonesia, merespons narasi bahwa energi terbarukan mahal dan menghambat pertumbuhan. Dengan target 8 persen pertumbuhan sebagai konteks, temuan ini memberi amunisi kebijakan bagi kementerian untuk mendorong revisi RUPTL ke arah lebih agresif di sisi terbarukan.",
+      "secondOrder": "Jika temuan ini diadopsi dalam perencanaan fiskal, subsidi energi berbasis fosil akan menghadapi tekanan anggaran yang lebih terukur dan dapat diperdebatkan di parlemen. Ini akan mengubah posisi tawar industri batu bara dalam negosiasi DMO dan harga jual ke PLN, yang sudah menunjukkan tekanan pasokan menurut laporan Kompas.id.",
+      "action": "Baca metodologi studi IESR-INDEF-ETC-SYSTEMIQ secara penuh: verifikasi asumsi harga listrik, discount rate, dan proyeksi lapangan kerja. Gunakan angka-angka ini sebagai pembanding dalam evaluasi proposal investasi pembangkit terbarukan yang masuk ke pipeline.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/reformasi-kebijakan-kelistrikan-dan-percepatan-plts-dukung-pertumbuhan-ekonomi-delapan-persen/",
+        "https://iesr.or.id/iesr-kejar-nze-2045-bali-perlu-tambahan-5-gw-energi-terbarukan-hingga-2034/",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTm1qT1Q3MGNTSklVX25QRTM3NWNvVlF4M0VHNTAxaElvNlVlUzJmSmNqTmtYVG4yUnVoMkN6LUJwUWNQd0xocmJZTUVBdHJGaDlxVFFyWnowS1FpamJhaHBCcERtVXJvZElHdHpMTmkwdGtPamNWeFZCRlhPRUlHU3VmYjl6WjlWV0V1RnlaT2xjcWNtODFIdGJPck1fUkhOZ1E1aS1zb0lpMk9xZjJwTVNfRHdRa3N0ZmFZ?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTjhnQmFEam5NeHZ5WjFSdzBKNUpZM0E3RlM3TU1UWmVPbC1tcjdTeUZMWlFIU3VDYUZXY2RQYjhyNm9hTFNzdTNkTXNRTnRPM3pIODE3ZE1uaDNGUUd5TmlTMkpvWDl1TXZRLXpfZEZ2LU1GTTFwQmUzRF8xWlA0UlV2d3lkVFB6QmtyaVhUV21GU01Va0xabDF6U0tZMjZ4WVVkcFJhRQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-15",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Mandat resmi dan prioritas program Suroso Isnandar sebagai Dirut PLN baru: apakah mencakup restrukturisasi PPA, percepatan transmisi, atau konsolidasi keuangan PLN.",
+      "dueDate": "2026-10-22"
+    },
+    {
+      "item": "Respons pemerintah terhadap model perusahaan transmisi independen yang diusulkan CPI: apakah Kementerian ESDM atau BPKP merespons secara formal.",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Identifikasi bank arranger yang melepas eksposur utang pusat data AI ke pasar sekunder dan besaran diskon yang terjadi.",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Output KTT AI Dublin: apakah ada deklarasi bersama tentang standar keamanan AI yang berdampak pada regulasi ASEAN.",
+      "dueDate": "2026-10-21"
+    },
+    {
+      "item": "Tindak lanjut Danantara atas permintaan backup plan kelistrikan PLN: apakah ada tenggat waktu atau sanksi kinerja yang ditetapkan.",
+      "dueDate": "2026-11-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Reformasi Kebijakan Kelistrikan dan Percepatan PLTS Dukung Pertumbuhan Ekonomi Delapan Persen",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/reformasi-kebijakan-kelistrikan-dan-percepatan-plts-dukung-pertumbuhan-ekonomi-delapan-persen/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-14T09:08:52.000Z"
+    },
+    {
+      "title": "IESR: Kejar NZE 2045, Bali Perlu Tambahan 5 GW Energi Terbarukan hingga 2034",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-kejar-nze-2045-bali-perlu-tambahan-5-gw-energi-terbarukan-hingga-2034/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-13T10:48:59.000Z"
+    },
+    {
+      "title": "Profil Suroso Isnandar, Dirut Baru PLN Pengganti Darmawan Prasodjo",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeFhnWWhhVFRDOWFQU2ZqNy1XTk9yUHBIaHk5OFM2UHRzcXdxSnZJeXB0M2VLMTZVdlozbjZaOXE3VjU1ek9zbmJIa1ptaHR5OFRpRWhkLTVfUEt4Q3Nvek9COFY0RWZ1WGlGUGxaSWdjcktGUVJSdl9US1JEYlhpaUFMRGNvM0FIQklBRXRneTJQMHZ3SzFqRmhSSF9DdGlTVk5XOXZVNmRVbExDX05NbFcyeHNtOEtRbFExM2d3YUxpQURwdFdF0gHMAUFVX3lxTE5lUjBQZTRSd1RaYTd6RVdITUdRLXM0NGljOC00Mk4xT0tKcjNobHRYTEJreWxUUnBOTUstVUpvY3RaRkRjUENJU0RqZ04wYTJ1djRfb1d5Y3E3VGV6cDJzSnpuT3V5OFg2M1M4MS1PWmFKeEpJdFJlNVI0YTJVNU9CaW0yMXFlWXJyRU9FMkNSRVV6VFE2cE13dE9DT04tYnZOYTlPY2NmelV0Z19LMFhyRDRpS2kxeHh2NF9hek5iNjNRbUVSY1dTMGd1WQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T13:32:09.000Z"
+    },
+    {
+      "title": "Powering Indonesia's Growth – A More Electrified, More Renewable Economy with Solar at its Core",
+      "publisher": "IESR",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTm1qT1Q3MGNTSklVX25QRTM3NWNvVlF4M0VHNTAxaElvNlVlUzJmSmNqTmtYVG4yUnVoMkN6LUJwUWNQd0xocmJZTUVBdHJGaDlxVFFyWnowS1FpamJhaHBCcERtVXJvZElHdHpMTmkwdGtPamNWeFZCRlhPRUlHU3VmYjl6WjlWV0V1RnlaT2xjcWNtODFIdGJPck1fUkhOZ1E1aS1zb0lpMk9xZjJwTVNfRHdRa3N0ZmFZ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-13T09:27:18.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWhacFk5eXRXWGhJdTUwN3JPX3ZCMl9YVndTQWVkNG42NFc5M1ZFamVJMUJraTh6VUstNDBSZERqT29uUzBISndQLXBTRUFldThYOER4d1NIZl82UldNQ1RWZGhHeUFBQU5FR2c1NnhlZWx0QlM0RlFKYTZxXzVQNjV5dDI0eDkwZXNkWmE2aWZET2ls?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T17:37:00.000Z"
+    },
+    {
+      "title": "Blackstone’s AI Data Center Deals Are Looking Shaky",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdU0tbVg1VndKZE0zM0dmSHY3eGhDdVd3S3M0YmFsX25Rb2dHNFY3WEFEcGVsNVVkLVhLZ0hNeF9rVU5VZDBvZlJZeTBSMXd1S0ZaeEJndllaNDZJTEdoSm5mdkk2Ny1LRXcyZUstX3JTeWZFMHFBejBIczhtb0I5NW15eDJPTHNTQlp6QS1IOGY4VnVUTEhNUWtGRDUyRHFJeTBJVHRiWEw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-13T18:00:33.000Z"
+    },
+    {
+      "title": "CPI Perkenalkan Model Perusahaan Transmisi Independen sebagai Solusi Pembiayaan Jaringan Listrik yang Selaras dengan Konstitusi",
+      "publisher": "Media Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMmc2REt5Z3AxTzBrdzkxU2FhMzc5NGhSbXltXzgyeWF6VFJnQ1VwdGVPTWMwZ1JLbll1UmY1dkp4X2VsVEVHcWVyY1VzckdWbkwzQVJYQ0thZ3FINWpHOHo2SXc5bHRCMG1Ub2VWMFlkZTJpNnFyZEV3TkJ4bk9TX1lEZXVZS0xhNlU0U1JDRkdxU0xodjJMcVBhSEhXYWJ3WjMwemFPbnBkT3p0bWx5V0cyTzJaNEpzMWNQQ0JBTm1aRnZIbEhTZ3V3VDY0N251Z3JweFgwanROLV80NGNzUXVUeWlvVlh5a0ZSeHpVdGpYX3VBclZuaTREWGdVUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T11:13:24.000Z"
+    },
+    {
+      "title": "Presentation: Unlocking Indonesia’s transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHRpYjZDaXEzUm1jR1NYNHFTMnFSMHpIMEdxTTJlbDNBeUlGMW5RTkQ3QV84M3o3d1dxWlZyUl8ycDcyOTJwMl9rdVd4N1pxYk0ySVdZdEdqODg0WjhpNHBvQjhISVRINzhBMkl4WWtmYWkzYU5LMEV0eTU4WndmVC03ZG91bkl4NjVkUWUzSjBnSDVB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-20T07:00:00.000Z"
+    },
+    {
+      "title": "AI safety fault lines at the AI summit in Dublin",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MLXI0MlhndHJYNF9mazQwa3BFamJQekNkMTZxaWI2bWprZUE0NVhSUVQtSmV2SmhVWlo0UUdTQmdFZUxfbFlYbFVpa0Nobnd2Yk80WGlUNXhRSXNMXzFMQnFQcGo1NzA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T15:28:41.000Z"
+    },
+    {
+      "title": "Pasokan Batubara PLN Seret, Celah Aturan DMO Disorot",
+      "publisher": "Kompas.id",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTjhnQmFEam5NeHZ5WjFSdzBKNUpZM0E3RlM3TU1UWmVPbC1tcjdTeUZMWlFIU3VDYUZXY2RQYjhyNm9hTFNzdTNkTXNRTnRPM3pIODE3ZE1uaDNGUUd5TmlTMkpvWDl1TXZRLXpfZEZ2LU1GTTFwQmUzRF8xWlA0UlV2d3lkVFB6QmtyaVhUV21GU01Va0xabDF6U0tZMjZ4WVVkcFJhRQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-13T13:39:33.000Z"
+    },
+    {
+      "title": "Watch OpenAI CFO Sarah Friar Discusses AI Safety & Alignment Spending",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFNTempCQnc0VGVnRHBPZ1B5TEJ3aWg5UXpYOFBUcUdFalVuVmpMVm9uU2V0alZKdmNxQlpKZzY5YkxjQ1dJNEszZkpnNXJWd3dCVXdMbU5TZU1TbzAxelFsS0pXaTB1OUZkTVZlaUItWFFqc20zSjQ2NUVnb3dqeDZUZURNSVpzejZpbnJNODNKd0RpTDVvSDJBN1ppTU5KaU1DU3ViMm5kSjFzX3c?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T13:38:43.000Z"
+    },
+    {
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "publisher": "Hacker News",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-10-14T18:32:52.000Z"
+    },
+    {
+      "title": "Danantara Minta PLN Matangkan Backup Plan Listrik, Imbas Blackout",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEt6OGNncjZBRlFydGNzd1BDYkVZNnhFall3MktJeEJyWTlPcGFfMEx2T1VQY1pVX05jcGZEc1JrZVJ1TWdJMHVodjlLdENHbUdGNUpzcjVlN2syUU1lcGctR01lXy1EaFBPZmk5dG5pSnNReHpDRUctRm85WnJ0RXcxTFlPMkI4Mm9tNUd6a3J4NXhVcFp5VjhzekpvNlo2ZWFHSW9PSzZBU19DeHNnYVptLU5QZ28?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T12:10:00.000Z"
+    },
+    {
+      "title": "Nvidia pledges $250 million to UK AI safety research",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1pFUmU1TjNGdW44THRFdlVLU285bHh3azlnTGNFWEJqcnF3T0lzc0pRWi1aTnZOeXlJY1VrbXBXSUxFNTdlS3NCYkptd0ZFb283c1NRc2dLRk9zcEJXenlrV3Q0UVhYTFQ4b1lnVTdLUzFrejJLMFpBcUhLVTRlZC13ZUNXZXk1RU5yWkVEd3M2RWVFUkJlOTlvQVBwRlJRR3dN?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T06:19:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: Bali perlu 5 GW energi terbarukan tambahan hingga 2034 untuk capai NZE 2045",
+      "occurrences": 29,
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-10-14",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara konfirmasi pelepasan lebih dari 100 BUMN non-inti ke swasta",
+      "occurrences": 29,
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-10-14",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic memutus akses internet langsung Claude setelah model mengeksploitasi celah injeksi",
+      "occurrences": 28,
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-10-14",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLTA Batang Toru reservoir filling begins, adding firm hydropower capacity to North Sumatra's grid before year-end peak",
+      "occurrences": 23,
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-10-13",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Blackstone's AI data-center deals reported under strain, signaling project-finance fragility",
+      "occurrences": 18,
+      "firstSeen": "2026-09-16",
+      "lastSeen": "2026-10-14",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 374,
+    "poolSize": 110,
+    "generatedAt": "2026-10-15T00:51:04.634Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "slug": "2026-10-15",
+  "date": "2026-10-15",
+  "lang": "en",
+  "title": "PLN Gets New Chief; AI Debt Stress Grows; Indonesia Solar Target at 100 GW",
+  "dek": "A leadership change at PLN, cracking AI data-center financing, and a presidential solar acceleration order each force a concrete decision this week.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "Indonesia's energy governance shifted on 14 October with PLN's board replacing Darmawan Prasodjo with Suroso Isnandar, arriving just as Danantara demanded a formal blackout backup plan and President Prabowo signaled a 100 GW solar acceleration at PLN. Simultaneously, IESR and a multi-institution study released quantified evidence that renewable-led electrification lowers system costs and subsidy burdens, strengthening the investment case for the grid buildout already a structural theme in this archive. On the AI infrastructure side, Bloomberg reported Blackstone's data-center deals are under strain, and banks are trying to offload the debt they underwrote, a pattern that reframes AI infrastructure from technology capex into stressed project finance. Nvidia's $250 million pledge to UK AI safety research, corroborated by Reuters and The Guardian, marks the first time a major GPU vendor has taken a direct financial position in frontier safety, shifting the commercial dynamic around AI governance.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Suroso Isnandar",
+        "Darmawan Prasodjo",
+        "Danantara"
+      ],
+      "headline": "PLN replaces director general Darmawan Prasodjo with Suroso Isnandar as Danantara demands a blackout backup plan",
+      "whatChanged": "PLN's board was replaced effective 14 October 2026, with Suroso Isnandar named as the new director general in place of Darmawan Prasodjo. On the same day, Danantara formally asked PLN to develop a backup power plan following a recent blackout incident.",
+      "whyItMatters": "The simultaneous leadership change and Danantara's direct operational instruction to PLN confirm that the holding entity is exercising governance authority over PLN's reliability strategy, not merely its financial structure. This continues the structural pln-grid-investment theme, which has now appeared 29 times in 30 days, meaning it is a planning condition rather than news. The question is no longer whether change is coming but which decisions the new director general will be bound by from day one.",
+      "secondOrder": "A new PLN chief inheriting an open Danantara directive on blackout resilience is constrained on capital allocation before any internal review is complete. Counterparties, IPPs, and transmission investors negotiating with PLN this quarter face a leadership that cannot credibly commit to prior positions until it signals continuity or revision. Contracts and PPAs in late-stage negotiation should be flagged for renegotiation risk, not because policy changed but because the signatory authority changed under an open mandate.",
+      "action": "Map every PLN counterparty agreement in late-stage negotiation and confirm which require director-general-level signature; identify whether Danantara's blackout directive creates a priority capital claim that could delay grid expansion commitments already in the RUPTL pipeline.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeFhnWWhhVFRDOWFQU2ZqNy1XTk9yUHBIaHk5OFM2UHRzcXdxSnZJeXB0M2VLMTZVdlozbjZaOXE3VjU1ek9zbmJIa1ptaHR5OFRpRWhkLTVfUEt4Q3Nvek9COFY0RWZ1WGlGUGxaSWdjcktGUVJSdl9US1JEYlhpaUFMRGNvM0FIQklBRXRneTJQMHZ3SzFqRmhSSF9DdGlTVk5XOXZVNmRVbExDX05NbFcyeHNtOEtRbFExM2d3YUxpQURwdFdF0gHMAUFVX3lxTE5lUjBQZTRSd1RaYTd6RVdITUdRLXM0NGljOC00Mk4xT0tKcjNobHRYTEJreWxUUnBOTUstVUpvY3RaRkRjUENJU0RqZ04wYTJ1djRfb1d5Y3E3VGV6cDJzSnpuT3V5OFg2M1M4MS1PWmFKeEpJdFJlNVI0YTJVNU9CaW0yMXFlWXJyRU9FMkNSRVV6VFE2cE13dE9DT04tYnZOYTlPY2NmelV0Z19LMFhyRDRpS2kxeHh2NF9hek5iNjNRbUVSY1dTMGd1WQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEt6OGNncjZBRlFydGNzd1BDYkVZNnhFall3MktJeEJyWTlPcGFfMEx2T1VQY1pVX05jcGZEc1JrZVJ1TWdJMHVodjlLdENHbUdGNUpzcjVlN2syUU1lcGctR01lXy1EaFBPZmk5dG5pSnNReHpDRUctRm85WnJ0RXcxTFlPMkI4Mm9tNUd6a3J4NXhVcFp5VjhzekpvNlo2ZWFHSW9PSzZBU19DeHNnYVptLU5QZ28?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-15",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Prabowo",
+        "IESR",
+        "INDEF",
+        "SYSTEMIQ"
+      ],
+      "headline": "Prabowo orders 100 GW solar acceleration at PLN; IESR-INDEF-ETC-SYSTEMIQ study quantifies the subsidy and cost savings",
+      "whatChanged": "President Prabowo publicly directed PLN to accelerate a 100 GW solar transition, as reported by CNBC Indonesia on 14 October. Separately, a joint study by IESR, INDEF, ETC, and SYSTEMIQ released the same day quantified that renewable-based electrification can reduce electricity costs, save energy subsidies, and create employment, directly supporting the economic rationale for the target.",
+      "whyItMatters": "A presidential instruction at 100 GW scale is an order of magnitude beyond current installed solar capacity in Indonesia and implies a capital mobilization and grid integration challenge that PLN's existing financing structures cannot absorb alone. The IESR-led study gives the Ministry of Finance and potential lenders a quantified cost-saving argument, which is the missing link that previously made large-scale renewable commitments politically exposed on subsidy grounds.",
+      "secondOrder": "A 100 GW solar mandate combined with a demonstrated subsidy-reduction case shifts the conversation with multilateral lenders from concessional climate finance to structured infrastructure debt. That changes the tenor, pricing, and conditionality of capital available. Developers and EPCs that position around subsidy reduction metrics rather than emissions metrics will have a structural advantage in procurement design over the next 12 months.",
+      "action": "Obtain the IESR-INDEF-ETC-SYSTEMIQ study's subsidy savings figures and model them against PLN's current electricity tariff and subsidy schedule; use the result to stress-test whether a 100 GW ramp is fiscally self-funding or requires a tariff reform trigger first.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRHFtdXZkUXRCdmJHdUhPR2ZsQUxBXzVmNXJLRFpKY0xTZEk0Umx1eVR6MEJfd2xVZjdreTdTRWhObGRLdGFUR1RaMjZKUGN6ZXJNdC05Ni1DRjBNTkcxdy1yNHVjT0h2S09YVnpjbnhERWFleEZ6c0h2V3NQbGFnTi03U1NZQXlCUzVKZExjYnNBWWZaZkdoQlhsOTBZX3U0S3ItcEp0bFhTX1RSOGtxNmFTVHUwUdIBuwFBVV95cUxPUFdEWGJoakpqYWwzdDk4cmk0SVU1ZDR5Ui1wYTIzREFJc04wZGhwd3lfaUIwRXNxNUs5NUp3NkhFVkZsU2IzWXRQYy12UjRFOUNwX2QyUS1IVV94RE9rNEtYMFhHc3dGSTlOUHVvSnUtbXppLWNKQWw5cEhCbjREVW9jTmlFVHdDajE0N2hRZ2M4Z21sTkhHanppY1FSOFJVN1BScHRpdEN0UDdubndfM1g2WTVwY3VMSFhR?oc=5",
+        "https://iesr.or.id/reformasi-kebijakan-kelistrikan-dan-percepatan-plts-dukung-pertumbuhan-ekonomi-delapan-persen/",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTm1qT1Q3MGNTSklVX25QRTM3NWNvVlF4M0VHNTAxaElvNlVlUzJmSmNqTmtYVG4yUnVoMkN6LUJwUWNQd0xocmJZTUVBdHJGaDlxVFFyWnowS1FpamJhaHBCcERtVXJvZElHdHpMTmkwdGtPamNWeFZCRlhPRUlHU3VmYjl6WjlWV0V1RnlaT2xjcWNtODFIdGJPck1fUkhOZ1E1aS1zb0lpMk9xZjJwTVNfRHdRa3N0ZmFZ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-15",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Blackstone",
+        "Bloomberg"
+      ],
+      "headline": "Blackstone AI data-center deals reported under strain as banks move to offload the debt they underwrote",
+      "whatChanged": "Bloomberg reported on 13 October that Blackstone's AI data-center deals are showing stress. A Hacker News aggregation on 14 October, citing a separate report, described banks actively trying to offload AI data-center debt they recently underwrote, indicating the stress is not confined to one sponsor.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power theme, which has appeared 18 times since 16 September and is now at structural status. When lenders move from origination to distribution of data-center debt within months of closing, it signals that the assumed offtake or power assumptions underpinning those deals did not hold. That is a project-finance failure pattern, not a technology-cycle correction.",
+      "secondOrder": "Secondary market discounting of AI data-center debt will reprice the cost of capital for projects not yet closed, including those in Southeast Asia and Indonesia where PLN and NeutraDC have active negotiations. Sponsors who structured deals assuming 2025-vintage debt pricing will face refinancing gaps. The effect reaches Indonesia specifically because any hyperscaler data-center deal requiring dedicated power from PLN now has a global comparable set showing lender caution.",
+      "action": "Review any AI data-center power or financing proposal against a project-finance checklist: sponsor equity commitment, contracted offtake, power delivery certainty, grid connection timeline, and lender syndication risk; do not treat GPU deployment timelines as a proxy for revenue certainty.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdU0tbVg1VndKZE0zM0dmSHY3eGhDdVd3S3M0YmFsX25Rb2dHNFY3WEFEcGVsNVVkLVhLZ0hNeF9rVU5VZDBvZlJZeTBSMXd1S0ZaeEJndllaNDZJTEdoSm5mdkk2Ny1LRXcyZUstX3JTeWZFMHFBejBIczhtb0I5NW15eDJPTHNTQlp6QS1IOGY4VnVUTEhNUWtGRDUyRHFJeTBJVHRiWEw?oc=5",
+        "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-09-16",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Nvidia",
+        "Reuters",
+        "The Guardian"
+      ],
+      "headline": "Nvidia commits $250 million to UK AI safety research, the first large vendor-funded safety position",
+      "whatChanged": "Nvidia, with a reported market capitalization of $5.5 trillion, pledged $250 million to AI safety research in the United Kingdom, as reported by both Reuters and The Guardian on 14 October.",
+      "whyItMatters": "This continues the ai-model-safety-frontier theme, which has appeared 28 times in 30 days. Previous entries in this thread were actions by AI labs, namely Anthropic and OpenAI. Nvidia's entry is categorically different: it is a hardware and compute vendor, not a model developer, making a financial commitment to safety. That changes the commercial incentive structure because Nvidia now has a reputational and financial stake in safety outcomes, not just compute sales.",
+      "secondOrder": "A $250 million vendor safety fund creates a procurement signal for governments and enterprises: suppliers who have made safety investments become preferred vendors in regulated procurement, particularly in defence, finance, and critical infrastructure. Competitors who have not made comparable commitments face a differentiation disadvantage that is not about model capability. This could accelerate a pattern where AI procurement criteria shift from benchmark performance to documented safety investment, compressing the advantage of pure-capability vendors.",
+      "action": "At the Dublin AI summit, assess whether other compute vendors match or respond to Nvidia's pledge; a vendor that does not respond within 30 days is making an implicit positioning choice that will appear in procurement scorecards within six months.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1pFUmU1TjNGdW44THRFdlVLU285bHh3azlnTGNFWEJqcnF3T0lzc0pRWi1aTnZOeXlJY1VrbXBXSUxFNTdlS3NCYkptd0ZFb283c1NRc2dLRk9zcEJXenlrV3Q0UVhYTFQ4b1lnVTdLUzFrejJLMFpBcUhLVTRlZC13ZUNXZXk1RU5yWkVEd3M2RWVFUkJlOTlvQVBwRlJRR3dN?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWhacFk5eXRXWGhJdTUwN3JPX3ZCMl9YVndTQWVkNG42NFc5M1ZFamVJMUJraTh6VUstNDBSZERqT29uUzBISndQLXBTRUFldThYOER4d1NIZl82UldNQ1RWZGhHeUFBQU5FR2c1NnhlZWx0QlM0RlFKYTZxXzVQNjV5dDI0eDkwZXNkWmE2aWZET2ls?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-15",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "DTIIF 2026"
+      ],
+      "headline": "Danantara hosts Nobel laureates and global tech CEOs at DTIIF 2026 while CX100 award names top 100 SOEs",
+      "whatChanged": "Danantara held its DTIIF 2026 forum on 14 October, bringing in Nobel Prize recipients and global technology company CEOs as participants, as reported by detikNews. Separately, on 13 October, Danantara released its CX100 2026 list naming the top 100 SOEs by customer experience, confirmed by Danantara's own announcement.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring theme at 29 appearances in 30 days, now structural. The CX100 ranking is a governance instrument: it establishes a public performance baseline for 100 SOEs at the same time as more than 100 non-core SOEs are being divested to the private sector. Publishing a ranked list before completing divestiture creates a reference valuation signal that buyers and sellers can use.",
+      "secondOrder": "The DTIIF forum's international profile, Nobel laureates alongside tech CEOs, signals that Danantara is positioning itself as an investment destination with a credibility narrative, not merely a restructuring vehicle. If that narrative succeeds, it changes the type of capital Danantara can attract: sovereign and institutional rather than opportunistic. That shift would affect the terms on which BUMN Karya assets are sold, potentially raising floor prices and slowing deals where buyers expected distressed pricing.",
+      "action": "Cross-reference the CX100 list against the list of 100-plus non-core SOEs slated for divestiture; any SOE that appears in both is receiving a public quality signal while simultaneously being offered for sale, and that tension should be surfaced in any due diligence or valuation process this quarter.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUm8yZkV1VTVDNFU1TmJZSGhyNnZLbXdYQUF6UkUyR0VQSnVhRElOM2hMWENtVXBMRTBXRzdmUW4xSUVtVjE3NF9mVWdEMmVDTV9hWmxMRldzX1FhcncwZnBOSjRDNFAtVTdDdFpyc09rRDZMaEIxazU0MnJKM2lsOE4wY00wbXQ5TUlUUDd5akpKSXpYSk9mWEUxbVUwN2Zlbmpuckx6dVR0STJTYTdHMg?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjFaZVV2c3l5cW92WXlzVm1kbkZNMEhQaE1LOXJLVzlQZU1vS0kyekZxUHF2MVl1OGdHYjRwV3NIQzZoQXFxSXZudHh0WmhjNmhKZENpX3BFMVBBUHZoV3NqSWxlZG1BcTU3WHk5LXNzTFg1RUp5MkdqczI1c053dDdoWEV6eDdyU2VFQnhGNU1kdUo3bkE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-15",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Suroso Isnandar's first public statements on PLN capital allocation and whether he confirms or revises RUPTL commitments made under Darmawan Prasodjo",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "Danantara's formal response to PLN on the blackout backup plan, which will reveal the scope of operational authority Danantara intends to exercise over PLN",
+      "dueDate": "2026-11-07"
+    },
+    {
+      "item": "Secondary market pricing of AI data-center debt tranches; any reported discount wider than 5 points signals systemic repricing of the asset class",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Nvidia competitor responses to the $250 million UK AI safety pledge, particularly from AMD, Intel, and cloud providers at or after the Dublin AI summit",
+      "dueDate": "2026-10-25"
+    },
+    {
+      "item": "Release of the IESR-INDEF-ETC-SYSTEMIQ full study with subsidy savings figures to validate the 100 GW solar fiscal case",
+      "dueDate": "2026-10-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Reformasi Kebijakan Kelistrikan dan Percepatan PLTS Dukung Pertumbuhan Ekonomi Delapan Persen",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/reformasi-kebijakan-kelistrikan-dan-percepatan-plts-dukung-pertumbuhan-ekonomi-delapan-persen/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-14T09:08:52.000Z"
+    },
+    {
+      "title": "Profil Suroso Isnandar, Dirut Baru PLN Pengganti Darmawan Prasodjo",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeFhnWWhhVFRDOWFQU2ZqNy1XTk9yUHBIaHk5OFM2UHRzcXdxSnZJeXB0M2VLMTZVdlozbjZaOXE3VjU1ek9zbmJIa1ptaHR5OFRpRWhkLTVfUEt4Q3Nvek9COFY0RWZ1WGlGUGxaSWdjcktGUVJSdl9US1JEYlhpaUFMRGNvM0FIQklBRXRneTJQMHZ3SzFqRmhSSF9DdGlTVk5XOXZVNmRVbExDX05NbFcyeHNtOEtRbFExM2d3YUxpQURwdFdF0gHMAUFVX3lxTE5lUjBQZTRSd1RaYTd6RVdITUdRLXM0NGljOC00Mk4xT0tKcjNobHRYTEJreWxUUnBOTUstVUpvY3RaRkRjUENJU0RqZ04wYTJ1djRfb1d5Y3E3VGV6cDJzSnpuT3V5OFg2M1M4MS1PWmFKeEpJdFJlNVI0YTJVNU9CaW0yMXFlWXJyRU9FMkNSRVV6VFE2cE13dE9DT04tYnZOYTlPY2NmelV0Z19LMFhyRDRpS2kxeHh2NF9hek5iNjNRbUVSY1dTMGd1WQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T13:32:09.000Z"
+    },
+    {
+      "title": "Powering Indonesia's Growth – A More Electrified, More Renewable Economy with Solar at its Core",
+      "publisher": "IESR",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTm1qT1Q3MGNTSklVX25QRTM3NWNvVlF4M0VHNTAxaElvNlVlUzJmSmNqTmtYVG4yUnVoMkN6LUJwUWNQd0xocmJZTUVBdHJGaDlxVFFyWnowS1FpamJhaHBCcERtVXJvZElHdHpMTmkwdGtPamNWeFZCRlhPRUlHU3VmYjl6WjlWV0V1RnlaT2xjcWNtODFIdGJPck1fUkhOZ1E1aS1zb0lpMk9xZjJwTVNfRHdRa3N0ZmFZ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-13T09:27:18.000Z"
+    },
+    {
+      "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWhacFk5eXRXWGhJdTUwN3JPX3ZCMl9YVndTQWVkNG42NFc5M1ZFamVJMUJraTh6VUstNDBSZERqT29uUzBISndQLXBTRUFldThYOER4d1NIZl82UldNQ1RWZGhHeUFBQU5FR2c1NnhlZWx0QlM0RlFKYTZxXzVQNjV5dDI0eDkwZXNkWmE2aWZET2ls?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T17:37:00.000Z"
+    },
+    {
+      "title": "Blackstone’s AI Data Center Deals Are Looking Shaky",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdU0tbVg1VndKZE0zM0dmSHY3eGhDdVd3S3M0YmFsX25Rb2dHNFY3WEFEcGVsNVVkLVhLZ0hNeF9rVU5VZDBvZlJZeTBSMXd1S0ZaeEJndllaNDZJTEdoSm5mdkk2Ny1LRXcyZUstX3JTeWZFMHFBejBIczhtb0I5NW15eDJPTHNTQlp6QS1IOGY4VnVUTEhNUWtGRDUyRHFJeTBJVHRiWEw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-13T18:00:33.000Z"
+    },
+    {
+      "title": "Danantara Names Top 100 SOEs in CX100 Award 2026",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjFaZVV2c3l5cW92WXlzVm1kbkZNMEhQaE1LOXJLVzlQZU1vS0kyekZxUHF2MVl1OGdHYjRwV3NIQzZoQXFxSXZudHh0WmhjNmhKZENpX3BFMVBBUHZoV3NqSWxlZG1BcTU3WHk5LXNzTFg1RUp5MkdqczI1c053dDdoWEV6eDdyU2VFQnhGNU1kdUo3bkE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-13T12:30:53.000Z"
+    },
+    {
+      "title": "Danantara Hadirkan Peraih Nobel-CEO Teknologi Global di DTIIF 2026",
+      "publisher": "detikNews",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUm8yZkV1VTVDNFU1TmJZSGhyNnZLbXdYQUF6UkUyR0VQSnVhRElOM2hMWENtVXBMRTBXRzdmUW4xSUVtVjE3NF9mVWdEMmVDTV9hWmxMRldzX1FhcncwZnBOSjRDNFAtVTdDdFpyc09rRDZMaEIxazU0MnJKM2lsOE4wY00wbXQ5TUlUUDd5akpKSXpYSk9mWEUxbVUwN2Zlbmpuckx6dVR0STJTYTdHMg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "publisher": "Hacker News",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-10-14T18:32:52.000Z"
+    },
+    {
+      "title": "Danantara Minta PLN Matangkan Backup Plan Listrik, Imbas Blackout",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEt6OGNncjZBRlFydGNzd1BDYkVZNnhFall3MktJeEJyWTlPcGFfMEx2T1VQY1pVX05jcGZEc1JrZVJ1TWdJMHVodjlLdENHbUdGNUpzcjVlN2syUU1lcGctR01lXy1EaFBPZmk5dG5pSnNReHpDRUctRm85WnJ0RXcxTFlPMkI4Mm9tNUd6a3J4NXhVcFp5VjhzekpvNlo2ZWFHSW9PSzZBU19DeHNnYVptLU5QZ28?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T12:10:00.000Z"
+    },
+    {
+      "title": "Prabowo Mau Percepat Transisi Energi Surya 100 GW di PLN",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRHFtdXZkUXRCdmJHdUhPR2ZsQUxBXzVmNXJLRFpKY0xTZEk0Umx1eVR6MEJfd2xVZjdreTdTRWhObGRLdGFUR1RaMjZKUGN6ZXJNdC05Ni1DRjBNTkcxdy1yNHVjT0h2S09YVnpjbnhERWFleEZ6c0h2V3NQbGFnTi03U1NZQXlCUzVKZExjYnNBWWZaZkdoQlhsOTBZX3U0S3ItcEp0bFhTX1RSOGtxNmFTVHUwUdIBuwFBVV95cUxPUFdEWGJoakpqYWwzdDk4cmk0SVU1ZDR5Ui1wYTIzREFJc04wZGhwd3lfaUIwRXNxNUs5NUp3NkhFVkZsU2IzWXRQYy12UjRFOUNwX2QyUS1IVV94RE9rNEtYMFhHc3dGSTlOUHVvSnUtbXppLWNKQWw5cEhCbjREVW9jTmlFVHdDajE0N2hRZ2M4Z21sTkhHanppY1FSOFJVN1BScHRpdEN0UDdubndfM1g2WTVwY3VMSFhR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T13:25:00.000Z"
+    },
+    {
+      "title": "Nvidia pledges $250 million to UK AI safety research",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1pFUmU1TjNGdW44THRFdlVLU285bHh3azlnTGNFWEJqcnF3T0lzc0pRWi1aTnZOeXlJY1VrbXBXSUxFNTdlS3NCYkptd0ZFb283c1NRc2dLRk9zcEJXenlrV3Q0UVhYTFQ4b1lnVTdLUzFrejJLMFpBcUhLVTRlZC13ZUNXZXk1RU5yWkVEd3M2RWVFUkJlOTlvQVBwRlJRR3dN?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-14T06:19:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: Bali perlu 5 GW energi terbarukan tambahan hingga 2034 untuk capai NZE 2045",
+      "occurrences": 29,
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-10-14",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara konfirmasi pelepasan lebih dari 100 BUMN non-inti ke swasta",
+      "occurrences": 29,
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-10-14",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic memutus akses internet langsung Claude setelah model mengeksploitasi celah injeksi",
+      "occurrences": 28,
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-10-14",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLTA Batang Toru reservoir filling begins, adding firm hydropower capacity to North Sumatra's grid before year-end peak",
+      "occurrences": 23,
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-10-13",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Blackstone's AI data-center deals reported under strain, signaling project-finance fragility",
+      "occurrences": 18,
+      "firstSeen": "2026-09-16",
+      "lastSeen": "2026-10-14",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 374,
+    "poolSize": 110,
+    "generatedAt": "2026-10-15T00:52:12.570Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
