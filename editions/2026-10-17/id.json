@@ -1,0 +1,395 @@
+{
+  "slug": "2026-10-17",
+  "date": "2026-10-17",
+  "lang": "id",
+  "title": "PLN 700+ Proyek & PPh 0% BUMN Tersandera Aturan, Beam 501B Masuk Pasar",
+  "dek": "Dua hambatan struktural Indonesia (transmisi PLN dan insentif pajak restrukturisasi BUMN) bertemu dengan gelombang model frontier baru yang mengubah kalkulasi infrastruktur AI global.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "Suroso Isnandar mewarisi lebih dari 700 proyek pembangkit yang menunggu eksekusi di PLN, sementara IESR dan Bloomberg Technoz menegaskan transmisi tetap botol leher terbesar. Insentif PPh 0% untuk restrukturisasi BUMN, yang seharusnya menjadi katalis konsolidasi Danantara, masih tersandera dua regulasi turunan yang belum terbit (PP dan PMK), sehingga seluruh jadwal restrukturisasi berisiko molor. Di sisi AI, Reflection AI meluncurkan Beam 501B sebagai model frontier open-weight dengan fokus coding dan agentic, memperluas persaingan di segmen yang sebelumnya didominasi model tertutup. Anthropic secara diam-diam mengajukan rancangan undang-undang keamanan AI kepada legislator AS, sinyal bahwa frontier lab kini berupaya membentuk regulasi sebelum regulasi membentuk mereka. BSI (BRIS) mengonfirmasi rights issue Rp 3,4 triliun untuk memenuhi free float 15%, melanjutkan agenda rekapitalisasi BUMN perbankan di bawah payung Danantara.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "Suroso Isnandar",
+        "IESR",
+        "Bloomberg Technoz"
+      ],
+      "headline": "Suroso Isnandar mewarisi 700+ proyek pembangkit PLN, transmisi jadi agenda mendesak",
+      "whatChanged": "Bisnis.com melaporkan Suroso Isnandar, yang resmi menjabat Direktur Utama PLN per 14 Oktober 2026, menghadapi antrean lebih dari 700 proyek pembangkit yang belum dieksekusi. IESR dalam rilis 15 Oktober 2026 menetapkan tiga agenda mendesak: transformasi bisnis, penguatan transmisi, dan percepatan energi terbarukan. Bloomberg Technoz pada 16 Oktober 2026 menambahkan desakan khusus agar Suroso memprioritaskan transmisi sebagai prasyarat listrik terjangkau.",
+      "whyItMatters": "Tema pln-transmisi-investasi kini berstatus structural (25 kemunculan sejak 17 September 2026). Pergantian dirut tidak mengubah fundamental: kapasitas pembangkit yang tumbuh tanpa transmisi yang setara menghasilkan curtailment dan biaya take-or-pay yang ditanggung konsumen. Dengan 700+ proyek mengantre, risiko bottleneck transmisi berpotensi meningkat secara non-linear karena setiap pembangkit baru yang terhubung menambah beban pada jaringan yang sudah ketat.",
+      "secondOrder": "Investor energi terbarukan yang sudah menandatangani PPA dengan PLN menghadapi risiko keterlambatan sinkronisasi jika transmisi tidak diprioritaskan sebelum pembangkit selesai. Keterlambatan ini dapat memicu klaim force majeure atau renegosiasi tarif, yang pada gilirannya menaikkan persepsi risiko proyek energi Indonesia di mata pemberi pinjaman multilateral, tepat ketika ASEAN sedang meminta dukungan World Bank untuk menutup gap pembiayaan transisi energi.",
+      "action": "Petakan 700+ proyek pembangkit berdasarkan kesiapan transmisi: identifikasi proyek mana yang sudah memiliki jalur transmisi tersedia versus yang masih bergantung pada infrastruktur baru. Proyek tanpa kepastian transmisi harus diperlakukan sebagai pipeline berisiko tinggi, bukan backlog produktif.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmltSlFNLWRKQ18xWU56cTJGXzN4aEtEWFJnNVFOaVRoNnEtVU1NaGZwbWlOV3lPMHZ4UkZWWXo3TTV1ZGRmdld4cF9jQWg4TER1WDh5SVVEYUdnaTRiNjNZLVZSdDBlemx4a1hjTzNlN0E4dmNON1VTS0JYdVU0dG9LOTNhb1p0Z3U0TzJuYm1mMy12R1JXSjRYcmt6VE1tQ3N4ODVISnAwVEprNW9kSlM5aUEtQmNzTG04?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2E3dmNzazNOOFhyejFPdjhKdEhTemVhQ3I4VlF1ZVBBQ1V4akxwM0NldEFEV21DS2Q2VFRQVVFQRUxXbVRRa2ViSG04MVZwVE1nYU14bDY2Uml2SkhNZWh5dFNJWWkwVS1IZF9JZXNuX2NLaDJFT1dOSjloMi1Sd0lDdGloWTdCOXVXeDlOMU5xN0FFQ0E4YUMzUDNyY2xRUERvVy1VMWtfZVR5Nm9meVFVblBnVXM?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://www.eco-business.com/news/asean-turns-to-world-bank-to-close-clean-energy-climate-adaptation-financing-gaps/"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-09-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "DJP",
+        "Kementerian Keuangan"
+      ],
+      "headline": "PPh 0% restrukturisasi BUMN tersandera PP dan PMK yang belum terbit",
+      "whatChanged": "Direktorat Jenderal Pajak (DJP), dalam pernyataan yang dikutip ANTARA (15 Oktober 2026) dan dikonfirmasi CNBC Indonesia serta Kompas.com (16 Oktober 2026), menegaskan bahwa insentif PPh final 0% untuk restrukturisasi BUMN belum berlaku karena dua regulasi turunan, yaitu Peraturan Pemerintah (PP) dan Peraturan Menteri Keuangan (PMK), belum diterbitkan. Bloomberg Technoz melaporkan DJP masih dalam posisi menunggu kedua aturan tersebut.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring berstatus structural (29 kemunculan sejak 17 September 2026). Insentif PPh 0% adalah instrumen fiskal yang dirancang untuk menghilangkan hambatan pajak dalam merger dan konsolidasi BUMN di bawah Danantara. Tanpa PP dan PMK, transaksi restrukturisasi yang sudah direncanakan menghadapi beban pajak penuh, sehingga jadwal konsolidasi seluruh portofolio Danantara terancam mundur.",
+      "secondOrder": "Keterlambatan regulasi turunan menciptakan ketidakpastian bagi BUMN yang sudah memulai proses due diligence untuk merger. Biaya advisory dan legal yang sudah dikeluarkan menjadi sunk cost jika transaksi ditunda. Lebih jauh, kreditor dan investor obligasi BUMN yang mengantisipasi neraca yang lebih kuat pasca-konsolidasi perlu menyesuaikan proyeksi timeline mereka, yang dapat mempengaruhi harga obligasi BUMN di pasar sekunder.",
+      "action": "Verifikasi dari Kementerian Keuangan dan Sekretariat Kabinet apakah jadwal penerbitan PP dan PMK sudah ditetapkan. Tunda keputusan investasi berbasis asumsi insentif PPh 0% sampai kedua regulasi terbit dan berlaku efektif.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Reflection AI",
+        "Hugging Face",
+        "Transformers"
+      ],
+      "headline": "Beam 501B dari Reflection AI masuk Hugging Face sebagai frontier open-weight untuk coding",
+      "whatChanged": "Hugging Face merilis model Beam dari Reflection AI melalui pembaruan Transformers v5.20.1 pada 16 Oktober 2026. Beam adalah model 501 miliar parameter, open-weight, dengan fokus pada coding dan agentic use cases. Model ini dideskripsikan sebagai frontier-scale dan token-efficient, tersedia untuk dimiliki, dikustomisasi, dan di-deploy secara mandiri.",
+      "whyItMatters": "Tema ai-model-safety-frontier berstatus structural (28 kemunculan sejak 17 September 2026). Beam menambah tekanan kompetitif pada segmen model coding frontier yang sebelumnya dikuasai model tertutup. Ketersediaan bobot terbuka pada skala 501B memungkinkan enterprise dan pemerintah menjalankan kemampuan frontier tanpa ketergantungan pada API pihak ketiga, mengubah kalkulasi make-vs-buy untuk deployment AI skala besar.",
+      "secondOrder": "Model open-weight frontier pada skala ini menggeser daya tawar ke sisi pengguna: operator pusat data dan cloud provider yang sebelumnya menjual akses ke model tertutup kini bersaing dengan infrastruktur yang bisa dijalankan sendiri oleh klien. Ini menekan margin inference-as-a-service dan mendorong kompetisi ke lapisan diferensiasi lain seperti latensi, keamanan data, dan fine-tuning vertikal.",
+      "action": "Evaluasi apakah roadmap AI internal organisasi yang saat ini bergantung pada API model tertutup untuk coding dan agentic tasks perlu ditinjau ulang mengingat ketersediaan Beam 501B sebagai alternatif on-premise. Bandingkan total cost of ownership antara API subscription dan self-hosted deployment pada beban kerja spesifik.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://huggingface.co/blog/reflection-beam",
+        "https://github.com/huggingface/transformers/releases/tag/v5.20.1"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Reuters",
+        "Bloomberg"
+      ],
+      "headline": "Anthropic diam-diam ajukan rancangan UU keamanan AI ke legislator AS",
+      "whatChanged": "Reuters dan Bloomberg melaporkan pada 16 Oktober 2026 bahwa Anthropic secara diam-diam (quietly) mengajukan draf rancangan undang-undang keamanan AI kepada legislator AS, sebagaimana dilaporkan Politico. Ini adalah inisiatif langsung dari lab AI kepada pembuat undang-undang, bukan respons terhadap regulasi yang sudah ada.",
+      "whyItMatters": "Langkah ini menunjukkan frontier lab beralih dari posisi reaktif menjadi aktor legislatif aktif. Dengan mengajukan draf sendiri, Anthropic berupaya membingkai parameter regulasi sebelum Kongres atau regulator menetapkannya secara sepihak. Ini menciptakan preseden di mana perusahaan AI terbesar memiliki pengaruh langsung pada arsitektur hukum yang mengatur mereka.",
+      "secondOrder": "Jika draf Anthropic menjadi referensi legislasi, persyaratan teknis yang sesuai dengan kapabilitas Anthropic saat ini (misalnya standar evaluasi keamanan, persyaratan audit) dapat menjadi barrier to entry yang efektif bagi pesaing yang lebih kecil atau open-source. Regulator Indonesia dan ASEAN yang sedang merancang kerangka tata kelola AI perlu memantau preseden AS ini karena regulasi AS cenderung menjadi template global.",
+      "action": "Pantau perkembangan draf undang-undang ini melalui jalur Politico dan Congressional Record. Identifikasi apakah definisi teknis dalam draf (seperti threshold parameter model atau standar red-teaming) akan mempengaruhi pengadaan AI oleh lembaga pemerintah Indonesia yang mengacu pada standar internasional.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOGgzckNkaE5BdjZxdVMta2hsdVczMHFrZ2U4aFgzY2VsLVF5VEFpd1FMQVc1V084YTZQU0IyMkdWbXZTbEtpdlhFWHR2SUI1SDdsczFmeERfNHhfOXRpR2NLTVhjRWF4YWNYaDBPWXJDSXpqLUgtSERBY1lHejU3MTl0T2pPMzlKRDlsdmFNM3kwQk1YSFlyMnpDN1FSVG0xM2xqNTZrbnNxQTVkT3drcVJSVm0zNFlYOUstZzlDYldrc1p5OWJR?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcENENWdpRlloLVpNclIyQWpIM3JSV3VHZklqOWZlQ0NJYnB2TWg2ZlhPMndNbS1qM2pWM0dTTVFZQ2l1SmxTT1h3VjZJNVpXTWhZTHRnLThqYm9UeFJ4ZEp0U3JROG1sUFJrN3Z6SEFKN2tPcU5teHZ6cU9JUDh4X1laZVZJMkZNNXNSZnJlZDdOX0dFMlM5REZCSGRHR3AydkdCbUY3RU9zYTRoNzdz?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BSI",
+        "BRIS",
+        "BEI"
+      ],
+      "headline": "BSI konfirmasi rights issue Rp 3,4 triliun untuk penuhi free float 15%",
+      "whatChanged": "Manajemen BSI (BRIS) mengonfirmasi rencana rights issue sebesar Rp 3,4 triliun melalui penerbitan 6,8 miliar saham baru guna memenuhi ketentuan free float minimum 15% yang ditetapkan BEI. RUPSLB dijadwalkan dalam waktu dekat. CNBC Indonesia dan Kontan melaporkan detail ini pada 15-16 Oktober 2026.",
+      "whyItMatters": "BSI adalah BUMN perbankan syariah terbesar Indonesia dan masuk dalam portofolio Danantara. Rights issue ini bukan semata pemenuhan regulasi bursa: tambahan modal Rp 3,4 triliun memperkuat kapasitas pembiayaan BSI untuk segmen yang menjadi prioritas Danantara, termasuk infrastruktur dan proyek strategis. Ini melanjutkan pola rekapitalisasi BUMN perbankan yang telah berjalan dalam tema structural danantara-bumn-karya-restructuring.",
+      "secondOrder": "Dilusi kepemilikan pemerintah (melalui Danantara) dari rights issue ini perlu dicermati: jika pemerintah tidak ikut serta secara proporsional, porsi kepemilikan publik naik dan pengaruh Danantara atas kebijakan BSI berkurang. Di sisi lain, jika rights issue diserap pasar dengan baik, ini menjadi sinyal positif bagi rencana rights issue BUMN lain yang masih dalam pipeline Danantara.",
+      "action": "Analisis struktur rights issue BSI: verifikasi apakah Danantara atau pemegang saham pemerintah lainnya berencana mengikuti rights issue secara proporsional atau akan menerima dilusi. Keputusan ini menentukan arah tata kelola BSI pasca-rights issue dan relevan bagi investor obligasi BSI yang memantau perubahan komposisi pemegang saham pengendali.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxONE5WUFA1bW1mODVTRWM3TGxGcUE0aTFhNzBNZGdEaUY3QTAzWkl2OTdmVlB3dnM4bGVmU3NDUEJDSGVyWXBRaEZJUHkyUG9DaEdFbWVQYzdoaFZ3M2t0V3VnT2xkVzhTN09yeEFmMVp3NG5fVTBjMGJmclZ6c2hsSmYzLVMweVpsOHRidHRCWHJnckNRM1E3LTZEMzdoT3I4cXdrVNIBqgFBVV95cUxNZDFkYlVHaGItMlppLWgzNmd2VEFWM1VmV2ZUdWtkc3BzdkpsNnJHb1NfZ0JTVERKN0h5a01Obl9yVGoycURaWFRnNHZQN0lnSlVocFAwV3RTdTZwdE9iLWhZckF6S2tRRGVOVHhyOWVueTh4cWNhSWluWU95cDg5ZnhYSy1wY2tqaERYRDRXcWQ2M0RUSEExOFZnSHlvcGpVbE1maGxvQnJyZw?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdlB3M1RMSTJlQVROYy1xTDAtc1pUbWJUY0dmU2k0eW9uVmlURzVvOHB6RkE1MjJuYW5EMVlXZ3VWSzFpVUllVDJMNnEwSjF4UEY1SWxwZnJWQnVpT2ZDQ2x2bUVjdGFqU1BmRHFveHJTdWJMUFhaMC1DVTdES0hiMTRGT0pxVGhqN1llTk85bDVjaTAxYUcycDZtNmxCSHhwd3dwRTA0MnI1WmlNNlF4bdIBqgFBVV95cUxQSnFPRTE0UW52SHZyQVE1a29UQUotaVJwdi1BT01iZWxGTm1nZEt4b0JLU202R285Z3pDMzlSWnBDT19ZQk5QdFF2MnZTemNNeXUxa1FRbWEtNExWWlpLM1JQMzJzM250NjVZWV8waU52ZlhxdDJYWTNHeVFDdnlMVEE0QjhIMGhnLWFyYk5IZTBVN1JaQW40R000OWhwVkdNTjNBamZVMnJCQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZkNmMFNtRlhMRlJZaFhwcVJTTWpTMUsxenhnT1BoME0tanJ4NU1GWVV2aVVxbHVwMGVaak9vR1h1R3N5eFpfcXNJZmhMaFNuVkNVSW51SWs1X3JZclJlTnl6dnVNbkFoWXdEM1ZITTh0MkExbHBSaWY3VUY5WWw5dnkxS3JESlV0SzJ1UTZTUWNQcXVlMnVpMWxCYVZNVTJWY28yYVVwVld6akRmc1hfUGh6VWFhZ9IBrwFBVV95cUxObUd5aWFWblJUZnF1SjRESDYtcTVHcUllRGUydVl5Nzd6SDhUNWE5dEQwS0ZEVUdWRWpXQTlNU25aZWxUMjFSMmUxWTl2T3JyNFkzRUhOeWV6ZDBqU2gxby1zYmN5Ymc4dm1BeWFQRVB2NEV3MXMzM0hfa1BETEpLTUZ6SnBKMGFhNE96UU5tcHJpNjlrR3lQMzFiU3g3Y0tGVG1sNzJQYUc0bVozVmJB?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-17",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Penerbitan PP dan PMK tentang PPh final 0% restrukturisasi BUMN: tanpa kedua regulasi ini, seluruh jadwal konsolidasi Danantara berisiko molor.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "RUPSLB BSI (BRIS) untuk menyetujui rights issue Rp 3,4 triliun: pantau apakah Danantara ikut serta proporsional atau menerima dilusi.",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Agenda 100 hari Suroso Isnandar di PLN: apakah transmisi atau 700+ proyek pembangkit yang mendapat prioritas anggaran pertama.",
+      "dueDate": "2027-01-22"
+    },
+    {
+      "item": "Perkembangan draf UU keamanan AI Anthropic di Kongres AS: apakah draf mendapat co-sponsor atau dijadikan referensi komite legislatif.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Adopsi Beam 501B oleh enterprise atau pemerintah sebagai alternatif self-hosted untuk model coding frontier: pantau benchmark independen dan laporan deployment awal.",
+      "dueDate": "2026-11-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "publisher": "Hugging Face",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "title": "DJP Tunggu PP & PMK soal PPh 0% untuk Restrukturisasi BUMN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T04:40:00.000Z"
+    },
+    {
+      "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOGgzckNkaE5BdjZxdVMta2hsdVczMHFrZ2U4aFgzY2VsLVF5VEFpd1FMQVc1V084YTZQU0IyMkdWbXZTbEtpdlhFWHR2SUI1SDdsczFmeERfNHhfOXRpR2NLTVhjRWF4YWNYaDBPWXJDSXpqLUgtSERBY1lHejU3MTl0T2pPMzlKRDlsdmFNM3kwQk1YSFlyMnpDN1FSVG0xM2xqNTZrbnNxQTVkT3drcVJSVm0zNFlYOUstZzlDYldrc1p5OWJR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T23:23:52.000Z"
+    },
+    {
+      "title": "BRIS Mau Gelar RUPSLB, Bahas Rights Issue",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONE5WUFA1bW1mODVTRWM3TGxGcUE0aTFhNzBNZGdEaUY3QTAzWkl2OTdmVlB3dnM4bGVmU3NDUEJDSGVyWXBRaEZJUHkyUG9DaEdFbWVQYzdoaFZ3M2t0V3VnT2xkVzhTN09yeEFmMVp3NG5fVTBjMGJmclZ6c2hsSmYzLVMweVpsOHRidHRCWHJnckNRM1E3LTZEMzdoT3I4cXdrVNIBqgFBVV95cUxNZDFkYlVHaGItMlppLWgzNmd2VEFWM1VmV2ZUdWtkc3BzdkpsNnJHb1NfZ0JTVERKN0h5a01Obl9yVGoycURaWFRnNHZQN0lnSlVocFAwV3RTdTZwdE9iLWhZckF6S2tRRGVOVHhyOWVueTh4cWNhSWluWU95cDg5ZnhYSy1wY2tqaERYRDRXcWQ2M0RUSEExOFZnSHlvcGpVbE1maGxvQnJyZw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T11:26:44.000Z"
+    },
+    {
+      "title": "Asean turns to World Bank to close clean energy, climate adaptation financing gaps",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/asean-turns-to-world-bank-to-close-clean-energy-climate-adaptation-financing-gaps/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-16T03:58:00.000Z"
+    },
+    {
+      "title": "Release v5.20.1",
+      "publisher": "Transformers",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-10-16T13:02:29.000Z"
+    },
+    {
+      "title": "Suroso Pimpin PLN, Lebih dari 700 Proyek Pembangkit Menanti Eksekusi - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmltSlFNLWRKQ18xWU56cTJGXzN4aEtEWFJnNVFOaVRoNnEtVU1NaGZwbWlOV3lPMHZ4UkZWWXo3TTV1ZGRmdld4cF9jQWg4TER1WDh5SVVEYUdnaTRiNjNZLVZSdDBlemx4a1hjTzNlN0E4dmNON1VTS0JYdVU0dG9LOTNhb1p0Z3U0TzJuYm1mMy12R1JXSjRYcmt6VE1tQ3N4ODVISnAwVEprNW9kSlM5aUEtQmNzTG04?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T05:57:39.000Z"
+    },
+    {
+      "title": "Insentif PPh 0% Restrukturisasi BUMN Masih Tunggu 2 Aturan Ini",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T01:10:06.000Z"
+    },
+    {
+      "title": "Anthropic Pitches AI Safety Bill to Lawmakers, Politico Says",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcENENWdpRlloLVpNclIyQWpIM3JSV3VHZklqOWZlQ0NJYnB2TWg2ZlhPMndNbS1qM2pWM0dTTVFZQ2l1SmxTT1h3VjZJNVpXTWhZTHRnLThqYm9UeFJ4ZEp0U3JROG1sUFJrN3Z6SEFKN2tPcU5teHZ6cU9JUDh4X1laZVZJMkZNNXNSZnJlZDdOX0dFMlM5REZCSGRHR3AydkdCbUY3RU9zYTRoNzdz?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T23:16:18.000Z"
+    },
+    {
+      "title": "Bos BSI (BRIS) Buka Suara Soal Rights Issue 6,8 Miliar Saham, Penuhi Free Float 15%",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdlB3M1RMSTJlQVROYy1xTDAtc1pUbWJUY0dmU2k0eW9uVmlURzVvOHB6RkE1MjJuYW5EMVlXZ3VWSzFpVUllVDJMNnEwSjF4UEY1SWxwZnJWQnVpT2ZDQ2x2bUVjdGFqU1BmRHFveHJTdWJMUFhaMC1DVTdES0hiMTRGT0pxVGhqN1llTk85bDVjaTAxYUcycDZtNmxCSHhwd3dwRTA0MnI1WmlNNlF4bdIBqgFBVV95cUxQSnFPRTE0UW52SHZyQVE1a29UQUotaVJwdi1BT01iZWxGTm1nZEt4b0JLU202R285Z3pDMzlSWnBDT19ZQk5QdFF2MnZTemNNeXUxa1FRbWEtNExWWlpLM1JQMzJzM250NjVZWV8waU52ZlhxdDJYWTNHeVFDdnlMVEE0QjhIMGhnLWFyYk5IZTBVN1JaQW40R000OWhwVkdNTjNBamZVMnJCQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T08:43:22.000Z"
+    },
+    {
+      "title": "Dirut Baru PLN Didesak Perkuat Transmisi Agar Listrik Terjangkau",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2E3dmNzazNOOFhyejFPdjhKdEhTemVhQ3I4VlF1ZVBBQ1V4akxwM0NldEFEV21DS2Q2VFRQVVFQRUxXbVRRa2ViSG04MVZwVE1nYU14bDY2Uml2SkhNZWh5dFNJWWkwVS1IZF9JZXNuX2NLaDJFT1dOSjloMi1Sd0lDdGloWTdCOXVXeDlOMU5xN0FFQ0E4YUMzUDNyY2xRUERvVy1VMWtfZVR5Nm9meVFVblBnVXM?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T04:50:00.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bisa Kena PPh 0 Persen, tetapi Aturannya Belum Final",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T23:32:00.000Z"
+    },
+    {
+      "title": "DJP sebut aturan PPh final 0 persen restrukturisasi BUMN belum final",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T15:48:06.000Z"
+    },
+    {
+      "title": "BSI (BRIS) Bakal Rights Issue Rp 3,4 Triliun, Simak Jadwal RUPSLB dan Potensi Dilusi",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZkNmMFNtRlhMRlJZaFhwcVJTTWpTMUsxenhnT1BoME0tanJ4NU1GWVV2aVVxbHVwMGVaak9vR1h1R3N5eFpfcXNJZmhMaFNuVkNVSW51SWs1X3JZclJlTnl6dnVNbkFoWXdEM1ZITTh0MkExbHBSaWY3VUY5WWw5dnkxS3JESlV0SzJ1UTZTUWNQcXVlMnVpMWxCYVZNVTJWY28yYVVwVld6akRmc1hfUGh6VWFhZ9IBrwFBVV95cUxObUd5aWFWblJUZnF1SjRESDYtcTVHcUllRGUydVl5Nzd6SDhUNWE5dEQwS0ZEVUdWRWpXQTlNU25aZWxUMjFSMmUxWTl2T3JyNFkzRUhOeWV6ZDBqU2gxby1zYmN5Ymc4dm1BeWFQRVB2NEV3MXMzM0hfa1BETEpLTUZ6SnBKMGFhNE96UU5tcHJpNjlrR3lQMzFiU3g3Y0tGVG1sNzJQYUc0bVozVmJB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T12:54:57.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Suroso Isnandar jadi Dirut PLN; IESR tetapkan tiga agenda mendesak yang harus diselesaikan",
+      "occurrences": 29,
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-10-16",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BSI siapkan rights issue Rp 3,4 triliun untuk penuhi free float 15% dan perkuat pembiayaan",
+      "occurrences": 29,
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-10-16",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Meta rilis Muse Spark Open 816B parameter dengan bobot terbuka, standar model multimodal bergeser",
+      "occurrences": 28,
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-10-16",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "China Huadian connects world's first 100 MW / 1,000 MWh compressed-CO2 storage plant to the grid in Xinjiang",
+      "occurrences": 25,
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-10-16",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Investor buang obligasi pusat data AI saat pasar uji kelayakan kredit proyek tanpa offtaker solid",
+      "occurrences": 19,
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-10-16",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 396,
+    "poolSize": 110,
+    "generatedAt": "2026-10-17T01:17:24.553Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
