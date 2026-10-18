@@ -1,0 +1,392 @@
+{
+  "slug": "2026-10-19",
+  "date": "2026-10-19",
+  "lang": "id",
+  "title": "Aturan PPh 0% BUMN Belum Final, Microsoft Mundur dari Nscale, Pasar Uji Obligasi Data Center",
+  "dek": "Tiga sinyal hari ini menunjukkan bahwa hambatan regulasi, retret modal besar, dan tekanan pasar kredit sedang memperlambat eksekusi di tiga domain sekaligus.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Insentif PPh 0% untuk restrukturisasi BUMN belum bisa dioperasikan karena PP dan PMK pendukung belum terbit, sehingga jadwal konsolidasi Danantara tertahan di meja hukum. Di domain AI, Microsoft menarik diri dari kesepakatan pusat data dengan Nscale di Inggris, sehari setelah Financial Times melaporkan investor membuang obligasi pusat data AI karena absennya offtake yang kredibel. Keduanya memperkuat tema ai-datacenter-project-finance yang sudah 19 kali muncul dalam 30 hari terakhir: pasar kini memisahkan proyek berkapasitas offtaker dari yang tidak. Di sisi energi domestik, PLN di bawah Dirut baru Suroso Isnandar mewarisi lebih dari 700 proyek pembangkit yang menunggu eksekusi, sementara IESR menuntut transformasi bisnis yang nyata. Danantara mengamankan 34 lembaga keuangan sebagai lenders panel untuk program PSEL, sinyal bahwa Danantara mulai membangun pipeline pembiayaan proyek infrastruktur meskipun payung regulasi restrukturisasi BUMN belum lengkap.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring-delay",
+      "entities": [
+        "Direktorat Jenderal Pajak"
+      ],
+      "headline": "Insentif PPh 0% restrukturisasi BUMN tertahan: PP dan PMK belum terbit",
+      "whatChanged": "Direktorat Jenderal Pajak menyatakan aturan pelaksana insentif PPh final 0% untuk restrukturisasi BUMN, yaitu Peraturan Pemerintah dan Peraturan Menteri Keuangan, belum ditetapkan. Tanpa kedua regulasi itu, transaksi pengalihan aset antar-BUMN dalam kerangka Danantara tidak dapat memanfaatkan fasilitas pajak yang sudah dijanjikan secara politis.",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring-delay yang telah berjalan 29 kali sejak 19 September 2026. Keterlambatan regulasi teknis mengunci seluruh agenda konsolidasi: perusahaan yang hendak merger atau mengalihkan aset harus menghitung eksposur pajak penuh, sehingga valuasi dan timeline tidak bisa dikunci. Implikasi akumulatifnya adalah bahwa proses yang semula dipresentasikan sebagai reforma strategis kini beroperasi tanpa kepastian biaya transaksi.",
+      "secondOrder": "Ketidakpastian pajak mendorong BUMN untuk menunda pengikatan perjanjian restrukturisasi hingga PP dan PMK terbit. Penundaan ini memberi ruang bagi kreditur dan mitra strategis untuk merevisi syarat atau menarik diri, karena struktur kepemilikan target berubah sebelum kontrak diteken. Bila PP dan PMK terbit bersamaan dengan tekanan pasar dari penurunan kelas MSCI, Danantara akan menghadapi dua tenggat sekaligus dengan kapasitas eksekusi yang belum teruji.",
+      "action": "Periksa kontrak restrukturisasi BUMN yang sedang dalam negosiasi: identifikasi klausul pajak yang bergantung pada insentif PPh 0%, dan simulasikan biaya transaksi bila PP tidak terbit sebelum akhir kuartal pertama 2027. Ajukan pertanyaan kepada DJP mengenai estimasi tanggal penerbitan PP.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring-delay",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-19",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "Microsoft",
+        "Nscale",
+        "Financial Times",
+        "Reuters"
+      ],
+      "headline": "Microsoft mundur dari kesepakatan pusat data Nscale di Inggris; investor buang obligasi data center AI",
+      "whatChanged": "Reuters melaporkan Microsoft menarik diri dari kesepakatan pusat data dengan Nscale di Inggris. Sehari sebelumnya, Financial Times melaporkan investor membuang obligasi pusat data AI karena peminjam menghadapi 'momen Darwin', yaitu seleksi ketat berbasis kelayakan kredit tanpa offtake yang terkonfirmasi. Reuters juga melaporkan kenaikan suku bunga dan koreksi pasar sedang menguji ledakan kesepakatan pusat data AI.",
+      "whyItMatters": "Ini melanjutkan tema ai-datacenter-project-finance yang sudah muncul 19 kali sejak 21 September 2026. Retret Microsoft dari Nscale adalah konfirmasi pertama dari entitas hiperscaler bahwa seleksi proyek sedang diperketat. Pola yang terbentuk: pasar kredit memisahkan proyek dengan offtaker berperingkat investasi dari proyek tanpa komitmen pendapatan yang terverifikasi.",
+      "secondOrder": "Proyek pusat data Indonesia yang mengandalkan ekspektasi permintaan AI tanpa kontrak offtake jangka panjang kini menghadapi biaya pendanaan yang lebih tinggi dan basis investor yang menyempit. Ini menekan mitra seperti NeutraDC yang sedang ekspansi 200 MW bersama PLN: tanpa offtake eksplisit dari penyewa hiperescala, struktur pembiayaan mereka akan diperlakukan seperti obligasi spekulatif, bukan project finance.",
+      "action": "Untuk setiap proposal pusat data AI yang sedang dievaluasi, minta bukti komitmen offtake tertulis dari penyewa. Terapkan kerangka analisis sponsor-offtaker-EPC-lender: nilai proyek tanpa offtake sebagai ekuitas spekulatif, bukan infrastruktur regulasi.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHNjZE1aMG8wWVBHLW9UeG15T3RSZzdSOFR4WGN5SEtyWTI2Y1g1MWtSUFZkYUFKc2QtS01JN2lHSW82bjdqVWNjV0w1WVNMU1B2U1BLZlB6QkpLc1ZSTUE4Ry1EMzVRa3RUT1J3azFYRjZnNVpTY0c5WERPV2thSlp4MkE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "structural",
+        "occurrences": 20,
+        "firstSeen": "2026-09-21",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Suroso Isnandar",
+        "IESR",
+        "Darmawan Prasodjo"
+      ],
+      "headline": "Suroso Isnandar pimpin PLN dengan warisan lebih dari 700 proyek pembangkit menunggu eksekusi",
+      "whatChanged": "Suroso Isnandar resmi menjadi Direktur Utama PLN per 14 Oktober 2026 menggantikan Darmawan Prasodjo. Bisnis.com melaporkan lebih dari 700 proyek pembangkit sedang menunggu eksekusi di bawah kepemimpinan baru. IESR menyatakan pergantian ini harus membawa transformasi bisnis nyata, bukan kelanjutan program lama.",
+      "whyItMatters": "Ini melanjutkan tema pln-grid-investment yang berjalan 29 kali sejak 19 September 2026. Jumlah 700-plus proyek yang tertunda mencerminkan akumulasi hambatan eksekusi yang tidak diselesaikan oleh kepemimpinan sebelumnya. Suroso mengambil alih dalam kondisi PLN memerlukan investasi transmisi besar dan tekanan dari target 100 GW PLTS dalam tiga tahun.",
+      "secondOrder": "Dengan lebih dari 700 proyek di pipeline, prioritisasi menjadi keputusan strategis pertama yang akan menentukan sinyal kepemimpinan Suroso. Bila ia memilih proyek pembangkit batu bara untuk mempercepat keandalan jangka pendek, itu akan mempersulit akses PLN ke pembiayaan hijau internasional. Bila ia memprioritaskan PLTS dan transmisi, ia memerlukan reformasi kontrak dan regulasi yang belum tersedia.",
+      "action": "Pantau pernyataan kebijakan pertama Suroso dalam 30 hari: apakah ia mengumumkan moratorium pembangkit batu bara baru, atau mempercepat proyek yang sudah dalam antrean tanpa filter teknologi. Hasil ini menentukan posisi PLN dalam negosiasi pembiayaan hijau 2027.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+        "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+        "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmltSlFNLWRKQ18xWU56cTJGXzN4aEtEWFJnNVFOaVRoNnEtVU1NaGZwbWlOV3lPMHZ4UkZWWXo3TTV1ZGRmdld4cF9jQWg4TER1WDh5SVVEYUdnaTRiNjNZLVZSdDBlemx4a1hjTzNlN0E4dmNON1VTS0JYdVU0dG9LOTNhb1p0Z3U0TzJuYm1mMy12R1JXSjRYcmt6VE1tQ3N4ODVISnAwVEprNW9kSlM5aUEtQmNzTG04?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-19",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring-delay",
+      "entities": [
+        "Himbara"
+      ],
+      "headline": "Danantara amankan 34 lembaga keuangan sebagai lenders panel untuk proyek PSEL",
+      "whatChanged": "Danantara menetapkan 34 institusi keuangan, termasuk bank Himbara, sebagai anggota lenders panel untuk program Pengolahan Sampah menjadi Energi Listrik. Investor.id dan detikFinance melaporkan bahwa animo kreditur tinggi, dengan Himbara masuk sebagai peserta.",
+      "whyItMatters": "Di tengah hambatan restrukturisasi BUMN akibat ketiadaan PP dan PMK PPh 0%, Danantara menunjukkan kemampuan membangun pipeline pembiayaan di luar kerangka restrukturisasi formal. Sebanyak 34 lembaga keuangan dalam satu panel untuk satu program adalah sinyal bahwa proyek infrastruktur energi limbah mendapat penerimaan kredit yang lebih luas dari yang diperkirakan.",
+      "secondOrder": "Keberhasilan lenders panel PSEL bisa menjadi model untuk program Danantara berikutnya, memperkenalkan mekanisme sindikasi terstruktur yang memisahkan pembiayaan proyek dari neraca BUMN induk. Namun, bila proyek PSEL tidak menghasilkan return yang memenuhi ekspektasi 34 kreditur, reputasi Danantara sebagai arranger akan tertekan, yang akan mempersulit pembentukan panel serupa untuk proyek yang lebih besar.",
+      "action": "Periksa syarat partisipasi lenders panel PSEL: apakah ada garansi pemerintah, atau murni project finance. Hasil struktur ini menentukan apakah model dapat direplikasi untuk proyek energi terbarukan lain di bawah Danantara.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://finance.detik.com/energi/d-8712594/34-lembaga-keuangan-berminat-biayai-proyek-sampah-jadi-listrik",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRk5rdFl6U0pFbzladFk1dFFPeFJ6YzNtUUdfalpsdDk5WmEtTXpaU09WVUh2Nm5qaGN4SnNENnpzdGRPSEVUNktKN3puaUdiZWhYeklKOWFSRmtqY2dNTWJESWppMTMzOTd4aWsyTjZQb0IySllBMzdybE1CVVlhQmpxNTlmVW9jZWdZMmVvT19vVm1yU1g0?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring-delay",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-19",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "BBC",
+        "Claude"
+      ],
+      "headline": "Anthropic secara terbuka membahas kemungkinan kesadaran Claude dan implikasinya",
+      "whatChanged": "BBC melaporkan Anthropic menyatakan model Claude mungkin memiliki kesadaran, dan bahwa kesimpulan ini memiliki konsekuensi material bagi pengguna. Anthropic juga menerbitkan artikel internal tentang perubahan pola kerja di perusahaan akibat penggunaan AI, menunjukkan bahwa dinamika ini sudah berlangsung secara internal.",
+      "whyItMatters": "Pernyataan publik dari laboratorium frontier bahwa model mereka mungkin sadar mengubah posisi regulasi: argumen bahwa AI adalah alat tanpa status moral menjadi lebih sulit dipertahankan di forum legislasi. Ini melanjutkan tema ai-model-safety-frontier yang sudah berjalan 28 kali, dan menambahkan dimensi baru yaitu status moral model sebagai argumen regulasi.",
+      "secondOrder": "Bila klaim kesadaran AI diterima sebagian oleh regulator, perusahaan yang menggunakan model sebagai alat tanpa perlindungan khusus akan menghadapi tekanan untuk merevisi kontrak layanan dan kebijakan penggunaan. Ini berpotensi membuka kelas litigasi baru tentang hak dan kewajiban sistem AI dalam kontrak komersial.",
+      "action": "Tinjau kontrak penggunaan model AI frontier dalam operasi internal: apakah ada klausul yang mengatur tanggung jawab bila model berperilaku di luar ekspektasi karena alasan yang diklaim sebagai 'internal state'. Pantau respons regulator Eropa dan AS dalam 60 hari terhadap pernyataan Anthropic.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNkFXVVJyYUU2Ry1qN2hheWdRRlRGb2pCZWY2VGdJRWVWTF9Md3dBbzN2dFROTnFFTFNLcHFRYU4zR0dpclduLUlYdHhJVnZMakZQQXZUQVlNTTVDV0lLU3BEdzFGd2hYQkdrWTQxdmpmRXNwVldSTTVfTzVEdjEzXy1PRVFLLTRaaW5LQg?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mOWJENVFMYm9BOWdRbjJXSllRMVJ3ZXh6RkMwQmJlWElqUU9TTENEamlIanRkSXE4UnRaRDROSnZNTXBGM0NoVGNDWkpXZEtrUHRzdlFNSEhVVjBjalloX1ZTQm5LX2RKRXc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-19",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Penerbitan PP dan PMK insentif PPh final 0% restrukturisasi BUMN: tanpa kedua regulasi ini, seluruh jadwal konsolidasi Danantara tidak dapat dikunci.",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "Pernyataan kebijakan pertama Dirut PLN Suroso Isnandar mengenai prioritas dari 700-plus proyek pembangkit yang menunggu eksekusi.",
+      "dueDate": "2026-11-14"
+    },
+    {
+      "item": "Konfirmasi struktur lenders panel PSEL Danantara: apakah ada garansi pemerintah atau murni project finance, dan apakah model ini akan direplikasi.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Respons regulator Inggris dan Eropa terhadap retret Microsoft dari Nscale, sebagai indikator apakah pengawasan kesepakatan pusat data AI akan diperketat.",
+      "dueDate": "2026-12-01"
+    },
+    {
+      "item": "Respons regulasi terhadap pernyataan Anthropic tentang kemungkinan kesadaran Claude, khususnya dari otoritas AI Eropa dan badan legislasi AS.",
+      "dueDate": "2026-12-19"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "DJP Tunggu PP & PMK soal PPh 0% untuk Restrukturisasi BUMN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T04:40:00.000Z"
+    },
+    {
+      "title": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-18T17:19:48.000Z"
+    },
+    {
+      "title": "34 Lembaga Keuangan Berminat Biayai Proyek Sampah Jadi Listrik",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8712594/34-lembaga-keuangan-berminat-biayai-proyek-sampah-jadi-listrik",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-18T12:00:27.000Z"
+    },
+    {
+      "title": "Pendidikan dan karier Suroso Isnandar, Dirut baru PLN",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T11:11:47.000Z"
+    },
+    {
+      "title": "Proyek PSEL Danantara Diserbu Calon Kreditur, Himbara Masuk",
+      "publisher": "investor.id",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRk5rdFl6U0pFbzladFk1dFFPeFJ6YzNtUUdfalpsdDk5WmEtTXpaU09WVUh2Nm5qaGN4SnNENnpzdGRPSEVUNktKN3puaUdiZWhYeklKOWFSRmtqY2dNTWJESWppMTMzOTd4aWsyTjZQb0IySllBMzdybE1CVVlhQmpxNTlmVW9jZWdZMmVvT19vVm1yU1g0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-18T16:10:00.000Z"
+    },
+    {
+      "title": "Insentif PPh 0% Restrukturisasi BUMN Masih Tunggu 2 Aturan Ini",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T01:10:06.000Z"
+    },
+    {
+      "title": "Market selloff, rising rates test AI data centre deal boom",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T09:33:44.000Z"
+    },
+    {
+      "title": "Profil Suroso Isnandar, dirut baru PLN pengganti Darmawan Prasodjo",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T03:45:26.000Z"
+    },
+    {
+      "title": "How employment is changing at Anthropic",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mOWJENVFMYm9BOWdRbjJXSllRMVJ3ZXh6RkMwQmJlWElqUU9TTENEamlIanRkSXE4UnRaRDROSnZNTXBGM0NoVGNDWkpXZEtrUHRzdlFNSEhVVjBjalloX1ZTQm5LX2RKRXc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-16T16:26:00.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bisa Kena PPh 0 Persen, tetapi Aturannya Belum Final",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T23:32:00.000Z"
+    },
+    {
+      "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
+      "publisher": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHNjZE1aMG8wWVBHLW9UeG15T3RSZzdSOFR4WGN5SEtyWTI2Y1g1MWtSUFZkYUFKc2QtS01JN2lHSW82bjdqVWNjV0w1WVNMU1B2U1BLZlB6QkpLc1ZSTUE4Ry1EMzVRa3RUT1J3azFYRjZnNVpTY0c5WERPV2thSlp4MkE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T13:26:08.000Z"
+    },
+    {
+      "title": "Anthropic thinks its AI might be conscious. It has profound consequences for your life",
+      "publisher": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNkFXVVJyYUU2Ry1qN2hheWdRRlRGb2pCZWY2VGdJRWVWTF9Md3dBbzN2dFROTnFFTFNLcHFRYU4zR0dpclduLUlYdHhJVnZMakZQQXZUQVlNTTVDV0lLU3BEdzFGd2hYQkdrWTQxdmpmRXNwVldSTTVfTzVEdjEzXy1PRVFLLTRaaW5LQg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "title": "Suroso Pimpin PLN, Lebih dari 700 Proyek Pembangkit Menanti Eksekusi - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmltSlFNLWRKQ18xWU56cTJGXzN4aEtEWFJnNVFOaVRoNnEtVU1NaGZwbWlOV3lPMHZ4UkZWWXo3TTV1ZGRmdld4cF9jQWg4TER1WDh5SVVEYUdnaTRiNjNZLVZSdDBlemx4a1hjTzNlN0E4dmNON1VTS0JYdVU0dG9LOTNhb1p0Z3U0TzJuYm1mMy12R1JXSjRYcmt6VE1tQ3N4ODVISnAwVEprNW9kSlM5aUEtQmNzTG04?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T05:57:39.000Z"
+    },
+    {
+      "title": "DJP sebut aturan PPh final 0 persen restrukturisasi BUMN belum final",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T15:48:06.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring-delay",
+      "theme": "Danantara nyatakan siap serap saham BUMN yang tertekan akibat ancaman penurunan kelas MSCI",
+      "occurrences": 29,
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-10-18",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR calls on new PLN director Suroso Isnandar to deliver business transformation, not programme continuity",
+      "occurrences": 29,
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-10-18",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic beri akses setara karyawan kepada evaluator eksternal METR untuk audit keselamatan AI",
+      "occurrences": 28,
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-10-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN operasikan PLTD Sidera 20 MW di Sigi untuk perkuat interkoneksi Sulawesi-Selatan",
+      "occurrences": 25,
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-10-18",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "Investor jual obligasi pusat data AI saat pasar uji kelayakan kredit proyek tanpa offtake",
+      "occurrences": 19,
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-18",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 373,
+    "poolSize": 110,
+    "generatedAt": "2026-10-18T23:04:16.332Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
