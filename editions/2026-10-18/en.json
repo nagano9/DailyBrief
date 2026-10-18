@@ -1,0 +1,345 @@
+{
+  "slug": "2026-10-18",
+  "date": "2026-10-18",
+  "lang": "en",
+  "title": "AI Debt Stress, BUMN Tax Delay, and PLN Transition Define Week's Risk Map",
+  "dek": "Three structural conditions converge: AI data-centre credit is being repriced, Indonesia's BUMN restructuring tax relief is stalled in draft, and PLN's new leadership inherits unresolved generation and grid backlogs.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "The AI data-centre financing cycle is entering a selection phase: investors are selling bonds from projects without committed offtake, and rising rates are accelerating the divide between creditworthy and speculative builds. Simultaneously, Indonesia's BUMN restructuring programme faces a concrete bottleneck: the 0-percent income tax incentive enabling asset consolidation has not been enacted, leaving Directorate General of Taxes waiting on two implementing regulations. PLN's incoming director Suroso Isnandar takes charge of a utility with over 700 stalled generation projects and a transmission gap that structural analysts have documented for months. DeepSeek released a new flash model mid-week, compressing the frontier further and adding pressure on enterprise AI procurement. Anthropic's grant of employee-level access to external evaluator METR signals a shift in how frontier labs manage safety accountability, with direct implications for regulatory design globally.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "Financial Times",
+        "Reuters"
+      ],
+      "headline": "Investors sell AI data-centre bonds as rising rates expose projects without offtake agreements",
+      "whatChanged": "The Financial Times and Reuters both reported a market selloff in AI data-centre bonds, with investors citing a 'Darwin moment' in which projects lacking committed power-purchase or colocation offtake agreements are being priced punitively as benchmark rates rise. The selloff is broad enough that Reuters framed it as a structural test of the entire deal boom.",
+      "whyItMatters": "This continues the ai-datacenter-project-finance thread, now 18 appearances deep and rated structural. The accumulation implies the market has moved past discovery into active credit differentiation: deals with a sponsor, an offtaker, a credible power contract, and a grid interconnection agreement will clear; deals without those elements will not refinance at maturity. The 'Darwin moment' framing signals that participants expect defaults or distressed restructurings among the weakest cohort within the next 12-to-24 months.",
+      "secondOrder": "As distressed data-centre assets begin trading, the effective cost of AI compute for enterprises without long-term capacity reservations will rise, because surviving operators will reprice spot capacity to recoup the credit premium now embedded in their own funding costs. AI inference spending, which many enterprises treat as a variable-cost line, will behave more like a fixed infrastructure commitment, changing how IT and finance teams need to budget for it.",
+      "action": "Any organisation evaluating a new data-centre capacity agreement this quarter should require disclosure of the operator's debt maturity profile, offtake coverage ratio, and grid interconnection status before signing. Treat the operator as a project-finance counterparty, not a commodity vendor.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHNjZE1aMG8wWVBHLW9UeG15T3RSZzdSOFR4WGN5SEtyWTI2Y1g1MWtSUFZkYUFKc2QtS01JN2lHSW82bjdqVWNjV0w1WVNMU1B2U1BLZlB6QkpLc1ZSTUE4Ry1EMzVRa3RUT1J3azFYRjZnNVpTY0c5WERPV2thSlp4MkE?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-09-21",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "CNBC Indonesia",
+        "Bloomberg Technoz"
+      ],
+      "headline": "Indonesia's 0-percent income-tax incentive for BUMN restructuring lacks implementing regulations, blocking consolidation timelines",
+      "whatChanged": "The Directorate General of Taxes (DJP) confirmed publicly that the 0-percent final income-tax rate for BUMN asset restructuring transactions cannot be applied until two instruments, a Government Regulation (PP) and a Minister of Finance Regulation (PMK), are finalised. As of the reporting date neither instrument has been issued. CNBC Indonesia and Bloomberg Technoz both covered the confirmation; Kompas.com and ANTARA corroborated that the rule is not yet final.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now 29 appearances deep. The accumulation means the structural condition is well-established: Danantara's consolidation of state-owned enterprises requires asset transfers that trigger tax liability, and the entire incentive regime designed to make those transfers commercially viable is suspended in a regulatory gap. Each week the PP and PMK remain unsigned is a week consolidation transactions cannot close.",
+      "secondOrder": "BUMN entities that have already announced merger or asset-transfer timelines to investors or creditors face a credibility risk if closing is delayed by regulatory process rather than commercial negotiation. Debt covenants or bond indentures tied to restructuring milestones in 2026 may trigger technical events if the tax instruments are not enacted before year-end.",
+      "action": "Check any BUMN transaction timeline against the PP and PMK status. If a transaction closing was modelled assuming the 0-percent rate is available now, revise the tax cost assumption and recalculate equity return projections under the current statutory rate until both instruments are gazetted.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-18",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "IESR",
+        "Suroso Isnandar",
+        "IEEFA"
+      ],
+      "headline": "IESR calls on new PLN director Suroso Isnandar to deliver business transformation, not programme continuity",
+      "whatChanged": "IESR published a formal assessment on 15 October 2026 arguing that Suroso Isnandar's appointment as PLN director must produce structural business transformation. The institute stated explicitly that the new leadership cannot simply continue existing programmes, given the inherited backlog of over 700 stalled generation projects and a transmission investment deficit that IEEFA has separately documented as a binding constraint on Indonesia's energy transition.",
+      "whyItMatters": "This continues the pln-grid-investment thread, now 29 appearances deep and rated structural. The signal is no longer about whether PLN has a problem; it is about whether the new leadership has a mandate broad enough to resolve it. IESR's public framing raises the institutional expectation bar: external analysts and civil-society organisations are now on record demanding structural change, which creates a reference point for evaluating Suroso's first 100-day policy announcements.",
+      "secondOrder": "If Suroso's early decisions track continuity rather than transformation, the gap between external expectations and internal execution will itself become a governance signal that affects PLN's ability to attract private co-investment in transmission and renewables. Foreign development-finance institutions and infrastructure funds evaluating Indonesian energy assets will use IESR and IEEFA assessments as part of their political-risk framing.",
+      "action": "Map Suroso's first public statements and any early regulatory submissions against the specific structural changes IESR has called for: tariff reform, transmission unbundling, and accelerated renewable procurement. Score continuity versus transformation as a leading indicator of PLN's investment attractiveness over the next 12 months.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+        "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+        "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOHJSUkoyV3lwNWQ1UjBmcUIxZ3d2WUhUMHdienFkNXBfM2NkcFA3b1Z3cDNQV3poVFktTDhwSUhYdzJVbEFBLUMzT29uVEhzMkRqcHlnaXVTQXBqcmV2MEd2a2o2NHFPbFpFZWpVQ1F3cUswa0FHYzdCQjg0Q1F4aEJCQ0JTWEF3YUV6dlBOdDM0ZGJuX0RqS0RfcDExWDRJUUdIM3o3dmhVQ3pBaExkOGFrZUloMmpBUHY5TE5PS1VfU2lr0gHKAUFVX3lxTE12MlRkRzR2LTZTR0RNYlR6ZnBta2c2dlVKOHp3clpyVWlEdzRtc1JFOVJSTzB0WFRfb1FfTWY5SzZITmQ4YmtqY1lQaGNmRlhmbi02SFVMZHlWX1ZaUTN1aWNKTVlDVWJfOXBQNzZEV0FrS0ZuYWNHYUdQLVVBM0laVi1KRGlKWkk5NnltdnJBdHFqM0RHTGk1ZXZlc0tsWGoyNW5fU2RDM2RnY0dKMHNHTFdhcElrakJQTUtEQ21ZV2FsbE1lakgwN2c?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-18",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "METR",
+        "Reuters"
+      ],
+      "headline": "Anthropic grants external evaluator METR employee-level access, setting a new accountability benchmark for frontier AI safety",
+      "whatChanged": "Reuters reported on 15 October 2026 that Anthropic has granted METR, an independent AI safety evaluation organisation, employee-level system access to conduct safety assessments. This is structurally different from external red-teaming or API-level audits: it gives METR the same visibility into model internals that Anthropic's own staff hold.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread, now 28 appearances deep. The accumulation now implies that voluntary safety commitments from frontier labs are migrating from process pledges to structural access arrangements. Anthropic's move sets a concrete reference point: regulators drafting AI oversight legislation can point to this model as an operational template rather than a theoretical one, compressing the design space for mandatory audit frameworks.",
+      "secondOrder": "Other frontier labs, particularly those that have made safety commitments in voluntary compacts, will face increased pressure from legislators and institutional customers to match or explain why they have not matched this access standard. Enterprise procurement teams that include AI safety in vendor due diligence now have a specific benchmark to insert into RFP requirements.",
+      "action": "If your organisation procures or evaluates frontier AI systems, add a question to vendor due diligence: does the provider permit independent third-party evaluation at employee-level access, and if not, what is the substitute assurance mechanism? Use the Anthropic-METR arrangement as the reference standard.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbERjb3RFVUdmYXZ6ZktrZ0tiVUlEck5vRGtxd2dXTnA4UGFoSF9QNEU5Y3FfVUxZOHp1cEt3UktQUXZicnI5UDByaW5hTDdhanhtb2JsVTZsRkxYSjRsd2VZZUx2Yy1lZzNhWGdJSWxOalZoZGJNU0g1NGFkUEFkZHNob2RXaVVqb3BxTkZGVFJaUHg4cVNTTXJMcnFtSGZTZDZ1TVVBOWxSSGhjZ0Z6SFpB?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-18",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Publication of Indonesia Government Regulation (PP) and Minister of Finance Regulation (PMK) enabling the 0-percent income-tax rate for BUMN restructuring transactions",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Suroso Isnandar's first 100-day policy statement on PLN transmission investment and stalled generation project resolution",
+      "dueDate": "2027-01-22"
+    },
+    {
+      "item": "METR publication of its Anthropic assessment findings under the new employee-level access arrangement",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "AI data-centre bond default or distressed restructuring announcements as the first cohort of projects without offtake agreements reaches refinancing deadlines",
+      "dueDate": "2027-06-30"
+    },
+    {
+      "item": "DeepSeek major version release and its effect on enterprise inference pricing benchmarks",
+      "dueDate": "2027-01-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "DJP Tunggu PP & PMK soal PPh 0% untuk Restrukturisasi BUMN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T04:40:00.000Z"
+    },
+    {
+      "title": "Fact sheet: How a dedicated transmission subholding can accelerate Indonesia’s grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjBvNS1zX05CeW1uMkctRlB2WU9DQnZrRV8tWThmWXhzWTdoc0VYNGRPU2M2Mlh4TTlsbVRIR2cxdENoMFNEUXVrejJidFI5cUFCMEp5UWpIdE1KR2gtR3JsR3hSODdTSGptN3dnekpMUnQyVUNneEtLNGw5VlpvVWlRZFlNS0daRVUwZXdfR3VSX0cyNFg0WTM3cEN6R1VzZlVUMVJlOV9fbDA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
+      "publisher": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHNjZE1aMG8wWVBHLW9UeG15T3RSZzdSOFR4WGN5SEtyWTI2Y1g1MWtSUFZkYUFKc2QtS01JN2lHSW82bjdqVWNjV0w1WVNMU1B2U1BLZlB6QkpLc1ZSTUE4Ry1EMzVRa3RUT1J3azFYRjZnNVpTY0c5WERPV2thSlp4MkE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T13:26:08.000Z"
+    },
+    {
+      "title": "Pendidikan dan karier Suroso Isnandar, Dirut baru PLN",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T11:11:47.000Z"
+    },
+    {
+      "title": "Insentif PPh 0% Restrukturisasi BUMN Masih Tunggu 2 Aturan Ini",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T01:10:06.000Z"
+    },
+    {
+      "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbERjb3RFVUdmYXZ6ZktrZ0tiVUlEck5vRGtxd2dXTnA4UGFoSF9QNEU5Y3FfVUxZOHp1cEt3UktQUXZicnI5UDByaW5hTDdhanhtb2JsVTZsRkxYSjRsd2VZZUx2Yy1lZzNhWGdJSWxOalZoZGJNU0g1NGFkUEFkZHNob2RXaVVqb3BxTkZGVFJaUHg4cVNTTXJMcnFtSGZTZDZ1TVVBOWxSSGhjZ0Z6SFpB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T19:51:22.000Z"
+    },
+    {
+      "title": "Market selloff, rising rates test AI data centre deal boom",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T12:43:00.000Z"
+    },
+    {
+      "title": "Profil Suroso Isnandar, dirut baru PLN pengganti Darmawan Prasodjo",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T03:45:26.000Z"
+    },
+    {
+      "title": "Pengamat ekonomi yakin Dirut PLN Suroso dapat kembangkan diversifikasi energi",
+      "publisher": "ANTARA News Megapolitan",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOHJSUkoyV3lwNWQ1UjBmcUIxZ3d2WUhUMHdienFkNXBfM2NkcFA3b1Z3cDNQV3poVFktTDhwSUhYdzJVbEFBLUMzT29uVEhzMkRqcHlnaXVTQXBqcmV2MEd2a2o2NHFPbFpFZWpVQ1F3cUswa0FHYzdCQjg0Q1F4aEJCQ0JTWEF3YUV6dlBOdDM0ZGJuX0RqS0RfcDExWDRJUUdIM3o3dmhVQ3pBaExkOGFrZUloMmpBUHY5TE5PS1VfU2lr0gHKAUFVX3lxTE12MlRkRzR2LTZTR0RNYlR6ZnBta2c2dlVKOHp3clpyVWlEdzRtc1JFOVJSTzB0WFRfb1FfTWY5SzZITmQ4YmtqY1lQaGNmRlhmbi02SFVMZHlWX1ZaUTN1aWNKTVlDVWJfOXBQNzZEV0FrS0ZuYWNHYUdQLVVBM0laVi1KRGlKWkk5NnltdnJBdHFqM0RHTGk1ZXZlc0tsWGoyNW5fU2RDM2RnY0dKMHNHTFdhcElrakJQTUtEQ21ZV2FsbE1lakgwN2c?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-17T09:08:33.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bisa Kena PPh 0 Persen, tetapi Aturannya Belum Final",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T23:32:00.000Z"
+    },
+    {
+      "title": "Unlocking Indonesia's transmission grid investment",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWZnN3ItcUk0QmlBVm9xS0pNVC1lZjA4S1NKVWxTYU9HenplR204a0ZEM2hic1h5ckRCaGRmeWotQnBMTjZhX1lIMTgwOGhKN3FYWlU4anlkdVktZU5UR1NnRGNtUFpuNGh1VU1xVWpLeXNnY01saUh0UVFkRk12ZFFEVQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    },
+    {
+      "title": "DJP sebut aturan PPh final 0 persen restrukturisasi BUMN belum final",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T15:48:06.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BSI konfirmasi rights issue Rp 3,4 triliun untuk penuhi free float 15%",
+      "occurrences": 29,
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-10-17",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "New PLN chief Suroso Isnandar inherits 700-plus stalled generation projects and a structurally weak transmission network",
+      "occurrences": 29,
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-10-17",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic diam-diam ajukan rancangan UU keamanan AI ke legislator AS",
+      "occurrences": 28,
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-10-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Suroso Isnandar mewarisi 700+ proyek pembangkit PLN, transmisi jadi agenda mendesak",
+      "occurrences": 25,
+      "firstSeen": "2026-09-18",
+      "lastSeen": "2026-10-17",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "Investor buang obligasi pusat data AI saat pasar uji kelayakan kredit proyek tanpa offtaker solid",
+      "occurrences": 18,
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-16",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 381,
+    "poolSize": 110,
+    "generatedAt": "2026-10-18T00:18:57.160Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
