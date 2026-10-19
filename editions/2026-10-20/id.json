@@ -1,0 +1,353 @@
+{
+  "slug": "2026-10-20",
+  "date": "2026-10-20",
+  "lang": "id",
+  "title": "Nscale-Anthropic $45 M, Danantara 34 Kreditur, PPh 0% Tertahan",
+  "dek": "Tiga keputusan pembiayaan besar menggantung sekaligus: kesepakatan cloud AI senilai $45 miliar, panel kreditur PSEL Danantara, dan insentif pajak restrukturisasi BUMN yang masih menunggu dua aturan turunan.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Nscale yang didukung Nvidia sedang menegosiasikan kontrak cloud senilai $45 miliar dengan Anthropic, sebuah angka yang menggeser skala pembiayaan infrastruktur AI ke dimensi project finance. Di sisi lain, Danantara telah mengamankan 34 lembaga keuangan sebagai panel kreditur PSEL, memperkuat arsitektur pembiayaan yang kini membutuhkan kepastian serapan listrik dari revisi RUPTL yang masih tertunda. Kekosongan regulasi PPh 0% untuk restrukturisasi BUMN menambah ketidakpastian: Direktorat Jenderal Pajak menunggu PP dan PMK sebelum insentif bisa dieksekusi, sehingga transaksi konsolidasi terhambat. PLN UIT JBM menyiapkan penguatan transmisi 500 kV di Jawa Timur, melanjutkan pola investasi grid yang sudah 29 kali muncul dalam arsip sebagai kondisi struktural. Kelima sinyal ini bertemu pada satu titik: Indonesia dan pasar AI global sama-sama menghadapi bottleneck pembiayaan dan regulasi yang menentukan kecepatan eksekusi, bukan lagi kelayakan teknis.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Denera",
+        "PLN",
+        "RUPTL"
+      ],
+      "headline": "34 lembaga keuangan masuk panel kreditur PSEL Danantara; serapan listrik masih menunggu revisi RUPTL",
+      "whatChanged": "Sebanyak 34 lembaga keuangan resmi masuk sebagai panel pembiayaan proyek PSEL Danantara. Namun Denera, salah satu pelaksana PSEL, menyatakan masih menunggu revisi RUPTL untuk memastikan kepastian serapan listrik dari PLN.",
+      "whyItMatters": "Panel 34 kreditur menandakan bahwa sisi pembiayaan PSEL sudah terbentuk secara kelembagaan. Bottleneck bergeser dari ketersediaan modal ke kepastian offtake: tanpa serapan yang dikonfirmasi dalam RUPTL, kreditur tidak dapat menyelesaikan financial close karena arus kas proyek bergantung pada tarif dan volume yang ditetapkan regulasi.",
+      "secondOrder": "Keterlambatan revisi RUPTL menciptakan risiko idle commitment bagi 34 lembaga keuangan yang sudah masuk panel tetapi belum dapat mencairkan fasilitas. Jika revisi RUPTL mundur melewati akhir 2026, biaya komitmen yang terakumulasi dapat menaikkan all-in cost of debt PSEL dan menekan kelayakan finansial proyek, terutama untuk PSEL dengan tarif yang sudah dikunci.",
+      "action": "Manajer risiko di lembaga keuangan yang masuk panel perlu menetapkan tanggal cut-off kepastian RUPTL sebagai trigger review komitmen: jika revisi RUPTL tidak tersedia dalam 60 hari, hitung ulang biaya komitmen versus opsi menarik diri dari panel sebelum terikat perjanjian kredit.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdkw3UjNod1VLU1llWnZmT0w5clo5QnctTnBhLWQ3YWVraEU2R3RxUVRKeGJPYWdaUkVBdE5HZjAzQ2VHZVFsc2VRa0JQZ0N0U3hEQmpLTmNBMVVsUm5TM0NHSDJQeGlxUmJaVGlRczkyN2FYZnRsSTA2YzllV202dEFIeGxSeDJmTEIwM09wTDdNXy1GZFQtdXZwMWVCM0tVUEpwRTQ0eUw3dw?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRGstcmZUd2o3b3c5anBTV0k3X0hQdHZyQ25GWWxqZ1RFQ2lzMjJiRjRuSmVEVDZjWjl6QTVZcVVHQld6ZTJEc2ZTWDBxVktydkNlSjZKblJacFlkMTBWQ0Z1WWRkNDZndmNRbFRtZGNnVExYc1lZYXFoWl9JaV9jem5pM1dPaEJHLUNpbTIwcVkwRVQ3SkhrTlFrRDlsUXJaOHVxajFmQTNfbDhU?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Direktorat Jenderal Pajak",
+        "Danantara"
+      ],
+      "headline": "PPh 0% restrukturisasi BUMN tertahan: DJP tunggu PP dan PMK sebelum insentif berlaku",
+      "whatChanged": "Direktorat Jenderal Pajak menyatakan insentif PPh final 0% untuk restrukturisasi BUMN belum dapat dieksekusi karena Peraturan Pemerintah dan Peraturan Menteri Keuangan sebagai aturan turunan belum diterbitkan. Ini dikonfirmasi oleh DJP dan dilaporkan oleh ANTARA News, CNBC Indonesia, serta Kompas.com.",
+      "whyItMatters": "Insentif ini dirancang sebagai enabler konsolidasi BUMN di bawah Danantara. Tanpa PP dan PMK, setiap transaksi penggabungan atau pemisahan aset BUMN menghadapi kewajiban pajak penuh, yang secara langsung menaikkan biaya transaksi dan memperlambat jadwal restrukturisasi yang sudah diumumkan secara publik.",
+      "secondOrder": "BUMN yang menjadwalkan restrukturisasi pada kuartal keempat 2026 kini menghadapi pilihan: menunda eksekusi hingga aturan turun, atau menanggung beban pajak sementara dengan harapan mendapat restitusi kelak. Opsi kedua menciptakan risiko arus kas jangka pendek bagi BUMN dengan likuiditas terbatas, dan berpotensi memaksa beberapa entitas meminta fasilitas bridging dari perbankan.",
+      "action": "Direksi BUMN yang memiliki transaksi restrukturisasi dalam pipeline Q4 2026 perlu berkonsultasi dengan DJP minggu ini untuk memperoleh kepastian timeline PP dan PMK, lalu memutuskan apakah menjadwalkan ulang transaksi atau menyiapkan fasilitas bridging sebagai kontingensi.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "PLN UIT JBM",
+        "Suroso Isnandar"
+      ],
+      "headline": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "whatChanged": "PLN Unit Induk Transmisi Jawa Bagian Mulut (UIT JBM) mengumumkan persiapan penguatan jaringan transmisi 500 kV di Jawa Timur untuk mengantisipasi pertumbuhan industri yang dinilai pesat di wilayah tersebut.",
+      "whyItMatters": "Ini melanjutkan tema struktural pln-transmisi-investasi yang telah muncul 24 kali sejak September 2026. Penguatan 500 kV di Jawa Timur bukan proyek tambahan, melainkan bagian dari pola sistemik: PLN di bawah Direktur Utama baru Suroso Isnandar harus mengeksekusi lebih dari 700 proyek pembangkit yang menunggu, dan kesiapan transmisi adalah kondisi prasyarat yang menentukan apakah pembangkit baru dapat tersalurkan.",
+      "secondOrder": "Investasi transmisi 500 kV membutuhkan lead time konstruksi dua hingga empat tahun. Jika penguatan ini baru dalam tahap persiapan pada Oktober 2026, ada risiko bahwa pembangkit baru yang dijadwalkan beroperasi 2027-2028 di Jawa Timur tidak akan memiliki kapasitas transmisi yang memadai saat COD, sehingga menciptakan curtailment dan kerugian kontrak bagi IPP.",
+      "action": "Investor dan pengembang IPP dengan proyek COD 2027-2028 di Jawa Timur perlu memverifikasi langsung kepada PLN UIT JBM apakah kapasitas transmisi 500 kV yang sedang dipersiapkan akan siap sebelum tanggal COD mereka, dan memasukkan risiko curtailment ke dalam model keuangan sebagai skenario dasar.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQkdkay1MdGFXakFGTHMxTW16anR4RkQ2eVVXWGVURnQtZXBlNTk2cFV5c0dnZllqLXhpVnJYa1dHbXBrbFdTbklHQWt3MjR1OGpKdWR1MDBKZVFCZVU3MmFJb0FvblcxZGtkUGVEODd3enNibFR0TWt1Nzc3QlJMY0tsVUhzSXBDdVhOSkhUdWpMSmxfaktwaGVjazhZQUtOWXdKQ2tvdHFyUXV4ZFZadFhrMTYyRms?oc=5",
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-09-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Bloomberg"
+      ],
+      "headline": "Anthropic publikasikan posisi investasi untuk manfaat publik, mengukuhkan struktur tata kelola PBC",
+      "whatChanged": "Anthropic menerbitkan pernyataan resmi bertajuk 'Investing in the public benefit' yang menjelaskan komitmen struktur Public Benefit Corporation dan implikasinya terhadap prioritas investasi. Pada saat yang sama, Bloomberg melaporkan Anthropic melobi anggota parlemen AS untuk mendukung rancangan undang-undang keamanan AI.",
+      "whyItMatters": "Dua langkah ini bersamaan, pernyataan PBC dan lobi legislatif, menunjukkan Anthropic sedang membangun legitimasi regulasi sebelum negosiasi kontrak besar seperti kesepakatan Nscale $45 miliar terkonfirmasi. Perusahaan yang mengambil kewajiban infrastruktur skala project finance membutuhkan kepastian regulasi agar kreditur dan mitra tidak menghadapi risiko intervensi pemerintah.",
+      "secondOrder": "Jika Anthropic berhasil mendorong UU keamanan AI di AS, standar keamanan yang dirumuskan Anthropic berpotensi menjadi baseline regulasi yang juga mempengaruhi vendor AI yang beroperasi di Indonesia, termasuk melalui persyaratan kontrak pelanggan enterprise dan persyaratan pembiayaan dari lembaga keuangan internasional.",
+      "action": "Tim kebijakan dan kepatuhan yang mengevaluasi adopsi platform AI untuk enterprise di Indonesia perlu memantau perkembangan RUU keamanan AI yang dilobi Anthropic di Kongres AS, karena persyaratan yang lahir dari RUU tersebut kemungkinan akan masuk ke ketentuan kontrak SaaS dan persyaratan due diligence lembaga keuangan internasional dalam 12-18 bulan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcENENWdpRlloLVpNclIyQWpIM3JSV3VHZklqOWZlQ0NJYnB2TWg2ZlhPMndNbS1qM2pWM0dTTVFZQ2l1SmxTT1h3VjZJNVpXTWhZTHRnLThqYm9UeFJ4ZEp0U3JROG1sUFJrN3Z6SEFKN2tPcU5teHZ6cU9JUDh4X1laZVZJMkZNNXNSZnJlZDdOX0dFMlM5REZCSGRHR3AydkdCbUY3RU9zYTRoNzdz?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "Nscale",
+        "Anthropic",
+        "Nvidia",
+        "Microsoft"
+      ],
+      "headline": "Nscale dan Anthropic negosiasi kontrak cloud $45 miliar, melanjutkan pola pembiayaan infrastruktur AI skala proyek",
+      "whatChanged": "Reuters melaporkan bahwa Nscale, yang didukung Nvidia, sedang dalam pembicaraan dengan Anthropic untuk kesepakatan cloud senilai $45 miliar. Ini adalah negosiasi baru setelah Microsoft sebelumnya mundur dari kesepakatan pusat data Nscale di Inggris.",
+      "whyItMatters": "Angka $45 miliar melampaui kapasitas belanja modal teknologi konvensional dan masuk ke wilayah project finance. Pola ini melanjutkan tren arsip 20 kali sejak September 2026: vendor infrastruktur AI mengambil eksposur jangka panjang layaknya sponsor proyek, bukan penjual perangkat keras. Ketika Microsoft mundur, Nscale tidak menyusut, ia berpivot ke Anthropic sebagai offtaker baru, yang menunjukkan bahwa struktur sponsor-offtaker kini menjadi mekanisme standar.",
+      "secondOrder": "Jika Anthropic menjadi offtaker dalam struktur project finance senilai ini, model bisnis Anthropic berubah dari perusahaan AI murni menjadi entitas dengan kewajiban infrastruktur jangka panjang. Hal ini akan mempengaruhi profil risiko Anthropic di mata investor, mempersulit valuasi berbasis pendapatan SaaS, dan berpotensi memaksa Anthropic mencari mitra ekuitas baru atau instrumen utang hibrida untuk menjaga neraca tetap sehat.",
+      "action": "Tim investasi dan analis yang mengevaluasi eksposur ke Anthropic atau Nscale perlu memodelkan ulang profil kredit keduanya menggunakan kerangka sponsor-offtaker-EPC: periksa apakah Anthropic memiliki cukup pendapatan berulang untuk memenuhi kewajiban offtake multi-tahun, dan apakah Nscale memiliki jaminan completion yang memadai sebelum financial close.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGMyclR5X0JrXzBKem90Uk1sZnBQNkcyRnlyc3ZnWTM4Q0ZoUWtKUzRrd1Y3aHlqaDRjT1pfaFdmV0pHYUFROFI3TFhTWVhtczJsM01PSF8tSEtXejB4emlhVjZGMmQzeWh0RXJoaS0tNDQ1SDhlZDRJZU5hZG5ibE85N3dxU21DS2ZKYm1NV2pVUUF4ZjF3XzQ1ZncwaHVMdXlWZ2FsWjRtQ1d0eFN2YUVQc2x4cTd6YjNwSTVuVUFQZw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-09-21",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Terbitnya PP dan PMK untuk insentif PPh final 0% restrukturisasi BUMN: tanpa dua aturan ini, seluruh jadwal konsolidasi Danantara Q4 2026 berisiko tertunda.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Revisi RUPTL yang dikonfirmasi untuk memastikan serapan listrik PSEL: Denera dan 34 kreditur panel menunggu kepastian volume offtake sebelum financial close.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Konfirmasi atau pembatalan negosiasi Nscale-Anthropic $45 miliar: jika deal ini terkonfirmasi, ia akan menjadi benchmark baru pembiayaan infrastruktur AI dan mempengaruhi standar due diligence pusat data global.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Perkembangan RUU keamanan AI yang dilobi Anthropic di Kongres AS: momentum legislatif ini akan menentukan apakah standar keamanan Anthropic menjadi kerangka regulasi global.",
+      "dueDate": "2027-03-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "Investing in the public benefit",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-18T16:49:35.000Z"
+    },
+    {
+      "title": "Denera Tunggu Revisi RUPTL, Pastikan Serapan Listrik PSEL",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRGstcmZUd2o3b3c5anBTV0k3X0hQdHZyQ25GWWxqZ1RFQ2lzMjJiRjRuSmVEVDZjWjl6QTVZcVVHQld6ZTJEc2ZTWDBxVktydkNlSjZKblJacFlkMTBWQ0Z1WWRkNDZndmNRbFRtZGNnVExYc1lZYXFoWl9JaV9jem5pM1dPaEJHLUNpbTIwcVkwRVQ3SkhrTlFrRDlsUXJaOHVxajFmQTNfbDhU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-19T13:20:00.000Z"
+    },
+    {
+      "title": "DJP Tunggu PP & PMK soal PPh 0% untuk Restrukturisasi BUMN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T04:40:00.000Z"
+    },
+    {
+      "title": "Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGMyclR5X0JrXzBKem90Uk1sZnBQNkcyRnlyc3ZnWTM4Q0ZoUWtKUzRrd1Y3aHlqaDRjT1pfaFdmV0pHYUFROFI3TFhTWVhtczJsM01PSF8tSEtXejB4emlhVjZGMmQzeWh0RXJoaS0tNDQ1SDhlZDRJZU5hZG5ibE85N3dxU21DS2ZKYm1NV2pVUUF4ZjF3XzQ1ZncwaHVMdXlWZ2FsWjRtQ1d0eFN2YUVQc2x4cTd6YjNwSTVuVUFQZw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-19T22:59:41.000Z"
+    },
+    {
+      "title": "Anthropic Pitches AI Safety Bill to Lawmakers, Politico Says",
+      "publisher": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcENENWdpRlloLVpNclIyQWpIM3JSV3VHZklqOWZlQ0NJYnB2TWg2ZlhPMndNbS1qM2pWM0dTTVFZQ2l1SmxTT1h3VjZJNVpXTWhZTHRnLThqYm9UeFJ4ZEp0U3JROG1sUFJrN3Z6SEFKN2tPcU5teHZ6cU9JUDh4X1laZVZJMkZNNXNSZnJlZDdOX0dFMlM5REZCSGRHR3AydkdCbUY3RU9zYTRoNzdz?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T23:16:18.000Z"
+    },
+    {
+      "title": "Insentif PPh 0% Restrukturisasi BUMN Masih Tunggu 2 Aturan Ini",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T01:10:06.000Z"
+    },
+    {
+      "title": "Industri Jatim Tumbuh Pesat, PLN UIT JBM Siapkan Penguatan Transmisi 500 kV",
+      "publisher": "kabarbisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQkdkay1MdGFXakFGTHMxTW16anR4RkQ2eVVXWGVURnQtZXBlNTk2cFV5c0dnZllqLXhpVnJYa1dHbXBrbFdTbklHQWt3MjR1OGpKdWR1MDBKZVFCZVU3MmFJb0FvblcxZGtkUGVEODd3enNibFR0TWt1Nzc3QlJMY0tsVUhzSXBDdVhOSkhUdWpMSmxfaktwaGVjazhZQUtOWXdKQ2tvdHFyUXV4ZFZadFhrMTYyRms?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-19T06:03:00.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bisa Kena PPh 0 Persen, tetapi Aturannya Belum Final",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T23:32:00.000Z"
+    },
+    {
+      "title": "34 Lembaga Keuangan Masuk Panel Pembiayaan PSEL Danantara",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdkw3UjNod1VLU1llWnZmT0w5clo5QnctTnBhLWQ3YWVraEU2R3RxUVRKeGJPYWdaUkVBdE5HZjAzQ2VHZVFsc2VRa0JQZ0N0U3hEQmpLTmNBMVVsUm5TM0NHSDJQeGlxUmJaVGlRczkyN2FYZnRsSTA2YzllV202dEFIeGxSeDJmTEIwM09wTDdNXy1GZFQtdXZwMWVCM0tVUEpwRTQ0eUw3dw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-19T16:00:00.000Z"
+    },
+    {
+      "title": "DJP sebut aturan PPh final 0 persen restrukturisasi BUMN belum final",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T15:48:06.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Suroso Isnandar pimpin PLN dengan warisan lebih dari 700 proyek pembangkit menunggu eksekusi",
+      "occurrences": 29,
+      "firstSeen": "2026-09-20",
+      "lastSeen": "2026-10-19",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara amankan 34 lembaga keuangan sebagai lenders panel untuk proyek PSEL",
+      "occurrences": 29,
+      "firstSeen": "2026-09-20",
+      "lastSeen": "2026-10-19",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic secara terbuka membahas kemungkinan kesadaran Claude dan implikasinya",
+      "occurrences": 28,
+      "firstSeen": "2026-09-20",
+      "lastSeen": "2026-10-19",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN operasikan PLTD Sidera 20 MW di Sigi untuk perkuat interkoneksi Sulawesi-Selatan",
+      "occurrences": 24,
+      "firstSeen": "2026-09-20",
+      "lastSeen": "2026-10-18",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "Microsoft mundur dari kesepakatan pusat data Nscale di Inggris; investor buang obligasi data center AI",
+      "occurrences": 20,
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-19",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 370,
+    "poolSize": 110,
+    "generatedAt": "2026-10-19T23:38:19.206Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
