@@ -1,0 +1,387 @@
+{
+  "slug": "2026-10-21",
+  "date": "2026-10-21",
+  "lang": "en",
+  "title": "Anthropic Safety Bill, PLN Diesel Expansion, BUMN Tax Stall: Five Signals",
+  "dek": "A proposed U.S. AI safety law, Indonesia's deepening fuel and power reliability crisis, a stalled BUMN restructuring tax incentive, and Danantara's Mecca hotel acquisition together shift near-term planning across all three domains.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "Anthropic has pitched a U.S. federal AI safety bill that would authorize regulators to block model deployment if a model could enable mass-casualty events, a move that converts Anthropic's internal safety posture into proposed law and raises compliance costs industry-wide. In Indonesia, PLN is adding diesel generation in Central Sulawesi while IESR documents recurring blackouts and fuel queues two years into the Prabowo administration, signaling that reliability, not just transition, is now the acute political pressure on new PLN Director Suroso Isnandar. The PPh 0% tax incentive enabling BUMN restructuring asset transfers remains blocked: DJP is waiting for two subordinate regulations, a Government Regulation and a Ministerial Regulation, before the incentive can apply, directly slowing Danantara's consolidation timeline. Danantara meanwhile completed a hotel acquisition in Mecca and is staging the DTIIF 2026 investment forum, projecting portfolio activity even as its structural enabling conditions lag. Pertamina Geothermal recorded a production record of 4,114 GWh, a concrete output milestone inside Indonesia's geothermal thread that runs separately from the policy blockages affecting other state assets.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "TechCrunch"
+      ],
+      "headline": "Anthropic pitches U.S. federal bill to block AI models that could enable 50 or more deaths",
+      "whatChanged": "Anthropic has proposed federal AI safety legislation that would authorize regulators to halt deployment of any AI model assessed capable of enabling an event killing 50 or more people. TechCrunch reported the proposal on 2026-10-20, and Anthropic's own 2026-10-18 publication on investing for public benefit provides the governance context.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread, which is now structural across 28 editions. Anthropic is no longer only publishing internal safety commitments; it is seeking to convert those commitments into binding legal standards that would apply to all frontier developers. A numeric casualty threshold in statute is qualitatively different from voluntary guidelines: it creates a justiciable standard and a regulatory trigger.",
+      "secondOrder": "If the bill advances even partially, it shifts the competitive dynamic between safety-forward labs and faster-moving rivals. Labs without mature internal red-teaming and hazard-assessment pipelines face both compliance cost and reputational exposure in procurement by regulated sectors. The threshold language also creates an incentive for adversarial framing: what counts as a model enabling an event, versus a model being misused, will be contested and will generate litigation even before any model is blocked.",
+      "action": "Map your organization's AI vendor contracts against the proposed threshold language: identify which deployed or procured models would require a hazard assessment under the draft bill, and verify whether your vendor agreements include representations about safety evaluation. Revisit this before any new frontier model procurement this quarter.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaDFyYXc1VXhSNWszSTJjeHpqMzhfNnJyaU44UURVY2tKdl9PdVh1TXRnQ3lrRktDV1VhMEttU25ERGFKaXFKZmlsN0tZZDlGWVhPM0VKMXA1VHZlN0pja1BNSExXUnFTRUtES2xoM3hXdG95MDNSSjFDZTFOck1ZaXlVMDZwMW56VWlRVzVXTzY5TmdrZnoxVG51ZmhGQl8zeC1DeTcwalM3RzhISi1ncUE1Z2FXYUZOTXlB?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "DJP",
+        "Bloomberg Technoz",
+        "ANTARA News"
+      ],
+      "headline": "DJP confirms PPh 0% BUMN restructuring incentive cannot apply until two subordinate regulations are issued",
+      "whatChanged": "The Directorate General of Taxes (DJP) publicly confirmed that the zero-percent income tax incentive for BUMN asset transfers during restructuring is not yet operative. Two regulations, a Government Regulation (PP) and a Ministerial Regulation (PMK), must be issued before the incentive takes legal effect. Bloomberg Technoz, CNBC Indonesia, Kompas.com, and ANTARA News all reported this as of 2026-10-15 to 2026-10-16.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now at 29 editions and structural. The incentive was announced as a condition for making consolidation of BUMN assets into Danantara fiscally viable. Its non-operability means that any inter-entity asset transfer executed now would incur full corporate tax, making the financial model of consolidation materially worse and slowing the entire restructuring schedule that President Prabowo publicly set for completion in 2026.",
+      "secondOrder": "The regulatory gap creates a sequencing risk that the market has not fully priced: BUMN entities considering mergers or asset transfers may delay decisions until the PP and PMK are gazetted, but the gazetting timeline is not public. If the year-end restructuring deadline passes without the regulations, the political credibility of the 2026 target collapses, which will affect the perceived creditworthiness of Danantara's debt instruments, including the dollar bond and Panda Bond already in circulation.",
+      "action": "Track the legislative pipeline at DJP and the Ministry of Finance for the PP and PMK drafts. If you hold or are evaluating Danantara-linked instruments, set a review trigger for 2026-11-30: absence of gazette by that date materially extends restructuring timelines into 2027 and changes the credit profile.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "IESR",
+        "Suroso Isnandar",
+        "CNBC Indonesia",
+        "Kompas.id"
+      ],
+      "headline": "PLN adds diesel capacity in Sigi, Central Sulawesi as IESR documents systemic reliability failure under two-year Prabowo review",
+      "whatChanged": "PLN is deploying additional diesel generation in Sigi, Central Sulawesi, reported by both CNBC Indonesia and Kompas.id on 2026-10-20, with figures of 50 MW and 20 MW cited across the two reports. On the same date, IESR published a two-year assessment of the Prabowo-Gibran administration stating that recurring blackouts and fuel shortages in 2026 demonstrate a systemic failure in supply security, and called for structural reform rather than incremental fixes.",
+      "whyItMatters": "This continues the pln-grid-investment thread, now structural at 28 editions. New PLN Director Suroso Isnandar, appointed 14 October 2026, inherited a pipeline of over 700 generation projects awaiting execution. The diesel addition in Sigi is an emergency reliability measure, not a transition-aligned investment, and its deployment so early in Suroso's tenure signals that reliability pressure is forcing short-term decisions that compete with the renewable transition agenda IESR and IEEFA have mapped.",
+      "secondOrder": "Diesel additions create stranded-asset risk: if they are deployed on multi-year contracts and grid reliability improves through renewable or gas projects later, the diesel capacity becomes a cost burden on PLN's balance sheet and on tariffs. They also create a political anchor against tariff increases, since diesel generation costs will be absorbed by PLN or subsidized, weakening the financial headroom needed for transmission investment.",
+      "action": "Request from PLN or its public disclosures the contract duration and fuel cost assumption for the Sigi diesel addition. Compare that cost to the levelized cost of the renewable or gas alternatives already in PLN's pipeline for Sulawesi. The gap is the stranded-asset exposure to model for any transmission or generation investment in the region.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjdQLVU3cGFjQUc3X05WeUlIdkdHZUgtZm1TMW1ncFhJamVIUmZBdEt3NlkzZkw1RGRiVlNKR0x5VmQ3ZzdUOGhtWEFwb2dmUWxxZlRGT0JiVjEtNmJVUHl1U0JIS1NCQWplUzEzOUctTUFsdnRCZDRwQTVYb3Z5TC1IR1lNUXBTYlJGMmlLQ2V1U2M2VTY1WTN2azVBZkNYaVktMG1EdzZnZWgtOFBaZnFqU2dkdmFxcWdEQ19lXzNUQdIBxwFBVV95cUxNMWJRVUE0bFFud2xURXR3d3BZb1lzMXlBMl84dGd1LXFnSWZNNVpXcGtxVEdfczVuTUl2elhLR2NjOWxoN0pfMHlNMmhNOXB3eW81cFU3UlpMRmd3QTR2Qm0wSkMtMjM1QkZmZTJYNzRkdklKOGN6NHBSZnBWbnh2dG9VN2szYm1SNHRNSlRaR3RvTWRIZUprUk1uMFJsZUZxOS02WXpxakx0T3RDS2czWXJqclBRcHBFcmgtMHR4ZFJhcEFWbFZn?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYTcwcmE5SUxicEpXT2U2SjlQWkVKS1V1Mi1xQXo4ZVdWTTF5OUlUcU9EVENNV09rUHBIV3E5b1AybmN2QTZTZmdGc21iUW5LUnNweUtueWZTZm1FQ3lpWVRXMFRHVjVxWW5IekQ5SHZrM05VS2FMejZ0bnc0ak1UZnl1SFpORzczVVhxd1hMazJNOFdlRjMzdGY5UU9ycFAzVWd6X2x2dDlQZS1IZmIyNVVDQXdhOEdNQi1WSHFaazk?oc=5",
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara Indonesia",
+        "CNBC Indonesia",
+        "CNN Indonesia"
+      ],
+      "headline": "Danantara completes Mecca hotel acquisition and stages DTIIF 2026 forum as portfolio activity continues despite structural delays",
+      "whatChanged": "Danantara Indonesia announced completion of a hospitality asset acquisition in Mecca on 2026-10-19, and on 2026-10-20 CNBC Indonesia reported that Danantara is hosting the Danantara Technology and Investment Innovation Forum (DTIIF) 2026. CNN Indonesia on the same date described Danantara as the primary investment vehicle of the Prabowo administration at the two-year mark.",
+      "whyItMatters": "Danantara is executing outbound acquisitions and staging investor forums while the domestic regulatory infrastructure enabling its BUMN consolidation mandate remains incomplete. The Mecca acquisition is consistent with Danantara's stated strategy of deploying sovereign capital into hospitality and tourism assets tied to Indonesian diaspora flows, but it represents balance-sheet deployment independent of the restructuring tax incentive. The DTIIF forum signals that Danantara is positioning itself for a new round of technology-linked investment commitments.",
+      "secondOrder": "The combination of visible deal activity and blocked domestic restructuring creates a governance optics problem: Danantara can execute foreign acquisitions faster than it can consolidate domestic BUMN assets, which may attract scrutiny from parliamentary oversight bodies and ratings agencies assessing whether the sovereign wealth vehicle's governance matches its deal pace.",
+      "action": "Before engaging with Danantara at DTIIF 2026 or in any co-investment conversation, confirm whether the target asset or commitment is domestic BUMN-linked (and therefore dependent on the PP and PMK) or is a direct Danantara balance-sheet deployment. The two categories carry different execution risk this quarter.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdlVmx2bG5XS21NQl9sN0M2cnZzeC00YUJCNWVDOTMzMk1jS3RETE1pX1NvMzdUUlBua1lNYklvczNRTndPVTF0OVgwX0xBeGtOaElYdmNaY09WWWQ4NzNVZDZfRmNNSnF5c0pkV3JhZ3Q4ajRkYm9DaG14WG5xaThQM3ZpMzE2RTZQeVVkVUxUdEZZWjBFaTlIRF8tZm1BR19lRG5iTEREeDFqc3RSNzQ0ZzNUbEp3Z2c?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlhxdjluRXZsbHh4OUNFTF9KM3NDWS0yMmszTWc5X21aSHFrQ1o4elN3TmduZ1hIMk14eTJoazRtN0ZUOHRyTGlKS1pBUVVGdFFreDJYS0VmTTRvTnJxSU51Vm1zSEJUazVvby1WMGpKWkxmeFZpVVVlNVZuUy1TN0xsbVdlMDNmOGdwMXhJd2FseUNSVkFOX2NCdHEtSDRuSllaMzBqWHYweUlsZ0JjRm9meHJrRFRzLVNDMg?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWXF5MGdLTFRvLVJwdjZLamdkOHByNjhYYzhzQzVVUDBqel9mR0lINWQ3R3ItT21pSjAtcm1TQU5rd2o2M2dKcFlveVkzV2pwRDZIRTJoeFJOYW4xbTkwMmlOcXdEaG5JSE5pNUtLTVZVYm1fQlZKN3lwSTE5djlYSzcyaVM0OVNpVU44OTFYMkYtMTZKS1o1NktGdWQ3djZ4dFNQLVpNTGczeGdSSlkzLWVQYVdmMjNzWjVYSXFXaTRtdkhLaFBN0gHMAUFVX3lxTE5reUpJS1ZEMXVpekxQMFVNb1psY3FBTUVFM29qUGdCc0w4VEU4V3Z1ZVlPcE5fVHJzMC1uUU1HTWxwemVkWTF0dnVORi13U2ZoME5jaUFkeVZ5MDdlRmZOZ1M4bWxsbUZzNEI1TlZJT3VGWk9WNWlXQlhSSV90NVBpNjMxblRGRE5yb0pjMGI5Yk5iaEtaZWE4SE9pNTVWU2RPU1BTdGFYekMtZVNGMVlDbUJiUFlzcnBqLUNGVm9ESTNpSk1uSGJaaG5pdQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "Pertamina Geothermal Energy",
+        "PGEO",
+        "Bisnis.com"
+      ],
+      "headline": "Pertamina Geothermal records 4,114 GWh, a production high, as Indonesia's geothermal output thread continues",
+      "whatChanged": "Pertamina Geothermal Energy (PGEO) reported a record electricity production figure of 4,114 GWh, according to Bisnis.com on 2026-10-20. This is the highest output figure reported in the candidate set for PGEO.",
+      "whyItMatters": "The indonesia-geothermal-concession-reform theme has tracked 7 editions. A production record is a concrete output milestone that separates geothermal from the broader energy reliability failure IESR documented: while PLN is adding diesel in Sulawesi and fuel queues persist in East Java and Bali, geothermal is delivering on volume. PGEO's performance strengthens the financial and operational case for concession reform and upstream investment that IESR and Kompas.com have flagged as underleveraged relative to Indonesia's potential as the world's largest geothermal resource holder.",
+      "secondOrder": "A record production year for PGEO, coinciding with visible fuel and electricity reliability failures elsewhere, gives reform advocates a concrete counter-example to the argument that Indonesia's energy sector cannot execute at scale. This may accelerate regulatory appetite for the concession reforms that have stalled, particularly if PGEO uses the production record in its investor communications ahead of any capital raise or project financing.",
+      "action": "Check PGEO's investor relations for a breakdown of the 4,114 GWh by asset, and identify which concessions are approaching capacity limits. Those are the assets where new drilling investment or concession extension decisions are most time-sensitive, and where regulatory reform would have the highest near-term impact.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWlMwbjdkczYxc1RRdkpXYkhNVVg0ZTBZd2xUUjZablRKeDQzTmVLeHZNcVg0RTFpR3I3SFZQSVltdEN2aWZRM29xWV8yMnRLVGdjWk5rU2VQa3l4eTZ0T2NkUWtESzN1M3had3Q2VHluT3pPaWZ6aFFhRlZFYldzWXY4TzJiMGk0MnNYQVZoa1V1Qlo3VmVXSEdaU3ItSlJfbGwtSUR2OXYxdG00cnFnZDRDTzhsV05YZnEwdUFFOE9USlE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-09-21",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Gazette publication of PP and PMK enabling PPh 0% for BUMN restructuring: absence by this date signals restructuring slips to 2027",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Anthropic AI safety bill progress in U.S. Congress: committee referral or hearing scheduled would confirm legislative momentum",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "PLN Sulawesi diesel contract terms and duration disclosure: required to assess stranded-asset exposure against renewable pipeline",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Danantara DTIIF 2026 investment commitments: announcements made at the forum will indicate whether new commitments are domestic-restructuring-dependent or direct balance-sheet",
+      "dueDate": "2026-10-31"
+    },
+    {
+      "item": "PGEO production breakdown by concession and any capital raise or project financing announcement linked to the 4,114 GWh record",
+      "dueDate": "2026-12-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dua Tahun Prabowo-Gibran, IESR Desak Pembenahan Pasokan BBM dan Keandalan Listrik",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T05:04:44.000Z"
+    },
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "Danantara Indonesia Rampungkan Akuisisi Aset Perhotelan di Makkah, Dorong Pengem...",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdlVmx2bG5XS21NQl9sN0M2cnZzeC00YUJCNWVDOTMzMk1jS3RETE1pX1NvMzdUUlBua1lNYklvczNRTndPVTF0OVgwX0xBeGtOaElYdmNaY09WWWQ4NzNVZDZfRmNNSnF5c0pkV3JhZ3Q4ajRkYm9DaG14WG5xaThQM3ZpMzE2RTZQeVVkVUxUdEZZWjBFaTlIRF8tZm1BR19lRG5iTEREeDFqc3RSNzQ0ZzNUbEp3Z2c?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-19T12:42:51.000Z"
+    },
+    {
+      "title": "Jaga Keandalan, PLN Tambah Pembangkit Diesel 50 MW di Sigi Sulteng",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNjdQLVU3cGFjQUc3X05WeUlIdkdHZUgtZm1TMW1ncFhJamVIUmZBdEt3NlkzZkw1RGRiVlNKR0x5VmQ3ZzdUOGhtWEFwb2dmUWxxZlRGT0JiVjEtNmJVUHl1U0JIS1NCQWplUzEzOUctTUFsdnRCZDRwQTVYb3Z5TC1IR1lNUXBTYlJGMmlLQ2V1U2M2VTY1WTN2azVBZkNYaVktMG1EdzZnZWgtOFBaZnFqU2dkdmFxcWdEQ19lXzNUQdIBxwFBVV95cUxNMWJRVUE0bFFud2xURXR3d3BZb1lzMXlBMl84dGd1LXFnSWZNNVpXcGtxVEdfczVuTUl2elhLR2NjOWxoN0pfMHlNMmhNOXB3eW81cFU3UlpMRmd3QTR2Qm0wSkMtMjM1QkZmZTJYNzRkdklKOGN6NHBSZnBWbnh2dG9VN2szYm1SNHRNSlRaR3RvTWRIZUprUk1uMFJsZUZxOS02WXpxakx0T3RDS2czWXJqclBRcHBFcmgtMHR4ZFJhcEFWbFZn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-20T06:40:01.000Z"
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaDFyYXc1VXhSNWszSTJjeHpqMzhfNnJyaU44UURVY2tKdl9PdVh1TXRnQ3lrRktDV1VhMEttU25ERGFKaXFKZmlsN0tZZDlGWVhPM0VKMXA1VHZlN0pja1BNSExXUnFTRUtES2xoM3hXdG95MDNSSjFDZTFOck1ZaXlVMDZwMW56VWlRVzVXTzY5TmdrZnoxVG51ZmhGQl8zeC1DeTcwalM3RzhISi1ncUE1Z2FXYUZOTXlB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-20T23:01:23.000Z"
+    },
+    {
+      "title": "Investing in the public benefit",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-18T18:13:26.000Z"
+    },
+    {
+      "title": "DJP Tunggu PP & PMK soal PPh 0% untuk Restrukturisasi BUMN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T04:40:00.000Z"
+    },
+    {
+      "title": "PLN Tambah Pembangkit 20 MW di Sigi, Membuka Harapan Masyarakat Pelosok",
+      "publisher": "Kompas.id",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYTcwcmE5SUxicEpXT2U2SjlQWkVKS1V1Mi1xQXo4ZVdWTTF5OUlUcU9EVENNV09rUHBIV3E5b1AybmN2QTZTZmdGc21iUW5LUnNweUtueWZTZm1FQ3lpWVRXMFRHVjVxWW5IekQ5SHZrM05VS2FMejZ0bnc0ak1UZnl1SFpORzczVVhxd1hMazJNOFdlRjMzdGY5UU9ycFAzVWd6X2x2dDlQZS1IZmIyNVVDQXdhOEdNQi1WSHFaazk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-20T06:18:02.000Z"
+    },
+    {
+      "title": "Insentif PPh 0% Restrukturisasi BUMN Masih Tunggu 2 Aturan Ini",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T01:10:06.000Z"
+    },
+    {
+      "title": "Pertamina Geothermal (PGEO) Cetak Rekor Produksi Listrik Panas Bumi 4.114 GWh - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWlMwbjdkczYxc1RRdkpXYkhNVVg0ZTBZd2xUUjZablRKeDQzTmVLeHZNcVg0RTFpR3I3SFZQSVltdEN2aWZRM29xWV8yMnRLVGdjWk5rU2VQa3l4eTZ0T2NkUWtESzN1M3had3Q2VHluT3pPaWZ6aFFhRlZFYldzWXY4TzJiMGk0MnNYQVZoa1V1Qlo3VmVXSEdaU3ItSlJfbGwtSUR2OXYxdG00cnFnZDRDTzhsV05YZnEwdUFFOE9USlE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-20T06:49:44.000Z"
+    },
+    {
+      "title": "Danantara Gelar DTIIF 2026 Dorong Investasi & Inovasi Teknologi",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlhxdjluRXZsbHh4OUNFTF9KM3NDWS0yMmszTWc5X21aSHFrQ1o4elN3TmduZ1hIMk14eTJoazRtN0ZUOHRyTGlKS1pBUVVGdFFreDJYS0VmTTRvTnJxSU51Vm1zSEJUazVvby1WMGpKWkxmeFZpVVVlNVZuUy1TN0xsbVdlMDNmOGdwMXhJd2FseUNSVkFOX2NCdHEtSDRuSllaMzBqWHYweUlsZ0JjRm9meHJrRFRzLVNDMg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-20T09:30:30.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bisa Kena PPh 0 Persen, tetapi Aturannya Belum Final",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T23:32:00.000Z"
+    },
+    {
+      "title": "2 Tahun Prabowo-Gibran, Danantara Mesin Penggerak Investasi Negara",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWXF5MGdLTFRvLVJwdjZLamdkOHByNjhYYzhzQzVVUDBqel9mR0lINWQ3R3ItT21pSjAtcm1TQU5rd2o2M2dKcFlveVkzV2pwRDZIRTJoeFJOYW4xbTkwMmlOcXdEaG5JSE5pNUtLTVZVYm1fQlZKN3lwSTE5djlYSzcyaVM0OVNpVU44OTFYMkYtMTZKS1o1NktGdWQ3djZ4dFNQLVpNTGczeGdSSlkzLWVQYVdmMjNzWjVYSXFXaTRtdkhLaFBN0gHMAUFVX3lxTE5reUpJS1ZEMXVpekxQMFVNb1psY3FBTUVFM29qUGdCc0w4VEU4V3Z1ZVlPcE5fVHJzMC1uUU1HTWxwemVkWTF0dnVORi13U2ZoME5jaUFkeVZ5MDdlRmZOZ1M4bWxsbUZzNEI1TlZJT3VGWk9WNWlXQlhSSV90NVBpNjMxblRGRE5yb0pjMGI5Yk5iaEtaZWE4SE9pNTVWU2RPU1BTdGFYekMtZVNGMVlDbUJiUFlzcnBqLUNGVm9ESTNpSk1uSGJaaG5pdQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-20T07:56:21.000Z"
+    },
+    {
+      "title": "DJP sebut aturan PPh final 0 persen restrukturisasi BUMN belum final",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T15:48:06.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "PPh 0% restrukturisasi BUMN tertahan: DJP tunggu PP dan PMK sebelum insentif berlaku",
+      "occurrences": 29,
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic publikasikan posisi investasi untuk manfaat publik, mengukuhkan struktur tata kelola PBC",
+      "occurrences": 28,
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Suroso Isnandar pimpin PLN dengan warisan lebih dari 700 proyek pembangkit menunggu eksekusi",
+      "occurrences": 28,
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-19",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 24,
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "Nscale dan Anthropic negosiasi kontrak cloud $45 miliar, melanjutkan pola pembiayaan infrastruktur AI skala proyek",
+      "occurrences": 21,
+      "firstSeen": "2026-09-21",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 353,
+    "poolSize": 110,
+    "generatedAt": "2026-10-21T00:11:22.927Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
