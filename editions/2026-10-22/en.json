@@ -1,0 +1,346 @@
+{
+  "slug": "2026-10-22",
+  "date": "2026-10-22",
+  "lang": "en",
+  "title": "Claude Duet Launches; BUMN Tax Break Stalls; ASEAN Ditches Net-Zero Path",
+  "dek": "An agentic AI product launch, a blocked fiscal enabler for Indonesian SOE restructuring, and a regional energy outlook abandonment converge to force near-term decisions across all three domains.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Anthropic has released Claude Duet as a standalone AI agent app, sharpening the competitive boundary between ambient AI assistants and autonomous task execution. In Indonesia, the 0% income-tax incentive designed to smooth Danantara-led BUMN restructuring remains legally inoperative because two implementing regulations are still unsigned, creating a compounding delay risk as the reform clock runs. IESR's two-year assessment of the Prabowo-Gibran administration concludes that fuel shortages and repeated blackouts in 2026 represent systemic failure at PLN and Pertamina, not weather events, adding independent pressure on the new PLN director Suroso Isnandar. ASEAN's official energy outlook, endorsed by ministers in October, has dropped its carbon-neutrality scenario and projects higher emissions by 2050, a structural signal that regional grid and generation investment will track gas, not clean power. OpenAI's simultaneous expansion into Google Cloud's Model Garden and into 26 new countries for ChatGPT Ads marks a distribution pivot that changes how enterprise AI contracts and advertising revenues flow.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "DJP"
+      ],
+      "headline": "Indonesia's 0% income-tax incentive for BUMN restructuring remains blocked pending two unissued regulations",
+      "whatChanged": "As of 22 October 2026, the Directorate General of Taxes (DJP) has confirmed that the government regulation (PP) and ministerial finance regulation (PMK) required to operationalize the 0% final income-tax incentive for BUMN restructuring transactions have not been signed. Bloomberg Technoz, CNBC Indonesia, Kompas.com, and ANTARA News all reported this gap between 15 and 16 October 2026, citing DJP directly.",
+      "whyItMatters": "Danantara's consolidation of Indonesian SOEs depends on asset transfers and mergers that would ordinarily trigger large tax liabilities. The 0% incentive is the fiscal lubricant for those transactions. Every week the implementing rules are unsigned is a week in which restructuring transactions that have already been announced cannot close without incurring costs the policy was designed to waive.",
+      "secondOrder": "The regulatory delay creates an asymmetric risk: Danantara has made public commitments on restructuring timelines, including the Mecca hotel acquisition and the CX100 award program, signaling portfolio activity. If the tax rules slip further, the gap between Danantara's public deal-making posture and its legal capacity to close transactions without fiscal penalty will widen, increasing the probability of either renegotiated deal terms or deferred closings that damage creditor confidence ahead of any future bond issuances.",
+      "action": "Analysts covering Danantara or Indonesian SOE bonds should track DJP's official communications for PP and PMK publication dates this week, and model restructuring timelines under both a Q4 2026 and a H1 2027 rule-issuance scenario to size the delay's impact on consolidated balance sheets.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "PLN",
+        "Pertamina",
+        "Suroso Isnandar"
+      ],
+      "headline": "IESR labels Indonesia's 2026 fuel shortages and blackouts systemic failure, not weather anomaly, on Prabowo-Gibran two-year mark",
+      "whatChanged": "IESR published a formal two-year assessment on 20 October 2026 concluding that fuel shortages and repeated electricity outages across Indonesia in 2026 represent systemic failures at PLN and Pertamina, not temporary disruptions caused by drought. The report calls for structural reform of supply management at both entities. A companion solidarity statement from 19 October named affected communities directly.",
+      "whyItMatters": "This continues the structural thread in the archive. IESR's framing upgrades the severity classification from operational disruption to governance failure, applying pressure on the newly appointed PLN director Suroso Isnandar, who took office on 14 October 2026. The governor of East Java, Khofifah, has separately escalated to the Ministry of Energy and Mineral Resources over fuel misuse in the province, corroborating the geographic scope.",
+      "secondOrder": "A systemic-failure classification by an independent think tank, coinciding with a leadership transition at PLN, raises the probability that the new director will be judged by how quickly visible reliability metrics improve rather than by long-cycle infrastructure metrics. This creates incentive to prioritize short-term generation additions, such as PLN's announced 50 MW plant in Sigi, Sulawesi, over the transmission subholding reforms that IEEFA and IESR have argued are structurally necessary. Short-termism in the reliability response could delay the grid investment that renewable integration requires.",
+      "action": "Investors and lenders with exposure to PLN's bond or project pipeline should request clarity from PLN on whether Suroso Isnandar's first 100-day plan prioritizes generation capacity additions or transmission reform, and reassess project timelines accordingly.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+        "https://iesr.or.id/pernyataan-iesr-solidaritas-bagi-warga-terdampak-kabut-asap-dan-kelangkaan-bbm/",
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+        "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+        "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1FjejYzRXdvMTJILXJRem44Tm5xREtFNWlIcmp6ZWZvNTluZDJjWFQ4dkh4YWNNUktPUmc5RmhjQy03Sjgzckc4TFVUcEEwYnhXVzZJMHVKVHZrUWNlU1FOZFQzVVhtR2toRTRPMV80SXd1a09oVm1iYU9EWUoxalM3cEZrelBEUDdZZWV5TXE5WXZsUnlkbGxPeUZRQXhCUnYxZjVIQzNxZzBidzMxZ3lvNS02MV9NeXZKOUVuelZDXzVacXd1NQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMlB2Ri13Tk9sV1NSN1RrMzJpOWhjaFNLRWpYdk1wUGM3YzUwRndGOTFvQ29JUDlkTDVSa1VEMnNzVHNvOWs3NDZuY3ZjMnQ5Ql9uQ3J1MHBPSnBvSUFUX1FEc05NcTI3THZnZGNiN0VpUVh2aUdONG5sTndsdVRaQzl0N2lrOWoyWklTcGJPa2QyU185QUEzS2Qwamd3elBQX0pmQ2YxbVRJV1HSAaQBQVVfeXFMUFg1eW5lTEJnamxBVTJVLWx2dFFQRHF1eUp6SkFoeGlvUkk5Vmx4SnlrZmE2TjZpcEk5NzBWbEE5Q3gtbVJtWUJBN2pNQks1Yzkxb19adWhyVXB3S2VJUXNDVTFweGgxTk5WbURESFRoWTU4RzVyYTFiMnc5OVhkZEE1QWFYM3haNUQ4MTNEZkpoMXAtVmlzcmloNG16Q1htVkdwX28?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Google Cloud",
+        "ChatGPT Ads"
+      ],
+      "headline": "OpenAI places frontier models on Google Cloud and expands ChatGPT Ads to 26 countries, restructuring enterprise AI distribution",
+      "whatChanged": "OpenAI announced on 21 October 2026 that its frontier models and Codex workflows will be available through Google Cloud's Model Garden via the Google Cloud Marketplace. On the same date, OpenAI announced ChatGPT Ads has expanded to 26 new countries, with over 100,000 advertisers having used the platform.",
+      "whyItMatters": "Two distribution moves on the same day indicate OpenAI is pursuing a platform-neutral channel strategy: selling through a competitor's cloud marketplace while simultaneously building a direct advertising revenue stream. These moves are structurally inconsistent with a single-vendor lock-in model and suggest OpenAI is optimizing for total addressable user reach over ecosystem control.",
+      "secondOrder": "For enterprise IT and procurement, OpenAI's presence on Google Cloud Marketplace changes the procurement pathway: organizations already contracted with Google Cloud can now access OpenAI models under existing Master Service Agreements, reducing the legal and security review burden of adding OpenAI as a new vendor. This lowers the switching cost between Google and OpenAI products, which paradoxically benefits both vendors by expanding the addressable buyer pool, while shrinking the differentiation that cloud-exclusive deals previously provided.",
+      "action": "Enterprise technology buyers evaluating AI vendor contracts this week should check whether their existing Google Cloud agreements permit Model Garden access to OpenAI models, and if so, assess whether that route offers better data-residency or liability terms than a direct OpenAI enterprise contract.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/openai-models-google-cloud",
+        "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-09-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude Duet",
+        "Reuters"
+      ],
+      "headline": "Anthropic launches Claude Duet, a dedicated AI agent app, shifting Claude from assistant to autonomous product",
+      "whatChanged": "Anthropic released Claude Duet, a standalone AI agent application, as reported by Reuters on 21 October 2026. The product is distinct from the existing Claude assistant interface and is positioned for autonomous multi-step task execution.",
+      "whyItMatters": "The release marks a product-category boundary shift: Anthropic is no longer competing solely in the chat-assistant space but in the agentic workflow market alongside OpenAI's Operator and Google's Gemini agents. This continues the structural pattern where frontier labs monetize capability not through model licensing alone but through vertically integrated agent products.",
+      "secondOrder": "As Anthropic bundles safety claims with an agentic product, enterprise procurement teams face a new dilemma: the same lab that lobbies for AI safety regulation is now selling the class of product that regulation targets. Buyers who accept Anthropic's safety narrative as a procurement signal may be discounting the operational and liability risks that agentic autonomy introduces, risks that the label does not eliminate.",
+      "action": "Procurement and legal teams evaluating agentic AI contracts this week should request Anthropic's agent-specific usage policy documentation and map Claude Duet's permissioned action scope against existing enterprise data-governance frameworks before trialing.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRFhacjJyXzZ6ZzNUdkptUDkwRHFyV2pxSXhOc2JucmxQdDJFQ09WZ05DamcxS1NvNUx1b0cyR05DM1U3SzgwdXpvQlhaajl2dHNlVTVlYml2LVhLVENGaWtDbkdMWjFNVkdPMDRTWWFubXJsYkFZQ19peDBLMUI2cXF4cU1hN2lrU2FuZi1wSTRndFU?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-22",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "DJP publication of PP and PMK on 0% final income tax for BUMN restructuring; absence by end of November materially delays Danantara transaction timelines.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "PLN director Suroso Isnandar's first 100-day plan: whether it prioritizes short-cycle generation additions or the transmission subholding reform advocated by IEEFA and IESR.",
+      "dueDate": "2027-01-22"
+    },
+    {
+      "item": "Development finance institution responses to ASEAN energy outlook's removal of carbon-neutrality scenario, particularly any covenant reviews on JETP or ETM instruments.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Anthropic Claude Duet enterprise uptake and whether its agent-specific usage policies satisfy procurement requirements at regulated-industry buyers.",
+      "dueDate": "2026-12-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dua Tahun Prabowo-Gibran, IESR Desak Pembenahan Pasokan BBM dan Keandalan Listrik",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T05:04:44.000Z"
+    },
+    {
+      "title": "Pernyataan IESR: Solidaritas bagi Warga Terdampak Kabut Asap dan Kelangkaan BBM",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/pernyataan-iesr-solidaritas-bagi-warga-terdampak-kabut-asap-dan-kelangkaan-bbm/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-19T03:45:11.000Z"
+    },
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "DJP Tunggu PP & PMK soal PPh 0% untuk Restrukturisasi BUMN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T04:40:00.000Z"
+    },
+    {
+      "title": "Pendidikan dan karier Suroso Isnandar, Dirut baru PLN",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T11:11:47.000Z"
+    },
+    {
+      "title": "Anthropic unveils Claude Duet AI agent app",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRFhacjJyXzZ6ZzNUdkptUDkwRHFyV2pxSXhOc2JucmxQdDJFQ09WZ05DamcxS1NvNUx1b0cyR05DM1U3SzgwdXpvQlhaajl2dHNlVTVlYml2LVhLVENGaWtDbkdMWjFNVkdPMDRTWWFubXJsYkFZQ19peDBLMUI2cXF4cU1hN2lrU2FuZi1wSTRndFU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-21T20:25:35.000Z"
+    },
+    {
+      "title": "Insentif PPh 0% Restrukturisasi BUMN Masih Tunggu 2 Aturan Ini",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T01:10:06.000Z"
+    },
+    {
+      "title": "Profil Suroso Isnandar, dirut baru PLN pengganti Darmawan Prasodjo",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T03:45:26.000Z"
+    },
+    {
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-21T13:00:00.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bisa Kena PPh 0 Persen, tetapi Aturannya Belum Final",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T23:32:00.000Z"
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-21T12:00:00.000Z"
+    },
+    {
+      "title": "Khofifah-Emil Dardak Minta Kementerian ESDM Tindak Tegas Penyalahgunaan BBM di Jatim",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1FjejYzRXdvMTJILXJRem44Tm5xREtFNWlIcmp6ZWZvNTluZDJjWFQ4dkh4YWNNUktPUmc5RmhjQy03Sjgzckc4TFVUcEEwYnhXVzZJMHVKVHZrUWNlU1FOZFQzVVhtR2toRTRPMV80SXd1a09oVm1iYU9EWUoxalM3cEZrelBEUDdZZWV5TXE5WXZsUnlkbGxPeUZRQXhCUnYxZjVIQzNxZzBidzMxZ3lvNS02MV9NeXZKOUVuelZDXzVacXd1NQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-20T22:49:00.000Z"
+    },
+    {
+      "title": "DJP sebut aturan PPh final 0 persen restrukturisasi BUMN belum final",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWNudmJTTlMtNWF4RDZVb1ZQeXBwbkNjeExEX2VLNEo1RElwWmtiVXR4R1g2OEZ3eGhVVXFCRndBTEZzenIyOFYxMXNYblQyT05UdHVmZEJBdEVuV19Gci04UGtqOWN5MHRaS0JJNDUtTDZkWFhTbWE2bVEzcVB6RWNiOF93Y0FwYzZUQTkySjVkWXItcnB5Y3dSbll1bEZES1dMWWdLeDZxQmptdUZv0gGyAUFVX3lxTE5VUE1JQWZxby1UWkZRcjhsaVhvRGNJYm1hWkgtRXJDS2l4M25Jb3llZllTeXVjMFo5d3RFTU1WdU5ZSS1VM2d1RUVNUnNEV01TQUx6ZXRVTXFlZU80T2tkMl9ZczQxQ1JQM2w1Q2ExVjNvdWJSeUt3ZEdxNWFLY2RRZFNmcHR2dXJPSkw1b0xjS3hQWENDWjdSR0lxUTFMT2o3bi0xU21HWUh3R3hpaDZ1eFE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-15T15:48:06.000Z"
+    },
+    {
+      "title": "Khofifah Datangi Kantor Kementerian ESDM, Koordinasi Pasokan BBM di Jatim",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMlB2Ri13Tk9sV1NSN1RrMzJpOWhjaFNLRWpYdk1wUGM3YzUwRndGOTFvQ29JUDlkTDVSa1VEMnNzVHNvOWs3NDZuY3ZjMnQ5Ql9uQ3J1MHBPSnBvSUFUX1FEc05NcTI3THZnZGNiN0VpUVh2aUdONG5sTndsdVRaQzl0N2lrOWoyWklTcGJPa2QyU185QUEzS2Qwamd3elBQX0pmQ2YxbVRJV1HSAaQBQVVfeXFMUFg1eW5lTEJnamxBVTJVLWx2dFFQRHF1eUp6SkFoeGlvUkk5Vmx4SnlrZmE2TjZpcEk5NzBWbEE5Q3gtbVJtWUJBN2pNQks1Yzkxb19adWhyVXB3S2VJUXNDVTFweGgxTk5WbURESFRoWTU4RzVyYTFiMnc5OVhkZEE1QWFYM3haNUQ4MTNEZkpoMXAtVmlzcmloNG16Q1htVkdwX28?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-20T12:15:24.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara completes Mecca hotel acquisition and stages DTIIF 2026 forum as portfolio activity continues despite structural delays",
+      "occurrences": 29,
+      "firstSeen": "2026-09-22",
+      "lastSeen": "2026-10-21",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic ajukan RUU keselamatan AI dengan ambang batas 50 korban jiwa sebagai pemicu pemblokiran model",
+      "occurrences": 28,
+      "firstSeen": "2026-09-22",
+      "lastSeen": "2026-10-21",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR nilai kelangkaan BBM dan pemadaman listrik berulang 2026 sebagai kegagalan sistemik dua tahun pemerintahan Prabowo-Gibran",
+      "occurrences": 28,
+      "firstSeen": "2026-09-22",
+      "lastSeen": "2026-10-21",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 23,
+      "firstSeen": "2026-09-22",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "OpenAI akuisisi Orchestra Bio, menggeser model bisnis ke operasional R&D life sciences",
+      "occurrences": 21,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-21",
+      "status": "structural",
+      "domain": "ai"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 364,
+    "poolSize": 110,
+    "generatedAt": "2026-10-22T01:29:23.727Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
