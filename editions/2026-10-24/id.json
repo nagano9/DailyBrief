@@ -1,0 +1,421 @@
+{
+  "slug": "2026-10-24",
+  "date": "2026-10-24",
+  "lang": "id",
+  "title": "Danantara Tutup 700 BUMN; OpenAI Perkuat Isolasi Pelatihan Frontier",
+  "dek": "Restrukturisasi BUMN Indonesia mencapai skala operasional pada saat OpenAI merilis protokol keamanan pelatihan model frontier yang baru, dua sinyal yang secara bersamaan mengubah kalkulasi risiko di domain korporasi dan AI.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Danantara menargetkan penutupan 700 entitas BUMN sebelum akhir 2026, angka yang melampaui pengumuman 250 perusahaan Juli lalu dan menandai percepatan drastis restrukturisasi yang kini masuk fase eksekusi. Bersamaan dengan itu, OpenAI meresmikan lingkungan pelatihan frontier yang terisolasi penuh dari internet, respons langsung atas temuan celah yang dipublikasikan evaluator eksternal pekan sebelumnya. Di sisi pasar modal Indonesia, Ketua DK OJK Friderica Widyasari Dewi melapor ke Presiden Prabowo pascaguncangan MSCI, sementara Danantara masuk ke pasar saham membeli saham BUMN untuk menopang IHSG. Pada domain energi, Bloomberg Technoz melaporkan bahwa kombinasi pembangkit EBT menjadi kunci pasokan listrik 20 GW untuk data center, mengonfirmasi tren pemisahan sumber energi data center dari jaringan PLN yang sudah terdokumentasi. Kelima sinyal ini membentuk satu pola: lembaga-lembaga besar, baik regulator, operator BUMN, maupun lab AI, kini berpindah dari pengumuman ke tindakan yang terukur dan dapat diaudit.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Kompas.com"
+      ],
+      "headline": "Danantara targetkan tutup 700 perusahaan BUMN sebelum akhir 2026",
+      "whatChanged": "Kompas.com melaporkan per 24 Oktober 2026 bahwa Danantara menargetkan penutupan 700 perusahaan BUMN sebelum akhir tahun ini. Angka ini melampaui signifikan pengumuman Presiden Prabowo pada Juli 2026 yang menyebut 250 perusahaan telah dipangkas.",
+      "whyItMatters": "Melanjutkan tema danantara-bumn-karya-restructuring yang telah tercatat 29 kali sejak 24 September. Target 700 perusahaan mengindikasikan bahwa restrukturisasi telah memasuki fase eksekusi massal, bukan lagi perencanaan inkremental. Insentif PPh 0% untuk restrukturisasi BUMN masih menunggu dua aturan turunan (PP dan PMK) per Oktober 2026, sehingga akselerasi ini terjadi sebelum kerangka fiskal pendukungnya selesai.",
+      "secondOrder": "Penutupan 700 entitas dalam dua bulan menuntut kapasitas due diligence, likuidasi aset, dan penanganan kewajiban tenaga kerja yang jauh melampaui kapasitas administratif normal. Risiko utama adalah penutupan dilakukan secara administratif tanpa penyelesaian kewajiban hukum dan utang anak usaha, yang kemudian memunculkan klaim residual terhadap induk atau negara. Investor asing yang sedang memantau sinyal MSCI akan membaca kecepatan ini sebagai risiko proses, bukan hanya peluang efisiensi.",
+      "action": "Peta entitas mana dari 700 target yang memiliki utang publik, kontrak pemerintah aktif, atau aset yang dijaminkan perlu dibuat segera. Tinjau apakah PP dan PMK PPh 0% akan diterbitkan sebelum akhir 2026, karena ketiadaannya berarti transaksi restrukturisasi menanggung beban pajak penuh.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxOekNBTzdOMTdQQ0ZDMjU5UG9hZGtRWVBIRV9fMHRncFQwYUc0RUlRVEUzSWEtUXduS1k0WC1pRENKOWVOaEJFY1BFWERKR1B6RHBYREFxdFBocGNwNUlSV291SkdOZUl0Vnd2WFRqanZINHVCQzVlMnpYSzlOWGpaMmNWMFh2VmRxbkU4eEtyLXF4VFBuUGNIQTd1TzM3N0ItR1FpOUVHTWIyc3pWSEx0NjZBV3VOTldmX3JxQVdB?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMktYTFFOOUxNQ2Zhd0RrNXlvRzdsM3FhcWc2TEJITjcwT2cyR1BqVU14RWZxWDBleHA4OU44QUxjNjJTUm5DMjJFczZtbkR5UUhyQVRsOTR5NnFJQWxrN0tzM2k1RDdxMFRWNnJDQ1gzUDF2WnJiUzJfNTdlcG4tV2pjX2haeVRQNDJUTHRQNkJaV005MFpJ0gGcAUFVX3lxTE9nYm5NRXBwd1dIM1hPYW1iVkpnRy1vVlFQdmw3VWZzTjZtZ1hfQ19kMS0wdG40bGdlRjlnTG9QWVNRSkRGMUVPOWw2VDM1VzBOVTVPbXFkMXBEN2Yxcl9kaWxXSjlVd2NJVlpuV1ptOUZpRFFKel9HUEJCUUo5N21zQUo0U2dZU00xRGtuUEZyZXZLdVdVT01TZ3FSdw?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Reuters",
+        "NASK"
+      ],
+      "headline": "OpenAI resmikan protokol pelatihan frontier terisolasi penuh setelah temuan celah evaluator eksternal",
+      "whatChanged": "OpenAI menerbitkan dokumen resmi bertanggal 23 Oktober 2026 yang menjelaskan penguatan lingkungan pelatihan model frontier: lingkungan offline tanpa akses internet, red-teaming komputasi tinggi, dan prosedur containment yang diperketat. Publikasi ini datang setelah Reuters pada 22 Oktober melaporkan bahwa evaluator eksternal menemukan celah dalam sistem pemantauan AI OpenAI pada pilot review.",
+      "whyItMatters": "Melanjutkan tema ai-model-safety-frontier yang telah tercatat 28 kali. Ini pertama kalinya OpenAI menerbitkan spesifikasi teknis containment sebagai dokumen publik, bukan sekadar pernyataan kebijakan. Pergeseran dari janji ke arsitektur yang dapat diaudit menandai respons terhadap tekanan evaluator eksternal yang kini memiliki akses resmi.",
+      "secondOrder": "Standar containment yang dipublikasikan menciptakan preseden komparatif: lab AI lain, regulator, dan mitra pemerintah (seperti NASK Polandia yang baru bermitra dengan OpenAI) kini memiliki tolok ukur untuk menuntut transparansi setara. Ini dapat mempercepat fragmentasi regulasi karena setiap yurisdiksi akan mendefinisikan ulang standar containment berdasarkan dokumen ini.",
+      "action": "Baca dokumen 'Securing our frontier model training environment' untuk mengidentifikasi celah spesifik yang ditemukan evaluator, lalu bandingkan dengan protokol internal organisasi yang mengelola atau bermitra dengan sistem AI frontier. Pertanyaan yang perlu diajukan: apakah mitra vendor AI Anda mengoperasikan lingkungan pelatihan dengan standar setara?",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/securing-our-frontier-model-training-environment",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2JvMy1McnRUdXBvVGlqSDhtMERqUGQyczh4TzJpTGFLX21ncWdQMXZOLW9YNW01b3hvWm1iWnVEQmtfQWowX1JRdzgzZFBlZVk4d0pxbFFnX3p0andwR09xWU9Fb2gtQ2hBZXI0QmlKZU1OWGlLQW1RdEtJTlM1WUVIdk15U0xQYU00eVl5UThUX2M3N0ZZOFJKM3R1RVF5RUpoTTRFZ05EQmw5WG8tS2ZB?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOS01OUZRS1hEaFFMU0pJSkEwdEVKQThtcVJITXJ6elVKbFVHV0QwQVFyc1VUb1NVZExxQ2J4YkN0MTVxS094bUFqdmZYa3QwSUprRjlVX3YwSkZfcEF5U1JEV0h0aWVjUldENHFIaEtZR0RPU3Y0WHpjQXFmRUw2SVROYXQ2NWwzZmNGWG9lcTdwYkhFd0NvY3poSG1YVHRfclVsMmZ0OXRDV245cmx3ckRFVENhZUJydkVXYjVrOA?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeXlMRjNfSEdNVUNrX29ZdW16eE9Ra1ZIbFZhTDFGSXNfSTlNSHZFc3k5MW5FbFdiVHU3Y0NzYkhrSTY0SDFKWXBaT1FXY1pXeDQ1SXZZTUFLMnRxbDhJWFJQWUlHOE1QWXRRei1QM19ySm9udl9FR2ZIQTJVZ014RHd5eDVDYjhnWDFQdDVrQ3pCSXllRmZURzU0UTZfSmJzZTVtM0Vn?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "OJK",
+        "Danantara",
+        "MSCI",
+        "IHSG",
+        "Friderica Widyasari Dewi"
+      ],
+      "headline": "OJK lapor Prabowo kondisi bursa; Danantara beli saham BUMN untuk stabilisasi IHSG pascaancaman MSCI",
+      "whatChanged": "Ketua DK OJK Friderica Widyasari Dewi memberikan laporan langsung kepada Presiden Prabowo mengenai kondisi bursa efek setelah MSCI membuka opsi penurunan status pasar Indonesia. Pada hari yang sama, Danantara masuk ke pasar membeli saham-saham BUMN sehingga IHSG bangkit dari tekanan.",
+      "whyItMatters": "Intervensi Danantara di pasar saham mengonfirmasi bahwa lembaga ini difungsikan sebagai stabilisator pasar, bukan hanya sebagai holding investasi. Ini menciptakan konflik fungsi: Danantara secara bersamaan adalah pemegang saham pengendali BUMN, pemangku restrukturisasi, dan kini pembeli saham di bursa, tiga peran yang memiliki kepentingan yang dapat saling bertentangan.",
+      "secondOrder": "Pembelian saham oleh Danantara untuk menopang IHSG dapat dilihat pasar sebagai sinyal bahwa harga saham BUMN tidak sepenuhnya mencerminkan fundamental, melainkan didukung intervensi administratif. Bagi MSCI dan investor asing yang sedang mengevaluasi status pasar Indonesia, ini mempersulit penilaian likuiditas organik dan independensi penetapan harga, dua kriteria kunci pemeringkatan pasar.",
+      "action": "Pantau pengumuman resmi MSCI tentang keputusan final status pasar Indonesia, yang dijadwalkan dalam siklus review kuartalan. Analisis komposisi pembelian saham Danantara: apakah terkonsentrasi pada emiten tertentu yang terdampak rencana penutupan 700 BUMN, karena ini dapat mengindikasikan mana entitas yang akan dipertahankan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://finance.detik.com/bursa-dan-valas/d-8721341/bos-ojk-lapor-prabowo-kondisi-bursa-usai-msci-buka-opsi-turun-kasta",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkh0bUdrTURzQmFvZEpPYXRLbTdwSVBKdkVob1JoeWt4all4WDNnNzBuWUxXTWtBRW8zTWY1elVyUEM4VXd2enBBSlFaWktCLWxxV0twOGo2dS1EeWxXUHRaNHRPSDRJVE5SN1BVMk1Qa21ybkJ6TEdRbmNIX3JCWm1uUV9nN0luMmloVkVqQmNHRkhPa3lqdGIwMVBURk00dXl4aTdqVUx2YnEyY2JVX0VVc2wwX2QxbE9jbFZmUFRfdw?oc=5",
+        "https://katadata.co.id/video/news/6adb7b60a8d29/kebakaran-di-pasar-modal-kala-reformasi-bursa-diuji-msci"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "PLN",
+        "Pertamina",
+        "Suroso Isnandar",
+        "COP31"
+      ],
+      "headline": "IESR desak pembenahan pasokan BBM dan keandalan listrik dua tahun Prabowo, nilai krisis 2026 sebagai kegagalan sistemik",
+      "whatChanged": "IESR pada 20 Oktober 2026 menerbitkan dua dokumen terpisah: penilaian resmi bahwa kelangkaan BBM dan pemadaman listrik berulang sepanjang 2026 merupakan kegagalan sistemik dua lembaga (Pertamina dan PLN), dan rekomendasi menjelang COP31 bahwa Indonesia perlu mendorong target elektrifikasi yang lebih ambisius disertai bankability proyek energi bersih.",
+      "whyItMatters": "Melanjutkan tema pln-grid-investment yang tercatat 28 kali. Dengan Dirut PLN baru Suroso Isnandar baru menjabat sejak 14 Oktober 2026, penilaian IESR ini menjadi dokumen referensi publik pertama yang secara eksplisit mendefinisikan agenda transformasi yang diharapkan dari kepemimpinan baru. Framing 'kegagalan sistemik' juga meningkatkan tekanan pada pemerintah menjelang COP31 di Antalya November 2026.",
+      "secondOrder": "Jika pemadaman dan kelangkaan BBM dikonfirmasi sebagai kegagalan sistemik oleh lembaga riset independen, ini memperkuat argumentasi bagi investor energi terbarukan dan lender internasional untuk mensyaratkan jaminan pasokan mandiri dalam setiap kesepakatan infrastruktur baru di Indonesia. Bankability proyek EBT, yang disebut IESR sebagai hambatan utama, akan semakin sulit dicapai jika keandalan grid PLN tidak diperbaiki.",
+      "action": "Baca dua dokumen IESR (20 Oktober 2026) untuk mengidentifikasi metrik keandalan spesifik yang digunakan sebagai dasar penilaian kegagalan sistemik. Gunakan dokumen ini sebagai kerangka untuk mengevaluasi proposal infrastruktur energi baru: apakah proposal tersebut mengasumsi keandalan grid PLN yang saat ini tidak terpenuhi?",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+        "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/",
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/"
+      ],
+      "secondOrderUrls": [
+        "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+        "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-25",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Bloomberg Technoz",
+        "Danantara",
+        "PLN"
+      ],
+      "headline": "Kombinasi pembangkit EBT dinilai jadi kunci pasokan listrik 20 GW untuk data center AI Indonesia",
+      "whatChanged": "Bloomberg Technoz melaporkan per 23 Oktober 2026 bahwa pembangkit energi baru terbarukan kombinasi (bukan sumber tunggal) menjadi solusi yang diarahkan untuk memenuhi kebutuhan listrik data center AI sebesar 20 GW. Laporan ini memperkuat kebijakan Danantara yang mewajibkan proyek data center AI membangun sumber energi sendiri terpisah dari jaringan PLN.",
+      "whyItMatters": "Melanjutkan tema nuclear-ai-datacenter-power yang telah tercatat 23 kali. Angka 20 GW adalah target yang konkret dan signifikan; sebagai perbandingan, total kapasitas terpasang pembangkit Indonesia saat ini sekitar 80 GW. Kebutuhan data center sebesar 20 GW berarti Indonesia perlu menambah kapasitas setara 25% dari seluruh sistem kelistrikan nasional yang ada, khusus untuk satu segmen beban.",
+      "secondOrder": "Pendekatan EBT kombinasi off-grid untuk data center menciptakan pasar captive bagi pengembang energi terbarukan yang tidak bergantung pada tarif PLN atau RUPTL. Ini akan mendorong munculnya kontrak PPA langsung antara pengembang data center dan produsen EBT, mengikuti pola yang sudah terjadi di Amerika Serikat dan Eropa. Risiko: jika kapasitas EBT berskala besar terkonsentrasi untuk melayani data center, prioritas elektrifikasi nasional yang belum tuntas dapat terpinggirkan.",
+      "action": "Identifikasi regulasi yang mengatur PPA langsung antara IPP EBT dan konsumen industri besar di luar jaringan PLN. Tinjau apakah kerangka perizinan saat ini memungkinkan data center membangun dan mengoperasikan pembangkit EBT captive secara legal, atau masih memerlukan perubahan regulasi.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnB0ZjlfeUhBR3FSdWtwZjNNLWhsU2RVVUFUcHV1bTYzanUxc3g0ZEM1RGxmOElvOVpjMFJOcXp4My1KcWZ4S21fVVlYd0IyU05rZ0ZCS1IyTWxxcm9xSThxcHdvU21adzJqMGRWLTdtakJQLUs5X0NPZkdTcFVVdGQ0SDFMOUNuZUh0NTZjN3Fmdnp2ODF2ZUNkQ1RLdm5ULXZQSWM5dmw3YVM2b3R1YjYxMA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-09-24",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Keputusan final MSCI tentang status pasar Indonesia: apakah turun ke Frontier Market atau tetap Emerging Market, dan dampaknya pada aliran dana pasif",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Penerbitan PP dan PMK insentif PPh 0% untuk restrukturisasi BUMN: tanpa aturan ini, target penutupan 700 entitas menanggung beban pajak penuh",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Pengumuman regulasi PPA langsung EBT untuk data center captive: kunci bankability proyek 20 GW data center AI Indonesia",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Posisi Indonesia di COP31 Antalya terkait target elektrifikasi dan komitmen pensiun dini batu bara, setelah IESR menerbitkan rekomendasi menjelang konferensi",
+      "dueDate": "2026-11-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indonesia Menuju COP 31: Perlunya Mendorong Target Elektrifikasi dan Bankability",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T07:11:56.000Z"
+    },
+    {
+      "title": "Dua Tahun Prabowo-Gibran, IESR Desak Pembenahan Pasokan BBM dan Keandalan Listrik",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T05:04:44.000Z"
+    },
+    {
+      "title": "Pembangkit EBT Kombinasi Jadi Kunci Listrik Data Center 20 GW",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnB0ZjlfeUhBR3FSdWtwZjNNLWhsU2RVVUFUcHV1bTYzanUxc3g0ZEM1RGxmOElvOVpjMFJOcXp4My1KcWZ4S21fVVlYd0IyU05rZ0ZCS1IyTWxxcm9xSThxcHdvU21adzJqMGRWLTdtakJQLUs5X0NPZkdTcFVVdGQ0SDFMOUNuZUh0NTZjN3Fmdnp2ODF2ZUNkQ1RLdm5ULXZQSWM5dmw3YVM2b3R1YjYxMA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-23T12:30:00.000Z"
+    },
+    {
+      "title": "OpenAI resumes frontier AI training with enhanced security, no internet access",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOS01OUZRS1hEaFFMU0pJSkEwdEVKQThtcVJITXJ6elVKbFVHV0QwQVFyc1VUb1NVZExxQ2J4YkN0MTVxS094bUFqdmZYa3QwSUprRjlVX3YwSkZfcEF5U1JEV0h0aWVjUldENHFIaEtZR0RPU3Y0WHpjQXFmRUw2SVROYXQ2NWwzZmNGWG9lcTdwYkhFd0NvY3poSG1YVHRfclVsMmZ0OXRDV245cmx3ckRFVENhZUJydkVXYjVrOA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-23T20:23:25.000Z"
+    },
+    {
+      "title": "Pendidikan dan karier Suroso Isnandar, Dirut baru PLN",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T11:11:47.000Z"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "title": "DJP Tunggu PP & PMK soal PPh 0% untuk Restrukturisasi BUMN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T04:40:00.000Z"
+    },
+    {
+      "title": "âKebakaranâ di Pasar Modal, Kala Reformasi Bursa Diuji MSCI",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/video/news/6adb7b60a8d29/kebakaran-di-pasar-modal-kala-reformasi-bursa-diuji-msci",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-23T15:21:00.000Z"
+    },
+    {
+      "title": "Profil Suroso Isnandar, dirut baru PLN pengganti Darmawan Prasodjo",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T03:45:26.000Z"
+    },
+    {
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "title": "Pemangkasan BUMN, Danantara Targetkan Tutup 700 Perusahaan Akhir 2026",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOekNBTzdOMTdQQ0ZDMjU5UG9hZGtRWVBIRV9fMHRncFQwYUc0RUlRVEUzSWEtUXduS1k0WC1pRENKOWVOaEJFY1BFWERKR1B6RHBYREFxdFBocGNwNUlSV291SkdOZUl0Vnd2WFRqanZINHVCQzVlMnpYSzlOWGpaMmNWMFh2VmRxbkU4eEtyLXF4VFBuUGNIQTd1TzM3N0ItR1FpOUVHTWIyc3pWSEx0NjZBV3VOTldmX3JxQVdB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-24T00:29:00.000Z"
+    },
+    {
+      "title": "Insentif PPh 0% Restrukturisasi BUMN Masih Tunggu 2 Aturan Ini",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T01:10:06.000Z"
+    },
+    {
+      "title": "Indonesia cuts 250 SOEs under Danantara reform: Prabowo",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMktYTFFOOUxNQ2Zhd0RrNXlvRzdsM3FhcWc2TEJITjcwT2cyR1BqVU14RWZxWDBleHA4OU44QUxjNjJTUm5DMjJFczZtbkR5UUhyQVRsOTR5NnFJQWxrN0tzM2k1RDdxMFRWNnJDQ1gzUDF2WnJiUzJfNTdlcG4tV2pjX2haeVRQNDJUTHRQNkJaV005MFpJ0gGcAUFVX3lxTE9nYm5NRXBwd1dIM1hPYW1iVkpnRy1vVlFQdmw3VWZzTjZtZ1hfQ19kMS0wdG40bGdlRjlnTG9QWVNRSkRGMUVPOWw2VDM1VzBOVTVPbXFkMXBEN2Yxcl9kaWxXSjlVd2NJVlpuV1ptOUZpRFFKel9HUEJCUUo5N21zQUo0U2dZU00xRGtuUEZyZXZLdVdVT01TZ3FSdw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-07-20T07:00:00.000Z"
+    },
+    {
+      "title": "OpenAI and Poland’s NASK collaborate on AI safety research",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeXlMRjNfSEdNVUNrX29ZdW16eE9Ra1ZIbFZhTDFGSXNfSTlNSHZFc3k5MW5FbFdiVHU3Y0NzYkhrSTY0SDFKWXBaT1FXY1pXeDQ1SXZZTUFLMnRxbDhJWFJQWUlHOE1QWXRRei1QM19ySm9udl9FR2ZIQTJVZ014RHd5eDVDYjhnWDFQdDVrQ3pCSXllRmZURzU0UTZfSmJzZTVtM0Vn?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-23T06:25:00.000Z"
+    },
+    {
+      "title": "Bos OJK Lapor Prabowo Kondisi Bursa Usai MSCI Buka Opsi Turun Kasta",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8721341/bos-ojk-lapor-prabowo-kondisi-bursa-usai-msci-buka-opsi-turun-kasta",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-23T13:00:05.000Z"
+    },
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "Danantara Mulai Borong Saham BUMN, IHSG Bangkit dari Tekanan MSCI",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkh0bUdrTURzQmFvZEpPYXRLbTdwSVBKdkVob1JoeWt4all4WDNnNzBuWUxXTWtBRW8zTWY1elVyUEM4VXd2enBBSlFaWktCLWxxV0twOGo2dS1EeWxXUHRaNHRPSDRJVE5SN1BVMk1Qa21ybkJ6TEdRbmNIX3JCWm1uUV9nN0luMmloVkVqQmNHRkhPa3lqdGIwMVBURk00dXl4aTdqVUx2YnEyY2JVX0VVc2wwX2QxbE9jbFZmUFRfdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-23T07:41:00.000Z"
+    },
+    {
+      "title": "External evaluators find flaws in OpenAI's AI monitoring system in pilot review",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2JvMy1McnRUdXBvVGlqSDhtMERqUGQyczh4TzJpTGFLX21ncWdQMXZOLW9YNW01b3hvWm1iWnVEQmtfQWowX1JRdzgzZFBlZVk4d0pxbFFnX3p0andwR09xWU9Fb2gtQ2hBZXI0QmlKZU1OWGlLQW1RdEtJTlM1WUVIdk15U0xQYU00eVl5UThUX2M3N0ZZOFJKM3R1RVF5RUpoTTRFZ05EQmw5WG8tS2ZB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-22T18:14:36.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Investor asing minta kejelasan OJK dan BEI pasca peringatan MSCI tentang pasar Indonesia",
+      "occurrences": 29,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-23",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Reuters: evaluator eksternal temukan celah dalam sistem pemantauan AI OpenAI pada review percontohan",
+      "occurrences": 28,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-23",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR nilai kegagalan pasokan BBM dan pemadaman listrik 2026 sebagai kegagalan sistemik dua tahun Prabowo",
+      "occurrences": 28,
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-10-23",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Danantara wajibkan proyek data center AI bangun sumber energi sendiri, pisahkan dari jaringan PLN",
+      "occurrences": 23,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-23",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 21,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 391,
+    "poolSize": 110,
+    "generatedAt": "2026-10-24T00:35:09.178Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

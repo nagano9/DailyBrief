@@ -1,0 +1,361 @@
+{
+  "slug": "2026-10-24",
+  "date": "2026-10-24",
+  "lang": "en",
+  "title": "OpenAI Hardens Frontier Training; Danantara Targets 700 BUMN Closures by Year-End",
+  "dek": "Three structural shifts converge today: AI safety containment becomes operational practice, Indonesia's BUMN rationalization accelerates past its prior pace, and renewable energy combinations emerge as the only credible power source for Indonesia's 20 GW data center target.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "OpenAI has published its containment architecture for frontier model training, shifting AI safety from policy commitment to verifiable engineering practice. Simultaneously, Danantara has announced a target to close 700 BUMN subsidiaries by end-2026, a figure that dwarfs the 250 previously reported and signals that the restructuring is entering a disruptive operational phase. On the capital market side, OJK chair Friderica Widyasari Dewi has briefed President Prabowo directly on MSCI downgrade risk, confirming that the governance pressure is now at head-of-state level. In the energy domain, Bloomberg Technoz reports that combined renewable generation is the only viable path to powering Indonesia's 20 GW data center load, directly intersecting the nuclear-ai-datacenter-power thread. Anthropic's parallel cybertesting alignment assessment with UK AISI adds a second data point to the emerging norm that frontier labs must now demonstrate containment to external evaluators.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "UK AISI",
+        "Anthropic"
+      ],
+      "headline": "OpenAI publishes operational containment architecture for frontier model training, citing offline environments and high-compute red-teaming",
+      "whatChanged": "OpenAI released a primary-source technical post on 2026-10-23 describing how it hardened its frontier model training environment after the UK AISI pilot review identified monitoring gaps. The architecture separates training from internet access, applies high-compute red-teaming before any weights are moved, and adds multi-layer containment for evaluation runs. This is the lab's first public engineering specification for containment, not a policy statement.",
+      "whyItMatters": "The ai-model-safety-frontier theme has accumulated 28 entries since late September; it is now a structural condition. OpenAI's publication converts an audit finding into a published engineering standard, which other labs and regulators can now cite as a reference benchmark. The UK AISI review that surfaced the original flaws is the same external evaluator process that Anthropic also engaged for its cybertesting assessment published the same day, suggesting a coordinated external-evaluation cycle is now running across frontier labs.",
+      "secondOrder": "Once containment architecture is published as a specification, it becomes a procurement and licensing criterion. Cloud providers, sovereign AI programs, and regulated sectors that deploy frontier models will face pressure to confirm which version of a model was trained under which containment standard. This creates a versioning and auditability requirement that does not yet exist in most enterprise AI contracts, but will need to be inserted into them.",
+      "action": "Review any enterprise or sovereign AI contracts signed in 2026 to determine whether they specify the containment standard under which training occurred. Draft a clause requiring vendors to disclose containment architecture version and external evaluator findings before major model updates are deployed in production.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/securing-our-frontier-model-training-environment",
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hcjNRbVFacnhzLWNNYnRkSTlVM2FkMnotYTd0MEpwTmlsQ2N1NlVPdjJjdXJhNG9FbC14d3FIR3pVaEh0SEdIamRWWmNTazRXVGNxbFg3dEFZN0RQT0tVcWpWZlpGTlZYb29uTW9PQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "OJK",
+        "ANTARA"
+      ],
+      "headline": "Danantara targets closure of 700 BUMN subsidiaries by end-2026, nearly tripling the 250 figure reported in July",
+      "whatChanged": "Kompas.com reported on 2026-10-24 that Danantara has set a target to close 700 BUMN-affiliated companies before year-end 2026. The prior public figure, cited by ANTARA in July 2026, was 250 entities cut. The jump from 250 to 700 implies the rationalization has moved from headline consolidation of parent SOEs to a systematic culling of second and third-tier subsidiaries.",
+      "whyItMatters": "The danantara-bumn-karya-restructuring theme has been logged 29 times in 30 days and is classified structural. A target revision of this magnitude, from 250 to 700 entities, signals that the restructuring is no longer primarily a balance-sheet exercise but an operational dismantling of the BUMN subsidiary ecosystem. The PPh 0 percent tax incentive for restructuring, which as of mid-October was still awaiting two implementing regulations, becomes a critical path item: without it, closures generate taxable gains that could stall the process.",
+      "secondOrder": "Mass closure of 700 entities will produce a large volume of stranded contracts, minority stakes, and legacy liabilities that will need to be resolved or transferred. Private sector counterparties holding JV agreements, offtake contracts, or loan exposures with these subsidiaries face sudden counterparty risk that is not yet priced into Indonesian credit markets. The OJK briefing to President Prabowo on MSCI pressure, reported the same day, adds a market-stability dimension to what is primarily a corporate governance exercise.",
+      "action": "Map any supply chain, offtake, or financing exposure to second-tier BUMN subsidiaries against the 700-closure target. Flag entities where a change of counterparty or early termination clause could be triggered, and request clarity from Danantara on the sequencing of closures before year-end.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxOekNBTzdOMTdQQ0ZDMjU5UG9hZGtRWVBIRV9fMHRncFQwYUc0RUlRVEUzSWEtUXduS1k0WC1pRENKOWVOaEJFY1BFWERKR1B6RHBYREFxdFBocGNwNUlSV291SkdOZUl0Vnd2WFRqanZINHVCQzVlMnpYSzlOWGpaMmNWMFh2VmRxbkU4eEtyLXF4VFBuUGNIQTd1TzM3N0ItR1FpOUVHTWIyc3pWSEx0NjZBV3VOTldmX3JxQVdB?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMktYTFFOOUxNQ2Zhd0RrNXlvRzdsM3FhcWc2TEJITjcwT2cyR1BqVU14RWZxWDBleHA4OU44QUxjNjJTUm5DMjJFczZtbkR5UUhyQVRsOTR5NnFJQWxrN0tzM2k1RDdxMFRWNnJDQ1gzUDF2WnJiUzJfNTdlcG4tV2pjX2haeVRQNDJUTHRQNkJaV005MFpJ0gGcAUFVX3lxTE9nYm5NRXBwd1dIM1hPYW1iVkpnRy1vVlFQdmw3VWZzTjZtZ1hfQ19kMS0wdG40bGdlRjlnTG9QWVNRSkRGMUVPOWw2VDM1VzBOVTVPbXFkMXBEN2Yxcl9kaWxXSjlVd2NJVlpuV1ptOUZpRFFKel9HUEJCUUo5N21zQUo0U2dZU00xRGtuUEZyZXZLdVdVT01TZ3FSdw?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://finance.detik.com/bursa-dan-valas/d-8721341/bos-ojk-lapor-prabowo-kondisi-bursa-usai-msci-buka-opsi-turun-kasta"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "OJK",
+        "Danantara",
+        "MSCI",
+        "Friderica Widyasari Dewi"
+      ],
+      "headline": "OJK chair briefs President Prabowo directly on MSCI downgrade risk as Danantara intervenes to stabilize IHSG",
+      "whatChanged": "DetikFinance reported on 2026-10-23 that OJK chair Friderica Widyasari Dewi personally briefed President Prabowo on the condition of the stock exchange following MSCI's signaling that Indonesia could face a market classification downgrade. Separately, Kompas.com reported the same day that Danantara began purchasing BUMN shares on-market to stabilize the Jakarta Composite Index after the MSCI pressure caused significant declines.",
+      "whyItMatters": "OJK escalating to presidential level confirms that the MSCI reclassification threat has crossed from a market technicality into a sovereign governance issue. Danantara deploying its balance sheet to purchase listed BUMN shares introduces a state stabilization function that resembles a sovereign wealth fund market intervention, a role Danantara has not publicly held before. This is the first documented instance of Danantara acting as a market stabilizer rather than a long-term investor.",
+      "secondOrder": "If Danantara becomes a recognized market stabilizer, its purchases provide a price floor for BUMN-linked equities during governance crises. Foreign portfolio investors will model Danantara's intervention capacity as a put option, which may reduce volatility in the short term but could also encourage continued foreign selling in the knowledge that the state will absorb the flow. The MSCI review process itself will assess whether state-directed purchasing meets index inclusion criteria for market accessibility.",
+      "action": "Assess whether Danantara's share purchases are disclosed under market stabilization or investment mandates, and determine whether the OJK has issued a formal stability designation. MSCI's methodology requires free-float and foreign ownership limit data; verify whether Danantara's purchases reduce the effective free-float of BUMN constituents below MSCI thresholds.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://finance.detik.com/bursa-dan-valas/d-8721341/bos-ojk-lapor-prabowo-kondisi-bursa-usai-msci-buka-opsi-turun-kasta",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkh0bUdrTURzQmFvZEpPYXRLbTdwSVBKdkVob1JoeWt4all4WDNnNzBuWUxXTWtBRW8zTWY1elVyUEM4VXd2enBBSlFaWktCLWxxV0twOGo2dS1EeWxXUHRaNHRPSDRJVE5SN1BVMk1Qa21ybkJ6TEdRbmNIX3JCWm1uUV9nN0luMmloVkVqQmNHRkhPa3lqdGIwMVBURk00dXl4aTdqVUx2YnEyY2JVX0VVc2wwX2QxbE9jbFZmUFRfdw?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://katadata.co.id/video/news/6adb7b60a8d29/kebakaran-di-pasar-modal-kala-reformasi-bursa-diuji-msci"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Bloomberg Technoz",
+        "Danantara",
+        "PLN",
+        "IESR"
+      ],
+      "headline": "Combined renewable generation identified as the only viable power path for Indonesia's 20 GW data center load target",
+      "whatChanged": "Bloomberg Technoz reported on 2026-10-23 that a combination of renewable energy sources, rather than any single generation technology, is the key to supplying electricity for Indonesia's 20 GW data center buildout. The report follows the previously archived Danantara requirement that AI data center projects develop their own power sources, separate from the PLN grid.",
+      "whyItMatters": "The nuclear-ai-datacenter-power theme has been logged 23 times in 30 days and is structural. The Bloomberg Technoz framing resolves a question the archive has left open: whether the off-grid power mandate would be met by nuclear, geothermal, or solar plus storage. The answer is a hybrid portfolio, which has different procurement, financing, and grid interconnection implications than any single-technology path. It also means data center developers must become multi-technology energy procurers, not just buyers of a single PPA.",
+      "secondOrder": "A hybrid renewable portfolio for each data center project creates a project finance structure with multiple generation counterparties, diverse fuel-risk profiles, and layered intermittency management. Indonesian project finance practice is not yet structured for this complexity at the gigawatt scale. The bankability gap identified by IESR in its COP31 briefing, which cites insufficient track record for variable renewable financing in Indonesia, will be directly stressed by 20 GW of demand requiring complex multi-source PPAs.",
+      "action": "For any data center power procurement in Indonesia, require the developer to present a generation mix study showing how baseload, peaking, and storage components are combined to meet 24/7 uptime requirements. Evaluate whether the project finance structure can accommodate multiple generation offtake agreements and whether Indonesian lenders have the capacity to underwrite this structure.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnB0ZjlfeUhBR3FSdWtwZjNNLWhsU2RVVUFUcHV1bTYzanUxc3g0ZEM1RGxmOElvOVpjMFJOcXp4My1KcWZ4S21fVVlYd0IyU05rZ0ZCS1IyTWxxcm9xSThxcHdvU21adzJqMGRWLTdtakJQLUs5X0NPZkdTcFVVdGQ0SDFMOUNuZUh0NTZjN3Fmdnp2ODF2ZUNkQ1RLdm5ULXZQSWM5dmw3YVM2b3R1YjYxMA?oc=5",
+        "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-09-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "Kementerian ESDM",
+        "PLN",
+        "COP31"
+      ],
+      "headline": "IESR presses Indonesia's COP31 delegation to raise electrification targets and bankability standards ahead of November Antalya summit",
+      "whatChanged": "IESR published a statement on 2026-10-20 calling on the Indonesian government to strengthen its electrification targets and improve the bankability of renewable energy projects before COP31 in Antalya, Turkey in November 2026. The statement explicitly links the two issues: without bankable project structures, higher targets cannot be financed. IESR also cited recurring 2026 power outages and fuel shortages as evidence that current reliability standards are insufficient to anchor credible international commitments.",
+      "whyItMatters": "The pln-grid-investment theme has been logged 28 times since late September and is structural. IESR's pre-COP positioning is notable because it shifts the bankability argument from a domestic financing debate to an international credibility frame. If Indonesia arrives at COP31 without revised electrification targets or a bankability framework, its NDC commitments will face scrutiny from bilateral partners and multilateral lenders who have already conditioned climate finance on demonstrable project pipelines.",
+      "secondOrder": "Indonesia's PNBP from the ESDM sector is now targeted at Rp165 trillion, as reported by Kementerian ESDM on 2026-10-23, partly relying on mineral and coal revenue to offset subsidy costs. If COP31 commitments require accelerated coal retirement, the fiscal model that funds energy subsidies and grid investment comes under simultaneous pressure from both the revenue and expenditure sides. This fiscal tension is not visible in the COP negotiating position but will bind the implementation phase.",
+      "action": "Before COP31 in November, map Indonesia's PNBP coal dependency against the coal retirement schedule implied by any new NDC target. Identify the revenue gap and determine whether green finance instruments such as the ETM or JETP tranches are sized to replace it. Use this as a stress test for the bankability of any renewable project that assumes a specific grid tariff or subsidy level.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWGMwR09kMHp6QkI4ODBmN1laLTJDRktuQWtMblEzemZncHVVTnRFVi1BWnZhSVdWalVzZ0hsQzBHQk5BNzRyZ0hkUDRfdktLS2ZEeTkzTC1HQzMzWWJWcWlBMFVKSEpBVVVFNGJGZC1qRDM5UFZtT0xZQmg0VnUyZlZUWGdqZmNPVUZTUjgzSFUyTWxCS3otTHlNOXNYUnJUVWpFMVRjTEduYlNXbGVwbnNvUQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-25",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "COP31 Antalya: whether Indonesia tables revised electrification targets and a bankability framework for renewable projects",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "PPh 0 percent BUMN restructuring implementing regulations: Government Regulation and Minister of Finance Regulation still pending as of mid-October",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "MSCI formal review decision on Indonesia market classification following OJK presidential briefing and Danantara share purchases",
+      "dueDate": "2027-02-28"
+    },
+    {
+      "item": "Danantara 700-entity closure sequencing and disclosure: which subsidiaries are closed first and whether tax incentive is activated before year-end",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "OpenAI and Anthropic external evaluator cycle: next UK AISI or comparable review publication confirming whether containment architecture findings are resolved",
+      "dueDate": "2027-01-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indonesia Menuju COP 31: Perlunya Mendorong Target Elektrifikasi dan Bankability",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T07:11:56.000Z"
+    },
+    {
+      "title": "Dua Tahun Prabowo-Gibran, IESR Desak Pembenahan Pasokan BBM dan Keandalan Listrik",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T05:04:44.000Z"
+    },
+    {
+      "title": "Lampaui Target pada 2025, PNBP ESDM Kini Dipatok Rp165 Triliun",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWGMwR09kMHp6QkI4ODBmN1laLTJDRktuQWtMblEzemZncHVVTnRFVi1BWnZhSVdWalVzZ0hsQzBHQk5BNzRyZ0hkUDRfdktLS2ZEeTkzTC1HQzMzWWJWcWlBMFVKSEpBVVVFNGJGZC1qRDM5UFZtT0xZQmg0VnUyZlZUWGdqZmNPVUZTUjgzSFUyTWxCS3otTHlNOXNYUnJUVWpFMVRjTEduYlNXbGVwbnNvUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-23T13:35:54.000Z"
+    },
+    {
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hcjNRbVFacnhzLWNNYnRkSTlVM2FkMnotYTd0MEpwTmlsQ2N1NlVPdjJjdXJhNG9FbC14d3FIR3pVaEh0SEdIamRWWmNTazRXVGNxbFg3dEFZN0RQT0tVcWpWZlpGTlZYb29uTW9PQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-23T13:29:39.000Z"
+    },
+    {
+      "title": "Pembangkit EBT Kombinasi Jadi Kunci Listrik Data Center 20 GW",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnB0ZjlfeUhBR3FSdWtwZjNNLWhsU2RVVUFUcHV1bTYzanUxc3g0ZEM1RGxmOElvOVpjMFJOcXp4My1KcWZ4S21fVVlYd0IyU05rZ0ZCS1IyTWxxcm9xSThxcHdvU21adzJqMGRWLTdtakJQLUs5X0NPZkdTcFVVdGQ0SDFMOUNuZUh0NTZjN3Fmdnp2ODF2ZUNkQ1RLdm5ULXZQSWM5dmw3YVM2b3R1YjYxMA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-23T12:30:00.000Z"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "title": "âKebakaranâ di Pasar Modal, Kala Reformasi Bursa Diuji MSCI",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/video/news/6adb7b60a8d29/kebakaran-di-pasar-modal-kala-reformasi-bursa-diuji-msci",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-23T15:21:00.000Z"
+    },
+    {
+      "title": "Pemangkasan BUMN, Danantara Targetkan Tutup 700 Perusahaan Akhir 2026",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOekNBTzdOMTdQQ0ZDMjU5UG9hZGtRWVBIRV9fMHRncFQwYUc0RUlRVEUzSWEtUXduS1k0WC1pRENKOWVOaEJFY1BFWERKR1B6RHBYREFxdFBocGNwNUlSV291SkdOZUl0Vnd2WFRqanZINHVCQzVlMnpYSzlOWGpaMmNWMFh2VmRxbkU4eEtyLXF4VFBuUGNIQTd1TzM3N0ItR1FpOUVHTWIyc3pWSEx0NjZBV3VOTldmX3JxQVdB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-24T00:29:00.000Z"
+    },
+    {
+      "title": "Indonesia cuts 250 SOEs under Danantara reform: Prabowo",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMktYTFFOOUxNQ2Zhd0RrNXlvRzdsM3FhcWc2TEJITjcwT2cyR1BqVU14RWZxWDBleHA4OU44QUxjNjJTUm5DMjJFczZtbkR5UUhyQVRsOTR5NnFJQWxrN0tzM2k1RDdxMFRWNnJDQ1gzUDF2WnJiUzJfNTdlcG4tV2pjX2haeVRQNDJUTHRQNkJaV005MFpJ0gGcAUFVX3lxTE9nYm5NRXBwd1dIM1hPYW1iVkpnRy1vVlFQdmw3VWZzTjZtZ1hfQ19kMS0wdG40bGdlRjlnTG9QWVNRSkRGMUVPOWw2VDM1VzBOVTVPbXFkMXBEN2Yxcl9kaWxXSjlVd2NJVlpuV1ptOUZpRFFKel9HUEJCUUo5N21zQUo0U2dZU00xRGtuUEZyZXZLdVdVT01TZ3FSdw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-07-20T07:00:00.000Z"
+    },
+    {
+      "title": "Bos OJK Lapor Prabowo Kondisi Bursa Usai MSCI Buka Opsi Turun Kasta",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8721341/bos-ojk-lapor-prabowo-kondisi-bursa-usai-msci-buka-opsi-turun-kasta",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-23T13:00:05.000Z"
+    },
+    {
+      "title": "Danantara Mulai Borong Saham BUMN, IHSG Bangkit dari Tekanan MSCI",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkh0bUdrTURzQmFvZEpPYXRLbTdwSVBKdkVob1JoeWt4all4WDNnNzBuWUxXTWtBRW8zTWY1elVyUEM4VXd2enBBSlFaWktCLWxxV0twOGo2dS1EeWxXUHRaNHRPSDRJVE5SN1BVMk1Qa21ybkJ6TEdRbmNIX3JCWm1uUV9nN0luMmloVkVqQmNHRkhPa3lqdGIwMVBURk00dXl4aTdqVUx2YnEyY2JVX0VVc2wwX2QxbE9jbFZmUFRfdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-23T07:41:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Investor asing minta kejelasan OJK dan BEI pasca peringatan MSCI tentang pasar Indonesia",
+      "occurrences": 29,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-23",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Reuters: evaluator eksternal temukan celah dalam sistem pemantauan AI OpenAI pada review percontohan",
+      "occurrences": 28,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-23",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR nilai kegagalan pasokan BBM dan pemadaman listrik 2026 sebagai kegagalan sistemik dua tahun Prabowo",
+      "occurrences": 28,
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-10-23",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Danantara wajibkan proyek data center AI bangun sumber energi sendiri, pisahkan dari jaringan PLN",
+      "occurrences": 23,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-23",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 21,
+      "firstSeen": "2026-09-24",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 391,
+    "poolSize": 110,
+    "generatedAt": "2026-10-24T00:37:40.659Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
