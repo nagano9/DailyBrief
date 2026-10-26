@@ -1,0 +1,348 @@
+{
+  "slug": "2026-10-26",
+  "date": "2026-10-26",
+  "lang": "id",
+  "title": "Penurunan Harga LLM 80%, Keamanan Frontier OpenAI, dan Kebuntuan PPh 0% BUMN",
+  "dek": "Tiga pergeseran struktural bergerak serentak: biaya inferensi AI runtuh, rezim keamanan model frontier diperketat, dan restrukturisasi BUMN Indonesia tertahan regulasi belum final.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI dan Anthropic memangkas harga LLM hingga 80% dalam beberapa bulan, menekan margin penyedia API dan memaksa rekalkulasi model bisnis enterprise AI. Bersamaan, OpenAI mempublikasikan arsitektur keamanan lingkungan pelatihan frontier-nya, memperkuat preseden bahwa keamanan komputasi menjadi syarat operasional bukan opsional. Di sisi energi, IESR menerbitkan dua laporan yang mengaitkan keandalan listrik dengan bankability investasi menuju COP31, sementara tiga sinyal operasional PLN di Kapuas dan tarif akhir Oktober menunjukkan tekanan pasokan lokal yang belum terpecahkan. Di domain korporasi, insentif PPh 0% untuk restrukturisasi BUMN masih menunggu PP dan PMK, membekukan efisiensi pajak yang seharusnya mendorong konsolidasi portofolio Danantara.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "UK AISI"
+      ],
+      "headline": "OpenAI publikasi arsitektur keamanan lingkungan pelatihan model frontier, termasuk isolasi offline dan red-teaming komputasi tinggi",
+      "whatChanged": "OpenAI menerbitkan dokumen teknis yang menjelaskan penguatan containment untuk pelatihan dan evaluasi model frontier, mencakup lingkungan offline terisolasi dan sesi red-teaming berkomputasi tinggi. Ini adalah pengungkapan publik pertama OpenAI tentang arsitektur keamanan internal pada skala pelatihan frontier.",
+      "whyItMatters": "Pengungkapan ini menetapkan standar de facto bahwa lab frontier wajib mendokumentasikan dan membuktikan isolasi lingkungan pelatihan, bukan hanya mengklaim keamanan produk akhir. Pola ini melanjutkan preseden yang dibuka Anthropic lewat asesmen insiden UK AISI, dan kini dua dari tiga lab terbesar Amerika telah mempublikasikan mekanisme keamanan internal mereka.",
+      "secondOrder": "Regulator di Uni Eropa dan Inggris yang sedang menyusun persyaratan audit model akan memiliki referensi teknis nyata untuk dijadikan baseline wajib, bukan sekadar prinsip umum. Ini berpotensi mengunci lab yang lebih kecil dari pasar regulasi ketat karena biaya compliance isolasi lingkungan pelatihan tidak proporsional untuk skala modal yang lebih kecil.",
+      "action": "Tim kebijakan dan legal yang mendampingi klien AI perusahaan perlu memetakan apakah vendor mereka dapat menunjukkan dokumentasi setara: buat checklist berbasis dokumen OpenAI ini untuk digunakan dalam due diligence vendor AI frontier sebelum akhir November 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/securing-our-frontier-model-training-environment",
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hcjNRbVFacnhzLWNNYnRkSTlVM2FkMnotYTd0MEpwTmlsQ2N1NlVPdjJjdXJhNG9FbC14d3FIR3pVaEh0SEdIamRWWmNTazRXVGNxbFg3dEFZN0RQT0tVcWpWZlpGTlZYb29uTW9PQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "PLN",
+        "Suroso Isnandar",
+        "COP31"
+      ],
+      "headline": "IESR: keandalan listrik dan bankability investasi EBT jadi prasyarat target COP31 Indonesia, Dirut baru PLN Suroso Isnandar jadi titik uji",
+      "whatChanged": "IESR menerbitkan dua laporan pada 19-20 Oktober 2026: satu menilai bahwa pemadaman berulang dan kelangkaan BBM sepanjang 2026 mencerminkan kegagalan sistemik tata kelola energi, satu lagi menegaskan bahwa Indonesia perlu mendorong target elektrifikasi dan bankability proyek EBT menjelang COP31 di Antalya, November 2026. Kedua laporan menyebut pergantian Dirut PLN kepada Suroso Isnandar sebagai momen kritis.",
+      "whyItMatters": "Dua laporan IESR yang terbit bersamaan membentuk narasi terpadu: keandalan operasional PLN saat ini tidak cukup untuk menarik pembiayaan internasional bagi proyek EBT skala besar. Investor infrastruktur menggunakan track record keandalan sebagai proksi risiko offtaker, sehingga pemadaman berulang secara langsung meningkatkan cost of capital proyek baru. Ini melanjutkan tema pln-grid-investment yang telah 29 kali muncul sejak 26 September.",
+      "secondOrder": "Jika PLN memasuki negosiasi COP31 dengan rekam jejak pemadaman 2026 yang belum diperbaiki, Indonesia berisiko tidak memenuhi syarat bankability yang diakui lender multilateral seperti ADB dan IFC untuk program pembiayaan transisi energi. Konsekuensinya adalah penundaan pencairan komitmen pendanaan hijau yang sudah dijanjikan dalam Just Energy Transition Partnership.",
+      "action": "Sebelum COP31 November 2026, verifikasi apakah PLN di bawah Suroso Isnandar telah menerbitkan rencana perbaikan keandalan yang terukur dan dapat diaudit: minta data SAIDI/SAIFI terbaru dan bandingkan dengan threshold bankability yang digunakan IFC untuk proyek pembangkit Indonesia.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/",
+        "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+        "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "DJP",
+        "Danantara",
+        "Kementerian Keuangan",
+        "CNBC Indonesia"
+      ],
+      "headline": "PPh 0% untuk restrukturisasi BUMN masih beku: DJP menunggu PP dan PMK yang belum diterbitkan",
+      "whatChanged": "DJP mengonfirmasi bahwa insentif PPh 0% untuk restrukturisasi BUMN belum dapat dieksekusi karena Peraturan Pemerintah dan Peraturan Menteri Keuangan pendukungnya belum diterbitkan, per laporan CNBC Indonesia 25 Oktober dan Bloomberg Technoz 16 Oktober 2026. Ini melanjutkan kondisi struktural yang telah 29 kali dicatat sejak 26 September 2026.",
+      "whyItMatters": "Kebuntuan regulasi ini membekukan efisiensi pajak yang menjadi salah satu pendorong utama konsolidasi BUMN di bawah Danantara. Setiap transaksi restrukturisasi yang dipaksakan sebelum PP dan PMK terbit menanggung risiko pajak penuh, sehingga holding company tidak dapat mengoptimalkan struktur modal sesuai rencana.",
+      "secondOrder": "Keterlambatan PP dan PMK menciptakan insentif bagi manajemen BUMN untuk menunda keputusan merger atau akuisisi internal sampai kepastian hukum tersedia, yang berarti target efisiensi portofolio Danantara bergeser ke luar 2026. Jika kebuntuan berlanjut melewati akhir tahun, beberapa transaksi mungkin harus dirancang ulang menggunakan struktur alternatif yang lebih mahal secara pajak.",
+      "action": "Pantau agenda Sekretariat Kabinet dan Kementerian Keuangan untuk jadwal pengesahan PP restrukturisasi BUMN: tetapkan trigger review internal jika PP tidak terbit sebelum 30 November 2026, dan evaluasi apakah transaksi yang sedang dalam pipeline perlu distrukturisasi ulang menggunakan skema non-PPh-0% agar tidak kehilangan momentum.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Bloomberg Technoz"
+      ],
+      "headline": "Bloomberg Technoz: kombinasi EBT jadi kunci pasokan listrik 20 GW untuk data center AI Indonesia",
+      "whatChanged": "Bloomberg Technoz melaporkan pada 23 Oktober 2026 bahwa kombinasi pembangkit EBT, bukan sumber tunggal, diidentifikasi sebagai kunci untuk memenuhi target pasokan listrik 20 GW bagi data center AI di Indonesia. Laporan ini muncul bersamaan dengan sinyal bahwa Australia menghadapi backlash terhadap pembangunan data center senilai 70 miliar dolar.",
+      "whyItMatters": "Target 20 GW untuk data center AI Indonesia membutuhkan bauran pembangkit yang melampaui kapasitas satu teknologi tunggal, yang berarti pengembang data center harus berhadapan dengan kompleksitas multi-offtaker dan multi-pembangkit. Ini melanjutkan tema nuclear-ai-datacenter-power yang telah 23 kali muncul sejak 26 September, kini dengan konfirmasi bahwa strategi bauran EBT adalah respons operasional resmi, bukan hanya wacana.",
+      "secondOrder": "Jika pasokan 20 GW bergantung pada kombinasi EBT, maka risiko intermitency menjadi risiko kontraktual yang harus ditanggung oleh offtaker data center atau diselesaikan melalui storage dan backup. Pengembang data center yang mengunci PPA berbasis EBT tunggal tanpa ketentuan backup akan menghadapi ketidakpastian uptime yang tidak dapat diterima oleh tenant hyperscaler.",
+      "action": "Untuk setiap proposal data center di Indonesia yang mengandalkan pasokan EBT, verifikasi apakah PPA mencakup klausul bauran cadangan dan mekanisme penalti intermitency: minta rincian komposisi pembangkit dan kontrak backup sebelum menyetujui komitmen kapasitas kepada tenant.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnB0ZjlfeUhBR3FSdWtwZjNNLWhsU2RVVUFUcHV1bTYzanUxc3g0ZEM1RGxmOElvOVpjMFJOcXp4My1KcWZ4S21fVVlYd0IyU05rZ0ZCS1IyTWxxcm9xSThxcHdvU21adzJqMGRWLTdtakJQLUs5X0NPZkdTcFVVdGQ0SDFMOUNuZUh0NTZjN3Fmdnp2ODF2ZUNkQ1RLdm5ULXZQSWM5dmw3YVM2b3R1YjYxMA?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlVoS0NUczZuM0VxNENQTjNJbnU0RDRhLURoSGU5ZjEzWTdUMWsxLU10aHoxdlNOVDFaQl9mcjJhRGRxUlh6azhEbWI3dnVfTTVpZU9mdjBpRFl0aGktaVRPWG9lZHRid2ppZVZEQ2diQzN1ZUpBOC03bDVFbi1CY2RrWnZJcm9mVFg3TkRSWFVJUENCNlV6c1ZQQnVxSjJlYW1ibjEwYjdSY1BuOG9jMzBsQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-09-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "headline": "Harga LLM OpenAI dan Anthropic turun hingga 80% dalam beberapa bulan, menekan margin seluruh lapisan ekosistem API",
+      "whatChanged": "Laporan yang dibahas di Hacker News mengutip penurunan harga API OpenAI dan Anthropic hingga 80% dalam rentang beberapa bulan pada 2026. Penurunan ini terjadi pada model yang menjadi tulang punggung produk enterprise dan aplikasi agentic.",
+      "whyItMatters": "Penurunan harga semasif ini mengubah kalkulasi unit economics semua produk yang dibangun di atas API frontier: margin penyedia layanan AI-as-a-service menyempit, sementara pelanggan enterprise yang mengunci kontrak harga lama kini membayar lebih mahal dari pasar. Tema ini melanjutkan pola enterprise-ai-data-privacy-contracts yang sudah 10 kali muncul sejak September, kini dengan dimensi baru: tekanan harga dari sisi pasokan komputasi.",
+      "secondOrder": "Penyedia layanan AI yang membangun margin di atas selisih harga API dan tarif pelanggan akan menghadapi tekanan renegosiasi massal kontrak enterprise. Perusahaan dengan kontrak multi-tahun tanpa klausul penyesuaian harga komputasi akan menanggung kerugian oportunistik, sementara startup yang belum terikat kontrak panjang justru mendapat keuntungan kompetitif mendadak.",
+      "action": "Audit semua kontrak enterprise AI aktif untuk klausul penyesuaian harga komputasi: identifikasi kontrak yang harganya mengacu pada tarif API 2025 atau lebih awal, hitung selisih dengan harga pasar Oktober 2026, dan siapkan proposal renegosiasi sebelum siklus perpanjangan kontrak Q1 2027.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://minimaxir.com/2026/10/cheap-llms/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 11,
+        "firstSeen": "2026-09-27",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Pengesahan PP dan PMK insentif PPh 0% restrukturisasi BUMN: pemantauan agenda Sekretariat Kabinet dan Kementerian Keuangan",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Pernyataan resmi PLN di bawah Suroso Isnandar tentang rencana perbaikan keandalan listrik menjelang COP31 Antalya",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Publikasi lanjutan dari OpenAI atau Anthropic tentang standar audit keamanan lingkungan pelatihan frontier yang dapat dijadikan baseline regulator",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Perkembangan negosiasi SK Data Center untuk pendanaan 350 miliar dolar AI buildout: konfirmasi struktur pembiayaan dan offtaker",
+      "dueDate": "2026-11-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indonesia Menuju COP 31: Perlunya Mendorong Target Elektrifikasi dan Bankability",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T07:11:56.000Z"
+    },
+    {
+      "title": "Dua Tahun Prabowo-Gibran, IESR Desak Pembenahan Pasokan BBM dan Keandalan Listrik",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T05:04:44.000Z"
+    },
+    {
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hcjNRbVFacnhzLWNNYnRkSTlVM2FkMnotYTd0MEpwTmlsQ2N1NlVPdjJjdXJhNG9FbC14d3FIR3pVaEh0SEdIamRWWmNTazRXVGNxbFg3dEFZN0RQT0tVcWpWZlpGTlZYb29uTW9PQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-23T13:29:39.000Z"
+    },
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "publisher": "Hacker News",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-10-25T21:11:31.000Z"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "title": "Insentif PPh 0% Restrukturisasi BUMN Masih Tunggu 2 Aturan Ini",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEFucTBEcmRyMzBKY25LQ3JxenFMQUpYeWZiTWpDLWE2TmRUaTJrX0dfRDBVTWxISk4wbEdQNmxnY0RjQ1h3ZGVVcUtNbC1CZ3NEMGpXbVVfZU9ITWliaS1NZjBnay1GNmJWdkJuN05UTlBpaGdibXVxMUQ0ektPNm0wbmt4RDdPQXRtOW1qTnJTVHd1WVdOQkpDS1l1cjZCNVVzOE41dWphcm1EOGFTellHTXN4VnpnUWh1WXZXck3SAcYBQVVfeXFMT090OTFhMy1Fb0NIRURmWE5HY0xWVDJlXzFlV2tOcWZ5dE5NV0RJcVdsQ1NUSTlpdVk0VEl6ankyTkZZbk95VEVQMUk4eEx5NlZEUkxWWUVpOFBfOGs0TG1GbWY2ZmwxZWtxRWt2bTVxM2N0eVVZUHRCY2JuYUMyM0lSZEs3M3hiTEpDVEdHYlFVNy1ueFhCS2xJWXpudjFDd2pibThDdm1xOGpJMWZySlE3UzdfaklReTNqNFVzdk94c1h0dmJR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T07:00:00.000Z"
+    },
+    {
+      "title": "AI Data Center Backlash Threatens Australia’s $70 Billion Dream",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlVoS0NUczZuM0VxNENQTjNJbnU0RDRhLURoSGU5ZjEzWTdUMWsxLU10aHoxdlNOVDFaQl9mcjJhRGRxUlh6azhEbWI3dnVfTTVpZU9mdjBpRFl0aGktaVRPWG9lZHRid2ppZVZEQ2diQzN1ZUpBOC03bDVFbi1CY2RrWnZJcm9mVFg3TkRSWFVJUENCNlV6c1ZQQnVxSjJlYW1ibjEwYjdSY1BuOG9jMzBsQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-23T06:22:00.000Z"
+    },
+    {
+      "title": "Pembangkit EBT Kombinasi Jadi Kunci Listrik Data Center 20 GW",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnB0ZjlfeUhBR3FSdWtwZjNNLWhsU2RVVUFUcHV1bTYzanUxc3g0ZEM1RGxmOElvOVpjMFJOcXp4My1KcWZ4S21fVVlYd0IyU05rZ0ZCS1IyTWxxcm9xSThxcHdvU21adzJqMGRWLTdtakJQLUs5X0NPZkdTcFVVdGQ0SDFMOUNuZUh0NTZjN3Fmdnp2ODF2ZUNkQ1RLdm5ULXZQSWM5dmw3YVM2b3R1YjYxMA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-23T12:30:00.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bisa Kena PPh 0 Persen, tetapi Aturannya Belum Final",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTms5NEtWaElDM2dzTzZ5ei1NZm5TVkd0RDJ1OU1fYnNTVGhXUng1YURPTzB0VDlxZjZDSTR0TzBPTmpicjlaQzRiTURzdi1Tb1NhZEV0RmtqNWpXbDN4TTdRMXkxemU2ci15N2V1b2hYeHpLMmpGNVJQaWZFVmU1eDZVM09wdVRKOU55by1iRkl1TXA5Q2dZNHZUMEV2Rmo2SVNSNUthVng3WV9qX3FZcjl4VEJJb3V3cnFpekRtWm0?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T07:00:00.000Z"
+    },
+    {
+      "title": "Dirut Baru PLN Harus Membawa Transformasi Bisnis, Bukan Sekadar Melanjutkan Program Lama",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dirut-baru-pln-harus-membawa-transformasi-bisnis-bukan-sekadar-melanjutkan-program-lama/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-15T07:15:30.000Z"
+    },
+    {
+      "title": "DJP Tunggu PP & PMK soal PPh 0% untuk Restrukturisasi BUMN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTndNd0l6bldzV19jYUg5aFZxNjZpaTZoRm94VGQtYlBieUJhSU1aZF8xeTd1ak9ERnI2N1pNMXpsN21uYWtqMzY1X1NqZnUwZ0ZHd2FfbHBGMnFZUS1mWFZHWGRmX0w5eUJxeTlsYzFUb25pMGM1d3pQRkNQMjh0Z3locmN4WVZ2cE1xclhXSDZod3g5Rmo3dGNhRHJsbkxXeEZKLTFnZEpmQ1k?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-16T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Aturan PPh 0% untuk restrukturisasi BUMN belum final; DJP tunggu PP dan PMK",
+      "occurrences": 29,
+      "firstSeen": "2026-09-26",
+      "lastSeen": "2026-10-25",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: Dirut baru PLN Suroso Isnandar harus bawa transformasi bisnis nyata, bukan lanjutkan program lama",
+      "occurrences": 29,
+      "firstSeen": "2026-09-26",
+      "lastSeen": "2026-10-25",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic rilis asesmen alignment atas insiden cybertesting UK AISI, memperluas preseden audit eksternal lab frontier",
+      "occurrences": 28,
+      "firstSeen": "2026-09-26",
+      "lastSeen": "2026-10-25",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Bloomberg Technoz: Kombinasi EBT jadi kunci pasokan listrik 20 GW untuk data center AI Indonesia",
+      "occurrences": 23,
+      "firstSeen": "2026-09-26",
+      "lastSeen": "2026-10-25",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 19,
+      "firstSeen": "2026-09-26",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 383,
+    "poolSize": 110,
+    "generatedAt": "2026-10-26T00:15:34.522Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
