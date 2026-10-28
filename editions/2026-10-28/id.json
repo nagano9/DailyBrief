@@ -1,0 +1,302 @@
+{
+  "slug": "2026-10-28",
+  "date": "2026-10-28",
+  "lang": "id",
+  "title": "Anthropic IPO, Perpres 107/2026, dan Impairment BUMN Rp135 T Ubah Tiga Domain Sekaligus",
+  "dek": "Tiga sinyal struktural matang bersamaan: valuasi AI menembus rekor, tata kelola impor energi dirombak lewat regulasi baru, dan kerugian penilaian aset BUMN mengkonfirmasi skala biaya restrukturisasi Danantara.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "Pengajuan IPO Anthropic yang dilaporkan memecahkan rekor memperkuat pola bahwa modal ekuitas publik kini menjadi jalur pembiayaan frontier AI, bukan hanya modal ventura tertutup. Di sisi energi, Perpres 107/2026 mengubah mekanisme impor crude, BBM, dan LPG secara struktural, sementara PLN Sulbagsel menambah 62 MW kapasitas pembangkit sebagai respons terhadap defisit keandalan yang sudah terdokumentasi IESR. Di domain korporasi, angka impairment Rp135 triliun dalam proses restrukturisasi BUMN mengkonfirmasi bahwa konsolidasi Danantara membawa biaya penghapusan aset yang nyata, bukan sekadar relabeling struktural. Kelima sinyal ini terhubung melalui satu benang: tekanan fiskal dan tata kelola mendorong keputusan struktural yang tidak dapat ditunda, baik di pasar modal global maupun di neraca negara.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "Kementerian ESDM",
+        "Perpres 107/2026",
+        "Pertamina"
+      ],
+      "headline": "Perpres 107/2026 ubah mekanisme impor crude, BBM, dan LPG secara struktural",
+      "whatChanged": "Kementerian ESDM mengumumkan terbitnya Peraturan Presiden 107/2026 yang mengubah cara impor crude, BBM, dan LPG. Regulasi ini merespons langsung kelangkaan BBM yang terdokumentasi sepanjang 2026 dan merupakan intervensi regulasi eksekutif tertinggi di sektor hilir migas tahun ini.",
+      "whyItMatters": "Perpres 107/2026 melanjutkan kondisi struktural yang sudah tercatat 29 kali dalam arsip tema pln-grid-investment: pemadaman dan kelangkaan BBM 2026 bukan gangguan teknis melainkan kegagalan tata kelola. Perubahan mekanisme impor di tingkat Perpres mengindikasikan pemerintah menilai kerangka lama tidak lagi cukup diperbaiki secara operasional, sehingga memerlukan perubahan arsitektur kebijakan.",
+      "secondOrder": "Perubahan mekanisme impor di tingkat regulasi eksekutif akan memengaruhi posisi kontrak jangka panjang Pertamina dengan pemasok crude internasional. Mitra dagang yang saat ini memiliki perjanjian jangka panjang perlu menilai ulang klausul force majeure dan perubahan pihak berwenang dalam kontrak, sementara Mubadala Energy yang baru saja melaporkan progres Blok Andaman perlu memahami apakah Perpres ini mengubah jalur komersialisasi gas mereka.",
+      "action": "Peroleh teks Perpres 107/2026 dan petakan: siapa entitas yang berwenang mengimpor, apakah ada perubahan atas peran Pertamina sebagai importir tunggal, dan apakah ada implikasi pada struktur harga atau subsidi BBM yang relevan bagi perencanaan energi BUMN.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcmxnS1l6NU5EQklnT1BHcVctRUVhXzJwaVVTaHBlWkp5RmF3ZEw2RjZpaWZuTG1DZ1B3UVZrNFQ3NWdaUkFfU2RoQkx3NHpDWGdLeHQ5Ny10d2FQRXVwUDFnZVJSZVd1U2xxZnZSajNKTk5ycndHRVozUjRXYU1TN1Nja0o5RjlWSE5lZDBNdWo1OUxCYXYxS1JzcUVNeWpVMGRBcFRnN3RPb2dmUnQxMTh2dE9VVUk?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://finance.detik.com/energi/d-8727069/petinggi-mubadala-sambangi-ri-lapor-progres-blok-andaman"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-28",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Bloomberg Technoz"
+      ],
+      "headline": "Impairment BUMN tembus Rp135 triliun dalam proses restrukturisasi Danantara",
+      "whatChanged": "Bloomberg Technoz melaporkan bahwa impairment atau penghapusan nilai aset dalam proses restrukturisasi BUMN di bawah Danantara telah menembus Rp135 triliun. Angka ini merupakan konfirmasi kuantitatif pertama atas skala biaya penyesuaian nilai aset dari konsolidasi BUMN.",
+      "whyItMatters": "Impairment Rp135 triliun melanjutkan tema struktural danantara-bumn-karya-restructuring yang sudah tercatat 29 kali: restrukturisasi ini membawa biaya nyata yang tercermin dalam laporan keuangan, bukan sekadar perubahan label kelembagaan. Angka ini mengonfirmasi bahwa aset BUMN yang dikonsolidasikan membawa nilai buku yang lebih tinggi dari nilai wajarnya, sehingga neraca konsolidasi Danantara akan mencerminkan tekanan yang signifikan.",
+      "secondOrder": "Impairment skala ini akan menekan kemampuan Danantara untuk memenuhi target imbal hasil investasi yang dijanjikan kepada mitra internasional di DTIIF 2026. Menkeu Suahasil yang menekankan sinergi APBN dan Danantara menghadapi risiko bahwa tekanan neraca Danantara dapat berbalik menjadi permintaan dukungan fiskal APBN, mengubah Danantara dari kendaraan off-balance-sheet menjadi kewajiban kontinjen.",
+      "action": "Minta laporan keuangan konsolidasi terbaru entitas BUMN yang masuk dalam skema Danantara: identifikasi aset mana yang mengalami impairment terbesar, apakah impairment ini sudah diakui dalam laporan keuangan yang diaudit, dan bagaimana angka ini memengaruhi covenant pinjaman yang sudah ada.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcTVjTGdodEZtYTIyNU44VlJtSjhuTmhlWGlaMTVlWWlqby1uU2gzdXdrZTJmckZsWFA4and5VlZja2o2RVpEWlp2cnZmcEFrQV9KTEJnT3N6Q0Y0QWlyYWpsSC1ieTh3bmt4VktCRXhjalRadVRSRkhLNFZqNGJoSk9YTnJhOG5zRnB4ZmcxcTk3ZUc5UVUyOFAtUXYxWFR1SF9nczdHRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQVVCT01oTUs2anFneXpxOWo0WmlDaXBWdFg1SEs1c2E4VHZsS2JZNXBLWTBTOTRONHNDWm1fQXUyUWpCSVgtMkRWNFU5ZGRGSWN1WmY4bDliR0lDM0RSNTBDYkE5a1ZudTBXNVBWdEt2VGU4T2tITlBBdHNkVUlxRE0ya1piLVZuZjZBVVJZOTFDSm1yeXJFcTE2dF9QNTNwbFdmeFhCaWxUb3BiWmpJSA?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2FOTGtVd3ZWUGJBcU5lOWtMR3NtOEZCTFNCczV5M2NSaEQ0bFRUeEN0a0RxSWN1R1JoSXVCWS00Q0dsbEFETzlrZUE2dXE5SlJ1TW4wQ2UzcXVzdW45aXJ1Nm16LXdSMnlGSVlpVk56eGc4aWc3TGpsTUJlN2pvdS1sQXBWX1RNbGw4b01WTlJCcDBOSGNEaHBn?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-28",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "COP31"
+      ],
+      "headline": "Potensi panas bumi Indonesia 24 GW, pemanfaatan baru 11,6% setelah hambatan struktural persisten",
+      "whatChanged": "Kontan.co.id melaporkan bahwa potensi panas bumi Indonesia mencapai 24 GW tetapi pemanfaatannya baru 11,6%, mengonfirmasi kesenjangan yang telah dilaporkan berulang kali. Laporan ini terbit berdekatan dengan persiapan Indonesia menuju COP31 di mana IESR mendesak target elektrifikasi yang lebih ambisius.",
+      "whyItMatters": "Tema indonesia-geothermal-concession-reform sudah tercatat 8 kali dalam arsip sebagai kondisi struktural. Kesenjangan 24 GW potensi versus 2,78 GW terpasang (11,6%) bukan kegagalan teknis melainkan kegagalan kerangka konsesi: biaya eksplorasi yang tidak dapat dipulihkan sebelum izin komersial, tumpang tindih kawasan hutan, dan tarif yang tidak mencerminkan risiko eksplorasi. Dengan COP31 mendekat, tekanan internasional untuk menunjukkan kemajuan konkret akan meningkat.",
+      "secondOrder": "Jika Indonesia hadir di COP31 tanpa reformasi konsesi yang terukur, kredibilitas komitmen transisi energi akan dipertanyakan oleh mitra JETP yang sudah mengalokasikan pembiayaan. Ketidakpercayaan ini dapat memperlambat pencairan dana transisi energi yang nilainya diperkirakan mencapai USD 92 miliar menurut estimasi JETP.",
+      "action": "Petakan proyek panas bumi yang saat ini terhambat di tahap izin: identifikasi titik kemacetan spesifik (izin kawasan hutan, tarif PPA, struktur konsesi) dan susun matriks hambatan yang dapat disampaikan sebagai input kebijakan menjelang COP31 November.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYm1LdXJfZEYwaXFnR0x1TlFJRnZyNEdaUUdCVWNwazdYdHhwWS1XSnQyWFY1clR5RHhqNmNCZ1RWcjloa1dwZFZ1bnF2Vkw0UGYzTE01S2g4N3lKTHhYbTBucHUxd2dWbnlmU0xFMnFMRXUtRnpBTDJlYngtZWx0X3Rwazd0VkJ2MW5ydG52NV9BNXlmcU9Va2hVNVZWN3R20gGaAUFVX3lxTE96VDZHUUJSZWdpVzdoeFd4Mlk2NlV4R0pNNVduZzdQSDRSTGFvOTRLbVg0T1Uxa3FVMURUNW81cWozaTVTa0thTHdzajVYTS1PUXdPaTRZSC1iaXE5T05TOUhJbXdRSUZtWHc0dk1kbzYyOXU5d3UtVUstQTc2LVNqaVBLTUNra1VwalNZeUV0NnUxeTV4aGNUYVE?oc=5",
+        "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZG5QcE8tOHFBQ1JSeEpEMUw4ZmE1aWJCVlJFWm1vSFU0ZzNNbHBLTU5YRnI4Z0czZDlXMnN6Z3NZY2p6MFRFcVRhVVRrREtYTDFlLTMtRFdrSXlmV2lMRlNNOUkwYXdEUEx0QWNZak83aUZGcXVTTk5KUXZwMFRpNFNTS2V5WlJSWk5RdnNKLUR3LTRZUVYwWVQzNGJXX29QcTVaVzZCLV8tQzJIWE01NmhBYTJNQnRUX0RyV0FfUmoxN1BkWXNzbHZBMFM1M3pReFMxS291eGFVSTA?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-09-29",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "The Guardian"
+      ],
+      "headline": "Anthropic ajukan IPO dengan valuasi yang disebut berpotensi memecahkan rekor pasar modal AS",
+      "whatChanged": "The Guardian melaporkan empat poin utama dari dokumen pengajuan IPO Anthropic: valuasi yang disebut berpotensi menjadi yang terbesar dalam sejarah pasar modal AS, struktur kepemilikan yang mempertahankan kendali pendiri, pengungkapan risiko terkait keselamatan model, dan ketergantungan pendapatan pada kontrak korporasi berskala besar.",
+      "whyItMatters": "IPO Anthropic mengubah frontier AI dari kategori aset ventura tertutup menjadi aset yang dapat dinilai secara publik dan diperdagangkan. Pengungkapan wajib dalam prospektus akan memaksa pengungkapan metrik pendapatan, struktur biaya pelatihan, dan eksposur regulasi yang selama ini tidak transparan, sehingga menetapkan preseden pelaporan untuk seluruh industri.",
+      "secondOrder": "Begitu Anthropic terdaftar secara publik, investor institusional yang sebelumnya tidak dapat mengakses saham frontier AI karena batasan regulasi dana publik akan masuk ke pasar. Arus modal baru ini dapat mendorong tekanan valuasi pada OpenAI dan Google DeepMind untuk mengikuti jalur yang sama, sekaligus mempercepat permintaan standarisasi akuntansi untuk biaya komputasi dan pengeluaran keselamatan model.",
+      "action": "Baca dokumen pengajuan IPO Anthropic begitu tersedia publik: identifikasi metrik pendapatan per model, struktur kontrak enterprise terbesar, dan pengungkapan risiko regulasi yang dapat menjadi preseden pelaporan bagi lab AI lain yang beroperasi di Indonesia atau bermitra dengan BUMN.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbHVZRnFMZ3RKdmREOW9PaTRrdURtSVJQN0NWcFhJcUFXYlNuVzNpajdYVVFPWjd2enJ6bmh5TUgtVWVXTTBvOWFVS0x5YXlmeWp1Z1NuaDJnM056RjRudXFuWVQ0bllKdGNsTFlEbV9ia18wZjVrZ0JuU1hkOHYtNHJqZThRRU9lWnhzS2dud3ZtWjJD?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-28",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Teks lengkap Perpres 107/2026 tersedia untuk dikaji: identifikasi perubahan atas kewenangan importir dan implikasi pada kontrak Pertamina yang berjalan.",
+      "dueDate": "2026-11-04"
+    },
+    {
+      "item": "Dokumen pengajuan IPO Anthropic: pantau pengungkapan pendapatan per segmen, biaya komputasi, dan metrik keselamatan model yang akan menjadi preseden pelaporan industri.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "COP31 Antalya November: pantau apakah Indonesia menyampaikan revisi target panas bumi atau reformasi konsesi sebagai komitmen terukur kepada mitra JETP.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Laporan keuangan konsolidasi BUMN di bawah Danantara: konfirmasi apakah impairment Rp135 triliun sudah diakui dalam laporan yang diaudit dan dampaknya pada covenant pinjaman.",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indonesia Menuju COP 31: Perlunya Mendorong Target Elektrifikasi dan Bankability",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T07:11:56.000Z"
+    },
+    {
+      "title": "Danantara Resmi Buka DTIIF 2026 di Fairmont Jakarta",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2FOTGtVd3ZWUGJBcU5lOWtMR3NtOEZCTFNCczV5M2NSaEQ0bFRUeEN0a0RxSWN1R1JoSXVCWS00Q0dsbEFETzlrZUE2dXE5SlJ1TW4wQ2UzcXVzdW45aXJ1Nm16LXdSMnlGSVlpVk56eGc4aWc3TGpsTUJlN2pvdS1sQXBWX1RNbGw4b01WTlJCcDBOSGNEaHBn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-26T13:51:54.000Z"
+    },
+    {
+      "title": "Perpres 107/2026 Terbit, Pemerintah Ubah Cara Impor Crude, BBM, dan LPG",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcmxnS1l6NU5EQklnT1BHcVctRUVhXzJwaVVTaHBlWkp5RmF3ZEw2RjZpaWZuTG1DZ1B3UVZrNFQ3NWdaUkFfU2RoQkx3NHpDWGdLeHQ5Ny10d2FQRXVwUDFnZVJSZVd1U2xxZnZSajNKTk5ycndHRVozUjRXYU1TN1Nja0o5RjlWSE5lZDBNdWo1OUxCYXYxS1JzcUVNeWpVMGRBcFRnN3RPb2dmUnQxMTh2dE9VVUk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-26T09:16:08.000Z"
+    },
+    {
+      "title": "Petinggi Mubadala Sambangi RI Lapor Progres Blok Andaman",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8727069/petinggi-mubadala-sambangi-ri-lapor-progres-blok-andaman",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-27T15:50:03.000Z"
+    },
+    {
+      "title": "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbHVZRnFMZ3RKdmREOW9PaTRrdURtSVJQN0NWcFhJcUFXYlNuVzNpajdYVVFPWjd2enJ6bmh5TUgtVWVXTTBvOWFVS0x5YXlmeWp1Z1NuaDJnM056RjRudXFuWVQ0bllKdGNsTFlEbV9ia18wZjVrZ0JuU1hkOHYtNHJqZThRRU9lWnhzS2dud3ZtWjJD?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-27T15:27:00.000Z"
+    },
+    {
+      "title": "Menkeu Suahasil Tekanan Sinergi APBN dan Danantara untuk Wujudkan Visi Pembangunan Indonesia",
+      "publisher": "Kementerian Keuangan",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQVVCT01oTUs2anFneXpxOWo0WmlDaXBWdFg1SEs1c2E4VHZsS2JZNXBLWTBTOTRONHNDWm1fQXUyUWpCSVgtMkRWNFU5ZGRGSWN1WmY4bDliR0lDM0RSNTBDYkE5a1ZudTBXNVBWdEt2VGU4T2tITlBBdHNkVUlxRE0ya1piLVZuZjZBVVJZOTFDSm1yeXJFcTE2dF9QNTNwbFdmeFhCaWxUb3BiWmpJSA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-26T12:22:00.000Z"
+    },
+    {
+      "title": "Potensi Panas Bumi Indonesia Capai 24 GW, Pemanfaatannya Baru 11,6%",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYm1LdXJfZEYwaXFnR0x1TlFJRnZyNEdaUUdCVWNwazdYdHhwWS1XSnQyWFY1clR5RHhqNmNCZ1RWcjloa1dwZFZ1bnF2Vkw0UGYzTE01S2g4N3lKTHhYbTBucHUxd2dWbnlmU0xFMnFMRXUtRnpBTDJlYngtZWx0X3Rwazd0VkJ2MW5ydG52NV9BNXlmcU9Va2hVNVZWN3R20gGaAUFVX3lxTE96VDZHUUJSZWdpVzdoeFd4Mlk2NlV4R0pNNVduZzdQSDRSTGFvOTRLbVg0T1Uxa3FVMURUNW81cWozaTVTa0thTHdzajVYTS1PUXdPaTRZSC1iaXE5T05TOUhJbXdRSUZtWHc0dk1kbzYyOXU5d3UtVUstQTc2LVNqaVBLTUNra1VwalNZeUV0NnUxeTV4aGNUYVE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-27T11:09:45.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN, Impairment Tembus Rp135 Triliun",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcTVjTGdodEZtYTIyNU44VlJtSjhuTmhlWGlaMTVlWWlqby1uU2gzdXdrZTJmckZsWFA4and5VlZja2o2RVpEWlp2cnZmcEFrQV9KTEJnT3N6Q0Y0QWlyYWpsSC1ieTh3bmt4VktCRXhjalRadVRSRkhLNFZqNGJoSk9YTnJhOG5zRnB4ZmcxcTk3ZUc5UVUyOFAtUXYxWFR1SF9nczdHRQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "title": "JETP estimates Indonesia needs $92 billion by 2050 for decarbonising captive power sector",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZG5QcE8tOHFBQ1JSeEpEMUw4ZmE1aWJCVlJFWm1vSFU0ZzNNbHBLTU5YRnI4Z0czZDlXMnN6Z3NZY2p6MFRFcVRhVVRrREtYTDFlLTMtRFdrSXlmV2lMRlNNOUkwYXdEUEx0QWNZak83aUZGcXVTTk5KUXZwMFRpNFNTS2V5WlJSWk5RdnNKLUR3LTRZUVYwWVQzNGJXX29QcTVaVzZCLV8tQzJIWE01NmhBYTJNQnRUX0RyV0FfUmoxN1BkWXNzbHZBMFM1M3pReFMxS291eGFVSTA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2025-12-17T08:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR: pemadaman dan kelangkaan BBM 2026 cerminkan kegagalan tata kelola, bukan gangguan teknis",
+      "occurrences": 29,
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-10-27",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara buka DTIIF 2026 dan larang direksi BUMN pamer kemewahan di medsos",
+      "occurrences": 29,
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-10-27",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI publishes verified AI-assisted proofs on Exponential Time Hypothesis and Kakeya conjecture, marking formal-reasoning milestone",
+      "occurrences": 28,
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-10-27",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "AirTrunk kunci pinjaman hijau USD 3 miliar untuk pusat data Sydney, buktikan struktur project finance AI",
+      "occurrences": 23,
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-10-27",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 17,
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 393,
+    "poolSize": 110,
+    "generatedAt": "2026-10-28T00:44:02.679Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
