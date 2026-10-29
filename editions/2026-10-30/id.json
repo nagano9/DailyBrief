@@ -2,14 +2,13 @@
   "slug": "2026-10-30",
   "date": "2026-10-30",
   "lang": "id",
-  "title": "Gemini 4 Carbon, Model Spec OpenAI, dan Impairment BUMN Rp135 T Pimpin Agenda",
-  "dek": "Frontier AI bergerak serentak pada keamanan dan kapabilitas, sementara Danantara memperketat kontrol korporasi di tengah impairment BUMN yang menembus Rp135 triliun.",
+  "title": "Gemini 4 Carbon, Model Spec OpenAI, dan Obligasi Data Center Gagal: Tiga Sinyal Frontier AI Hari Ini",
+  "dek": "Dua rilis model frontier bertepatan dengan kegagalan penjualan obligasi data center senilai ratusan juta dolar, menandai tekanan serius pada struktur pembiayaan infrastruktur AI.",
   "domains": [
     "ai",
-    "corporate",
-    "energy"
+    "corporate"
   ],
-  "summary": "Google DeepMind merilis Gemini 4 Carbon sebagai frontier model terbaru, satu hari setelah OpenAI memperbarui Model Spec dan mempublikasikan kerangka deteksi misalignment, menandai babak baru kompetisi sekaligus standardisasi tata kelola AI. Di lapisan infrastruktur, Bloomberg melaporkan bahwa bank-bank menunda penjualan obligasi untuk data center Texas yang terkait Anthropic, sinyal bahwa project finance AI mulai menghadapi ujian pasar nyata. Di sisi korporasi, impairment BUMN dalam restrukturisasi Danantara telah menembus Rp135 triliun, dan Danantara kini mewajibkan kemitraan lokal untuk teknologi waste-to-energy asing, sebuah kebijakan yang mempersempit ruang masuk investor luar. Pandu Sjahrir selaku pimpinan Danantara mengakui kepemilikan 27,5 persen saham di Supra Sekuritas yang sedang dijatuhi sanksi OJK, menambah tekanan tata kelola di lembaga yang mengelola portofolio BUMN strategis.",
+  "summary": "Google DeepMind merilis Gemini 4 Carbon sebagai model frontier terbarunya, sementara OpenAI memperbarui Model Spec dengan lima nilai inti untuk mengarahkan otonomi AI yang semakin besar. Bersamaan dengan itu, Bloomberg melaporkan bahwa bank-bank gagal menjual obligasi untuk data center di Texas yang terkait Anthropic, sinyal bahwa pasar obligasi mulai memberi harga pada risiko proyek AI-infrastruktur secara berbeda dari pasar ekuitas. Di sisi domestik, Danantara mewajibkan kemitraan lokal untuk teknologi waste-to-energy asing, melanjutkan pola restrukturisasi BUMN yang menekan Rp135 triliun impairment. PLN menguji co-firing hidrogen dan amonia di pembangkit eksisting, langkah transisi yang relevan terhadap target dekarbonisasi tetapi masih dalam fase uji, bukan komersialisasi.",
   "signals": [
     {
       "rank": 1,
@@ -17,15 +16,13 @@
       "themeKey": "ai-model-safety-frontier",
       "entities": [
         "Google DeepMind",
-        "OpenAI",
-        "Gemini 4 Carbon",
-        "Model Spec"
+        "OpenAI"
       ],
-      "headline": "Google DeepMind rilis Gemini 4 Carbon sebagai frontier model generasi berikutnya",
-      "whatChanged": "Google DeepMind mengumumkan Gemini 4 Carbon pada 28 Oktober 2026 sebagai frontier model terbarunya, dirilis kurang dari 24 jam sebelum OpenAI mempublikasikan pembaruan Model Spec yang menetapkan lima nilai inti untuk mengarahkan AI berkemampuan tinggi, serta makalah terpisah tentang sistem deteksi misalignment berlapis pada model frontier.",
-      "whyItMatters": "Dua lab terbesar merilis kerangka kapabilitas dan kerangka keamanan dalam rentang 48 jam, menunjukkan bahwa kompetisi frontier kini dijalankan beriringan dengan standardisasi tata kelola internal. Model Spec OpenAI yang diperbarui secara eksplisit menyebut kesetiaan pada kehendak manusia sebagai nilai inti, sebuah pergeseran dari dokumen sebelumnya yang lebih berfokus pada instruksi operator.",
-      "secondOrder": "Bila dua lab terbesar secara bersamaan mempublikasikan kerangka keamanan formal, regulator di Uni Eropa dan Inggris memiliki referensi komparatif untuk menetapkan standar minimum. Perusahaan yang mengintegrasikan model-model ini ke dalam alur kerja enterprise perlu meninjau ulang klausul kontrak terkait liability jika model berperilaku di luar spesifikasi yang dipublikasikan, karena dokumen publik tersebut kini dapat dijadikan bukti dalam sengketa.",
-      "action": "Bandingkan Model Spec OpenAI versi terbaru dengan dokumentasi keamanan Gemini 4 Carbon: identifikasi perbedaan definisi 'misalignment' dan mekanisme intervensi. Gunakan perbandingan ini untuk memperbarui klausul acceptable-use dalam kontrak enterprise AI yang sedang berjalan atau sedang dinegosiasikan.",
+      "headline": "Google DeepMind rilis Gemini 4 Carbon sebagai model frontier generasi berikutnya",
+      "whatChanged": "Google DeepMind mengumumkan Gemini 4 Carbon pada 28 Oktober 2026 sebagai model frontier terbarunya, menandai generasi berikutnya dari lini Gemini.",
+      "whyItMatters": "Rilis ini terjadi satu hari setelah OpenAI memperbarui Model Spec-nya pada 29 Oktober 2026 dengan lima nilai inti yang secara eksplisit mengatur otonomi, kesetiaan pada maksud manusia, dan mekanisme deteksi misalignment. Dua rilis besar dari dua lab frontier dalam 48 jam menunjukkan akselerasi yang terkompresi, bukan perlambatan.",
+      "secondOrder": "Percepatan rilis frontier mempersingkat jendela bagi organisasi pengguna untuk mengevaluasi risiko sebelum adopsi. Kebijakan keamanan internal seperti Model Spec OpenAI dan deteksi misalignment yang dipublikasikan pada kandidat 41 akan semakin sulit diverifikasi secara independen bila interval rilis model terus menyempit.",
+      "action": "Bandingkan kapabilitas dan batasan Gemini 4 Carbon dengan model yang sedang digunakan dalam sistem produksi internal. Jadwalkan evaluasi red-team terhadap skenario otonomi agen sebelum keputusan upgrade, menggunakan kerangka deteksi misalignment yang dipublikasikan OpenAI sebagai referensi awal.",
       "strength": "material",
       "sourceUrls": [
         "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
@@ -47,88 +44,47 @@
     },
     {
       "rank": 2,
-      "domain": "corporate",
-      "themeKey": "danantara-bumn-karya-restructuring",
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
       "entities": [
-        "Danantara",
-        "OJK",
-        "Supra Sekuritas",
-        "Pandu Sjahrir"
+        "OpenAI"
       ],
-      "headline": "Impairment BUMN Rp135 triliun dan konflik kepentingan OJK membebani Danantara secara bersamaan",
-      "whatChanged": "Bloomberg Technoz melaporkan impairment dalam restrukturisasi BUMN telah menembus Rp135 triliun. Pada hari yang sama, Kontan melaporkan bahwa Pandu Sjahrir selaku pimpinan Danantara mengakui memiliki 27,5 persen saham di Supra Sekuritas, perusahaan yang sedang dijatuhi sanksi oleh OJK.",
-      "whyItMatters": "Kedua berita ini muncul bersamaan dan saling memperkuat risiko reputasi Danantara. Impairment Rp135 triliun menunjukkan skala kerugian yang harus diakui dalam proses konsolidasi, sementara kepemilikan saham pimpinan di entitas yang bermasalah dengan regulator pasar modal menimbulkan pertanyaan tentang independensi pengambilan keputusan investasi.",
-      "secondOrder": "Investor asing yang mempertimbangkan partisipasi dalam rights issue atau IPO BUMN yang dikelola Danantara (sebagaimana dilaporkan BEI sedang membuka jalan, kandidat 29) akan menggunakan dua berita ini sebagai faktor diskon dalam valuasi. Lembaga pemeringkat yang sedang mengevaluasi kredit BUMN di bawah Danantara perlu mempertimbangkan apakah impairment ini bersifat satu kali atau mencerminkan penurunan nilai aset sistemis.",
-      "action": "Sebelum mengambil posisi pada rights issue atau instrumen utang BUMN yang berada di bawah Danantara, minta disclosure lengkap mengenai: metodologi penghitungan impairment Rp135 triliun, daftar entitas terdampak, dan status resolusi konflik kepentingan kepemimpinan dengan OJK. Jadikan kejelasan dua hal ini sebagai prasyarat, bukan tindak lanjut.",
-      "strength": "actionable",
+      "headline": "OpenAI perbarui Model Spec dan publikasikan sistem deteksi misalignment frontier",
+      "whatChanged": "OpenAI menerbitkan Model Spec yang diperbarui pada 29 Oktober 2026 dengan lima nilai inti untuk mengarahkan otonomi AI, dan secara terpisah mempublikasikan mekanisme pemantauan berlapis untuk mendeteksi misalignment model frontier serta perilaku agen yang tidak sah.",
+      "whyItMatters": "Dua dokumen ini bersama-sama mengakui bahwa model frontier yang lebih mampu membutuhkan kerangka tata kelola yang lebih eksplisit, bukan hanya panduan penggunaan. Publikasi mekanisme deteksi misalignment merupakan langkah pertama yang terverifikasi dari lab AI besar untuk mendokumentasikan prosedur intervensi sebelum insiden eskalasi.",
+      "secondOrder": "Standar yang ditetapkan OpenAI dalam dua dokumen ini akan menjadi referensi de facto bagi regulator yang menyusun persyaratan audit model AI. Organisasi yang menggunakan model OpenAI dalam sistem agen akan menghadapi tekanan untuk membuktikan kepatuhan terhadap kerangka ini, khususnya bila regulasi AI mulai mengadopsi Model Spec sebagai baseline.",
+      "action": "Periksa apakah kontrak enterprise dengan OpenAI menyertakan klausul yang mengikat vendor pada komitmen Model Spec terbaru. Identifikasi sistem agen internal yang beroperasi dengan otonomi tinggi dan nilai ulang batas intervensi manusianya berdasarkan kerangka deteksi yang dipublikasikan.",
+      "strength": "material",
       "sourceUrls": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkRGbUlkb2pNZy1QWU5JNXpIRkNZMDRITGZfdXRLWlJyTkFlQ3RIa2J6WHB2c3FGQUFjWW1QZldXYVBDT0ZpdThacERNdUYtNEE4bjZpZzBReGpCQUY2dU1SNnEwOFNELTBTZzNseFhuUy1uU2RMWVZ1NXlmTF9EM1U1QzdnLUVGSGQxQ3BXaW9xTjNocGQ2cVZHejZiRWgyaHlxTEwwM1RGZ2lGS3NyeG9iUlV4UGcw0gGwAUFVX3lxTFAwcHB2RW12ZDJxNHEwRU1GcWdqTXZwVGloUVA2SEd2WlBuS1lEVzZTNFQ1c1FvQWQxMmh4ak1GcTdEbUxtQ2pVWl9PeWxqUUV2ZEw5YkJIQV9kUF91Y092OVpPUV9ZYTlfMzFULUZRc0txRjNIVklPQ1RBcGRNUHRWaEVFcnhxUmZmeW9mOFBCRnhXZWgtd3lHTjJncDAtcUNkSE9VSHotaGMzOENoWDF3?oc=5"
+        "https://openai.com/index/updated-model-spec",
+        "https://openai.com/index/how-we-detect-frontier-model-misalignment"
       ],
-      "secondOrderUrls": [
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQnFrdlpjRXhIYUl4cktjVGRTWXdsT25iTWJyT3FPRDhyWEsxZFU5aHh3ZW1BaGk4N0pzTEF6WjZMaGhJU0U5bUo1RUU4Ui11YWY5ZWdBZFhWQ1JWRVN4cmx3Tl9JOUU4S1ZGeXRwZDZKSDYzRDdKeFNNSldDZnFGaDgtZlI3R0k2T2FmMHpzYjJJVXlBSjAtU3VYZmdfSUc3QmM0LVhPaThNRGN1OFhsZlRkTEJaUUdpYnNNcl9oYVE?oc=5"
-      ],
+      "secondOrderUrls": [],
       "corroboration": {
-        "publishers": 2,
-        "hasPrimary": false
+        "publishers": 1,
+        "hasPrimary": true
       },
       "trend": {
-        "themeKey": "danantara-bumn-karya-restructuring",
+        "themeKey": "ai-model-safety-frontier",
         "status": "structural",
-        "occurrences": 30,
+        "occurrences": 29,
         "firstSeen": "2026-09-30",
         "spanDays": 30
       }
     },
     {
       "rank": 3,
-      "domain": "energy",
-      "themeKey": "pln-grid-investment",
-      "entities": [
-        "IESR",
-        "PLN",
-        "COP31",
-        "JETP"
-      ],
-      "headline": "IESR: Sistem kelistrikan Indonesia rentan cuaca ekstrem, pasar listrik fleksibel mendesak",
-      "whatChanged": "IESR mempublikasikan simulasi pasar listrik fleksibel untuk Indonesia pada 21 Oktober 2026, dengan temuan bahwa krisis iklim dan cuaca ekstrem sepanjang 2026 telah mengekspos kerentanan sistem ketenagalistrikan yang tidak memiliki mekanisme respons fleksibel. Dalam laporan terpisah tertanggal 20 Oktober 2026, IESR mencatat kelangkaan BBM dan pemadaman listrik berulang sebagai bukti kegagalan pasokan sistemis dalam dua tahun pemerintahan Prabowo-Gibran.",
-      "whyItMatters": "Ini melanjutkan kondisi struktural pln-grid-investment: persoalan transmisi dan fleksibilitas grid Indonesia bukan lagi proyeksi, melainkan sudah menghasilkan gangguan nyata yang terdokumentasi pada 2026. Akumulasi temuan IESR selama 30 hari terakhir membentuk pola bahwa Indonesia memasuki COP31 dengan sistem kelistrikan yang rentan, bukan dengan rekam jejak transisi yang kredibel.",
-      "secondOrder": "Kerentanan sistem yang sudah terdokumentasi akan memperlemah posisi negosiasi Indonesia di COP31 Antalya untuk mendapatkan pembiayaan transisi energi dengan syarat lunak. Kreditur multilateral yang mensyaratkan benchmark keandalan sistem sebelum mencairkan dana JETP atau ETM akan menggunakan data pemadaman 2026 sebagai dasar pengetatan kondisi.",
-      "action": "Sebelum COP31, petakan secara eksplisit kejadian pemadaman dan kelangkaan BBM 2026 terhadap komitmen keandalan yang tercantum dalam proposal JETP dan ETM Indonesia. Identifikasi gap antara klaim dan kinerja aktual agar tim negosiasi dapat menyiapkan respons berbasis data, bukan penyangkalan.",
-      "strength": "material",
-      "sourceUrls": [
-        "https://iesr.or.id/simulasi-pasar-listrik-fleksibel-untuk-indonesia/",
-        "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
-        "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/"
-      ],
-      "secondOrderUrls": [
-        "https://iesr.or.id/pernyataan-iesr-solidaritas-bagi-warga-terdampak-kabut-asap-dan-kelangkaan-bbm/"
-      ],
-      "corroboration": {
-        "publishers": 1,
-        "hasPrimary": true
-      },
-      "trend": {
-        "themeKey": "pln-grid-investment",
-        "status": "structural",
-        "occurrences": 30,
-        "firstSeen": "2026-09-30",
-        "spanDays": 30
-      }
-    },
-    {
-      "rank": 4,
       "domain": "corporate",
       "themeKey": "danantara-bumn-karya-restructuring",
       "entities": [
         "Danantara",
-        "ANTARA"
+        "ANTARA News Mataram"
       ],
       "headline": "Danantara wajibkan kemitraan lokal untuk teknologi waste-to-energy asing",
-      "whatChanged": "ANTARA melaporkan pada 29 Oktober 2026 bahwa Danantara mewajibkan perusahaan asing yang membawa teknologi waste-to-energy untuk bermitra dengan mitra lokal sebagai syarat partisipasi dalam proyek di Indonesia.",
-      "whyItMatters": "Kebijakan ini mengubah struktur masuk pasar untuk proyek waste-to-energy: investor asing tidak dapat lagi beroperasi sebagai sponsor tunggal, dan harus mengalokasikan ekuitas atau kendali operasional kepada mitra lokal. Hal ini meningkatkan biaya transaksi dan kompleksitas tata kelola proyek, terutama untuk teknologi yang memiliki kurva pembelajaran sempit di mana transfer ke mitra lokal berisiko menurunkan kualitas output.",
-      "secondOrder": "Kebijakan kemitraan wajib yang diterapkan di sektor waste-to-energy kemungkinan akan dijadikan preseden untuk sektor infrastruktur strategis lain yang dikelola Danantara. Perusahaan yang sedang dalam due diligence untuk proyek energi atau infrastruktur Indonesia perlu menghitung biaya kemitraan lokal (termasuk transfer teknologi, bagi hasil, dan risiko reputasi mitra) sebagai komponen tetap dalam model keuangan, bukan variabel opsional.",
-      "action": "Untuk proyek waste-to-energy atau infrastruktur serupa yang sedang dalam pipeline Indonesia, lakukan penilaian mitra lokal yang tersedia: kapabilitas teknis, rekam jejak keuangan, dan afiliasi dengan entitas BUMN. Tentukan apakah kemitraan akan bersifat operasional atau hanya struktural, karena perbedaannya menentukan alokasi risiko dan imbal hasil.",
+      "whatChanged": "Danantara mewajibkan perusahaan asing yang membawa teknologi waste-to-energy untuk bermitra dengan mitra lokal dalam setiap proyek, sebagaimana dilaporkan ANTARA News Mataram dan republika.co.id pada 29 Oktober 2026.",
+      "whyItMatters": "Kebijakan ini melanjutkan tema struktural restrukturisasi BUMN di bawah Danantara: setiap pintu masuk investasi asing di sektor strategis kini diberi prasyarat kemitraan domestik. Ini merupakan mekanisme transfer teknologi paksa yang akan memengaruhi negosiasi kontrak proyek energi dari sampah, sebuah segmen yang sebelumnya didominasi proposal teknologi impor tanpa persyaratan lokal.",
+      "secondOrder": "Mitra lokal yang dipilih untuk proyek waste-to-energy akan mendapat akses ke teknologi dan arus kas proyek, tetapi juga menanggung eksposur operasional yang belum tentu sesuai dengan kapabilitas mereka. Bila mitra lokal gagal memenuhi kewajiban operasional, risiko proyek akan berbalik ke sponsor asing dan pada akhirnya ke Danantara sebagai penjamin.",
+      "action": "Petakan perusahaan BUMN atau swasta lokal yang memiliki kapabilitas teknis dan neraca yang memadai untuk menjadi mitra sah dalam proyek waste-to-energy skala besar. Evaluasi apakah persyaratan kemitraan ini memenuhi threshold kepemilikan saham minimum atau hanya kewajiban subkontrak, karena perbedaan ini menentukan distribusi risiko kontraktual.",
       "strength": "emerging",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSVhPV3M1RkFkOVlSSmlFZnJBdnVlNXBzV3hMOEdhMGFOaUpZN1VHa0lETFZYTXZla2RRNmRGeGRndjVXdXltTkRoM3ZDbGQtck00TjB4TGpnLW1VSXZ2UXJfVmpNeFdyNHhFUi1QQUJ5dUF0X3M0eGYxTGhzcnZycXAwWGhZVXpEOUVWbVZNUFpxNmh5aGdCTWhRVk9hczhxVEN0b0t4MWZoZnJCXy02c2pVUGdsUQ?oc=5",
@@ -148,19 +104,19 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "domain": "ai",
       "themeKey": "ai-datacenter-project-finance",
       "entities": [
         "Anthropic",
         "Bloomberg"
       ],
-      "headline": "Bank tunda obligasi data center Texas terkait Anthropic, pasar uji project finance AI",
-      "whatChanged": "Bloomberg melaporkan pada 29 Oktober 2026 bahwa bank-bank menunda penjualan obligasi untuk data center di Texas yang terkait Anthropic, mengindikasikan permintaan investor tidak mencukupi pada level harga yang ditawarkan.",
-      "whyItMatters": "Ini adalah sinyal pertama yang dapat dikorroborasi bahwa pasar modal publik menolak struktur pembiayaan data center AI pada kondisi pasar saat ini. Selama dua tahun terakhir, asumsi umum adalah bahwa permintaan investor untuk aset AI infrastructure tidak terbatas; penundaan ini memaksa revisi asumsi tersebut.",
-      "secondOrder": "Penundaan satu transaksi akan memicu repricing ekspektasi di seluruh pipeline data center AI yang sedang mencari pembiayaan obligasi. Developer yang mengandalkan struktur bond sale untuk menutup gap antara ekuitas dan pinjaman bank perlu mempertimbangkan skenario di mana biaya modal naik atau tenor dipersingkat. Hal ini secara tidak langsung memperkuat posisi tawar PLN dan pemerintah Indonesia dalam negosiasi offtake listrik dengan data center yang merencanakan ekspansi di Indonesia.",
-      "action": "Tinjau ulang asumsi biaya modal dalam model keuangan data center AI yang sedang dalam pipeline: uji skenario di mana spread obligasi naik 75-150 bps dari baseline. Jika ada negosiasi offtake listrik dengan data center, minta pembaruan status pembiayaan proyek sebelum menandatangani komitmen jangka panjang.",
-      "strength": "emerging",
+      "headline": "Bank gagal jual obligasi data center Texas yang terkait Anthropic",
+      "whatChanged": "Bloomberg melaporkan bahwa bank-bank menarik (shelve) penjualan obligasi untuk sebuah data center di Texas yang secara kontraktual terkait dengan Anthropic. Transaksi ini tidak berhasil diserap pasar.",
+      "whyItMatters": "Pasar ekuitas selama ini memberi valuasi tinggi pada ekosistem AI, tetapi pasar obligasi yang sama kini menolak menyerap utang berbasis kontrak offtake Anthropic sebagai jaminan yang cukup. Ini berarti investor fixed-income menilai risiko kredit proyek AI-infrastruktur lebih tinggi dari yang terlihat di pasar saham, dan dua pasar ini sedang bergerak ke arah berlawanan.",
+      "secondOrder": "Bila pola ini meluas, pengembang data center yang mengandalkan obligasi proyek untuk mendanai capex akan dipaksa beralih ke pinjaman bank dengan tenor lebih pendek atau ekuitas yang lebih mahal. Biaya modal yang naik akan memperlambat laju pembangunan kapasitas komputasi, dan pada akhirnya menekan timeline komersialisasi model-model frontier yang membutuhkan infrastruktur tersebut.",
+      "action": "Tinjau ulang setiap proposal investasi data center AI yang menggunakan obligasi sebagai instrumen utama pembiayaan: verifikasi apakah kontrak offtake yang mendasarinya memenuhi standar credit enhancement yang dibutuhkan lender obligasi, bukan hanya standar sponsor ekuitas. Prioritaskan analisis struktur utang sebelum komitmen ekuitas.",
+      "strength": "material",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWZ1cFJjWU12d2ZBMU9WVTFvbXFMdXBwaUFMRko0VXBXYkZadEM1dDRsRi04QjR6TjE1NmhpOGY3bDBNdjlrWXUtT29uc2NTNmpVTzE4QnQ0ZkRtNURPOG1OZW5QOGFyMGJ2R196NFhxTThFZGlpSV9PdlVBRFJXdm0wdHRzSnpOTEtPR18ybFpXSGZESWNxeEhEdGotYUJNOHhXYVR3XzlDVlVabjhV?oc=5"
       ],
@@ -180,20 +136,20 @@
   ],
   "watchNext": [
     {
-      "item": "Perkembangan bond sale data center Texas terkait Anthropic: apakah transaksi dilanjutkan dengan repricing atau dibatalkan, dan dampaknya terhadap pipeline pembiayaan data center AI lainnya.",
-      "dueDate": "2026-11-15"
-    },
-    {
-      "item": "Posisi Indonesia di COP31 Antalya: apakah komitmen elektrifikasi dan target EBT diperbarui, dan apakah pembiayaan JETP/ETM dikaitkan dengan benchmark keandalan sistem yang baru.",
-      "dueDate": "2026-11-30"
-    },
-    {
-      "item": "Respons OJK dan Danantara terhadap pengakuan kepemilikan Pandu Sjahrir di Supra Sekuritas: apakah ada mekanisme recusal, divestasi, atau perubahan tata kelola yang ditetapkan.",
+      "item": "Perkembangan penjualan obligasi data center Texas yang terkait Anthropic: apakah bank mencoba restrukturisasi transaksi atau membatalkannya sepenuhnya, dan respons Anthropic terhadap implikasi kredit ini.",
       "dueDate": "2026-11-07"
     },
     {
-      "item": "Rilis detail Gemini 4 Carbon (benchmark, konteks, modalitas) dan perbandingan dengan spesifikasi teknis model frontier lain untuk menilai pergeseran kapabilitas yang sesungguhnya.",
-      "dueDate": "2026-11-10"
+      "item": "Rilis teknis Gemini 4 Carbon: benchmark performa versus GPT-5 dan model frontier lain, khususnya pada tugas agen multi-langkah yang relevan untuk enterprise.",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "COP31 di Antalya, Turki: posisi Indonesia terkait target elektrifikasi dan bankability proyek energi terbarukan, termasuk apakah komitmen baru diumumkan setelah tekanan IESR.",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Hasil kuantitatif uji co-firing hidrogen dan amonia PLN IP: rasio campuran, biaya operasi, dan rencana skalabilitas ke pembangkit lain.",
+      "dueDate": "2026-11-30"
     }
   ],
   "sources": [
@@ -206,22 +162,6 @@
       "publishedAt": "2026-10-28T17:00:58.000Z"
     },
     {
-      "title": "Simulasi Pasar Listrik Fleksibel untuk Indonesia",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/simulasi-pasar-listrik-fleksibel-untuk-indonesia/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-10-21T06:17:58.000Z"
-    },
-    {
-      "title": "Indonesia Menuju COP 31: Perlunya Mendorong Target Elektrifikasi dan Bankability",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/indonesia-menuju-cop-31-perlunya-mendorong-target-elektrifikasi-dan-bankability/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-10-20T07:11:56.000Z"
-    },
-    {
       "title": "An updated Model Spec for more capable and beneficial AI",
       "publisher": "OpenAI",
       "url": "https://openai.com/index/updated-model-spec",
@@ -230,30 +170,12 @@
       "publishedAt": "2026-10-29T17:00:00.000Z"
     },
     {
-      "title": "BEI Buka Jalan bagi Danantara Jadi Pemegang Saham, Rights Issue Disiapkan Sebelum IPO",
-      "publisher": "Kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQnFrdlpjRXhIYUl4cktjVGRTWXdsT25iTWJyT3FPRDhyWEsxZFU5aHh3ZW1BaGk4N0pzTEF6WjZMaGhJU0U5bUo1RUU4Ui11YWY5ZWdBZFhWQ1JWRVN4cmx3Tl9JOUU4S1ZGeXRwZDZKSDYzRDdKeFNNSldDZnFGaDgtZlI3R0k2T2FmMHpzYjJJVXlBSjAtU3VYZmdfSUc3QmM0LVhPaThNRGN1OFhsZlRkTEJaUUdpYnNNcl9oYVE?oc=5",
-      "tier": 2,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-10-29T02:01:00.000Z"
-    },
-    {
       "title": "How we detect frontier model misalignment",
       "publisher": "OpenAI",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "tier": 1,
       "primary": true,
       "publishedAt": "2026-10-29T09:00:00.000Z"
-    },
-    {
-      "title": "​Bos Danantara Pandu Sjahrir Akui Punya 27,5% Saham Supra Sekuritas yang Dihukum OJK",
-      "publisher": "kontan.co.id",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkRGbUlkb2pNZy1QWU5JNXpIRkNZMDRITGZfdXRLWlJyTkFlQ3RIa2J6WHB2c3FGQUFjWW1QZldXYVBDT0ZpdThacERNdUYtNEE4bjZpZzBReGpCQUY2dU1SNnEwOFNELTBTZzNseFhuUy1uU2RMWVZ1NXlmTF9EM1U1QzdnLUVGSGQxQ3BXaW9xTjNocGQ2cVZHejZiRWgyaHlxTEwwM1RGZ2lGS3NyeG9iUlV4UGcw0gGwAUFVX3lxTFAwcHB2RW12ZDJxNHEwRU1GcWdqTXZwVGloUVA2SEd2WlBuS1lEVzZTNFQ1c1FvQWQxMmh4ak1GcTdEbUxtQ2pVWl9PeWxqUUV2ZEw5YkJIQV9kUF91Y092OVpPUV9ZYTlfMzFULUZRc0txRjNIVklPQ1RBcGRNUHRWaEVFcnhxUmZmeW9mOFBCRnhXZWgtd3lHTjJncDAtcUNkSE9VSHotaGMzOENoWDF3?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-10-29T22:37:40.000Z"
     },
     {
       "title": "Danantara mandates local partnerships for foreign waste-to-energy tech",
@@ -265,14 +187,6 @@
       "publishedAt": "2026-10-29T22:25:20.000Z"
     },
     {
-      "title": "Dua Tahun Prabowo-Gibran, IESR Desak Pembenahan Pasokan BBM dan Keandalan Listrik",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-10-20T05:04:44.000Z"
-    },
-    {
       "title": "Danantara Wajibkan Perusahaan Asing Gandeng Lokal di Proyek Sampah-Energi",
       "publisher": "republika.co.id",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdTUxbG9fbWJLM2hORW5tOGNVNTVjbGtUN1pxd2NYSFRuMy1VVFZtWlZVRi11MHZJb3J4U3FQMDF1bmhGd0tDNWVHRHBVTlhBQnQ0VE15X282bS1Xbmc0TktXV3BmTVcwVzBmUkdURE0xNUVHSDVSYjFweGgxNmdHajFrMnRBaGo5TEFxeGhtdHlGNUViWmVWQzhUX0lDMTNlWVVYbkVQemNOeWI4Qncya1FaZmlBNXQ2WmFjUThR?oc=5",
@@ -280,23 +194,6 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-10-29T19:00:16.000Z"
-    },
-    {
-      "title": "Pernyataan IESR: Solidaritas bagi Warga Terdampak Kabut Asap dan Kelangkaan BBM",
-      "publisher": "IESR",
-      "url": "https://iesr.or.id/pernyataan-iesr-solidaritas-bagi-warga-terdampak-kabut-asap-dan-kelangkaan-bbm/",
-      "tier": 1,
-      "primary": true,
-      "publishedAt": "2026-10-19T03:45:11.000Z"
-    },
-    {
-      "title": "Restrukturisasi BUMN, Impairment Tembus Rp135 Triliun",
-      "publisher": "Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-10-26T10:00:00.000Z"
     },
     {
       "title": "Banks Shelve Bond Sale for Anthropic-Tied Texas Data Center",
@@ -361,9 +258,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 374,
+    "candidateCount": 375,
     "poolSize": 110,
-    "generatedAt": "2026-10-29T23:35:02.565Z",
+    "generatedAt": "2026-10-29T23:57:02.031Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
