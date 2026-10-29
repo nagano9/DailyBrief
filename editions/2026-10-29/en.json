@@ -1,0 +1,333 @@
+{
+  "slug": "2026-10-29",
+  "date": "2026-10-29",
+  "lang": "en",
+  "title": "Gemini 4 Carbon Launches; US Data Centers Face Carbon Reckoning; BUMN Impairment Tops Rp135T",
+  "dek": "A frontier model release, a structural carbon threat from AI infrastructure, and Indonesia's BUMN restructuring pain converge into three decisions that cannot wait.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "Google DeepMind released Gemini 4 Carbon, its next frontier model, the same week Bloomberg reported that new US data centers are projected to emit more carbon than all of Mexico, directly threatening the AI sector's social license and accelerating the pressure on power grids. On the corporate side, Indonesia's BUMN restructuring under Danantara has produced Rp135 trillion in impairments, and the Finance Ministry is now pushing APBN-Danantara budget synergy, signaling that the fiscal backstop is being formalized. Indonesia's electricity system faces a parallel stress: smelters removed from the domestic market obligation for coal raise fresh questions about PLN's coal supply reliability, while IESR separately documented recurring blackouts and fuel shortages as systemic failures entering the third year of the Prabowo administration. These five signals share a single underlying tension: AI and electrification ambitions are scaling faster than the governance, financing, and physical infrastructure built to support them.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 4 Carbon"
+      ],
+      "headline": "Google DeepMind releases Gemini 4 Carbon as its next frontier model",
+      "whatChanged": "Google DeepMind published Gemini 4 Carbon on 28 October 2026, identifying it as the lab's next frontier model in the Gemini family.",
+      "whyItMatters": "Each successive frontier release from a hyperscaler raises the compute floor for competitive inference, which translates directly into additional data-center capacity, power draw, and cooling demand. Gemini 4 Carbon continues the theme already structural in this archive: frontier model releases are now the primary upstream driver of data-center power contracts and grid interconnection queues.",
+      "secondOrder": "Google naming a model 'Carbon' signals that carbon accounting is becoming a product-positioning variable, not merely a compliance checkbox. If frontier labs begin differentiating on embodied and operational carbon, procurement officers at enterprise buyers will start demanding carbon disclosures per inference call, creating a new audit layer between the lab, the cloud provider, and the corporate customer.",
+      "action": "Map Gemini 4 Carbon's announced capabilities against the inference workload mix of any AI infrastructure investment under review; assess whether the power-per-output ratio changes the project's carbon accounting obligations under emerging corporate disclosure rules.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-09-29",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Bloomberg"
+      ],
+      "headline": "Bloomberg: new US data centers projected to emit more carbon than all of Mexico",
+      "whatChanged": "Bloomberg reported on 28 October 2026 that new US data center construction, driven by AI workloads, is projected to emit more carbon than Mexico's entire economy, and that this build-out could undo 15 years of declines in US power-sector emissions.",
+      "whyItMatters": "The AI infrastructure build-out has crossed a threshold where its aggregate carbon impact is now being compared to sovereign economies rather than to industrial sectors. This reframes the policy and financing risk: data centers are no longer a subset of the tech sector's footprint but a material driver of national emissions trajectories.",
+      "secondOrder": "Insurers, credit-rating agencies, and infrastructure lenders that previously assessed data-center carbon risk at the asset level will face pressure to apply portfolio-level and systemic screens. This could tighten lending terms for data-center projects without firm renewable power purchase agreements, raising the cost of capital for merchant or grid-dependent facilities and creating a competitive advantage for projects co-located with dedicated clean generation.",
+      "action": "Review any data-center financing or offtake structure in the pipeline: if it lacks a firm renewable PPA or an on-site generation commitment, model the scenario where lenders apply a carbon-risk premium to the debt tranche within 12 months.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUtoaS1CZElhcmhaSHZHYW9KZHM1RU1veXBGNF8yVmlSdXhkOVVESWZxdTNDcGc5Zjc0OEhIRjhSdGQzVy1ieUxpQWUwbHdKVUY1elBWOGlVR2RFWkJRRG9mVDcwNG1UTGNZWXJmaDJNczZWdHV6SFd1RzZXMmg0cU5qSW4xZjl6TXoxd1RTRllXOTVaN0Z1Z1Zrc2IyQldEdUhJWVFoaGo0SWZDMUJ5Y1g0OUVOU3Bi?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW5EeHZyOGFMZmQ5aVdSc3Z2SjEtTUpHdVlyd3ZGTXRobm1PSkJXS1lxemVJVVh0ZUpRZVFHcVg3cnVsa3ZKZ3FLcV80VENtZDV0YTVCNC1iT1gxNnFBRWYwOXVxZ1l3elRGaDQ0ZGJxWU5uaXpaUzdvU09MbkNHWEhEVXBNR29WRmNIYTROMlpTLWNrRm02S2xrOUlXUHlxZDVyUWg0bm1FdjV2Q0xVUGhTeTY?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-09-29",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Bloomberg Technoz",
+        "PLN"
+      ],
+      "headline": "BUMN restructuring impairment reaches Rp135 trillion; Finance Ministry formalizes APBN-Danantara synergy",
+      "whatChanged": "Bloomberg Technoz reported on 26 October 2026 that impairments from the BUMN restructuring process have reached Rp135 trillion. Separately, the Finance Ministry published a statement on 26 October 2026 in which Minister Suahasil pressed for formal synergy between the state budget and Danantara to realize Indonesia's development vision.",
+      "whyItMatters": "The Rp135 trillion impairment figure confirms that the Danantara-led consolidation is producing realized balance-sheet losses at a scale that touches fiscal space. The Finance Ministry's public call for APBN-Danantara coordination is the first formal signal that the sovereign budget is being positioned as a residual backstop, which changes the risk profile for any sovereign or quasi-sovereign bond investor.",
+      "secondOrder": "If APBN resources are drawn into Danantara loss absorption, the fiscal headroom available for other priorities, including the energy transition capex that PLN and the ESDM ministry require, narrows. This creates a sequencing conflict: the government is simultaneously trying to fund grid investment, cover BUMN impairments, and maintain macroeconomic credibility, and the Danantara impairment clock is running faster than the renewable revenue pipeline.",
+      "action": "Quantify the contingent fiscal exposure from Rp135 trillion in impairments against the current APBN deficit ceiling; assess whether PLN's grid investment budget is insulated from Danantara loss-absorption draws or subject to the same consolidated envelope.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQVVCT01oTUs2anFneXpxOWo0WmlDaXBWdFg1SEs1c2E4VHZsS2JZNXBLWTBTOTRONHNDWm1fQXUyUWpCSVgtMkRWNFU5ZGRGSWN1WmY4bDliR0lDM0RSNTBDYkE5a1ZudTBXNVBWdEt2VGU4T2tITlBBdHNkVUlxRE0ya1piLVZuZjZBVVJZOTFDSm1yeXJFcTE2dF9QNTNwbFdmeFhCaWxUb3BiWmpJSA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-29",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Bloomberg Technoz",
+        "IESR"
+      ],
+      "headline": "Smelters removed from coal DMO; PLN coal supply reliability remains unresolved",
+      "whatChanged": "Bloomberg Technoz reported on 28 October 2026 that smelters have been removed from Indonesia's domestic market obligation for coal, but the report concludes that this change does not necessarily resolve PLN's coal supply problem.",
+      "whyItMatters": "The DMO is the primary regulatory lever ensuring coal-fired power plants receive priority fuel supply. Removing smelters narrows the pool of DMO-eligible buyers, but if PLN's procurement and logistics bottlenecks are structural rather than allocation-based, the policy change is insufficient. This continues the pattern documented by IESR: Indonesia's electricity system reliability is deteriorating despite regulatory adjustments, because the underlying infrastructure and contracting mechanisms are not keeping pace.",
+      "secondOrder": "PLN's coal supply uncertainty creates a compounding risk for the energy transition: coal plant outages degrade grid reliability at the same moment that new renewable capacity is being added, making the transition harder to manage technically. Grid operators and offtakers relying on coal baseload as a transition bridge should treat that baseload as less firm than regulatory documents imply.",
+      "action": "Stress-test any grid reliability model that assumes coal baseload dispatch rates above 85 percent; verify whether PLN's current coal contract portfolio has force-majeure clauses that would trigger during a supply shortfall, and what the payment consequences are.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWGpPZWxLaC1pckNMYS0tQS1GMFhtOHN6LUZieHE5TEdXUXF4VWlwVk5SUW9oeUVSMzRjazNDejQ4bWMtamFQeC1SV2NlcU16RDdGOUhMREluTUpfU1F3akNabHZDRXZXcUFZclVvSzlXODNSazdlVWVadTJkU3QwekxMVHo5V2ExS25Xc182SWo3aC1sNGhqaFJIelRxaW96X3o1WHVoV1l0a0lUVHBpMktLOEJndw?oc=5",
+        "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-09-29",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "The Hacker News",
+        "Chrome",
+        "Safari"
+      ],
+      "headline": "Anthropic's unreleased model autonomously chains vulnerabilities into working exploits for Chrome, Safari, Windows, and Linux",
+      "whatChanged": "The Hacker News reported on 28 October 2026 that an unreleased Anthropic model demonstrated the ability to chain software flaws into working exploits targeting Chrome, Safari, Windows, and Linux, without human guidance.",
+      "whyItMatters": "Autonomous exploit chaining at this level of target diversity, covering two major browsers and both dominant desktop operating systems, represents a qualitative step beyond prior demonstrations of AI-assisted vulnerability research. It confirms that frontier models in pre-release state already possess offensive cybersecurity capabilities that exceed what most corporate security teams can defend against using current tooling.",
+      "secondOrder": "The disclosure creates an immediate governance problem for Anthropic and, by precedent, for all frontier labs: if pre-release models are capable of autonomous exploit generation, the standard responsible-disclosure timeline of 90 days between discovery and publication becomes structurally inadequate. Regulators and enterprise security buyers will likely demand that labs publish capability thresholds for offensive security behaviors before deployment approval, inserting a new compliance gate into the model release cycle.",
+      "action": "Brief the security team this week on the exploit-chaining finding; review whether enterprise AI contracts with Anthropic or comparable frontier labs include clauses on pre-deployment capability disclosure, and flag the gap if they do not.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-09-29",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Gemini 4 Carbon benchmark disclosures and power-per-inference figures; compare against GPT-6 and Claude's generation to establish a carbon-per-token baseline for procurement.",
+      "dueDate": "2026-11-07"
+    },
+    {
+      "item": "Formal APBN-Danantara synergy mechanism: watch for a presidential regulation or ministerial decree that specifies fiscal transfer rules and caps the sovereign backstop exposure.",
+      "dueDate": "2026-12-01"
+    },
+    {
+      "item": "PLN coal contract renegotiation or emergency procurement announcement following the DMO smelter exclusion; a supply shortfall before year-end would confirm the structural diagnosis.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Anthropic regulatory response to the exploit-chaining disclosure; monitor whether the UK AI Safety Institute, the US AI Safety Institute, or the EU AI Office opens a formal inquiry.",
+      "dueDate": "2026-11-14"
+    },
+    {
+      "item": "US data-center carbon reporting: watch for EPA or DOE guidance referencing the Mexico-scale emissions projection as justification for mandatory PPA or clean energy requirements on new data-center interconnection requests.",
+      "dueDate": "2027-01-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-28T17:00:58.000Z"
+    },
+    {
+      "title": "US Data Centers Could Undo 15 Years of Declines in Power Emissions",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUtoaS1CZElhcmhaSHZHYW9KZHM1RU1veXBGNF8yVmlSdXhkOVVESWZxdTNDcGc5Zjc0OEhIRjhSdGQzVy1ieUxpQWUwbHdKVUY1elBWOGlVR2RFWkJRRG9mVDcwNG1UTGNZWXJmaDJNczZWdHV6SFd1RzZXMmg0cU5qSW4xZjl6TXoxd1RTRllXOTVaN0Z1Z1Zrc2IyQldEdUhJWVFoaGo0SWZDMUJ5Y1g0OUVOU3Bi?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-28T13:55:45.000Z"
+    },
+    {
+      "title": "Gemini 4 Carbon",
+      "publisher": "Hacker News",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-10-28T17:01:23.000Z"
+    },
+    {
+      "title": "Menkeu Suahasil Tekanan Sinergi APBN dan Danantara untuk Wujudkan Visi Pembangunan Indonesia",
+      "publisher": "Kementerian Keuangan",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQVVCT01oTUs2anFneXpxOWo0WmlDaXBWdFg1SEs1c2E4VHZsS2JZNXBLWTBTOTRONHNDWm1fQXUyUWpCSVgtMkRWNFU5ZGRGSWN1WmY4bDliR0lDM0RSNTBDYkE5a1ZudTBXNVBWdEt2VGU4T2tITlBBdHNkVUlxRE0ya1piLVZuZjZBVVJZOTFDSm1yeXJFcTE2dF9QNTNwbFdmeFhCaWxUb3BiWmpJSA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-26T12:22:00.000Z"
+    },
+    {
+      "title": "Smelter Dicoret dari DMO, Isu Batu Bara PLN Belum Tentu Teratasi",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWGpPZWxLaC1pckNMYS0tQS1GMFhtOHN6LUZieHE5TEdXUXF4VWlwVk5SUW9oeUVSMzRjazNDejQ4bWMtamFQeC1SV2NlcU16RDdGOUhMREluTUpfU1F3akNabHZDRXZXcUFZclVvSzlXODNSazdlVWVadTJkU3QwekxMVHo5V2ExS25Xc182SWo3aC1sNGhqaFJIelRxaW96X3o1WHVoV1l0a0lUVHBpMktLOEJndw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-28T02:40:00.000Z"
+    },
+    {
+      "title": "New US Data Centers Projected to Emit More Carbon Than All of Mexico",
+      "publisher": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW5EeHZyOGFMZmQ5aVdSc3Z2SjEtTUpHdVlyd3ZGTXRobm1PSkJXS1lxemVJVVh0ZUpRZVFHcVg3cnVsa3ZKZ3FLcV80VENtZDV0YTVCNC1iT1gxNnFBRWYwOXVxZ1l3elRGaDQ0ZGJxWU5uaXpaUzdvU09MbkNHWEhEVXBNR29WRmNIYTROMlpTLWNrRm02S2xrOUlXUHlxZDVyUWg0bm1FdjV2Q0xVUGhTeTY?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-28T11:30:01.000Z"
+    },
+    {
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "publisher": "The Hacker News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-28T08:15:00.000Z"
+    },
+    {
+      "title": "Dua Tahun Prabowo-Gibran, IESR Desak Pembenahan Pasokan BBM dan Keandalan Listrik",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/dua-tahun-prabowo-gibran-iesr-desak-pembenahan-pasokan-bbm-dan-keandalan-listrik/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-20T05:04:44.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN, Impairment Tembus Rp135 Triliun",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-26T10:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Perpres 107/2026 ubah mekanisme impor crude, BBM, dan LPG secara struktural",
+      "occurrences": 29,
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-10-28",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Impairment BUMN tembus Rp135 triliun dalam proses restrukturisasi Danantara",
+      "occurrences": 29,
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-10-28",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic ajukan IPO dengan valuasi yang disebut berpotensi memecahkan rekor pasar modal AS",
+      "occurrences": 28,
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-10-28",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "AirTrunk kunci pinjaman hijau USD 3 miliar untuk pusat data Sydney, buktikan struktur project finance AI",
+      "occurrences": 22,
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-10-27",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 17,
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 381,
+    "poolSize": 110,
+    "generatedAt": "2026-10-29T00:24:16.995Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
