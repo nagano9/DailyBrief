@@ -1,0 +1,326 @@
+{
+  "slug": "2026-10-31",
+  "date": "2026-10-31",
+  "lang": "id",
+  "title": "PLTS 100 GW, DMO Batu Bara, dan Model Spec OpenAI Tentukan Agenda Oktober",
+  "dek": "Tiga keputusan struktural pada 30-31 Oktober 2026 memaksa kalkulasi ulang di rantai pasokan energi surya, kebijakan batu bara domestik, dan tata kelola AI frontier.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "IESR memperingatkan bahwa program PLTS 100 GW bersama Tiongkok berisiko menggerus industri panel surya lokal bila syarat kandungan dalam negeri tidak dikunci sejak perancangan kontrak. Bersamaan, Kementerian ESDM menyiratkan pengalihan kuota DMO batu bara dari smelter ke PLN, yang akan mengubah biaya pokok produksi listrik dan menekan posisi tawar smelter nikel. Di sisi AI, OpenAI memperbarui Model Spec dengan lima nilai inti sekaligus mengumumkan protokol robots.txt lintas-penyedia, dua kebijakan yang secara simultan membentuk ulang norma pelatihan data dan perilaku model frontier. Danantara menutup DTIIF 2026 dengan 3.000 peserta dan kemitraan di energi serta infrastruktur digital, memberi sinyal bahwa sovereign wealth fund ini mulai beroperasi sebagai orkestrator investasi, bukan sekadar pemegang saham BUMN. Kelima sinyal ini menyentuh tiga domain sekaligus dan masing-masing memerlukan tindakan dalam rentang satu hingga dua minggu.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "IESR",
+        "PLTS 100 GW"
+      ],
+      "headline": "IESR: Kerja sama PLTS 100 GW Indonesia-Tiongkok harus ikat kandungan lokal dari awal",
+      "whatChanged": "IESR pada 30 Oktober 2026 mempublikasikan analisis yang menyatakan program PLTS 100 GW berpotensi menjadi penggerak transisi energi, tetapi hanya bila persyaratan industri dalam negeri, termasuk fabrikasi modul dan komponen BOS, dilekatkan dalam struktur kerja sama sejak tahap perancangan, bukan ditambahkan setelah kontrak ditandatangani.",
+      "whyItMatters": "Program ini melanjutkan tema 'danantara-bumn-karya-restructuring' yang telah tercatat 29 kali sejak 1 Oktober: pola yang terbentuk adalah tekanan agar kemitraan teknologi asing tidak menjadi kanal impor murni. Bila syarat kandungan lokal absen, 100 GW kapasitas baru justru memperkuat rantai pasokan Tiongkok dan melemahkan basis manufaktur panel Indonesia yang masih embrionik.",
+      "secondOrder": "Perbankan domestik yang membiayai proyek PLTS akan menghadapi risiko koncentrasi: bila modul dan inverter sepenuhnya diimpor, nilai agunan proyek terikat kurs dan kebijakan tarif Tiongkok, bukan aset fisik lokal. Ini membuat lender membutuhkan struktur jaminan berbeda dari proyek energi terbarukan konvensional, dan dapat memperlambat pencairan kredit pada tahap konstruksi.",
+      "action": "Tim investasi dan kebijakan: periksa draf perjanjian kerja sama PLTS yang sedang berjalan untuk memverifikasi apakah klausul TKDN sudah mengikat sebelum financial close. Bila belum, susun matriks risiko kandungan impor dan sajikan kepada komite kredit sebelum akhir November 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/kerja-sama-indonesia-tiongkok-untuk-plts-100-gw-perlu-perkuat-industri-dalam-negeri/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-01",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Model Spec"
+      ],
+      "headline": "OpenAI perbarui Model Spec dengan lima nilai inti dan luncurkan protokol robots.txt lintas-penyedia",
+      "whatChanged": "OpenAI pada 29-30 Oktober 2026 mempublikasikan dua kebijakan secara bersamaan: pembaruan Model Spec yang menetapkan lima nilai inti untuk memandu perilaku model frontier menuju pertimbangan yang lebih baik dan kesetiaan pada niat manusia, serta komitmen untuk menghormati sinyal robots.txt bersama agar operator situs web dapat mengomunikasikan preferensi pelatihan AI kepada penyedia yang berpartisipasi.",
+      "whyItMatters": "Ini melanjutkan tema 'ai-model-safety-frontier' yang telah tercatat 28 kali. Dua kebijakan yang dirilis serentak menandai pergeseran: OpenAI kini menetapkan norma tata kelola data pelatihan secara unilateral sambil mengundang penyedia lain untuk mengadopsinya. Bila diikuti pesaing, robots.txt menjadi de-facto standar industri tanpa proses regulasi formal.",
+      "secondOrder": "Perusahaan yang mengandalkan data web publik untuk melatih model proprietary akan menghadapi tekanan untuk mengadopsi protokol ini atau menghadapi reputasi negatif bila tidak. Operator situs besar, termasuk media dan penerbit akademik, kini memiliki mekanisme opt-out yang diakui secara industri, yang dapat mengurangi volume data pelatihan yang tersedia secara bebas dan mendorong kenaikan biaya lisensi data.",
+      "action": "Tim hukum dan kebijakan AI: audit cakupan robots.txt pada domain data pelatihan yang digunakan, identifikasi proporsi data yang akan tereksklusi bila protokol baru ini diberlakukan, dan estimasi biaya akuisisi data pengganti. Selesaikan audit sebelum akhir November 2026 untuk menginformasikan keputusan anggaran pelatihan tahun 2027.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/updated-model-spec",
+        "https://openai.com/index/helping-websites-express-ai-training-preferences"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-01",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara Indonesia",
+        "DTIIF 2026",
+        "Kementerian Keuangan"
+      ],
+      "headline": "DTIIF 2026 tutup dengan 3.000 peserta; Danantara rajut kemitraan riset, energi, dan infrastruktur digital",
+      "whatChanged": "Danantara Indonesia pada 30 Oktober 2026 melaporkan bahwa DTIIF 2026 yang digelar di Fairmont Jakarta berhasil mengumpulkan 3.000 peserta dan menghasilkan kemitraan strategis di bidang riset, energi terbarukan, dan infrastruktur digital. Kementerian Keuangan pada tanggal yang sama menerbitkan siaran pers yang menekankan sinergi APBN, Danantara, dan dunia usaha untuk mendorong investasi.",
+      "whyItMatters": "Kombinasi forum DTIIF dan siaran pers Kementerian Keuangan memberi sinyal bahwa Danantara mulai diposisikan sebagai orkestrator investasi yang beroperasi dalam koordinasi fiskal negara, bukan entitas investasi yang berdiri sendiri. Ini melanjutkan tema 'danantara-bumn-karya-restructuring': akumulasi sinyal selama 29 hari menunjukkan Danantara secara bertahap mengambil peran koordinasi yang sebelumnya tersebar di Kementerian BUMN dan BAPPENAS.",
+      "secondOrder": "Mitra asing yang menandatangani kesepakatan di DTIIF akan menghadapi due diligence berlapis: mereka perlu memahami apakah counterpart mereka adalah BUMN individual, Danantara sebagai holding, atau keduanya secara bersamaan. Ambiguitas struktur kewenangan ini dapat memperpanjang negosiasi kontrak dan memunculkan pertanyaan tentang siapa yang memiliki otoritas final dalam keputusan investasi berskala besar.",
+      "action": "Manajer hubungan investasi dan tim legal: untuk setiap MoU atau LOI yang ditandatangani di DTIIF 2026, verifikasi secara tertulis apakah Danantara bertindak sebagai principal atau fasilitator, dan pastikan klausul pembuatan keputusan mencerminkan struktur yang telah diverifikasi sebelum LOI dikonversi menjadi perjanjian mengikat.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2FOTGtVd3ZWUGJBcU5lOWtMR3NtOEZCTFNCczV5M2NSaEQ0bFRUeEN0a0RxSWN1R1JoSXVCWS00Q0dsbEFETzlrZUE2dXE5SlJ1TW4wQ2UzcXVzdW45aXJ1Nm16LXdSMnlGSVlpVk56eGc4aWc3TGpsTUJlN2pvdS1sQXBWX1RNbGw4b01WTlJCcDBOSGNEaHBn?oc=5",
+        "https://katadata.co.id/digital/teknologi/6ae47e691aab2/tuntas-digelar-dtiif-2026-hadirkan-3000-peserta-dan-rajut-kemitraan-strategis",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjBfdmZZLVBOR0oxOGFyR2JGVkM3aDFheE9NcWFPUlIwX2JELXFkT1ZLeFlfV2loUHBTT0hsYkx5dF9iRXpKNlRVY3NDRXpRLUNTTTZWMzJVd3ZnTFhRZHI1RkgteV9kVXlsVVNSWlUwTXdQdHJDZFJMWWh3X21YSDF4bHozSGhfTHAwS1lSQzR3ak91VUVrUnVFUDY0SzdrR3RxQ0hpQU1qTG43RUJwcWlB?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-01",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "ANTARA News",
+        "CNBC Indonesia"
+      ],
+      "headline": "ANTARA: Transformasi tata kelola BUMN dorong kinerja dan daya saing per Oktober 2026",
+      "whatChanged": "ANTARA News pada 30 Oktober 2026 melaporkan bahwa transformasi tata kelola BUMN yang sedang berjalan diklaim mendorong kinerja dan daya saing korporasi negara. Bersamaan, CNBC Indonesia pada 27 Oktober mencatat Danantara melarang direktur utama BUMN memainkan golf dan melakukan 'flexing' di media sosial sebagai bagian dari pembaruan kode perilaku.",
+      "whyItMatters": "Larangan perilaku eksekutif yang spesifik menandai perubahan pendekatan pengawasan: Danantara bergerak dari pengawasan keuangan ke pengelolaan citra dan budaya korporasi BUMN. Ini sejalan dengan pola yang terbentuk selama 29 hari: Danantara memperluas cakupan intervensi dari restrukturisasi modal ke standar tata kelola sehari-hari.",
+      "secondOrder": "Perusahaan yang bermitra dengan BUMN dalam proyek strategis perlu mengantisipasi bahwa direktur utama BUMN mungkin lebih berhati-hati dalam mengambil keputusan publik yang dapat menarik perhatian Danantara. Ini berpotensi memperlambat pengambilan keputusan di level direksi BUMN untuk hal-hal yang memerlukan persetujuan publik atau keterlibatan media.",
+      "action": "Tim hubungan korporasi yang bermitra dengan BUMN: perbarui pemetaan pemangku kepentingan untuk mencakup Danantara sebagai pengawas de-facto perilaku eksekutif BUMN, dan sesuaikan protokol komunikasi publik bersama agar tidak memicu pelanggaran kode perilaku baru yang dapat mengganggu kontinuitas proyek.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTZaazYtaHBrdXRFbzkxSDBfWnhudXFtYkMzTDF1SVlKVWhlYWJUTkI1LTZibWd5elZVem1OY1YxM0I5UVQ3SFAxOGpYV3NwSW9kOE9EaEpEQnZyYW80dFZ1VUx2NlNpUUVJWTlfSGJqYTl3aURScVdUMm5Lb1VyU21nWmJrYl9zVTBHNHB3dFpDbzVvX0NLVDdpTXY2ajh6bWc?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb0xlOVJucUhZMkh1Z3U2LWlHQXlxLU9Tb0ttbFNyYW0zRGY5OTRpc3dLVUxHNWVsbHhkRWtUTXdNdWVFaXdGRnpXLTJKX1BPbEdzSkNMLW5WX1QwRHlxazliT0RmUENqSWllSHYxYXA0Zm54bWZlX3dwcWlNZDJ0bU9vQjg1Ul9xZlNtOTJIU2hicVIxVDlLVFJYbVZQQTRsLXVBWElKNFVndGZBdDQ1Q25QcWtRclgyWGc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-01",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "Kementerian ESDM",
+        "PLN"
+      ],
+      "headline": "ESDM isyaratkan kuota DMO batu bara smelter dialihkan ke PLN",
+      "whatChanged": "Bloomberg Technoz pada 30 Oktober 2026 melaporkan bahwa Kementerian ESDM menyiratkan kemungkinan pengalihan kuota Domestic Market Obligation batu bara yang selama ini dialokasikan untuk smelter ke PLN, sebagai respons terhadap kebutuhan pasokan pembangkit listrik batu bara yang meningkat.",
+      "whyItMatters": "Pergeseran alokasi DMO dari smelter ke PLN akan menurunkan biaya bahan bakar pembangkit PLN, tetapi secara langsung mengurangi jatah batu bara murah bagi smelter nikel dan aluminium. Ini melanjutkan tema 'pln-grid-investment' karena keandalan pasokan listrik domestik menjadi prioritas di atas kebutuhan industri hilir yang bergantung pada batu bara bersubsidi.",
+      "secondOrder": "Smelter nikel yang bergantung pada DMO berbiaya rendah akan mengalami kenaikan biaya operasional bila harus membeli batu bara di harga pasar. Dalam jangka pendek, ini menekan margin smelter dan berpotensi memperlambat ekspansi kapasitas pengolahan nikel, yang selama ini menjadi andalan strategi hilirisasi pemerintah. Investor di rantai baterai kendaraan listrik perlu merevisi asumsi biaya nikel olahan Indonesia.",
+      "action": "Analis sektor energi dan pertambangan: hitung ulang biaya produksi nikel matte per ton dengan asumsi batu bara di harga pasar (bukan DMO) dan bandingkan dengan biaya produser pesaing di Filipina dan Kaledonia Baru. Sampaikan sensitivitas ini kepada portofolio yang memiliki eksposur ke smelter nikel Indonesia sebelum publikasi laporan keuangan kuartal III.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM19nOUNWSVdmdzZ0OWNtSkQ2eXdWRWRIT04yTmhKTzVCRHkxd0Nkb3JaV3NTLWNWSlNUOXp2X1BOeEFvamVsUENJbV9zZmhBQ0xTUEQ4N1NRZkdwNF9DMXFqMzh4Nkg5cElHOU5oNWxCa0RMY3JtaUpVOVBYX0JqcTRWcExkaUlYb2pjX3g0bWZ1dTBHaW1jNmR0Sm9JWl9LUjhNMklBV0RVNFg2eklnS083Z3V5UQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-01",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Finalisasi struktur kontrak PLTS 100 GW Indonesia-Tiongkok: apakah klausul TKDN dan kemitraan lokal masuk dalam perjanjian awal atau hanya komitmen non-mengikat",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Keputusan resmi Kementerian ESDM tentang pengalihan kuota DMO batu bara dari smelter ke PLN, termasuk volume dan jadwal implementasi",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Adopsi protokol robots.txt OpenAI oleh penyedia AI lain (Anthropic, Google DeepMind, Meta) sebagai indikator apakah ini menjadi standar industri de-facto",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Hasil konkret MoU DTIIF 2026: berapa yang berlanjut ke perjanjian mengikat dan berapa yang tetap sebagai letter of intent",
+      "dueDate": "2027-01-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kerja Sama Indonesia–Tiongkok untuk PLTS 100 GW Perlu Perkuat Industri Dalam Negeri",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/kerja-sama-indonesia-tiongkok-untuk-plts-100-gw-perlu-perkuat-industri-dalam-negeri/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-30T09:53:48.000Z"
+    },
+    {
+      "title": "Siaran Pers: Menkeu Tekankan Sinergi APBN, Danantara, dan Dunia Usaha untuk Dorong Investasi",
+      "publisher": "Kementerian Keuangan",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjBfdmZZLVBOR0oxOGFyR2JGVkM3aDFheE9NcWFPUlIwX2JELXFkT1ZLeFlfV2loUHBTT0hsYkx5dF9iRXpKNlRVY3NDRXpRLUNTTTZWMzJVd3ZnTFhRZHI1RkgteV9kVXlsVVNSWlUwTXdQdHJDZFJMWWh3X21YSDF4bHozSGhfTHAwS1lSQzR3ak91VUVrUnVFUDY0SzdrR3RxQ0hpQU1qTG43RUJwcWlB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-30T12:53:00.000Z"
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-30T09:30:00.000Z"
+    },
+    {
+      "title": "Danantara Resmi Buka DTIIF 2026 di Fairmont Jakarta",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2FOTGtVd3ZWUGJBcU5lOWtMR3NtOEZCTFNCczV5M2NSaEQ0bFRUeEN0a0RxSWN1R1JoSXVCWS00Q0dsbEFETzlrZUE2dXE5SlJ1TW4wQ2UzcXVzdW45aXJ1Nm16LXdSMnlGSVlpVk56eGc4aWc3TGpsTUJlN2pvdS1sQXBWX1RNbGw4b01WTlJCcDBOSGNEaHBn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-26T13:51:54.000Z"
+    },
+    {
+      "title": "Transformasi tata kelola BUMN dorong kinerja dan daya saing",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTZaazYtaHBrdXRFbzkxSDBfWnhudXFtYkMzTDF1SVlKVWhlYWJUTkI1LTZibWd5elZVem1OY1YxM0I5UVQ3SFAxOGpYV3NwSW9kOE9EaEpEQnZyYW80dFZ1VUx2NlNpUUVJWTlfSGJqYTl3aURScVdUMm5Lb1VyU21nWmJrYl9zVTBHNHB3dFpDbzVvX0NLVDdpTXY2ajh6bWc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-30T11:06:19.000Z"
+    },
+    {
+      "title": "Tuntas Digelar, DTIIF 2026 Hadirkan 3.000 Peserta dan Rajut Kemitraan Strategis",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/digital/teknologi/6ae47e691aab2/tuntas-digelar-dtiif-2026-hadirkan-3000-peserta-dan-rajut-kemitraan-strategis",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-30T14:20:00.000Z"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-29T17:00:00.000Z"
+    },
+    {
+      "title": "Video: Danantara Larang Bos BUMN Main Golf & \"Flexing\" di Medsos",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb0xlOVJucUhZMkh1Z3U2LWlHQXlxLU9Tb0ttbFNyYW0zRGY5OTRpc3dLVUxHNWVsbHhkRWtUTXdNdWVFaXdGRnpXLTJKX1BPbEdzSkNMLW5WX1QwRHlxazliT0RmUENqSWllSHYxYXA0Zm54bWZlX3dwcWlNZDJ0bU9vQjg1Ul9xZlNtOTJIU2hicVIxVDlLVFJYbVZQQTRsLXVBWElKNFVndGZBdDQ1Q25QcWtRclgyWGc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-27T09:15:45.000Z"
+    },
+    {
+      "title": "ESDM Sinyalir Kuota Batu Bara DMO Smelter Akan Dialihkan ke PLN",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM19nOUNWSVdmdzZ0OWNtSkQ2eXdWRWRIT04yTmhKTzVCRHkxd0Nkb3JaV3NTLWNWSlNUOXp2X1BOeEFvamVsUENJbV9zZmhBQ0xTUEQ4N1NRZkdwNF9DMXFqMzh4Nkg5cElHOU5oNWxCa0RMY3JtaUpVOVBYX0JqcTRWcExkaUlYb2pjX3g0bWZ1dTBHaW1jNmR0Sm9JWl9LUjhNMklBV0RVNFg2eklnS083Z3V5UQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-30T01:50:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IESR flexible electricity market simulation flags Indonesia's grid vulnerability to extreme weather",
+      "occurrences": 29,
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-30",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara wajibkan kemitraan lokal untuk teknologi waste-to-energy asing",
+      "occurrences": 29,
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-30",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI perbarui Model Spec dan publikasikan sistem deteksi misalignment frontier",
+      "occurrences": 28,
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-30",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Bank gagal jual obligasi data center Texas yang terkait Anthropic",
+      "occurrences": 23,
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-30",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 17,
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 384,
+    "poolSize": 110,
+    "generatedAt": "2026-10-31T01:07:28.698Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
