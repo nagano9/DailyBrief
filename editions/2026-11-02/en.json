@@ -1,0 +1,291 @@
+{
+  "slug": "2026-11-02",
+  "date": "2026-11-02",
+  "lang": "en",
+  "title": "BUMN Impairment Rp135T, PLN Grid Stress, Danantara Pipeline Build",
+  "dek": "Three structural shifts across Indonesian corporate governance and energy infrastructure converge with a global AI supply-chain signal that reframes datacenter risk assessment.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "BUMN restructuring under Danantara has crystallized Rp135 trillion in impairment charges, confirming that the SOE consolidation is no longer a policy signal but a balance-sheet event with measurable capital destruction. Separately, PLN restored the 150 kV Talisayan-Maloy line via emergency tower, illustrating that Kalimantan's grid remains brittle precisely as datacenter and industrial demand accelerates there. Danantara opened its DTIIF 2026 forum and a Danantara-linked waste-to-energy project (MKNT) cleared the Phase 3 DPT-PSEL selection, showing the investment pipeline is moving from announcement to vendor selection. On the AI infrastructure side, Google's energy chief stated that space-based datacenters cost up to 100 times more than terrestrial facilities, a primary-source cost anchor that closes off a speculative alternative and redirects capital conversation back to grid-connected ground infrastructure. OpenAI's updated Model Spec, published directly, codifies five core values governing capable AI behavior and signals that behavioral governance is now a product feature with contractual implications.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Bloomberg Technoz",
+        "BEI",
+        "Kompas.com"
+      ],
+      "headline": "BUMN restructuring impairment reaches Rp135 trillion, confirming balance-sheet scale of SOE consolidation",
+      "whatChanged": "Bloomberg Technoz reported that impairment charges from the ongoing BUMN restructuring under Danantara have exceeded Rp135 trillion, converting what had been a governance and organizational story into a quantified capital-destruction event on SOE balance sheets.",
+      "whyItMatters": "This theme has appeared 29 times in 30 days and is now structural. An impairment at this scale means that the book value of consolidated BUMN assets is being written down, reducing equity bases across the holding and affecting borrowing capacity, dividend policy, and the valuations that Danantara would use in any rights issue or IPO process. Kompas.com reported that BEI is already preparing a rights-issue pathway for Danantara to become a direct shareholder in listed SOEs.",
+      "secondOrder": "Impairment at Rp135 trillion creates a sequencing problem for Danantara's investment mandate: the fund is simultaneously absorbing asset write-downs from legacy SOEs and trying to attract co-investors through DTIIF 2026. Co-investors doing due diligence will price the residual impairment risk into required returns, raising the hurdle rate for Danantara-sponsored projects precisely when the government needs low-cost capital for energy and infrastructure.",
+      "action": "Map which specific BUMN entities are carrying the largest impairment charges and whether those entities overlap with the SOEs Danantara is positioning for rights issues or IPOs. A gap between book write-down and market valuation in the same entity is a red flag for any co-investment structure.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQnFrdlpjRXhIYUl4cktjVGRTWXdsT25iTWJyT3FPRDhyWEsxZFU5aHh3ZW1BaGk4N0pzTEF6WjZMaGhJU0U5bUo1RUU4Ui11YWY5ZWdBZFhWQ1JWRVN4cmx3Tl9JOUU4S1ZGeXRwZDZKSDYzRDdKeFNNSldDZnFGaDgtZlI3R0k2T2FmMHpzYjJJVXlBSjAtU3VYZmdfSUc3QmM0LVhPaThNRGN1OFhsZlRkTEJaUUdpYnNNcl9oYVE?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2FOTGtVd3ZWUGJBcU5lOWtMR3NtOEZCTFNCczV5M2NSaEQ0bFRUeEN0a0RxSWN1R1JoSXVCWS00Q0dsbEFETzlrZUE2dXE5SlJ1TW4wQ2UzcXVzdW45aXJ1Nm16LXdSMnlGSVlpVk56eGc4aWc3TGpsTUJlN2pvdS1sQXBWX1RNbGw4b01WTlJCcDBOSGNEaHBn?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-03",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "MKNT Group",
+        "Danantara",
+        "CNBC Indonesia",
+        "investor.id"
+      ],
+      "headline": "MKNT entity clears Danantara Phase 3 DPT-PSEL selection for waste-to-energy, showing investment pipeline moving to vendor stage",
+      "whatChanged": "Investor.id reported that an entity within the MKNT Group passed Phase 3 selection in Danantara's DPT-PSEL (Daftar Penyedia Terseleksi for Pengelolaan Sampah menjadi Energi Listrik) process. CNBC Indonesia confirmed MKNT is targeting waste-to-energy projects linked to Danantara, with a Chinese partner.",
+      "whyItMatters": "DTIIF 2026 opened the same week, and Phase 3 vendor selection in a Danantara procurement process represents a concrete milestone: the fund is no longer only hosting forums but is running competitive selection for specific infrastructure projects. Waste-to-energy (WtE) is a sector where Chinese EPC firms hold strong cost advantages, and the MKNT-China partnership structure reflects a pattern of Danantara projects using Chinese capital or technology to fill gaps the domestic BUMN sector cannot.",
+      "secondOrder": "If Danantara consistently selects Chinese-partnered vendors at the EPC and technology layer while positioning itself as a sovereign fund attracting Western and multilateral co-investors at the financing layer, it creates a structural tension: Western development-finance institutions increasingly apply supply-chain origin screens that would flag Chinese EPC dominance in the same projects they are asked to co-finance.",
+      "action": "Check whether MKNT's Chinese partner in the WtE project appears on any DFI exclusion lists or US BIS entity lists. If Danantara is seeking multilateral or Western co-investment for the same project tranche, that partner's status will determine whether the co-investment is viable.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc0l2ZlRHU1UzOXNLTVdqRUZ1RXRscEhLZmpYWEE3VmI4X05keG1aUnBTcVRpRTFXdFJDaWE1U0hJM3Z1R1dUd214RW1GWE9vMnFYVmhOcklXSlF3QWhBRUxBeUhjSlpHV3FYR1pyNXUzYlY5dVNTZlhRNU9SYmFEc1hDcElBaDJrM2ZOUFl0QUhSb0xBRklJ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZTd4Njg2OXVtMDVPTzV4Wl9WaUdjZjllNksxTUF2cDBqNmd3cTBCTWVJSzNTM0J4TjUzT3VWa21zZTZsbldDMEZScGxUc1d1NFdELXlDTWNwenFXNFl1RlhUWDNtZ1NvNDlOMUdsS0NEV0c0a1hiaEhqejQwNVc4UmN5QU54ZHlvdE0zMTFxTFNmMzhrSnBFSUh4VVpKQlpOaE5pNXhBY01PeFc0eEJ5NkJJOWQtd2xweTYxaDlGYnbSAcYBQVVfeXFMTzg1ZjAwNUZ0ZFVnYlowUnNhM3pzV3dvUTczNDA5UDJVTDRqZU5Gc1JDX291T2pkUXNxT3V3X0htZldUVmVkRnRSbWNTSHdUMDZmR1AtUUx5cjdnM3Vtb0JEQ1ZHdFhsWktmTjJCNXBlS04ySHlzMm5tZHRjSEt0cV9mbEtXZDRJSU9waF9rMkdTRU5kWFN2YUJuVkhqc25HNDRzZDlNaDBUR2xUVnp2Umx5M2t0MlFhdGE3YUxvbFFJZTV5ZjVB?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2FOTGtVd3ZWUGJBcU5lOWtMR3NtOEZCTFNCczV5M2NSaEQ0bFRUeEN0a0RxSWN1R1JoSXVCWS00Q0dsbEFETzlrZUE2dXE5SlJ1TW4wQ2UzcXVzdW45aXJ1Nm16LXdSMnlGSVlpVk56eGc4aWc3TGpsTUJlN2pvdS1sQXBWX1RNbGw4b01WTlJCcDBOSGNEaHBn?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-03",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Model Spec"
+      ],
+      "headline": "OpenAI publishes updated Model Spec with five codified core values, converting AI behavioral norms into a documented contractual reference",
+      "whatChanged": "OpenAI published an updated Model Spec on 30 October 2026, directly on its own platform, outlining five core values intended to govern AI judgment, human agency, and faithfulness to human intent across its deployed models.",
+      "whyItMatters": "This theme has run 28 times in 30 days and is structural. A Model Spec published by OpenAI is a primary-source behavioral standard, not a research paper. Enterprises and governments that have contracted for OpenAI API access now have a versioned document they can reference when auditing whether deployed model behavior is consistent with the vendor's stated norms. This matters for procurement, liability, and regulatory compliance.",
+      "secondOrder": "As model behavioral specifications become versioned and public, they create a new class of vendor-accountability mechanism: auditors, regulators, and litigants can compare model output against spec claims. This shifts AI governance from a posture of trusting the vendor's internal processes to one where external verification of spec compliance becomes technically and legally feasible, accelerating demand for third-party AI audit capabilities.",
+      "action": "Review existing OpenAI API contracts and internal AI deployment policies to determine whether they reference a specific Model Spec version. If not, add a version-reference clause at next renewal so that behavioral expectations are pinned and deviations are auditable against a fixed standard.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/updated-model-spec"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-03",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "ANTARA News Kaltara",
+        "SUTT 150 kV Talisayan-Maloy"
+      ],
+      "headline": "PLN restores Kalimantan 150 kV line via emergency tower after failure, exposing grid fragility ahead of industrial load growth",
+      "whatChanged": "PLN reactivated the SUTT 150 kV Talisayan-Maloy transmission line in East Kalimantan using an emergency tower structure after the original tower failed. The restoration was announced 1 November 2026 by ANTARA News Kaltara, citing PLN directly.",
+      "whyItMatters": "This thread has run 28 times in 30 days and is structural. East Kalimantan hosts the new capital Nusantara, expanding nickel and mining smelter loads, and is a target zone for datacenter investment. A 150 kV backbone line requiring emergency-tower restoration signals that the existing grid was not built to the redundancy standard that industrial and digital anchor tenants require. Emergency-tower restorations are temporary fixes with lower mechanical ratings than permanent structures.",
+      "secondOrder": "Investors underwriting datacenter or smelter projects in East Kalimantan are implicitly accepting grid-restoration-grade infrastructure as their power backbone until permanent reinforcement is completed. This should be priced as a force-majeure and curtailment risk in offtake agreements, but most project finance models for the region use PLN grid availability figures that do not reflect emergency-tower operating conditions.",
+      "action": "Request PLN's permanent restoration timeline and the load capacity ceiling of the emergency-tower configuration before finalizing any power-purchase or colocation agreement for East Kalimantan projects. Verify whether the line serves Nusantara-area loads directly.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd0VnajBmUHFSUnN6MnRRRjJfNlBVTm9ZTzNDVmQ2NlE1ano1bGxoUEVVSlBhYWQyakcxd3lwYkhuaDFOTXNLWHR5ZHlVd2VEUWlodFpUMjlac0ZtN2JMa05SVzVGSWR0MnBGaGpTOVJidERpTHh6V1VsUmtKeXpOWTdkOVE1cWNkTVFRaC1YTkdxUDFsNXlRX3NjVXZBa0xwRFc5WDZ1WVQzUTFrMi1kakx0cy0yUDl1b1ZSRGljOG1yOGtwZERfZnJyclhkb3hGLXBmQWMxZm9UMU1kbE9zb3BXWEk2Q0NvaHRnb3Y0OHc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-03",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "PLN permanent restoration timeline for SUTT 150 kV Talisayan-Maloy and load capacity ceiling under emergency-tower configuration",
+      "dueDate": "2026-11-15"
+    },
+    {
+      "item": "Danantara rights-issue or IPO filing at BEI: which SOEs are included and at what implied valuation relative to post-impairment book value",
+      "dueDate": "2026-12-01"
+    },
+    {
+      "item": "MKNT-China partner identity disclosure in Danantara PSEL WtE project and any DFI screening implications",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "COP31 Antalya outcomes on Indonesia NDC electricity targets and bankability commitments flagged by IESR",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Third-party audit or regulatory response to OpenAI Model Spec versioning, particularly from EU AI Act supervisory authorities",
+      "dueDate": "2027-01-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Danantara Resmi Buka DTIIF 2026 di Fairmont Jakarta",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2FOTGtVd3ZWUGJBcU5lOWtMR3NtOEZCTFNCczV5M2NSaEQ0bFRUeEN0a0RxSWN1R1JoSXVCWS00Q0dsbEFETzlrZUE2dXE5SlJ1TW4wQ2UzcXVzdW45aXJ1Nm16LXdSMnlGSVlpVk56eGc4aWc3TGpsTUJlN2pvdS1sQXBWX1RNbGw4b01WTlJCcDBOSGNEaHBn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-10-26T13:51:54.000Z"
+    },
+    {
+      "title": "PLN Operasikan Kembali SUTT 150 kV Talisayan--Maloy melalui Tower Darurat, Pemulihan Infrastruktur Terus Dilanjutkan",
+      "publisher": "ANTARA News Kaltara",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd0VnajBmUHFSUnN6MnRRRjJfNlBVTm9ZTzNDVmQ2NlE1ano1bGxoUEVVSlBhYWQyakcxd3lwYkhuaDFOTXNLWHR5ZHlVd2VEUWlodFpUMjlac0ZtN2JMa05SVzVGSWR0MnBGaGpTOVJidERpTHh6V1VsUmtKeXpOWTdkOVE1cWNkTVFRaC1YTkdxUDFsNXlRX3NjVXZBa0xwRFc5WDZ1WVQzUTFrMi1kakx0cy0yUDl1b1ZSRGljOG1yOGtwZERfZnJyclhkb3hGLXBmQWMxZm9UMU1kbE9zb3BXWEk2Q0NvaHRnb3Y0OHc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-01T13:00:53.000Z"
+    },
+    {
+      "title": "BEI Buka Jalan bagi Danantara Jadi Pemegang Saham, Rights Issue Disiapkan Sebelum IPO",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQnFrdlpjRXhIYUl4cktjVGRTWXdsT25iTWJyT3FPRDhyWEsxZFU5aHh3ZW1BaGk4N0pzTEF6WjZMaGhJU0U5bUo1RUU4Ui11YWY5ZWdBZFhWQ1JWRVN4cmx3Tl9JOUU4S1ZGeXRwZDZKSDYzRDdKeFNNSldDZnFGaDgtZlI3R0k2T2FmMHpzYjJJVXlBSjAtU3VYZmdfSUc3QmM0LVhPaThNRGN1OFhsZlRkTEJaUUdpYnNNcl9oYVE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-29T02:01:00.000Z"
+    },
+    {
+      "title": "Gandeng China, MKNT Bidik Proyek Sampah Jadi Listrik Danantara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZTd4Njg2OXVtMDVPTzV4Wl9WaUdjZjllNksxTUF2cDBqNmd3cTBCTWVJSzNTM0J4TjUzT3VWa21zZTZsbldDMEZScGxUc1d1NFdELXlDTWNwenFXNFl1RlhUWDNtZ1NvNDlOMUdsS0NEV0c0a1hiaEhqejQwNVc4UmN5QU54ZHlvdE0zMTFxTFNmMzhrSnBFSUh4VVpKQlpOaE5pNXhBY01PeFc0eEJ5NkJJOWQtd2xweTYxaDlGYnbSAcYBQVVfeXFMTzg1ZjAwNUZ0ZFVnYlowUnNhM3pzV3dvUTczNDA5UDJVTDRqZU5Gc1JDX291T2pkUXNxT3V3X0htZldUVmVkRnRSbWNTSHdUMDZmR1AtUUx5cjdnM3Vtb0JEQ1ZHdFhsWktmTjJCNXBlS04ySHlzMm5tZHRjSEt0cV9mbEtXZDRJSU9waF9rMkdTRU5kWFN2YUJuVkhqc25HNDRzZDlNaDBUR2xUVnp2Umx5M2t0MlFhdGE3YUxvbFFJZTV5ZjVB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-02T01:49:25.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN, Impairment Tembus Rp135 Triliun",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "title": "Entitas Grup MKNT Lolos Seleksi DPT PSEL Tahap 3 Danantara",
+      "publisher": "investor.id",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc0l2ZlRHU1UzOXNLTVdqRUZ1RXRscEhLZmpYWEE3VmI4X05keG1aUnBTcVRpRTFXdFJDaWE1U0hJM3Z1R1dUd214RW1GWE9vMnFYVmhOcklXSlF3QWhBRUxBeUhjSlpHV3FYR1pyNXUzYlY5dVNTZlhRNU9SYmFEc1hDcElBaDJrM2ZOUFl0QUhSb0xBRklJ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-01T23:00:00.000Z"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-29T17:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Menkeu tekankan sinergi APBN, Danantara, dan dunia usaha sebagai mekanisme mobilisasi investasi",
+      "occurrences": 29,
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-11-01",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Google DeepMind releases Gemini 4 Carbon as a specialized frontier model for scientific applications",
+      "occurrences": 28,
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-11-01",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "ESDM isyaratkan kuota DMO batu bara smelter dialihkan ke PLN",
+      "occurrences": 28,
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-31",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Nvidia pertimbangkan jadi cosigner pembiayaan pusat data Nscale di West Virginia",
+      "occurrences": 22,
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-11-01",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 15,
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 379,
+    "poolSize": 110,
+    "generatedAt": "2026-11-02T02:25:43.354Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
