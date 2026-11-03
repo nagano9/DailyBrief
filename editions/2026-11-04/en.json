@@ -2,14 +2,14 @@
   "slug": "2026-11-04",
   "date": "2026-11-04",
   "lang": "en",
-  "title": "Anthropic Near RSI Threshold; Danantara Financials Due; IEA Gas Warning",
-  "dek": "A self-improving AI warning, a sovereign fund transparency test, and tightening global gas markets each demand a decision this week.",
+  "title": "Anthropic Near RSI; Danantara Financials Due; PLN LNG Demand Surges",
+  "dek": "A self-improving AI threshold, a sovereign fund's first financial disclosure, and a 120-cargo LNG demand projection each demand a decision this week.",
   "domains": [
     "corporate",
     "energy",
     "ai"
   ],
-  "summary": "Anthropic has publicly warned it is approaching recursive self-improvement capability, a threshold that reframes AI governance from policy aspiration to operational urgency. In parallel, US tech giants have accumulated 3.2 trillion dollars in hidden AI debt, suggesting infrastructure exposure is now a systemic financial risk. On the energy side, the IEA warns that low European gas storage could extend market tightness into 2027, compressing the window for LNG-dependent economies such as Indonesia. At the corporate level, Danantara is scheduled to release its first financial statements this month, a disclosure that will test whether the sovereign vehicle's governance commitments translate into auditable numbers. Separately, Danantara is preparing a project list for US investors at the G20 Miami, linking its financial transparency moment to a capital-raising pivot.",
+  "summary": "Anthropic has publicly warned it is approaching recursive self-improvement capability, a threshold that reframes AI governance from policy aspiration to operational necessity. Separately, Danantara has confirmed it will release its first financial report this month, making November the first moment external parties can test the restructuring narrative against audited numbers. PLN EPI's projection of 120 LNG cargoes in 2027 extends Indonesia's fossil fuel lock-in precisely as the global gas market faces prolonged tightness through 2027, per IEA. Brookfield and QIA's £2.5 billion commitment to the Drax data center illustrates how sovereign and infrastructure capital is now pricing AI power demand as project finance. Indonesia's energy ministry installed a new Director General of Electricity on 3 November, adding a personnel variable to every active regulatory negotiation on the grid.",
   "signals": [
     {
       "rank": 1,
@@ -18,23 +18,25 @@
       "entities": [
         "Danantara",
         "Dony Oskaria",
+        "Bank Mandiri",
         "G20 Miami"
       ],
-      "headline": "Danantara to release financial statements this month; G20 project list being prepared for US investors",
-      "whatChanged": "Danantara has confirmed it will publish its financial statements during November 2026. Concurrently, a project list is being compiled for presentation to US investors at the G20 Miami summit. Danantara's Chief Operating Officer Dony Oskaria separately stated that state-owned enterprises recorded a 20 percent profit increase through Q3 2026.",
-      "whyItMatters": "This thread has accumulated 30 entries since October 5 and is now a structural condition. The financial disclosure is the first auditable test of whether Danantara's consolidation of BUMN assets has produced transparent, investable books. The simultaneous G20 pitch means foreign capital decisions will be calibrated against whatever the statements reveal.",
-      "secondOrder": "If the financial statements are released with qualified audit opinions, delayed notes, or significant off-balance-sheet items, the G20 investor presentation loses credibility precisely when Indonesia needs to demonstrate that the BUMN restructuring has reduced, not transferred, fiscal risk. Conversely, clean statements would materially lower the risk premium that foreign investors currently attach to Danantara-linked projects.",
-      "action": "Obtain the Danantara financial statements as soon as they are published and cross-reference the BUMN profit figure against individual enterprise disclosures. Specifically, check whether the 20 percent profit increase at the BUMN level consolidates entities that have separately recorded impairments or government-subsidized receivables, which would overstate the headline.",
+      "headline": "Danantara to release its first financial report in November 2026",
+      "whatChanged": "Kontan reported on 3 November 2026 that Danantara will publish its financial report within the month. This is the first scheduled external financial disclosure since the sovereign investment vehicle absorbed Indonesian state-owned enterprise assets earlier in 2026. Separately, Danantara's Chief Operating Officer Dony Oskaria stated that BUMN companies recorded a 20 percent increase in profit through Q3 2026, per detikFinance.",
+      "whyItMatters": "The danantara-bumn-karya-restructuring thread has been structural for 30 days, accumulating across deposit placements, restructuring impairments of Rp135 trillion, and project pipelines being assembled for G20 Miami. The financial report converts all prior narrative claims into verifiable figures for the first time. Investors, creditors, and counterparties in any Danantara co-investment will treat this as the first usable baseline.",
+      "secondOrder": "The 20 percent profit growth claim, if supported by the financial report, removes one objection to Danantara's project pipeline pitch at G20 Miami. If the report contradicts or qualifies that claim, the G20 pitch loses its anchor and the credibility of subsequent project offers is damaged. The sequencing of disclosure and the Miami meeting is therefore not coincidental.",
+      "action": "This week: prepare a checklist of line items to verify in the Danantara report when it drops, specifically: consolidation scope (which BUMNs are included), treatment of Rp135 trillion in impairments, deposit composition at Bank Mandiri and other state banks, and whether the 20 percent profit figure is consolidated or selective. Use this against any co-investment or financing proposal that references Danantara's balance sheet.",
       "strength": "actionable",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaF9odlRUQlhFUElBb0hINjVlQTU5R0JaVmJ0S0RfZnBOX05GcjdueHdfQmFVUnJwalFrVUlKNWhBWkhzcVNFN21TWWx4OUF3MGRUTXRqVW8zN1U1YlRnSGlQWTFVV2Z3ckpsaURMUmxKMzBCRUd5dURsUlNWOE9WdE5ZWU1mX1llaU9TbXZzZ2VzQQ?oc=5",
-        "https://finance.detik.com/berita-ekonomi-bisnis/d-8737142/bos-danantara-ungkap-laba-bumn-naik-20",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVHdvM0VkUnRQZHF1ZEFnYm9mNlRGVE1CSjh5dDM4a2pYSVRrZ21VaFBPajRJUC13WEE3SmlTRGVGczZoTllYN2tEeHhVcUh4aG5uRTBiMnBJWUxyeWk0eDNIMWZGVFo0TUtIY0JoUG8ya2NGSTNnX1VLS3hOeVBDTU1OMWR0WFZNdkdEdzVVaFRacEhiOGZhY0IwcHhnekR1NVVBa0h1LXU5UdIBrwFBVV95cUxNekwwY1JFY1RNN1NweThNZDdKSGhieDhxT3Z2YXhHcl9wUlUyUkQ3dnZvRjNnaVdiT0c3a3MwVjA2VXU5M195dlNGOGZIdG1GWS1CcWFONkMwclNTS2lKQno4TzBpSHU3cDdNeVlueE9zdExuUndscnR5OEhjVVUtaGk2NERBM254RGh3NWxCY2YwMC1DZV9wREVZLUlEWTZkRlQ0OTJ4bktRZThxRXgw?oc=5",
-        "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNm5IMmtJZllpcTZnTzFtbTVrc3ZHQVQyOXdGRHFGOENKZVFjQUtLVDZVOGkxMTFhOHVGMlF6QkZjZTJjb3VnaGtMbEF3Ujl1VmhhVFlHSEZ1MGxWeXFkLVd0MUcwRVp5TENjUXFmMmozR1V0dEN4SjdIN2tFeE9ERzFoYmpvSUJ0eUVNM3F6NWwzUTJwUVc4alZUWFBEYXRQQTFvdENFcXQ0S2IxOVBjdWRhS3hoU09XUHlMa2tMSnVoVG1BVWZTYUFwaGp1UQ?oc=5"
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8737142/bos-danantara-ungkap-laba-bumn-naik-20"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVHdvM0VkUnRQZHF1ZEFnYm9mNlRGVE1CSjh5dDM4a2pYSVRrZ21VaFBPajRJUC13WEE3SmlTRGVGczZoTllYN2tEeHhVcUh4aG5uRTBiMnBJWUxyeWk0eDNIMWZGVFo0TUtIY0JoUG8ya2NGSTNnX1VLS3hOeVBDTU1OMWR0WFZNdkdEdzVVaFRacEhiOGZhY0IwcHhnekR1NVVBa0h1LXU5UdIBrwFBVV95cUxNekwwY1JFY1RNN1NweThNZDdKSGhieDhxT3Z2YXhHcl9wUlUyUkQ3dnZvRjNnaVdiT0c3a3MwVjA2VXU5M195dlNGOGZIdG1GWS1CcWFONkMwclNTS2lKQno4TzBpSHU3cDdNeVlueE9zdExuUndscnR5OEhjVVUtaGk2NERBM254RGh3NWxCY2YwMC1DZV9wREVZLUlEWTZkRlQ0OTJ4bktRZThxRXgw?oc=5"
+      ],
       "corroboration": {
-        "publishers": 4,
+        "publishers": 2,
         "hasPrimary": false
       },
       "trend": {
@@ -50,23 +52,25 @@
       "domain": "energy",
       "themeKey": "pln-grid-investment",
       "entities": [
+        "PLN EPI",
         "IEA",
-        "PLN",
-        "WK Masela",
         "RUPTL"
       ],
-      "headline": "IEA warns low European gas storage could extend global gas market tightness well into 2027",
-      "whatChanged": "The IEA published a finding that European gas storage levels are sufficiently low to sustain global LNG market tightness through at least mid-2027, extending the supply constraint horizon by roughly two additional quarters beyond prior estimates.",
-      "whyItMatters": "Indonesia's PLN has a recently signed 18-year LNG supply contract from WK Masela. A prolonged global gas tightness period raises the delivered cost of LNG above the price assumptions embedded in that contract and in the broader RUPTL planning framework, compressing PLN's generation margins and potentially requiring tariff or subsidy adjustments.",
-      "secondOrder": "Extended gas tightness benefits Indonesian LNG exporters such as Pertamina and the Masela consortium in revenue terms, but it simultaneously increases the fiscal cost of PLN's fuel mix. The government therefore faces a split incentive: upstream gain versus downstream subsidy pressure. This divergence is likely to surface in the 2027 state budget discussions and could reopen the RUPTL coal-versus-gas balance debate that the 100 GW solar program was intended to resolve.",
-      "action": "Request PLN's fuel cost sensitivity model for LNG price scenarios extending to Q2 2027. Cross-check whether the RUPTL 2025-2034 tariff assumptions used an LNG price corridor that the IEA warning now places outside the lower bound, and assess whether a budget contingency or hedging instrument is warranted.",
+      "headline": "PLN EPI projects LNG demand to reach 120 cargoes in 2027, up sharply from current levels",
+      "whatChanged": "PLN EPI publicly projected that LNG demand for power generation will rise to 120 cargoes in 2027, according to Bisnis.com on 3 November 2026. This continues the pln-grid-investment thread and extends PLN's fossil fuel procurement commitments further into the decade.",
+      "whyItMatters": "The pln-grid-investment thread has been structural for 28 days. Each new LNG procurement commitment increases the duration of PLN's fossil fuel exposure and raises the financial cost of an early exit from gas-fired generation. A 120-cargo requirement implies multi-year supply contracts that will outlast the current RUPTL planning cycle. Simultaneously, the IEA flagged on 3 November that low European gas storage buffers could prolong global gas market tightness well into 2027, meaning PLN is projecting higher LNG demand into a supply-constrained market.",
+      "secondOrder": "Rising LNG procurement at elevated global prices compresses PLN's operational budget and reduces the internal capital available for renewable and transmission investment. If PLN's tariff freeze through end-2026 holds, as PLN confirmed on 3 November, the margin compression falls entirely on the balance sheet rather than on consumers, which tightens the fiscal space for the energy transition precisely when the RUPTL requires acceleration.",
+      "action": "This week: map PLN EPI's 120-cargo projection against the LNG spot and term price outlook for 2027 using IEA's latest gas market data. Quantify the implied procurement cost and compare it against PLN's existing subsidy and tariff structure to identify the budget gap. This is the input needed for any grid investment proposal that depends on PLN having capital to co-invest.",
       "strength": "material",
       "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUTdyNFp0REVKZXB4UWxEcDZjbVhFUjhFaWtjdEN6bzFxcTQyNFllRUFZSVhpMjNSLUVDa1hCN2tXWFhNVUgzLWxYZm9Sb1psOXhIcFZON0NQNmhubDAwckFQWEd0dG9tVUJhQzNkYWNla2NIYUNrT19CNXF2NGlwZUdVcHVGc3AwbGRZdGFuVXBORkZoUXF3bnpVMFRxeVlvbFhGa0xLRW96RU1hYzVSb0c1VDEyeGgxal9MZ3VJYWtYMERiRFE?oc=5",
         "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWFc3V1M0SmlsZnhqUk5IY2hfbUZicENFX2MyZFdnemJWSGdHdnRyOWNVZlZCQUdabG01MjZKQjhwUk84QWw4ZVVZdXF2cTg5VGhKYU5CdVFnTUp3cjZab29rOS1QLURyc3FDUWs4MTFsdkpoc2RjTGdSOEhxeDVkX1R1ajF2T0lKUFNoUWVld084VHBDSWZYRHA4RUlSamFZN2lPSUUtMXVGNXU5amRzYg?oc=5"
       ],
-      "secondOrderUrls": [],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORnFQY1RLbEtvLWtVRjZkUTN0bllBT3NhUWFSUkJSaWE0am1kNUVpYmx3Ul9pUWhJTXRYSXVIMmUzQ3lDdUxYVmdYWHZ2bmpXWU8yY1gxUGtxN2x0d3pwcHl3bjJRUFFhWG1WUTlxN1RCUEM2YVJoVldRWHJvX1pvcVp3cEdkazBNXzF6dFEzNF91b251ZTRFNVhSLUw3VmE4aE5CMUhXSmdRUdIBowFBVV95cUxQN2VzaDVuTEVMQkR6S3pPcGgxMFhYUFF1RlVYY19OS2lJWmRJN0JWVG43V3h2X2czR2hCVlc4dDc4N1RRS2tfRk1GWVczdUI3XzZobFFjX09ZcnVOcEpYSHZJYmtkLTRKZmZCRER3VXJDenpiRU1FMEdudGpzNnBad1ZVMXM1eGM0OHZGOUNNTVp6djJjOVc0UmJqV0xHZERIdW44?oc=5"
+      ],
       "corroboration": {
-        "publishers": 1,
+        "publishers": 2,
         "hasPrimary": true
       },
       "trend": {
@@ -80,36 +84,34 @@
     {
       "rank": 3,
       "domain": "energy",
-      "themeKey": "indonesia-geothermal-concession-reform",
+      "themeKey": "pln-transmisi-investasi",
       "entities": [
-        "Bahlil Lahadalia",
-        "Arsyadany Ghana",
         "Kementerian ESDM",
-        "PLN",
-        "Suroso Isnandar"
+        "Arsyadany Ghana",
+        "Bahlil",
+        "PLN"
       ],
-      "headline": "Bahlil appoints new Director General of Electricity at Kementerian ESDM",
-      "whatChanged": "Minister Bahlil Lahadalia inaugurated Arsyadany Ghana as the new Director General of Electricity (Dirjen Ketenagalistrikan) at Kementerian ESDM on November 3, 2026, completing a senior leadership change at the ministry's electricity directorate.",
-      "whyItMatters": "The Director General of Electricity is the primary regulatory authority for power sector licensing, tariff setting, and PLN oversight. A leadership change at this level, occurring while PLN itself has a new President Director (Suroso Isnandar, appointed October 14), means both the regulated entity and its principal regulator are simultaneously in transition, creating a window of policy fluidity.",
-      "secondOrder": "Dual leadership transitions in PLN and its regulatory counterpart simultaneously increase the likelihood that pending decisions, including grid investment priorities, renewable energy procurement rules, and the 100 GW solar implementation framework, are deferred or reopened for review. Project developers and IPPs that have bids or contracts under negotiation should assess whether their counterpart's mandate is settled enough to sign binding terms.",
-      "action": "Map all active PLN procurement processes and regulatory submissions against the transition timelines of both Suroso Isnandar at PLN and Arsyadany Ghana at Kementerian ESDM. Any approval expected before year-end should be pressure-tested for whether the new officeholders have confirmed continuity of their predecessor's positions.",
-      "strength": "actionable",
+      "headline": "Kementerian ESDM installs new Director General of Electricity on 3 November 2026",
+      "whatChanged": "Energy Minister Bahlil inaugurated Arsyadany Ghana as the new Director General of Electricity at the Kementerian ESDM on 3 November 2026, as reported by CNBC Indonesia and confirmed by the Kementerian ESDM's own announcement of a broader senior official inauguration on 2 November.",
+      "whyItMatters": "The pln-transmisi-investasi thread has been structural for 14 days, covering 500 kV transmission strengthening in East Java and broader grid investment planning. The Director General of Electricity is the regulatory counterpart for all grid licensing, tariff recommendations, and concession approvals. A change in this role resets the relationship between PLN, independent power producers, and the ministry on every pending regulatory file.",
+      "secondOrder": "Any active negotiation that was calibrated to the previous Director General's priorities, interpretations, or timelines now carries transition risk. Developers with transmission access applications, renewable energy concessions, or tariff adjustment requests need to assess whether their files will be reviewed under a changed set of priorities before year-end deadlines.",
+      "action": "This week: identify all regulatory files currently pending at the Direktorat Jenderal Ketenagalistrikan and flag those with December 2026 or Q1 2027 deadlines. For each, determine whether a courtesy briefing or resubmission is warranted under the incoming director general, and prioritise accordingly.",
+      "strength": "emerging",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZWN5d2xkZU9KY2Q2aC11b2Q5WUdsRVZNenBhNFRkdnI3dWpjUUVPdnBtN1NVbFdHZlluRVlFcFhubklUQnNsM2QyOXc4cHgzRHY4enBsTDQ5QjJXSGlPRzBxYzVnbDVfdjZTaWh3WjJxY214Rm9ENXZpT2psQ09GbGNLLUF0SW00d3FzNnRnOVRpTXo1eURvZUVIRTN6TjFIMDlDSU53dnA1cTQzU21VdTZkR19odFRmZWhxdHRQc0VYUQ?oc=5",
-        "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
-        "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo"
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1MxdENGSHV2WmRhVG15dFRoR0k4eDVDNTdwanRPdEhpZ0dhMWRSNU0yMGlCNEVsZDQya3phU1RqZ3FwZ2l5bHl2Y1UzNkdPbmpmVzJCSHRvWFFRcFk2WEowcGVjWThwVTdRNFpFNEJSbXFCamxja01DTG9tM09BQTVsaHdIT2RpWnRoVnlSbXoyRVpMT0dxYW5idnFlb3dZVUVucjF5ZXlrVmRvZVVxTTQ3bnJqekdDNFo2WHgybk9kaElVV1pr?oc=5"
       ],
       "secondOrderUrls": [],
       "corroboration": {
         "publishers": 2,
-        "hasPrimary": false
+        "hasPrimary": true
       },
       "trend": {
-        "themeKey": "indonesia-geothermal-concession-reform",
+        "themeKey": "pln-transmisi-investasi",
         "status": "structural",
-        "occurrences": 12,
-        "firstSeen": "2026-10-10",
-        "spanDays": 25
+        "occurrences": 15,
+        "firstSeen": "2026-10-05",
+        "spanDays": 30
       }
     },
     {
@@ -117,14 +119,15 @@
       "domain": "ai",
       "themeKey": "frontier-model-scientific-reasoning",
       "entities": [
-        "Anthropic"
+        "Anthropic",
+        "TechCrunch"
       ],
       "headline": "Anthropic warns it is very close to recursive self-improvement capability",
-      "whatChanged": "Anthropic issued a public statement warning that its models are approaching recursive self-improvement (RSI) capability, described as self-building AI, making this the first time the lab has placed itself this close to the threshold in an official communication.",
-      "whyItMatters": "RSI is the point at which an AI system can materially accelerate its own development without proportionate human oversight. Anthropic naming this proximity publicly converts a theoretical safety concern into a disclosed operational risk, which changes how boards, regulators, and institutional deployers must assess near-term AI exposure.",
-      "secondOrder": "Because Anthropic is a primary safety lab and not merely a commercial vendor, its self-disclosure creates a precedent that other frontier labs will face pressure to match or rebut. That dynamic could force OpenAI, Google DeepMind, and others to publish their own RSI proximity assessments, turning capability disclosure into a competitive and regulatory norm rather than a voluntary act.",
-      "action": "Review any AI deployment or partnership agreements that assume human-in-the-loop as a stable condition. RSI proximity means the assumption of a fixed capability ceiling is no longer defensible; contract language and governance charters should be audited for clauses that become void or materially misleading if model capability accelerates faster than the deployment timeline.",
-      "strength": "material",
+      "whatChanged": "Anthropic issued a public warning on 2 November 2026 stating it is approaching recursive self-improvement (RSI) capability, the point at which a model could meaningfully assist in its own training or architecture improvement. TechCrunch reported this as an explicit internal and external alert, not a speculative projection.",
+      "whyItMatters": "RSI is the threshold that separates incremental capability scaling from qualitatively different risk dynamics. Every AI governance framework in use today was designed for the pre-RSI regime; Anthropic naming the boundary as imminent forces organisations deploying or procuring frontier models to ask whether their contracts, liability clauses, and usage policies still apply. This continues the frontier-model-scientific-reasoning thread, which has been structural for 27 days, and the accumulation now implies the question is no longer theoretical.",
+      "secondOrder": "If RSI-adjacent capability is confirmed in production, the bottleneck in AI risk management shifts from model evaluation to process control inside the lab itself. External auditors, insurers, and enterprise procurement teams currently have no agreed standard for assessing a lab's internal controls over self-improvement loops, so the institutional gap becomes the exposure, not the model's output.",
+      "action": "This week: audit any enterprise AI contracts for clauses that reference model capability versioning or liability triggers. Determine whether those clauses were written assuming a static capability ceiling, and whether RSI-adjacent updates would constitute a material change requiring renegotiation or re-disclosure.",
+      "strength": "actionable",
       "sourceUrls": [
         "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa0VUSzBwdmlqRHY0N1duclMzOVBhVk5FbjllcHNiX0ludVpmX25neDhaWlFLUmx4R21mY20wNjVOVE1uZUdDajNzNDNHdGkwY3BvYVpMOFI5cmF4TWRDaUppTmJrTE5NaHJPbmdkWWJEWGJPNmNyVl9ZUE1Lb1U5WV9PckEzd3RMZzhVMW53cHBSMHh2Y2VDU2tnY3BoMFpZczdObkp1VEV4ZXNfWUE?oc=5"
       ],
@@ -144,27 +147,36 @@
   ],
   "watchNext": [
     {
-      "item": "Danantara financial statements publication: check audit opinion quality and off-balance-sheet disclosure against the G20 investor pitch narrative",
+      "item": "Danantara financial report release: verify consolidation scope, impairment treatment, and deposit composition against prior narrative claims",
       "dueDate": "2026-11-30"
     },
     {
-      "item": "Anthropic RSI disclosure: monitor whether OpenAI or Google DeepMind issue comparable proximity assessments, triggering a regulatory response",
-      "dueDate": "2026-11-30"
+      "item": "Anthropic RSI capability disclosure: monitor for follow-up technical papers, regulatory filings, or customer advisories that specify what RSI-adjacent capability means operationally",
+      "dueDate": "2026-11-14"
     },
     {
-      "item": "IEA European gas storage update for November: determine whether the tightness forecast extends beyond mid-2027, affecting PLN LNG cost assumptions",
-      "dueDate": "2026-12-15"
+      "item": "PLN EPI LNG cargo contracting for 2027: watch for tender announcements or contract awards that lock in volume and price exposure ahead of the global gas tightness window IEA flagged through 2027",
+      "dueDate": "2026-12-31"
     },
     {
-      "item": "COP31 Antalya outcomes: assess whether any binding commitments affect Indonesia's coal retirement schedule or the 100 GW solar Indonesia-China cooperation framework",
-      "dueDate": "2026-11-30"
+      "item": "Arsyadany Ghana policy signals as new Director General of Electricity: first public statements, any regulatory circulars, and treatment of pending grid concession and tariff files",
+      "dueDate": "2026-11-21"
     },
     {
-      "item": "Arsyadany Ghana policy positions at Dirjen Ketenagalistrikan: first public statements or regulatory issuances signaling continuity or change on renewable tariff and grid access rules",
-      "dueDate": "2026-11-28"
+      "item": "Danantara project list for G20 Miami: assess which projects are offered to US investors and what financing structure is proposed, as this will reveal Danantara's actual capital mobilisation model",
+      "dueDate": "2026-11-21"
     }
   ],
   "sources": [
+    {
+      "title": "PLN EPI Proyeksi Kebutuhan LNG Pembangkit Melonjak jadi 120 Kargo pada 2027 - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUTdyNFp0REVKZXB4UWxEcDZjbVhFUjhFaWtjdEN6bzFxcTQyNFllRUFZSVhpMjNSLUVDa1hCN2tXWFhNVUgzLWxYZm9Sb1psOXhIcFZON0NQNmhubDAwckFQWEd0dG9tVUJhQzNkYWNla2NIYUNrT19CNXF2NGlwZUdVcHVGc3AwbGRZdGFuVXBORkZoUXF3bnpVMFRxeVlvbFhGa0xLRW96RU1hYzVSb0c1VDEyeGgxal9MZ3VJYWtYMERiRFE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-03T23:10:51.000Z"
+    },
     {
       "title": "Bos Danantara Ungkap Laba BUMN Naik 20%",
       "publisher": "detikFinance",
@@ -174,12 +186,13 @@
       "publishedAt": "2026-11-03T14:58:23.000Z"
     },
     {
-      "title": "Pendidikan dan karier Suroso Isnandar, Dirut baru PLN",
-      "publisher": "ANTARA",
-      "url": "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-10-15T11:11:47.000Z"
+      "title": "Menteri ESDM Lantik Pejabat Pimpinan Tinggi Di Lingkungan Kementerian ESDM",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1MxdENGSHV2WmRhVG15dFRoR0k4eDVDNTdwanRPdEhpZ0dhMWRSNU0yMGlCNEVsZDQya3phU1RqZ3FwZ2l5bHl2Y1UzNkdPbmpmVzJCSHRvWFFRcFk2WEowcGVjWThwVTdRNFpFNEJSbXFCamxja01DTG9tM09BQTVsaHdIT2RpWnRoVnlSbXoyRVpMT0dxYW5idnFlb3dZVUVucjF5ZXlrVmRvZVVxTTQ3bnJqekdDNFo2WHgybk9kaElVV1pr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-02T08:10:20.000Z"
     },
     {
       "title": "Low storage buffers in Europe could prolong global gas market tightness well into 2027 - IEA",
@@ -200,21 +213,13 @@
       "publishedAt": "2026-11-02T22:14:50.000Z"
     },
     {
-      "title": "Rosan Siapkan Daftar Proyek Danantara untuk Ditawarkan ke Investor AS di G20 Miami - Bisnis.com",
-      "publisher": "Bisnis.com - Ekonomi",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNm5IMmtJZllpcTZnTzFtbTVrc3ZHQVQyOXdGRHFGOENKZVFjQUtLVDZVOGkxMTFhOHVGMlF6QkZjZTJjb3VnaGtMbEF3Ujl1VmhhVFlHSEZ1MGxWeXFkLVd0MUcwRVp5TENjUXFmMmozR1V0dEN4SjdIN2tFeE9ERzFoYmpvSUJ0eUVNM3F6NWwzUTJwUVc4alZUWFBEYXRQQTFvdENFcXQ0S2IxOVBjdWRhS3hoU09XUHlMa2tMSnVoVG1BVWZTYUFwaGp1UQ?oc=5",
+      "title": "Video: Bahlil Lantik Arsyadany Ghana Jadi Dirjen Ketenagalistrikan",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZWN5d2xkZU9KY2Q2aC11b2Q5WUdsRVZNenBhNFRkdnI3dWpjUUVPdnBtN1NVbFdHZlluRVlFcFhubklUQnNsM2QyOXc4cHgzRHY4enBsTDQ5QjJXSGlPRzBxYzVnbDVfdjZTaWh3WjJxY214Rm9ENXZpT2psQ09GbGNLLUF0SW00d3FzNnRnOVRpTXo1eURvZUVIRTN6TjFIMDlDSU53dnA1cTQzU21VdTZkR19odFRmZWhxdHRQc0VYUQ?oc=5",
       "tier": 1,
       "via": "Google News",
       "primary": false,
-      "publishedAt": "2026-11-03T19:10:19.000Z"
-    },
-    {
-      "title": "Profil Suroso Isnandar, dirut baru PLN pengganti Darmawan Prasodjo",
-      "publisher": "ANTARA",
-      "url": "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
-      "tier": 2,
-      "primary": false,
-      "publishedAt": "2026-10-15T03:45:26.000Z"
+      "publishedAt": "2026-11-03T04:50:03.000Z"
     },
     {
       "title": "Danantara siapkan daftar proyek kerja sama dengan AS jelang G20",
@@ -226,15 +231,6 @@
       "publishedAt": "2026-11-03T16:55:52.000Z"
     },
     {
-      "title": "Video: Bahlil Lantik Arsyadany Ghana Jadi Dirjen Ketenagalistrikan",
-      "publisher": "CNBC Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZWN5d2xkZU9KY2Q2aC11b2Q5WUdsRVZNenBhNFRkdnI3dWpjUUVPdnBtN1NVbFdHZlluRVlFcFhubklUQnNsM2QyOXc4cHgzRHY4enBsTDQ5QjJXSGlPRzBxYzVnbDVfdjZTaWh3WjJxY214Rm9ENXZpT2psQ09GbGNLLUF0SW00d3FzNnRnOVRpTXo1eURvZUVIRTN6TjFIMDlDSU53dnA1cTQzU21VdTZkR19odFRmZWhxdHRQc0VYUQ?oc=5",
-      "tier": 1,
-      "via": "Google News",
-      "primary": false,
-      "publishedAt": "2026-11-03T04:50:03.000Z"
-    },
-    {
       "title": "Danantara Bakal Rilis Laporan Keuangan pada Bulan Ini",
       "publisher": "kontan.co.id",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaF9odlRUQlhFUElBb0hINjVlQTU5R0JaVmJ0S0RfZnBOX05GcjdueHdfQmFVUnJwalFrVUlKNWhBWkhzcVNFN21TWWx4OUF3MGRUTXRqVW8zN1U1YlRnSGlQWTFVV2Z3ckpsaURMUmxKMzBCRUd5dURsUlNWOE9WdE5ZWU1mX1llaU9TbXZzZ2VzQQ?oc=5",
@@ -242,6 +238,24 @@
       "via": "Google News",
       "primary": false,
       "publishedAt": "2026-11-03T13:58:30.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN, Impairment Tembus Rp135 Triliun",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "title": "PLN Tegaskan Tarif Listrik hingga Akhir 2026 Tak Naik, Ini Penjelasannya",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORnFQY1RLbEtvLWtVRjZkUTN0bllBT3NhUWFSUkJSaWE0am1kNUVpYmx3Ul9pUWhJTXRYSXVIMmUzQ3lDdUxYVmdYWHZ2bmpXWU8yY1gxUGtxN2x0d3pwcHl3bjJRUFFhWG1WUTlxN1RCUEM2YVJoVldRWHJvX1pvcVp3cEdkazBNXzF6dFEzNF91b251ZTRFNVhSLUw3VmE4aE5CMUhXSmdRUdIBowFBVV95cUxQN2VzaDVuTEVMQkR6S3pPcGgxMFhYUFF1RlVYY19OS2lJWmRJN0JWVG43V3h2X2czR2hCVlc4dDc4N1RRS2tfRk1GWVczdUI3XzZobFFjX09ZcnVOcEpYSHZJYmtkLTRKZmZCRER3VXJDenpiRU1FMEdudGpzNnBad1ZVMXM1eGM0OHZGOUNNTVp6djJjOVc0UmJqV0xHZERIdW44?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-03T13:47:28.000Z"
     }
   ],
   "trends": [
@@ -297,9 +311,9 @@
       "2": 14,
       "3": 9
     },
-    "candidateCount": 397,
+    "candidateCount": 444,
     "poolSize": 110,
-    "generatedAt": "2026-11-03T23:42:47.219Z",
+    "generatedAt": "2026-11-03T23:59:40.467Z",
     "engineVersion": "2.1.0",
     "model": "anthropic-claude-sonnet-4-6"
   }
