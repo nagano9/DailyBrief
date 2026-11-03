@@ -1,0 +1,362 @@
+{
+  "slug": "2026-11-04",
+  "date": "2026-11-04",
+  "lang": "id",
+  "title": "Anthropic Mendekati RSI, Danantara Rilis Keuangan, Gas Eropa Ketat hingga 2027",
+  "dek": "Tiga domain bergerak bersamaan: batas kemampuan AI self-improvement terancam terlampaui, Danantara membuka akses laporan keuangan untuk pertama kali, dan IEA memperingatkan ketegangan pasar gas Eropa melampaui 2027.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Anthropic secara terbuka memperingatkan bahwa kemampuan recursive self-improvement (RSI) sudah sangat dekat, mengubah parameter risiko untuk seluruh industri AI frontier. Bersamaan, Danantara menjadwalkan rilis laporan keuangan pertamanya bulan ini sementara Chief Operating Officer mengklaim laba BUMN naik 20% di kuartal III-2026, dua sinyal yang membuka jendela evaluasi tata kelola yang belum pernah ada sebelumnya. Di sisi energi, IEA memperingatkan cadangan gas Eropa yang tipis berpotensi memperpanjang keketatan pasar gas global hingga 2027, bersinggungan langsung dengan paparan LNG jangka panjang yang sudah dikunci PLN EPI dari WK Masela. Kementerian ESDM juga menyiapkan kebijakan storage minyak 60 hari dan bioetanol E20 sebagai respons ketahanan energi, sementara Arsyadany Ghana dilantik sebagai Dirjen Ketenagalistrikan baru, membuka kemungkinan perubahan arah regulasi kelistrikan.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Dony Oskaria",
+        "Bank Mandiri",
+        "G20 Miami"
+      ],
+      "headline": "Danantara jadwalkan rilis laporan keuangan pertama bulan ini, COO klaim laba BUMN naik 20%",
+      "whatChanged": "Danantara menjadwalkan rilis laporan keuangan pertamanya pada November 2026, sebagaimana dikonfirmasi Kontan. Chief Operating Officer Danantara Dony Oskaria menyatakan laba BUMN secara umum naik sekitar 20% sepanjang kuartal III-2026, dikutip detikFinance. Danantara juga sedang menyiapkan daftar proyek untuk ditawarkan kepada investor AS di G20 Miami, menurut Bisnis.com dan ANTARA.",
+      "whyItMatters": "Ini adalah pertama kalinya Danantara akan merilis laporan keuangan sejak dibentuk. Rilis ini menciptakan titik referensi pertama yang bisa digunakan investor, analis, dan regulator untuk memverifikasi klaim kinerja secara independen. Tema danantara-bumn-karya-restructuring sudah 30 kali muncul dalam 30 hari terakhir; laporan keuangan ini adalah katalis kunci yang akan mengubah debat dari retorika ke angka teraudit.",
+      "secondOrder": "Kualitas dan kelengkapan laporan keuangan pertama ini akan menjadi sinyal kredibilitas Danantara di mata investor internasional, terutama yang sedang diundang di G20 Miami. Jika laporan tidak memenuhi standar IFRS atau tidak menyertakan konsolidasi portofolio BUMN secara penuh, kepercayaan investor AS bisa terkikis sebelum negosiasi dimulai. Paralel dengan deposito Rp123 triliun di Bank Mandiri yang belum sepenuhnya dijelaskan alokasi produktifnya juga akan menjadi sorotan.",
+      "action": "Jadwalkan sesi analisis laporan keuangan Danantara segera setelah dokumen dipublikasikan, dengan fokus pada tiga hal: metode konsolidasi portofolio BUMN, perlakuan akuntansi deposito Rp123 triliun, dan definisi laba yang digunakan COO. Siapkan pertanyaan tertulis untuk manajemen Danantara sebelum G20 Miami mengenai proyek spesifik yang akan ditawarkan ke investor AS.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaF9odlRUQlhFUElBb0hINjVlQTU5R0JaVmJ0S0RfZnBOX05GcjdueHdfQmFVUnJwalFrVUlKNWhBWkhzcVNFN21TWWx4OUF3MGRUTXRqVW8zN1U1YlRnSGlQWTFVV2Z3ckpsaURMUmxKMzBCRUd5dURsUlNWOE9WdE5ZWU1mX1llaU9TbXZzZ2VzQQ?oc=5",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8737142/bos-danantara-ungkap-laba-bumn-naik-20",
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNm5IMmtJZllpcTZnTzFtbTVrc3ZHQVQyOXdGRHFGOENKZVFjQUtLVDZVOGkxMTFhOHVGMlF6QkZjZTJjb3VnaGtMbEF3Ujl1VmhhVFlHSEZ1MGxWeXFkLVd0MUcwRVp5TENjUXFmMmozR1V0dEN4SjdIN2tFeE9ERzFoYmpvSUJ0eUVNM3F6NWwzUTJwUVc4alZUWFBEYXRQQTFvdENFcXQ0S2IxOVBjdWRhS3hoU09XUHlMa2tMSnVoVG1BVWZTYUFwaGp1UQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVHdvM0VkUnRQZHF1ZEFnYm9mNlRGVE1CSjh5dDM4a2pYSVRrZ21VaFBPajRJUC13WEE3SmlTRGVGczZoTllYN2tEeHhVcUh4aG5uRTBiMnBJWUxyeWk0eDNIMWZGVFo0TUtIY0JoUG8ya2NGSTNnX1VLS3hOeVBDTU1OMWR0WFZNdkdEdzVVaFRacEhiOGZhY0IwcHhnekR1NVVBa0h1LXU5UdIBrwFBVV95cUxNekwwY1JFY1RNN1NweThNZDdKSGhieDhxT3Z2YXhHcl9wUlUyUkQ3dnZvRjNnaVdiT0c3a3MwVjA2VXU5M195dlNGOGZIdG1GWS1CcWFONkMwclNTS2lKQno4TzBpSHU3cDdNeVlueE9zdExuUndscnR5OEhjVVUtaGk2NERBM254RGh3NWxCY2YwMC1DZV9wREVZLUlEWTZkRlQ0OTJ4bktRZThxRXgw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-05",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IEA",
+        "PLN EPI",
+        "WK Masela",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "IEA: cadangan gas Eropa yang tipis bisa perpanjang keketatan pasar gas global hingga 2027",
+      "whatChanged": "IEA pada 3 November 2026 menerbitkan peringatan bahwa cadangan gas Eropa yang rendah berpotensi memperpanjang keketatan pasar gas global hingga melampaui 2027. Ini adalah pernyataan resmi IEA, bukan proyeksi pihak ketiga.",
+      "whyItMatters": "PLN EPI sudah mengunci kontrak LNG dari WK Masela selama 18 tahun, sebagaimana tercatat dalam tema pln-grid-investment yang sudah 28 kali muncul. Peringatan IEA ini mengonfirmasi bahwa harga gas LNG global akan tetap tinggi dan volatile dalam rentang waktu yang melampaui perencanaan jangka menengah. Paparan 18 tahun PLN EPI ke LNG Masela menjadi lebih mahal secara oportunitas bila harga spot LNG Asia-Pasifik terus tertekan permintaan Eropa.",
+      "secondOrder": "Keketatan gas global yang berlanjut hingga 2027 dan seterusnya memperkuat tekanan fiskal pada PLN, yang harus menyerap selisih antara harga kontrak LNG dan tarif listrik yang disubsidi pemerintah. Ini berpotensi menunda investasi transmisi yang sudah direncanakan PLN UIT JBM untuk Jawa Timur, karena alokasi belanja modal harus diprioritaskan untuk memenuhi kewajiban bahan bakar.",
+      "action": "Minta tim keuangan PLN atau analis sektor energi untuk memodelkan sensitivitas biaya pokok penyediaan listrik PLN terhadap skenario harga LNG IEA untuk 2027, lalu bandingkan dengan asumsi harga dalam kontrak WK Masela. Output analisis ini perlu tersedia sebelum pembahasan RUPTL 2025-2034 berikutnya.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWFc3V1M0SmlsZnhqUk5IY2hfbUZicENFX2MyZFdnemJWSGdHdnRyOWNVZlZCQUdabG01MjZKQjhwUk84QWw4ZVVZdXF2cTg5VGhKYU5CdVFnTUp3cjZab29rOS1QLURyc3FDUWs4MTFsdkpoc2RjTGdSOEhxeDVkX1R1ajF2T0lKUFNoUWVld084VHBDSWZYRHA4RUlSamFZN2lPSUUtMXVGNXU5amRzYg?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-05",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "Kementerian ESDM",
+        "Pertamina",
+        "Pelindo"
+      ],
+      "headline": "Kementerian ESDM siapkan storage minyak 60 hari dan bioetanol E20 sebagai kebijakan ketahanan energi",
+      "whatChanged": "Kementerian ESDM pada 3 November 2026 mengumumkan persiapan kebijakan penyimpanan minyak strategis hingga 60 hari dan program bioetanol E20 sebagai bagian dari penguatan ketahanan energi nasional. Pengumuman ini berasal langsung dari situs resmi Kementerian ESDM.",
+      "whyItMatters": "Kebijakan storage 60 hari dan E20 adalah respons langsung terhadap gangguan pasokan minyak akibat penutupan Selat Hormuz yang disebut IESR sejak Oktober 2026. Ini menandai pergeseran dari kebijakan ketahanan energi yang bersifat reaktif menjadi proaktif, dengan target kuantitatif yang dapat diukur. Paralel dengan kebijakan serupa di negara lain memperkuat sinyal bahwa Indonesia mulai mengintegrasikan perencanaan ketahanan energi ke dalam kebijakan fiskal.",
+      "secondOrder": "Implementasi storage minyak 60 hari membutuhkan investasi infrastruktur tangki dan logistik yang signifikan, yang membuka peluang kontrak bagi BUMN seperti Pertamina dan Pelindo. Kebijakan E20 berpotensi mendistorsi pasar bioetanol domestik bila tidak disertai insentif produksi yang memadai, karena kapasitas industri bioetanol Indonesia saat ini belum dikonfirmasi cukup untuk memenuhi target campuran 20%.",
+      "action": "Identifikasi apakah Pertamina atau BUMN lain sudah menerima penugasan formal untuk infrastruktur storage 60 hari, dan periksa apakah kebijakan E20 sudah masuk dalam rancangan APBN 2027 sebagai subsidi atau insentif pajak. Konfirmasi ini perlu dilakukan sebelum akhir November 2026 untuk menilai apakah kebijakan ini operasional atau masih pada tahap perencanaan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeHFzNHVkbGlNMU5TdEVJUU5jM0N5QzVZeDYxMVkxY2QyTjJMYTBHcG43czdoWjNnclZ2QmlQX0NlYjlQVWV5dWFsQmdFdGFaZmdqZi1hTnJCcWRQQlV6Vjk2eHZDSGxUQlVjVzdWRXB0ZkVSQ0F0S1VhLU1YUmw1cDI2NjNhYm40cUxSMllGRnVOV3lNaHMtd3BRb1FNdXZQb1BqaHlZOVpsVkk5YzdKY2Nob2hfWEozWDhfV185Umx4Wno4a0tWR28wb1FZLW1OY3ZJMWZab1I2Wjcw?oc=5",
+        "https://iesr.or.id/inisiatif-35-by-35-mengurangi-emisi-dan-memangkas-biaya-energi/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-10",
+        "spanDays": 25
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Arsyadany Ghana",
+        "Kementerian ESDM",
+        "PLN",
+        "Suroso Isnandar"
+      ],
+      "headline": "Arsyadany Ghana dilantik sebagai Dirjen Ketenagalistrikan baru oleh Menteri Bahlil",
+      "whatChanged": "Menteri Bahlil melantik Arsyadany Ghana sebagai Direktur Jenderal Ketenagalistrikan yang baru, sebagaimana dilaporkan CNBC Indonesia pada 3 November 2026. Pelantikan ini terjadi bersamaan dengan pelantikan pejabat pimpinan tinggi lain di lingkungan Kementerian ESDM pada 2 November 2026.",
+      "whyItMatters": "Direktur Jenderal Ketenagalistrikan adalah pejabat yang mengendalikan regulasi tarif, perizinan pembangkit, dan pengawasan PLN. Pergantian pejabat di posisi ini, bersamaan dengan penunjukan Dirut PLN baru Suroso Isnandar pada Oktober 2026, berarti dua posisi paling berpengaruh dalam ekosistem kelistrikan Indonesia berganti dalam waktu kurang dari sebulan. Ini membuka kemungkinan perubahan arah kebijakan yang belum bisa dikonfirmasi dari sinyal yang tersedia.",
+      "secondOrder": "Ketidakpastian arah kebijakan dari dua pejabat baru secara bersamaan dapat memperlambat proses perizinan proyek energi terbarukan yang sedang dalam pipeline, karena kontraktor dan investor cenderung menunggu sinyal kebijakan dari kepemimpinan baru sebelum mengeksekusi komitmen. Hal ini berpotensi mengganggu timeline proyek PLTS 100 GW yang dibahas dalam kerja sama Indonesia-China.",
+      "action": "Susun daftar keputusan regulasi kelistrikan yang sedang dalam proses di Ditjen Ketenagalistrikan, termasuk penetapan tarif IPP, persetujuan PJBL baru, dan regulasi grid code. Pantau apakah Arsyadany Ghana memberi sinyal kebijakan dalam 30 hari pertama jabatannya, khususnya mengenai renewable energy tariff dan mekanisme grid access untuk energi surya.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZWN5d2xkZU9KY2Q2aC11b2Q5WUdsRVZNenBhNFRkdnI3dWpjUUVPdnBtN1NVbFdHZlluRVlFcFhubklUQnNsM2QyOXc4cHgzRHY4enBsTDQ5QjJXSGlPRzBxYzVnbDVfdjZTaWh3WjJxY214Rm9ENXZpT2psQ09GbGNLLUF0SW00d3FzNnRnOVRpTXo1eURvZUVIRTN6TjFIMDlDSU53dnA1cTQzU21VdTZkR19odFRmZWhxdHRQc0VYUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1MxdENGSHV2WmRhVG15dFRoR0k4eDVDNTdwanRPdEhpZ0dhMWRSNU0yMGlCNEVsZDQya3phU1RqZ3FwZ2l5bHl2Y1UzNkdPbmpmVzJCSHRvWFFRcFk2WEowcGVjWThwVTdRNFpFNEJSbXFCamxja01DTG9tM09BQTVsaHdIT2RpWnRoVnlSbXoyRVpMT0dxYW5idnFlb3dZVUVucjF5ZXlrVmRvZVVxTTQ3bnJqekdDNFo2WHgybk9kaElVV1pr?oc=5",
+        "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+        "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-05",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "frontier-model-scientific-reasoning",
+      "entities": [
+        "Anthropic",
+        "Claude Code"
+      ],
+      "headline": "Anthropic peringatkan kemampuan RSI sudah sangat dekat, implikasi keamanan AI berubah",
+      "whatChanged": "Anthropic secara publik memperingatkan bahwa perusahaan sudah sangat dekat dengan kemampuan recursive self-improvement (RSI), yaitu AI yang dapat membangun atau meningkatkan diri sendiri tanpa intervensi manusia. Peringatan ini disampaikan secara eksplisit oleh Anthropic, bukan inferensi pihak luar.",
+      "whyItMatters": "RSI adalah ambang batas yang selama ini dianggap hipotetis oleh sebagian besar pelaku industri. Pengakuan publik dari lab frontier bahwa batas ini hampir terlampaui memaksa regulator, investor, dan mitra korporasi untuk merevisi asumsi garis waktu risiko yang digunakan dalam kontrak, kebijakan, dan due diligence. Ini melanjutkan tema frontier-model-scientific-reasoning yang sudah 27 kali muncul dalam 30 hari terakhir, dan menambahkan dimensi keamanan eksistensial yang belum muncul sebelumnya dalam arsip.",
+      "secondOrder": "Peringatan ini kemungkinan memaksa percepatan regulasi AI di yurisdiksi yang sebelumnya masih dalam fase konsultasi. Perusahaan yang mengandalkan model Anthropic untuk aplikasi enterprise, termasuk yang menggunakan Claude Code, perlu mempertimbangkan bahwa vendor mereka sendiri sedang beroperasi di ambang batas kemampuan yang belum sepenuhnya dipahami atau diatur. Tekanan pada asuransi siber dan klausul force majeure dalam kontrak AI enterprise juga berpotensi meningkat.",
+      "action": "Tim legal dan risk management yang memiliki kontrak dengan Anthropic atau reseller-nya perlu memeriksa klausul material adverse change dan definisi force majeure dalam kontrak tersebut minggu ini. Susun daftar pertanyaan spesifik untuk Anthropic mengenai kapabilitas RSI dan mekanisme pengamanan yang sudah diimplementasikan, lalu bawa ke rapat dewan sebelum 30 November 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa0VUSzBwdmlqRHY0N1duclMzOVBhVk5FbjllcHNiX0ludVpmX25neDhaWlFLUmx4R21mY20wNjVOVE1uZUdDajNzNDNHdGkwY3BvYVpMOFI5cmF4TWRDaUppTmJrTE5NaHJPbmdkWWJEWGJPNmNyVl9ZUE1Lb1U5WV9PckEzd3RMZzhVMW53cHBSMHh2Y2VDU2tnY3BoMFpZczdObkp1VEV4ZXNfWUE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "frontier-model-scientific-reasoning",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-05",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Rilis laporan keuangan pertama Danantara: verifikasi metode konsolidasi dan perlakuan deposito Rp123 triliun",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Sinyal kebijakan Arsyadany Ghana sebagai Dirjen Ketenagalistrikan baru, terutama mengenai tarif IPP dan akses grid energi terbarukan",
+      "dueDate": "2026-12-04"
+    },
+    {
+      "item": "Daftar proyek Danantara yang akan ditawarkan ke investor AS di G20 Miami: identifikasi proyek spesifik dan nilai komitmen yang diminta",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Perkembangan regulasi AI di yurisdiksi utama pasca peringatan Anthropic mengenai RSI: apakah regulator merespons dengan moratorium atau persyaratan pelaporan baru",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Perkuat Ketahanan Energi, Pemerintah Siapkan Storage Minyak hingga 60 Hari dan Bioetanol E20",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeHFzNHVkbGlNMU5TdEVJUU5jM0N5QzVZeDYxMVkxY2QyTjJMYTBHcG43czdoWjNnclZ2QmlQX0NlYjlQVWV5dWFsQmdFdGFaZmdqZi1hTnJCcWRQQlV6Vjk2eHZDSGxUQlVjVzdWRXB0ZkVSQ0F0S1VhLU1YUmw1cDI2NjNhYm40cUxSMllGRnVOV3lNaHMtd3BRb1FNdXZQb1BqaHlZOVpsVkk5YzdKY2Nob2hfWEozWDhfV185Umx4Wno4a0tWR28wb1FZLW1OY3ZJMWZab1I2Wjcw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-03T12:53:21.000Z"
+    },
+    {
+      "title": "Bos Danantara Ungkap Laba BUMN Naik 20%",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8737142/bos-danantara-ungkap-laba-bumn-naik-20",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-03T14:58:23.000Z"
+    },
+    {
+      "title": "Pendidikan dan karier Suroso Isnandar, Dirut baru PLN",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5788929/pendidikan-dan-karier-suroso-isnandar-dirut-baru-pln",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T11:11:47.000Z"
+    },
+    {
+      "title": "Menteri ESDM Lantik Pejabat Pimpinan Tinggi Di Lingkungan Kementerian ESDM",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1MxdENGSHV2WmRhVG15dFRoR0k4eDVDNTdwanRPdEhpZ0dhMWRSNU0yMGlCNEVsZDQya3phU1RqZ3FwZ2l5bHl2Y1UzNkdPbmpmVzJCSHRvWFFRcFk2WEowcGVjWThwVTdRNFpFNEJSbXFCamxja01DTG9tM09BQTVsaHdIT2RpWnRoVnlSbXoyRVpMT0dxYW5idnFlb3dZVUVucjF5ZXlrVmRvZVVxTTQ3bnJqekdDNFo2WHgybk9kaElVV1pr?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-02T08:10:20.000Z"
+    },
+    {
+      "title": "Low storage buffers in Europe could prolong global gas market tightness well into 2027 - IEA",
+      "publisher": "IEA - International Energy Agency",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWFc3V1M0SmlsZnhqUk5IY2hfbUZicENFX2MyZFdnemJWSGdHdnRyOWNVZlZCQUdabG01MjZKQjhwUk84QWw4ZVVZdXF2cTg5VGhKYU5CdVFnTUp3cjZab29rOS1QLURyc3FDUWs4MTFsdkpoc2RjTGdSOEhxeDVkX1R1ajF2T0lKUFNoUWVld084VHBDSWZYRHA4RUlSamFZN2lPSUUtMXVGNXU5amRzYg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-03T06:00:00.000Z"
+    },
+    {
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa0VUSzBwdmlqRHY0N1duclMzOVBhVk5FbjllcHNiX0ludVpmX25neDhaWlFLUmx4R21mY20wNjVOVE1uZUdDajNzNDNHdGkwY3BvYVpMOFI5cmF4TWRDaUppTmJrTE5NaHJPbmdkWWJEWGJPNmNyVl9ZUE1Lb1U5WV9PckEzd3RMZzhVMW53cHBSMHh2Y2VDU2tnY3BoMFpZczdObkp1VEV4ZXNfWUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-02T22:14:50.000Z"
+    },
+    {
+      "title": "Rosan Siapkan Daftar Proyek Danantara untuk Ditawarkan ke Investor AS di G20 Miami - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNm5IMmtJZllpcTZnTzFtbTVrc3ZHQVQyOXdGRHFGOENKZVFjQUtLVDZVOGkxMTFhOHVGMlF6QkZjZTJjb3VnaGtMbEF3Ujl1VmhhVFlHSEZ1MGxWeXFkLVd0MUcwRVp5TENjUXFmMmozR1V0dEN4SjdIN2tFeE9ERzFoYmpvSUJ0eUVNM3F6NWwzUTJwUVc4alZUWFBEYXRQQTFvdENFcXQ0S2IxOVBjdWRhS3hoU09XUHlMa2tMSnVoVG1BVWZTYUFwaGp1UQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-03T19:10:19.000Z"
+    },
+    {
+      "title": "Profil Suroso Isnandar, dirut baru PLN pengganti Darmawan Prasodjo",
+      "publisher": "ANTARA",
+      "url": "https://www.antaranews.com/berita/5787525/profil-suroso-isnandar-dirut-baru-pln-pengganti-darmawan-prasodjo",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-10-15T03:45:26.000Z"
+    },
+    {
+      "title": "Inisiatif “35 by 35”: Mengurangi Emisi dan Memangkas Biaya Energi",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/inisiatif-35-by-35-mengurangi-emisi-dan-memangkas-biaya-energi/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-26T09:06:07.000Z"
+    },
+    {
+      "title": "Danantara siapkan daftar proyek kerja sama dengan AS jelang G20",
+      "publisher": "ANTARA News Bangka Belitung",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVHdvM0VkUnRQZHF1ZEFnYm9mNlRGVE1CSjh5dDM4a2pYSVRrZ21VaFBPajRJUC13WEE3SmlTRGVGczZoTllYN2tEeHhVcUh4aG5uRTBiMnBJWUxyeWk0eDNIMWZGVFo0TUtIY0JoUG8ya2NGSTNnX1VLS3hOeVBDTU1OMWR0WFZNdkdEdzVVaFRacEhiOGZhY0IwcHhnekR1NVVBa0h1LXU5UdIBrwFBVV95cUxNekwwY1JFY1RNN1NweThNZDdKSGhieDhxT3Z2YXhHcl9wUlUyUkQ3dnZvRjNnaVdiT0c3a3MwVjA2VXU5M195dlNGOGZIdG1GWS1CcWFONkMwclNTS2lKQno4TzBpSHU3cDdNeVlueE9zdExuUndscnR5OEhjVVUtaGk2NERBM254RGh3NWxCY2YwMC1DZV9wREVZLUlEWTZkRlQ0OTJ4bktRZThxRXgw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-03T16:55:52.000Z"
+    },
+    {
+      "title": "Video: Bahlil Lantik Arsyadany Ghana Jadi Dirjen Ketenagalistrikan",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZWN5d2xkZU9KY2Q2aC11b2Q5WUdsRVZNenBhNFRkdnI3dWpjUUVPdnBtN1NVbFdHZlluRVlFcFhubklUQnNsM2QyOXc4cHgzRHY4enBsTDQ5QjJXSGlPRzBxYzVnbDVfdjZTaWh3WjJxY214Rm9ENXZpT2psQ09GbGNLLUF0SW00d3FzNnRnOVRpTXo1eURvZUVIRTN6TjFIMDlDSU53dnA1cTQzU21VdTZkR19odFRmZWhxdHRQc0VYUQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-03T04:50:03.000Z"
+    },
+    {
+      "title": "Danantara Bakal Rilis Laporan Keuangan pada Bulan Ini",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaF9odlRUQlhFUElBb0hINjVlQTU5R0JaVmJ0S0RfZnBOX05GcjdueHdfQmFVUnJwalFrVUlKNWhBWkhzcVNFN21TWWx4OUF3MGRUTXRqVW8zN1U1YlRnSGlQWTFVV2Z3ckpsaURMUmxKMzBCRUd5dURsUlNWOE9WdE5ZWU1mX1llaU9TbXZzZ2VzQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-03T13:58:30.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara Investment Management parkir Rp123 triliun di deposito, terbesar di Bank Mandiri",
+      "occurrences": 30,
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-11-03",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN EPI kunci kontrak LNG WK Masela 18 tahun, memperpanjang paparan fosil di tengah debat ekspor listrik",
+      "occurrences": 28,
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-11-03",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "Mistral Large 4 rilis dengan 1 triliun parameter dan arsitektur multimodal MoE asli",
+      "occurrences": 27,
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-11-02",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "OpenAI luncurkan Grid Protectors Program: pusat data diklaim bisa lindungi grid dan tekan tarif listrik",
+      "occurrences": 21,
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-11-03",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 14,
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 397,
+    "poolSize": 110,
+    "generatedAt": "2026-11-03T23:41:41.144Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
