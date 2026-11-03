@@ -1,0 +1,346 @@
+{
+  "slug": "2026-11-03",
+  "date": "2026-11-03",
+  "lang": "id",
+  "title": "OpenAI Grid Protectors, PLN LNG Masela, Danantara Tolak Lobi Ekspor Listrik",
+  "dek": "Tiga sinyal hari ini menunjukkan infrastruktur energi dan tata kelola BUMN menjadi titik tekanan utama keputusan investasi pekan ini.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "OpenAI meluncurkan program Grid Protectors yang secara eksplisit menawarkan pusat data sebagai aset pendukung keandalan grid, memperkuat tren ai-datacenter-project-finance yang sudah berjalan 21 kali dalam arsip. PLN EPI mengunci pasokan LNG dari WK Masela selama 18 tahun, keputusan yang memperpanjang paparan fosil PLN tepat ketika debat ekspor listrik ke Singapura memanas. Bahlil Lahadalia secara terbuka menginstruksikan Danantara menolak lobi Singapura soal ekspor listrik, sementara Wakil Menteri Luar Negeri AS bertemu Danantara di Jakarta, menandai dua tekanan geopolitik berlawanan pada entitas investasi negara itu dalam satu hari. Impairment restrukturisasi BUMN yang telah menembus Rp135 triliun memberi konteks mengapa Danantara memarkir Rp123 triliun di deposito, sebuah posisi defensif yang kontras dengan narasi investasi strategis yang dikampanyekan forum DTIIF 2026.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "OpenAI",
+        "Grid Protectors Program"
+      ],
+      "headline": "OpenAI luncurkan Grid Protectors Program: pusat data diklaim bisa lindungi grid dan tekan tarif listrik",
+      "whatChanged": "OpenAI pada 2 November 2026 mengumumkan Grid Protectors Program, sebuah inisiatif yang akan bekerja sama dengan utilitas listrik agar kampus komputasi masa depan OpenAI dapat mendukung keandalan grid dan melindungi biaya listrik konsumen. Ini merupakan pernyataan publik pertama OpenAI yang secara eksplisit memposisikan aset pusat datanya sebagai instrumen kebijakan infrastruktur listrik.",
+      "whyItMatters": "Selama arsip 21 edisi tema ai-datacenter-project-finance berjalan, posisi vendor AI adalah pemohon kapasitas listrik. Grid Protectors membalik framing itu: OpenAI kini menawarkan diri sebagai penyedia layanan keandalan grid kepada utilitas, yang membuka jalur negosiasi tarif preferensial, prioritas koneksi, dan potensi pengecualian regulatoris sebagai imbal balik kontribusi stabilitas jaringan.",
+      "secondOrder": "Bila utilitas menerima framing ini, pusat data berskala besar akan memperoleh status serupa dengan aset demand-response atau virtual power plant dalam kerangka regulasi grid, sehingga perizinan dan penetapan tarif mereka berpindah dari yurisdiksi permisi biasa ke yurisdiksi infrastruktur kritis. Regulator energi di pasar lain, termasuk Indonesia yang sedang menyiapkan aturan ekspor-impor listrik dan grid Asean, akan menghadapi preseden ini sebagai referensi saat mendesain aturan koneksi pusat data ke jaringan PLN.",
+      "action": "Tinjau ulang apakah kerangka perizinan koneksi pusat data ke jaringan PLN saat ini sudah mengantisipasi skenario di mana operator pusat data menawarkan layanan grid ancillary sebagai penukar prioritas koneksi. Ajukan pertanyaan ini kepada Dirjen Ketenagalistrikan Arsyadany Ghana yang baru dilantik.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://openai.com/index/grid-protectors-program"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "structural",
+        "occurrences": 22,
+        "firstSeen": "2026-10-04",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Bahlil Lahadalia",
+        "Singapura"
+      ],
+      "headline": "Bahlil instruksikan Danantara tolak lobi ekspor listrik Singapura; Wamenlu AS bertemu Danantara di hari sama",
+      "whatChanged": "Pada 2-3 November 2026, Menteri Koordinator Bahlil Lahadalia secara terbuka memerintahkan Danantara menolak lobi Singapura terkait ekspor listrik, dengan syarat bahwa ekspor hanya boleh terjadi jika kebutuhan domestik sudah terpenuhi. Pada hari yang sama, Wakil Menteri Luar Negeri AS bertemu perwakilan Danantara di Jakarta, sebagaimana dilaporkan CNN Indonesia.",
+      "whyItMatters": "Dua pertemuan ini menunjukkan Danantara sedang menjadi titik tekanan geopolitik ganda: AS mendekati Danantara kemungkinan terkait investasi strategis atau rantai pasok kritis, sementara Indonesia secara internal membangun posisi tawar terhadap Singapura dalam arsitektur energi Asean. Tema danantara-bumn-karya-restructuring yang telah berjalan 29 kali dalam arsip kini bergeser dari isu impairment internal ke isu kedaulatan sumber daya eksternal.",
+      "secondOrder": "Jika Danantara memposisikan diri sebagai penjaga aset energi strategis sekaligus mitra dialog AS, maka klasifikasi aset yang dikelola Danantara dapat bergeser dari kategori investasi komersial biasa ke kategori aset keamanan nasional. Pergeseran ini akan mempersulit divestasi sebagian atau privatisasi BUMN energi di bawah Danantara, karena setiap transaksi akan mengundang scrutiny geopolitik, bukan hanya analisis finansial.",
+      "action": "Petakan posisi aset energi mana yang berada di bawah kendali Danantara dan berpotensi masuk klasifikasi infrastruktur kritis menurut Perpres atau regulasi sektor energi yang berlaku. Tinjau apakah struktur tata kelola Danantara saat ini sudah memiliki mekanisme untuk menangani pertemuan diplomatik tingkat tinggi tanpa menciptakan paparan hukum atau konflik kepentingan.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS0VRTHRVZTE5NUo3ZEdWNkN1MlpoeFBnd0k2emRXZ21UWUpYYU9xN1BIaHVtOGpBYVBPRmRXeEpSb1Q4MDhjQmQyRC15Q1pEbEljNHVMQmpGWWVhY05xa0Q1eDRxbHhTZVdEN1B5aWpqT2NaWlJZY25ndmdoVldKTmFCc3JqQV94TTJ6eU1JYW0xYXVS?oc=5",
+        "https://finance.detik.com/energi/d-8735415/bahlil-wanti-wanti-jangan-mau-dilobi-singapura-soal-ekspor-listrik",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWpUd0RFSlYtRmZkYXZibW8wRndQSWRGQWFxLUhaclBsV2ZTREJXQU5aVkNPdXZfY0x5ODFla1dKTkd0cS1lMURiLWZPMDJQM0JFbFVFelJOYWNiM21vaWJhNTJfd19lanpjRUJxTDhNT1NNOVVhNzV4b0xiWTMyZDNWZDRBemlSUGpNSTZDaDJScjdVYW5RblgxOUhrZHFrOVhVbmhiY0F1XzYxZ2N30gG0AUFVX3lxTE5UT1VNcjhBaHRTcTJhYURxaXRZOG9NdDNKNHRodGxVcVZVMUI5bkh4LTFjR2pSdFhwckdqQ1hmUURfZHJ5dnVEeDNRTTJ4MG9CcTNYX3hDallXVHI5Y0YyWS04YnVhVzV5MzlNNmY0aVRVMXk4WHkweTBsZmVGTG1oVkN5UUp5UGdqOU1ELVUxblJ6bl9wX2dhN1FmcV8zQkhiQjNQZ1VBbEt1dnNyTDMxUUNmTg?oc=5",
+        "https://finance.detik.com/energi/d-8735510/syarat-buat-singapura-jika-tetap-pengin-impor-listrik-ri"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-05",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "PT Danantara Investment Management",
+        "Bank Mandiri",
+        "Danantara"
+      ],
+      "headline": "Danantara Investment Management parkir Rp123 triliun di deposito, terbesar di Bank Mandiri",
+      "whatChanged": "Katadata pada 3 November 2026 melaporkan bahwa PT Danantara Investment Management (DIM) menempatkan mayoritas asetnya dalam bentuk deposito senilai Rp123 triliun, dengan porsi terbesar di Bank Mandiri. Angka ini muncul bersamaan dengan data impairment restrukturisasi BUMN yang telah menembus Rp135 triliun.",
+      "whyItMatters": "Porsi deposito sebesar Rp123 triliun dari total aset DIM menunjukkan bahwa mandat investasi strategis Danantara belum terimplementasi dalam portofolio produktif. Kontras antara narasi investasi transformasional yang dipromosikan di DTIIF 2026 dan posisi defensif di deposito menciptakan pertanyaan tentang kapasitas penyerapan investasi nyata dari entitas ini.",
+      "secondOrder": "Deposito senilai itu di Bank Mandiri menciptakan konsentrasi eksposur perbankan yang signifikan. Jika DIM kemudian harus mencairkan untuk membiayai kewajiban restrukturisasi BUMN atau proyek strategis secara tiba-tiba, likuiditas Bank Mandiri dapat terdampak, dan bank lain yang bersaing menarik dana DIM akan menghadapi dinamika persaingan harga deposito korporat besar.",
+      "action": "Verifikasi apakah penempatan deposito DIM di Bank Mandiri dan bank BUMN lain telah melalui mekanisme investasi yang transparan dan sesuai dengan mandatnya sebagai sovereign wealth fund. Tanyakan kepada OJK apakah DIM tunduk pada aturan diversifikasi penempatan dana yang sama dengan manajer investasi konvensional.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://katadata.co.id/finansial/bursa/6ae930fbb112f/aset-danantara-investment-parkir-rp-123-t-di-deposito-terbesar-di-bank-mandiri",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-05",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "Kementerian ESDM"
+      ],
+      "headline": "IESR: kerja sama PLTS 100 GW Indonesia-China harus sertakan syarat industri dalam negeri",
+      "whatChanged": "IESR pada 30 Oktober 2026 menerbitkan analisis yang menyatakan program PLTS 100 GW dengan China berpeluang menjadi penggerak transisi energi sekaligus penguatan industri EBT nasional, dengan syarat bahwa perjanjian kerja sama memuat ketentuan kandungan lokal dan transfer teknologi. Ini adalah posisi resmi lembaga riset kebijakan energi yang berfungsi sebagai input kebijakan ESDM.",
+      "whyItMatters": "Tema indonesia-geothermal-concession-reform dalam arsip mencatat tuntutan serupa sejak 10 edisi lalu. IESR kini memformalkan posisi ini bertepatan dengan momen Indonesia secara aktif membidik investasi energi terbarukan dari China, sebagaimana dilaporkan ANTARA dan investor.id. Tanpa klausul TKDN yang mengikat, PLTS 100 GW berisiko menjadi impor panel surya berskala besar tanpa dampak industri domestik.",
+      "secondOrder": "Jika syarat kandungan lokal ditegakkan secara ketat, maka biaya per MW PLTS 100 GW akan lebih tinggi dari benchmark impor panel China murni, yang dapat mempengaruhi bankability proyek dan membuat skema pembiayaan multilateral lebih sulit distrukturkan. Sebaliknya, jika syarat dilonggarkan demi kecepatan eksekusi, industri panel surya domestik yang sedang dibangun kehilangan jaminan demand dan tidak akan mencapai skala ekonomis.",
+      "action": "Periksa apakah Kementerian ESDM atau Kementerian Perindustrian telah menetapkan ambang TKDN minimum yang mengikat secara hukum untuk PLTS 100 GW dalam perjanjian dengan pihak China. Bila belum, identifikasi jendela negosiasi yang masih terbuka sebelum MoU teknis ditandatangani.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://iesr.or.id/kerja-sama-indonesia-tiongkok-untuk-plts-100-gw-perlu-perkuat-industri-dalam-negeri/",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaHR4d1A3NUVCT3NKaFAwSm5ucTNUZjVJVUZLYTFiREtOclZ2RDNHMDh4aTJkWEtSWFJseWZsdWpHS05URW1GSWRES196cXZtR1IxdGlwa0xkTWFqdWFkeHp3T25EU3NxN1FORTFMR1plZ2x6NVNYVzh3Q2d5UWNqWVl0Q3VoemNvTkVQaXdfbXVRWHVnbDZfdUllbE_SAZ8BQVVfeXFMT0ZLcmxWNWZ2SE5BWW43N2ZYU1dFMXExZ3dyWHJDTUlwMzFNMEJCQmZTTFY0RGdVcjk5dFNoODVVcUtYbHg3TU1MZkRkYVZPbjRpWXlhbHdUX29DUnZOcmRLRU42TkozYmZGdDN3d1FEWDhoT1NfRzA3T3dUNXBFMm5jVDBLYUZraE5IeU9KSERwM191TnQ0d2JVbHVXc2lr?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbEF5RnA3QWNfSXA2Qk9JMUszbkZiUmNWLTBsc0Vnc1Iyc2JZNzQ0cDhfMzZ1UTRLTWtrTXRwMDFmdnQ3Y2ZLVjhvNUxmd0xpLVdkTTdVYW5MMWN3WEFHVG5TQkxFUmNFUzdCMlYzRGZNa0l3R0w4OEpMcUZESU1Wb1l4MlhVeXVVTDdEbDN1dmp6OFZCNjNBRU9IbWhfbmFBTHlKVEtOSEVQbUNPZk1scDRnUld3ekJ1VlpOSm9n?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 11,
+        "firstSeen": "2026-10-10",
+        "spanDays": 24
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN EPI",
+        "WK Masela"
+      ],
+      "headline": "PLN EPI kunci kontrak LNG WK Masela 18 tahun, memperpanjang paparan fosil di tengah debat ekspor listrik",
+      "whatChanged": "PLN EPI pada 2 November 2026 mengamankan pasokan LNG dari Wilayah Kerja Masela untuk durasi 18 tahun, sebagaimana dilaporkan ANTARA News. Tidak ada angka volume atau nilai kontrak yang disebutkan dalam kandidat.",
+      "whyItMatters": "Kontrak 18 tahun mengunci biaya bahan bakar PLN hingga sekitar 2044, jauh melewati target net-zero berbagai skenario transisi energi IESR dan IEA. Ini terjadi bersamaan dengan instruksi Bahlil kepada Danantara untuk menolak lobi ekspor listrik ke Singapura, yang berarti kapasitas pembangkit berbasis LNG ini akan melayani demand domestik, bukan regional. Keputusan ini memperkuat kondisi struktural tema pln-grid-investment: PLN menambah beban jangka panjang pada sisi pasokan justru ketika tekanan transisi dari sisi permintaan sedang meningkat.",
+      "secondOrder": "Kontrak LNG jangka panjang biasanya disertai klausul take-or-pay yang menciptakan kewajiban minimum off-take. Jika penetrasi EBT dan PLTS 100 GW dengan China berjalan sesuai target, PLN berpotensi membayar penalti take-or-pay LNG Masela sementara kapasitas surya kelebiha produksi, sebuah risiko fiskal ganda yang belum terlihat dalam analisis publik saat ini.",
+      "action": "Periksa apakah struktur kontrak LNG Masela memuat klausul take-or-pay dan berapa volume minimum-nya, lalu bandingkan dengan proyeksi surpluskapasitas PLN pada RUPTL 2025-2034 saat PLTS 100 GW mulai beroperasi. Pertanyaan ini relevan diajukan dalam due diligence pembiayaan proyek EBT yang bergantung pada dispatch order PLN.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYmFhaG5nSVFuM3NMby1HNHB5NzNpbHFXNGFTZFJva05KSnViTF9JWHpYVkJtSy1BdEVvYnNPTENkNzZFcHZZWWc0ZGxqcnZHZlgwWWlGYzJBVk1KS0d4dDZqT0hreVIwaU0tOTVfNU9iM1VOX040aFVtU3M2enF2RkNkb3duVkhCQU84WlV5bFdZSjB0ZVlvWGFfbmthcFF60gGjAUFVX3lxTFBkbFV5ejZEc3d0SkJfMGdVSVZOUlBGMDY0NXVOWWFtQlZwVUg3ZHdsZlpXLWlvVkZNQXljWHhuQWw5Z0t0YzdRbVlGZUZOZlpnSnpoVjhRdUV5andNd28ta3JDZUpBa3VxRjU3eDFqa1Fibnk1bGZwT2lFWWhiNHVWUzNlU2JwcmI1RnBVLUJXbV9WTXplYkVDc3FrQ21xWWR2NWM?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-04",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Peraturan Menteri ESDM tentang peran BLU dalam impor migas Pertamina: terbit atau tidak sebelum akhir November 2026",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Pelantikan Dirjen Ketenagalistrikan Arsyadany Ghana: agenda kebijakan pertama terkait koneksi pusat data dan ekspor listrik",
+      "dueDate": "2026-11-17"
+    },
+    {
+      "item": "Publikasi detail kontrak LNG Masela oleh PLN EPI: volume take-or-pay dan implikasinya terhadap dispatch order PLTS",
+      "dueDate": "2026-12-01"
+    },
+    {
+      "item": "Hasil pemilu sela AS 3 November 2026 dan dampaknya terhadap posisi investasi Wamenlu AS-Danantara",
+      "dueDate": "2026-11-07"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kerja Sama Indonesia–Tiongkok untuk PLTS 100 GW Perlu Perkuat Industri Dalam Negeri",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/kerja-sama-indonesia-tiongkok-untuk-plts-100-gw-perlu-perkuat-industri-dalam-negeri/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-10-30T09:53:48.000Z"
+    },
+    {
+      "title": "Perkuat Transisi Energi, Indonesia Bidik Investasi dan Teknologi Hijau dari China",
+      "publisher": "investor.id",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbEF5RnA3QWNfSXA2Qk9JMUszbkZiUmNWLTBsc0Vnc1Iyc2JZNzQ0cDhfMzZ1UTRLTWtrTXRwMDFmdnQ3Y2ZLVjhvNUxmd0xpLVdkTTdVYW5MMWN3WEFHVG5TQkxFUmNFUzdCMlYzRGZNa0l3R0w4OEpMcUZESU1Wb1l4MlhVeXVVTDdEbDN1dmp6OFZCNjNBRU9IbWhfbmFBTHlKVEtOSEVQbUNPZk1scDRnUld3ekJ1VlpOSm9n?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-02T14:15:28.000Z"
+    },
+    {
+      "title": "Introducing the Grid Protectors Program",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-02T15:00:00.000Z"
+    },
+    {
+      "title": "Alaasan Wamenlu AS Bertemu Danantara di Jakarta",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWpUd0RFSlYtRmZkYXZibW8wRndQSWRGQWFxLUhaclBsV2ZTREJXQU5aVkNPdXZfY0x5ODFla1dKTkd0cS1lMURiLWZPMDJQM0JFbFVFelJOYWNiM21vaWJhNTJfd19lanpjRUJxTDhNT1NNOVVhNzV4b0xiWTMyZDNWZDRBemlSUGpNSTZDaDJScjdVYW5RblgxOUhrZHFrOVhVbmhiY0F1XzYxZ2N30gG0AUFVX3lxTE5UT1VNcjhBaHRTcTJhYURxaXRZOG9NdDNKNHRodGxVcVZVMUI5bkh4LTFjR2pSdFhwckdqQ1hmUURfZHJ5dnVEeDNRTTJ4MG9CcTNYX3hDallXVHI5Y0YyWS04YnVhVzV5MzlNNmY0aVRVMXk4WHkweTBsZmVGTG1oVkN5UUp5UGdqOU1ELVUxblJ6bl9wX2dhN1FmcV8zQkhiQjNQZ1VBbEt1dnNyTDMxUUNmTg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-03T00:57:02.000Z"
+    },
+    {
+      "title": "PLN EPI amankan pasokan LNG dari WK Masela untuk 18 tahun",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYmFhaG5nSVFuM3NMby1HNHB5NzNpbHFXNGFTZFJva05KSnViTF9JWHpYVkJtSy1BdEVvYnNPTENkNzZFcHZZWWc0ZGxqcnZHZlgwWWlGYzJBVk1KS0d4dDZqT0hreVIwaU0tOTVfNU9iM1VOX040aFVtU3M2enF2RkNkb3duVkhCQU84WlV5bFdZSjB0ZVlvWGFfbmthcFF60gGjAUFVX3lxTFBkbFV5ejZEc3d0SkJfMGdVSVZOUlBGMDY0NXVOWWFtQlZwVUg3ZHdsZlpXLWlvVkZNQXljWHhuQWw5Z0t0YzdRbVlGZUZOZlpnSnpoVjhRdUV5andNd28ta3JDZUpBa3VxRjU3eDFqa1Fibnk1bGZwT2lFWWhiNHVWUzNlU2JwcmI1RnBVLUJXbV9WTXplYkVDc3FrQ21xWWR2NWM?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-02T16:42:52.000Z"
+    },
+    {
+      "title": "Bahlil Minta Danantara Tolak Lobi soal Ekspor Listrik",
+      "publisher": "Tempo.co",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS0VRTHRVZTE5NUo3ZEdWNkN1MlpoeFBnd0k2emRXZ21UWUpYYU9xN1BIaHVtOGpBYVBPRmRXeEpSb1Q4MDhjQmQyRC15Q1pEbEljNHVMQmpGWWVhY05xa0Q1eDRxbHhTZVdEN1B5aWpqT2NaWlJZY25ndmdoVldKTmFCc3JqQV94TTJ6eU1JYW0xYXVS?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-02T23:30:00.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN, Impairment Tembus Rp135 Triliun",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpucXpObm9lY1Y0WkRwQnVvaklJZk1GLVA2VncySGQtUWtKVDhjY2dqeFF4ZVo2ekkycmppMUhlY1pwVUd1LXhwcEIteTZjYUpOQ1lIb2xsR2FzY21wUU52OE1va19tV1FzVDlGNXhNZzBqQUpXeUNxcG5nMDF3UldTWXhwX20yakpZU1Y0N1N6YVpmYVNrejVCNURISDBxTm5TR1VMQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "title": "Bahlil Wanti-wanti Jangan Mau Dilobi Singapura soal Ekspor Listrik",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8735415/bahlil-wanti-wanti-jangan-mau-dilobi-singapura-soal-ekspor-listrik",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-02T22:55:00.000Z"
+    },
+    {
+      "title": "Indonesia bidik investasi energi terbarukan dari China",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaHR4d1A3NUVCT3NKaFAwSm5ucTNUZjVJVUZLYTFiREtOclZ2RDNHMDh4aTJkWEtSWFJseWZsdWpHS05URW1GSWRES196cXZtR1IxdGlwa0xkTWFqdWFkeHp3T25EU3NxN1FORTFMR1plZ2x6NVNYVzh3Q2d5UWNqWVl0Q3VoemNvTkVQaXdfbXVRWHVnbDZfdUllbE_SAZ8BQVVfeXFMT0ZLcmxWNWZ2SE5BWW43N2ZYU1dFMXExZ3dyWHJDTUlwMzFNMEJCQmZTTFY0RGdVcjk5dFNoODVVcUtYbHg3TU1MZkRkYVZPbjRpWXlhbHdUX29DUnZOcmRLRU42TkozYmZGdDN3d1FEWDhoT1NfRzA3T3dUNXBFMm5jVDBLYUZraE5IeU9KSERwM191TnQ0d2JVbHVXc2lr?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-02T09:22:14.000Z"
+    },
+    {
+      "title": "Syarat buat Singapura Jika Tetap Pengin Impor Listrik RI",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8735510/syarat-buat-singapura-jika-tetap-pengin-impor-listrik-ri",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-02T14:46:57.000Z"
+    },
+    {
+      "title": "Aset Danantara Investment Parkir Rp 123 T di Deposito, Terbesar di Bank Mandiri",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/bursa/6ae930fbb112f/aset-danantara-investment-parkir-rp-123-t-di-deposito-terbesar-di-bank-mandiri",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-03T00:55:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Impairment restrukturisasi BUMN tembus Rp135 triliun, Danantara buka seleksi PSEL Tahap 3",
+      "occurrences": 29,
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-11-02",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "Mistral Large 4 rilis dengan 1 triliun parameter dan arsitektur multimodal MoE asli",
+      "occurrences": 28,
+      "firstSeen": "2026-10-04",
+      "lastSeen": "2026-11-02",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN restores Kalimantan 150 kV line via emergency tower after failure, exposing grid fragility ahead of industrial load growth",
+      "occurrences": 28,
+      "firstSeen": "2026-10-04",
+      "lastSeen": "2026-11-02",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "Nvidia pertimbangkan jadi cosigner pembiayaan pusat data Nscale di West Virginia",
+      "occurrences": 21,
+      "firstSeen": "2026-10-04",
+      "lastSeen": "2026-11-01",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN UIT JBM siapkan penguatan transmisi 500 kV Jawa Timur untuk antisipasi pertumbuhan industri",
+      "occurrences": 14,
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-10-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 452,
+    "poolSize": 110,
+    "generatedAt": "2026-11-03T01:47:21.732Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
