@@ -1,0 +1,362 @@
+{
+  "slug": "2026-11-06",
+  "date": "2026-11-06",
+  "lang": "en",
+  "title": "Blue Sweep Hits AI Stocks; Danantara Pressed on Governance; PLN Nuclear Math",
+  "dek": "A US Democratic midterm sweep triggers $2.5 trillion in Nasdaq losses concentrated in AI infrastructure names, while Indonesian governance and energy signals compound the week's decision pressure.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "A Democratic sweep in US midterm elections wiped $2.5 trillion from Nasdaq in a single session, with AI infrastructure and semiconductor stocks leading the decline as investors priced in potential data-center regulation. Simultaneously, a Bloomberg report of a mystery seller dumping $500 million in data-center loans signals stress in the private credit market funding AI build-out. In Indonesia, an observer publicly called for Pandu Sjahrir to resign from Danantara following OJK sanctions on Supra Sekuritas, putting governance pressure on the sovereign fund at a moment when it is planning 12 urban development projects. On the energy side, PLN published its nuclear cost calculations as a low-carbon alternative, extending a structural thread on grid investment choices, while IESR's two-year review of the Prabowo energy agenda found implementation lagging behind stated targets ahead of COP31.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Nasdaq",
+        "Bloomberg"
+      ],
+      "headline": "Democratic midterm sweep erases $2.5 trillion from Nasdaq as AI and data-center stocks collapse",
+      "whatChanged": "A Democratic wave in US midterm elections sent Nasdaq down more than 5 percent, S&P 500 down more than 4 percent, and Dow Jones down more than 3 percent in a single session on 5 November 2026. Semiconductor and AI-linked data-center equities led the selloff as investors priced in the likelihood of new regulatory constraints on data-center construction and AI infrastructure spending under a divided or Democratic-leaning Congress.",
+      "whyItMatters": "The selloff is not a routine correction; it reprices the assumption that AI infrastructure capex would remain politically unconstrained. Potential data-center curbs would slow the capacity additions that frontier-model training schedules depend on, compressing the timeline for hyperscalers to secure power, land, and permits before any new rules take effect.",
+      "secondOrder": "Investors who financed data-center expansion through private credit are now exposed on two fronts: equity devaluation reduces sponsor collateral, and regulatory risk lengthens payback periods. The Bloomberg report of a mystery seller seeking to offload $500 million in data-center loans the same day suggests the private credit market is reading the political shift as a credit event, not merely an equity repricing. If that trade clears at a discount, it sets a mark that forces revaluation across the loan book.",
+      "action": "Review any data-center loan or equity exposure this week through the lens of US regulatory scenario analysis: quantify the revenue impact of a 12- to 24-month permitting freeze on planned capacity, and stress-test sponsor covenant compliance under that scenario before year-end portfolio reviews.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTDY0cGRjTjljSHduYzRtS25xNnRmNDRuSDY4ZXo3SllXZTd5Mm80dURlZXEzeVAzbUJKUVZDLVZ1RE04UGp2SUlIQWNMWXIyV0tMTVpJbjRiVi15eHRCYVU1azltVWNIVUgzT2JoejcxOVJBdFhBOTJxY3MyZmlwNmRpQmtDZmtwTWhxUW5qR0lzZjRYVTlCSHhiVlpZQWZYQURGZWxlNnV6Z08zNzMwdm5JMjF6V3g4cVU4VDRNZk8wUlNB?oc=5",
+        "https://katadata.co.id/finansial/bursa/6aed162e45789/wall-street-ambruk-saham-ai-rontok-dihantam-kekhawatiran-investasi-pusat-data"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc3l0QXB3MW5hNE1uQUpzcUloU0NuckhSWG9ZWUFDeVdLYVp0MmlVR25Lb0c0bnhlbUdzZ09TYzh2RnkxTnJnZ1d6WkFkWkw3TEMzZUlDaWJsb0xCSXBiMXhDTEZyVkhOVzJpR3prSkk1SEQ1bWcwZXN1RnUzNFlRMFNOVDhGZUNiXzVqRGMwVTVybmRkbUZiVWthVGc4aDNHTXMzMDF4SXJyODdFb0syUWRJWWFVNVEzRHlYd2tVOXQ2SzlVVWE0SA?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-10-12",
+        "spanDays": 25
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "OJK",
+        "Supra Sekuritas",
+        "Pandu Sjahrir"
+      ],
+      "headline": "Observers publicly demand Pandu Sjahrir resign from Danantara after OJK sanctions hit Supra Sekuritas",
+      "whatChanged": "Kontan.co.id reported on 5 November 2026 that observers are publicly calling for Pandu Sjahrir to step down from Danantara following the Financial Services Authority (OJK) issuing sanctions against Supra Sekuritas, a brokerage with which Pandu Sjahrir is associated. The demand adds named governance pressure to the sovereign investment vehicle at a moment when CNBC Indonesia separately reports Danantara is planning to transform 12 regions of Indonesia into modern cities.",
+      "whyItMatters": "This continues the structural danantara-bumn-karya-restructuring thread, now 30 occurrences deep since October 7. The accumulation implies that Danantara's governance credibility is becoming a material constraint on its ability to raise and deploy capital. A named resignation demand, rooted in a securities regulator's enforcement action, is a qualitatively different pressure than general restructuring criticism: it creates a reputational liability that foreign co-investors must price.",
+      "secondOrder": "Danantara's 12-city urban development plan requires substantial external financing and likely foreign partnership. Governance controversy at the leadership level, particularly one linked to a regulated securities entity, gives prospective co-investors grounds to pause due diligence or demand enhanced governance covenants. If Pandu Sjahrir does not resign and OJK does not escalate, the precedent weakens OJK's enforcement signal for future BUMN-adjacent transactions.",
+      "action": "Any institution in due diligence with Danantara should formally document the OJK-Supra Sekuritas enforcement action and the public resignation demand in its governance risk register this week, and request Danantara's written response before advancing term-sheet discussions.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkNOSktNeXUzclNUY3lvNUo0MEdGMWo3Q3g2bm9CaGVMWVhHY2o2QTNGYTQ0VzduSE01U1BRQTlSbEdWdTlHUXZ6bFdkNFEtNGdaNm5Mb09MajRvS0k0bkRNa0JzOU9RRXU0dHNKbGJQUnh3UTlzNEFwR0ZheFBFNnp5anp5b1ZTZVViWFlRenpXSWxOTzFsb25fSWg4RVFEUUxxVVkyTHF0V3phV3pqanNyUi13ZXlRRUVQc3VB0gG2AUFVX3lxTE1SRkM2TXRYQmo0MmhMRklQTXNibGlROUpOM1dtWWhmYnpEWEhtanZDcFE4eloza1plZE5DMmRwVkp3WDZOa1VQMlB4cTJMUU5iMnZsbDAxNWNHQ2lDNXdHSHVqLTdZUGdSQ2xSN1JMaUNUblBFQnlINDJzSlhHdl92b1loclY3LTBJRW5yV1k1Sm1aa2M1N18tUTdDRkFlY09TSjJpMzluSC0zS0Q1b2Y5RU1LTUl3?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWhuTFptWktNS0NoazZ3UWdnVklRNWRYU01EdWtMQlVmR29fdW5UWmRBdzFKS3Y0MWNRX3ZKOUplR0JOZEdzVVF2WkhMRjZuRHlFRms5YXlpRUpTdVBtNXpVNzktcHFlNkJlQ0E4bmp1d0NLRng4RUg3NXZ2Z2tDZDJqbVI0SnVNdVFPU3FZYkpPYm9kanV1WXhzeG05S3VDSmRkbUxtVjYwclF6cC1wdjBjSW5YSnBiSGNvNlFCeG1FS0VHLUHSAcsBQVVfeXFMTjFZbTRuYnA5U3NJcFhJLVQ1VG02V1dTTGZPNVBTLUJKMkhSSHRPcXRMUGdqUVdNbXlzR3lUc05TSno4cUZOLWpFZ0NXMlNNbkFWdWxQM2R0NzE5NXRXQW8yNDFwSjFXaXJtaENxZXVtNTVMR1YtbGdNNHFlVmxSX3RnS1BUcXhyNl9jOGp1WW4zVGZVQkk5N0stSm9Dc25lS1pPclNqeDJjUmQwYXRKWDFIbzFrd0RtdGFUTVJPSFNXa3FBeFhpT1k2NGc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-07",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Bisnis.com",
+        "Kementerian ESDM"
+      ],
+      "headline": "PLN publishes nuclear cost calculations as low-carbon alternative, extending grid investment debate",
+      "whatChanged": "Bisnis.com reported on 5 November 2026 that PLN has published its internal cost calculations treating nuclear generation as a low-carbon alternative to coal. The analysis positions nuclear as a candidate within PLN's generation mix planning, adding a quantitative basis to what had previously been a policy-level discussion. Separately, Kompas.com reported the same day that PLN explained why electricity bills are rising despite unchanged tariffs, attributing increases to consumption behavior and metering factors rather than rate changes.",
+      "whyItMatters": "This continues the pln-grid-investment thread, now 28 occurrences deep. PLN publishing its own nuclear cost numbers is a shift from advocacy to procurement-stage analysis: it signals that nuclear is moving from policy aspiration to a scenario that generation planners are actively modeling against gas and renewables. The tariff-hold explanation published the same day reinforces that PLN is absorbing cost pressure without revenue relief, making generation mix optimization financially urgent.",
+      "secondOrder": "If PLN's nuclear cost figures are shared with Kementerian ESDM and feed into the next RUPTL revision, they create a reference price that shapes how independent power producers and technology vendors bid into future tenders. A PLN-endorsed cost floor for nuclear also affects the relative economics of geothermal and large-scale solar, since all three compete for the same low-carbon allocation in the planning framework.",
+      "action": "Obtain PLN's published nuclear cost figures from the Bisnis.com report and compare them against IEA and IESR benchmarks for Southeast Asian nuclear development costs. Identify where PLN's assumptions on construction time, financing cost, and fuel price diverge from international ranges, as those gaps will determine whether the nuclear scenario survives RUPTL scrutiny.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQME0xdEtVd3BtNXhfeklraUtnX2gyemZTNG5tTkJVY3NTTDBtNHJ1dVE0S0hPODhIektJbmc0S1pzc0pXd1NQb0t3cmVqTTNnZjY1a1RNeDZUbk1LMkZicTAwbEhRMmUyYVJjMFJMeTBla2t3aldIVTNqRFJxODhtX2Jrc1hjV25GMkdxcGdOYTNJYTZBX1hlMTdVYVpoME1HakdoUWNmMUZXNXlmOEp5VGI1V0ZvX3hPUUt6LU1BRTFUS0FD?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNS0lkOGppWlZDY2dsWjI2U3hKQVlrWVQ5VXVkNlRTLXBUOGlNY1o3TVNBU3VBZ0tuOG14S2pHVUZqbnFxSk1RSTctVnhKQW50LWY4d3NzUjNVQVlwSndaQXppdGFGWXRjbGNwc1FuNXpYallFbWdGaWJSaUxSY2I2NlpPNEMtOHV5Rmd2RVZZSTM2WDNmZl9hU2NsTXJ3emVFWWZWcHZLd05pWTNubUJ3bF9Uek9ZYXFHSXBKZHVvcGJxaV9xaGfSAcYBQVVfeXFMTUdoQ1NULTA4WUJCb1hENEt0ZUZxcl9xWC1HT2JidUQydDlJU3dTSE0tRGgwb1dwUVJWekdnZHBnZHpUZjdFekVZeWtibEloTjA1alhVT0lEaEhSR2Z4NlpldWNzRDhLZGg1ckRTZ1QwMHJoUUVuQlBYTXBLbl83NHNRQjhzSmh2djdfTW5GZHJWa0FBaF9kRjliVXdJaGlWTHF2c0VLZVZnNTRTTERjMHRqd1FiTFoyeS1kVDdBT1ZaMGZoNDVR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-07",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "frontier-model-scientific-reasoning",
+      "entities": [
+        "OpenAI",
+        "GPT-6 Cyber"
+      ],
+      "headline": "OpenAI releases GPT-6 Cyber as a specialized cybersecurity agent trained for authorized vulnerability discovery",
+      "whatChanged": "OpenAI published GPT-6 Cyber on 5 November 2026, describing it as a cybersecurity model designed to find exploitable vulnerabilities and develop fixes, with training specifically scoped to stay within authorized engagement boundaries. OpenAI simultaneously published a National Community Compact and Compute Campus Policy Blueprint, framing responsible AI infrastructure development as a policy offer to US localities.",
+      "whyItMatters": "This continues the frontier-model-scientific-reasoning thread. A specialized cybersecurity model from a frontier lab is not an incremental product update: it formalizes the category of domain-specific agents that operate with elevated access and narrow authorization constraints. The simultaneous publication of an infrastructure policy blueprint suggests OpenAI is anticipating regulatory scrutiny and moving to shape the terms before Congress acts, which is directly relevant given the same-day Democratic sweep.",
+      "secondOrder": "GPT-6 Cyber creates a procurement decision for enterprise security teams: whether to adopt a frontier-lab tool with broad capability but external data exposure, versus narrower in-house or vendor tools. For regulated sectors, the authorization-scoping claim will require independent verification before deployment, since the model's training objective and its runtime behavior under adversarial prompting are distinct questions. The policy blueprint, if adopted by any US municipality, sets a precedent that AI infrastructure developers can negotiate community benefits agreements to preempt local opposition.",
+      "action": "Security teams evaluating GPT-6 Cyber should this week define the authorization boundary test suite they would require before deployment: specifically, what constitutes evidence that the model reliably refuses out-of-scope targets under adversarial prompting, not merely in controlled demos.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/introducing-gpt-6-cyber",
+        "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "frontier-model-scientific-reasoning",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-08",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "COP31"
+      ],
+      "headline": "IESR two-year review finds Indonesia energy policy implementation lagging targets as COP31 opens",
+      "whatChanged": "IESR published its two-year assessment of energy policy under the Prabowo-Gibran administration on 3-4 November 2026, concluding that global geopolitical uncertainty has been a key challenge and that implementation is lagging behind stated energy transition targets. The assessment arrives four days before COP31 opens in Antalya on 9 November, where IESR separately warned that Indonesia risks arriving with targets alone rather than credible implementation plans.",
+      "whyItMatters": "IESR is a domestic specialist institution with direct access to Indonesian energy data, making this a higher-quality signal than foreign commentary. The two-year mark is a natural accountability checkpoint: it is early enough that course correction is possible but late enough that structural gaps are visible. The convergence of a domestic credibility gap with a COP31 deadline creates specific reputational risk for Indonesia in climate finance negotiations.",
+      "secondOrder": "Indonesia's ability to access concessional climate finance through mechanisms such as JETP and multilateral green bonds depends partly on demonstrating implementation progress. If COP31 negotiations produce new conditionality frameworks and Indonesia's negotiators arrive without evidence of delivery against existing commitments, it weakens the country's leverage on the financing terms it needs to close the grid investment gap that the pln-grid-investment thread has tracked for 28 consecutive entries.",
+      "action": "Before COP31 opens on 9 November, map the specific IESR-identified implementation gaps against Indonesia's existing JETP and ETM commitments, and identify which gaps, if disclosed formally, would trigger disbursement conditions or require renegotiation of financing tranches.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+        "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-10",
+        "spanDays": 27
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "COP31 opens in Antalya: monitor Indonesia's negotiating position on fossil fuel transition roadmap and any new conditionality attached to climate finance disbursements",
+      "dueDate": "2026-11-09"
+    },
+    {
+      "item": "Pandu Sjahrir response or Danantara board statement on OJK-Supra Sekuritas sanctions and resignation demand",
+      "dueDate": "2026-11-12"
+    },
+    {
+      "item": "US Congress: watch for data-center regulation bill introductions or committee hearings following Democratic midterm gains",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Bloomberg: track whether the $500 million data-center loan block trade clears and at what discount, as the clearing price sets a private-credit mark",
+      "dueDate": "2026-11-13"
+    },
+    {
+      "item": "PLN RUPTL revision timeline: confirm whether PLN's nuclear cost analysis is formally submitted to Kementerian ESDM for inclusion in next planning cycle",
+      "dueDate": "2026-12-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR: Menuju COP-31, Indonesia Tak Cukup Datang dengan Target Semata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-04T09:48:19.000Z"
+    },
+    {
+      "title": "Capaian Kebijakan Energi pada Dua Tahun Pemerintahan Prabowo-Gibran",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-04T04:51:16.000Z"
+    },
+    {
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-05T09:00:00.000Z"
+    },
+    {
+      "title": "Pembangkit Nuklir Jadi Alternatif Pembangkit Rendah Karbon, Ini Hitungan PLN",
+      "publisher": "Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQME0xdEtVd3BtNXhfeklraUtnX2gyemZTNG5tTkJVY3NTTDBtNHJ1dVE0S0hPODhIektJbmc0S1pzc0pXd1NQb0t3cmVqTTNnZjY1a1RNeDZUbk1LMkZicTAwbEhRMmUyYVJjMFJMeTBla2t3aldIVTNqRFJxODhtX2Jrc1hjV25GMkdxcGdOYTNJYTZBX1hlMTdVYVpoME1HakdoUWNmMUZXNXlmOEp5VGI1V0ZvX3hPUUt6LU1BRTFUS0FD?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T06:25:00.000Z"
+    },
+    {
+      "title": "Wall Street Ambruk, Saham AI Rontok Dihantam Kekhawatiran Investasi Pusat Data",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/bursa/6aed162e45789/wall-street-ambruk-saham-ai-rontok-dihantam-kekhawatiran-investasi-pusat-data",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-05T23:50:00.000Z"
+    },
+    {
+      "title": "Blue tsunami wipes out $2.5 trillion from Nasdaq, as investors fret about AI trade",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T23:19:28.000Z"
+    },
+    {
+      "title": "Danantara Mau Sulap 12 Wilayah RI Jadi Kota Modern, Ini Bocorannya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWhuTFptWktNS0NoazZ3UWdnVklRNWRYU01EdWtMQlVmR29fdW5UWmRBdzFKS3Y0MWNRX3ZKOUplR0JOZEdzVVF2WkhMRjZuRHlFRms5YXlpRUpTdVBtNXpVNzktcHFlNkJlQ0E4bmp1d0NLRng4RUg3NXZ2Z2tDZDJqbVI0SnVNdVFPU3FZYkpPYm9kanV1WXhzeG05S3VDSmRkbUxtVjYwclF6cC1wdjBjSW5YSnBiSGNvNlFCeG1FS0VHLUHSAcsBQVVfeXFMTjFZbTRuYnA5U3NJcFhJLVQ1VG02V1dTTGZPNVBTLUJKMkhSSHRPcXRMUGdqUVdNbXlzR3lUc05TSno4cUZOLWpFZ0NXMlNNbkFWdWxQM2R0NzE5NXRXQW8yNDFwSjFXaXJtaENxZXVtNTVMR1YtbGdNNHFlVmxSX3RnS1BUcXhyNl9jOGp1WW4zVGZVQkk5N0stSm9Dc25lS1pPclNqeDJjUmQwYXRKWDFIbzFrd0RtdGFUTVJPSFNXa3FBeFhpT1k2NGc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T11:18:58.000Z"
+    },
+    {
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-05T02:00:00.000Z"
+    },
+    {
+      "title": "Pengamat Desak Pandu Sjahrir Mundur dari Danantara Usai Sanksi OJK ke Supra Sekuritas",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkNOSktNeXUzclNUY3lvNUo0MEdGMWo3Q3g2bm9CaGVMWVhHY2o2QTNGYTQ0VzduSE01U1BRQTlSbEdWdTlHUXZ6bFdkNFEtNGdaNm5Mb09MajRvS0k0bkRNa0JzOU9RRXU0dHNKbGJQUnh3UTlzNEFwR0ZheFBFNnp5anp5b1ZTZVViWFlRenpXSWxOTzFsb25fSWg4RVFEUUxxVVkyTHF0V3phV3pqanNyUi13ZXlRRUVQc3VB0gG2AUFVX3lxTE1SRkM2TXRYQmo0MmhMRklQTXNibGlROUpOM1dtWWhmYnpEWEhtanZDcFE4eloza1plZE5DMmRwVkp3WDZOa1VQMlB4cTJMUU5iMnZsbDAxNWNHQ2lDNXdHSHVqLTdZUGdSQ2xSN1JMaUNUblBFQnlINDJzSlhHdl92b1loclY3LTBJRW5yV1k1Sm1aa2M1N18tUTdDRkFlY09TSjJpMzluSC0zS0Q1b2Y5RU1LTUl3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T10:56:53.000Z"
+    },
+    {
+      "title": "Mystery Seller Seeks to Dump $500 Million of Data Center Loans",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc3l0QXB3MW5hNE1uQUpzcUloU0NuckhSWG9ZWUFDeVdLYVp0MmlVR25Lb0c0bnhlbUdzZ09TYzh2RnkxTnJnZ1d6WkFkWkw3TEMzZUlDaWJsb0xCSXBiMXhDTEZyVkhOVzJpR3prSkk1SEQ1bWcwZXN1RnUzNFlRMFNOVDhGZUNiXzVqRGMwVTVybmRkbUZiVWthVGc4aDNHTXMzMDF4SXJyODdFb0syUWRJWWFVNVEzRHlYd2tVOXQ2SzlVVWE0SA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T18:52:30.000Z"
+    },
+    {
+      "title": "Tarif Listrik Tidak Naik, PLN Ungkap Penyebab Tagihan Membengkak dan Token Cepat Habis",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNS0lkOGppWlZDY2dsWjI2U3hKQVlrWVQ5VXVkNlRTLXBUOGlNY1o3TVNBU3VBZ0tuOG14S2pHVUZqbnFxSk1RSTctVnhKQW50LWY4d3NzUjNVQVlwSndaQXppdGFGWXRjbGNwc1FuNXpYallFbWdGaWJSaUxSY2I2NlpPNEMtOHV5Rmd2RVZZSTM2WDNmZl9hU2NsTXJ3emVFWWZWcHZLd05pWTNubUJ3bF9Uek9ZYXFHSXBKZHVvcGJxaV9xaGfSAcYBQVVfeXFMTUdoQ1NULTA4WUJCb1hENEt0ZUZxcl9xWC1HT2JidUQydDlJU3dTSE0tRGgwb1dwUVJWekdnZHBnZHpUZjdFekVZeWtibEloTjA1alhVT0lEaEhSR2Z4NlpldWNzRDhLZGg1ckRTZ1QwMHJoUUVuQlBYTXBLbl83NHNRQjhzSmh2djdfTW5GZHJWa0FBaF9kRjliVXdJaGlWTHF2c0VLZVZnNTRTTERjMHRqd1FiTFoyeS1kVDdBT1ZaMGZoNDVR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T02:30:00.000Z"
+    },
+    {
+      "title": "Companies most exposed to potential US data-center curbs after blue sweep",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTDY0cGRjTjljSHduYzRtS25xNnRmNDRuSDY4ZXo3SllXZTd5Mm80dURlZXEzeVAzbUJKUVZDLVZ1RE04UGp2SUlIQWNMWXIyV0tMTVpJbjRiVi15eHRCYVU1azltVWNIVUgzT2JoejcxOVJBdFhBOTJxY3MyZmlwNmRpQmtDZmtwTWhxUW5qR0lzZjRYVTlCSHhiVlpZQWZYQURGZWxlNnV6Z08zNzMwdm5JMjF6V3g4cVU4VDRNZk8wUlNB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T17:40:32.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara merger Manajer Investasi dan buka peluang payroll BUMN ke BSI",
+      "occurrences": 30,
+      "firstSeen": "2026-10-07",
+      "lastSeen": "2026-11-05",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Tarif listrik PLN ditahan November 2026, piutang berpotensi meningkat saat biaya naik",
+      "occurrences": 28,
+      "firstSeen": "2026-10-07",
+      "lastSeen": "2026-11-05",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "Anthropic menerbitkan kemajuan inferensi yang dapat dibuktikan untuk LLM berskala besar",
+      "occurrences": 27,
+      "firstSeen": "2026-10-08",
+      "lastSeen": "2026-11-05",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "PGEO kaji pasokan listrik panas bumi langsung ke pusat data, bypass grid PLN",
+      "occurrences": 20,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-05",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "Kementerian ESDM lantik Dirjen Ketenagalistrikan baru, bersamaan dengan padamnya PLTU Banjarsari Sumatra Selatan",
+      "occurrences": 13,
+      "firstSeen": "2026-10-07",
+      "lastSeen": "2026-11-04",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 442,
+    "poolSize": 110,
+    "generatedAt": "2026-11-06T00:09:40.137Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
