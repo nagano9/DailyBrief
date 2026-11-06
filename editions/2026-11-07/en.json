@@ -1,0 +1,313 @@
+{
+  "slug": "2026-11-07",
+  "date": "2026-11-07",
+  "lang": "en",
+  "title": "DSI Export Gate, PLN Gas Pipeline, ECB Data-Centre Review, Sodium-Ion Parity, IEA Renewables",
+  "dek": "Five developments that each shift a planning assumption: Indonesia's commodity export architecture, PLN's gas-heavy capacity mix, European banking exposure to AI infrastructure, battery storage cost curves, and the security-driven renewables acceleration.",
+  "domains": [
+    "corporate",
+    "energy"
+  ],
+  "summary": "PT Danantara Sumberdaya Indonesia is finalising a single-gate export fee for coal, CPO, and ferro-alloys effective 1 January 2027, pending approval from Danantara and BP BUMN, which concentrates commodity revenue control under the sovereign holding structure. PLN's published target of 6,529 MW of additional gas capacity by 2034 reveals a fossil-heavy near-term build that sits in tension with Indonesia's COP31 positioning. The European Central Bank is considering a review of banks' data-centre lending as AI infrastructure risk moves from technology balance sheets into the regulated financial system. Sodium-ion batteries have crossed 70 GWh in global supply agreements and are approaching LFP cell-level cost parity, creating a credible alternative procurement path for grid-scale storage. The IEA's latest report shows energy-security anxiety, not climate policy, is now the primary driver of renewables deployment across a broadening country base, which reframes the investment thesis for transition assets.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "PT Danantara Sumberdaya Indonesia",
+        "Danantara",
+        "BP BUMN",
+        "Kemenko Perekonomian"
+      ],
+      "headline": "DSI finalises single-gate export fee for three strategic commodities, awaiting Danantara and BP BUMN sign-off before 1 January 2027 launch",
+      "whatChanged": "PT Danantara Sumberdaya Indonesia (DSI) has disclosed the mechanism for routing exports of coal, CPO, and ferro-alloys through a single state intermediary starting 1 January 2027. The fee structure is in final drafting, contingent on approval from Danantara and BP BUMN. NPI and feronikel are included under the same HS-code classification. Business associations have conditionally accepted the scheme, pending clarity on cost.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, which is now structural after 30 iterations since October 2026. The DSI gate concentrates revenue extraction from Indonesia's three highest-value export commodity streams inside the Danantara holding architecture, giving the sovereign fund an ongoing cash-flow mechanism rather than a one-off asset transfer. The scheme is no longer a proposal; it has a live implementation date and an identified approval chain.",
+      "secondOrder": "If DSI captures a fee on every export transaction, private smelters and commodity traders face a permanent cost line that is set by the state and subject to revision without market recourse. The approval chain, Danantara then BP BUMN, means that two governance layers with different political principals must align before January; a delay or fee dispute between those two bodies would leave the mechanism legally uncertain on its stated start date, creating execution risk that hedging desks and trade-finance banks have not yet priced.",
+      "action": "Map the DSI fee as a new line item in commodity export cost models for coal, CPO, NPI, feronikel, and ferro-alloys. Request the draft fee schedule from DSI or Kemenko Perekonomian this week; the sosialisasi sessions suggest it is in circulation. Flag the Danantara-BP BUMN approval dependency as a key risk date in January 2027 contract negotiations.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZDN0NWJheFotRE42aDhmeU5IbjVoUnMxeEJuZm9tOEQzcjFwd2V6SXJRTWZRejV5dHJjX016cV9VUzFOZjZ0MUZqU01oZFI3eGJnbHJVNmdtMW9Fb1pna1pOMHNpSG0tTTVYQlFqeUM1RTE2U2hjOXJaTExkSmdBeERKZ2E0WjNaT2lQb2hYRmhBbjNoVkREZkZTQS1nOE4yWGUxLVpSXzRIb3JsYkVKbm0tZmo3SlY5QWlIcV9fd0NNb0E?oc=5",
+        "https://www.cnbcindonesia.com/news/20261106173602-4-783085/bos-dsi-beberkan-mekanisme-ekspor-3-sda-strategis-mulai-1-januari-2027",
+        "https://katadata.co.id/berita/nasional/6aedfa71ab5fe/ekspor-npi-dan-feronikel-bakal-lewat-pengawasan-dsi-ini-alasannya",
+        "https://katadata.co.id/berita/industri/6aedf3439d45f/pengusaha-nikel-sambut-skema-ekspor-satu-pintu-tapi-tunggu-kepastian-biaya-dsi",
+        "https://www.cnbcindonesia.com/news/20261106202049-4-783124/ekspor-batu-bara-cpo-ferro-alloy-lewat-dsi-ini-reaksi-pengusaha"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-08",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "pv magazine"
+      ],
+      "headline": "Sodium-ion batteries cross 70 GWh in supply agreements and approach LFP cell-level cost parity, opening a second procurement path for grid storage",
+      "whatChanged": "PV Magazine, citing industry data, reports that sodium-ion battery supply agreements worldwide have exceeded 70 GWh and that cell-level costs are approaching parity with LFP technology. Despite higher upfront system costs, the report identifies conditions under which sodium-ion offers a competitive total-cost case.",
+      "whyItMatters": "LFP has been treated as the default chemistry for utility-scale storage procurement for three years. A credible second chemistry at or near cost parity breaks the single-supplier dependency on Chinese LFP producers, which matters for buyers facing trade policy risk or seeking supply-chain diversification. For Indonesia, which is planning large-scale storage to firm variable renewables, sodium-ion could be specified in future tenders without a cost penalty.",
+      "secondOrder": "Sodium-ion does not use lithium or cobalt, which means its supply chain bypasses the mineral chokepoints that have historically given China pricing leverage over LFP. If sodium-ion reaches volume manufacturing, it removes one of the structural arguments for Indonesia retaining raw-material export restrictions on lithium precursors, since the downstream value of those materials diminishes in a world where the dominant storage chemistry no longer requires them.",
+      "action": "In any grid-scale storage procurement or tender specification drafted in the next quarter, include sodium-ion as an eligible technology alongside LFP. Request levelised cost of storage comparisons from at least one sodium-ion supplier with 70-GWh-class supply agreement credibility, to establish whether the cell-parity claim translates to system-level parity at Indonesian project sizes.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 13,
+        "firstSeen": "2026-10-10",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IEA",
+        "IESR"
+      ],
+      "headline": "IEA finds energy-security anxiety, not climate policy, is now the primary driver of faster renewables deployment across a widening set of countries",
+      "whatChanged": "The International Energy Agency published a report on 6 November 2026 stating that energy security concerns are spurring faster renewables growth across a widening constellation of countries. The report identifies this security motive as distinct from, and currently stronger than, climate policy incentives as a deployment driver.",
+      "whyItMatters": "The pln-transmisi-investasi thread has been structural since October 2026. The IEA finding reframes the investment and policy justification for renewable energy: projects that have been framed as climate commitments can now be repackaged as energy-security expenditure, which accesses different budget lines, different credit facilities, and different political coalitions. For Indonesia, where energy-security language around the Hormuz crisis is already present in domestic reporting, this framing is immediately available.",
+      "secondOrder": "If the dominant procurement rationale shifts from climate to security, the multilateral concessional finance that has been conditioned on emissions metrics, such as JETP and ETM instruments, loses relative attractiveness compared to bilateral defence-linked or strategic-reserve financing. Countries that have been slow to access climate finance because of conditionality may move faster under security framing, compressing the timeline in which concessional lenders can deploy capital.",
+      "action": "Reframe any stalled renewable energy proposal in Indonesia that has been categorised as a climate project: assess whether it qualifies as energy-security infrastructure under the government's strategic reserve or national resilience frameworks. This reframing may unlock budget or financing that climate-labelled projects cannot access, particularly given IESR's finding that Indonesia's climate policy implementation is lagging.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaVpXYTNQUlc2bXhEZ3kxT2NCT0VaY25KVGtMUE9keHVYOWd6cHBONk5JRlhrU2RyTHNSM3lpbWptei1UY2w1NjVhdUI3NTdmVUpEek1WYkh3N0dvbWFZcVYwN0g1bERxOF9veGI2QWY1R29lbC1vckZiSmNIT2hpYnRqUk1JVlo0SzNQazJhcW53aUQybnR6dlVfbkVrNmhETnQ1NXptZXZqLTRWeHlpVWdYTU9MYWZfR0FJbTZVYlk4Zw?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/",
+        "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 13,
+        "firstSeen": "2026-10-08",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Kontan",
+        "IESR",
+        "Suroso Isnandar"
+      ],
+      "headline": "PLN targets 6,529 MW of new gas capacity by 2034, deepening fossil lock-in as COP31 opens in Antalya",
+      "whatChanged": "PLN has published a target to add 6,529 MW of gas-fired generation capacity through 2034, according to Kontan reporting from PLN's own planning figures. This sits alongside PLN's existing nuclear cost calculations and the new Direktur Utama Suroso Isnandar, who took office on 14 October 2026 replacing Darmawan Prasodjo.",
+      "whyItMatters": "The pln-grid-investment theme is structural after 28 iterations. A 6,529 MW gas pipeline extending to 2034 means PLN is embedding fossil fuel capacity commitments that will operate well past Indonesia's stated 2060 net-zero target. COP31 opened in Antalya on 9 November 2026, the same week PLN's gas numbers became public, which makes this a live negotiating liability for Indonesia's delegation.",
+      "secondOrder": "Gas capacity additions of this scale require long-term fuel supply contracts, typically 15 to 20 years, which will be signed by PLN or its offtakers in 2027 and 2028. Those contracts will structurally prevent early retirement of the plants, because termination penalties would exceed any carbon pricing benefit available under current Indonesian policy. IESR's two-year review already found policy implementation lagging targets; the gas pipeline figure now gives that finding a specific quantified form.",
+      "action": "Cross-reference the 6,529 MW gas target against PLN's RUPTL 2025-2034 chapter on new-build timelines to identify which plants are already in procurement versus planning. Assess whether any of these plants could be re-specified as hydrogen-ready or dual-fuel at contract stage, since that is the only mechanism that preserves optionality without breaking the investment case.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZmo4b0RyRFg3TGhZcUlQcG1iN0YxcHk1clVOZXZIZnZlRDBndTVoRm1IeWFtVmZKUGp4Ukd5cUwtWlh6VjFSNzExY0NXZGtOU0tsTGEwWVNlcEF3b2NVWmtZTkxQbFhGc1pCSlhzMG1OYmxMY3pETFl4dEJTSnMycndSc3VKUDQ3Rm1oWnY0RlJibmRuV08yMWYzbUozeTQ1aGRZaQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+        "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-08",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "DSI fee schedule publication and Danantara-BP BUMN approval confirmation ahead of 1 January 2027 implementation date",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "ECB formal consultation or thematic review announcement on data-centre lending exposure",
+      "dueDate": "2027-02-28"
+    },
+    {
+      "item": "PLN RUPTL 2025-2034 chapter-level detail on gas capacity procurement timelines and contract awards",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "COP31 Antalya outcome text on fossil fuel phase-down language and Indonesia's NDC commitments, given PLN gas pipeline disclosure",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Sodium-ion battery system-level cost data as 70 GWh supply agreements move toward delivery and commissioning",
+      "dueDate": "2027-06-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sodium-ion batteries approach cost parity with LFP, with 70 GWh covered by supply agreements",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-06T12:34:37.000Z"
+    },
+    {
+      "title": "IESR: Menuju COP-31, Indonesia Tak Cukup Datang dengan Target Semata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-04T09:48:19.000Z"
+    },
+    {
+      "title": "Energy security concerns spur faster renewables growth across a widening constellation of countries - IEA",
+      "publisher": "IEA - International Energy Agency",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaVpXYTNQUlc2bXhEZ3kxT2NCT0VaY25KVGtMUE9keHVYOWd6cHBONk5JRlhrU2RyTHNSM3lpbWptei1UY2w1NjVhdUI3NTdmVUpEek1WYkh3N0dvbWFZcVYwN0g1bERxOF9veGI2QWY1R29lbC1vckZiSmNIT2hpYnRqUk1JVlo0SzNQazJhcW53aUQybnR6dlVfbkVrNmhETnQ1NXptZXZqLTRWeHlpVWdYTU9MYWZfR0FJbTZVYlk4Zw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-06T05:00:00.000Z"
+    },
+    {
+      "title": "PLN Targetkan Tambahan Kapasitas Pembangkit Gas 6.529 MW hingga 2034",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZmo4b0RyRFg3TGhZcUlQcG1iN0YxcHk1clVOZXZIZnZlRDBndTVoRm1IeWFtVmZKUGp4Ukd5cUwtWlh6VjFSNzExY0NXZGtOU0tsTGEwWVNlcEF3b2NVWmtZTkxQbFhGc1pCSlhzMG1OYmxMY3pETFl4dEJTSnMycndSc3VKUDQ3Rm1oWnY0RlJibmRuV08yMWYzbUozeTQ1aGRZaQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T06:16:43.000Z"
+    },
+    {
+      "title": "Ekspor NPI dan Feronikel Bakal Lewat Pengawasan DSI, Ini Alasannya",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/berita/nasional/6aedfa71ab5fe/ekspor-npi-dan-feronikel-bakal-lewat-pengawasan-dsi-ini-alasannya",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-06T16:04:00.000Z"
+    },
+    {
+      "title": "Pengusaha Nikel Sambut Skema Ekspor Satu Pintu, Tapi Tunggu Kepastian Biaya DSI",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/berita/industri/6aedf3439d45f/pengusaha-nikel-sambut-skema-ekspor-satu-pintu-tapi-tunggu-kepastian-biaya-dsi",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-06T15:33:00.000Z"
+    },
+    {
+      "title": "Capaian Kebijakan Energi pada Dua Tahun Pemerintahan Prabowo-Gibran",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-03T04:51:16.000Z"
+    },
+    {
+      "title": "Ekspor Batu Bara, CPO-Ferro Alloy Lewat DSI, Ini Reaksi Pengusaha",
+      "publisher": "CNBC Indonesia",
+      "url": "https://www.cnbcindonesia.com/news/20261106202049-4-783124/ekspor-batu-bara-cpo-ferro-alloy-lewat-dsi-ini-reaksi-pengusaha",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-06T14:05:05.000Z"
+    },
+    {
+      "title": "DSI Finalisasi Biaya Ekspor Satu Pintu, Tunggu Restu Danantara dan BP BUMN - Bisnis.com",
+      "publisher": "Bisnis.com - Market",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZDN0NWJheFotRE42aDhmeU5IbjVoUnMxeEJuZm9tOEQzcjFwd2V6SXJRTWZRejV5dHJjX016cV9VUzFOZjZ0MUZqU01oZFI3eGJnbHJVNmdtMW9Fb1pna1pOMHNpSG0tTTVYQlFqeUM1RTE2U2hjOXJaTExkSmdBeERKZ2E0WjNaT2lQb2hYRmhBbjNoVkREZkZTQS1nOE4yWGUxLVpSXzRIb3JsYkVKbm0tZmo3SlY5QWlIcV9fd0NNb0E?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T12:35:11.000Z"
+    },
+    {
+      "title": "Bos DSI Beberkan Mekanisme Ekspor 3 SDA Strategis Mulai 1 Januari 2027",
+      "publisher": "CNBC Indonesia",
+      "url": "https://www.cnbcindonesia.com/news/20261106173602-4-783085/bos-dsi-beberkan-mekanisme-ekspor-3-sda-strategis-mulai-1-januari-2027",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-06T13:50:05.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Observers publicly demand Pandu Sjahrir resign from Danantara after OJK sanctions hit Supra Sekuritas",
+      "occurrences": 30,
+      "firstSeen": "2026-10-08",
+      "lastSeen": "2026-11-06",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "OpenAI rilis GPT-6 Cyber: model frontier spesialis keamanan siber dengan batasan authorized scope",
+      "occurrences": 28,
+      "firstSeen": "2026-10-08",
+      "lastSeen": "2026-11-06",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN publishes nuclear cost calculations as low-carbon alternative, extending grid investment debate",
+      "occurrences": 28,
+      "firstSeen": "2026-10-08",
+      "lastSeen": "2026-11-06",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Penjual misterius lepas 500 juta dolar pinjaman pusat data di pasar sekunder",
+      "occurrences": 21,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-06",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR two-year review finds Indonesia energy policy implementation lagging targets as COP31 opens",
+      "occurrences": 12,
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-11-06",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 414,
+    "poolSize": 110,
+    "generatedAt": "2026-11-06T23:32:33.604Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
