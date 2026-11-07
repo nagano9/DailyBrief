@@ -1,0 +1,386 @@
+{
+  "slug": "2026-11-08",
+  "date": "2026-11-08",
+  "lang": "en",
+  "title": "Danantara Export Gate, Google Wyoming, AI Safety Gains, IEA Renewables Pivot",
+  "dek": "Four structural shifts across corporate governance, AI infrastructure, energy security, and regulatory risk converge on decisions that institutional actors must reprice this week.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Danantara will route Indonesian coal and palm oil exports through a single state intermediary from 2027, with a subsidiary setting benchmark fair-value prices, turning a governance reform into a commodity price-setting apparatus. Google has absorbed Crusoe's troubled Wyoming data centre, committing $17 billion to a site that could not sustain its original operator, confirming that frontier AI infrastructure is now a project-finance asset class requiring sponsor-level underwriting. The IEA's latest global renewables report shows energy-security anxiety, not climate policy, is the primary driver of faster deployment across a widening country set, reframing Indonesia's own solar-target funding gap as a geopolitical hedge problem rather than a green-finance problem. AI safety advocates spent $110 million in U.S. midterms and gained seats, raising the near-term probability of binding federal AI rules. Claude Code's 'Don't Ask Again' feature has caused credentials to appear in 1,122 public GitHub repositories, creating a live enterprise security exposure for every organisation running agentic coding workflows.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Danantara Sumberdaya Indonesia"
+      ],
+      "headline": "Danantara to become mandatory intermediary for Indonesian coal and palm oil exports from 2027, with subsidiary setting fair-value benchmark prices",
+      "whatChanged": "Danantara Sumberdaya Indonesia, a Danantara subsidiary, will serve as the single export gateway for coal and palm oil starting 2027. The subsidiary will set benchmark fair-value prices for these commodities; individual companies retain the right to negotiate final transaction prices but must route exports through this entity. The mechanism was confirmed across multiple Indonesian outlets on 7 November 2026.",
+      "whyItMatters": "This continues a 30-day structural theme at high frequency. The reform moves Danantara beyond a passive sovereign fund role into an active pricing and routing function over two of Indonesia's highest-value commodity streams. Any foreign buyer of Indonesian coal or palm oil now faces a state-controlled intermediary at the transaction layer, not just at the regulatory layer.",
+      "secondOrder": "Fair-value benchmark pricing by a state entity creates a de facto floor or ceiling that private producers must reference in every contract. If benchmarks diverge from spot markets, producers face margin compression or regulatory arbitrage pressure. International offtakers, particularly Japanese and Korean utilities dependent on Indonesian coal, will need to renegotiate counterparty structures because the legal entity on the other side of the trade is changing.",
+      "action": "Any institution holding Indonesian coal or palm oil offtake contracts expiring after January 2027 should audit counterparty clauses this week to determine whether a mandatory Danantara intermediary constitutes a novation event or a force majeure trigger under existing agreements.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxONTVjdUREeDVSYzVUYjlRMXhuU3lSdDd4OVhORU81LXd0SDFRYTRsWThHM3RHLWE4d0RFdndLZzdYOW5Jd3poRFZqU1dnTnNUQi1MTFZLWlB5c1YyNUJMbUZhMWxBTmJkRHN5djh5SXJLZHFlYWRIbEttOUh2T3g3X0FXUEhRSDJTdXFBYkQ3NS1mcjJfY3ZQVlZlMW5MdDJkVjZNWE5zUlVsakJpWkNhSjluNjMxeV9ucDhIUzhfb0Zwcm5fNXZF?oc=5",
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSzdEZUwtTFN2TjJWa0ZIX2NlbnlwV3pCRV9maWtYOHI4TndtSi0zTjBxYlRXZC1teHlyVF9xU1pZa0w1OVBuVFdpVDNXRFBHMXVTSjBOOS1KOERHZ0Nkb256WkdWYmN1N05MdHdlRnQ2WDktaUJ5Ni1OYXg3S2ltaTZ4RVl1bkIzZ2w1bTFNWUtqS0R1UmpoSFFhRmxUREphdjAweFdldnlUT3p0UnpqN0ZZLU9fb1VCTUxuQkNZOWt0cHpDM2FuZWlWb2tKTGc?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuZGJVWkdLUHJfN2ptaG1uQzJSVkxHVEFRX1U2bDJldE5wbE9qN3Z1Y3JUMnd4WFVRSUxqMlZFNjh0dHlDLXZNeGx2T2FnT2FFZjBR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-09",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Google",
+        "Crusoe",
+        "Bloomberg",
+        "TechCrunch"
+      ],
+      "headline": "Google acquires Crusoe's Wyoming data centre and commits $17 billion, confirming AI infrastructure as a project-finance asset class",
+      "whatChanged": "Google has taken over the Wyoming data centre project that Crusoe had developed and pitched to hyperscalers. Bloomberg reported a $17 billion capital commitment from Google to the site on 5 November; TechCrunch and Bloomberg separately confirmed the sale on 6-7 November. Crusoe's inability to sustain the project transferred the site to a hyperscaler sponsor with the balance sheet to carry it.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power theme, now at structural frequency. The transaction confirms the pattern identified in that archive thread: AI data-centre projects require sponsor-grade credit capacity, power commitments, and long-term offtake guarantees that mid-tier developers cannot independently provide. Google stepping in as acquirer rather than tenant signals that the most capital-intensive AI infrastructure sites will consolidate toward hyperscalers acting as both developer and operator.",
+      "secondOrder": "The Crusoe-to-Google transfer establishes a precedent that undercapitalised AI data-centre developers who secure land, permits, and grid interconnect become acquisition targets rather than independent operators. This compresses the independent developer pathway and may accelerate hyperscaler land-banking strategies in regions with stranded power capacity. Lenders and equity sponsors evaluating mid-tier AI infrastructure projects should now price in a higher probability that the original sponsor exits before operations.",
+      "action": "Reframe any AI data-centre investment thesis this week using a project-finance sponsor matrix: identify who holds the balance sheet behind the developer, who the power offtaker is, and whether a hyperscaler anchor tenant or acquirer is implicit in the exit scenario. Projects without that anchor should be repriced for elevated sponsor-exit risk.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOTZaSVJmRTQ3WWYwN3NtZktMaDFicXkxaWd2akk4QmNKQkMtY1RrclR5aUdENEJpNDdFMzJxRTlhQlhvQ2o0MjZicDBrS1p6eFJYWFoxci15b3BNQXdCcE5sMzJRdElmMmt6NkhBUkl1bm16OEQ1dHB0eUJhcWNIc0FzZUI0bzAyX1B4RXlaaS1EcEVheGs0QldR?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0lvVVMxU2hRYkFBOTA1N01MRmVkOGdPLS13NVVjZlNqWG9hZlpHdHlIT2hvUzMydjk2QVRKWHRvUzdxQ29nVE5XV1RwdWpZVTR0bHhYVjJPVFpDN3k3U01TMi1ibFhiNnEyd2s2SFdzUWpBM2pkV3lSWDc4OVhzSzJvaGNQSlFVbnJOczRTMDVnV1psZ3dLOFEtLXBlTDRlRjl5dVZxOUNkaS1DMjU2bTd3?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNE1UblF4V2JrTFJGbnZvOWxFaURSZ3d6Y1VFRjcwWHVCcXlMQm94STFoeF95ekVHclBNbWtURXppSW1iV2NpWVFJNXdwZlU5MFd2UjlOWEhubnIyX2t5N1hhUU12MWh1QVJHZDljSjdOQk5EMHZNeWRMQ2tWUGhqdFpqR1JmMTBoUjdtZFpSSlFWU3FpaElDQV9mUzB5RWtSdnRQVmF3QTF5Zw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-10-12",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "IEA",
+        "IESR",
+        "PLN"
+      ],
+      "headline": "IEA: Energy-security anxiety, not climate policy, is now the primary driver of faster renewables deployment across a widening country set",
+      "whatChanged": "The IEA published its global renewables assessment on 6 November 2026, finding that energy-security concerns rather than climate commitments are the dominant reason a growing number of countries are accelerating renewable deployment. The report identifies a widening constellation of nations adopting this posture.",
+      "whyItMatters": "This continues the pln-transmisi-investasi theme, which has been structural for 28 days. The IEA framing redefines the investment rationale for emerging-market renewables: governments and multilateral lenders who justify projects on climate grounds are now misreading the actual political driver. In Indonesia's case, the IESR assessment released the same week shows the country is behind on solar targets, citing investment and financing certainty as the binding constraint. The IEA framing suggests the correct unlock is energy-independence rhetoric and policy, not green-finance instruments.",
+      "secondOrder": "If energy-security anxiety is the real driver, renewables project approvals and financing in countries with import dependence become less sensitive to carbon pricing and COP commitments, and more sensitive to geopolitical shocks. For Indonesia, this means the Hormuz crisis-driven shift visible in China's emission data is a comparable forcing function: a disruption to LNG or coal supply chains could accelerate domestic solar and storage approvals faster than any COP31 pledge.",
+      "action": "Reframe Indonesia's 100 GWp solar target pitch to DFI and bilateral lenders this week: lead with energy-security and import-substitution metrics rather than emissions reduction, and model scenarios in which an LNG supply disruption triggers emergency procurement authority for domestic solar.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaVpXYTNQUlc2bXhEZ3kxT2NCT0VaY25KVGtMUE9keHVYOWd6cHBONk5JRlhrU2RyTHNSM3lpbWptei1UY2w1NjVhdUI3NTdmVUpEek1WYkh3N0dvbWFZcVYwN0g1bERxOF9veGI2QWY1R29lbC1vckZiSmNIT2hpYnRqUk1JVlo0SzNQazJhcW53aUQybnR6dlVfbkVrNmhETnQ1NXptZXZqLTRWeHlpVWdYTU9MYWZfR0FJbTZVYlk4Zw?oc=5",
+        "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSGpfSWRaYnBYSHh1ZEFPaGVpNFlLZGxRa2p0WDI4VmZ4emVVRXlnQjJ0d1MzMl9YQUhpcHZCM0tMVVhTQjNVQlVGRWc3R2d6YThOSF8tWURpTi13bEJNblJCLWhwX0gxRHhmd3FxWHB2N09BbjhOX3VIZUwtRkJlMUNGYUdEeEZHQWlTSm84X09NS0RWVmptdkZqelZNVHRZbHp2aWo5cmlsc2J1TWUwcEVMVU9pdjFfc3MxaA?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 13,
+        "firstSeen": "2026-10-09",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-governance-regulatory-risk",
+      "entities": [
+        "Bloomberg",
+        "Representative Beyer",
+        "The Guardian"
+      ],
+      "headline": "AI safety advocates spent $110 million in U.S. midterms and gained seats, raising near-term federal regulation probability",
+      "whatChanged": "Bloomberg reported on 7 November 2026 that AI safety advocates allocated $110 million to the U.S. midterm elections and gained seats in Congress. Representative Beyer separately announced plans for a swift AI safety push as Democrats prepare for a committee role, according to Bloomberg Government News on 6 November.",
+      "whyItMatters": "A $110 million political spend that converts to legislative seats is a structural shift in the probability distribution for U.S. AI regulation. The prior assumption that federal AI legislation would stall through 2027 must be revised upward. Tech stocks wobbled on this signal the morning after results, per The Guardian, indicating markets are repricing regulatory risk in real time.",
+      "secondOrder": "If federal AI regulation advances in the U.S., the extraterritorial effect on frontier model deployment, particularly for products sold to U.S. enterprises or running on U.S.-domiciled cloud infrastructure, would pull non-U.S. AI governance frameworks into alignment or divergence decisions. Indonesian and Southeast Asian government AI procurement and enterprise AI contract terms could face U.S.-compliance requirements as a condition of using U.S.-based model APIs.",
+      "action": "Map current and planned AI deployments against their model API domicile this week; identify which contracts would be in scope for U.S. federal AI rules if passed; and prepare a regulatory contingency clause for enterprise AI agreements that references jurisdiction-of-model-provider as a contract variable.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkJhRnFjblNCalFSTllsR19sT1RDWC1ZRE50MlBJTlFYQzJhYmRTa1E0RGxxNExfamVvZDdVZUtsYVYwTUFIME90OS16V1FFb0xYTlotTDR4V3VUdVFWdjVmMGI2eVA0Zm1KbDJBUEZWRTFaMnpJZHFYdHZjUXlVcG12NzBJb2R5QUxkLUNKUW53QkFkMjc1OXlLc0V1d2NvcHJzTDRUczRDT1Z3TFhPWHdCaw?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxObEVvQ3NmbmRpOHVmTlY3QVJ4SEN0aktIaEEyVmc1WDY0bVNRZTE2ZnRfOTJocXM4WDJaUWRjeDFZVE15R3o2c2Y2SDRXREl3Y3k1QjJnS2VMV1pUTG5QMjVlNFl1WnZIN2tRTThXRV9ZQ2pUeDJSNWdkNnRhRDVsU3V1WnFNZ1JwTUtwOXRvZmd2NzgtX19TY2dhR3JaM1VHSnlkTTV0cWFNT0JhWEp3?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUk1PRTZ2SHYwRVd3c2JzNS0yWnc3ckJrNGpRYkp1UHJzNGhpS2Z5OFAtUi12WUIyeUo0OGNfTHVLTVZqSkVIRGxQUjZWTm1VbFM2LWJOcHFOOFp3bXdQSXZCZVJxRFdHM0tlY1BubDQ4RzFCc0lIUXBFNEU1OGhPaTFWblVhNGFtbldPX19YamhaVExtNi0xemR3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-governance-regulatory-risk",
+        "status": "new",
+        "occurrences": 1,
+        "firstSeen": "2026-11-08",
+        "spanDays": 0
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Claude Code",
+        "Apiiro",
+        "GitHub"
+      ],
+      "headline": "Claude Code's 'Don't Ask Again' feature leaked credentials into 1,122 public GitHub repositories",
+      "whatChanged": "Security researchers reported on 7 November 2026, via Hacker News and an Apiiro blog post, that Claude Code's 'Don't Ask Again' permission feature caused sensitive credentials, including passwords and API keys, to appear in 1,122 public GitHub files. The exposure affects any organisation using Claude Code in agentic coding workflows where repository push permissions are granted.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts theme at the precise failure mode the archive has tracked: agentic coding tools acquiring broad permissions and exfiltrating sensitive data into public repositories. The 1,122-file figure is a concrete, auditable scope, not a hypothetical risk.",
+      "secondOrder": "The specific mechanism, a 'Don't Ask Again' permission bypass, reveals that the enterprise security failure is not in the AI model itself but in the UX design of permission escalation. This means security audits focused on model outputs rather than permission-grant flows will miss the actual exposure vector. Any enterprise deploying agentic coding tools should treat stored permission grants as a separate attack surface, independent of model safety reviews.",
+      "action": "This week, audit all Claude Code and comparable agentic coding tool deployments for active 'Don't Ask Again' permission grants; revoke broad repository-write permissions; and search internal and public GitHub for credential patterns using the 1,122-file corpus as a starting reference for scope estimation.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-10-09",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "COP31 Antalya negotiating text on fossil fuel phase-down: Indonesia's coal export intermediary reform via Danantara may face direct conflict with any agreed transition language",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Danantara Sumberdaya Indonesia: watch for the first published fair-value benchmark price for coal and palm oil, which will reveal whether the methodology tracks spot markets or diverges",
+      "dueDate": "2027-01-15"
+    },
+    {
+      "item": "U.S. Congress: Representative Beyer's AI safety bill text and committee schedule; determines whether the regulatory risk priced in by markets after midterms is confirmed or stalls",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Anthropic Claude Code: watch for a patch or policy change addressing the 'Don't Ask Again' permission mechanism; absence of a patch within two weeks signals the exposure remains open",
+      "dueDate": "2026-11-21"
+    },
+    {
+      "item": "Google Wyoming data centre: power sourcing announcement; the site's energy contract structure will indicate whether the nuclear-ai-datacenter-power thread extends to this asset",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Analysis: China’s quarterly CO2 falls 3% in largest drop since Covid",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-06T00:01:00.000Z"
+    },
+    {
+      "title": "Energy security concerns spur faster renewables growth across a widening constellation of countries - IEA",
+      "publisher": "IEA - International Energy Agency",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaVpXYTNQUlc2bXhEZ3kxT2NCT0VaY25KVGtMUE9keHVYOWd6cHBONk5JRlhrU2RyTHNSM3lpbWptei1UY2w1NjVhdUI3NTdmVUpEek1WYkh3N0dvbWFZcVYwN0g1bERxOF9veGI2QWY1R29lbC1vckZiSmNIT2hpYnRqUk1JVlo0SzNQazJhcW53aUQybnR6dlVfbkVrNmhETnQ1NXptZXZqLTRWeHlpVWdYTU9MYWZfR0FJbTZVYlk4Zw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-06T05:00:00.000Z"
+    },
+    {
+      "title": "AI Safety Advocates Make Gains After $110 Million Midterm Fight",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkJhRnFjblNCalFSTllsR19sT1RDWC1ZRE50MlBJTlFYQzJhYmRTa1E0RGxxNExfamVvZDdVZUtsYVYwTUFIME90OS16V1FFb0xYTlotTDR4V3VUdVFWdjVmMGI2eVA0Zm1KbDJBUEZWRTFaMnpJZHFYdHZjUXlVcG12NzBJb2R5QUxkLUNKUW53QkFkMjc1OXlLc0V1d2NvcHJzTDRUczRDT1Z3TFhPWHdCaw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T14:30:00.000Z"
+    },
+    {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOTZaSVJmRTQ3WWYwN3NtZktMaDFicXkxaWd2akk4QmNKQkMtY1RrclR5aUdENEJpNDdFMzJxRTlhQlhvQ2o0MjZicDBrS1p6eFJYWFoxci15b3BNQXdCcE5sMzJRdElmMmt6NkhBUkl1bm16OEQ1dHB0eUJhcWNIc0FzZUI0bzAyX1B4RXlaaS1EcEVheGs0QldR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T01:40:28.000Z"
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "publisher": "Hacker News",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-07T20:45:32.000Z"
+    },
+    {
+      "title": "2027 Ekspor Batu Bara dan Sawit Lewat Danantara, Begini Skemanya",
+      "publisher": "Kontan TV",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuZGJVWkdLUHJfN2ptaG1uQzJSVkxHVEFRX1U2bDJldE5wbE9qN3Z1Y3JUMnd4WFVRSUxqMlZFNjh0dHlDLXZNeGx2T2FnT2FFZjBR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T23:25:39.000Z"
+    },
+    {
+      "title": "Beyer Plans Swift AI Safety Push as Democrats Prepare Takeover",
+      "publisher": "Bloomberg Government News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObEVvQ3NmbmRpOHVmTlY3QVJ4SEN0aktIaEEyVmc1WDY0bVNRZTE2ZnRfOTJocXM4WDJaUWRjeDFZVE15R3o2c2Y2SDRXREl3Y3k1QjJnS2VMV1pUTG5QMjVlNFl1WnZIN2tRTThXRV9ZQ2pUeDJSNWdkNnRhRDVsU3V1WnFNZ1JwTUtwOXRvZmd2NzgtX19TY2dhR3JaM1VHSnlkTTV0cWFNT0JhWEp3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T21:34:00.000Z"
+    },
+    {
+      "title": "Google Takes Over Wyoming Data Center That Crusoe Had Pitched",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0lvVVMxU2hRYkFBOTA1N01MRmVkOGdPLS13NVVjZlNqWG9hZlpHdHlIT2hvUzMydjk2QVRKWHRvUzdxQ29nVE5XV1RwdWpZVTR0bHhYVjJPVFpDN3k3U01TMi1ibFhiNnEyd2s2SFdzUWpBM2pkV3lSWDc4OVhzSzJvaGNQSlFVbnJOczRTMDVnV1psZ3dLOFEtLXBlTDRlRjl5dVZxOUNkaS1DMjU2bTd3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T19:30:21.000Z"
+    },
+    {
+      "title": "Capaian Kebijakan Energi pada Dua Tahun Pemerintahan Prabowo-Gibran",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-03T04:51:16.000Z"
+    },
+    {
+      "title": "Danantara Jadi Perantara Ekspor Batu Bara Mulai 2027, Negosiasi Harga Tetap di Tangan Perusahaan",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONTVjdUREeDVSYzVUYjlRMXhuU3lSdDd4OVhORU81LXd0SDFRYTRsWThHM3RHLWE4d0RFdndLZzdYOW5Jd3poRFZqU1dnTnNUQi1MTFZLWlB5c1YyNUJMbUZhMWxBTmJkRHN5djh5SXJLZHFlYWRIbEttOUh2T3g3X0FXUEhRSDJTdXFBYkQ3NS1mcjJfY3ZQVlZlMW5MdDJkVjZNWE5zUlVsakJpWkNhSjluNjMxeV9ucDhIUzhfb0Zwcm5fNXZF?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T13:04:00.000Z"
+    },
+    {
+      "title": "Target PLTS 100 GWp, Kepastian Investasi dan Pembiayaan Jadi Tantangan",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSGpfSWRaYnBYSHh1ZEFPaGVpNFlLZGxRa2p0WDI4VmZ4emVVRXlnQjJ0d1MzMl9YQUhpcHZCM0tMVVhTQjNVQlVGRWc3R2d6YThOSF8tWURpTi13bEJNblJCLWhwX0gxRHhmd3FxWHB2N09BbjhOX3VIZUwtRkJlMUNGYUdEeEZHQWlTSm84X09NS0RWVmptdkZqelZNVHRZbHp2aWo5cmlsc2J1TWUwcEVMVU9pdjFfc3MxaA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T08:58:00.000Z"
+    },
+    {
+      "title": "Google Plans to Spend $17 Billion on Wyoming Data Center",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNE1UblF4V2JrTFJGbnZvOWxFaURSZ3d6Y1VFRjcwWHVCcXlMQm94STFoeF95ekVHclBNbWtURXppSW1iV2NpWVFJNXdwZlU5MFd2UjlOWEhubnIyX2t5N1hhUU12MWh1QVJHZDljSjdOQk5EMHZNeWRMQ2tWUGhqdFpqR1JmMTBoUjdtZFpSSlFWU3FpaElDQV9mUzB5RWtSdnRQVmF3QTF5Zw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T19:02:41.000Z"
+    },
+    {
+      "title": "Danantara Sumberdaya Indonesia Bakal Tetapkan Harga Wajar Ekspor SDA, Ini Ketentuannya",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSzdEZUwtTFN2TjJWa0ZIX2NlbnlwV3pCRV9maWtYOHI4TndtSi0zTjBxYlRXZC1teHlyVF9xU1pZa0w1OVBuVFdpVDNXRFBHMXVTSjBOOS1KOERHZ0Nkb256WkdWYmN1N05MdHdlRnQ2WDktaUJ5Ni1OYXg3S2ltaTZ4RVl1bkIzZ2w1bTFNWUtqS0R1UmpoSFFhRmxUREphdjAweFdldnlUT3p0UnpqN0ZZLU9fb1VCTUxuQkNZOWt0cHpDM2FuZWlWb2tKTGc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T02:56:22.000Z"
+    },
+    {
+      "title": "First Thing: Global tech stocks wobble over AI regulation fears after midterms",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUk1PRTZ2SHYwRVd3c2JzNS0yWnc3ckJrNGpRYkp1UHJzNGhpS2Z5OFAtUi12WUIyeUo0OGNfTHVLTVZqSkVIRGxQUjZWTm1VbFM2LWJOcHFOOFp3bXdQSXZCZVJxRFdHM0tlY1BubDQ4RzFCc0lIUXBFNEU1OGhPaTFWblVhNGFtbldPX19YamhaVExtNi0xemR3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T12:25:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "DSI finalkan mekanisme ekspor satu pintu tiga SDA strategis, berlaku 1 Januari 2027",
+      "occurrences": 30,
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN targetkan tambahan 6.529 MW pembangkit gas hingga 2034; PLTU Sulbagsel gangguan picu defisit pasokan",
+      "occurrences": 28,
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "OpenAI luncurkan BioBasicsBench: 100-task benchmark untuk agen AI di laboratorium basah",
+      "occurrences": 28,
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "ECB pertimbangkan tinjauan pinjaman perbankan ke data center; Google akuisisi lahan Wyoming dari Crusoe",
+      "occurrences": 22,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: Dua tahun pemerintahan Prabowo-Gibran, implementasi kebijakan energi masih jauh dari target jelang COP31",
+      "occurrences": 13,
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 414,
+    "poolSize": 110,
+    "generatedAt": "2026-11-07T23:58:20.934Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

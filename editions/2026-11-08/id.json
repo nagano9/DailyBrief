@@ -1,0 +1,361 @@
+{
+  "slug": "2026-11-08",
+  "date": "2026-11-08",
+  "lang": "id",
+  "title": "Danantara Kuasai Ekspor SDA 2027; Google Akuisisi Wyoming; AI Safety Menang Midterm",
+  "dek": "Tiga pergeseran struktural bersamaan: Indonesia memusatkan ekspor komoditas lewat Danantara, Google mengambil alih pusat data nuklir Wyoming senilai $17 miliar, dan advokat keamanan AI memenangkan USD 110 juta pertarungan midterm AS.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Danantara Sumberdaya Indonesia (DSI) akan menjadi perantara ekspor batu bara dan sawit mulai 2027, menetapkan harga wajar komoditas strategis sekaligus menambah lapisan tata kelola baru antara produsen dan pasar global. Bersamaan, Google mengakuisisi proyek pusat data Wyoming dari Crusoe dengan komitmen investasi USD 17 miliar, memperdalam integrasi antara infrastruktur AI, pembiayaan proyek, dan pasokan listrik berskala besar. Di front regulasi, advokat keamanan AI membelanjakan USD 110 juta dalam pemilu paruh waktu AS dan meraih kursi legislatif, membuka jalur bagi Rep. Beyer untuk mendorong regulasi AI segera setelah Demokrat mengambil alih. PLN menetapkan kebutuhan batu bara pembangkit sebesar 173,83 juta ton pada 2027, angka yang kini harus bernegosiasi dengan skema ekspor Danantara. IESR mengingatkan bahwa dua tahun pertama pemerintahan Prabowo-Gibran meninggalkan kesenjangan implementasi kebijakan energi yang signifikan menjelang COP31 di Antalya.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara Sumberdaya Indonesia",
+        "Kompas.com"
+      ],
+      "headline": "Danantara Sumberdaya Indonesia jadi perantara tunggal ekspor batu bara dan sawit mulai 2027",
+      "whatChanged": "Mulai 2027, ekspor batu bara dan kelapa sawit Indonesia akan disalurkan melalui Danantara Sumberdaya Indonesia (DSI) sebagai perantara resmi. DSI berwenang menetapkan harga wajar ekspor komoditas strategis, sementara negosiasi harga tetap berada di tangan perusahaan produsen. Skema ini berlaku per 1 Januari 2027 berdasarkan laporan Kompas.com, Republika, dan Kontan TV tertanggal 7 November 2026.",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring yang telah berjalan 30 kali sejak Oktober 2026, tetapi hari ini mencapai bentuk operasional konkret: ekspor satu pintu berarti DSI menjadi counterparty tunggal bagi pembeli asing, menciptakan posisi monopsoni-proksi di sisi penentuan harga referensi. Produsen kehilangan fleksibilitas penetapan harga pasar bebas untuk komponen harga wajar.",
+      "secondOrder": "Pembeli internasional, terutama dari Tiongkok, India, dan Jepang, menghadapi mitra kontrak baru dengan risiko kredit dan risiko penundaan yang berbeda dari produsen langsung. Bank pembiayaan ekspor dan asuransi kredit ekspor perlu menilai ulang eksposur mereka terhadap rantai ekspor komoditas Indonesia, karena penambahan lapisan entitas negara meningkatkan risiko subordinasi klaim komersial terhadap kebijakan pemerintah.",
+      "action": "Tinjau kontrak ekspor batu bara dan sawit yang jatuh tempo atau diperbarui setelah 1 Januari 2027: identifikasi klausul change-of-counterparty, force majeure akibat intervensi pemerintah, dan mekanisme penetapan harga acuan. Minta konsultasi hukum kontrak internasional sebelum akhir November 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuZGJVWkdLUHJfN2ptaG1uQzJSVkxHVEFRX1U2bDJldE5wbE9qN3Z1Y3JUMnd4WFVRSUxqMlZFNjh0dHlDLXZNeGx2T2FnT2FFZjBR?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxONTVjdUREeDVSYzVUYjlRMXhuU3lSdDd4OVhORU81LXd0SDFRYTRsWThHM3RHLWE4d0RFdndLZzdYOW5Jd3poRFZqU1dnTnNUQi1MTFZLWlB5c1YyNUJMbUZhMWxBTmJkRHN5djh5SXJLZHFlYWRIbEttOUh2T3g3X0FXUEhRSDJTdXFBYkQ3NS1mcjJfY3ZQVlZlMW5MdDJkVjZNWE5zUlVsakJpWkNhSjluNjMxeV9ucDhIUzhfb0Zwcm5fNXZF?oc=5",
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSzdEZUwtTFN2TjJWa0ZIX2NlbnlwV3pCRV9maWtYOHI4TndtSi0zTjBxYlRXZC1teHlyVF9xU1pZa0w1OVBuVFdpVDNXRFBHMXVTSjBOOS1KOERHZ0Nkb256WkdWYmN1N05MdHdlRnQ2WDktaUJ5Ni1OYXg3S2ltaTZ4RVl1bkIzZ2w1bTFNWUtqS0R1UmpoSFFhRmxUREphdjAweFdldnlUT3p0UnpqN0ZZLU9fb1VCTUxuQkNZOWt0cHpDM2FuZWlWb2tKTGc?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-09",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Google",
+        "Crusoe",
+        "TechCrunch"
+      ],
+      "headline": "Google akuisisi proyek pusat data Wyoming dari Crusoe, komitmen investasi USD 17 miliar",
+      "whatChanged": "Google mengambil alih proyek pusat data Wyoming yang sebelumnya dikembangkan Crusoe, dengan rencana investasi USD 17 miliar yang dikonfirmasi Bloomberg. TechCrunch melaporkan Crusoe menjual proyek tersebut karena masalah operasional. Proyek ini sebelumnya telah masuk arsip tema nuclear-ai-datacenter-power sejak Oktober 2026 dalam konteks akuisisi lahan Wyoming oleh Google.",
+      "whyItMatters": "Ini melanjutkan tema nuclear-ai-datacenter-power: akuisisi ini mengubah proyek pusat data spekulatif menjadi aset bergaransi Google dengan skala project finance USD 17 miliar. Google kini menanggung risiko pengembangan infrastruktur listrik skala utilitas secara langsung, bukan hanya sebagai off-taker.",
+      "secondOrder": "Pola akuisisi distressed asset pusat data oleh hyperscaler besar memperlemah posisi pengembang independen pusat data AI: investor pada proyek independen kini menghadapi risiko bahwa hyperscaler akan menunggu kesulitan finansial sebelum mengakuisisi dengan diskon, bukan bermitra di awal. Ini menekan valuasi dan akses modal bagi pengembang pusat data non-captive di seluruh dunia, termasuk di Asia Tenggara.",
+      "action": "Evaluasi ulang struktur kepemilikan dan risiko offtaker pada setiap proposal pusat data AI yang sedang dalam pipeline investasi: periksa apakah pengembang independen memiliki komitmen off-take yang mengikat atau hanya MoU, dan bandingkan dengan skenario akuisisi oleh hyperscaler sebagai basis valuasi konservatif.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOTZaSVJmRTQ3WWYwN3NtZktMaDFicXkxaWd2akk4QmNKQkMtY1RrclR5aUdENEJpNDdFMzJxRTlhQlhvQ2o0MjZicDBrS1p6eFJYWFoxci15b3BNQXdCcE5sMzJRdElmMmt6NkhBUkl1bm16OEQ1dHB0eUJhcWNIc0FzZUI0bzAyX1B4RXlaaS1EcEVheGs0QldR?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0lvVVMxU2hRYkFBOTA1N01MRmVkOGdPLS13NVVjZlNqWG9hZlpHdHlIT2hvUzMydjk2QVRKWHRvUzdxQ29nVE5XV1RwdWpZVTR0bHhYVjJPVFpDN3k3U01TMi1ibFhiNnEyd2s2SFdzUWpBM2pkV3lSWDc4OVhzSzJvaGNQSlFVbnJOczRTMDVnV1psZ3dLOFEtLXBlTDRlRjl5dVZxOUNkaS1DMjU2bTd3?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNE1UblF4V2JrTFJGbnZvOWxFaURSZ3d6Y1VFRjcwWHVCcXlMQm94STFoeF95ekVHclBNbWtURXppSW1iV2NpWVFJNXdwZlU5MFd2UjlOWEhubnIyX2t5N1hhUU12MWh1QVJHZDljSjdOQk5EMHZNeWRMQ2tWUGhqdFpqR1JmMTBoUjdtZFpSSlFWU3FpaElDQV9mUzB5RWtSdnRQVmF3QTF5Zw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-10-12",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-safety-regulation-us-politics",
+      "entities": [
+        "Bloomberg Government News",
+        "The Guardian"
+      ],
+      "headline": "Advokat keamanan AI belanjakan USD 110 juta di midterm AS, meraih kursi legislatif",
+      "whatChanged": "Bloomberg melaporkan kelompok advokat keamanan AI membelanjakan USD 110 juta dalam pemilu paruh waktu AS 2026 dan meraih kursi di Kongres. Bloomberg Government News melaporkan Rep. Beyer berencana mendorong regulasi keamanan AI segera setelah Demokrat mengambil alih. The Guardian mencatat saham teknologi global berfluktuasi akibat kekhawatiran regulasi AI pasca-midterm.",
+      "whyItMatters": "Pembelanjaan politik USD 110 juta adalah sinyal bahwa kelompok keamanan AI kini beroperasi sebagai kekuatan lobi terorganisasi setara industri, bukan sekadar koalisi akademik. Kemenangan kursi legislatif mengubah probabilitas regulasi AI AS dari spekulatif menjadi jadwal legislatif nyata dalam satu hingga dua tahun.",
+      "secondOrder": "Regulasi AI AS yang lebih ketat akan memengaruhi persyaratan deployment model di pasar Asia, termasuk Indonesia, melalui tekanan pada mitra lokal hyperscaler untuk menerapkan standar yang sama. Perusahaan Indonesia yang mengintegrasikan AI dalam layanan keuangan, kesehatan, atau infrastruktur kritis perlu memonitor draf legislasi AS sebagai proxy regulasi global.",
+      "action": "Pantau draf legislasi AI yang diajukan Rep. Beyer dan komite terkait mulai Januari 2027: identifikasi klausul extraterritorial yang dapat memengaruhi deployment model AI oleh mitra lokal hyperscaler AS di Indonesia, dan siapkan posisi komentar regulasi bila konsultasi publik dibuka.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkJhRnFjblNCalFSTllsR19sT1RDWC1ZRE50MlBJTlFYQzJhYmRTa1E0RGxxNExfamVvZDdVZUtsYVYwTUFIME90OS16V1FFb0xYTlotTDR4V3VUdVFWdjVmMGI2eVA0Zm1KbDJBUEZWRTFaMnpJZHFYdHZjUXlVcG12NzBJb2R5QUxkLUNKUW53QkFkMjc1OXlLc0V1d2NvcHJzTDRUczRDT1Z3TFhPWHdCaw?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxObEVvQ3NmbmRpOHVmTlY3QVJ4SEN0aktIaEEyVmc1WDY0bVNRZTE2ZnRfOTJocXM4WDJaUWRjeDFZVE15R3o2c2Y2SDRXREl3Y3k1QjJnS2VMV1pUTG5QMjVlNFl1WnZIN2tRTThXRV9ZQ2pUeDJSNWdkNnRhRDVsU3V1WnFNZ1JwTUtwOXRvZmd2NzgtX19TY2dhR3JaM1VHSnlkTTV0cWFNT0JhWEp3?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUk1PRTZ2SHYwRVd3c2JzNS0yWnc3ckJrNGpRYkp1UHJzNGhpS2Z5OFAtUi12WUIyeUo0OGNfTHVLTVZqSkVIRGxQUjZWTm1VbFM2LWJOcHFOOFp3bXdQSXZCZVJxRFdHM0tlY1BubDQ4RzFCc0lIUXBFNEU1OGhPaTFWblVhNGFtbldPX19YamhaVExtNi0xemR3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-safety-regulation-us-politics",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-10-11",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Bloomberg Technoz",
+        "Kementerian ESDM"
+      ],
+      "headline": "PLN dan swasta butuh 173,83 juta ton batu bara pada 2027, berbenturan dengan skema ekspor Danantara",
+      "whatChanged": "Bloomberg Technoz melaporkan kebutuhan batu bara pembangkit PLN dan swasta mencapai 173,83 juta ton pada 2027. Bersamaan, skema ekspor batu bara melalui DSI berlaku 1 Januari 2027, menciptakan potensi persaingan alokasi antara kebutuhan domestik pembangkit dan ekspor.",
+      "whyItMatters": "Ini melanjutkan tema pln-grid-investment: angka 173,83 juta ton adalah kebutuhan minimum untuk menjaga keandalan sistem kelistrikan nasional. Jika DSI mengelola ekspor batu bara dengan prioritas pendapatan devisa, ada risiko penurunan alokasi domestik atau kenaikan harga patokan batu bara dalam negeri yang menekan biaya operasional PLN.",
+      "secondOrder": "PLN berpotensi menghadapi kenaikan biaya bahan bakar operasional jika mekanisme Harga Patokan Batu Bara (HPB) untuk pembangkit tidak dikecualikan dari mekanisme harga wajar DSI. Tekanan biaya ini akan mempersulit PLN untuk menjaga tarif listrik stabil, terutama mengingat Menteri ESDM Bahlil Lahadalia sudah memastikan harga BBM subsidi tidak naik hingga akhir 2026 sebagai sinyal bahwa margin fiskal untuk subsidi energi sudah terbatas.",
+      "action": "Verifikasi apakah regulasi teknis skema DSI mengecualikan pasokan batu bara untuk kebutuhan pembangkit dalam negeri (Domestic Market Obligation) dari mekanisme harga wajar ekspor. Jika belum ada klausul pengecualian, ajukan pertanyaan klarifikasi kepada Kementerian ESDM sebelum 31 Desember 2026.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY19vZWdOckkwRG9oSFFRQm9aRzhLdktwRzUycmR6aVo3TjdnLTZESDJQdzVTeVdSM0VjMURnb3MxZjhCSUwzRm1mX3lSMXFBN0duX3Y2NFFFejNoNjh4WlBFZk5Gbms2bzVYZUtXZ3FsWTRmZ3hGQXctNnJnVmU4cElwdlRtVktPLWk2LXJxeXItSTk0a1hPU0R1Zk1aVDBENEtSUmdubUNiWEcyd0lEOEJ6azJNQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxONTVjdUREeDVSYzVUYjlRMXhuU3lSdDd4OVhORU81LXd0SDFRYTRsWThHM3RHLWE4d0RFdndLZzdYOW5Jd3poRFZqU1dnTnNUQi1MTFZLWlB5c1YyNUJMbUZhMWxBTmJkRHN5djh5SXJLZHFlYWRIbEttOUh2T3g3X0FXUEhRSDJTdXFBYkQ3NS1mcjJfY3ZQVlZlMW5MdDJkVjZNWE5zUlVsakJpWkNhSjluNjMxeV9ucDhIUzhfb0Zwcm5fNXZF?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuZGJVWkdLUHJfN2ptaG1uQzJSVkxHVEFRX1U2bDJldE5wbE9qN3Z1Y3JUMnd4WFVRSUxqMlZFNjh0dHlDLXZNeGx2T2FnT2FFZjBR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-09",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "COP31"
+      ],
+      "headline": "IESR: Indonesia belum siap COP31, implementasi kebijakan energi dua tahun pertama jauh dari target",
+      "whatChanged": "IESR menerbitkan dua laporan pada 3-4 November 2026: satu mengevaluasi capaian kebijakan energi dua tahun pemerintahan Prabowo-Gibran sebagai masih jauh dari implementasi, satu lagi menilai posisi Indonesia menjelang COP31 di Antalya (9-20 November 2026) sebagai tidak cukup hanya datang dengan target tanpa bukti implementasi.",
+      "whyItMatters": "Ini melanjutkan tema indonesia-geothermal-concession-reform: IESR sebagai lembaga riset energi domestik terkemuka secara eksplisit menyatakan kesenjangan antara komitmen dan implementasi dua tahun setelah pemerintahan baru, persis pada momen COP31. Penilaian ini memperkuat sinyal bahwa Indonesia masuk COP31 dengan kredibilitas transisi energi yang dipertanyakan mitra internasional.",
+      "secondOrder": "Kesenjangan implementasi yang didokumentasikan IESR dapat memperlemah posisi negosiasi Indonesia dalam memperoleh konsensi pendanaan transisi energi dari mekanisme JETP atau Green Climate Fund di COP31. Jika Indonesia dipersepsikan sebagai negara dengan komitmen tanpa eksekusi, lender dan donor internasional akan meningkatkan persyaratan kondisionalitas dalam paket pembiayaan energi terbarukan.",
+      "action": "Sebelum COP31 (9 November 2026), siapkan pemetaan gap antara target RUPTL dan realisasi kapasitas terbarukan terpasang: gunakan data IESR sebagai basis untuk mengidentifikasi proyek mana yang memiliki potensi dipercepat dengan skema blended finance, dan siapkan argumen teknis bila mitra internasional mempertanyakan kredibilitas komitmen.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+        "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 14,
+        "firstSeen": "2026-10-10",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Regulasi teknis skema ekspor DSI: apakah Domestic Market Obligation batu bara dikecualikan dari mekanisme harga wajar DSI sebelum berlaku 1 Januari 2027",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Hasil negosiasi teks COP31 Antalya terkait posisi Indonesia pada komitmen transisi energi dan akses pendanaan JETP",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Draf legislasi keamanan AI yang diajukan Rep. Beyer setelah pergantian kendali Kongres AS",
+      "dueDate": "2027-02-01"
+    },
+    {
+      "item": "Perkembangan Financial Close proyek pusat data Wyoming Google: struktur pembiayaan, perjanjian offtake listrik, dan keterlibatan utilitas lokal",
+      "dueDate": "2027-03-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR: Menuju COP-31, Indonesia Tak Cukup Datang dengan Target Semata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-04T09:48:19.000Z"
+    },
+    {
+      "title": "AI Safety Advocates Make Gains After $110 Million Midterm Fight",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkJhRnFjblNCalFSTllsR19sT1RDWC1ZRE50MlBJTlFYQzJhYmRTa1E0RGxxNExfamVvZDdVZUtsYVYwTUFIME90OS16V1FFb0xYTlotTDR4V3VUdVFWdjVmMGI2eVA0Zm1KbDJBUEZWRTFaMnpJZHFYdHZjUXlVcG12NzBJb2R5QUxkLUNKUW53QkFkMjc1OXlLc0V1d2NvcHJzTDRUczRDT1Z3TFhPWHdCaw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T14:30:00.000Z"
+    },
+    {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOTZaSVJmRTQ3WWYwN3NtZktMaDFicXkxaWd2akk4QmNKQkMtY1RrclR5aUdENEJpNDdFMzJxRTlhQlhvQ2o0MjZicDBrS1p6eFJYWFoxci15b3BNQXdCcE5sMzJRdElmMmt6NkhBUkl1bm16OEQ1dHB0eUJhcWNIc0FzZUI0bzAyX1B4RXlaaS1EcEVheGs0QldR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T01:40:28.000Z"
+    },
+    {
+      "title": "2027 Ekspor Batu Bara dan Sawit Lewat Danantara, Begini Skemanya",
+      "publisher": "Kontan TV",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuZGJVWkdLUHJfN2ptaG1uQzJSVkxHVEFRX1U2bDJldE5wbE9qN3Z1Y3JUMnd4WFVRSUxqMlZFNjh0dHlDLXZNeGx2T2FnT2FFZjBR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T23:25:39.000Z"
+    },
+    {
+      "title": "Beyer Plans Swift AI Safety Push as Democrats Prepare Takeover",
+      "publisher": "Bloomberg Government News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObEVvQ3NmbmRpOHVmTlY3QVJ4SEN0aktIaEEyVmc1WDY0bVNRZTE2ZnRfOTJocXM4WDJaUWRjeDFZVE15R3o2c2Y2SDRXREl3Y3k1QjJnS2VMV1pUTG5QMjVlNFl1WnZIN2tRTThXRV9ZQ2pUeDJSNWdkNnRhRDVsU3V1WnFNZ1JwTUtwOXRvZmd2NzgtX19TY2dhR3JaM1VHSnlkTTV0cWFNT0JhWEp3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T21:34:00.000Z"
+    },
+    {
+      "title": "Google Takes Over Wyoming Data Center That Crusoe Had Pitched",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0lvVVMxU2hRYkFBOTA1N01MRmVkOGdPLS13NVVjZlNqWG9hZlpHdHlIT2hvUzMydjk2QVRKWHRvUzdxQ29nVE5XV1RwdWpZVTR0bHhYVjJPVFpDN3k3U01TMi1ibFhiNnEyd2s2SFdzUWpBM2pkV3lSWDc4OVhzSzJvaGNQSlFVbnJOczRTMDVnV1psZ3dLOFEtLXBlTDRlRjl5dVZxOUNkaS1DMjU2bTd3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T19:30:21.000Z"
+    },
+    {
+      "title": "Capaian Kebijakan Energi pada Dua Tahun Pemerintahan Prabowo-Gibran",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-03T04:51:16.000Z"
+    },
+    {
+      "title": "Danantara Jadi Perantara Ekspor Batu Bara Mulai 2027, Negosiasi Harga Tetap di Tangan Perusahaan",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONTVjdUREeDVSYzVUYjlRMXhuU3lSdDd4OVhORU81LXd0SDFRYTRsWThHM3RHLWE4d0RFdndLZzdYOW5Jd3poRFZqU1dnTnNUQi1MTFZLWlB5c1YyNUJMbUZhMWxBTmJkRHN5djh5SXJLZHFlYWRIbEttOUh2T3g3X0FXUEhRSDJTdXFBYkQ3NS1mcjJfY3ZQVlZlMW5MdDJkVjZNWE5zUlVsakJpWkNhSjluNjMxeV9ucDhIUzhfb0Zwcm5fNXZF?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T13:04:00.000Z"
+    },
+    {
+      "title": "Google Plans to Spend $17 Billion on Wyoming Data Center",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNE1UblF4V2JrTFJGbnZvOWxFaURSZ3d6Y1VFRjcwWHVCcXlMQm94STFoeF95ekVHclBNbWtURXppSW1iV2NpWVFJNXdwZlU5MFd2UjlOWEhubnIyX2t5N1hhUU12MWh1QVJHZDljSjdOQk5EMHZNeWRMQ2tWUGhqdFpqR1JmMTBoUjdtZFpSSlFWU3FpaElDQV9mUzB5RWtSdnRQVmF3QTF5Zw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T19:02:41.000Z"
+    },
+    {
+      "title": "Danantara Sumberdaya Indonesia Bakal Tetapkan Harga Wajar Ekspor SDA, Ini Ketentuannya",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSzdEZUwtTFN2TjJWa0ZIX2NlbnlwV3pCRV9maWtYOHI4TndtSi0zTjBxYlRXZC1teHlyVF9xU1pZa0w1OVBuVFdpVDNXRFBHMXVTSjBOOS1KOERHZ0Nkb256WkdWYmN1N05MdHdlRnQ2WDktaUJ5Ni1OYXg3S2ltaTZ4RVl1bkIzZ2w1bTFNWUtqS0R1UmpoSFFhRmxUREphdjAweFdldnlUT3p0UnpqN0ZZLU9fb1VCTUxuQkNZOWt0cHpDM2FuZWlWb2tKTGc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T02:56:22.000Z"
+    },
+    {
+      "title": "Pembangkit PLN & Swasta Butuh 173,83 Juta Ton Batu Bara pada 2027",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY19vZWdOckkwRG9oSFFRQm9aRzhLdktwRzUycmR6aVo3TjdnLTZESDJQdzVTeVdSM0VjMURnb3MxZjhCSUwzRm1mX3lSMXFBN0duX3Y2NFFFejNoNjh4WlBFZk5Gbms2bzVYZUtXZ3FsWTRmZ3hGQXctNnJnVmU4cElwdlRtVktPLWk2LXJxeXItSTk0a1hPU0R1Zk1aVDBENEtSUmdubUNiWEcyd0lEOEJ6azJNQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-04T04:00:00.000Z"
+    },
+    {
+      "title": "First Thing: Global tech stocks wobble over AI regulation fears after midterms",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUk1PRTZ2SHYwRVd3c2JzNS0yWnc3ckJrNGpRYkp1UHJzNGhpS2Z5OFAtUi12WUIyeUo0OGNfTHVLTVZqSkVIRGxQUjZWTm1VbFM2LWJOcHFOOFp3bXdQSXZCZVJxRFdHM0tlY1BubDQ4RzFCc0lIUXBFNEU1OGhPaTFWblVhNGFtbldPX19YamhaVExtNi0xemR3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T12:25:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "DSI finalkan mekanisme ekspor satu pintu tiga SDA strategis, berlaku 1 Januari 2027",
+      "occurrences": 30,
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN targetkan tambahan 6.529 MW pembangkit gas hingga 2034; PLTU Sulbagsel gangguan picu defisit pasokan",
+      "occurrences": 28,
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "frontier-model-scientific-reasoning",
+      "theme": "OpenAI luncurkan BioBasicsBench: 100-task benchmark untuk agen AI di laboratorium basah",
+      "occurrences": 28,
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "ECB pertimbangkan tinjauan pinjaman perbankan ke data center; Google akuisisi lahan Wyoming dari Crusoe",
+      "occurrences": 22,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: Dua tahun pemerintahan Prabowo-Gibran, implementasi kebijakan energi masih jauh dari target jelang COP31",
+      "occurrences": 13,
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-11-07",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 414,
+    "poolSize": 110,
+    "generatedAt": "2026-11-07T23:57:08.273Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
