@@ -1,0 +1,367 @@
+{
+  "slug": "2026-11-09",
+  "date": "2026-11-09",
+  "lang": "id",
+  "title": "COP31 Dibuka, El Niño Tekan Grid Sulbagsel, Google Kuasai Pusat Data Wyoming",
+  "dek": "Tiga tekanan simultan menguji ketahanan sistem: negosiasi iklim global dibuka tanpa komitmen Indonesia yang memadai, gangguan El Niño memotong pasokan listrik Sulawesi 315 MW, dan Google mengonsolidasi aset pusat data AI senilai USD 17 miliar di Wyoming.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "COP31 dibuka di Antalya pada 9 November 2026 dengan Indonesia dinilai IESR belum membawa implementasi yang setara targetnya, sementara super El Niño yang diproyeksikan memuncak Desember 2026 sudah memotong pasokan listrik Sulbagsel 315 MW dan memaksa PLN mengandalkan PLTU. Di sisi korporasi, BP BUMN dan Danantara Indonesia secara resmi menargetkan kawasan industri tekstil terintegrasi, menambah portofolio investasi di luar sektor komoditas. Di frontier AI, Google mengakuisisi proyek pusat data Wyoming dari Crusoe dengan komitmen investasi USD 17 miliar, mengukuhkan pola konvergensi antara kapasitas komputasi AI dan infrastruktur ketenagalistrikan. Legislasi keamanan AI AS semakin konkret setelah pemilu midterm menempatkan pendukung regulasi AI di Kongres.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "COP31"
+      ],
+      "headline": "IESR: Indonesia memasuki COP31 tanpa implementasi kebijakan energi yang proporsional dengan target",
+      "whatChanged": "IESR menerbitkan penilaian per 4 November 2026 bahwa dalam dua tahun pemerintahan Prabowo-Gibran, implementasi kebijakan energi jauh dari target yang dicanangkan, dan Indonesia dinilai tidak cukup datang ke COP31 hanya dengan target tanpa realisasi. COP31 sendiri resmi dibuka di Antalya pada 9-20 November 2026.",
+      "whyItMatters": "Penilaian ini melanjutkan tema struktural yang telah diarsipkan 14 kali sejak Oktober 2026: kesenjangan antara komitmen kebijakan energi Indonesia dan kapasitas implementasinya. Pada forum multilateral sekelas COP31, kredibilitas target tanpa realisasi memperlemah posisi tawar Indonesia dalam negosiasi pendanaan transisi energi, termasuk skema JETP dan ETM.",
+      "secondOrder": "Ketika implementasi domestik tertinggal dari target, donor dan lender multilateral memiliki alasan teknis untuk menunda pencairan fasilitas pendanaan yang sudah disepakati. Kondisi ini secara langsung memengaruhi pipeline proyek energi terbarukan yang bergantung pada blended finance, karena persyaratan disbursement umumnya terikat pada milestone kebijakan, bukan sekadar deklarasi target.",
+      "action": "Periksa klausul milestone kebijakan dalam perjanjian JETP dan ETM Indonesia: identifikasi indikator mana yang sudah terlewat tenggat 2026 dan hitung potensi penundaan disbursement yang mengikutinya.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+        "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 15,
+        "firstSeen": "2026-10-10",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Carbon Brief",
+        "PLTU"
+      ],
+      "headline": "Super El Niño potong pasokan listrik Sulbagsel 315 MW, PLN andalkan PLTU",
+      "whatChanged": "El Niño yang Carbon Brief klasifikasikan sebagai 'super El Niño' dengan proyeksi puncak Desember 2026 sudah memotong pasokan listrik sistem Sulbagsel sebesar 315 MW, memaksa PLN mempercepat pemulihan PLTU sebagai pengganti. Media Indonesia dan ANTARA News Makassar melaporkan kondisi ini pada 8 November 2026.",
+      "whyItMatters": "Sistem Sulbagsel bergantung pada pembangkit hidro yang langsung terpapar kekeringan El Niño. Respons PLN yang mengandalkan PLTU memperlihatkan bahwa transisi energi domestik belum memiliki cadangan terbarukan yang dapat diandalkan saat kondisi hidrologi ekstrem, sehingga batubara tetap menjadi jangkar ketahanan sistem.",
+      "secondOrder": "Siklus ini berdampak ganda: peningkatan konsumsi batubara untuk pembangkit di tengah tekanan internasional di COP31 memperlemah narasi transisi energi Indonesia secara bersamaan. Selain itu, jika puncak El Niño terjadi Desember 2026, gangguan pasokan bisa berlanjut ke kuartal pertama 2027 dan bertabrakan dengan periode permintaan listrik tinggi akibat musim panas di wilayah lain.",
+      "action": "Minta PLN menyediakan proyeksi cadangan daya sistem Sulbagsel untuk Desember 2026 hingga Maret 2027 dengan skenario El Niño puncak, dan identifikasi apakah ada kontrak pasokan batubara darurat yang sudah diaktifkan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQmpzbDI1SFJORkg3UnlIa0pLeEZDYnRxeVJDTTR6ZV9HQlQxeUVUT05tX3FrUTdyRDZkcGc2ZmpOTV90ZnFkYlp4T3I2RXAwY0N0aEM3Z3JudjZWbjEzNlRRQWoyWEIwRDRSTlRTMFNfTHBrYWprTlVBZm1oc1Y1WC0wMHk2TXdiV0NtZ09pRXRIQmZ0a3M4LXVvSHVqd0FvdmFPelZpSXJsdWozRC1BWGVB?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQczJUUGEwWDhSRXc1cU1DT1NfT0M2NG1sQXFZRW90STExT2J5OTdSSjNkM2cxTmdXQXNLUU1pTk9ZOHlBZkZPWmNhWUVveUhtUkM4S0UzblQzOVJqakpfbzJBMmdmWnRoZkwwQmJhZzdNR2s4MEYtYTQ4blFjN3laaTVlTk5wOUdzVXI5UU9jeW00SUhiNkZZVVU1R1hkVGItR0dhMkhoLUZDZjhsbWtOb0x3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-10",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Google",
+        "Crusoe",
+        "Bloomberg",
+        "Reuters"
+      ],
+      "headline": "Google akuisisi proyek pusat data Wyoming dari Crusoe, komitmen investasi USD 17 miliar",
+      "whatChanged": "Google mengakuisisi proyek pusat data Wyoming dari Crusoe, perusahaan infrastruktur AI yang sebelumnya mengalami kesulitan pada proyek tersebut. Bloomberg melaporkan komitmen investasi Google sebesar USD 17 miliar untuk pengembangan situs ini. Reuters mengonfirmasi transaksi pada 6 November 2026.",
+      "whyItMatters": "Ini melanjutkan tema struktural nuclear-ai-datacenter-power yang sudah tercatat 23 kali sejak Oktober 2026. Pola yang terbentuk adalah konsolidasi aset pusat data AI dari pengembang yang kekurangan modal ke hyperscaler yang memiliki neraca kuat. Google mengambil eksposur langsung atas aset fisik, bukan hanya kapasitas komputasi, yang mengubah profil risikonya dari belanja modal teknologi menjadi infrastruktur jangka panjang.",
+      "secondOrder": "Ketika hyperscaler mengakuisisi proyek pusat data secara langsung, mereka melewati lapisan pengembang independen yang sebelumnya menjadi penyangga risiko. Dampaknya adalah pasar pendanaan pusat data AI menjadi lebih terpolarisasi: proyek skala besar hanya layak dibiayai oleh neraca hyperscaler atau sovereign fund, sedangkan pengembang menengah kehilangan akses pembiayaan karena risiko kompetisi dengan pembeli strategis.",
+      "action": "Tinjau ulang valuasi proyek pusat data AI Indonesia yang saat ini bergantung pada offtake dari penyewa non-hyperscaler: hitung ulang kelayakan dengan skenario bahwa hyperscaler memilih akuisisi langsung daripada sewa jangka panjang.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmdYV3dXUTRhWEJ2UTJxUXBMMmxVX292SEdXZlVJNmJIa0lzNVNRT0J3QjJhc0VnN2lYUnQybkNkd0JsRV8xUTc1Qk1nZllyQUx0RnJTTENFVEhJdXUyYW9SQXVodjFLT1RmSDF3UE1PODFDRnkzVnhkaEpVSDdwSDJRV2Y5dDZOTXF2cUoxUWlVVnBXWklYRjNpNGp0N2x1N0I1bFgtMFl3eldkdHZxUUlZRVdzQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNE1UblF4V2JrTFJGbnZvOWxFaURSZ3d6Y1VFRjcwWHVCcXlMQm94STFoeF95ekVHclBNbWtURXppSW1iV2NpWVFJNXdwZlU5MFd2UjlOWEhubnIyX2t5N1hhUU12MWh1QVJHZDljSjdOQk5EMHZNeWRMQ2tWUGhqdFpqR1JmMTBoUjdtZFpSSlFWU3FpaElDQV9mUzB5RWtSdnRQVmF3QTF5Zw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-10-12",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Don Beyer",
+        "Bloomberg Government",
+        "The Information"
+      ],
+      "headline": "Legislator pro-regulasi AI masuk Kongres AS, Beyer siapkan RUU keamanan AI",
+      "whatChanged": "Pasca pemilu midterm AS, Bloomberg Government News melaporkan bahwa anggota Kongres Don Beyer berencana mendorong legislasi keamanan AI secepat mungkin seiring persiapan pergantian kendali di Kongres. The Information melaporkan bahwa California berhasil mengirimkan legislator yang berfokus pada keamanan AI ke Kongres federal.",
+      "whyItMatters": "Tema ini sudah tercatat 28 kali sejak Oktober 2026 dalam arsip struktural. Perpindahan dari advokasi ke kekuasaan legislatif aktual mengubah probabilitas regulasi AI AS dari sinyal awal menjadi risiko kebijakan yang perlu dimodelkan. Ini bukan lagi siklus lobi; ini adalah rancangan undang-undang yang akan mulai bergerak melalui komite.",
+      "secondOrder": "Perusahaan AI yang beroperasi di AS dan mitra globalnya perlu menyesuaikan roadmap produk dengan kemungkinan persyaratan kepatuhan baru. Untuk Indonesia, ini berarti adopsi model atau platform AI asal AS oleh lembaga pemerintah dan BUMN perlu mempertimbangkan bahwa vendor tersebut akan menghadapi kewajiban pelaporan dan audit baru yang bisa mempengaruhi ketentuan kontrak dan akses data.",
+      "action": "Identifikasi kontrak pengadaan AI aktif di BUMN dan kementerian Indonesia yang menggunakan platform berbasis AS; periksa klausul perubahan regulasi dan hak terminasi jika vendor wajib mengubah arsitektur atau akses data akibat regulasi federal baru.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxObEVvQ3NmbmRpOHVmTlY3QVJ4SEN0aktIaEEyVmc1WDY0bVNRZTE2ZnRfOTJocXM4WDJaUWRjeDFZVE15R3o2c2Y2SDRXREl3Y3k1QjJnS2VMV1pUTG5QMjVlNFl1WnZIN2tRTThXRV9ZQ2pUeDJSNWdkNnRhRDVsU3V1WnFNZ1JwTUtwOXRvZmd2NzgtX19TY2dhR3JaM1VHSnlkTTV0cWFNT0JhWEp3?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxQWEZpZENkQ0xiV25NRXY2Q0luNVZSTk0zQm5tYy1JQ0xTN3R3XzI3RTk5dTFQSTUwNlVQZEx0andQV2hxbnhZUzVYaDN6LXlTM054NER2WUZhc3RXaE1DbWFSV0V0bVVNa0hnaDFkeHhKS2xJZlQ4b3lka056MTRWSUJFSldWV3BoM2U1cFFuNThINHRXR1lBX0t6emNGZw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-11",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "BP BUMN",
+        "Danantara Indonesia",
+        "Bisnis.com",
+        "Kompas.com"
+      ],
+      "headline": "BP BUMN dan Danantara targetkan kawasan industri tekstil terintegrasi hulu-hilir",
+      "whatChanged": "Bisnis.com dan Kompas.com melaporkan pada 7-8 November 2026 bahwa BP BUMN bersama Danantara Indonesia secara resmi menargetkan pembangunan kawasan industri tekstil terintegrasi dari hulu hingga hilir. Ini adalah pengumuman target, bukan kontrak atau keputusan investasi yang sudah final.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring telah tercatat 30 kali sejak Oktober 2026 dan kini menambah dimensi baru: Danantara bergerak ke sektor manufaktur tekstil di samping perannya sebagai perantara ekspor komoditas. Pola ini menunjukkan ekspansi mandat Danantara melampaui komoditas ke industri pengolahan, yang menambah kompleksitas tata kelola karena satu entitas kini mengelola portofolio lintas sektor.",
+      "secondOrder": "Ekspansi ke kawasan industri tekstil membawa Danantara ke wilayah yang membutuhkan investasi infrastruktur skala besar dan waktu matang yang panjang. Jika pembiayaan kawasan ini menggunakan neraca BUMN yang sudah ada di bawah konsolidasi Danantara, terdapat risiko bahwa modal yang seharusnya mendukung restrukturisasi BUMN yang sudah ada dialihkan ke proyek greenfield baru sebelum restrukturisasi lama selesai.",
+      "action": "Minta rincian struktur pembiayaan kawasan industri tekstil ini: identifikasi BUMN mana yang akan menjadi anchor investor, berapa porsi ekuitas versus utang, dan apakah ada jaminan pemerintah yang akan diberikan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTk0cVM4c2ZfVU00RVRJdW4xeXBzckRvMDJZRDdUQlk2OWNuYmRpQjFaYlgxRE9aNFctVjhoa0Z2QWpSVnpDcTVybU5jZy13REJUekUtVmRrNEd0bURpd3ZPdnpjSEZfVVBRXy11ZlQ1N0U2U3ZFRVl5RjZ1Qi1KaXJjeGVKUjVzWi1WUHZKcGtWc2F0OWVxRUNXVm9mNVBJWkNTZjA0UUVXTmF0NEJ5OVFWM1dWVGRTTHhUUEFhUjRVck9oazJz?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNkdDU2FKZGJPZi1YRGFvWlhiaTdQaDNkcEZxcjdSd1BSc0JjNDVtVlBCelN1cUVFQV9FV1E4WGd3ZDVqeThyUXcxQ0MzX19hbVlfTWlhVzMwZERVN0pybkVqZ2lwSUltdGJYcnlwUXNWd3Jxd3pickg3V2hqQ0VXaVQyT3AxQnBiODFjeV96ZU03X3NLNWVlSFp4RGl4dExNNldUZ3ZjZzRmNVYzN0ZXMTVFT2otQW04b1VOb3l1cWpGelNtdFhJ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-10",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Hasil negosiasi teks COP31 di Antalya, khususnya posisi Indonesia pada komitmen coal phase-out dan pendanaan JETP",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Perkembangan pasokan listrik sistem Sulbagsel dan apakah PLN mengaktifkan kontrak batubara darurat menjelang puncak El Niño",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Detail struktur akuisisi Google atas proyek Wyoming: apakah menggunakan skema project finance atau akuisisi aset langsung, dan implikasinya terhadap pasar pendanaan pusat data AI",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Rancangan legislasi keamanan AI yang didorong Beyer di Kongres AS: jadwal sidang komite dan cakupan kewajiban yang diusulkan",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "Struktur pembiayaan kawasan industri tekstil terintegrasi Danantara dan BP BUMN: pengumuman anchor investor dan financial close",
+      "dueDate": "2027-03-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "‘Simply staggering’: Rapidly developing ‘super El Niño’ on track to peak in December",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-06T09:12:35.000Z"
+    },
+    {
+      "title": "IESR: Menuju COP-31, Indonesia Tak Cukup Datang dengan Target Semata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-04T09:48:19.000Z"
+    },
+    {
+      "title": "Capaian Kebijakan Energi pada Dua Tahun Pemerintahan Prabowo-Gibran",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/capaian-kebijakan-energi-pada-dua-tahun-pemerintahan-prabowo-gibran/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-03T04:51:16.000Z"
+    },
+    {
+      "title": "El Nino Pangkas Pasokan Listrik Sulbagsel 315 MW, PLN Optimalkan PLTU",
+      "publisher": "Media Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQmpzbDI1SFJORkg3UnlIa0pLeEZDYnRxeVJDTTR6ZV9HQlQxeUVUT05tX3FrUTdyRDZkcGc2ZmpOTV90ZnFkYlp4T3I2RXAwY0N0aEM3Z3JudjZWbjEzNlRRQWoyWEIwRDRSTlRTMFNfTHBrYWprTlVBZm1oc1Y1WC0wMHk2TXdiV0NtZ09pRXRIQmZ0a3M4LXVvSHVqd0FvdmFPelZpSXJsdWozRC1BWGVB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-08T09:20:39.000Z"
+    },
+    {
+      "title": "Beyer Plans Swift AI Safety Push as Democrats Prepare Takeover",
+      "publisher": "Bloomberg Government News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObEVvQ3NmbmRpOHVmTlY3QVJ4SEN0aktIaEEyVmc1WDY0bVNRZTE2ZnRfOTJocXM4WDJaUWRjeDFZVE15R3o2c2Y2SDRXREl3Y3k1QjJnS2VMV1pUTG5QMjVlNFl1WnZIN2tRTThXRV9ZQ2pUeDJSNWdkNnRhRDVsU3V1WnFNZ1JwTUtwOXRvZmd2NzgtX19TY2dhR3JaM1VHSnlkTTV0cWFNT0JhWEp3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T21:34:00.000Z"
+    },
+    {
+      "title": "Google acquires Wyoming data center site from AI infrastructure firm Crusoe",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmdYV3dXUTRhWEJ2UTJxUXBMMmxVX292SEdXZlVJNmJIa0lzNVNRT0J3QjJhc0VnN2lYUnQybkNkd0JsRV8xUTc1Qk1nZllyQUx0RnJTTENFVEhJdXUyYW9SQXVodjFLT1RmSDF3UE1PODFDRnkzVnhkaEpVSDdwSDJRV2Y5dDZOTXF2cUoxUWlVVnBXWklYRjNpNGp0N2x1N0I1bFgtMFl3eldkdHZxUUlZRVdzQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T20:03:34.000Z"
+    },
+    {
+      "title": "BP BUMN dan Danantara Targetkan Pengembangan Kawasan Industri Tekstil Terintegrasi - Bisnis.com",
+      "publisher": "Bisnis.com - Foto",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTk0cVM4c2ZfVU00RVRJdW4xeXBzckRvMDJZRDdUQlk2OWNuYmRpQjFaYlgxRE9aNFctVjhoa0Z2QWpSVnpDcTVybU5jZy13REJUekUtVmRrNEd0bURpd3ZPdnpjSEZfVVBRXy11ZlQ1N0U2U3ZFRVl5RjZ1Qi1KaXJjeGVKUjVzWi1WUHZKcGtWc2F0OWVxRUNXVm9mNVBJWkNTZjA0UUVXTmF0NEJ5OVFWM1dWVGRTTHhUUEFhUjRVck9oazJz?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-08T09:00:35.000Z"
+    },
+    {
+      "title": "Pasokan listrik di Sulbagsel berkurang, PLN percepat pemulihan PLTU",
+      "publisher": "ANTARA News Makassar",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQczJUUGEwWDhSRXc1cU1DT1NfT0M2NG1sQXFZRW90STExT2J5OTdSSjNkM2cxTmdXQXNLUU1pTk9ZOHlBZkZPWmNhWUVveUhtUkM4S0UzblQzOVJqakpfbzJBMmdmWnRoZkwwQmJhZzdNR2s4MEYtYTQ4blFjN3laaTVlTk5wOUdzVXI5UU9jeW00SUhiNkZZVVU1R1hkVGItR0dhMkhoLUZDZjhsbWtOb0x3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-06T05:32:59.000Z"
+    },
+    {
+      "title": "Building credibility in Indonesia’s energy transition: Insights from the ETM and JETP Indonesia",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-02-05T08:00:00.000Z"
+    },
+    {
+      "title": "Google Plans to Spend $17 Billion on Wyoming Data Center",
+      "publisher": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNE1UblF4V2JrTFJGbnZvOWxFaURSZ3d6Y1VFRjcwWHVCcXlMQm94STFoeF95ekVHclBNbWtURXppSW1iV2NpWVFJNXdwZlU5MFd2UjlOWEhubnIyX2t5N1hhUU12MWh1QVJHZDljSjdOQk5EMHZNeWRMQ2tWUGhqdFpqR1JmMTBoUjdtZFpSSlFWU3FpaElDQV9mUzB5RWtSdnRQVmF3QTF5Zw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T19:02:41.000Z"
+    },
+    {
+      "title": "California Sends AI Safety Lawmaker to Congress",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWEZpZENkQ0xiV25NRXY2Q0luNVZSTk0zQm5tYy1JQ0xTN3R3XzI3RTk5dTFQSTUwNlVQZEx0andQV2hxbnhZUzVYaDN6LXlTM054NER2WUZhc3RXaE1DbWFSV0V0bVVNa0hnaDFkeHhKS2xJZlQ4b3lka056MTRWSUJFSldWV3BoM2U1cFFuNThINHRXR1lBX0t6emNGZw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-05T15:00:00.000Z"
+    },
+    {
+      "title": "Danantara Targetkan Bangun Kawasan Industri Tekstil Terintegrasi dari Hulu ke Hilir",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNkdDU2FKZGJPZi1YRGFvWlhiaTdQaDNkcEZxcjdSd1BSc0JjNDVtVlBCelN1cUVFQV9FV1E4WGd3ZDVqeThyUXcxQ0MzX19hbVlfTWlhVzMwZERVN0pybkVqZ2lwSUltdGJYcnlwUXNWd3Jxd3pickg3V2hqQ0VXaVQyT3AxQnBiODFjeV96ZU03X3NLNWVlSFp4RGl4dExNNldUZ3ZjZzRmNVYzN0ZXMTVFT2otQW04b1VOb3l1cWpGelNtdFhJ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-07T01:50:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara Sumberdaya Indonesia jadi perantara tunggal ekspor batu bara dan sawit mulai 2027",
+      "occurrences": 30,
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-11-08",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN dan swasta butuh 173,83 juta ton batu bara pada 2027, berbenturan dengan skema ekspor Danantara",
+      "occurrences": 28,
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-11-08",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Advokat keamanan AI belanjakan USD 110 juta di midterm AS, meraih kursi legislatif",
+      "occurrences": 28,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-08",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Google akuisisi proyek pusat data Wyoming dari Crusoe, komitmen investasi USD 17 miliar",
+      "occurrences": 23,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-08",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: Indonesia belum siap COP31, implementasi kebijakan energi dua tahun pertama jauh dari target",
+      "occurrences": 14,
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-11-08",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 412,
+    "poolSize": 110,
+    "generatedAt": "2026-11-09T00:48:29.369Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
