@@ -1,0 +1,296 @@
+{
+  "slug": "2026-11-10",
+  "date": "2026-11-10",
+  "lang": "en",
+  "title": "PLN's $200B Grid Gap, SpaceX Data-Center Bet, and Sritex's Danantara Signal",
+  "dek": "Three structural decisions converge today: Indonesia's power financing shortfall hits a figure, AI infrastructure commits to gas-backed compute, and Danantara's industrial rescue logic surfaces through Sritex's delisting.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "PLN has disclosed it needs Rp3,290 trillion (roughly $200 billion) in electricity investment through 2034, with a separate $29 billion supergrid requirement, while its revised RUPTL 2025-2034 awaits final ESDM sign-off. That financing gap is structural, not cyclical, and no single capital source closes it. Simultaneously, SpaceX is pursuing a $24 billion gas-plus-data-center project in Texas, confirming that hyperscale AI compute is now vertically integrating into power generation rather than buying it from utilities. On governance, Sritex's delisting from IDX today, combined with explicit public signals that Danantara may acquire the collapsed textile group, extends the BUMN-karya restructuring pattern into private-sector rescue, with politically significant employment stakes attached. OpenAI's Control Room, a kill-switch system for model workloads across research infrastructure, represents the first published operational safety mechanism of this type from a frontier lab, relevant to any institution assessing AI safety credibility. Claude Fable 5.2 scoring 65 on the Artificial Analysis benchmark establishes a new public frontier, narrowing the gap between Anthropic and OpenAI at the top of the capability ladder.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "PLN needs Rp3,290 trillion for power projects through 2034; $29 billion supergrid figure disclosed separately",
+      "whatChanged": "PLN has publicly stated it requires Rp3,290 trillion in total electricity investment through 2034, covering generation, transmission, and distribution. A separate figure of $29 billion was disclosed specifically for the renewable energy supergrid. The revised RUPTL 2025-2034 is complete on PLN's side and is now pending approval from Kementerian ESDM.",
+      "whyItMatters": "This continues the pln-grid-investment thread, now at structural status after 28 appearances since October. The figures make explicit what the archive has been tracking: Indonesia's energy transition financing requirement is not a planning aspiration but a capital mobilization problem measured in hundreds of billions of dollars. No combination of PLN's balance sheet, state budget, and existing JETP commitments closes this gap, so the revised RUPTL's approval will immediately trigger questions about which projects get financed and by whom.",
+      "secondOrder": "When a utility publishes a financing number this large before a plan is approved, it is signaling to international capital markets and multilateral lenders rather than to domestic audiences. The timing, with COP31 running in Antalya through 20 November, suggests PLN and ESDM are positioning the RUPTL as a bankable pipeline for blended-finance instruments. Investors evaluating Indonesia's energy transition should treat RUPTL approval not as a regulatory formality but as the opening of a project-finance queue requiring sponsor, offtaker, and lender structures on each line item.",
+      "action": "Map the Rp3,290 trillion against known financing instruments: PLN's current debt capacity, JETP commitments, ADB and World Bank pipelines, and Danantara's stated infrastructure mandate. Identify which segments (supergrid vs. generation vs. distribution) have the least identified funding and prepare questions for the ESDM approval announcement.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZjRNMWt5Q2czTHZXX3NPMlpGQlFoajAyZzZVbzNEeGNONjZydUd6aTBFV2VkNE9uSTNhai04d0JaV2xJTmdTaGN4b0h3eVB2ZzNCRzFMOXdfc0ZhUi11OXR0RDJubUtrekhENGdySkdpTFdyLXlyT0FtZTQydVkwNEd1d3prR0NNUFNPcUdtLVlja2VkYWNsNFpORXpfSFFfaHRqUHB5Y2Q0eE5ZRVdfSmpNenRJOFNKWlBuX091b2FJa0JKNmRYQw?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSEI3WDAtSTRRVUJqYUp0YzY5MnRzZEVPdDdDVnpCbmxkUWU5RVJBeWI0T2k5eXExVVRndVd5XzhCSC04V3JWbTE4dDZlWjNqOG1ybFI5ODctTlNUcktUOGRsSWFnZzMzR0VBQ2Z6emVENEYwaktKUkRnNUdreHhyVWR3X2JvV3NxMEY5Q3NHbm13VkhMdEs2VzNBMFJwU2t2b3pvYVYwaTg2a2lsMldGb21iYlVoQWh0TEJmTkN1SjlxUjdFcnc?oc=5",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaWNyWjJWV3Q1R3ktREFxbEVac2F4anlEa1ZaU3duSncwMDFDXzROVUY5RGhlZW9LOUdUNl9SQTZhdEpCX1dITU5TWWpoT3BSaTlsWWloWldiWXdhTlVhbGtiaXJNaFNDUVZiVXlndFNhWjJFVUFCNVlLREpMa3RqVG1fbGVVUm5BSWdNU1QyLUxhMDFrTVhfQ0x1bWtJWjTSAZgBQVVfeXFMTWU3RWFnU2JIUWMxcmRKcVhuSXNSYmxvZHBoWVlyOVBWclF0ZjZYTVVBTGt0OGtwTlZyTmRRZE41N1VUV0tKdU5nLVlTaVFoWHRFWjdIbWN1RTFDNFNvcW84RUNYTV9pMENaSmJZbDhwWnlRVzB5cWU0OVRMLW0zckxFT1ZaUExPNGdyekJ1Rlp0N0M0SGJUTnk?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-11",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Sritex",
+        "Bursa Efek Indonesia",
+        "Lo Kheng Hong"
+      ],
+      "headline": "Sritex delisted from IDX today as Danantara acquisition signals surface publicly",
+      "whatChanged": "PT Sri Rejeki Isman Tbk (SRIL), Indonesia's largest textile manufacturer, was delisted from Bursa Efek Indonesia on 10 November 2026 after 13 years as a listed company. Former workers have publicly stated hopes that Danantara will acquire the company and rehire them, and investor Lo Kheng Hong's remaining stake and Danantara signals are being reported together in financial media.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now 30 appearances at structural status. The Sritex case is distinct from prior BUMN-karya consolidations because Sritex is a private company in bankruptcy, not a state enterprise being rationalized. If Danantara acquires it, the mandate expands from reorganizing existing SOEs into rescuing strategically significant private firms, which is a qualitatively different scope of intervention with different legal, financial, and governance implications.",
+      "secondOrder": "A Danantara acquisition of Sritex would create a precedent that politically sensitive private-sector failures can be absorbed into the state investment vehicle, raising the probability that other large distressed private employers seek similar treatment. This changes the risk calculus for lenders to large Indonesian manufacturers: the implicit government backstop through Danantara becomes a variable in credit analysis rather than a remote possibility. International investors already cautious about Indonesia's market reform credibility after the January 2026 IDX episode will read this as a further blurring of commercial and policy mandates.",
+      "action": "Determine whether Danantara has a formal legal basis to acquire private firms in bankruptcy under its current charter, and whether such an acquisition would require Ministry of Finance or DPR approval. The answer determines how quickly a rescue could be structured and whether it would be disclosed through normal BUMN channels.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDRLQTN5N2cySGFuVDhMeFhmTHRQZXl0QUI5ZHNOY2ZpeWFnUDZySjQ0N0toczRuYTZIXzVLOHVDSDVPSkdiamFNZXUtb1RqbTB3ckMzSFF5MzJkSEwtVGpCa0Q5SHhPS252bV9ySjZhWlU0YzBrQjN3RlkzaGt6SWNvUTlpTWFFbXZPcUthLVB0TERfRzRyblRUcGxwQWpLd1N1b3pURGpROV9mQ0JnMWlkVjNPWHRVWVFld2xyVDhBLUhiV1dOenV30gHPAUFVX3lxTE9WdE9yR2dLTnVaSVlMRnIzallXY0lxcnJtWm9MZEx6OWYxaS1NcHZBeEhGbGJaMFppa0N5cFI0c3lwbnhGeU9iOWtjelBBVW5ubDZvTWZSOW5xMDZWZjRBME9TYTZjQmkwTDk1NEJhMVRsZlByRzZmcHdvOHlQMGI5OTdLamcxVzliVndBdnVRM2JtVm5BdERrNW5EeThqYjhwTUd3MUtXWm9sZkYycnUxLUZuRGRJbzVYNkp2UmY2VDN6c3hELS1pUWg3WWwycw?oc=5",
+        "https://katadata.co.id/finansial/bursa/6af2712da2179/akhir-kisah-raksasa-tekstil-sritex-sril-di-bei-delisting-setelah-13-tahun-ipo",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQlgwUUFvZ1FnbUtFV3VTLTlhQXNVeE5XX24wQ2t3LUVNUXBnTXBZMG1OVlBsSDJobFlkWDY1YXNQWXRQeUVPVy1KN3RNbzFUdllCNXp6OWZQRjY2aHppQXNaR00tTklDUUcwMl93d01vUFR6U3lrSlVzYnZia2Rzb2E3QTJKWFBCOENmUFVGQWtkYUNJOTU4QUg5MXRpZ016aGtZNDZybFQ5SnlVRl9rRk5fMkc1d3RUUTBnag?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-11",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Control Room"
+      ],
+      "headline": "OpenAI publishes Control Room: an operational kill-switch system for model workloads across research infrastructure",
+      "whatChanged": "OpenAI has published a description of Control Room, an internal system that tracks model workloads across its research infrastructure and can rapidly stop them when safety or security concerns arise. This is a primary-source disclosure of an operational safety mechanism, not a policy commitment.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread. Prior entries in this archive have tracked legislative proposals and policy positions; Control Room is the first published account of an operational safety mechanism from a frontier lab. The distinction matters because it shifts the conversation from what labs promise to what they have built and can demonstrate.",
+      "secondOrder": "Publishing the existence of Control Room raises the bar for other frontier labs: Anthropic, Google DeepMind, and xAI will now face questions about whether they have equivalent systems and whether those systems are auditable by third parties. For enterprise buyers and regulators, Control Room creates a template for what a minimum-viable safety infrastructure looks like at the research level, which will migrate into procurement requirements and regulatory standards faster than most labs anticipate.",
+      "action": "Request technical documentation on Control Room's scope: which workloads are covered, what triggers a stop, who has authority to initiate, and whether logs are available to external auditors. Use these as the benchmark questions when assessing safety infrastructure at other frontier labs or when drafting AI procurement criteria.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/control-room"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-11",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "SpaceX",
+        "Reuters",
+        "ERCOT"
+      ],
+      "headline": "SpaceX plans $24 billion gas power plant and data center in Texas, vertically integrating AI compute into power generation",
+      "whatChanged": "SpaceX is planning a $24 billion project in Texas that combines a gas-fired power plant with a data center, according to Reuters. This is a single vertically integrated investment in which the compute operator also owns the generation asset.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power thread and extends it beyond nuclear co-location into gas-backed compute. The pattern is now consistent across multiple operators: AI infrastructure developers are acquiring or building generation capacity rather than purchasing power under offtake agreements. SpaceX doing this at $24 billion in a single project signals that the economics of merchant power purchase are no longer acceptable to hyperscale compute operators, at least for baseload-intensive workloads.",
+      "secondOrder": "If compute operators routinely own generation, the utility business model for serving data centers deteriorates: utilities lose the highest-credit offtakers to self-supply, leaving residential and industrial loads with stranded infrastructure costs. Grid operators face a new topology in which large generation assets are captive to single industrial consumers, complicating dispatch, ancillary services, and reliability planning. Regulators who have not yet addressed captive industrial generation at this scale will face rules gaps when the first of these projects seeks interconnection.",
+      "action": "Review the interconnection and permitting implications of vertically integrated AI-generation projects in jurisdictions where your institution operates or invests. The SpaceX Texas project will require ERCOT interconnection filings; track those as the first data point on regulatory treatment of this structure.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZGhRNnpDTGdodFotZVZacFc5cC1NdnhETU5xb19iMFIxUUgySlJiOEYyX1RsdnFwY1h5VkM5RWpoVVVseFVJMFFFQ3ByaGxUOXZxY3R2M2RNSFJGaXhqU3VzSmhndWpmdklTd2RIekc1Nlg2b1FRVGdsdnN0YzVEQVVrZmpqT1JUVG9GamZ1U29EZjdaV0xFZEJTemZxdUZleGlLb055UEo0Slhod1VBU09kNWw0ajZmQnJmQUp3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-10-12",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "ESDM formal approval of revised RUPTL 2025-2034: triggers project-finance queue and sets priority order for the Rp3,290 trillion pipeline",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Danantara official statement on Sritex acquisition intent and legal basis for acquiring private firms in bankruptcy",
+      "dueDate": "2026-11-24"
+    },
+    {
+      "item": "SpaceX ERCOT interconnection filing for the Texas gas-plus-data-center project: first regulatory data point on captive industrial generation at this scale",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "COP31 Antalya closing outcomes on Belém-Antalya just-transition mechanism and Indonesia's five climate strategies: assess whether RUPTL financing is embedded in any bilateral commitment",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Third-party audit or external disclosure requirements emerging from OpenAI Control Room publication: watch for regulatory or procurement bodies citing it as a standard",
+      "dueDate": "2027-02-28"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PLN Butuh Investasi Rp3.290 Triliun untuk Proyek Ketenagalistrikan hingga 2034 - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZjRNMWt5Q2czTHZXX3NPMlpGQlFoajAyZzZVbzNEeGNONjZydUd6aTBFV2VkNE9uSTNhai04d0JaV2xJTmdTaGN4b0h3eVB2ZzNCRzFMOXdfc0ZhUi11OXR0RDJubUtrekhENGdySkdpTFdyLXlyT0FtZTQydVkwNEd1d3prR0NNUFNPcUdtLVlja2VkYWNsNFpORXpfSFFfaHRqUHB5Y2Q0eE5ZRVdfSmpNenRJOFNKWlBuX091b2FJa0JKNmRYQw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T14:33:35.000Z"
+    },
+    {
+      "title": "PLN Butuh Investasi 29 Miliar Dolar AS untuk Bangun Supergrid Energi Terbarukan",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSEI3WDAtSTRRVUJqYUp0YzY5MnRzZEVPdDdDVnpCbmxkUWU5RVJBeWI0T2k5eXExVVRndVd5XzhCSC04V3JWbTE4dDZlWjNqOG1ybFI5ODctTlNUcktUOGRsSWFnZzMzR0VBQ2Z6emVENEYwaktKUkRnNUdreHhyVWR3X2JvV3NxMEY5Q3NHbm13VkhMdEs2VzNBMFJwU2t2b3pvYVYwaTg2a2lsMldGb21iYlVoQWh0TEJmTkN1SjlxUjdFcnc?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T00:40:27.000Z"
+    },
+    {
+      "title": "SpaceX plans $24 billion gas power plant, data center project in Texas",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZGhRNnpDTGdodFotZVZacFc5cC1NdnhETU5xb19iMFIxUUgySlJiOEYyX1RsdnFwY1h5VkM5RWpoVVVseFVJMFFFQ3ByaGxUOXZxY3R2M2RNSFJGaXhqU3VzSmhndWpmdklTd2RIekc1Nlg2b1FRVGdsdnN0YzVEQVVrZmpqT1JUVG9GamZ1U29EZjdaV0xFZEJTemZxdUZleGlLb055UEo0Slhod1VBU09kNWw0ajZmQnJmQUp3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T22:17:07.000Z"
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/control-room",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-09T13:00:00.000Z"
+    },
+    {
+      "title": "Sritex (SRIL) Delisting, Ada Saham Lo Kheng Hong dan Sinyal Danantara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDRLQTN5N2cySGFuVDhMeFhmTHRQZXl0QUI5ZHNOY2ZpeWFnUDZySjQ0N0toczRuYTZIXzVLOHVDSDVPSkdiamFNZXUtb1RqbTB3ckMzSFF5MzJkSEwtVGpCa0Q5SHhPS252bV9ySjZhWlU0YzBrQjN3RlkzaGt6SWNvUTlpTWFFbXZPcUthLVB0TERfRzRyblRUcGxwQWpLd1N1b3pURGpROV9mQ0JnMWlkVjNPWHRVWVFld2xyVDhBLUhiV1dOenV30gHPAUFVX3lxTE9WdE9yR2dLTnVaSVlMRnIzallXY0lxcnJtWm9MZEx6OWYxaS1NcHZBeEhGbGJaMFppa0N5cFI0c3lwbnhGeU9iOWtjelBBVW5ubDZvTWZSOW5xMDZWZjRBME9TYTZjQmkwTDk1NEJhMVRsZlByRzZmcHdvOHlQMGI5OTdLamcxVzliVndBdnVRM2JtVm5BdERrNW5EeThqYjhwTUd3MUtXWm9sZkYycnUxLUZuRGRJbzVYNkp2UmY2VDN6c3hELS1pUWg3WWwycw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T00:05:01.000Z"
+    },
+    {
+      "title": "PLN Sebut Revisi RUPTL 2025–2034 Tinggal Tunggu Persetujuan ESDM",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaWNyWjJWV3Q1R3ktREFxbEVac2F4anlEa1ZaU3duSncwMDFDXzROVUY5RGhlZW9LOUdUNl9SQTZhdEpCX1dITU5TWWpoT3BSaTlsWWloWldiWXdhTlVhbGtiaXJNaFNDUVZiVXlndFNhWjJFVUFCNVlLREpMa3RqVG1fbGVVUm5BSWdNU1QyLUxhMDFrTVhfQ0x1bWtJWjTSAZgBQVVfeXFMTWU3RWFnU2JIUWMxcmRKcVhuSXNSYmxvZHBoWVlyOVBWclF0ZjZYTVVBTGt0OGtwTlZyTmRRZE41N1VUV0tKdU5nLVlTaVFoWHRFWjdIbWN1RTFDNFNvcW84RUNYTV9pMENaSmJZbDhwWnlRVzB5cWU0OVRMLW0zckxFT1ZaUExPNGdyekJ1Rlp0N0M0SGJUTnk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T14:19:15.000Z"
+    },
+    {
+      "title": "Akhir Kisah Raksasa Tekstil Sritex (SRIL) di BEI, Delisting Setelah 13 Tahun IPO",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/bursa/6af2712da2179/akhir-kisah-raksasa-tekstil-sritex-sril-di-bei-delisting-setelah-13-tahun-ipo",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-10T01:19:00.000Z"
+    },
+    {
+      "title": "Eks Buruh Sritex Berharap Direkrut Kembali jika Danantara Akuisisi Perusahaan",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQlgwUUFvZ1FnbUtFV3VTLTlhQXNVeE5XX24wQ2t3LUVNUXBnTXBZMG1OVlBsSDJobFlkWDY1YXNQWXRQeUVPVy1KN3RNbzFUdllCNXp6OWZQRjY2aHppQXNaR00tTklDUUcwMl93d01vUFR6U3lrSlVzYnZia2Rzb2E3QTJKWFBCOENmUFVGQWtkYUNJOTU4QUg5MXRpZ016aGtZNDZybFQ5SnlVRl9rRk5fMkc1d3RUUTBnag?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T15:38:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BP BUMN dan Danantara targetkan kawasan industri tekstil terintegrasi hulu-hilir",
+      "occurrences": 30,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Legislator pro-regulasi AI masuk Kongres AS, Beyer siapkan RUU keamanan AI",
+      "occurrences": 29,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Super El Niño potong pasokan listrik Sulbagsel 315 MW, PLN andalkan PLTU",
+      "occurrences": 28,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Google akuisisi proyek pusat data Wyoming dari Crusoe, komitmen investasi USD 17 miliar",
+      "occurrences": 24,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: Indonesia memasuki COP31 tanpa implementasi kebijakan energi yang proporsional dengan target",
+      "occurrences": 14,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 410,
+    "poolSize": 110,
+    "generatedAt": "2026-11-10T02:02:49.651Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "slug": "2026-11-10",
+  "date": "2026-11-10",
+  "lang": "id",
+  "title": "PLN Rp3.290 T, Supergrid USD 29 M, dan Claude Fable 5.2: Tiga Batas Baru Satu Hari",
+  "dek": "Keputusan investasi kelistrikan Indonesia dan lompatan model frontier AI bertemu pada hari yang sama, memaksa kalkulasi ulang tentang siapa yang membiayai dan siapa yang mengendalikan infrastruktur kritis.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "PLN merilis angka investasi Rp3.290 triliun hingga 2034 dan membutuhkan USD 29 miliar khusus untuk supergrid energi terbarukan, sementara revisi RUPTL 2025-2034 masih menunggu persetujuan ESDM. Di sisi AI, Anthropic merilis Claude Fable 5.2 yang mencatat skor 65 pada Artificial Analysis, tertinggi yang pernah diukur, sementara OpenAI memperkenalkan Control Room sebagai sistem pengawasan beban kerja model di infrastruktur riset mereka. SpaceX mengumumkan rencana proyek pusat data dan pembangkit gas USD 24 miliar di Texas, mengonfirmasi bahwa pemain infrastruktur fisik kini masuk langsung ke rantai nilai AI. Delisting Sritex dari BEI dan sinyal keterlibatan Danantara mencerminkan tekanan restrukturisasi BUMN yang belum selesai.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "PLN butuh Rp3.290 triliun hingga 2034, termasuk USD 29 miliar untuk supergrid EBT",
+      "whatChanged": "PLN mengungkapkan total kebutuhan investasi ketenagalistrikan sebesar Rp3.290 triliun hingga 2034. Dari jumlah itu, USD 29 miliar dialokasikan khusus untuk membangun supergrid energi terbarukan. Revisi RUPTL 2025-2034 disebut PLN tinggal menunggu persetujuan Kementerian ESDM.",
+      "whyItMatters": "Tema ini berstatus structural selama 28 hari terakhir. Angka Rp3.290 triliun adalah yang pertama kali dirinci secara publik bersamaan dengan angka supergrid, memberikan basis perhitungan konkret untuk menilai kesenjangan pembiayaan. Revisi RUPTL yang belum ditandatangani ESDM berarti kepastian investasi swasta masih tertunda, karena kontrak offtaker dan izin proyek biasanya menunggu RUPTL yang berlaku.",
+      "secondOrder": "Ketika angka total investasi dan angka supergrid dirilis bersamaan tetapi RUPTL belum disahkan, investor swasta dan lender menghadapi asimetri informasi: kebutuhan modal sudah diumumkan, tetapi kerangka hukum untuk recovery investasi belum final. Kondisi ini mendorong biaya pembiayaan lebih tinggi karena lender akan memperhitungkan risiko kebijakan ke dalam spread. Implikasi akumulatif dari tema pln-transmisi-investasi adalah bahwa setiap bulan penundaan pengesahan RUPTL menambah premi risiko yang akan dibayar konsumen melalui tarif atau ditanggung negara melalui subsidi.",
+      "action": "Periksa apakah pengesahan RUPTL oleh ESDM masih mengandung klausul yang dapat mengubah alokasi kapasitas EBT vs fosil. Jika berubah, hitung ulang profil risiko proyek-proyek yang sudah masuk pipeline dengan asumsi RUPTL lama.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZjRNMWt5Q2czTHZXX3NPMlpGQlFoajAyZzZVbzNEeGNONjZydUd6aTBFV2VkNE9uSTNhai04d0JaV2xJTmdTaGN4b0h3eVB2ZzNCRzFMOXdfc0ZhUi11OXR0RDJubUtrekhENGdySkdpTFdyLXlyT0FtZTQydVkwNEd1d3prR0NNUFNPcUdtLVlja2VkYWNsNFpORXpfSFFfaHRqUHB5Y2Q0eE5ZRVdfSmpNenRJOFNKWlBuX091b2FJa0JKNmRYQw?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSEI3WDAtSTRRVUJqYUp0YzY5MnRzZEVPdDdDVnpCbmxkUWU5RVJBeWI0T2k5eXExVVRndVd5XzhCSC04V3JWbTE4dDZlWjNqOG1ybFI5ODctTlNUcktUOGRsSWFnZzMzR0VBQ2Z6emVENEYwaktKUkRnNUdreHhyVWR3X2JvV3NxMEY5Q3NHbm13VkhMdEs2VzNBMFJwU2t2b3pvYVYwaTg2a2lsMldGb21iYlVoQWh0TEJmTkN1SjlxUjdFcnc?oc=5",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaWNyWjJWV3Q1R3ktREFxbEVac2F4anlEa1ZaU3duSncwMDFDXzROVUY5RGhlZW9LOUdUNl9SQTZhdEpCX1dITU5TWWpoT3BSaTlsWWloWldiWXdhTlVhbGtiaXJNaFNDUVZiVXlndFNhWjJFVUFCNVlLREpMa3RqVG1fbGVVUm5BSWdNU1QyLUxhMDFrTVhfQ0x1bWtJWjTSAZgBQVVfeXFMTWU3RWFnU2JIUWMxcmRKcVhuSXNSYmxvZHBoWVlyOVBWclF0ZjZYTVVBTGt0OGtwTlZyTmRRZE41N1VUV0tKdU5nLVlTaVFoWHRFWjdIbWN1RTFDNFNvcW84RUNYTV9pMENaSmJZbDhwWnlRVzB5cWU0OVRMLW0zckxFT1ZaUExPNGdyekJ1Rlp0N0M0SGJUTnk?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-11",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Artificial Analysis",
+        "Control Room"
+      ],
+      "headline": "Claude Fable 5.2 capai skor 65 pada Artificial Analysis; OpenAI luncurkan Control Room untuk pengawasan beban kerja model",
+      "whatChanged": "Claude Fable 5.2 mencatat skor 65 pada platform evaluasi Artificial Analysis, tertinggi yang pernah diukur di platform tersebut, berdasarkan laporan Hacker News dengan 948 poin dan 573 komentar. Pada hari yang sama, OpenAI memublikasikan Control Room, sebuah sistem terpusat untuk melacak dan menghentikan beban kerja model di seluruh infrastruktur riset mereka ketika muncul kekhawatiran keamanan atau keamanan siber.",
+      "whyItMatters": "Tema ai-model-safety-frontier berstatus structural selama 29 hari terakhir. Dua peristiwa ini terjadi bersamaan: satu menunjukkan lompatan kemampuan model frontier, satu menunjukkan respons institusional terhadap risiko yang ditimbulkan model frontier. Control Room dari OpenAI adalah sumber primer yang menunjukkan bahwa lab AI terbesar kini membangun infrastruktur pengendalian operasional, bukan hanya kebijakan, sebagai respons terhadap tekanan regulasi.",
+      "secondOrder": "Kombinasi skor frontier yang naik dan sistem pengendalian yang dipublikasikan mengubah dinamika regulasi: legislator yang sebelumnya menghadapi argumen bahwa regulasi keamanan AI bersifat prematur kini punya bukti bahwa lab sendiri mengakui perlunya mekanisme penghentian darurat. Ini memperkuat posisi legislator pro-regulasi seperti yang sudah masuk Kongres AS. Bagi pengguna enterprise, keberadaan Control Room juga berarti OpenAI secara teknis dapat menghentikan beban kerja pelanggan, sehingga klausul SLA dan force majeure dalam kontrak enterprise perlu ditinjau ulang.",
+      "action": "Tinjau kontrak enterprise AI yang sedang berjalan untuk klausul yang mengatur hak vendor menghentikan layanan atas alasan keamanan. Nilai apakah Control Room menciptakan eksposur operasional baru yang perlu dicerminkan dalam business continuity plan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/control-room",
+        "https://artificialanalysis.ai/models/claude-fable-5-2",
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-11",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "COP31"
+      ],
+      "headline": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "whatChanged": "IESR hadir di COP31 Antalya yang dibuka 9 November 2026 dan secara eksplisit mendorong pemerintah Indonesia agar memanfaatkan forum ini untuk mengintegrasikan transisi energi ke dalam strategi pembangunan dan ketahanan energi, bukan hanya menyampaikan target. Sebelumnya pada 4 November, IESR menilai Indonesia tidak cukup datang dengan target semata.",
+      "whyItMatters": "Tema indonesia-geothermal-concession-reform berstatus structural selama 14 hari. IESR mengakumulasikan tekanan publik terhadap pemerintah Indonesia justru di momen COP31, ketika komitmen iklim diuji di depan komunitas internasional. Jika Indonesia hanya membawa target tanpa mekanisme implementasi, posisi tawar untuk mendapatkan pendanaan iklim seperti ETM dan JETP akan melemah.",
+      "secondOrder": "Tekanan IESR di COP31 berpotensi memengaruhi persepsi lender internasional terhadap risiko kebijakan Indonesia. Lender yang mempertimbangkan portofolio energi terbarukan di Indonesia akan menggunakan sinyal COP31 sebagai proksi untuk komitmen pemerintah. Jika delegasi Indonesia terlihat defensif atau tanpa rencana implementasi konkret, hal ini dapat menambah spread pembiayaan proyek EBT, yang berdampak langsung pada keterjangkauan Rp3.290 triliun investasi yang dibutuhkan PLN.",
+      "action": "Pantau pernyataan resmi delegasi Indonesia di COP31 Antalya antara 9-20 November 2026. Nilai apakah ada komitmen baru yang dapat menjadi katalis percepatan pengesahan RUPTL atau regulasi energi terbarukan yang tertunda.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://iesr.or.id/cop31-antalya-iesr-dorong-indonesia-jadikan-transisi-energi-berkeadilan-sebagai-strategi-pembangunan-dan-ketahanan-energi/",
+        "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 15,
+        "firstSeen": "2026-10-11",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Sritex",
+        "Danantara",
+        "Bursa Efek Indonesia"
+      ],
+      "headline": "Sritex delisting dari BEI hari ini; sinyal keterlibatan Danantara memunculkan ekspektasi akuisisi",
+      "whatChanged": "PT Sri Rejeki Isman Tbk (SRIL) atau Sritex dihapus pencatatannya dari Bursa Efek Indonesia pada 10 November 2026 setelah 13 tahun tercatat. CNBC Indonesia dan Katadata melaporkan adanya sinyal keterlibatan Danantara, sementara eks buruh Sritex secara terbuka berharap direkrut kembali jika Danantara mengakuisisi perusahaan tersebut, berdasarkan laporan Kompas.com.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring berstatus structural selama 30 hari dengan 30 kemunculan sejak 11 Oktober. Delisting Sritex adalah peristiwa pasar modal konkret yang mengaktifkan kembali pertanyaan tentang peran Danantara sebagai penyerap aset bermasalah. Jika Danantara masuk, ini akan menjadi preseden apakah Danantara berfungsi sebagai vehicle restrukturisasi industri atau sekadar instrumen penyelamatan perusahaan bermasalah dengan eksposur politik.",
+      "secondOrder": "Ekspektasi akuisisi oleh Danantara yang terbentuk di kalangan buruh dan pasar sebelum ada pernyataan resmi menciptakan moral hazard: perusahaan lain yang menghadapi kesulitan dapat mulai menghitung Danantara sebagai backstop implisit, yang mengubah perilaku kreditur dan manajemen perusahaan BUMN maupun swasta yang terhubung ke ekosistem negara. Ini melemahkan disiplin pasar yang seharusnya diperkuat oleh reformasi tata kelola.",
+      "action": "Minta konfirmasi resmi dari Danantara tentang status kajian akuisisi Sritex sebelum menilai eksposur. Jika tidak ada pernyataan resmi dalam 5-7 hari kerja, perlakukan sinyal ini sebagai spekulasi pasar, bukan kebijakan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDRLQTN5N2cySGFuVDhMeFhmTHRQZXl0QUI5ZHNOY2ZpeWFnUDZySjQ0N0toczRuYTZIXzVLOHVDSDVPSkdiamFNZXUtb1RqbTB3ckMzSFF5MzJkSEwtVGpCa0Q5SHhPS252bV9ySjZhWlU0YzBrQjN3RlkzaGt6SWNvUTlpTWFFbXZPcUthLVB0TERfRzRyblRUcGxwQWpLd1N1b3pURGpROV9mQ0JnMWlkVjNPWHRVWVFld2xyVDhBLUhiV1dOenV30gHPAUFVX3lxTE9WdE9yR2dLTnVaSVlMRnIzallXY0lxcnJtWm9MZEx6OWYxaS1NcHZBeEhGbGJaMFppa0N5cFI0c3lwbnhGeU9iOWtjelBBVW5ubDZvTWZSOW5xMDZWZjRBME9TYTZjQmkwTDk1NEJhMVRsZlByRzZmcHdvOHlQMGI5OTdLamcxVzliVndBdnVRM2JtVm5BdERrNW5EeThqYjhwTUd3MUtXWm9sZkYycnUxLUZuRGRJbzVYNkp2UmY2VDN6c3hELS1pUWg3WWwycw?oc=5",
+        "https://katadata.co.id/finansial/bursa/6af2712da2179/akhir-kisah-raksasa-tekstil-sritex-sril-di-bei-delisting-setelah-13-tahun-ipo",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQlgwUUFvZ1FnbUtFV3VTLTlhQXNVeE5XX24wQ2t3LUVNUXBnTXBZMG1OVlBsSDJobFlkWDY1YXNQWXRQeUVPVy1KN3RNbzFUdllCNXp6OWZQRjY2aHppQXNaR00tTklDUUcwMl93d01vUFR6U3lrSlVzYnZia2Rzb2E3QTJKWFBCOENmUFVGQWtkYUNJOTU4QUg5MXRpZ016aGtZNDZybFQ5SnlVRl9rRk5fMkc1d3RUUTBnag?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-11",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "SpaceX",
+        "PLN"
+      ],
+      "headline": "SpaceX rencanakan pusat data dan pembangkit gas USD 24 miliar di Texas",
+      "whatChanged": "Reuters melaporkan SpaceX berencana membangun proyek gabungan pusat data dan pembangkit listrik gas di Texas senilai USD 24 miliar. Ini menempatkan SpaceX sebagai calon pengembang infrastruktur AI berskala project finance, bukan sekadar pengguna layanan komputasi.",
+      "whyItMatters": "Tema nuclear-ai-datacenter-power berstatus structural selama 24 hari terakhir. SpaceX masuk ke segmen ini mengonfirmasi pola yang sudah terbentuk: pemain dengan akses lahan, modal, dan hubungan regulasi yang kuat memilih membangun infrastruktur terintegrasi daripada membeli kapasitas dari pihak ketiga. Proyek USD 24 miliar ini sebanding dengan akuisisi besar pusat data, tetapi distrukturkan sebagai proyek greenfield, yang membawa profil risiko konstruksi berbeda.",
+      "secondOrder": "Ketika pemain seperti SpaceX membangun pembangkit listrik sendiri untuk pusat data, mereka menarik diri dari pasar listrik umum untuk beban besar, yang mengurangi permintaan dari grid tetapi juga mengurangi kontribusi mereka terhadap biaya grid bersama. Jika pola ini meluas, operator grid akan menghadapi basis pelanggan yang menyusut untuk menanggung biaya fixed infrastruktur, sehingga tarif pelanggan lain naik. Bagi Indonesia, pola ini relevan karena hiperscaler yang akan masuk mungkin mempertimbangkan opsi serupa daripada bergantung pada grid PLN.",
+      "action": "Evaluasi apakah proposal pusat data besar yang masuk ke Indonesia menyertakan rencana pembangkitan mandiri. Jika ya, hitung dampak terhadap load forecast PLN dan implikasinya pada asumsi pendapatan RUPTL.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZGhRNnpDTGdodFotZVZacFc5cC1NdnhETU5xb19iMFIxUUgySlJiOEYyX1RsdnFwY1h5VkM5RWpoVVVseFVJMFFFQ3ByaGxUOXZxY3R2M2RNSFJGaXhqU3VzSmhndWpmdklTd2RIekc1Nlg2b1FRVGdsdnN0YzVEQVVrZmpqT1JUVG9GamZ1U29EZjdaV0xFZEJTemZxdUZleGlLb055UEo0Slhod1VBU09kNWw0ajZmQnJmQUp3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 25,
+        "firstSeen": "2026-10-12",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Pengesahan revisi RUPTL 2025-2034 oleh Kementerian ESDM: PLN menyebut tinggal menunggu persetujuan, pantau apakah ada perubahan alokasi kapasitas EBT dibanding draf sebelumnya.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Pernyataan resmi delegasi Indonesia di COP31 Antalya: pantau komitmen implementasi konkret, bukan hanya target, sebagai sinyal kredibilitas untuk lender EBT.",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Konfirmasi resmi Danantara tentang rencana akuisisi atau restrukturisasi Sritex pasca-delisting dari BEI.",
+      "dueDate": "2026-11-17"
+    },
+    {
+      "item": "Detail teknis dan regulasi proyek pusat data plus pembangkit gas SpaceX USD 24 miliar di Texas: perhatikan apakah model ini diadopsi hiperscaler lain yang sedang negosiasi dengan Indonesia.",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "COP31 Antalya: IESR Dorong Indonesia Jadikan Transisi Energi Berkeadilan sebagai Strategi Pembangunan dan Ketahanan Energi",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/cop31-antalya-iesr-dorong-indonesia-jadikan-transisi-energi-berkeadilan-sebagai-strategi-pembangunan-dan-ketahanan-energi/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-09T06:56:48.000Z"
+    },
+    {
+      "title": "PLN Butuh Investasi Rp3.290 Triliun untuk Proyek Ketenagalistrikan hingga 2034 - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZjRNMWt5Q2czTHZXX3NPMlpGQlFoajAyZzZVbzNEeGNONjZydUd6aTBFV2VkNE9uSTNhai04d0JaV2xJTmdTaGN4b0h3eVB2ZzNCRzFMOXdfc0ZhUi11OXR0RDJubUtrekhENGdySkdpTFdyLXlyT0FtZTQydVkwNEd1d3prR0NNUFNPcUdtLVlja2VkYWNsNFpORXpfSFFfaHRqUHB5Y2Q0eE5ZRVdfSmpNenRJOFNKWlBuX091b2FJa0JKNmRYQw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T14:33:35.000Z"
+    },
+    {
+      "title": "PLN Butuh Investasi 29 Miliar Dolar AS untuk Bangun Supergrid Energi Terbarukan",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSEI3WDAtSTRRVUJqYUp0YzY5MnRzZEVPdDdDVnpCbmxkUWU5RVJBeWI0T2k5eXExVVRndVd5XzhCSC04V3JWbTE4dDZlWjNqOG1ybFI5ODctTlNUcktUOGRsSWFnZzMzR0VBQ2Z6emVENEYwaktKUkRnNUdreHhyVWR3X2JvV3NxMEY5Q3NHbm13VkhMdEs2VzNBMFJwU2t2b3pvYVYwaTg2a2lsMldGb21iYlVoQWh0TEJmTkN1SjlxUjdFcnc?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T00:40:27.000Z"
+    },
+    {
+      "title": "SpaceX plans $24 billion gas power plant, data center project in Texas",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZGhRNnpDTGdodFotZVZacFc5cC1NdnhETU5xb19iMFIxUUgySlJiOEYyX1RsdnFwY1h5VkM5RWpoVVVseFVJMFFFQ3ByaGxUOXZxY3R2M2RNSFJGaXhqU3VzSmhndWpmdklTd2RIekc1Nlg2b1FRVGdsdnN0YzVEQVVrZmpqT1JUVG9GamZ1U29EZjdaV0xFZEJTemZxdUZleGlLb055UEo0Slhod1VBU09kNWw0ajZmQnJmQUp3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T22:17:07.000Z"
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/control-room",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-09T13:00:00.000Z"
+    },
+    {
+      "title": "Sritex (SRIL) Delisting, Ada Saham Lo Kheng Hong dan Sinyal Danantara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDRLQTN5N2cySGFuVDhMeFhmTHRQZXl0QUI5ZHNOY2ZpeWFnUDZySjQ0N0toczRuYTZIXzVLOHVDSDVPSkdiamFNZXUtb1RqbTB3ckMzSFF5MzJkSEwtVGpCa0Q5SHhPS252bV9ySjZhWlU0YzBrQjN3RlkzaGt6SWNvUTlpTWFFbXZPcUthLVB0TERfRzRyblRUcGxwQWpLd1N1b3pURGpROV9mQ0JnMWlkVjNPWHRVWVFld2xyVDhBLUhiV1dOenV30gHPAUFVX3lxTE9WdE9yR2dLTnVaSVlMRnIzallXY0lxcnJtWm9MZEx6OWYxaS1NcHZBeEhGbGJaMFppa0N5cFI0c3lwbnhGeU9iOWtjelBBVW5ubDZvTWZSOW5xMDZWZjRBME9TYTZjQmkwTDk1NEJhMVRsZlByRzZmcHdvOHlQMGI5OTdLamcxVzliVndBdnVRM2JtVm5BdERrNW5EeThqYjhwTUd3MUtXWm9sZkYycnUxLUZuRGRJbzVYNkp2UmY2VDN6c3hELS1pUWg3WWwycw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T00:05:01.000Z"
+    },
+    {
+      "title": "PLN Sebut Revisi RUPTL 2025–2034 Tinggal Tunggu Persetujuan ESDM",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaWNyWjJWV3Q1R3ktREFxbEVac2F4anlEa1ZaU3duSncwMDFDXzROVUY5RGhlZW9LOUdUNl9SQTZhdEpCX1dITU5TWWpoT3BSaTlsWWloWldiWXdhTlVhbGtiaXJNaFNDUVZiVXlndFNhWjJFVUFCNVlLREpMa3RqVG1fbGVVUm5BSWdNU1QyLUxhMDFrTVhfQ0x1bWtJWjTSAZgBQVVfeXFMTWU3RWFnU2JIUWMxcmRKcVhuSXNSYmxvZHBoWVlyOVBWclF0ZjZYTVVBTGt0OGtwTlZyTmRRZE41N1VUV0tKdU5nLVlTaVFoWHRFWjdIbWN1RTFDNFNvcW84RUNYTV9pMENaSmJZbDhwWnlRVzB5cWU0OVRMLW0zckxFT1ZaUExPNGdyekJ1Rlp0N0M0SGJUTnk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T14:19:15.000Z"
+    },
+    {
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "publisher": "Hacker News",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-09T20:04:55.000Z"
+    },
+    {
+      "title": "Akhir Kisah Raksasa Tekstil Sritex (SRIL) di BEI, Delisting Setelah 13 Tahun IPO",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/bursa/6af2712da2179/akhir-kisah-raksasa-tekstil-sritex-sril-di-bei-delisting-setelah-13-tahun-ipo",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-10T01:19:00.000Z"
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "publisher": "Hacker News",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-09T18:56:29.000Z"
+    },
+    {
+      "title": "IESR: Menuju COP-31, Indonesia Tak Cukup Datang dengan Target Semata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-menuju-cop-31-indonesia-tak-cukup-datang-dengan-target-semata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-04T09:48:19.000Z"
+    },
+    {
+      "title": "Eks Buruh Sritex Berharap Direkrut Kembali jika Danantara Akuisisi Perusahaan",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQlgwUUFvZ1FnbUtFV3VTLTlhQXNVeE5XX24wQ2t3LUVNUXBnTXBZMG1OVlBsSDJobFlkWDY1YXNQWXRQeUVPVy1KN3RNbzFUdllCNXp6OWZQRjY2aHppQXNaR00tTklDUUcwMl93d01vUFR6U3lrSlVzYnZia2Rzb2E3QTJKWFBCOENmUFVGQWtkYUNJOTU4QUg5MXRpZ016aGtZNDZybFQ5SnlVRl9rRk5fMkc1d3RUUTBnag?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T15:38:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BP BUMN dan Danantara targetkan kawasan industri tekstil terintegrasi hulu-hilir",
+      "occurrences": 30,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Legislator pro-regulasi AI masuk Kongres AS, Beyer siapkan RUU keamanan AI",
+      "occurrences": 29,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Super El Niño potong pasokan listrik Sulbagsel 315 MW, PLN andalkan PLTU",
+      "occurrences": 28,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Google akuisisi proyek pusat data Wyoming dari Crusoe, komitmen investasi USD 17 miliar",
+      "occurrences": 24,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: Indonesia memasuki COP31 tanpa implementasi kebijakan energi yang proporsional dengan target",
+      "occurrences": 14,
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-11-09",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 410,
+    "poolSize": 110,
+    "generatedAt": "2026-11-10T02:01:28.346Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
