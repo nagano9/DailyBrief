@@ -1,0 +1,365 @@
+{
+  "slug": "2026-11-11",
+  "date": "2026-11-11",
+  "lang": "en",
+  "title": "RUPTL Waits on ESDM; SoftBank's $7B Loss Reshapes AI Infrastructure",
+  "dek": "Indonesia's power plan is stalled at a ministerial desk while the AI infrastructure funding model is visibly breaking down in the US, creating compounding exposure for anyone planning data-centre or grid investment.",
+  "domains": [
+    "energy",
+    "ai",
+    "corporate"
+  ],
+  "summary": "PLN has confirmed the revised RUPTL 2025-2034 is complete and awaiting Ministry of Energy and Mineral Resources approval, keeping the Rp3,290 trillion investment framework in regulatory limbo as a structural condition. Separately, SoftBank has logged a $7 billion loss on swelling US data-centre costs and revised its project plans with GE Vernova, confirming that the AI infrastructure buildout is now a project-finance stress event rather than a technology capex story. Anthropic's simultaneous release of Claude Fable 5.2 and Mythos 5.2 extends the frontier-model competition that continues to drive power demand, which the US EIA now projects will breach record highs in both 2026 and 2027. On the corporate side, Garuda Indonesia has approved a 248.7-billion-share rights issue alongside a full board reshuffle, a move that fits the broader Danantara-linked BUMN restructuring pattern. Indonesia also announced Rp49 trillion in secured energy transition funding at COP31, a figure that remains small relative to the investment scale implied by the 100 GWp solar offer and the RUPTL financing requirement.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "PLN confirms revised RUPTL 2025-2034 is complete; Ministry of Energy and Mineral Resources approval is the sole remaining gate",
+      "whatChanged": "PLN has stated publicly that the draft revision of the RUPTL 2025-2034 is finished and is waiting only for Ministry of Energy and Mineral Resources sign-off before it can take effect. The plan carries a Rp3,290 trillion investment requirement through 2034, including a USD 29 billion renewable supergrid component.",
+      "whyItMatters": "This theme has been structural for 28 days. The RUPTL is the legal and commercial anchor for every IPP contract, transmission concession, and financing structure tied to Indonesia's power sector through the decade. Its continued absence from formal approval status keeps counterparties from committing capital at scale. The bottleneck has now shifted entirely to a single ministerial decision.",
+      "secondOrder": "A ministerial approval that arrives with material changes from the PLN draft would force contract renegotiations across a pipeline of projects already in late-stage development. Conversely, an approval without changes would immediately activate procurement timelines that the grid interconnection and financing markets may not be ready to absorb simultaneously, creating sequencing risk rather than a clean green light.",
+      "action": "Map which IPP and transmission projects have conditional financial close tied to RUPTL approval. Identify which of those have long-stop dates expiring in Q1 2027, since a delayed ministerial sign-off after year-end would trigger contract renegotiation or termination risk in that cohort specifically.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckdiZzRpMXNRbmd5TkM1MlhDTFU4SmdzbC1EMzI5cHNYMXphbnZMTC1kRi1PYlowR3J6Y0otS0wzeVQzdmkxM05kRkgxZWF3Ml9acVZEcWV5Uzh5VjV5aFhMelprZTc3cm81S0d1ZU5jWFB1a0I4cTJnZ192RDFnSjRkcHR5LXotX3RyMTdaM29pSnpZMmVjSVU2bktqTV92SVdhYTR4aWFESndQNmpNa2haQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaWNyWjJWV3Q1R3ktREFxbEVac2F4anlEa1ZaU3duSncwMDFDXzROVUY5RGhlZW9LOUdUNl9SQTZhdEpCX1dITU5TWWpoT3BSaTlsWWloWldiWXdhTlVhbGtiaXJNaFNDUVZiVXlndFNhWjJFVUFCNVlLREpMa3RqVG1fbGVVUm5BSWdNU1QyLUxhMDFrTVhfQ0x1bWtJWjTSAZgBQVVfeXFMTWU3RWFnU2JIUWMxcmRKcVhuSXNSYmxvZHBoWVlyOVBWclF0ZjZYTVVBTGt0OGtwTlZyTmRRZE41N1VUV0tKdU5nLVlTaVFoWHRFWjdIbWN1RTFDNFNvcW84RUNYTV9pMENaSmJZbDhwWnlRVzB5cWU0OVRMLW0zckxFT1ZaUExPNGdyekJ1Rlp0N0M0SGJUTnk?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-12",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "SoftBank",
+        "GE Vernova"
+      ],
+      "headline": "SoftBank logs $7 billion loss on US data-centre costs; revises GE Vernova project scope",
+      "whatChanged": "SoftBank reported a $7 billion loss attributable to swelling costs at its US data-centre operations and revised the scope of its project with GE Vernova, whose shares fell on the news. The revision signal that capital commitments made at announcement have not held through execution.",
+      "whyItMatters": "This confirms that AI infrastructure investment is no longer primarily a technology procurement decision. Cost overruns at this scale, forcing public disclosure and equity impact on a major equipment supplier, mean that the sponsor-offtaker-EPC-power provider chain is under simultaneous stress. The pattern is consistent with project-finance distress, not technology capex variance.",
+      "secondOrder": "GE Vernova's share decline on a single client's scope revision reveals how concentrated the revenue assumptions of AI-linked infrastructure suppliers have become. Any institution underwriting AI data-centre projects on the basis of announced capacity commitments, rather than contracted and funded off-take, is carrying unpriced sponsor-revision risk. This applies directly to equipment vendors, grid operators, and project lenders who priced based on the original SoftBank-scale pipeline.",
+      "action": "Re-examine any AI infrastructure investment thesis that treats announced project scope as equivalent to committed off-take. Specifically, assess GE Vernova's remaining contracted backlog excluding SoftBank-related capacity to determine whether the revenue basis for its AI power equipment segment has materially changed.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdHljdVJwNjc2SGN6SWFvUl92aGU0LTJYWHhhMWxRSWdHQlRDZ0VjQjd3MTZOZmZEOUJ3amdfUVpSSEQ1QjUzcFROeVVNQTBNTzdDLXpnN3lncjdEUElvYnhTMF9QREo3ellITkIwaGhacjJfNFh6VFFXd0ZYQjRIOUI4Z3B6U2xCX2tRS01OVlUxc00tZDhMalJKTHh4QlItRFF4VlZ5MWI2bnljY1NQT1BaR0UtaGJYbHZ1UHdqNDNWbVpZUlE?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSktxUDVpOWtGcDFyOFMxRGNrbGxGLWFhNkRZMTFTZ2VkWENFblBZM3BGLWtrUHlUdHJtRjBOa2NlT1Q0ekNaQjA2R21ZR3V0UFJYci0zQkZIVUNWbjBtZ2o2Z0xTdzVOU3QtSTB3dGxzVWtrei1hQ1h4UzRuU2JYVWFCRDhGcDRhX09iWm51Q2FmbzZUVkQ3SFBJcTZKSzlra2ZZX2tKSEZiWXdkSUxnMmxxZzIzSDhJdkpZeVFXaElxTy11?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-10-12",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude Fable 5.2",
+        "Claude Mythos 5.2"
+      ],
+      "headline": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 simultaneously, ahead of IPO",
+      "whatChanged": "Anthropic released two new models, Claude Fable 5.2 and Claude Mythos 5.2, in a simultaneous dual-tier launch. Reuters reported the release explicitly in the context of competitive pressure and Anthropic's approaching IPO.",
+      "whyItMatters": "This theme is structural at 29 occurrences since mid-October. A simultaneous release of a mid-tier and a frontier model compresses the competitive response window for OpenAI and Google, since both tiers of the market are addressed at once. The IPO framing from Reuters indicates the launch is partly a commercial credentialing event for investors, not purely a technical milestone.",
+      "secondOrder": "Pre-IPO model releases alter the landscape for enterprise procurement decisions. Buyers who have been deferring Claude contract renewals pending a clearer competitive picture now face a credibly refreshed model family with an imminent ownership-structure change. Lock-in decisions made in the next 90 days will carry through a post-IPO Anthropic with different governance and investor pressure than the current structure, creating terms-of-service and pricing risk that buyers are not currently pricing into multi-year agreements.",
+      "action": "Any enterprise with a Claude contract renewal or new deployment decision pending should assess it against a post-IPO Anthropic context: pricing flexibility, data-use terms, and API stability commitments may be renegotiated after the IPO, so securing favorable terms now has option value that diminishes once the company is public.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzhYdUhsNzNPQkZ3aVh2eGJ4NEgtNlpiX0tRaDA3UFpFclkzMWRycGVrQlhaZVRNSnVoSlFBY2tWR0dyV2JTWWRBcy1qVnZyQ0VFWWE4SkozSFgyMmdzSXdQMkVLaXVJS0dFUUh5WXd6N1UyRjFGczJvU2VycHVEemxlZkRKQk5PRWtyakNiM0dSdzllZ1ItcjlJRzcyWnhkVE0zTy1paTZpWmJhLWZPaFVpeVFvWjMwNDdn?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-12",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Garuda Indonesia",
+        "Danantara",
+        "BRI"
+      ],
+      "headline": "Garuda Indonesia approves 248.7 billion-share rights issue and full board reshuffle",
+      "whatChanged": "Garuda Indonesia obtained shareholder approval for a rights issue of 248.7 billion shares alongside a comprehensive replacement of its board of directors and commissioners. BRI separately confirmed it will follow Danantara's direction on subsidiary mergers.",
+      "whyItMatters": "This theme is structural at 30 occurrences. A rights issue of this scale at Garuda, combined with simultaneous board replacement, follows the same template used in earlier BUMN restructurings under Danantara influence: capital injection paired with governance reset. BRI's public deference to Danantara on merger decisions in the same news cycle reinforces that Danantara's directive authority over BUMN strategic decisions is now treated as operational, not advisory.",
+      "secondOrder": "The concentration of restructuring actions across airlines, banks, and construction-sector SOEs in a compressed window creates coordination risk inside Danantara itself. Each restructuring consumes management bandwidth, requires regulatory coordination, and generates minority-shareholder disputes. If several of these proceed simultaneously, the execution quality of any single one is likely to deteriorate, and the sequencing of capital market transactions could create pricing interference between rights issues competing for the same investor base.",
+      "action": "Track the timeline overlap between Garuda's rights issue and any other BUMN capital market transactions expected in Q1 2027. If two or more large SOE rights issues are scheduled within the same quarter, assess whether Indonesia's domestic institutional investor base has sufficient capacity to absorb them without pricing concessions that would signal structural weakness in the reform program.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWnhabVVoejlSeC1GM3pMNXBybjFYZ1ZYS1l5aGc5b3FVaUVTVmVDODlnZ2RTZk8yY3ZMMmtsVW1Vazh1cHZNY1E2N3p1c2lHOXFVM2RKbHNCVWhrZjljUEYtVEJYY095YS1MRjNaLWdBNUpwc1lITVlIdVhtdDVBZmV6RVZjeXk2Tm8zRVdvbENocUV0bFNURTlDOC1UbnBMRkNDMXZKM3Q0cjViQVYwMFlR0gGqAUFVX3lxTE1KQjJXRll6WktBQ0g1aGVBRXlCMnQ5YVFDb0JYLWJRX0FDQmE1bUQybXY3OXhwMUVaT2pOVGhsWm9xazBOUm5vNDZKQkJzcldfTk81WGE3NkFSS240Z0FScm5MWGJUMkV5Q3hzRFczQU5nT1dGZUJwR25JbVh5aFh5YXJOSHAwTzVhVlRKMC1DbTkyZF9TLUYtWWFuVEJqdnF1cXR2d3lNLTF3?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLWpFa3RoMlVLSHVVeTQzMnk1MHA2blI3aGNHamJkR2hOa1c3ZUhEVFppUGg2UjBIZGhrX3lKazNfc3dYVnFmUXZjcUFzbm1Uemo1WFk5UFlPb1pUdGI2QmpuOFpmakh2NVBXdzNGeDN1M2g3NWl4dWJ2WVR5SnBQWVNCaUViQ2NGVDZ5VThLVjFEM3Q4cng3Rm1rY1VBNW5jVTV5aDdaUE9QRXVWUk9BQnY1R1hhMURIS3c?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxOazBNNjFMT1UxZXo0ZWtESy1ydC1HVGUyTEVTczNTSEVnSzJfTkxVYmk0T29kWEwxZy1pOXJYMnRDbHMwMWpzU1BvNm1DSldaS3VkSnB1M2J5dHI5dmJteTNyX2RxSjhpQkNpZmxneFFjS2NVZmZOdHFCYm5ZRS1qcVJjOGVMbGlLZE9UTHpnMzZETUtCZE9BdGFIQ0xycElVMkVQU090eFVLTkN4X1UyZEhn?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOakZOWVY4TWMzdUN4MnNzMi00Rjk3LW9DSExFbjBfRE5qcmdLSjVqOVhuX1pJbl9lOXo5OEVhcnpLR1JkUWRjak1DT2lZZ0NyM2RBYVNiSkFoLVA5NFFZUGxMcmZZYmR0aGUwWjhYekxXMmdOZ3lMSDE1VFpveUk3R0d6ajl3YmZlYmdmTWg3dHpmRlpYVGRJLUd0amQtNXNBbi16Tm1BcG1tNS1GbjVLVHRZRFZ6dFVfc2E0SWZOMDd4Z3ZXemtubA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-12",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "Kementerian ESDM",
+        "PLN"
+      ],
+      "headline": "Indonesia secures Rp49 trillion in energy transition funding at COP31; offers 100 GWp solar pipeline worth Rp1,140 trillion",
+      "whatChanged": "At COP31 in Antalya, Indonesia announced it had secured Rp49 trillion in energy transition financing commitments. Separately, Indonesia formally offered a 100 GWp solar project pipeline with an estimated investment requirement of Rp1,140 trillion.",
+      "whyItMatters": "The gap between secured funding (Rp49 trillion) and the investment ask implied by the solar pipeline alone (Rp1,140 trillion) is a factor of roughly 23. This is not a financing gap in the conventional sense; it is a structural mismatch between the scale of ambition that Indonesia is presenting to international partners and the capital mobilization mechanisms currently in place, including JETP and ETM, which have not closed this gap despite multi-year operation.",
+      "secondOrder": "The COP31 announcements will be read by international climate-finance institutions as evidence of Indonesian momentum, potentially unlocking further concessional facility negotiations. However, the domestic consequence is different: Kementerian ESDM and PLN are simultaneously holding a stalled RUPTL and a solar pipeline offer that cannot be contracted without that RUPTL. The international credibility signal and the domestic regulatory bottleneck are therefore pulling in opposite directions, which creates a window where foreign capital interest peaks but cannot be deployed because the domestic regulatory anchor is missing.",
+      "action": "Assess whether the Rp49 trillion in secured financing is tied to specific projects with regulatory contingencies. If those commitments have disbursement conditions linked to RUPTL approval or specific procurement milestones, the ministerial approval delay documented in signal one is simultaneously blocking international climate capital, not just domestic contracting.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcS1jZU5vLTl4Ty1xNXBfdzR1Ulo4ZnloYkdFeTN2Nkg0ODZGLTdtdldMTlYtNzFrUUtrTERLU3V3TVppYWV4YWxKTXJqcURCY1pBZXpDLXZvQUp1ZzZMM0IybGVwc00zeXUwYnc4NXpOalFVVE9EdWRicjJQdzZXc1hjWXpSQ254THJ1M2FTUGgzaEc2YnhITGVXWkh3VWJudlE?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR3UzdHV1bWJ4SERIYkhaNEZNWFAtU1NvNlJZc0ZtLV9Feld3bHVENGdwVnpDQUxLcjNIaG1XVHBUbFRGVF9yVG9fQlJTUUdUYUZ1VmJQeVVFTUtwWDlhOElYMGs2ZnlxNXU4YmxvNXh4emlsVmdibm9nWFROaFhzWXQycU82M0wweGMxUWVpMncwcWNhd2lLeV9xSVMtd0xVTVo0UXM2Sl80Ynl0MER0UmJGTWczM01zTHE5a3Z0SzltLVdmQ2V3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-12",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Ministry of Energy and Mineral Resources formal approval or rejection of the revised RUPTL 2025-2034 draft submitted by PLN",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Garuda Indonesia rights issue subscription period opening and take-up rate by existing shareholders, particularly Danantara's participation level",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "GE Vernova revised backlog disclosure in next earnings release, specifically the AI and data-centre power segment after SoftBank scope revision",
+      "dueDate": "2027-02-15"
+    },
+    {
+      "item": "Anthropic IPO filing or S-1 registration statement, which would lock in pricing, governance, and API terms that enterprise buyers should assess before renewal",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "COP31 final outcome text on the Belem-Antalya just-transition mechanism and whether Indonesia secures any binding disbursement commitments beyond the Rp49 trillion announced",
+      "dueDate": "2026-11-22"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-09T21:04:35.000Z"
+    },
+    {
+      "title": "Hashim: Indonesia Amankan Pendanaan Transisi Energi Rp 49 Triliun",
+      "publisher": "investor.id",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcS1jZU5vLTl4Ty1xNXBfdzR1Ulo4ZnloYkdFeTN2Nkg0ODZGLTdtdldMTlYtNzFrUUtrTERLU3V3TVppYWV4YWxKTXJqcURCY1pBZXpDLXZvQUp1ZzZMM0IybGVwc00zeXUwYnc4NXpOalFVVE9EdWRicjJQdzZXc1hjWXpSQ254THJ1M2FTUGgzaEc2YnhITGVXWkh3VWJudlE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T15:20:00.000Z"
+    },
+    {
+      "title": "PLN Sebut Draf Revisi RUPTL 2025-2034 Tunggu Persetujuan ESDM - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckdiZzRpMXNRbmd5TkM1MlhDTFU4SmdzbC1EMzI5cHNYMXphbnZMTC1kRi1PYlowR3J6Y0otS0wzeVQzdmkxM05kRkgxZWF3Ml9acVZEcWV5Uzh5VjV5aFhMelprZTc3cm81S0d1ZU5jWFB1a0I4cTJnZ192RDFnSjRkcHR5LXotX3RyMTdaM29pSnpZMmVjSVU2bktqTV92SVdhYTR4aWFESndQNmpNa2haQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T05:00:00.000Z"
+    },
+    {
+      "title": "GE Vernova shares slide after SoftBank revises US data center project plans",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdHljdVJwNjc2SGN6SWFvUl92aGU0LTJYWHhhMWxRSWdHQlRDZ0VjQjd3MTZOZmZEOUJ3amdfUVpSSEQ1QjUzcFROeVVNQTBNTzdDLXpnN3lncjdEUElvYnhTMF9QREo3ellITkIwaGhacjJfNFh6VFFXd0ZYQjRIOUI4Z3B6U2xCX2tRS01OVlUxc00tZDhMalJKTHh4QlItRFF4VlZ5MWI2bnljY1NQT1BaR0UtaGJYbHZ1UHdqNDNWbVpZUlE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T17:27:43.000Z"
+    },
+    {
+      "title": "Garuda Indonesia (GIAA) Rombak Susunan Pengurus, Rencana Rights Issue Disetujui",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWnhabVVoejlSeC1GM3pMNXBybjFYZ1ZYS1l5aGc5b3FVaUVTVmVDODlnZ2RTZk8yY3ZMMmtsVW1Vazh1cHZNY1E2N3p1c2lHOXFVM2RKbHNCVWhrZjljUEYtVEJYY095YS1MRjNaLWdBNUpwc1lITVlIdVhtdDVBZmV6RVZjeXk2Tm8zRVdvbENocUV0bFNURTlDOC1UbnBMRkNDMXZKM3Q0cjViQVYwMFlR0gGqAUFVX3lxTE1KQjJXRll6WktBQ0g1aGVBRXlCMnQ5YVFDb0JYLWJRX0FDQmE1bUQybXY3OXhwMUVaT2pOVGhsWm9xazBOUm5vNDZKQkJzcldfTk81WGE3NkFSS240Z0FScm5MWGJUMkV5Q3hzRFczQU5nT1dGZUJwR25JbVh5aFh5YXJOSHAwTzVhVlRKMC1DbTkyZF9TLUYtWWFuVEJqdnF1cXR2d3lNLTF3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T14:25:00.000Z"
+    },
+    {
+      "title": "Anthropic unveils new Fable, Mythos models as competition heats up ahead of IPO",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzhYdUhsNzNPQkZ3aVh2eGJ4NEgtNlpiX0tRaDA3UFpFclkzMWRycGVrQlhaZVRNSnVoSlFBY2tWR0dyV2JTWWRBcy1qVnZyQ0VFWWE4SkozSFgyMmdzSXdQMkVLaXVJS0dFUUh5WXd6N1UyRjFGczJvU2VycHVEemxlZkRKQk5PRWtyakNiM0dSdzllZ1ItcjlJRzcyWnhkVE0zTy1paTZpWmJhLWZPaFVpeVFvWjMwNDdn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T20:21:57.000Z"
+    },
+    {
+      "title": "Indonesia Tawarkan Proyek PLTS 100 GWp, Kebutuhan Investasi Capai Rp1.140 Triliun",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR3UzdHV1bWJ4SERIYkhaNEZNWFAtU1NvNlJZc0ZtLV9Feld3bHVENGdwVnpDQUxLcjNIaG1XVHBUbFRGVF9yVG9fQlJTUUdUYUZ1VmJQeVVFTUtwWDlhOElYMGs2ZnlxNXU4YmxvNXh4emlsVmdibm9nWFROaFhzWXQycU82M0wweGMxUWVpMncwcWNhd2lLeV9xSVMtd0xVTVo0UXM2Sl80Ynl0MER0UmJGTWczM01zTHE5a3Z0SzltLVdmQ2V3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T14:00:00.000Z"
+    },
+    {
+      "title": "Garuda Indonesia (GIAA) Siapkan Rights Issue Jumbo 248,7 Miliar Saham",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLWpFa3RoMlVLSHVVeTQzMnk1MHA2blI3aGNHamJkR2hOa1c3ZUhEVFppUGg2UjBIZGhrX3lKazNfc3dYVnFmUXZjcUFzbm1Uemo1WFk5UFlPb1pUdGI2QmpuOFpmakh2NVBXdzNGeDN1M2g3NWl4dWJ2WVR5SnBQWVNCaUViQ2NGVDZ5VThLVjFEM3Q4cng3Rm1rY1VBNW5jVTV5aDdaUE9QRXVWUk9BQnY1R1hhMURIS3c?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T12:40:00.000Z"
+    },
+    {
+      "title": "Soal Merger Anak Usaha, BRI Tegaskan Bakal Ikut Arahan Danantara",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOazBNNjFMT1UxZXo0ZWtESy1ydC1HVGUyTEVTczNTSEVnSzJfTkxVYmk0T29kWEwxZy1pOXJYMnRDbHMwMWpzU1BvNm1DSldaS3VkSnB1M2J5dHI5dmJteTNyX2RxSjhpQkNpZmxneFFjS2NVZmZOdHFCYm5ZRS1qcVJjOGVMbGlLZE9UTHpnMzZETUtCZE9BdGFIQ0xycElVMkVQU090eFVLTkN4X1UyZEhn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T05:19:06.000Z"
+    },
+    {
+      "title": "PLN Sebut Revisi RUPTL 2025–2034 Tinggal Tunggu Persetujuan ESDM",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaWNyWjJWV3Q1R3ktREFxbEVac2F4anlEa1ZaU3duSncwMDFDXzROVUY5RGhlZW9LOUdUNl9SQTZhdEpCX1dITU5TWWpoT3BSaTlsWWloWldiWXdhTlVhbGtiaXJNaFNDUVZiVXlndFNhWjJFVUFCNVlLREpMa3RqVG1fbGVVUm5BSWdNU1QyLUxhMDFrTVhfQ0x1bWtJWjTSAZgBQVVfeXFMTWU3RWFnU2JIUWMxcmRKcVhuSXNSYmxvZHBoWVlyOVBWclF0ZjZYTVVBTGt0OGtwTlZyTmRRZE41N1VUV0tKdU5nLVlTaVFoWHRFWjdIbWN1RTFDNFNvcW84RUNYTV9pMENaSmJZbDhwWnlRVzB5cWU0OVRMLW0zckxFT1ZaUExPNGdyekJ1Rlp0N0M0SGJUTnk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T14:19:15.000Z"
+    },
+    {
+      "title": "SoftBank Logs $7 Billion Loss After US Data Center Costs Swell",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSktxUDVpOWtGcDFyOFMxRGNrbGxGLWFhNkRZMTFTZ2VkWENFblBZM3BGLWtrUHlUdHJtRjBOa2NlT1Q0ekNaQjA2R21ZR3V0UFJYci0zQkZIVUNWbjBtZ2o2Z0xTdzVOU3QtSTB3dGxzVWtrei1hQ1h4UzRuU2JYVWFCRDhGcDRhX09iWm51Q2FmbzZUVkQ3SFBJcTZKSzlra2ZZX2tKSEZiWXdkSUxnMmxxZzIzSDhJdkpZeVFXaElxTy11?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T12:37:37.000Z"
+    },
+    {
+      "title": "Garuda Indonesia Rombak Direksi dan Komisaris, Siapkan Rights Issue 248,7 Miliar Saham",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOakZOWVY4TWMzdUN4MnNzMi00Rjk3LW9DSExFbjBfRE5qcmdLSjVqOVhuX1pJbl9lOXo5OEVhcnpLR1JkUWRjak1DT2lZZ0NyM2RBYVNiSkFoLVA5NFFZUGxMcmZZYmR0aGUwWjhYekxXMmdOZ3lMSDE1VFpveUk3R0d6ajl3YmZlYmdmTWg3dHpmRlpYVGRJLUd0amQtNXNBbi16Tm1BcG1tNS1GbjVLVHRZRFZ6dFVfc2E0SWZOMDd4Z3ZXemtubA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T09:51:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Sritex delisting dari BEI hari ini; sinyal keterlibatan Danantara memunculkan ekspektasi akuisisi",
+      "occurrences": 30,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Claude Fable 5.2 capai skor 65 pada Artificial Analysis; OpenAI luncurkan Control Room untuk pengawasan beban kerja model",
+      "occurrences": 29,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN needs Rp3,290 trillion for power projects through 2034; $29 billion supergrid figure disclosed separately",
+      "occurrences": 28,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "SpaceX rencanakan pusat data dan pembangkit gas USD 24 miliar di Texas",
+      "occurrences": 25,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 14,
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 384,
+    "poolSize": 110,
+    "generatedAt": "2026-11-10T23:14:20.795Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
