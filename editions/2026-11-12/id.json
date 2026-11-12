@@ -1,0 +1,338 @@
+{
+  "slug": "2026-11-12",
+  "date": "2026-11-12",
+  "lang": "id",
+  "title": "Danantara Konsolidasi MI BUMN; AlphaProof Code Verifikasi Enkripsi Signal",
+  "dek": "Dua akselerasi struktural terjadi serentak: Danantara mempercepat peleburan manajer investasi BUMN sementara Google DeepMind membuktikan AI dapat memverifikasi perangkat lunak kriptografi kelas produksi secara otomatis.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Danantara mengumumkan peleburan empat manajer investasi BUMN dan menjadwalkan publikasi laporan keuangan pertamanya pada 23 November 2026, dua langkah yang menguji narasi transparansi di tengah tekanan politik. Google DeepMind merilis AlphaProof Code yang menulis tiga juta baris bukti formal untuk memverifikasi enkripsi inti Signal, menandai pergeseran AI dari asisten pengodean ke pemeriksa kebenaran perangkat lunak kritis. Model Context Protocol merilis v2.4.0 dengan enam perbaikan keamanan, sinyal bahwa ekosistem agen AI mulai matang secara operasional. Di sisi energi, pendanaan iklim publik di COP31 Antalya anjlok lebih dari 70 persen, memperumit rencana Indonesia yang membutuhkan mitra pembiayaan eksternal untuk program PLTS 100 GW senilai Rp 1.326 triliun. PLN mengoperasikan kembali PLTU Kaltim-2 Unit 1 sebagai respons jangka pendek atas defisit pasokan Kalimantan Timur yang telah tercatat sejak laporan IESR.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Danareksa"
+      ],
+      "headline": "Danantara lebur empat MI BUMN; laporan keuangan 2025 dijadwalkan 23 November",
+      "whatChanged": "Danantara mengonfirmasi peleburan empat manajer investasi BUMN dan menjadwalkan publikasi laporan keuangan tahun buku 2025 pada Senin, 23 November 2026. Danantara juga mengumumkan penataan ulang fokus bisnis Danareksa sebagai bagian dari konsolidasi portofolio.",
+      "whyItMatters": "Ini melanjutkan tema danantara-bumn-karya-restructuring yang telah berjalan 30 kali sejak Oktober. Peleburan MI BUMN mengurangi duplikasi pengelolaan aset, tetapi juga memusatkan risiko pengambilan keputusan investasi di bawah satu entitas yang belum pernah menerbitkan laporan keuangan publik. Tanggal 23 November menjadi ujian pertama kredibilitas akuntabilitas Danantara kepada pasar.",
+      "secondOrder": "Konsolidasi MI BUMN akan menentukan apakah Danantara mampu menarik investor institusional global yang mensyaratkan standar pelaporan setara IFRS dan tata kelola independen. Jika laporan 23 November tidak memenuhi standar itu, biaya dana Danantara untuk proyek-proyek infrastruktur berikutnya akan naik karena premi risiko yang lebih tinggi, bukan karena kinerja aset.",
+      "action": "Siapkan kerangka penilaian laporan keuangan Danantara: bandingkan standar akuntansi yang digunakan, cakupan konsolidasi entitas anak, dan kecukupan pengungkapan risiko dengan praktik sovereign wealth fund regional seperti Temasek dan Khazanah. Jadwalkan review segera setelah 23 November.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVFBOU1pWGk1RUFIRWo5ekVTc2l6R3FiLXBjV3NpU1ZobWFiQnlSSDhic01fTzkyVVlqTkRuN0ZOeC1OWUFYOVJfdnBwbEpNcFlKWlhKekhWdGdFbzkzWnRRYVgtNEJFckI1cUNrZFhlRl9nNEZ0RTdrOWJwSVdJc2RfdlVUSlNoeVFuZzBlNkVvLTNKa2dvZW9DLU1oYjVJVVgzczk0azZodi1nbnNvTnhVZE1MTUpvb2Y2dUNqdVJrbXBB0gHKAUFVX3lxTFBUSWh1QU9Qc1hzWllhRjZRemwxNWVmNzBkUUE2dnlSSWg4OHBNYUhVTXUtVlNTRFBOSXVaVk9QMWljSklDVmdmbi1DRDMwMVE2WUR0enlZOV8xZHk5ZnBLMTRHUVJIeWQ2MGhRMHYzWW1KemZYZ0VBWG9NcXVpWVZXVUlwNEJxUDRwN1l0cFlmYzRrMXB3akh1d0ptUjVEbUt2Y29jTjFNaTNRN0hVcUJmQXNnU21tbXVJMlVvZzBrX3c2NGR0XzE3cUE?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdTIwWGZzc1dsUFRSWWE1OENVQnJfRjVGcnVETTRfWjRoZ3NoMThqbTFoVzRsLWlETm9HSEh6LV9fS3FER1dGbDlaMTZGU0tuUDUzMkJrUkhWdlh2SlU2YUxIeVBfSFc3RFJxam8xSU5JRnJ5QVRnRmpidmxsR1JabTdiNHRhc0RPNXl2eTZJR0FXWGFFNUE?oc=5",
+        "https://katadata.co.id/finansial/keuangan/6af51dd359706/bos-danantara-jadwalkan-rilis-laporan-keuangan-2025-pada-23-november"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-13",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "AlphaProof Code",
+        "Signal"
+      ],
+      "headline": "AlphaProof Code tulis 3 juta baris bukti Lean untuk verifikasi enkripsi Signal",
+      "whatChanged": "Google DeepMind merilis AlphaProof Code pada 10 November 2026. Agen-agen sistem ini menghasilkan tiga juta baris bukti formal dalam bahasa pembuktian Lean untuk memverifikasi enkripsi inti aplikasi Signal, mengerjakan verifikasi perangkat lunak kriptografi kelas produksi secara otomatis.",
+      "whyItMatters": "Verifikasi formal perangkat lunak selama ini membutuhkan pakar matematika terlatih dan berbulan-bulan waktu per modul kecil. AlphaProof Code memindahkan batas itu ke skala dan kecepatan yang sebelumnya tidak praktis secara komersial. Ini bukan demonstrasi lab, melainkan penerapan pada sistem yang digunakan ratusan juta pengguna.",
+      "secondOrder": "Setelah AI dapat memverifikasi kebenaran perangkat lunak kriptografi secara otomatis, standar due diligence keamanan untuk kontrak perangkat lunak pemerintah dan perbankan akan bergeser. Penyedia yang tidak menawarkan bukti formal akan menghadapi tekanan dari regulator dan penjamin asuransi siber, bukan hanya dari pesaing. Ini menciptakan kategori baru kewajiban bagi integrator sistem yang belum mengadopsi verifikasi formal.",
+      "action": "Tinjau kontrak pengembangan perangkat lunak kritis yang sedang berjalan: identifikasi modul yang menangani enkripsi, autentikasi, atau transaksi keuangan, lalu evaluasi apakah klausul jaminan kebenaran perlu direvisi mengingat ketersediaan alat verifikasi formal berbasis AI.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-13",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Kementerian ESDM",
+        "Carbon Brief",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "Pendanaan iklim publik di COP31 Antalya anjlok 70%; rencana PLTS 100 GW Indonesia terancam tanpa mitra",
+      "whatChanged": "Carbon Brief melaporkan bahwa jumlah pendanaan publik yang dijanjikan untuk membantu negara berkembang mengatasi perubahan iklim turun lebih dari 70 persen di COP31 Antalya dibandingkan periode sebelumnya. Kompas.com melaporkan bahwa Indonesia mengajak China membangun PLTS 100 GW senilai Rp 1.326 triliun tanpa skema pembiayaan yang terkonfirmasi.",
+      "whyItMatters": "Tema pln-grid-investment mencatat Indonesia telah mengamankan Rp 49 triliun untuk transisi energi di COP31, tetapi angka itu jauh di bawah kebutuhan 100 GW. Penyusutan 70 persen komitmen pendanaan publik global memperlemah posisi Indonesia dalam negosiasi blended finance dengan lembaga multilateral, tepat saat RUPTL 2025-2034 sedang menunggu persetujuan Kementerian ESDM.",
+      "secondOrder": "Ketergantungan pada satu mitra bilateral, dalam hal ini China, untuk proyek sebesar Rp 1.326 triliun akan menimbulkan risiko konsentrasi pembiayaan dan potensi persyaratan konten lokal yang tidak selaras dengan regulasi pengadaan PLN. Jika negosiasi bilateral terhenti, tidak ada jaring pengaman multilateral yang cukup besar mengingat kontraksi pendanaan publik global.",
+      "action": "Petakan ulang struktur pembiayaan proyek PLTS 100 GW: identifikasi proporsi yang bisa diserap obligasi hijau domestik, pinjaman bilateral China, fasilitas JETP yang tersisa, dan ekuitas swasta. Hitung sensitivitas terhadap skenario di mana komitmen China turun 30 persen dan pendanaan multilateral tidak bertambah.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb2p6Wm1HelNra24ybnRLck8xRWtLLWstTzY1TFNIMXJwemFVRlNqUGd0a3h2VnFfVjdHMGFHZFVTZE51N20zUGdfVTNlRzZ6UURVa0ltemRtMVBhU3pVS0ZPdHE3NUl0T242VHhnV3N6MmtTMHI4QzhpWWlOOHJ4Zk5xT2t6a0pQMWQzQm9VNEtWNVJWSHprckdfbnh3OTdBOG5xUUVfZzd4N0JDbmg0LVN1dFExaWdPWnpjdWQxbEowTUFMYUE?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckdiZzRpMXNRbmd5TkM1MlhDTFU4SmdzbC1EMzI5cHNYMXphbnZMTC1kRi1PYlowR3J6Y0otS0wzeVQzdmkxM05kRkgxZWF3Ml9acVZEcWV5Uzh5VjV5aFhMelprZTc3cm81S0d1ZU5jWFB1a0I4cTJnZ192RDFnSjRkcHR5LXotX3RyMTdaM29pSnpZMmVjSVU2bktqTV92SVdhYTR4aWFESndQNmpNa2haQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-13",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "PLTU Kaltim-2",
+        "IESR"
+      ],
+      "headline": "PLN reaktivasi PLTU Kaltim-2 Unit 1 untuk tutup defisit pasokan Kalimantan Timur",
+      "whatChanged": "PLN mengoperasikan kembali PLTU Kaltim-2 Unit 1 untuk memperkuat pasokan listrik di Kalimantan Timur, menurut laporan ANTARA News Kalimantan Timur pada 12 November 2026.",
+      "whyItMatters": "IESR pada 8-9 November 2026 mendokumentasikan paradoks energi Kalimantan Timur: pemadaman bergilir terjadi di provinsi penghasil batu bara dan gas terbesar Indonesia. Reaktivasi unit berbahan bakar fosil ini berlawanan arah dengan komitmen transisi energi yang sedang dinegosiasikan di COP31 Antalya, sekaligus menunjukkan bahwa revisi RUPTL 2025-2034 yang masih menunggu persetujuan ESDM belum menghasilkan solusi pasokan jangka menengah.",
+      "secondOrder": "Reaktivasi PLTU sebagai respons krisis pasokan memperkuat ketergantungan struktural pada pembangkit fosil di Kalimantan Timur tepat saat kawasan ini menjadi lokasi ibu kota baru dan pusat pertumbuhan industri. Ini menciptakan tekanan pada PLN untuk mempertahankan aset PLTU yang seharusnya masuk jadwal pensiun dini, sehingga meningkatkan biaya stranded asset dalam kalkulasi pembiayaan transisi energi.",
+      "action": "Tinjau peta jalan pensiun dini PLTU di Kalimantan Timur dalam RUPTL 2025-2034 yang sedang menunggu persetujuan ESDM: identifikasi unit mana yang berisiko dipertahankan akibat defisit pasokan, hitung implikasinya terhadap komitmen Indonesia di COP31, dan evaluasi apakah kapasitas EBT pengganti memiliki jadwal konstruksi yang realistis.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODJBdURNVk40ME1BMGhWQkcyellXV1NNUFZaLVI0dGtfYWh6UWxwZ3JRRWZZMVVZRXBLcXh0R0ZtV2w0elZoQ1QxM1dEZUJMekNSSXBBRlh6eGctOUEwaTZlRUp5bFpZNGVuRFlSMm0tTzhFVGwyT01XRXRka25FbWVta3BSaFJkWHZxNGU3MGVIQkV2RE42NlNiMElVLVNiSlZnOG04WWdmbnMxV1JkStIBtgFBVV95cUxNbElvSlVHTEhJQmczSmFieUNsSTlSWnp1b0hQeDVqeVdxWWtpYW02cnN6X2FjLWdfeW43NmR6RkFJTV9ZRGphcUtzU0NCOC12dllMV3VpQzVqeWVrTmFoVjZGaW9EaUpIOEU3OWxVeXk1cVdWeUFXWHMxNnk4VTgzX09fVmE1eGlkRG11cms4OTNPaXhjYkFrWHFETTZqdElLWVBWWEN0RlNUR2xOUVJidndNWXdkdw?oc=5",
+        "https://iesr.or.id/membaca-paradoks-energi-dari-kalimantan-timur/",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckdiZzRpMXNRbmd5TkM1MlhDTFU4SmdzbC1EMzI5cHNYMXphbnZMTC1kRi1PYlowR3J6Y0otS0wzeVQzdmkxM05kRkgxZWF3Ml9acVZEcWV5Uzh5VjV5aFhMelprZTc3cm81S0d1ZU5jWFB1a0I4cTJnZ192RDFnSjRkcHR5LXotX3RyMTdaM29pSnpZMmVjSVU2bktqTV92SVdhYTR4aWFESndQNmpNa2haQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-13",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Model Context Protocol"
+      ],
+      "headline": "MCP v2.4.0 tambal enam celah keamanan di tiga server agen AI",
+      "whatChanged": "Model Context Protocol merilis v2.4.0 pada 11 November 2026, memperbaiki enam kerentanan di tiga server: @modelcontextprotocol/server-filesystem ditingkatkan ke 2.3.0, serta mcp-server-git dan mcp-server-fetch ke versi 2026.11.11.",
+      "whyItMatters": "Tema enterprise-ai-data-privacy-contracts telah mencatat insiden kebocoran kredensial Claude Code ke 1.122 repositori GitHub publik. MCP adalah lapisan integrasi antara agen AI dan sistem eksternal. Enam kerentanan dalam satu rilis menunjukkan bahwa permukaan serangan ekosistem agen AI masih tumbuh lebih cepat daripada kapasitas audit keamanannya.",
+      "secondOrder": "Organisasi yang menerapkan agen AI berbasis MCP tanpa kebijakan pembaruan otomatis kini menanggung risiko keamanan yang terdokumentasi secara publik. Hal ini memperkuat argumen bahwa kontrak pengadaan AI enterprise perlu menyertakan klausul pembaruan keamanan wajib dan tanggung jawab vendor untuk notifikasi kerentanan, analog dengan praktik di industri perangkat lunak infrastruktur kritis.",
+      "action": "Audit semua deployment agen AI yang menggunakan MCP di lingkungan produksi: verifikasi versi server yang digunakan, terapkan pembaruan ke v2.4.0 segera, dan tinjau kebijakan pengaturan hak akses filesystem serta git yang diizinkan oleh agen.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 7,
+        "firstSeen": "2026-10-22",
+        "spanDays": 21
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Publikasi laporan keuangan Danantara tahun buku 2025: periksa standar akuntansi, cakupan konsolidasi, dan pengungkapan risiko.",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "Persetujuan Kementerian ESDM atas draf revisi RUPTL 2025-2034: amati apakah reaktivasi PLTU Kaltim-2 mengubah jadwal pensiun dini atau kapasitas EBT.",
+      "dueDate": "2026-12-01"
+    },
+    {
+      "item": "Hasil negosiasi pembiayaan PLTS 100 GW Indonesia dengan mitra bilateral di sela COP31 Antalya: konfirmasi skema dan proporsi pembiayaan.",
+      "dueDate": "2026-11-22"
+    },
+    {
+      "item": "Adopsi industri AlphaProof Code untuk verifikasi perangkat lunak kriptografi: pantau pengumuman mitra komersial atau regulasi yang mensyaratkan bukti formal.",
+      "dueDate": "2027-02-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Analysis: Climate-finance pledges fall 70% as countries meet at COP31",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-11T07:00:00.000Z"
+    },
+    {
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-10T12:02:28.000Z"
+    },
+    {
+      "title": "PLN operasikan kembali PLTU Kaltim-2 Unit 1 perkuat pasokan listrik - ANTARA News Kalimantan Timur",
+      "publisher": "ANTARA News Kalimantan Timur - Berita Terkini Kalimantan Timur",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODJBdURNVk40ME1BMGhWQkcyellXV1NNUFZaLVI0dGtfYWh6UWxwZ3JRRWZZMVVZRXBLcXh0R0ZtV2w0elZoQ1QxM1dEZUJMekNSSXBBRlh6eGctOUEwaTZlRUp5bFpZNGVuRFlSMm0tTzhFVGwyT01XRXRka25FbWVta3BSaFJkWHZxNGU3MGVIQkV2RE42NlNiMElVLVNiSlZnOG04WWdmbnMxV1JkStIBtgFBVV95cUxNbElvSlVHTEhJQmczSmFieUNsSTlSWnp1b0hQeDVqeVdxWWtpYW02cnN6X2FjLWdfeW43NmR6RkFJTV9ZRGphcUtzU0NCOC12dllMV3VpQzVqeWVrTmFoVjZGaW9EaUpIOEU3OWxVeXk1cVdWeUFXWHMxNnk4VTgzX09fVmE1eGlkRG11cms4OTNPaXhjYkFrWHFETTZqdElLWVBWWEN0RlNUR2xOUVJidndNWXdkdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T00:23:13.000Z"
+    },
+    {
+      "title": "Indonesia Ajak China Bangun PLTS 100 GW, tapi Siapa yang Bayar Rp 1.326 T?",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb2p6Wm1HelNra24ybnRLck8xRWtLLWstTzY1TFNIMXJwemFVRlNqUGd0a3h2VnFfVjdHMGFHZFVTZE51N20zUGdfVTNlRzZ6UURVa0ltemRtMVBhU3pVS0ZPdHE3NUl0T242VHhnV3N6MmtTMHI4QzhpWWlOOHJ4Zk5xT2t6a0pQMWQzQm9VNEtWNVJWSHprckdfbnh3OTdBOG5xUUVfZzd4N0JDbmg0LVN1dFExaWdPWnpjdWQxbEowTUFMYUE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T02:17:00.000Z"
+    },
+    {
+      "title": "v2.4.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-11T07:37:43.000Z"
+    },
+    {
+      "title": "4 Manajer Investasi BUMN Dilebur, Danantara Ungkap Nasib Karyawan",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVFBOU1pWGk1RUFIRWo5ekVTc2l6R3FiLXBjV3NpU1ZobWFiQnlSSDhic01fTzkyVVlqTkRuN0ZOeC1OWUFYOVJfdnBwbEpNcFlKWlhKekhWdGdFbzkzWnRRYVgtNEJFckI1cUNrZFhlRl9nNEZ0RTdrOWJwSVdJc2RfdlVUSlNoeVFuZzBlNkVvLTNKa2dvZW9DLU1oYjVJVVgzczk0azZodi1nbnNvTnhVZE1MTUpvb2Y2dUNqdVJrbXBB0gHKAUFVX3lxTFBUSWh1QU9Qc1hzWllhRjZRemwxNWVmNzBkUUE2dnlSSWg4OHBNYUhVTXUtVlNTRFBOSXVaVk9QMWljSklDVmdmbi1DRDMwMVE2WUR0enlZOV8xZHk5ZnBLMTRHUVJIeWQ2MGhRMHYzWW1KemZYZ0VBWG9NcXVpWVZXVUlwNEJxUDRwN1l0cFlmYzRrMXB3akh1d0ptUjVEbUt2Y29jTjFNaTNRN0hVcUJmQXNnU21tbXVJMlVvZzBrX3c2NGR0XzE3cUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T02:30:02.000Z"
+    },
+    {
+      "title": "Danantara Menata Fokus Bisnis Danareksa",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdTIwWGZzc1dsUFRSWWE1OENVQnJfRjVGcnVETTRfWjRoZ3NoMThqbTFoVzRsLWlETm9HSEh6LV9fS3FER1dGbDlaMTZGU0tuUDUzMkJrUkhWdlh2SlU2YUxIeVBfSFc3RFJxam8xSU5JRnJ5QVRnRmpidmxsR1JabTdiNHRhc0RPNXl2eTZJR0FXWGFFNUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T01:50:00.000Z"
+    },
+    {
+      "title": "Membaca Paradoks Energi dari Kalimantan Timur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/membaca-paradoks-energi-dari-kalimantan-timur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-09T02:00:49.000Z"
+    },
+    {
+      "title": "PLN Sebut Draf Revisi RUPTL 2025-2034 Tunggu Persetujuan ESDM - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckdiZzRpMXNRbmd5TkM1MlhDTFU4SmdzbC1EMzI5cHNYMXphbnZMTC1kRi1PYlowR3J6Y0otS0wzeVQzdmkxM05kRkgxZWF3Ml9acVZEcWV5Uzh5VjV5aFhMelprZTc3cm81S0d1ZU5jWFB1a0I4cTJnZ192RDFnSjRkcHR5LXotX3RyMTdaM29pSnpZMmVjSVU2bktqTV92SVdhYTR4aWFESndQNmpNa2haQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T05:00:00.000Z"
+    },
+    {
+      "title": "Bos Danantara Jadwalkan Rilis Laporan Keuangan 2025 pada 23 November",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/keuangan/6af51dd359706/bos-danantara-jadwalkan-rilis-laporan-keuangan-2025-pada-23-november",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-12T02:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BRI nyatakan ikut arahan Danantara soal merger anak usaha; otoritas Danantara atas perbankan BUMN dikonfirmasi",
+      "occurrences": 30,
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-11-11",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic rilis Claude Fable 5.2 dan Mythos 5.2 menjelang IPO, Reuters mengonfirmasi",
+      "occurrences": 29,
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-11-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Indonesia secures Rp49 trillion in energy transition funding at COP31; offers 100 GWp solar pipeline worth Rp1,140 trillion",
+      "occurrences": 28,
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-11-11",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "SoftBank rugi USD 7 miliar akibat bengkaknya biaya pusat data AS; GE Vernova terkoreksi",
+      "occurrences": 25,
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-11-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 13,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 411,
+    "poolSize": 110,
+    "generatedAt": "2026-11-12T02:54:16.323Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

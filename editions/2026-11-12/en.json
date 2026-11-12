@@ -1,0 +1,356 @@
+{
+  "slug": "2026-11-12",
+  "date": "2026-11-12",
+  "lang": "en",
+  "title": "COP31 Finance Collapse, Danantara Consolidation, and AI Safety Regulation Converge",
+  "dek": "A 70% drop in climate finance pledges, Danantara's accelerating asset-manager merger, and New York's new AI oversight law each force a concrete decision this week.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "Public climate finance pledges at COP31 have fallen more than 70% from prior rounds, directly threatening Indonesia's Rp49 trillion energy transition financing and the viability of the 100 GWp solar invitation to China. Separately, Danantara has confirmed the merger of four state-owned investment managers and scheduled release of its 2025 financial statements for 23 November, two moves that together accelerate the restructuring arc now 30 editions old in this archive. On the AI frontier, New York's AI safety law has taken effect, placing OpenAI and Anthropic under new statutory oversight precisely as Anthropic approaches its IPO window. Google DeepMind's AlphaProof Code, which wrote three million lines of Lean proofs to verify Signal's encryption, marks a step-change in formal software verification that carries second-order consequences for critical-infrastructure assurance. BloombergNEF's finding that data-center gas plants will lift US power-sector emissions by 10% tightens the link between AI infrastructure buildout and energy policy, a thread that now runs through both the nuclear-ai-datacenter-power and pln-grid-investment themes.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "Carbon Brief",
+        "PLN",
+        "Kementerian ESDM",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "COP31 public climate-finance pledges fall more than 70%, threatening Indonesia's energy transition funding stack",
+      "whatChanged": "Carbon Brief reports that public funding pledged at COP31 to help developing countries tackle climate change has dropped by more than 70% compared with prior rounds. This follows Indonesia's announcement at the same summit of a Rp49 trillion energy transition financing package and an invitation to China to co-develop 100 GWp of solar, with the financing question for the Rp1,326 trillion buildout still unresolved.",
+      "whyItMatters": "The pln-grid-investment theme is now structural across 28 editions. Indonesia's solar and grid expansion plans were calibrated on the assumption that concessional international climate finance would cover a portion of transition costs. A 70% reduction in pledged public finance forces a larger share of that gap onto commercial debt, bilateral deals, or state balance sheets, all of which carry higher costs and slower disbursement.",
+      "secondOrder": "If concessional finance shrinks this sharply, the Indonesia-China 100 GWp solar negotiation shifts from a question of technical capacity to a question of financing architecture: China's policy banks or EPC-linked vendor financing become the residual funder, which grants Chinese counterparties structural leverage over tariff-setting and technology standards in Indonesia's grid. The RUPTL 2025-2034 revision currently awaiting Kementerian ESDM approval may need to be repriced before it is signed.",
+      "action": "Before the RUPTL revision receives ESDM sign-off, model the financing waterfall under a scenario where concessional multilateral finance covers 30% of its prior assumed share. Identify which project tranches become unviable and which bilateral or commercial structures would need to substitute.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb2p6Wm1HelNra24ybnRLck8xRWtLLWstTzY1TFNIMXJwemFVRlNqUGd0a3h2VnFfVjdHMGFHZFVTZE51N20zUGdfVTNlRzZ6UURVa0ltemRtMVBhU3pVS0ZPdHE3NUl0T242VHhnV3N6MmtTMHI4QzhpWWlOOHJ4Zk5xT2t6a0pQMWQzQm9VNEtWNVJWSHprckdfbnh3OTdBOG5xUUVfZzd4N0JDbmg0LVN1dFExaWdPWnpjdWQxbEowTUFMYUE?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckdiZzRpMXNRbmd5TkM1MlhDTFU4SmdzbC1EMzI5cHNYMXphbnZMTC1kRi1PYlowR3J6Y0otS0wzeVQzdmkxM05kRkgxZWF3Ml9acVZEcWV5Uzh5VjV5aFhMelprZTc3cm81S0d1ZU5jWFB1a0I4cTJnZ192RDFnSjRkcHR5LXotX3RyMTdaM29pSnpZMmVjSVU2bktqTV92SVdhYTR4aWFESndQNmpNa2haQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-13",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Danareksa",
+        "CNBC Indonesia",
+        "Katadata"
+      ],
+      "headline": "Danantara merges four state investment managers and schedules 23 November financial statement release",
+      "whatChanged": "CNBC Indonesia reports that Danantara has confirmed the merger of four BUMN investment managers, with the institution disclosing plans for affected employees. Separately, Katadata reports that Danantara has scheduled release of its 2025 financial statements for 23 November 2026. Bloomberg Technoz reports that Danantara is reorganising the business focus of Danareksa as part of the same consolidation.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring theme, now 30 editions deep and classified as structural. The simultaneous announcement of an employee transition plan and a financial-statement publication date signals that Danantara is moving from announcement-phase restructuring to operational execution. The 23 November date creates a hard anchor: investors and counterparties will have audited figures for the first time.",
+      "secondOrder": "The 23 November financial statement is the first document that will allow external parties to assess whether Danantara's consolidated balance sheet can support the investment mandates it has publicly claimed. If the statement reveals leverage, liquidity mismatches, or contingent liabilities from the absorbed BUMN entities, the institution's cost of capital for future fundraising rises immediately. Counterparties currently negotiating with Danantara on infrastructure or housing projects have less than two weeks to complete due diligence before the statement resets market perceptions.",
+      "action": "Prepare a checklist of balance-sheet items to evaluate on 23 November: net asset value per absorbed entity, intercompany receivables, contingent liabilities from BUMN Karya legacy projects, and the treatment of the four merged investment managers' AUM. Use this to assess whether Danantara's stated investment capacity is fully equity-backed or partly dependent on future capital calls.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVFBOU1pWGk1RUFIRWo5ekVTc2l6R3FiLXBjV3NpU1ZobWFiQnlSSDhic01fTzkyVVlqTkRuN0ZOeC1OWUFYOVJfdnBwbEpNcFlKWlhKekhWdGdFbzkzWnRRYVgtNEJFckI1cUNrZFhlRl9nNEZ0RTdrOWJwSVdJc2RfdlVUSlNoeVFuZzBlNkVvLTNKa2dvZW9DLU1oYjVJVVgzczk0azZodi1nbnNvTnhVZE1MTUpvb2Y2dUNqdVJrbXBB0gHKAUFVX3lxTFBUSWh1QU9Qc1hzWllhRjZRemwxNWVmNzBkUUE2dnlSSWg4OHBNYUhVTXUtVlNTRFBOSXVaVk9QMWljSklDVmdmbi1DRDMwMVE2WUR0enlZOV8xZHk5ZnBLMTRHUVJIeWQ2MGhRMHYzWW1KemZYZ0VBWG9NcXVpWVZXVUlwNEJxUDRwN1l0cFlmYzRrMXB3akh1d0ptUjVEbUt2Y29jTjFNaTNRN0hVcUJmQXNnU21tbXVJMlVvZzBrX3c2NGR0XzE3cUE?oc=5",
+        "https://katadata.co.id/finansial/keuangan/6af51dd359706/bos-danantara-jadwalkan-rilis-laporan-keuangan-2025-pada-23-november",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdTIwWGZzc1dsUFRSWWE1OENVQnJfRjVGcnVETTRfWjRoZ3NoMThqbTFoVzRsLWlETm9HSEh6LV9fS3FER1dGbDlaMTZGU0tuUDUzMkJrUkhWdlh2SlU2YUxIeVBfSFc3RFJxam8xSU5JRnJ5QVRnRmpidmxsR1JabTdiNHRhc0RPNXl2eTZJR0FXWGFFNUE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-13",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "New York"
+      ],
+      "headline": "New York's AI safety law takes effect, placing OpenAI and Anthropic under statutory oversight ahead of Anthropic's IPO",
+      "whatChanged": "TechCrunch reports that New York's AI safety law has taken effect, creating new statutory oversight obligations for OpenAI and Anthropic. This is concurrent with Anthropic's pre-IPO model releases, confirmed by Reuters in candidate 72, including the Fable and Mythos model families.",
+      "whyItMatters": "This continues the ai-model-safety-frontier theme, now 29 editions deep. The transition from voluntary safety commitments to statutory enforcement in the largest US commercial jurisdiction changes the compliance cost structure for frontier AI developers. Anthropic faces the added complexity of satisfying new legal disclosure and audit requirements while managing IPO-related investor communications simultaneously.",
+      "secondOrder": "Statutory AI oversight in New York creates a template that other states and federal regulators can extend. The specific obligations imposed on OpenAI and Anthropic will define what 'compliant AI governance' means in practice, which in turn shapes procurement requirements for enterprise buyers and government contractors using these models. Enterprises currently deploying Claude or GPT-4 class models in regulated industries should expect their own compliance exposure to increase as regulators use the New York framework as a reference.",
+      "action": "Review any active or planned contracts with OpenAI or Anthropic against the New York law's disclosure and audit requirements. If your organisation operates in New York or uses these models for services delivered to New York residents, obtain a legal opinion on whether downstream liability attaches before the first enforcement action clarifies scope.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSVhqV2gyYlFPU1FIZlNHRkp4SGJHQVJmMzB3cHE0a29DRHpzS09Obzh5NmlQRFFQd25aaE90ZlVxMXJCaUI0Y1FsOEltc09rX0VRTlJZZ01oUlZXN05KV3NxRXpYclhwb0g1VFE4WFEwZ2tZNllMTkpjdFQ3RVBLeWZMTWVJN3B1OVQtWVM1NkNYbER5a2NwNm1HVmI3R1pjOHFoSzJOdzBucW8tZU53?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzhYdUhsNzNPQkZ3aVh2eGJ4NEgtNlpiX0tRaDA3UFpFclkzMWRycGVrQlhaZVRNSnVoSlFBY2tWR0dyV2JTWWRBcy1qVnZyQ0VFWWE4SkozSFgyMmdzSXdQMkVLaXVJS0dFUUh5WXd6N1UyRjFGczJvU2VycHVEemxlZkRKQk5PRWtyakNiM0dSdzllZ1ItcjlJRzcyWnhkVE0zTy1paTZpWmJhLWZPaFVpeVFvWjMwNDdn?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-13",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "BloombergNEF",
+        "PLN"
+      ],
+      "headline": "BNEF: US data-center gas plants will raise power-sector CO2 emissions by 10%, forcing grid and climate policy conflict",
+      "whatChanged": "BloombergNEF, cited by Bloomberg, finds that new gas-fired generation built to serve data centers is set to lift US power-sector CO2 emissions by 10%. This is a quantified emissions consequence of the AI infrastructure buildout, not a projection of demand growth alone.",
+      "whyItMatters": "This continues the nuclear-ai-datacenter-power theme, now 25 editions deep. A 10% increase in power-sector emissions from a single demand category reverses years of grid decarbonisation progress and creates a direct conflict between AI infrastructure policy and climate commitments. It also signals that the data-center power problem cannot be solved by efficiency alone: generation mix must change, or emissions targets must be revised.",
+      "secondOrder": "If US power-sector emissions rise 10% from data-center gas additions, the political and regulatory cost of approving new gas interconnections increases sharply. This tightens the constraint on the nuclear-ai-datacenter-power pathway: developers who cannot secure nuclear or long-duration storage offtake agreements will face permitting opposition for gas backup, extending project timelines. For Indonesia, which is simultaneously courting data-center investment and managing its own coal-heavy grid, this dynamic previews the grid-emission tradeoffs that will appear in RUPTL negotiations.",
+      "action": "In any data-center infrastructure proposal under review, require the proponent to specify the generation source and its emissions intensity. If the answer is grid-average or gas peaker, quantify the emissions liability under Indonesia's NDC commitments and assess whether PLN's current tariff structure can accommodate a green-premium power purchase agreement instead.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUi0tb0JlYk5sV1ZXMmVHSU1DQnpsZjNpV2ZXeGpucVVNSHBlWURUUi1HdF9zTTRjZUNmbHVoREFaMjJjLTBHN0JfeFVyY0ZjYUZLVkVnQzdxbVRWZWdSYk9mckJJeG1kUTJEbEpfTFViOGJpdVBLTzRJOHdqdUMyZHkzN3lZQV9uaGo4U21Kb2poTEhsUXJHY0pIYmluUHpoczRpMXIxekRrVFVGcWw1Qkx5dw?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMURrMXpOcUV2WU51Zkh6SGZER0ExR2pWR3RUOUZjZWVKWGRfYjRWclZOZ2gzSUhwZ3N6emIxaTVrd2tDUzlNTlRUWHAtVHYxN1lFYklvUERtSFJSa1dIN01NZVY1alQyNTRMQ0dCVi1aNG1nLVJLWjdnZXFEU05sYUVTcmtuMTgtUHFCU09IejZFdm1RMjljcGJUUXYya2t0UjhWRjFza1p5Y3ZCTERqYTNXYVh6aVBpbmlxN3NLWHN5X2t4akRvRVp3?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 26,
+        "firstSeen": "2026-10-13",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-software-verification",
+      "entities": [
+        "Google DeepMind",
+        "AlphaProof Code",
+        "Signal"
+      ],
+      "headline": "Google DeepMind's AlphaProof Code writes three million lines of Lean proofs to verify Signal's core encryption",
+      "whatChanged": "Google DeepMind announced that AlphaProof Code agents wrote three million lines of proofs in the Lean formal verification language to verify Signal's core encryption. This is a primary-source announcement from DeepMind and constitutes the first publicly disclosed use of AI-generated formal proofs to verify production cryptographic code at this scale.",
+      "whyItMatters": "Formal software verification has historically been limited to small, safety-critical modules because writing machine-checkable proofs is prohibitively expensive. AlphaProof Code removes the labour bottleneck. The immediate consequence is that cryptographic assurance, previously a matter of expert audit and probabilistic testing, can now be supplemented with machine-generated formal proof at the scale of an entire protocol stack.",
+      "secondOrder": "If AI-generated formal verification becomes commercially available at scale, software liability and procurement standards will shift. Regulators and large buyers who currently accept penetration testing and expert audit as sufficient assurance will face pressure to require formal verification for critical systems. This raises the bar for incumbents who have invested in existing audit frameworks and creates an opening for new entrants who build formal-verification requirements into their product from day one. For financial institutions and critical infrastructure operators, this development should trigger a review of whether current software assurance standards remain fit for purpose.",
+      "action": "Identify one critical software component in your organisation's stack, preferably in cryptography or authentication, and assess whether a formal verification requirement could be introduced into the next procurement or renewal cycle. Use the Signal precedent to frame the business case to counsel and the CISO.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-software-verification",
+        "status": "new",
+        "occurrences": 1,
+        "firstSeen": "2026-11-12",
+        "spanDays": 0
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Danantara 2025 financial statements: assess net asset value, intercompany receivables, and contingent liabilities from absorbed BUMN entities",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "RUPTL 2025-2034 final approval by Kementerian ESDM: check whether financing assumptions are revised in light of COP31 climate-finance pledge collapse",
+      "dueDate": "2026-12-01"
+    },
+    {
+      "item": "New York AI safety law: monitor first enforcement actions or regulatory guidance clarifying scope of obligations for OpenAI and Anthropic",
+      "dueDate": "2027-02-01"
+    },
+    {
+      "item": "Indonesia-China 100 GWp solar negotiation: track whether financing structure shifts toward Chinese policy-bank or EPC-linked vendor finance following COP31 pledge shortfall",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "AlphaProof Code commercial availability: monitor whether DeepMind announces licensing or API access that would enable third-party formal verification at scale",
+      "dueDate": "2027-03-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Analysis: Climate-finance pledges fall 70% as countries meet at COP31",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-11T07:00:00.000Z"
+    },
+    {
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-10T12:02:28.000Z"
+    },
+    {
+      "title": "Data Center Power Demand Is Set to Surge, Raising New Climate Challenges: BloombergNEF",
+      "publisher": "BloombergNEF",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMURrMXpOcUV2WU51Zkh6SGZER0ExR2pWR3RUOUZjZWVKWGRfYjRWclZOZ2gzSUhwZ3N6emIxaTVrd2tDUzlNTlRUWHAtVHYxN1lFYklvUERtSFJSa1dIN01NZVY1alQyNTRMQ0dCVi1aNG1nLVJLWjdnZXFEU05sYUVTcmtuMTgtUHFCU09IejZFdm1RMjljcGJUUXYya2t0UjhWRjFza1p5Y3ZCTERqYTNXYVh6aVBpbmlxN3NLWHN5X2t4akRvRVp3?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-10T23:13:16.000Z"
+    },
+    {
+      "title": "Indonesia Ajak China Bangun PLTS 100 GW, tapi Siapa yang Bayar Rp 1.326 T?",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb2p6Wm1HelNra24ybnRLck8xRWtLLWstTzY1TFNIMXJwemFVRlNqUGd0a3h2VnFfVjdHMGFHZFVTZE51N20zUGdfVTNlRzZ6UURVa0ltemRtMVBhU3pVS0ZPdHE3NUl0T242VHhnV3N6MmtTMHI4QzhpWWlOOHJ4Zk5xT2t6a0pQMWQzQm9VNEtWNVJWSHprckdfbnh3OTdBOG5xUUVfZzd4N0JDbmg0LVN1dFExaWdPWnpjdWQxbEowTUFMYUE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T02:17:00.000Z"
+    },
+    {
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "publisher": "TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSVhqV2gyYlFPU1FIZlNHRkp4SGJHQVJmMzB3cHE0a29DRHpzS09Obzh5NmlQRFFQd25aaE90ZlVxMXJCaUI0Y1FsOEltc09rX0VRTlJZZ01oUlZXN05KV3NxRXpYclhwb0g1VFE4WFEwZ2tZNllMTkpjdFQ3RVBLeWZMTWVJN3B1OVQtWVM1NkNYbER5a2NwNm1HVmI3R1pjOHFoSzJOdzBucW8tZU53?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T20:52:13.000Z"
+    },
+    {
+      "title": "4 Manajer Investasi BUMN Dilebur, Danantara Ungkap Nasib Karyawan",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVFBOU1pWGk1RUFIRWo5ekVTc2l6R3FiLXBjV3NpU1ZobWFiQnlSSDhic01fTzkyVVlqTkRuN0ZOeC1OWUFYOVJfdnBwbEpNcFlKWlhKekhWdGdFbzkzWnRRYVgtNEJFckI1cUNrZFhlRl9nNEZ0RTdrOWJwSVdJc2RfdlVUSlNoeVFuZzBlNkVvLTNKa2dvZW9DLU1oYjVJVVgzczk0azZodi1nbnNvTnhVZE1MTUpvb2Y2dUNqdVJrbXBB0gHKAUFVX3lxTFBUSWh1QU9Qc1hzWllhRjZRemwxNWVmNzBkUUE2dnlSSWg4OHBNYUhVTXUtVlNTRFBOSXVaVk9QMWljSklDVmdmbi1DRDMwMVE2WUR0enlZOV8xZHk5ZnBLMTRHUVJIeWQ2MGhRMHYzWW1KemZYZ0VBWG9NcXVpWVZXVUlwNEJxUDRwN1l0cFlmYzRrMXB3akh1d0ptUjVEbUt2Y29jTjFNaTNRN0hVcUJmQXNnU21tbXVJMlVvZzBrX3c2NGR0XzE3cUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T02:30:02.000Z"
+    },
+    {
+      "title": "Data Center Gas Plants to Lift US Power Emissions 10%, BNEF Says",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUi0tb0JlYk5sV1ZXMmVHSU1DQnpsZjNpV2ZXeGpucVVNSHBlWURUUi1HdF9zTTRjZUNmbHVoREFaMjJjLTBHN0JfeFVyY0ZjYUZLVkVnQzdxbVRWZWdSYk9mckJJeG1kUTJEbEpfTFViOGJpdVBLTzRJOHdqdUMyZHkzN3lZQV9uaGo4U21Kb2poTEhsUXJHY0pIYmluUHpoczRpMXIxekRrVFVGcWw1Qkx5dw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-11T16:40:54.000Z"
+    },
+    {
+      "title": "Anthropic unveils new Fable, Mythos models as competition heats up ahead of IPO",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzhYdUhsNzNPQkZ3aVh2eGJ4NEgtNlpiX0tRaDA3UFpFclkzMWRycGVrQlhaZVRNSnVoSlFBY2tWR0dyV2JTWWRBcy1qVnZyQ0VFWWE4SkozSFgyMmdzSXdQMkVLaXVJS0dFUUh5WXd6N1UyRjFGczJvU2VycHVEemxlZkRKQk5PRWtyakNiM0dSdzllZ1ItcjlJRzcyWnhkVE0zTy1paTZpWmJhLWZPaFVpeVFvWjMwNDdn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-09T20:21:57.000Z"
+    },
+    {
+      "title": "Danantara Menata Fokus Bisnis Danareksa",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdTIwWGZzc1dsUFRSWWE1OENVQnJfRjVGcnVETTRfWjRoZ3NoMThqbTFoVzRsLWlETm9HSEh6LV9fS3FER1dGbDlaMTZGU0tuUDUzMkJrUkhWdlh2SlU2YUxIeVBfSFc3RFJxam8xSU5JRnJ5QVRnRmpidmxsR1JabTdiNHRhc0RPNXl2eTZJR0FXWGFFNUE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T01:50:00.000Z"
+    },
+    {
+      "title": "PLN Sebut Draf Revisi RUPTL 2025-2034 Tunggu Persetujuan ESDM - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckdiZzRpMXNRbmd5TkM1MlhDTFU4SmdzbC1EMzI5cHNYMXphbnZMTC1kRi1PYlowR3J6Y0otS0wzeVQzdmkxM05kRkgxZWF3Ml9acVZEcWV5Uzh5VjV5aFhMelprZTc3cm81S0d1ZU5jWFB1a0I4cTJnZ192RDFnSjRkcHR5LXotX3RyMTdaM29pSnpZMmVjSVU2bktqTV92SVdhYTR4aWFESndQNmpNa2haQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-10T05:00:00.000Z"
+    },
+    {
+      "title": "Bos Danantara Jadwalkan Rilis Laporan Keuangan 2025 pada 23 November",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/keuangan/6af51dd359706/bos-danantara-jadwalkan-rilis-laporan-keuangan-2025-pada-23-november",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-12T02:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "BRI nyatakan ikut arahan Danantara soal merger anak usaha; otoritas Danantara atas perbankan BUMN dikonfirmasi",
+      "occurrences": 30,
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-11-11",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic rilis Claude Fable 5.2 dan Mythos 5.2 menjelang IPO, Reuters mengonfirmasi",
+      "occurrences": 29,
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-11-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Indonesia secures Rp49 trillion in energy transition funding at COP31; offers 100 GWp solar pipeline worth Rp1,140 trillion",
+      "occurrences": 28,
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-11-11",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "SoftBank rugi USD 7 miliar akibat bengkaknya biaya pusat data AS; GE Vernova terkoreksi",
+      "occurrences": 25,
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-11-11",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 13,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 411,
+    "poolSize": 110,
+    "generatedAt": "2026-11-12T02:55:28.643Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
