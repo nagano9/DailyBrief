@@ -1,0 +1,406 @@
+{
+  "slug": "2026-11-13",
+  "date": "2026-11-13",
+  "lang": "en",
+  "title": "Gemini 4 Hydrogen, COP31 Finance Collapse, and Garuda's Rp 6.2T Rights Issue",
+  "dek": "A new frontier AI model, a 70% crash in climate-finance pledges threatening Indonesia's solar targets, and a leveraged SOE capital raise converge into concrete decisions across all three domains.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "Google DeepMind has launched Gemini 4 Hydrogen, adding orchestration capabilities that move frontier AI from single-model reasoning to multi-agent coordination, compressing the timeline for enterprise deployment decisions. At COP31 in Antalya, public climate-finance pledges have dropped 70% year-on-year, a structural blow to Indonesia's 100 GWp solar target that already depends on grid and governance reforms the country has not completed. PLN's readiness check on 1,697 MW of Central Java generation capacity signals growing urgency inside the state utility as demand pressure mounts. Danantara is being tasked with designing a special incentive scheme for the textile industry, extending its mandate beyond infrastructure into industrial policy in ways that test its governance architecture. Garuda Indonesia is preparing a Rp 6.21 trillion rights issue that would dilute existing shareholders by up to 37.9%, a capital structure move that requires immediate assessment by any holder of GIAA or its related SOE debt.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 4 Hydrogen",
+        "LangChain"
+      ],
+      "headline": "Google DeepMind launches Gemini 4 Hydrogen with multi-agent orchestration capabilities",
+      "whatChanged": "Google DeepMind announced Gemini 4 Hydrogen on 2026-11-12, introducing orchestration features alongside the model itself. Hacker News discussion confirms the release includes a dedicated Orchestrator component for coordinating multi-agent workflows.",
+      "whyItMatters": "Gemini 4 Hydrogen continues a structural pattern: frontier labs are no longer releasing standalone models but integrated runtime environments where the model is one component in a managed agent graph. This compresses the decision window for enterprises still treating AI as a point-solution purchase rather than an infrastructure layer. The ai-model-safety-frontier theme is now 29 entries deep and structural; each new frontier release raises the floor of what 'baseline capability' means for competitors and enterprise buyers simultaneously.",
+      "secondOrder": "As orchestration becomes native to the model layer, the differentiation value of third-party orchestration middleware such as LangChain erodes. Enterprises that have standardized on middleware-first stacks face rearchitecting costs that did not exist six months ago. The competitive pressure now falls not on which model is smartest but on which vendor controls the runtime environment where agents execute, store memory, and call tools.",
+      "action": "Audit any active AI procurement or integration contract this week to determine whether it assumes a single-model architecture. Contracts written before mid-2026 almost certainly do not account for orchestration-layer lock-in. Flag clauses that tie the deployment to a specific model version without accommodating runtime environment changes.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-14",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "CPI Indonesia",
+        "RUPTL 2025-2034",
+        "Carbon Brief"
+      ],
+      "headline": "COP31 climate-finance pledges fall 70%; Indonesia's 100 GWp solar target loses its external funding assumption",
+      "whatChanged": "Carbon Brief analysis published 2026-11-10 documents that public climate-finance pledges to developing countries have dropped more than 70% compared to the prior year as countries gather at COP31 in Antalya. Multiple Indonesian outlets including ANTARA, Kontan, and Bisnis.com report on the same day that Indonesia's 100 GWp solar photovoltaic target requires grid fixes and governance reforms that remain incomplete, with no confirmed replacement funding source identified.",
+      "whyItMatters": "The pln-grid-investment theme has been structural for 28 consecutive entries. The 70% pledge collapse removes the external-finance assumption that underpinned Indonesia's energy transition modeling. CPI Indonesia, as reported by CNBC Indonesia, is now proposing a domestic just-transition fund as a substitute, but that instrument is not capitalized or legally established. The gap between the investment requirement and available committed finance is widening in real time during the COP31 negotiations.",
+      "secondOrder": "If Indonesia cannot replace international climate finance with domestic instruments or bilateral deals before RUPTL 2025-2034 procurement rounds open, project developers will face grid interconnection queues without offtake certainty, pushing bankable solar projects toward delayed financial close or cancellation. This creates a secondary effect on PLN's own balance sheet: stranded transmission investment planned around solar integration volumes that do not materialize would need to be written off or repurposed.",
+      "action": "Request an updated sensitivity analysis on any Indonesia renewable energy project financial model that assumed JETP or COP multilateral finance as a funding tranche. Replace that tranche with a 'domestic blended finance only' scenario and re-run IRR and DSCR. The CPI Indonesia just-transition fund proposal is a marker worth tracking but should not be treated as committed capital in any model this quarter.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWXNnSGdZYmZRMjBtdUZUdlNhM21USHF6RWdtZllXZXp6WXRUS2VTXzN3bmVlRERGN3VGU29PclNJYlBxMDR1dG5NUkVWeFpXdGduRG5WdUFEYldBa3ZjUEYwOEFOSEFFdVNhY1ZLYzZMS3lrTHhZUzg1UnhjWERkcFl5NWEwRGJrTENpMU9vVWhIY0pFV0Y0TDlldlBObjEtSldKdFlxM2vSAa4BQVVfeXFMTnVJTGhfUVNJbXRqZmh4dXRRa1pia2Rha0tYTEtrYkdvSDhmay1Sbng3dDZONXhKWGx5dWV0cjlCR3hNc3BGTW9qLWtoNm5vdVlHT01lMS1acERFbTBoRXJaamNEakIxbXBZdW03V0lKR09zX1dINVgyUWJPdFpjLWV2M2JpOE9XUFdMMEo1aFVIM0FlOC1HNUZQVk0wVHVobHB2TWVFUHRkQXY0SlBB?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNGxGQXFNOTJQRFY0dUt1RDFNYXJPYVh0cW8zLXMyb2pqVld4Q0hSTDZsb3c1WWh6TmE4MFZQM0YzU1N5TXhVNi1MLTd3bEQyNlJLb3Q5RFRBbmdaWkFMRkpNRzdLd2l2WlUtMlozNmpSaGJZd2FWZXlWcmxPS1BWajVrSHRYbk5iWHFmaDZSdGkzU1VzazQ0N0dreTlDSnVaenprNWx4TTV0SWNCdHZUb2J5VFB3Qm1yRUNOdm9YLURDbGk0b1HSAcsBQVVfeXFMTTFpN3gtbXNqamFzNHVOUGxxaE9LZlNQcmlMTE9CN2wzU0ZjNEM1cTJ1VjBmeXdJbTVZd0IxQklUYjBoU2ZOSDFyU0t1R2tEOEF2QzZyMmE2ODB5SXV1NTFtR3FaVkVEOTVmZ3VEWWFEUElxSWFXRW5kYlRKRXRVcXJwcWJ3ZVYwalNzZGstNVJSXzltd1Z0eU9aakpBV2JzeXZNSl9BODN2TXRpNDJNdFpQWWowbWw1QXVvUS1iYnpRdnYzUzJYQ3pza3c?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbzB5TERreVdRZ0ZjX1NqQ0pnMnlqQTc4YThWZ3Ntb1k4YXZHR18ta2llNW13MDZmbVpRZ3NrOVZfUUliZTB2UTRKMEhtbXdaOGhtRlloQXFMb3hJWUt1WHByV2M2NEV4aTJTVGw5RUlSZExVRjNIbTJQbkh0UHZFXzFNMGFRdGlZSjlJazl0SEhRaGs4TVNDT1ZxcndGREpHR1NXTWNlVnVVbkhzNXQyLWdpeE_SAa4BQVVfeXFMUENJQS1XSXZubkhYdUxaRGFxV1Q4R1FLOVNweDVyR0lTaGhXM2RNN1poTDhjc0NKei1SQ1N2OEF5NFhvOXhnQW4xVG5PN2lueG55SlVWYW9fMGw3Yk41VGRfTldOZTBPdWZLNU03LUZwUjdMbVZRNlN0M3hTanJTNGdJVUY4akMyRVlDNGJ5WW9lQ3oyQ2lUV1IxbzM4cEZkTXBPZEh5ZWpuUjNmRnRB?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM09IaGtHbmVMMmo1LVhSX3JqRUZYTndlMURfeXJqNU85djcyMFUwQTc3VzliYVp6MmtmUUxhUHM1UXpkQ2pLYkZmSDdtSVZLbUJDcEs1aktfcjZSSGY5eGFTXzJocFUwSC0xYWdJdUpXRGl3NV95SHBUU3U5OTlITWtZajJNc3liX3I3TlliaVY0Z2hvcWZaSFkxYnBFcUpxc1VwSjZoV1pfZw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 5,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-14",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN"
+      ],
+      "headline": "PLN audits readiness of 1,697 MW Central Java generation capacity ahead of peak demand",
+      "whatChanged": "DetikFinance reported on 2026-11-12 that PLN is conducting a readiness check on 1,697 MW of power plant capacity designated for Central Java supply. The check is proactive, occurring before peak demand rather than in response to a declared shortfall.",
+      "whyItMatters": "The pln-transmisi-investasi theme has tracked 11 entries since October 2026, beginning with PLTU Kaltim-2 reactivation to cover East Kalimantan deficits. A second simultaneous readiness audit in Central Java confirms that capacity adequacy is a system-wide concern for PLN, not an isolated regional issue. Central Java is Indonesia's most industrialized province and a planned hub for data center and manufacturing expansion; a generation shortfall there would have immediate economic consequences.",
+      "secondOrder": "Readiness audits of this scale typically surface deferred maintenance backlogs. If PLN discovers units requiring unplanned outage for repairs, it will need to procure emergency fuel oil to substitute, reversing the stated goal of cutting BBM consumption by up to 4 million kiloliters. That would increase PLN's operating cost and widen the subsidy gap at a moment when ICP has been set at USD 117.24 per barrel for October 2026, a high baseline for fuel cost calculation.",
+      "action": "Cross-reference the 1,697 MW audit findings, once published, against PLN's BBM consumption reduction target reported by CNBC Indonesia. A divergence between the two would be an early indicator of PLN balance sheet stress requiring attention before any new power purchase agreement negotiations in Central Java.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNM3FaN3JNNHNqRjdJYWhYRlBhU3NXRTdvb1NvWWJQTER5SnBfNHpEM0ZDZ2I3OXRiUTZiQjFtREpMaWVsaHgtTkJoNzFxVk1vTmFHamtFMHBRRzg5SFVOR0dxYkhOY3NJZWdsVGNsQkZPa3IwLXVScTFBWGVpN2MwWXRybm9panlxM1MxaHBBZno1OFdUNjVuYW1pSVhyOTN0d0lHNEQ4U1NKb01XRGpiT0NsWdIBuAFBVV95cUxQSTZMMDNNdk4yNW0zeXhqYkhVdXBHSDE4a2J4aXdZRnBUZGJsYjFvZ3AzQVctb29abVg5VWk5NVpHSDhnYXRwc3RBYnVSQksxQU42SFlhUExoRnFMLVNUazNpeGl2WVQ4eDdadEptTFJfODZLSlA2TlZLU3daRTM2RFBkOHcwMWFkSTF0a3Q0ZXcwZWx3VzdJMWswQkRIWmxWd0h3aDlsQWVWcXR6LUdkMHI4ZG05YmJs?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc21GcHlKOUNMNHREbVZyYm96alZYQTZlNDBnUDBPbmExZ2hIUlFzTDZVU0k4NVdJQUtkSEJDLUROSHZhYjZjTHVjSW42SXE2bUNDb3NEWVVBUFJwXzNCVF90em1oam1QNHVFWkQ5MWZfWmlQR0liVlZwd2FXaHdZbTFPeWdGaTBXdzg4MWlQN01ER01ObEthN1VoWVVTV1BOVkh6YnBNaEtYWXdkZ2cxNHBWQTdwTG5MUThwMndTUnDSAcYBQVVfeXFMTk8xZ2FXWHBDVjVmUlVac0RLcFdfbVB0YlFYSDlJMjQybUE1eTlodDdVbGJYVk5rNWxHNUVfRno4dkhtY3dnMFlBbndFZGJ4OWZfdEJfNE5TTU41ZXJmcU9WZ0dzTUhYVjJCbzlId3BLYXROTFVack96QVpPS21FZjRRa1FqaUR4RVhCeHdQM1RZdXo2NzZYRUJJSTE2VmM2bE5jMEdSWDFtTk9yenR6cTlHMjA1aXhhcjd5TTFDRU5Pc1FXYWFR?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWXZzcEFPMmFyLWtTdlo3aGNhNjZYWXNoNmlDR1RzcEtpai1uYnJLNG5EaFZqSlBMNjJIeDVFZHE2cWlER3BEUU1BUDJqREwzUEpGb3dqTEpKS0cwMkttVGxlaHJadjdoM3lmV3pydnI3Y3ZKdFlZYlVaVk90NHZtSkJFZHY4R2VOdkxIYmU0UEJQakxBX2t0aDFxWEV1ejE4ZFZPZGtLWDNoVjFLaDJUcG5yMnliaWhEYmRNTXVQWWRVMGY2Y3M1bV9HVFRIbG9wbkE?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-15",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Telkom",
+        "Bisnis.com"
+      ],
+      "headline": "Government tasks Danantara with designing a special incentive scheme for the textile industry",
+      "whatChanged": "Bisnis.com reported on 2026-11-12 that the government is formulating incentives for the textile industry and has asked Danantara to prepare a special scheme as part of that package. This is a new assignment beyond Danantara's originally stated infrastructure and investment mandate.",
+      "whyItMatters": "The danantara-bumn-karya-restructuring theme is now structural at 30 entries. Each successive week has added a new functional domain to Danantara's portfolio: first infrastructure SOE consolidation, then capital markets transparency, then the UMKM marketplace via Telkom, and now industrial policy incentive design for textiles. The accumulation implies that Danantara is being used as a flexible policy instrument rather than a focused sovereign investment vehicle, which is a governance architecture risk.",
+      "secondOrder": "Mandate creep without commensurate governance infrastructure creates accountability gaps. Danantara's financial statements for 2025 are scheduled for publication on 23 November 2026. If those statements do not show a clear organizational structure separating investment management from policy execution functions, the textile assignment and similar mandates will be difficult to audit, and international investors evaluating Danantara-linked instruments will face elevated opacity risk.",
+      "action": "Before the 23 November financial statement release, compile a list of all functional mandates assigned to Danantara since its establishment and map them against the governance structure disclosed in prior reporting. Present the resulting accountability matrix to any investment committee evaluating exposure to Danantara-linked bonds or equity.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ3pGZFZfTUZ5LWpXRWdyNDZsOGxMOVlOamRJWjZndjRtcXdHeWlXazdoWkVfOU9DM0NGak10bF9JTVhZa3ItOUllTG9ScTl3a0lmakVVc0NNZGxmSDlhalA3aVh2ektORXkxNDl0VmpmRFFkMkMxNVZQQkJla2FySS1sb05UTmZnbEpEeDZtc093R19VU1pTTW9ZUWpfaExDc1k5RGE0ZlUwYmNicjg0LVFBUU9vVTVOM21OalV4WGhMZ1NJMFctMlRqZ3pQbDg?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxORE41dEZoQXBLUkZ2NnBaM3o5UjE1dEZRN0NUY1MwcDI1cjhWaWJMb2Rnb0JfSW40ZkJmWEJnMWI4a1hCc1dPQ284c3hOUXRKVS11YmNBTkltNlJjSlVlcFpKSTJuTTdNSG9fOW54WkJ4MGxDWnYyZ3VKY3JmLXE0NHdPS3V0c29OVGJSbGlYZmI3VVg1YzJrY1prRVNramZu?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-14",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "bumn-capital-structure",
+      "entities": [
+        "Garuda Indonesia",
+        "GIAA",
+        "KONTAN",
+        "Bloomberg Technoz"
+      ],
+      "headline": "Garuda Indonesia plans Rp 6.21 trillion rights issue with up to 37.9% shareholder dilution",
+      "whatChanged": "Garuda Indonesia (GIAA) has announced a third rights issue of up to Rp 6.21 trillion, which Bloomberg Technoz reports would create potential dilution of 37.9% for existing shareholders. The plan has been reported across KONTAN, detikFinance, CNBC Indonesia, and Bloomberg Technoz, with figures consistent across all four outlets.",
+      "whyItMatters": "A rights issue of this scale from a state-controlled airline that has undergone prior restructuring is a capital adequacy signal, not a growth signal. Garuda's repeated recourse to rights issuance indicates that operational cash flow remains insufficient to service obligations without periodic equity injections. At Rp 6.21 trillion, this is one of the largest SOE equity raises of 2026 and sets a precedent for how other BUMN with structural deficits might seek relief through the capital market rather than through Danantara restructuring.",
+      "secondOrder": "A 37.9% dilution at this size tests minority shareholder appetite for state-controlled issuers that have not demonstrated sustained profitability. If the rights issue is undersubscribed, the government as majority shareholder faces either standby underwriting commitment, which adds to fiscal exposure, or a failed raise that forces a harder restructuring conversation. Either outcome affects the pricing of other SOE equity offerings in the pipeline.",
+      "action": "Evaluate the rights issue prospectus terms when published, focusing on the use-of-proceeds breakdown, standby underwriting arrangements, and any conditions tied to government backstop. Compare subscription terms against GIAA's post-restructuring debt covenants to assess whether proceeds are constrained in application. Any portfolio with GIAA exposure should model the dilution impact on NAV before the subscription deadline.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGRIbGxXWm9OMFY5cWphTHdHZ19rT0xLX1VqRm1MS2pQYko3Ym9xMmNJV1NIYmxNWmVhenBrb2JCSDlDdnVmdklBcDJJUEo0cHNfNVF5OF9QYllvZmFndmVmRUJvQzdCUkdnZlM2emg0cTdWQjRpTGhPRXk2aFFyM3J4Q29VclNGeHI2RGk4ZWJRMW1h?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaVd2UEVsUk4wX0xZWkFtRy10RnYyOEhQZlFaZGtLa2ctOC14WmlyQjhrS3RGZkszTWpCN2FqNnhtRkVvZTFSRktWTDg2V3BFWlVkekJ3OUwyWDVaSTdjclA5UHAyUDlpOVUzMXk4OXMwbG83Ujk3WkVtQ19Wd1lBS2NIaTNHM204WmI1dDFMMGZBLVVZNTNrVlkteTdHX0M0OF9RLUZB?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdEdBNDIyUVRxNmctbE5VR1h3amJ5SlA1SWVnYUl6Q29rR1lwWHU4SVdvVmg5aC0zbEdhLVFuUy1BUk5RYkQyS0ZqVGROU0p0MTMtU2FIMERMcWR2YXpZbXdiaW1oWUZxQnRkRkpoeHF3RHE3cmwtVUZaVUQ2TGZndnRVVm8xQ3BaWENOYW1vOW1jcW54RUNvbVZn0gGfAUFVX3lxTE5IcGk5c2xPWFlYQnpVRFVydVc1MF9RaENWWHgySThLT0hEN250UWRRbm9wS0d2ek81YXVlNFBzTVhyWlFiU1I3aWV0RXRBTmRhVTE5SXkyRGFrRXBwWjFraEFzOFZ1LUlEX2kycjhrcy1sbHFaNXJodWhheHlDUnVNYmxSNG9XZDgta2pYUVlibGVUaktYekZFZzRCWC1MTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUDgySUhGQ0ZkNWYtN2pHT3pvZGZCRG51TEV1SlpTN2lhWjk4T3l2T0VXSXpOV1JDZ3VwaVEyWWdjVDhwdTZ3bHQ1QnlTNC1tVW96NGwzcTVGOFZNMmx6MlVXc1BFWF81Uk5vbVh5TWdvVThnU2tXd0VRSGdFeUlhdXppalJGVHJPWnRvMkpiMGc1eHBxU1RfeENHR2h6cGprc016M2FVMEl1bnNPUnd4cDdhYnlNeEdRejYtT3ZB0gHDAUFVX3lxTFBLNnliMFZHdnFZV1BJc0dad2JSNDBTMm9vdEozeEZLR3ZIZHA3aVVHNWN4OVAwZUxIT0RHWjA0VG9qV3BlVUhTNE9Odkl2MlR5cThNblg3SG52Y3FiZzJ5aG5oRkJ2QnpXSTd6SVZqcDdSX2ZkamtIWmlqNE9FdXZNeTQ5dGVtcno3T2o2MzFFUHFqWkhiYTdtclp0bUh5RFB6Z0w5Z3ItRzBpSWxIMk1tczh4allZOTctb0J0Q1FtdWxzMA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "bumn-capital-structure",
+        "status": "new",
+        "occurrences": 1,
+        "firstSeen": "2026-11-13",
+        "spanDays": 0
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Danantara 2025 financial statements scheduled for publication; check whether governance structure separates investment management from policy execution mandates",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "Garuda Indonesia rights issue prospectus; track underwriting commitments, government standby arrangement, and use-of-proceeds constraints",
+      "dueDate": "2026-11-28"
+    },
+    {
+      "item": "COP31 Antalya final finance communique; watch for any bilateral pledges to Indonesia that could substitute for collapsed multilateral climate finance",
+      "dueDate": "2026-11-22"
+    },
+    {
+      "item": "PLN Central Java 1,697 MW readiness audit outcome; cross-reference against BBM consumption reduction targets to detect operating cost divergence",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "item": "Gemini 4 Hydrogen Orchestrator API documentation; assess whether enterprise contracts signed before mid-2026 require renegotiation to accommodate multi-agent runtime architecture",
+      "dueDate": "2026-11-21"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-12T18:00:50.000Z"
+    },
+    {
+      "title": "Analysis: Climate-finance pledges fall 70% as countries meet at COP31",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-11T07:00:00.000Z"
+    },
+    {
+      "title": "Pemerintah Tetapkan ICP Oktober US$117,24 per Barel, Harga November Diproyeksi Melandai",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWXZzcEFPMmFyLWtTdlo3aGNhNjZYWXNoNmlDR1RzcEtpai1uYnJLNG5EaFZqSlBMNjJIeDVFZHE2cWlER3BEUU1BUDJqREwzUEpGb3dqTEpKS0cwMkttVGxlaHJadjdoM3lmV3pydnI3Y3ZKdFlZYlVaVk90NHZtSkJFZHY4R2VOdkxIYmU0UEJQakxBX2t0aDFxWEV1ejE4ZFZPZGtLWDNoVjFLaDJUcG5yMnliaWhEYmRNTXVQWWRVMGY2Y3M1bV9HVFRIbG9wbkE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-11T17:22:56.000Z"
+    },
+    {
+      "title": "Danantara & Telkom Hadirkan Padisera, Marketplace UMKM",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORE41dEZoQXBLUkZ2NnBaM3o5UjE1dEZRN0NUY1MwcDI1cjhWaWJMb2Rnb0JfSW40ZkJmWEJnMWI4a1hCc1dPQ284c3hOUXRKVS11YmNBTkltNlJjSlVlcFpKSTJuTTdNSG9fOW54WkJ4MGxDWnYyZ3VKY3JmLXE0NHdPS3V0c29OVGJSbGlYZmI3VVg1YzJrY1prRVNramZu?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-10T10:58:37.000Z"
+    },
+    {
+      "title": "Target PLTS 100 GWp butuh pembenahan jaringan dan tata kelola",
+      "publisher": "ANTARA News Banten",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWXNnSGdZYmZRMjBtdUZUdlNhM21USHF6RWdtZllXZXp6WXRUS2VTXzN3bmVlRERGN3VGU29PclNJYlBxMDR1dG5NUkVWeFpXdGduRG5WdUFEYldBa3ZjUEYwOEFOSEFFdVNhY1ZLYzZMS3lrTHhZUzg1UnhjWERkcFl5NWEwRGJrTENpMU9vVWhIY0pFV0Y0TDlldlBObjEtSldKdFlxM2vSAa4BQVVfeXFMTnVJTGhfUVNJbXRqZmh4dXRRa1pia2Rha0tYTEtrYkdvSDhmay1Sbng3dDZONXhKWGx5dWV0cjlCR3hNc3BGTW9qLWtoNm5vdVlHT01lMS1acERFbTBoRXJaamNEakIxbXBZdW03V0lKR09zX1dINVgyUWJPdFpjLWV2M2JpOE9XUFdMMEo1aFVIM0FlOC1HNUZQVk0wVHVobHB2TWVFUHRkQXY0SlBB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T13:12:44.000Z"
+    },
+    {
+      "title": "GIAA Bakal Menggelar Rights Issue Senilai Rp 6,21 Triliun",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGRIbGxXWm9OMFY5cWphTHdHZ19rT0xLX1VqRm1MS2pQYko3Ym9xMmNJV1NIYmxNWmVhenBrb2JCSDlDdnVmdklBcDJJUEo0cHNfNVF5OF9QYllvZmFndmVmRUJvQzdCUkdnZlM2emg0cTdWQjRpTGhPRXk2aFFyM3J4Q29VclNGeHI2RGk4ZWJRMW1h?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T02:09:41.000Z"
+    },
+    {
+      "title": "PLN Cek Kesiapan Pembangkit 1.697 MW untuk Pasokan Listrik Jawa Tengah",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNM3FaN3JNNHNqRjdJYWhYRlBhU3NXRTdvb1NvWWJQTER5SnBfNHpEM0ZDZ2I3OXRiUTZiQjFtREpMaWVsaHgtTkJoNzFxVk1vTmFHamtFMHBRRzg5SFVOR0dxYkhOY3NJZWdsVGNsQkZPa3IwLXVScTFBWGVpN2MwWXRybm9panlxM1MxaHBBZno1OFdUNjVuYW1pSVhyOTN0d0lHNEQ4U1NKb01XRGpiT0NsWdIBuAFBVV95cUxQSTZMMDNNdk4yNW0zeXhqYkhVdXBHSDE4a2J4aXdZRnBUZGJsYjFvZ3AzQVctb29abVg5VWk5NVpHSDhnYXRwc3RBYnVSQksxQU42SFlhUExoRnFMLVNUazNpeGl2WVQ4eDdadEptTFJfODZLSlA2TlZLU3daRTM2RFBkOHcwMWFkSTF0a3Q0ZXcwZWx3VzdJMWswQkRIWmxWd0h3aDlsQWVWcXR6LUdkMHI4ZG05YmJs?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T09:20:21.000Z"
+    },
+    {
+      "title": "CPI Indonesia Usulkan Dana Transisi Energi Berkeadilan untuk Listrik",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNGxGQXFNOTJQRFY0dUt1RDFNYXJPYVh0cW8zLXMyb2pqVld4Q0hSTDZsb3c1WWh6TmE4MFZQM0YzU1N5TXhVNi1MLTd3bEQyNlJLb3Q5RFRBbmdaWkFMRkpNRzdLd2l2WlUtMlozNmpSaGJZd2FWZXlWcmxPS1BWajVrSHRYbk5iWHFmaDZSdGkzU1VzazQ0N0dreTlDSnVaenprNWx4TTV0SWNCdHZUb2J5VFB3Qm1yRUNOdm9YLURDbGk0b1HSAcsBQVVfeXFMTTFpN3gtbXNqamFzNHVOUGxxaE9LZlNQcmlMTE9CN2wzU0ZjNEM1cTJ1VjBmeXdJbTVZd0IxQklUYjBoU2ZOSDFyU0t1R2tEOEF2QzZyMmE2ODB5SXV1NTFtR3FaVkVEOTVmZ3VEWWFEUElxSWFXRW5kYlRKRXRVcXJwcWJ3ZVYwalNzZGstNVJSXzltd1Z0eU9aakpBV2JzeXZNSl9BODN2TXRpNDJNdFpQWWowbWw1QXVvUS1iYnpRdnYzUzJYQ3pza3c?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T10:51:03.000Z"
+    },
+    {
+      "title": "GIAA Rancang Rights Issue Jumbo, Potensi Dilusi 37,9%",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaVd2UEVsUk4wX0xZWkFtRy10RnYyOEhQZlFaZGtLa2ctOC14WmlyQjhrS3RGZkszTWpCN2FqNnhtRkVvZTFSRktWTDg2V3BFWlVkekJ3OUwyWDVaSTdjclA5UHAyUDlpOVUzMXk4OXMwbG83Ujk3WkVtQ19Wd1lBS2NIaTNHM204WmI1dDFMMGZBLVVZNTNrVlkteTdHX0M0OF9RLUZB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-11T07:38:02.000Z"
+    },
+    {
+      "title": "Pemerintah Godok Insentif Industri Tekstil, Danantara Diminta Siapkan Skema Khusus - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ3pGZFZfTUZ5LWpXRWdyNDZsOGxMOVlOamRJWjZndjRtcXdHeWlXazdoWkVfOU9DM0NGak10bF9JTVhZa3ItOUllTG9ScTl3a0lmakVVc0NNZGxmSDlhalA3aVh2ektORXkxNDl0VmpmRFFkMkMxNVZQQkJla2FySS1sb05UTmZnbEpEeDZtc093R19VU1pTTW9ZUWpfaExDc1k5RGE0ZlUwYmNicjg0LVFBUU9vVTVOM21OalV4WGhMZ1NJMFctMlRqZ3pQbDg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T14:25:56.000Z"
+    },
+    {
+      "title": "PLN Bisa Tekan Pemakaian BBM Pembangkit Listrik Sampai 4 Juta KL",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc21GcHlKOUNMNHREbVZyYm96alZYQTZlNDBnUDBPbmExZ2hIUlFzTDZVU0k4NVdJQUtkSEJDLUROSHZhYjZjTHVjSW42SXE2bUNDb3NEWVVBUFJwXzNCVF90em1oam1QNHVFWkQ5MWZfWmlQR0liVlZwd2FXaHdZbTFPeWdGaTBXdzg4MWlQN01ER01ObEthN1VoWVVTV1BOVkh6YnBNaEtYWXdkZ2cxNHBWQTdwTG5MUThwMndTUnDSAcYBQVVfeXFMTk8xZ2FXWHBDVjVmUlVac0RLcFdfbVB0YlFYSDlJMjQybUE1eTlodDdVbGJYVk5rNWxHNUVfRno4dkhtY3dnMFlBbndFZGJ4OWZfdEJfNE5TTU41ZXJmcU9WZ0dzTUhYVjJCbzlId3BLYXROTFVack96QVpPS21FZjRRa1FqaUR4RVhCeHdQM1RZdXo2NzZYRUJJSTE2VmM2bE5jMEdSWDFtTk9yenR6cTlHMjA1aXhhcjd5TTFDRU5Pc1FXYWFR?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-11T12:35:05.000Z"
+    },
+    {
+      "title": "Kejar Target PLTS 100 GWp, Pemerintah Hadapi Tantangan Investasi dan Tata Kelola",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbzB5TERreVdRZ0ZjX1NqQ0pnMnlqQTc4YThWZ3Ntb1k4YXZHR18ta2llNW13MDZmbVpRZ3NrOVZfUUliZTB2UTRKMEhtbXdaOGhtRlloQXFMb3hJWUt1WHByV2M2NEV4aTJTVGw5RUlSZExVRjNIbTJQbkh0UHZFXzFNMGFRdGlZSjlJazl0SEhRaGs4TVNDT1ZxcndGREpHR1NXTWNlVnVVbkhzNXQyLWdpeE_SAa4BQVVfeXFMUENJQS1XSXZubkhYdUxaRGFxV1Q4R1FLOVNweDVyR0lTaGhXM2RNN1poTDhjc0NKei1SQ1N2OEF5NFhvOXhnQW4xVG5PN2lueG55SlVWYW9fMGw3Yk41VGRfTldOZTBPdWZLNU03LUZwUjdMbVZRNlN0M3hTanJTNGdJVUY4akMyRVlDNGJ5WW9lQ3oyQ2lUV1IxbzM4cEZkTXBPZEh5ZWpuUjNmRnRB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T09:53:00.000Z"
+    },
+    {
+      "title": "Garuda Indonesia Mau Rights Issue Rp 6,2 T",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdEdBNDIyUVRxNmctbE5VR1h3amJ5SlA1SWVnYUl6Q29rR1lwWHU4SVdvVmg5aC0zbEdhLVFuUy1BUk5RYkQyS0ZqVGROU0p0MTMtU2FIMERMcWR2YXpZbXdiaW1oWUZxQnRkRkpoeHF3RHE3cmwtVUZaVUQ2TGZndnRVVm8xQ3BaWENOYW1vOW1jcW54RUNvbVZn0gGfAUFVX3lxTE5IcGk5c2xPWFlYQnpVRFVydVc1MF9RaENWWHgySThLT0hEN250UWRRbm9wS0d2ek81YXVlNFBzTVhyWlFiU1I3aWV0RXRBTmRhVTE5SXkyRGFrRXBwWjFraEFzOFZ1LUlEX2kycjhrcy1sbHFaNXJodWhheHlDUnVNYmxSNG9XZDgta2pYUVlibGVUaktYekZFZzRCWC1MTQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-11T06:44:00.000Z"
+    },
+    {
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "publisher": "Hacker News",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-12T18:52:01.000Z"
+    },
+    {
+      "title": "Target PLTS 100 GWp Butuh Pembenahan Sistem Kelistrikan",
+      "publisher": "Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM09IaGtHbmVMMmo1LVhSX3JqRUZYTndlMURfeXJqNU85djcyMFUwQTc3VzliYVp6MmtmUUxhUHM1UXpkQ2pLYkZmSDdtSVZLbUJDcEs1aktfcjZSSGY5eGFTXzJocFUwSC0xYWdJdUpXRGl3NV95SHBUU3U5OTlITWtZajJNc3liX3I3TlliaVY0Z2hvcWZaSFkxYnBFcUpxc1VwSjZoV1pfZw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T08:47:35.000Z"
+    },
+    {
+      "title": "Garuda (GIAA) Siapkan Rights Issue III hingga Rp6,22 Triliun",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUDgySUhGQ0ZkNWYtN2pHT3pvZGZCRG51TEV1SlpTN2lhWjk4T3l2T0VXSXpOV1JDZ3VwaVEyWWdjVDhwdTZ3bHQ1QnlTNC1tVW96NGwzcTVGOFZNMmx6MlVXc1BFWF81Uk5vbVh5TWdvVThnU2tXd0VRSGdFeUlhdXppalJGVHJPWnRvMkpiMGc1eHBxU1RfeENHR2h6cGprc016M2FVMEl1bnNPUnd4cDdhYnlNeEdRejYtT3ZB0gHDAUFVX3lxTFBLNnliMFZHdnFZV1BJc0dad2JSNDBTMm9vdEozeEZLR3ZIZHA3aVVHNWN4OVAwZUxIT0RHWjA0VG9qV3BlVUhTNE9Odkl2MlR5cThNblg3SG52Y3FiZzJ5aG5oRkJ2QnpXSTd6SVZqcDdSX2ZkamtIWmlqNE9FdXZNeTQ5dGVtcno3T2o2MzFFUHFqWkhiYTdtclp0bUh5RFB6Z0w5Z3ItRzBpSWxIMk1tczh4allZOTctb0J0Q1FtdWxzMA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-11T03:15:13.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara lebur empat MI BUMN; laporan keuangan 2025 dijadwalkan 23 November",
+      "occurrences": 30,
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "AlphaProof Code tulis 3 juta baris bukti Lean untuk verifikasi enkripsi Signal",
+      "occurrences": 29,
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Pendanaan iklim publik di COP31 Antalya anjlok 70%; rencana PLTS 100 GW Indonesia terancam tanpa mitra",
+      "occurrences": 28,
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "BNEF: US data-center gas plants will raise power-sector CO2 emissions by 10%, forcing grid and climate policy conflict",
+      "occurrences": 25,
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 13,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 429,
+    "poolSize": 110,
+    "generatedAt": "2026-11-13T00:15:08.812Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

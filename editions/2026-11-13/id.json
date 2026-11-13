@@ -1,0 +1,395 @@
+{
+  "slug": "2026-11-13",
+  "date": "2026-11-13",
+  "lang": "id",
+  "title": "Gemini 4 Hydrogen, AlphaProof Code, dan Krisis Dana Iklim Tekan Target PLTS 100 GWp",
+  "dek": "Dua rilis model frontier dari Google DeepMind menandai pergeseran arsitektur AI, sementara anjloknya 70% pendanaan iklim publik di COP31 memperburuk posisi Indonesia dalam mengejar target surya 100 GWp.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "Google DeepMind merilis Gemini 4 Hydrogen sehari setelah mengonfirmasi ketersediaan Gemini 4 Carbon, mempercepat siklus rilis model frontier ke skala mingguan. AlphaProof Code, yang menulis tiga juta baris bukti Lean untuk memverifikasi enkripsi Signal, menunjukkan bahwa verifikasi formal perangkat lunak kini dapat dilakukan pada skala industri. Di sisi energi, pendanaan iklim publik untuk negara berkembang anjlok lebih dari 70% menjelang COP31 Antalya, kondisi yang secara langsung memperlemah argumen fiskal untuk target PLTS 100 GWp Indonesia, mengingat jaringan transmisi PLN belum siap menyerapnya. Sementara itu, peleburan empat MI BUMN ke Danantara mendapat jaminan antiPHK dari pimpinan Danantara dengan total 280 pegawai, namun tanggal publikasi laporan keuangan 2025 pada 23 November menjadi ujian transparansi yang sesungguhnya. Garuda Indonesia menyiapkan rights issue III senilai Rp 6,21 triliun dengan potensi dilusi 37,9%, sebuah keputusan pendanaan yang menuntut pembacaan ulang struktur kepemilikan dan kapasitas pasar.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 4 Hydrogen",
+        "Gemini 4 Carbon"
+      ],
+      "headline": "Google DeepMind rilis Gemini 4 Hydrogen, siklus model frontier kini mingguan",
+      "whatChanged": "Google DeepMind mengumumkan Gemini 4 Hydrogen pada 12 November 2026, satu hari setelah mengonfirmasi ketersediaan Gemini 4 Carbon pada 10 November 2026. Dua rilis dalam tiga hari dari satu lab menandai siklus rilis model frontier yang sebelumnya diukur dalam bulan, kini bergerak dalam hitungan hari.",
+      "whyItMatters": "Siklus rilis mingguan memaksa tim adopsi enterprise untuk membuat keputusan pemilihan model sebelum evaluasi benchmark selesai. Organisasi yang mengikat kontrak atau arsitektur pada satu versi Gemini berisiko menanggung biaya migrasi dalam jangka sangat pendek. Pola ini berlanjut dari tema struktural ai-model-safety-frontier yang telah tercatat 29 kali sejak Oktober 2026: laju rilis kini melampaui kapasitas evaluasi keamanan standar.",
+      "secondOrder": "Vendor middleware dan orkestrator agen yang menjanjikan kompatibilitas model tertentu akan menghadapi tekanan kontraktual dari klien enterprise yang menuntut jaminan perilaku konsisten. Pasar asuransi siber belum memiliki kerangka penilaian risiko untuk model yang berubah setiap minggu, sehingga celah pertanggungan akan melebar sebelum regulasi menyusulnya.",
+      "action": "Tim procurement teknologi yang sedang mengevaluasi kontrak enterprise dengan Google Cloud: minta klausul versi model yang terkunci dan hak audit perubahan perilaku sebelum menandatangani. Bandingkan dengan ketentuan serupa di kontrak OpenAI dan Anthropic minggu ini. Output: matriks komparasi klausul versi model dari tiga vendor, selesai sebelum 20 November 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+        "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-14",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "AlphaProof Code",
+        "Signal"
+      ],
+      "headline": "AlphaProof Code verifikasi enkripsi Signal dengan tiga juta baris bukti Lean",
+      "whatChanged": "Google DeepMind mengumumkan AlphaProof Code telah menulis tiga juta baris bukti formal dalam bahasa Lean untuk memverifikasi implementasi enkripsi inti Signal. Ini adalah penerapan verifikasi formal skala industri pertama yang dikonfirmasi oleh sumber primer lab.",
+      "whyItMatters": "Verifikasi formal perangkat lunak selama ini terbatas pada komponen kritis berukuran kecil karena biaya penulisan bukti yang sangat tinggi. AlphaProof Code membuktikan bahwa agen AI dapat mengotomasi proses tersebut pada basis kode berukuran jutaan baris. Ini melanjutkan tema struktural ai-model-safety-frontier: akumulasi kapabilitas AlphaProof sejak Oktober 2026 kini mencapai titik di mana verifikasi formal menjadi pilihan rekayasa yang layak secara ekonomi, bukan hanya akademis.",
+      "secondOrder": "Regulator sektor keuangan dan infrastruktur kritis akan mulai mempertimbangkan apakah verifikasi formal harus menjadi persyaratan audit perangkat lunak, bukan sekadar praktik terbaik. Jika ini terjadi, vendor perangkat lunak yang tidak memiliki jalur ke alat verifikasi formal akan menghadapi risiko compliance baru. Pasar layanan audit keamanan konvensional akan mengalami tekanan harga dari bawah.",
+      "action": "CISO dan tim keamanan yang sedang menyusun roadmap audit perangkat lunak 2027: tambahkan sesi evaluasi AlphaProof Code ke agenda teknis bulan Desember 2026. Pertanyaan konkret untuk disiapkan: apakah basis kode sistem pembayaran atau enkripsi internal memenuhi prasyarat formalisasi Lean, dan berapa biaya komparasi versus audit penetrasi konvensional.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 30,
+        "firstSeen": "2026-10-14",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Carbon Brief"
+      ],
+      "headline": "Dana iklim publik COP31 anjlok 70%, target PLTS 100 GWp Indonesia kehilangan fondasi fiskal",
+      "whatChanged": "Carbon Brief melaporkan bahwa komitmen pendanaan iklim publik untuk negara berkembang turun lebih dari 70% menjelang dan selama COP31 Antalya. Bersamaan, laporan dari Antara News Banten, Kontan, dan Bisnis.com mengonfirmasi bahwa target PLTS 100 GWp Indonesia menghadapi hambatan investasi dan tata kelola jaringan yang belum terpecahkan.",
+      "whyItMatters": "Target PLTS 100 GWp bergantung pada kombinasi pendanaan iklim internasional, investasi swasta, dan kesiapan jaringan PLN. Runtuhnya 70% pendanaan iklim publik mengeliminasi asumsi fiskal yang mendasari rencana tersebut. Kondisi ini melanjutkan tema pln-grid-investment yang telah tercatat 28 kali: ketidaksiapan transmisi PLN kini diperparah oleh kekeringan likuiditas iklim global, bukan hanya kendala teknis domestik.",
+      "secondOrder": "Pengembang surya yang telah mengasumsikan blended finance dari sumber iklim multilateral dalam model keuangan proyek mereka harus merevisi asumsi biaya modal ke atas. Hal ini akan mendorong konsentrasi proyek ke segmen yang sudah bankable secara komersial, yaitu proyek dengan offtaker kelas investasi dan grid interconnection yang sudah ada, sehingga target 100 GWp semakin mengandalkan sedikit proyek besar daripada portofolio terdiversifikasi.",
+      "action": "Pengembang energi surya dan lembaga pembiayaan yang sedang menyusun term sheet proyek PLTS Indonesia: revisi model keuangan dengan mengganti asumsi pendanaan iklim konsensi dengan biaya modal komersial penuh, lalu hitung ulang tarif minimum yang membuat proyek bankable. Sampaikan hasil analisis ini ke negosiasi Power Purchase Agreement dengan PLN sebelum akhir November 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWXNnSGdZYmZRMjBtdUZUdlNhM21USHF6RWdtZllXZXp6WXRUS2VTXzN3bmVlRERGN3VGU29PclNJYlBxMDR1dG5NUkVWeFpXdGduRG5WdUFEYldBa3ZjUEYwOEFOSEFFdVNhY1ZLYzZMS3lrTHhZUzg1UnhjWERkcFl5NWEwRGJrTENpMU9vVWhIY0pFV0Y0TDlldlBObjEtSldKdFlxM2vSAa4BQVVfeXFMTnVJTGhfUVNJbXRqZmh4dXRRa1pia2Rha0tYTEtrYkdvSDhmay1Sbng3dDZONXhKWGx5dWV0cjlCR3hNc3BGTW9qLWtoNm5vdVlHT01lMS1acERFbTBoRXJaamNEakIxbXBZdW03V0lKR09zX1dINVgyUWJPdFpjLWV2M2JpOE9XUFdMMEo1aFVIM0FlOC1HNUZQVk0wVHVobHB2TWVFUHRkQXY0SlBB?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbzB5TERreVdRZ0ZjX1NqQ0pnMnlqQTc4YThWZ3Ntb1k4YXZHR18ta2llNW13MDZmbVpRZ3NrOVZfUUliZTB2UTRKMEhtbXdaOGhtRlloQXFMb3hJWUt1WHByV2M2NEV4aTJTVGw5RUlSZExVRjNIbTJQbkh0UHZFXzFNMGFRdGlZSjlJazl0SEhRaGs4TVNDT1ZxcndGREpHR1NXTWNlVnVVbkhzNXQyLWdpeE_SAa4BQVVfeXFMUENJQS1XSXZubkhYdUxaRGFxV1Q4R1FLOVNweDVyR0lTaGhXM2RNN1poTDhjc0NKei1SQ1N2OEF5NFhvOXhnQW4xVG5PN2lueG55SlVWYW9fMGw3Yk41VGRfTldOZTBPdWZLNU03LUZwUjdMbVZRNlN0M3hTanJTNGdJVUY4akMyRVlDNGJ5WW9lQ3oyQ2lUV1IxbzM4cEZkTXBPZEh5ZWpuUjNmRnRB?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM09IaGtHbmVMMmo1LVhSX3JqRUZYTndlMURfeXJqNU85djcyMFUwQTc3VzliYVp6MmtmUUxhUHM1UXpkQ2pLYkZmSDdtSVZLbUJDcEs1aktfcjZSSGY5eGFTXzJocFUwSC0xYWdJdUpXRGl3NV95SHBUU3U5OTlITWtZajJNc3liX3I3TlliaVY0Z2hvcWZaSFkxYnBFcUpxc1VwSjZoV1pfZw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-14",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara"
+      ],
+      "headline": "Peleburan empat MI BUMN ke Danantara: 280 pegawai, tanpa PHK, laporan keuangan 23 November",
+      "whatChanged": "Pimpinan Danantara menjamin tidak ada pemutusan hubungan kerja dalam peleburan empat MI BUMN, dengan total pegawai gabungan 280 orang. Laporan keuangan 2025 Danantara dijadwalkan dipublikasikan 23 November 2026. Pemerintah juga meminta Danantara menyiapkan skema khusus untuk insentif industri tekstil.",
+      "whyItMatters": "Jaminan antiPHK dengan angka pegawai yang dikonfirmasi (280 orang) memberikan data konkret pertama tentang skala operasional MI BUMN yang dilebur. Namun, perluasan mandat Danantara ke skema tekstil menunjukkan bahwa fungsi investasi dan fungsi kebijakan industri mulai bercampur, pola yang dapat memperumit tata kelola dan penilaian risiko portofolio.",
+      "secondOrder": "Tanggal 23 November menjadi titik verifikasi pertama kredibilitas Danantara: laporan keuangan yang terlambat atau tidak lengkap akan memperkuat keraguan investor institusional yang sudah tercermin dalam pernyataan Danantara soal kepercayaan investor. Jika mandat tekstil dieksekusi melalui instrumen investasi Danantara, lembaga pemeringkat akan mempertanyakan apakah portofolio mencerminkan return komersial atau subsidi kebijakan terselubung.",
+      "action": "Investor dan kreditur yang memiliki eksposur ke obligasi atau ekuitas BUMN yang dilebur: jadwalkan review ulang covenant dan struktur kepemilikan sebelum 23 November 2026. Siapkan pertanyaan spesifik untuk laporan keuangan: bagaimana aset dan kewajiban masing-masing MI BUMN dikonsolidasikan, dan apakah ada penjaminan silang antar entitas.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8749534/4-mi-bumn-digabung-rosan-jamin-tak-ada-phk",
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ3pGZFZfTUZ5LWpXRWdyNDZsOGxMOVlOamRJWjZndjRtcXdHeWlXazdoWkVfOU9DM0NGak10bF9JTVhZa3ItOUllTG9ScTl3a0lmakVVc0NNZGxmSDlhalA3aVh2ektORXkxNDl0VmpmRFFkMkMxNVZQQkJla2FySS1sb05UTmZnbEpEeDZtc093R19VU1pTTW9ZUWpfaExDc1k5RGE0ZlUwYmNicjg0LVFBUU9vVTVOM21OalV4WGhMZ1NJMFctMlRqZ3pQbDg?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUlgycW12U2s0NXgzSElOVUtnRTRLXzFyZFVRMThTQ0pLTWxNMjBRWURtejJZYTUzTkhWeW0ybnNpZUQtTklJQTZrSEoxV2FsSFotbEM0LXg2dHB4UDJ5WkFVMlVCaUpGY3prTnhZR1RHdGJBSnBONG01T1FQMkZ4MXUzeWZGRjVncWMzRm9KMW1vVTlnbGtidlFyQTJkbDNaeC1vbTc4Qzdfa2xuVGJGTFJoVlQ0cFHSAa8BQVVfeXFMTTdvMFgyUFFhUVRPT1E2aVloZkloTTZ3c0NQU1pLOFdxTzE4TFhJbHZoaEE0czItQmpFUzFxQXhOemo0eVNFZ0hrcU9DMnI0SnV1dDh3UnRNYURiNEdIOWVhZnVWWEVBOGxrem9JUmkwZEpvWFhqR2drbml3MmhfNFlGSl9WUWV0VUtBNUdwVVlSS2x3dDc0ekpXSU1tVm1odW5SMTBKX2tKTldEM2FrVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxORE41dEZoQXBLUkZ2NnBaM3o5UjE1dEZRN0NUY1MwcDI1cjhWaWJMb2Rnb0JfSW40ZkJmWEJnMWI4a1hCc1dPQ284c3hOUXRKVS11YmNBTkltNlJjSlVlcFpKSTJuTTdNSG9fOW54WkJ4MGxDWnYyZ3VKY3JmLXE0NHdPS3V0c29OVGJSbGlYZmI3VVg1YzJrY1prRVNramZu?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-14",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Garuda Indonesia",
+        "GIAA",
+        "Bloomberg Technoz"
+      ],
+      "headline": "Garuda Indonesia siapkan rights issue III Rp 6,21 triliun dengan potensi dilusi 37,9%",
+      "whatChanged": "Garuda Indonesia (GIAA) menyiapkan rights issue ketiga senilai hingga Rp 6,22 triliun. Bloomberg Technoz melaporkan potensi dilusi mencapai 37,9%. Ini adalah rights issue ketiga dalam rangkaian restrukturisasi pasca-PKPU.",
+      "whyItMatters": "Rights issue ketiga dengan dilusi hampir 38% menandakan bahwa struktur modal Garuda pasca-PKPU belum stabil. Investor yang tidak mengikuti rights issue akan mengalami dilusi signifikan, sementara kapasitas pasar untuk menyerap emisi baru dari BUMN dengan rekam jejak keuangan lemah masih belum terbukti pada skala Rp 6 triliun.",
+      "secondOrder": "Jika pemerintah sebagai pemegang saham utama tidak mengikuti rights issue secara penuh, porsi kepemilikan negara akan turun dan Danantara atau Kementerian BUMN harus memutuskan apakah akan mempertahankan kontrol atau membiarkan dilusi. Keputusan ini akan menjadi preseden bagi BUMN lain yang masih dalam proses restrukturisasi neraca.",
+      "action": "Manajer investasi yang memegang saham GIAA: hitung biaya dilusi neto versus biaya mengikuti rights issue berdasarkan harga pelaksanaan yang akan diumumkan. Verifikasi apakah prospektus mencantumkan rencana penggunaan dana yang spesifik per rute atau armada, karena absennya rincian ini merupakan sinyal risiko eksekusi. Deadline analisis: sebelum periode book-building dibuka.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGRIbGxXWm9OMFY5cWphTHdHZ19rT0xLX1VqRm1MS2pQYko3Ym9xMmNJV1NIYmxNWmVhenBrb2JCSDlDdnVmdklBcDJJUEo0cHNfNVF5OF9QYllvZmFndmVmRUJvQzdCUkdnZlM2emg0cTdWQjRpTGhPRXk2aFFyM3J4Q29VclNGeHI2RGk4ZWJRMW1h?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaVd2UEVsUk4wX0xZWkFtRy10RnYyOEhQZlFaZGtLa2ctOC14WmlyQjhrS3RGZkszTWpCN2FqNnhtRkVvZTFSRktWTDg2V3BFWlVkekJ3OUwyWDVaSTdjclA5UHAyUDlpOVUzMXk4OXMwbG83Ujk3WkVtQ19Wd1lBS2NIaTNHM204WmI1dDFMMGZBLVVZNTNrVlkteTdHX0M0OF9RLUZB?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdEdBNDIyUVRxNmctbE5VR1h3amJ5SlA1SWVnYUl6Q29rR1lwWHU4SVdvVmg5aC0zbEdhLVFuUy1BUk5RYkQyS0ZqVGROU0p0MTMtU2FIMERMcWR2YXpZbXdiaW1oWUZxQnRkRkpoeHF3RHE3cmwtVUZaVUQ2TGZndnRVVm8xQ3BaWENOYW1vOW1jcW54RUNvbVZn0gGfAUFVX3lxTE5IcGk5c2xPWFlYQnpVRFVydVc1MF9RaENWWHgySThLT0hEN250UWRRbm9wS0d2ek81YXVlNFBzTVhyWlFiU1I3aWV0RXRBTmRhVTE5SXkyRGFrRXBwWjFraEFzOFZ1LUlEX2kycjhrcy1sbHFaNXJodWhheHlDUnVNYmxSNG9XZDgta2pYUVlibGVUaktYekZFZzRCWC1MTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUDgySUhGQ0ZkNWYtN2pHT3pvZGZCRG51TEV1SlpTN2lhWjk4T3l2T0VXSXpOV1JDZ3VwaVEyWWdjVDhwdTZ3bHQ1QnlTNC1tVW96NGwzcTVGOFZNMmx6MlVXc1BFWF81Uk5vbVh5TWdvVThnU2tXd0VRSGdFeUlhdXppalJGVHJPWnRvMkpiMGc1eHBxU1RfeENHR2h6cGprc016M2FVMEl1bnNPUnd4cDdhYnlNeEdRejYtT3ZB0gHDAUFVX3lxTFBLNnliMFZHdnFZV1BJc0dad2JSNDBTMm9vdEozeEZLR3ZIZHA3aVVHNWN4OVAwZUxIT0RHWjA0VG9qV3BlVUhTNE9Odkl2MlR5cThNblg3SG52Y3FiZzJ5aG5oRkJ2QnpXSTd6SVZqcDdSX2ZkamtIWmlqNE9FdXZNeTQ5dGVtcno3T2o2MzFFUHFqWkhiYTdtclp0bUh5RFB6Z0w5Z3ItRzBpSWxIMk1tczh4allZOTctb0J0Q1FtdWxzMA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-14",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Publikasi laporan keuangan 2025 Danantara pada 23 November: periksa konsolidasi aset MI BUMN dan apakah ada penjaminan silang antar entitas yang dilebur.",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "Harga pelaksanaan dan tanggal book-building rights issue III Garuda Indonesia (GIAA) senilai Rp 6,21 triliun: konfirmasi partisipasi pemerintah sebagai pemegang saham utama.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Hasil negosiasi pendanaan iklim di COP31 Antalya untuk negara berkembang: apakah ada komitmen pengganti yang menutup sebagian dari penurunan 70% dana publik.",
+      "dueDate": "2026-11-22"
+    },
+    {
+      "item": "Rilis spesifikasi teknis dan harga Gemini 4 Hydrogen untuk akses enterprise: bandingkan dengan benchmark Gemini 4 Carbon untuk menilai pergeseran kapabilitas dalam satu siklus rilis.",
+      "dueDate": "2026-11-20"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-12T18:00:50.000Z"
+    },
+    {
+      "title": "Analysis: Climate-finance pledges fall 70% as countries meet at COP31",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-11T07:00:00.000Z"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-10T16:03:47.000Z"
+    },
+    {
+      "title": "Danantara & Telkom Hadirkan Padisera, Marketplace UMKM",
+      "publisher": "Danantara Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORE41dEZoQXBLUkZ2NnBaM3o5UjE1dEZRN0NUY1MwcDI1cjhWaWJMb2Rnb0JfSW40ZkJmWEJnMWI4a1hCc1dPQ284c3hOUXRKVS11YmNBTkltNlJjSlVlcFpKSTJuTTdNSG9fOW54WkJ4MGxDWnYyZ3VKY3JmLXE0NHdPS3V0c29OVGJSbGlYZmI3VVg1YzJrY1prRVNramZu?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-10T10:58:37.000Z"
+    },
+    {
+      "title": "Target PLTS 100 GWp butuh pembenahan jaringan dan tata kelola",
+      "publisher": "ANTARA News Banten",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWXNnSGdZYmZRMjBtdUZUdlNhM21USHF6RWdtZllXZXp6WXRUS2VTXzN3bmVlRERGN3VGU29PclNJYlBxMDR1dG5NUkVWeFpXdGduRG5WdUFEYldBa3ZjUEYwOEFOSEFFdVNhY1ZLYzZMS3lrTHhZUzg1UnhjWERkcFl5NWEwRGJrTENpMU9vVWhIY0pFV0Y0TDlldlBObjEtSldKdFlxM2vSAa4BQVVfeXFMTnVJTGhfUVNJbXRqZmh4dXRRa1pia2Rha0tYTEtrYkdvSDhmay1Sbng3dDZONXhKWGx5dWV0cjlCR3hNc3BGTW9qLWtoNm5vdVlHT01lMS1acERFbTBoRXJaamNEakIxbXBZdW03V0lKR09zX1dINVgyUWJPdFpjLWV2M2JpOE9XUFdMMEo1aFVIM0FlOC1HNUZQVk0wVHVobHB2TWVFUHRkQXY0SlBB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T13:12:44.000Z"
+    },
+    {
+      "title": "GIAA Bakal Menggelar Rights Issue Senilai Rp 6,21 Triliun",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGRIbGxXWm9OMFY5cWphTHdHZ19rT0xLX1VqRm1MS2pQYko3Ym9xMmNJV1NIYmxNWmVhenBrb2JCSDlDdnVmdklBcDJJUEo0cHNfNVF5OF9QYllvZmFndmVmRUJvQzdCUkdnZlM2emg0cTdWQjRpTGhPRXk2aFFyM3J4Q29VclNGeHI2RGk4ZWJRMW1h?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T02:09:41.000Z"
+    },
+    {
+      "title": "GIAA Rancang Rights Issue Jumbo, Potensi Dilusi 37,9%",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaVd2UEVsUk4wX0xZWkFtRy10RnYyOEhQZlFaZGtLa2ctOC14WmlyQjhrS3RGZkszTWpCN2FqNnhtRkVvZTFSRktWTDg2V3BFWlVkekJ3OUwyWDVaSTdjclA5UHAyUDlpOVUzMXk4OXMwbG83Ujk3WkVtQ19Wd1lBS2NIaTNHM204WmI1dDFMMGZBLVVZNTNrVlkteTdHX0M0OF9RLUZB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-11T07:38:02.000Z"
+    },
+    {
+      "title": "Pemerintah Godok Insentif Industri Tekstil, Danantara Diminta Siapkan Skema Khusus - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ3pGZFZfTUZ5LWpXRWdyNDZsOGxMOVlOamRJWjZndjRtcXdHeWlXazdoWkVfOU9DM0NGak10bF9JTVhZa3ItOUllTG9ScTl3a0lmakVVc0NNZGxmSDlhalA3aVh2ektORXkxNDl0VmpmRFFkMkMxNVZQQkJla2FySS1sb05UTmZnbEpEeDZtc093R19VU1pTTW9ZUWpfaExDc1k5RGE0ZlUwYmNicjg0LVFBUU9vVTVOM21OalV4WGhMZ1NJMFctMlRqZ3pQbDg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T14:25:56.000Z"
+    },
+    {
+      "title": "Kejar Target PLTS 100 GWp, Pemerintah Hadapi Tantangan Investasi dan Tata Kelola",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbzB5TERreVdRZ0ZjX1NqQ0pnMnlqQTc4YThWZ3Ntb1k4YXZHR18ta2llNW13MDZmbVpRZ3NrOVZfUUliZTB2UTRKMEhtbXdaOGhtRlloQXFMb3hJWUt1WHByV2M2NEV4aTJTVGw5RUlSZExVRjNIbTJQbkh0UHZFXzFNMGFRdGlZSjlJazl0SEhRaGs4TVNDT1ZxcndGREpHR1NXTWNlVnVVbkhzNXQyLWdpeE_SAa4BQVVfeXFMUENJQS1XSXZubkhYdUxaRGFxV1Q4R1FLOVNweDVyR0lTaGhXM2RNN1poTDhjc0NKei1SQ1N2OEF5NFhvOXhnQW4xVG5PN2lueG55SlVWYW9fMGw3Yk41VGRfTldOZTBPdWZLNU03LUZwUjdMbVZRNlN0M3hTanJTNGdJVUY4akMyRVlDNGJ5WW9lQ3oyQ2lUV1IxbzM4cEZkTXBPZEh5ZWpuUjNmRnRB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T09:53:00.000Z"
+    },
+    {
+      "title": "4 MI BUMN Digabung, Rosan Jamin Tak Ada PHK",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8749534/4-mi-bumn-digabung-rosan-jamin-tak-ada-phk",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-12T04:50:28.000Z"
+    },
+    {
+      "title": "Garuda Indonesia Mau Rights Issue Rp 6,2 T",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdEdBNDIyUVRxNmctbE5VR1h3amJ5SlA1SWVnYUl6Q29rR1lwWHU4SVdvVmg5aC0zbEdhLVFuUy1BUk5RYkQyS0ZqVGROU0p0MTMtU2FIMERMcWR2YXpZbXdiaW1oWUZxQnRkRkpoeHF3RHE3cmwtVUZaVUQ2TGZndnRVVm8xQ3BaWENOYW1vOW1jcW54RUNvbVZn0gGfAUFVX3lxTE5IcGk5c2xPWFlYQnpVRFVydVc1MF9RaENWWHgySThLT0hEN250UWRRbm9wS0d2ek81YXVlNFBzTVhyWlFiU1I3aWV0RXRBTmRhVTE5SXkyRGFrRXBwWjFraEFzOFZ1LUlEX2kycjhrcy1sbHFaNXJodWhheHlDUnVNYmxSNG9XZDgta2pYUVlibGVUaktYekZFZzRCWC1MTQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-11T06:44:00.000Z"
+    },
+    {
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "publisher": "Hacker News",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-12T18:52:01.000Z"
+    },
+    {
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-10T12:02:28.000Z"
+    },
+    {
+      "title": "Danantara Optimistis Kepercayaan Investor Tetap Terjaga di Tengah Ketidakpastian",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUlgycW12U2s0NXgzSElOVUtnRTRLXzFyZFVRMThTQ0pLTWxNMjBRWURtejJZYTUzTkhWeW0ybnNpZUQtTklJQTZrSEoxV2FsSFotbEM0LXg2dHB4UDJ5WkFVMlVCaUpGY3prTnhZR1RHdGJBSnBONG01T1FQMkZ4MXUzeWZGRjVncWMzRm9KMW1vVTlnbGtidlFyQTJkbDNaeC1vbTc4Qzdfa2xuVGJGTFJoVlQ0cFHSAa8BQVVfeXFMTTdvMFgyUFFhUVRPT1E2aVloZkloTTZ3c0NQU1pLOFdxTzE4TFhJbHZoaEE0czItQmpFUzFxQXhOemo0eVNFZ0hrcU9DMnI0SnV1dDh3UnRNYURiNEdIOWVhZnVWWEVBOGxrem9JUmkwZEpvWFhqR2drbml3MmhfNFlGSl9WUWV0VUtBNUdwVVlSS2x3dDc0ekpXSU1tVm1odW5SMTBKX2tKTldEM2FrVQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T12:29:48.000Z"
+    },
+    {
+      "title": "Target PLTS 100 GWp Butuh Pembenahan Sistem Kelistrikan",
+      "publisher": "Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM09IaGtHbmVMMmo1LVhSX3JqRUZYTndlMURfeXJqNU85djcyMFUwQTc3VzliYVp6MmtmUUxhUHM1UXpkQ2pLYkZmSDdtSVZLbUJDcEs1aktfcjZSSGY5eGFTXzJocFUwSC0xYWdJdUpXRGl3NV95SHBUU3U5OTlITWtZajJNc3liX3I3TlliaVY0Z2hvcWZaSFkxYnBFcUpxc1VwSjZoV1pfZw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T08:47:35.000Z"
+    },
+    {
+      "title": "Garuda (GIAA) Siapkan Rights Issue III hingga Rp6,22 Triliun",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUDgySUhGQ0ZkNWYtN2pHT3pvZGZCRG51TEV1SlpTN2lhWjk4T3l2T0VXSXpOV1JDZ3VwaVEyWWdjVDhwdTZ3bHQ1QnlTNC1tVW96NGwzcTVGOFZNMmx6MlVXc1BFWF81Uk5vbVh5TWdvVThnU2tXd0VRSGdFeUlhdXppalJGVHJPWnRvMkpiMGc1eHBxU1RfeENHR2h6cGprc016M2FVMEl1bnNPUnd4cDdhYnlNeEdRejYtT3ZB0gHDAUFVX3lxTFBLNnliMFZHdnFZV1BJc0dad2JSNDBTMm9vdEozeEZLR3ZIZHA3aVVHNWN4OVAwZUxIT0RHWjA0VG9qV3BlVUhTNE9Odkl2MlR5cThNblg3SG52Y3FiZzJ5aG5oRkJ2QnpXSTd6SVZqcDdSX2ZkamtIWmlqNE9FdXZNeTQ5dGVtcno3T2o2MzFFUHFqWkhiYTdtclp0bUh5RFB6Z0w5Z3ItRzBpSWxIMk1tczh4allZOTctb0J0Q1FtdWxzMA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-11T03:15:13.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara lebur empat MI BUMN; laporan keuangan 2025 dijadwalkan 23 November",
+      "occurrences": 30,
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "AlphaProof Code tulis 3 juta baris bukti Lean untuk verifikasi enkripsi Signal",
+      "occurrences": 29,
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "Pendanaan iklim publik di COP31 Antalya anjlok 70%; rencana PLTS 100 GW Indonesia terancam tanpa mitra",
+      "occurrences": 28,
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "BNEF: US data-center gas plants will raise power-sector CO2 emissions by 10%, forcing grid and climate policy conflict",
+      "occurrences": 25,
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 13,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 429,
+    "poolSize": 110,
+    "generatedAt": "2026-11-13T00:13:55.772Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
