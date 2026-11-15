@@ -1,0 +1,356 @@
+{
+  "slug": "2026-11-16",
+  "date": "2026-11-16",
+  "lang": "id",
+  "title": "GPT-6 Astra ke fisika partikel; PLN tarik mitra global PLTS 100 GW",
+  "dek": "Model frontier menembus domain sains terkeras sementara PLN mengonkretkan pembiayaan program surya terbesar Indonesia, dan Danantara bersiap rilis laporan keuangan pertamanya.",
+  "domains": [
+    "ai",
+    "energy",
+    "corporate"
+  ],
+  "summary": "OpenAI melaporkan GPT-6 Astra berkontribusi pada kandidat definisi lattice Standard Model, menandai frontier baru kemampuan AI dalam sains formal yang melampaui domain sebelumnya. Bersamaan, Google DeepMind merilis AlphaProof Code yang memverifikasi enkripsi Signal dengan tiga juta baris bukti Lean, memperkuat pola bahwa model frontier kini mengerjakan verifikasi formal berskala industri. Di sisi energi, PLN mengonkretkan kemitraan global untuk mendanai program PLTS 100 GW sekaligus menerima dukungan Norwegia lewat perdagangan karbon, dua langkah yang menunjukkan bottleneck transmisi kini disertai upaya konkret menutup gap pembiayaan. Danantara akan merilis laporan keuangan pertama pada 23 November 2026, peristiwa yang akan menentukan kepercayaan investor terhadap entitas yang mengelola aset negara senilai ratusan miliar dolar, terutama setelah Kementerian Ketenagakerjaan secara terpisah membantah rencana pengelolaan dana pesangon nasional oleh Danantara.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "GPT-6 Astra"
+      ],
+      "headline": "GPT-6 Astra bantu rumuskan kandidat definisi lattice Standard Model fisika partikel",
+      "whatChanged": "OpenAI mempublikasikan artikel sains pada 15 November 2026 yang melaporkan GPT-6 Astra berkontribusi dalam mengubah ide kandidat nonperturbatif lattice Standard Model menjadi bukti terperinci. Ini adalah pertama kalinya OpenAI mengklaim model mereka terlibat dalam penalaran formal di domain fisika teoretis paling keras, bukan sekadar menyusun literatur atau menghasilkan kode.",
+      "whyItMatters": "Melanjutkan tema ai-model-safety-frontier yang telah 28 kali masuk arsip, sinyal ini menambahkan dimensi baru: model frontier kini diklaim mampu berkontribusi pada matematika bukti di fisika partikel, bukan hanya biologi atau kimia komputasi. Pola yang terbentuk adalah model generalis dengan kemampuan penalaran formal yang melampaui domain spesifik sebelumnya seperti AlphaGenome 2 atau Gemini 4 Hydrogen [4][9].",
+      "secondOrder": "Jika klaim ini terverifikasi oleh komunitas fisika partikel secara independen, batas antara AI sebagai alat bantu dan AI sebagai kontributor intelektual dalam sains formal akan bergeser. Lembaga riset dan universitas yang mengevaluasi kontribusi ilmiah perlu menetapkan protokol atribusi sebelum klaim sejenis mulai masuk ke jurnal peer-review; keterlambatan protokol ini menciptakan risiko reputasi bagi institusi yang mengadopsi tanpa kerangka evaluasi.",
+      "action": "Tinjau kebijakan atribusi riset internal institusi Anda untuk kontribusi AI dalam dokumen ilmiah formal; banding dengan panduan yang mulai diterbitkan jurnal besar seperti Nature dan Science, lalu tentukan apakah organisasi Anda memerlukan kebijakan penggunaan AI dalam proses R&D yang mengikat sebelum kuartal pertama 2027.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://openai.com/index/step-toward-defining-the-standard-model",
+        "https://openai.com/index/our-new-blog-for-science"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "AlphaProof Code",
+        "Signal"
+      ],
+      "headline": "AlphaProof Code verifikasi enkripsi Signal dengan tiga juta baris bukti Lean",
+      "whatChanged": "Google DeepMind mengumumkan AlphaProof Code pada 10 November 2026. Agen-agennya menulis tiga juta baris bukti dalam bahasa formal Lean untuk memverifikasi enkripsi inti aplikasi Signal, skala verifikasi formal yang belum pernah dilaporkan sebelumnya untuk perangkat lunak kriptografi komersial.",
+      "whyItMatters": "Verifikasi formal perangkat lunak selama ini terbatas pada komponen kecil karena biaya tenaga ahli sangat tinggi. AlphaProof Code menunjukkan bahwa agen AI dapat menjalankan verifikasi skala penuh pada sistem kriptografi nyata, yang berarti biaya jaminan keamanan perangkat lunak berpotensi turun drastis. Ini melanjutkan dan memperkuat tema ai-model-safety-frontier dengan menambahkan domain keamanan siber ke pola yang sebelumnya berpusat pada sains dan matematika.",
+      "secondOrder": "Jika kemampuan ini dapat direplikasi pada perangkat lunak infrastruktur kritis lain, regulator keamanan siber dan asuransi siber akan menghadapi tekanan untuk merevisi standar sertifikasi: sertifikasi berbasis audit manual tidak lagi memadai jika verifikasi formal otomatis tersedia. Perusahaan yang belum memulai adopsi verifikasi formal berisiko tertinggal dalam tender pemerintah yang mulai mensyaratkan bukti keamanan yang lebih ketat.",
+      "action": "Hubungi tim keamanan perangkat lunak internal minggu ini untuk menilai komponen mana yang paling kritikal dan belum terverifikasi secara formal; gunakan temuan ini sebagai dasar untuk menentukan apakah penggunaan alat verifikasi berbasis AI perlu masuk ke roadmap keamanan 2027.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "Norwegia"
+      ],
+      "headline": "PLN gandeng mitra global untuk pendanaan PLTS 100 GW; Norwegia masuk lewat perdagangan karbon",
+      "whatChanged": "Per 15 November 2026, PLN mengumumkan kemitraan dengan mitra global untuk menyiapkan pendanaan program PLTS 100 GW. Secara terpisah, Bloomberg Technoz melaporkan pada tanggal yang sama bahwa Norwegia mendukung pengembangan PLTS PLN melalui mekanisme perdagangan karbon, dengan Indonesia sebelumnya menerima Rp 1,8 triliun dari Norwegia atas penurunan emisi dari laju deforestasi.",
+      "whyItMatters": "Melanjutkan tema pln-transmisi-investasi yang sudah 11 kali masuk arsip, dua pengumuman ini menunjukkan bahwa PLN mulai menutup gap pembiayaan yang sebelumnya menjadi bottleneck utama. Mekanisme perdagangan karbon sebagai instrumen pembiayaan energi terbarukan adalah preseden baru di Indonesia yang dapat membuka jalur pendanaan di luar skema APBN atau pinjaman bilateral konvensional.",
+      "secondOrder": "Ketergantungan pendanaan PLTS pada perdagangan karbon menciptakan eksposur terhadap volatilitas harga karbon global dan kerangka regulasi Article 6 Paris Agreement yang masih dinegosiasikan di COP31 Antalya. Jika mekanisme Article 6 tidak disepakati atau diperketat, proyek-proyek yang sudah mengantisipasi pendapatan karbon sebagai bagian dari struktur keuangan mereka akan menghadapi risiko viabilitas.",
+      "action": "Petakan proporsi pendanaan PLTS PLN yang bergantung pada mekanisme karbon versus instrumen konvensional; tinjau apakah struktur offtake dan pembiayaan yang sedang dinegosiasikan sudah memasukkan skenario harga karbon yang lebih rendah sebagai stress test sebelum perjanjian ditandatangani.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT0R2aEYwTXFBRXM5cGU0UmJxcUZjTkpWWXFpUFJRZkg0ZjRfd2FQbzJ3NkZiQlVfYkFtSUYxd3lReDdiQVhWNHE4VjFIYlBTdWROLWxvanRQc1hYYWVoNlNZRVgzX0lGc2hNN2ozNDZwV2tBT3lzS2ZNdkNZNlNsdkNaWXFKMGhhX1VJWld4czhYM2FXU1VaSFJ2WkVZTExEMHlDRjVn0gGfAUFVX3lxTE96NHA1RDF0V0JhaTJnM3BFRFlpbDF5eHlBQ0VHeGVDYmpOOXE2MGJmUjl4RmRiUGZQRjhfOGllQmg0aDJmUHRpTUhRX2lJWnFEVEhmQ21GenN3LVRLeWxJN0lRbWc2TFd6NWJCb0ZWNGFJWkJINmZjeDdGOXBsaGhwMGlUUXQ0REFULUQtSnJpWkZ4OWZhQmJMRHYzV01xQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUd2QTk0QXBqUElfY3A2RFhQV3Z3TVZwRnh5OFljWGxIeEdYVmtIWjFpdUVnbW9hYm42aXBXaDNWYk01dEs0TkY0Y3F0bEVNN1dibF80VjJrQkNSMzZseGZyLVBtQ0hQdk9OQmxGQ0l2T1dzRjh5QmdvamdzemRBMzU0a2gwejB2SUs0bjRtQ04tbXVEc0NGUWRNVnQtWTY2RWVfY0l0cHdxSW45cy0xU0J3?oc=5",
+        "https://katadata.co.id/ekonomi-hijau/investasi-hijau/6af69724c3c23/hashim-penanganan-karhutla-ri-diapresiasi-global-termasuk-leonardo-dicap"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Kementerian Ketenagakerjaan"
+      ],
+      "headline": "Danantara rilis laporan keuangan pertama 23 November; Kemnaker bantah pengelolaan dana pesangon",
+      "whatChanged": "CNBC Indonesia melaporkan pada 15 November 2026 bahwa Danantara akan merilis laporan keuangan pertamanya pada 23 November 2026. Pada hari yang sama, detikFinance melaporkan Kementerian Ketenagakerjaan secara eksplisit menyatakan belum ada keputusan terkait rencana Danantara mengelola dana cadangan pesangon nasional; Danantara sendiri juga membantah isu tersebut.",
+      "whyItMatters": "Melanjutkan tema danantara-bumn-karya-restructuring yang sudah 30 kali masuk arsip, laporan keuangan 23 November adalah momen pertama publik dan pasar mendapat angka nyata tentang entitas yang mengelola aset BUMN senilai ratusan miliar dolar. Transparansi angka ini akan menjadi tolok ukur kepercayaan investor institusional dan lender internasional terhadap Danantara sebagai platform investasi negara.",
+      "secondOrder": "Bantahan ganda dari Kemnaker dan Danantara soal dana pesangon menunjukkan bahwa wacana perluasan mandat Danantara ke dana sosial sudah cukup kuat beredar sehingga memerlukan klarifikasi resmi dari dua institusi. Jika laporan keuangan 23 November tidak menyajikan metodologi valuasi aset yang credible, isu-isu mandat yang belum jelas ini akan menjadi hambatan bagi Danantara dalam menarik komitmen investasi jangka panjang dari sovereign wealth fund lain.",
+      "action": "Siapkan kerangka analisis untuk membaca laporan keuangan Danantara pada 23 November: fokus pada metodologi valuasi aset BUMN yang dikonsolidasikan, struktur utang, dan penjelasan mandat investasi; bandingkan dengan standar pelaporan sovereign wealth fund regional seperti Khazanah dan Temasek untuk menilai kualitas pengungkapan.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYllla2RUYkRRd2JvSjJ5YXBmM05TNDdFMDM0T2l4Nk9QWnJKeUdZeXFXekpFY0pPYXJhWW1JaUJrbjRnUTNhdWlnT09Cb1AwTVFXUkpqQjNkbXo2eU81MU0wLWVKWkhENnJObUxHVk9FZXQyYjYxb3l6WlRTa1gwSGRxYkVMdVFoWkd0SkZiQjI3NWNkdmVvbThtOGpvbnlRWm1ocXRsZVp4Ny1TWWdmY1BPODVmZ2RaQ0Jhbk83Z9IBxAFBVV95cUxPSGs2WWRjMGtBaGpwcVJxeHVGNEI1ZmlvT1JXVy1IMVFMX1k0SEtzUnJJYU5LYnEtV2JZQnBJLVVsY1RBS2F5VGR0c3VpWlBJMEY2MHFQdWJhODlZeDZnNWRVWWVRbUF3ZnVsWGhUQzJHWWhFUFVBRHRHamdJcWZ3bmZKQ003a25uZkp0V3p1Zmt3QlRJUGI0clNmZkhSVjJ6T0pOVTBnWXBjcUVqQ3Vfc2tNakNzdUtsUXFYamJzV2pDbkdU?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzNzdFBJbF9faENGOEo5eVlGeVFlQWpqZUVxQXRsNnd3N1pTOHdsVGVDb3Fzc2xubEhWdWxWNXJhanNzNFJoVFFYRW5qQ3F0czN2S08xdlFoaF9mdzMzQlJvVUFobUpERzZXaEFIaU5EYVpfd1h6bkJVVzhEd2hOeHEzZ1JPb09seTNVX2xrZXVXRUJRdTAtTkdkM0d1Ml9LdEduZm1YdmRmN00xTWJrMUpRc3lOc3ZSZk8xbnQ2ekZ1UG5WQ2dWUNIBzgFBVV95cUxQRll2RmVNR2lvWER6LW9DUGVSSzJLa0ZkczRpakltazl6UVIwWjR6aUR2bVd3VGpveHRiRHRrZmpWOWthSWJMZWZZT2lZZmMxU0Qxb3VLU2V0WXFCNXRxdlF3M2VFb2xKdDZYOVN2REgycVVUTVNKaHV5ajBXbl9sMlVKS0NaRkx2Q1Jrc0dPejRWV1ZPM2k5MVJPU21uekJoQV9MbnNJUHNUM1NvX2VNb1BiVlc3UXVxa0dMaHlGOGhMZEVoYzhfX1V3bHhSdw?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZzh0cnJ0NXFNZlMzOFNFamFKWmtramo1R0p1Z0s0dHpGZHN0ZnpZRmRIdW9HQmhzWUU1dnlPa0FMTVl2RC05RjE3NmJJakRPdnVlRjgyQkZCRHdseVAxWmRpNTNaTWtBOG8zM1poLUhjcmNzRVpPdXJoWlBUbXRvUURNMk45M2g1WWgwdDBzSVpKdGRZU3pNNkhIWDdhVjZXY3Nwa3BtaldlS21uQjR0SUoxNmlqaXpDUl9UZDRybURxOFNt0gHKAUFVX3lxTE9kS2loZ0I2UHZudzNxcnA3aWFfY1VQV2kzbjhXRlU4cTZZZnlwLTUwZ1NUeVllekZGcW1kbDd4Umh2Y2lGZks2YlRseXFhUEhVS3dvU29RbHJuNlhfQW1NbC1qVlVSckZIV3dsOXlIUDZQVl9wVWRjb2dfRHJWS3ZVMU9LQmhXejNzV09LYTRXeVdXa2FySGR0WTliN3JnRlNFX281eWlDZDJGR3VNcUNiNHVrNVRUVWpCWDlYdzBQZDczT1dfMHpZbEE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "PLTU Kaltim-2",
+        "IESR"
+      ],
+      "headline": "PLN operasikan kembali PLTU Kaltim-2 Unit 1 setelah pemadaman bergilir; target pemulihan Desember",
+      "whatChanged": "PLN mengoperasikan kembali PLTU Kaltim-2 Unit 1 untuk memperkuat pasokan listrik Kalimantan Timur setelah pemadaman bergilir yang dilaporkan oleh detikcom pada 14 November 2026. PLN menargetkan kondisi kelistrikan Kaltimra pulih pada Desember 2026. IESR sebelumnya mendokumentasikan paradoks energi Kalimantan Timur: pemadaman bergilir terjadi di provinsi yang menjadi penghasil batubara dan lokasi ibu kota negara baru.",
+      "whyItMatters": "Melanjutkan tema pln-grid-investment, insiden Kaltimra mengekspos kerentanan struktural jaringan transmisi di wilayah yang seharusnya menjadi prioritas keandalan pasokan karena menjadi lokasi Ibu Kota Nusantara. Ketergantungan pada reaktivasi PLTU sebagai solusi darurat menunjukkan bahwa investasi transmisi dan kapasitas cadangan belum memadai untuk permintaan yang diproyeksikan akan naik signifikan seiring pembangunan IKN.",
+      "secondOrder": "Jika pola pemadaman ini berulang menjelang dan sesudah perpindahan fungsi pemerintahan ke IKN, risiko reputasi Indonesia sebagai tujuan investasi infrastruktur digital dan data center di Kalimantan akan meningkat. Investor data center yang sudah menandatangani MOU dengan PLN perlu mengevaluasi kembali asumsi keandalan grid dalam studi kelayakan mereka.",
+      "action": "Minta PLN menyediakan data historis frekuensi dan durasi pemadaman di sistem interkoneksi Kaltimra selama 24 bulan terakhir; gunakan data ini untuk menilai apakah kontrak pasokan listrik untuk proyek infrastruktur digital di Kalimantan memerlukan klausul keandalan tambahan atau kapasitas backup independen.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdHJsYVZEYl9ycFlZWmUwcXRPeTJwVHlFVFVwUFZYSnd6OFc1Yno1VFBhQl9Fb3RBbVBMcmVOTmhDbzN3ZkxzeXFZYlNxY1pHV01UT2lveXZUMGxXUWlDVEp6clhpaTdlckdzZk5QMm8yVEFYWnZYNkU0QXU5T1VMUDRnWlBnLVZMV3BiRkd1MmFJTXVQdzc1NTd5MHM5UmhHTFBRb19uS3cwQ2NCdE5RU2t4eWJmd2psdzMtTGIyTUfSAcYBQVVfeXFMUDlaQ2tBWGp2MnFQdmtvSnZ4M2plaW1oMzFOdnlsbHA2WVRXWFp5MkFiQkhJX2cyVFhld0xUWWhvMjcya3lOX242ZGhMbTlFbDU3SThXNnppOXhVeVFaRmRJdGUxdVpNUGUzbHItNEVZeFJrMU1zVTlMaDZoV3E2U0ZaakVfMVNhOFpZcVlZaXpMRjdzOGIzdFYwam8xS3VhWWVDT21rVUUwODZtb0MyQVhUX01ydzU4bG43RXhVLTY4eEVYaGtn?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODJBdURNVk40ME1BMGhWQkcyellXV1NNUFZaLVI0dGtfYWh6UWxwZ3JRRWZZMVVZRXBLcXh0R0ZtV2w0elZoQ1QxM1dEZUJMekNSSXBBRlh6eGctOUEwaTZlRUp5bFpZNGVuRFlSMm0tTzhFVGwyT01XRXRka25FbWVta3BSaFJkWHZxNGU3MGVIQkV2RE42NlNiMElVLVNiSlZnOG04WWdmbnMxV1JkStIBtgFBVV95cUxNbElvSlVHTEhJQmczSmFieUNsSTlSWnp1b0hQeDVqeVdxWWtpYW02cnN6X2FjLWdfeW43NmR6RkFJTV9ZRGphcUtzU0NCOC12dllMV3VpQzVqeWVrTmFoVjZGaW9EaUpIOEU3OWxVeXk1cVdWeUFXWHMxNnk4VTgzX09fVmE1eGlkRG11cms4OTNPaXhjYkFrWHFETTZqdElLWVBWWEN0RlNUR2xOUVJidndNWXdkdw?oc=5",
+        "https://iesr.or.id/membaca-paradoks-energi-dari-kalimantan-timur/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Laporan keuangan pertama Danantara: metodologi valuasi aset, struktur utang, dan penjelasan mandat investasi",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "Verifikasi independen komunitas fisika partikel atas klaim kontribusi GPT-6 Astra pada lattice Standard Model",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "Hasil negosiasi Article 6 Paris Agreement di COP31 Antalya yang menentukan kerangka perdagangan karbon lintas batas, krusial untuk struktur pembiayaan PLTS PLN-Norwegia",
+      "dueDate": "2026-11-22"
+    },
+    {
+      "item": "Status pemulihan kelistrikan Kaltimra dan kapasitas PLTU Kaltim-2 Unit 1 yang ditargetkan PLN pada Desember 2026",
+      "dueDate": "2026-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-15T22:00:01.000Z"
+    },
+    {
+      "title": "Norwegia Dukung PLN Kembangkan PLTS Lewat Perdagangan Karbon",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUd2QTk0QXBqUElfY3A2RFhQV3Z3TVZwRnh5OFljWGxIeEdYVmtIWjFpdUVnbW9hYm42aXBXaDNWYk01dEs0TkY0Y3F0bEVNN1dibF80VjJrQkNSMzZseGZyLVBtQ0hQdk9OQmxGQ0l2T1dzRjh5QmdvamdzemRBMzU0a2gwejB2SUs0bjRtQ04tbXVEc0NGUWRNVnQtWTY2RWVfY0l0cHdxSW45cy0xU0J3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T08:03:46.000Z"
+    },
+    {
+      "title": "Our new blog for science",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-15T22:00:00.000Z"
+    },
+    {
+      "title": "Bantah Dana Pesangon Dikelola Danantara, Kemnaker: Belum Ada Keputusan!",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZzh0cnJ0NXFNZlMzOFNFamFKWmtramo1R0p1Z0s0dHpGZHN0ZnpZRmRIdW9HQmhzWUU1dnlPa0FMTVl2RC05RjE3NmJJakRPdnVlRjgyQkZCRHdseVAxWmRpNTNaTWtBOG8zM1poLUhjcmNzRVpPdXJoWlBUbXRvUURNMk45M2g1WWgwdDBzSVpKdGRZU3pNNkhIWDdhVjZXY3Nwa3BtaldlS21uQjR0SUoxNmlqaXpDUl9UZDRybURxOFNt0gHKAUFVX3lxTE9kS2loZ0I2UHZudzNxcnA3aWFfY1VQV2kzbjhXRlU4cTZZZnlwLTUwZ1NUeVllekZGcW1kbDd4Umh2Y2lGZks2YlRseXFhUEhVS3dvU29RbHJuNlhfQW1NbC1qVlVSckZIV3dsOXlIUDZQVl9wVWRjb2dfRHJWS3ZVMU9LQmhXejNzV09LYTRXeVdXa2FySGR0WTliN3JnRlNFX281eWlDZDJGR3VNcUNiNHVrNVRUVWpCWDlYdzBQZDczT1dfMHpZbEE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T11:00:48.000Z"
+    },
+    {
+      "title": "PLN Gandeng Mitra Global, Siapkan Pendanaan untuk Program PLTS 100 GW",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT0R2aEYwTXFBRXM5cGU0UmJxcUZjTkpWWXFpUFJRZkg0ZjRfd2FQbzJ3NkZiQlVfYkFtSUYxd3lReDdiQVhWNHE4VjFIYlBTdWROLWxvanRQc1hYYWVoNlNZRVgzX0lGc2hNN2ozNDZwV2tBT3lzS2ZNdkNZNlNsdkNaWXFKMGhhX1VJWld4czhYM2FXU1VaSFJ2WkVZTExEMHlDRjVn0gGfAUFVX3lxTE96NHA1RDF0V0JhaTJnM3BFRFlpbDF5eHlBQ0VHeGVDYmpOOXE2MGJmUjl4RmRiUGZQRjhfOGllQmg0aDJmUHRpTUhRX2lJWnFEVEhmQ21GenN3LVRLeWxJN0lRbWc2TFd6NWJCb0ZWNGFJWkJINmZjeDdGOXBsaGhwMGlUUXQ0REFULUQtSnJpWkZ4OWZhQmJMRHYzV01xQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T02:07:48.000Z"
+    },
+    {
+      "title": "Perhatian! Danantara Bakal Rilis Laporan Keuangan 23 November",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYllla2RUYkRRd2JvSjJ5YXBmM05TNDdFMDM0T2l4Nk9QWnJKeUdZeXFXekpFY0pPYXJhWW1JaUJrbjRnUTNhdWlnT09Cb1AwTVFXUkpqQjNkbXo2eU81MU0wLWVKWkhENnJObUxHVk9FZXQyYjYxb3l6WlRTa1gwSGRxYkVMdVFoWkd0SkZiQjI3NWNkdmVvbThtOGpvbnlRWm1ocXRsZVp4Ny1TWWdmY1BPODVmZ2RaQ0Jhbk83Z9IBxAFBVV95cUxPSGs2WWRjMGtBaGpwcVJxeHVGNEI1ZmlvT1JXVy1IMVFMX1k0SEtzUnJJYU5LYnEtV2JZQnBJLVVsY1RBS2F5VGR0c3VpWlBJMEY2MHFQdWJhODlZeDZnNWRVWWVRbUF3ZnVsWGhUQzJHWWhFUFVBRHRHamdJcWZ3bmZKQ003a25uZkp0V3p1Zmt3QlRJUGI0clNmZkhSVjJ6T0pOVTBnWXBjcUVqQ3Vfc2tNakNzdUtsUXFYamJzV2pDbkdU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T10:45:32.000Z"
+    },
+    {
+      "title": "PLN Soal Penyebab Mati Listrik Bergilir di Kaltimra, Target Desember Pulih",
+      "publisher": "detikcom",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdHJsYVZEYl9ycFlZWmUwcXRPeTJwVHlFVFVwUFZYSnd6OFc1Yno1VFBhQl9Fb3RBbVBMcmVOTmhDbzN3ZkxzeXFZYlNxY1pHV01UT2lveXZUMGxXUWlDVEp6clhpaTdlckdzZk5QMm8yVEFYWnZYNkU0QXU5T1VMUDRnWlBnLVZMV3BiRkd1MmFJTXVQdzc1NTd5MHM5UmhHTFBRb19uS3cwQ2NCdE5RU2t4eWJmd2psdzMtTGIyTUfSAcYBQVVfeXFMUDlaQ2tBWGp2MnFQdmtvSnZ4M2plaW1oMzFOdnlsbHA2WVRXWFp5MkFiQkhJX2cyVFhld0xUWWhvMjcya3lOX242ZGhMbTlFbDU3SThXNnppOXhVeVFaRmRJdGUxdVpNUGUzbHItNEVZeFJrMU1zVTlMaDZoV3E2U0ZaakVfMVNhOFpZcVlZaXpMRjdzOGIzdFYwam8xS3VhWWVDT21rVUUwODZtb0MyQVhUX01ydzU4bG43RXhVLTY4eEVYaGtn?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-14T00:00:09.000Z"
+    },
+    {
+      "title": "Hashim: Penanganan Karhutla RI Diapresiasi Global, Termasuk Leonardo Dicap",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/ekonomi-hijau/investasi-hijau/6af69724c3c23/hashim-penanganan-karhutla-ri-diapresiasi-global-termasuk-leonardo-dicap",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-15T20:19:00.000Z"
+    },
+    {
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-10T12:02:28.000Z"
+    },
+    {
+      "title": "Membaca Paradoks Energi dari Kalimantan Timur",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/membaca-paradoks-energi-dari-kalimantan-timur/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-09T02:00:49.000Z"
+    },
+    {
+      "title": "Danantara Buka Suara soal Isu Bakal Tampung Dana Cadangan Pesangon",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzNzdFBJbF9faENGOEo5eVlGeVFlQWpqZUVxQXRsNnd3N1pTOHdsVGVDb3Fzc2xubEhWdWxWNXJhanNzNFJoVFFYRW5qQ3F0czN2S08xdlFoaF9mdzMzQlJvVUFobUpERzZXaEFIaU5EYVpfd1h6bkJVVzhEd2hOeHEzZ1JPb09seTNVX2xrZXVXRUJRdTAtTkdkM0d1Ml9LdEduZm1YdmRmN00xTWJrMUpRc3lOc3ZSZk8xbnQ2ekZ1UG5WQ2dWUNIBzgFBVV95cUxQRll2RmVNR2lvWER6LW9DUGVSSzJLa0ZkczRpakltazl6UVIwWjR6aUR2bVd3VGpveHRiRHRrZmpWOWthSWJMZWZZT2lZZmMxU0Qxb3VLU2V0WXFCNXRxdlF3M2VFb2xKdDZYOVN2REgycVVUTVNKaHV5ajBXbl9sMlVKS0NaRkx2Q1Jrc0dPejRWV1ZPM2k5MVJPU21uekJoQV9MbnNJUHNUM1NvX2VNb1BiVlc3UXVxa0dMaHlGOGhMZEVoYzhfX1V3bHhSdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T09:02:08.000Z"
+    },
+    {
+      "title": "PLN operasikan kembali PLTU Kaltim-2 Unit 1 perkuat pasokan listrik - ANTARA News Kalimantan Timur",
+      "publisher": "ANTARA News Kalimantan Timur - Berita Terkini Kalimantan Timur",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODJBdURNVk40ME1BMGhWQkcyellXV1NNUFZaLVI0dGtfYWh6UWxwZ3JRRWZZMVVZRXBLcXh0R0ZtV2w0elZoQ1QxM1dEZUJMekNSSXBBRlh6eGctOUEwaTZlRUp5bFpZNGVuRFlSMm0tTzhFVGwyT01XRXRka25FbWVta3BSaFJkWHZxNGU3MGVIQkV2RE42NlNiMElVLVNiSlZnOG04WWdmbnMxV1JkStIBtgFBVV95cUxNbElvSlVHTEhJQmczSmFieUNsSTlSWnp1b0hQeDVqeVdxWWtpYW02cnN6X2FjLWdfeW43NmR6RkFJTV9ZRGphcUtzU0NCOC12dllMV3VpQzVqeWVrTmFoVjZGaW9EaUpIOEU3OWxVeXk1cVdWeUFXWHMxNnk4VTgzX09fVmE1eGlkRG11cms4OTNPaXhjYkFrWHFETTZqdElLWVBWWEN0RlNUR2xOUVJidndNWXdkdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-12T00:23:13.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara bantah penugasan kelola dana pesangon nasional",
+      "occurrences": 30,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-15",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IEA rilis Pledges to Progress 2026 di tengah dana iklim publik COP31 yang anjlok 70%",
+      "occurrences": 28,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-15",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Google DeepMind rilis Gemini 4 Hydrogen, model frontier khusus sains",
+      "occurrences": 28,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-15",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "BNEF: US data-center gas plants will raise power-sector CO2 emissions by 10%, forcing grid and climate policy conflict",
+      "occurrences": 22,
+      "firstSeen": "2026-10-18",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 13,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 428,
+    "poolSize": 110,
+    "generatedAt": "2026-11-15T23:10:08.659Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

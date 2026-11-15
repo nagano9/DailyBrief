@@ -1,0 +1,345 @@
+{
+  "slug": "2026-11-16",
+  "date": "2026-11-16",
+  "lang": "en",
+  "title": "Danantara Financials Due 23 Nov; PLN Solar Funding, ICP at $117",
+  "dek": "Three structural threads converge this week: Danantara's first public financial disclosure, PLN's accelerating solar financing, and a record Indonesia crude price that reshapes the fiscal backdrop.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Danantara will release its inaugural financial statements on 23 November, the first verifiable window into a vehicle managing hundreds of reformed SOEs, while both Danantara and Kemnaker publicly deny any decision to transfer severance-reserve funds to its management. PLN has secured new global partnerships to fund its 100 GWp solar programme, backed by Norwegian carbon-trading support, though grid bottlenecks remain the binding constraint. Indonesia's official crude price hit $117.24 per barrel in October, projecting a softening in November that will reset energy-subsidy and state-revenue assumptions. On the AI frontier, OpenAI used GPT-6 Astra to co-author a formal lattice proof of the Standard Model, a step that shifts AI from tool to co-author in hard science. AlphaProof Code's verification of Signal's encryption library with three million lines of Lean proofs confirms that formal software verification at production scale is now operationally real.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Kemnaker"
+      ],
+      "headline": "Danantara to release first financial statements on 23 November; denies severance-fund mandate",
+      "whatChanged": "Danantara announced it will publish its inaugural financial report on 23 November 2026. Separately, both Danantara and the Ministry of Manpower (Kemnaker) publicly denied any decision to place national severance-reserve funds under Danantara management, with Kemnaker stating explicitly that no such decision has been made.",
+      "whyItMatters": "This is a structural thread that has run for 30 days and 30 entries in the archive. The 23 November disclosure is the first opportunity for external parties to assess Danantara's actual balance sheet, leverage, and cash flows, rather than relying on government statements. The simultaneous denial on severance funds signals that the proposal reached a stage requiring official pushback, which itself confirms the idea had institutional momentum.",
+      "secondOrder": "If the financial statements reveal consolidated exposure to underperforming BUMN Karya assets, it will force a reassessment of Danantara's credit profile and its capacity to raise the low-cost capital it has promised for infrastructure. The severance-fund denial, if the idea resurfaces after disclosure, would indicate that Danantara is seeking longer-duration liability matching, a sign its asset base is illiquid relative to its obligations.",
+      "action": "Build a checklist now for reading the 23 November report: look for consolidation perimeter (which SOEs are on-balance-sheet), debt maturity profile, and any contingent liabilities from BUMN Karya legacy projects. Prepare two scenarios: one where the report supports the investment-grade narrative, one where it reveals a gap requiring fresh capitalisation.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYllla2RUYkRRd2JvSjJ5YXBmM05TNDdFMDM0T2l4Nk9QWnJKeUdZeXFXekpFY0pPYXJhWW1JaUJrbjRnUTNhdWlnT09Cb1AwTVFXUkpqQjNkbXo2eU81MU0wLWVKWkhENnJObUxHVk9FZXQyYjYxb3l6WlRTa1gwSGRxYkVMdVFoWkd0SkZiQjI3NWNkdmVvbThtOGpvbnlRWm1ocXRsZVp4Ny1TWWdmY1BPODVmZ2RaQ0Jhbk83Z9IBxAFBVV95cUxPSGs2WWRjMGtBaGpwcVJxeHVGNEI1ZmlvT1JXVy1IMVFMX1k0SEtzUnJJYU5LYnEtV2JZQnBJLVVsY1RBS2F5VGR0c3VpWlBJMEY2MHFQdWJhODlZeDZnNWRVWWVRbUF3ZnVsWGhUQzJHWWhFUFVBRHRHamdJcWZ3bmZKQ003a25uZkp0V3p1Zmt3QlRJUGI0clNmZkhSVjJ6T0pOVTBnWXBjcUVqQ3Vfc2tNakNzdUtsUXFYamJzV2pDbkdU?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzNzdFBJbF9faENGOEo5eVlGeVFlQWpqZUVxQXRsNnd3N1pTOHdsVGVDb3Fzc2xubEhWdWxWNXJhanNzNFJoVFFYRW5qQ3F0czN2S08xdlFoaF9mdzMzQlJvVUFobUpERzZXaEFIaU5EYVpfd1h6bkJVVzhEd2hOeHEzZ1JPb09seTNVX2xrZXVXRUJRdTAtTkdkM0d1Ml9LdEduZm1YdmRmN00xTWJrMUpRc3lOc3ZSZk8xbnQ2ekZ1UG5WQ2dWUNIBzgFBVV95cUxQRll2RmVNR2lvWER6LW9DUGVSSzJLa0ZkczRpakltazl6UVIwWjR6aUR2bVd3VGpveHRiRHRrZmpWOWthSWJMZWZZT2lZZmMxU0Qxb3VLU2V0WXFCNXRxdlF3M2VFb2xKdDZYOVN2REgycVVUTVNKaHV5ajBXbl9sMlVKS0NaRkx2Q1Jrc0dPejRWV1ZPM2k5MVJPU21uekJoQV9MbnNJUHNUM1NvX2VNb1BiVlc3UXVxa0dMaHlGOGhMZEVoYzhfX1V3bHhSdw?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZzh0cnJ0NXFNZlMzOFNFamFKWmtramo1R0p1Z0s0dHpGZHN0ZnpZRmRIdW9HQmhzWUU1dnlPa0FMTVl2RC05RjE3NmJJakRPdnVlRjgyQkZCRHdseVAxWmRpNTNaTWtBOG8zM1poLUhjcmNzRVpPdXJoWlBUbXRvUURNMk45M2g1WWgwdDBzSVpKdGRZU3pNNkhIWDdhVjZXY3Nwa3BtaldlS21uQjR0SUoxNmlqaXpDUl9UZDRybURxOFNt0gHKAUFVX3lxTE9kS2loZ0I2UHZudzNxcnA3aWFfY1VQV2kzbjhXRlU4cTZZZnlwLTUwZ1NUeVllekZGcW1kbDd4Umh2Y2lGZks2YlRseXFhUEhVS3dvU29RbHJuNlhfQW1NbC1qVlVSckZIV3dsOXlIUDZQVl9wVWRjb2dfRHJWS3ZVMU9LQmhXejNzV09LYTRXeVdXa2FySGR0WTliN3JnRlNFX281eWlDZDJGR3VNcUNiNHVrNVRUVWpCWDlYdzBQZDczT1dfMHpZbEE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "Norwegia"
+      ],
+      "headline": "PLN secures global partners and Norwegian carbon-trading support for 100 GWp solar programme",
+      "whatChanged": "PLN announced it has engaged multiple global partners to arrange financing for its 100 GWp solar programme. Norway is supporting PLN's solar development through a carbon-trading mechanism, providing a performance-based financing layer linked to verified emissions reductions.",
+      "whyItMatters": "This continues a structural thread active for 28 entries. The Norwegian carbon-trading linkage is a new financing instrument layered on top of conventional project finance, using verified carbon credits to lower the effective cost of capital. It reflects a broader pattern in which PLN is assembling a portfolio of financing instruments because no single mechanism is large enough to cover the programme.",
+      "secondOrder": "Carbon-linked financing introduces a new dependency: PLN's funding flow becomes partly contingent on third-party verification of emissions reductions, which is itself subject to methodology disputes and international carbon-market rule changes. If the ASEAN Common Carbon Framework being renewed at COP31 shifts verification standards, PLN's Norwegian-linked revenue stream could face retroactive repricing.",
+      "action": "Map the carbon verification chain for the PLN-Norway arrangement: identify who certifies the credits, which international standard applies, and what the renegotiation clause is if the carbon price or methodology changes. Cross-reference with the ASEAN Common Carbon Framework text being endorsed at COP31.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT0R2aEYwTXFBRXM5cGU0UmJxcUZjTkpWWXFpUFJRZkg0ZjRfd2FQbzJ3NkZiQlVfYkFtSUYxd3lReDdiQVhWNHE4VjFIYlBTdWROLWxvanRQc1hYYWVoNlNZRVgzX0lGc2hNN2ozNDZwV2tBT3lzS2ZNdkNZNlNsdkNaWXFKMGhhX1VJWld4czhYM2FXU1VaSFJ2WkVZTExEMHlDRjVn0gGfAUFVX3lxTE96NHA1RDF0V0JhaTJnM3BFRFlpbDF5eHlBQ0VHeGVDYmpOOXE2MGJmUjl4RmRiUGZQRjhfOGllQmg0aDJmUHRpTUhRX2lJWnFEVEhmQ21GenN3LVRLeWxJN0lRbWc2TFd6NWJCb0ZWNGFJWkJINmZjeDdGOXBsaGhwMGlUUXQ0REFULUQtSnJpWkZ4OWZhQmJMRHYzV01xQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUd2QTk0QXBqUElfY3A2RFhQV3Z3TVZwRnh5OFljWGxIeEdYVmtIWjFpdUVnbW9hYm42aXBXaDNWYk01dEs0TkY0Y3F0bEVNN1dibF80VjJrQkNSMzZseGZyLVBtQ0hQdk9OQmxGQ0l2T1dzRjh5QmdvamdzemRBMzU0a2gwejB2SUs0bjRtQ04tbXVEc0NGUWRNVnQtWTY2RWVfY0l0cHdxSW45cy0xU0J3?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://www.eco-business.com/news/asean-common-carbon-framework-renewed-at-cop31-regional-endorsement-sought/"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "Kementerian ESDM",
+        "ICP"
+      ],
+      "headline": "Indonesia crude price hits $117.24/barrel in October; November projected to ease",
+      "whatChanged": "The Indonesian Crude Price (ICP) for October 2026 was officially set at $117.24 per barrel by the Ministry of Energy and Mineral Resources (Kementerian ESDM). The government projects the November price will be lower.",
+      "whyItMatters": "At $117.24, the ICP is significantly above the assumptions embedded in the state budget, generating windfall revenue for the central government while simultaneously increasing the cost of energy subsidies for petroleum products. The projection of a November decline introduces volatility into short-term fiscal planning.",
+      "secondOrder": "Elevated oil prices reduce the fiscal urgency of accelerating the energy transition in the near term, because hydrocarbon revenue provides budget headroom. This can slow the internal pressure on PLN and Pertamina to finalise renewable financing arrangements quickly, since the government has more resources to maintain legacy fuel subsidies without immediate reform. The effect is a political economy brake on transition speed, independent of any technical constraint.",
+      "action": "Rerun the fiscal sensitivity model: at $117/barrel ICP and the current subsidy structure, estimate the net revenue gain versus subsidy cost increase for each $10 move downward in November. Use this to bracket the government's available fiscal space for energy transition co-financing commitments made at COP31.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWXZzcEFPMmFyLWtTdlo3aGNhNjZYWXNoNmlDR1RzcEtpai1uYnJLNG5EaFZqSlBMNjJIeDVFZHE2cWlER3BEUU1BUDJqREwzUEpGb3dqTEpKS0cwMkttVGxlaHJadjdoM3lmV3pydnI3Y3ZKdFlZYlVaVk90NHZtSkJFZHY4R2VOdkxIYmU0UEJQakxBX2t0aDFxWEV1ejE4ZFZPZGtLWDNoVjFLaDJUcG5yMnliaWhEYmRNTXVQWWRVMGY2Y3M1bV9HVFRIbG9wbkE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "Google DeepMind",
+        "AlphaProof Code",
+        "Signal"
+      ],
+      "headline": "GPT-6 Astra co-authors formal lattice proof of the Standard Model; AlphaProof Code verifies Signal encryption at scale",
+      "whatChanged": "OpenAI published a paper in which GPT-6 Astra contributed to converting a candidate nonperturbative lattice definition of the Standard Model into a detailed formal proof. Separately, Google DeepMind's AlphaProof Code agents wrote three million lines of Lean proofs to formally verify the core encryption library of the Signal messaging application.",
+      "whyItMatters": "These two results, from different labs within four days, establish that frontier AI can now function as a co-author in formal mathematics and as a production-grade formal verification engine for critical software. Prior AI contributions to mathematics were narrower benchmark achievements; a lattice Standard Model proof and production cryptographic verification are problems with real scientific and security stakes.",
+      "secondOrder": "Formal verification at this scale changes the economics of software assurance. If AlphaProof Code can verify Signal's encryption in Lean, the same approach is applicable to financial-system cryptography, grid-control software, and medical-device firmware. The bottleneck shifts from verification capacity to the availability of formal specifications: organisations that have not written formal specs for their critical systems are now the constraint, not the tool.",
+      "action": "Identify two or three critical software components in your portfolio (financial systems, grid management, healthcare) that lack formal specifications, and assess the cost of producing those specs. The verification tooling is now available; the spec gap is the new risk.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/step-toward-defining-the-standard-model",
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-17",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "OpenAI",
+        "ChatGPT Wallet",
+        "ChatGPT Work",
+        "Codex"
+      ],
+      "headline": "OpenAI launches ChatGPT Wallet, enabling agent-initiated purchases across Work, Codex, and dots",
+      "whatChanged": "OpenAI introduced ChatGPT Wallet, a payment layer that allows agents operating within ChatGPT Work, Codex, and the dots product to complete purchases with explicit user approval, using the user's existing card protections.",
+      "whyItMatters": "This is the first native payment infrastructure embedded directly into an AI agent runtime by a major frontier lab. It converts agents from information processors into economic actors capable of spending money, closing the loop between task execution and commercial transaction without requiring a separate payment integration.",
+      "secondOrder": "Enterprise procurement, vendor contracting, and spend-control frameworks were designed assuming a human authorises each transaction. Agents with wallet access operate at machine speed and volume, which means existing approval workflows, spending limits, and audit trails are structurally inadequate. Financial controllers and procurement teams face a new category of unmonitored spend exposure that is not addressed by current enterprise software.",
+      "action": "This week, review whether your organisation's acceptable-use policy and procurement controls explicitly cover AI-agent-initiated transactions. If they do not, draft a policy addendum specifying: approval thresholds, logging requirements, and which agent environments are permitted to initiate spend.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://openai.com/index/introducing-chatgpt-wallet"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "structural",
+        "occurrences": 23,
+        "firstSeen": "2026-10-18",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Danantara inaugural financial statements: review consolidation perimeter, debt maturity, and BUMN Karya legacy exposure",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "COP31 Antalya closing decisions: final ASEAN Common Carbon Framework government endorsement and any new climate-finance pledge figures",
+      "dueDate": "2026-11-22"
+    },
+    {
+      "item": "Indonesia November ICP official announcement from Kementerian ESDM: determine whether the projected decline materialises and by how much",
+      "dueDate": "2026-12-05"
+    },
+    {
+      "item": "PLN carbon-trading verification methodology for Norwegian-linked solar financing: identify certifying body and applicable standard",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "Enterprise AI agent payment policy: monitor whether OpenAI, Anthropic, or Google DeepMind publish enterprise governance guidance for agent wallet use",
+      "dueDate": "2026-12-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-15T22:00:01.000Z"
+    },
+    {
+      "title": "Pemerintah Tetapkan ICP Oktober US$117,24 per Barel, Harga November Diproyeksi Melandai",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWXZzcEFPMmFyLWtTdlo3aGNhNjZYWXNoNmlDR1RzcEtpai1uYnJLNG5EaFZqSlBMNjJIeDVFZHE2cWlER3BEUU1BUDJqREwzUEpGb3dqTEpKS0cwMkttVGxlaHJadjdoM3lmV3pydnI3Y3ZKdFlZYlVaVk90NHZtSkJFZHY4R2VOdkxIYmU0UEJQakxBX2t0aDFxWEV1ejE4ZFZPZGtLWDNoVjFLaDJUcG5yMnliaWhEYmRNTXVQWWRVMGY2Y3M1bV9HVFRIbG9wbkE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-11T17:22:56.000Z"
+    },
+    {
+      "title": "Norwegia Dukung PLN Kembangkan PLTS Lewat Perdagangan Karbon",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUd2QTk0QXBqUElfY3A2RFhQV3Z3TVZwRnh5OFljWGxIeEdYVmtIWjFpdUVnbW9hYm42aXBXaDNWYk01dEs0TkY0Y3F0bEVNN1dibF80VjJrQkNSMzZseGZyLVBtQ0hQdk9OQmxGQ0l2T1dzRjh5QmdvamdzemRBMzU0a2gwejB2SUs0bjRtQ04tbXVEc0NGUWRNVnQtWTY2RWVfY0l0cHdxSW45cy0xU0J3?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T08:03:46.000Z"
+    },
+    {
+      "title": "Bantah Dana Pesangon Dikelola Danantara, Kemnaker: Belum Ada Keputusan!",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZzh0cnJ0NXFNZlMzOFNFamFKWmtramo1R0p1Z0s0dHpGZHN0ZnpZRmRIdW9HQmhzWUU1dnlPa0FMTVl2RC05RjE3NmJJakRPdnVlRjgyQkZCRHdseVAxWmRpNTNaTWtBOG8zM1poLUhjcmNzRVpPdXJoWlBUbXRvUURNMk45M2g1WWgwdDBzSVpKdGRZU3pNNkhIWDdhVjZXY3Nwa3BtaldlS21uQjR0SUoxNmlqaXpDUl9UZDRybURxOFNt0gHKAUFVX3lxTE9kS2loZ0I2UHZudzNxcnA3aWFfY1VQV2kzbjhXRlU4cTZZZnlwLTUwZ1NUeVllekZGcW1kbDd4Umh2Y2lGZks2YlRseXFhUEhVS3dvU29RbHJuNlhfQW1NbC1qVlVSckZIV3dsOXlIUDZQVl9wVWRjb2dfRHJWS3ZVMU9LQmhXejNzV09LYTRXeVdXa2FySGR0WTliN3JnRlNFX281eWlDZDJGR3VNcUNiNHVrNVRUVWpCWDlYdzBQZDczT1dfMHpZbEE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T11:00:48.000Z"
+    },
+    {
+      "title": "PLN Gandeng Mitra Global, Siapkan Pendanaan untuk Program PLTS 100 GW",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT0R2aEYwTXFBRXM5cGU0UmJxcUZjTkpWWXFpUFJRZkg0ZjRfd2FQbzJ3NkZiQlVfYkFtSUYxd3lReDdiQVhWNHE4VjFIYlBTdWROLWxvanRQc1hYYWVoNlNZRVgzX0lGc2hNN2ozNDZwV2tBT3lzS2ZNdkNZNlNsdkNaWXFKMGhhX1VJWld4czhYM2FXU1VaSFJ2WkVZTExEMHlDRjVn0gGfAUFVX3lxTE96NHA1RDF0V0JhaTJnM3BFRFlpbDF5eHlBQ0VHeGVDYmpOOXE2MGJmUjl4RmRiUGZQRjhfOGllQmg0aDJmUHRpTUhRX2lJWnFEVEhmQ21GenN3LVRLeWxJN0lRbWc2TFd6NWJCb0ZWNGFJWkJINmZjeDdGOXBsaGhwMGlUUXQ0REFULUQtSnJpWkZ4OWZhQmJMRHYzV01xQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T02:07:48.000Z"
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-13T15:00:00.000Z"
+    },
+    {
+      "title": "Perhatian! Danantara Bakal Rilis Laporan Keuangan 23 November",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYllla2RUYkRRd2JvSjJ5YXBmM05TNDdFMDM0T2l4Nk9QWnJKeUdZeXFXekpFY0pPYXJhWW1JaUJrbjRnUTNhdWlnT09Cb1AwTVFXUkpqQjNkbXo2eU81MU0wLWVKWkhENnJObUxHVk9FZXQyYjYxb3l6WlRTa1gwSGRxYkVMdVFoWkd0SkZiQjI3NWNkdmVvbThtOGpvbnlRWm1ocXRsZVp4Ny1TWWdmY1BPODVmZ2RaQ0Jhbk83Z9IBxAFBVV95cUxPSGs2WWRjMGtBaGpwcVJxeHVGNEI1ZmlvT1JXVy1IMVFMX1k0SEtzUnJJYU5LYnEtV2JZQnBJLVVsY1RBS2F5VGR0c3VpWlBJMEY2MHFQdWJhODlZeDZnNWRVWWVRbUF3ZnVsWGhUQzJHWWhFUFVBRHRHamdJcWZ3bmZKQ003a25uZkp0V3p1Zmt3QlRJUGI0clNmZkhSVjJ6T0pOVTBnWXBjcUVqQ3Vfc2tNakNzdUtsUXFYamJzV2pDbkdU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T10:45:32.000Z"
+    },
+    {
+      "title": "Asean Common Carbon Framework renewed at COP31, regional endorsement sought",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/asean-common-carbon-framework-renewed-at-cop31-regional-endorsement-sought/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-13T01:00:00.000Z"
+    },
+    {
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-10T12:02:28.000Z"
+    },
+    {
+      "title": "Danantara Buka Suara soal Isu Bakal Tampung Dana Cadangan Pesangon",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzNzdFBJbF9faENGOEo5eVlGeVFlQWpqZUVxQXRsNnd3N1pTOHdsVGVDb3Fzc2xubEhWdWxWNXJhanNzNFJoVFFYRW5qQ3F0czN2S08xdlFoaF9mdzMzQlJvVUFobUpERzZXaEFIaU5EYVpfd1h6bkJVVzhEd2hOeHEzZ1JPb09seTNVX2xrZXVXRUJRdTAtTkdkM0d1Ml9LdEduZm1YdmRmN00xTWJrMUpRc3lOc3ZSZk8xbnQ2ekZ1UG5WQ2dWUNIBzgFBVV95cUxQRll2RmVNR2lvWER6LW9DUGVSSzJLa0ZkczRpakltazl6UVIwWjR6aUR2bVd3VGpveHRiRHRrZmpWOWthSWJMZWZZT2lZZmMxU0Qxb3VLU2V0WXFCNXRxdlF3M2VFb2xKdDZYOVN2REgycVVUTVNKaHV5ajBXbl9sMlVKS0NaRkx2Q1Jrc0dPejRWV1ZPM2k5MVJPU21uekJoQV9MbnNJUHNUM1NvX2VNb1BiVlc3UXVxa0dMaHlGOGhMZEVoYzhfX1V3bHhSdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T09:02:08.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara bantah penugasan kelola dana pesangon nasional",
+      "occurrences": 30,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-15",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IEA rilis Pledges to Progress 2026 di tengah dana iklim publik COP31 yang anjlok 70%",
+      "occurrences": 28,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-15",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Google DeepMind rilis Gemini 4 Hydrogen, model frontier khusus sains",
+      "occurrences": 28,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-15",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "BNEF: US data-center gas plants will raise power-sector CO2 emissions by 10%, forcing grid and climate policy conflict",
+      "occurrences": 22,
+      "firstSeen": "2026-10-18",
+      "lastSeen": "2026-11-12",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 13,
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 428,
+    "poolSize": 110,
+    "generatedAt": "2026-11-15T23:11:12.842Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
