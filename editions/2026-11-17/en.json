@@ -1,0 +1,395 @@
+{
+  "slug": "2026-11-17",
+  "date": "2026-11-17",
+  "lang": "en",
+  "title": "Rupiah Hits Record Low; Danantara Severance Rumor Denied; AI Data Center Stress",
+  "dek": "Three structural pressures converged today: Indonesia's currency touched an all-time weak point, Danantara's mandate boundaries were publicly contested, and AI data center financing showed fresh signs of credit distress.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "The rupiah reached 18,289 per US dollar, its weakest recorded level, tightening the cost of Indonesia's dollar-denominated energy and infrastructure imports at a moment when PLN's grid investment program is already strained. Separately, Danantara publicly denied receiving any government mandate to manage corporate severance reserves, pushing back against claims circulating from labor unions and amplified by multiple outlets; the denial clarifies a governance boundary but does not resolve underlying questions about the institution's expanding scope. On the AI infrastructure side, HSBC sold a troubled 300-million-dollar data center loan at a discount, confirming that credit stress in the sector is no longer hypothetical. President Prabowo used the 49th ASEAN Summit to publicly commit Indonesia to a 100 GW solar program and B50 biodiesel, locking in a policy anchor that will shape PLN procurement and private investment decisions. Google DeepMind released Gemini 4 Hydrogen, continuing a cadence of frontier model upgrades that keeps compute and energy demand on an upward path.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BPJS Ketenagakerjaan"
+      ],
+      "headline": "Danantara denies severance-fund mandate as labor unions name it co-manager alongside BPJS Ketenagakerjaan",
+      "whatChanged": "Danantara issued a public denial on 2026-11-16 stating it has received no government assignment to manage corporate severance reserves. Labor unions had identified Danantara and BPJS Ketenagakerjaan as the two candidate managers of a proposed mandatory severance fund, a claim that circulated widely. The Ministry of Manpower also denied that any obligation for employers to deposit severance funds into Danantara exists.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now 30 occurrences since October. The denial clarifies a formal boundary: Danantara has no current legal mandate over severance pools. However, the fact that the rumor required a ministerial-level denial indicates that market and labor participants regard Danantara as an institution capable of absorbing large liability pools, which signals expectations about its trajectory regardless of current law.",
+      "secondOrder": "If the severance-fund mandate question resurfaces through legislative channels, it would transform Danantara from a pure investment vehicle into a quasi-social-insurance manager. That structural shift would impose a liability-duration mismatch on the institution and require a fundamentally different risk and governance architecture than its current equity-investment model, a constraint that is absent from current public reporting.",
+      "action": "Review the draft revision to the Manpower Law and any forthcoming Danantara enabling regulation this week to determine whether a severance-custody function is excluded explicitly or merely absent; the distinction matters for assessing mandate creep risk.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRlFob0xXSFl2UVNuVUNKN3ZkcjNUYTNINnZ6R3BpczF5RnNBelViRHc2N2lyUU9OeXJSLXhCZ2VDN3VJMUQyWUw0Y3ZBZFpuQmVuU0VCSXJsTzd3OTJlMjM4b3ZURGcxM0pVb3JWWGN1dUpwamtaV1FteURORDRKamRvNWdhbVJHeFdrVkdHZ0RvaHk3RFhJNWZ1X2tTcENYbW43Wk5UckZQV19DcEN1MXBQdmpFX01Bd2pBUXVfeVRkWG9kMUFkNUctT1JEb01F?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPM2VoWjNUZ0E5dDVkNXh1YnZpdXdUSDdhc2d1ZWNKdU0wS3VjUjRvd0Q1WHFlVnZuOWNzT21DR1R3Y2VRTW1nYm92OHVBcUppZ2o5RmFnWTEwUnNGVHBETzBEX1M5clJmaVNOTUc0NUd3SUFiM1dPSUdjQzlHYThFV1Y4Zk1GQ1VFU1lUNzc1dlNMNXA0Nk1XQ3RrZG5JNGZaS08xMGZRZzlYVUZJSGNfTzdIbThJNUhUQ1ZyaXkzbnRPZXgtbEo4VNIByAFBVV95cUxPN3lvU3BjLVd3T1JCNXpvUjlVdWJ6dVh5dGhzRHgtcV9rNlh0WkFyal9PMGlyRGlfdUlWbkZsREk2T0MzMG9NRWhnMEFvSDZKbnp5N29ZX2wwZnNUZG11R0JsTkFtdTR0Yk9UQmtSeGVaREQ2YkZCelNCMU43OWdJZlVybGthWTI5SUt3QVdzWXNuc25uc2hsVGRFZkhaQ2pXUFJ3Yi13RVRMR29pQmI5dGFuNEdTVGZGZF9OakVxdDEwUEJiM2Mydg?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR1F2c0dzZk9ySzYwTWhucFlsYVhWeGZNZU02MVB2U2pzWjc4YTF0RnZyVjR1dFlNOGFNY0VsRHFFbEgwa0FrelpTYWZrM3R3S3JYeHU5dEkzUDJOZFdhd2g3QnFCcGZMQ2lRUmE4N1lCLTlHZlEwcjhSbnBOS3BsVVlKQ0wxU2NmTEtSUjA2ZnpsZE5uS0N5X1RXS0YzQm84VGVWeUgtNjcxc1hIMXlfbVdoVC04QjZhYUxMdERnZ9IBxAFBVV95cUxPNlFNVnVrUWt2b1NxX1oxR1hzazUtMUpGS2M4NXRjTFpReHdiUkp4NF9KYVhXak85d3BVRGFhenZSb0doWEVBVWJZbUJ5VzN2NGlTTk94aE9STjlGNkVEYjZYNmxpM0p3RVJnUE83b3h2MXE1TGFXNzZ2bmIwblZzTDA1Vm00enFROUF6cjhBS0xjcTA2SDlxR3ZlaVRIenhIOGsyMnF2YXo3S2xZbUpCRGRqRXlTaFRHckhDckd2RVNXb3V5?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOVNyU1BrUWdrdllRLVBfMGczOEZnT1YyazRYb0dlcUVYMEFGWUFQX0ItME42U2xPZWFqM3hXenQ3Q2VEdkwzdTlqd1Zhd3ItOFJlRmxvTHJoaXFBVTl2OVBFWFd1MkVCQUNOLUQzNkE2R2h1bXZLRlB2OGlES25jaEx1V180ZlRRak5ndG5BTmJ1VjZnbDF2RE1tOXpTTDF2UE9fTXBUWktTdl9vT3l3SHYxWF9xVUIzVEhhQ3BrWDFBakk2TjJDbzVB0gHPAUFVX3lxTFA5TDJGXzVjaWlYdGljMEdYdk1MR1d6X29xSWU1cHQ4aWNYY3VKVG5mZ1ZUWlpnRVRuZ3lMTFFZRWNHVkdQTjJnVXFSQ3l1b2hWZDhKYWRUTzAwUUxjS1FsYUh0bW1ieFpDYzNMb1BIWjRESkdaLTBZU2QtNW9vYkN6ZUM0NDVhcFJadG1JN3p3ZThySGVxeC00WUZBVHl0QTZCWWdOU21aTld6WGZqd21QUDBzZTFjaUhlU25oWC1MdnVfYUtRUF91M3ZSSU5uVQ?oc=5",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8755712/buruh-sebut-bpjs-ketenagakerjaan-danantara-calon-pengelola-dana-pesangon"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-18",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "PLN"
+      ],
+      "headline": "Rupiah hits all-time low of 18,289 per US dollar, compressing dollar-cost margins across energy and infrastructure",
+      "whatChanged": "The rupiah reached 18,289 per US dollar on the morning of 2026-11-17, its weakest recorded level. Analysts cited by Katadata placed the intraday range at 18,200 to 18,350.",
+      "whyItMatters": "Indonesia's major infrastructure liabilities, including PLN's grid investment program, fuel import bills at an ICP of US$117.24 per barrel set in October, and Danantara's dollar-denominated obligations, are priced in US dollars while revenues are predominantly rupiah. A sustained breach of 18,000 widens the gap between project economics modeled at earlier exchange rates and actual debt-service costs.",
+      "secondOrder": "The currency weakness arrives simultaneously with a coal benchmark price increase to US$130.81 per ton for the 15-30 November period. For PLN, which still depends on coal-fired generation, both inputs move adversely at the same time. This compresses the fiscal headroom available to cross-subsidize renewable tariffs, potentially slowing the PLTS 100 GW commitment Prabowo made at the ASEAN Summit.",
+      "action": "Rerun PLN and state-owned infrastructure project financial models using an exchange rate floor of 18,300 and a coal price of US$131 per ton to identify which projects breach debt-service coverage ratios and require renegotiation or supplemental government support.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://katadata.co.id/finansial/makro/6afbc28dcb71b/rupiah-sentuh-18289-per-us-pada-selasa-pagi-rekor-terlemah-sepanjang-masa",
+        "https://finance.detik.com/energi/d-8755935/harga-batu-bara-acuan-naik-jadi-us-130-81-ton",
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWXZzcEFPMmFyLWtTdlo3aGNhNjZYWXNoNmlDR1RzcEtpai1uYnJLNG5EaFZqSlBMNjJIeDVFZHE2cWlER3BEUU1BUDJqREwzUEpGb3dqTEpKS0cwMkttVGxlaHJadjdoM3lmV3pydnI3Y3ZKdFlZYlVaVk90NHZtSkJFZHY4R2VOdkxIYmU0UEJQakxBX2t0aDFxWEV1ejE4ZFZPZGtLWDNoVjFLaDJUcG5yMnliaWhEYmRNTXVQWWRVMGY2Y3M1bV9HVFRIbG9wbkE?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-18",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "Kementerian ESDM",
+        "PLN",
+        "APLSI",
+        "ASEAN"
+      ],
+      "headline": "Prabowo commits Indonesia to PLTS 100 GW and B50 biodiesel at the 49th ASEAN Summit, setting a public policy anchor",
+      "whatChanged": "At the 49th ASEAN Summit in Manila on 2026-11-17, President Prabowo publicly presented Indonesia's energy strategy as centered on a 100 GW solar program and B50 biodiesel. The announcement was made to a multilateral audience and reported by both Kementerian ESDM and CNBC Indonesia.",
+      "whyItMatters": "This continues the pln-transmisi-investasi thread and links it to ASEAN Power Grid discussions. A head-of-state commitment at a multilateral summit creates political accountability that domestic policy alone does not. The 100 GW solar target now carries reputational stakes, increasing the probability that enabling regulations and PLN procurement targets will be defended against budget pressure.",
+      "secondOrder": "The B50 commitment adds a competing claim on Indonesia's palm oil feedstock and agricultural land. At scale, B50 and a 100 GW solar buildout both require land, water, and transmission infrastructure simultaneously. The interaction between these two programs has not been publicly modeled, and the grid reliability concerns raised by APLSI and domestic analysts remain unresolved before ASEAN Power Grid integration.",
+      "action": "Map the land-use, transmission, and water requirements of B50 at current consumption volumes against the siting requirements of the 100 GW PLTS pipeline to identify geographic conflicts that could constrain either program; the ASEAN Summit commitment makes this analysis time-sensitive.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ3BObmFSYTFMb01KSGNwWEdlT3RQbnl1UmVfNm01SGNUd05pRVNtVTZjQjZITUtUOTAzYTR4azB1aFoxZDFzUzdpOG1PUGtJMFRxVkc1ZTZ0NTk3b3lNUWwzQkV3T1pFWXNQOHpDeTVWdVZncXVwQ3ZsaUc0bWZoZkRUNEdMcExjTEYyWWRuNHhmVzZ3aFFPcUY1OFYySWRpMXhRVk8ydmN2bVIydkphNnpvMG5pZ3hXcDBZTTBKaG9wQW5CWk01ZE1VUkJGN3h2dURvYld0QQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMjM1VmNFUElOdU54M21qbXFvWnNMOXlFNVBQdEdRU0x1c3FwNkFMTHhkS0h4bUFjMUktNVFib1ZMOXVFNk13Y0ZLaldNZy12SmhnQmZlVFJrcnpWN3d6Vk5PUUlmT1gtczgxSjQzbVNHRzNWNVZjU3Z1QkxseTR6X3hxeGJ3OGg4RWtDZ2pGY0pzMG1mLTBMY1QtZjNjcVdNd1BwdGxlbEp0dGwwaEhHcGRJUHhWSC1nM3QxZUhaZVNYZw?oc=5",
+        "https://www.cnbcindonesia.com/news/20261117092333-8-785831/video-prabowo-pamer-b50-program-plts-100-mw-di-ktt-asean-filipina",
+        "https://industri.kontan.co.id/news/pemerintah-diminta-pastikan-keandalan-listrik-sebelum-integrasi-asean-power-grid",
+        "https://industri.kontan.co.id/news/aplsi-sambut-asean-power-grid-dorong-keterlibatan-swasta"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-18",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind"
+      ],
+      "headline": "Google DeepMind releases Gemini 4 Hydrogen, extending a rapid frontier-model release cadence",
+      "whatChanged": "Google DeepMind announced Gemini 4 Hydrogen on 2026-11-12, following Gemini 4 Carbon released on 2026-11-10. Two distinct Gemini 4 variants were released within four days, indicating a product line rather than a single model launch.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread. A multi-variant release strategy within days signals that frontier labs are now competing on specialization and release velocity simultaneously. Gemini 4 Carbon and Gemini 4 Hydrogen suggest domain-specific model variants, which shifts enterprise AI procurement from evaluating single general models to managing a portfolio of specialized ones.",
+      "secondOrder": "Rapid multi-variant release compresses the evaluation window available to enterprise and government buyers. Institutions that set procurement or safety evaluation cycles measured in quarters will find themselves perpetually assessing outdated model versions. This creates pressure to either shorten evaluation cycles, accept higher model risk, or standardize on a single vendor's ecosystem to reduce evaluation load, each of which carries distinct governance implications.",
+      "action": "Review AI procurement and evaluation frameworks this week to determine whether they specify model versions or capability thresholds; threshold-based specifications remain valid across version cycles, while version-specific approvals will require continuous re-approval as the Gemini 4 product line expands.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-18",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "HSBC",
+        "Bloomberg"
+      ],
+      "headline": "HSBC sold a troubled 300-million-dollar data center loan at a discount, marking a concrete credit-loss event in AI infrastructure",
+      "whatChanged": "HSBC sold a 300-million-dollar data center loan at a discount, according to Bloomberg on 2026-11-16. The sale represents a realized credit loss on AI infrastructure exposure, the first such publicly reported event at this scale.",
+      "whyItMatters": "This continues the ai-datacenter-project-finance thread. Until now, stress in data center lending was discussed as a forward risk. A discounted loan sale by a major international bank converts the risk from theoretical to observed. Lenders will reprice data center credit accordingly, raising the cost of debt for new projects.",
+      "secondOrder": "The repricing effect will fall unevenly. Projects with contracted offtake from investment-grade hyperscalers will retain access to credit at modest spread widening. Speculative or merchant data center projects, including several being developed in Southeast Asia to serve anticipated AI demand, will face materially higher borrowing costs or loss of financing entirely. This bifurcation will concentrate AI infrastructure buildout among a smaller set of well-capitalized sponsors, reinforcing market concentration rather than distributing capacity.",
+      "action": "Any institution evaluating data center financing in Indonesia or Southeast Asia should now require an offtake contract from an investment-grade counterparty as a threshold condition before credit analysis proceeds; the HSBC event sets the market precedent.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeUdDXzVqbUpCb3VibUI5M1JDbWEwcnZFVUdQT05zQWxfNHRIQVkzTUZ4YVhfS2hKSzdkRm1yRzkxaHRkZGxpem1COVNEQk80VFhhSmFqTnNzc2owM0NlUTc1dXoxRE9mNmI1alZUSWh6ZWhFRjVCV0tYSkF0bnBqVUJhY0UxZE9qbjhubXFJMS1wc1g1VWdqZWhkaHQ2UkpkVGZIOGlYeExRbzV1cHNR?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-10-18",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Danantara first financial report release, expected 23 November; watch for any mention of severance or liability management mandates that contradict the 17 November denial.",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "Rupiah trajectory relative to 18,350 upper bound cited by analysts; a sustained breach would trigger review of PLN dollar-debt service capacity.",
+      "dueDate": "2026-11-24"
+    },
+    {
+      "item": "Follow-on data center loan sales or restructurings in Southeast Asia following the HSBC precedent; watch for Indonesian or Singapore-based deals.",
+      "dueDate": "2026-12-01"
+    },
+    {
+      "item": "Kementerian ESDM Grobogan 700 MW PLTS site selection outcome; this is the first concrete land parcel in the 100 GW pipeline and will reveal procurement sequencing.",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "ASEAN Power Grid integration framework publication; Indonesia's domestic reliability preconditions cited by APLSI and Kontan analysts have not been formalized.",
+      "dueDate": "2027-01-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-12T18:00:50.000Z"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-10T16:03:47.000Z"
+    },
+    {
+      "title": "Di KTT ke-49 ASEAN, Prabowo Paparkan B50 dan PLTS 100 GW untuk Perkuat Kemandirian Energi",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ3BObmFSYTFMb01KSGNwWEdlT3RQbnl1UmVfNm01SGNUd05pRVNtVTZjQjZITUtUOTAzYTR4azB1aFoxZDFzUzdpOG1PUGtJMFRxVkc1ZTZ0NTk3b3lNUWwzQkV3T1pFWXNQOHpDeTVWdVZncXVwQ3ZsaUc0bWZoZkRUNEdMcExjTEYyWWRuNHhmVzZ3aFFPcUY1OFYySWRpMXhRVk8ydmN2bVIydkphNnpvMG5pZ3hXcDBZTTBKaG9wQW5CWk01ZE1VUkJGN3h2dURvYld0QQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-16T08:41:04.000Z"
+    },
+    {
+      "title": "Benarkah Pengusaha Wajib Setor Dana Cadangan Pesangon ke Danantara? Ini Kata Kemenaker",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPM2VoWjNUZ0E5dDVkNXh1YnZpdXdUSDdhc2d1ZWNKdU0wS3VjUjRvd0Q1WHFlVnZuOWNzT21DR1R3Y2VRTW1nYm92OHVBcUppZ2o5RmFnWTEwUnNGVHBETzBEX1M5clJmaVNOTUc0NUd3SUFiM1dPSUdjQzlHYThFV1Y4Zk1GQ1VFU1lUNzc1dlNMNXA0Nk1XQ3RrZG5JNGZaS08xMGZRZzlYVUZJSGNfTzdIbThJNUhUQ1ZyaXkzbnRPZXgtbEo4VNIByAFBVV95cUxPN3lvU3BjLVd3T1JCNXpvUjlVdWJ6dVh5dGhzRHgtcV9rNlh0WkFyal9PMGlyRGlfdUlWbkZsREk2T0MzMG9NRWhnMEFvSDZKbnp5N29ZX2wwZnNUZG11R0JsTkFtdTR0Yk9UQmtSeGVaREQ2YkZCelNCMU43OWdJZlVybGthWTI5SUt3QVdzWXNuc25uc2hsVGRFZkhaQ2pXUFJ3Yi13RVRMR29pQmI5dGFuNEdTVGZGZF9OakVxdDEwUEJiM2Mydg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T03:00:00.000Z"
+    },
+    {
+      "title": "Video: Prabowo Pamer B50 & Program PLTS 100 MW di KTT ASEAN, Filipina",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMjM1VmNFUElOdU54M21qbXFvWnNMOXlFNVBQdEdRU0x1c3FwNkFMTHhkS0h4bUFjMUktNVFib1ZMOXVFNk13Y0ZLaldNZy12SmhnQmZlVFJrcnpWN3d6Vk5PUUlmT1gtczgxSjQzbVNHRzNWNVZjU3Z1QkxseTR6X3hxeGJ3OGg4RWtDZ2pGY0pzMG1mLTBMY1QtZjNjcVdNd1BwdGxlbEp0dGwwaEhHcGRJUHhWSC1nM3QxZUhaZVNYZw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T03:35:16.000Z"
+    },
+    {
+      "title": "Video: Prabowo Pamer B50 dan Program PLTS 100 MW di KTT ASEAN, Filipina",
+      "publisher": "CNBC Indonesia",
+      "url": "https://www.cnbcindonesia.com/news/20261117092333-8-785831/video-prabowo-pamer-b50-program-plts-100-mw-di-ktt-asean-filipina",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-17T03:30:09.000Z"
+    },
+    {
+      "title": "Rupiah Sentuh 18.289 per US$ pada Selasa Pagi, Rekor Terlemah Sepanjang Masa",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/makro/6afbc28dcb71b/rupiah-sentuh-18289-per-us-pada-selasa-pagi-rekor-terlemah-sepanjang-masa",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-17T02:57:00.000Z"
+    },
+    {
+      "title": "Buruh Sebut BPJS Ketenagakerjaan &amp; Danantara Calon Pengelola Dana Pesangon",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8755712/buruh-sebut-bpjs-ketenagakerjaan-danantara-calon-pengelola-dana-pesangon",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-16T23:15:54.000Z"
+    },
+    {
+      "title": "Pemerintah Tetapkan ICP Oktober US$117,24 per Barel, Harga November Diproyeksi Melandai",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWXZzcEFPMmFyLWtTdlo3aGNhNjZYWXNoNmlDR1RzcEtpai1uYnJLNG5EaFZqSlBMNjJIeDVFZHE2cWlER3BEUU1BUDJqREwzUEpGb3dqTEpKS0cwMkttVGxlaHJadjdoM3lmV3pydnI3Y3ZKdFlZYlVaVk90NHZtSkJFZHY4R2VOdkxIYmU0UEJQakxBX2t0aDFxWEV1ejE4ZFZPZGtLWDNoVjFLaDJUcG5yMnliaWhEYmRNTXVQWWRVMGY2Y3M1bV9HVFRIbG9wbkE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-11T17:22:56.000Z"
+    },
+    {
+      "title": "Apa Benar Dana Cadangan Pesangon Akan Disimpan di Danantara?",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR1F2c0dzZk9ySzYwTWhucFlsYVhWeGZNZU02MVB2U2pzWjc4YTF0RnZyVjR1dFlNOGFNY0VsRHFFbEgwa0FrelpTYWZrM3R3S3JYeHU5dEkzUDJOZFdhd2g3QnFCcGZMQ2lRUmE4N1lCLTlHZlEwcjhSbnBOS3BsVVlKQ0wxU2NmTEtSUjA2ZnpsZE5uS0N5X1RXS0YzQm84VGVWeUgtNjcxc1hIMXlfbVdoVC04QjZhYUxMdERnZ9IBxAFBVV95cUxPNlFNVnVrUWt2b1NxX1oxR1hzazUtMUpGS2M4NXRjTFpReHdiUkp4NF9KYVhXak85d3BVRGFhenZSb0doWEVBVWJZbUJ5VzN2NGlTTk94aE9STjlGNkVEYjZYNmxpM0p3RVJnUE83b3h2MXE1TGFXNzZ2bmIwblZzTDA1Vm00enFROUF6cjhBS0xjcTA2SDlxR3ZlaVRIenhIOGsyMnF2YXo3S2xZbUpCRGRqRXlTaFRHckhDckd2RVNXb3V5?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T01:51:10.000Z"
+    },
+    {
+      "title": "HSBC Sold $300 Million Troubled Data Center Loan at Discount",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeUdDXzVqbUpCb3VibUI5M1JDbWEwcnZFVUdQT05zQWxfNHRIQVkzTUZ4YVhfS2hKSzdkRm1yRzkxaHRkZGxpem1COVNEQk80VFhhSmFqTnNzc2owM0NlUTc1dXoxRE9mNmI1alZUSWh6ZWhFRjVCV0tYSkF0bnBqVUJhY0UxZE9qbjhubXFJMS1wc1g1VWdqZWhkaHQ2UkpkVGZIOGlYeExRbzV1cHNR?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-16T22:01:27.000Z"
+    },
+    {
+      "title": "Pemerintah Diminta Pastikan Keandalan Listrik Sebelum Integrasi ASEAN Power Grid",
+      "publisher": "Kontan",
+      "url": "https://industri.kontan.co.id/news/pemerintah-diminta-pastikan-keandalan-listrik-sebelum-integrasi-asean-power-grid",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-16T10:32:35.000Z"
+    },
+    {
+      "title": "Harga Batu Bara Acuan Naik Jadi US$ 130,81/ Ton",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/energi/d-8755935/harga-batu-bara-acuan-naik-jadi-us-130-81-ton",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-16T15:42:00.000Z"
+    },
+    {
+      "title": "Danantara Bantah Dapat Penugasan dari Pemerintah untuk Kelola Dana Cadangan Pesangon - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRlFob0xXSFl2UVNuVUNKN3ZkcjNUYTNINnZ6R3BpczF5RnNBelViRHc2N2lyUU9OeXJSLXhCZ2VDN3VJMUQyWUw0Y3ZBZFpuQmVuU0VCSXJsTzd3OTJlMjM4b3ZURGcxM0pVb3JWWGN1dUpwamtaV1FteURORDRKamRvNWdhbVJHeFdrVkdHZ0RvaHk3RFhJNWZ1X2tTcENYbW43Wk5UckZQV19DcEN1MXBQdmpFX01Bd2pBUXVfeVRkWG9kMUFkNUctT1JEb01F?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-16T23:38:09.000Z"
+    },
+    {
+      "title": "APLSI Sambut ASEAN Power Grid, Dorong Keterlibatan Swasta",
+      "publisher": "Kontan",
+      "url": "https://industri.kontan.co.id/news/aplsi-sambut-asean-power-grid-dorong-keterlibatan-swasta",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-16T09:56:39.000Z"
+    },
+    {
+      "title": "Buruh Sebut BPJS Ketenagakerjaan & Danantara Calon Pengelola Dana Pesangon",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOVNyU1BrUWdrdllRLVBfMGczOEZnT1YyazRYb0dlcUVYMEFGWUFQX0ItME42U2xPZWFqM3hXenQ3Q2VEdkwzdTlqd1Zhd3ItOFJlRmxvTHJoaXFBVTl2OVBFWFd1MkVCQUNOLUQzNkE2R2h1bXZLRlB2OGlES25jaEx1V180ZlRRak5ndG5BTmJ1VjZnbDF2RE1tOXpTTDF2UE9fTXBUWktTdl9vT3l3SHYxWF9xVUIzVEhhQ3BrWDFBakk2TjJDbzVB0gHPAUFVX3lxTFA5TDJGXzVjaWlYdGljMEdYdk1MR1d6X29xSWU1cHQ4aWNYY3VKVG5mZ1ZUWlpnRVRuZ3lMTFFZRWNHVkdQTjJnVXFSQ3l1b2hWZDhKYWRUTzAwUUxjS1FsYUh0bW1ieFpDYzNMb1BIWjRESkdaLTBZU2QtNW9vYkN6ZUM0NDVhcFJadG1JN3p3ZThySGVxeC00WUZBVHl0QTZCWWdOU21aTld6WGZqd21QUDBzZTFjaUhlU25oWC1MdnVfYUtRUF91M3ZSSU5uVQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-16T23:15:54.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara rilis laporan keuangan pertama 23 November; Kemnaker bantah pengelolaan dana pesangon",
+      "occurrences": 30,
+      "firstSeen": "2026-10-18",
+      "lastSeen": "2026-11-16",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN operasikan kembali PLTU Kaltim-2 Unit 1 setelah pemadaman bergilir; target pemulihan Desember",
+      "occurrences": 28,
+      "firstSeen": "2026-10-18",
+      "lastSeen": "2026-11-16",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "AlphaProof Code verifikasi enkripsi Signal dengan tiga juta baris bukti Lean",
+      "occurrences": 28,
+      "firstSeen": "2026-10-18",
+      "lastSeen": "2026-11-16",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "OpenAI launches ChatGPT Wallet, enabling agent-initiated purchases across Work, Codex, and dots",
+      "occurrences": 23,
+      "firstSeen": "2026-10-18",
+      "lastSeen": "2026-11-16",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 12,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 405,
+    "poolSize": 110,
+    "generatedAt": "2026-11-17T03:47:43.773Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
