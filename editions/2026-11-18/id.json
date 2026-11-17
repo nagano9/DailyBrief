@@ -1,0 +1,353 @@
+{
+  "slug": "2026-11-18",
+  "date": "2026-11-18",
+  "lang": "id",
+  "title": "GPT-6.2 & Chip Curbs AS ke Asia Bertemu Danantara Rilis Laporan 23 Nov",
+  "dek": "Tiga tekanan simultan, yaitu eskalasi model frontier, restriksi chip AI ke Asia, dan uji transparansi Danantara, membentuk keputusan korporasi dan infrastruktur minggu ini.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "OpenAI merilis GPT-6.2 Astra dan Sol dengan klaim efisiensi lebih tinggi di harga lebih rendah, mempercepat tekanan biaya pada adopsi enterprise. Bersamaan, AS memberlakukan pembatasan chip AI ke pusat data Asia tepat saat Trump berkunjung ke Manila, yang secara langsung memengaruhi rencana ekspansi kapasitas komputasi di kawasan. Di front korporasi, Danantara dijadwalkan merilis laporan keuangan pertama pada 23 November 2026, sementara isu pengelolaan dana cadangan pesangon oleh Danantara belum mendapat klarifikasi resmi yang tuntas. Di sisi energi, PLN Indonesia Power memulai konstruksi PLTS Hybrid 4,5 MW dengan BESS 9 MWh di Nusa Penida, sinyal konkret pertama eksekusi di luar klaim target 100 GW PLTS yang diumumkan Prabowo di KTT ASEAN.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "GPT-6.2 Astra",
+        "ChatGPT Work",
+        "Codex"
+      ],
+      "headline": "OpenAI rilis GPT-6.2 Astra dan Sol: efisiensi lebih tinggi, harga lebih rendah di ChatGPT Work dan API",
+      "whatChanged": "OpenAI pada 17 November 2026 mengumumkan GPT-6.2 Astra dan Sol, dua varian yang diklaim memberikan output profesional lebih baik di bidang coding dan computer use, dengan efisiensi biaya lebih rendah dibanding GPT-6.2 generasi sebelumnya, tersedia melalui ChatGPT Work, Codex, dan API.",
+      "whyItMatters": "Setiap siklus rilis yang menggabungkan peningkatan kemampuan dengan penurunan harga mempersempit jendela diferensiasi bagi penyedia model kompetitor dan menekan margin vendor enterprise yang membangun di atas lapisan API OpenAI. Pola ini berlanjut dari tren 28 edisi terakhir: frontier model bergerak lebih cepat dari siklus evaluasi pengadaan korporasi.",
+      "secondOrder": "Penurunan harga per token mendorong volume penggunaan lebih cepat dari yang diantisipasi tim keamanan enterprise, sehingga kontrol data dan audit jejak penggunaan yang belum selesai diimplementasi menjadi celah operasional nyata sebelum kuartal berikutnya.",
+      "action": "Tim pengadaan teknologi: bandingkan biaya aktual GPT-6.2 Astra versus model incumbent dalam kontrak berjalan minggu ini. Jika selisih biaya melebihi 20%, ajukan klausul renegosiasi atau uji migrasi terbatas sebelum akhir November 2026.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-19",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring-delay",
+      "entities": [
+        "Danantara",
+        "BPJS Ketenagakerjaan",
+        "CNBC Indonesia",
+        "CNN Indonesia"
+      ],
+      "headline": "Danantara rilis laporan keuangan 23 November; isu pengelolaan dana pesangon belum terselesaikan",
+      "whatChanged": "CNBC Indonesia melaporkan pada 15 November 2026 bahwa Danantara akan merilis laporan keuangan pada 23 November 2026. Terpisah, detikFinance pada 16 November 2026 menyebut serikat buruh mengidentifikasi BPJS Ketenagakerjaan dan Danantara sebagai kandidat pengelola dana cadangan pesangon. CNN Indonesia pada 15 November 2026 mencatat Danantara membantah kabar tersebut namun tidak memberikan klarifikasi mekanisme yang definitif.",
+      "whyItMatters": "Laporan keuangan 23 November akan menjadi dokumen publik pertama yang memungkinkan verifikasi independen atas klaim aset dan struktur portofolio Danantara. Bersamaan, munculnya isu dana pesangon menambah tekanan tata kelola karena melibatkan dana pihak ketiga di luar mandat investasi awal, dan ini terjadi sebelum laporan pertama dipublikasikan. Tema ini melanjutkan kondisi struktural 30 edisi terakhir.",
+      "secondOrder": "Jika laporan keuangan tidak menyertakan pengungkapan standar tentang eksposur BUMN Karya dan nilai wajar aset infrastruktur, investor obligasi dan mitra bilateral yang telah menyalurkan komitmen akan meninjau ulang syarat perjanjian pembiayaan, yang dapat memperlambat pencairan komitmen yang sudah ada.",
+      "action": "Analis kredit dan mitra bilateral: susun daftar periksa pengungkapan minimum yang diperlukan dari laporan 23 November, mencakup daftar aset, metode valuasi, dan eksposur BUMN Karya. Bandingkan dengan praktik pelaporan sovereign wealth fund sebanding sebelum tanggal rilis.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYllla2RUYkRRd2JvSjJ5YXBmM05TNDdFMDM0T2l4Nk9QWnJKeUdZeXFXekpFY0pPYXJhWW1JaUJrbjRnUTNhdWlnT09Cb1AwTVFXUkpqQjNkbXo2eU81MU0wLWVKWkhENnJObUxHVk9FZXQyYjYxb3l6WlRTa1gwSGRxYkVMdVFoWkd0SkZiQjI3NWNkdmVvbThtOGpvbnlRWm1ocXRsZVp4Ny1TWWdmY1BPODVmZ2RaQ0Jhbk83Z9IBxAFBVV95cUxPSGs2WWRjMGtBaGpwcVJxeHVGNEI1ZmlvT1JXVy1IMVFMX1k0SEtzUnJJYU5LYnEtV2JZQnBJLVVsY1RBS2F5VGR0c3VpWlBJMEY2MHFQdWJhODlZeDZnNWRVWWVRbUF3ZnVsWGhUQzJHWWhFUFVBRHRHamdJcWZ3bmZKQ003a25uZkp0V3p1Zmt3QlRJUGI0clNmZkhSVjJ6T0pOVTBnWXBjcUVqQ3Vfc2tNakNzdUtsUXFYamJzV2pDbkdU?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOVNyU1BrUWdrdllRLVBfMGczOEZnT1YyazRYb0dlcUVYMEFGWUFQX0ItME42U2xPZWFqM3hXenQ3Q2VEdkwzdTlqd1Zhd3ItOFJlRmxvTHJoaXFBVTl2OVBFWFd1MkVCQUNOLUQzNkE2R2h1bXZLRlB2OGlES25jaEx1V180ZlRRak5ndG5BTmJ1VjZnbDF2RE1tOXpTTDF2UE9fTXBUWktTdl9vT3l3SHYxWF9xVUIzVEhhQ3BrWDFBakk2TjJDbzVB0gHPAUFVX3lxTFA5TDJGXzVjaWlYdGljMEdYdk1MR1d6X29xSWU1cHQ4aWNYY3VKVG5mZ1ZUWlpnRVRuZ3lMTFFZRWNHVkdQTjJnVXFSQ3l1b2hWZDhKYWRUTzAwUUxjS1FsYUh0bW1ieFpDYzNMb1BIWjRESkdaLTBZU2QtNW9vYkN6ZUM0NDVhcFJadG1JN3p3ZThySGVxeC00WUZBVHl0QTZCWWdOU21aTld6WGZqd21QUDBzZTFjaUhlU25oWC1MdnVfYUtRUF91M3ZSSU5uVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzNzdFBJbF9faENGOEo5eVlGeVFlQWpqZUVxQXRsNnd3N1pTOHdsVGVDb3Fzc2xubEhWdWxWNXJhanNzNFJoVFFYRW5qQ3F0czN2S08xdlFoaF9mdzMzQlJvVUFobUpERzZXaEFIaU5EYVpfd1h6bkJVVzhEd2hOeHEzZ1JPb09seTNVX2xrZXVXRUJRdTAtTkdkM0d1Ml9LdEduZm1YdmRmN00xTWJrMUpRc3lOc3ZSZk8xbnQ2ekZ1UG5WQ2dWUNIBzgFBVV95cUxQRll2RmVNR2lvWER6LW9DUGVSSzJLa0ZkczRpakltazl6UVIwWjR6aUR2bVd3VGpveHRiRHRrZmpWOWthSWJMZWZZT2lZZmMxU0Qxb3VLU2V0WXFCNXRxdlF3M2VFb2xKdDZYOVN2REgycVVUTVNKaHV5ajBXbl9sMlVKS0NaRkx2Q1Jrc0dPejRWV1ZPM2k5MVJPU21uekJoQV9MbnNJUHNUM1NvX2VNb1BiVlc3UXVxa0dMaHlGOGhMZEVoYzhfX1V3bHhSdw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring-delay",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-19",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN Indonesia Power",
+        "Nusa Penida"
+      ],
+      "headline": "PLN Indonesia Power mulai bangun PLTS Hybrid 4,5 MW dan BESS 9 MWh di Nusa Penida",
+      "whatChanged": "Kontan.co.id dan Kompas.com pada 17 November 2026 melaporkan PLN Indonesia Power memulai konstruksi PLTS Hybrid berkapasitas 4,5 MW yang dilengkapi baterai penyimpanan energi 9 MWh di lahan 10 hektare di Nusa Penida, dengan target produksi 8,8 juta kWh per tahun.",
+      "whyItMatters": "Proyek ini adalah eksekusi skala kecil pertama yang dapat diverifikasi secara konkret setelah Presiden Prabowo mengumumkan target 100 GW PLTS di KTT ASEAN ke-49, di mana pemerintah membutuhkan investasi hingga USD 100 miliar. Nusa Penida relevan sebagai lokasi uji model hybrid PLTS plus BESS untuk pulau terisolasi, yang jumlahnya ribuan di Indonesia.",
+      "secondOrder": "Keberhasilan atau kegagalan model operasional BESS 9 MWh di Nusa Penida akan menjadi referensi teknis dan komersial untuk replikasi di pulau-pulau terisolasi lain. Jika biaya operasional per kWh di Nusa Penida tidak kompetitif dengan diesel setempat, model ini tidak akan diadopsi secara massal tanpa subsidi tambahan, yang memengaruhi kelayakan target 100 GW.",
+      "action": "Pengembang energi terbarukan yang menarget pasar pulau terisolasi Indonesia: minta data biaya operasional per kWh proyek Nusa Penida dari PLN Indonesia Power setelah commissioning, lalu bandingkan dengan tarif diesel setempat untuk menetapkan harga dasar proposal PPA berikutnya.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVEVwM0NHN1FQMERmY3cyQTRUcnVJYkQ4Q0VBWURiT0tUaVNJZ05xVnJ0cXo4Tnh0Y2pLdThiUWZRdDlsLWEwQUxlSUxxWVQtbTg1SHNOTkpXX3BPcUNjbGJTZnoyaFZMbzM4Qk8xa1AtWHBSUXRLMlQ0bzdpNkhVbVNOeGhwYVpYNGdUXzM2enJWSkpaTVZMSlM5NmdOMUpnelFHU0QtMUt5dGxjYUHSAacBQVVfeXFMUEV2R3hoTlcwYjVubU82a2dySU9rTGNGejBNT1Z3T2pPX1Bsa3RMT1VtTUJsWUlEanpOOGJacEljTHBFbmZIQWFtb3pESXM5QzYyQnd0a3BFczl1WFZ0VmhsQ2hSSEJIQVNZT0N2dzYxZlZrTnRXYmR5M0xrSWpieUlwZHJUZG1oOF9XVUEzU01xSUlQVmM0MFhXTE9BY09uUkliN3dYYlE?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxORkJIRks0TDRtWVhqWHFSTW5IUjZpdE1ZVmc2TlpuN3B2SWR3QmJJa0ZFdXdRWmtSV18tbHVtay1xTnVaMGJYS2lHUmNKSU1SMmFoelpTTDg3dDc5ZVBhU0pFZDN3SmhNNGJSRFRXeUpudDU5bXFPMjVqcVR2RUJqSTdaeVcwbFdzR3dGMkFKYlk4MV9saDJYUlMwLTN1YnJQVm5KSS1ObG8tTmJJay15SERuX2JDNTRmNHI4WXpn?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUHM4dS1pYVU0ODg2SHJhc0FlNDJsUkVneTRfTFZmSWNtT0tmOHZCbGRhZ2swZlNET3V0dFJKbHhrZGhSN2pFV0F6eFJ4OGdKY1AwdWVUWTNIN0xpcmo4WlJOUGE2S3ZsT1ViZlRhYXJRdThRQktfNGxOamxkRVU0WU1Yb1Fray1femktYms3VjExdExHTGdtbi1UeXkxblpvOE1zVFowbzBpSG1PbV9sQVFpUWhvRzjSAbwBQVVfeXFMTjBtT3pxRFh6YWd0QkozeWR1U2JvQ0R4ckR4V25OX2dQS1RaSzU5Tnp0ZzRYNE1pdFNNVE1DV2JwMFU2aEJmTllTdzQxNUhQS1JGaHVzT1RHTWlqUmRlUUc4Wm5Bd0ZxbFBaSlpMcUdpQy1BSk5SajlQZ1F4VnRCMjkyaFBkeUtBZFZMRy13NkVFcUZ6TGlVd2JoMW1HWjRjMC16ZHA4WGwxZWgyTUxmOGg1dDJGMDdyd2xUeUo?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeEZiUFN6aDJkSldyYzYxODBDR3JwNW0zMDBCcml0WXJNdHZLbXVoZ0NiSzJ5T21aeF9UTENFTWlyQkI3Y2l3ZlVmQmJEdkhINjRPZVdEdVVzM0VOMHh0Rm1Qc0k3WGgwN3pZQ0JUTXlPckQ3UzR0SDMwVTlXRWxJRG95aXA4ck9YdXNwZEtiR0p2ZklwZHJnUHpNSHkzNnExV0ZyWGNQN3h5QTR0Ql9mOEZBc3FzX0Rl?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-20",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "NATO"
+      ],
+      "headline": "OpenAI bermitra dengan NATO untuk pertahanan siber menggunakan AI pada infrastruktur kritis sekutu",
+      "whatChanged": "OpenAI pada 17 November 2026 mengumumkan kolaborasi dengan NATO dan lembaga siber sekutu untuk membantu defender menemukan kerentanan, menguji perbaikan, dan melindungi sistem esensial, dengan akses diberikan kepada defender yang terverifikasi.",
+      "whyItMatters": "Keterlibatan formal OpenAI dengan NATO menandai titik di mana model AI frontier masuk ke rantai operasional pertahanan kolektif, bukan hanya sebagai alat analitik tambahan. Ini menciptakan preseden regulatori tentang siapa yang berwenang mengaudit model AI yang digunakan dalam konteks pertahanan nasional.",
+      "secondOrder": "Pemerintah di luar aliansi NATO, termasuk Indonesia, perlu mempertimbangkan apakah mitra AI mereka memiliki kewajiban kontraktual kepada entitas militer asing yang dapat memunculkan konflik kepentingan dalam penggunaan AI untuk infrastruktur kritis domestik.",
+      "action": "Tim kebijakan teknologi pemerintah Indonesia: tinjau klausul penggunaan ganda dalam kontrak atau MoU dengan penyedia model AI frontier. Identifikasi apakah ada pembatasan penggunaan yang dipicu oleh keterlibatan vendor tersebut dengan aliansi militer spesifik, dan dokumentasikan hasilnya sebelum akhir November 2026.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-19",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "ai-datacenter-project-finance",
+      "entities": [
+        "Bloomberg",
+        "NeutraDC",
+        "PLN"
+      ],
+      "headline": "AS terapkan pembatasan chip AI ke pusat data Asia bersamaan kunjungan Trump ke Manila",
+      "whatChanged": "Bloomberg melaporkan pada 17 November 2026 bahwa AS memberlakukan pembatasan chip AI yang menyasar pusat data di kawasan Asia, timing-nya bersamaan dengan kunjungan Trump ke Manila untuk KTT ASEAN.",
+      "whyItMatters": "Pembatasan chip AI ke Asia mengubah kalkulasi kapasitas komputasi untuk pusat data yang sedang dalam tahap perencanaan atau konstruksi di kawasan, termasuk Indonesia, karena akses ke GPU generasi terbaru menjadi variabel regulatori, bukan hanya variabel komersial. Tema ini melanjutkan sinyal dari arsip 23 edisi terakhir tentang tekanan pembiayaan dan rantai pasokan infrastruktur AI.",
+      "secondOrder": "Perusahaan Indonesia yang sedang menegosiasikan PPA listrik untuk pusat data berkapasitas besar, seperti NeutraDC yang telah bermitra dengan PLN untuk ekspansi 200 MW, perlu mengevaluasi ulang asumsi throughput komputasi karena restriksi ini dapat menggeser jadwal pengisian kapasitas dan struktur offtake.",
+      "action": "Manajer proyek pusat data di Indonesia: identifikasi vendor chip dalam pipeline pengadaan dan verifikasi apakah entitas tersebut masuk dalam daftar pembatasan AS terbaru. Siapkan skenario alternatif dengan chip non-AS sebelum kontrak konstruksi ditandatangani.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPak5MQ0ZBa1V4d0xxZHhROWFld3dqQWxkWE1HM0tQZWo1RWo4eEpwVTJnSzNlemgzdEx0TGxaZ2Q1SHhCcHdMeWMwcy0zR3lUZk9ETXM2Mm9kbXRtQzlibjlBZEFrRDZtcm5Ld0JXZW9VYmdjRFVLYUxtYjdYS0M3WHBkV1E1WjdNRS1sd3JwNjV1YnEwVHRPbnVnRTJGZFhOXzlBaDVfbDN0cmFELUk4eks2QQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-datacenter-project-finance",
+        "status": "structural",
+        "occurrences": 24,
+        "firstSeen": "2026-10-19",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Laporan keuangan pertama Danantara: verifikasi cakupan pengungkapan aset, metode valuasi portofolio BUMN Karya, dan eksposur utang.",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "Detail resmi pembatasan chip AI AS ke Asia: daftar entitas, jenis chip yang direstriksi, dan apakah Indonesia masuk dalam pengecualian atau tidak.",
+      "dueDate": "2026-11-25"
+    },
+    {
+      "item": "Commissioning dan data operasional awal PLTS Hybrid Nusa Penida: biaya per kWh aktual versus proyeksi dan perbandingan dengan tarif diesel setempat.",
+      "dueDate": "2027-03-01"
+    },
+    {
+      "item": "Perkembangan regulasi pengelolaan dana cadangan pesangon: apakah Kemnaker atau DPR menerbitkan kerangka resmi yang menetapkan pengelola dan mekanisme pengawasan.",
+      "dueDate": "2026-12-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-17T17:45:00.000Z"
+    },
+    {
+      "title": "Buruh Sebut BPJS Ketenagakerjaan & Danantara Calon Pengelola Dana Pesangon",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOVNyU1BrUWdrdllRLVBfMGczOEZnT1YyazRYb0dlcUVYMEFGWUFQX0ItME42U2xPZWFqM3hXenQ3Q2VEdkwzdTlqd1Zhd3ItOFJlRmxvTHJoaXFBVTl2OVBFWFd1MkVCQUNOLUQzNkE2R2h1bXZLRlB2OGlES25jaEx1V180ZlRRak5ndG5BTmJ1VjZnbDF2RE1tOXpTTDF2UE9fTXBUWktTdl9vT3l3SHYxWF9xVUIzVEhhQ3BrWDFBakk2TjJDbzVB0gHPAUFVX3lxTFA5TDJGXzVjaWlYdGljMEdYdk1MR1d6X29xSWU1cHQ4aWNYY3VKVG5mZ1ZUWlpnRVRuZ3lMTFFZRWNHVkdQTjJnVXFSQ3l1b2hWZDhKYWRUTzAwUUxjS1FsYUh0bW1ieFpDYzNMb1BIWjRESkdaLTBZU2QtNW9vYkN6ZUM0NDVhcFJadG1JN3p3ZThySGVxeC00WUZBVHl0QTZCWWdOU21aTld6WGZqd21QUDBzZTFjaUhlU25oWC1MdnVfYUtRUF91M3ZSSU5uVQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-16T23:15:54.000Z"
+    },
+    {
+      "title": "PLN Indonesia Power Bangun PLTS Hybrid 4,5 MW dan BESS 9 MWh di Nusa Penida",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVEVwM0NHN1FQMERmY3cyQTRUcnVJYkQ4Q0VBWURiT0tUaVNJZ05xVnJ0cXo4Tnh0Y2pLdThiUWZRdDlsLWEwQUxlSUxxWVQtbTg1SHNOTkpXX3BPcUNjbGJTZnoyaFZMbzM4Qk8xa1AtWHBSUXRLMlQ0bzdpNkhVbVNOeGhwYVpYNGdUXzM2enJWSkpaTVZMSlM5NmdOMUpnelFHU0QtMUt5dGxjYUHSAacBQVVfeXFMUEV2R3hoTlcwYjVubU82a2dySU9rTGNGejBNT1Z3T2pPX1Bsa3RMT1VtTUJsWUlEanpOOGJacEljTHBFbmZIQWFtb3pESXM5QzYyQnd0a3BFczl1WFZ0VmhsQ2hSSEJIQVNZT0N2dzYxZlZrTnRXYmR5M0xrSWpieUlwZHJUZG1oOF9XVUEzU01xSUlQVmM0MFhXTE9BY09uUkliN3dYYlE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T09:42:30.000Z"
+    },
+    {
+      "title": "PLN IP Bangun PLTS di Nusa Penida, Target Produksi Listrik 8,8 Juta kWh",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORkJIRks0TDRtWVhqWHFSTW5IUjZpdE1ZVmc2TlpuN3B2SWR3QmJJa0ZFdXdRWmtSV18tbHVtay1xTnVaMGJYS2lHUmNKSU1SMmFoelpTTDg3dDc5ZVBhU0pFZDN3SmhNNGJSRFRXeUpudDU5bXFPMjVqcVR2RUJqSTdaeVcwbFdzR3dGMkFKYlk4MV9saDJYUlMwLTN1YnJQVm5KSS1ObG8tTmJJay15SERuX2JDNTRmNHI4WXpn?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T13:42:00.000Z"
+    },
+    {
+      "title": "US Hits Asia Data Centers With AI Chip Curbs As Trump Visits",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPak5MQ0ZBa1V4d0xxZHhROWFld3dqQWxkWE1HM0tQZWo1RWo4eEpwVTJnSzNlemgzdEx0TGxaZ2Q1SHhCcHdMeWMwcy0zR3lUZk9ETXM2Mm9kbXRtQzlibjlBZEFrRDZtcm5Ld0JXZW9VYmdjRFVLYUxtYjdYS0M3WHBkV1E1WjdNRS1sd3JwNjV1YnEwVHRPbnVnRTJGZFhOXzlBaDVfbDN0cmFELUk4eks2QQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T08:50:00.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "title": "Perhatian! Danantara Bakal Rilis Laporan Keuangan 23 November",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYllla2RUYkRRd2JvSjJ5YXBmM05TNDdFMDM0T2l4Nk9QWnJKeUdZeXFXekpFY0pPYXJhWW1JaUJrbjRnUTNhdWlnT09Cb1AwTVFXUkpqQjNkbXo2eU81MU0wLWVKWkhENnJObUxHVk9FZXQyYjYxb3l6WlRTa1gwSGRxYkVMdVFoWkd0SkZiQjI3NWNkdmVvbThtOGpvbnlRWm1ocXRsZVp4Ny1TWWdmY1BPODVmZ2RaQ0Jhbk83Z9IBxAFBVV95cUxPSGs2WWRjMGtBaGpwcVJxeHVGNEI1ZmlvT1JXVy1IMVFMX1k0SEtzUnJJYU5LYnEtV2JZQnBJLVVsY1RBS2F5VGR0c3VpWlBJMEY2MHFQdWJhODlZeDZnNWRVWWVRbUF3ZnVsWGhUQzJHWWhFUFVBRHRHamdJcWZ3bmZKQ003a25uZkp0V3p1Zmt3QlRJUGI0clNmZkhSVjJ6T0pOVTBnWXBjcUVqQ3Vfc2tNakNzdUtsUXFYamJzV2pDbkdU?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T10:45:32.000Z"
+    },
+    {
+      "title": "Target 100 GW PLTS, Pemerintah Butuh Investasi hingga US$100 Miliar - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeEZiUFN6aDJkSldyYzYxODBDR3JwNW0zMDBCcml0WXJNdHZLbXVoZ0NiSzJ5T21aeF9UTENFTWlyQkI3Y2l3ZlVmQmJEdkhINjRPZVdEdVVzM0VOMHh0Rm1Qc0k3WGgwN3pZQ0JUTXlPckQ3UzR0SDMwVTlXRWxJRG95aXA4ck9YdXNwZEtiR0p2ZklwZHJnUHpNSHkzNnExV0ZyWGNQN3h5QTR0Ql9mOEZBc3FzX0Rl?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T12:00:00.000Z"
+    },
+    {
+      "title": "Danantara Buka Suara soal Isu Bakal Tampung Dana Cadangan Pesangon",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzNzdFBJbF9faENGOEo5eVlGeVFlQWpqZUVxQXRsNnd3N1pTOHdsVGVDb3Fzc2xubEhWdWxWNXJhanNzNFJoVFFYRW5qQ3F0czN2S08xdlFoaF9mdzMzQlJvVUFobUpERzZXaEFIaU5EYVpfd1h6bkJVVzhEd2hOeHEzZ1JPb09seTNVX2xrZXVXRUJRdTAtTkdkM0d1Ml9LdEduZm1YdmRmN00xTWJrMUpRc3lOc3ZSZk8xbnQ2ekZ1UG5WQ2dWUNIBzgFBVV95cUxQRll2RmVNR2lvWER6LW9DUGVSSzJLa0ZkczRpakltazl6UVIwWjR6aUR2bVd3VGpveHRiRHRrZmpWOWthSWJMZWZZT2lZZmMxU0Qxb3VLU2V0WXFCNXRxdlF3M2VFb2xKdDZYOVN2REgycVVUTVNKaHV5ajBXbl9sMlVKS0NaRkx2Q1Jrc0dPejRWV1ZPM2k5MVJPU21uekJoQV9MbnNJUHNUM1NvX2VNb1BiVlc3UXVxa0dMaHlGOGhMZEVoYzhfX1V3bHhSdw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-15T09:02:08.000Z"
+    },
+    {
+      "title": "Nusa Penida Bangun PLTS Tahap II Berkapasitas 4,5 MW di Lahan 10 Hektare",
+      "publisher": "detikcom",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUHM4dS1pYVU0ODg2SHJhc0FlNDJsUkVneTRfTFZmSWNtT0tmOHZCbGRhZ2swZlNET3V0dFJKbHhrZGhSN2pFV0F6eFJ4OGdKY1AwdWVUWTNIN0xpcmo4WlJOUGE2S3ZsT1ViZlRhYXJRdThRQktfNGxOamxkRVU0WU1Yb1Fray1femktYms3VjExdExHTGdtbi1UeXkxblpvOE1zVFowbzBpSG1PbV9sQVFpUWhvRzjSAbwBQVVfeXFMTjBtT3pxRFh6YWd0QkozeWR1U2JvQ0R4ckR4V25OX2dQS1RaSzU5Tnp0ZzRYNE1pdFNNVE1DV2JwMFU2aEJmTllTdzQxNUhQS1JGaHVzT1RHTWlqUmRlUUc4Wm5Bd0ZxbFBaSlpMcUdpQy1BSk5SajlQZ1F4VnRCMjkyaFBkeUtBZFZMRy13NkVFcUZ6TGlVd2JoMW1HWjRjMC16ZHA4WGwxZWgyTUxmOGg1dDJGMDdyd2xUeUo?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T10:35:48.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring-delay",
+      "theme": "Rupiah cetak rekor terlemah sepanjang masa di Rp 18.289 per dolar AS",
+      "occurrences": 30,
+      "firstSeen": "2026-10-19",
+      "lastSeen": "2026-11-17",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Google DeepMind rilis Gemini 4 Hydrogen; Anthropic publikasikan kerangka evaluasi keselamatan model frontier",
+      "occurrences": 28,
+      "firstSeen": "2026-10-19",
+      "lastSeen": "2026-11-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN operasikan kembali PLTU Kaltim-2 Unit 1 setelah pemadaman bergilir; target pemulihan Desember",
+      "occurrences": 27,
+      "firstSeen": "2026-10-19",
+      "lastSeen": "2026-11-16",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "HSBC jual pinjaman datacenter bermasalah USD 300 juta dengan diskon; Bloomberg laporkan kendala cuaca operasional",
+      "occurrences": 23,
+      "firstSeen": "2026-10-19",
+      "lastSeen": "2026-11-17",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR di COP31 Antalya: Indonesia harus jadikan transisi energi berkeadilan sebagai strategi pembangunan, bukan sekadar komitmen iklim",
+      "occurrences": 12,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-10",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 413,
+    "poolSize": 110,
+    "generatedAt": "2026-11-17T23:10:34.711Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
