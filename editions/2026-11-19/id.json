@@ -1,0 +1,348 @@
+{
+  "slug": "2026-11-19",
+  "date": "2026-11-19",
+  "lang": "id",
+  "title": "Danantara Dapat Insentif Pajak Restrukturisasi; Gemini 4 Neon Rilis; Surya RI 1,59 GWp",
+  "dek": "Tiga perubahan regulasi dan teknologi hari ini mempersempit ruang tunda keputusan di tiga domain sekaligus",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Pemerintah Indonesia resmi memberi insentif pajak untuk restrukturisasi BUMN dan anak usaha di bawah Danantara, dengan tujuh pagar pengaman yang membatasi fleksibilitas pelaksanaan. Bersamaan, kesepakatan investasi Indonesia-China senilai USD 71,8 miliar mencakup sepuluh proyek smart city yang akan digarap Danantara, memperluas eksposur lembaga itu ke infrastruktur digital. Di sisi AI, Google DeepMind merilis Gemini 4 Neon, model yang diklaim bersaing dengan Anthropic Claude Opus 5.5, sehari setelah Anthropic menetapkan harga IPO-nya. Di sisi energi, IESR mencatat kapasitas surya Indonesia baru mencapai 1,59 GWp dari target 100 GWp pada 2029, kesenjangan yang mengonfirmasi bahwa kecepatan penambahan kapasitas harus naik lebih dari dua puluh kali lipat dalam tiga tahun. MCP v2.5.0 menambal delapan celah keamanan, melanjutkan pola pembaruan keamanan agen AI yang kini mencapai frekuensi dua mingguan.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "CNBC Indonesia",
+        "KONTAN"
+      ],
+      "headline": "Insentif pajak restrukturisasi BUMN resmi berlaku, tujuh pagar pengaman ditetapkan",
+      "whatChanged": "Pemerintah Indonesia resmi menetapkan insentif pajak untuk restrukturisasi BUMN dan anak usaha, berlaku hingga 2026, dengan tujuh syarat pembatas yang dikonfirmasi CNBC Indonesia dan Kontan pada 18-19 November 2026. Danantara disebut sebagai penerima manfaat utama kebijakan ini.",
+      "whyItMatters": "Insentif pajak ini menurunkan biaya konsolidasi aset BUMN secara langsung, namun tujuh pagar pengaman menambah lapisan persetujuan regulasi yang dapat memperlambat eksekusi merger atau akuisisi. Kebijakan ini juga menetapkan batas waktu 2026, sehingga transaksi yang tidak selesai tahun ini kehilangan manfaat fiskal tersebut.",
+      "secondOrder": "Batas waktu 2026 mendorong akselerasi transaksi restrukturisasi dalam hitungan minggu, bukan bulan. Perusahaan yang belum menyelesaikan due diligence atau valuasi aset berisiko terburu-buru menutup kesepakatan dengan harga yang belum optimal. Di sisi lain, pagar pengaman yang ketat memberi celah bagi kreditur dan auditor eksternal untuk mempersoalkan kepatuhan, terutama bila laporan keuangan Danantara yang dijadwalkan 23 November masih menyisakan pertanyaan tentang pengelolaan dana pesangon.",
+      "action": "Periksa daftar tujuh syarat pembatas yang ditetapkan pemerintah dan petakan transaksi restrukturisasi BUMN yang masih berjalan terhadap masing-masing syarat tersebut. Identifikasi transaksi mana yang berisiko gagal memenuhi syarat sebelum batas waktu 2026. Output: matriks kepatuhan per transaksi, diselesaikan sebelum 23 November bertepatan dengan rilis laporan keuangan Danantara.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaEhTT0JGeU5wVFZMTmVmYkVyOE9vYXdGODNDeE5PVnI4QmFCdmR6WEIxdlozcUlheml3TzY5LWJUa0JtYjVwNjFweHR6Y3RvQWFzc3hrakFwVTc4b0RvOXBEak8zczNKbUNNdVlSOXZqVldPdTViZWc1emd6Z3NQZDM1bWpjQTBpMHdNQlNjdElpS3Q3amswSUUwYXhqcjdMU0h2UEx1SU5xbmJ3eGtGRzRPVTNsdFhmOHpXbWdrT05ZU3IwekHSAcsBQVVfeXFMUFlmQ2szMV9pRWZRb29jNVZGVjVIS1hOc2ctMnBJYjQtc2RHN3FKZ21fN0xIUTRleXpRT2drYWN4N1pDTUFmNnFWZ2xYQlhwUzVBSE9YLUFlSmVFeGJLTUdlVGxKbVlQUGRxR2VENnUxYUVnUmtNT2dESVh1dV81TV9sdlJlV3YteWNGVENCVFd6RHFqSGhTRkZRbzNvaDQ0aFNRcGJsd2tnQmRkcTZwUmp6cE0yek1CZmdkVUphTnpsZnAydHo3OUtRXzA?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmFFVDJSbUt6d3FwNFBRQkdJUW0xb2FOdU8yb0cydlhFTXV6X0hBRnZkVHdCS0Y0d01Gbmc5eFdvTFFVUFhkUWxodzFxVk1aTjFDRWtrUlVxel9PLU9YVVRUNlFkWVBCNkctbXVqM2ZOeFdTYnJ3NVMyaHhMcUtCTVNWOG9SUVVxbkdaTWdyTzluUlBESUFXWGdlNWR1MnIydW5uRTgzSTNoMTdJaHfSAacBQVVfeXFMTlVBVUNOV2diRjNrNUlRODZacFZjV3B6VXpJUXV2cEhmbllmRVV4dXMtXzBMVXJoX1hQVW9YbzZhV2ZqcjQtcldQVGM3Z2hqV2Nudjg4QUFaWUgza2Vub0JRdDNGcXh3WnMyRUxWUFZjWUtSaFlvdmdhcEpEVW5KYVMxNmlmODZ5OXhkVTYxQmRyYXlta29Od2w5M2MxaURlaU96TVhCWDg?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVZrOThYUTBQVGg4c0luM2Y3US1BUndKUEdhYlctcExtc3B5c0hvamR0UVkza3k4RE5IWnRWbVdHdF8wVVV1NHk1RlBkcUt6VW9JVmNIZ1FRNVZWeXh1Y2FiSGFFbXFOd0RkZmY0LWdKV2M4TmFSQmttTG5HNEZoUC0xcW82aTdFeVktR2hqRkNvZXI4SG1EeVNhbWtBLUt0MFQ3TS1MZlpqd29fZGpwVmRTYUUwWWNqVVE4R0dBVjXSAcYBQVVfeXFMUHdOdzZlRmgyYlhzczhLVC0wcFB3NG5LeDVWLVlmNW5FeWVvWXlNVHVtRS1PNXEzalJqLXVzOTBtZ2JJUmR5OEo3RXhDWF9tbTZVRzJPdmJLRGpGajNsM2NDLTZKSzBrQWJ6bHZHNldmZmNLQV9WM1ZQSU9uXzB1S0NFbS16NktZTDNaTDFrbERkLWRkejF3ZjFhUmlnT0ZKN3o1OXk5dW1NWFJ2RkR5cC11R0JsNGp2X1NXMThqaXU1NzZYZi13?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "Anthropic",
+        "Hacker News"
+      ],
+      "headline": "Google DeepMind rilis Gemini 4 Neon, diklaim bersaing dengan Claude Opus 5.5",
+      "whatChanged": "Google DeepMind mengumumkan Gemini 4 Neon pada 18 November 2026. Komunitas Hacker News pada 19 November 2026 menilai model ini sebagai pesaing langsung Anthropic Claude Opus 5.5, bersamaan dengan penetapan harga IPO Anthropic.",
+      "whyItMatters": "Rilis Gemini 4 Neon sehari setelah Anthropic menetapkan harga IPO memperketat persaingan di segmen model frontier kelas atas. Perusahaan yang sedang mengevaluasi kontrak enterprise AI kini menghadapi pilihan antara vendor publik baru (Anthropic pasca-IPO) dan vendor yang didukung ekosistem Google.",
+      "secondOrder": "IPO Anthropic mengubah struktur insentif keamanan AI: pemegang saham publik cenderung mendorong monetisasi lebih cepat, sehingga komitmen keamanan yang selama ini menjadi diferensiasi Anthropic akan mendapat tekanan dari pasar modal. Investor institusional seperti dana pensiun NYC yang sudah menyatakan niat mengadvokasi keamanan AI akan memiliki instrumen baru untuk menekan kedua perusahaan secara bersamaan.",
+      "action": "Bila organisasi Anda sedang dalam proses evaluasi atau perpanjangan kontrak model AI frontier, jadwalkan ulang timeline keputusan untuk memasukkan perbandingan Gemini 4 Neon terhadap benchmark internal Anda. Minta tim teknis menghasilkan skor perbandingan pada tugas spesifik organisasi dalam dua minggu, sebelum harga dan syarat lisensi Anthropic pasca-IPO ditetapkan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-gemini-4-neon/",
+        "https://deepmind.google/blog/genie-4-is-now-available/",
+        "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ3RTVnpnZWs1UjJTUWwtc0Q0LTNuWkZhSEsxOGs0cjVxdy03M01raHhnUzBfUmNGZlJWV25SbmhKcTdFb1lZMUZFNTM5a3k1QWNNU2hhYkhaV05NNldpcE9FSTJCdUpZckhqd1c5QWtQRXEtTW1vR1lnZjlzSlh3aDlSQmcxdXhoWmVFLVgyLW9Da0I0aDFiWm1CZElPcU1KUGdodVpuUzFINVVKSXpNeTA0Zw?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR"
+      ],
+      "headline": "IESR: kapasitas surya Indonesia 1,59 GWp, butuh percepatan 63x lipat untuk capai target 100 GWp pada 2029",
+      "whatChanged": "IESR merilis Indonesia Solar Energy Outlook (ISEO) 2027 pada 18 November 2026, mencatat kapasitas terpasang tenaga surya Indonesia sebesar 1,59 GWp. Target pemerintah adalah 100 GWp pada 2029, selisih 98,41 GWp dalam waktu tiga tahun.",
+      "whyItMatters": "Kesenjangan antara 1,59 GWp dan 100 GWp dalam tiga tahun mensyaratkan penambahan rata-rata lebih dari 32 GWp per tahun, angka yang belum pernah dicapai Indonesia bahkan dalam satu dekade terakhir secara kumulatif. Target ini telah dipaparkan Presiden Prabowo di KTT ASEAN ke-49 dan ditawarkan sebagai kerangka kerja sama kepada Jepang, sehingga kredibilitas diplomatik terikat pada angka yang secara teknis belum ada jalur realisasinya.",
+      "secondOrder": "Ketidakmampuan memenuhi target 100 GWp akan melemahkan posisi negosiasi Indonesia dalam JETP dan mekanisme pembiayaan iklim lainnya, karena pemberi dana cenderung menggunakan realisasi kapasitas sebagai indikator kelayakan pencairan. Investor yang sudah memperhitungkan target ini dalam model proyek mereka perlu merevisi asumsi pipeline kapasitas.",
+      "action": "Gunakan angka 1,59 GWp sebagai baseline dan hitung kebutuhan investasi tahunan untuk mencapai 100 GWp pada 2029 dengan asumsi biaya LCOE terkini. Bandingkan angka ini dengan komitmen JETP dan kerja sama Jepang yang sedang dinegosiasikan. Output: gap analysis investasi surya 2027-2029, selesai sebelum akhir November untuk mendukung posisi negosiasi kerja sama energi.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc09UNHNNWklJNTQ0OUZxSTBXVjV2ZXNvX3ZQeWd1T081Q0lQaTdsa1kwZEhabm9QTkYzM2hBUXZuX29MYU9sZVVndnJzRlBNdmNfRWVIcU5NclZjUlVlOVRyZVB4S2t2WExWR1FSd0hxZXZMeHl4TWowYmYzZkRfclhRa2wxa0VvOWpQRzJUZGVxeEExcEd0QkJUOVJPR1kxbTZuaTJJNjZveDdJM0NkVDZKSjZyRHlzeHFGWUVpY2FPNmIyQ3NPZE9jTUxnYUdN?oc=5",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ3BObmFSYTFMb01KSGNwWEdlT3RQbnl1UmVfNm01SGNUd05pRVNtVTZjQjZITUtUOTAzYTR4azB1aFoxZDFzUzdpOG1PUGtJMFRxVkc1ZTZ0NTk3b3lNUWwzQkV3T1pFWXNQOHpDeTVWdVZncXVwQ3ZsaUc0bWZoZkRUNEdMcExjTEYyWWRuNHhmVzZ3aFFPcUY1OFYySWRpMXhRVk8ydmN2bVIydkphNnpvMG5pZ3hXcDBZTTBKaG9wQW5CWk01ZE1VUkJGN3h2dURvYld0QQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEw0eUl3ZURiYVZWcUtpMkI0c09aOGMxQnUtZHZac2tIcGVXbTBldDBBaGdub2hGdkR5dks4ODhWZDVLRWFyTmVVS3JSTlhQdmlaMU1tU3RpOEhrbWtQVWp3R0pxNkM5bHlkT05fQzlNcS0zWGpibnVxaGVpSzVXSnJMRllQeWlDTWVhTGJqajd0VHFDWVJseFVzdkVveEgxUzV4aUUwTFNqeXlNdkp0RktQcUpVQQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 13,
+        "firstSeen": "2026-10-21",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Kontan"
+      ],
+      "headline": "Indonesia-China sepakati investasi USD 71,8 miliar, Danantara garap 10 smart city",
+      "whatChanged": "Indonesia dan China menyepakati investasi senilai USD 71,8 miliar per 19 November 2026. Danantara ditunjuk menggarap sepuluh proyek smart city dalam kesepakatan tersebut, menurut laporan Kontan.",
+      "whyItMatters": "Penugasan sepuluh smart city kepada Danantara memperluas mandatnya dari pengelolaan aset BUMN ke peran developer infrastruktur digital skala besar. Ini menciptakan konflik potensi antara peran Danantara sebagai sovereign wealth vehicle dan peran barunya sebagai pelaksana proyek dengan mitra asing.",
+      "secondOrder": "Keterlibatan Danantara dalam proyek smart city bersama mitra China akan menarik perhatian regulator tata kelola data dan keamanan siber, terutama karena infrastruktur smart city mengintegrasikan sistem pengawasan, jaringan komunikasi, dan data warga. Risiko ini belum tercermin dalam diskursus publik yang masih terfokus pada angka investasi.",
+      "action": "Telusuri struktur hukum setiap proyek smart city dalam kesepakatan ini: siapa entitas pelaksana di sisi China, bagaimana pembagian kepemilikan data, dan apakah ada klausul keamanan siber. Ajukan pertanyaan ini kepada tim hukum sebelum Danantara menandatangani perjanjian pelaksanaan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY0ZmSllKZkVmSWdLakFvUml1dC1aamJxUW83YXdoSlJGaHRXUnRLLWFGbGYwNjAzQlVPOS1JcG1wcG4zdFBCS2NBVjRwYnJoNjg2aHpMeVAxZE5XTzNBNWIxclVWRWx4emdkTzk4T0FUYXY2eFNjdTF5Si1jalBxVG1pYzE4dHB0S28zQUlLd0xRMjVzU0d4QzJJTHVsRVJ4cmZWUkRvMWJGclpOd1gtR1N6WdIBrAFBVV95cUxPenNEZzVKTFVkRk0xUTkzX24welQ2TGk1Ql9PdFhrc19lbC0zSklzRUZ1ZmEzVmRocHNfNkVKUDlTd1QyX09CNWVaVFpNNXktLUE3emRIdkdiQ2NFTFpIN1NHdk1WYlQ1Vk8yZDNWT0VVMkVuUF9mc2VHSTItbUZMaG1WaEJybWN3WFZKeFVVQXF2ajE3d1pVY1pYY0ptU0tfRGNtb09CMDF3b29h?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-20",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Rilis laporan keuangan Danantara pada 23 November: periksa apakah isu pengelolaan dana pesangon dan struktur utang anak usaha BUMN Karya diungkapkan secara penuh",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "Harga dan syarat lisensi Anthropic pasca-IPO: bandingkan dengan penawaran Gemini 4 Neon untuk kontrak enterprise yang sedang dievaluasi",
+      "dueDate": "2026-12-05"
+    },
+    {
+      "item": "Rincian perjanjian pelaksanaan sepuluh proyek smart city Danantara-China: struktur kepemilikan data dan klausul keamanan siber",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Publikasi pipeline proyek surya 2027 oleh Kementerian ESDM atau PLN sebagai respons terhadap temuan ISEO 2027 tentang kesenjangan 98,41 GWp",
+      "dueDate": "2027-01-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Gemini 4 Neon",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T21:35:43.000Z"
+    },
+    {
+      "title": "IESR: Surya Indonesia Baru 1,59 GWp, Target 100 GWp Menuntut Percepatan Nyata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T08:29:08.000Z"
+    },
+    {
+      "title": "Genie 4 is now available",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T18:13:42.000Z"
+    },
+    {
+      "title": "Indonesia-China Sepakati Investasi US$ 71,8 Miliar, Danantara Garap 10 Smart City",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY0ZmSllKZkVmSWdLakFvUml1dC1aamJxUW83YXdoSlJGaHRXUnRLLWFGbGYwNjAzQlVPOS1JcG1wcG4zdFBCS2NBVjRwYnJoNjg2aHpMeVAxZE5XTzNBNWIxclVWRWx4emdkTzk4T0FUYXY2eFNjdTF5Si1jalBxVG1pYzE4dHB0S28zQUlLd0xRMjVzU0d4QzJJTHVsRVJ4cmZWUkRvMWJGclpOd1gtR1N6WdIBrAFBVV95cUxPenNEZzVKTFVkRk0xUTkzX24welQ2TGk1Ql9PdFhrc19lbC0zSklzRUZ1ZmEzVmRocHNfNkVKUDlTd1QyX09CNWVaVFpNNXktLUE3emRIdkdiQ2NFTFpIN1NHdk1WYlQ1Vk8yZDNWT0VVMkVuUF9mc2VHSTItbUZMaG1WaEJybWN3WFZKeFVVQXF2ajE3d1pVY1pYY0ptU0tfRGNtb09CMDF3b29h?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T02:48:21.000Z"
+    },
+    {
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "publisher": "Hacker News",
+      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-19T00:29:45.000Z"
+    },
+    {
+      "title": "Insentif Pajak Danantara Bukan Cek Kosong, Ini 7 Pagar Pengamannya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaEhTT0JGeU5wVFZMTmVmYkVyOE9vYXdGODNDeE5PVnI4QmFCdmR6WEIxdlozcUlheml3TzY5LWJUa0JtYjVwNjFweHR6Y3RvQWFzc3hrakFwVTc4b0RvOXBEak8zczNKbUNNdVlSOXZqVldPdTViZWc1emd6Z3NQZDM1bWpjQTBpMHdNQlNjdElpS3Q3amswSUUwYXhqcjdMU0h2UEx1SU5xbmJ3eGtGRzRPVTNsdFhmOHpXbWdrT05ZU3IwekHSAcsBQVVfeXFMUFlmQ2szMV9pRWZRb29jNVZGVjVIS1hOc2ctMnBJYjQtc2RHN3FKZ21fN0xIUTRleXpRT2drYWN4N1pDTUFmNnFWZ2xYQlhwUzVBSE9YLUFlSmVFeGJLTUdlVGxKbVlQUGRxR2VENnUxYUVnUmtNT2dESVh1dV81TV9sdlJlV3YteWNGVENCVFd6RHFqSGhTRkZRbzNvaDQ0aFNRcGJsd2tnQmRkcTZwUmp6cE0yek1CZmdkVUphTnpsZnAydHo3OUtRXzA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T02:20:27.000Z"
+    },
+    {
+      "title": "Resmi! Restrukturisasi BUMN dan Anak Usaha dapat Insentif Pajak Hingga 2026",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmFFVDJSbUt6d3FwNFBRQkdJUW0xb2FOdU8yb0cydlhFTXV6X0hBRnZkVHdCS0Y0d01Gbmc5eFdvTFFVUFhkUWxodzFxVk1aTjFDRWtrUlVxel9PLU9YVVRUNlFkWVBCNkctbXVqM2ZOeFdTYnJ3NVMyaHhMcUtCTVNWOG9SUVVxbkdaTWdyTzluUlBESUFXWGdlNWR1MnIydW5uRTgzSTNoMTdJaHfSAacBQVVfeXFMTlVBVUNOV2diRjNrNUlRODZacFZjV3B6VXpJUXV2cEhmbllmRVV4dXMtXzBMVXJoX1hQVW9YbzZhV2ZqcjQtcldQVGM3Z2hqV2Nudjg4QUFaWUgza2Vub0JRdDNGcXh3WnMyRUxWUFZjWUtSaFlvdmdhcEpEVW5KYVMxNmlmODZ5OXhkVTYxQmRyYXlta29Od2w5M2MxaURlaU96TVhCWDg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T04:53:00.000Z"
+    },
+    {
+      "title": "Dari B50 hingga PLTS 100 GWp, Indonesia Ajak Jepang Perkuat Kerja Sama Energi Bersih",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc09UNHNNWklJNTQ0OUZxSTBXVjV2ZXNvX3ZQeWd1T081Q0lQaTdsa1kwZEhabm9QTkYzM2hBUXZuX29MYU9sZVVndnJzRlBNdmNfRWVIcU5NclZjUlVlOVRyZVB4S2t2WExWR1FSd0hxZXZMeHl4TWowYmYzZkRfclhRa2wxa0VvOWpQRzJUZGVxeEExcEd0QkJUOVJPR1kxbTZuaTJJNjZveDdJM0NkVDZKSjZyRHlzeHFGWUVpY2FPNmIyQ3NPZE9jTUxnYUdN?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-17T22:03:27.000Z"
+    },
+    {
+      "title": "Building credibility in Indonesia’s energy transition: Insights from the ETM and JETP Indonesia",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEFyOXJrZV9mLWxWYk9sMlJiVlliWkozcnZTejBONWhyaXVVVmwyQnJJQjBscGpVdGdLMjlGem9BT3lXM0FpYy1mRmRZdXlVWS1DTXh0RDRWZXVrZDZvd3EySHAtRUtfdDUzZzNzcmdxcXl0TDEzemZ3ZUU5YTdNclVIaHhMRUs0cFhFdGlkQUlNSXJoOTNwamhCcGRfWHZ6UXdMRXU2R3BhYXZFTEE?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-02-05T08:00:00.000Z"
+    },
+    {
+      "title": "NYC Comptroller Says Pensions Are Ready to Fight for AI Safety",
+      "publisher": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ3RTVnpnZWs1UjJTUWwtc0Q0LTNuWkZhSEsxOGs0cjVxdy03M01raHhnUzBfUmNGZlJWV25SbmhKcTdFb1lZMUZFNTM5a3k1QWNNU2hhYkhaV05NNldpcE9FSTJCdUpZckhqd1c5QWtQRXEtTW1vR1lnZjlzSlh3aDlSQmcxdXhoWmVFLVgyLW9Da0I0aDFiWm1CZElPcU1KUGdodVpuUzFINVVKSXpNeTA0Zw?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T14:50:03.000Z"
+    },
+    {
+      "title": "Anthropic prices initial public offering",
+      "publisher": "Hacker News",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-18T23:30:09.000Z"
+    },
+    {
+      "title": "Danantara Dapat Karpet Merah Pajak untuk Restrukturisasi BUMN",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVZrOThYUTBQVGg4c0luM2Y3US1BUndKUEdhYlctcExtc3B5c0hvamR0UVkza3k4RE5IWnRWbVdHdF8wVVV1NHk1RlBkcUt6VW9JVmNIZ1FRNVZWeXh1Y2FiSGFFbXFOd0RkZmY0LWdKV2M4TmFSQmttTG5HNEZoUC0xcW82aTdFeVktR2hqRkNvZXI4SG1EeVNhbWtBLUt0MFQ3TS1MZlpqd29fZGpwVmRTYUUwWWNqVVE4R0dBVjXSAcYBQVVfeXFMUHdOdzZlRmgyYlhzczhLVC0wcFB3NG5LeDVWLVlmNW5FeWVvWXlNVHVtRS1PNXEzalJqLXVzOTBtZ2JJUmR5OEo3RXhDWF9tbTZVRzJPdmJLRGpGajNsM2NDLTZKSzBrQWJ6bHZHNldmZmNLQV9WM1ZQSU9uXzB1S0NFbS16NktZTDNaTDFrbERkLWRkejF3ZjFhUmlnT0ZKN3o1OXk5dW1NWFJ2RkR5cC11R0JsNGp2X1NXMThqaXU1NzZYZi13?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T01:10:10.000Z"
+    },
+    {
+      "title": "Di KTT ke-49 ASEAN, Prabowo Paparkan B50 dan PLTS 100 GW untuk Perkuat Kemandirian Energi",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ3BObmFSYTFMb01KSGNwWEdlT3RQbnl1UmVfNm01SGNUd05pRVNtVTZjQjZITUtUOTAzYTR4azB1aFoxZDFzUzdpOG1PUGtJMFRxVkc1ZTZ0NTk3b3lNUWwzQkV3T1pFWXNQOHpDeTVWdVZncXVwQ3ZsaUc0bWZoZkRUNEdMcExjTEYyWWRuNHhmVzZ3aFFPcUY1OFYySWRpMXhRVk8ydmN2bVIydkphNnpvMG5pZ3hXcDBZTTBKaG9wQW5CWk01ZE1VUkJGN3h2dURvYld0QQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-16T08:41:04.000Z"
+    },
+    {
+      "title": "RI Tawarkan Kerja Sama EBT ke Jepang, dari B50 hingga PLTS 100 GW",
+      "publisher": "Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEw0eUl3ZURiYVZWcUtpMkI0c09aOGMxQnUtZHZac2tIcGVXbTBldDBBaGdub2hGdkR5dks4ODhWZDVLRWFyTmVVS3JSTlhQdmlaMU1tU3RpOEhrbWtQVWp3R0pxNkM5bHlkT05fQzlNcS0zWGpibnVxaGVpSzVXSnJMRllQeWlDTWVhTGJqajd0VHFDWVJseFVzdkVveEgxUzV4aUUwTFNqeXlNdkp0RktQcUpVQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T02:36:16.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara rilis laporan keuangan 23 November; isu pengelolaan dana pesangon belum terselesaikan",
+      "occurrences": 30,
+      "firstSeen": "2026-10-20",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI bermitra dengan NATO untuk pertahanan siber menggunakan AI pada infrastruktur kritis sekutu",
+      "occurrences": 28,
+      "firstSeen": "2026-10-20",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN Indonesia Power begins 4.5 MW hybrid solar plus 9 MWh battery storage project in Nusa Penida, targeting 8.8 million kWh annually",
+      "occurrences": 27,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "AS terapkan pembatasan chip AI ke pusat data Asia bersamaan kunjungan Trump ke Manila",
+      "occurrences": 23,
+      "firstSeen": "2026-10-20",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN Indonesia Power mulai bangun PLTS Hybrid 4,5 MW dan BESS 9 MWh di Nusa Penida",
+      "occurrences": 12,
+      "firstSeen": "2026-10-20",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 435,
+    "poolSize": 110,
+    "generatedAt": "2026-11-19T03:18:09.251Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

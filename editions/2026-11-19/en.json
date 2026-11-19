@@ -1,0 +1,318 @@
+{
+  "slug": "2026-11-19",
+  "date": "2026-11-19",
+  "lang": "en",
+  "title": "Danantara Tax Shield, Anthropic IPO, MCP v2.5 and Indonesia's Solar Gap",
+  "dek": "A formal tax incentive for BUMN restructuring, Anthropic's public pricing, a fresh MCP security patch, and Indonesia's 98% solar shortfall each force a concrete decision this week.",
+  "domains": [
+    "corporate",
+    "ai",
+    "energy"
+  ],
+  "summary": "Indonesia's government has formalised tax subsidies for BUMN and Danantara restructuring, extending the incentive window through 2026 and adding seven stated safeguards, which moves the danantara-bumn-karya-restructuring thread from political commitment to fiscal mechanism. Anthropic has priced its IPO, converting the leading safety-focused AI lab into a public company with shareholder obligations that may conflict with its stated mission. The Model Context Protocol released v2.5.0, patching eight vulnerabilities one week after v2.4.0's six-vulnerability fix, signalling that agentic AI infrastructure is accumulating security debt faster than it is being cleared. Indonesia's solar installed base stands at 1.59 GWp against a 2029 target of 100 GWp, a 98% gap confirmed by IESR's official outlook, while Indonesia and Japan are negotiating cooperation across the same 100 GWp target. PLN is reinforcing transmission in Banyuwangi and Madura to manage growing industrial load, continuing the pln-transmisi-investasi thread and tightening the link between grid adequacy and the renewable scale-up.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BUMN",
+        "CNBC Indonesia",
+        "Kontan"
+      ],
+      "headline": "Indonesia formalises tax incentives for BUMN and Danantara restructuring through end-2026",
+      "whatChanged": "The Indonesian government has officially enacted a tax subsidy regime covering BUMN entities and their subsidiaries undergoing restructuring, valid through 2026, with seven stated safeguard conditions attached. CNBC Indonesia and Kontan both report the policy as now in force, citing Danantara as a named beneficiary.",
+      "whyItMatters": "This thread has been structural for 30 days. The move converts what was a governance commitment into a fiscal instrument: BUMN mergers, asset transfers, and subsidiary collapses now carry a government-backed tax shield, reducing the transaction cost of consolidation and accelerating the timeline for deals that were stalled on tax exposure. The seven safeguards are the first public enumeration of conditions attached to Danantara's preferential treatment.",
+      "secondOrder": "Formalising a tax subsidy for state-owned restructuring creates a precedent that private acquirers of BUMN assets cannot access, widening the cost gap between state-led and market-led consolidation. Lenders and equity partners evaluating BUMN subsidiaries as acquisition targets now face a structurally different competitive set: the state can restructure at lower after-tax cost than any private bidder, which suppresses privatisation-route valuations and concentrates consolidation inside the Danantara perimeter.",
+      "action": "Map which BUMN subsidiaries are eligible under the seven safeguard conditions and model the after-tax NPV differential between a Danantara-led merger and a private acquisition of the same asset. That spread defines the realistic floor for any privatisation negotiation.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaEhTT0JGeU5wVFZMTmVmYkVyOE9vYXdGODNDeE5PVnI4QmFCdmR6WEIxdlozcUlheml3TzY5LWJUa0JtYjVwNjFweHR6Y3RvQWFzc3hrakFwVTc4b0RvOXBEak8zczNKbUNNdVlSOXZqVldPdTViZWc1emd6Z3NQZDM1bWpjQTBpMHdNQlNjdElpS3Q3amswSUUwYXhqcjdMU0h2UEx1SU5xbmJ3eGtGRzRPVTNsdFhmOHpXbWdrT05ZU3IwekHSAcsBQVVfeXFMUFlmQ2szMV9pRWZRb29jNVZGVjVIS1hOc2ctMnBJYjQtc2RHN3FKZ21fN0xIUTRleXpRT2drYWN4N1pDTUFmNnFWZ2xYQlhwUzVBSE9YLUFlSmVFeGJLTUdlVGxKbVlQUGRxR2VENnUxYUVnUmtNT2dESVh1dV81TV9sdlJlV3YteWNGVENCVFd6RHFqSGhTRkZRbzNvaDQ0aFNRcGJsd2tnQmRkcTZwUmp6cE0yek1CZmdkVUphTnpsZnAydHo3OUtRXzA?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmFFVDJSbUt6d3FwNFBRQkdJUW0xb2FOdU8yb0cydlhFTXV6X0hBRnZkVHdCS0Y0d01Gbmc5eFdvTFFVUFhkUWxodzFxVk1aTjFDRWtrUlVxel9PLU9YVVRUNlFkWVBCNkctbXVqM2ZOeFdTYnJ3NVMyaHhMcUtCTVNWOG9SUVVxbkdaTWdyTzluUlBESUFXWGdlNWR1MnIydW5uRTgzSTNoMTdJaHfSAacBQVVfeXFMTlVBVUNOV2diRjNrNUlRODZacFZjV3B6VXpJUXV2cEhmbllmRVV4dXMtXzBMVXJoX1hQVW9YbzZhV2ZqcjQtcldQVGM3Z2hqV2Nudjg4QUFaWUgza2Vub0JRdDNGcXh3WnMyRUxWUFZjWUtSaFlvdmdhcEpEVW5KYVMxNmlmODZ5OXhkVTYxQmRyYXlta29Od2w5M2MxaURlaU96TVhCWDg?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVZrOThYUTBQVGg4c0luM2Y3US1BUndKUEdhYlctcExtc3B5c0hvamR0UVkza3k4RE5IWnRWbVdHdF8wVVV1NHk1RlBkcUt6VW9JVmNIZ1FRNVZWeXh1Y2FiSGFFbXFOd0RkZmY0LWdKV2M4TmFSQmttTG5HNEZoUC0xcW82aTdFeVktR2hqRkNvZXI4SG1EeVNhbWtBLUt0MFQ3TS1MZlpqd29fZGpwVmRTYUUwWWNqVVE4R0dBVjXSAcYBQVVfeXFMUHdOdzZlRmgyYlhzczhLVC0wcFB3NG5LeDVWLVlmNW5FeWVvWXlNVHVtRS1PNXEzalJqLXVzOTBtZ2JJUmR5OEo3RXhDWF9tbTZVRzJPdmJLRGpGajNsM2NDLTZKSzBrQWJ6bHZHNldmZmNLQV9WM1ZQSU9uXzB1S0NFbS16NktZTDNaTDFrbERkLWRkejF3ZjFhUmlnT0ZKN3o1OXk5dW1NWFJ2RkR5cC11R0JsNGp2X1NXMThqaXU1NzZYZi13?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Craig Newmark",
+        "The Information"
+      ],
+      "headline": "Anthropic prices its IPO, converting the safety-first AI lab into a public company",
+      "whatChanged": "Anthropic has priced its initial public offering, as reported by Hacker News citing Anthropic's own announcement and corroborated by The Information's reporting on how the IPO is affecting philanthropic AI safety funding. The lab moves from a privately held public-benefit structure to public equity with standard shareholder obligations.",
+      "whyItMatters": "This thread has accumulated 28 entries since 20 October. Anthropic's safety positioning was partly credible because private capital from Amazon and Google did not impose quarterly earnings pressure. Public shareholders create a new principal with a different objective function. The tension between safety investment, which is a cost centre, and revenue growth, which drives equity value, is now structural rather than theoretical.",
+      "secondOrder": "Craig Newmark is explicitly holding back AI safety donations because the IPO changes Anthropic's incentive structure, per The Information. If philanthropic safety funding migrates away from Anthropic on the assumption that it no longer needs it, and public shareholders simultaneously pressure the company toward faster deployment, the net effect is that the organisation most cited as a safety counterweight to OpenAI becomes less distinctively safety-oriented at the same time it becomes more commercially aggressive. Regulators and enterprise procurement teams that treated Anthropic's governance structure as a differentiator should revise that assumption.",
+      "action": "Revisit any vendor or policy analysis that assigned Anthropic a governance premium based on its pre-IPO structure. The differentiator is now the board's composition and the terms of its public-benefit charter, not its private status. Request updated documentation on how the charter constrains board decisions post-IPO.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0l1WExpS01mZ1RRNUVoZTROeWpaSXoycjR1dnB6WFF0ZnRuX0s3SUFQbjZfa1F1cXI5VklIV29rQUdkR2F2dlRvSmJDbkNCX1pUbGUtcHQyM0ZiY0JHUUVxb1JLY1lqeWw3dkF0Z1RWanFHYTB1YTUzNlM2UU05QVhwNUtDWGp6Q3g0Q0c0OGdmbWxtdFNjSFJTTktKVHZha2dLMFpFNGU1Z01rTEcySmF2R2tQTXVfbHZzUm9CUzJTWXpzVWtKVGRuTlZpUQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0l1WExpS01mZ1RRNUVoZTROeWpaSXoycjR1dnB6WFF0ZnRuX0s3SUFQbjZfa1F1cXI5VklIV29rQUdkR2F2dlRvSmJDbkNCX1pUbGUtcHQyM0ZiY0JHUUVxb1JLY1lqeWw3dkF0Z1RWanFHYTB1YTUzNlM2UU05QVhwNUtDWGp6Q3g0Q0c0OGdmbWxtdFNjSFJTTktKVHZha2dLMFpFNGU1Z01rTEcySmF2R2tQTXVfbHZzUm9CUzJTWXpzVWtKVGRuTlZpUQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-20",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "Kementerian ESDM",
+        "PLN"
+      ],
+      "headline": "IESR: Indonesia has 1.59 GWp solar installed against a 100 GWp target by 2029",
+      "whatChanged": "IESR's Indonesia Solar Energy Outlook 2027, released 18 November 2026, confirms Indonesia's installed solar capacity at 1.59 GWp. The 2029 target is 100 GWp. The gap is 98.4 GWp in roughly 36 months. Separately, Kementerian ESDM and Bisnis.com report that Indonesia is actively pitching the 100 GWp target to Japan as a cooperation framework.",
+      "whyItMatters": "The 100 GWp target has been referenced at the 49th ASEAN Summit and in bilateral talks with Japan, giving it diplomatic weight. The IESR figure now quantifies the deployment rate required: Indonesia must add approximately 32-33 GWp per year from 2026 through 2029, against a base that took years to reach 1.59 GWp. The gap between political commitment and physical installation is now documented by an authoritative domestic research institution.",
+      "secondOrder": "Japan-Indonesia energy cooperation framed around the 100 GWp target will almost certainly be structured as financing and equipment supply agreements rather than technology transfer, because the binding constraint is not technology but grid absorption capacity, land permitting, and offtake contracting. If Japan commits capital to a target that Indonesia cannot physically execute at the required rate, the cooperation framework will produce underutilised financing and diplomatic friction rather than installed capacity.",
+      "action": "Before any Japan-Indonesia solar cooperation agreement is evaluated positively, test it against three execution constraints: PLN's grid absorption roadmap, the status of land and permitting for utility-scale projects, and the domestic EPC capacity available to deploy 32+ GWp per year. If those three constraints are not addressed in the agreement text, the commitment is aspirational, not executable.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc09UNHNNWklJNTQ0OUZxSTBXVjV2ZXNvX3ZQeWd1T081Q0lQaTdsa1kwZEhabm9QTkYzM2hBUXZuX29MYU9sZVVndnJzRlBNdmNfRWVIcU5NclZjUlVlOVRyZVB4S2t2WExWR1FSd0hxZXZMeHl4TWowYmYzZkRfclhRa2wxa0VvOWpQRzJUZGVxeEExcEd0QkJUOVJPR1kxbTZuaTJJNjZveDdJM0NkVDZKSjZyRHlzeHFGWUVpY2FPNmIyQ3NPZE9jTUxnYUdN?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEw0eUl3ZURiYVZWcUtpMkI0c09aOGMxQnUtZHZac2tIcGVXbTBldDBBaGdub2hGdkR5dks4ODhWZDVLRWFyTmVVS3JSTlhQdmlaMU1tU3RpOEhrbWtQVWp3R0pxNkM5bHlkT05fQzlNcS0zWGpibnVxaGVpSzVXSnJMRllQeWlDTWVhTGJqajd0VHFDWVJseFVzdkVveEgxUzV4aUUwTFNqeXlNdkp0RktQcUpVQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 13,
+        "firstSeen": "2026-10-21",
+        "spanDays": 29
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Model Context Protocol",
+        "mcp-server-git",
+        "@modelcontextprotocol/server-filesystem",
+        "@modelcontextprotocol/server-fetch"
+      ],
+      "headline": "MCP v2.5.0 patches eight vulnerabilities one week after v2.4.0 fixed six",
+      "whatChanged": "Model Context Protocol released v2.5.0 on 2026-11-18, fixing eight vulnerabilities across three servers: mcp-server-git (upgraded to 2026.11.18), @modelcontextprotocol/server-filesystem (to 2.4.0), and @modelcontextprotocol/server-fetch (to 2.4.0). This follows v2.4.0 on 2026-11-11, which fixed six vulnerabilities in the same three servers.",
+      "whyItMatters": "This theme has been structural since 22 October. Two consecutive weekly security releases patching the same three servers indicates that the vulnerability surface of MCP is not being resolved patch by patch but is being continuously re-exposed, most likely because the attack surface expands with each new integration and the underlying server architectures have not been redesigned. Any enterprise deploying agentic AI through MCP servers has a de facto weekly patching obligation.",
+      "secondOrder": "Fourteen vulnerabilities across two releases in eight days, all in the same three servers, signals that the MCP security model is reactive rather than preventive. Organisations that have embedded MCP into production agentic workflows face compounding operational risk: each unpatched window between releases is a window in which filesystem, git, and fetch access are exposed. Procurement and legal teams that signed contracts based on v2.3.0 or earlier capability specs are operating on outdated security assumptions.",
+      "action": "Audit all production MCP server deployments against v2.5.0 this week. Establish a standing patch-verification step in agentic AI deployment pipelines tied to MCP release cadence. Flag to legal teams that MCP server contracts signed before November 2026 did not account for this vulnerability accumulation rate.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 8,
+        "firstSeen": "2026-10-22",
+        "spanDays": 28
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Danantara financial report release on 23 November: watch whether the seven tax-incentive safeguards are reflected in disclosed restructuring transaction terms.",
+      "dueDate": "2026-11-23"
+    },
+    {
+      "item": "Anthropic post-IPO board composition and public-benefit charter amendment disclosures: determine whether safety governance constraints survive the transition to public equity.",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "MCP v2.6.x release cadence: if a third consecutive weekly patch arrives before 25 November, escalate to a formal security architecture review of all agentic deployments.",
+      "dueDate": "2026-11-25"
+    },
+    {
+      "item": "Indonesia-Japan solar cooperation agreement text, expected to follow the ASEAN Summit pitch: check whether grid absorption, permitting, and EPC capacity constraints are addressed.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "PLN updated load forecast for the Banyuwangi-Bali corridor and any RUPTL revision signal triggered by industrial load growth exceeding current projections.",
+      "dueDate": "2027-02-28"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IESR: Surya Indonesia Baru 1,59 GWp, Target 100 GWp Menuntut Percepatan Nyata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T08:29:08.000Z"
+    },
+    {
+      "title": "Why Anthropic’s IPO Is Making Philanthropist Craig Newmark Hold Back on AI Safety Donations",
+      "publisher": "The Information",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0l1WExpS01mZ1RRNUVoZTROeWpaSXoycjR1dnB6WFF0ZnRuX0s3SUFQbjZfa1F1cXI5VklIV29rQUdkR2F2dlRvSmJDbkNCX1pUbGUtcHQyM0ZiY0JHUUVxb1JLY1lqeWw3dkF0Z1RWanFHYTB1YTUzNlM2UU05QVhwNUtDWGp6Q3g0Q0c0OGdmbWxtdFNjSFJTTktKVHZha2dLMFpFNGU1Z01rTEcySmF2R2tQTXVfbHZzUm9CUzJTWXpzVWtKVGRuTlZpUQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T15:01:00.000Z"
+    },
+    {
+      "title": "v2.5.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-18T09:29:05.000Z"
+    },
+    {
+      "title": "Insentif Pajak Danantara Bukan Cek Kosong, Ini 7 Pagar Pengamannya",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaEhTT0JGeU5wVFZMTmVmYkVyOE9vYXdGODNDeE5PVnI4QmFCdmR6WEIxdlozcUlheml3TzY5LWJUa0JtYjVwNjFweHR6Y3RvQWFzc3hrakFwVTc4b0RvOXBEak8zczNKbUNNdVlSOXZqVldPdTViZWc1emd6Z3NQZDM1bWpjQTBpMHdNQlNjdElpS3Q3amswSUUwYXhqcjdMU0h2UEx1SU5xbmJ3eGtGRzRPVTNsdFhmOHpXbWdrT05ZU3IwekHSAcsBQVVfeXFMUFlmQ2szMV9pRWZRb29jNVZGVjVIS1hOc2ctMnBJYjQtc2RHN3FKZ21fN0xIUTRleXpRT2drYWN4N1pDTUFmNnFWZ2xYQlhwUzVBSE9YLUFlSmVFeGJLTUdlVGxKbVlQUGRxR2VENnUxYUVnUmtNT2dESVh1dV81TV9sdlJlV3YteWNGVENCVFd6RHFqSGhTRkZRbzNvaDQ0aFNRcGJsd2tnQmRkcTZwUmp6cE0yek1CZmdkVUphTnpsZnAydHo3OUtRXzA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T02:20:27.000Z"
+    },
+    {
+      "title": "Resmi! Restrukturisasi BUMN dan Anak Usaha dapat Insentif Pajak Hingga 2026",
+      "publisher": "kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTmFFVDJSbUt6d3FwNFBRQkdJUW0xb2FOdU8yb0cydlhFTXV6X0hBRnZkVHdCS0Y0d01Gbmc5eFdvTFFVUFhkUWxodzFxVk1aTjFDRWtrUlVxel9PLU9YVVRUNlFkWVBCNkctbXVqM2ZOeFdTYnJ3NVMyaHhMcUtCTVNWOG9SUVVxbkdaTWdyTzluUlBESUFXWGdlNWR1MnIydW5uRTgzSTNoMTdJaHfSAacBQVVfeXFMTlVBVUNOV2diRjNrNUlRODZacFZjV3B6VXpJUXV2cEhmbllmRVV4dXMtXzBMVXJoX1hQVW9YbzZhV2ZqcjQtcldQVGM3Z2hqV2Nudjg4QUFaWUgza2Vub0JRdDNGcXh3WnMyRUxWUFZjWUtSaFlvdmdhcEpEVW5KYVMxNmlmODZ5OXhkVTYxQmRyYXlta29Od2w5M2MxaURlaU96TVhCWDg?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T04:53:00.000Z"
+    },
+    {
+      "title": "Dari B50 hingga PLTS 100 GWp, Indonesia Ajak Jepang Perkuat Kerja Sama Energi Bersih",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc09UNHNNWklJNTQ0OUZxSTBXVjV2ZXNvX3ZQeWd1T081Q0lQaTdsa1kwZEhabm9QTkYzM2hBUXZuX29MYU9sZVVndnJzRlBNdmNfRWVIcU5NclZjUlVlOVRyZVB4S2t2WExWR1FSd0hxZXZMeHl4TWowYmYzZkRfclhRa2wxa0VvOWpQRzJUZGVxeEExcEd0QkJUOVJPR1kxbTZuaTJJNjZveDdJM0NkVDZKSjZyRHlzeHFGWUVpY2FPNmIyQ3NPZE9jTUxnYUdN?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-17T22:03:27.000Z"
+    },
+    {
+      "title": "v2.4.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-11T07:37:43.000Z"
+    },
+    {
+      "title": "Anthropic prices initial public offering",
+      "publisher": "Hacker News",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-18T23:30:09.000Z"
+    },
+    {
+      "title": "Danantara Dapat Karpet Merah Pajak untuk Restrukturisasi BUMN",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVZrOThYUTBQVGg4c0luM2Y3US1BUndKUEdhYlctcExtc3B5c0hvamR0UVkza3k4RE5IWnRWbVdHdF8wVVV1NHk1RlBkcUt6VW9JVmNIZ1FRNVZWeXh1Y2FiSGFFbXFOd0RkZmY0LWdKV2M4TmFSQmttTG5HNEZoUC0xcW82aTdFeVktR2hqRkNvZXI4SG1EeVNhbWtBLUt0MFQ3TS1MZlpqd29fZGpwVmRTYUUwWWNqVVE4R0dBVjXSAcYBQVVfeXFMUHdOdzZlRmgyYlhzczhLVC0wcFB3NG5LeDVWLVlmNW5FeWVvWXlNVHVtRS1PNXEzalJqLXVzOTBtZ2JJUmR5OEo3RXhDWF9tbTZVRzJPdmJLRGpGajNsM2NDLTZKSzBrQWJ6bHZHNldmZmNLQV9WM1ZQSU9uXzB1S0NFbS16NktZTDNaTDFrbERkLWRkejF3ZjFhUmlnT0ZKN3o1OXk5dW1NWFJ2RkR5cC11R0JsNGp2X1NXMThqaXU1NzZYZi13?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T01:10:10.000Z"
+    },
+    {
+      "title": "RI Tawarkan Kerja Sama EBT ke Jepang, dari B50 hingga PLTS 100 GW",
+      "publisher": "Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEw0eUl3ZURiYVZWcUtpMkI0c09aOGMxQnUtZHZac2tIcGVXbTBldDBBaGdub2hGdkR5dks4ODhWZDVLRWFyTmVVS3JSTlhQdmlaMU1tU3RpOEhrbWtQVWp3R0pxNkM5bHlkT05fQzlNcS0zWGpibnVxaGVpSzVXSnJMRllQeWlDTWVhTGJqajd0VHFDWVJseFVzdkVveEgxUzV4aUUwTFNqeXlNdkp0RktQcUpVQQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T02:36:16.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara rilis laporan keuangan 23 November; isu pengelolaan dana pesangon belum terselesaikan",
+      "occurrences": 30,
+      "firstSeen": "2026-10-20",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI bermitra dengan NATO untuk pertahanan siber menggunakan AI pada infrastruktur kritis sekutu",
+      "occurrences": 28,
+      "firstSeen": "2026-10-20",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN Indonesia Power begins 4.5 MW hybrid solar plus 9 MWh battery storage project in Nusa Penida, targeting 8.8 million kWh annually",
+      "occurrences": 27,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "AS terapkan pembatasan chip AI ke pusat data Asia bersamaan kunjungan Trump ke Manila",
+      "occurrences": 23,
+      "firstSeen": "2026-10-20",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-transmisi-investasi",
+      "theme": "PLN Indonesia Power mulai bangun PLTS Hybrid 4,5 MW dan BESS 9 MWh di Nusa Penida",
+      "occurrences": 12,
+      "firstSeen": "2026-10-20",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 435,
+    "poolSize": 110,
+    "generatedAt": "2026-11-19T03:19:25.269Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
