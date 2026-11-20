@@ -1,0 +1,373 @@
+{
+  "slug": "2026-11-20",
+  "date": "2026-11-20",
+  "lang": "en",
+  "title": "Claude Fable 5.2 solves physics problems; BUMN tax relief extended to 2029; IEA warns on energy demand",
+  "dek": "A frontier AI model claims two open physics results, Indonesia formalises BUMN restructuring incentives through 2029, and the IEA's new demand outlook resets the planning horizon for grids and datacentres.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "Anthropic's Claude Fable 5.2 has published solutions to two open problems in black-hole physics, the first time a commercial AI system has claimed independent scientific results at this level, sharpening the question of how institutions should evaluate AI-generated research. Indonesia's Finance Ministry has positioned Danantara as a co-equal fiscal instrument alongside the state budget, while parliament has formalised book-value merger tax relief for BUMN restructuring through 2029, giving the BUMN-karya consolidation programme a confirmed six-year cost basis. On energy, the IEA projects global electricity demand will rise roughly 37 percent by 2035, driven by cooling load and datacentres, a figure that directly recalibrates PLN's grid investment planning. IESR's Indonesia Solar Energy Outlook 2027 confirms the country's installed solar base at 1.59 GWp against a 100 GWp target by 2029, a gap that now has a bilateral cooperation frame after Kementerian ESDM invited Japan into a joint PLTS programme.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude Fable 5.2"
+      ],
+      "headline": "Claude Fable 5.2 claims solutions to two open problems in black-hole physics",
+      "whatChanged": "Anthropic published a post stating that Claude Fable 5.2 solved two open problems in the physics of black holes. No external peer review is yet cited in the candidate material, but the claim originates from Anthropic directly.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread, now 28 times in 30 days, and marks a qualitative shift: prior entries documented benchmark performance; this entry claims original scientific results. If the results withstand scrutiny, the threshold for AI contributing to unsolved research rather than merely accelerating known methods has moved. That changes the risk and opportunity calculus for research institutions and science-funding bodies.",
+      "secondOrder": "Institutions that fund or publish scientific research will face immediate pressure to establish protocols for evaluating AI-generated claims before peer review. The absence of such protocols creates both reputational risk (endorsing a flawed result) and competitive disadvantage (being slow to act on a valid one). The governance gap is now operational, not hypothetical.",
+      "action": "This week: identify whether your organisation has a stated policy on citing or acting on AI-generated scientific claims prior to peer review. If not, draft the question for the next relevant governance meeting. The Anthropic post is the reference document.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUGhIZlEzczZ3OTFxcjBiRFJLUDhrZjhGM1hKRHdQWnYzV05NQUh0Y19Nb2d6WHlQNWR6UkZmWEp0YlE4endwZXJTdVNwUmN3LXQxUU5MaTFaQldqZkZNZjFHZWNiZFN6LV9UdQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "APBN",
+        "BUMN"
+      ],
+      "headline": "Indonesia formalises BUMN merger tax relief at book value through 2029; Finance Ministry names Danantara co-equal fiscal partner",
+      "whatChanged": "The government has officially regulated BUMN mergers using book value for income-tax purposes, with the incentive confirmed to run through 2029, according to CNBC Indonesia and KONTAN. Separately, the Finance Ministry stated publicly that Danantara is one of two economic instruments available to the state, alongside the APBN, framing it as a fiscal partner rather than a holding company.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now structural at 30 appearances in 30 days. The book-value mechanism removes a key tax friction that was inflating the apparent cost of merging BUMN subsidiaries. The 2029 deadline converts an open-ended restructuring aspiration into a time-boxed programme with a defined cost basis, which is what project financiers and rating agencies need to model transactions.",
+      "secondOrder": "By framing Danantara as a fiscal partner to the APBN, the Finance Ministry is signalling that Danantara's balance sheet can be used counter-cyclically, the way a development finance institution operates. That implies Danantara may eventually bear quasi-sovereign risk, with consequences for how its bonds and guarantees are priced and whether international lenders treat its obligations as contingent government liabilities.",
+      "action": "Re-examine any BUMN-related transaction model that assumed pre-merger tax at market value: the book-value basis changes the restructuring economics and may also change the implied leverage ratio. Confirm whether the 2029 cutoff applies to transaction signing or completion.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.cnbcindonesia.com/news/20261120081814-4-786847/pemerintah-atur-pajak-merger-bumn-ada-fasilitas-pakai-nilai-buku",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOclRwbWt6LVJGbVVrMHAwRUk1YTQtcnYyT2RCWVFsRkRTa1Z4OExYek9Ob19CdElNNTJmWHRsZEMtM0c3aVpycG9TNkxhaDFNVzNINl9TRVJ3YnNsNFN4bmFaYzNRUEFzWldfVEtXU2YtTW1oZnA1YVcyR2JJQk1sQS1OY2pYQ3VJdGNYVjRlNTdpSkFYWE9qYl9KOGQ0U2xIeEtqSmpYX24xZGRXMmJxWtIBtgFBVV95cUxOY0NrTUR4aERFZFU2UzNVZ20tNzRLUkxXSlAtN1pUVEpLZ0RocTN0bnZqNE1fUzNGcHJlWjZJRm52amY1Wno1Qk1OOXAxbGNiNm1KLU5jWlpKOEJORFVSMldyM05kWWxmS09neFFzMHhWdnpXTTNYMUswZlZ3S3VPNmRESFdMOERkVnlJMG5iYzAwekp1N0tJTUJEOGw5WmQ2MzJxNFBndWhBWm9yX1RMcVFzNUJ1Zw?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IEA",
+        "PLN",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "IEA projects 37% rise in global electricity demand by 2035, led by cooling and datacentres",
+      "whatChanged": "The IEA, cited by Eco-Business, projects global electricity demand will rise approximately 37 percent by 2035. Buildings are now consuming more energy for cooling than for heating for the first time, and datacentres are identified as a co-driver alongside this shift.",
+      "whyItMatters": "This continues the pln-grid-investment thread, now structural at 27 appearances. The 37-percent figure is not a scenario range but a central projection from the IEA, and it arrives as PLN is planning transmission reinforcement in Banyuwangi and Madura and targeting resolution of rotating outages in Kalimantan Timur by December 2026. A demand curve this steep compresses the timeline for grid expansion decisions that PLN currently treats as medium-term.",
+      "secondOrder": "If cooling load is now the fastest-growing demand segment globally, tropical grid operators such as PLN face a demand profile that is more weather-sensitive and more correlated with peak periods than the industrial-load model that underpins most Indonesian grid planning. This makes storage and demand-response assets structurally more valuable than incremental generation, a reallocation that RUPTL 2025-2034 has not yet fully internalised.",
+      "action": "Request PLN's current peak-demand sensitivity analysis against a 35-40 percent cumulative demand growth scenario. If the analysis does not exist, that is the finding: grid investment sizing may be systematically low.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.eco-business.com/news/global-electricity-demand-to-rise-about-37-per-cent-by-2035-with-heatwaves-and-ai-pushing-projections-higher-iea/",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYk1Nbk91b25zX0pyZEk1WVBuM3JCZmw4VmZKaS1vQXdnX096MFc3Skl3UVN2ekNNMnRmdnhjOGoyVnFnQ05FZy04VzNnX2ZaemljQnlfUHF6NUttUU0xa0pMdDhiUzdta0lCMWhZc0Z0Q0JCSFdSWWZzcEgtY3RLU3hsekwtX1V4YndYX2ZKZlc4Tkp6NnNlb2FnN0xKUVc0QlZ4QnpOQXdPWVVjSUQ2ek1vN3pfWUNKS1lHOUJ2UVo3cktvRFpz?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "Kementerian ESDM",
+        "JBIC",
+        "JICA"
+      ],
+      "headline": "IESR confirms Indonesia solar at 1.59 GWp versus 100 GWp 2029 target; ESDM invites Japan into bilateral PLTS programme",
+      "whatChanged": "IESR's Indonesia Solar Energy Outlook 2027 sets installed solar capacity at 1.59 GWp against a 100 GWp target by 2029, a 63-times acceleration requirement. Separately, Kementerian ESDM has invited Japan to cooperate on the 100 GWp solar programme alongside a B50 biodiesel partnership, as announced by President Prabowo at the 49th ASEAN Summit.",
+      "whyItMatters": "This continues the indonesia-geothermal-concession-reform thread (the broader Indonesia clean-energy deployment theme, 13 appearances). The gap between 1.59 GWp and 100 GWp is not a financing question alone: at current regulatory and permitting velocity, the capacity cannot be built in time regardless of capital availability. IESR's framing confirms that regulatory certainty and demand signals, not just capital, are the binding constraints.",
+      "secondOrder": "Japan's entry into the bilateral solar framework introduces a supplier and financing track outside the China-dominated panel supply chain. If Japan brings concessional financing through JBIC or JICA tied to Japanese equipment, it could fragment the Indonesian solar supply market and affect procurement terms for projects that have already modelled Chinese panel pricing.",
+      "action": "Map the existing PLTS project pipeline by equipment origin and financing source. Projects modelling Chinese panel supply and pricing should be stress-tested against a scenario where Japanese-tied concessional finance shifts the competitive landscape for large-scale tenders.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+        "https://iesr.or.id/kepastian-regulasi-dan-permintaan-listrik-jadi-sorotan-di-tengah-terbatasnya-kapasitas-plts/",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc09UNHNNWklJNTQ0OUZxSTBXVjV2ZXNvX3ZQeWd1T081Q0lQaTdsa1kwZEhabm9QTkYzM2hBUXZuX29MYU9sZVVndnJzRlBNdmNfRWVIcU5NclZjUlVlOVRyZVB4S2t2WExWR1FSd0hxZXZMeHl4TWowYmYzZkRfclhRa2wxa0VvOWpQRzJUZGVxeEExcEd0QkJUOVJPR1kxbTZuaTJJNjZveDdJM0NkVDZKSjZyRHlzeHFGWUVpY2FPNmIyQ3NPZE9jTUxnYUdN?oc=5",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ3BObmFSYTFMb01KSGNwWEdlT3RQbnl1UmVfNm01SGNUd05pRVNtVTZjQjZITUtUOTAzYTR4azB1aFoxZDFzUzdpOG1PUGtJMFRxVkc1ZTZ0NTk3b3lNUWwzQkV3T1pFWXNQOHpDeTVWdVZncXVwQ3ZsaUc0bWZoZkRUNEdMcExjTEYyWWRuNHhmVzZ3aFFPcUY1OFYySWRpMXhRVk8ydmN2bVIydkphNnpvMG5pZ3hXcDBZTTBKaG9wQW5CWk01ZE1VUkJGN3h2dURvYld0QQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 14,
+        "firstSeen": "2026-10-21",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Model Context Protocol",
+        "mcp-server-git",
+        "server-filesystem",
+        "server-fetch"
+      ],
+      "headline": "MCP v2.5.0 patches eight vulnerabilities one week after v2.4.0 fixed six, signalling persistent server-side exposure",
+      "whatChanged": "Model Context Protocol released v2.5.0, fixing eight vulnerabilities across three servers (mcp-server-git, server-filesystem, server-fetch), one week after v2.4.0 fixed six vulnerabilities in the same servers. The two releases together address 14 discrete vulnerabilities in the core MCP server infrastructure within eleven days.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts thread (8 appearances). The cadence is the signal: two back-to-back security releases in eleven days, targeting the same three servers, indicates either a systematic audit uncovering a class of vulnerabilities or active exploitation driving emergency patching. Either interpretation requires enterprises running MCP in production to treat the server layer as a live attack surface, not a stable dependency.",
+      "secondOrder": "Organisations that have deployed MCP-connected agents in workflows touching sensitive data (financial records, HR systems, legal documents) face compounding exposure with each unpatched cycle. The velocity of patching also suggests the MCP specification may be outpacing security review, a pattern that historically precedes a more severe incident that resets enterprise adoption timelines.",
+      "action": "This week: audit all production MCP server versions against v2.5.0. Confirm that mcp-server-git is on 2026.11.18, server-filesystem is on 2.4.0, and server-fetch is on the current release. If any deployment cannot be updated immediately, assess whether the connected data scope justifies temporary isolation.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 9,
+        "firstSeen": "2026-10-22",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Independent peer review of Claude Fable 5.2 black-hole physics results: watch for preprint submissions or journal responses that confirm or challenge the claims.",
+      "dueDate": "2027-02-20"
+    },
+    {
+      "item": "BUMN merger transactions filed under the book-value tax relief before the 2029 deadline: track which BUMN-karya entities proceed first and at what implied valuation.",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "PLN Kalimantan Timur rotating-outage resolution by end-December 2026: PLN has stated this target publicly; monitor for confirmation or slippage.",
+      "dueDate": "2027-01-07"
+    },
+    {
+      "item": "Indonesia-Japan bilateral PLTS cooperation agreement: watch for a formal MOU or financing commitment that specifies equipment origin and concessional terms.",
+      "dueDate": "2027-04-30"
+    },
+    {
+      "item": "MCP v2.6.0 or further security release: a third back-to-back release would confirm a systemic vulnerability class rather than isolated bugs.",
+      "dueDate": "2026-12-01"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kepastian Regulasi dan Permintaan Listrik Jadi Sorotan di Tengah Terbatasnya Kapasitas PLTS",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/kepastian-regulasi-dan-permintaan-listrik-jadi-sorotan-di-tengah-terbatasnya-kapasitas-plts/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-20T02:28:02.000Z"
+    },
+    {
+      "title": "IESR: Surya Indonesia Baru 1,59 GWp, Target 100 GWp Menuntut Percepatan Nyata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T08:29:08.000Z"
+    },
+    {
+      "title": "As an unprecedented shock reshapes the energy world, its duration will determine the scale of the change - IEA",
+      "publisher": "IEA - International Energy Agency",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYk1Nbk91b25zX0pyZEk1WVBuM3JCZmw4VmZKaS1vQXdnX096MFc3Skl3UVN2ekNNMnRmdnhjOGoyVnFnQ05FZy04VzNnX2ZaemljQnlfUHF6NUttUU0xa0pMdDhiUzdta0lCMWhZc0Z0Q0JCSFdSWWZzcEgtY3RLU3hsekwtX1V4YndYX2ZKZlc4Tkp6NnNlb2FnN0xKUVc0QlZ4QnpOQXdPWVVjSUQ2ek1vN3pfWUNKS1lHOUJ2UVo3cktvRFpz?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-19T05:00:00.000Z"
+    },
+    {
+      "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUGhIZlEzczZ3OTFxcjBiRFJLUDhrZjhGM1hKRHdQWnYzV05NQUh0Y19Nb2d6WHlQNWR6UkZmWEp0YlE4endwZXJTdVNwUmN3LXQxUU5MaTFaQldqZkZNZjFHZWNiZFN6LV9UdQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-17T08:00:00.000Z"
+    },
+    {
+      "title": "Dari B50 hingga PLTS 100 GWp, Indonesia Ajak Jepang Perkuat Kerja Sama Energi Bersih",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc09UNHNNWklJNTQ0OUZxSTBXVjV2ZXNvX3ZQeWd1T081Q0lQaTdsa1kwZEhabm9QTkYzM2hBUXZuX29MYU9sZVVndnJzRlBNdmNfRWVIcU5NclZjUlVlOVRyZVB4S2t2WExWR1FSd0hxZXZMeHl4TWowYmYzZkRfclhRa2wxa0VvOWpQRzJUZGVxeEExcEd0QkJUOVJPR1kxbTZuaTJJNjZveDdJM0NkVDZKSjZyRHlzeHFGWUVpY2FPNmIyQ3NPZE9jTUxnYUdN?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-17T22:03:27.000Z"
+    },
+    {
+      "title": "Pemerintah Atur Pajak Merger BUMN, Ada Fasilitas Pakai Nilai Buku",
+      "publisher": "CNBC Indonesia",
+      "url": "https://www.cnbcindonesia.com/news/20261120081814-4-786847/pemerintah-atur-pajak-merger-bumn-ada-fasilitas-pakai-nilai-buku",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-20T02:05:15.000Z"
+    },
+    {
+      "title": "Global electricity demand to rise about 37 per cent by 2035, with heatwaves and AI pushing projections higher: IEA",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/global-electricity-demand-to-rise-about-37-per-cent-by-2035-with-heatwaves-and-ai-pushing-projections-higher-iea/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-19T09:00:00.000Z"
+    },
+    {
+      "title": "v2.5.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-18T09:29:05.000Z"
+    },
+    {
+      "title": "Insentif Pajak Restrukturisasi BUMN Berlaku hingga 2029",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T04:11:11.000Z"
+    },
+    {
+      "title": "Di KTT ke-49 ASEAN, Prabowo Paparkan B50 dan PLTS 100 GW untuk Perkuat Kemandirian Energi",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ3BObmFSYTFMb01KSGNwWEdlT3RQbnl1UmVfNm01SGNUd05pRVNtVTZjQjZITUtUOTAzYTR4azB1aFoxZDFzUzdpOG1PUGtJMFRxVkc1ZTZ0NTk3b3lNUWwzQkV3T1pFWXNQOHpDeTVWdVZncXVwQ3ZsaUc0bWZoZkRUNEdMcExjTEYyWWRuNHhmVzZ3aFFPcUY1OFYySWRpMXhRVk8ydmN2bVIydkphNnpvMG5pZ3hXcDBZTTBKaG9wQW5CWk01ZE1VUkJGN3h2dURvYld0QQ?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-16T08:41:04.000Z"
+    },
+    {
+      "title": "v2.4.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-11T07:37:43.000Z"
+    },
+    {
+      "title": "Menkeu Ungkap 2 Tangan Ekonomi RI: APBN dan Danantara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOclRwbWt6LVJGbVVrMHAwRUk1YTQtcnYyT2RCWVFsRkRTa1Z4OExYek9Ob19CdElNNTJmWHRsZEMtM0c3aVpycG9TNkxhaDFNVzNINl9TRVJ3YnNsNFN4bmFaYzNRUEFzWldfVEtXU2YtTW1oZnA1YVcyR2JJQk1sQS1OY2pYQ3VJdGNYVjRlNTdpSkFYWE9qYl9KOGQ0U2xIeEtqSmpYX24xZGRXMmJxWtIBtgFBVV95cUxOY0NrTUR4aERFZFU2UzNVZ20tNzRLUkxXSlAtN1pUVEpLZ0RocTN0bnZqNE1fUzNGcHJlWjZJRm52amY1Wno1Qk1OOXAxbGNiNm1KLU5jWlpKOEJORFVSMldyM05kWWxmS09neFFzMHhWdnpXTTNYMUswZlZ3S3VPNmRESFdMOERkVnlJMG5iYzAwekp1N0tJTUJEOGw5WmQ2MzJxNFBndWhBWm9yX1RMcVFzNUJ1Zw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T08:15:09.000Z"
+    },
+    {
+      "title": "Subsidi Pajak untuk Restrukturisasi BUMN",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T22:31:22.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Indonesia-China sepakati investasi USD 71,8 miliar, Danantara garap 10 smart city",
+      "occurrences": 30,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-19",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Google DeepMind rilis Gemini 4 Neon, diklaim bersaing dengan Claude Opus 5.5",
+      "occurrences": 28,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-19",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN Indonesia Power begins 4.5 MW hybrid solar plus 9 MWh battery storage project in Nusa Penida, targeting 8.8 million kWh annually",
+      "occurrences": 27,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "ai-datacenter-project-finance",
+      "theme": "AS terapkan pembatasan chip AI ke pusat data Asia bersamaan kunjungan Trump ke Manila",
+      "occurrences": 22,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: kapasitas surya Indonesia 1,59 GWp, butuh percepatan 63x lipat untuk capai target 100 GWp pada 2029",
+      "occurrences": 13,
+      "firstSeen": "2026-10-21",
+      "lastSeen": "2026-11-19",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 343,
+    "poolSize": 110,
+    "generatedAt": "2026-11-20T03:06:09.003Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
