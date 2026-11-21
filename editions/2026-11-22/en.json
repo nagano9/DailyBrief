@@ -1,0 +1,368 @@
+{
+  "slug": "2026-11-22",
+  "date": "2026-11-22",
+  "lang": "en",
+  "title": "BUMN Tax Relief, PLN Grid Gaps, Nvidia's $228B Bet, and MCP Security Patch",
+  "dek": "Three structural Indonesian reform threads converge with a global AI infrastructure signal and a recurring protocol security risk that now demands a governance decision.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Indonesia's government has extended a 0% final income tax exemption on BUMN restructuring transactions through 2029, removing a friction that previously made intra-group asset transfers prohibitively costly and materially accelerating the Danantara consolidation agenda. Separately, PLN is managing rolling blackouts in Sulawesi and East Kalimantan with Christmas-season deadlines, exposing the grid reliability gap that accompanies any serious industrial or data-center expansion in eastern Indonesia. Nvidia's $228 billion data-center commitment, reported by BloombergNEF, signals that AI infrastructure is shifting from product sales to project finance, with vendor balance-sheet exposure now a key variable. Spain's new law mandating 80% renewable electricity for data centers, backed by a 17.14 billion euro support envelope, creates a regulatory template that other jurisdictions, including Indonesia, will face pressure to replicate as AI power demand scales. The Model Context Protocol v2.5.0 patch fixes eight vulnerabilities one week after v2.4.0 fixed six, completing 14 patches in rapid succession and signaling that any enterprise deployment relying on MCP tooling carries an unresolved patch-cadence risk.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "CNBC Indonesia",
+        "KONTAN"
+      ],
+      "headline": "Indonesia extends 0% final income tax on BUMN restructuring transactions through 2029",
+      "whatChanged": "The Indonesian government has formally extended a 0% final income tax (PPh Final) exemption covering a defined set of BUMN restructuring transactions, with validity through 2029. The incentive removes tax friction on intra-group asset and share transfers that are part of the ongoing consolidation under Danantara. CNBC Indonesia and KONTAN both report the measure, with CNBC Indonesia adding that misuse of the facility could trigger retroactive recalculation.",
+      "whyItMatters": "This thread has been structural for 30 days: the Danantara consolidation is not an event but a condition. The tax exemption is the first concrete fiscal instrument that makes large-scale intra-BUMN asset migration economically executable rather than merely politically declared. Without it, transfer taxes on assets across dozens of entities would have produced balance-sheet distortions large enough to slow or block consolidation.",
+      "secondOrder": "The misuse-recalculation clause reported by CNBC Indonesia creates a contingent liability that acquirers and lenders pricing Danantara-linked debt or equity must now model explicitly. Any transaction structured under this exemption that is later reclassified by the tax authority reverts to full PPh Final exposure, turning what looks like a clean transfer into a hidden credit risk. This is precisely the kind of provision that generates disputes three to five years after consolidation closes.",
+      "action": "Any analyst or counterparty pricing exposure to BUMN entities undergoing merger or asset transfer under Danantara should request the specific transaction classification used to claim the exemption, assess whether that classification is defensible under existing DGT guidance, and build a stress scenario assuming full PPh Final reinstatement on the transferred asset base.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDBuaVhaRlJtbFlGeWNXNUxMRlpNZ0pMZGlqdjJBd0dpU3NfYzVlenFiZHZ0WkpBa2x0enh3dWdpNUFQMjZtR2Z1VGNTOHdVdDVzdnhkWVFiR0IzYi1uX3hXbjBSc0R0Qmw4TU9ZTHl2NTUtQXVxb1diRnRqclQxbl9raHQ3U25vWjItZ0dLZTVvZ0Fra2thMVozenY4STZ0SWVveE9kdlBkVVVCT3FtLWR2WUo?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "ANTARA News",
+        "Bisnis.com",
+        "Nusantara"
+      ],
+      "headline": "PLN targets Sulawesi blackout resolution before Christmas, East Kalimantan by end-December",
+      "whatChanged": "PLN has publicly committed to resolving rolling blackouts (pemadaman bergilir) in Sulawesi before the Christmas period and in East Kalimantan (Kaltim) by end-December 2026. ANTARA News and Bisnis.com report the targets separately, confirming that two distinct grid regions are simultaneously in deficit. PLN also held a cross-faith prayer gathering in Makassar, an unusual public-relations move that signals management is treating the outages as a reputational emergency.",
+      "whyItMatters": "The pln-grid-investment thread has been structural for 27 days. PLN secured USD 2.94 billion in green financing at COP31 Antalya, yet two major regions are simultaneously experiencing managed outages. The gap between financing commitments and operational grid reliability is widening in the near term, which is the period that matters for industrial offtakers and data-center developers evaluating eastern Indonesian sites.",
+      "secondOrder": "East Kalimantan is the designated location for Indonesia's new capital, Nusantara, and hosts growing nickel and mineral processing activity. A December 2026 reliability deadline for Kaltim, if missed, directly raises the cost of industrial expansion in the region and signals to foreign investors that the grid is not ready to support the downstream processing ambitions announced at COP31 and ASEAN summits. The convergence of grid deficit and capital-city construction in the same province is a material sovereign credibility risk.",
+      "action": "Track whether PLN meets the stated Christmas and end-December deadlines. If either is missed, revise upward the risk premium applied to any power-intensive project in Sulawesi or Kaltim, and flag the gap to any counterparty evaluating PLN's USD 2.94 billion green financing deployment timeline.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLTZya3Zwc2xHZ3JqdnMxY0VNbERoZkhwcDVNMDR3cFVKcm9USmlkQTVaZFRsSlByclJkMU5wODNMeGE3NWtMRkRleS1WcmF4WU9yMEtnSng1bU9hX0JSak9sMGlWWHphSjl6eXVKOHVvRTg5Q3E4cWRQUGREcGs3a2V6NXVpT2s5S3o5U2plMWM3WkdubmwzV1VzWDJWWlNFc2UwZ2RZMm1iWi1oZlE?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNHEwLWJSYWFTanhJZ3V6OW5qMnpqNDZDcThlWldGd0pHME1hZ0p4ZlEtS2JteWFhWGJfNTlSWXp1dTZTZWpOS1dKazROMlhqbTViR3FzdkdLc1d2NVZyT0VSU0NybjVYeEdLOTljQ2dEeGdzT05Kbk9hWFJTeWphWjRXbG93Tm1HSjdQaVZBN2NIX3QwM21YdmlFTG5CTV9RMFAwb0FqVWt1WV85M2dV?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Nvidia",
+        "BloombergNEF"
+      ],
+      "headline": "Nvidia commits $228 billion to data-center projects, taking infrastructure balance-sheet exposure",
+      "whatChanged": "BloombergNEF reports Nvidia has made a $228 billion data-center commitment. The scale and structure of the commitment, as described, involves Nvidia taking direct financial exposure to infrastructure projects rather than selling hardware to third-party developers.",
+      "whyItMatters": "When a GPU vendor begins guaranteeing or financing data-center capacity at this scale, the AI value chain restructures: the bottleneck shifts from chip supply to power, land, and capital. Nvidia's balance-sheet involvement transforms it from a hardware supplier into a project sponsor, which changes how counterparties, regulators, and lenders should assess its exposure.",
+      "secondOrder": "AI infrastructure deals now require the analytical framework used for project finance: sponsor creditworthiness, offtaker contracts, EPC risk, power purchase agreements, grid interconnection rights, and senior lender covenants. Teams that evaluate Nvidia purely as a semiconductor company will systematically underestimate both its infrastructure risk and the leverage it now holds over data-center site selection, which includes power sourcing decisions that intersect directly with the nuclear-ai-datacenter-power thread.",
+      "action": "Re-examine any data-center or AI infrastructure proposal involving Nvidia this week using a project-finance checklist: identify whether Nvidia is acting as sponsor, guarantor, or offtaker; assess the power source committed; and determine whether the host grid can support the load. Apply this framework before the next vendor presentation.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTVdHd1V2a3IybElrbTBrZlBhX0Z4ODlON2MwWmdFQ2tfNmhnMU83UnFCN3p4UGdyUmRxQjN4WnAzZDdoWTd4SmJHOGhoTjFKdzAxUVdiM3d0aUJORHFVUkR1b3FRUmdoUEN4S2UwNEUxTG5rNGFSRXc4MmNzdlR5REx0UU05SXBXaVkxUEp5VkpWdHEzQ0JMYjJJal9UbE5HRlp4WA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-10-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Spain",
+        "IEU-CEPA",
+        "NeutraDC",
+        "PLN"
+      ],
+      "headline": "Spain mandates 80% renewable electricity for data centers with a 17.14 billion euro support framework",
+      "whatChanged": "Spain has approved a new regulatory framework requiring data centers to source at least 80% of their electricity from renewables, while also imposing water and energy efficiency standards and grid flexibility obligations. The government has paired the mandate with a 17.14 billion euro support envelope. This is a primary legislative fact reported by pv magazine.",
+      "whyItMatters": "Spain is the first major European economy to encode a renewable procurement floor specifically for data centers into law rather than relying on voluntary corporate commitments. This creates a binding precedent within EU regulatory space at precisely the moment AI-driven data-center demand is accelerating. It demonstrates that governments are willing to combine mandate with subsidy to direct where and how AI infrastructure is built.",
+      "secondOrder": "The 80% renewable threshold, combined with grid flexibility requirements, will push data-center developers toward co-location with generation assets and long-term PPA structures rather than grid spot procurement. This compresses the market for uncontracted renewable generation in Spain and raises the cost of compliance for operators who cannot secure dedicated offtake. For Indonesia, where data-center power sourcing is currently unregulated, Spain's framework will serve as a reference point in IEU-CEPA implementation discussions, given that Indonesia and the EU signed the IEU-CEPA trade agreement this week.",
+      "action": "Map Indonesian data-center projects, including NeutraDC's 200 MW expansion with PLN, against the Spain framework to estimate what a comparable Indonesian regulation would require. Use this as a scenario input for power sourcing strategy decisions before IEU-CEPA ratification proceedings begin.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/11/21/spain-approves-new-data-center-rules-requiring-80-renewable-electricity/"
+      ],
+      "secondOrderUrls": [
+        "https://www.cnbcindonesia.com/news/20261121190323-4-787224/menunggu-10-tahun-ri-dan-uni-eropa-akhirnya-tandatangani-ieu-cepa",
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-10-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Model Context Protocol",
+        "mcp-server-git",
+        "server-filesystem",
+        "server-puppeteer"
+      ],
+      "headline": "MCP v2.5.0 patches eight more vulnerabilities one week after v2.4.0 fixed six",
+      "whatChanged": "Model Context Protocol v2.5.0, released 2026-11-18, fixes eight vulnerabilities across three servers: mcp-server-git, server-filesystem, and server-puppeteer. This follows v2.4.0 released 2026-11-11, which fixed six vulnerabilities across the same three servers. Fourteen security patches have been issued across two consecutive releases in seven days.",
+      "whyItMatters": "The enterprise-ai-data-privacy-contracts thread has been structural for nine days. MCP is the primary protocol through which LLM agents interact with file systems, version control, and browser automation. A patch cadence of fourteen fixes in seven days indicates that the attack surface is being actively probed and that the protocol's security model was not hardened before widespread enterprise adoption.",
+      "secondOrder": "Organizations that have deployed MCP-based agent workflows in production without a formal patch-management process are now running infrastructure with known, published vulnerabilities. Because the affected servers include filesystem and git access, the exposure includes source code repositories and local file systems, not just model outputs. The rapid cadence also means that a team patching to v2.4.0 last week is already one release behind on eight additional CVEs, a situation that will recur with each subsequent release until the protocol's security architecture is redesigned rather than patched incrementally.",
+      "action": "Audit all production MCP server deployments this week: confirm versions of mcp-server-git, server-filesystem, and server-puppeteer against the v2.5.0 release manifest; establish an automated alert for new MCP releases; and require a written security assessment before any new MCP server is added to a production agent workflow.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 10,
+        "firstSeen": "2026-10-25",
+        "spanDays": 28
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "PLN Sulawesi blackout resolution: confirm whether the pre-Christmas target is met; a miss resets the risk premium for eastern Indonesia industrial and data-center projects.",
+      "dueDate": "2026-12-25"
+    },
+    {
+      "item": "PLN East Kalimantan (Kaltim) grid normalization deadline: track against the stated end-December 2026 commitment, particularly given Nusantara capital construction exposure.",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Danantara BUMN restructuring tax facility: monitor DGT guidance or any audit findings on PPh Final exemption classifications before the 2029 sunset.",
+      "dueDate": "2027-03-31"
+    },
+    {
+      "item": "MCP v2.6.0 or next security release: track whether the patch cadence continues at the same rate, which would signal systemic architecture issues rather than isolated bugs.",
+      "dueDate": "2026-11-30"
+    },
+    {
+      "item": "IEU-CEPA ratification proceedings: monitor whether EU delegations raise data-center renewable sourcing standards as a conditionality, following Spain's 80% mandate precedent.",
+      "dueDate": "2027-06-30"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pemerintah Bebaskan PPh Final 0 Persen untuk Sejumlah Transaksi Restrukturisasi BUMN",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDBuaVhaRlJtbFlGeWNXNUxMRlpNZ0pMZGlqdjJBd0dpU3NfYzVlenFiZHZ0WkpBa2x0enh3dWdpNUFQMjZtR2Z1VGNTOHdVdDVzdnhkWVFiR0IzYi1uX3hXbjBSc0R0Qmw4TU9ZTHl2NTUtQXVxb1diRnRqclQxbl9raHQ3U25vWjItZ0dLZTVvZ0Fra2thMVozenY4STZ0SWVveE9kdlBkVVVCT3FtLWR2WUo?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-20T10:23:00.000Z"
+    },
+    {
+      "title": "Nvidia’s $228 Billion Data Center Bet: Three Things to Know",
+      "publisher": "BloombergNEF",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTVdHd1V2a3IybElrbTBrZlBhX0Z4ODlON2MwWmdFQ2tfNmhnMU83UnFCN3p4UGdyUmRxQjN4WnAzZDdoWTd4SmJHOGhoTjFKdzAxUVdiM3d0aUJORHFVUkR1b3FRUmdoUEN4S2UwNEUxTG5rNGFSRXc4MmNzdlR5REx0UU05SXBXaVkxUEp5VkpWdHEzQ0JMYjJJal9UbE5HRlp4WA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-20T09:11:46.000Z"
+    },
+    {
+      "title": "v2.5.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-18T09:29:05.000Z"
+    },
+    {
+      "title": "PLN targetkan pemadaman bergilir di Sulawesi teratasi sebelum Natal",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLTZya3Zwc2xHZ3JqdnMxY0VNbERoZkhwcDVNMDR3cFVKcm9USmlkQTVaZFRsSlByclJkMU5wODNMeGE3NWtMRkRleS1WcmF4WU9yMEtnSng1bU9hX0JSak9sMGlWWHphSjl6eXVKOHVvRTg5Q3E4cWRQUGREcGs3a2V6NXVpT2s5S3o5U2plMWM3WkdubmwzV1VzWDJWWlNFc2UwZ2RZMm1iWi1oZlE?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-21T17:23:13.000Z"
+    },
+    {
+      "title": "Salah Pakai Fasilitas Pajak, Restrukturisasi BUMN Bisa Dihitung Ulang",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T07:15:38.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "v2.4.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-11T07:37:43.000Z"
+    },
+    {
+      "title": "Insentif Pajak Restrukturisasi BUMN Berlaku hingga 2029",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T04:11:11.000Z"
+    },
+    {
+      "title": "Spain approves new data center rules requiring 80% renewable electricity",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/11/21/spain-approves-new-data-center-rules-requiring-80-renewable-electricity/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-21T08:00:00.000Z"
+    },
+    {
+      "title": "PLN Targetkan Pemadaman Bergilir di Kaltim Normal Akhir Desember - Bisnis.com",
+      "publisher": "Bisnis.com - Foto",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNHEwLWJSYWFTanhJZ3V6OW5qMnpqNDZDcThlWldGd0pHME1hZ0p4ZlEtS2JteWFhWGJfNTlSWXp1dTZTZWpOS1dKazROMlhqbTViR3FzdkdLc1d2NVZyT0VSU0NybjVYeEdLOTljQ2dEeGdzT05Kbk9hWFJTeWphWjRXbG93Tm1HSjdQaVZBN2NIX3QwM21YdmlFTG5CTV9RMFAwb0FqVWt1WV85M2dV?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T21:00:30.000Z"
+    },
+    {
+      "title": "Subsidi Pajak untuk Restrukturisasi BUMN",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T22:31:22.000Z"
+    },
+    {
+      "title": "Menunggu 10 Tahun, RI dan Uni Eropa Akhirnya Tandatangani IEU-CEPA",
+      "publisher": "CNBC Indonesia",
+      "url": "https://www.cnbcindonesia.com/news/20261121190323-4-787224/menunggu-10-tahun-ri-dan-uni-eropa-akhirnya-tandatangani-ieu-cepa",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-21T12:50:12.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Rencana Danantara kelola dana cadangan pesangon memicu respons Menaker dan serikat buruh",
+      "occurrences": 30,
+      "firstSeen": "2026-10-23",
+      "lastSeen": "2026-11-21",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI rinci pendekatan berlapis untuk menangkal adversarial distillation dari model frontier",
+      "occurrences": 28,
+      "firstSeen": "2026-10-23",
+      "lastSeen": "2026-11-21",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN mobilisasi USD 2,94 miliar pembiayaan hijau di COP31 Antalya",
+      "occurrences": 27,
+      "firstSeen": "2026-10-23",
+      "lastSeen": "2026-11-21",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "AS terapkan pembatasan chip AI ke pusat data Asia bersamaan kunjungan Trump ke Manila",
+      "occurrences": 20,
+      "firstSeen": "2026-10-23",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: kapasitas surya Indonesia 1,59 GWp, butuh percepatan 63 kali lipat untuk capai target 100 GWp pada 2029",
+      "occurrences": 13,
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-11-21",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 433,
+    "poolSize": 110,
+    "generatedAt": "2026-11-21T23:08:08.746Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

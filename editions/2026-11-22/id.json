@@ -1,0 +1,349 @@
+{
+  "slug": "2026-11-22",
+  "date": "2026-11-22",
+  "lang": "id",
+  "title": "Insentif Pajak BUMN, Pembiayaan Hijau PLN, dan Regulasi Data Center Spanyol Pimpin Agenda",
+  "dek": "Tiga kebijakan struktural matang bersamaan: fasilitas PPh final 0% percepat konsolidasi BUMN, USD 2,94 miliar hijau perkuat transisi PLN, dan Spanyol menetapkan preseden regulasi data center berbasis EBT yang relevan bagi rencana NeutraDC-PLN.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Pemerintah Indonesia menerbitkan fasilitas PPh Final 0% untuk transaksi restrukturisasi BUMN yang berlaku hingga 2029, mempercepat agenda konsolidasi di bawah Danantara sambil membuka celah risiko salah pakai yang diingatkan CNBC Indonesia. Secara paralel, PLN mengamankan pembiayaan transisi energi USD 2,94 miliar di COP31 Antalya, melanjutkan tema pln-grid-investment yang kini punya ukuran konkret. Di domain AI, OpenAI merinci pendekatan berlapis untuk menangkal adversarial distillation dari model frontier, melanjutkan tema ai-model-safety-frontier yang kini menjadi dokumen teknis yang dapat dijadikan acuan kebijakan. Spanyol mewajibkan 80% listrik terbarukan untuk data center baru dengan pagu investasi EUR 17,14 miliar, sinyal bahwa regulasi energi-AI mulai menetapkan angka keras yang akan direplikasi pasar lain. IESR mengonfirmasi kapasitas surya Indonesia baru 1,59 GWp dari target 100 GWp, mempertegas kesenjangan eksekusi yang berkaitan langsung dengan bankabilitas proyek PLTS.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "CNBC Indonesia",
+        "KONTAN"
+      ],
+      "headline": "PPh Final 0% untuk restrukturisasi BUMN resmi berlaku, aktif hingga 2029",
+      "whatChanged": "Pemerintah menetapkan fasilitas PPh Final 0% untuk sejumlah transaksi restrukturisasi BUMN, berlaku hingga 2029. CNBC Indonesia dan Kontan melaporkan insentif ini aktif, dan CNBC Indonesia secara terpisah memperingatkan bahwa salah penerapan fasilitas pajak dapat memicu penghitungan ulang kewajiban.",
+      "whyItMatters": "Fasilitas ini menghilangkan hambatan pajak utama pada transaksi merger, spin-off, dan pengalihan aset antar-BUMN, sehingga konsolidasi 250 BUMN di bawah Danantara mendapat jalur fiskal yang lebih terbuka. Ini melanjutkan tema danantara-bumn-karya-restructuring: setelah isu pesangon dan serikat buruh, kini giliran mekanisme pajak yang menjadi penentu kecepatan eksekusi.",
+      "secondOrder": "Fasilitas berlaku empat tahun, bukan permanen, sehingga menciptakan tekanan waktu bagi manajemen BUMN untuk menyelesaikan restrukturisasi sebelum 2029. Perusahaan yang terlambat memulai proses due diligence pajak berisiko menanggung beban PPh Final penuh pada saat nilai aset sudah direvaluasi lebih tinggi pasca-konsolidasi. Klausul 'salah pakai' yang diingatkan regulator juga membuka potensi sengketa pajak jika transaksi tidak memenuhi definisi teknis restrukturisasi yang diakui.",
+      "action": "Tinjau roadmap restrukturisasi entitas BUMN yang sedang berjalan: identifikasi transaksi mana yang memenuhi syarat fasilitas PPh Final 0%, pastikan dokumen legal sesuai definisi teknis peraturan, dan tetapkan batas waktu internal agar proses rampung jauh sebelum 2029 untuk menghindari risiko perubahan kebijakan.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDBuaVhaRlJtbFlGeWNXNUxMRlpNZ0pMZGlqdjJBd0dpU3NfYzVlenFiZHZ0WkpBa2x0enh3dWdpNUFQMjZtR2Z1VGNTOHdVdDVzdnhkWVFiR0IzYi1uX3hXbjBSc0R0Qmw4TU9ZTHl2NTUtQXVxb1diRnRqclQxbl9raHQ3U25vWjItZ0dLZTVvZ0Fra2thMVozenY4STZ0SWVveE9kdlBkVVVCT3FtLWR2WUo?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "PLN"
+      ],
+      "headline": "IESR: Kapasitas surya Indonesia 1,59 GWp, target 100 GWp butuh percepatan 63 kali lipat",
+      "whatChanged": "IESR menerbitkan Indonesia Solar Energy Outlook (ISEO) 2027 yang mengonfirmasi kapasitas PLTS terpasang Indonesia hanya 1,59 GWp per November 2026, sementara target pemerintah adalah 100 GWp pada 2029. IESR menyebut dua hambatan utama: kepastian regulasi dan permintaan listrik yang terbatas.",
+      "whyItMatters": "Kesenjangan antara 1,59 GWp dan 100 GWp dalam tiga tahun adalah faktor risiko material bagi seluruh rantai investasi energi terbarukan Indonesia, termasuk komitmen pembiayaan hijau PLN dan kerja sama energi dengan Jepang dan Korea Selatan yang sedang dijajaki pemerintah. Ini melanjutkan tema indonesia-geothermal-concession-reform: hambatan bukan pada teknologi atau pembiayaan awal, melainkan pada regulasi offtake dan struktur permintaan.",
+      "secondOrder": "Ketidakpastian regulasi yang diidentifikasi IESR memengaruhi bankabilitas proyek PLTS secara langsung: tanpa kepastian power purchase agreement (PPA) jangka panjang, lender institusional tidak akan mengucurkan pembiayaan murah yang dibutuhkan untuk mencapai skala 100 GWp. Jika target meleset secara signifikan, Indonesia berisiko kehilangan momentum di pasar kredit hijau internasional tepat saat PLN membutuhkan akses ke pasar tersebut untuk memanfaatkan USD 2,94 miliar.",
+      "action": "Gunakan angka 1,59 GWp dari ISEO 2027 sebagai baseline dalam setiap model pembiayaan atau kemitraan PLTS: hitung berapa kapasitas yang harus dibangun per bulan untuk mencapai 100 GWp pada 2029, lalu identifikasi apakah pipeline proyek yang sudah memiliki PPA sudah cukup untuk memenuhi laju tersebut.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/kepastian-regulasi-dan-permintaan-listrik-jadi-sorotan-di-tengah-terbatasnya-kapasitas-plts/",
+        "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 14,
+        "firstSeen": "2026-10-28",
+        "spanDays": 25
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI"
+      ],
+      "headline": "OpenAI publikasikan pendekatan teknis berlapis untuk menangkal adversarial distillation",
+      "whatChanged": "OpenAI menerbitkan dokumen teknis yang merinci empat lapisan pertahanan terhadap adversarial distillation: pelatihan model, safeguard, deteksi, dan penegakan. Dokumen ini bersifat sumber primer dan tersedia publik per 20 November 2026.",
+      "whyItMatters": "Tema ai-model-safety-frontier kini memiliki spesifikasi teknis eksplisit dari lab terbesar. Adversarial distillation adalah mekanisme di mana aktor eksternal mengekstrak kapabilitas model frontier melalui kueri sistematis, memungkinkan replikasi kemampuan tanpa akses langsung ke bobot model. Dokumen ini menjadi referensi teknis bagi regulator dan enterprise yang menyusun kebijakan penggunaan model AI.",
+      "secondOrder": "Publikasi pendekatan ini mengangkat ekspektasi industri: perusahaan yang mendeploy model AI pihak ketiga kini akan diukur terhadap standar berlapis ini oleh auditor dan regulator, terutama mengingat sinyal dari AS soal AI Safety Framework Bill yang sedang disiapkan legislator bipartisan. Perusahaan yang belum memiliki log deteksi dan kebijakan enforcement akan menghadapi celah compliance yang sebelumnya tidak terlihat.",
+      "action": "Tinjau kebijakan penggunaan model AI internal terhadap empat lapisan yang dirinci OpenAI: apakah ada mekanisme deteksi kueri sistematis, prosedur enforcement jika penyalahgunaan terdeteksi, dan audit log yang dapat disampaikan kepada regulator. Gunakan dokumen OpenAI sebagai checklist awal sebelum AI Safety Framework Bill mengubahnya menjadi kewajiban hukum.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://openai.com/index/combatting-adversarial-distillation"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX0pwdWhFTHhUR0RpMXZveUpVOU1FQ18xaTFWdUdNU3c2YTh0NktONEJTNjlidWxSUF9ZN2o5NzZnYm95N0tWQlk4ZmxBSGRKVUliWFRZUzhZZFZObWRhTjgxNHN5OTkySF9lVmlETEFRbWRiaVh6ODZsNmlSb3VPX0VCRkp0TDRkQ19MRkwxcmkxX3BDc0RiX3VSQVhzTUl1OEFRejRoTU9wUzdvX3c?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "PLN",
+        "NeutraDC",
+        "Kementerian ESDM"
+      ],
+      "headline": "Spanyol wajibkan 80% listrik EBT untuk data center, pagu investasi EUR 17,14 miliar",
+      "whatChanged": "Spanyol mengesahkan kerangka regulasi baru untuk data center yang mewajibkan 80% pasokan listrik dari energi terbarukan, disertai standar efisiensi energi dan air, serta persyaratan fleksibilitas jaringan. Regulasi ini mencakup komitmen investasi EUR 17,14 miliar, sebagaimana dilaporkan pv magazine.",
+      "whyItMatters": "Spanyol adalah yurisdiksi besar pertama yang menetapkan angka persentase EBT wajib untuk data center dalam satu regulasi tunggal. Ini mengubah debat dari aspirasi ke kewajiban hukum, dan memberi preseden konkret bagi regulator Asia termasuk Indonesia yang sedang memproses ekspansi data center NeutraDC-PLN 200 MW.",
+      "secondOrder": "Standar 80% EBT akan menjadi referensi dalam negosiasi kontrak antara operator data center dan penyedia energi di seluruh pasar yang menginginkan akses ke modal hijau internasional. Di Indonesia, jika standar serupa diadopsi oleh Kementerian ESDM sebagai syarat izin data center skala besar, maka PLN harus menjamin pasokan EBT yang bankable sebelum data center dapat beroperasi, bukan setelahnya, yang membalik urutan investasi selama ini.",
+      "action": "Petakan regulasi data center Indonesia yang berlaku saat ini dan bandingkan dengan kerangka Spanyol pada tiga dimensi: persyaratan EBT, efisiensi air, dan fleksibilitas jaringan. Identifikasi apakah MoU NeutraDC-PLN sudah mencakup klausul pasokan EBT terukur, dan rekomendasikan penyesuaian sebelum regulasi serupa ditetapkan sebagai prasyarat izin operasional.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/11/21/spain-approves-new-data-center-rules-requiring-80-renewable-electricity/"
+      ],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 21,
+        "firstSeen": "2026-10-23",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "COP31"
+      ],
+      "headline": "PLN amankan USD 2,94 miliar pembiayaan hijau di COP31 Antalya",
+      "whatChanged": "PLN mengonfirmasi perolehan komitmen pembiayaan transisi energi sebesar USD 2,94 miliar di COP31 Antalya, sebagaimana dilaporkan Bloomberg Technoz. Angka ini bersifat konkret dan terikat pada forum multilateral, bukan sekadar nota kesepahaman.",
+      "whyItMatters": "Tema pln-grid-investment kini memiliki ukuran finansial yang dapat diverifikasi. Pembiayaan hijau berskala ini memberi PLN kapasitas untuk mempercepat investasi transmisi dan interkoneksi yang selama ini diidentifikasi IEEFA sebagai hambatan utama integrasi energi terbarukan ke jaringan. Komitmen di forum COP31 juga mengikat secara reputasional, mendorong akselerasi penggunaan dana.",
+      "secondOrder": "Pembiayaan hijau dengan covenant lingkungan mengharuskan PLN melaporkan metrik emisi dan penggunaan dana secara berkala kepada kreditur internasional. Jika target PLTS 100 GWp tidak tercapai sebagaimana diingatkan IESR (kapasitas aktual baru 1,59 GWp), PLN berpotensi menghadapi pertanyaan compliance dari penyedia pembiayaan, yang dapat mempersulit pencairan tahap berikutnya.",
+      "action": "Petakan kondisi (covenant) spesifik dari masing-masing fasilitas USD 2,94 miliar tersebut: berapa porsi untuk transmisi versus pembangkitan, jadwal pencairan, dan metrik pelaporan yang diwajibkan. Kemudian konfrontasikan dengan angka aktual IESR (1,59 GWp dari 100 GWp) untuk mengidentifikasi gap eksekusi yang berpotensi melanggar covenant.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlJmYmprQkxmekhBb2JtMWs0WmphdUotcXVNMDdUeWU3cDg3eEU1ZUF0UWNZVFRrdnVFLWx2Z3VOdllUVlF3RzE4a2NnSGpiR21TLWJRdWFxMTJxVTZISk1ZbXFsY3VDZVVGSF9ucGhqalBvdnY5NDFtRno5SUh5Y2s0ZWdrV1ZtVXIxbEhybEFHcDhBenJENGZUZFpGT3UtckFIcFFWeUtPT2p1ckRsejVVRU1IQQ?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-23",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Jadwal pencairan dan covenant spesifik dari USD 2,94 miliar pembiayaan hijau PLN: PLN diperkirakan merilis detail pasca-COP31 Antalya",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Penerbitan peraturan turunan PPh Final 0% untuk restrukturisasi BUMN: perlu dipantau apakah definisi teknis 'restrukturisasi' mencakup seluruh skema Danantara",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "AI Safety Framework Bill AS: pemungutan suara atau teks resmi dari legislator bipartisan yang diumumkan 19 November 2026",
+      "dueDate": "2027-02-28"
+    },
+    {
+      "item": "Update pipeline PLTS Indonesia per IESR: apakah proyek dengan PPA aktif sudah cukup untuk menutup gap 1,59 GWp ke 100 GWp pada 2029",
+      "dueDate": "2027-01-15"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Combatting adversarial distillation",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "title": "Kepastian Regulasi dan Permintaan Listrik Jadi Sorotan di Tengah Terbatasnya Kapasitas PLTS",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/kepastian-regulasi-dan-permintaan-listrik-jadi-sorotan-di-tengah-terbatasnya-kapasitas-plts/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-20T02:28:02.000Z"
+    },
+    {
+      "title": "IESR: Surya Indonesia Baru 1,59 GWp, Target 100 GWp Menuntut Percepatan Nyata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T08:29:08.000Z"
+    },
+    {
+      "title": "Pemerintah Bebaskan PPh Final 0 Persen untuk Sejumlah Transaksi Restrukturisasi BUMN",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDBuaVhaRlJtbFlGeWNXNUxMRlpNZ0pMZGlqdjJBd0dpU3NfYzVlenFiZHZ0WkpBa2x0enh3dWdpNUFQMjZtR2Z1VGNTOHdVdDVzdnhkWVFiR0IzYi1uX3hXbjBSc0R0Qmw4TU9ZTHl2NTUtQXVxb1diRnRqclQxbl9raHQ3U25vWjItZ0dLZTVvZ0Fra2thMVozenY4STZ0SWVveE9kdlBkVVVCT3FtLWR2WUo?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-20T10:23:00.000Z"
+    },
+    {
+      "title": "AI Safety Framework Bill Teased by Bipartisan House Lawmakers",
+      "publisher": "Bloomberg Government News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX0pwdWhFTHhUR0RpMXZveUpVOU1FQ18xaTFWdUdNU3c2YTh0NktONEJTNjlidWxSUF9ZN2o5NzZnYm95N0tWQlk4ZmxBSGRKVUliWFRZUzhZZFZObWRhTjgxNHN5OTkySF9lVmlETEFRbWRiaVh6ODZsNmlSb3VPX0VCRkp0TDRkQ19MRkwxcmkxX3BDc0RiX3VSQVhzTUl1OEFRejRoTU9wUzdvX3c?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T17:02:00.000Z"
+    },
+    {
+      "title": "Salah Pakai Fasilitas Pajak, Restrukturisasi BUMN Bisa Dihitung Ulang",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T07:15:38.000Z"
+    },
+    {
+      "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-14T07:04:39.000Z"
+    },
+    {
+      "title": "PLN Kantongi Pembiayaan Transisi Energi US$2,94 Miliar di COP31",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlJmYmprQkxmekhBb2JtMWs0WmphdUotcXVNMDdUeWU3cDg3eEU1ZUF0UWNZVFRrdnVFLWx2Z3VOdllUVlF3RzE4a2NnSGpiR21TLWJRdWFxMTJxVTZISk1ZbXFsY3VDZVVGSF9ucGhqalBvdnY5NDFtRno5SUh5Y2s0ZWdrV1ZtVXIxbEhybEFHcDhBenJENGZUZFpGT3UtckFIcFFWeUtPT2p1ckRsejVVRU1IQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-20T08:42:00.000Z"
+    },
+    {
+      "title": "Insentif Pajak Restrukturisasi BUMN Berlaku hingga 2029",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T04:11:11.000Z"
+    },
+    {
+      "title": "Spain approves new data center rules requiring 80% renewable electricity",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/11/21/spain-approves-new-data-center-rules-requiring-80-renewable-electricity/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-21T08:00:00.000Z"
+    },
+    {
+      "title": "Subsidi Pajak untuk Restrukturisasi BUMN",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T22:31:22.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Rencana Danantara kelola dana cadangan pesangon memicu respons Menaker dan serikat buruh",
+      "occurrences": 30,
+      "firstSeen": "2026-10-23",
+      "lastSeen": "2026-11-21",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI rinci pendekatan berlapis untuk menangkal adversarial distillation dari model frontier",
+      "occurrences": 28,
+      "firstSeen": "2026-10-23",
+      "lastSeen": "2026-11-21",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN mobilisasi USD 2,94 miliar pembiayaan hijau di COP31 Antalya",
+      "occurrences": 27,
+      "firstSeen": "2026-10-23",
+      "lastSeen": "2026-11-21",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "AS terapkan pembatasan chip AI ke pusat data Asia bersamaan kunjungan Trump ke Manila",
+      "occurrences": 20,
+      "firstSeen": "2026-10-23",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: kapasitas surya Indonesia 1,59 GWp, butuh percepatan 63 kali lipat untuk capai target 100 GWp pada 2029",
+      "occurrences": 13,
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-11-21",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 433,
+    "poolSize": 110,
+    "generatedAt": "2026-11-21T23:06:55.182Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
