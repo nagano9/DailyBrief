@@ -1,0 +1,368 @@
+{
+  "slug": "2026-11-21",
+  "date": "2026-11-21",
+  "lang": "en",
+  "title": "PLN Secures $2.94B Green Finance; BUMN Tax Relief Extended; MCP Patches Accelerate",
+  "dek": "Three structural Indonesian reform threads converge today alongside a frontier AI safety signal and a compressed-air storage breakthrough that resets grid storage assumptions.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "PLN closed $2.94 billion in green transition financing at COP31 in Antalya, the largest single mobilisation in its history, giving concrete funding to a grid investment program that IEEFA and IESR have flagged as chronically undercapitalised. Simultaneously, the Indonesian government confirmed a zero-percent final income tax on BUMN restructuring transactions, extending the incentive window to 2029 and removing a material friction from the Danantara consolidation. On AI infrastructure, the Model Context Protocol has now patched fourteen vulnerabilities across two consecutive weekly releases, a cadence that signals systemic exposure in the enterprise agent tooling layer. Anthropic's Claude Fable 5.2 solving two open problems in black-hole physics confirms that frontier models have crossed a threshold where scientific peer review, not benchmark leaderboards, is the relevant quality signal. China's grid-connection of a 300 MW artificial-cavern compressed-air storage plant expands the geographic addressability of long-duration storage well beyond salt-dome geology, with direct implications for Indonesia's mountainous islands.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "COP31",
+        "Bloomberg Technoz",
+        "ANTARA",
+        "IEEFA"
+      ],
+      "headline": "PLN mobilises $2.94 billion in green transition financing at COP31 Antalya",
+      "whatChanged": "PLN announced at COP31 in Antalya that it has secured USD 2.94 billion in green financing commitments for its energy transition program, as reported by Bloomberg Technoz and corroborated by ANTARA on 21 November 2026.",
+      "whyItMatters": "This continues the pln-grid-investment thread, which the archive has tracked for 27 entries since October 2026. The IEA projects global electricity demand rising 37 percent by 2035, with AI data centres and heatwaves as the primary drivers. PLN's grid has been identified by IEEFA as chronically undercapitalised; a $2.94 billion external commitment is the first concrete funding event that partially closes that gap. The theme is now structural: grid underinvestment is a condition, and this financing round is a partial mitigation, not a resolution.",
+      "secondOrder": "Green financing at this scale brings project-finance covenants, reporting requirements, and creditor oversight into PLN's capital structure. That changes the internal decision calculus: projects competing for this capital will need to satisfy international lender criteria, which typically exclude coal-adjacent generation and favour transmission and renewables. This creates a de facto negative screen on PLN's coal pipeline that no domestic regulation has yet imposed, and it may accelerate the transmission subholding structure IEEFA proposed in May 2026 as a vehicle to ring-fence cleaner assets.",
+      "action": "Map which PLN project categories are eligible under the green finance covenants disclosed at COP31. Any coal or mixed-use project currently in the pipeline that cannot meet those criteria faces a funding gap that the domestic budget is unlikely to fill. Prioritise that mapping before year-end budget cycles close.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlJmYmprQkxmekhBb2JtMWs0WmphdUotcXVNMDdUeWU3cDg3eEU1ZUF0UWNZVFRrdnVFLWx2Z3VOdllUVlF3RzE4a2NnSGpiR21TLWJRdWFxMTJxVTZISk1ZbXFsY3VDZVVGSF9ucGhqalBvdnY5NDFtRno5SUh5Y2s0ZWdrV1ZtVXIxbEhybEFHcDhBenJENGZUZFpGT3UtckFIcFFWeUtPT2p1ckRsejVVRU1IQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWJ5TUhaaUNHVGNjS1pQenVQWlc0XzRtb3EyeEZJZk9Bb2YxMWRGeTRPR0JHaGkxSFFrYVVycnN1cGRpS0hNdUd1QV9aOXo1bXJMbTdRZ2ZTdDYtRkF4V3JEc1ItR2hzbkFNdTd1SXdDbXFET0d1Um1xeXdpeXRoMTV4Y2Q5SHhONlN4U2t0OE52TVZSbXhFczNPaV9YOGJfUWtuRGVnUWVHQVZCNDBIdEtPNNIBuAFBVV95cUxPSDJlYlVJNmNLWXFsLVNsVG1uaDRSWXB4QjhLcFVrME9LT3lnZ191emVuQl9vdF9MZHQxbEt3OVhiVlFsZm0ybjczQllZMVFKQ1Z3djA1akxieVNWOWMwU2d6eW5aODcwaEF3d3RhQ2dlanEyR1Fwek5DR1ZRbFpBM2oyYjM1RklOZzEyNHFEd1F6emk5Vi1kbjJaUUt3RUR2a0VzdmhFMThxWEFZMVdySXJodmJKVnBY?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOXFQaThCV0NBcm9UemVQN21Bdmd0TXJZUXpoR0N4X0ZlY2JJcVhfenBRQ29HU0FVVlc1RmtFWVlfNFZMT01laWJtY2d5c2FuU0lrT1hJOElFUjQ4d1NsbFhicVdneFpXS1FkSnQ5YmZoSXE5Z2dPekpJVktoSElJNVE5bGFMdk5Hd3dvc2lCbDhISmFCU19tM0pSOFhKRHBuT3F2SHhnVU1qYWZJOHdj?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "CNBC Indonesia",
+        "KONTAN"
+      ],
+      "headline": "Government confirms zero-percent final income tax on BUMN restructuring transactions through 2029",
+      "whatChanged": "The Indonesian government has formally confirmed that final income tax (PPh Final) is set at zero percent for a defined set of BUMN restructuring transactions, with the incentive window extended to 2029. Kompas.com reported this on 20 November, and CNBC Indonesia noted that misuse of the facility could trigger reassessment. KONTAN reported the subsidy framing on 18 November, and CNBC Indonesia confirmed the 2029 validity date on 19 November.",
+      "whyItMatters": "This continues the danantara-bumn-karya-restructuring thread, now at 30 archive entries. The zero-tax window directly reduces the transaction cost of merging BUMN subsidiaries under the Danantara holding structure. At book-value transfer pricing, the fiscal subsidy is substantial: asset transfers that would otherwise trigger a final tax on the gain are now cost-free through 2029. The extension removes the deadline pressure that could have forced rushed mergers and allows a more deliberate sequencing of which entities consolidate first.",
+      "secondOrder": "The misuse risk flagged by CNBC Indonesia is the more consequential signal. If the facility is applied to transactions that do not meet the qualifying criteria, the tax authority can recalculate the liability retroactively. That creates a contingent liability on the consolidated BUMN balance sheet that auditors and creditors will need to price. Danantara's ability to raise external capital, including the Patriot Bond and Panda Bond programs reported in August 2026, depends on a clean liability profile. A disputed tax reassessment on a large intra-group transfer would directly impair that.",
+      "action": "Before approving any intra-group BUMN asset transfer under the zero-tax facility, obtain a written tax authority ruling confirming eligibility. Do not rely on legal opinion alone. The reassessment risk described in candidate 50 is real and would surface at the worst possible time, during an external capital raise.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDBuaVhaRlJtbFlGeWNXNUxMRlpNZ0pMZGlqdjJBd0dpU3NfYzVlenFiZHZ0WkpBa2x0enh3dWdpNUFQMjZtR2Z1VGNTOHdVdDVzdnhkWVFiR0IzYi1uX3hXbjBSc0R0Qmw4TU9ZTHl2NTUtQXVxb1diRnRqclQxbl9raHQ3U25vWjItZ0dLZTVvZ0Fra2thMVozenY4STZ0SWVveE9kdlBkVVVCT3FtLWR2WUo?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5"
+      ],
+      "secondOrderUrls": [
+        "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond"
+      ],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Anthropic",
+        "Claude Fable 5.2"
+      ],
+      "headline": "Claude Fable 5.2 solves two open problems in black-hole physics, confirmed by Anthropic",
+      "whatChanged": "Anthropic announced on 17 November 2026 that Claude Fable 5.2 has produced solutions to two previously open problems in the physics of black holes. This is a primary-source claim from Anthropic directly, not a third-party benchmark result.",
+      "whyItMatters": "This continues the ai-model-safety-frontier thread at 28 archive entries. The significance is not the specific physics result but the validation mechanism: Anthropic is claiming peer-reviewable scientific output, not performance on a constructed benchmark. If the solutions hold under expert scrutiny, the relevant quality signal for frontier models shifts from leaderboard rankings to whether domain experts accept the work. That changes how procurement, research partnerships, and regulatory assessment should evaluate model capability.",
+      "secondOrder": "Scientific problem-solving at this level creates a credibility asymmetry between frontier models and the enterprise models most organisations are actually deploying. A procurement team that approved a mid-tier model for internal research workflows six months ago is now comparing against a capability baseline that has moved substantially. The revalidation cycle for AI tool approvals has not kept pace. Additionally, if models can produce novel scientific results, the question of IP ownership over those results, which has no settled legal answer in most jurisdictions, becomes operationally urgent rather than theoretical.",
+      "action": "Request that any internal AI research or R&D workflow currently using a model approved before mid-2026 undergo a capability reassessment against the current frontier. The gap between approved-model capability and frontier capability is now large enough to affect research output quality in quantifiable ways. Separately, flag the IP ownership question to legal counsel before any Claude Fable 5.2 output is incorporated into a patent application or published research.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUGhIZlEzczZ3OTFxcjBiRFJLUDhrZjhGM1hKRHdQWnYzV05NQUh0Y19Nb2d6WHlQNWR6UkZmWEp0YlE4endwZXJTdVNwUmN3LXQxUU5MaTFaQldqZkZNZjFHZWNiZFN6LV9UdQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-transmisi-investasi",
+      "entities": [
+        "PLN",
+        "RUPTL 2025-2034",
+        "pv magazine"
+      ],
+      "headline": "China grid-connects world's first artificial-cavern 300 MW / 1.8 GWh CAES plant, removing salt-dome geology constraint",
+      "whatChanged": "China has grid-connected a 300 MW, 1.8 GWh compressed-air energy storage plant built in excavated hard-rock chambers, as reported by pv magazine on 20 November 2026. This is the first operational CAES plant that does not depend on natural salt caverns or aquifer geology.",
+      "whyItMatters": "Previous CAES deployments required specific subsurface geology, limiting the technology to a small number of locations globally. Hard-rock excavation is available across a far wider geography, including mountainous and volcanic terrain. For Indonesia, which has dismissed CAES on geological grounds, this proof-of-concept reopens long-duration storage as a viable option for islands and regions without salt domes.",
+      "secondOrder": "If hard-rock CAES proves cost-competitive at scale, it creates a competing technology path against pumped hydro and battery storage for the 4-to-12-hour storage duration range. That duration range is exactly where PLN's current BESS deployments, including the 9 MWh BESS at Nusa Penida reported in this archive, are weakest. A second proven long-duration technology changes the procurement calculus for the RUPTL 2025-2034 storage targets and may allow PLN to avoid committing to pumped hydro sites that carry significant environmental opposition.",
+      "action": "Commission a site-suitability screening for hard-rock CAES across PLN's highest-priority island grids, specifically those where pumped hydro is constrained by environmental review and where BESS costs are prohibitive at the required duration. The Chinese plant is a proof-of-concept, not a commercial product, but the screening identifies which sites would benefit most if the technology reaches commercial availability within five years.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://www.pv-magazine.com/2026/11/20/china-grid-connects-worlds-first-artificial-cavern-caes-plant/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-transmisi-investasi",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-11-04",
+        "spanDays": 17
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Model Context Protocol",
+        "mcp-server-git",
+        "server-filesystem",
+        "server-brave-search"
+      ],
+      "headline": "MCP v2.5.0 patches eight vulnerabilities one week after v2.4.0 fixed six, completing 14 patches in 10 days",
+      "whatChanged": "Model Context Protocol v2.5.0, released 18 November 2026, fixes eight vulnerabilities across three servers: mcp-server-git, server-filesystem, and server-brave-search. This follows v2.4.0 on 11 November, which fixed six vulnerabilities in the same three servers. The combined patch count of 14 across 10 days is the highest density of security releases in the protocol's public history.",
+      "whyItMatters": "This continues the enterprise-ai-data-privacy-contracts thread. MCP is the primary protocol through which enterprise AI agents access file systems, version control, and external data. The rate of vulnerability disclosure is not declining after the first patch cycle; it is accelerating. This signals that the initial security audit surface is larger than the maintainers initially scoped, and that each fix is exposing adjacent vulnerabilities rather than closing the exposure set.",
+      "secondOrder": "Enterprise deployments that pinned to v2.4.0 as a stable release are now one week out of date on eight vulnerabilities. Because MCP agents operate with file-system and git-repository access, unpatched instances represent a lateral movement vector inside corporate infrastructure. Security teams that approved MCP-based deployments under a point-in-time review are now operating under a continuous-patch regime without a formal process to handle it. The governance gap is not in the protocol; it is in how enterprises approved it.",
+      "action": "Issue an internal advisory this week requiring all MCP server deployments to verify they are running v2.5.0 or the patched component versions listed in the release. Separately, open a process question: what is the approval and re-approval cycle for infrastructure components that patch at weekly frequency? The current answer for most organisations is silence.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 10,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "PLN COP31 green financing: identify creditor list, covenant terms, and eligible project categories from formal loan agreements expected to be published in coming weeks",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "MCP v2.6.0 or next security release: if a third consecutive weekly patch cycle occurs, the protocol requires a formal security architecture review before further enterprise deployment approvals",
+      "dueDate": "2026-11-28"
+    },
+    {
+      "item": "BUMN restructuring tax facility: monitor whether Direktorat Jenderal Pajak issues formal guidance on qualifying transaction criteria following the Kompas.com and CNBC Indonesia reports on reassessment risk",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Claude Fable 5.2 black-hole physics solutions: track whether peer-reviewed journal submission or independent expert validation is announced, which would confirm the benchmark-to-scientific-output capability shift",
+      "dueDate": "2027-03-01"
+    },
+    {
+      "item": "China artificial-cavern CAES plant: monitor six-month operational data on round-trip efficiency and excavation cost per MWh, which will determine whether the technology is commercially replicable",
+      "dueDate": "2027-05-20"
+    }
+  ],
+  "sources": [
+    {
+      "title": "China grid-connects world’s first artificial-cavern CAES plant",
+      "publisher": "pv magazine",
+      "url": "https://www.pv-magazine.com/2026/11/20/china-grid-connects-worlds-first-artificial-cavern-caes-plant/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-20T14:43:16.000Z"
+    },
+    {
+      "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
+      "publisher": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUGhIZlEzczZ3OTFxcjBiRFJLUDhrZjhGM1hKRHdQWnYzV05NQUh0Y19Nb2d6WHlQNWR6UkZmWEp0YlE4endwZXJTdVNwUmN3LXQxUU5MaTFaQldqZkZNZjFHZWNiZFN6LV9UdQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-17T08:00:00.000Z"
+    },
+    {
+      "title": "Pemerintah Bebaskan PPh Final 0 Persen untuk Sejumlah Transaksi Restrukturisasi BUMN",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDBuaVhaRlJtbFlGeWNXNUxMRlpNZ0pMZGlqdjJBd0dpU3NfYzVlenFiZHZ0WkpBa2x0enh3dWdpNUFQMjZtR2Z1VGNTOHdVdDVzdnhkWVFiR0IzYi1uX3hXbjBSc0R0Qmw4TU9ZTHl2NTUtQXVxb1diRnRqclQxbl9raHQ3U25vWjItZ0dLZTVvZ0Fra2thMVozenY4STZ0SWVveE9kdlBkVVVCT3FtLWR2WUo?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-20T10:23:00.000Z"
+    },
+    {
+      "title": "v2.5.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-18T09:29:05.000Z"
+    },
+    {
+      "title": "PLN Kantongi Pembiayaan Transisi Energi US$2,94 Miliar di COP31",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlJmYmprQkxmekhBb2JtMWs0WmphdUotcXVNMDdUeWU3cDg3eEU1ZUF0UWNZVFRrdnVFLWx2Z3VOdllUVlF3RzE4a2NnSGpiR21TLWJRdWFxMTJxVTZISk1ZbXFsY3VDZVVGSF9ucGhqalBvdnY5NDFtRno5SUh5Y2s0ZWdrV1ZtVXIxbEhybEFHcDhBenJENGZUZFpGT3UtckFIcFFWeUtPT2p1ckRsejVVRU1IQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-20T08:42:00.000Z"
+    },
+    {
+      "title": "Salah Pakai Fasilitas Pajak, Restrukturisasi BUMN Bisa Dihitung Ulang",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T07:15:38.000Z"
+    },
+    {
+      "title": "v2.4.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-11T07:37:43.000Z"
+    },
+    {
+      "title": "Insentif Pajak Restrukturisasi BUMN Berlaku hingga 2029",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T04:11:11.000Z"
+    },
+    {
+      "title": "PLN berhasil mobilisasi pembiayaan hijau 2,94 miliar dolar AS di COP31",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWJ5TUhaaUNHVGNjS1pQenVQWlc0XzRtb3EyeEZJZk9Bb2YxMWRGeTRPR0JHaGkxSFFrYVVycnN1cGRpS0hNdUd1QV9aOXo1bXJMbTdRZ2ZTdDYtRkF4V3JEc1ItR2hzbkFNdTd1SXdDbXFET0d1Um1xeXdpeXRoMTV4Y2Q5SHhONlN4U2t0OE52TVZSbXhFczNPaV9YOGJfUWtuRGVnUWVHQVZCNDBIdEtPNNIBuAFBVV95cUxPSDJlYlVJNmNLWXFsLVNsVG1uaDRSWXB4QjhLcFVrME9LT3lnZ191emVuQl9vdF9MZHQxbEt3OVhiVlFsZm0ybjczQllZMVFKQ1Z3djA1akxieVNWOWMwU2d6eW5aODcwaEF3d3RhQ2dlanEyR1Fwek5DR1ZRbFpBM2oyYjM1RklOZzEyNHFEd1F6emk5Vi1kbjJaUUt3RUR2a0VzdmhFMThxWEFZMVdySXJodmJKVnBY?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-21T00:51:36.000Z"
+    },
+    {
+      "title": "Kata OJK soal Penerbitan Panda Bond dan Patriot Bond",
+      "publisher": "Tempo",
+      "url": "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-08-01T08:07:27.000Z"
+    },
+    {
+      "title": "Subsidi Pajak untuk Restrukturisasi BUMN",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T22:31:22.000Z"
+    },
+    {
+      "title": "Restructuring PLN's transmission business could lower financing costs and align grid investment with Indonesia's energy transition needs",
+      "publisher": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOXFQaThCV0NBcm9UemVQN21Bdmd0TXJZUXpoR0N4X0ZlY2JJcVhfenBRQ29HU0FVVlc1RmtFWVlfNFZMT01laWJtY2d5c2FuU0lrT1hJOElFUjQ4d1NsbFhicVdneFpXS1FkSnQ5YmZoSXE5Z2dPekpJVktoSElJNVE5bGFMdk5Hd3dvc2lCbDhISmFCU19tM0pSOFhKRHBuT3F2SHhnVU1qYWZJOHdj?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-05-12T07:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Insentif pajak restrukturisasi BUMN diperpanjang hingga 2029 dengan skema nilai buku",
+      "occurrences": 30,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-20",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic: Claude Fable 5.2 memecahkan dua masalah terbuka dalam fisika lubang hitam",
+      "occurrences": 28,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-20",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IEA: permintaan listrik global naik 37% hingga 2035, pusat data AI dan gelombang panas jadi pendorong utama",
+      "occurrences": 27,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-20",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "AS terapkan pembatasan chip AI ke pusat data Asia bersamaan kunjungan Trump ke Manila",
+      "occurrences": 21,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: kapasitas surya Indonesia 1,59 GWp, butuh percepatan 63 kali lipat untuk capai 100 GWp pada 2029",
+      "occurrences": 13,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 431,
+    "poolSize": 110,
+    "generatedAt": "2026-11-21T01:28:24.897Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}

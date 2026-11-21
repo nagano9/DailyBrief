@@ -1,0 +1,362 @@
+{
+  "slug": "2026-11-21",
+  "date": "2026-11-21",
+  "lang": "id",
+  "title": "PLN Raih $2,94 Miliar Pembiayaan Hijau COP31; Insentif PPh 0% BUMN Diperpanjang ke 2029",
+  "dek": "Dua keputusan pembiayaan besar, satu untuk transisi energi PLN dan satu untuk restrukturisasi BUMN, mengubah kalkulasi investasi Indonesia secara bersamaan.",
+  "domains": [
+    "energy",
+    "corporate",
+    "ai"
+  ],
+  "summary": "PLN memobilisasi USD 2,94 miliar pembiayaan hijau di COP31 Antalya, memperkuat sinyal bahwa transisi energi Indonesia kini memiliki pendanaan konkret meski kapasitas surya nasional baru 1,59 GWp dari target 100 GWp. Di sisi korporasi, pemerintah memperpanjang insentif PPh Final 0% untuk restrukturisasi BUMN hingga 2029, tetapi CNBC Indonesia melaporkan risiko penghitungan ulang bila fasilitas tersebut disalahgunakan. Rencana pengelolaan dana cadangan pesangon oleh Danantara terus memicu pertanyaan tata kelola. Di front AI, OpenAI merinci pendekatan berlapis untuk menangkal adversarial distillation, sebuah ancaman yang relevan bagi siapa pun yang menyebarkan model frontier dalam konteks komersial Indonesia.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "PLN",
+        "COP31",
+        "Bloomberg Technoz",
+        "RUPTL 2025-2034"
+      ],
+      "headline": "PLN mobilisasi USD 2,94 miliar pembiayaan hijau di COP31 Antalya",
+      "whatChanged": "PLN berhasil mengamankan komitmen pembiayaan transisi energi senilai USD 2,94 miliar di sela COP31 di Antalya, sebagaimana dikonfirmasi Bloomberg Technoz dan ANTARA pada 20-21 November 2026.",
+      "whyItMatters": "Ini melanjutkan tren pln-grid-investment yang sudah tercatat 27 kali dalam 30 hari terakhir. Angka USD 2,94 miliar adalah komitmen pembiayaan hijau terbesar yang dikonfirmasi untuk PLN dalam satu forum tunggal, mengubah diskusi transisi energi dari aspirasi kebijakan menjadi kewajiban kontraktual dengan lender internasional. Lender yang masuk berarti PLN harus memenuhi persyaratan pelaporan dan pemanfaatan dana yang mengikat.",
+      "secondOrder": "Ketika pembiayaan hijau internasional masuk dengan covenant ESG, PLN menghadapi tekanan untuk mempercepat pensiun aset batu bara lebih cepat dari jadwal RUPTL, karena covenant tersebut biasanya melarang penggunaan dana untuk memperbarui pembangkit fosil. Percepatan pensiun aset batu bara ini akan menaikkan kebutuhan kapasitas pengganti, langsung menekan timeline PLTS Mentari Nusantara II dan proyek-proyek serupa.",
+      "action": "Tim keuangan PLN dan Kementerian ESDM perlu mengidentifikasi covenant spesifik dari setiap fasilitas dalam paket USD 2,94 miliar ini, lalu memetakan konflik potensial dengan jadwal pensiun PLTU dalam RUPTL 2025-2034. Output yang diperlukan adalah matriks kesesuaian covenant versus RUPTL, siap sebelum negosiasi kontrak pembiayaan ditandatangani.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlJmYmprQkxmekhBb2JtMWs0WmphdUotcXVNMDdUeWU3cDg3eEU1ZUF0UWNZVFRrdnVFLWx2Z3VOdllUVlF3RzE4a2NnSGpiR21TLWJRdWFxMTJxVTZISk1ZbXFsY3VDZVVGSF9ucGhqalBvdnY5NDFtRno5SUh5Y2s0ZWdrV1ZtVXIxbEhybEFHcDhBenJENGZUZFpGT3UtckFIcFFWeUtPT2p1ckRsejVVRU1IQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWJ5TUhaaUNHVGNjS1pQenVQWlc0XzRtb3EyeEZJZk9Bb2YxMWRGeTRPR0JHaGkxSFFrYVVycnN1cGRpS0hNdUd1QV9aOXo1bXJMbTdRZ2ZTdDYtRkF4V3JEc1ItR2hzbkFNdTd1SXdDbXFET0d1Um1xeXdpeXRoMTV4Y2Q5SHhONlN4U2t0OE52TVZSbXhFczNPaV9YOGJfUWtuRGVnUWVHQVZCNDBIdEtPNNIBuAFBVV95cUxPSDJlYlVJNmNLWXFsLVNsVG1uaDRSWXB4QjhLcFVrME9LT3lnZ191emVuQl9vdF9MZHQxbEt3OVhiVlFsZm0ybjczQllZMVFKQ1Z3djA1akxieVNWOWMwU2d6eW5aODcwaEF3d3RhQ2dlanEyR1Fwek5DR1ZRbFpBM2oyYjM1RklOZzEyNHFEd1F6emk5Vi1kbjJaUUt3RUR2a0VzdmhFMThxWEFZMVdySXJodmJKVnBY?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Direktorat Jenderal Pajak",
+        "CNBC Indonesia"
+      ],
+      "headline": "PPh Final 0% restrukturisasi BUMN diperpanjang hingga 2029, risiko penghitungan ulang jika disalahgunakan",
+      "whatChanged": "Pemerintah menerbitkan ketentuan pembebasan PPh Final 0% untuk sejumlah transaksi restrukturisasi BUMN, berlaku hingga 2029. CNBC Indonesia pada 19 November 2026 melaporkan bahwa penyalahgunaan fasilitas ini dapat memicu penghitungan ulang pajak oleh otoritas. Kompas.com dan KONTAN mengkonfirmasi kebijakan tersebut.",
+      "whyItMatters": "Sinyal ini melanjutkan tema danantara-bumn-karya-restructuring yang sudah berjalan 30 kali sejak 22 Oktober 2026. Perpanjangan hingga 2029 memberi BUMN Karya dan entitas lain di bawah ekosistem Danantara jendela waktu yang lebih panjang untuk menyelesaikan konsolidasi aset, tetapi klausul penghitungan ulang menciptakan risiko pajak tangguhan yang harus diperhitungkan dalam valuasi.",
+      "secondOrder": "Risiko penghitungan ulang pajak meningkatkan due diligence yang dibutuhkan oleh investor ekuitas dan lender yang masuk ke BUMN yang sedang direstrukturisasi. Hal ini dapat memperlambat penutupan transaksi karena pihak eksternal akan meminta kepastian hukum lebih tinggi sebelum mengeksekusi, yang bertentangan dengan tujuan percepatan konsolidasi.",
+      "action": "Tim legal dan keuangan BUMN yang sedang dalam proses restrukturisasi harus menelaah definisi 'penyalahgunaan' dalam ketentuan PPh Final 0% ini, lalu menyiapkan opini hukum tertulis mengenai transaksi yang sedang berjalan sebelum akhir kuartal pertama 2027. Tanyakan langsung kepada Direktorat Jenderal Pajak apakah skema nilai buku yang sudah berjalan memerlukan re-konfirmasi.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDBuaVhaRlJtbFlGeWNXNUxMRlpNZ0pMZGlqdjJBd0dpU3NfYzVlenFiZHZ0WkpBa2x0enh3dWdpNUFQMjZtR2Z1VGNTOHdVdDVzdnhkWVFiR0IzYi1uX3hXbjBSc0R0Qmw4TU9ZTHl2NTUtQXVxb1diRnRqclQxbl9raHQ3U25vWjItZ0dLZTVvZ0Fra2thMVozenY4STZ0SWVveE9kdlBkVVVCT3FtLWR2WUo?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "Kementerian ESDM",
+        "PLN"
+      ],
+      "headline": "IESR: kapasitas surya Indonesia 1,59 GWp, butuh percepatan 63 kali lipat untuk capai target 100 GWp pada 2029",
+      "whatChanged": "IESR menerbitkan Indonesia Solar Energy Outlook (ISEO) 2027 pada 18-19 November 2026, mencatat kapasitas terpasang surya Indonesia saat ini adalah 1,59 GWp. Untuk mencapai target 100 GWp pada 2029, Indonesia perlu menambah kapasitas sekitar 63 kali lipat dari posisi sekarang. IESR menyebut kepastian regulasi dan pertumbuhan permintaan listrik sebagai dua hambatan utama.",
+      "whyItMatters": "Kesenjangan antara 1,59 GWp dan target 100 GWp bukan soal ambisi, melainkan soal kecukupan regulasi dan pembiayaan. Angka 63 kali lipat dalam tiga tahun berarti rata-rata penambahan sekitar 33 GWp per tahun, lebih tinggi dari kapasitas penambahan surya India pada puncak akselerasinya. Tanpa reformasi regulasi konsesi dan percepatan perizinan, target ini secara tekno-ekonomi tidak realistis.",
+      "secondOrder": "Ketidakpastian pencapaian target 100 GWp langsung mempengaruhi bankabilitas proyek surya skala besar yang sedang dalam pipeline pembiayaan, termasuk yang berkaitan dengan komitmen USD 2,94 miliar PLN di COP31. Jika target terlihat tidak tercapai, lender internasional dapat memperketat covenant atau meningkatkan risk premium pada fasilitas berikutnya.",
+      "action": "Investor dan pengembang proyek surya harus meminta IESR dan Kementerian ESDM merinci peta jalan regulasi yang konkret sebelum mengunci pembiayaan proyek baru. Susun analisis sensitivitas: skenario 10 GWp, 30 GWp, dan 60 GWp pada 2029, lalu nilai dampak masing-masing terhadap harga offtake dalam Power Purchase Agreement yang sedang dinegosiasikan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/kepastian-regulasi-dan-permintaan-listrik-jadi-sorotan-di-tengah-terbatasnya-kapasitas-plts/",
+        "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/"
+      ],
+      "secondOrderUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlJmYmprQkxmekhBb2JtMWs0WmphdUotcXVNMDdUeWU3cDg3eEU1ZUF0UWNZVFRrdnVFLWx2Z3VOdllUVlF3RzE4a2NnSGpiR21TLWJRdWFxMTJxVTZISk1ZbXFsY3VDZVVGSF9ucGhqalBvdnY5NDFtRno5SUh5Y2s0ZWdrV1ZtVXIxbEhybEFHcDhBenJENGZUZFpGT3UtckFIcFFWeUtPT2p1ckRsejVVRU1IQQ?oc=5"
+      ],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 14,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI"
+      ],
+      "headline": "OpenAI rinci pendekatan berlapis untuk menangkal adversarial distillation dari model frontier",
+      "whatChanged": "OpenAI menerbitkan dokumen teknis pada 20 November 2026 yang menjelaskan pendekatan berlapis untuk menangkal adversarial distillation, yaitu upaya ekstraksi kapabilitas model melalui interaksi sistematis. Lapisan pertahanan mencakup pelatihan model, safeguard runtime, deteksi perilaku, dan penegakan ketentuan layanan.",
+      "whyItMatters": "Sinyal ini melanjutkan tema ai-model-safety-frontier. Adversarial distillation adalah vektor ancaman yang sebelumnya kurang mendapat perhatian dibanding jailbreak konvensional. Dengan OpenAI secara terbuka merinci pertahanannya, penyedia model dan enterprise deployer kini memiliki kerangka referensi untuk menilai eksposur mereka sendiri terhadap ekstraksi kapabilitas.",
+      "secondOrder": "Perusahaan Indonesia yang menggunakan API model frontier untuk layanan komersial, termasuk lembaga keuangan dan BUMN digital, perlu mengevaluasi apakah kontrak API mereka mengandung ketentuan monitoring penggunaan yang cukup. Jika lawan memiliki insentif untuk mendistilasi kapabilitas dari akses API yang sah, perusahaan deployer dapat menanggung risiko reputasi dan hukum jika akses mereka dieksploitasi sebagai relay.",
+      "action": "Tim keamanan yang mengoperasikan produk berbasis API OpenAI harus meninjau log penggunaan untuk pola query yang bersifat systematic probing, yaitu query berulang dengan variasi kecil yang mengarah pada pemetaan batas kemampuan model. Susun kebijakan rate limiting dan anomaly detection spesifik untuk use case ini sebelum akhir kuartal pertama 2027.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://openai.com/index/combatting-adversarial-distillation"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "BPJS Ketenagakerjaan",
+        "Kementerian Ketenagakerjaan"
+      ],
+      "headline": "Rencana Danantara kelola dana cadangan pesangon memicu respons Menaker dan serikat buruh",
+      "whatChanged": "CNBC Indonesia, CNN Indonesia, dan detikFinance melaporkan antara 16-19 November 2026 bahwa serikat buruh menyebut Danantara sebagai salah satu kandidat pengelola dana cadangan pesangon, selain BPJS Ketenagakerjaan. Menteri Ketenagakerjaan memberikan klarifikasi publik atas rencana tersebut, namun kontroversi berlanjut.",
+      "whyItMatters": "Dana cadangan pesangon adalah kewajiban jangka panjang dengan profil risiko yang berbeda dari aset investasi strategis yang menjadi mandat utama Danantara. Penggabungan keduanya di bawah satu entitas menciptakan risiko governance campuran antara kewajiban sosial yang likuid dan investasi infrastruktur yang illikuid.",
+      "secondOrder": "Jika Dana cadangan pesangon masuk ke Danantara, skema ini berpotensi digunakan sebagai justifikasi untuk memperbesar neraca Danantara tanpa melewati proses penggalangan modal eksternal yang lazim. Hal ini dapat memperlemah disiplin investasi dan meningkatkan eksposur pekerja terhadap risiko investasi infrastruktur yang tidak sesuai dengan horizon kewajiban pesangon.",
+      "action": "Lembaga pengawas keuangan dan asosiasi pengusaha harus meminta klarifikasi resmi dari Kementerian Ketenagakerjaan dan Danantara mengenai struktur hukum, pemisahan aset, dan mekanisme klaim yang akan diterapkan jika pengelolaan dana pesangon dialihkan. Persiapkan posisi tertulis sebelum regulasi teknis diterbitkan.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSWhzZWdJdXotR3FJSkMyN3hGOEowenppMEZHd2JnN0h1QWhzcFVkelpoM0h6SzBDR1ZLbUJSMjIyM0pVOG05ZFc4S2dicnhFS3BpSVhONGlJSGU3S2xWYzJ6dUhxM01PWWJXUF9yNGljZktwbW9ZRUMtZHNuRUZkN0FiRGFIWXNZX0ZrMzhCMGltY0hlMDhfU2E5aVBXSFc3QUF5QVJHWm1GbTFoVno0T0liYVJNYndQVFI0aWRPdmdQdEHSAcgBQVVfeXFMUGtnRmZWd0FqVTdJN3dzbUcxX2VQT1pIQ0JNYVgyOGZGal9oSEpvWDlqeThyV3Z6TEdIdmJ0U05hS0lCOWdReXdacWk5aWQtTXVzNXlpTnM4VEJSbTgtOVBfNVA5MzhaaEoyb2wyckJjYTBOU3VZUk4ybzhzRkQyNF9iWlZwNUNUS0ZlbVEyY1hpTXhaQms3M3B3eTA2SDBkYkpUX2E4aGFiVjZkT3FteDZvNTgzU3IyS1ZRSDh4cWo1cG44VlpxZmI?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR1F2c0dzZk9ySzYwTWhucFlsYVhWeGZNZU02MVB2U2pzWjc4YTF0RnZyVjR1dFlNOGFNY0VsRHFFbEgwa0FrelpTYWZrM3R3S3JYeHU5dEkzUDJOZFdhd2g3QnFCcGZMQ2lRUmE4N1lCLTlHZlEwcjhSbnBOS3BsVVlKQ0wxU2NmTEtSUjA2ZnpsZE5uS0N5X1RXS0YzQm84VGVWeUgtNjcxc1hIMXlfbVdoVC04QjZhYUxMdERnZ9IBxAFBVV95cUxPNlFNVnVrUWt2b1NxX1oxR1hzazUtMUpGS2M4NXRjTFpReHdiUkp4NF9KYVhXak85d3BVRGFhenZSb0doWEVBVWJZbUJ5VzN2NGlTTk94aE9STjlGNkVEYjZYNmxpM0p3RVJnUE83b3h2MXE1TGFXNzZ2bmIwblZzTDA1Vm00enFROUF6cjhBS0xjcTA2SDlxR3ZlaVRIenhIOGsyMnF2YXo3S2xZbUpCRGRqRXlTaFRHckhDckd2RVNXb3V5?oc=5",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOVNyU1BrUWdrdllRLVBfMGczOEZnT1YyazRYb0dlcUVYMEFGWUFQX0ItME42U2xPZWFqM3hXenQ3Q2VEdkwzdTlqd1Zhd3ItOFJlRmxvTHJoaXFBVTl2OVBFWFd1MkVCQUNOLUQzNkE2R2h1bXZLRlB2OGlES25jaEx1V180ZlRRak5ndG5BTmJ1VjZnbDF2RE1tOXpTTDF2UE9fTXBUWktTdl9vT3l3SHYxWF9xVUIzVEhhQ3BrWDFBakk2TjJDbzVB0gHPAUFVX3lxTFA5TDJGXzVjaWlYdGljMEdYdk1MR1d6X29xSWU1cHQ4aWNYY3VKVG5mZ1ZUWlpnRVRuZ3lMTFFZRWNHVkdQTjJnVXFSQ3l1b2hWZDhKYWRUTzAwUUxjS1FsYUh0bW1ieFpDYzNMb1BIWjRESkdaLTBZU2QtNW9vYkN6ZUM0NDVhcFJadG1JN3p3ZThySGVxeC00WUZBVHl0QTZCWWdOU21aTld6WGZqd21QUDBzZTFjaUhlU25oWC1MdnVfYUtRUF91M3ZSSU5uVQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-22",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Rincian covenant dan daftar lender dalam paket pembiayaan hijau USD 2,94 miliar PLN di COP31; konfirmasi apakah ada larangan eksplisit terhadap aset batu bara",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Regulasi teknis PPh Final 0% restrukturisasi BUMN: definisi penyalahgunaan dan prosedur penghitungan ulang oleh Direktorat Jenderal Pajak",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Peta jalan regulasi PLTS 100 GWp dari Kementerian ESDM: target perizinan, skema tarif, dan jadwal lelang yang konkret untuk 2027",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "Keputusan resmi mengenai pengelola dana cadangan pesangon: apakah Danantara, BPJS Ketenagakerjaan, atau entitas lain yang ditetapkan oleh Kementerian Ketenagakerjaan",
+      "dueDate": "2027-02-28"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Combatting adversarial distillation",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "title": "Kepastian Regulasi dan Permintaan Listrik Jadi Sorotan di Tengah Terbatasnya Kapasitas PLTS",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/kepastian-regulasi-dan-permintaan-listrik-jadi-sorotan-di-tengah-terbatasnya-kapasitas-plts/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-20T02:28:02.000Z"
+    },
+    {
+      "title": "IESR: Surya Indonesia Baru 1,59 GWp, Target 100 GWp Menuntut Percepatan Nyata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T08:29:08.000Z"
+    },
+    {
+      "title": "Pemerintah Bebaskan PPh Final 0 Persen untuk Sejumlah Transaksi Restrukturisasi BUMN",
+      "publisher": "Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDBuaVhaRlJtbFlGeWNXNUxMRlpNZ0pMZGlqdjJBd0dpU3NfYzVlenFiZHZ0WkpBa2x0enh3dWdpNUFQMjZtR2Z1VGNTOHdVdDVzdnhkWVFiR0IzYi1uX3hXbjBSc0R0Qmw4TU9ZTHl2NTUtQXVxb1diRnRqclQxbl9raHQ3U25vWjItZ0dLZTVvZ0Fra2thMVozenY4STZ0SWVveE9kdlBkVVVCT3FtLWR2WUo?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-20T10:23:00.000Z"
+    },
+    {
+      "title": "Heboh Dana Cadangan Pesangon Dikelola Danantara, Menaker Buka Suara",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSWhzZWdJdXotR3FJSkMyN3hGOEowenppMEZHd2JnN0h1QWhzcFVkelpoM0h6SzBDR1ZLbUJSMjIyM0pVOG05ZFc4S2dicnhFS3BpSVhONGlJSGU3S2xWYzJ6dUhxM01PWWJXUF9yNGljZktwbW9ZRUMtZHNuRUZkN0FiRGFIWXNZX0ZrMzhCMGltY0hlMDhfU2E5aVBXSFc3QUF5QVJHWm1GbTFoVno0T0liYVJNYndQVFI0aWRPdmdQdEHSAcgBQVVfeXFMUGtnRmZWd0FqVTdJN3dzbUcxX2VQT1pIQ0JNYVgyOGZGal9oSEpvWDlqeThyV3Z6TEdIdmJ0U05hS0lCOWdReXdacWk5aWQtTXVzNXlpTnM4VEJSbTgtOVBfNVA5MzhaaEoyb2wyckJjYTBOU3VZUk4ybzhzRkQyNF9iWlZwNUNUS0ZlbVEyY1hpTXhaQms3M3B3eTA2SDBkYkpUX2E4aGFiVjZkT3FteDZvNTgzU3IyS1ZRSDh4cWo1cG44VlpxZmI?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T07:22:02.000Z"
+    },
+    {
+      "title": "PLN Kantongi Pembiayaan Transisi Energi US$2,94 Miliar di COP31",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTlJmYmprQkxmekhBb2JtMWs0WmphdUotcXVNMDdUeWU3cDg3eEU1ZUF0UWNZVFRrdnVFLWx2Z3VOdllUVlF3RzE4a2NnSGpiR21TLWJRdWFxMTJxVTZISk1ZbXFsY3VDZVVGSF9ucGhqalBvdnY5NDFtRno5SUh5Y2s0ZWdrV1ZtVXIxbEhybEFHcDhBenJENGZUZFpGT3UtckFIcFFWeUtPT2p1ckRsejVVRU1IQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-20T08:42:00.000Z"
+    },
+    {
+      "title": "Salah Pakai Fasilitas Pajak, Restrukturisasi BUMN Bisa Dihitung Ulang",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T07:15:38.000Z"
+    },
+    {
+      "title": "Apa Benar Dana Cadangan Pesangon Akan Disimpan di Danantara?",
+      "publisher": "CNN Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR1F2c0dzZk9ySzYwTWhucFlsYVhWeGZNZU02MVB2U2pzWjc4YTF0RnZyVjR1dFlNOGFNY0VsRHFFbEgwa0FrelpTYWZrM3R3S3JYeHU5dEkzUDJOZFdhd2g3QnFCcGZMQ2lRUmE4N1lCLTlHZlEwcjhSbnBOS3BsVVlKQ0wxU2NmTEtSUjA2ZnpsZE5uS0N5X1RXS0YzQm84VGVWeUgtNjcxc1hIMXlfbVdoVC04QjZhYUxMdERnZ9IBxAFBVV95cUxPNlFNVnVrUWt2b1NxX1oxR1hzazUtMUpGS2M4NXRjTFpReHdiUkp4NF9KYVhXak85d3BVRGFhenZSb0doWEVBVWJZbUJ5VzN2NGlTTk94aE9STjlGNkVEYjZYNmxpM0p3RVJnUE83b3h2MXE1TGFXNzZ2bmIwblZzTDA1Vm00enFROUF6cjhBS0xjcTA2SDlxR3ZlaVRIenhIOGsyMnF2YXo3S2xZbUpCRGRqRXlTaFRHckhDckd2RVNXb3V5?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-17T01:51:10.000Z"
+    },
+    {
+      "title": "Insentif Pajak Restrukturisasi BUMN Berlaku hingga 2029",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1ZmeDhWSmUtV0tjQzhGR2NVdlBrSDhtS1RFdmNpUnRFRnJKbUhwUENNMnRRR0cxYUFoTWhzODdfOXhMM3czM1VCQXVqcUpXbkNza3JZOW92eWt2V096MF9zWloxamY3M0VzWTEtcm5ldXh3c05qdG1lc1JQTWxyYl9wSkFqZzVhY3hIMTl0ZUViMzlUR3dzWndGV21yd0YweS1RcjhpZ0JqODFMVk15MHR3aVPSAboBQVVfeXFMTWhBRVMtRDlPS2hsSDBaenhNRGI2MkNqU0h5a2RjelNaZ1NkUGw0WUpJWnJ4bEpHZVhMY2Z0MWRZNWVIVDg0Q1U5Z3h4RnZFandYLXFjSlZSS3NEM3gtMEl0NW9XakFOeDlOLVFjQ3M5YmZLZEE2Yzg0ckw2YVJXZk1RMnp1bktmWFlOMWxlamtuWDZYVnRPVndpVmxGRDZibXBIOEotQ2ZIZmZ5NHFpcEtxX01YcFJSdlhB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T04:11:11.000Z"
+    },
+    {
+      "title": "Buruh Sebut BPJS Ketenagakerjaan & Danantara Calon Pengelola Dana Pesangon",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOVNyU1BrUWdrdllRLVBfMGczOEZnT1YyazRYb0dlcUVYMEFGWUFQX0ItME42U2xPZWFqM3hXenQ3Q2VEdkwzdTlqd1Zhd3ItOFJlRmxvTHJoaXFBVTl2OVBFWFd1MkVCQUNOLUQzNkE2R2h1bXZLRlB2OGlES25jaEx1V180ZlRRak5ndG5BTmJ1VjZnbDF2RE1tOXpTTDF2UE9fTXBUWktTdl9vT3l3SHYxWF9xVUIzVEhhQ3BrWDFBakk2TjJDbzVB0gHPAUFVX3lxTFA5TDJGXzVjaWlYdGljMEdYdk1MR1d6X29xSWU1cHQ4aWNYY3VKVG5mZ1ZUWlpnRVRuZ3lMTFFZRWNHVkdQTjJnVXFSQ3l1b2hWZDhKYWRUTzAwUUxjS1FsYUh0bW1ieFpDYzNMb1BIWjRESkdaLTBZU2QtNW9vYkN6ZUM0NDVhcFJadG1JN3p3ZThySGVxeC00WUZBVHl0QTZCWWdOU21aTld6WGZqd21QUDBzZTFjaUhlU25oWC1MdnVfYUtRUF91M3ZSSU5uVQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-16T23:15:54.000Z"
+    },
+    {
+      "title": "PLN berhasil mobilisasi pembiayaan hijau 2,94 miliar dolar AS di COP31",
+      "publisher": "ANTARA News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWJ5TUhaaUNHVGNjS1pQenVQWlc0XzRtb3EyeEZJZk9Bb2YxMWRGeTRPR0JHaGkxSFFrYVVycnN1cGRpS0hNdUd1QV9aOXo1bXJMbTdRZ2ZTdDYtRkF4V3JEc1ItR2hzbkFNdTd1SXdDbXFET0d1Um1xeXdpeXRoMTV4Y2Q5SHhONlN4U2t0OE52TVZSbXhFczNPaV9YOGJfUWtuRGVnUWVHQVZCNDBIdEtPNNIBuAFBVV95cUxPSDJlYlVJNmNLWXFsLVNsVG1uaDRSWXB4QjhLcFVrME9LT3lnZ191emVuQl9vdF9MZHQxbEt3OVhiVlFsZm0ybjczQllZMVFKQ1Z3djA1akxieVNWOWMwU2d6eW5aODcwaEF3d3RhQ2dlanEyR1Fwek5DR1ZRbFpBM2oyYjM1RklOZzEyNHFEd1F6emk5Vi1kbjJaUUt3RUR2a0VzdmhFMThxWEFZMVdySXJodmJKVnBY?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-21T00:51:36.000Z"
+    },
+    {
+      "title": "Subsidi Pajak untuk Restrukturisasi BUMN",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T22:31:22.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Insentif pajak restrukturisasi BUMN diperpanjang hingga 2029 dengan skema nilai buku",
+      "occurrences": 30,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-20",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Anthropic: Claude Fable 5.2 memecahkan dua masalah terbuka dalam fisika lubang hitam",
+      "occurrences": 28,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-20",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IEA: permintaan listrik global naik 37% hingga 2035, pusat data AI dan gelombang panas jadi pendorong utama",
+      "occurrences": 27,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-20",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "AS terapkan pembatasan chip AI ke pusat data Asia bersamaan kunjungan Trump ke Manila",
+      "occurrences": 21,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-18",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: kapasitas surya Indonesia 1,59 GWp, butuh percepatan 63 kali lipat untuk capai 100 GWp pada 2029",
+      "occurrences": 13,
+      "firstSeen": "2026-10-22",
+      "lastSeen": "2026-11-20",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 431,
+    "poolSize": 110,
+    "generatedAt": "2026-11-21T01:27:04.297Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
