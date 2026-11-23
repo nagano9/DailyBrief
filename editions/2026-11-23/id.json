@@ -1,0 +1,356 @@
+{
+  "slug": "2026-11-23",
+  "date": "2026-11-23",
+  "lang": "id",
+  "title": "Gemini 4 Neon, MCP v2.5.0, Danantara USD50M, PLTS Indonesia, COP31 Gagal Sepakat",
+  "dek": "Lima sinyal material hari ini mencakup peluncuran model frontier Google, eskalasi kerentanan protokol AI, ambisi infrastruktur Danantara, krisis percepatan surya Indonesia, dan kegagalan historis COP31 mencapai konsensus.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "Google DeepMind meluncurkan Gemini 4 Neon, menambah tekanan kompetitif di segmen model frontier setelah Gemini 4 Hydrogen dua pekan lalu. Model Context Protocol merilis v2.5.0 yang menambal delapan kerentanan baru, memperpanjang pola kelemahan keamanan struktural yang kini mencakup 14 kerentanan dalam dua pekan. Danantara mengumumkan proyek 10 Kota Masa Depan senilai USD 50 miliar yang berpotensi menjadi katalis nyata bagi emiten konstruksi BUMN, sementara fasilitas PPh Final 0% untuk restrukturisasi BUMN membuka ruang penyalahgunaan yang sudah disorot regulator. IESR mengonfirmasi kapasitas PLTS Indonesia baru 1,59 GWp dari target 100 GWp, mengindikasikan bahwa kepastian regulasi dan permintaan listrik tetap menjadi hambatan struktural utama. COP31 di Antalya gagal mencapai kesepakatan setelah perundingan terpanjang dalam sejarah, menggugurkan USD 120 miliar komitmen pendanaan adaptasi dan memperlemah sinyal harga karbon global yang menjadi landasan investasi transisi energi.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "Google DeepMind",
+        "Gemini 4 Neon",
+        "Gemini 4 Hydrogen"
+      ],
+      "headline": "Google DeepMind luncurkan Gemini 4 Neon, dua pekan setelah Gemini 4 Hydrogen",
+      "whatChanged": "Google DeepMind secara resmi meluncurkan Gemini 4 Neon pada 2026-11-18, menyusul Gemini 4 Hydrogen yang diluncurkan pada 2026-11-12. Ini adalah dua rilis dalam satu seri model yang terjadi dalam rentang enam hari oleh lab yang sama.",
+      "whyItMatters": "Tema ai-model-safety-frontier kini berstatus structural dengan 28 kemunculan sejak Oktober. Pola yang terbentuk adalah percepatan siklus rilis model frontier oleh lab utama, yang mempersingkat jendela evaluasi keamanan dan kapabilitas bagi pengguna korporat dan regulator. Dua varian Gemini 4 dalam dua pekan menunjukkan bahwa diferensiasi kini terjadi di dalam satu generasi model, bukan antar-generasi.",
+      "secondOrder": "Pengguna enterprise yang menetapkan kebijakan penggunaan AI berdasarkan satu model tertentu kini menghadapi risiko kebijakan yang obsolete lebih cepat dari siklus review internal. Vendor yang membangun produk di atas model tertentu juga terkena risiko roadmap yang tidak transparan, karena dua varian dalam satu seri menunjukkan Google dapat merilis varian tambahan tanpa pemberitahuan panjang.",
+      "action": "Tinjau klausul kontrak dengan vendor AI yang mereferensikan versi model spesifik; pastikan ada mekanisme review berkala atau klausul substitusi model agar kebijakan penggunaan tidak terkunci pada versi yang sudah digantikan.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://deepmind.google/blog/introducing-gemini-4-neon/",
+        "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "KONTAN",
+        "CNBC Indonesia"
+      ],
+      "headline": "Danantara umumkan proyek 10 Kota Masa Depan USD 50 miliar, uji kelayakan emiten konstruksi BUMN",
+      "whatChanged": "Danantara mengumumkan proyek 10 Kota Masa Depan senilai USD 50 miliar. KONTAN melaporkan pada 2026-11-22 bahwa pasar mempertanyakan apakah proyek ini menjadi katalis riil bagi emiten konstruksi. Bersamaan, laporan CNBC Indonesia 2026-11-19 menyoroti bahwa penyalahgunaan fasilitas PPh Final 0% untuk restrukturisasi BUMN dapat memicu penghitungan ulang pajak.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring telah muncul 30 kali sejak Oktober sebagai kondisi structural. Pengumuman proyek USD 50 miliar memberikan angka konkret pertama pada ambisi Danantara di sektor infrastruktur perkotaan, tetapi mekanisme pembiayaan dan alokasi kontrak ke emiten BUMN karya belum dikonfirmasi. Risiko pajak dari penyalahgunaan PPh Final 0% yang sudah diidentifikasi regulator menambah lapisan ketidakpastian pada nilai bersih restrukturisasi.",
+      "secondOrder": "Jika proyek 10 Kota Masa Depan distrukturkan sebagai project finance dengan Danantara sebagai sponsor, maka emiten konstruksi BUMN akan memerlukan neraca yang cukup kuat untuk menanggung eksposur EPC sebelum pembayaran dari offtaker. Restrukturisasi yang sedang berjalan di bawah PPh Final 0% justru berisiko menghasilkan neraca yang masih rapuh pada saat proyek ini harus dieksekusi, menciptakan ketegangan antara agenda restrukturisasi dan agenda ekspansi.",
+      "action": "Analisis struktur pembiayaan proyek 10 Kota Masa Depan secara berurutan: identifikasi apakah Danantara berperan sebagai sponsor atau fasilitator, siapa offtaker yang ditetapkan, dan apakah emiten BUMN karya yang menjadi kandidat kontraktor sudah memiliki rasio utang yang memungkinkan eksposur EPC baru.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOUNpTUx0cDZ1TVpUZ0dGbVdhYUxNX20yZXBPdjJqN1c0azZoaWtyclAwQkdDUV9NdWRRZGtKZ2pmQzBxeTRnTVJKTjJRMVNZek1nVXpuczZURHR0WTFqejU4QUJWcWp3OVBMYzUtd2FWdFRtUlpPY3dWbjZPdHdWZlNfSnQ2ZTkyMjFsbGxlejlkbm5MQk1GbWZQZF9sVm05NTVTVHhUMVBvY2lTbEZVUFd0MA?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "Kementerian ESDM",
+        "Indonesia Solar Energy Outlook"
+      ],
+      "headline": "IESR: Kapasitas PLTS Indonesia 1,59 GWp, kepastian regulasi dan permintaan listrik hambat percepatan",
+      "whatChanged": "IESR pada 2026-11-19 merilis temuan tambahan dari Indonesia Solar Energy Outlook (ISEO) 2027 yang mengidentifikasi kepastian regulasi dan permintaan listrik sebagai hambatan utama, melengkapi data kapasitas 1,59 GWp dari 2026-11-18. Target 100 GWp di 2029 membutuhkan percepatan 63 kali lipat dari laju saat ini.",
+      "whyItMatters": "Tema ini berstatus structural dengan 14 kemunculan sejak Oktober. Dua laporan IESR dalam dua hari mengonfirmasi bahwa hambatannya bukan teknis melainkan struktural: ketidakpastian regulasi menekan keputusan investasi pengembang, sementara permintaan listrik yang belum terbentuk dari segmen industri dan data center membuat proyek sulit mendapat offtaker bankable. Kementerian ESDM mengundang Jepang untuk kerja sama PLTS 100 GWp pada 2026-11-17, tetapi tanpa resolusi hambatan domestik, kemitraan asing tidak akan bergerak ke tahap proyek.",
+      "secondOrder": "Jika percepatan 63 kali lipat tidak terjadi sebelum 2029, Indonesia kehilangan posisi tawar dalam negosiasi insentif investasi energi terbarukan dari mitra bilateral, karena investor asing akan mengalokasikan kapital ke pasar yang memiliki kepastian regulasi lebih tinggi. Ini bersamaan dengan tekanan CBAM Uni Eropa yang sudah diidentifikasi IESR pada 2026-11-12 sebagai ancaman daya saing ekspor industri Indonesia.",
+      "action": "Pemetaan regulasi: identifikasi secara konkret pasal mana dalam regulasi PLTS yang menimbulkan ketidakpastian bagi pengembang, dan bandingkan dengan kerangka regulasi pasar ASEAN lain yang berhasil menarik investasi surya skala besar, untuk menyusun rekomendasi revisi yang spesifik.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://iesr.or.id/kepastian-regulasi-dan-permintaan-listrik-jadi-sorotan-di-tengah-terbatasnya-kapasitas-plts/",
+        "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc09UNHNNWklJNTQ0OUZxSTBXVjV2ZXNvX3ZQeWd1T081Q0lQaTdsa1kwZEhabm9QTkYzM2hBUXZuX29MYU9sZVVndnJzRlBNdmNfRWVIcU5NclZjUlVlOVRyZVB4S2t2WExWR1FSd0hxZXZMeHl4TWowYmYzZkRfclhRa2wxa0VvOWpQRzJUZGVxeEExcEd0QkJUOVJPR1kxbTZuaTJJNjZveDdJM0NkVDZKSjZyRHlzeHFGWUVpY2FPNmIyQ3NPZE9jTUxnYUdN?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 15,
+        "firstSeen": "2026-10-28",
+        "spanDays": 26
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "COP31",
+        "PLN",
+        "Carbon Brief"
+      ],
+      "headline": "COP31 gagal capai kesepakatan setelah perundingan terpanjang, USD 120 miliar adaptasi tidak terkonfirmasi",
+      "whatChanged": "COP31 di Antalya berakhir tanpa kesepakatan setelah perundingan diperpanjang dua hari, menjadikannya negosiasi terpanjang dalam sejarah COP. Katadata melaporkan pada 2026-11-22 bahwa kegagalan ini mencakup tidak terkonfirmasinya angka USD 120 miliar untuk pendanaan adaptasi yang sebelumnya ada dalam draf. Carbon Brief pada 2026-11-11 sudah mencatat penurunan 70% komitmen pendanaan publik untuk iklim dibanding periode sebelumnya.",
+      "whyItMatters": "Tema pln-grid-investment berstatus structural dengan 27 kemunculan. PLN mengamankan USD 2,94 miliar pembiayaan hijau di COP31, tetapi kegagalan COP31 mencapai kesepakatan global memperlemah fondasi normatif yang mendorong pembiayaan hijau multilateral. Ketiadaan angka pendanaan adaptasi yang mengikat mengurangi insentif bagi lembaga keuangan multilateral untuk menetapkan alokasi baru ke proyek energi di negara berkembang.",
+      "secondOrder": "Tanpa kerangka pendanaan adaptasi global yang disepakati, proyek energi terbarukan Indonesia yang bergantung pada blended finance dari lembaga multilateral menghadapi risiko pipeline yang melambat. Investor institusional yang menggunakan sinyal COP sebagai justifikasi alokasi ke aset hijau perlu merevisi asumsi bahwa komitmen multilateral akan mengalir otomatis pasca-COP31.",
+      "action": "Tinjau ulang asumsi sumber pendanaan untuk proyek energi terbarukan yang saat ini bergantung pada komitmen multilateral atau pendanaan adaptasi: identifikasi mana yang perlu dialihkan ke pembiayaan bilateral atau komersial mengingat tidak adanya kesepakatan COP31 yang mengikat.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://katadata.co.id/ekonomi-hijau/ekonomi-sirkular/6b0305de929c5/negosiasi-terlama-dalam-sejarah-mengapa-cop31-gagal-capai-kesepakatan",
+        "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-24",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Model Context Protocol",
+        "mcp-server-git",
+        "server-filesystem"
+      ],
+      "headline": "MCP v2.5.0 tambal delapan kerentanan baru, total 14 kerentanan dalam dua pekan",
+      "whatChanged": "Model Context Protocol v2.5.0 dirilis pada 2026-11-18 dan menambal delapan kerentanan di tiga server: mcp-server-git diupgrade ke 2026.11.18, server-filesystem ke 2.4.0, dan server-slack ke 2.1.0. Ini terjadi tujuh hari setelah v2.4.0 menambal enam kerentanan pada 2026-11-11.",
+      "whyItMatters": "Tema enterprise-ai-data-privacy-contracts mencatat pola ini selama 10 kali sejak Oktober. Dua rilis keamanan dalam tujuh hari pada protokol yang semakin banyak digunakan sebagai lapisan integrasi agen AI dengan sistem enterprise mengindikasikan bahwa permukaan serangan MCP tumbuh lebih cepat dari kapasitas audit keamanan. Organisasi yang sudah deploy MCP di lingkungan produksi mewarisi eksposur kumulatif.",
+      "secondOrder": "Pola patch berulang cepat seringkali merupakan indikator bahwa audit keamanan komprehensif belum selesai, bukan tanda bahwa masalah sudah tuntas. Procurement officer yang menyertakan MCP dalam arsitektur agen AI perlu menetapkan Service Level Agreement pembaruan keamanan, karena siklus patch dua-mingguan mengimplikasikan bahwa deployment tanpa prosedur update otomatis berarti lingkungan produksi selalu tertinggal.",
+      "action": "Audit semua deployment MCP di lingkungan organisasi minggu ini; konfirmasi apakah mcp-server-git, server-filesystem, dan server-slack sudah pada versi yang ditetapkan v2.5.0, dan tetapkan prosedur update terjadwal mengingat frekuensi patch yang meningkat.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 11,
+        "firstSeen": "2026-10-25",
+        "spanDays": 29
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Konfirmasi mekanisme pembiayaan dan alokasi kontrak proyek 10 Kota Masa Depan Danantara USD 50 miliar kepada emiten BUMN karya",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Rilis patch MCP berikutnya: pantau apakah v2.6.0 muncul dalam dua pekan dan apakah cakupan kerentanan meluas ke server di luar tiga yang sudah ditambal",
+      "dueDate": "2026-12-02"
+    },
+    {
+      "item": "Respons Kementerian ESDM terhadap temuan IESR ISEO 2027 mengenai hambatan regulasi PLTS, khususnya dalam konteks negosiasi kerja sama energi dengan Jepang",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Tindak lanjut negosiasi COP31: apakah akan ada sesi luar biasa atau kesepakatan bilateral yang menggantikan angka USD 120 miliar pendanaan adaptasi yang gugur",
+      "dueDate": "2027-02-28"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kepastian Regulasi dan Permintaan Listrik Jadi Sorotan di Tengah Terbatasnya Kapasitas PLTS",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/kepastian-regulasi-dan-permintaan-listrik-jadi-sorotan-di-tengah-terbatasnya-kapasitas-plts/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-20T02:28:02.000Z"
+    },
+    {
+      "title": "Introducing Gemini 4 Neon",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T21:35:43.000Z"
+    },
+    {
+      "title": "IESR: Surya Indonesia Baru 1,59 GWp, Target 100 GWp Menuntut Percepatan Nyata",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/iesr-surya-indonesia-baru-159-gwp-target-100-gwp-menuntut-percepatan-nyata/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-18T08:29:08.000Z"
+    },
+    {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "publisher": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-12T18:00:50.000Z"
+    },
+    {
+      "title": "Proyek 10 Kota Masa Depan Danantara US$ 50 Miliar, Katalis Riil Emiten Konstruksi?",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOUNpTUx0cDZ1TVpUZ0dGbVdhYUxNX20yZXBPdjJqN1c0azZoaWtyclAwQkdDUV9NdWRRZGtKZ2pmQzBxeTRnTVJKTjJRMVNZek1nVXpuczZURHR0WTFqejU4QUJWcWp3OVBMYzUtd2FWdFRtUlpPY3dWbjZPdHdWZlNfSnQ2ZTkyMjFsbGxlejlkbm5MQk1GbWZQZF9sVm05NTVTVHhUMVBvY2lTbEZVUFd0MA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-22T03:30:04.000Z"
+    },
+    {
+      "title": "Negosiasi Terlama dalam Sejarah, Mengapa COP31 Gagal Capai Kesepakatan?",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/ekonomi-hijau/ekonomi-sirkular/6b0305de929c5/negosiasi-terlama-dalam-sejarah-mengapa-cop31-gagal-capai-kesepakatan",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-22T22:45:00.000Z"
+    },
+    {
+      "title": "v2.5.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-18T09:29:05.000Z"
+    },
+    {
+      "title": "Salah Pakai Fasilitas Pajak, Restrukturisasi BUMN Bisa Dihitung Ulang",
+      "publisher": "CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2lRZ2diYjctZjFJb240MkF5dW54RkpTaHM0RTRiYS1LVGgwSWcyUXlVVVYwZ1cyVVYzekd1TXY3aVFYTU53WTR3SGF2Q2NJSUJrQVV5SERId2VEWnpEVzRfVGdyZTJaNlZjZkw5TUFVekI4MGFzcW4xeDZTdkVjSFRSWHc2RHQ1UmNnb29RaHJfSWo1UnJDNFdqc3FneldDWWF0N19QalZXbjlVX1dTbzUteUhqMkw1YVY2S3lLUWhHRWtoRWfSAcsBQVVfeXFMTlBkcXRUMXBxZEF2bWtMQ0s4bUV1Skd0TXYzZVo0bUNGQXY0NzBUZ1oxNkJHYWtIR09wc0h2UlM2LU4xeHg1T0Z6TmZ2dmppbFFJUTBHTnF3VndhU0tic283RUpjd3EtSFBRai1EbmRJblMxMXJaelphWlBfVy1wMkY5NFdqS1YzQTFDTllwb2V2LVpTb1Z0dHZ1bHZSNTZTWXlJM092NnYzb0NkbHJxUWJ6b09Mc2NpU09QV1RPcDN1Tk9PVV80WmlmNVk?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-19T07:15:38.000Z"
+    },
+    {
+      "title": "Dari B50 hingga PLTS 100 GWp, Indonesia Ajak Jepang Perkuat Kerja Sama Energi Bersih",
+      "publisher": "Kementerian ESDM",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc09UNHNNWklJNTQ0OUZxSTBXVjV2ZXNvX3ZQeWd1T081Q0lQaTdsa1kwZEhabm9QTkYzM2hBUXZuX29MYU9sZVVndnJzRlBNdmNfRWVIcU5NclZjUlVlOVRyZVB4S2t2WExWR1FSd0hxZXZMeHl4TWowYmYzZkRfclhRa2wxa0VvOWpQRzJUZGVxeEExcEd0QkJUOVJPR1kxbTZuaTJJNjZveDdJM0NkVDZKSjZyRHlzeHFGWUVpY2FPNmIyQ3NPZE9jTUxnYUdN?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-17T22:03:33.000Z"
+    },
+    {
+      "title": "v2.4.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-11T07:37:43.000Z"
+    },
+    {
+      "title": "Analysis: Climate-finance pledges fall 70% as countries meet at COP31",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-11T07:00:00.000Z"
+    },
+    {
+      "title": "Subsidi Pajak untuk Restrukturisasi BUMN",
+      "publisher": "KONTAN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9USTZ5NGkweFV4UVdxR0hMb0lEc3lSTEd0Z015RUNQbTFyanpNSU1qSEo4R1R0MVIzTUVKQV93YjhRcGs3d21aRWFIbDZvZk5rNWhqQ3ZzUkM2NTNDalNCS1ktVndka3JmZFdHeW81VGNacXhVZFJibnVHNmtQUTA?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-18T22:31:22.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "PPh Final 0% untuk restrukturisasi BUMN resmi berlaku, aktif hingga 2029",
+      "occurrences": 30,
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-11-22",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "OpenAI publikasikan pendekatan teknis berlapis untuk menangkal adversarial distillation",
+      "occurrences": 28,
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-11-22",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "PLN amankan USD 2,94 miliar pembiayaan hijau di COP31 Antalya",
+      "occurrences": 27,
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-11-22",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Spanyol wajibkan 80% listrik EBT untuk data center, pagu investasi EUR 17,14 miliar",
+      "occurrences": 20,
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-11-22",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: Kapasitas surya Indonesia 1,59 GWp, target 100 GWp butuh percepatan 63 kali lipat",
+      "occurrences": 14,
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-11-22",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 417,
+    "poolSize": 110,
+    "generatedAt": "2026-11-23T00:14:04.698Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
