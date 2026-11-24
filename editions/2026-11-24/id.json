@@ -1,0 +1,308 @@
+{
+  "slug": "2026-11-24",
+  "date": "2026-11-24",
+  "lang": "id",
+  "title": "Danantara Bebas Pajak Restrukturisasi; MCP v2.5.0 Tambal 8 Kerentanan Baru",
+  "dek": "Insentif pajak restrukturisasi Danantara mempercepat konsolidasi 1.000 ke 300 entitas, sementara akumulasi kerentanan MCP mempertegas risiko keamanan agen AI pada infrastruktur produksi.",
+  "domains": [
+    "corporate",
+    "energy",
+    "ai"
+  ],
+  "summary": "Pemerintah Indonesia mengumumkan insentif pajak yang membebaskan entitas di bawah Danantara dari kewajiban pajak di muka selama restrukturisasi, mendukung konsolidasi 1.000 perusahaan menjadi 300. Bersamaan, Danantara Investment Management (DIM) memproyeksikan laba 2026 hanya Rp 800 miliar, di bawah target, memberi tekanan tambahan pada narasi kinerja. Di sisi AI, MCP v2.5.0 menambal delapan kerentanan baru sehingga total 14 kerentanan diperbaiki dalam dua pekan, menandakan permukaan serangan agen AI makin lebar. KTT ASEAN ke-49 menetapkan pergeseran pendekatan ketahanan energi dari sekadar pasokan menuju transisi, namun tanpa komitmen pembiayaan konkret. IEA menerbitkan World Energy Outlook 2026 yang memproyeksikan permintaan listrik global naik sekitar 37 persen hingga 2035, didorong pendingin udara dan pusat data AI.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara",
+        "Danantara Investment Management",
+        "Suahasil Nazara",
+        "Rosan Roeslani"
+      ],
+      "headline": "Pemerintah bebaskan pajak di muka untuk restrukturisasi Danantara, konsolidasi 1.000 ke 300 entitas",
+      "whatChanged": "Wakil Menteri Keuangan Suahasil Nazara menyatakan pemerintah menyiapkan insentif pajak bagi entitas di bawah Danantara yang menjalani restrukturisasi: perusahaan tidak diwajibkan membayar pajak di muka selama proses konsolidasi berlangsung. Pajak baru dipungut setelah Danantara menghasilkan investasi. Target konsolidasi adalah memangkas sekitar 1.000 perusahaan menjadi 300. Bersamaan, CEO Danantara Rosan Roeslani memproyeksikan laba Danantara Investment Management (DIM) di 2026 hanya Rp 800 miliar, di bawah target semula.",
+      "whyItMatters": "Insentif pajak ini melanjutkan tema struktural danantara-bumn-karya-restructuring yang sudah berjalan 30 kali sejak Oktober 2026. Pembebasan pajak di muka menghilangkan satu hambatan likuiditas utama yang selama ini memperlambat merger dan akuisisi antar-BUMN, sehingga akselerasi konsolidasi kini memiliki landasan regulasi yang lebih kuat. Kombinasi insentif ini dengan realisasi laba DIM yang meleset mencerminkan tekanan ganda: negara menanggung biaya fiskal jangka pendek sementara kinerja entitas investasi belum memenuhi ekspektasi.",
+      "secondOrder": "Ketika ratusan entitas BUMN bergabung di bawah satu atap dengan insentif pajak deferral, pemerintah secara efektif menumpuk eksposur pajak yang akan jatuh tempo di masa depan pada saat portofolio Danantara sudah lebih terkonsolidasi. Bila kinerja investasi DIM tidak membaik, penerimaan pajak tertunda itu akan bertumpuk dengan kebutuhan dividen BUMN ke APBN, menciptakan tekanan fiskal berlapis pada satu titik waktu. Investor pasar modal perlu memeriksa ulang asumsi dividen BUMN dalam model valuasi, karena arus kas ke APBN bisa tertahan lebih lama dari perkiraan.",
+      "action": "Tim analis korporasi dan fiskal: pemetakan jadwal deferral pajak per entitas yang masuk konsolidasi Danantara, proyeksikan titik jatuh tempo pajak versus proyeksi laba DIM per tahun 2027-2029, dan ajukan pertanyaan langsung ke manajemen Danantara dalam forum investor terdekat mengenai kriteria pemicu pungutan pajak pasca-investasi.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://katadata.co.id/finansial/makro/6b05245ee0776/danantara-rampingkan-1000-perusahaan-jadi-300-suahasil-siapkan-insentif-pajak",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-8767201/laba-danantara-investment-cuma-rp-800-m-tak-capai-target",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOVZManFqeElmN243MnJMNDNPNUpCb2JZMVhPZ1hnVnJ2dS1CaGtSRlQwb0dQdWtnRlQ0YWpGWXVwd3VtX29kWVdYR18wMW5Dam9zcXpYVnZHeWNTNVh6MDRUXy1XT0UyTVg0dGtqTVJjV0RDaHZlVEltX2FVZ1IxV0J6QWM2T1I5MlVrcjgtOVduaWoxWUlEaWVidmdIWmVjVkNIZEs5S3F5cDhrU2h5Qkx2NFM3Snh6Qmh6SndkdE12OGQyb0ZTLVotc2RhcHJYb1VuZUIybw?oc=5",
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE96eUxieEJCTHFmc21tazdmcFFjZFg5dGNpRDJjYUxfLWE2WEZ3V2VVVUlmVHgwVWlBVlZBUk5CeERkRWxGMFVTdEVjVnpmcmd2eXE5b1dBOVJ0S1lWclgxWkFUSUNwVTNJSXExeWVZWFFEQkhXcTYzalpXX3PSAYIBQVVfeXFMTXoxYjlVa1Q1T3BKeFNuUnlickZWMUhrakVvS0ItRmVlb0hjVXFQYTk4cnd5b2hYWUp1V2k5SEdSRDVSbC1JYW9aN0FxaXBldE40MVVMYkZyNWhJazhvTmJCYlNlUE8tY2VhMFhDQVpLdUVZT3JUaUctN0N3cFFOU2hIQQ?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 4,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-25",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IEA",
+        "World Energy Outlook 2026"
+      ],
+      "headline": "IEA World Energy Outlook 2026 proyeksikan permintaan listrik global naik 37% hingga 2035, AI dan pendingin jadi pendorong utama",
+      "whatChanged": "IEA menerbitkan World Energy Outlook 2026 dengan proyeksi permintaan listrik global naik sekitar 37 persen hingga 2035. Dua pendorong utama yang diidentifikasi adalah gedung-gedung yang untuk pertama kali menggunakan lebih banyak energi untuk pendinginan daripada pemanasan, serta pusat data AI. Laporan juga mencatat krisis energi 2026 mengganggu tren permintaan global dan menegaskan manfaat efisiensi energi.",
+      "whyItMatters": "Proyeksi IEA ini memperkuat tema struktural pln-grid-investment yang sudah berjalan 27 kali. Angka 37 persen dalam sembilan tahun menetapkan lantai perencanaan bagi operator jaringan dan regulator energi di seluruh dunia, termasuk Indonesia yang sedang merevisi RUPTL. Pusat data AI sebagai pendorong eksplisit dalam dokumen IEA memperkuat urgensi keputusan investasi transmisi dan pembangkitan yang selama ini tertunda.",
+      "secondOrder": "Ketika proyeksi IEA menetapkan angka 37 persen sebagai referensi global, lembaga pembiayaan multilateral dan bank pembangunan akan mulai menggunakan angka ini sebagai benchmark dalam penilaian kelayakan proyek ketenagalistrikan. Proyek yang diajukan dengan asumsi pertumbuhan permintaan lebih rendah akan menghadapi tekanan revisi dari lender, memperpanjang proses financial close untuk proyek transmisi dan pembangkitan di negara berkembang.",
+      "action": "Tim perencanaan energi dan keuangan proyek: bandingkan proyeksi permintaan listrik dalam RUPTL Indonesia dengan angka IEA 2026, identifikasi selisih asumsi, dan siapkan sensitivitas model keuangan proyek ketenagalistrikan terhadap skenario permintaan IEA sebagai dokumen pendukung untuk negosiasi dengan lender multilateral.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZWhKSUNTR0xsYzhRM2pUdHNXOVhnNGxKTF9xWHZqRnFqQTBuclNlOXhOSGNZUURac1JEWGxhQWdJMjlyZm9QN0tsaEZQaGlvR1ZyMHJGRW45QVdwVGhBQncxY2RlVExuY2IyM1RYRWVMWXBfWTRGTTdHUUVKQmxmTGZFMzY0Zw?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYk1Nbk91b25zX0pyZEk1WVBuM3JCZmw4VmZKaS1vQXdnX096MFc3Skl3UVN2ekNNMnRmdnhjOGoyVnFnQ05FZy04VzNnX2ZaemljQnlfUHF6NUttUU0xa0pMdDhiUzdta0lCMWhZc0Z0Q0JCSFdSWWZzcEgtY3RLU3hsekwtX1V4YndYX2ZKZlc4Tkp6NnNlb2FnN0xKUVc0QlZ4QnpOQXdPWVVjSUQ2ek1vN3pfWUNKS1lHOUJ2UVo3cktvRFpz?oc=5",
+        "https://www.eco-business.com/news/global-electricity-demand-to-rise-about-37-per-cent-by-2035-with-heatwaves-and-ai-pushing-projections-higher-iea/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-25",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "IESR",
+        "KTT ASEAN ke-49"
+      ],
+      "headline": "KTT ASEAN ke-49 tetapkan pergeseran ketahanan energi ke transisi, tanpa komitmen pembiayaan konkret",
+      "whatChanged": "IESR melaporkan KTT ASEAN ke-49 menunjukkan pergeseran pendekatan ketahanan energi dari memastikan pasokan yang andal menjadi mengintegrasikan transisi energi ke dalam agenda ketahanan. Pergeseran ini tercatat dalam dokumen resmi KTT. Namun tidak ada angka pembiayaan atau mekanisme implementasi yang ditetapkan dalam pertemuan tersebut.",
+      "whyItMatters": "Ketika ASEAN secara kolektif menggeser definisi ketahanan energi, negara anggota yang masih menyusun rencana energi dengan kerangka lama (pasokan fosil sebagai fondasi ketahanan) akan menghadapi tekanan diplomatik dan pembiayaan dari mitra bilateral dan multilateral. Bagi Indonesia, pergeseran ini memperkuat urgensi kepastian regulasi transisi energi yang diidentifikasi IESR sebagai hambatan utama pengembangan PLTS.",
+      "secondOrder": "Tanpa komitmen pembiayaan konkret dari KTT ASEAN ke-49, pergeseran retorika ini kemungkinan akan dimanfaatkan oleh negara anggota yang lebih maju dalam transisi sebagai justifikasi untuk mendorong standar minimum EBT dalam perdagangan listrik lintas batas ASEAN. Ini bisa menciptakan hambatan pasar bagi listrik berbasis batu bara Indonesia dalam skema interkoneksi ASEAN Power Grid.",
+      "action": "Tim kebijakan energi dan perdagangan: telaah dokumen resmi KTT ASEAN ke-49 untuk mengidentifikasi formulasi ketahanan energi baru, petakan implikasinya terhadap posisi Indonesia dalam negosiasi ASEAN Power Grid, dan siapkan posisi Indonesia sebelum pertemuan tingkat menteri energi ASEAN berikutnya.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://iesr.or.id/ktt-asean-menetapkan-arah-baru-bagi-ketahanan-energi-namun-pelaksanaannya-akan-menjadi-ujian-sesungguhnya/"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 16,
+        "firstSeen": "2026-10-28",
+        "spanDays": 27
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "ai",
+      "themeKey": "enterprise-ai-data-privacy-contracts",
+      "entities": [
+        "Model Context Protocol",
+        "mcp-server-git",
+        "@modelcontextprotocol/server-filesystem",
+        "@modelcontextprotocol/server-fetch"
+      ],
+      "headline": "MCP v2.5.0 tambal delapan kerentanan baru; total 14 kerentanan dalam dua pekan",
+      "whatChanged": "Model Context Protocol v2.5.0 merilis perbaikan delapan kerentanan pada tiga server: mcp-server-git diperbarui ke versi 2026.11.18, @modelcontextprotocol/server-filesystem ke 2.4.0, dan @modelcontextprotocol/server-fetch ke versi terbaru. Dua pekan sebelumnya, v2.4.0 menambal enam kerentanan pada tiga server yang sama. Total 14 kerentanan diperbaiki dalam rentang dua pekan pada protokol yang menjadi fondasi konektivitas agen AI ke sistem eksternal.",
+      "whyItMatters": "Tema enterprise-ai-data-privacy-contracts mencatat pola ini sudah berjalan 11 kali sejak Oktober 2026. MCP adalah lapisan integrasi yang digunakan agen AI untuk mengakses filesystem, repositori kode, dan endpoint web. Frekuensi patch yang tinggi dalam waktu singkat mengindikasikan permukaan serangan yang belum stabil, bukan sebuah protokol yang telah matang untuk deployment produksi berskala besar. Organisasi yang sudah menerapkan MCP dalam pipeline agentic tanpa proses patch management terstruktur kini menanggung risiko keamanan yang terukur.",
+      "secondOrder": "Ritme patch dua pekan sekali pada protokol inti ini kemungkinan akan mendorong perusahaan teknologi dan vendor enterprise untuk memasukkan klausul versi minimum MCP dalam kontrak SLA layanan AI. Ini menggeser tanggung jawab keamanan dari pengguna akhir ke penyedia layanan, dan menciptakan kategori kontrak baru yang belum dipreparasi sebagian besar tim legal.",
+      "action": "Tim keamanan dan arsitektur AI: audit seluruh deployment MCP yang berjalan di lingkungan produksi minggu ini, verifikasi versi server terhadap v2.5.0, dan susun prosedur patch management dengan siklus maksimal 14 hari. Tim legal: periksa kontrak vendor AI yang ada untuk klausul versi protokol dan tambahkan persyaratan kepatuhan versi minimum dalam amandemen kontrak berikutnya.",
+      "strength": "actionable",
+      "sourceUrls": [
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+        "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "enterprise-ai-data-privacy-contracts",
+        "status": "structural",
+        "occurrences": 12,
+        "firstSeen": "2026-10-25",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Terbitnya peraturan teknis insentif pajak restrukturisasi Danantara: kriteria pemicu pungutan pajak pasca-investasi dan definisi 'menghasilkan investasi'",
+      "dueDate": "2026-12-31"
+    },
+    {
+      "item": "Rilis dokumen resmi KTT ASEAN ke-49 mengenai ketahanan energi: apakah memuat mekanisme pembiayaan atau standar minimum EBT untuk interkoneksi listrik",
+      "dueDate": "2026-12-15"
+    },
+    {
+      "item": "Keputusan PLN mengenai skema BLU batu bara pembangkit dan status divestasi aset tambang PLN EPI",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "Rilis MCP v2.6.0 atau patch berikutnya: apakah frekuensi kerentanan mereda atau berlanjut, sebagai indikator kematangan protokol untuk deployment produksi",
+      "dueDate": "2026-12-07"
+    }
+  ],
+  "sources": [
+    {
+      "title": "KTT ASEAN Menetapkan Arah Baru bagi Ketahanan Energi, namun Pelaksanaannya Akan Menjadi Ujian Sesungguhnya",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/ktt-asean-menetapkan-arah-baru-bagi-ketahanan-energi-namun-pelaksanaannya-akan-menjadi-ujian-sesungguhnya/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-23T02:57:32.000Z"
+    },
+    {
+      "title": "Danantara Rampingkan 1.000 Perusahaan Jadi 300, Suahasil Siapkan Insentif Pajak",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/makro/6b05245ee0776/danantara-rampingkan-1000-perusahaan-jadi-300-suahasil-siapkan-insentif-pajak",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-24T05:45:00.000Z"
+    },
+    {
+      "title": "Laba Danantara Investment Cuma Rp 800 M, Tak Capai Target",
+      "publisher": "detikFinance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8767201/laba-danantara-investment-cuma-rp-800-m-tak-capai-target",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-24T05:01:58.000Z"
+    },
+    {
+      "title": "v2.5.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-18T09:29:05.000Z"
+    },
+    {
+      "title": "Overview and key findings - World Energy Outlook 2026 - IEA",
+      "publisher": "IEA - International Energy Agency",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZWhKSUNTR0xsYzhRM2pUdHNXOVhnNGxKTF9xWHZqRnFqQTBuclNlOXhOSGNZUURac1JEWGxhQWdJMjlyZm9QN0tsaEZQaGlvR1ZyMHJGRW45QVdwVGhBQncxY2RlVExuY2IyM1RYRWVMWXBfWTRGTTdHUUVKQmxmTGZFMzY0Zw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-19T06:05:16.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bebas Pajak, Suahasil Baru Pungut usai Danantara Hasilkan Investasi - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOVZManFqeElmN243MnJMNDNPNUpCb2JZMVhPZ1hnVnJ2dS1CaGtSRlQwb0dQdWtnRlQ0YWpGWXVwd3VtX29kWVdYR18wMW5Dam9zcXpYVnZHeWNTNVh6MDRUXy1XT0UyTVg0dGtqTVJjV0RDaHZlVEltX2FVZ1IxV0J6QWM2T1I5MlVrcjgtOVduaWoxWUlEaWVidmdIWmVjVkNIZEs5S3F5cDhrU2h5Qkx2NFM3Snh6Qmh6SndkdE12OGQyb0ZTLVotc2RhcHJYb1VuZUIybw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-24T05:39:00.000Z"
+    },
+    {
+      "title": "v2.4.0",
+      "publisher": "Model Context Protocol",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "tier": 3,
+      "primary": false,
+      "publishedAt": "2026-11-11T07:37:43.000Z"
+    },
+    {
+      "title": "As an unprecedented shock reshapes the energy world, its duration will determine the scale of the change - IEA",
+      "publisher": "IEA - International Energy Agency",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYk1Nbk91b25zX0pyZEk1WVBuM3JCZmw4VmZKaS1vQXdnX096MFc3Skl3UVN2ekNNMnRmdnhjOGoyVnFnQ05FZy04VzNnX2ZaemljQnlfUHF6NUttUU0xa0pMdDhiUzdta0lCMWhZc0Z0Q0JCSFdSWWZzcEgtY3RLU3hsekwtX1V4YndYX2ZKZlc4Tkp6NnNlb2FnN0xKUVc0QlZ4QnpOQXdPWVVjSUQ2ek1vN3pfWUNKS1lHOUJ2UVo3cktvRFpz?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-19T05:00:00.000Z"
+    },
+    {
+      "title": "Danantara dapat insentif pajak",
+      "publisher": "ANTARA News Bali",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE96eUxieEJCTHFmc21tazdmcFFjZFg5dGNpRDJjYUxfLWE2WEZ3V2VVVUlmVHgwVWlBVlZBUk5CeERkRWxGMFVTdEVjVnpmcmd2eXE5b1dBOVJ0S1lWclgxWkFUSUNwVTNJSXExeWVZWFFEQkhXcTYzalpXX3PSAYIBQVVfeXFMTXoxYjlVa1Q1T3BKeFNuUnlickZWMUhrakVvS0ItRmVlb0hjVXFQYTk4cnd5b2hYWUp1V2k5SEdSRDVSbC1JYW9aN0FxaXBldE40MVVMYkZyNWhJazhvTmJCYlNlUE8tY2VhMFhDQVpLdUVZT3JUaUctN0N3cFFOU2hIQQ?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-24T05:32:30.000Z"
+    },
+    {
+      "title": "Global electricity demand to rise about 37 per cent by 2035, with heatwaves and AI pushing projections higher: IEA",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/global-electricity-demand-to-rise-about-37-per-cent-by-2035-with-heatwaves-and-ai-pushing-projections-higher-iea/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-19T09:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Danantara umumkan proyek 10 Kota Masa Depan USD 50 miliar, uji kelayakan emiten konstruksi BUMN",
+      "occurrences": 30,
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-11-23",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Google DeepMind luncurkan Gemini 4 Neon, dua pekan setelah Gemini 4 Hydrogen",
+      "occurrences": 28,
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-11-23",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "COP31 gagal capai kesepakatan setelah perundingan terpanjang, USD 120 miliar adaptasi tidak terkonfirmasi",
+      "occurrences": 27,
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-11-23",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Spanyol wajibkan 80% listrik EBT untuk data center, pagu investasi EUR 17,14 miliar",
+      "occurrences": 19,
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-11-22",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "IESR: Kapasitas PLTS Indonesia 1,59 GWp, kepastian regulasi dan permintaan listrik hambat percepatan",
+      "occurrences": 15,
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-11-23",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 425,
+    "poolSize": 110,
+    "generatedAt": "2026-11-24T06:00:49.027Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
