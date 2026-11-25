@@ -1,0 +1,404 @@
+{
+  "slug": "2026-11-25",
+  "date": "2026-11-25",
+  "lang": "id",
+  "title": "GPT-6 Rancang Protein, Danantara Miss Target, COP31 Tutup Tanpa Perjanjian",
+  "dek": "Tiga domain bergerak serentak: AI frontier melewati batas baru kemampuan saintifik, Danantara gagal penuhi proyeksi laba, dan COP31 Antalya tutup tanpa kesepakatan iklim global.",
+  "domains": [
+    "ai",
+    "corporate",
+    "energy"
+  ],
+  "summary": "GPT-6 menunjukkan kemampuan merancang protein secara otonomi dengan validasi laboratorium, menandai pergeseran AI dari alat bantu menjadi agen riset aktif di domain saintifik. Bersamaan, Danantara Investment Management mencatat laba 2026 hanya Rp 800 miliar dari target awal, sementara proyeksi 2027 dipatok naik 7,5 kali lipat menjadi Rp 5-6 triliun, kombinasi yang mempertajam tekanan pada kredibilitas fiskal yang sedang dibangun Kemenkeu. COP31 di Antalya tutup tanpa perjanjian iklim global, meninggalkan celah besar pada komitmen pembiayaan adaptasi dan transisi energi. Di sisi domestik, IESR dan Bloomberg Technoz melaporkan tekanan dari forum ASEAN agar Indonesia mempercepat PLTS atap seiring lonjakan permintaan listrik. Kelima sinyal ini mencerminkan periode di mana keputusan teknologi, fiskal, dan iklim saling mengunci satu sama lain.",
+  "signals": [
+    {
+      "rank": 1,
+      "domain": "ai",
+      "themeKey": "ai-model-safety-frontier",
+      "entities": [
+        "OpenAI",
+        "GPT-6"
+      ],
+      "headline": "GPT-6 rancang protein dan validasi laboratorium konfirmasi pengikatan pada lima target",
+      "whatChanged": "OpenAI mengumumkan bahwa model GPT-6 mampu merancang struktur dan sekuens protein menggunakan penalaran dan kode secara otonomi. Uji laboratorium menemukan bukti pengikatan (binding) pada lima target protein yang berbeda, bukan sekadar prediksi komputasional.",
+      "whyItMatters": "Ini adalah pertama kalinya model bahasa generasi terkini melewati validasi eksperimental basah (wet lab) untuk desain protein, bukan hanya benchmark komputasional. Pola yang terbentuk adalah pergeseran AI dari alat bantu analisis menjadi agen yang menghasilkan hipotesis dan produk saintifik yang dapat diuji. Arsip tema ai-model-safety-frontier selama 30 hari terakhir telah mencatat eskalasi kapabilitas frontier; GPT-6 protein design menambah dimensi baru: risiko dual-use di domain biologi.",
+      "secondOrder": "Kemampuan desain protein yang tervalidasi laboratorium akan menekan timeline regulasi biosafety secara global, karena barrier akses ke rekayasa protein kini turun drastis. Lembaga riset farmasi dan bioteknologi yang belum memiliki kebijakan penggunaan AI generatif di pipeline penemuan obat akan menghadapi risiko ketertinggalan kompetitif sekaligus paparan liabilitas regulasi jika mereka mengadopsi tanpa protokol keamanan yang memadai.",
+      "action": "Tim riset dan hukum di perusahaan farmasi atau bioteknologi perlu memetakan posisi regulasi biosafety yang berlaku (FDA, BPOM, EMA) terhadap output AI-generated protein sequences minggu ini, lalu tentukan apakah pipeline discovery existing memerlukan amandemen protokol sebelum mengintegrasikan GPT-6 atau model setara.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 1,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "ai-model-safety-frontier",
+        "status": "structural",
+        "occurrences": 29,
+        "firstSeen": "2026-10-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 2,
+      "domain": "corporate",
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "entities": [
+        "Danantara Investment Management",
+        "DIM"
+      ],
+      "headline": "Danantara Investment Management catat laba 2026 Rp 800 M, jauh di bawah target; proyeksi 2027 dipatok Rp 5-6 triliun",
+      "whatChanged": "Danantara memangkas proyeksi laba PT Danantara Investment Management (DIM) untuk 2026 menjadi Rp 800 miliar, turun signifikan dari target semula, dengan tekanan IHSG disebut sebagai faktor utama. Secara bersamaan, DIM menargetkan laba bersih Rp 5-6 triliun pada 2027, kenaikan 7,5 kali lipat dari realisasi 2026.",
+      "whyItMatters": "Tema danantara-bumn-karya-restructuring telah berjalan 30 hari dengan 30 kemunculan di arsip; miss target laba 2026 ini adalah uji pertama yang bersifat kuantitatif terhadap narasi konsolidasi BUMN. Kemenkeu bersamaan menyatakan target pertumbuhan 6% pada 2027 dengan mengandalkan sinergi Danantara, sehingga gap antara realisasi dan proyeksi menciptakan tekanan pada kredibilitas fiskal yang sedang dibangun.",
+      "secondOrder": "Kesenjangan antara realisasi Rp 800 miliar dan target Rp 5-6 triliun mensyaratkan lonjakan 7,5 kali dalam satu tahun. Jika target ini tidak tercapai, insentif pajak yang telah diberikan untuk restrukturisasi BUMN (pembebasan pajak di muka yang tercatat di arsip) akan kehilangan justifikasi fiskal formalnya, membuka celah bagi kritik legislatif terhadap seluruh kerangka restrukturisasi.",
+      "action": "Analis yang mengikuti fiskal Indonesia perlu membangun model sensitivitas: pada tingkat IHSG berapa target laba DIM 2027 Rp 5-6 triliun dapat terpenuhi, dan bandingkan dengan asumsi makro Kemenkeu untuk pertumbuhan 6%. Output model ini menjadi bahan pertanyaan konkret ke manajemen DIM saat laporan keuangan resmi dirilis.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://katadata.co.id/finansial/korporasi/6b063dd9e93ca/laba-danantara-investment-management-ditargetkan-naik-7-5-kali-lipat-jadi-rp-6-t",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV1poNTFJVmZDbDVWeVNvVllvanUtbk5EZHJJQ25yT29KY3lHOVNhNUt3dUtyZkI0bEZHMXN3enBVaFBsWXNnS3lpRzhfcjk3S01VYndrelU4UVRuTkRoZ19GZUdzNWdFVnZFWm1RRGNMbFdTVFZYZkJTY3QtM0Q5VU9vOUtBM19wb0lyY3BBMVVSbVAwZ3ExdHNDNi1hRldKS0JDc1BBQUN3ejEzZVFSNmIwTDU0d0M2SUdZVnVZYjFBa0tlUXc?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc1JYWS1JZW9RWDcwMEMta0Z1bDV2d0ZadndHZ2t5N2xoUHJKdk5Bb3pUVldIclEtSF8wdVphNmJZZnd5ZFc5N1FkTE9xMUV3MWdFWmVGblNVQml2R09KMDhJTHU0N1U2SHhPLVZhcXc5b19CeVBmWUNFRk85YmktQ01qMXVtNU9fQTdKSXVwUHZzNHd0VFRzTXc0LUFTb3Q0N3Z1MGJpMDZQTlBxYVdKNHhkSzfSAboBQVVfeXFMTWF4SnBkNUlUdDlVTTdpbHQ1RVRDNUsySVF5ZlhIWGx0UUJWX0l0T3llQ1NDMV93RHJKbUdKck1QU2l1RmU1LWF2UTMzOU9rLUk5NDlwMC1XckFfRkJMaXlkVkRubE00TVdUZ2tyVHAzSjRXTXY4a28zbTVIRk1CajcxMGxQaUNFV3lJRFFqaG9YYUs2LW96MHFlVEdkR243WjZUejRJWTY0NEtPR2dfY096WlJFSWJIV2tB?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkw4TDBkbEVya1ZISFZJM2tneTkyN1lMR2V2UmVKYXRUdmpkbFdkUnhpcVFkV2F3bG1DeTltRXNTTm10MDJtR2RxY2lET25ndWtNU0pVc01CZ0xRY19qVHBkdU9OTUZXWW85QmhoMHFWZVpxUm1ETjFiX2dvZlVILXpWX29oRVNSNnVIWTlTZEoyQzlQUl9CbnE1emYxT1FXOVJtbzRoWjRORGd2?oc=5",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOVZManFqeElmN243MnJMNDNPNUpCb2JZMVhPZ1hnVnJ2dS1CaGtSRlQwb0dQdWtnRlQ0YWpGWXVwd3VtX29kWVdYR18wMW5Dam9zcXpYVnZHeWNTNVh6MDRUXy1XT0UyTVg0dGtqTVJjV0RDaHZlVEltX2FVZ1IxV0J6QWM2T1I5MlVrcjgtOVduaWoxWUlEaWVidmdIWmVjVkNIZEs5S3F5cDhrU2h5Qkx2NFM3Snh6Qmh6SndkdE12OGQyb0ZTLVotc2RhcHJYb1VuZUIybw?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 5,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "danantara-bumn-karya-restructuring",
+        "status": "structural",
+        "occurrences": 31,
+        "firstSeen": "2026-10-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 3,
+      "domain": "energy",
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "entities": [
+        "COP31",
+        "Carbon Brief",
+        "ASEAN"
+      ],
+      "headline": "COP31 Antalya tutup tanpa perjanjian iklim global, pembiayaan adaptasi dan transisi energi tanpa komitmen angka",
+      "whatChanged": "COP31 di Antalya, Turki ditutup tanpa kesepakatan atas perjanjian iklim yang dinegosiasikan. Teks akhir gagal memuat referensi eksplisit ke angka pembiayaan adaptasi USD 120 miliar yang sebelumnya ada di draf, dan tidak menghasilkan komitmen baru yang mengikat untuk transisi energi. Carbon Brief melaporkan bahwa perjanjian untuk sektor pangan, hutan, dan alam juga tidak tercapai.",
+      "whyItMatters": "Tema indonesia-geothermal-concession-reform di arsip mencatat bahwa KTT ASEAN ke-49 sebelumnya sudah mengeluarkan pergeseran ketahanan energi tanpa komitmen pembiayaan. Kegagalan COP31 memperpanjang kekosongan itu ke level global. Tanpa angka pembiayaan adaptasi yang mengikat, negara berkembang termasuk Indonesia tidak memiliki basis untuk mengkalibrasi kecepatan transisi energi ke sumber eksternal.",
+      "secondOrder": "Ketiadaan komitmen pembiayaan COP31 akan mendorong bank-bank Asia untuk mengandalkan kerangka transisi keuangan domestik dan bilateral, bukan multilateral. Ini memperkuat kecenderungan yang dilaporkan Eco-Business bahwa transition finance akan bergerak melampaui label dan menuju struktur bilateral yang lebih pragmatis, namun tanpa standardisasi global yang memadai, risiko greenwashing meningkat dan due diligence investor menjadi lebih berat.",
+      "action": "Tim pembiayaan transisi energi perlu merevisi asumsi timeline proyek yang bergantung pada komitmen multilateral COP31 (misalnya JETP Indonesia), dan identifikasi jalur bilateral atau pasar modal domestik mana yang dapat menggantikan dalam horizon 12 bulan. Fokus pada klausul force majeure dan review point dalam perjanjian pembiayaan yang mengacu pada target COP.",
+      "strength": "material",
+      "sourceUrls": [
+        "https://www.carbonbrief.org/cb-live-carbon-brief-journalists-discuss-key-cop31-outcomes",
+        "https://www.carbonbrief.org/cop31-key-outcomes-for-food-forests-oceans-and-nature-at-the-un-climate-talks-in-antalya",
+        "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya",
+        "https://www.eco-business.com/news/cop31-draft-retains-adaptation-finance-pledge-but-leaves-vulnerable-countries-without-a-clear-funding-figure/"
+      ],
+      "secondOrderUrls": [
+        "https://www.eco-business.com/news/transition-finance-will-outgrow-its-labelling-problem/"
+      ],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "indonesia-geothermal-concession-reform",
+        "status": "structural",
+        "occurrences": 17,
+        "firstSeen": "2026-10-28",
+        "spanDays": 28
+      }
+    },
+    {
+      "rank": 4,
+      "domain": "energy",
+      "themeKey": "pln-grid-investment",
+      "entities": [
+        "IESR",
+        "PLN",
+        "ASEAN",
+        "Bloomberg Technoz"
+      ],
+      "headline": "IESR dan ASEAN dorong percepatan PLTS atap Indonesia di tengah lonjakan permintaan listrik",
+      "whatChanged": "IESR pada 23-24 November 2026 menerbitkan dua laporan yang menyatakan fleksibilitas sistem ketenagalistrikan adalah kunci integrasi energi terbarukan, dan ambisi 100 GWp membutuhkan reformasi kebijakan serta pembiayaan. Bloomberg Technoz melaporkan bahwa forum ASEAN mendorong Indonesia untuk mempercepat PLTS atap seiring lonjakan permintaan listrik.",
+      "whyItMatters": "Tema pln-grid-investment telah berjalan 27 kali di arsip, dengan latar IEA World Energy Outlook 2026 yang memproyeksikan kenaikan permintaan listrik global 37% hingga 2035. IESR secara eksplisit mengidentifikasi bahwa sistem kelistrikan Indonesia dibangun untuk pembangkit fosil, bukan untuk integrasi variabel EBT, sehingga skalabilitas 100 GWp surya bergantung pada reformasi arsitektur grid, bukan hanya penambahan kapasitas pembangkit.",
+      "secondOrder": "Tekanan ASEAN untuk mempercepat PLTS atap tanpa terlebih dahulu menyelesaikan reformasi fleksibilitas grid dapat menciptakan bottleneck di sisi distribusi: inverter surya residensial dalam jumlah besar yang terkoneksi ke grid yang belum fleksibel akan meningkatkan frekuensi tripping dan menurunkan keandalan sistem. PLN akan menghadapi tekanan biaya operasional tambahan untuk manajemen beban di luar rencana RUPTL.",
+      "action": "Evaluasi apakah proposal PLTS atap yang sedang diproses oleh pengembang atau offtaker sudah memperhitungkan biaya koneksi grid dan kapasitas fleksibilitas jaringan distribusi setempat, bukan hanya harga modul dan LCOE. Minta PLN atau operator wilayah untuk memberikan data hosting capacity per gardu induk sebelum mengkomit investasi PLTS atap skala komersial.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://iesr.or.id/fleksibilitas-sistem-ketenagalistrikan-menjadi-kunci-integrasi-energi-terbarukan/",
+        "https://iesr.or.id/ambisi-100-gwp-perlu-diikuti-reformasi-kebijakan-dan-pembiayaan-transisi-energi/",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcnRtT19vbVhTcldJdHF5YXhUSkIxZjlJT25GMkdsRFBOVFFicXhoYzdmbUs4UUcweVhJU0gyc1hpanZBMkdieV9UVGhyRzNoaUloWU9Eem9vTTVGS2luXzdMZklaaENfaTVDUVUyR1ZIZXFITG1oNC1RdzdySGUzdlNwUU14TG5VeEhRTV9HMGhtZkdtcU1vdGxXNWlSNEdUczFvWGhZNjB0NDFQVWFB?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdkFYQ2M4WnpuaXFpTS1HRHZEMklaaUhaV2RQdjZlWkhHbGNfTmw0aU9LX3NTTm5LZ0NGVHVaSGQ2YjdkSmtLZzVXNXJTZWlBUzBKQkhtb0dobTd6SU45WmZOWE4tTm4xTENrdjZKSzRzY29hT203cmVXejIzT3luSldZY1F4NWhVM0ZGYWpHWEhrd0ZtV3U5VmxkRHFWSjVnbXdKTFFIT0otRzQxMXF3cFUyTzZnZWM?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 3,
+        "hasPrimary": true
+      },
+      "trend": {
+        "themeKey": "pln-grid-investment",
+        "status": "structural",
+        "occurrences": 28,
+        "firstSeen": "2026-10-26",
+        "spanDays": 30
+      }
+    },
+    {
+      "rank": 5,
+      "domain": "ai",
+      "themeKey": "nuclear-ai-datacenter-power",
+      "entities": [
+        "Bloomberg",
+        "MIT Technology Review"
+      ],
+      "headline": "Bank mulai menerapkan scrutiny khusus pada klien data center terkait chip AI dan risiko konsentrasi",
+      "whatChanged": "Bloomberg melaporkan bahwa bank-bank kini menempatkan klien data center di bawah pemeriksaan intensif terkait ketergantungan pada chip AI tertentu, dengan fokus pada risiko konsentrasi vendor dan eksposur terhadap pembatasan ekspor chip. MIT Technology Review pada 24 November 2026 juga melaporkan tren data center yang membangun pembangkit gas alam sendiri untuk mengamankan pasokan listrik.",
+      "whyItMatters": "Tema nuclear-ai-datacenter-power di arsip mencatat Spanyol sudah mewajibkan 80% EBT untuk data center dengan pagu investasi EUR 17,14 miliar. Pemeriksaan perbankan yang meningkat menunjukkan bahwa risiko chip dan risiko energi data center kini dinilai secara bersamaan oleh lender, bukan secara terpisah. Ini melanjutkan pola yang tercatat di arsip bahwa infrastruktur AI bergerak ke struktur project finance.",
+      "secondOrder": "Jika bank menerapkan standar scrutiny chip AI sebagai kondisi kredit, pengembang data center yang bergantung pada satu vendor chip (misalnya Nvidia H-series) akan menghadapi biaya modal lebih tinggi atau covenant tambahan. Data center yang sudah berkomitmen ke offtaker cloud besar namun belum mengamankan diversifikasi chip akan berada di posisi negosiasi yang lemah saat refinancing.",
+      "action": "Tim treasury dan risk perusahaan yang sedang membiayai atau merefi data center perlu mempersiapkan dokumentasi diversifikasi chip (lebih dari satu vendor atau generasi) dan rencana pasokan listrik (termasuk kontrak EBT atau on-site generation) sebelum mengajukan fasilitas kredit baru. Periksa apakah covenant dalam fasilitas yang ada sudah mengandung klausul konsentrasi vendor teknologi.",
+      "strength": "emerging",
+      "sourceUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxORUJzZHdsdUt1VDhNT2xRY1VSX3VQZFpET1NKVHlyNlF3V0FvbENTYkt4akxXbElMOENpZ0xwNEtJTkIyTnIxV0MzU2xjVWUwRm5qVUJvbE1Gc25rRk1fOWtCX1NtYU5qZ1VVdTF1c2hlbmwzWDgwQ0RrMUlJR0sxTEJleU1Gd3JtOXNOWHd2UkZBUV83RkwybnhLWlpjQzdhOTNxY2xqdk9lR2paWTVZRVF6YkZoYWxVV0dSaFB0OA?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUEwxbFI5aGt1bmZxcWUwamFGeFZjODJTbzUzdHVjYUdKTzZGNkZvNHNJT1lCMl9JTUNYcHI0cFREbFlhWU05aWk1TW02VXUxM090UmF4bThwM084ODRadUstWTZwcmE1ZGYxSXpiWDNFUWc4SnZZMHVaUThkWUhnWG14WdIBiAFBVV95cUxPR2llV2tYT0pWTE1WUDhZNG5MU3dSSXJJbUZod3BBNlZ4UEpzOTh5YXE2UEM0aGtVV0JydUdsWU5DR1d2ZmxyaEZveVRNTTFNdHBTTERoeU5FZVNjZkdNczZhbmpUN0lSc1AxeHk5bmdqRWlveUdlZEJIX1lYTk93ZDl6UmlZRkRy?oc=5"
+      ],
+      "secondOrderUrls": [],
+      "corroboration": {
+        "publishers": 2,
+        "hasPrimary": false
+      },
+      "trend": {
+        "themeKey": "nuclear-ai-datacenter-power",
+        "status": "structural",
+        "occurrences": 19,
+        "firstSeen": "2026-10-26",
+        "spanDays": 30
+      }
+    }
+  ],
+  "watchNext": [
+    {
+      "item": "Laporan keuangan resmi Danantara Investment Management yang dijadwalkan rilis 24 November 2026: verifikasi angka laba Rp 800 miliar dan metodologi penilaian portofolio.",
+      "dueDate": "2026-11-28"
+    },
+    {
+      "item": "Tindak lanjut regulasi biosafety dari FDA, EMA, atau BPOM terhadap penggunaan GPT-6 atau model setara dalam pipeline penemuan protein dan obat.",
+      "dueDate": "2027-02-28"
+    },
+    {
+      "item": "Perkembangan negosiasi JETP Indonesia pasca-kegagalan COP31: apakah timeline dan angka pembiayaan direvisi oleh mitra bilateral.",
+      "dueDate": "2027-01-31"
+    },
+    {
+      "item": "Regulasi PLTS atap Indonesia yang baru dari Kementerian ESDM atau PLN: apakah hosting capacity grid distribusi menjadi persyaratan koneksi.",
+      "dueDate": "2027-03-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "CB Live: Carbon Brief journalists discuss key COP31 outcomes",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/cb-live-carbon-brief-journalists-discuss-key-cop31-outcomes",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-24T17:06:20.000Z"
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-24T13:00:00.000Z"
+    },
+    {
+      "title": "COP31: Key outcomes for food, forests, oceans and nature at the UN climate talks in Antalya",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/cop31-key-outcomes-for-food-forests-oceans-and-nature-at-the-un-climate-talks-in-antalya",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-24T16:33:18.000Z"
+    },
+    {
+      "title": "Fleksibilitas Sistem Ketenagalistrikan Menjadi Kunci Integrasi Energi Terbarukan",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/fleksibilitas-sistem-ketenagalistrikan-menjadi-kunci-integrasi-energi-terbarukan/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-24T06:53:54.000Z"
+    },
+    {
+      "title": "COP31: Key outcomes agreed at the UN climate talks in Antalya",
+      "publisher": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-23T16:15:51.000Z"
+    },
+    {
+      "title": "Ambisi 100 GWp Perlu Diikuti Reformasi Kebijakan dan Pembiayaan Transisi Energi",
+      "publisher": "IESR",
+      "url": "https://iesr.or.id/ambisi-100-gwp-perlu-diikuti-reformasi-kebijakan-dan-pembiayaan-transisi-energi/",
+      "tier": 1,
+      "primary": true,
+      "publishedAt": "2026-11-23T07:02:09.000Z"
+    },
+    {
+      "title": "Dorong Pertumbuhan 6% di 2027, Kemenkeu Perkuat Kredibilitas Fiskal dan Sinergi Danantara",
+      "publisher": "Kementerian Keuangan",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkw4TDBkbEVya1ZISFZJM2tneTkyN1lMR2V2UmVKYXRUdmpkbFdkUnhpcVFkV2F3bG1DeTltRXNTTm10MDJtR2RxY2lET25ndWtNU0pVc01CZ0xRY19qVHBkdU9OTUZXWW85QmhoMHFWZVpxUm1ETjFiX2dvZlVILXpWX29oRVNSNnVIWTlTZEoyQzlQUl9CbnE1emYxT1FXOVJtbzRoWjRORGd2?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": true,
+      "publishedAt": "2026-11-24T07:30:00.000Z"
+    },
+    {
+      "title": "Restrukturisasi BUMN Bebas Pajak, Suahasil Baru Pungut usai Danantara Hasilkan Investasi - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOVZManFqeElmN243MnJMNDNPNUpCb2JZMVhPZ1hnVnJ2dS1CaGtSRlQwb0dQdWtnRlQ0YWpGWXVwd3VtX29kWVdYR18wMW5Dam9zcXpYVnZHeWNTNVh6MDRUXy1XT0UyTVg0dGtqTVJjV0RDaHZlVEltX2FVZ1IxV0J6QWM2T1I5MlVrcjgtOVduaWoxWUlEaWVidmdIWmVjVkNIZEs5S3F5cDhrU2h5Qkx2NFM3Snh6Qmh6SndkdE12OGQyb0ZTLVotc2RhcHJYb1VuZUIybw?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-24T05:39:00.000Z"
+    },
+    {
+      "title": "Transition finance will outgrow its labelling problem",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/transition-finance-will-outgrow-its-labelling-problem/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-25T01:55:00.000Z"
+    },
+    {
+      "title": "Laba Danantara Investment Management Ditargetkan Naik 7,5 Kali Lipat Jadi Rp 6 T",
+      "publisher": "Katadata",
+      "url": "https://katadata.co.id/finansial/korporasi/6b063dd9e93ca/laba-danantara-investment-management-ditargetkan-naik-7-5-kali-lipat-jadi-rp-6-t",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-25T01:46:00.000Z"
+    },
+    {
+      "title": "Banks Put Data Center Clients Under the Microscope on AI Chips",
+      "publisher": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORUJzZHdsdUt1VDhNT2xRY1VSX3VQZFpET1NKVHlyNlF3V0FvbENTYkt4akxXbElMOENpZ0xwNEtJTkIyTnIxV0MzU2xjVWUwRm5qVUJvbE1Gc25rRk1fOWtCX1NtYU5qZ1VVdTF1c2hlbmwzWDgwQ0RrMUlJR0sxTEJleU1Gd3JtOXNOWHd2UkZBUV83RkwybnhLWlpjQzdhOTNxY2xqdk9lR2paWTVZRVF6YkZoYWxVV0dSaFB0OA?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-25T01:09:00.000Z"
+    },
+    {
+      "title": "Danantara Pangkas Proyeksi Laba DIM 2026 Jadi Rp 800 Miliar Imbas Tekanan IHSG",
+      "publisher": "republika.co.id",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV1poNTFJVmZDbDVWeVNvVllvanUtbk5EZHJJQ25yT29KY3lHOVNhNUt3dUtyZkI0bEZHMXN3enBVaFBsWXNnS3lpRzhfcjk3S01VYndrelU4UVRuTkRoZ19GZUdzNWdFVnZFWm1RRGNMbFdTVFZYZkJTY3QtM0Q5VU9vOUtBM19wb0lyY3BBMVVSbVAwZ3ExdHNDNi1hRldKS0JDc1BBQUN3ejEzZVFSNmIwTDU0d0M2SUdZVnVZYjFBa0tlUXc?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-25T00:37:25.000Z"
+    },
+    {
+      "title": "Permintaan Listrik Naik, Asean Dorong RI Masifkan PLTS Atap",
+      "publisher": "Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcnRtT19vbVhTcldJdHF5YXhUSkIxZjlJT25GMkdsRFBOVFFicXhoYzdmbUs4UUcweVhJU0gyc1hpanZBMkdieV9UVGhyRzNoaUloWU9Eem9vTTVGS2luXzdMZklaaENfaTVDUVUyR1ZIZXFITG1oNC1RdzdySGUzdlNwUU14TG5VeEhRTV9HMGhtZkdtcU1vdGxXNWlSNEdUczFvWGhZNjB0NDFQVWFB?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-25T01:40:00.000Z"
+    },
+    {
+      "title": "Kebutuhan Listrik Melonjak, RI Perlu Kebut Pengembangan PLTS Atap - Bisnis.com",
+      "publisher": "Bisnis.com - Ekonomi",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdkFYQ2M4WnpuaXFpTS1HRHZEMklaaUhaV2RQdjZlWkhHbGNfTmw0aU9LX3NTTm5LZ0NGVHVaSGQ2YjdkSmtLZzVXNXJTZWlBUzBKQkhtb0dobTd6SU45WmZOWE4tTm4xTENrdjZKSzRzY29hT203cmVXejIzT3luSldZY1F4NWhVM0ZGYWpHWEhrd0ZtV3U5VmxkRHFWSjVnbXdKTFFIT0otRzQxMXF3cFUyTzZnZWM?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-24T17:52:54.000Z"
+    },
+    {
+      "title": "Laba Danantara Investment Cuma Rp 800 M, Tak Capai Target",
+      "publisher": "detikFinance",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc1JYWS1JZW9RWDcwMEMta0Z1bDV2d0ZadndHZ2t5N2xoUHJKdk5Bb3pUVldIclEtSF8wdVphNmJZZnd5ZFc5N1FkTE9xMUV3MWdFWmVGblNVQml2R09KMDhJTHU0N1U2SHhPLVZhcXc5b19CeVBmWUNFRk85YmktQ01qMXVtNU9fQTdKSXVwUHZzNHd0VFRzTXc0LUFTb3Q0N3Z1MGJpMDZQTlBxYVdKNHhkSzfSAboBQVVfeXFMTWF4SnBkNUlUdDlVTTdpbHQ1RVRDNUsySVF5ZlhIWGx0UUJWX0l0T3llQ1NDMV93RHJKbUdKck1QU2l1RmU1LWF2UTMzOU9rLUk5NDlwMC1XckFfRkJMaXlkVkRubE00TVdUZ2tyVHAzSjRXTXY4a28zbTVIRk1CajcxMGxQaUNFV3lJRFFqaG9YYUs2LW96MHFlVEdkR243WjZUejRJWTY0NEtPR2dfY096WlJFSWJIV2tB?oc=5",
+      "tier": 1,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-24T05:01:58.000Z"
+    },
+    {
+      "title": "COP31 draft retains adaptation finance pledge but leaves vulnerable countries without a clear funding figure",
+      "publisher": "Eco-Business",
+      "url": "https://www.eco-business.com/news/cop31-draft-retains-adaptation-finance-pledge-but-leaves-vulnerable-countries-without-a-clear-funding-figure/",
+      "tier": 2,
+      "primary": false,
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "title": "Data centers are getting their own natural gas power plants",
+      "publisher": "MIT Technology Review",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUEwxbFI5aGt1bmZxcWUwamFGeFZjODJTbzUzdHVjYUdKTzZGNkZvNHNJT1lCMl9JTUNYcHI0cFREbFlhWU05aWk1TW02VXUxM090UmF4bThwM084ODRadUstWTZwcmE1ZGYxSXpiWDNFUWc4SnZZMHVaUThkWUhnWG14WdIBiAFBVV95cUxPR2llV2tYT0pWTE1WUDhZNG5MU3dSSXJJbUZod3BBNlZ4UEpzOTh5YXE2UEM0aGtVV0JydUdsWU5DR1d2ZmxyaEZveVRNTTFNdHBTTERoeU5FZVNjZkdNczZhbmpUN0lSc1AxeHk5bmdqRWlveUdlZEJIX1lYTk93ZDl6UmlZRkRy?oc=5",
+      "tier": 2,
+      "via": "Google News",
+      "primary": false,
+      "publishedAt": "2026-11-24T11:00:00.000Z"
+    }
+  ],
+  "trends": [
+    {
+      "themeKey": "danantara-bumn-karya-restructuring",
+      "theme": "Pemerintah bebaskan pajak di muka untuk restrukturisasi Danantara, konsolidasi 1.000 ke 300 entitas",
+      "occurrences": 30,
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-11-24",
+      "status": "structural",
+      "domain": "corporate"
+    },
+    {
+      "themeKey": "ai-model-safety-frontier",
+      "theme": "Peer-reviewed paper finds reward hacking spreads causally across AI agent swarms, not just within individual models",
+      "occurrences": 28,
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-11-24",
+      "status": "structural",
+      "domain": "ai"
+    },
+    {
+      "themeKey": "pln-grid-investment",
+      "theme": "IEA World Energy Outlook 2026 proyeksikan permintaan listrik global naik 37% hingga 2035, AI dan pendingin jadi pendorong utama",
+      "occurrences": 27,
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-11-24",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "nuclear-ai-datacenter-power",
+      "theme": "Spanyol wajibkan 80% listrik EBT untuk data center, pagu investasi EUR 17,14 miliar",
+      "occurrences": 18,
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-11-22",
+      "status": "structural",
+      "domain": "energy"
+    },
+    {
+      "themeKey": "indonesia-geothermal-concession-reform",
+      "theme": "KTT ASEAN ke-49 tetapkan pergeseran ketahanan energi ke transisi, tanpa komitmen pembiayaan konkret",
+      "occurrences": 16,
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-11-24",
+      "status": "structural",
+      "domain": "energy"
+    }
+  ],
+  "meta": {
+    "tierCounts": {
+      "1": 15,
+      "2": 14,
+      "3": 9
+    },
+    "candidateCount": 402,
+    "poolSize": 110,
+    "generatedAt": "2026-11-25T02:23:05.301Z",
+    "engineVersion": "2.1.0",
+    "model": "anthropic-claude-sonnet-4-6"
+  }
+}
